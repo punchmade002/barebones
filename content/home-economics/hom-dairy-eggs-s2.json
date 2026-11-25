@@ -6,85 +6,105 @@
   "notes": [
     {
       "h": "Why milk is processed",
-      "b": "Raw milk spoils quickly and can carry pathogenic bacteria, so manufacturers heat-treat and package it to extend its shelf life.",
+      "b": "Raw milk is a perfect home for bacteria, so it spoils within days and can carry disease-causing bacteria. Manufacturers heat-treat and package it so that it is safe and keeps longer.",
       "points": [
-        "Heat treatment destroys pathogenic bacteria and most spoilage bacteria.",
-        "Refrigeration slows bacterial growth but does not destroy bacteria.",
-        "Every heat treatment causes some loss of heat-sensitive vitamins, so the process chosen balances safety, shelf life and nutrient loss."
-      ]
+        "Raw milk contains water, lactose (milk sugar) and protein at a neutral pH, which is exactly what bacteria need to grow, so it spoils quickly. It can also carry pathogenic (disease-causing) bacteria such as tuberculosis bacteria, Salmonella, Listeria and E. coli.",
+        "Heat treatment destroys pathogenic bacteria and most spoilage bacteria, which makes milk safe to drink and extends its shelf life.",
+        "Refrigeration slows bacterial growth but does not destroy bacteria, because bacteria grow fastest in warm, moist conditions and only slow down in the cold. This is why heat treatment is needed as well.",
+        "Every heat treatment causes some loss of heat-sensitive vitamins (thiamine B1, B12, folate and vitamin C). The more severe the heat, the greater the vitamin loss and the more the flavour changes, so the process chosen balances safety, shelf life and nutrient loss."
+      ],
+      "tip": "Questions on milk processing reward a comparison. For each process give what is destroyed, how long the milk keeps and what the heat costs in vitamins and flavour."
     },
     {
       "h": "Pasteurisation",
+      "b": "Pasteurisation is the gentlest of the heat treatments. It makes milk safe to drink while leaving its taste, colour and most nutrients almost unchanged, but it does not make the milk sterile.",
       "points": [
-        "Milk is heated to 72 to 75°C for 15 to 25 seconds.",
-        "It is then cooled rapidly to below 10°C and packaged.",
-        "Effect: pathogenic bacteria and most spoilage bacteria are destroyed.",
-        "Nutritive effect: some thiamine (B1) and vitamin C are lost.",
-        "Pasteurised milk must be kept refrigerated, and its shelf life is short compared with UHT milk."
-      ]
+        "Milk is heated to 72 to 75°C for 15 to 25 seconds, usually in a heat exchanger (a set of plates) as a continuous flow.",
+        "It is then cooled rapidly to below 10°C and packaged. Rapid cooling stops any surviving bacteria from multiplying.",
+        "Effect on safety: pathogenic bacteria and most spoilage bacteria are destroyed, but not all, and not bacterial spores (tough resting forms). The milk is therefore not sterile.",
+        "Nutritive effect: a small amount of thiamine (B1) and vitamin C is lost, while taste, colour and the other nutrients are little changed.",
+        "Because some bacteria survive, pasteurised milk keeps for only a few days. It must be kept refrigerated, and once opened it should be used within a few days. Its shelf life is short compared with UHT milk.",
+        "Pasteurisation is also needed for milk that will be made into cream, yoghurt and cheese."
+      ],
+      "tip": "If you are asked to describe one process in full, pasteurisation is a safe choice. Give 72 to 75°C for 15 to 25 seconds, cooling to below 10°C, a named container, the label contents, and the losses of B1 and C. Note that homogenisation comes first in production."
     },
     {
       "h": "Sterilisation",
+      "b": "Sterilisation uses stronger heat for longer than pasteurisation, and the heating is done inside the sealed container. The result is milk that keeps for months but tastes different.",
       "points": [
-        "Milk is heated to a higher temperature for longer than in pasteurisation, in sealed containers.",
-        "Effect: all bacteria and their spores are destroyed, so the milk is safer and keeps for several months.",
-        "Nutritive effect: some thiamine is lost.",
-        "Flavour is altered by the stronger heat, giving a cooked taste."
-      ]
+        "The milk is homogenised, filled into bottles, sealed and then heated in the sealed bottle to about 110 to 120°C for about 20 to 30 minutes (approximate figures), then cooled. This is a higher temperature for longer than in pasteurisation.",
+        "Effect on safety: all bacteria and their spores are destroyed, so the milk is sterile and safer, and keeps for several months unopened without refrigeration. Once opened it must be refrigerated.",
+        "Nutritive effect: more vitamin is lost than in pasteurisation, including thiamine, vitamin C and some other B vitamins, because the heating is long.",
+        "Flavour is altered by the stronger heat, giving a creamy colour and a cooked, caramelised taste."
+      ],
+      "tip": "Do not confuse sterilisation with UHT. Sterilisation is heating in the sealed bottle, for a long time, at a high temperature, giving a cooked flavour. If asked what sterilisation does, say it kills all bacteria so the milk keeps for months."
     },
     {
       "h": "Ultra-heat treatment (UHT)",
+      "b": "UHT heats milk to a very high temperature for only a moment. Because the heating is so short, the milk is made sterile with less damage to flavour and vitamins than in-bottle sterilisation.",
       "points": [
-        "Milk is heated to approximately 132°C for 1 to 3 seconds, then cooled rapidly.",
-        "It is packed aseptically into sterile, airtight cartons.",
-        "Effect: pathogenic and spoilage micro-organisms are destroyed, giving commercially sterile milk.",
-        "Unopened UHT milk keeps for several months without refrigeration; once opened it must be refrigerated.",
-        "Nutritive effect: some loss of heat-sensitive B group vitamins and vitamin C.",
-        "There may be a slight cooked flavour."
-      ]
+        "Milk is heated to approximately 132°C for 1 to 3 seconds, by steam injection or in a heat exchanger, then cooled rapidly.",
+        "It is then packed aseptically, which means into sterile, airtight cartons in sterile conditions, so that no bacteria can get back in.",
+        "Effect: all bacteria are destroyed, giving commercially sterile milk (pathogenic and spoilage micro-organisms are both destroyed).",
+        "Unopened UHT milk keeps for several months without refrigeration. Once opened it must be refrigerated and used within a few days.",
+        "Nutritive effect: some loss of heat-sensitive B group vitamins and vitamin C. The loss is less than in in-bottle sterilisation because the heating time is so short.",
+        "There may be a slight cooked flavour, which is the main disadvantage.",
+        "Advantages: long unopened shelf life, no refrigeration needed in the shop or the cupboard, and convenience for travel, holidays and emergencies."
+      ],
+      "tip": "Higher Level repeatedly asks for UHT in a table. Give 132°C, 1 to 3 seconds, and an effect such as all bacteria destroyed with a long unopened shelf life, or a slight flavour change with a small vitamin loss. UHT is commercially sterile, whereas pasteurisation is the one that leaves some bacteria and all spores. Use the word aseptic only for UHT packing, never for pasteurised milk."
     },
     {
       "h": "Homogenisation",
+      "b": "Fat in raw milk floats to the top as cream. Homogenisation changes the texture and appearance of the milk, but it does not make the milk safe.",
       "points": [
-        "Fat globules are broken into smaller particles and distributed evenly through the milk.",
-        "Even distribution stops cream rising to the surface, so the milk stays uniform.",
-        "The milk is creamier in texture.",
+        "Milk is forced at high pressure through a very small opening, which breaks the fat globules into much smaller particles that are distributed evenly through the milk.",
+        "Even distribution stops the cream rising to the surface, so there is no cream line and the milk stays uniform.",
+        "The milk looks whiter and is creamier and smoother in texture.",
         "Smaller fat globules are more easily digested.",
-        "In production, homogenisation is usually carried out before pasteurisation or UHT treatment."
-      ]
+        "Homogenisation is not a heat treatment and does not separate the fat, so it does not destroy bacteria. In production it is usually carried out before pasteurisation or UHT treatment."
+      ],
+      "tip": "If asked what homogenisation does, answer: fat spread evenly, creamier, easier to digest. Do not say it makes milk safe, because it is not a way of killing bacteria."
     },
     {
       "h": "Stages of milk production",
+      "b": "Milk goes through a series of stages between the farm and the shop. In order, they make up the production profile of a processed food that has had its shelf life extended.",
       "points": [
-        "1. Milk is collected from farms, cooled and tested for quality and bacterial content.",
+        "1. Milk is collected from farms in refrigerated tankers, then tested for quality and bacterial content on arrival, and cooled and stored.",
         "2. Milk is separated where cream is required, and skimmed milk is produced.",
-        "3. The fat content is standardised to make whole, low-fat or skimmed milk.",
+        "3. The fat content is standardised (adjusted to a set level) to make whole, semi-skimmed or skimmed milk.",
         "4. Vitamins or minerals are added if a fortified milk is being made.",
-        "5. Milk is homogenised and then heat-treated by pasteurisation, sterilisation or UHT.",
-        "6. Milk is packaged under hygienic conditions.",
-        "7. Milk is labelled, stored and distributed, with pasteurised milk kept chilled throughout."
-      ]
+        "5. Milk is homogenised and then heat-treated by pasteurisation, sterilisation or UHT, then cooled.",
+        "6. Milk is filled and packaged under hygienic conditions, so that it is not contaminated after heat treatment.",
+        "7. Milk is labelled, stored and distributed, with pasteurised milk kept chilled throughout.",
+        "Diagram: draw a flow chart of milk from farm to shop, labelling collection, testing, separation and standardising, homogenisation, heat treatment, packaging, labelling and distribution."
+      ],
+      "tip": "A process question may ask for stages of production. Give them in order, and put homogenisation before the heat treatment."
     },
     {
       "h": "Packaging and labelling of milk",
+      "b": "Packaging keeps heat-treated milk safe after processing, and the label gives the buyer the information they need and the law requires.",
       "points": [
-        "Packaging: glass bottles, metal cans, plastic cartons or waxed cardboard cartons.",
-        "Packaging protects milk from light and contamination and holds the stated quantity.",
-        "Label: type of milk (whole, semi-skimmed, skimmed or fortified), brand and quantity.",
-        "Label: nutritional information, including energy, protein, fat and carbohydrate.",
-        "Label: date stamp, either use-by or best-before, and storage instructions.",
-        "Labels must comply with Regulation (EU) No 1169/2011, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
-      ]
+        "Packaging includes glass bottles, plastic bottles, waxed or plastic-coated cardboard cartons, aseptic cartons for UHT milk, and metal cans for evaporated and condensed milk.",
+        "Packaging protects milk from light and contamination, because light destroys riboflavin and vitamin A. It also holds the stated quantity, is hygienic and convenient, and is increasingly recyclable.",
+        "Label: the name of the food and type of milk (whole, semi-skimmed, skimmed or fortified), the brand, the name and address of the producer, and the quantity.",
+        "Label: nutritional information, including energy, protein, fat, saturates, carbohydrate, sugars and salt.",
+        "Label: a date stamp and storage instructions, and allergen information (milk). Pasteurised milk carries a use-by date, whereas unopened UHT milk carries a best-before date.",
+        "Labels must comply with Regulation (EU) No 1169/2011 on food information to consumers, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+      ],
+      "tip": "For labelling, list the type of milk, brand, quantity, nutrition, date and storage, and name the EU food information regulation as the law. In food-waste questions, check the date, store milk at 4°C, return it to the fridge promptly and keep it covered."
     },
     {
       "h": "Milk as a processed food",
-      "b": "Milk is a processed food whose processing extends shelf life while keeping it useful as a nutritious food.",
+      "b": "Milk is the syllabus's example of a food processed to extend its shelf life. Besides heat-treated liquid milk, other processed milks keep for months and are useful where fresh milk is not available.",
       "points": [
-        "Evaporated milk is concentrated by removing water.",
-        "Condensed milk is concentrated by removing water and is usually sweetened.",
-        "Dried milk is made into powder by spray drying or roller drying, giving a long shelf life.",
-        "Processed milks have the convenience of long storage and can be used where fresh milk is not available."
-      ]
+        "Evaporated milk is concentrated by removing water by heating. It is canned and sterilised, unsweetened, keeps for months and is used in cooking and drinks.",
+        "Condensed milk is concentrated by removing water and is usually sweetened with added sugar. The high sugar concentration helps to preserve it, and it is thick and sweet, used in sweet dishes and confectionery.",
+        "Dried milk is made into powder by removing all the water, by spray drying (milk sprayed as droplets into hot air) or roller drying (a film of milk dried on heated rollers), giving a long shelf life.",
+        "Dried milk is reconstituted (mixed back up) with water and used in baking, infant formula and where fresh milk is not available.",
+        "Processed milks have the convenience of long storage and can be used where fresh milk is not available.",
+        "Pasteurisation, sterilisation, UHT, evaporating, condensing and drying all count as processes that extend shelf life. If one is chosen for an answer, give the method, the effect and the labelling."
+      ],
+      "tip": "If asked to name two heat treatments for milk, give pasteurisation, sterilisation or UHT, and evaporated, condensed and dried milk are also accepted as concentrated types. Always give the correct method for the process you pick."
     }
   ],
   "keyTerms": [

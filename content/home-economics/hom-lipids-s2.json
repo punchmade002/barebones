@@ -5,42 +5,63 @@
   "syllabusRef": "1.1.4",
   "notes": [
     {
-      "h": "Chemical composition of a triglyceride (Higher Level only)",
-      "b": "Most fats and oils in food are triglycerides: one glycerol molecule combined with three fatty acid molecules.",
+      "h": "What lipids are",
+      "b": "Lipids are the fats and oils in our food. Most of the lipid we eat is in one form, the triglyceride, so knowing what a triglyceride is made of explains most of this topic.",
       "points": [
-        "Lipids are composed of carbon (C), hydrogen (H) and oxygen (O) atoms only; they contain no nitrogen.",
-        "Glycerol is an alcohol, with the formula C₃H₈O₃, and carries three hydroxyl (–OH) groups, one on each carbon atom.",
-        "The three fatty acids in one triglyceride can be the same or different.",
+        "Fats are solid at room temperature and oils are liquid, but both are lipids. Most dietary lipid is in the form of triglycerides.",
+        "Fats and oils (triglycerides) are made of carbon (C), hydrogen (H) and oxygen (O) only. They contain no nitrogen, so, unlike protein, they are not a source of nitrogen.",
+        "Lipids are made up of fatty acids and glycerol, which join together to form the triglyceride.",
+        "Other lipids exist, such as phospholipids like lecithin and sterols like cholesterol, but triglycerides are the lipids studied here.",
+        "In digestion the enzyme lipase, made in the pancreas and carried in pancreatic juice, breaks triglycerides down into fatty acids and glycerol."
+      ],
+      "tip": "Examiners ask for the elements in fats and oils as a list (carbon, hydrogen, oxygen) and as true/false, where 'lipids contain nitrogen' is false. For digestion, give pancreas, pancreatic juice, lipase, and fatty acids and glycerol."
+    },
+    {
+      "h": "Chemical composition of a triglyceride (Higher Level only)",
+      "b": "Most fats and oils in food are triglycerides: one glycerol molecule combined with three fatty acid molecules. The name tells you this, because tri means three.",
+      "points": [
+        "A triglyceride contains only carbon (C), hydrogen (H) and oxygen (O) atoms, with no nitrogen.",
+        "Glycerol is an alcohol, with the formula C₃H₈O₃. It carries three hydroxyl (–OH) groups, one on each of its three carbon atoms, which gives three places for a fatty acid to attach.",
+        "The three fatty acids in one triglyceride can be the same or different, and may be saturated, monounsaturated or polyunsaturated. This mixture decides whether the fat is solid or liquid.",
         "The carboxyl group of each fatty acid joins to one hydroxyl group of glycerol, forming an ester bond (–COO–)."
-      ]
+      ],
+      "tip": "Glycerol is not a fatty acid, and a triglyceride has one glycerol, not three. For the Higher Level structure question, state one glycerol, three fatty acids, glycerol as an alcohol with three –OH groups, and an ester link with loss of water."
     },
     {
       "h": "Molecular structure of a triglyceride (Higher Level only)",
+      "b": "Each fatty acid is joined to glycerol by the same reaction, repeated three times. The result is a glycerol backbone with a fatty acid chain hanging from each of its carbons.",
       "points": [
-        "Each ester bond forms by condensation, in which one molecule of water (H₂O) is eliminated.",
-        "Three water molecules are removed when one glycerol and three fatty acids combine to form one triglyceride.",
+        "Each ester bond forms by condensation, a reaction in which two molecules join and one molecule of water (H₂O) is eliminated.",
+        "Three water molecules are removed when one glycerol and three fatty acids combine to form one triglyceride, because three ester bonds are made.",
         "A triglyceride is therefore a glycerol backbone with three fatty acid chains hanging from it.",
-        "Diagram: a glycerol backbone with three fatty acid chains attached by ester (–COO–) links, marking the three water molecules released during formation."
-      ]
+        "Digestion runs this in reverse: lipase breaks the ester bonds by adding water back, which is hydrolysis, releasing the fatty acids and glycerol.",
+        "Diagram: a glycerol backbone with three fatty acid chains attached by ester (–COO–) links, labelling glycerol, the fatty acid chains and the ester bonds, and marking the three water molecules released during formation."
+      ],
+      "tip": "Condensation removes water and hydrolysis adds water, so do not mix them up. If a diagram is asked for, draw the three-carbon backbone, three chains, the ester links and show 3H₂O released."
     },
     {
       "h": "Classifying lipids by source",
+      "b": "One way to sort lipids is by where they come from. There are three classes: animal, vegetable (plant) and marine.",
       "points": [
-        "Animal fats come from land animals, for example butter, lard, suet, dripping, cheese and the fat in meat.",
+        "Animal fats come from land animals, for example butter, lard, suet, dripping, cheese, egg yolk and the fat in meat.",
         "Vegetable (plant) oils come from seeds, nuts and fruits, for example olive, sunflower, corn, soya and rapeseed oils, and avocado oil.",
-        "Marine lipids come from fish and other sea creatures, for example the oil in oily fish such as mackerel, herring and sardines, and fish-liver oils such as cod-liver oil.",
+        "Marine lipids come from fish and other sea creatures, for example the oil in oily fish such as salmon, mackerel, herring, sardines and trout, and fish-liver oils such as cod-liver oil.",
         "Palm oil and coconut oil come from plants but are high in saturated fat, so they behave like animal fats in the diet."
-      ]
+      ],
+      "tip": "Matching questions name a food and ask whether it is animal, plant or marine, for example sardines or salmon (marine), olive oil (plant) and butter (animal). For classification give two lines, the source and the fatty acid type, with one or two examples each."
     },
     {
       "h": "Classifying lipids by fatty acid content",
+      "b": "The second way to sort lipids is by the type of fatty acid they contain. Every fat and oil is a mixture, so the class depends on which type is present in the largest proportion.",
       "points": [
         "A lipid is classed as saturated, monounsaturated or polyunsaturated according to which type of fatty acid makes up the largest proportion of its fatty acids.",
-        "Olive oil is classed as monounsaturated because most of its fatty acids have one double bond.",
-        "Sunflower and corn oils are classed as polyunsaturated because most of their fatty acids have more than one double bond.",
-        "Butter and lard are classed as saturated because saturated fatty acids form the largest proportion of their fatty acids.",
-        "Most fats contain a mixture of all three fatty acid types, so classification depends on the predominant type."
-      ]
+        "Olive oil is classed as monounsaturated because most of its fatty acids have one double bond. Rapeseed oil and avocado are also mainly monounsaturated.",
+        "Sunflower, corn and soya oils are classed as polyunsaturated because most of their fatty acids have more than one double bond. The oils of oily fish are also mainly polyunsaturated.",
+        "Butter, lard, suet, dripping, meat fat, cheese, coconut oil and palm oil are classed as saturated because saturated fatty acids form the largest proportion of their fatty acids.",
+        "Most fats contain a mixture of all three fatty acid types, so classification depends on the predominant type. Butter has some monounsaturated fat and olive oil has some saturated fat.",
+        "The fatty acid type explains the state: a lipid that is mostly saturated is a fat, solid at room temperature, while one that is mostly unsaturated is an oil."
+      ],
+      "tip": "Do not equate saturated with animal and unsaturated with plant. Coconut and palm oils are plant sources high in saturated fat, and oily fish oil is marine but polyunsaturated, so treat the two classifications separately."
     }
   ],
   "keyTerms": [
@@ -83,8 +104,8 @@
   ],
   "factCards": [
     {
-      "term": "Three elements in a lipid",
-      "definition": "Carbon, hydrogen and oxygen."
+      "term": "Three elements in a fat or oil",
+      "definition": "Carbon, hydrogen and oxygen only (triglycerides)."
     },
     {
       "term": "Components of one triglyceride",

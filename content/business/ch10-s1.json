@@ -4,44 +4,98 @@
   "subsection": "1. The operational model: key partners, activities and resources",
   "syllabusRef": "2.5.1",
   "notes": [
-    { "h": "The operational model", "b": "The operational model sets out how a business creates and delivers its product or service: the resources it uses, the work it does and the outside organisations it relies on. On the business model canvas these correspond to the key resources, key activities and key partnerships blocks, which connect to the cost structure.", "points": [
-      "Key resources are the assets a business must have in order to operate, and they fall into four types.",
-      "Physical resources are tangible assets such as buildings, vehicles, machinery and stock.",
-      "Human resources are the skills, experience and effort of employees and owners.",
-      "Intellectual resources are non-physical assets such as patents, trademarks, brand names, software and know-how.",
-      "Financial resources are the cash, credit and investment available to fund operations."
-    ] },
-    { "h": "Key activities", "b": "Key activities are the core work a business performs to deliver value to its customers.", "points": [
-      "Production activities make or assemble the product, such as baking bread or assembling furniture in a factory.",
-      "Problem-solving activities deal with individual customer needs, such as a consultancy designing a bespoke solution for one client.",
-      "Platform or network activities maintain a system that others use, such as an online marketplace that matches buyers and sellers.",
-      "A business can have more than one key activity, such as a software firm that combines platform maintenance with customer support."
-    ] },
-    { "h": "Key partners", "b": "Key partners are the external organisations a business relies on to operate. The type of relationship decides how much control the business keeps.", "points": [
-      "Suppliers provide raw materials, components or services, and the business depends on them for timely, quality inputs.",
-      "Strategic alliances are cooperative agreements between businesses that remain independent, such as two airlines sharing routes.",
-      "Outsourcing means paying an external firm to perform an activity such as payroll, cleaning or IT support.",
-      "Key partners give a business access to resources or capabilities it does not have in house."
-    ] },
-    { "h": "Production methods", "b": "The production method describes how output is organised, and it shapes the resources and activities a business needs.", "points": [
-      "Job production makes one-off items to a customer's specification, such as a custom yacht or a tailored suit.",
-      "Batch production makes a group of identical items in one run before switching to a different product, such as a bakery running a batch of loaves and then a batch of rolls.",
-      "Mass production makes large volumes of standard items, usually on a continuous line, such as cars or tinned food.",
-      "Job production relies on skilled workers and flexible equipment, while mass production relies on specialised machinery and steady, high demand."
-    ] },
-    { "h": "Why the operational model changes", "b": "The operational model is not fixed. It changes as the business and its environment change.", "points": [
-      "Growth can push a business from job production towards batch or mass production as orders become larger and more predictable.",
-      "New technology, such as automation or cloud software, can replace manual activities and change which resources matter most.",
-      "Cost pressure can lead a business to outsource activities or switch to cheaper suppliers.",
-      "Sustainability goals can lead a business to change suppliers or processes, such as choosing certified materials or cutting packaging waste.",
-      "Supply-chain shocks, such as a shortage of components, can push a business to find a second supplier or hold more stock."
-    ] },
-    { "h": "Evaluating changes to the model", "b": "A change to one part of the operational model usually affects the others and the cost base.", "points": [
-      "Relying on one key partner creates risk, because a failure or price rise by that partner can halt production.",
-      "Outsourcing can cut costs and bring in expertise, but the business has less direct control over quality and timing.",
-      "Investing in new resources such as machinery adds capacity but also adds fixed costs that sales must cover.",
-      "The key resources, key activities and key partners on the canvas work together, so a new partner usually changes activities and costs too."
-    ] }
+    {
+      "h": "The operational model",
+      "b": "Every business turns inputs (resources) into outputs (a product or service) that customers value. The operational model is how that is organised day to day: the resources it uses, the work it does and the outside organisations it relies on.",
+      "points": [
+        "The specification defines a business model as an element within the business plan which outlines how a company will operate, create, deliver, and capture value in economic, social, and cultural contexts. The operational model is the 'operate' and 'create' part of that.",
+        "A business model canvas is a tool used to map out a business model on one page. Its nine blocks are key partners, key activities, key resources, value proposition, customer relationships, channels, customer segments, cost structure and revenue streams.",
+        "The operational model matches three canvas blocks: key resources, key activities and key partners. Each of them feeds the cost structure, because every resource held, activity run or partner paid adds to what the business spends.",
+        "An operational choice changes the cost base. Whether a business buys or outsources, or owns or leases, changes what it has to spend."
+      ],
+      "tip": "Key resources are what the business has; key activities are what it does. Students mix these up, so keep the two apart in any answer."
+    },
+    {
+      "h": "Key resources",
+      "b": "Key resources are the assets a business must have in order to operate. They fall into four types, and which type matters most depends on the kind of business.",
+      "points": [
+        "Physical resources are tangible assets such as buildings, vehicles, machinery and stock. A manufacturer leans on these because it cannot make goods without equipment and premises.",
+        "Human resources are the skills, experience and effort of employees and owners. A software firm or a consultancy depends heavily on these because its output is people's work.",
+        "Intellectual resources are non-physical assets such as patents, trademarks, brand names, software and know-how. A software firm also leans on these because its product is largely code and knowledge.",
+        "Financial resources are the cash, credit and investment available to fund operations. A start-up leans on these because it has little else yet and must pay set-up costs before sales arrive.",
+        "Use these four types only. A bakery, a furniture maker and a software firm each need a different mix, so name the mix that suits the firm you are given."
+      ],
+      "tip": "In an outline answer, name each element asked for and give one clear point tied to the business in the stimulus. A common mistake is listing all four resource types with no link to the firm."
+    },
+    {
+      "h": "Key activities",
+      "b": "Key activities are the core work a business performs to deliver value to its customers. There are three kinds, and the kind depends on what the business sells.",
+      "points": [
+        "Production activities make or assemble the product, such as baking bread or assembling furniture in a factory.",
+        "Problem-solving activities deal with the needs of an individual customer, such as a consultancy designing a bespoke solution for one client.",
+        "Platform or network activities maintain a system that others use, such as an online marketplace that matches buyers and sellers. Here the platform itself is the product, so keeping it running is the key activity.",
+        "A business can have more than one key activity, such as a software firm that combines platform maintenance with customer support."
+      ],
+      "tip": "Key activities are what the business does, not what it owns. Say what the firm in the stimulus actually does, then which of the three kinds it is."
+    },
+    {
+      "h": "Key partners",
+      "b": "Key partners are the external organisations a business relies on to operate. They give it access to resources or capabilities it does not have in house, and the type of relationship decides how much control the business keeps.",
+      "points": [
+        "Suppliers provide raw materials, components or services (a supplier is a business that provides the goods or services another business needs as inputs). The business depends on them for timely, quality inputs.",
+        "Strategic alliances are cooperative agreements between businesses that remain independent, such as two airlines sharing routes. Both firms keep their own ownership, so this differs from a merger or takeover.",
+        "Outsourcing means paying an external firm to perform an activity such as payroll, cleaning or IT support. This is not the same as buying inputs from a supplier, which means buying materials or components.",
+        "Key partners are the organisations the business relies on, not stakeholders in general. A customer appears on the canvas as a customer segment, not as a key partner."
+      ],
+      "tip": "A common mix-up is confusing a strategic alliance with outsourcing. In an alliance two independent firms cooperate; in outsourcing one firm pays another to do a task."
+    },
+    {
+      "h": "Production methods",
+      "b": "The production method describes how output is organised. It shapes the resources and activities a business needs, so a change of method changes the operational model.",
+      "points": [
+        "Job production makes one-off items to a customer's specification, such as a custom yacht or a tailored suit.",
+        "Batch production makes a group of identical items in one run before switching to a different product, such as a bakery running a batch of loaves and then a batch of rolls.",
+        "Mass production makes large volumes of standard items, usually on a continuous line, such as cars or tinned food.",
+        "Job production relies on skilled workers and flexible equipment, because each item is different. Mass production relies on specialised machinery and steady, high demand, because the line only pays off when it runs constantly."
+      ],
+      "tip": "Confusing job, batch and mass production is a common mistake. Ask whether the item is one-off (job), a group of identical items per run (batch) or large volumes of one standard item (mass)."
+    },
+    {
+      "h": "Why the operational model changes",
+      "b": "The operational model is not fixed. It changes as the business and its environment change, and there are five drivers to know.",
+      "points": [
+        "Growth can push a business from job production towards batch or mass production as orders become larger and more predictable.",
+        "New technology, such as automation or cloud software, can replace manual activities and change which resources matter most, so human resources may matter less and intellectual resources more.",
+        "Cost pressure can lead a business to outsource activities or switch to cheaper suppliers, which lowers cost but changes its partners.",
+        "Sustainability goals can lead a business to change suppliers or processes, such as choosing certified materials or cutting packaging waste. This links to the circular economy, a model of production and consumption which extends the life cycle of products, reduces waste, and creates further value.",
+        "Supply-chain shocks, such as a shortage of components, can push a business to find a second supplier or hold more stock.",
+        "ESG stands for environmental, social and governance. Businesses may in some cases be expected to report their performance and progress under these three pillars, which adds pressure to change."
+      ],
+      "tip": "For an explain question, give the driver, then its effect on a resource, activity or partner, then the result for cost or control. A common mistake is naming the driver without the effect."
+    },
+    {
+      "h": "Ethical and digital angles",
+      "b": "Ethics and technology both shape which partners and resources a business chooses, and a good answer may add a point on either where the stimulus allows.",
+      "points": [
+        "A business is responsible for how its suppliers and outsourced partners treat workers and the environment. Ethical sourcing is a reason to change a supplier.",
+        "The business weighs the cost saved by a cheap partner against the reputational risk if that partner behaves badly.",
+        "Automation, cloud software, platforms and data can all be key resources and activities. Digital platforms are the key activity of marketplace businesses.",
+        "Digital tools make outsourcing and remote partnerships easier, but they add dependence on technology partners and cyber risk (the danger of attack on a business's systems)."
+      ],
+      "tip": "Where the stimulus allows, add one ethical sourcing, sustainability or digital point to your answer."
+    },
+    {
+      "h": "Evaluating changes to the model",
+      "b": "A change to one part of the operational model usually affects the others and the cost base. To evaluate a change, give a benefit and a risk, then a judgement for the firm described.",
+      "points": [
+        "Relying on one key partner creates risk, because a failure or price rise by that partner can halt production.",
+        "Outsourcing can cut costs and bring in expertise, but the business has less direct control over quality and timing.",
+        "Investing in new resources such as machinery adds capacity but also adds fixed costs that sales must cover.",
+        "The key resources, key activities and key partners on the canvas work together, so a new partner usually changes activities and costs too.",
+        "Each change affects stakeholders too: staff may lose tasks to an outsourcer, and customers may notice changes in quality or delivery time."
+      ],
+      "tip": "A common mistake is a one-sided answer. Give the benefit and the risk (outsourcing saves cost but loses control), then a justified judgement for the firm in the stimulus."
+    }
   ],
   "keyTerms": [
     { "term": "Operational model", "definition": "The set of resources, activities and partners a business uses to create and deliver its product or service." },

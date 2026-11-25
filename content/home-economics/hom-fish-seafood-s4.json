@@ -5,70 +5,86 @@
   "syllabusRef": "1.3.2",
   "notes": [
     {
-      "h": "Processing to extend shelf life",
-      "b": "Processing extends the shelf life of fish by killing or slowing micro-organisms, slowing enzyme action, or removing the water that micro-organisms need.",
+      "h": "Why fish is processed to extend shelf life",
+      "b": "Fish spoils very quickly, so it is processed to make it last longer. Processing works by killing or slowing micro-organisms, slowing enzyme action, or removing the water that micro-organisms need.",
       "points": [
-        "The four methods named for fish are freezing, canning, smoking and salting.",
-        "Vacuum packing removes air, so oxygen cannot cause oxidative rancidity."
-      ]
+        "The four methods named for fish are freezing, canning, smoking and salting. Each one attacks spoilage in a different way, so the principle must match the method.",
+        "Vacuum packing removes air from the pack, so oxygen cannot cause oxidative rancidity (fat going off through reaction with oxygen). It also slows the growth of micro-organisms that need oxygen.",
+        "Processing also adds variety and convenience, because it turns fish into products that are ready to cook or ready to eat."
+      ],
+      "tip": "Vacuum packing is accepted as a process when you are asked to name one, but the four named methods are the safest choice."
     },
     {
       "h": "Freezing in detail",
+      "b": "Freezing is the model process to describe in an exam. Fish is frozen in industry at about −30 °C, often on the fishing vessel or soon after landing, and stored at −18 °C or below.",
       "points": [
-        "Principle: low temperatures stop micro-organisms from multiplying and inactivate enzymes.",
-        "The water in the flesh is converted to ice, so it is not available to micro-organisms.",
-        "Fast freezing, at about −30 °C, forms small ice crystals that cause less damage to the flesh than slow freezing.",
-        "Effects: colour and flavour are largely unchanged, and nutrients are well retained.",
-        "Effects: texture may change, and some B vitamins and extractives are lost.",
-        "Poor wrapping causes freezer burn, and air in the packaging allows oxidative rancidity in oily fish."
-      ]
+        "Principle: low temperatures stop micro-organisms from multiplying and inactivate enzymes, so spoilage is halted. Freezing does not kill micro-organisms.",
+        "The water in the flesh is converted to ice, so it is not available to micro-organisms, which need liquid water to grow.",
+        "Fast freezing, at about −30 °C, forms small ice crystals that cause less damage to the flesh than the large crystals of slow freezing.",
+        "Effects: colour and flavour are largely unchanged, and nutrients are well retained, which is why frozen fish is a good nutritional choice.",
+        "Effects: texture may change, and some B vitamins and extractives (the flavour compounds in the flesh) are lost, for example in the drip on thawing.",
+        "Poor wrapping causes freezer burn (dried, damaged patches on the surface), and air in the packaging allows oxidative rancidity in oily fish, so good wrapping or vacuum packing is used.",
+        "Advantages: freezing is simple and safe, loses little nutrient, allows bulk buying and makes fish available out of season.",
+        "Disadvantages: packaging and freezer running costs, and the fish must be thawed before use."
+      ],
+      "tip": "For a detailed account of one process, give the name, the principle (micro-organisms, water as ice, enzymes) and the effects. Say that small crystals mean less damage, and never say that freezing kills micro-organisms."
     },
     {
       "h": "Canning",
+      "b": "Canning gives fish a very long shelf life without refrigeration. It works by heat sterilisation and an airtight seal, not by removing water.",
       "points": [
-        "Principle: fish is sealed in airtight cans and heated to sterilise it, destroying micro-organisms and their spores.",
-        "The airtight seal prevents micro-organisms from entering after heating.",
-        "Effects: canned fish keeps for a long time without refrigeration, and the flesh becomes soft.",
-        "Effects: some heat-sensitive vitamins, such as B vitamins, are partly lost during heating.",
-        "Soft bones in canned fish such as sardines and salmon supply calcium.",
-        "Examples: tuna, sardines and salmon, packed in brine, oil or tomato sauce."
-      ]
+        "Method: the fish is cleaned, cooked and packed in cans with brine, oil or tomato sauce. The cans are sealed and heated under pressure to sterilise them (commercial sterilisation).",
+        "Principle: heat destroys micro-organisms and their spores and inactivates enzymes. The airtight seal prevents micro-organisms from entering after heating, so the contents cannot be re-contaminated.",
+        "Effects: canned fish keeps for a long time without refrigeration, and the flesh becomes soft because it has been cooked in the can.",
+        "Effects: some heat-sensitive vitamins, such as the B vitamins, are partly lost during heating. Flavour also changes from the cooking and the packing medium.",
+        "The soft bones in canned fish such as sardines and salmon are eaten with the flesh, so they supply calcium.",
+        "Examples: tuna, sardines, salmon and mackerel, packed in brine, oil or tomato sauce."
+      ],
+      "tip": "Canning sterilises with heat, while salting works by osmosis. Do not mix up their principles. Say that canned fish keeps for a long time rather than giving a figure."
     },
     {
       "h": "Salting and brining",
+      "b": "Salt has been used to preserve fish for centuries. It removes the water micro-organisms need, so it preserves by drawing water out rather than by heat.",
       "points": [
-        "Dry salting: salt is rubbed onto the fish; brining: the fish is soaked in a salt solution.",
-        "Principle: salt draws water out of the flesh by osmosis, so less water is available to micro-organisms.",
-        "Salt also slows bacterial growth and enzyme action, extending shelf life.",
-        "Effects: the flesh becomes firmer and the fish has a strong salty flavour.",
-        "High sodium from salt can contribute to high blood pressure, so salted fish should be eaten in moderation.",
+        "Dry salting: salt is rubbed onto the fish or layered with it. Brining: the fish is soaked in a strong salt solution.",
+        "Principle: salt draws water out of the flesh, and out of micro-organisms, by osmosis, so less water is available for them to grow.",
+        "Salt also slows bacterial growth and enzyme action, extending shelf life further.",
+        "Effects: the flesh becomes firmer and drier, and the fish has a strong salty flavour.",
+        "Effects: some B vitamins and other soluble nutrients are lost with the water that is drawn out.",
+        "High sodium from salt is linked to high blood pressure, so salted fish should be soaked before cooking and eaten in moderation.",
         "Examples: salted cod and salted herring."
-      ]
+      ],
+      "tip": "If you choose salting as your process, base the principle on osmosis (water drawn out) and give the high sodium content as a disadvantage."
     },
     {
       "h": "Smoking",
-      "b": "Smoking preserves fish with smoke compounds and with the drying and salting that precede it.",
+      "b": "Smoking preserves fish with smoke compounds and with the salting and drying that come before it. Whether the fish is cooked by the process depends on the temperature, which is the difference between hot and cold smoking.",
       "points": [
-        "Smoke is produced by smouldering wood, peat or sawdust.",
-        "Smoke compounds such as phenols, creosote and formaldehyde coat the fish, acting as preservatives and antioxidants and giving colour and flavour.",
-        "Preparation: the fish is filleted and trimmed, brined or dry-salted, rinsed and dried before smoking.",
-        "Hot smoking: the temperature is raised gradually to about 80 °C, so the fish is cooked during smoking and needs no further cooking.",
-        "Cold smoking: the fish is smoked at temperatures not exceeding about 27 °C, so the flesh is not cooked by smoking: cold-smoked salmon is eaten without further cooking, while cold-smoked kippers and smoked cod are cooked before eating.",
-        "Examples: hot-smoked trout and mackerel; smoked salmon and smoked cod."
-      ]
+        "Preparation, the same for both types: the fish is filleted or split and trimmed, brined or dry-salted, rinsed and dried before smoking.",
+        "Smoke is produced by smouldering wood, wood chips, sawdust or peat.",
+        "Smoke compounds such as phenols, creosote and formaldehyde coat the fish and act as preservatives and antioxidants. They also give colour and flavour, and the earlier salting and drying add to the preservation.",
+        "Cold smoking: the fish is smoked at temperatures not exceeding about 27 °C, so the flesh is not cooked by the smoking.",
+        "Most cold-smoked fish is cooked before eating, for example kippers (smoked herring) and smoked cod. Cold-smoked salmon is the exception and is eaten as bought.",
+        "Hot smoking: the temperature is raised gradually to about 80 °C, so the fish is cooked during smoking and needs no further cooking. Examples: hot-smoked trout and mackerel.",
+        "Effects: smoking gives flavour, colour and a glossy surface, and raises the salt content. The shelf life is longer than fresh fish but shorter than canned or frozen.",
+        "Examples of smoked fish: smoked salmon, trout, cod and mackerel."
+      ],
+      "tip": "To differentiate hot and cold smoking, state both temperatures (about 80 °C and not above about 27 °C) and whether the fish is cooked. Include the preparation steps and the smoke source. For cold smoking, write that the smoking does not cook the fish, not that it is always cooked later."
     },
     {
       "h": "Processed fish products",
+      "b": "Processing turns fish into ready-made products, and shoppers choose them for convenience as much as for keeping time. Most fall into three groups: frozen, canned and smoked.",
       "points": [
-        "Frozen products: fish fingers, fish cakes, fish fillets, breaded or battered portions and ready fish meals.",
-        "Canned products: tuna, sardines and salmon.",
+        "Frozen products: fish fingers, fish cakes, fish fillets, breaded or battered portions, fish in sauce and ready fish meals.",
+        "Canned products: tuna, sardines and salmon, packed in brine, oil or tomato sauce.",
         "Smoked products: trout, salmon, cod and mackerel.",
-        "Ready-to-cook products have no waste and save preparation time.",
+        "Ready-to-cook products have no waste, because the bones and skin are already removed, and they save preparation time and fuel.",
         "Ready meals and ready-to-serve products are quick and easy to prepare and can be used as starters or main courses.",
-        "Products are good value and versatile, and they make fish available out of season.",
-        "Breaded or battered products and fish in a sauce contain carbohydrate, so they add starchy food to the meal.",
-        "The FSAI sets the food safety framework for processed fish, including HACCP-based controls in processing plants."
-      ]
+        "Products are good value and versatile, and a long shelf life makes fish available out of season.",
+        "Breaded or battered products and fish in a sauce contain extra carbohydrate from the breadcrumbs, batter or sauce, so they add starchy food to the meal.",
+        "Fish, crustaceans and molluscs are allergens, so they must be highlighted on labels. The FSAI coordinates food safety enforcement, and the Sea-Fisheries Protection Authority carries out official controls on seafood processing."
+      ],
+      "tip": "When asked to name three processed fish products and say why they are popular, give a frozen, a canned and a smoked example. Then give reasons such as ready to cook, no waste, good value and available all year."
     }
   ],
   "keyTerms": [

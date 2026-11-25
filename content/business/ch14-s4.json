@@ -4,52 +4,89 @@
   "subsection": "4. Teamwork and sustainable workplaces",
   "syllabusRef": "3.2.9, 3.2.10",
   "notes": [
-    { "h": "What makes an effective team", "b": "A team is a group of people working together towards shared goals, and it works best when its members have clear roles and trust one another.", "points": [
-      "Shared goals give the team a common purpose, so members pull in the same direction rather than working on separate priorities.",
-      "Clear roles and responsibilities reduce duplication and confusion about who is doing what.",
-      "Open communication lets members share information, raise concerns and give feedback early.",
-      "Trust and psychological safety allow members to disagree and admit mistakes without fear of punishment.",
-      "A balanced mix of skills and personalities covers the range of tasks the team must complete.",
-      "Teams usually pass through forming, storming, norming and performing, and conflict often appears before a team settles into working well together."
-    ] },
-    { "h": "Opportunities of teamwork", "b": "Teams can add value for both employees and employers.", "points": [
-      "Skills sharing: members learn from each other's expertise, which builds human capital across the team.",
-      "Creativity: a range of perspectives generates more ideas and can improve innovation.",
-      "Motivation: working with colleagues can increase engagement and a sense of shared achievement.",
-      "Productivity: dividing tasks according to strengths can speed up work and improve quality.",
-      "Better decisions: considering several viewpoints before a choice is made can reduce errors.",
-      "Support: employees facing a difficult task have colleagues to turn to, which can reduce stress."
-    ] },
-    { "h": "Challenges of teamwork", "b": "Teamwork also creates problems that managers must anticipate and manage.", "points": [
-      "Conflict: differences in personality, working style or priorities can create tension that slows the work.",
-      "Free-riding: some members contribute less while others do most of the work, which causes resentment and an unfair workload.",
-      "Groupthink: a team may seek agreement so strongly that it ignores alternatives or dissenting views, leading to poor decisions.",
-      "Slower decisions: consulting many people takes time, which is a disadvantage when a fast response is needed.",
-      "Individual performance can be hidden inside a group, which makes fair appraisal harder for the employee and the manager.",
-      "Employers can limit these challenges by setting clear team goals and roles and by monitoring each member's contribution."
-    ] },
-    { "h": "What a sustainable workplace means", "b": "A sustainable workplace reduces its environmental impact and supports the social wellbeing of the people who work there.", "points": [
-      "Environmental sustainability focuses on using fewer resources, producing less waste and lowering emissions.",
-      "Social sustainability focuses on fair work: decent pay, safe conditions, inclusion and respect for employees.",
-      "Economic sustainability means the environmental and social measures are affordable enough to be maintained over time."
-    ] },
-    { "h": "Practical sustainability measures", "b": "Many sustainability measures are practical and can be started in any workplace.", "points": [
-      "Energy reduction: switching off equipment, using efficient lighting, setting heating controls and buying energy-efficient equipment.",
-      "Waste reduction: recycling, reducing paper use and avoiding single-use items in the canteen.",
-      "Sustainable travel: encouraging walking, cycling, public transport and car-sharing, and using electric vehicles for business travel where practical.",
-      "Green procurement: choosing suppliers and products with a lower environmental impact and a sound environmental record.",
-      "Hybrid working: fewer commutes and smaller offices can reduce the footprint, though energy use at home must also be counted.",
-      "Green teams: staff-led groups that propose and monitor environmental improvements, which spreads ownership of sustainability across the organisation.",
-      "Fair work: fair pay, safe conditions and inclusion meet the social side of sustainability."
-    ] },
-    { "h": "Contributions by employers and employees", "b": "Sustainability works best when employers set the direction and employees act on it.", "points": [
-      "Employers can set sustainability policies, provide resources such as recycling facilities and fund energy upgrades.",
-      "Employers can measure and report environmental performance, so progress can be tracked and communicated.",
-      "Employers can train staff in sustainable practices so that they understand what they can change.",
-      "Employees can apply sustainable habits in daily work, such as printing less and turning off equipment.",
-      "Employees can join green teams or propose ideas that reduce waste or energy use.",
-      "Employees can use sustainable travel for their commute and choose eco-friendly suppliers when buying supplies for the team."
-    ] }
+    {
+      "h": "What makes an effective team",
+      "b": "A team is a group of people working together towards a shared goal, formed by management. It differs from a group of people who simply happen to be together because its members depend on one another, and it works best when they have clear roles and trust one another.",
+      "points": [
+        "Shared goals give the team a common purpose, so members pull in the same direction rather than working on separate priorities.",
+        "Clear roles and responsibilities reduce duplication and confusion about who is doing what, because each member knows which tasks are theirs.",
+        "Open communication lets members share information, raise concerns and give feedback early, before small problems grow.",
+        "Trust and psychological safety (feeling safe to speak up) allow members to disagree and admit mistakes without fear of punishment, so errors are fixed rather than hidden.",
+        "A balanced mix of skills and personalities covers the range of tasks the team must complete, because no one person is good at everything.",
+        "Teams usually pass through four stages, set out by Bruce Tuckman in 1965: 1. forming (members meet and learn the task), 2. storming (disagreement and conflict appear), 3. norming (agreed ways of working develop), 4. performing (the team works well together).",
+        "Conflict often appears in the storming stage, before the team settles, so a team that argues early is not necessarily failing."
+      ],
+      "tip": "Don't confuse a team (a shared goal and interdependent roles) with a group (people who happen to be together). The four stage names are forming, storming, norming and performing."
+    },
+    {
+      "h": "Opportunities of teamwork",
+      "b": "Teams can add value for both employees and employers, and the two sets of benefits are different. Keep them apart when you answer: the employee gains personally, while the organisation gains in output and results.",
+      "points": [
+        "Skills sharing: members learn from each other's expertise, which builds human capital (the knowledge and skills of the workforce) across the team and so benefits employee and employer alike.",
+        "Creativity: a range of perspectives generates more ideas, which can improve innovation and so help the organisation develop new products or methods.",
+        "Motivation: working with colleagues can increase engagement and a sense of shared achievement, which gives the employee a feeling of belonging.",
+        "Productivity: dividing tasks according to strengths can speed up work and improve quality, which raises the organisation's output.",
+        "Better decisions: considering several viewpoints before a choice is made can reduce errors, which saves the employer the cost of correcting poor choices.",
+        "Support: employees facing a difficult task have colleagues to turn to, which can reduce stress. For the employee the effects are learning, belonging and support; for the organisation they are output, innovation and retention (keeping staff).",
+        "Teamwork does not always raise productivity, because free-riding, groupthink and conflict can lower it."
+      ],
+      "tip": "In 'identify' or 'outline' tasks, name the opportunity and add a few words of effect. Say whether it helps the employee or the employer, and do not list only benefits when asked to discuss."
+    },
+    {
+      "h": "Challenges of teamwork",
+      "b": "Teamwork also creates problems that managers must anticipate and manage. Some fall mainly on employees, such as stress and unfairness, and some on employers, such as delay and poor decisions.",
+      "points": [
+        "Conflict: differences in personality, working style or priorities can create open disagreement and tension that slows the work, and the employee under pressure feels stress.",
+        "Free-riding: some members contribute less while others do most of the work, which causes resentment and an unfair workload for those who carry the team.",
+        "Groupthink: a team may seek agreement so strongly that it ignores alternatives or dissenting views, leading to poor decisions for the employer. Unlike conflict, nobody argues; unlike free-riding, effort may be equal.",
+        "Slower decisions: consulting many people takes time, which is a disadvantage when a fast response is needed and so delays the employer's action.",
+        "Individual performance can be hidden inside a group, which makes fair appraisal (assessing how well someone is doing) harder for the employee, who may not be recognised, and for the manager.",
+        "Employers can limit these challenges by setting clear team goals and roles and by monitoring each member's contribution, so that free-riding is noticed and workloads are shared fairly.",
+        "Ethically, workload and credit should be shared fairly in a team and all members should be included, so that no one is overloaded or left out."
+      ],
+      "tip": "A common mistake is naming a challenge without saying who is affected, the employee or the employer. Keep groupthink (the team ignores dissent), conflict (open disagreement) and free-riding (unequal effort) separate. For discuss or evaluate, give two or three opportunities, two or three challenges, a way an employer limits them and a judgement tied to the case."
+    },
+    {
+      "h": "What a sustainable workplace means",
+      "b": "Sustainability means meeting present needs without harming the ability of future generations to meet theirs. A sustainable workplace applies this idea by reducing its environmental impact and supporting the social wellbeing of the people who work there.",
+      "points": [
+        "Environmental sustainability focuses on using fewer resources, producing less waste and lowering emissions, because the business's activities draw on the natural environment.",
+        "Social sustainability focuses on fair work: decent pay, safe conditions, inclusion and respect for employees, so that people thrive as well as the planet.",
+        "Economic sustainability means the environmental and social measures are affordable enough to be maintained over time, because a measure the firm cannot pay for will be dropped.",
+        "Workplace decisions affect many stakeholders (groups with an interest in the business): employees, employers, customers, communities and the environment.",
+        "Corporate reporting may be framed as ESG (environmental, social and governance), the three pillars on which businesses may in some cases be expected to report their performance and progress."
+      ],
+      "tip": "Keep environmental, social and economic sustainability separate, and use the three as a structure for a developed answer. A sustainable workplace is not the same as corporate wellness, which is about wellbeing initiatives."
+    },
+    {
+      "h": "Practical sustainability measures",
+      "b": "Many sustainability measures are practical and can be started in any workplace. The best ones fit the business: energy reduction suits a factory, while paper and travel suit an office.",
+      "points": [
+        "Energy reduction: switching off equipment, using efficient lighting, setting heating controls and buying energy-efficient equipment, for example a sample business that switches to LED lighting. This lowers emissions and running costs.",
+        "Waste reduction: recycling, reducing paper use and avoiding single-use items in the canteen, so less goes to landfill. The circular economy (a model that extends the life of products, reduces waste and creates further value) supports this, and so does reusing equipment.",
+        "Sustainable travel: encouraging walking, cycling, public transport and car-sharing, and using electric vehicles for business travel where practical. Under the Cycle to Work scheme an employer can buy a bicycle and safety equipment for employees, and the benefit is not taxable.",
+        "Green procurement: choosing suppliers and products with a lower environmental impact and a sound environmental record. This concerns what the firm buys, whereas sustainable travel concerns how people move.",
+        "Hybrid working: fewer commutes and smaller offices can reduce the footprint, though energy use at home must also be counted. It is not always better for the environment, because home energy use, device waste and extra travel can offset savings.",
+        "Green teams: staff-led groups, such as one in a design agency, that propose and monitor environmental improvements, which spreads ownership of sustainability across the organisation.",
+        "Fair work: fair pay, safe conditions and inclusion meet the social side of sustainability.",
+        "Digital tools help: collaboration platforms support teams across locations, including remote and blended teams, and reduce paper and travel. Devices create electronic waste, so repair and reuse matter."
+      ],
+      "tip": "Common mistakes are general statements ('be green'), forgetting the social side (fair work), and forgetting home energy use when praising hybrid work. Link each measure to its effect on cost or the environment, and match it to the business in the case."
+    },
+    {
+      "h": "Contributions by employers and employees",
+      "b": "Sustainability works best when employers set the direction and employees act on it. Each side has its own part to play, and neither can succeed alone.",
+      "points": [
+        "Employers can set sustainability policies, provide resources such as recycling facilities and fund energy upgrades, because employees cannot recycle without the bins or save energy without efficient equipment.",
+        "Employers can measure and report environmental performance, so progress can be tracked and communicated.",
+        "Employers can train staff in sustainable practices so that they understand what they can change.",
+        "Greenwashing, which means claiming more sustainability than the firm actually delivers, is unethical, so reports should reflect real practice.",
+        "Employees can apply sustainable habits in daily work, such as printing less and turning off equipment, which add up across a whole workforce.",
+        "Employees can join green teams or propose ideas that reduce waste or energy use, because staff often see wasteful practices first.",
+        "Employees can use sustainable travel for their commute and choose eco-friendly suppliers when buying supplies for the team."
+      ],
+      "tip": "Give a contribution from both employers and employees, each with its effect. Avoid vague statements and any invented percentages or carbon figures."
+    }
   ],
   "keyTerms": [
     { "term": "Teamwork", "definition": "Members working together towards shared goals, with coordinated roles and open collaboration." },

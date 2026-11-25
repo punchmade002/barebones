@@ -5,52 +5,77 @@
   "syllabusRef": "1.3.8",
   "notes": [
     {
+      "h": "What food spoilage is and what causes it",
+      "b": "Spoilage is any change that makes food unfit or unpleasant to eat, such as an off smell, taste, colour or texture. Several causes are at work, but micro-organisms are the main one.",
+      "points": [
+        "Micro-organisms (bacteria, moulds and yeasts) are the main cause of spoilage, and they are the cause this subsection deals with.",
+        "Enzyme action (the food's own chemicals continuing to work) causes changes such as browning and over-ripening.",
+        "Physical damage and bruising break the surface of food, which lets other spoilage in.",
+        "Moisture loss makes food shrink, wrinkle or harden, for example a dried-out piece of fruit.",
+        "Rancidity is the going-off of fats, which gives them an unpleasant smell and taste.",
+        "Chemical contamination, for example by pesticides, antibiotics or metals, spoils food and can make it unsafe.",
+        "Spoilage micro-organisms mainly make food unpleasant, so spoiled food is not always unsafe. Pathogens (disease-causing micro-organisms) can make food unsafe even when it looks and smells normal."
+      ],
+      "tip": "Exams ask for the main causes of spoilage, so give each cause with a concrete example, such as bruising for physical damage or shrinkage for moisture loss. Do not say all spoiled food is unsafe, or that food that looks fine is safe."
+    },
+    {
       "h": "Bacterial spoilage",
       "b": "Bacteria are the micro-organisms that spoil most protein and moist foods, and they change food in several ways.",
       "points": [
         "Putrefaction: bacteria break down protein in meat, fish and eggs, producing foul odours and a slimy surface.",
-        "Souring: lactic acid bacteria ferment the lactose in milk, producing lactic acid that curdles the milk.",
-        "Bacteria that survive in food can produce toxins, which can make food unsafe even when the food looks and smells normal."
-      ]
+        "Souring: lactic acid bacteria ferment the lactose (milk sugar) in milk, producing lactic acid that curdles the milk.",
+        "Bacteria that survive in food can produce toxins (poisons), which can make food unsafe even when the food looks and smells normal.",
+        "The foods at greatest risk are high-moisture, high-protein foods such as meat, fish, poultry, eggs, milk and cooked rice, because bacteria find both water and nutrients in them."
+      ],
+      "tip": "If asked to name two types of micro-organism that spoil food, moulds and bacteria (or yeasts) are the answers, and you can add the spoilage each one causes."
     },
     {
       "h": "Mould and yeast spoilage",
+      "b": "Moulds and yeasts spoil foods that bacteria find harder to use, especially acidic and sugary ones.",
       "points": [
-        "Moulds grow visibly on food as fluffy, powdery or coloured patches, and some produce mycotoxins that are harmful if eaten.",
-        "Yeasts ferment the sugars in fruit juices, jams and syrups, producing carbon dioxide, alcohol and off-flavours.",
-        "Mould and yeast growth is most visible on the surface of food, where oxygen is available."
+        "Moulds grow visibly on food as fluffy, powdery or coloured patches, for example on bread, cheese, fruit and jam, and some produce mycotoxins (poisons made by moulds) that are harmful if eaten.",
+        "Mould spores (tiny reproductive cells) spread through the air, which is how they land on food.",
+        "Yeasts ferment the sugars in fruit juices, jams, syrups and fruit, producing carbon dioxide, alcohol and off-flavours, and sometimes bubbling or swollen containers.",
+        "Mould and yeast growth is mostly on the surface of food, where oxygen is available, but moulds also grow through open-textured foods such as bread.",
+        "Acidic, sugary foods favour moulds and yeasts because they tolerate acid better than most bacteria."
       ]
     },
     {
       "h": "Conditions that allow micro-organisms to grow",
-      "b": "Micro-organisms spoil food only when the conditions they need are present.",
+      "b": "Micro-organisms spoil food only when the conditions they need are present. Remove or change one of them and growth slows or stops.",
       "points": [
-        "Food: micro-organisms need nutrients, particularly protein and carbohydrate.",
-        "Moisture: their chemical reactions and nutrient absorption take place in solution, so dry foods support little growth.",
-        "Warmth: most spoilage micro-organisms multiply fastest in the danger zone.",
-        "Oxygen: aerobic moulds need oxygen, while anaerobic bacteria grow in sealed packs from which oxygen is absent.",
-        "pH: most bacteria prefer a neutral pH, whereas moulds and yeasts tolerate acidic conditions.",
-        "Time: micro-organisms need time to multiply; some bacteria can double in number in about 20 minutes under ideal conditions."
-      ]
+        "Food: micro-organisms need nutrients, particularly protein and carbohydrate, as a source of energy and for building new cells.",
+        "Moisture: their chemical reactions and nutrient absorption take place in solution, so dry foods support little growth and high-moisture foods are high risk.",
+        "Warmth: most spoilage and poisoning micro-organisms multiply fastest in the danger zone (5 to 63 °C), while cold slows growth, freezing stops it without killing them, and heat kills them.",
+        "Oxygen: aerobic micro-organisms such as moulds need oxygen, while anaerobic bacteria grow in sealed packs from which oxygen is absent, and facultative ones can adapt to either.",
+        "pH (how acid or alkaline food is): most bacteria prefer a near-neutral pH, whereas moulds and yeasts tolerate acid. Lactic acid bacteria are an exception because they tolerate acid, but strongly acidic foods are generally safer.",
+        "Time: micro-organisms need time to multiply, and some bacteria can double in number in about 20 minutes under ideal conditions (binary fission, where one cell divides into two)."
+      ],
+      "tip": "Name two to four conditions and give the reason with each. Moisture is rewarded for reactions and absorption taking place in solution, and warmth for most micro-organisms multiplying in the danger zone."
     },
     {
-      "h": "Principles of control: destroying micro-organisms",
-      "b": "Control of spoilage works either by destroying micro-organisms or by restricting one of the conditions they need.",
+      "h": "Principles of control: destroying micro-organisms and keeping them out",
+      "b": "Control of spoilage works either by destroying micro-organisms, keeping them away from food, or restricting one of the conditions they need. The first two principles deal with the micro-organisms themselves.",
       "points": [
-        "Heat treatments kill micro-organisms: cooking, pasteurisation, which uses a lower temperature for a set time, and sterilisation, which destroys all micro-organisms and their spores.",
+        "Heat treatments kill micro-organisms: cooking, pasteurisation, which uses a lower temperature for a set time, and sterilisation, which destroys all micro-organisms and their spores. Canning and bottling also use heat.",
         "Irradiation destroys micro-organisms and parasites in food by exposing it to controlled radiation, without making the food radioactive.",
-        "Irradiation can extend shelf life and slow ripening and sprouting in fruit and vegetables, with little effect on colour, flavour or texture."
-      ]
+        "Irradiation can extend shelf life and slow ripening and sprouting in fruit and vegetables, with little effect on colour, flavour or texture.",
+        "Preventing micro-organisms reaching the food in the first place uses hygiene, clean equipment, covering food, sealed packaging, sterile containers and separating raw and cooked food."
+      ],
+      "tip": "Pasteurisation does not sterilise: it destroys pathogens and many spoilage organisms, not all. Heat is the only home method that actually destroys micro-organisms, because freezing does not."
     },
     {
       "h": "Principles of control: restricting growth",
+      "b": "The other principles leave micro-organisms alive but take away something they need. Most foods use more than one, and applying each to a named food is the usual exam task.",
       "points": [
-        "Low temperature: refrigeration slows the growth of micro-organisms, and freezing inactivates them without destroying them.",
-        "Removing moisture: drying, salting and sugaring reduce the water available to micro-organisms.",
-        "Acidity: pickling in vinegar, or adding lemon juice, lowers the pH to a level that most bacteria cannot tolerate.",
-        "Removing oxygen: vacuum packing and canning exclude air, preventing growth of aerobic micro-organisms.",
-        "Preservatives: chemicals such as sulphur dioxide and benzoates inhibit the growth of micro-organisms."
-      ]
+        "Low temperature: refrigeration slows the growth of micro-organisms, and freezing inactivates them without destroying them, so growth resumes on thawing.",
+        "Removing moisture: drying, salting, sugaring and concentrating reduce the water available to micro-organisms. Dissolved salt or sugar draws water out of microbial cells by osmosis, which dehydrates them.",
+        "Acidity: pickling in vinegar, or adding lemon juice, lowers the pH to a level that most bacteria cannot tolerate. Chutney and fermentation acids work the same way.",
+        "Removing oxygen: vacuum packing and canning exclude air, preventing growth of aerobic micro-organisms, and modified-atmosphere packs replace the air around the food.",
+        "Preservatives: chemicals such as sulphur dioxide, benzoates and nitrites inhibit the growth of micro-organisms. Natural preservatives are salt, sugar, vinegar, alcohol and smoke.",
+        "Combining principles: jam, for example, uses heat, sugar, acid and sealing together, so several principles protect the same food."
+      ],
+      "tip": "When asked how a food is protected, say which principle applies (destroy, exclude, dry, cool, acidify, remove air or add a preservative) and the reason it works. Freezing only stops growth; it does not kill."
     }
   ],
   "keyTerms": [

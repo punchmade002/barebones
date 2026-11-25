@@ -4,68 +4,114 @@
   "subsection": "2. Motivation and appraisal",
   "syllabusRef": "3.2.4, 3.2.5, 3.2.6",
   "notes": [
-    { "h": "Motivation and why it matters", "b": "Motivation is the drive that makes employees willing to put effort into their work, and it affects performance, commitment and retention.", "points": [
-      "Motivated employees tend to be more productive and more committed to the organisation, and they are less likely to leave, which lowers recruitment and training costs.",
-      "Intrinsic motivation comes from within the person, such as enjoyment of the work, a sense of achievement or personal growth.",
-      "Extrinsic motivation comes from outside the person, such as pay, bonuses, promotion or praise from a manager.",
-      "Intrinsic motivation tends to last longer, while extrinsic rewards can lose their effect if they become expected or do not match the effort required."
-    ] },
-    { "h": "Financial motivators", "b": "Financial rewards are the most visible motivators, but their effect depends on fairness and on how clearly they link to performance.", "points": [
-      "Pay is the basic reward for the work, and a rate that employees see as unfair can cause dissatisfaction even when other motivators are strong.",
-      "Bonuses reward individual or team results over a set period, so they link pay directly to performance.",
-      "Profit-sharing gives employees a share of the business's profits, which can encourage a sense of shared ownership of results.",
-      "Share schemes give employees part-ownership of the company, which can align their interests with its long-term growth.",
-      "Benefits such as pension contributions, health insurance or a company car add value beyond basic pay and help attract and keep staff."
-    ] },
-    { "h": "Non-financial motivators", "b": "Non-financial motivators address needs such as recognition, growth and a sense of meaning in work.", "points": [
-      "Recognition, such as public praise or a thank-you for good work, makes employees feel valued at little or no direct cost.",
-      "Responsibility, such as leading a project, shows employees that they are trusted and gives them ownership of outcomes.",
-      "Job enrichment adds more varied and skilled tasks to a role, which increases its challenge and interest.",
-      "Job rotation moves employees between tasks or departments, which reduces monotony and builds new skills.",
-      "Flexible work arrangements, such as flexible hours or remote working, help employees balance work with other responsibilities.",
-      "Teamwork, a positive culture and clear career progression give people a sense of belonging and a route to advancement."
-    ] },
-    { "h": "Factors that affect motivation", "b": "The effect of any motivator depends on the individual and the context in which they work.", "points": [
-      "Individual needs and values differ, so a reward that motivates a young employee seeking progress may not motivate an experienced employee who values stability.",
-      "Perceived fairness matters: employees compare their rewards with those of colleagues, and a sense of unfairness reduces effort.",
-      "The quality of the relationship with the line manager shapes motivation, since employees who feel supported tend to work harder.",
-      "The nature of the job, including its variety, autonomy and meaning, determines how motivating the work itself is.",
-      "Clear goals and regular feedback show employees how their effort contributes, which strengthens motivation.",
-      "Workplace conditions such as safety, job security and the physical environment set a baseline, and poor conditions can demotivate even well-paid staff."
-    ] },
-    { "h": "The purpose and features of appraisal", "b": "Appraisal is a formal review of an employee's performance, used to recognise achievement, identify development needs and plan future work.", "points": [
-      "Its purposes include reviewing performance against agreed objectives, identifying training needs, setting goals and informing decisions on pay and promotion.",
-      "Effective appraisal uses clear, agreed criteria so that the employee knows what good performance looks like.",
-      "Effective appraisal is regular rather than a single annual event, so problems are addressed early.",
-      "Effective appraisal is two-way: the employee contributes their own view rather than only receiving the manager's judgement.",
-      "Effective appraisal is fair and consistent, applying the same standards to all employees.",
-      "Effective appraisal links to development, producing a clear plan for training or career progression."
-    ] },
-    { "h": "Self-appraisal, formative and summative appraisal", "b": "Each approach serves a different purpose and has a different effect on motivation.", "points": [
-      "Self-appraisal: the employee assesses their own performance against agreed criteria before or during the review, which builds ownership and shows the manager how the employee sees their work.",
-      "Self-appraisal encourages reflection and involvement, and it can make the review discussion more open.",
-      "Self-appraisal can be distorted, because employees may over-rate or under-rate themselves, so the manager must check the self-assessment against evidence.",
-      "Formative appraisal is an ongoing, developmental process that gives regular feedback and guidance so the employee can improve during the year.",
-      "Formative appraisal supports learning and motivates by showing progress, but it takes time, and without follow-up it can become informal and unrecorded.",
-      "Summative appraisal is a formal judgement at the end of a period on overall performance, often used for decisions on pay, promotion or continued employment.",
-      "Summative appraisal provides a clear, documented record that supports fair decisions, but it looks backward, can create anxiety and may demotivate employees who receive a low rating."
-    ] },
-    { "h": "360-degree appraisal", "b": "The 360-degree approach collects feedback from the people around the employee, giving a broad view of performance and behaviour.", "points": [
-      "Sources of feedback typically include the line manager, peers, subordinates, customers and the employee's own self-assessment.",
-      "Feedback is usually collected through anonymous questionnaires, which are then summarised for the employee and the manager.",
-      "It shows how the employee is seen from several angles, which helps reveal blind spots in leadership and teamwork.",
-      "It can motivate by recognising contributions from colleagues that a single manager might not see.",
-      "It is time-consuming and costly to administer, and the results can be hard to interpret without training.",
-      "Anonymous comments can be unfair or politically motivated, and critical feedback can demotivate if it is not handled sensitively.",
-      "Its effect on motivation depends on follow-up, and it works best when it leads to a development plan rather than to blame."
-    ] },
-    { "h": "Risks of poor appraisal", "b": "The way appraisal is run determines whether it motivates or demotivates.", "points": [
-      "Vague criteria or no follow-up leave employees unclear about expectations and uncertain about their future.",
-      "Appraisals that focus only on faults reduce confidence and lower engagement.",
-      "Inconsistent appraisal between managers makes staff feel decisions are unfair, which weakens trust in the process.",
-      "An appraisal never linked to development or reward can become a box-ticking exercise that employees see as pointless.",
-      "Combining approaches, such as formative reviews through the year with a summative review at the end, balances development with accountability."
-    ] }
+    {
+      "h": "Motivation and why it matters",
+      "b": "Motivation is the internal and external forces that make an employee willing to put effort into work. It matters because it shapes how well people perform, how committed they are and whether they stay.",
+      "points": [
+        "Motivated employees tend to be more productive and more committed to the organisation, and they are less likely to leave, which lowers recruitment and training costs.",
+        "Intrinsic motivation comes from within the person, such as enjoyment of the work, a sense of achievement or personal growth.",
+        "Extrinsic motivation comes from outside the person, such as pay, bonuses, promotion or praise from a manager.",
+        "Intrinsic motivation tends to last longer, because the satisfaction comes from the work itself. Extrinsic rewards can lose their effect if they become expected or do not match the effort required.",
+        "The two categories overlap with financial and non-financial rewards. A bonus is financial and extrinsic, recognition is non-financial and often extrinsic, and enjoying the work is intrinsic."
+      ],
+      "tip": "Do not mix up intrinsic and extrinsic motivation with financial and non-financial motivators. Check which pair the question is asking about before you classify an example."
+    },
+    {
+      "h": "Financial motivators",
+      "b": "Financial motivators reward employees with money or money's worth. They are the most visible motivators, but their effect depends on fairness and on how clearly they link to performance.",
+      "points": [
+        "Pay is the basic reward for the work, and a rate that employees see as unfair can cause dissatisfaction even when other motivators are strong. Pay and conditions are set in the contract of employment.",
+        "Bonuses reward individual or team results over a set period, so they link pay directly to performance. An example is a retailer that gives a quarterly bonus.",
+        "Profit-sharing gives employees a share of the business's profits, which can encourage a sense of shared ownership of results.",
+        "Share schemes give employees part-ownership of the company, which can align their interests with its long-term growth.",
+        "Benefits such as pension contributions, health insurance or a company car add value beyond basic pay and help attract and keep staff."
+      ],
+      "tip": "Link motivators to the employees in the case, such as their age, role and sector. A common mistake is listing pay only, when a mix of financial and non-financial rewards usually works better than one."
+    },
+    {
+      "h": "Non-financial motivators",
+      "b": "Non-financial motivators meet needs money cannot, such as recognition, growth and a sense of meaning in work. Many cost little or nothing, which makes them useful for any business.",
+      "points": [
+        "Recognition, such as public praise or a thank-you for good work, makes employees feel valued at little or no direct cost.",
+        "Responsibility, such as leading a project, shows employees that they are trusted and gives them ownership of outcomes.",
+        "Job enrichment adds more varied and skilled tasks to a role, which increases its depth, challenge and interest.",
+        "Job rotation moves employees between tasks or departments, which reduces monotony and builds new skills. Enrichment adds depth to one role, while rotation moves people between roles.",
+        "Flexible work arrangements, such as flexible hours or remote working, help employees balance work with other responsibilities.",
+        "Teamwork, a positive culture and clear career progression give people a sense of belonging and a route to advancement.",
+        "Wellbeing and sustainable workloads also motivate, because employees who are not overworked can keep up their effort over time."
+      ],
+      "tip": "Keep job enrichment (more varied, skilled tasks) separate from job rotation (moving between tasks). In this context both are motivators, not training methods."
+    },
+    {
+      "h": "Factors that affect motivation",
+      "b": "The same motivator does not work for everyone. Its effect depends on the individual and on the context in which they work, so a manager has to investigate what actually drives each person.",
+      "points": [
+        "Individual needs and values differ, so a reward that motivates a young employee seeking progress may not motivate an experienced employee who values stability.",
+        "Perceived fairness matters: employees compare their rewards with those of colleagues, and a sense of unfairness reduces effort.",
+        "The quality of the relationship with the line manager (the person who supervises and reviews their work) shapes motivation, since employees who feel supported tend to work harder.",
+        "The nature of the job, including its variety, autonomy (freedom to decide how to do the work) and meaning, determines how motivating the work itself is.",
+        "Clear goals and regular feedback show employees how their effort contributes, which strengthens motivation. Feedback is information on how they are doing, so they can keep or change what they do.",
+        "Workplace conditions such as safety, job security and the physical environment set a baseline, and poor conditions can demotivate even well-paid staff."
+      ],
+      "tip": "When asked to investigate or analyse factors, tie each factor to the employees in the case, such as their age or role, rather than listing general factors."
+    },
+    {
+      "h": "The purpose and features of appraisal",
+      "b": "Appraisal is a formal review of an employee's performance, meaning how well they meet the objectives and standards of the role. It is used to recognise achievement, identify development needs and plan future work.",
+      "points": [
+        "Its purposes include reviewing performance against agreed objectives, identifying training needs, setting goals and informing decisions on pay and promotion. It is not used only to decide pay, because development is also a main purpose.",
+        "Effective appraisal uses clear, agreed criteria, such as SMART-style objectives, so that the employee knows what good performance looks like.",
+        "Effective appraisal is regular rather than a single annual event, so problems are addressed early.",
+        "Effective appraisal is two-way: the employee contributes their own view rather than only receiving the manager's judgement, which helps them feel heard and motivated.",
+        "Effective appraisal is fair and consistent, applying the same standards to all employees, so staff trust the outcome.",
+        "Effective appraisal links to development, producing a clear plan for training or career progression, so the review leads to improvement and not just a verdict.",
+        "Ethical appraisal also avoids bias, such as favouring people the manager sees more often, gives honest feedback and keeps results confidential."
+      ],
+      "tip": "If asked to explain two ways to make appraisal effective, give two features, such as clear agreed criteria and two-way discussion, each with a reason and, if possible, an effect on the business. A common mistake is naming approaches such as 360 or summative instead, or naming two ways without explaining them."
+    },
+    {
+      "h": "Self-appraisal, formative and summative appraisal",
+      "b": "Organisations use different approaches to appraisal, and each serves a different purpose and has a different effect on motivation. Self-appraisal is done by the employee, formative appraisal improves performance during the year, and summative appraisal judges it at the end.",
+      "points": [
+        "Self-appraisal: the employee assesses their own performance against agreed criteria before or during the review, which builds ownership and shows the manager how the employee sees their work.",
+        "Self-appraisal encourages reflection and involvement, and it can make the review discussion more open. It motivates by building ownership.",
+        "Self-appraisal can be distorted, because employees may over-rate or under-rate themselves, so the manager must check the self-assessment against evidence.",
+        "Formative appraisal is an ongoing, developmental process that gives regular feedback and guidance so the employee can improve during the year. An example is a manager who holds monthly one-to-one reviews.",
+        "Formative appraisal supports learning and motivates by showing progress, but it takes time, and without follow-up it can become informal and unrecorded.",
+        "Summative appraisal is a formal judgement at the end of a period on overall performance, often used for decisions on pay, promotion or continued employment. It motivates by giving recognition and a link to reward.",
+        "Summative appraisal provides a clear, documented record that supports fair decisions, but it looks backward, can create anxiety and may demotivate employees who receive a low rating."
+      ],
+      "tip": "Do not confuse formative (ongoing, developmental, during the year) with summative (final, judgemental, at the end). Also keep self-appraisal (by the employee) separate from 360-degree appraisal (by many people)."
+    },
+    {
+      "h": "360-degree appraisal",
+      "b": "The 360-degree approach collects feedback from the people around the employee, giving a broad view of performance and behaviour. It is different from self-appraisal, which comes from the employee alone.",
+      "points": [
+        "Feedback comes from several sources, typically the line manager, peers, subordinates, customers and the employee's own self-assessment. It does not come only from the manager.",
+        "Feedback is usually collected through anonymous questionnaires, which are then summarised for the employee and the manager. Many organisations run these surveys on HR software.",
+        "It shows how the employee is seen from several angles, which helps reveal blind spots in leadership and teamwork.",
+        "It can motivate by recognising contributions from colleagues that a single manager might not see, giving wider recognition.",
+        "It is time-consuming and costly to administer, and the results can be hard to interpret without training.",
+        "Anonymous comments can be unfair or politically motivated, and critical feedback can demotivate if it is not handled sensitively. Anonymity must be protected to keep the process ethical.",
+        "Its effect on motivation depends on follow-up, and it works best when it leads to a development plan rather than to blame.",
+        "Employee data used in appraisal falls under the GDPR, Regulation (EU) 2016/679, which has applied since 25 May 2018, so the business must handle results carefully."
+      ],
+      "tip": "For an analyse question on how an approach contributes to motivation, state the approach, one feature, its effect on motivation and one limitation."
+    },
+    {
+      "h": "Risks of poor appraisal",
+      "b": "The way appraisal is run determines whether it motivates or demotivates. Done badly, it can leave staff confused, anxious or cynical.",
+      "points": [
+        "Vague criteria or no follow-up leave employees unclear about expectations and uncertain about their future.",
+        "Appraisals that focus only on faults reduce confidence and lower engagement.",
+        "Inconsistent appraisal between managers makes staff feel decisions are unfair, which weakens trust in the process.",
+        "An appraisal never linked to development or reward can become a box-ticking exercise that employees see as pointless.",
+        "Monitoring software can record employee activity for use in appraisal, but this raises privacy and fairness issues because it judges visible activity rather than results.",
+        "Combining approaches, such as formative reviews through the year with a summative review at the end, balances development with accountability.",
+        "Objectives can include green or social goals, such as sustainability targets, and sustainable workloads help keep appraisal fair to staff."
+      ],
+      "tip": "Poor appraisal and good appraisal are two sides of one process, so link each risk to the feature of effective appraisal that prevents it. Combining formative reviews through the year with a summative review at the end balances development with accountability."
+    }
   ],
   "keyTerms": [
     { "term": "Motivation", "definition": "The internal and external forces that make an employee willing to put effort into their work." },

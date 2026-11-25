@@ -6,46 +6,54 @@
   "notes": [
     {
       "h": "Energy value of protein",
-      "b": "Protein provides energy, but its main role is growth and repair, so it is a supplementary energy source.",
+      "b": "Protein can be burned for energy, but its main jobs are growth and repair, so it is a supplementary (secondary) energy source rather than the body's main fuel.",
       "points": [
-        "Protein provides 17 kJ, or 4 kcal, of energy per gram.",
+        "Protein provides 17 kJ, or 4 kcal, of energy per gram. Energy value is measured in kilojoules (kJ) or kilocalories (kcal).",
         "Carbohydrate provides 16 kJ, or 3.75 kcal, per gram; fat provides 37 kJ, or 9 kcal, per gram; alcohol provides 29 kJ, or 7 kcal, per gram.",
-        "Fat provides more than twice as much energy per gram as protein.",
-        "Protein is used mainly for energy when carbohydrate and fat intake is too low to meet energy needs.",
-        "Surplus protein is used for energy after the body's needs for growth, repair and body proteins are met."
-      ]
+        "Fat provides more than twice as much energy per gram as protein, so a fatty food packs far more energy into the same weight than a lean protein food.",
+        "Protein is used for energy when carbohydrate and fat intake is too low to meet the body's energy needs, because the body then has to burn protein as fuel.",
+        "Surplus protein is used for energy once the body's needs for growth, repair and body proteins are met.",
+        "Protein-sparing: when the diet has enough carbohydrate and fat to supply energy, protein is left free for growth and repair.",
+        "Eating more protein than the body needs does not build extra protein, because surplus amino acids (the units protein is made of) cannot be stored as protein."
+      ],
+      "tip": "If asked for the energy value of protein, give 17 kJ or 4 kcal per gram. Never call protein the body's main fuel: it is a supplementary energy source, supplied when carbohydrate and fat are low. And remember that amino acids are not stored as protein."
     },
     {
       "h": "Contribution to the average diet",
-      "b": "Protein is one of the three nutrients that supply energy, and its contribution depends on how many grams are eaten.",
+      "b": "Protein is one of the three energy-giving nutrients, alongside carbohydrate and fat (alcohol also gives energy). It supplies only part of the total energy in a day's food, and the rest comes mainly from carbohydrate and fat.",
       "points": [
-        "Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol.",
-        "Lean meat and fish supply protein with little energy, because they contain little fat.",
-        "Full-fat milk, cheese and fatty meat supply protein together with considerable fat and therefore more energy.",
-        "Pulses supply protein along with carbohydrate and fibre, and little fat."
+        "Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol energy.",
+        "Lean meat and white fish supply protein with little energy, because they contain little fat.",
+        "Full-fat milk, cheese, fatty meat and nuts supply protein together with considerable fat, and therefore more energy.",
+        "Pulses supply protein along with carbohydrate and fibre, and little fat.",
+        "For healthy eating, choose lean protein foods. Excess energy from any source, including protein foods, can lead to weight gain."
       ]
     },
     {
       "h": "Calculating energy from protein",
+      "b": "The energy a food gets from its protein is worked out from the grams of protein it contains, using the energy value per gram. The total energy of the food then adds the other energy-giving nutrients.",
       "points": [
         "1. Find the grams of protein in the food or portion from its nutrition label or a food composition table.",
         "2. Multiply the grams of protein by 17 kJ, or by 4 kcal, to find the energy in that portion.",
         "Sample data: a portion with 25 g of protein gives 25 x 17 = 425 kJ, or 25 x 4 = 100 kcal.",
         "3. Add the energy from protein, carbohydrate, fat and alcohol to find the total energy of the portion."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the energy from a stated mass of protein. Multiply the grams by 17 kJ or by 4 kcal and show the working."
     },
     {
       "h": "Deamination (Higher Level only)",
-      "b": "Deamination removes the nitrogen from surplus amino acids so that their carbon skeleton can be used for energy.",
+      "b": "The body cannot store protein, so amino acids that are surplus to its needs are broken down in the liver. Deamination removes the nitrogen-containing part, so that what is left can be used for energy.",
       "points": [
         "Amino acids cannot be stored as protein, so surplus amino acids are carried to the liver.",
-        "In the liver, the amino group (NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.",
-        "The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic.",
-        "Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.",
+        "1. In the liver, the amino group (–NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.",
+        "2. The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic and so safe to carry in the blood.",
+        "3. Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.",
         "Adequate fluid intake is needed so that the kidneys can excrete the urea.",
-        "The remaining carbon skeleton, which carries the COOH group, is oxidised in respiration to release energy.",
-        "Surplus carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue."
-      ]
+        "The remaining carbon skeleton, which carries the carboxyl group (–COOH), is oxidised in respiration to release energy (heat and energy).",
+        "The three fates of the carbon skeleton after deamination are energy, glucose or fat. When energy is in surplus, carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue (fatty tissue).",
+        "Diagram: draw a flow chart of the sequence: excess amino acids, liver, NH₂ removed, ammonia, urea, kidneys, urine; and the carbon part going to energy."
+      ],
+      "tip": "Name the liver, ammonia, urea and kidneys, and give them in sequence. Remember that ammonia is the toxic product and urea the safer one, that deamination happens in the liver (the kidneys only excrete the urea), and that the carbon part, not the amino group, is the energy source. Surplus amino acids are not stored as protein. Any fat made from protein comes from the carbon skeleton, when energy is in surplus."
     }
   ],
   "keyTerms": [

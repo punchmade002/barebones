@@ -4,48 +4,127 @@
   "subsection": "3. Sources of finance across the lifecycle: short, medium and long term",
   "syllabusRef": "2.5.2",
   "notes": [
-    { "h": "Short-term finance", "b": "Short-term finance covers day-to-day needs and is normally repaid within a year.", "points": [
-      "A bank overdraft lets a current account go below zero up to an agreed limit, with interest charged only on the amount used.",
-      "The bank can usually ask for an overdraft to be repaid at short notice, so it is a flexible but less secure source.",
-      "Trade credit lets a business pay a supplier after receiving goods, which is free within the agreed period but late payment can damage the relationship and bring charges.",
-      "Accrued expenses are costs such as wages or electricity that are incurred now and paid later, so they give free short-term finance.",
-      "Factoring means selling unpaid customer invoices to a factor for immediate cash, minus a fee, and the factor usually collects the debts.",
-      "Invoice discounting works like factoring, but the business keeps responsibility for collecting from its customers.",
-      "A credit card gives short-term borrowing, but interest on unpaid balances is often high, so it suits small or temporary needs."
-    ] },
-    { "h": "Medium-term finance", "b": "Medium-term finance pays for assets that last a few years, such as vehicles or equipment.", "points": [
-      "A term loan is borrowed for a fixed period, usually from a bank, and repaid in regular instalments of capital and interest.",
-      "Term loans are often secured on business assets, so the lender can take them if repayments are missed.",
-      "Leasing lets a business use an asset, such as a van or machine, by paying regular rentals, and the business does not own the asset.",
-      "Leasing preserves cash for other uses, but total payments can exceed the cost of buying the asset outright.",
-      "Hire purchase is similar to leasing, but the business pays a deposit and instalments and owns the asset once the final payment is made."
-    ] },
-    { "h": "Long-term equity", "b": "Equity is money put into the business by owners or shareholders. It does not have to be repaid, but the providers share control and profit.", "points": [
-      "Owner's equity is capital the owner puts into the business from savings or personal assets.",
-      "Share capital is money raised by issuing shares, so investors become part-owners and may receive dividends.",
-      "Venture capital is equity from specialist investment firms that back high-growth businesses and usually expect a large return and a say in decisions.",
-      "Business angels are wealthy individuals who invest their own money in early-stage businesses, often giving advice as well.",
-      "Retained earnings are profits kept in the business rather than paid out, so they carry no interest and no loss of control."
-    ] },
-    { "h": "Long-term debt and other sources", "b": "Long-term debt is borrowed over several years, while grants and crowdfunding do not add repayment obligations on the same terms.", "points": [
-      "Long-term loans are borrowed over several years and are usually used to fund premises or major expansion.",
-      "Debentures are long-term loans secured on the business's assets, with fixed interest paid to the holders.",
-      "Grants are funds from state agencies or other bodies that do not need to be repaid, but they usually come with conditions; state schemes are covered elsewhere in this course.",
-      "Crowdfunding raises small amounts from many people, either in return for a reward or in exchange for a share of the business."
-    ] },
-    { "h": "Choosing a source", "b": "The best source depends on what the money is for and how much control the owners are willing to give up.", "points": [
-      "Match the term of finance to the purpose: short-term finance for working capital, long-term finance for fixed assets.",
-      "Debt keeps ownership intact, but the fixed interest and repayments are a cash outflow the business must meet even in a weak year.",
-      "Equity brings no obligation to repay or pay interest, but it dilutes ownership and profit for existing owners.",
-      "Start-ups without assets or a trading record often struggle to get bank lending, which pushes them towards equity, grants or crowdfunding.",
-      "Owners weigh cost, control and risk together, so the cheapest source is not always the best one for the business."
-    ] },
-    { "h": "How sources change over the lifecycle", "b": "A business uses different sources as it moves from start-up to growth to maturity.", "points": [
-      "At start-up a business relies on owner's savings, family and friends, micro-loans and grants, because outside investors see a high risk.",
-      "In the growth stage it needs larger sums for expansion, so it turns to venture capital, bank loans and share issues.",
-      "At maturity it can fund most needs from retained earnings and may raise long-term debt or issue shares for large projects.",
-      "A proven track record makes lenders more willing to lend, which reduces the perceived risk for both sides."
-    ] }
+    {
+      "h": "Why a business needs finance, and debt versus equity",
+      "b": "Every business needs money at three points: to start up, to run day to day, and to buy lasting assets and expand. Where that money comes from falls into two families, debt and equity, and almost every source of business finance belongs to one of them.",
+      "points": [
+        "Finance is needed to start up, to fund day-to-day operation (called working capital, the money for wages, stock and bills) and to buy long-lasting assets (fixed assets such as premises and machinery) and expand.",
+        "Debt is borrowed money that must be repaid with interest. Equity is money put in by owners and shareholders, which does not have to be repaid but means the providers share control and profit.",
+        "Security (also called collateral) is an asset the lender can claim if repayments are missed, so a loan backed by security is less risky for the lender.",
+        "A business moves through a life cycle of start-up, growth and maturity, and the sources it can use change as it moves along. This is why the same firm borrows differently at different ages."
+      ],
+      "tip": "Mixing up equity and debt is a common mistake. Equity is not repaid and share capital is not a loan; debt must be repaid with interest."
+    },
+    {
+      "h": "Short-term finance",
+      "b": "Short-term finance covers day-to-day needs and is normally repaid within a year. It suits working capital, because the cash it provides is meant to flow back in quickly from sales.",
+      "points": [
+        "A bank overdraft lets a current account go below zero up to an agreed limit, with interest charged only on the amount used. It is flexible because the business borrows only what it needs on the day.",
+        "The bank can usually ask for an overdraft to be repaid at short notice, so it is a flexible but less secure source of finance for the business.",
+        "Trade credit means paying a supplier after receiving the goods. It is free within the agreed period, but late payment can damage the relationship with the supplier and bring charges.",
+        "Accrued expenses are costs such as wages or electricity that are incurred now and paid later. Because the business holds on to the cash until the bill falls due, they give free short-term finance.",
+        "Factoring means selling unpaid customer invoices to a factor (a finance company) for immediate cash, minus a fee. The factor usually collects the debts from the customers.",
+        "Invoice discounting works like factoring, but the business keeps responsibility for collecting from its customers. The difference from factoring is who chases the customers.",
+        "A credit card gives short-term borrowing, but interest on unpaid balances is often high, so it suits small or temporary needs rather than large sums.",
+        "As of BPFI figures published in May 2026, more than 1.2 billion euro was advanced to Irish businesses through invoice finance at the end of Q4 2025. This shows invoice finance is a real, sizeable option in Ireland."
+      ],
+      "tip": "Keep factoring and invoice discounting apart: with factoring the factor collects the debts, with invoice discounting the business does. Also keep the overdraft (flexible, on the current account) separate from a term loan (fixed instalments)."
+    },
+    {
+      "h": "Trade credit, late payment and fair treatment of suppliers",
+      "b": "Trade credit costs nothing while the agreed period lasts, which makes it tempting to stretch. Paying late, however, has legal and ethical consequences.",
+      "points": [
+        "Irish late-payment law means that paying a supplier late can bring charges, so trade credit is only free while the agreed period is kept.",
+        "Treating suppliers fairly by not paying them late is an ethical point as well as a legal one, because a small supplier can be badly hurt when its cash is held up. Late payment also damages the reputation of the paying firm."
+      ],
+      "tip": "When discussing trade credit, mention that it is free only while the agreed period is kept. This links the source to a legal and ethical point."
+    },
+    {
+      "h": "Medium-term finance",
+      "b": "Medium-term finance pays for assets that last a few years, such as vehicles or equipment. Spreading the payments over the life of the asset means the cost is met as the asset earns its keep.",
+      "points": [
+        "A term loan is borrowed for a fixed period, usually from a bank, and repaid in regular instalments of capital (the amount borrowed) and interest (the cost of borrowing).",
+        "Term loans are often secured on business assets, so the lender can take them if repayments are missed. This lowers the lender's risk and makes the loan easier to get.",
+        "Leasing lets a business use an asset, such as a van or machine, by paying regular rentals, and the business does not own the asset.",
+        "Leasing preserves cash for other uses because there is no large purchase price to pay upfront, but total payments can exceed the cost of buying the asset outright.",
+        "Hire purchase is similar to leasing, but the business pays a deposit and instalments and owns the asset once the final payment is made.",
+        "The difference between leasing and hire purchase is ownership at the end: with leasing the business never owns the asset, with hire purchase it does."
+      ],
+      "tip": "Leasing versus hire purchase is a mix-up students make. Ownership at the end is the distinguishing fact, so state it every time you compare them."
+    },
+    {
+      "h": "Long-term equity",
+      "b": "Equity is money put into the business by owners or shareholders. It does not have to be repaid, but the providers share control and profit, so it comes at a cost to the original owners.",
+      "points": [
+        "Owner's equity is capital the owner puts into the business from savings or personal assets. The owner keeps full control, but the amount is limited by what the owner has.",
+        "Share capital is money raised by issuing shares, so investors become part-owners and may receive dividends (a share of the profit). It is not a loan, so it is never repaid like one.",
+        "Venture capital is equity from specialist investment firms that back high-growth businesses. They usually expect a large return and a say in decisions, because they take a big risk.",
+        "Business angels are wealthy individuals who invest their own money in early-stage businesses, often giving advice as well. This is the difference from venture capital, which comes from specialist firms.",
+        "Retained earnings are profits kept in the business rather than paid out, so they carry no interest and no loss of control. They are profit kept in the business, not cash set aside in a bank account."
+      ],
+      "tip": "Keep venture capital (specialist firms, high-growth businesses) apart from business angels (wealthy individuals, early stage). Debentures are loans with fixed interest, while shares give ownership and dividends."
+    },
+    {
+      "h": "Long-term debt, grants and crowdfunding",
+      "b": "Long-term debt is borrowed over several years and must be repaid. Grants and crowdfunding are different: a grant is not a loan, and crowdfunding spreads the funding across many people.",
+      "points": [
+        "Long-term loans are borrowed over several years and are usually used to fund premises or major expansion, because these assets last a long time and cost too much for short-term finance.",
+        "Debentures are long-term loans with fixed interest paid to the holders, usually secured on the business's assets. The word usually matters, because a debenture can be unsecured.",
+        "Grants are funds from state agencies or other bodies that do not need to be repaid, but they usually come with conditions. A grant is not a loan.",
+        "Crowdfunding raises small amounts from many people, usually online, either in return for a reward or in exchange for a share of the business.",
+        "Micro-loans are small loans for businesses that struggle to get funding. As of 2026, Microfinance Ireland offers unsecured business loans up to 50,000 euro to microenterprises (fewer than 10 employees, annual turnover under 2 million euro)."
+      ],
+      "tip": "Do not say that debentures are always secured. Write usually secured on the business's assets."
+    },
+    {
+      "h": "Cost, control and security of each source",
+      "b": "Each source can be described by what it is, what it costs, how much control the provider gets, and whether it is backed by security. Setting these side by side is how you judge a source for a particular firm.",
+      "points": [
+        "Free or cheap sources are trade credit within the agreed period and accrued expenses, because the business pays no interest. Overdrafts and credit cards cost interest only on what is used or left unpaid.",
+        "Factoring costs a fee, deducted from the cash the business receives, because the business gets its money early rather than waiting for customers to pay.",
+        "Term loans, long-term loans and debentures cost interest and must be repaid, but the lenders do not take ownership. They are often secured on assets, so the lender can take those assets if repayments are missed.",
+        "Share capital, venture capital and business angels cost a share of profit and give up some control, but they carry no repayment obligation and no security is needed.",
+        "Retained earnings cost no interest and give up no control, so they are a low-cost long-term source. Grants need not be repaid, but usually come with conditions.",
+        "Owner's equity keeps the owner in full control, but it is limited by the savings the owner has. Leasing and hire purchase preserve cash but cost more in total than buying outright."
+      ],
+      "tip": "When asked to explain or discuss a source, cover cost, control, risk or security and the term, then give a balanced conclusion for the firm in the question. A common mistake is giving only the advantages or only the definition."
+    },
+    {
+      "h": "Choosing a source",
+      "b": "The best source depends on what the money is for and how much control the owners are willing to give up. No source is best for every business.",
+      "points": [
+        "Match the term of finance to the purpose: short-term finance for working capital, long-term finance for fixed assets. Using an overdraft to buy premises is a common mistake, because the bank can ask for repayment at short notice.",
+        "Debt keeps ownership intact, but the fixed interest and repayments are a cash outflow the business must meet even in a weak year.",
+        "Equity brings no obligation to repay or pay interest, but it dilutes ownership and profit for existing owners, because the new investors get a share of both.",
+        "Start-ups without assets or a trading record often struggle to get bank lending, because the lender has no security and no evidence of repayment. This pushes them towards equity, grants or crowdfunding.",
+        "Owners weigh cost, control and risk together, so the cheapest source is not always the best one for the business."
+      ],
+      "tip": "Exams are likely to give a business's situation (age, size, need) and ask which source suits and why. For an identify question, give the source, its term (short, medium or long) and one reason it fits that firm."
+    },
+    {
+      "h": "How sources change over the lifecycle",
+      "b": "A business uses different sources as it moves from start-up to growth to maturity. The reason is mostly risk: lenders and investors judge how likely they are to get their money back.",
+      "points": [
+        "At start-up a business relies on owner's savings, family and friends, micro-loans and grants, because outside investors see a high risk and there is no trading record.",
+        "In the growth stage it needs larger sums for expansion, so it turns to venture capital, bank loans and share issues.",
+        "At maturity it can fund most needs from retained earnings, because profits are steady, and may raise long-term debt or issue shares for large projects.",
+        "A proven track record makes lenders more willing to lend, which reduces the perceived risk for both sides."
+      ],
+      "tip": "For a lifecycle answer, give the stage, the source and the reason (how risky lenders see the firm, the size of the sum, the track record). A common mistake is naming sources for a stage without the reason investors or lenders behave that way."
+    },
+    {
+      "h": "Ethical, sustainability and digital angles on finance",
+      "b": "Where finance comes from raises ethical questions, increasingly depends on a business's environmental record, and is now often arranged online.",
+      "points": [
+        "Ethical: a business should be honest in what it discloses to lenders and investors. Some investors also prefer ethical or sustainable businesses.",
+        "Sustainability: lenders and investors increasingly ask about a firm's ESG performance. ESG stands for environmental, social and governance.",
+        "Finance can be raised to fund energy-efficient or low-carbon investment, which helps the business cut its environmental impact.",
+        "Leasing equipment can support reuse and a circular economy, which is a model of production and consumption that extends the life cycle of products, reduces waste, and creates further value.",
+        "Digital: fintech is the use of technology to deliver financial services and products to consumers. It lets businesses apply for loans, invoice finance and crowdfunding online, with faster decisions.",
+        "The risks of digital finance are unfamiliar online lenders and fraud, so a business should check who it is dealing with before sharing financial details."
+      ],
+      "tip": "Where the question allows, add an ethical, ESG or digital point, for example online lending, crowdfunding or sustainability-linked investment."
+    }
   ],
   "keyTerms": [
     { "term": "Bank overdraft", "definition": "An agreed facility that lets a current account go below zero up to a set limit, with interest charged only on the amount used." },

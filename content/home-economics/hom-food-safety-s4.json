@@ -5,41 +5,71 @@
   "syllabusRef": "1.3.8",
   "notes": [
     {
-      "h": "Fermentation and dairy products",
-      "b": "Fermentation is the breakdown of organic substances, such as sugars, by bacteria or yeast. It is used to make many foods.",
+      "h": "What fermentation is",
+      "b": "Not all micro-organisms spoil food. Some are added on purpose, because their feeding changes the food in useful ways, and this process is called fermentation.",
       "points": [
-        "Starter cultures: bacteria added to milk to begin fermentation; the lactic acid they produce sets the curd in cheese-making.",
-        "Lactic acid bacteria ferment the lactose in milk, giving cheese and yoghurt their sour flavour and texture.",
-        "Yoghurt is made by fermenting milk with Lactobacillus bulgaricus and Streptococcus thermophilus.",
-        "Probiotic yoghurts contain live bacteria that may benefit the intestinal flora when eaten.",
-        "Blue-veined cheese: the mould Penicillium roqueforti grows through the cheese, producing blue-green veins and flavour; Cashel Blue, made in Co. Tipperary, is an Irish example."
-      ]
+        "Fermentation is the breakdown of organic substances, such as sugars, by bacteria or yeast, usually in the absence or shortage of oxygen. It is used to make many foods.",
+        "The by-products of fermentation include carbon dioxide, energy, acids (such as lactic acid and acetic acid) and alcohol, which is why fermented foods taste and behave differently from the raw ingredients.",
+        "In lactic acid fermentation, bacteria turn sugars such as lactose (the sugar in milk) into lactic acid. This is the basis of yoghurt and cheese.",
+        "In alcoholic fermentation, yeast turns sugars into alcohol and carbon dioxide. This is the basis of bread, beer and wine."
+      ],
+      "tip": "If asked to define fermentation, say it is the breakdown of organic substances by bacteria or yeast, and name two by-products, such as carbon dioxide and alcohol or lactic acid."
     },
     {
-      "h": "Yeasts in bread, beer and wine",
+      "h": "Lactic acid bacteria in cheese and yoghurt",
+      "b": "Milk contains the sugar lactose, which lactic acid bacteria feed on. Their acid changes the milk's flavour and texture, which is how milk becomes cheese or yoghurt.",
       "points": [
-        "In bread-making, yeast ferments sugars in the dough, producing carbon dioxide that makes the dough rise.",
-        "Alcohol produced in the dough evaporates during baking.",
-        "In brewing, yeast ferments the sugars in malted barley to produce alcohol and carbon dioxide.",
-        "In wine-making, yeast ferments the sugars in grape juice into alcohol.",
-        "Vinegar is made by acetic acid bacteria, such as Acetobacter, which oxidise alcohol into acetic acid."
-      ]
+        "Starter cultures are lactic acid bacteria added to milk to begin fermentation. They ferment the lactose in milk into lactic acid, giving cheese and yoghurt their sour flavour and texture.",
+        "In cheese-making, the lactic acid works together with rennet to curdle the milk and set the curd, so acid on its own is not enough. Ripening by further bacteria or moulds then develops the flavour.",
+        "Yoghurt is made by fermenting milk, typically with Lactobacillus bulgaricus and Streptococcus thermophilus. The lactose becomes lactic acid, so the milk thickens and tastes sour. Some yoghurts add other strains.",
+        "Probiotic (functional) yoghurts and drinks contain live bacteria that may benefit the intestinal flora (the helpful bacteria living in the gut) when eaten, so they are examples of functional foods."
+      ],
+      "tip": "Cheese and yoghurt use bacteria, not yeast; bread uses yeast. For cheese, write lactic acid together with rennet, because the acid alone does not set the curd."
     },
     {
-      "h": "Bacteria and moulds in meat, sauces and novel foods",
+      "h": "Moulds in cheese and soy sauce",
+      "b": "Moulds are fungi that grow as fine threads. In a few foods a particular mould is added deliberately, and each gives the food its own flavour.",
       "points": [
-        "Salami and chorizo are made by adding bacterial cultures to cured meat, which ferment its sugars and flavour the product.",
-        "Soy sauce is produced by the mould Aspergillus oryzae, which breaks down soya protein and starch by fermentation.",
-        "Quorn is a meat substitute made from mycoprotein, which is grown by fermentation of the fungus Fusarium venenatum.",
-        "Mycoprotein is a novel protein food produced by fermentation rather than from animals."
-      ]
+        "Blue-veined cheese: the mould Penicillium roqueforti grows through the cheese, producing blue-green veins and a sharp flavour. Cashel Blue, made in Co. Tipperary, is an Irish example; Roquefort and Stilton are others.",
+        "Surface-ripened soft cheese: Penicillium camemberti grows on the outside and gives the white rind of Camembert and Brie.",
+        "Soy sauce is produced by the mould Aspergillus oryzae, which breaks down the protein and starch in soya beans by fermentation, giving the sauce its savoury flavour."
+      ],
+      "tip": "When asked for a use of moulds, give the mould, what it does and the food, for example Penicillium roqueforti giving the blue veins in blue cheese."
     },
     {
-      "h": "Edible fungi and micro-organisms as supplements",
+      "h": "Yeast in bread, beer and wine",
+      "b": "Yeast is a single-celled fungus, not a bacterium. It ferments sugar into alcohol and carbon dioxide, and different foods make use of different parts of that result.",
       "points": [
+        "In bread-making (including sourdough), yeast ferments the sugars in the dough and produces carbon dioxide, which makes the dough rise. This is why yeast is called a biological raising agent.",
+        "The alcohol produced in the dough evaporates during baking, so bread is not alcoholic.",
+        "In brewing, yeast ferments the sugars in malted barley (barley that has been germinated) to produce alcohol and carbon dioxide, giving beer.",
+        "In wine-making, yeast ferments the sugars in grape juice into alcohol. Spirits are distilled from fermented liquids.",
+        "Vinegar is made by acetic acid bacteria, such as Acetobacter, which oxidise (add oxygen to) alcohol to form acetic acid."
+      ],
+      "tip": "Name yeast, not bacteria, for bread, beer and wine. Remember that Acetobacter is the organism that makes vinegar, by changing alcohol into acetic acid."
+    },
+    {
+      "h": "Bacteria and fungi in meat, supplements and novel foods",
+      "b": "Micro-organisms are also used in meat products and as foods in their own right. Some provide protein or vitamins rather than flavour.",
+      "points": [
+        "Salami, pepperoni and chorizo are made by adding bacterial starter cultures to cured meat. The bacteria ferment its sugars to lactic acid, which flavours the product and helps to preserve it.",
+        "Quorn is a meat substitute made from mycoprotein, which comes from the fungus Fusarium venenatum grown by fermentation in large fermenters. It is high in protein and fibre and low in saturated fat.",
+        "Mycoprotein is a novel protein food, meaning a new kind of food produced by fermentation rather than from animals. It is from a fungus, not from yeast, bacteria or plants.",
         "Mushrooms and truffles are large fungi that are eaten directly as food.",
-        "Yeast extracts and yeast-based food supplements are used as sources of B vitamins."
-      ]
+        "Yeast extracts and yeast-based food supplements are used as sources of B vitamins, and bacteria are also used in food supplements."
+      ],
+      "tip": "For one use each of moulds, yeast and large fungi, give for example cheese, bread, beer or wine, and mushrooms, truffles or Quorn."
+    },
+    {
+      "h": "Why micro-organisms are used in food production",
+      "b": "Using micro-organisms on purpose gives foods qualities that the raw ingredients do not have.",
+      "points": [
+        "Fermentation adds flavour and changes texture, for example the sourness of yoghurt, the veins of blue cheese and the rise of bread dough.",
+        "Fermented foods can have a longer keeping time, because acids such as lactic acid and acetic acid are produced, for example in salami and vinegar.",
+        "Micro-organisms improve nutritional value, since yeast extracts supply B vitamins and mycoprotein supplies protein.",
+        "They add variety to the diet, from cheeses, yoghurts and breads to meat substitutes such as Quorn."
+      ],
+      "tip": "When asked to outline uses of micro-organisms, each use needs the organism, what it does and the food it makes."
     }
   ],
   "keyTerms": [
@@ -82,8 +112,8 @@
       "definition": "Raising bread, brewing beer and making wine."
     },
     {
-      "term": "Two bacteria used to make yoghurt",
-      "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus."
+      "term": "Two bacteria typically used to make yoghurt",
+      "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus; some yoghurts add other strains."
     },
     {
       "term": "Mould used to make blue-veined cheese",

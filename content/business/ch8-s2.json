@@ -6,93 +6,125 @@
   "notes": [
     {
       "h": "Business models and value",
-      "b": "A business model describes how a business creates value, delivers it to customers and captures part of that value as income.",
+      "b": "A business model describes how a business operates and creates, delivers and captures value in economic, social and cultural contexts. It is the answer to the question 'how does this business actually work and make money?'",
       "points": [
-        "Value creation: the business transforms inputs such as materials, skills and knowledge into products or services that customers want.",
-        "Value delivery: the business gets the product or service to customers through chosen channels and relationships.",
-        "Value capture: the business earns income from customers that is enough to cover its costs and leave a profit.",
+        "Value creation: the business transforms inputs such as materials, skills and knowledge into products or services that customers want. Without this step there is nothing worth buying.",
+        "Value delivery: the business gets the product or service to customers through chosen channels (the routes it uses to reach them) and relationships. A good product that never reaches the customer creates no income.",
+        "Value capture: the business earns income from customers that is enough to cover its costs and leave a profit. Revenue is the income earned from customers, and costs are what the business spends.",
+        "Value is created for the enterprise and for its customers, and the glossary also frames it in social and cultural terms, not only money. For example, a customer may value a product for how it is made as well as what it does.",
         "The model generates the income that sustains the enterprise, so a weak model cannot succeed even when the product itself is good."
-      ]
+      ],
+      "tip": "When asked what a business model is, give the definition and use the phrase 'create, deliver and capture value'. A common mistake is confusing the model with the whole business plan."
     },
     {
       "h": "Role of the model in the business plan",
-      "b": "The business model is the core logic that the business plan turns into operational detail and financial forecasts.",
+      "b": "A business plan is the written document that sets out a business's goals, methods and resources. The business model is one element within it: the core logic that the plan then turns into operational detail and financial forecasts.",
       "points": [
-        "The business plan explains the model in full, and the financial plan tests whether its revenue streams cover its cost structure.",
-        "The canvas sketches the model on one page, which makes it easier to discuss with investors, staff and advisers.",
+        "The plan explains the model in full, and the financial plan tests whether its revenue streams (the sources of income) cover its cost structure (the main costs of running the business).",
+        "The model explains how the firm makes money and delivers value, while the plan covers the whole business, including market, marketing, operations, finance and risk. This is why the model is only one element within the plan.",
+        "The canvas sketches the model on one page, which makes it easier to discuss with investors, staff and advisers than a long document.",
         "Changing one element of the model, such as the sales channel, affects costs, customer relationships and revenue, so the plan must be updated to match."
-      ]
+      ],
+      "tip": "A full answer on the role of the model gives the definition, says the model is one element within the plan, and gives an effect: the plan turns the model into operations and finance."
     },
     {
       "h": "The canvas as a tool",
-      "b": "The business model canvas is a one-page tool with nine linked blocks that describe how an enterprise creates, delivers and captures value.",
+      "b": "The business model canvas is a tool used to map out a business model. It is a one-page layout of nine linked blocks that describe how an enterprise creates, delivers and captures value.",
       "points": [
         "The canvas is built around the customer and the offer, with the blocks grouped into the customer side, the infrastructure that supports the offer, and the financial side.",
-        "Because the blocks are linked, a change in one block, such as a new supplier, is traced through the others to see its full effect.",
-        "The canvas is a starting point for analysis rather than a finished plan, so it is revised as the business learns from customers."
-      ]
+        "The nine blocks are customer segments, value proposition, channels, customer relationships, key resources, key activities, key partners, revenue streams and cost structure.",
+        "Because the blocks are linked, a change in one block, such as a new supplier, is traced through the others to see its full effect. For example, a cheaper supplier changes the cost structure and may also change the value proposition.",
+        "The canvas is a starting point for analysis rather than a finished plan, so it is revised as the business learns from customers.",
+        "The canvas can be built and shared in digital tools, so a team in different places can edit the same version and keep it up to date."
+      ],
+      "tip": "In applied questions, if something happens in a business (a new supplier, a move online), name the block that changes and trace the effect through the linked blocks. A common mistake is treating the blocks as unrelated."
     },
     {
       "h": "Customer side: four blocks",
       "b": "The customer-side blocks describe who the business serves, what it offers them and how it reaches and keeps them.",
       "points": [
-        "Customer segments: the distinct groups of people or organisations the business aims to serve, such as students, families or small firms.",
-        "Value proposition: the bundle of products and services that solves a customer problem or meets a need, and the reason customers choose it, such as a fast, cheap commute.",
+        "Customer segments: the distinct groups of people or organisations the business aims to serve, such as students, families or small firms. A segment is simply a group with shared needs.",
+        "Value proposition: the bundle of products and services that solves a customer problem or meets a need, and the reason customers choose it, such as a fast, cheap commute. It answers 'why would a customer choose this?'",
+        "The value proposition is not the same as the product. The product is what is sold; the value proposition is why the customer would choose it.",
         "Channels: the ways the business communicates with customers and delivers the offer, such as shops, a website, an app or a sales team.",
-        "Customer relationships: the type of relationship kept with each segment, such as personal advice, self-service or a loyalty scheme."
-      ]
+        "Customer relationships: the type of relationship kept with each segment, such as personal advice, self-service or a loyalty scheme.",
+        "Channels are how the offer reaches customers, whereas customer relationships are the type of contact kept once they are customers. Digital channels such as a website or app can lower distribution costs and make relationships self-service."
+      ],
+      "tip": "Always pair a block with its example, and keep channels (how the offer reaches customers) separate from customer relationships (the type of contact kept)."
     },
     {
       "h": "Infrastructure: three blocks",
-      "b": "The infrastructure blocks describe what the business needs in order to deliver its offer.",
+      "b": "The infrastructure blocks describe what the business needs in order to deliver its offer: the things it owns, the things it does and the outsiders it relies on.",
       "points": [
         "Key resources: the assets needed to deliver the value proposition, such as premises, staff, technology, patents or capital; a bakery needs its ovens and skilled bakers.",
         "Key activities: the most important things the business must do to make the model work, such as production, software development or distribution; a courier firm's key activity is route planning.",
-        "Key partners: the suppliers and outside organisations whose help the business relies on, such as outsourced providers and alliances; a food brand may rely on a co-packer."
-      ]
+        "Key partners: the suppliers and outside organisations whose help the business relies on, such as outsourced providers and alliances; a food brand may rely on a co-packer (a company that makes and packs its products for it).",
+        "To keep the three apart, ask: is it something the firm has (a resource), something the firm does (an activity), or an outside organisation it depends on (a partner)?"
+      ],
+      "tip": "A common mistake is mixing key resources with key activities. Resources are assets, activities are actions, and partners are other organisations."
     },
     {
       "h": "Financial side: two blocks and the test of viability",
-      "b": "The financial blocks show how income is earned and what it costs, and their balance decides whether the model is sound.",
+      "b": "The financial blocks show how income is earned and what it costs, and their balance decides whether the model is sound. A business is viable when its revenue exceeds its costs over time.",
       "points": [
         "Revenue streams: the sources of income from each customer segment, such as sales, subscriptions, fees or advertising; a gym earns from memberships and personal training.",
         "Cost structure: the main costs of running the model, such as wages, rent, materials, marketing and finance costs; a shop's cost structure is dominated by rent and stock.",
-        "A model is financially sound when its revenue streams exceed its cost structure by enough to sustain the business over time."
-      ]
+        "Revenue streams are income and cost structure is spending, so the two blocks are read against each other.",
+        "A model is financially sound when its revenue streams exceed its cost structure by enough to sustain the business over time. The financial plan tests this."
+      ],
+      "tip": "When you complete or check a canvas, always check that revenue exceeds cost before you call the model sound."
+    },
+    {
+      "h": "Skills: completing a canvas",
+      "b": "Completing a canvas works best in a set order, because the customer and the offer come first and everything else is built to support them.",
+      "points": [
+        "1. Start with customer segments and the value proposition: who is served, and why would they choose this offer?",
+        "2. Add channels and customer relationships: how will the offer reach each segment, and what kind of contact will be kept?",
+        "3. Add revenue streams: where will the income from each segment come from?",
+        "4. Add key resources, key activities and key partners: what must the business own, do and rely on to deliver the offer?",
+        "5. Add the cost structure: what will the resources, activities and partners cost to run?",
+        "6. Check the financial test: do the revenue streams exceed the cost structure by enough to sustain the business?",
+        "7. Revise: change the blocks as the business learns from customers, tracing each change through the linked blocks."
+      ],
+      "tip": "In an applied question, fill in blocks from the stimulus about the business and write a short fact or example for each block. A short list is enough when you are asked to identify."
     },
     {
       "h": "Worked example: a completed canvas",
-      "b": "This canvas describes Ryanair in general terms to show how the nine blocks link together.",
+      "b": "This canvas describes Ryanair, an Irish low-fare, short-haul airline, in general terms to show how the nine blocks link together.",
       "points": [
         "Customer segments: price-sensitive leisure travellers and some business travellers on short-haul routes.",
         "Value proposition: low fares on short-haul flights, with optional extras such as bags and seat selection charged separately.",
         "Channels: mainly the company's own website and app, which keeps distribution costs low.",
-        "Customer relationships: largely self-service online booking, with limited personal contact.",
-        "Revenue streams: fares, plus fees for extras and onboard sales.",
+        "Customer relationships: largely self-service online booking, with limited personal contact. This fits the channels, because a website and app make self-service easy.",
+        "Revenue streams: fares, plus fees for extras and onboard sales. As of FY2026 (the year to 31 March 2026), Ryanair reported ancillary revenue of about EUR 4.99 billion (extras on top of fares) and traffic of 208.4 million passengers.",
         "Key resources: a fleet of aircraft, pilots and cabin crew, and the brand.",
         "Key activities: flight operations, aircraft maintenance and route planning.",
         "Key partners: airports, fuel suppliers and aircraft manufacturers.",
         "Cost structure: fuel, airport charges, staff and the cost of aircraft ownership or leasing."
-      ]
+      ],
+      "tip": "The blocks link: charging separately for extras (value proposition) creates a second revenue stream, and selling mainly online (channels) keeps distribution costs down in the cost structure."
     },
     {
-      "h": "How ethics and sustainability enter the model",
-      "b": "Ethical and sustainable choices can be built into the value proposition, the cost structure and the choice of partners.",
+      "h": "How ethics, sustainability and digital choices enter the model",
+      "b": "Ethical and sustainable choices can be built into the value proposition, the cost structure and the choice of partners, and digital tools can change the channels and relationships.",
       "points": [
         "A value proposition can include sustainable materials or fair trade sourcing, which some customers will pay a premium for.",
-        "Responsible sourcing adds cost to the cost structure, and the model must show that customers' willingness to pay covers it.",
-        "The conduct of key partners affects the reputation of the whole model, so partners are chosen with care."
-      ]
+        "Responsible sourcing adds cost to the cost structure, so the model must show that customers' willingness to pay covers it.",
+        "The conduct of key partners affects the reputation of the whole model, so partners are chosen with care.",
+        "Digital channels such as a website or app can lower distribution costs and make customer relationships self-service. Data about customers can also sharpen the value proposition."
+      ],
+      "tip": "Say how a sustainable value proposition or responsible partners affect cost structure and reputation, or how digital channels change cost and relationships."
     },
     {
       "h": "Why a sound model underpins success",
-      "b": "A business with a good product can still fail if its model does not earn enough from customers to cover costs.",
+      "b": "A business with a good product can still fail if its model does not earn enough from customers to cover costs. A sound model is therefore central to a successful enterprise.",
       "points": [
         "A clear model shows where income comes from, so managers can concentrate on the revenue streams that matter most.",
-        "A model that depends on one partner or one revenue source is fragile if that source falls away.",
+        "A model that depends on one partner or one revenue source is fragile, because if that source falls away the income falls with it.",
         "A model can be tested on a small scale before large sums are spent, which reduces the risk of a failed launch.",
         "Successful businesses review their models as customers, technology and costs change, rather than treating the model as fixed."
-      ]
+      ],
+      "tip": "When asked to outline the role of business models, give three or four distinct points, each with an effect on the business. A common mistake is only stating that it helps the business succeed."
     }
   ],
   "keyTerms": [

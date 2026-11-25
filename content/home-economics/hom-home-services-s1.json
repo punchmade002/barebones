@@ -6,84 +6,138 @@
   "notes": [
     {
       "h": "Energy basics for home supplies",
-      "b": "Every home energy supply is a fuel or a flow of energy that is converted into heat, light, power or sound. Fuels are classed by whether they can be replaced.",
+      "b": "A home needs energy for heat, light, power and sound, and every supply is a fuel or a flow of energy converted into one of these. To compare supplies, you need to know how energy is measured, how fuels form and whether a source can be replaced.",
       "points": [
-        "Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment.",
-        "Combustion needs fuel, oxygen and a source of heat; complete combustion of a hydrocarbon gives carbon dioxide and water vapour.",
-        "Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables.",
-        "A non-renewable source has finite reserves that cannot be replaced on a human timescale; a renewable source is replenished naturally within a human lifetime.",
-        "Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations."
+        "A fuel is a material burned to release heat. Combustion needs fuel, oxygen and a source of heat, and complete combustion of a hydrocarbon gives carbon dioxide and water vapour.",
+        "Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables. One kWh equals 3.6 MJ (3600 kJ).",
+        "Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment. Burning them releases carbon dioxide that was locked away long ago.",
+        "Primary energy is a fuel dug up or collected, such as gas, oil, coal, turf, wood or sunlight. Electricity is secondary energy because it is made from another source and then carried to the house.",
+        "A non-renewable source has finite reserves that cannot be replaced on a human timescale, such as coal, peat, natural gas and oil. A renewable source is replenished naturally within a human lifetime, such as solar, wind, hydro and wood.",
+        "Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations. For each source, ask three questions: will it run out, what does it do to the environment, and can it be supplied reliably?"
+      ],
+      "tip": "For a question on renewable and non-renewable resources, define each (replenished naturally versus finite) and give an example of each. Name sources from the lists, such as solar and wind against coal, peat, gas and oil."
+    },
+    {
+      "h": "Electricity: how it is made and delivered",
+      "b": "Electricity is not a fuel you dig up. It is made in power stations from other sources and sent to the home, which is why it is called a secondary energy.",
+      "points": [
+        "In a power station a turbine turns a generator. The turbine is driven by steam from burning gas, coal or other fuel, by flowing water (hydro) or by wind. Solar panels make electricity directly with no turbine.",
+        "Ireland's electricity comes from a mix of natural gas, wind and other sources, and part of it is imported through interconnectors (cables linking Ireland's grid to other countries).",
+        "The national grid carries electricity at high voltage over long distances. High voltage means low current, which reduces the energy lost as heat in the cables. EirGrid operates the national grid.",
+        "Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V (50 Hz) used in Irish homes. ESB Networks runs the distribution network.",
+        "A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used."
+      ],
+      "tip": "Electricity is not clean or dirty in itself. Say how it was generated before you judge it: wind, hydro and solar are renewable, gas, coal and oil are not."
+    },
+    {
+      "h": "Electricity: advantages, disadvantages and sustainability",
+      "b": "Electricity is the most convenient supply in the home, but how green it is depends on how it was generated.",
+      "points": [
+        "Advantages: it is clean and quiet at the point of use, needs no storage, and is available instantly. It suits lighting, appliances and cooking, and can be used for heating, for example storage heaters, panel heaters and heat pumps.",
+        "Electricity can also be produced in the home from solar panels or small wind turbines.",
+        "Disadvantages: how green it is depends on how it was generated, electric heating is expensive to run unless on night rate, and there is no supply in a power cut.",
+        "Sustainability: electricity from wind, hydro and solar is renewable, and electricity from burning gas, coal or oil is not. A home on the grid gets a mix of both."
       ]
     },
     {
-      "h": "Electricity",
+      "h": "Natural gas: source and delivery",
+      "b": "Natural gas is the fuel behind most mains-gas heating and cooking. Knowing where it comes from and how it arrives helps you describe it as a supply.",
       "points": [
-        "Electricity is a secondary energy: it is generated from other sources and carried to the home, so its environmental impact depends on how it was generated.",
-        "Power stations burn natural gas, coal, peat or oil, or use wind, hydro or solar energy to drive generators.",
-        "The national grid carries electricity at high voltage over long distances, which reduces energy lost as heat in the cables.",
-        "Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V used in Irish homes.",
-        "A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used.",
-        "Electricity is convenient for lighting, cooking, heating and appliances, and it can be produced in the home from solar panels or small wind turbines."
-      ]
-    },
-    {
-      "h": "Natural gas",
-      "points": [
-        "Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment.",
-        "Ireland's main indigenous supply comes from the Corrib gas field, offshore from Co. Mayo; further supply is imported through a pipeline from Britain.",
-        "Gas is distributed through a national pipeline network and burned in boilers, cookers and fires in the home.",
-        "Advantages: it burns cleanly and almost completely, needs no storage tank in the home, and its heat can be controlled quickly.",
-        "Disadvantages: it is non-renewable with finite reserves, and it is dangerous if it leaks or if appliances burn incompletely.",
-        "Natural gas is odourless, so a sulphur-based odorant is added so that leaks can be smelled.",
-        "Sustainability: reserves are limited and worldwide demand is rising; per unit of heat, gas releases less carbon dioxide than oil or coal, so it is often described as a transitional fuel.",
+        "Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment. It is found under the seabed or land and brought ashore or up by pipe.",
+        "Ireland's own supply comes from the Corrib gas field, off the coast of Co. Mayo, with gas coming ashore at Bellanaboy. The rest is imported by subsea pipeline from Britain, which reaches Ireland from Moffat in Scotland. Gas Networks Ireland runs the gas network.",
+        "Mains gas is distributed through underground pipe networks to a meter and a regulator (which keeps the pressure steady) at the house, where it is burned in boilers, cookers and fires.",
+        "Where there is no pipeline, bottled or tank liquefied petroleum gas (LPG) is used instead.",
+        "Natural gas has no smell, so an odorant (a sulphur compound called mercaptan) is added so that a leak can be smelled.",
         "Diagram: a simple pipeline route from the gas network through a meter and a regulator to a boiler and a cooker."
       ]
     },
     {
-      "h": "Oil (kerosene) for heating",
+      "h": "Natural gas: advantages, disadvantages and sustainability",
+      "b": "Gas is popular because it is convenient and cleaner than coal or oil, but it is still a finite fossil fuel.",
       "points": [
-        "Home heating oil is kerosene, a fossil fuel refined from crude oil that was formed from marine organisms over millions of years.",
-        "Ireland relies on imported oil, so supply and price depend on world markets.",
-        "Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank and arrange refills.",
-        "It is burned in a boiler with a burner, which needs a flue to carry the gases outside and regular servicing to stay efficient.",
+        "Advantages: it burns almost completely and cleanly compared with coal and oil, and its heat can be controlled instantly. It needs no storage tank on mains gas, is relatively cheap to run, and can be used for cooking, heating and hot water.",
+        "Disadvantages: it is non-renewable with finite reserves, and burning it produces carbon dioxide. It is dangerous if it leaks or if appliances burn incompletely, giving carbon monoxide.",
+        "A gas appliance also needs a flue (a pipe carrying burnt gases outside) and a registered installer, and gas is not available everywhere because it depends on a pipeline.",
+        "Sustainability: reserves are limited and worldwide demand is rising. Per unit of heat, gas releases less carbon dioxide than oil or coal, so it is cleaner than they are and often described as a transitional fuel, but it is still a fossil fuel.",
+        "Ireland's own gas field is running down, so imports are rising."
+      ],
+      "tip": "Never call gas simply \"clean\". Say it is cleaner than coal or oil but still a fossil fuel that releases carbon dioxide. In a 'discuss one non-renewable source' answer, cover where it comes from, advantages, disadvantages and sustainability (finite reserves, rising demand, emissions)."
+    },
+    {
+      "h": "Oil (kerosene) for heating",
+      "b": "Oil heats houses beyond the gas network, but it is delivered and stored rather than piped, and it depends on imports.",
+      "points": [
+        "Home heating oil is kerosene, a fossil fuel refined from crude oil, which is pumped from under the ground or sea and formed from marine organisms over millions of years.",
+        "Ireland relies on imported oil, so supply and price depend on world markets and the price varies. Households can buy when the price is low.",
+        "Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank, a bund or safe base, and arrange refills. A tank can leak or be stolen.",
+        "It is burned in a boiler with a burner, which needs a flue to carry the gases outside and an annual service to stay efficient. One boiler gives central heating and hot water, and oil has a high heat output.",
         "Burning oil releases carbon dioxide, sulphur dioxide from the sulphur in the fuel, and soot if the burner is poorly adjusted.",
         "Sustainability: oil is non-renewable with finite reserves, and it releases more carbon dioxide per unit of heat than natural gas."
-      ]
+      ],
+      "tip": "For an oil answer, give two advantages (high heat output, suits houses beyond the gas network) and two disadvantages (price varies, tank can leak or be stolen, non-renewable), then say whether it will last."
     },
     {
       "h": "Solid fuels",
+      "b": "Solid fuels are burned in the room or in a boiler, so they need storage, a chimney and cleaning. They range from fossil coal to renewable wood.",
       "points": [
-        "Solid fuels used in the home are coal, turf (peat), wood and manufactured smokeless fuel.",
+        "Solid fuels used in the home are coal, turf (peat), wood (logs, pellets and chips) and manufactured smokeless fuel. Smokeless fuel is a processed solid fuel, made from processed coal or other material, that burns with little smoke.",
         "Coal is a fossil fuel mined from underground seams; it is burned in open fires and stoves and produces a high level of carbon dioxide and smoke.",
-        "Smokeless fuel is a processed solid fuel that burns with little smoke, which reduces smoke and particulate pollution in towns.",
-        "Turf (peat) forms very slowly in bogs over thousands of years, so it is effectively non-renewable on a human timescale, and burning it releases carbon dioxide.",
-        "Wood (logs, pellets and chips) is a biomass fuel: it is renewable when trees are replanted and the forest is managed sustainably, because regrowth takes up the carbon released on burning.",
-        "Solid fuels need dry storage, a chimney or flue and regular cleaning, because soot builds up and can cause chimney fires and carbon monoxide poisoning.",
-        "An open fire loses much of its heat up the chimney, while an enclosed stove transfers more of the heat into the room."
+        "Smokeless fuel reduces smoke and particulate pollution in towns, but it is still a fossil product.",
+        "Turf (peat) is cut from bogs and forms very slowly over thousands of years, so it is effectively non-renewable on a human timescale because it forms far more slowly than it is cut. Burning it releases carbon dioxide.",
+        "Wood is a biomass fuel (fuel from plant material): it is renewable when trees are replanted and the forest is managed sustainably, because growing trees take up carbon dioxide. Burning it still gives carbon dioxide and particles.",
+        "Use: open fire, stove or solid-fuel boiler (a back boiler or stove can also heat water for radiators). Solid fuels need dry storage, a chimney or flue and regular cleaning and ash removal, because soot builds up and can cause chimney fires and carbon monoxide poisoning.",
+        "An open fire loses most of its heat up the chimney, while an enclosed stove burns efficiently and transfers more of the heat into the room."
+      ],
+      "tip": "Peat is not a fossil fuel formed over millions of years. Say it is non-renewable because it forms far more slowly than it is cut. Do not say burning wood releases no carbon dioxide: wood is renewable only if forests are replanted and managed."
+    },
+    {
+      "h": "Solid fuels: advantages and disadvantages",
+      "b": "Solid fuels can be cheap and local, but they involve work and some risks.",
+      "points": [
+        "Advantages: turf and wood are local supplies, a fire is attractive, a stove or boiler can heat water as well, and a stove burns efficiently.",
+        "Disadvantages: carrying fuel and cleaning out ash is labour, and the fuel makes dust and ash.",
+        "Soot can cause chimney fires, and there is a carbon monoxide risk if the flue is blocked.",
+        "Smoke pollutes the air, and an open fire wastes most of its heat up the chimney."
       ]
     },
     {
       "h": "Solar energy",
+      "b": "Solar energy is radiant energy from the sun. It is renewable and free to collect, but the sun does not shine all the time, which makes it intermittent.",
       "points": [
-        "Solar energy is radiant energy from the sun. It is renewable and free to collect, but it is intermittent.",
-        "Solar thermal collectors on the roof absorb sunlight to heat water that circulates to a hot water cylinder, supplying much of the household hot water in summer.",
-        "Photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use.",
+        "A house can use solar energy in three ways. First, solar thermal collectors on the roof absorb sunlight into a fluid that heats water, which circulates to a hot water cylinder, supplying much of the household hot water in summer.",
+        "Second, photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use. PV makes electricity without a turbine.",
         "Surplus PV electricity can be exported to the grid, and a battery can store it for use when the sun is not shining.",
+        "Third, passive solar design uses large south-facing windows to let in winter sunshine, which walls and floors absorb and release.",
         "Output depends on sunlight, so it falls on cloudy days, in winter and at night, and it is reduced by shade from trees or buildings.",
         "A roof facing south with no shading gives the best output; the roof must also be strong enough to carry the panels.",
-        "Sustainability: solar energy has no fuel to extract or deliver and produces no emissions in use; manufacturing the panels does use energy and materials.",
         "Diagram: plan view of a south-facing roof with PV panels and solar thermal collectors; schematic of a PV system showing panels, inverter, meter and the house circuit."
-      ]
+      ],
+      "tip": "Solar is the renewable source examiners ask about most. Cover panel types, cost, weather, orientation, SEAI grants and the BER, and say what the panels collect and how the house uses it."
+    },
+    {
+      "h": "Solar energy: advantages, disadvantages and sustainability",
+      "b": "Solar energy has no fuel bill and no emissions in use, but it costs a lot to install and cannot work alone.",
+      "points": [
+        "Advantages: no fuel cost, no emissions in use, lower bills and a reduced carbon footprint. Solar can also raise the Building Energy Rating (BER, the energy label of a home), and SEAI grants support it.",
+        "Disadvantages: high installation cost, dependence on the weather and the season, and the need for a suitable unshaded roof, best south-facing.",
+        "A back-up supply is still needed because solar is intermittent, and panels need space and some people find them unsightly.",
+        "Sustainability: solar energy is inexhaustible and renewable, with no fuel to extract or deliver. Making and disposing of panels does use energy and materials."
+      ],
+      "tip": "For a 'one source in detail' answer, name the source, its origin, how it reaches or heats the home, two advantages, two disadvantages and whether it will last. Solar gives all of these: the sun, collected by panels, no fuel cost and no emissions, high cost and weather dependence, and inexhaustible."
     },
     {
       "h": "Renewable and non-renewable sources compared",
+      "b": "Other renewable sources can serve a home, and they trade off differently from fossil fuels.",
       "points": [
-        "Renewable sources for the home: solar energy, wind (turbines feeding the grid), biomass such as wood, and heat pumps that draw heat from the ground or air using electricity.",
-        "Non-renewable sources for the home: natural gas, heating oil, coal and peat.",
-        "Non-renewable fuels are finite and rising in demand, and their supply depends on extraction, imports and transport.",
+        "Wind: turbines feed the grid, and small turbines can serve one house.",
+        "Hydro: flowing water turns a turbine. Ardnacrusha on the River Shannon, a hydro-electric station run by the ESB, built under the Shannon Scheme and opened in 1929, is the Irish example.",
+        "Biomass: wood, pellets and other plant material burned for heat.",
+        "Heat pumps and geothermal: a ground-source heat pump raises the temperature of heat drawn from the ground or air, and it uses electricity to run, so it is not free energy or a fuel. Tidal and wave energy are other renewable sources.",
+        "Non-renewable sources for the home are natural gas, heating oil, coal and peat. They are finite, their demand is rising, and their supply depends on extraction, imports and transport. They are reliable and well established but finite and polluting.",
         "Renewable sources have high start-up costs and depend on local weather, but their running fuel is free and they produce few emissions in use.",
-        "SEAI (Sustainable Energy Authority of Ireland) provides information and grants that support the use of renewable heating and solar energy in homes."
-      ]
+        "SEAI (Sustainable Energy Authority of Ireland) provides advice, the Building Energy Rating (BER) system and grants that support renewable heating and solar energy in homes."
+      ],
+      "tip": "Name two renewable sources (such as solar and wind) and two non-renewable sources (such as coal and oil), and give one benefit of renewables: they will not run out, have low emissions and are cleaner."
     }
   ],
   "keyTerms": [

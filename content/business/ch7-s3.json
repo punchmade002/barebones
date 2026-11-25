@@ -4,44 +4,101 @@
   "subsection": "3. The feasibility study",
   "syllabusRef": "2.2.2, 2.2.3",
   "notes": [
-    { "h": "What a feasibility study is", "b": "A feasibility study tests whether a business idea is likely to succeed before the firm commits significant money.", "points": [
-      "A feasibility study assesses the potential future viability of an idea, meaning whether it can survive and earn a profit over time.",
-      "It is more detailed than screening, which only compares ideas against criteria, because it gathers evidence on each part of the business.",
-      "It is carried out after ideas have passed screening and before the firm invests in launch.",
-      "It usually ends in a written report that sets out the evidence and gives a recommendation."
-    ] },
-    { "h": "Market feasibility", "b": "The market part of the study checks whether customers want the product and can pay for it.", "points": [
-      "It examines the size of the target market, customer needs and the amount of competition.",
-      "It estimates likely sales volume and price, using market research data and comparison with similar products.",
-      "A market study that finds no clear customer group signals that the idea needs redesign or should be abandoned."
-    ] },
-    { "h": "Financial feasibility", "b": "The financial part estimates costs and revenue to check that the business can pay its way.", "points": [
-      "Start-up costs are one-off costs incurred before trading begins, such as equipment, premises fit-out, licences and initial stock.",
-      "Running costs recur, such as wages, rent, utilities, marketing and raw materials.",
-      "Projected revenue is estimated by multiplying expected sales volume by the selling price.",
-      "Contribution per unit is the selling price minus the variable cost of one unit, and it pays towards fixed costs and profit.",
-      "The break-even point is the sales level at which total revenue equals total costs, found by dividing fixed costs by the contribution per unit.",
-      "Cash flow forecasting shows whether the firm can pay its bills in the early months, when sales are usually low."
-    ] },
-    { "h": "Technical, organisational, legal, environmental and ethical parts", "b": "These parts check whether the idea can be made, staffed, legally run and accepted by society.", "points": [
-      "Technical or production feasibility asks whether the firm has the equipment, technology and processes to make the product to the required standard.",
-      "Organisational and staffing feasibility asks whether the firm has, or can hire, the people and management skills it needs.",
-      "Legal and regulatory feasibility checks licences, permits, safety standards and planning requirements before launch.",
-      "Environmental and ethical feasibility assesses the impact on the environment and whether the idea is acceptable to customers and society."
-    ] },
-    { "h": "Outcomes of the study", "b": "The study ends with one of three decisions.", "points": [
-      "Proceed: the evidence shows the idea is viable, so the firm moves on to launch.",
-      "Modify: the idea has potential, but one part, such as price or product design, must change before the firm proceeds.",
-      "Abandon: the study shows the idea is not viable, which saves resources for better ideas."
-    ] },
-    { "h": "Benefits and limitations", "b": "The study has real value, but its results are only as good as its assumptions.", "points": [
-      "Benefit: it reduces risk by finding problems before money is spent.",
-      "Benefit: a clear study supports applications for funding from banks, investors and state agencies.",
-      "Benefit: it identifies problems early, such as an unexpected legal requirement, when they are cheaper to fix.",
-      "Limitation: carrying out the study costs time and money, which can be a burden for a very small firm.",
-      "Limitation: forecasts of sales and costs are uncertain, so a positive study may still prove wrong.",
-      "Evaluation: the value of a study depends on the quality of its research, and key assumptions should be tested with real customers."
-    ] }
+    {
+      "h": "What a feasibility study is",
+      "b": "Launching a business costs money that is hard to get back if the idea fails. A feasibility study is the firm's way of testing one chosen idea in detail before it commits that money.",
+      "points": [
+        "A feasibility study is a detailed assessment of whether a business idea is likely to be viable, meaning that it can survive and earn a sustainable profit over time.",
+        "It is carried out after the idea has passed screening and before the firm invests in launch. It can also be carried out before a major expansion, because expansion commits significant money too.",
+        "Screening and a feasibility study are different. Screening compares many ideas against criteria to pick one, whereas a feasibility study gathers evidence on that one idea across each part of the business, such as the market, finances and legal position.",
+        "A study usually ends in a written report that sets out the evidence and gives a recommendation, so the decision to go ahead rests on facts rather than enthusiasm.",
+        "A feasibility study asks whether the firm should start at all. It is not the same as a business plan, which sets out how the business will operate and be financed once the decision to start has been made."
+      ],
+      "tip": "Keep feasibility study and screening apart. Screening is many ideas against criteria; the study is one idea, detailed and evidence based, ending in proceed, modify or abandon."
+    },
+    {
+      "h": "Market feasibility",
+      "b": "The market part of the study checks whether customers want the product and can pay for it. An idea with no clear customers cannot earn revenue, however good the product is.",
+      "points": [
+        "It examines the size of the target market (the group of customers the firm aims at), customer needs and the amount of competition, because a small market or crowded competition limits how much the firm can sell.",
+        "It estimates likely sales volume and price, using market research data and comparison with similar products already on sale. These estimates feed directly into the projected revenue in the financial part.",
+        "A market study that finds no clear customer group tells the firm that the idea must be redesigned or abandoned, because there is nobody to sell to."
+      ],
+      "tip": "When you explain a part of the study, say what the firm checks, why, and how the result changes the decision. For example, if the market part finds too few customers, the firm modifies the price or abandons the idea."
+    },
+    {
+      "h": "Financial feasibility",
+      "b": "The financial part estimates costs and revenue to check that the business can pay its way. It is built from a handful of linked figures.",
+      "points": [
+        "Start-up costs are one-off costs incurred before trading begins, such as equipment, premises fit-out, licences and initial stock. A common mistake is to confuse these with running costs.",
+        "Running costs recur for as long as the business trades, such as wages, rent, utilities, marketing and raw materials. Start-up and running costs are one classification; fixed and variable costs are a different one, so wages can be a running cost and also fixed or variable depending on the case.",
+        "Projected revenue is estimated by multiplying expected sales volume by the selling price, so it depends on the market research findings.",
+        "Contribution per unit is the selling price minus the variable cost of one unit (the cost that changes with output, such as materials). It pays towards fixed costs (such as rent, which stay the same whatever the output) and then profit.",
+        "The break-even point is the sales level at which total revenue equals total costs. In units, it is fixed costs divided by the contribution per unit. The study uses it to test whether expected sales can reach that level.",
+        "A cash flow forecast estimates the cash coming in and going out over time. It shows whether the firm can pay its bills in the early months, when sales are usually low, and so how much finance it needs.",
+        "Profit and cash are not the same thing, so a feasible idea can still fail if the early cash flow is negative."
+      ],
+      "tip": "If a break-even or projected revenue figure is given, use the formulas, show your working, then interpret the result: can the firm reach it, and what outcome follows? Do not give amounts for start-up costs, wages or rents unless the question supplies them."
+    },
+    {
+      "h": "Technical, organisational, legal, environmental and ethical parts",
+      "b": "Even a product that customers want and that looks profitable can fail if it cannot be made, staffed, legally run or accepted by society. These parts of the study check each of those.",
+      "points": [
+        "Technical or production feasibility asks whether the firm has the equipment, technology, processes and capacity to make the product to the required standard, because a product that cannot be made reliably cannot be sold.",
+        "Organisational and staffing feasibility asks whether the firm has, or can hire, the people and management skills it needs to run the business.",
+        "Legal and regulatory feasibility checks licences, permits, safety standards, planning requirements and, where relevant, data rules before launch, because discovering a legal barrier after launch is costly.",
+        "Environmental and ethical feasibility assesses the idea's environmental impact, waste and sourcing of materials, and whether the idea is acceptable to customers and society.",
+        "A digital idea needs further checks: data protection, cyber security and the cost of keeping the technology current, since software and systems age quickly."
+      ],
+      "tip": "A common mistake is to forget the environmental and ethical or legal parts when listing the parts of a study. When asked, tie each part to the business in the question rather than listing parts with no link to it."
+    },
+    {
+      "h": "Outcomes of the study",
+      "b": "The study ends with one of three decisions, each following from what the evidence shows.",
+      "points": [
+        "Proceed: the evidence shows the idea is viable, so the firm moves on to launch and the business plan.",
+        "Modify: the idea has potential, but one part, such as price, design or scale, must change before the firm proceeds.",
+        "Abandon: the study shows the idea is not viable, which saves the firm's resources for better ideas."
+      ],
+      "tip": "Name the outcome and link it to a finding. For example, too few customers in the market part leads to modify or abandon, not proceed."
+    },
+    {
+      "h": "Benefits and limitations",
+      "b": "A feasibility study has real value, but its results are only as good as its assumptions. A good answer weighs both sides.",
+      "points": [
+        "Benefit: it reduces risk by finding problems before money is spent. Without a study, a firm may discover them only after it has committed its funds.",
+        "Benefit: it supports funding applications, because banks, investors and state agencies want evidence that the idea can work. The Local Enterprise Offices (LEOs) run a Feasibility Grant that helps promoters research market demand and technical viability before committing to launch.",
+        "Benefit: it identifies problems early, such as an unexpected legal requirement, when they are cheaper to fix than after launch.",
+        "Limitation: carrying out the study costs time and money, which can be a burden for a very small firm.",
+        "Limitation: forecasts of sales and costs are uncertain, so a positive study can still prove wrong. A study is a guide, not a guarantee of success.",
+        "Evaluation: the value of a study depends on the quality of its research, and key assumptions should be tested with real customers. A study is more valuable for a costly idea than for a cheap, easily reversed one."
+      ],
+      "tip": "Do not stop at 'reduces risk'; say how, by finding problems before money is spent. For discuss or evaluate, give three or four developed points mixing benefits and limitations, and end with a justified judgement for the business in the question."
+    },
+    {
+      "h": "Supports for feasibility work",
+      "b": "Irish state bodies offer supports that help a small firm pay for early research. Their terms are specific, so the details matter.",
+      "points": [
+        "As of 2026, the LEO Feasibility Grant in the S&E region is 50% of the investment or 15,000 euro, whichever is less. In the BMW region it is 60% or 15,000 euro, whichever is less. It covers only part of the cost, never the whole study.",
+        "Eligible costs include market research, consultancy, technical development, prototype and innovation, salary or own-labour research, and miscellaneous costs. Costs incurred before the application date do not qualify.",
+        "Eligibility includes a manufacturing or internationally traded service business with no more than 10 employees, in the commercial sphere, registered and operating in that LEO's area, with a demonstrated market for the product or service. Terms vary by LEO, so check your own.",
+        "Enterprise Ireland's Innovation Voucher lets a small or medium-sized Irish limited company work with a registered, publicly funded knowledge provider to explore an innovative business problem. As of 2026 a standard voucher is worth 10,000 euro and is valid for 18 months.",
+        "Standard market research is not eligible for an Innovation Voucher, so it is not a feasibility study grant. Where LEO clients can use a voucher it is used in preference to the LEO feasibility or innovation grant, and both cannot be used for the same purpose."
+      ],
+      "tip": "Avoid naming a grant with the wrong amount. The rate depends on the region, and the Innovation Voucher does not pay for standard market research."
+    },
+    {
+      "h": "Applying my learning: feasibility and start-up support in the news",
+      "b": "A feasibility study is easiest to understand when linked to a real story. This news example connects new technology with the funding that feasibility evidence supports.",
+      "points": [
+        "Enterprise Ireland's news release of 7 May 2026 said that in 2025 it invested 32.9 million euro in Irish start-ups and supported 198 start-up companies, made up of 90 High Potential Start-Ups and 108 receiving early-stage funding.",
+        "The same release said 99 of the 198 supported start-ups, about half, have AI as a central part of their product or service.",
+        "A new National Accelerator Programme with a 21 million euro budget over three years was also announced, to succeed the National Digital Research Centre and focus on specialist sectors, wider regional coverage and AI-native innovation.",
+        "Technology is the chapter factor in this story: an idea built on AI needs the technical and market parts of a study to show it can work, and evidence like this is what supports a funding application.",
+        "Practise giving an informed opinion in three steps: name the factor (here technology or finance), apply it to the story, then give a justified view. For example, argue whether the study matters more for a costly AI product than for a cheap idea that is easily reversed."
+      ],
+      "tip": "In news-based questions, name the factor, apply it to the story, and give a justified view rather than only repeating the headline."
+    }
   ],
   "keyTerms": [
     { "term": "Feasibility study", "definition": "A detailed assessment of whether a business idea is likely to be viable, covering market, financial and practical factors." },
@@ -62,7 +119,7 @@
   ],
   "questions": [
     { "marks": 25, "prompt": "A student wants to open a bakery in a Limerick town. Outline five parts of a feasibility study she should complete, and explain how each contributes to the decision.", "model": "The market part checks whether enough local customers want fresh bread and pastries at the prices she plans to charge, using local surveys and a count of competing bakeries, so she knows whether demand is strong enough. The financial part estimates start-up costs such as ovens and premises fit-out, and running costs such as wages and ingredients, so she can work out the break-even point and see whether sales will cover costs. The technical or production part checks whether her equipment can produce enough bread each morning to the quality customers expect, which determines her capacity and whether she needs to rent a larger unit. The legal and regulatory part confirms the food business registration, the premises requirements and the food safety standards she must meet before opening. The environmental and ethical part considers waste from unsold bread and the sourcing of ingredients, which affects both her costs and how customers judge her. Together these parts show whether to proceed, modify the plan or abandon the idea before she invests." },
-    { "marks": 15, "prompt": "Discuss the benefits and limitations of carrying out a feasibility study before launching a business.", "model": "A feasibility study reduces risk, because it finds problems such as weak demand or an unexpected legal requirement before money is spent on equipment and premises. It also supports applications for funding, since banks and state agencies are more willing to lend when the owner has evidence that the idea works. The main limitation is cost: the study takes time and money, which may be a heavy burden for a very small firm with few resources. A further limitation is uncertainty, because forecasts of sales and costs are estimates, so a positive study may still prove wrong if customer behaviour changes after launch." },
+    { "marks": 15, "prompt": "Discuss the benefits and limitations of carrying out a feasibility study before launching a business.", "model": "A feasibility study reduces risk, because it finds problems such as weak demand or an unexpected legal requirement before money is spent on equipment and premises. It also supports applications for funding, since banks and state support agencies are more willing to provide funding when the owner has evidence that the idea works. The main limitation is cost: the study takes time and money, which may be a heavy burden for a very small firm with few resources. A further limitation is uncertainty, because forecasts of sales and costs are estimates, so a positive study may still prove wrong if customer behaviour changes after launch." },
     { "marks": 10, "prompt": "Explain the difference between start-up costs and running costs, giving one example of each.", "model": "Start-up costs are one-off costs paid before the business begins trading, such as the purchase of equipment for a café. Running costs recur throughout trading, such as the rent and wages the café pays every month." }
   ]
 }

@@ -6,71 +6,110 @@
   "notes": [
     {
       "h": "What fermentation is (Higher Level only)",
-      "b": "Fermentation is the controlled breakdown of carbohydrates, mainly sugars, by micro-organisms, which produces new substances called by-products.",
+      "b": "Fermentation is the controlled breakdown of carbohydrates, mainly sugars, by micro-organisms (tiny living things such as yeasts and bacteria). It produces new substances called by-products, and these give fermented foods their taste, texture and keeping quality.",
       "points": [
-        "The micro-organisms used are yeasts, bacteria and moulds, each carrying out a different type of fermentation.",
-        "Alcoholic fermentation: the yeast Saccharomyces cerevisiae converts glucose into ethanol and carbon dioxide in the absence of oxygen.",
-        "Chemical equation for alcoholic fermentation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂.",
-        "Lactic acid fermentation: lactic acid bacteria such as Lactobacillus convert lactose or other sugars into lactic acid without oxygen.",
-        "Acetic acid fermentation: acetic acid bacteria such as Acetobacter oxidise ethanol into acetic acid, and this stage needs a supply of oxygen."
-      ]
+        "The micro-organisms used are yeasts, bacteria and moulds, each carrying out a different type of fermentation. Yeast is a fungus, not a bacterium.",
+        "Fermentation is usually carried out without oxygen and releases a small amount of energy, which escapes as heat.",
+        "Alcoholic fermentation: the yeast Saccharomyces cerevisiae converts glucose into ethanol (the alcohol in drinks) and carbon dioxide in the absence of oxygen, so this type needs no air.",
+        "Chemical equation for alcoholic fermentation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂, with energy released. In words: glucose gives ethanol and carbon dioxide.",
+        "Lactic acid fermentation: lactic acid bacteria such as Lactobacillus and Streptococcus convert lactose (the sugar in milk) or other sugars, such as those in cabbage, into lactic acid without oxygen.",
+        "Acetic acid fermentation: acetic acid bacteria such as Acetobacter oxidise ethanol into acetic acid, the acid in vinegar. Unlike the other two types, this stage needs a supply of oxygen."
+      ],
+      "tip": "Do not say all fermentation is anaerobic (happens without oxygen): alcoholic and lactic fermentation need no oxygen, but the acetic acid stage does. Define fermentation as breakdown of organic substances by bacteria or yeast, name carbon dioxide, alcohol, acids and energy as products, and give the yeast equation."
+    },
+    {
+      "h": "Conditions for fermentation (Higher Level only)",
+      "b": "Micro-organisms ferment only when their needs are met. Providing or withholding these conditions is how food producers decide whether fermentation happens.",
+      "points": [
+        "A fermentable sugar (the substrate, the material the organism feeds on) is needed. The sugar is the starting point: yeast does not make alcohol from starch directly, so bread dough gets its sugar from flour and barley is malted first.",
+        "Moisture and warmth are needed, because the organisms grow in liquid or moist food and work fastest at their own optimum (best) temperature. Too much heat kills yeast.",
+        "Time is needed, and a starter culture (a known culture of the right micro-organism added to the food) is often used.",
+        "Alcoholic and lactic fermentations need the absence of oxygen, while the acetic acid stage needs oxygen."
+      ],
+      "tip": "Yeast ferments sugar, not starch. If a question asks how yeast makes alcohol from barley or flour, say the sugar comes from malting or from the flour first."
     },
     {
       "h": "By-products of fermentation (Higher Level only)",
+      "b": "Fermentation is useful because of what it leaves behind. Each by-product has a job in the finished food, so always link the by-product to what it does.",
       "points": [
-        "Carbon dioxide is a gas that makes bread dough rise and gives drinks their fizz when it is retained in a sealed container.",
-        "Ethanol is the alcohol in beer, wine and spirits, and at high concentration it inhibits spoilage micro-organisms.",
-        "Lactic acid gives a sour taste to yoghurt, sauerkraut and cultured sour cream, and lowers the pH of the food.",
+        "Carbon dioxide is a gas that makes bread dough rise and gives sparkling quality to drinks such as beer and sparkling wine when it is retained in a sealed container.",
+        "Ethanol is the alcohol in beer, wine and spirits, and at high concentration it inhibits spoilage micro-organisms. It evaporates during baking, so little remains in bread.",
+        "Lactic acid gives a sour taste to yoghurt, sauerkraut, cheese and cultured sour cream, and lowers the pH of the food (makes it more acidic), which helps preserve it.",
         "Acetic acid gives vinegar its sharp taste and also lowers the pH, inhibiting spoilage micro-organisms.",
-        "Flavour compounds formed during fermentation give cheese, yoghurt and bread their distinctive flavours."
-      ]
+        "Energy is released as heat during fermentation.",
+        "Flavour compounds formed during fermentation give cheese, yoghurt, bread and fermented drinks their distinctive flavours."
+      ],
+      "tip": "Name the by-product and say what it does: gas raises dough, acid thickens milk and preserves, alcohol is the drink. Questions ask for two by-products, and carbon dioxide, alcohol, acids (vinegar) and energy are the accepted ones."
     },
     {
       "h": "Yeast fermentation in bread, beer and wine (Higher Level only)",
+      "b": "Yeast, Saccharomyces cerevisiae, is the micro-organism behind bread, beer and wine. In each, it ferments sugar, but the by-product that matters most is different.",
       "points": [
-        "Bread: yeast ferments the sugars present in flour and dough, and the carbon dioxide is trapped in the gluten network, raising the dough.",
-        "Bread: the ethanol produced evaporates during baking, so little alcohol remains in the loaf.",
-        "Beer: yeast ferments sugars released from malted barley, and the carbon dioxide produced is kept in the sealed container to carbonate the beer.",
+        "Bread: yeast ferments the sugars present in flour and dough, and the carbon dioxide is trapped in the gluten network (the stretchy protein structure of dough), raising the dough.",
+        "Bread: baking kills the yeast, and the ethanol produced evaporates during baking, so little alcohol remains in the loaf.",
+        "Beer: yeast ferments sugars (maltose) released from malted barley, and hops are added for flavour. The carbon dioxide produced is kept in the sealed container to carbonate the beer.",
         "Wine: yeast ferments the sugars in grape juice, and fermentation stops when the sugar is used up or the alcohol level becomes toxic to the yeast.",
         "Yeast needs a supply of sugar, nutrients and a suitable temperature to grow and ferment."
-      ]
+      ],
+      "tip": "Yeast is a fungus, so keep the organism with the product: yeast for bread, beer and wine. Drink-making is needed in outline only."
     },
     {
       "h": "Bacterial and mould fermentation in dairy products (Higher Level only)",
+      "b": "Milk is fermented by bacteria and, in some cheeses, by moulds. Here only the fermentation step matters: lactic acid made from lactose changes the milk.",
       "points": [
-        "Yoghurt: the starter cultures Lactobacillus bulgaricus and Streptococcus thermophilus convert lactose into lactic acid.",
-        "Yoghurt: the lactic acid lowers the pH of the milk, so the milk protein casein coagulates and thickens the product.",
-        "Cheese: starter bacteria produce lactic acid, and rennet, an enzyme, coagulates the milk into curds and whey.",
-        "Cheese ripening: enzymes and micro-organisms break down proteins and fats, developing the flavour and texture of the cheese.",
+        "Yoghurt: the starter cultures Lactobacillus bulgaricus (now named Lactobacillus delbrueckii subsp. bulgaricus, though exams use the older name) and Streptococcus thermophilus convert lactose into lactic acid.",
+        "Yoghurt: the lactic acid lowers the pH of the milk, so the milk protein casein coagulates (sets solid) and gives the thick, sour product.",
+        "Soya yoghurt is fermented soya milk.",
+        "Cheese: starter bacteria produce lactic acid, and rennet, an enzyme, coagulates the milk into curds (solid) and whey (liquid).",
+        "Cheese ripening: enzymes and micro-organisms such as bacteria and moulds break down proteins and fats, developing the flavour and texture of the cheese.",
         "Mould-ripened cheese: Penicillium camemberti forms the white rind of Camembert-type cheese, and Penicillium roqueforti forms the blue veins of blue cheese."
-      ]
+      ],
+      "tip": "Keep the organism with the product: bacteria make yoghurt, and a mould makes the veins in blue cheese. For cheese, give starter culture, and for blue cheese give the mould."
     },
     {
       "h": "Vinegar, sauerkraut and mycoprotein (Higher Level only)",
+      "b": "Fermentation also produces vinegar, pickled-style vegetables and a meat substitute. Each uses a different organism, so match the organism to the food.",
       "points": [
-        "Vinegar is made in two stages: yeast ferments fruit or grain sugars into ethanol, then acetic acid bacteria oxidise the ethanol to acetic acid.",
+        "Vinegar is made in two stages: yeast ferments fruit or grain sugars into ethanol, then acetic acid bacteria with air oxidise the ethanol to acetic acid.",
         "The acetic acid stage needs oxygen, so the liquid is left exposed to air.",
-        "Sauerkraut: shredded cabbage is salted, so lactic acid bacteria ferment its sugars while many spoilage organisms are inhibited.",
-        "Mycoprotein: the fungus Fusarium venenatum is grown by fermentation on a sugar-based medium in large vats and then processed into a meat substitute."
-      ]
+        "Sauerkraut (and kimchi): shredded cabbage is salted, so the salt draws out juice and favours the lactic acid bacteria already on the cabbage. They ferment its sugars while many spoilage organisms are inhibited.",
+        "Mycoprotein (Quorn): the fungus Fusarium venenatum is grown by fermentation on a sugar-based medium in large vats (fermenters), then harvested and processed into a meat substitute."
+      ],
+      "tip": "Mycoprotein is a fungus, so do not describe it as a bacterium. Novel vegetarian foods are examined, so name Quorn as a fermented product made from mycoprotein."
+    },
+    {
+      "h": "Soya-based fermented foods (Higher Level only)",
+      "b": "Several vegetarian protein foods are made by fermenting soya. Examiners have asked for these by name as fermented products.",
+      "points": [
+        "Tempeh is cooked soya beans that have been fermented.",
+        "Miso is a paste of soya beans with rice, salt and water, which is fermented.",
+        "Soya yoghurt is soya milk fermented in the same way as dairy yoghurt."
+      ],
+      "tip": "When asked for novel or vegetarian fermented foods, name tempeh, miso, soya yoghurt and Quorn."
     },
     {
       "h": "Fermentation as a method of preservation (Higher Level only)",
+      "b": "Fermentation changes food so that spoilage micro-organisms cannot grow in it. The fermented food stays edible longer than the raw ingredient did.",
       "points": [
-        "Fermentation preserves food by producing acids, ethanol and carbon dioxide that lower the pH or inhibit spoilage micro-organisms.",
+        "Fermentation preserves food by producing acids, ethanol and carbon dioxide that lower the pH or inhibit spoilage micro-organisms, together with a controlled population of harmless organisms.",
+        "Examples are milk turned into yoghurt and cheese, cabbage into sauerkraut, grape juice into wine and wine into vinegar.",
         "Salt used in sauerkraut and other brined foods draws water out of micro-organisms by osmosis.",
-        "Fermented foods are not sterile; the controlled micro-organisms outcompete the spoilage organisms that would otherwise grow."
-      ]
+        "Fermented foods are not sterile; the controlled micro-organisms outcompete the spoilage organisms that would otherwise grow, and some fermented foods need chilling.",
+        "The same organisms can spoil food: a yeast fermenting jam or fruit juice, or a mould spoiling cheese. In food production fermentation is controlled and wanted."
+      ],
+      "tip": "A possible role in preservation: lactic acid and acetic acid lower the pH and inhibit spoilage organisms. Alcohol added as a chemical preservative, such as fruit in brandy, is not fermentation."
     },
     {
       "h": "Controlling fermentation (Higher Level only)",
+      "b": "Fermentation has to be steered so that it makes the intended food rather than a spoiled one. Producers control what the organism feeds on, what organism is present and the conditions it grows in.",
       "points": [
         "Substrate: the food must contain fermentable sugar; barley is malted first to release maltose, which yeast can ferment.",
-        "Starter culture: a pure, known strain is added in a known amount to ensure the intended product forms.",
+        "Starter culture: a pure culture of known strains is added in a known amount to ensure the intended product forms.",
         "Temperature: each micro-organism has an optimum temperature, and temperatures that are too high kill yeast.",
-        "Hygiene: equipment is cleaned and sterilised so that unwanted micro-organisms do not compete with the starter culture.",
-        "Timing: fermentation is stopped when the required acidity, alcohol level or flavour is reached, for example by chilling or pasteurising."
-      ]
+        "Hygiene: equipment is cleaned and sterilised so that unwanted micro-organisms do not compete with the starter culture, and unwanted organisms are kept out.",
+        "Timing: fermentation is stopped when the required acidity, alcohol level or flavour is reached, for example by chilling, pasteurising or removing the yeast."
+      ],
+      "tip": "Uses of micro-organisms in food production are examined: give starter cultures for cheese and yoghurt, moulds in blue cheese, yeast in bread, beer and wine, and mycoprotein."
     }
   ],
   "keyTerms": [
@@ -114,7 +153,7 @@
     },
     {
       "term": "Two bacteria used as yoghurt starter cultures",
-      "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus, which convert lactose into lactic acid."
+      "definition": "Lactobacillus bulgaricus (the exam name; now Lactobacillus delbrueckii subsp. bulgaricus) and Streptococcus thermophilus, which convert lactose into lactic acid."
     },
     {
       "term": "Two moulds used in cheese making",

@@ -6,78 +6,100 @@
   "notes": [
     {
       "h": "Physical changes during cooking",
-      "b": "A physical change alters the size, shape, state, colour or texture of food without forming new substances.",
+      "b": "A physical change alters the size, shape, state, colour or texture of food without forming new substances. Heat usually drives these changes, and each one has a food you can name as an example.",
       "points": [
-        "Coagulation: heat unfolds egg and milk proteins, which bond into a set structure, as in custard, scrambled egg and omelette.",
-        "Gelatinisation: starch granules absorb water and swell when heated, thickening sauces, gravies and custard.",
-        "Tenderising: long, moist cooking converts collagen in connective tissue into gelatine, making tough cuts of meat tender.",
-        "Shrinkage: meat loses water and melted fat during cooking, so it becomes smaller and lighter.",
-        "Increase in size: dried beans, pasta and rice absorb water and swell during cooking.",
-        "Colour change: meat turns from pink to brown or grey as its myoglobin is heated; green vegetables lose their bright colour as chlorophyll turns olive-brown in the presence of acid or with overcooking."
-      ]
+        "Coagulation: heat unfolds (denatures) egg, milk and fish proteins, which then bond into a set structure. Egg white turns from clear to white and opaque, fish flesh from translucent to opaque, and custard, scrambled egg and omelette set.",
+        "Gelatinisation: starch granules absorb water and swell when heated in liquid, and can swell until they burst. This thickens sauces, gravies, custard and porridge.",
+        "Tenderising: long, moist cooking converts collagen (the tough protein in connective tissue) into gelatine, so tough cuts of meat become tender.",
+        "Shrinkage: meat and fish lose water and melted fat during cooking, so they become smaller and lighter and fat melts out of meat.",
+        "Increase in size: dried peas, beans and fruit, rice and pasta absorb water and swell during cooking. Whisked egg foam, sponge and bread also rise and increase in volume.",
+        "Colour change: meat turns from red or pink to brown or grey as its myoglobin (the red pigment in meat) is heated. Green vegetables turn olive-brown with prolonged cooking or acid because the chlorophyll is altered, whereas carrots and other orange vegetables stay colourful.",
+        "Softening: heat softens the cellulose and breaks down pectin (the 'glue' between cells) in plant cell walls, so vegetables and fruit become tender as cell water is lost.",
+        "Increased digestibility and safety: heat destroys most micro-organisms and makes starch and protein easier to digest.",
+        "Loss of nutrients, because water-soluble vitamins dissolve in cooking water, is also counted as a physical change."
+      ],
+      "tip": "When asked for a physical change, name it, give a food example and add a brief reason. Safest physical answers are coagulation, gelatinisation, shrinkage, increase in size and nutrient loss. Tenderising can be given as physical or chemical when a question allows it."
     },
     {
       "h": "Chemical changes during cooking",
-      "b": "A chemical change alters the molecular structure of food and forms new substances with different colours, flavours and textures.",
+      "b": "A chemical change alters the molecular make-up of food and forms new substances with different colours, flavours and textures. Raising agents are a clear example, because they make a new gas that lifts the mixture.",
       "points": [
-        "Chemical raising agent: bicarbonate of soda reacts with an acid such as buttermilk and releases carbon dioxide gas, which makes soda bread rise.",
-        "Baking powder contains bicarbonate of soda and an acid, and releases carbon dioxide when it is moistened and heated.",
-        "Biological raising agent: yeast feeds on sugar during fermentation and gives off carbon dioxide, which makes bread dough rise."
-      ]
+        "Chemical raising agent: bicarbonate of soda reacts with an acid such as buttermilk and releases carbon dioxide gas, which makes soda bread rise. The same applies in cakes.",
+        "Baking powder contains bicarbonate of soda plus an acid, so it releases carbon dioxide when it is moistened and heated.",
+        "Biological raising agent: yeast feeds on sugar during fermentation and gives off carbon dioxide (and alcohol), which makes bread dough rise. The gas expands in the oven, and baking kills the yeast.",
+        "Tenderising by acid or enzymes, for example in a marinade or with a meat tenderiser, is also accepted as a chemical change.",
+        "Browning reactions are chemical changes too, because they make new coloured and flavoured substances: the Maillard reaction, caramelisation and dextrinisation."
+      ],
+      "tip": "Safest chemical answers are the Maillard reaction, caramelisation, dextrinisation and chemical raising agents. A chemical raising agent in bread or cakes is accepted as a chemical change."
     },
     {
       "h": "Enzymic browning",
-      "b": "Enzymic browning is a chemical change caused by enzymes in damaged fruit and vegetables. It happens without heat.",
+      "b": "Enzymic browning is a chemical change caused by an enzyme in damaged fruit and vegetables. It happens without heat, which separates it from the browning of toast or roast meat.",
       "points": [
-        "Cutting, peeling or bruising breaks cell walls and lets the enzyme polyphenol oxidase meet phenolic compounds in the food.",
+        "Cutting, peeling or bruising breaks cell walls, so the enzyme polyphenol oxidase (called 'oxidase' in some marking schemes) meets phenolic compounds in the food.",
         "Oxygen from the air is needed: the enzyme oxidises the phenolic compounds, which then form brown pigments.",
-        "Examples: sliced apple, banana, avocado, potato and mushroom turning brown on standing.",
-        "Acid such as lemon juice lowers the pH and slows the enzyme's action; vitamin C (ascorbic acid) reduces the first brown products back to colourless compounds.",
-        "Keeping cut surfaces under water, sugar syrup or a layer of juice excludes oxygen.",
-        "Blanching vegetables in boiling water inactivates polyphenol oxidase before they are frozen.",
-        "Refrigeration slows enzyme activity but does not stop it."
-      ]
+        "Examples: sliced apple, banana, pear, avocado, potato and mushroom turning brown on standing.",
+        "Browning spoils the appearance, flavour and vitamin C content of fruit and vegetables. It is wanted in the making of black tea, where it is used deliberately.",
+        "To stop oxygen reaching the surface, keep cut surfaces under water, sugar syrup, cling film, a layer of juice or a coating of dressing.",
+        "Acid such as lemon juice lowers the pH and slows the enzyme's action. Vitamin C (ascorbic acid) reduces the first brown products back to colourless compounds.",
+        "Heat inactivates the enzyme, so blanching vegetables in boiling water before freezing, or cooking them, stops browning.",
+        "Refrigeration slows enzyme activity but does not stop it. Working quickly and cutting just before serving also limits browning."
+      ],
+      "tip": "Exams ask for ways to prevent browning in cut apple or banana, with the reason each works: lemon juice (acid), water (no oxygen), blanching (heat inactivates the enzyme) and cold (slows it). Do not write 'enzymic browning in toast', because enzymic browning needs no heat."
     },
     {
       "h": "Investigation: controlling enzymic browning on a fresh apple",
+      "b": "A fair test lets you see which treatment slows browning best, by changing one thing at a time and keeping everything else the same.",
       "points": [
         "Aim: to find which treatment best slows enzymic browning on a sliced apple.",
         "Hypothesis: lemon juice will slow browning more than an untreated slice, because acid slows polyphenol oxidase.",
-        "Independent variable: the treatment applied to each slice, e.g. untreated (the control), dipped in lemon juice, dipped in sugar syrup, dipped in salt water.",
+        "Independent variable: the treatment applied to each slice, e.g. untreated (the control), dipped in lemon juice, dipped in sugar syrup, dipped in salt water or cold water.",
         "Dependent variable: the degree of browning, rated on a 0 to 5 colour scale at fixed times.",
-        "Controlled variables: the same apple variety and ripeness, slices of the same thickness cut with the same knife, the same dipping time, the same room temperature and the same time after cutting.",
+        "Controlled variables: the same apple variety and ripeness, slices of the same thickness cut with the same knife, the same dipping time, the same room temperature and the same time after cutting. These keep the test fair, so only the treatment changes.",
         "Method: 1. Wash and dry the apple and cut it into slices of equal thickness. 2. Dip each treated slice for the same time, keeping one untreated slice as the control. 3. Lay all slices on labelled plates and record the colour of each every 5 minutes for 30 minutes.",
         "Safety and hygiene: wash hands and the apple, use a clean board and a sharp knife held with a claw grip, and wipe up any spilled juice.",
-        "Expected result: the untreated control browns first and most, while the lemon juice slices stay palest for longest.",
+        "Expected result: the untreated control browns first and most, while the lemon juice slices stay palest for longest. This supports the hypothesis.",
         "Evaluation: a rating by eye is subjective and apples vary, so repeat the test with several apples and average the ratings."
-      ]
+      ],
+      "tip": "In the practical-style question, state the fair test (one variable changed, the rest controlled), give the results and write a conclusion. Note that rating by eye is subjective and that repeating the test improves reliability."
     },
     {
       "h": "Non-enzymic browning",
-      "b": "Non-enzymic browning needs heat and does not involve enzymes. Its three processes are the Maillard reaction, caramelisation and dextrinisation.",
+      "b": "Non-enzymic browning needs heat and does not involve enzymes. It has three processes, each involving a different food molecule: the Maillard reaction (protein with sugar), caramelisation (sugar alone) and dextrinisation (starch).",
       "points": [
-        "Maillard reaction: amino acids from protein react with reducing sugars such as glucose when food is heated in dry conditions, producing brown colour and roasted flavour.",
+        "Maillard reaction: amino acids from protein react with reducing sugars such as glucose when food is heated in dry conditions, producing brown colour and savoury roasted flavour.",
         "Maillard browning shows on roast meat and poultry skin, roast potatoes, toast and the crust of bread.",
-        "Little Maillard browning occurs in boiled or stewed food, because water keeps the surface below the temperature needed for browning.",
-        "Caramelisation: sugar melts and darkens under strong heat, forming caramel with a sweet, slightly bitter flavour; it needs no protein.",
+        "Dry heat and a dry surface favour browning, so roasting, grilling, baking and frying brown food.",
+        "Little Maillard browning occurs in boiled, steamed or stewed food, because water holds the surface at about 100 °C, too cool for browning, so the food stays pale.",
+        "Caramelisation: sugar (sucrose) melts and darkens under strong heat, forming caramel with a sweet, slightly bitter flavour. It needs no protein.",
         "Caramelisation examples: caramel sauce, crème caramel and toffee.",
-        "Dextrinisation: dry heat breaks starch down into short-chain dextrins, which brown and give a crisp, golden surface.",
-        "Dextrinisation examples: toast, the golden top of a crumble, and the surface of baked biscuits."
-      ]
+        "Dextrinisation: dry heat breaks starch down into shorter chains called dextrins, which brown and give a crisp surface.",
+        "Dextrinisation examples: toast and the crust of cakes and bread."
+      ],
+      "tip": "Do not swap the three: Maillard needs protein (amino acids) plus sugar, caramelisation is sugar only and dextrinisation is starch only. For 'explain enzymic and non-enzymic browning', say enzymic is oxidase in cut apple meeting air with no heat, and non-enzymic is Maillard, caramelisation or dextrinisation under heat. Do not give temperatures for browning."
     },
     {
       "h": "Loss of nutrients during preparation and cooking",
+      "b": "Some nutrients dissolve in water or are destroyed by heat and air, so preparation and cooking can lower the nutritional value of food. Knowing why they are lost shows how to keep them.",
       "points": [
         "Water-soluble vitamins, vitamin C and the B group, dissolve into cooking water and are lost when it is poured away.",
-        "Vitamin C is also destroyed by heat and oxidation, so the longer vegetables are cooked and exposed to air, the more is lost.",
-        "Fat-soluble vitamins A, D, E and K are more stable in cooking but drain away with the fat from grilled or roasted food.",
-        "Minerals such as potassium and iron leach into cooking water along with the water-soluble vitamins.",
-        "Cutting vegetables into small pieces increases the surface exposed to water and air, and soaking them before cooking increases loss.",
-        "Peeling thinly or cooking in the skin reduces loss, because nutrients are concentrated just beneath the skin.",
-        "Holding cooked vegetables hot for long periods destroys further vitamin C.",
-        "Steaming, stir-frying and microwaving use little water and short cooking times, so they conserve more nutrients.",
-        "Cooking liquid from vegetables can be used in soups, sauces or gravies to recover some nutrients."
+        "Vitamin C is also destroyed by heat and oxidation (exposure to air), so the longer vegetables are cooked and exposed to air, the more is lost.",
+        "Fat-soluble vitamins A, D, E and K are more stable in cooking but drain away with the melted fat from grilled, roasted or fried food.",
+        "Soluble minerals such as potassium and some sugars dissolve into cooking water along with the water-soluble vitamins.",
+        "Cutting vegetables into small pieces increases the surface exposed to water and air, and soaking them before cooking increases loss. Cooking in a lot of water for a long time has the same effect."
       ]
+    },
+    {
+      "h": "Reducing nutrient loss in preparation and cooking",
+      "b": "Most nutrient loss can be limited by handling vegetables sensibly before and during cooking.",
+      "points": [
+        "Peeling thinly or cooking in the skin reduces loss, because nutrients are concentrated just beneath the skin. Peeling thickly increases loss.",
+        "Holding cooked vegetables hot for long periods destroys further vitamin C.",
+        "Adding bicarbonate of soda to vegetables destroys vitamin C and thiamine, so avoid alkalis and copper pans.",
+        "Steaming, stir-frying and microwaving use little water and short cooking times, so they conserve more nutrients. Preparing just before cooking, using a sharp knife, putting the lid on and serving soon after cooking also help.",
+        "Cooking liquid from vegetables can be used in soups, sauces or gravies to recover some nutrients."
+      ],
+      "tip": "The usual 10-mark question asks for ways of keeping vitamin C: little water, lid on, short cooking time, use the liquid, steam or stir-fry, no bicarbonate, and prepare just before cooking. Give a reason with each. Do not give a percentage of vitamin C lost."
     }
   ],
   "keyTerms": [

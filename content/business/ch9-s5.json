@@ -4,55 +4,143 @@
   "subsection": "5. Analytical tools: the power-interest grid for customers and STEEPLE",
   "syllabusRef": "2.4.7, 2.4.8",
   "notes": [
-    { "h": "The power-interest grid", "b": "The power-interest grid plots groups by how much power they hold over a business and how much interest they take in its decisions.", "points": [
-      "The vertical axis shows power, meaning the ability to influence or block the business's decisions; for customers, this is purchasing weight or influence through reviews.",
-      "The horizontal axis shows interest, meaning how strongly the group cares about, or is affected by, the business's choices.",
-      "The grid has four quadrants: high power and high interest, high power and low interest, low power and high interest, and low power and low interest.",
-      "Applied to customer groups, the grid shows which segments can most affect sales or reputation and how closely each should be managed."
-    ] },
-    { "h": "Adjusting the marketing mix by quadrant", "b": "Each quadrant calls for a different level of attention and a different adjustment to the marketing mix.", "points": [
-      "High power, high interest (manage closely): key accounts and loyal high-spending customers need tailored products, personal service and regular engagement, such as a dedicated account manager.",
-      "High power, low interest (keep satisfied): influential customers who are not focused on the brand need reliable service, a fair price and occasional updates that keep them from switching.",
-      "Low power, high interest (keep informed): enthusiastic customers, such as a brand community, need regular content, early access to launches and a route for their feedback.",
-      "Low power, low interest (monitor): occasional buyers need little attention, so the mix uses low-cost promotion such as automated offers.",
-      "Adjusting the mix means changing price, promotion or product emphasis as a group's power or interest changes, rather than treating every customer the same."
-    ] },
-    { "h": "Limitations of the power-interest grid", "b": "The grid is simple and useful for quick decisions, but it has limits that a business should recognise.", "points": [
-      "It gives a static snapshot, while customer power and interest change over time as markets and reputations shift.",
-      "Judging power and interest is subjective, so two managers may place the same customer group in different quadrants.",
-      "It does not show the reasons behind a group's interest, or the links between groups, such as one influential customer shaping the views of others.",
-      "It works best alongside research data, so that the placement of each group rests on evidence rather than assumption."
-    ] },
-    { "h": "The seven STEEPLE factors", "b": "A STEEPLE analysis assesses the external factors that affect a business, so it can spot threats and opportunities the business cannot control.", "points": [
-      "Social: changes in population, lifestyle and attitudes, for example more people living alone and buying smaller packs.",
-      "Technological: new technology that changes products or processes, for example online ordering and contactless payment.",
-      "Economic: inflation, interest rates, employment levels and exchange rates that change costs and demand.",
-      "Environmental: climate change, waste rules and the scarcity of resources, which affect materials, costs and customer expectations.",
-      "Political: government policy, elections and trade relations that change taxes, subsidies and access to markets.",
-      "Legal: laws on consumer rights, employment, data protection and health and safety that set the rules of trade.",
-      "Ethical: society's expectations of fair treatment, honesty and responsible behaviour, which shape a firm's reputation."
-    ] },
-    { "h": "Using STEEPLE for an Irish business", "b": "A STEEPLE analysis turns external factors into concerns the business must act on, and each factor can be illustrated for an Irish firm.", "points": [
-      "For a coffee chain, a social trend towards reusable cups creates a pressure on packaging decisions.",
-      "For a coffee chain, an online ordering app is a technological change that affects both process and promotion.",
-      "For a food producer, a government levy on sugary drinks is a political factor that changes the cost of products.",
-      "For a food producer, rising input costs from an economic downturn or currency movement squeeze margins."
-    ] },
-    { "h": "Using the findings of STEEPLE", "b": "STEEPLE findings are used to identify issues of concern and to decide what the business should do about them.", "points": [
-      "Each factor is rated by how likely it is to change and how much it would affect the business, so the most serious concerns stand out.",
-      "Findings feed the business plan, the marketing mix and the strategy, for example by changing packaging after an environmental rule changes.",
-      "Opportunities matter as much as threats: a legal change that opens a new market can justify a new product line.",
-      "The tool looks outward only, so internal strengths and weaknesses need a separate SWOT analysis (assumed knowledge)."
-    ] },
-    { "h": "Limits of STEEPLE", "b": "STEEPLE is broad and forward-looking, but it has limits that affect how far its conclusions can be trusted.", "points": [
-      "It can produce a long list of factors without showing which matter most, unless the factors are ranked.",
-      "Forecasts about economic or technological change are uncertain, so conclusions should be reviewed regularly.",
-      "It describes the external environment but does not show how well the business is placed to respond to it.",
-      "Good analysis depends on current and credible sources, since out-of-date information can mislead decisions."
-    ] }
+    {
+      "h": "The power-interest grid applied to customers",
+      "b": "A business has many customers and cannot give each the same attention. The power-interest grid, a form of stakeholder mapping, sorts customer groups by how much they can affect the business and how much they care about it, so effort goes where it matters.",
+      "points": [
+        "The specification defines it this way: \"A power-interest grid is a form of stakeholder mapping which considers the motivations of stakeholders and their ability to exert influence (either positive or negative) thereby mapping them according to their relative power and interest.\" Here the stakeholders being mapped are customer groups.",
+        "The vertical axis shows power, meaning the ability to influence or block the business's decisions. For customers this is purchasing weight, or influence through reviews that other buyers read.",
+        "The horizontal axis shows interest, meaning how strongly the group cares about, or is affected by, the business's choices. High interest does not mean high power: an enthusiastic fan may care a great deal but spend little.",
+        "The grid has four quadrants: high power and high interest, high power and low interest, low power and high interest, and low power and low interest. Each axis is high or low, never 'moderate', so a group goes into exactly one quadrant.",
+        "Applied to customer groups, the grid shows which segments (groups of customers with shared needs) can most affect sales or reputation and how closely each should be managed.",
+        "Digital tools feed the grid. Online reviews and social media give customers power, because one public review can reach thousands of buyers, and sales and website analytics provide the data for deciding where each group belongs."
+      ],
+      "tip": "A common mistake is placing a group without a reason. For each customer group, say why its power is high or low and why its interest is high or low, then place it."
+    },
+    {
+      "h": "Using the grid step by step",
+      "b": "The grid is a method, not just a picture. Working through four steps in order turns a list of customers into a set of decisions about the marketing mix (the seven Ps: product/service, pricing, promotion, people, packaging, process and place).",
+      "points": [
+        "1. List the customer groups the business sells to, such as retail buyers, regular business customers, online fans and occasional buyers.",
+        "2. Judge each group's power and interest, and give a reason for each judgement, because a placement with no reason is only a guess.",
+        "3. Place each group in one of the four quadrants.",
+        "4. Choose the adjustment to the mix for each quadrant, so that the groups with most effect on sales or reputation get the most attention."
+      ],
+      "tip": "A common mistake is mixing up the quadrant actions or adjusting no P at all. Name the quadrant, its action and a specific change to price, promotion, product or another P."
+    },
+    {
+      "h": "Adjusting the marketing mix by quadrant",
+      "b": "Each quadrant calls for a different level of attention and a different adjustment to the marketing mix. High-power groups can change the business's results, so they get the most effort; low-power groups are served at lower cost.",
+      "points": [
+        "High power, high interest (manage closely): key accounts and loyal high-spending customers need a tailored product, personal service and regular engagement, such as a dedicated account manager, because losing them would hurt sales most.",
+        "High power, low interest (keep satisfied): influential customers who are not focused on the brand need reliable service, a fair price and occasional updates. These keep them from switching, since they have the weight to move their spending elsewhere.",
+        "Low power, high interest (keep informed): enthusiastic customers, such as a brand community, need regular content, early access to launches and a route for their feedback. They cannot change sales alone, but they spread the brand's message.",
+        "Low power, low interest (monitor): occasional buyers need little attention, so the mix uses low-cost promotion such as automated offers.",
+        "Adjusting the mix means changing price, promotion or product emphasis as a group's power or interest changes, rather than treating every customer the same."
+      ],
+      "tip": "Remember the four actions: high power and high interest is manage closely; high power and low interest is keep satisfied; low power and high interest is keep informed; low power and low interest is monitor. Students often swap the middle two."
+    },
+    {
+      "h": "Worked example: a sample food producer",
+      "b": "Take a sample business, a food producer selling through supermarkets, a cafe chain and its own website. The placements below are judgements for this sample only, not facts about any real firm.",
+      "points": [
+        "A key supermarket buyer is high power, high interest: it controls a large share of sales and cares about price, quality and supply. Manage closely, with a tailored product range, personal service and a dedicated account manager.",
+        "A large cafe customer ordering regularly, but with other suppliers available, is high power, low interest: its orders matter, yet it could switch easily. Keep satisfied with reliable delivery, a fair price and occasional updates.",
+        "Fans who follow the brand online and give feedback are low power, high interest: they spend little individually but care about the brand. Keep informed with regular content, early access to new products and a route for their feedback.",
+        "Occasional online buyers are low power, low interest: they buy rarely and have little effect on the business. Monitor them with low-cost promotion such as automated offers, rather than personal attention."
+      ],
+      "tip": "In an exam, write each group's placement as a judgement with a reason, as above, and then name one specific mix change. Do not present a placement as a fixed fact."
+    },
+    {
+      "h": "Limitations of the power-interest grid",
+      "b": "The grid is simple and useful for quick decisions, but it has limits that a business should recognise before relying on it.",
+      "points": [
+        "It gives a static snapshot, while customer power and interest change over time as markets and reputations shift. A placement made this year can be out of date next year, so it needs regular review.",
+        "Judging power and interest is subjective, so two managers may place the same customer group in different quadrants.",
+        "It does not show the reasons behind a group's interest, or the links between groups, such as one influential customer shaping the views of others.",
+        "It works best alongside research data, so that the placement of each group rests on evidence rather than assumption."
+      ],
+      "tip": "When asked to discuss the limits, give two or three, each with its effect, and then say how to reduce them, for example with research data and regular review."
+    },
+    {
+      "h": "What STEEPLE is and the seven factors",
+      "b": "A business cannot control the world around it, but it can prepare for it. A STEEPLE analysis assesses the external factors that affect a business, so it can spot threats and opportunities it cannot control.",
+      "points": [
+        "The specification defines it this way: \"A STEEPLE analysis may be used to assess the impact of external factors on a business. It includes consideration of social (S), technological (T), economic (E), environmental (E), political (P), legal (L) and ethical (E) factors.\"",
+        "Social: changes in population, lifestyle and attitudes, for example more people living alone and buying smaller packs. In Census 2022 the over-70s had risen by 26% since 2016 and the average age was 38.8 on 3 April 2022, an ageing population.",
+        "Technological: new technology that changes products or processes, for example online ordering and contactless payment.",
+        "Economic: inflation, interest rates, employment levels and exchange rates that change costs and demand. These are the wider economy, not the business's own finances, which are internal.",
+        "Environmental: climate change, waste rules and the scarcity of resources, which affect materials, costs and customer expectations.",
+        "Political: government policy, elections and trade relations that change taxes, subsidies and access to markets. Policy and government action are political; laws that must be obeyed are legal.",
+        "Legal: laws on consumer rights, employment, data protection and health and safety that set the rules of trade.",
+        "Ethical: society's expectations of fair treatment, honesty and responsible behaviour, which shape a firm's reputation."
+      ],
+      "tip": "STEEPLE assesses external factors only. If a question says it assesses internal strengths and weaknesses, the answer is false. A common mistake is believing it includes strengths and weaknesses."
+    },
+    {
+      "h": "STEEPLE examples for an Irish business",
+      "b": "A STEEPLE analysis turns external factors into concerns the business must act on. Each of the seven factors can be illustrated for an Irish firm, whether a sample coffee chain or a food producer.",
+      "points": [
+        "Social: for a coffee chain, a trend towards reusable cups creates pressure on packaging decisions, and an ageing population shifts who the customers are.",
+        "Technological: for a coffee chain, an online ordering app is a technological change that affects both process and promotion.",
+        "Economic: for a food producer, rising input costs from an economic downturn or currency movement squeeze margins.",
+        "Environmental: Regulation (EU) 2025/40 on packaging and packaging waste applies from 12 August 2026, a regulatory change that a food producer's packaging decisions must take into account.",
+        "Political: Ireland introduced a sugar-sweetened drinks tax on 1 May 2018, a government policy that changes the cost of products for a drinks producer.",
+        "Legal: Directive (EU) 2024/825 (empowering consumers for the green transition) and the Irish S.I. No. 124 of 2026, commencing 27 September 2026, set rules on environmental claims. The Consumer Protection Act 2007 and the General Data Protection Regulation (EU) 2016/679, applying from 25 May 2018, are further legal factors.",
+        "Ethical: customers expect honest sustainability claims, so a firm that overstates its green credentials risks its reputation, and ethical and green products appeal to customers who value them."
+      ],
+      "tip": "A common mistake is defining each letter with no link to the business. Give one concrete factor for each letter that applies, linked to the business in the question."
+    },
+    {
+      "h": "Using the findings of STEEPLE",
+      "b": "A list of factors is only the start. STEEPLE findings are used to identify issues of concern and to decide what the business should do about them.",
+      "points": [
+        "1. List the factors in each of the seven areas that affect the business.",
+        "2. Rate each factor by how likely it is to change and how much it would affect the business, so the most serious concerns stand out.",
+        "3. Identify the issues of concern, the factors that are both likely and damaging.",
+        "4. Decide the response. Findings feed the business plan, the marketing mix and the strategy, for example by changing packaging after an environmental rule changes.",
+        "Opportunities matter as much as threats: a legal change that opens a new market can justify a new product line.",
+        "The tool looks outward only, because it covers external factors the business cannot control; internal strengths and weaknesses need SWOT, which covers both."
+      ],
+      "tip": "A full answer to 'conduct a STEEPLE analysis' rates the factors, states the issues of concern and gives the response, rather than only listing factors."
+    },
+    {
+      "h": "Limits of STEEPLE",
+      "b": "STEEPLE is broad and forward-looking, but it has limits that affect how far its conclusions can be trusted.",
+      "points": [
+        "It can produce a long list of factors without showing which matter most, unless the factors are ranked.",
+        "Forecasts about economic or technological change are uncertain, so conclusions should be reviewed regularly.",
+        "It describes the external environment but does not show how well the business is placed to respond to it.",
+        "Good analysis depends on current and credible sources, since out-of-date information can mislead decisions."
+      ],
+      "tip": "When asked to discuss the limits, give two or three, each with its effect, state the benefits too, and say how to reduce the limits, for example by ranking factors and reviewing regularly."
+    },
+    {
+      "h": "Comparing the two tools",
+      "b": "The two tools look in different directions. Used together, with research data behind both, they give a fuller picture than either gives alone.",
+      "points": [
+        "The power-interest grid looks at customers and their influence on the business, and decides how closely each group is managed.",
+        "STEEPLE looks at the external environment (social, technological, economic, environmental, political, legal and ethical factors) and identifies issues the business must respond to.",
+        "Used together, the grid shows who matters most among customers and STEEPLE shows what changes around them, so the business can adjust the marketing mix on evidence rather than assumption."
+      ],
+      "tip": "When asked to compare the tools, contrast customers' influence with the external environment, and then say how they work together."
+    },
+    {
+      "h": "Applying STEEPLE to Irish business news",
+      "b": "The specification asks you to analyse current business news and give an informed opinion. Two developments show how STEEPLE factors turn into business decisions.",
+      "points": [
+        "Combilift, a forklift manufacturer based in Co Monaghan, faces a 15% US tariff on its products (Irish Times, 26 September 2026).",
+        "It split the tariff cost 50/50 with US customers in April 2025 as an interim measure, then from 2026 passed the full tariff cost to customers, saying it could not absorb it.",
+        "The Combilift factors are political (trade policy, the tariff) and economic (the cost passed on in price). The response is a pricing decision, and it depends on the US target market's willingness to pay, because customers now bear the full tariff.",
+        "The EU packaging regulation (Regulation (EU) 2025/40) began to apply on 12 August 2026, and Ireland's Empowering Consumers for the Green Transition Regulations 2026 (S.I. No. 124 of 2026) commenced on 27 September 2026.",
+        "These bring in legal factors (rules that must be obeyed), environmental factors (packaging waste) and ethical factors (honest environmental claims). They affect the product and packaging decisions, because packaging and green claims must now meet the rules.",
+        "An informed opinion is a short evaluative sentence weighing the business's options, with a reason and what evidence would change it. For example: passing the full tariff to customers is wise only while they will still pay; falling orders would be the evidence to reconsider."
+      ],
+      "tip": "A common mistake is summarising the story without analysis. Name only the factors the story contains, link each to a business decision, and finish with a reasoned view."
+    }
   ],
   "keyTerms": [
-    { "term": "power-interest grid", "definition": "A matrix that plots stakeholders by their power over a business and their interest in its decisions, to decide how to manage each group." },
+    { "term": "power-interest grid", "definition": "A form of stakeholder mapping which considers the motivations of stakeholders and their ability to exert influence (either positive or negative) thereby mapping them according to their relative power and interest." },
     { "term": "STEEPLE analysis", "definition": "A tool for assessing the social, technological, economic, environmental, political, legal and ethical factors outside a business that affect it." },
     { "term": "external environment", "definition": "The factors outside a business, which it cannot directly control, that affect its costs, demand and operations." },
     { "term": "economic factors", "definition": "External influences such as inflation, interest rates, employment levels and exchange rates that affect costs and demand." },

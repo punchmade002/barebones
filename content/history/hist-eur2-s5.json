@@ -5,126 +5,297 @@
   "syllabusRef": "E2 P",
   "notes": [
     {
+      "h": "The two sides and the shape of a world war",
+      "b": "The war of 1914-1918 set two coalitions against each other and spread across the globe and the oceans, which is why it is called a world war. Knowing who was on which side, and a few army terms, makes the battles that follow easier to read.",
+      "points": [
+        "The Allies (the Entente) began as France, Russia and Britain. They were joined by Italy in May 1915, Romania in August 1916 and the USA on 6 April 1917, which fought as an associated power, meaning alongside the Allies but without a formal alliance.",
+        "The Central Powers were Germany and Austria-Hungary, joined by the Ottoman Empire (which entered in October-November 1914) and Bulgaria (October 1915).",
+        "A world war is a war fought on several continents and at sea that draws in empires, whole economies and populations. This war shows it through its many fronts: Western, Eastern, Italian, Balkan, Middle East, the colonies and the sea.",
+        "A front is the line where two armies face each other, and an offensive is a large attack. A salient is a bulge in the line surrounded on three sides, so its defenders can be shelled from three directions.",
+        "A division is a large army unit of many thousands of men, and a corps is a still larger unit made up of several divisions. BEF stands for British Expeditionary Force, Britain's army in France.",
+        "Casualties means every man an army loses: killed, wounded, missing and captured, not just deaths. This is why a figure for casualties is always larger than the figure for those killed."
+      ],
+      "tip": "Examiners expect you to keep casualties and deaths apart, and to say associated power rather than ally for the USA."
+    },
+    {
       "h": "The war of movement, 1914",
-      "b": "All the Great Powers expected a short war. Germany's plan was to defeat France in about six weeks and then turn on Russia, but the plan failed and the Western Front became a stalemate by the end of the year.",
+      "b": "All the Great Powers expected a short war. Germany's plan was to defeat France quickly by marching through Belgium and then turn on Russia, but the plan failed and by the end of the year the Western Front was a stalemate (a deadlock in which neither side can advance).",
       "points": [
-        "Germany invaded Belgium on 4 August 1914 and took Liège, then swept through Belgium and northern France under the Schlieffen Plan, modified by the younger Moltke, who weakened the right wing.",
-        "The British Expeditionary Force, a small professional army, fought its first major action at Mons on 23 August 1914 and retreated with the French.",
-        "The First Battle of the Marne (5-12 September 1914) halted the German advance about 40 kilometres from Paris. The Germans withdrew to the River Aisne and dug in.",
-        "Both sides then tried to outflank each other in the 'race to the sea', and the line of trenches reached the North Sea and the Swiss frontier by late 1914.",
-        "The First Battle of Ypres (October-November 1914) was a hard-fought defensive success for the British and French; the BEF lost much of its regular army and Britain had to rely on volunteers.",
-        "At Christmas 1914 troops along parts of the line took part in unofficial truces, which the high commands then forbade.",
-        "In the east, Russia invaded East Prussia, but General Hindenburg and his chief of staff Ludendorff destroyed the Russian Second Army at Tannenberg (26-30 August 1914), capturing about 90,000 men, and defeated the First Army at the Masurian Lakes in September."
+        "Germany invaded Belgium on 4 August 1914 and the Liege forts fell in mid-August. The Germans then swept through Belgium and northern France under the Schlieffen Plan, which the younger Moltke, German chief of staff, modified; the traditional view is that he weakened the right wing.",
+        "The British Expeditionary Force, a small professional army under Sir John French, fought its first major action at Mons on 23 August 1914. It then retreated alongside the French.",
+        "The First Battle of the Marne (5-12 September 1914), fought under the French commander Joffre, halted the Germans after they had come close to Paris. They fell back to the River Aisne and dug in, so the Schlieffen Plan had failed. Moltke was replaced by Falkenhayn.",
+        "Both sides then tried to outflank each other (get round the enemy's open end) in the race to the sea. This is why a line of trenches ran from the Belgian coast on the North Sea to the Swiss frontier by late 1914.",
+        "The First Battle of Ypres (October-November 1914) was a hard-fought defensive success for the British and French. The old regular BEF was largely destroyed, so Britain had to depend on volunteers from then on.",
+        "At Christmas 1914 troops in parts of the line took part in unofficial truces. The high commands forbade a repeat."
+      ],
+      "tip": "For the cause of stalemate, give the chain: the Schlieffen Plan failed, the Marne, the race to the sea, then defensive weapons. Do not confuse the First Marne (September 1914) with the Second Marne (July 1918)."
+    },
+    {
+      "h": "Trench warfare: the system and life in the trenches",
+      "b": "Once the armies dug in, the Western Front became a fixed network of earthworks that lasted for years. Trench warfare is fighting from such lines of trenches, and it shaped how millions of soldiers lived.",
+      "points": [
+        "A trench system had a front line, support and reserve trenches behind it, and communication trenches linking them, so men and supplies could move without crossing open ground. Dugouts gave shelter underground.",
+        "Barbed wire and no man's land, the shell-torn ground between the opposing lines, kept the enemy at a distance, which is why a surprise attack was so hard to make.",
+        "Soldiers lived with mud, rats, lice, cold, and the constant danger of shelling and snipers. Wet conditions caused trench foot, a painful rotting of the feet from standing in water.",
+        "Shell shock, now called combat stress or post-traumatic stress, was a breakdown caused by prolonged bombardment and fear. It is one of the conditions to learn."
+      ],
+      "tip": "Learn the full list of conditions (mud, rats, lice, cold, shelling, snipers, trench foot, shell shock), so that a paragraph on life in the trenches can include accurate detail."
+    },
+    {
+      "h": "Why defence beat attack",
+      "b": "On the Western Front the weapons of defence were stronger than the means of attack. This is why battles produced very high casualties for small gains.",
+      "points": [
+        "The machine gun and quick-firing artillery, together with barbed wire, made frontal attacks (charges straight at the enemy) very costly. Most battle casualties were caused by artillery.",
+        "Railways brought the defenders' reserves to a threatened point faster than attackers could advance across broken ground, so a breakthrough was usually sealed off before it could grow.",
+        "Attackers relied on long preliminary bombardments, which warned the enemy where the attack would come, churned up the ground and often failed to cut the wire.",
+        "From 1916 the creeping barrage, a curtain of shellfire that moved ahead of the infantry as they advanced, gave attackers more protection.",
+        "Poor communications added to the problem. Without radio at the front, commanders could not quickly learn what was happening or change orders, so a battle was hard to control once it began."
+      ],
+      "tip": "A German soldier's account of the first day of the Somme is a typical document. It shows why the bombardment failed: machine guns were brought up from deep dugouts once the shelling stopped and fired as the British advanced."
+    },
+    {
+      "h": "New weapons and tactics: gas, tanks, aircraft and combined arms",
+      "b": "Both sides searched for a way to break the deadlock. New weapons helped, but none won the war alone, and by 1918 the answer lay in using them together.",
+      "points": [
+        "Germany first used poison gas on a large scale at the Second Battle of Ypres on 22 April 1915, releasing chlorine against French and French colonial (Algerian) troops. Canadian troops were gassed in the same battle days later.",
+        "Phosgene followed from late 1915 and mustard gas from July 1917. Gas masks reduced its effect, so gas caused terror and suffering more than a breakthrough.",
+        "Britain first used tanks at Flers-Courcelette on 15 September 1916, during the Somme. They were slow and unreliable. At Cambrai (20 November 1917) about 400 were used together, a sign of what massed tanks could do.",
+        "Aircraft were used for reconnaissance and artillery spotting, then for fighter combat and bombing. Germany attacked Britain with Zeppelin raids from 1915 and Gotha bomber raids on London in 1917.",
+        "By 1918 both sides used combined arms, meaning different weapons working together. Germany developed stormtrooper infiltration tactics, in which small groups slipped past strong points, and the Allies coordinated tanks, aircraft, artillery and infantry."
+      ],
+      "tip": "If asked about gas, give the date and place correctly: Second Ypres, 22 April 1915, chlorine against French and Algerian troops. The Canadians were gassed two days later."
+    },
+    {
+      "h": "The Western Front in 1915 and the idea of attrition",
+      "b": "After the stalemate set in, generals on both sides still believed a breakthrough was possible. When it did not come, the war turned into one of attrition.",
+      "points": [
+        "A war of attrition is a struggle to win by wearing down the enemy's men and resources rather than by one decisive battle. Verdun, the Somme and Passchendaele are the main examples, and the blockade at sea was attrition by starvation.",
+        "In 1915 the Allies launched offensives at Neuve Chapelle (March), in Artois (French) and at Loos (September), and the Germans used gas at Ypres. None broke the line.",
+        "A shortage of shells, the shell scandal of May 1915, caused a political crisis in Britain. It helped bring a coalition government and a Ministry of Munitions under Lloyd George, so the army's needs changed British politics."
+      ],
+      "tip": "Examiners ask whether attrition was a deliberate strategy or the result of failed breakthroughs. Make a judgement and support it with Verdun and the Somme."
+    },
+    {
+      "h": "Verdun, 1916",
+      "b": "In 1916 Germany tried to win by hurting France where it would not retreat. The result was a long, costly battle.",
+      "points": [
+        "Verdun lasted from 21 February to 18 December 1916. The German chief of staff Falkenhayn attacked the symbolically important French fortress, intending, according to his post-war account, to bleed France white.",
+        "Each side lost over 300,000 casualties, about 700,000 in total, and the French held.",
+        "General Petain took command in late February 1916. He rotated divisions through the battle so no unit was worn out, and supplies reached the front along the Voie Sacree (Sacred Way), the road from Bar-le-Duc.",
+        "Verdun became the symbol of French endurance, and the French held."
+      ],
+      "tip": "Verdun was a German attack and a French defence, while the Somme was an Anglo-French attack. Verdun ended on 18 December 1916, after the Somme finished on 18 November. Verdun is also a good outside fact for a document question on 1916."
+    },
+    {
+      "h": "The Somme, 1916",
+      "b": "The Somme was a joint British-French offensive planned partly to relieve the pressure on Verdun. It became the most famous battle of the British Army in the war.",
+      "points": [
+        "The Somme lasted from 1 July to 18 November 1916. A bombardment of about a week, from 24 June, was meant to destroy the German defences and wire before the infantry advanced.",
+        "On the first day the British suffered about 57,000 casualties, of whom about 19,000 were killed. It was the worst day in the history of the British Army, and the 57,000 are casualties, not deaths.",
+        "The Allied line advanced up to about 10 kilometres at the deepest point, and far less on most of the front. Total casualties were over a million across all armies, and German losses were also heavy.",
+        "It was the first big battle for Kitchener's volunteer Pals battalions, men who enlisted together from the same town. Heavy losses fell at once on particular towns, such as Accrington, home of the Accrington Pals.",
+        "Tanks were used for the first time at Flers-Courcelette on 15 September 1916.",
+        "Historians judge it as failure (the first-day losses and small gains) or as partial success, because it relieved Verdun, wore down the German army and taught the BEF."
+      ],
+      "tip": "Haig's diary before the Somme shows confidence. A question will then ask what really happened: very heavy losses and little ground. Use the figures precisely."
+    },
+    {
+      "h": "Irish divisions on the Western Front",
+      "b": "Irish soldiers served in large numbers in the British Army, and two Irish divisions took part in some of the best-known battles of 1916 and 1917.",
+      "points": [
+        "The 36th (Ulster) Division attacked at Thiepval on 1 July 1916, the first day of the Somme, so Irish units shared in its heaviest day.",
+        "The 16th (Irish) Division took Guillemont and Ginchy on 3 and 9 September 1916. Tom Kettle was killed at Ginchy on 9 September.",
+        "At Messines in June 1917 the two divisions fought side by side and took Wytschaete. Major Willie Redmond MP was killed there."
       ]
     },
     {
-      "h": "Trench warfare: conditions, weapons and tactics",
-      "b": "Defensive weapons were stronger than the means of attack, so battles on the Western Front produced very high casualties for small gains.",
+      "h": "1917: Nivelle's offensive, Arras and Messines",
+      "b": "In 1917 the Allies tried again to break through. The year began with another costly failure and French collapse of morale, and then moved to more limited British operations.",
       "points": [
-        "Trench systems had a front line, support and reserve trenches linked by communication trenches, with barbed wire and the shell-torn ground of no man's land between the opposing lines.",
-        "Soldiers lived with mud, rats, lice, cold and the constant danger of shelling and snipers. Trench foot and shell shock (what we now call combat stress) were common.",
-        "The machine gun and quick-firing artillery made frontal attacks costly; most battle casualties were caused by shellfire.",
-        "Attackers relied on long preliminary bombardments, which warned the enemy and churned up the ground. From 1916 the 'creeping barrage' moved ahead of infantry as they advanced.",
-        "Poison gas was first used on a large scale by Germany at the Second Battle of Ypres (22 April 1915), when chlorine was released against French colonial and Canadian troops. Phosgene and mustard gas followed, and gas masks reduced its effect.",
-        "Tanks were first used by Britain at Flers-Courcelette on 15 September 1916. They were slow and unreliable, but at Cambrai (November 1917) hundreds were used together with artillery and infantry.",
-        "Aircraft were used for reconnaissance, artillery spotting and, later, fighter combat and bombing. Germany used Zeppelins and Gotha bombers against British cities.",
-        "By 1918 both sides used combined arms: Germany developed stormtrooper infiltration tactics, and the Allies combined tanks, aircraft, artillery and infantry."
+        "Nivelle's offensive on the Chemin des Dames began on 16 April 1917. It failed with heavy losses, and mutinies spread through many French divisions in May-June 1917.",
+        "Petain replaced Nivelle in May 1917 and restored morale by improving conditions and avoiding big attacks, and the French army recovered.",
+        "At Arras, from 9 April 1917, the British attacked. The Canadian Corps captured Vimy Ridge on 9-12 April.",
+        "At Messines on 7 June 1917, 19 mines exploded under the ridge. It was a limited success and came before Passchendaele."
+      ],
+      "tip": "Do not confuse the French commanders: Joffre (to 1916), Nivelle (December 1916 to May 1917), Petain (from May 1917) and Foch (Allied supreme commander in 1918)."
+    },
+    {
+      "h": "Passchendaele and Cambrai, 1917",
+      "b": "The British offensive in Flanders in the summer of 1917 became the most notorious battle of the war, but Cambrai later showed what tanks could achieve.",
+      "points": [
+        "Passchendaele, also called the Third Battle of Ypres, ran from 31 July to 10 November 1917. Its aims were to break out of the Ypres salient and reach the Belgian coast and the German U-boat bases there.",
+        "Heavy rain and shell damage turned the ground to mud. Men and guns sank in it, so the advance slowed to a crawl and the final gain was only about 8 kilometres.",
+        "Canadian troops took the village of Passchendaele in November 1917, but the gain was so small for the cost that the battle became a symbol of waste.",
+        "At Cambrai on 20 November 1917, about 400 tanks attacked by surprise. The gains were mostly lost to a German counter-attack from 30 November."
+      ],
+      "tip": "Remember the three Ypres battles: First (1914), Second (1915, gas) and Third (1917, Passchendaele). Passchendaele's mud is a standard point in answers on why offensives failed."
+    },
+    {
+      "h": "The Eastern Front, 1914-1916",
+      "b": "On the Eastern Front the armies moved over far greater distances than in the west. Russia was large but poorly supplied, and German commanders exploited this.",
+      "points": [
+        "Russia's invasion of East Prussia drew German troops east at the time of the Marne. At Tannenberg (26-30 August 1914) Hindenburg and Ludendorff destroyed the Russian Second Army under Samsonov and took about 90,000 prisoners.",
+        "At the Masurian Lakes in September 1914 the Germans defeated Rennenkampf's First Army.",
+        "The Central Powers broke the Russian line at Gorlice-Tarnow in May 1915, forcing a great Russian retreat from Poland and Galicia. Warsaw fell to Germany in August 1915.",
+        "The Brusilov Offensive, begun on 4 June 1916 against Austria-Hungary, was the most successful Allied attack of the year. It took many prisoners and forced Germany to move troops east, but it could not be sustained and Russia suffered very heavy losses.",
+        "Romania declared war on 27 August 1916 to join the Allies, but Germany and its allies largely overran it, and Bucharest fell in December 1916."
+      ],
+      "tip": "Keep the Eastern battles apart: Tannenberg (August 1914), the Masurian Lakes (September 1914) and Gorlice-Tarnow (1915)."
+    },
+    {
+      "h": "Russia's exit from the war, 1917-1918",
+      "b": "Defeat and strain at home brought Russia down. Its exit from the war freed Germany to turn west.",
+      "points": [
+        "Defeats, losses, shortages and the failure of the Tsar's government led to the February Revolution of 1917 (March by the Western calendar). The Provisional Government that replaced the Tsar continued the war, but the Kerensky Offensive of July 1917 collapsed.",
+        "After the Bolsheviks seized power in October 1917 they signed an armistice with Germany in December 1917. By the Treaty of Brest-Litovsk on 3 March 1918, Russia gave up Poland, the Baltic lands, Ukraine and Finland.",
+        "The treaty freed dozens of divisions for the West and so helped Germany's offensives of 1918, but Germany still kept large forces in the occupied east."
+      ],
+      "tip": "Treat Brest-Litovsk as a military event here. Do not confuse it (3 March 1918) with the armistice of 11 November 1918 or the Treaty of Versailles of 1919."
+    },
+    {
+      "h": "Gallipoli, 1915",
+      "b": "After the Ottoman Empire joined the Central Powers, Britain and France tried to knock it out quickly by attacking the Dardanelles, the narrow strait to Constantinople. The plan failed, and the campaign had lasting political and national effects.",
+      "points": [
+        "The Ottoman Empire entered the war in October-November 1914. The naval attempt to force the Dardanelles came on 18 March 1915 and failed.",
+        "Landings followed on 25 April 1915 by British, French and ANZAC (Australian and New Zealand) troops, at ANZAC Cove and Cape Helles. The Royal Dublin Fusiliers and Royal Munster Fusiliers landed at V Beach, Helles.",
+        "The 10th (Irish) Division fought at Suvla Bay in August 1915. The campaign was stalemated, with the Ottoman commander Mustafa Kemal (later Ataturk) making his name there, and the troops were evacuated by 9 January 1916.",
+        "Gallipoli damaged Churchill, First Lord of the Admiralty, who had promoted it, and he left the Admiralty in May 1915.",
+        "It became a founding moment for Australian and New Zealand national identity, remembered each year as Anzac Day on 25 April."
+      ],
+      "tip": "Gallipoli is a favourite judgement point: a failure for the Allies, but a source of national identity for Australia and New Zealand."
+    },
+    {
+      "h": "Other fronts: Italy, the Middle East, the Balkans and the colonies",
+      "b": "The war reached well beyond France and Russia. These campaigns show why it was a world war.",
+      "points": [
+        "Italy entered the war on the Allied side in May 1915 under the Treaty of London (April 1915), which promised it territory from Austria-Hungary. Eleven battles on the Isonzo brought little gain.",
+        "Italy suffered a disastrous defeat at Caporetto on 24 October 1917, then recovered on the Piave and won at Vittorio Veneto (October-November 1918). Do not confuse the 1915 Treaty of London with the 1839 treaty on Belgium.",
+        "In the Middle East the British fought the Ottomans in Mesopotamia, where Kut surrendered on 29 April 1916, and in Palestine. Allenby took Jerusalem in December 1917 and won at Megiddo in September 1918.",
+        "The Arab Revolt began in June 1916 under Sharif Hussein of Mecca, with T. E. Lawrence as British liaison officer, so Britain gained Arab help against the Ottomans.",
+        "Serbia was overrun in October-December 1915 after Bulgaria joined the Central Powers. The Allies kept a front at Salonika, and Bulgaria asked for an armistice on 29 September 1918.",
+        "Most German colonies were captured by the Allies early. German East Africa under Paul von Lettow-Vorbeck held out until he surrendered on 25 November 1918, after the armistice in Europe."
       ]
     },
     {
-      "h": "The Western Front, 1915–1917: attrition",
-      "b": "In a war of attrition each side tried to wear down the other's manpower and resources. Generals on both sides believed a breakthrough was possible, and they continued costly offensives.",
+      "h": "War at sea: the blockade and Jutland",
+      "b": "Britain's navy could not easily win a decisive battle, but it could strangle German trade.",
       "points": [
-        "In 1915 the Allies launched offensives at Neuve Chapelle, Artois and Loos, and the Germans used gas at Ypres. None broke the line, and shell shortages in Britain caused a political crisis in May 1915.",
-        "Verdun (21 February to 18 December 1916): the German chief of staff Falkenhayn attacked the symbolically important French fortress, intending, according to his later account, to bleed the French army white. Both sides lost hundreds of thousands of men.",
-        "The French commander at Verdun, General Pétain, rotated divisions through the battle, and the road known as the Sacred Way supplied the front. Verdun became a symbol of French endurance.",
-        "The Somme (1 July to 18 November 1916) was a joint British-French offensive planned partly to relieve Verdun. On the first day the British Army lost about 57,000 casualties, of whom about 19,000 were killed, the worst single day in its history.",
-        "The Somme advanced the Allied line only a few kilometres and cost over a million casualties in total across all armies. It was the first big battle for Kitchener's volunteer 'Pals' battalions, and wiped out the male population of some local communities.",
-        "Nivelle's offensive in April 1917 along the Chemin des Dames failed with heavy losses, causing mutinies in the French army; Pétain replaced Nivelle and restored morale by improving conditions.",
-        "Passchendaele (the Third Battle of Ypres, July to November 1917) was fought in the Ypres salient, partly to clear German submarine bases in Belgium. Heavy rain and shell damage turned the ground to mud, and the final gain was only about 8 kilometres.",
-        "At Cambrai (20 November 1917) Britain used hundreds of tanks in a surprise attack; the gains were mostly lost to a German counter-attack."
-      ]
+        "Britain used its fleet to blockade Germany, stopping imports of food and raw materials. Germany suffered shortages, and the winter of 1916-17, the turnip winter, was especially severe. This was attrition at sea.",
+        "The German High Seas Fleet, built in the pre-war naval race, was cautious. The only major fleet engagement was Jutland (31 May-1 June 1916), between the British Grand Fleet under Jellicoe and Beatty and the German fleet under Scheer.",
+        "Britain lost 14 ships and about 6,000 men, and Germany 11 ships and about 2,500 men. The British fleet kept control of the North Sea and the German fleet remained mostly in port."
+      ],
+      "tip": "Jutland is a German tactical success (more British losses) but a British strategic success. Control of the North Sea kept the blockade in place."
     },
     {
-      "h": "The Eastern Front and Russia's exit",
+      "h": "War at sea: submarines and the USA",
+      "b": "Unable to beat the Royal Navy on the surface, Germany turned to submarines (U-boats). The campaign nearly starved Britain but brought the USA into the war.",
       "points": [
-        "The Central Powers broke the Russian line at Gorlice-Tarnow in May 1915, forcing a great Russian retreat from Poland and Galicia.",
-        "The Brusilov Offensive (June 1916), led by General Brusilov against Austria-Hungary, was the most successful Allied offensive of the year. It took many prisoners and forced Germany to move troops east, but it cost Russia about a million casualties and could not be sustained.",
-        "Romania joined the Allies in August 1916 and was largely overrun by Germany and its allies by the end of the year.",
-        "Defeats, losses, shortages and the failure of the Tsar's government led to the February Revolution of 1917 (see the notes on Tsarist Russia). The Provisional Government continued the war, and the Kerensky Offensive of July 1917 collapsed.",
-        "After the Bolsheviks seized power in October 1917, they signed an armistice in December 1917 and the Treaty of Brest-Litovsk on 3 March 1918, giving up large parts of Poland, the Baltic lands, Ukraine and Finland.",
-        "The treaty let Germany move over a million men west for the offensives of 1918, but it also tied down troops in the occupied east."
-      ]
-    },
-    {
-      "h": "Other fronts",
-      "points": [
-        "Gallipoli: after Ottoman entry into the war in October-November 1914, Britain and France tried to force the Dardanelles in March 1915. The land campaign began on 25 April 1915 with landings of British, French, Australian and New Zealand (ANZAC) troops. The campaign was stalemated and the troops were evacuated by 9 January 1916.",
-        "Gallipoli damaged the reputation of Churchill, who had promoted it, but helped to build the sense of national identity of Australia and New Zealand.",
-        "Italy joined the Allies in May 1915 under the Treaty of London, promised territory from Austria-Hungary. Eleven battles on the Isonzo brought little gain, and Italy suffered a disastrous defeat at Caporetto in October 1917 before recovering at Vittorio Veneto (October-November 1918).",
-        "In the Middle East, the British fought the Ottomans in Mesopotamia (surrender at Kut in April 1916) and in Palestine, where General Allenby captured Jerusalem in December 1917 and won at Megiddo in September 1918. The Arab Revolt was supported by T.E. Lawrence.",
-        "In the Balkans, Serbia was overrun by the Central Powers in 1915; the Allies maintained a front at Salonika. Bulgaria asked for an armistice on 29 September 1918, and the Ottomans and Austria-Hungary followed in October and November.",
-        "Germany's colonies were captured by the Allies, though German East Africa held out until the end of the war."
-      ]
-    },
-    {
-      "h": "War at sea",
-      "points": [
-        "Britain used its fleet to blockade Germany, stopping imports of food and raw materials. Germany suffered shortages, and the winter of 1916-17, known as the turnip winter, was especially severe.",
-        "The German High Seas Fleet was cautious. The only major fleet engagement, Jutland (31 May to 1 June 1916), cost Britain 14 ships and about 6,000 men, and Germany 11 ships and about 2,500 men. The British fleet kept control of the North Sea and the German fleet remained mostly in port.",
-        "Germany turned to submarines. The sinking of the liner Lusitania on 7 May 1915, with almost 1,200 dead including 128 Americans, outraged American opinion, and Germany limited its campaign.",
-        "On 1 February 1917 Germany resumed unrestricted submarine warfare, hoping to starve Britain into surrender within months. British shipping losses were very high in spring 1917, and Britain had food stocks for only weeks.",
-        "The adoption of the convoy system in 1917 and improved anti-submarine methods reduced losses, and the campaign failed to knock Britain out of the war while bringing the USA in."
-      ]
+        "The liner Lusitania was sunk on 7 May 1915 off the south coast of Ireland, near the Old Head of Kinsale, Co. Cork. About 1,200 died, more than 120 of them American, which outraged American opinion.",
+        "As a result Germany restricted its campaign, giving the Sussex pledge in May 1916.",
+        "On 1 February 1917 Germany resumed unrestricted submarine warfare, sinking ships without warning, hoping to starve Britain into surrender within months. April 1917 was the worst month for Allied shipping losses, and Britain faced a serious food crisis.",
+        "Convoys, adopted from mid-1917, grouped merchant ships under naval escort, which made them harder for submarines to find and attack. Together with better anti-submarine methods they cut losses.",
+        "The campaign failed to knock Britain out of the war and it brought in the USA."
+      ],
+      "tip": "For why the USA entered, give both causes: U-boats and the Zimmermann Telegram."
     },
     {
       "h": "Conscription and the mobilisation of manpower",
-      "b": "Mass war needed mass armies. Continental states already had conscription, but Britain had relied on volunteers and had to change.",
+      "b": "Mass war needed mass armies. Continental states already had conscription, which is compulsory military service, but Britain had relied on volunteers and had to change.",
       "points": [
-        "Germany and France called up all fit men under the pre-war system of conscription. Russia did the same.",
-        "In Britain, Kitchener's recruiting campaign raised over two million volunteers by the end of 1915. As losses grew and numbers fell, the Military Service Act of January 1916 introduced conscription for unmarried men aged 18 to 41; it was extended to married men in May 1916.",
-        "Conscientious objectors could appear before tribunals, and about 16,000 men claimed that status. Some were jailed or sent to non-combatant units.",
-        "The Military Service Act of 1916 did not apply to Ireland. A proposal in April 1918 to extend conscription to Ireland provoked the Conscription Crisis, a nationwide campaign of opposition, and was never put into effect.",
-        "The USA introduced conscription through the Selective Service Act of May 1917. Germany passed the Auxiliary Service Law in December 1916, which required all men aged 17 to 60 to work for the war effort.",
-        "Conscription and casualties raised the question of 'reserved occupations': governments had to keep skilled workers in munitions, mines and railways, and sometimes replaced them with women (see the notes on women in the workforce)."
-      ]
+        "Germany, France, Russia and Austria-Hungary called up trained reservists under their pre-war systems of conscription.",
+        "In Britain, Kitchener, Secretary of State for War, raised over two million volunteers by the end of 1915, but losses grew and numbers fell.",
+        "The Military Service Act, passed in January 1916 and in force from 2 March 1916, conscripted unmarried men aged 18 to 41 because volunteers were no longer enough. It was extended to married men in May 1916.",
+        "Conscientious objectors, men who refused to fight on grounds of conscience, appeared before tribunals. About 16,000 claimed the status, and some were jailed while others were sent to non-combatant work.",
+        "The 1916 Act did not apply to Ireland. An attempt in April 1918 to extend conscription there caused the Conscription Crisis, with an anti-conscription pledge on 21 April and a one-day general strike on 23 April 1918. It was never enforced.",
+        "The USA introduced conscription through the Selective Service Act of May 1917. Germany passed the Auxiliary Service Law in December 1916, requiring men aged 17 to 60 to do war work.",
+        "Governments had to keep skilled workers in reserved occupations such as munitions, mines and railways, and women replaced many men."
+      ],
+      "tip": "Britain needed conscription because of losses and falling volunteer numbers by 1915. Give both dates for the Act: passed January 1916, in force 2 March 1916."
     },
     {
-      "h": "The USA's entry and the end of the war, 1917–1918",
+      "h": "The USA's entry, 1917",
+      "b": "The USA stayed neutral for nearly three years. Two German decisions in 1917 changed that.",
       "points": [
-        "The Zimmermann Telegram, a secret German offer to Mexico of an alliance against the USA, was intercepted by British intelligence and published in the American press in March 1917.",
-        "The USA declared war on Germany on 6 April 1917, after the submarine campaign sank American ships and the Zimmermann Telegram, as an 'associated power' rather than a formal ally. Its troops under General Pershing arrived in strength during 1918.",
-        "With Russia out, Ludendorff planned the Spring Offensive (Kaiserschlacht), launched on 21 March 1918 with 'Operation Michael'. It made large gains and came close to Amiens, but did not break the Allied line.",
-        "In response, the Allies set up a unified command under Marshal Foch in April 1918. German troops were exhausted and short of supplies, and a counter-attack at the Second Battle of the Marne (July 1918) turned the tide.",
-        "The Hundred Days began with the Battle of Amiens on 8 August 1918, which Ludendorff called the 'black day of the German army'. Allied tanks, aircraft and artillery pushed the Germans back to the Hindenburg Line, which was broken in late September.",
-        "On 29 September 1918 Ludendorff told the Kaiser that Germany needed an armistice at once. Germany asked for terms using Wilson's Fourteen Points, and the armistice was signed in a railway carriage at Compiègne at 5 a.m. on 11 November, taking effect at 11 a.m.",
-        "Military deaths in the war are usually put at about nine to ten million, with many more wounded, and civilian deaths in the millions."
-      ]
+        "Unrestricted submarine warfare sank American ships. The Zimmermann Telegram, sent in January 1917, was a secret German offer of an alliance to Mexico against the USA. British intelligence intercepted it and it was published in the American press on 1 March 1917.",
+        "Wilson asked Congress for war on 2 April 1917, and the USA declared war on Germany on 6 April 1917. Keep these two dates distinct.",
+        "General John J. Pershing commanded the American Expeditionary Forces, which arrived in strength during 1918. Their coming raised Allied morale and changed German calculations, because Germany could not match the new men and resources."
+      ],
+      "tip": "Describe the Zimmermann Telegram rather than quote it. Explain why it drew the USA in: an alliance with Mexico, together with unrestricted submarine warfare."
+    },
+    {
+      "h": "1918: the Spring Offensive and the turn of the tide",
+      "b": "With Russia out, Germany had one chance to win before the Americans arrived. The offensive almost succeeded, but its failure left the German army exhausted.",
+      "points": [
+        "Ludendorff's Spring Offensive (Kaiserschlacht) began on 21 March 1918 with Operation Michael. It made large gains and came close to Amiens, but did not break the Allied line.",
+        "Haig issued his backs to the wall order on 11 April 1918, calling on the British army to stand and fight because the line was under severe pressure.",
+        "Foch was given coordinating authority at Doullens on 26 March 1918 and made Supreme Allied Commander in April 1918, so the Allies at last had a unified command.",
+        "German troops were exhausted and short of supplies. The Allied counter-attack at the Second Battle of the Marne from 18 July 1918 turned the tide."
+      ],
+      "tip": "Why Germany lost in 1918: exhaustion after the Spring Offensive, the blockade, American troops, Allied combined arms and the collapse of its allies."
+    },
+    {
+      "h": "The Hundred Days and the armistice",
+      "b": "From August 1918 the Allies advanced almost continuously. Germany's allies collapsed one by one, and it asked for peace.",
+      "points": [
+        "The Hundred Days began with the Battle of Amiens on 8 August 1918, which Ludendorff called the black day of the German army. Allied tanks, aircraft and artillery pushed the Germans back, and the Hindenburg Line was broken at the end of September.",
+        "On 29 September 1918 Ludendorff told the Kaiser that Germany needed an armistice. In early October Germany sent a note to Wilson asking for terms on the basis of the Fourteen Points.",
+        "Germany's allies had already collapsed: Bulgaria signed an armistice on 29 September, the Ottoman Empire on 30 October (Mudros) and Austria-Hungary on 3 November 1918.",
+        "The armistice was signed in a railway carriage at Compiegne at about 5 a.m. on 11 November 1918 and took effect at 11 a.m. Foch led the Allied delegation.",
+        "Military deaths are put at about 9 to 10 million, though some estimates are lower at about 8.5 million. Many more were wounded and civilian deaths ran into the millions."
+      ],
+      "tip": "Use the date chain correctly: the armistice (11 November 1918) came before the Treaty of Versailles (1919). The quotation black day of the German army belongs to Ludendorff and to Amiens."
     },
     {
       "h": "Key personality: Douglas Haig",
       "b": "Douglas Haig commanded the British Expeditionary Force in France from December 1915 until the end of the war. He is the most controversial British commander of the war.",
       "points": [
-        "Born in Edinburgh in 1861 into a whisky-distilling family, Haig attended Sandhurst, joined the cavalry and served in the Sudan and the Boer War before becoming a corps commander in 1914.",
-        "He succeeded Sir John French as commander-in-chief of the BEF in December 1915 and was promoted field marshal in January 1917.",
-        "He commanded the Somme offensive of 1916, the Arras offensive and Passchendaele in 1917, and the defensive battles of 1918. On 11 April 1918 he issued his 'backs to the wall' order.",
-        "He led the Allied advance in the Hundred Days of 1918, in which British forces played the leading part and took many prisoners.",
-        "After the war he was made an earl and given a grant of money. He founded the British Legion in 1921 and supported the sale of poppies. He died in 1928, and his funeral was a national occasion.",
-        "Contemporaries: King George V and the army trusted him; Lloyd George distrusted him, thought his battles wasteful, and withheld reinforcements in early 1918. Many soldiers, and the public after the war, mourned him.",
-        "From the 1920s memoirs, notably Lloyd George's, criticised him. In the 1960s Alan Clark's The Donkeys popularised the phrase 'lions led by donkeys', which Clark misattributed to German generals.",
-        "Historians such as Denis Winter and Gerard De Groot depicted Haig as a callous and unimaginative butcher; John Terraine, Gary Sheffield and others argue that he adapted, learned from experience and led the army to victory in 1918.",
-        "Many historians now accept that his attritional strategy was shaped by circumstances: the strength of defences, the need to support France, and the poor communications that limited control over battles."
-      ]
+        "Haig was born in Edinburgh in 1861 into the Haig whisky-distilling family. He studied at Oxford (Brasenose College) and Sandhurst, and became a cavalry officer in the 7th Hussars.",
+        "After Staff College he served in the Sudan (Omdurman, 1898) and the Boer War (1899-1902). In 1914 he commanded I Corps in the BEF at Mons, the retreat and First Ypres.",
+        "He led the First Army from December 1914, which fought at Neuve Chapelle (March 1915) and Loos (September 1915). He succeeded Sir John French as commander-in-chief in December 1915 and became field marshal on 1 January 1917.",
+        "His battles in 1916-17 were the Somme (1916) and Arras and Passchendaele (1917).",
+        "In 1918 he directed the defence against the Spring Offensive and issued his backs to the wall order on 11 April. He then led the Hundred Days, in which the BEF played the leading part and took many prisoners.",
+        "Haig believed in attrition and in a decisive breakthrough exploited by cavalry. His diary on the eve of the Somme shows confidence, but he also supported new weapons such as tanks.",
+        "He was a participant shaped by events. The need to support France (Verdun, the French mutinies), the strength of defences and poor communications, with no radio at the front, limited what any commander could do.",
+        "After the war he was made Earl Haig in 1919 and voted 100,000 pounds by Parliament. He was one of the founders and first president of the British Legion in 1921.",
+        "He supported the poppy appeal (the Haig Fund) for ex-servicemen and died on 29 January 1928, with huge public mourning at his funeral."
+      ],
+      "tip": "For a 30- or 40-mark paragraph, each accurate dated fact earns marks: succeeded French (December 1915), the Somme with first-day losses, Arras and Passchendaele, field marshal (1917), the backs to the wall order, the Hundred Days, the British Legion and poppy appeal, death in 1928, and the debate about his reputation."
+    },
+    {
+      "h": "Haig's reputation: contemporaries and historians",
+      "b": "People judged Haig very differently in his own time and afterwards. The argument is the part of the topic examiners most like to set as a judgement.",
+      "points": [
+        "Contemporaries divided. King George V and much of the army trusted him. Lloyd George distrusted him, thought his offensives wasteful and kept reserves in Britain over the winter of 1917-18. Ex-servicemen and the public mourned him in 1928.",
+        "Critics came first in memoirs. Lloyd George's War Memoirs, published in the 1930s, attacked him. Alan Clark's The Donkeys (1961) popularised the phrase \"lions led by donkeys\", a phrase about British soldiers and generals, not a quotation from Haig.",
+        "Clark presented the phrase as an exchange between German generals, but no such source has been found, and similar phrases were used of other armies before 1914.",
+        "Oh! What a Lovely War (stage 1963, film 1969) and Blackadder Goes Forth (1989) fixed the popular image of foolish generals.",
+        "Denis Winter (Haig's Command, 1991) and Gerard De Groot (a critical biography, 1988) portrayed Haig as a callous, unimaginative butcher.",
+        "Defenders such as John Terraine (Douglas Haig: The Educated Soldier, 1963) and Gary Sheffield (Forgotten Victory, 2001, and The Chief, 2011) argue that the BEF learned and improved its tactics, which won in 1918 under Haig."
+      ],
+      "tip": "Naming at least one historian on each side earns credit. Use Clark, Winter or De Groot against Haig and Terraine or Sheffield for him. Do not attribute the donkeys phrase to Haig or Ludendorff."
     },
     {
       "h": "Assessment: how was the war won and lost?",
+      "b": "Examiners reward a clear judgement that weighs strengths against limits. These paired points give the evidence for both sides.",
       "points": [
-        "Allied success: the blockade, attrition and the arrival of American troops in 1918 wore down Germany's capacity to fight, and 1918's coordinated tank, artillery and air attacks broke its army.",
-        "Limit: the Western Front battles of 1915-17 produced casualties out of proportion to gains, and Passchendaele and the Somme became symbols of waste.",
+        "Allied strength: the blockade, attrition, American troops and resources, and the combined-arms victory of 1918 wore down Germany's capacity to fight and broke its army.",
+        "Allied limit: the Western Front battles of 1915-17 produced casualties out of proportion to gains, and the Somme and Passchendaele became symbols of waste.",
         "German success: Germany held the Western Front for four years, knocked Russia out of the war and nearly won in spring 1918.",
-        "German failure: the Schlieffen Plan failed in 1914, unrestricted submarine warfare brought in the USA, and the army was exhausted by 1918.",
-        "Contemporary view: the troops themselves, and many officers, criticised the high command; later views range from Clark's 'donkeys' to Sheffield's 'Forgotten Victory'."
-      ]
+        "German failure: the Schlieffen Plan failed in 1914, the U-boat gamble of unrestricted submarine warfare brought in the USA, and the army was exhausted by 1918.",
+        "Contemporary view: the troops and many officers criticised the high command. Later views range from Clark's donkeys to Sheffield's Forgotten Victory."
+      ],
+      "tip": "A strong essay states a lesson about the war, such as attrition at huge cost, defence stronger than attack, or a war won by mobilising whole societies, and backs it with dated evidence rather than narrative."
+    },
+    {
+      "h": "Assessment: Haig's generalship",
+      "b": "Judging Haig means weighing what he achieved against what he failed to avoid. A clear verdict, kept up throughout, is what examiners look for.",
+      "points": [
+        "Achievements: victory in 1918, a record of adapting and learning new tactics, and loyalty to the coalition, which held the Allied alliance together.",
+        "Limits: the first day of the Somme, the mud of Passchendaele, over-optimism and slowness to stop failing attacks.",
+        "Contemporary view: trusted by George V and the army, distrusted by Lloyd George and mourned in 1928. Later view: the donkeys image against the learning curve argument that the BEF improved and won.",
+        "Many historians now accept that his attritional strategy was shaped by circumstances: strong defences, the need to support France and poor communications."
+      ],
+      "tip": "State a verdict and keep to it. Pair each achievement with a limit and each contemporary opinion with a later one."
     }
   ],
   "keyTerms": [

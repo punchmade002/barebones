@@ -4,63 +4,169 @@
   "subsection": "2. Conflict in the workplace and its resolution",
   "syllabusRef": "3.1.4, 3.1.5, 3.1.6",
   "notes": [
-    { "h": "Causes of workplace conflict", "b": "Conflict arises when the interests, expectations or perceptions of employees and employers clash.", "points": [
-      "Pay and conditions: disagreement over wages, bonuses, hours, holidays or pensions is a common source of conflict.",
-      "Workload: excessive or unevenly shared work causes frustration among staff and with managers.",
-      "Change: new technology, restructuring or new working methods can create fear of job loss and resistance to new routines.",
-      "Poor communication: messages that are unclear, late or never sent lead to misunderstanding and rumour.",
-      "Personality clashes: differences in working style or temperament can create tension between colleagues.",
-      "Discrimination: unfair treatment based on a protected characteristic, such as gender, race or age, creates grievances.",
-      "Unclear roles: when responsibilities overlap or are undefined, staff dispute who should do what, or important tasks go undone."
-    ] },
-    { "h": "Effects of conflict", "b": "Conflict can have positive and negative effects, depending on how it is handled.", "points": [
-      "Positive effect: well-handled disagreement can bring forward new ideas, challenge poor practice and improve decisions.",
-      "Absenteeism: unhappy staff may take more sick or unexplained leave, which reduces output.",
-      "Low morale: prolonged conflict reduces motivation, commitment and co-operation within teams.",
-      "Staff turnover: unresolved disputes can drive talented staff to leave, raising recruitment and training costs.",
-      "Industrial action: strikes, work-to-rule or overtime bans halt or slow production and damage customer relationships.",
-      "Reputational damage: a public dispute can make customers and potential employees less willing to deal with the firm."
-    ] },
-    { "h": "Internal approaches to resolving conflict", "b": "Organisations try to resolve conflict inside the workplace before involving outside bodies, and internal approaches are usually faster, cheaper and more private.", "points": [
-      "Grievance procedure: a formal process that lets an employee raise a complaint with the employer, who must investigate it and respond.",
-      "Disciplinary procedure: a formal process an employer uses to address poor conduct or performance, with warnings and a chance for the employee to reply.",
-      "Negotiation: the parties discuss their positions directly and seek a compromise that both can accept.",
-      "Collective bargaining: negotiation between employers and trade unions over pay and conditions for a group of workers.",
-      "The shop steward: a trade union representative in the workplace who acts for members and raises their concerns with management.",
-      "Human resources: the HR department advises on policy, handles complaints and helps managers deal with disputes fairly.",
-      "Internal mediation: a neutral person within the organisation helps the parties communicate and find an agreement."
-    ] },
-    { "h": "Industrial action", "b": "Industrial action is what workers may do when a dispute is not resolved.", "points": [
-      "A strike is a withdrawal of labour, in which workers stop working for a period to pressure the employer.",
-      "A work-to-rule means staff do only what their contract strictly requires, slowing work without stopping it.",
-      "An overtime ban means staff refuse to work extra hours, which can hold up production or service.",
-      "Industrial action is usually a last resort after internal and external procedures have been tried, and Irish law sets conditions on when it is lawful."
-    ] },
-    { "h": "Conciliation", "b": "Conciliation is an external process in which a neutral third party helps both sides reach their own agreement.", "points": [
-      "A conciliator meets both sides, separately and together, to clarify the issues and explore options.",
-      "The conciliator helps the sides agree but imposes nothing and issues no recommendation, so any agreement is the parties' own.",
-      "Conciliation is voluntary: both sides must agree to take part, and either can withdraw.",
-      "In Ireland, conciliation services are provided by the Workplace Relations Commission."
-    ] },
-    { "h": "Mediation", "b": "Mediation is a voluntary process in which a neutral mediator helps the parties communicate and find common ground.", "points": [
-      "A mediator guides the discussion and helps each side understand the other's position.",
-      "Mediation focuses on communication and common ground, and it often preserves working relationships.",
-      "It suits disputes between colleagues who must keep working together, where the relationship matters as much as the issue.",
-      "Mediation can settle a dispute before a formal grievance or disciplinary hearing becomes necessary."
-    ] },
-    { "h": "Arbitration", "b": "Arbitration is an external process in which a third party hears both sides and makes a decision.", "points": [
-      "An arbitrator hears evidence and arguments from both sides before reaching a decision.",
-      "The third party decides the outcome; the parties do not write the settlement themselves.",
-      "Arbitration is usually agreed by both sides, and where they agree to it in advance the decision is generally binding on them.",
-      "Arbitration is more formal than conciliation or mediation, with hearings and a written decision."
-    ] },
-    { "h": "Adjudication and the Irish bodies", "b": "Adjudication is a formal decision made by an official body under the law, rather than a settlement reached by the parties.", "points": [
-      "An adjudication officer of the Workplace Relations Commission hears an individual complaint under employment law and issues a decision.",
-      "Adjudication does not depend on the parties agreeing to it in advance, because the process is set by law.",
-      "Decisions on individual complaints can generally be appealed to the Labour Court.",
-      "The Labour Court can also issue recommendations on industrial relations disputes that are referred to it.",
-      "External approaches are normally used when internal procedures have failed or the parties cannot agree."
-    ] }
+    {
+      "h": "Who is involved in a workplace dispute",
+      "b": "Workplace conflict is a clash between the people who hold different roles in a business. Knowing those roles makes the causes and the resolution methods easier to follow.",
+      "points": [
+        "The employer runs the business and pays wages. An employee works for the employer under an employment contract, which sets out pay, hours and duties, so a dispute often starts as disagreement over what the contract promises.",
+        "A trade union is an organisation of workers that represents their interests, for example by speaking to the employer on behalf of a group of staff so that individual workers do not have to bargain alone."
+      ],
+      "tip": "Be ready to identify the shop steward (the trade union representative in the workplace) and the WRC (the Workplace Relations Commission) in one short line each."
+    },
+    {
+      "h": "Causes of workplace conflict",
+      "b": "Conflict arises when the interests, expectations or perceptions of employees and employers clash. The range of causes is wide, so each one is worth knowing with a short example.",
+      "points": [
+        "Pay and conditions: disagreement over wages, bonuses, hours, holidays or pensions is a common source of conflict, because these affect every worker's income and daily life.",
+        "Workload: excessive or unevenly shared work causes frustration among staff and with managers, for example when one team member is always given the extra tasks.",
+        "Change: new technology, restructuring or new working methods can create fear of job loss and resistance to new routines, because staff do not know how the change will affect them.",
+        "Poor communication: messages that are unclear, late or never sent lead to misunderstanding and rumour. For example, a firm announcing a change late means staff hear it as gossip first.",
+        "Personality clashes: differences in working style or temperament can create tension between colleagues, even when both are doing their job well.",
+        "Discrimination: unfair treatment based on a protected characteristic, such as gender, race or age, creates grievances (formal complaints) because staff feel they are not treated as equals. Here it is only a cause of conflict.",
+        "Unclear roles: when responsibilities overlap or are undefined, staff dispute who should do what, or important tasks go undone. For example, two employees may each believe a task is theirs."
+      ],
+      "tip": "Expect to give two or three causes, each with a short situation and an effect on the business. A common mistake is naming causes without effects."
+    },
+    {
+      "h": "Effects of conflict",
+      "b": "Conflict can have positive and negative effects, depending on how it is handled. Each effect links back to a cause, and a full answer joins the two.",
+      "points": [
+        "Positive effect: well-handled disagreement can bring forward new ideas, challenge poor practice and improve decisions, because people are forced to explain and test their views.",
+        "Absenteeism: unhappy staff may take more sick or unexplained leave, which reduces output because work is left undone or covered by fewer people.",
+        "Low morale: prolonged conflict reduces motivation, commitment and co-operation within teams, so people do the minimum and help each other less.",
+        "Staff turnover: unresolved disputes can drive talented staff to leave, raising recruitment and training costs because replacements must be found and trained.",
+        "Industrial action: strikes, work-to-rule or overtime bans halt or slow production and damage customer relationships, because orders and services are delayed.",
+        "Reputational damage: a public dispute can make customers and potential employees less willing to deal with the firm."
+      ],
+      "tip": "Link every cause to an effect: state the cause, give a short situation, then the effect (morale, absenteeism, turnover, industrial action or reputation). Listing effects with no cause is a common mistake."
+    },
+    {
+      "h": "Internal approaches to resolving conflict",
+      "b": "Organisations try to resolve conflict inside the workplace before involving outside bodies, because internal approaches are usually faster, cheaper and more private. Employees and employers each have tools they can use.",
+      "points": [
+        "Grievance procedure: a formal process that lets an employee raise a complaint with the employer, who must investigate it and respond. It is the employee's complaint against the employer or a colleague.",
+        "Disciplinary procedure: a formal process an employer uses to address poor conduct or performance, with warnings and a chance for the employee to reply. It is the employer's action against the employee's conduct or performance.",
+        "Negotiation: the parties discuss their positions directly and seek a compromise that both can accept. It can be one-to-one, for example a manager and one employee.",
+        "Collective bargaining: negotiation between employers and trade unions over pay and conditions for a group of workers, so the union speaks for all its members at once.",
+        "The shop steward: a trade union representative in the workplace who acts for members and raises their concerns with management, so a union member does not face the employer alone.",
+        "Human resources: the HR department advises on policy, handles complaints and helps managers deal with disputes fairly, because managers may not know the correct procedure.",
+        "Internal mediation: a neutral person within the organisation helps the parties communicate and find an agreement, without taking either side."
+      ],
+      "tip": "Do not jump straight to the WRC. Say why internal comes first (faster, cheaper, private, keeps relationships), and apply each procedure to the dispute in the question rather than just listing them."
+    },
+    {
+      "h": "How the internal steps fit together",
+      "b": "Internal approaches usually follow an order, from the least formal to the most formal. Fair procedures are applied at each stage.",
+      "points": [
+        "First comes informal talk between the people involved, which often settles a small problem quickly without formality.",
+        "If that fails, the matter moves to a formal grievance procedure (if an employee is complaining) or a disciplinary procedure (if the employer is acting on conduct or performance).",
+        "Negotiation, support from the shop steward if the employee is a union member, help from HR and internal mediation can run alongside these steps. A workload dispute might pass from grievance to negotiation to internal mediation.",
+        "Fair procedures at each stage mean the person is told the issue, is heard and can reply. The Code of Practice on Grievance and Disciplinary Procedures, published by the WRC, gives employers, employees and their representatives guidance on these general principles."
+      ],
+      "tip": "For an analyse question, give the sequence in order and say why each step follows the one before it."
+    },
+    {
+      "h": "Industrial action",
+      "b": "Industrial action is what workers may do when a dispute is not resolved. It is a form of pressure on the employer, and it is usually a last resort.",
+      "points": [
+        "A strike is a withdrawal of labour, in which workers stop working for a period to pressure the employer.",
+        "A work-to-rule means staff do only what their contract strictly requires, slowing work without stopping it.",
+        "An overtime ban means staff refuse to work extra hours, which can hold up production or service.",
+        "Industrial action is usually a last resort after internal and external procedures have been tried, because it costs workers pay and damages the firm. Irish law sets conditions on when it is lawful, such as a secret ballot of members before lawful industrial action."
+      ],
+      "tip": "Say that industrial action comes after internal and external procedures, and link it to its effects: halted or slowed production and damaged customer relationships."
+    },
+    {
+      "h": "Conciliation",
+      "b": "Conciliation is an external process in which a neutral third party helps both sides reach their own agreement.",
+      "points": [
+        "A conciliator meets both sides, separately and together, to clarify the issues and explore options.",
+        "The conciliator helps the sides agree but imposes nothing and issues no recommendation, so any agreement is the parties' own.",
+        "Conciliation is voluntary: both sides must agree to take part, and either can withdraw.",
+        "In Ireland, conciliation services are provided by the Workplace Relations Commission (WRC). It was set up by the Workplace Relations Act 2015, which brought several older dispute-resolution bodies under one commission.",
+        "For industrial relations disputes involving a group of workers, conciliation comes first. If it does not settle the matter, the dispute may go to the Labour Court if both parties jointly request it."
+      ],
+      "tip": "A true/false item tests this: it is false that a conciliator issues a recommendation or decides. The parties reach their own agreement. Labour Court recommendations come at a later stage."
+    },
+    {
+      "h": "Mediation",
+      "b": "Mediation is a voluntary process in which a neutral mediator helps the parties communicate and find common ground. Its focus is the relationship as much as the issue.",
+      "points": [
+        "A mediator guides the discussion and helps each side understand the other's position, but does not decide who is right.",
+        "Mediation focuses on communication and common ground, and it often preserves working relationships.",
+        "It suits disputes between colleagues who must keep working together, where the relationship matters as much as the issue.",
+        "Mediation can settle a dispute before a formal grievance or disciplinary hearing becomes necessary, which saves time and cost.",
+        "The WRC provides mediation, which is voluntary."
+      ],
+      "tip": "Conciliation and mediation are both voluntary and the parties settle it themselves. Treat them as two terms: conciliation is the WRC service for industrial relations disputes, mediation focuses on communication and relationships, often between colleagues."
+    },
+    {
+      "h": "Arbitration",
+      "b": "Arbitration is an external process in which a third party hears both sides and makes a decision. Unlike conciliation and mediation, the parties hand control of the outcome to someone else.",
+      "points": [
+        "An arbitrator hears evidence and arguments from both sides before reaching a decision.",
+        "The third party decides the outcome; the parties do not write the settlement themselves.",
+        "Arbitration is usually agreed by both sides, and where they agree to it in advance the decision is generally binding on them, because they promised to accept it.",
+        "Arbitration is more formal than conciliation or mediation, with hearings and a written decision."
+      ],
+      "tip": "Do not write that arbitration is always binding. Say the decision is generally binding where the parties agreed in advance to accept it."
+    },
+    {
+      "h": "Adjudication, appeals and the Labour Court",
+      "b": "Adjudication is a formal decision made by an official body under the law, rather than a settlement reached by the parties. In Ireland it runs through the WRC and the Labour Court.",
+      "points": [
+        "An adjudication officer of the Workplace Relations Commission hears an individual employment complaint and issues a decision.",
+        "Adjudication does not depend on the parties agreeing to it in advance, because the process is set by law. This is the difference from arbitration, which is usually agreed in advance.",
+        "Decisions on individual complaints can generally be appealed to the Labour Court, within a set time limit. The Labour Court is the single appeals body from WRC decisions.",
+        "In industrial relations disputes referred to it, the Labour Court hears both sides and issues written recommendations. These are non-binding and cannot be enforced in law.",
+        "External approaches are normally used when internal procedures have failed or the parties cannot agree."
+      ],
+      "tip": "Name the WRC and the Labour Court, and do not leave out that the Labour Court hears appeals. A common mistake is confusing arbitration with adjudication."
+    },
+    {
+      "h": "Who decides: the key contrast",
+      "b": "The most useful way to separate the external approaches is to ask who controls the outcome. This is the contrast examiners return to.",
+      "points": [
+        "In conciliation and mediation, the parties control the outcome, because the third party only helps them talk and reach agreement.",
+        "In arbitration and adjudication, a third party decides, because the arbitrator or adjudication officer reaches the decision after hearing both sides.",
+        "A short example: in a workload dispute, a conciliator helps the two sides agree a plan themselves, whereas an arbitrator hears both and tells them the answer."
+      ],
+      "tip": "For a contrast question, state both items in the same sentence or paragraph, then the key difference (who controls the outcome), with one short example. Conciliation versus arbitration is the most tested contrast."
+    },
+    {
+      "h": "Internal against external approaches",
+      "b": "Higher level answers weigh the approaches against each other and reach a justified view. The main measures are speed, cost, privacy, relationships and control over the result.",
+      "points": [
+        "Internal approaches are usually faster, cheaper and more private, and they keep relationships intact because the parties stay in control of the process.",
+        "External approaches bring a neutral outsider, which helps when trust has broken down or the parties cannot agree. Arbitration and adjudication give a firm outcome, while conciliation and mediation give the parties more control over the outcome.",
+        "Industrial action is a last resort after internal and external procedures, because of its cost to workers, the firm and its customers."
+      ],
+      "tip": "For an evaluate question, weigh internal against external approaches and give a justified view, noting that industrial action is a last resort."
+    },
+    {
+      "h": "Ethical, sustainability and digital angles",
+      "b": "How a firm handles conflict says a lot about its values, its long-term health and its use of technology. The written exam can ask you to apply each of these.",
+      "points": [
+        "Ethical: fair procedures mean the right to be heard and to be represented. Confidentiality matters, and staff who raise a grievance must not be victimised (treated badly for complaining).",
+        "Ethical: discrimination and bullying complaints must be taken seriously, and ignoring conflict has an ethical cost, because it causes stress and harms wellbeing.",
+        "Sustainability: a workplace that resolves conflict early keeps its staff and skills through lower turnover, supports wellbeing and protects its long-term viability. Unresolved conflict and strikes can threaten a firm's survival and jobs.",
+        "Digital can cause conflict: unclear messages, always-on expectations, misunderstandings in remote working and the monitoring of staff can all create tension.",
+        "Digital can help resolve it: online hearings and mediation, HR case-management systems and clear records help. Data protection applies to complaint records."
+      ]
+    },
+    {
+      "h": "Applying it to the news",
+      "b": "Exam questions may give a news story about a dispute and ask you to analyse it. A recent Irish example shows how.",
+      "points": [
+        "At the end of October 2026 the Irish Examiner (31 October 2026) reported that public sector pay talks with the Government had stalled after about ten days of talks run by the WRC.",
+        "The WRC said certain matters had reached an impasse (a deadlock) and asked a Government Appointed Group to examine them.",
+        "Public sector workers including teachers, nurses, doctors and civil servants had taken part in a 24-hour strike earlier in October 2026, and unions were considering a further strike.",
+        "Analyse it in three steps. The cause is pay and conditions. The procedure used is WRC talks, an external approach, with industrial action alongside, and the next step was a Government Appointed Group.",
+        "For who decides, the WRC asked a Government Appointed Group to examine the matters the talks could not settle.",
+        "The stakeholders are affected differently: employees (the teachers, nurses, doctors and civil servants who struck) face uncertainty, the employer faces disruption, and customers are affected by the stalled talks and possible further strike."
+      ],
+      "tip": "In a news question, identify the cause of the dispute, name the procedure used or the next step, and say how the employees, employer and customers are affected."
+    }
   ],
   "keyTerms": [
     { "term": "Grievance procedure", "definition": "A formal process that lets an employee raise a complaint with their employer, who must investigate it and respond." },

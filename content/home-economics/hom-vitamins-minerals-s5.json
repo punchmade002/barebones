@@ -5,81 +5,108 @@
   "syllabusRef": "1.1.6",
   "notes": [
     {
-      "h": "How iron is absorbed and stored (assumed knowledge)",
+      "h": "How iron is absorbed and stored",
+      "b": "Absorption is the movement of digested nutrients from the small intestine into the blood. A food can contain plenty of a mineral yet give little of it, because the mineral must be soluble and in the right chemical form to cross the intestinal wall.",
       "points": [
-        "Most iron is absorbed in the duodenum, the first part of the small intestine.",
+        "Most iron is absorbed in the duodenum, the first part of the small intestine, so this is where the factors that help or block iron absorption do their work.",
         "Absorbed iron binds to transferrin, a protein that carries it in the blood to where it is needed.",
-        "Surplus iron is stored in the liver as ferritin, and the body has little ability to excrete iron.",
+        "Surplus iron is stored in the liver as ferritin. The body has little ability to excrete iron, so absorption is regulated: the body absorbs more when stores are low, for example in pregnancy, growth or heavy blood loss.",
         "Iron is lost in small amounts through sweat, shed skin cells and, in women, menstrual blood."
-      ]
-    },
-    {
-      "h": "The role of vitamins in iron and calcium absorption",
-      "points": [
-        "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
-        "Vitamin C also aids the absorption of calcium.",
-        "Vitamin D stimulates the production of a calcium-binding protein in the lining of the small intestine, increasing calcium absorption.",
-        "Vitamin D increases the absorption of phosphorus, which must be present in a balanced ratio with calcium.",
-        "Where vitamin D is lacking, calcium absorption falls even when dietary calcium is adequate, so bones weaken."
-      ]
+      ],
+      "tip": "Keep absorption (uptake from the gut into the blood) separate from loss (excretion, for example in urine) when you answer, and name which one you mean."
     },
     {
       "h": "Haem and non-haem iron",
+      "b": "Iron in food comes in two forms that the body treats very differently. Which form a food contains decides how much iron you actually get from it.",
       "points": [
-        "Haem iron comes from animal foods such as red meat, liver, poultry and fish, and is already in the ferrous form.",
+        "Haem iron is the iron in haemoglobin and myoglobin, so it comes from animal foods such as red meat, liver, poultry and fish. It is already in the ferrous form (Fe²⁺), which is soluble.",
         "Haem iron is absorbed more readily than non-haem iron, and its absorption is largely unaffected by other foods in the meal.",
         "Non-haem iron comes from plant foods, pulses, wholegrain cereals, nuts, seeds, dark green vegetables and eggs.",
-        "Non-haem iron is in the ferric form and must be converted to the ferrous form before the intestine can absorb it.",
-        "Eating meat, fish or poultry in the same meal as non-haem iron foods increases the absorption of non-haem iron, an effect known as the meat factor."
-      ]
+        "Non-haem iron is in the ferric form (Fe³⁺), which is not very soluble, so it must be converted (reduced) to the ferrous form before the intestine can absorb it. This makes it poorly absorbed and strongly affected by other foods in the meal.",
+        "Eating meat, fish or poultry in the same meal as non-haem iron foods increases the absorption of non-haem iron, an effect known as the meat factor. Chilli with beans and beef is one example.",
+        "Vegetarians and vegans have only non-haem iron in their diet, so they need to be more careful, for example by including vitamin C at every meal."
+      ],
+      "tip": "When asked to describe haem and non-haem iron, give for each the form (ferrous or ferric), how easily it is absorbed and one or two food sources. Ferrous means Fe²⁺ (absorbable) and ferric means Fe³⁺ (needs reducing)."
     },
     {
       "h": "Factors that aid iron absorption",
+      "b": "Because non-haem iron is poorly absorbed, the other things in a meal can make a large difference. Some of them help turn ferric iron into the soluble ferrous form.",
       "points": [
-        "Vitamin C is a major enhancer of non-haem iron absorption, acting on the ferric iron in plant foods.",
-        "Hydrochloric acid in the stomach helps convert ferric iron to ferrous iron, aiding absorption.",
-        "Eating vitamin C-rich fruit or vegetables with an iron-rich meal increases absorption, for example a glass of orange juice with lentils."
-      ]
+        "Vitamin C is a major enhancer of non-haem iron absorption. It acts as a reducing agent on the ferric iron in plant foods, changing it to the soluble ferrous form and keeping it soluble.",
+        "Hydrochloric acid in the stomach helps convert ferric iron to ferrous iron, aiding absorption. People with low stomach acid, or who take antacids, absorb less iron.",
+        "Eating vitamin C-rich fruit or vegetables with an iron-rich meal increases absorption, for example a glass of orange juice with lentils, peppers or tomatoes with a bean dish, or broccoli with meat.",
+        "Meat, fish or poultry in the same meal also raises non-haem iron absorption (the meat factor), and the body absorbs more iron when its stores are low."
+      ],
+      "tip": "The answer to name a nutrient that helps iron absorption is vitamin C. Vitamin C is the reducing agent, but it does not change iron into haem iron, so say it changes ferric to ferrous."
     },
     {
       "h": "Factors that inhibit iron absorption",
+      "b": "Several substances in everyday foods and drinks bind iron in the gut and lock it into forms the body cannot absorb. This is why a meal that looks rich in iron may not deliver much.",
       "points": [
-        "Tannins in tea and coffee bind iron into an insoluble compound, so these drinks should not be taken with an iron-rich meal.",
-        "Phytates in wholegrain cereals and pulses bind iron and reduce its absorption.",
-        "Oxalates in spinach and rhubarb bind iron, reducing its absorption.",
-        "Calcium from dairy products or supplements taken with a meal competes with iron for absorption."
-      ]
+        "Tannins (polyphenols) in tea, coffee and red wine bind iron into an insoluble compound, so these drinks should not be taken with an iron-rich meal. Leave a gap between the drink and the meal.",
+        "Phytates (phytic acid) in wholegrain cereals, bran and pulses bind iron, and also zinc and calcium, in an insoluble form, reducing absorption. Soaking, sprouting, yeast fermentation (as in bread) and cooking pulses reduce phytate.",
+        "Oxalates (oxalic acid) in spinach, rhubarb and beetroot greens bind iron, reducing its absorption. This is why spinach is a poor iron source despite its reputation.",
+        "Excess dietary fibre carries minerals through the gut and binds them, so less is absorbed.",
+        "Calcium from dairy products or supplements taken with a meal competes with iron for absorption.",
+        "Excess alcohol, a lack of stomach acid and some medicines such as antacids also reduce iron absorption, and very large amounts of protein or alcohol can upset iron and calcium balance."
+      ],
+      "tip": "Each factor needs its why: tannins, phytic acid and oxalic acid all bind iron into an insoluble form. Do not list spinach as a good source of iron or calcium."
+    },
+    {
+      "h": "The role of vitamins in iron and calcium absorption",
+      "b": "Two vitamins matter most for absorbing these minerals, and each is linked to one mineral. Mixing them up is the commonest way to lose marks.",
+      "points": [
+        "Vitamin C helps iron: it converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+        "Vitamin C also aids the absorption of calcium.",
+        "Vitamin D helps calcium: it stimulates the production of a calcium-binding protein in the lining of the small intestine, so more calcium crosses into the blood.",
+        "Vitamin D increases the absorption of phosphorus, which must be present in a balanced ratio with calcium, and helps lay down calcium in bone.",
+        "Where vitamin D is lacking, calcium absorption falls even when dietary calcium is adequate, so bones weaken. Rickets and osteomalacia are the results."
+      ],
+      "tip": "Vitamin D is the vitamin for calcium and vitamin C is the vitamin for iron. If asked to name one vitamin for each, write calcium with D and iron with C."
     },
     {
       "h": "Factors that aid calcium absorption",
+      "b": "Calcium has to stay dissolved to be absorbed, and the body also adjusts how much it takes in. Several nutrients and hormones push absorption up.",
       "points": [
         "Vitamin D is the main vitamin that drives calcium absorption from the intestine.",
-        "Lactose, the sugar in milk, improves calcium absorption.",
-        "An acidic environment in the stomach and small intestine keeps calcium soluble and easier to absorb.",
+        "Lactose, the sugar in milk, improves calcium absorption, which is one reason milk, cheese and yoghurt are good calcium sources.",
+        "An acidic environment in the stomach and the top of the small intestine keeps calcium soluble and easier to absorb. Vitamin C helps too.",
         "Adequate protein provides amino acids that combine with calcium to make it more soluble, aiding absorption.",
-        "Parathormone, the parathyroid hormone, raises blood calcium by increasing its absorption from food and its release from bone.",
-        "Oestrogen supports calcium absorption and bone retention, and the fall in oestrogen after menopause increases the risk of osteoporosis."
-      ]
+        "Phosphorus in a balanced ratio with calcium helps, because the two are needed together for bone.",
+        "Parathormone, the parathyroid hormone, raises blood calcium by increasing its absorption from food (through vitamin D activation) and its release from bone.",
+        "Oestrogen supports calcium absorption and retention in bone, so the fall in oestrogen after menopause increases the risk of osteoporosis.",
+        "Absorption is higher in childhood and pregnancy, and weight-bearing exercise and growth periods increase demand."
+      ],
+      "tip": "For a question on calcium absorption, include both aids (vitamin D, phosphorus, protein, acidity, lactose, vitamin C, parathormone, oestrogen) and inhibitors, and give a reason with each."
     },
     {
       "h": "Other factors that inhibit calcium absorption",
+      "b": "Some inhibitors lower how much calcium is absorbed from the gut, while others increase how much is lost from the body. Both are described as inhibiting calcium in marking schemes, so name the mechanism you mean.",
       "points": [
-        "Excess dietary fibre reduces calcium absorption.",
-        "Excess fat in the diet reduces calcium absorption by binding to it in the intestine.",
+        "Excess dietary fibre reduces calcium absorption by binding calcium and speeding it through the gut.",
+        "Excess fat in the diet reduces calcium absorption by binding to it in the intestine, forming insoluble calcium soaps with fatty acids.",
         "Caffeine in tea and coffee increases the loss of calcium in urine.",
         "Excess salt increases the loss of calcium in urine.",
         "Alcohol reduces calcium absorption and increases its loss from the body.",
-        "Smoking and nicotine reduce calcium absorption and bone density."
-      ]
+        "Smoking and nicotine reduce calcium absorption and bone density.",
+        "Fizzy drinks containing phosphoric acid are listed as inhibitors, because excess phosphorus upsets the calcium balance.",
+        "Tannins in tea and coffee, a lack of stomach acid, falling oestrogen after menopause and old age, when the gut absorbs less, also lower calcium absorption."
+      ],
+      "tip": "Salt and caffeine mostly raise urinary loss, while fibre, fat, phytate and oxalate lower absorption. Name which mechanism you use."
     },
     {
       "h": "Phytates and oxalates and calcium absorption (Higher Level only)",
+      "b": "Some plant foods that contain calcium also contain substances that lock it away. The calcium is present but the body cannot use it.",
       "points": [
-        "Phytic acid, found in cereal grains, bran and pulses, binds calcium to form calcium phytate, an insoluble compound that the body cannot absorb.",
+        "Phytic acid, found in the outer layers of cereal grains (bran, wholemeal), in pulses, nuts and seeds, binds calcium to form calcium phytate, an insoluble compound that the body cannot absorb and that passes out in the faeces.",
+        "Yeast and soaking break phytate down (using the enzyme phytase), so leavened wholemeal bread is less affected than unleavened.",
         "Oxalic acid, found in spinach and rhubarb, binds calcium to form calcium oxalate, which is insoluble and not absorbed.",
-        "Because of its oxalate, the calcium in spinach is poorly absorbed, even though spinach contains calcium.",
-        "Phytates and oxalates are most damaging when eaten in large amounts at the same meal as calcium-rich foods such as milk or cheese."
-      ]
+        "Because of its oxalate, the calcium in spinach is poorly absorbed, even though spinach contains calcium. The calcium in milk or kale is absorbed better.",
+        "Phytates and oxalates are most damaging when eaten in large amounts at the same meal as calcium-rich foods such as milk or cheese, and when the diet is otherwise low in calcium.",
+        "Practical advice: eat calcium foods at a different time from high-phytate or high-oxalate foods, use leavened bread, soak and cook pulses, and take vitamin D. Cooking only reduces phytate and oxalate in part, it does not remove them.",
+        "Phytates and oxalates also bind iron and zinc, but calcium is the main case here."
+      ],
+      "tip": "Spinach is the standard example of a food that has the mineral but poor absorption, so use it to show you understand the difference between content and absorption."
     }
   ],
   "keyTerms": [

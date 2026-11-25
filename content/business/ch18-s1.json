@@ -4,55 +4,108 @@
   "subsection": "1. Saving, investing and borrowing",
   "syllabusRef": "4.2.1",
   "notes": [
-    { "h": "Saving, investing and borrowing compared", "b": "All three move money over time, but they differ in risk, purpose and the direction the money flows.", "points": [
-      "Saving sets money aside in a low-risk account, usually to keep it safe and available, and earns a modest return in the form of interest.",
-      "Investing puts money into assets such as shares or investment funds, accepting a risk of loss in return for the chance of higher growth over time.",
-      "Borrowing gives a consumer money now in exchange for repaying more later, because the lender charges interest and often fees.",
-      "A saver lends money to a bank, an investor buys a stake in an asset, and a borrower receives money from a lender and owes it back."
-    ] },
-    { "h": "Factors to weigh before saving or investing", "b": "Several factors interact, because a higher return usually comes with higher risk, higher cost or money locked away for longer.", "points": [
-      "Inflation erodes what money can buy, so a return that does not beat inflation leaves the saver with less real value.",
-      "Risk is the chance that money put aside falls in value or is lost; deposit accounts carry very little risk, while shares carry much more.",
-      "Interest rate changes alter savings returns and borrowing costs, and a variable-rate product can cost more after rates rise.",
-      "Taxes and charges reduce the net return, including deposit interest tax, exit tax on many investment funds, capital gains tax on share profits, and account or management fees.",
-      "The time frame decides suitability: money needed soon should stay accessible, while money not needed for years can ride out market falls and benefit from compounding.",
-      "Return on investment is the gain from an investment compared with its cost, usually expressed as a percentage."
-    ] },
-    { "h": "Nominal and real return", "points": [
-      "Nominal return is the headline growth rate before inflation is taken into account.",
-      "Real return is the nominal return adjusted for inflation, and shows whether savings have grown in purchasing power.",
-      "When inflation is higher than the nominal return, the real return is negative and the saver's money buys less than before.",
-      "Comparing nominal returns alone can mislead a consumer, because a product with a higher headline rate may still give the lower real return."
-    ] },
-    { "h": "AER and APR: the rates to compare", "b": "These two annual rates are the fair basis for comparing savings and loans, because they include the effect of how often interest is charged.", "points": [
-      "The annual equivalent rate (AER) shows what a savings product pays over one year once compounding is included, so products that pay interest at different intervals can be compared.",
-      "The annual percentage rate (APR) shows the yearly cost of borrowing, including interest and compulsory fees and charges, expressed as a percentage of the amount borrowed.",
-      "A loan with a low headline interest rate can have a higher APR than a rival loan if it carries large fees.",
-      "Lenders must disclose the APR to a borrower before a credit agreement is signed, which is what allows offers to be compared on the same basis."
-    ] },
-    { "h": "Common saving and investment products", "points": [
-      "Deposit accounts hold money safely with instant or notice-based access, but the interest paid is usually low.",
-      "State Savings products, issued by the National Treasury Management Agency, are backed by the State and suit people who want a secure place for their money.",
-      "Shares give part-ownership of a company, with returns from dividends and rising share prices, and carry a real chance of losing money.",
-      "Investment funds pool money from many investors and spread it across many holdings, so one falling asset has less impact on the whole.",
-      "Pensions save for retirement, usually with tax relief on contributions, and access before retirement age is generally restricted."
-    ] },
-    { "h": "Common borrowing products", "points": [
-      "An overdraft lets a current account go below zero up to an agreed limit, and is an expensive way to borrow over a long period.",
-      "A credit card gives a revolving credit limit; balances not cleared in full each month attract interest, usually at a high rate.",
-      "A personal loan provides a fixed sum repaid in regular instalments over an agreed term, and is often used for cars, home improvements or debt consolidation.",
-      "A mortgage is a long-term loan secured on a property, so the lender can repossess the home if repayments are not made.",
-      "Buy-now-pay-later schemes split a purchase into instalments at the checkout; they may be interest-free if paid on time, but missed payments and fees can build up quickly.",
-      "Credit union loans are offered to members of member-owned credit unions, and are often competitively priced for the borrower."
-    ] },
-    { "h": "Worked comparison: choosing between two options", "points": [
-      "Start with the purpose and time frame, such as an emergency fund needed at short notice or a house deposit needed in several years.",
-      "Compare the AER for savings or the APR for loans, rather than the headline rate alone.",
-      "Check exit terms: early repayment charges on loans, and penalties or restricted access on savings.",
-      "Example: a fixed-rate loan protects the borrower from rate rises, while a variable-rate loan may be cheaper at the start and then cost more if rates increase.",
-      "Example: a loan with a lower APR but a large arrangement fee may cost more overall than a loan with a higher APR and no fee, so the total cost over the term decides the better deal.",
-      "Finally, test affordability: can the consumer keep up repayments if income falls or interest rises?"
-    ] }
+    {
+      "h": "Saving, investing and borrowing compared",
+      "b": "A consumer (an individual or household making financial choices) deals with a lender such as a bank or credit union, and money can flow either way. Saving, investing and borrowing all move money over time, but they differ in risk, purpose and the direction the money flows.",
+      "points": [
+        "Saving sets money aside in a low-risk, accessible account, usually to keep it safe and available, and earns a modest return in the form of interest. Interest is the price of using money: savers receive it and borrowers pay it.",
+        "Investing puts money into assets such as shares or investment funds, accepting that the value can fall, in return for the chance of higher growth over time. This is why saving protects your capital while investing puts it at risk.",
+        "Borrowing gives a consumer money now in exchange for repaying more later, because the lender charges interest and often fees.",
+        "The direction of the money differs: a saver lends money to a bank, an investor buys a stake in an asset, and a borrower receives money from a lender and owes it back.",
+        "Interest can be simple or compound. With compound interest, interest is added to the balance and then earns interest itself, so growth speeds up over time."
+      ],
+      "tip": "Keep saving and investing apart in an answer: with saving the capital is protected, with investing it is at risk. Exams also treat every investment as safe too readily, so say that the value can fall."
+    },
+    {
+      "h": "Factors to weigh before saving, investing or borrowing",
+      "b": "No product is best on every count, because a higher return usually comes with higher risk, higher cost or money locked away for longer. A consumer weighs several factors together, and each one points to a decision.",
+      "points": [
+        "Inflation is a general and sustained rise in prices, which reduces what each unit of money can buy. A return that does not beat inflation leaves the saver with less buying power, so the saver should look for a higher return.",
+        "Risk is the chance that money put aside falls in value or is lost. Deposit accounts carry very little risk, while shares carry much more, which is why a higher return usually means higher risk.",
+        "Interest rate changes alter savings returns and borrowing costs. A variable-rate product moves with rates, so it can cost more after rates rise, while a fixed-rate product does not change for the fixed period.",
+        "Taxes reduce the net return, which is what is left after tax. Deposit interest is taxed through Deposit Interest Retention Tax (DIRT), deducted at source by the bank. Many investment funds pay exit tax, and profits on shares can attract capital gains tax.",
+        "Charges also reduce the net return or raise the cost of borrowing: account fees, management fees, arrangement fees, and early repayment or exit charges.",
+        "The time frame decides suitability. Money needed in the short term should stay accessible, while money not needed for years (the long term) can ride out market falls and benefit from compounding. The medium term sits between the two.",
+        "Liquidity is how quickly money can be withdrawn without penalty. It links time frame to product choice: match the product to when the money is needed, so cash for the short term should be liquid, not tied up.",
+        "Return on investment (ROI) is the gain from an investment compared with its cost, shown as a percentage: (gain divided by cost) multiplied by 100.",
+        "For example, an investment bought for 2,000 euro and worth 2,300 euro gives a gain of 300 euro, so ROI = 300 / 2,000 x 100 = 15 per cent (sample figures)."
+      ],
+      "tip": "Common mistakes are ignoring tax and charges and forgetting that borrowing has to be affordable. When you give a factor, say what it does to the person's decision, not just its name."
+    },
+    {
+      "h": "Nominal and real return",
+      "b": "A savings rate tells you how fast the number in the account grows, but not whether you can buy more with it. Splitting the return into nominal and real shows the difference.",
+      "points": [
+        "Nominal return is the headline growth rate before inflation is taken into account.",
+        "Real return is the growth rate after inflation is deducted, and shows the change in purchasing power. As a working rule, real return is roughly nominal return minus inflation.",
+        "When inflation is higher than the nominal return, the real return is negative, so the saver's money buys less than before even though the balance has grown.",
+        "Comparing nominal returns alone can mislead a consumer, because a product with a higher headline rate may still give the lower real return if other factors, such as charges, are different.",
+        "Sample saver, with sample figures only: Option A pays a nominal 3 per cent, Option B pays a nominal 2 per cent, and inflation is 2.5 per cent.",
+        "Real return is about +0.5 per cent for A and about -0.5 per cent for B, so A grows buying power and B loses it, although both pay interest."
+      ],
+      "tip": "Confusing nominal and real return is a common mistake. Always subtract inflation before judging whether savings have grown."
+    },
+    {
+      "h": "AER and APR: the rates to compare",
+      "b": "A headline or flat rate is neither of the fair comparison rates. The annual equivalent rate (AER) is used for savings and the annual percentage rate (APR) for borrowing, because each includes things the headline rate leaves out.",
+      "points": [
+        "The AER shows what a savings product pays over one year once the effect of compounding is included, so products that pay interest at different intervals can be compared fairly.",
+        "The APR shows the yearly cost of borrowing as a percentage, including interest and compulsory fees and charges. It is the rate to use for loans, not the plain interest rate.",
+        "A loan with a low headline interest rate can have a higher APR than a rival loan if it carries large fees, because the fees are part of the APR.",
+        "Lenders must show the APR to a borrower before the credit agreement is signed, which is what allows offers to be compared on the same basis.",
+        "Students need to know what AER and APR include and how to use them to compare, not how to calculate them."
+      ],
+      "tip": "Always say what a rate includes, AER includes compounding and APR includes compulsory charges, and compare on that basis, never on the headline rate."
+    },
+    {
+      "h": "Common saving and investment products",
+      "b": "Products differ in how safe the money is, how easily it can be reached and what it can earn. Matching them to the time frame and risk the consumer can accept is the skill.",
+      "points": [
+        "Deposit accounts hold money safely with instant-access or notice-based withdrawals (where you must warn the bank before taking money out), but the interest paid is usually low.",
+        "State Savings products are run by the National Treasury Management Agency (NTMA), and the money is placed directly with the Irish Government, so they are backed by the State and suit people who want a secure place for their money.",
+        "Shares give part-ownership of a company, with returns from dividends (a share of profit paid out) and rising share prices. They carry a real chance of losing money, because share prices can fall.",
+        "Investment funds pool money from many investors and spread it across many holdings, so one falling asset has less impact on the whole.",
+        "Pensions save for retirement, usually with tax relief on contributions, which lowers the tax paid. Access before retirement age is generally restricted, so pensions are a long-term product."
+      ]
+    },
+    {
+      "h": "Common borrowing products",
+      "b": "Borrowing products differ in how the money is paid out, how it is repaid and what happens if repayments stop. Choosing between them depends on the purpose, the cost and whether the loan is secured or unsecured.",
+      "points": [
+        "An overdraft lets a current account go below zero up to an agreed limit. It is an expensive way to borrow over a long period.",
+        "A credit card gives a revolving credit limit (the limit becomes available again as you repay). Balances not cleared in full each month attract interest, usually at a high rate.",
+        "A personal loan provides a fixed sum repaid in regular instalments over an agreed term, and is often used for cars, home improvements or debt consolidation (combining debts into one). It is usually unsecured, meaning no asset is pledged against it.",
+        "A mortgage is a long-term loan secured on a property, so the lender can repossess the home if repayments are not made. A secured loan is backed by an asset, an unsecured loan is not.",
+        "Buy-now-pay-later schemes split a purchase into instalments at the checkout. They may be interest-free if paid on time, but missed payments and fees can build up quickly. EU rules on this type of credit are being tightened.",
+        "Credit union loans are offered to members of credit unions, which are member-owned financial co-operatives regulated by the Central Bank of Ireland. They are often competitively priced for the borrower.",
+        "A loan can be fixed-rate or variable-rate. A fixed-rate loan protects the borrower from rate rises, while a variable-rate loan may be cheaper at the start and then cost more if rates increase."
+      ],
+      "tip": "Distinguish a credit card (revolving limit) from a personal loan (fixed sum over a fixed term), and fixed from variable rate. These are commonly confused."
+    },
+    {
+      "h": "Worked comparison: choosing between two options",
+      "b": "When two products are offered, a clear method stops the consumer being swayed by the headline rate. The same steps work for savings and for loans.",
+      "points": [
+        "1. Start with the purpose and time frame, such as an emergency fund needed at short notice or a house deposit needed in several years.",
+        "2. Compare the AER for savings or the APR for loans, rather than the headline rate alone, because these include compounding or compulsory charges.",
+        "3. Check exit terms and charges: early repayment charges on loans, and penalties or restricted access on savings.",
+        "4. Compare the total cost over the full term, not the headline rate, because fees paid at the start add to what a loan really costs.",
+        "5. Test affordability: can the consumer keep up repayments if income falls or interest rises?",
+        "Sample loans, with sample figures only: borrowing 10,000 euro over 3 years, Loan X has lower interest but a 400 euro arrangement fee, while Loan Y has slightly higher interest and no fee. The lender's APR, which includes compulsory fees, and the total amount repaid decide which is cheaper.",
+        "For two savings options, compare the real return after inflation as well as the AER, so a product that pays interest but loses buying power is spotted."
+      ],
+      "tip": "When told to compare two options, refer to both throughout and end with a judgement tied to the person's purpose and time frame. For a factors question, name three distinct factors, such as the APR including charges, fixed or variable rate, and affordability, and give the reason and the effect on the borrower for each. Common mistakes are listing factors with no explanation, giving three versions of interest rate, and quoting a rate from memory."
+    },
+    {
+      "h": "Ethical, sustainable and digital angles",
+      "b": "Financial choices affect other people and the wider world, and technology changes how easy they are to make. Each angle gives a further point to weigh when discussing saving, investing and borrowing.",
+      "points": [
+        "Responsible lending means lenders regulated by the Central Bank must assess whether a borrower can afford to repay, under the Central Bank's Consumer Protection Code. Responsible borrowing means the consumer takes only what they can repay.",
+        "Easy credit, high-cost credit and buy-now-pay-later aimed at young people raise ethical questions, because they make it simple to take on debt that is hard to repay.",
+        "Ethical and sustainable (green) investment funds let investors consider environmental and social impact as well as return. The trade-off is that sustainable claims need checking, because a fund may describe itself that way without delivering it.",
+        "Apps, online comparison sites and instant online credit make saving and borrowing quicker and more visible. They also make impulsive borrowing and buy-now-pay-later use easier, and products are increasingly bought without face-to-face advice."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "Saving", "definition": "Setting money aside in a low-risk, accessible account to keep it safe and earn interest." },

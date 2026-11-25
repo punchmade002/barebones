@@ -5,131 +5,240 @@
   "syllabusRef": "4.3",
   "notes": [
     {
-      "h": "Elements of design: line and shape",
-      "b": "The elements of design are the visual building blocks of a room: line, shape and form, colour, pattern, texture and light.",
+      "h": "Elements of design: what they are",
+      "b": "The elements of design are the visual building blocks of a room, the things you can actually see and touch when you walk in. The marking schemes list colour, line, shape, pattern and texture, and form (the 3-D version of shape) may be added.",
       "points": [
-        "Line is the path the eye follows; horizontal lines make a room feel wider and calmer, while vertical lines make it feel taller.",
-        "Lines come from skirting boards, picture rails, curtain edges, cabinet edges and the joints between tiles or floorboards.",
-        "Shape is the two-dimensional outline of an object or area; form is its three-dimensional volume, such as the bulk of a sofa.",
-        "Rounded shapes look soft and informal, while angular shapes look crisp and formal."
-      ]
+        "You should be able to name three elements and explain two of them, each with an example of how it is used in a room.",
+        "Each element does a job: line leads the eye, shape and form give a room its feel, colour sets mood, pattern adds interest and texture adds warmth or a clean look."
+      ],
+      "tip": "Colour, pattern and texture are the elements most often asked. Give a definition plus a use in a room, for example contrasting textures add interest or linked patterns tie a room together."
     },
     {
-      "h": "Elements of design: colour",
+      "h": "Elements of design: line, shape and form",
+      "b": "Line and shape are the structure of a room. They decide whether it feels tall or wide, soft or crisp, before any colour is added.",
+      "points": [
+        "Line is the path the eye follows; horizontal lines make a room feel wider and calmer, while vertical lines make it feel taller.",
+        "Lines come from skirting boards, picture rails, curtain edges, cabinet edges and the joints between tiles or floorboards, so a room always contains them.",
+        "Shape is the two-dimensional (flat) outline of an object or area; form is its three-dimensional volume, such as the bulk of a sofa.",
+        "Rounded shapes look soft and informal, while angular shapes look crisp and formal."
+      ],
+      "tip": "Line and shape come up mainly in clothing questions, so keep your examples here to rooms."
+    },
+    {
+      "h": "Elements of design: colour basics",
+      "b": "Colour is the element with the biggest effect on how a room feels. To use it well you need the colour wheel vocabulary and to know how warm and cool colours behave.",
       "points": [
         "Primary colours are red, yellow and blue; they cannot be made by mixing other colours.",
         "Secondary colours are orange, green and violet, each made by mixing two primaries.",
         "Tertiary colours are made by mixing a primary with a neighbouring secondary colour.",
-        "Warm colours (red, orange and yellow) advance visually and make a room feel cosy; cool colours (blue, green and violet) recede and make a room feel spacious and calm.",
+        "Warm colours (red, orange and yellow) advance visually, which means they seem to come towards you, so a room feels cosy and smaller. Cool colours (blue, green and violet) recede, so a room feels spacious and calm.",
+        "Pastels are pale, soft colours that feel restful, and neutrals are colours such as white and cream that go with almost anything.",
+        "Pale colours reflect more light and make a room appear larger; dark colours absorb light and make a room appear smaller and more intimate.",
+        "Pale ceilings look higher than dark ones."
+      ],
+      "tip": "Warm colours only look closer and cosier; they do not change the temperature of the room."
+    },
+    {
+      "h": "Elements of design: tint, tone, shade and colour schemes",
+      "b": "Changing how light or dark a colour is gives a range from one hue (a pure colour such as blue). Choosing which colours sit together then gives a colour scheme.",
+      "points": [
         "A tint is a colour with white added, a tone has grey added, and a shade has black added.",
         "A monochromatic scheme uses tints, tones and shades of a single colour.",
-        "A complementary scheme pairs colours opposite each other on the colour wheel, such as blue and orange, for contrast.",
+        "A complementary (contrasting) scheme pairs colours opposite each other on the colour wheel, such as blue and orange, for contrast.",
         "A harmonious (analogous) scheme uses colours that sit next to each other on the wheel, such as green, blue and violet, for a restful effect.",
-        "Pale colours reflect more light and make a room appear larger; dark colours absorb light and make a room appear smaller and more intimate.",
-        "An accent colour is a strong colour used in small amounts, such as cushions or a single wall, to draw the eye."
-      ]
+        "An accent colour is a strong colour used in small amounts, such as cushions or a single feature wall, to draw the eye."
+      ],
+      "tip": "Students swap these: tint is white, shade is black, tone is grey."
     },
     {
-      "h": "Elements of design: pattern and texture",
+      "h": "Uses of colour in a room",
+      "b": "Colour can do four jobs in a room, and the marking schemes list all four. Which colours you choose also depends on the way the room faces.",
+      "points": [
+        "Colour can link rooms, so that a repeated colour makes one space flow into the next.",
+        "Colour can alter the apparent proportions of a room, for example pale colours to make it look larger and dark colours to make it feel smaller and cosier.",
+        "Colour can highlight a room's good features, or disguise poor ones.",
+        "Colour can create atmosphere, such as pastels for a restful bedroom or warm colours for a cosy sitting room.",
+        "Aspect (the direction a room faces) matters: a north-facing room receives little daylight, so warm colours suit it, while cool colours suit a south-facing room."
+      ],
+      "tip": "For a question on choosing colour for a sitting room, consider room use, size, aspect, the overall scheme, how much light the colours reflect and the room's features."
+    },
+    {
+      "h": "Elements of design: pattern",
+      "b": "Pattern adds variety and interest, but the amount and scale you use decide whether a room feels lively or fussy.",
       "points": [
         "Pattern is a repeated or decorative design, such as stripes, checks, florals or geometric motifs.",
-        "Large-scale patterns dominate a room and make it feel busy; small-scale patterns recede and create a calmer effect.",
-        "Patterns linked by a shared colour, texture or motif tie a room together; too many patterns make a room fussy.",
-        "Texture is the surface quality of a material, perceived by touch and by the way light falls on it.",
-        "Smooth textures such as glass, mirror, glazed tile, paint and polished steel look cool and are easy to keep hygienic, so they suit kitchens and bathrooms.",
-        "Rough or soft textures such as carpet, upholstery, brick and textured wallpaper add warmth and comfort to a sitting room.",
-        "Matt surfaces absorb light and hide surface flaws, while gloss surfaces reflect light and show marks.",
-        "Contrasting textures, such as smooth glass beside rough wool, add interest without adding colour."
-      ]
+        "Large-scale or bold patterns dominate a room and make it feel busy and can shrink it; small-scale patterns recede and create a calmer effect.",
+        "Several patterns can work together if they are linked by a shared colour, texture or motif, which ties the room together.",
+        "Too much pattern makes a room fussy, while too little makes it bland."
+      ],
+      "tip": "Pattern questions want a definition and a use, such as linked patterns tying a room together."
     },
     {
-      "h": "Principles of design: proportion, scale, balance, emphasis and rhythm",
+      "h": "Elements of design: texture",
+      "b": "Texture is how a surface feels, or looks as if it feels. It affects both the comfort of a room and how easy it is to keep clean.",
       "points": [
-        "Proportion is the size relationship between a room's parts, such as furniture, windows, doors and wall areas, and the room itself.",
+        "Texture is the surface quality of a material, perceived by touch and by the way light falls on it.",
+        "Smooth textures such as glass, mirror, glazed tile, paint and polished steel look cool and are easy to keep hygienic, so they suit kitchens and bathrooms.",
+        "Rough or soft textures such as carpet, upholstery, brick and textured wallpaper or paint add warmth and comfort to a sitting room or bedroom.",
+        "Matt surfaces absorb light and hide surface flaws, while gloss surfaces reflect light and show marks.",
+        "Contrasting textures, such as smooth glass beside rough wool, add interest without adding colour."
+      ],
+      "tip": "Be ready to give two examples each of smooth and rough textures and say where each suits, smooth in kitchens and bathrooms, rough or soft in sitting rooms and bedrooms."
+    },
+    {
+      "h": "Principles of design: proportion and scale",
+      "b": "The principles of design are the rules for putting the elements together. The four the marking schemes use are proportion, balance, emphasis and rhythm.",
+      "points": [
+        "Proportion is the size relationship between the parts of a room, such as furniture, windows, doors and wall areas, and between those parts and the room itself.",
         "Scale is the size of one object relative to the room around it; oversized furniture in a small room makes the room look crowded.",
-        "Formal balance is symmetrical, with matching items placed either side of a central point, such as a pair of lamps beside a fireplace.",
-        "Informal balance places items of different shapes but similar visual weight on either side of a room.",
+        "Proportion guides furniture choice: a large sofa suits a large room, while a small room suits low, slim pieces."
+      ],
+      "tip": "Scale is taught inside proportion, not as a separate principle. Name the four principles: proportion, balance, emphasis and rhythm."
+    },
+    {
+      "h": "Principles of design: balance",
+      "b": "Balance is about sharing visual weight around a room so that it feels settled rather than lopsided.",
+      "points": [
         "Balance creates harmony, so that no single feature dominates and colour, pattern and texture are shared out evenly.",
-        "Emphasis creates a focal point: the feature the eye goes to first, such as a fireplace, a window view or a large painting.",
+        "Formal balance is symmetrical, with matching items placed either side of a central point, such as a pair of lamps beside a fireplace.",
+        "Informal balance places items of different shapes but similar visual weight on either side of a room."
+      ],
+      "tip": "Harmony is the result of balance, not a fifth principle. Do not mix up balance (even distribution) with emphasis (one focal point) or rhythm (repetition)."
+    },
+    {
+      "h": "Principles of design: emphasis",
+      "b": "Emphasis gives the eye somewhere to go first. That place is called the focal point, and it stops a room looking like a jumble of equal features.",
+      "points": [
+        "Emphasis creates a focal point: the feature the eye goes to first, such as a fireplace, a window view, a feature wall or a large painting.",
         "A focal point can be created with colour, lighting, a strong pattern or the position of furniture.",
-        "A room works best with one focal point; two or more features competing for attention make the room feel disjointed.",
-        "Rhythm is created by repeating a colour, shape, line, pattern or texture so that the eye moves easily around the room.",
+        "A room works best with one focal point; two or more features competing for attention make the room feel disjointed."
+      ],
+      "tip": "Emphasis means one focal point. Do not confuse it with balance or rhythm."
+    },
+    {
+      "h": "Principles of design: rhythm",
+      "b": "Rhythm is what makes the eye travel smoothly round a room instead of stopping and starting.",
+      "points": [
+        "Rhythm is created by repeating a colour, shape, style, line, pattern or texture so that the eye moves easily around the room.",
         "Repeating a cushion colour on the sofa and in a rug, for example, links the two areas and carries the eye across the room."
-      ]
+      ],
+      "tip": "Rhythm is repetition. A repeated colour is the usual room example, such as a cushion colour picked up in a rug."
     },
     {
       "h": "Applying the elements and principles to a room",
-      "b": "Evaluate a room by naming each element used, then checking whether each principle is achieved and where it fails.",
+      "b": "Evaluate a room by naming each element used, then checking whether each principle is achieved and where it fails. Designing one follows a sensible order, starting from what the room is for.",
       "points": [
         "Start from the room's function, such as a living room for relaxing and watching television, and choose a colour scheme that suits that function.",
         "Place the focal point first, then arrange seating and storage so that the focal point is visible from the main entrance.",
         "Use proportion to choose furniture: a large sofa suits a large room, while a small room suits low, slim pieces.",
+        "Then arrange furniture and traffic routes, and check each principle in turn.",
         "Diagram: a labelled plan of one room showing furniture placement, windows, doors, radiator, the focal point and the main traffic route."
-      ]
+      ],
+      "tip": "Questions ask you to identify and apply three or four principles to a room: give a definition and a room example for each. You may also be asked to sketch a room and describe its colour scheme, lighting and flooring."
     },
     {
-      "h": "Aesthetic and comfort factors",
+      "h": "Aesthetic factors and trends",
+      "b": "Aesthetic factors are about how a room looks and who decides that. They explain why two families can furnish the same room very differently.",
       "points": [
-        "Aesthetic factors are the occupants' personal taste, current trends and the style of the house, which together set the look of a room.",
+        "Aesthetic factors are the occupants' personal taste, current trends, the style of the house, and the function and décor of the room, which together set the look of a room.",
         "Trends change quickly, so a room decorated to the latest fashion can date within a few years; neutral base colours with accessories that are easy to change avoid this.",
+        "Trends such as open-plan living, neutral schemes and natural materials show how fashion shapes interior design."
+      ],
+      "tip": "A trends question asks you to identify and comment on two current trends. Name them in general terms and say why they date a room. Give a reason and an example for each factor, not a bare list."
+    },
+    {
+      "h": "Comfort factors",
+      "b": "A room can look beautiful and still be unpleasant to live in. Comfort factors make sure it works for the people using it.",
+      "points": [
         "Comfort depends on heating, lighting and ventilation, so a room needs to be warm, well lit and able to be aired.",
-        "Comfort also depends on the room's function, its aspect, the space available and the layout of the room.",
+        "Seating and work surfaces should be comfortable and at suitable heights for the people using them.",
+        "Comfort also depends on the room's function (working versus relaxing), its aspect, the space available and the layout of the room.",
         "A north-facing room receives little direct sunlight, so warm colours help to make it feel bright and cosy.",
-        "Work and relaxation zones should be separated, so that a family member working or studying is not disturbed by people watching television."
-      ]
+        "Quiet and noisy zones should be separated, so that a family member working or studying is not disturbed by people watching television."
+      ],
+      "tip": "Comfort is a named factor in exams, so give a reason and an example, such as separating a study area from the television."
     },
     {
       "h": "Ergonomics",
+      "b": "Ergonomics is about the fit between people and the layout of a room, so that they can move, reach and work with least effort and strain. It is not the same as how the room looks.",
       "points": [
         "Ergonomics is the design of a room so that its layout suits how people move, reach and work.",
         "The work triangle places the sink, cooker and fridge at the three points of an imaginary triangle, so that movements between them are short and efficient.",
         "Work zones group related tasks: preparation, cooking, washing up and storage, arranged in the order they are carried out.",
         "Traffic flow should keep the main routes through a room clear of furniture, so that no one has to walk around a sofa or across a doorway.",
         "Storage and work surfaces should sit at heights that avoid bending and stretching, with frequently used items between shoulder and knee height.",
-        "Work surfaces with few joints and crevices are quicker to clean and resist the build-up of food and dirt."
-      ]
+        "Work surfaces with few joints and crevices are quicker to clean and resist the build-up of food and dirt.",
+        "Sockets and switches should be easy to reach.",
+        "Diagram: a kitchen plan showing the work triangle, with sink, cooker and fridge labelled."
+      ],
+      "tip": "Ergonomics is the fit between people and layout; it is not the same as aesthetics. Evaluation questions often ask about traffic flow, the work triangle and storage."
     },
     {
-      "h": "Family circumstances and special needs",
+      "h": "Family size and circumstances",
+      "b": "A home has to fit the people living in it. Their number, ages and way of life decide how a room is planned.",
       "points": [
-        "Family size and stage determine the number of bedrooms, the storage needed and the amount of living space required.",
+        "The number, ages and stage of the family determine the number of bedrooms, the storage needed and the amount of living space required.",
         "Young children need safe, easy-to-clean surfaces, rounded furniture edges and a play area that can be supervised from the kitchen.",
         "Teenagers may need a study area with good lighting and a door that gives privacy.",
         "A home office or hobby space affects the layout when a family member works from home or pursues a craft.",
-        "Future needs should be allowed for, such as a room that can later become a bedroom or an attic that can be converted.",
+        "Income and work patterns also shape what a family needs from its rooms.",
+        "Future needs should be allowed for, such as a room that can later become a bedroom or an attic that can be converted."
+      ],
+      "tip": "In evaluation questions, judge a plan against the family's ages, safety, traffic flow, work triangle, storage and future change."
+    },
+    {
+      "h": "Special needs",
+      "b": "Some people need features that most homes do not have. Good design removes barriers, so that a person with limited mobility, weak grip or poor sight can live safely and independently.",
+      "points": [
         "A wheelchair user needs wider doorways, clear turning space, lowered worktops and lowered switches and sockets.",
-        "Level thresholds and ramps remove steps at entrances; grab rails and a raised toilet help people with limited mobility.",
+        "Level thresholds and ramps remove steps at entrances; grab rails and a raised toilet seat help people with limited mobility.",
         "Easy-to-operate fittings such as lever handles and easy-close curtains suit people with weak grip or limited strength.",
         "Good contrast between floor, walls and furniture helps a person with poor sight to find doorways, steps and edges.",
-        "Non-slip floor finishes and good lighting on stairs and in bathrooms reduce the risk of falls."
-      ]
+        "Non-slip floor finishes and good lighting on stairs and in bathrooms reduce the risk of falls.",
+        "Adaptable design, which can be changed as needs change, means the home can keep suiting the person."
+      ],
+      "tip": "Questions pair a named family member with special needs with a kitchen or living area. Give specific features and what each one does."
     },
     {
       "h": "Cost",
+      "b": "Budget limits every design. Thinking about the whole cost of an item, not just the price tag, leads to better choices.",
       "points": [
         "Budget covers the initial purchase, fitting and maintenance of each item, and running costs where an item uses energy or water.",
         "A limited budget can still produce a good design by choosing one focal point and spending most of the money on it.",
         "Painting walls and updating soft furnishings changes a room's style at much lower cost than replacing furniture or flooring.",
-        "Cheaper materials may wear out sooner, so their true cost includes how often they will need replacing.",
+        "Cheaper materials may wear out sooner, so their true cost includes how often they will need replacing; weigh cost against quality.",
         "Buying in stages allows a room to be completed as money becomes available, provided the first purchases fit the final plan."
-      ]
+      ],
+      "tip": "Cost is one of the most common named factors. Give a reason and an example rather than just writing 'it is expensive'."
     },
     {
       "h": "Environmental awareness",
+      "b": "Every material has an effect on the environment in how it is made, used and thrown away. Environmentally aware design chooses items with a low impact at each stage.",
       "points": [
+        "Consider a material's impact in production, use and disposal, and its origin and transport.",
         "Choose timber from sustainably managed forests, and natural or recycled materials where they perform the job well.",
-        "Low-emission paints reduce the release of volatile organic compounds into the air of the room.",
+        "Low-emission paints (low-VOC) reduce the release of volatile organic compounds, gases given off by paint, into the air of the room.",
         "Reuse and repurposing, such as restoring an old wooden dresser, avoid the energy and waste involved in making replacements.",
-        "Energy-efficient LED or CFL lighting uses less electricity than traditional bulbs and lasts longer.",
+        "Energy-efficient LED lighting uses less electricity than traditional bulbs and lasts longer.",
         "Light colours and well placed windows reduce the need for artificial lighting during the day.",
         "Durable furniture and finishes that last many years have a smaller environmental impact than cheap items replaced often."
-      ]
+      ],
+      "tip": "Environmental awareness covers production, use and disposal, origin, sustainability, reuse, recycling and repurposing. Give an example for each point you make."
+    },
+    {
+      "h": "Using an interior designer",
+      "b": "Some families hire a professional to plan their rooms. This has one clear benefit and one clear drawback.",
+      "points": [
+        "An advantage is expertise, a coordinated scheme and fewer costly mistakes.",
+        "A disadvantage is that the designer's fees reduce the budget available for the room itself."
+      ],
+      "tip": "You may be asked for one advantage and one disadvantage of using an interior designer."
     }
   ],
   "keyTerms": [
     {
       "term": "Elements of design",
-      "definition": "The visual building blocks of a room: line, shape and form, colour, pattern, texture and light."
+      "definition": "The visual building blocks of a room: line, shape and form, colour, pattern and texture."
     },
     {
       "term": "Principles of design",

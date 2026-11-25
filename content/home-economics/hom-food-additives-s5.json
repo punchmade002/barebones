@@ -6,52 +6,65 @@
   "notes": [
     {
       "h": "The legal framework",
-      "b": "The use of food additives in the European Union is controlled by Regulation (EC) No 1333/2008 on food additives, which sets rules for preservatives, colourings, emulsifiers and antioxidants, among other additives.",
+      "b": "Food additives are substances added to food for a technical purpose, such as keeping it fresh or improving its colour. Because they are added on purpose, the European Union controls their use by law under Regulation (EC) No 1333/2008 on food additives.",
       "points": [
-        "As an EU regulation, it applies directly in Ireland without needing a separate Irish Act.",
-        "An additive may be used only if it appears on the approved list of additives for the EU.",
-        "Each additive must be tested for safety before it is approved.",
-        "Each approved additive is assigned an E number, except flavourings, which are not given E numbers."
-      ]
+        "The regulation sets rules for preservatives, colourings, emulsifiers and antioxidants, among other additives such as sweeteners, so every additive group the syllabus names is covered.",
+        "As an EU regulation, it applies directly in Ireland, as in every Member State, without needing a separate Irish Act. This is why the same rules apply to a food sold anywhere in the EU.",
+        "Its purposes are to protect consumer health, to allow a single market in food, and to make sure additives are used only where there is a technological need and consumers are not misled.",
+        "Two related EU rules sit alongside it: flavourings have their own regulation, Regulation (EC) No 1334/2008, and vitamins and minerals added to food are covered by Regulation (EC) No 1925/2006."
+      ],
+      "tip": "If a question asks how EU law regulates additives, answer with what the regulation contains: approval, E numbers and labelling, and the conditions of use. Grouping your points under those headings and giving at least four concrete rules gives the strongest answer."
+    },
+    {
+      "h": "The approved list and safety testing",
+      "b": "The first control is a gate: an additive cannot be used unless it has been checked and approved. This stops untested substances reaching food.",
+      "points": [
+        "An additive may be used only if it appears on the approved list for the EU (the Union list), and only in the foods and at the maximum levels that the list permits.",
+        "Each additive must be tested for safety before it is approved, so every approved additive has been tested.",
+        "The European Food Safety Authority (EFSA) assesses the safety of the additive and sets an acceptable daily intake, the amount that can be eaten daily without harm. The European Commission then authorises the additive.",
+        "Approved additives are re-evaluated as scientific knowledge changes, so an approval is not permanent and an additive can be reviewed again."
+      ],
+      "tip": "Say that additives are tested before approval and that only approved ones are on the list. Name EFSA as the EU body that does the safety assessment."
     },
     {
       "h": "E numbers and the classes they identify",
+      "b": "Each approved additive is given an E number, a code that shows it has passed the EU approval process. The E stands for Europe, and the number also gives a rough guide to what the additive does.",
       "points": [
-        "E100 to E199 are colourings, for example E150 caramel and E102 tartrazine.",
-        "E200 to E299 are preservatives, for example E202 potassium sorbate and E220 sulphur dioxide.",
+        "Each approved additive is assigned an E number, except flavourings, which are not given E numbers.",
+        "E100 to E199 are colourings, for example E150 caramel and E102 tartrazine. E200 to E299 are preservatives, for example E202 potassium sorbate and E220 sulphur dioxide.",
         "E300 to E399 are antioxidants, for example E300 vitamin C and E320 BHA; the range also includes acidity regulators.",
-        "E400 to E499 are thickeners, stabilisers and emulsifiers, for example E322 lecithin.",
-        "E600 to E699 are flavour enhancers, for example E621 monosodium glutamate.",
-        "E900 to E999 include sweeteners, for example E950 acesulfame K, E951 aspartame, E954 saccharin and E955 sucralose."
-      ]
+        "E400 to E499 are thickeners, stabilisers and emulsifiers, for example E471 mono- and diglycerides and E440 pectin. E500 to E599 are acidity regulators and anti-caking agents.",
+        "E600 to E699 are flavour enhancers, for example E621 monosodium glutamate. E900 to E999 include sweeteners and glazing agents, for example E950 acesulfame K, E951 aspartame, E954 saccharin and E955 sucralose.",
+        "The ranges are an approximate guide, with exceptions. For example, lecithin (E322) is an emulsifier but sits in the antioxidant range, so the class word on the label tells you what an additive does.",
+        "An E number is shown on the label after the class name, for example preservative: E220, or the additive's name can be used instead, for example preservative: sulphur dioxide.",
+        "The label tells the consumer what the additive is, what it does and that it is approved. A consumer can also read the label to avoid additives they react to."
+      ],
+      "tip": "Not every E number is a bad additive and not every additive has one: E300 is vitamin C, E100 is turmeric, and flavourings have none. An E number tells you the additive is approved, and the class word on the label tells you its function."
     },
     {
       "h": "Conditions of use",
+      "b": "Approval is not a free pass. The regulation sets conditions that every additive must meet, and it bans some additives from some foods altogether.",
       "points": [
+        "An additive must not present a health hazard to the consumer, because protecting health is the first aim of the law.",
+        "An additive must not mislead the consumer about the food, for example about its nature or quality.",
+        "An additive must not be used to disguise poor quality or faulty processing, because it must serve a reasonable technological need.",
         "An additive must not reduce the nutritive value of the food.",
-        "An additive must not be used to disguise poor quality or faulty processing.",
-        "An additive must not present a health hazard to the consumer.",
-        "An additive must not mislead the consumer about the food.",
-        "Each additive must be used in the smallest quantity needed to achieve its effect.",
-        "Colourings are not permitted in fresh fruit, fresh vegetables, fresh meat, poultry or fish.",
-        "Colourings are not permitted in baby food, and sweeteners are not permitted in food for infants and young children."
-      ]
-    },
-    {
-      "h": "Labelling of additives",
-      "points": [
-        "The label must show the class name of the additive followed by its specific name or E number, for example preservative: sulphur dioxide or preservative: E220.",
-        "Flavourings are declared by name rather than by an E number.",
-        "Consumers can therefore identify the function and the approved status of an additive from its label."
-      ]
+        "Each additive must be used in the smallest quantity needed to achieve its effect, so no more than necessary is added.",
+        "Colourings are not permitted in fresh fruit, fresh vegetables, fresh meat, poultry or fish, because colour would hide how fresh these foods really are.",
+        "Colourings are not permitted in baby food, and sweeteners are not permitted in food for infants and young children. Preservatives, BHA and BHT are also not allowed in baby food.",
+        "The label must show the class name of the additive followed by its specific name or E number, for example preservative: sulphur dioxide or preservative: E220. Flavourings are declared by name rather than by an E number."
+      ],
+      "tip": "The conditions of use are the marked points in a question on how EU law regulates additives. List them as separate facts: not a hazard, not misleading, not hiding faults, no loss of nutritive value, and the smallest effective quantity. For restrictions, give colourings in fresh foods and baby food, and sweeteners in infant food. In a true or false item, artificial colourings in baby food are not permitted."
     },
     {
       "h": "Enforcement in Ireland",
+      "b": "The EU regulation sets the rules, but Irish bodies make sure they are followed. This is a short section of an answer, but one enforcement sentence can add marks.",
       "points": [
-        "The Food Safety Authority of Ireland is responsible for enforcing the safe use of food additives in Ireland.",
-        "Official agencies working under FSAI service contracts, including the Department of Agriculture, Food and the Marine, the HSE Public Analyst Laboratories and local authorities, check compliance through inspection and sampling.",
-        "The FSAI advises ministers, regulators, industry and consumers, and processes applications for new foods and processing methods."
-      ]
+        "The Food Safety Authority of Ireland (FSAI), set up under the Food Safety Authority of Ireland Act 1998, is responsible for the safe use of food additives in Ireland and coordinates enforcement.",
+        "Official agencies working under FSAI service contracts check compliance through inspection and sampling. They include the Department of Agriculture, Food and the Marine, the HSE Environmental Health Service and Public Analyst Laboratories, and local authorities.",
+        "The FSAI also advises ministers, regulators, industry and consumers."
+      ],
+      "tip": "For a question on how EU legislation regulates additives, answer with the regulation's content first. Add one sentence saying the FSAI enforces the rules in Ireland, rather than describing the FSAI's wider functions."
     }
   ],
   "keyTerms": [

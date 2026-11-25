@@ -6,37 +6,51 @@
   "notes": [
     {
       "h": "Primary structure",
-      "b": "The primary structure is the basic order of amino acids in a protein molecule.",
+      "b": "Every protein is a chain of amino acids (the small units proteins are built from). The primary structure is simply the order of those amino acids in the chain, and it decides how the chain can fold later.",
       "points": [
-        "Primary structure is the number and sequence of amino acids in a polypeptide chain.",
-        "The amino acids are linked by peptide bonds, which form the backbone of the chain.",
+        "Primary structure is the number and sequence (order) of amino acids in a polypeptide chain. In other words, it tells you which amino acids are present and in what order, not what shape the chain takes.",
+        "The amino acids are linked by peptide bonds (the bonds that join one amino acid to the next), which form the backbone of the chain, and the chain is called a polypeptide.",
+        "Different proteins contain different amino acids in a different order, which is why different proteins have different properties.",
         "Primary structure determines the shape the chain can later take, so changing one amino acid in the sequence can change how the protein folds and behaves.",
-        "Settings: models made from differently coloured blocks or shapes, one colour per amino acid, joined in sequence to represent a polypeptide.",
-        "Diagram: a row of labelled amino acid blocks linked by peptide bonds to show primary structure."
-      ]
+        "Settings: models made from differently coloured blocks or shapes, one colour per type of amino acid, joined in a row to represent a polypeptide.",
+        "Diagram: a row of labelled amino acid blocks, one colour per type of amino acid, linked by peptide bonds to show primary structure."
+      ],
+      "tip": "Primary structure is the sequence, not the shape: use the word 'sequence' in your answer. Shape comes from secondary and tertiary structure."
     },
     {
       "h": "Secondary structure (Higher Level only)",
-      "b": "Secondary structure is the local coiling or folding of the polypeptide chain.",
+      "b": "A long chain of amino acids does not stay straight. Bonds form between different parts of the chain and pull it into a local coil or fold, which gives the protein a definite shape.",
       "points": [
-        "Hydrogen bonds form between a hydrogen atom in one part of the chain and an oxygen atom in another part, in the same chain or a neighbouring chain.",
-        "Each hydrogen bond is weak, but many together hold the coil in shape.",
-        "The chain is often arranged as a spiral, which gives the protein a definite shape.",
-        "Collagen is an example in which polypeptide chains are linked by hydrogen bonds."
-      ]
+        "The chain is further linked and folded by bonds between different parts of it, giving the protein a definite shape. This is often a spiral (coil) or a pleated sheet.",
+        "The main bond is the hydrogen bond: a hydrogen atom in one part of the chain is attracted to an oxygen atom in another part, in the same chain or a neighbouring chain.",
+        "Each hydrogen bond is weak, but there are very many of them, so together they hold the coil in shape.",
+        "Collagen is an example in which polypeptide chains are linked by hydrogen bonds.",
+        "The Irish marking schemes also name disulphide links and salt bonds as ways the chains are linked."
+      ],
+      "tip": "When asked to describe secondary structure, name the bond (hydrogen bonds), say they link chains to give a definite shape such as a spiral, and give collagen as the example. Do not call a disulphide link a hydrogen bond."
     },
     {
       "h": "Tertiary structure (Higher Level only)",
-      "b": "Tertiary structure is the overall three-dimensional folding of the whole polypeptide chain.",
+      "b": "Tertiary structure is the three-dimensional folding of the whole polypeptide chain into one compact unit. The pattern of folding gives the protein its final shape, and several kinds of bond hold it there.",
       "points": [
-        "Disulphide links form between the sulphur atoms of two cysteine amino acids, each containing an SH group, and can join two parts of one chain or two chains.",
-        "Salt bonds form between oppositely charged side groups on amino acids.",
+        "Disulphide links form between the sulphur atoms of two cysteine amino acids, each of which contains an –SH group. They can join two parts of one chain or two separate chains, and are stronger than hydrogen bonds.",
+        "Salt bonds form because oppositely charged side groups on amino acids (the parts that differ from one amino acid to another) attract each other.",
         "Hydrogen bonds add further links between sections of the folded chain.",
-        "Fibrous tertiary structure: long, straight, coiled or zig-zag chains, as in collagen.",
-        "Globular tertiary structure: the chain is folded into a compact, roughly spherical shape, as in albumin.",
-        "Breaking these bonds unfolds the tertiary structure, which is the first step in denaturation.",
-        "Diagram: a folded polypeptide showing disulphide, hydrogen and salt bonds between sections of the chain."
-      ]
+        "The folded shape may be fibrous (long, straight, coiled or zig-zag chains) or globular (the chain folded into a compact, roughly spherical shape, as in albumin).",
+        "The shape is held by many weak bonds, so heat, acid and whisking can break them. Breaking the secondary and tertiary structure unfolds the protein, which is the first step in denaturation. The peptide bonds are not broken.",
+        "Diagram: a folded polypeptide chain with the disulphide, hydrogen and salt links between sections of the chain labelled."
+      ],
+      "tip": "For disulphide links, name cysteine and the –SH groups. Name the bond at each level and link structure to shape and denaturation in one sentence. Denaturation breaks the weak bonds of secondary and tertiary structure, not peptide bonds."
+    },
+    {
+      "h": "Comparing the three levels of structure (Higher Level only)",
+      "b": "Protein structure builds up in three levels, each adding something to the one before. Putting them side by side shows what each level is and which bonds hold it.",
+      "points": [
+        "Primary structure is the sequence of amino acids in the polypeptide chain, joined by peptide bonds.",
+        "Secondary structure is the local coiling of the chain into a definite shape, often a spiral, held by hydrogen bonds.",
+        "Tertiary structure is the overall three-dimensional folding of the whole chain into a compact unit, held by disulphide, hydrogen and salt bonds."
+      ],
+      "tip": "A long question on protein can ask for primary, secondary and tertiary structure together. Give each level its own point, with the bond named."
     }
   ],
   "keyTerms": [

@@ -6,67 +6,129 @@
   "notes": [
     {
       "h": "Composition of milk",
-      "b": "Milk is a complete food for young mammals and a useful source of most nutrients in the human diet.",
+      "b": "Milk is a complete food for young mammals, meaning it supports a growing baby animal, and a useful source of most nutrients for people. It is widely available, so it is a staple of the Irish diet.",
       "points": [
-        "Water makes up about 87% of milk, which contributes to hydration.",
-        "Protein makes up about 3.5% of whole milk. It is mainly casein, with whey proteins making up the rest, and it is high biological value (HBV) protein.",
-        "Fat in whole milk is about 3.5 to 4%, mostly saturated, and it carries the fat-soluble vitamins A and D.",
-        "Lactose is the milk sugar, a disaccharide that supplies energy and aids the absorption of calcium.",
-        "Minerals: calcium and phosphorus for bones and teeth, with traces of magnesium, potassium and sodium.",
-        "Vitamins: A, D and B group vitamins, including riboflavin (B2) and B12."
-      ]
+        "Water makes up about 87% of milk, so a glass of milk contributes to hydration as well as supplying nutrients.",
+        "Protein makes up about 3.5% of whole milk. It is mainly casein, with whey proteins making up the rest, and it is high biological value (HBV) protein, which means it contains all the essential amino acids (the ones the body cannot make).",
+        "Protein from milk is used for growth and repair, and for making hormones and enzymes.",
+        "Fat in whole milk is about 3.5 to 4%, mostly saturated (fat that is solid at room temperature and raises cholesterol). It is held in small globules, so it is easily digested, and cholesterol is present.",
+        "The fat carries the fat-soluble vitamins A and D, so these are highest in whole milk.",
+        "Lactose is the milk sugar, a disaccharide (a double sugar) at about 4 to 5%. It is the only significant carbohydrate in milk, it supplies energy, and it aids the absorption of calcium. Milk contains almost no starch.",
+        "Minerals: calcium and phosphorus are present in useful amounts for bones and teeth, with traces of magnesium, potassium and sodium. Milk is low in iron.",
+        "Vitamins: A and D, and the B group vitamins, including riboflavin (B2) and B12. Skimmed milk keeps the B vitamins but loses A and D with the fat.",
+        "Milk supplies energy from lactose and fat, so the more fat a milk contains, the more energy it gives."
+      ],
+      "tip": "Examiners ask which nutrient is absent, so learn the composition together with what is missing. Give the nutrient, its function and the milk fact."
     },
     {
       "h": "Nutrients milk does not supply",
+      "b": "Milk is a good source of protein and calcium, but it is not a complete diet for an adult. Knowing what it lacks explains why it must be balanced with other foods.",
       "points": [
-        "Milk contains no vitamin C.",
-        "Milk contains no fibre.",
+        "Milk contains no vitamin C, so it cannot be the only source of this vitamin.",
+        "Milk contains no fibre, so it does not help bowel movement the way cereals, fruit and vegetables do.",
         "Milk contains very little starch, so its carbohydrate is almost all lactose.",
-        "Milk is low in iron."
-      ]
+        "Milk is low in iron, so it should not be relied on to prevent iron deficiency."
+      ],
+      "tip": "Milk is a good source of protein and calcium, not of iron or vitamin C. 'Complete food' means it supports a young mammal, not that an adult can live on it."
+    },
+    {
+      "h": "Nutritive value of milk",
+      "b": "Nutritive value means the nutrients a food contains and what each one does in the body. A good answer names the nutrient, its function and the milk fact.",
+      "points": [
+        "Protein (HBV) is for growth and repair, and fat and lactose give energy.",
+        "Calcium and phosphorus build and maintain bones and teeth, and vitamins A, D and the B group support the body's functioning, while water gives hydration.",
+        "Milk lacks vitamin C, fibre and iron, so a full answer also states what it does not provide."
+      ],
+      "tip": "Nutritive and dietetic value are often asked together as a 20-mark part, four points at 5 marks each, with at least one on nutritive and one on dietetic value. Expect HBV protein, saturated fat and lactose for energy, vitamins A, D and B group, calcium and phosphorus, water, and that it lacks vitamin C and iron."
     },
     {
       "h": "Dietetic value of milk",
+      "b": "Dietetic value means how milk suits different people and different diets. Each point is strongest when it is given with its reason.",
       "points": [
-        "Protein supports growth and repair in children, adolescents and pregnant women.",
+        "Protein supports growth and repair in children, adolescents and pregnant women, who need extra for their body's needs.",
         "Calcium and phosphorus support bone and tooth development and maintenance, and are needed by older people and nursing mothers.",
         "Lactose and fat give energy for an active lifestyle.",
-        "Milk is easily digested, so it suits invalid and elderly diets.",
+        "Milk is easily digested, so it suits invalid and elderly diets, and convalescents.",
+        "Low-fat milks suit low-cholesterol and weight-watching diets, because less fat means less saturated fat and energy.",
         "Milk is versatile, used in drinks, cereals, sauces, soups, puddings and baking.",
-        "Milk is inexpensive, widely available and quick to use with no preparation.",
-        "Milk can be fortified to add nutrients that are otherwise low.",
-        "The Department of Health healthy eating guidelines and the Irish Food Pyramid place milk in the dairy food group, which should be included every day."
-      ]
+        "Milk is inexpensive, widely available and quick to use with no preparation, and nothing is wasted.",
+        "Milk can be fortified (have nutrients added) to add nutrients that are otherwise low."
+      ],
+      "tip": "Exams on the dietetic value of semi-skimmed milk ask who it suits and who it does not, such as children under five."
+    },
+    {
+      "h": "Limits of milk in the diet",
+      "b": "Milk has real strengths, but there are situations where it is not suitable. State these limits as well as the benefits.",
+      "points": [
+        "Milk is not suitable as the only food, because it has no vitamin C or fibre and little iron.",
+        "Whole milk is high in saturated fat, so it is not ideal for people cutting cholesterol or calories.",
+        "Lactose intolerance means a person lacks the enzyme lactase and cannot digest lactose, the sugar in milk. Lactose-free milk exists for them.",
+        "Milk allergy is a different condition, a reaction to the milk protein."
+      ],
+      "tip": "Do not mix up the two conditions. Lactose intolerance is not being able to digest the sugar, while milk protein allergy is an immune reaction to the protein."
+    },
+    {
+      "h": "Milk in healthy eating guidelines",
+      "b": "Irish healthy eating guidance treats milk and other dairy foods as a food group that should be eaten every day.",
+      "points": [
+        "The Department of Health healthy eating guidelines and the Irish Food Pyramid place milk in the dairy food group (the milk, yoghurt and cheese shelf), which should be included every day.",
+        "Three servings a day are recommended for most adults and five a day for 9 to 18 year olds, because of the calcium and protein needed for growth and bone development.",
+        "Lower-fat choices are advised, and cheese in small amounts.",
+        "Three servings of milk, cheese and yoghurt are recommended because of the HBV protein, calcium, vitamins A, D and some B, versatility and low cost."
+      ],
+      "tip": "For a question on why three servings a day are recommended, give the reasons above."
+    },
+    {
+      "h": "Ways of including dairy in a healthy diet",
+      "b": "Questions on a teenager's diet ask for several different, practical ways to include dairy, each with a nutritional reason.",
+      "points": [
+        "Milk can be used on cereal or porridge, in smoothies and milky drinks, in soups, sauces and batters, and in puddings and baking.",
+        "Yoghurt can be eaten as a snack, on cereal, in smoothies, or used as a dip or dressing.",
+        "Cheese can go in sandwiches, salads, pasta, pizza and soups, or on potatoes.",
+        "Cream can be used in soups, mash, sauces and desserts."
+      ],
+      "tip": "Give three different ways with a nutritional reason each, for example calcium for bones. Menu questions ask you to place milk, yoghurt and cheese in a day's meals for a teenage girl needing more calcium, with a reason for each, following the current healthy eating guidelines."
     },
     {
       "h": "Milk in young children's diets",
+      "b": "Young children are growing quickly, so milk matters more to them than to most adults. The type of milk and what it is eaten with both matter.",
       "points": [
+        "Protein is for growth and repair, calcium and phosphorus with vitamin D build developing bones and teeth, and B vitamins and water are also supplied.",
         "Young children need the energy and fat-soluble vitamins A and D that whole milk supplies.",
         "Reduced-fat and skimmed milks have less energy and fewer fat-soluble vitamins, so they are less suitable as a young child's main milk.",
-        "Milk is low in iron, so iron-rich foods such as meat, fish or fortified cereals should be given alongside it.",
-        "Milk can be used in young children's diets in cereals, sauces, soups and puddings to add protein and calcium."
-      ]
+        "Safefood advises full-fat milk for ages 1 to 2, and skimmed milk is not suitable as a main drink under 5.",
+        "The HSE advises that cow's milk is not given as the main drink to babies under 12 months, only from 12 months as whole pasteurised milk.",
+        "Milk is low in iron and has no vitamin C, so iron-rich foods such as meat, fish, eggs or fortified cereals should be given alongside it, with foods supplying vitamin C and fibre. Too much milk can crowd out other foods.",
+        "Milk can be used in young children's diets in cereals, sauces, soups and puddings to add protein and calcium, and it can be fortified."
+      ],
+      "tip": "For a question on milk in a young child's diet, give each composition point with the child's reason, whole versus skimmed, that milk is low in iron and lacks vitamin C so other foods must be added, and fortification."
     },
     {
       "h": "Types of milk",
+      "b": "Milk is sold in several types that differ mainly in how much fat they contain, and so in energy and fat-soluble vitamins. Fortified milk differs by what has been added.",
       "points": [
-        "Whole milk: about 3.5 to 4% fat, with the most energy and vitamin A of the common types.",
-        "Semi-skimmed milk: less fat and energy than whole milk, but higher in protein, carbohydrate and calcium.",
-        "Skimmed milk: 0.1 to 0.4% fat; the fat is removed along with vitamins A and D, so it suits low-fat and low-cholesterol diets.",
-        "Low-fat milk: sits between whole and skimmed milk in fat and energy content.",
-        "Fortified milk: vitamins such as A and D, folic acid, calcium, protein or omega-3 fatty acids are added to whole, low-fat or skimmed milk.",
-        "Long-life (UHT) milk is a separate heat-treated type; its processing is covered in the next subsection."
-      ]
+        "Whole milk is full fat, about 3.5 to 4% fat, with the most energy and vitamin A of the common types, and is the most popular type.",
+        "Semi-skimmed or low-fat milk is a reduced-fat milk, with part of the fat removed. Compared with whole milk it has less energy, fat, saturated fat and vitamin A.",
+        "Semi-skimmed milk has slightly more protein, carbohydrate and calcium per 100 ml, so it is the milk type higher in calcium, protein and carbohydrate than whole milk.",
+        "Skimmed milk has 0.1 to 0.4% fat. Most of the fat is removed along with vitamins A and D, so it suits low-fat and low-cholesterol diets, while the protein, lactose and calcium remain.",
+        "Fortified milk has nutrients added to whole, low-fat or skimmed milk, such as vitamins A and D, folic acid, calcium, protein or omega-3 fatty acids. Fortification adds nutrients that are low or were lost in processing, so it can restore vitamins A and D to low-fat milk.",
+        "Semi-skimmed and skimmed milk are not fortified unless the label says so.",
+        "Other types to name are long-life (UHT), sterilised, evaporated, condensed and dried milk, which are heat-treated or concentrated, and lactose-free milk. Goat's milk and soya (plant) milk are alternatives."
+      ],
+      "tip": "For 'compare whole, skimmed and fortified milk', give one point per type on fat content, energy, vitamins A and D and suitability. Fortified is not the same as heat-treated: fortification adds nutrients, heat treatment extends shelf life. Skimmed milk loses vitamins A and D, not calcium or protein."
     },
     {
       "h": "Choosing milk by comparing nutrition information",
+      "b": "Nutrition labels give values per 100 ml, so different milks can be compared like with like. Use only the figures you are given and link each to a function.",
       "points": [
-        "Energy and fat content: a lower-energy, lower-fat milk suits a slimming or low-cholesterol diet.",
+        "Energy and fat content: a lower-energy, lower-fat milk suits a slimming or low-cholesterol diet, for weight control and heart health.",
         "Protein: needed for growth and repair, so compare grams per 100 ml for growing teenagers.",
-        "Calcium: compare the amount per 100 ml for bones and teeth.",
-        "Vitamin B12: needed for healthy red blood cells, folate and fatty-acid metabolism, and the myelin sheath of nerves.",
-        "A fat-free milk compared with whole milk has lower energy and fat, similar protein and vitamin B12, and more calcium, which is the basis for recommending it to a teenager."
-      ]
+        "Calcium: compare the amount per 100 ml, because it is needed for bones and teeth.",
+        "Vitamin B12: needed for healthy red blood cells, for making use of folate and fatty acids in metabolism, and for the myelin sheath of nerves.",
+        "A fat-free milk compared with whole milk has lower energy and fat, similar protein and vitamin B12, and more calcium, which is the basis for recommending it to a teenager.",
+        "Diagram: draw a comparison table of whole, semi-skimmed and skimmed milk (fat, energy, vitamins A and D, calcium) as a revision aid."
+      ],
+      "tip": "When asked to recommend a milk from a table, give four reasons, each with a figure from the table and its function: growth, bones, energy, red blood cells. Do not use any figure that is not in the table you are given."
     }
   ],
   "keyTerms": [

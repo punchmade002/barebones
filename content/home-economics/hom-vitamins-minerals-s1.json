@@ -5,101 +5,130 @@
   "syllabusRef": "1.1.5",
   "notes": [
     {
-      "h": "Fat-soluble vitamins: absorption and storage",
-      "b": "Vitamins A, D, E and K dissolve in fat, so they are absorbed together with dietary fat.",
+      "h": "What vitamins are and the two classes",
+      "b": "Vitamins are organic compounds that the body needs in very small amounts. They are grouped by what they dissolve in, and that one difference decides how they are absorbed, stored and lost.",
       "points": [
-        "Fat-soluble vitamins are absorbed in the small intestine along with dietary fats and are carried in the lymphatic system before entering the blood.",
-        "The liver and fatty tissue store fat-soluble vitamins, so the body keeps a reserve between meals.",
-        "Because they are stored, excess intake from supplements or large amounts of liver can build up to toxic levels; water-soluble vitamins are excreted in urine instead.",
-        "Excess vitamin A is harmful in pregnancy, so high-dose vitamin A supplements are avoided during pregnancy."
-      ]
+        "Vitamins are needed for normal growth, health and chemical reactions in the body. The body cannot make enough of most of them, so they must come from food.",
+        "There are two classes: fat-soluble vitamins (A, D, E and K) and water-soluble vitamins (the B group and C). For example, vitamin A is fat-soluble and vitamin C is water-soluble.",
+        "RDA (recommended dietary allowance) is the daily amount that meets the needs of almost everyone in a group. It differs with age, sex, pregnancy and breastfeeding, because needs change at different life stages."
+      ],
+      "tip": "Exams ask you to name the two classes of vitamin with an example of each: fat-soluble A, D, E, K and water-soluble B group and C."
+    },
+    {
+      "h": "Fat-soluble vitamins: absorption and storage",
+      "b": "Vitamins A, D, E and K dissolve in fat, so they are absorbed together with dietary fat. This also explains why they are stored in the body and why too much can be harmful.",
+      "points": [
+        "Fat-soluble vitamins are absorbed in the small intestine along with dietary fats and are carried in the lymphatic system (the body's drainage network) before entering the blood.",
+        "Because they need fat to be absorbed, a diet very low in fat, or a condition that stops fat being absorbed, can reduce vitamin intake.",
+        "The liver and fatty (adipose) tissue store fat-soluble vitamins, so the body keeps a reserve between meals and deficiency develops slowly.",
+        "Because they are stored, excess intake from supplements or large amounts of liver can build up to toxic levels (toxicity). Water-soluble vitamins are mostly excreted in urine instead.",
+        "Excess vitamin A (retinol) is harmful in pregnancy because it can harm the developing baby, so high-dose vitamin A supplements and large amounts of liver are avoided during pregnancy."
+      ],
+      "tip": "Fat-soluble does not mean found only in fatty foods: carrots (beta-carotene) and leafy greens (vitamin K) are not fatty. Do not say fat-soluble vitamins are lost in cooking water; the water-soluble ones are."
     },
     {
       "h": "Vitamin A (retinol and beta-carotene): sources and functions",
+      "b": "Vitamin A comes in two forms: one ready-made in animal foods and one made from a plant pigment. Its main jobs are vision, healthy surface tissues and protection of cells.",
       "points": [
-        "Retinol is the active form of vitamin A, found in animal foods: liver, fish liver oils, oily fish, dairy products, eggs and fortified margarine.",
-        "Beta-carotene is a provitamin A found in plant foods; the body converts it into retinol in the intestine.",
-        "Good beta-carotene sources include carrots, sweet potatoes, apricots, red and orange peppers, tomatoes and dark green leafy vegetables.",
-        "Retinol combines with the protein opsin to form rhodopsin, the pigment in the rod cells of the retina that allows vision in dim light.",
-        "Vitamin A keeps the cells lining the eyes, mouth, respiratory tract, urinary tract and skin healthy and moist.",
+        "Retinol is the active, ready-made (preformed) form of vitamin A, found only in animal foods: liver, fish liver oils, oily fish, dairy products (butter, full-fat milk and cheese), eggs and fortified margarine (margarine with vitamin A added).",
+        "Beta-carotene is a plant pigment and a provitamin (a substance the body converts into a vitamin). The body converts it into retinol in the intestine, so beta-carotene is not itself vitamin A.",
+        "Good beta-carotene sources include carrots, sweet potatoes, apricots, mango, red and orange peppers, tomatoes and dark green leafy vegetables such as spinach and kale, where the green hides the orange pigment.",
+        "Retinol combines with the protein opsin to form rhodopsin (visual purple), the light-sensitive pigment in the rod cells of the retina. This allows vision in dim light.",
+        "Vitamin A keeps the cells lining the eyes, mouth, respiratory tract, urinary tract and skin healthy and moist, which protects them against infection.",
         "Vitamin A supports growth, cell repair and a healthy immune system.",
-        "Beta-carotene acts as an antioxidant, neutralising free radicals that damage cells."
-      ]
+        "Beta-carotene acts as an antioxidant, neutralising free radicals (unstable molecules that damage cells)."
+      ],
+      "tip": "Exams ask for two functions of vitamin A and two sources, and for complete statements naming rhodopsin. Do not mix up retinol and beta-carotene: beta-carotene is a precursor the body converts, not vitamin A itself."
     },
     {
       "h": "Vitamin A: deficiency",
+      "b": "Without enough vitamin A, the eye pigment cannot be rebuilt and the body's moist surface linings break down. The eyes show the first signs.",
       "points": [
-        "Night blindness, the earliest sign: poor vision in dim light because rhodopsin is not regenerated.",
-        "Xerophthalmia: the eyes become dry and damaged, and in severe cases the cornea is destroyed and blindness follows.",
-        "Dry, rough skin and dry, brittle hair.",
-        "Lowered resistance to infection, because the mucous membranes lose their protective role.",
-        "Vitamin A deficiency is a leading cause of preventable childhood blindness worldwide."
-      ]
+        "Night blindness is the earliest sign: poor vision in dim light because rhodopsin is not regenerated.",
+        "Xerophthalmia: the eyes become dry and damaged, and in severe cases the cornea (the clear front of the eye) is destroyed and blindness follows.",
+        "Dry, rough skin and dry, brittle hair, because the skin and other surface tissues are no longer kept healthy and moist.",
+        "Poor growth, because vitamin A supports growth.",
+        "Lowered resistance to infection, because the mucous membranes (moist linings) dry out, crack and lose their protective role.",
+        "In severe cases deficiency causes blindness."
+      ],
+      "tip": "Night blindness (vitamin A) and rickets (vitamin D) are the most-asked deficiencies. Name the right vitamin for each and do not swap them."
     },
     {
       "h": "Vitamin D (cholecalciferol): sources and functions",
+      "b": "Vitamin D is unusual because the body can make it in the skin when sunlight falls on it, which is why it is called the sunshine vitamin. It is the vitamin that lets the body use calcium to build bones and teeth.",
       "points": [
-        "Cholecalciferol (vitamin D3) forms in the skin when ultraviolet B from sunlight acts on a cholesterol derivative in the skin.",
+        "Cholecalciferol (vitamin D3) forms in the skin when ultraviolet B from sunlight acts on a cholesterol derivative in the skin. It is also found in animal foods.",
         "Ergocalciferol (vitamin D2) is the plant and fungal form, made when mushrooms and yeast are exposed to ultraviolet light.",
-        "Dietary sources include oily fish such as salmon, mackerel and sardines, egg yolk, liver, fortified margarine and fortified milk.",
-        "Vitamin D increases the absorption of calcium and phosphorus from the small intestine.",
-        "Vitamin D raises blood calcium levels, working with parathormone when blood calcium falls.",
-        "Vitamin D supports the mineralisation of bones and the formation of teeth.",
-        "In Ireland, weak winter sunlight means that dietary sources of vitamin D matter most in the winter months."
-      ]
+        "Dietary sources include oily fish such as salmon, mackerel, sardines and herring, egg yolk, liver, butter, fortified margarine and spreads, fortified milk and some fortified breakfast cereals.",
+        "Vitamin D increases the absorption of calcium and phosphorus from the small intestine, which is why it is the vitamin needed to absorb calcium.",
+        "Vitamin D raises blood calcium levels, working with parathormone (the parathyroid hormone) when blood calcium falls, so blood calcium stays at the right level.",
+        "Vitamin D supports the mineralisation of bones (the deposit of calcium and phosphorus that hardens them) and the formation of teeth, so it builds and maintains strong bones and teeth.",
+        "In Ireland, weak winter sunlight means that dietary sources of vitamin D matter most in the winter months. People who cover up, stay indoors or have dark skin also make less."
+      ],
+      "tip": "Exams ask for two functions of vitamin D and one source: it helps absorb calcium and phosphorus and so builds bones and teeth. Oily fish, egg yolk and fortified foods are the usual sources."
     },
     {
       "h": "Vitamin D: deficiency",
+      "b": "Low vitamin D means too little calcium reaches the bones, so they stay soft. The condition has a different name in children and in adults.",
       "points": [
         "Rickets in children: bones soften and bend, causing bow legs, delayed growth and poor tooth formation.",
-        "Osteomalacia in adults: bones become soft, weak and painful because they are not properly mineralised.",
-        "Low vitamin D lowers calcium absorption, which is a contributing factor in osteoporosis, where bone density falls."
-      ]
+        "Osteomalacia in adults: bones become soft, weak and painful, and fractures can occur, because they are not properly mineralised.",
+        "Low vitamin D lowers calcium absorption, which is a contributing factor in osteoporosis, where bone density falls, and in dental decay."
+      ],
+      "tip": "Osteomalacia is the adult counterpart of rickets. It is not the same as osteoporosis, where bone density falls but the bone is properly mineralised. Osteoporosis and tooth decay count only as conditions linked to low vitamin D."
     },
     {
       "h": "Vitamin E (tocopherols): sources, functions and deficiency",
+      "b": "Vitamin E is the fat-soluble vitamin whose main job is as an antioxidant: it stops oxidation damaging fatty parts of the body's cells.",
       "points": [
-        "Tocopherols are the active forms of vitamin E; alpha-tocopherol is the form the human body uses most.",
-        "Rich sources are vegetable oils such as sunflower and wheatgerm oil, nuts and seeds such as almonds and sunflower seeds, wholegrain cereals and green leafy vegetables.",
-        "Vitamin E is an antioxidant that protects the membranes of cells and polyunsaturated fatty acids from oxidation.",
-        "By protecting LDL cholesterol from oxidation, vitamin E helps protect the arteries.",
-        "Deficiency is rare and can cause nerve and muscle damage and the breakdown of red blood cells."
-      ]
+        "Tocopherols are the active forms of vitamin E. Alpha-tocopherol is the form the human body uses most, and the main form in the body.",
+        "Rich sources are vegetable oils such as sunflower, wheatgerm and olive oil, nuts and seeds such as almonds and sunflower seeds, wholegrain cereals, avocado, green leafy vegetables and egg yolk.",
+        "Vitamin E is an antioxidant that protects the membranes of cells and polyunsaturated fatty acids from oxidation (damage by free radicals).",
+        "Vitamin E also helps protect the vitamin A and vitamin C in the body, and supports healthy skin and immune function.",
+        "Deficiency is rare in healthy people. In people who cannot absorb fat, and in premature babies, it can cause nerve and muscle damage and the early breakdown of red blood cells (a form of anaemia)."
+      ],
+      "tip": "Say only that vitamin E is an antioxidant that protects cell membranes and polyunsaturated fatty acids. Do not add claims about arteries or cholesterol."
     },
     {
       "h": "Vitamin K (naphthoquinones): sources and functions",
+      "b": "Vitamin K is the clotting vitamin: the K comes from the German word for coagulation. It has two forms, one from plants and one made by bacteria in the gut.",
       "points": [
-        "Vitamin K1 (phylloquinone) comes from green leafy vegetables such as spinach, broccoli, cabbage and kale.",
-        "Vitamin K2 (menaquinones) is made by bacteria in the large intestine and is also found in dairy products, eggs and meat.",
-        "The liver needs vitamin K to make the clotting factors, including prothrombin, that allow blood to clot.",
+        "Vitamin K1 (phylloquinone) comes from plants: green leafy vegetables such as spinach, broccoli, cabbage, kale and sprouts, and vegetable oils and liver.",
+        "Vitamin K2 (menaquinones) is made by bacteria in the large intestine and is also found in dairy products, eggs and meat. The gut bacteria are therefore a second source.",
+        "The liver needs vitamin K to make the clotting factors, including prothrombin, that allow blood to clot. This is its primary function.",
         "Vitamin K activates osteocalcin, a protein that binds calcium into bone, so it supports bone formation.",
-        "Deficiency impairs blood clotting, causing bleeding and easy bruising.",
-        "Newborn babies are given a vitamin K injection at birth, because their gut bacteria are not yet established and they risk bleeding."
-      ]
+        "Deficiency impairs blood clotting, causing bleeding and easy bruising. Long courses of antibiotics or poor fat absorption can also reduce vitamin K.",
+        "The HSE offers every newborn baby a vitamin K injection within hours of birth, because their gut bacteria are not yet established and they have low stores, so they risk bleeding. It is the parents' choice."
+      ],
+      "tip": "The primary function of vitamin K is blood clotting. Do not describe it only as an injection for babies: clotting is its general function and gut bacteria are a second source."
     },
     {
       "h": "Properties of the fat-soluble vitamins (Higher Level only)",
+      "b": "All four fat-soluble vitamins dissolve in fat and not in water, but they differ in what destroys them: heat, oxygen, light or alkalis. Knowing this explains how storage and cooking affect each one.",
       "points": [
         "Vitamin A is insoluble in water but soluble in fats and organic solvents.",
         "Vitamin A is heat-stable in normal cooking but is destroyed by prolonged high temperatures.",
-        "Vitamin A is destroyed by oxygen, so exposed or oxidised foods lose it.",
-        "Vitamin D is insoluble in water and is relatively heat-stable in normal cooking.",
-        "Vitamin E is insoluble in water and heat-stable in normal cooking, but it is destroyed by oxidation.",
+        "Vitamin A is destroyed by oxygen (it is oxidised), so foods kept exposed to air lose it.",
+        "Vitamin D is insoluble in water and is relatively heat-stable in normal cooking and storage, so cooking oily fish loses little.",
+        "Vitamin E is insoluble in water and heat-stable in normal cooking, but it is destroyed by oxidation, including by rancid fats, by light and air, and by frying at high temperature for long periods.",
         "Vitamin K is insoluble in water and heat-stable in normal cooking.",
-        "Vitamin K is destroyed by light and by alkalis."
-      ]
+        "Vitamin K is destroyed by light (ultraviolet) and by alkalis."
+      ],
+      "tip": "For three properties of vitamin A, give: fat-soluble, heat-stable but not at prolonged high temperatures, and destroyed by oxygen."
     },
     {
       "h": "Evaluating foods as providers of vitamins",
+      "b": "To judge how good a food is as a source of vitamins, use food composition tables and food labels, and think about whether the food is fresh, processed or fortified.",
       "points": [
-        "Food composition tables give the vitamin content of foods, usually per 100 g, so fresh and processed foods can be compared on the same basis.",
-        "The mandatory nutrition declaration on a food label lists energy, fat, saturates, carbohydrate, sugars, protein and salt, under Regulation (EU) No 1169/2011.",
-        "In Ireland, the European Union (Provision of Food Information to Consumers) Regulations 2014 give effect to Regulation (EU) No 1169/2011.",
-        "The Food Safety Authority of Ireland (FSAI) advises on food labelling and nutrition in Ireland.",
-        "Fortified foods, such as margarine with added vitamins A and D and fortified breakfast cereals, supply vitamins that the natural food does not contain.",
+        "Food composition tables give the vitamin content of foods, usually per 100 g, so fresh and processed foods can be compared on the same basis (like for like).",
+        "The mandatory nutrition declaration on a food label lists energy, fat, saturates, carbohydrate, sugars, protein and salt, under Regulation (EU) No 1169/2011. Vitamins appear only when added or when a claim is made, so not listing vitamins does not mean the food has none.",
+        "Where vitamins are listed, the label states the amount per 100 g (or per serving) and as a percentage of the reference intake.",
+        "In Ireland, the European Union (Provision of Food Information to Consumers) Regulations 2014 give effect to Regulation (EU) No 1169/2011. The Food Safety Authority of Ireland (FSAI) advises on food labelling and nutrition in Ireland.",
+        "Fortified foods have vitamins added that the natural food does not contain, or that were lost in processing. Examples are margarine with added vitamins A and D and fortified breakfast cereals.",
         "Fresh produce loses vitamin C in storage, while frozen vegetables, blanched before freezing, usually retain more vitamin C than long-stored fresh vegetables.",
         "Canning and prolonged cooking destroy heat-sensitive vitamins, so a processed food may contain less of a vitamin than its fresh form."
-      ]
+      ],
+      "tip": "When asked to comment on vitamins in foods using a label or table, use per-100 g figures, mention fortification, and compare fresh with processed."
     }
   ],
   "keyTerms": [

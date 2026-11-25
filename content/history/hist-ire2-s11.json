@@ -5,142 +5,217 @@
   "syllabusRef": "Part I A–B, pp. 8–10, 15; Guidelines pp. 12–13, 24–32",
   "notes": [
     {
-      "h": "What history is, kinds of evidence and where they are kept",
-      "b": "History is the past itself, the evidence that survives of it, and the written accounts historians build from that evidence.",
+      "h": "What history is and why accounts differ",
+      "b": "History means three linked things: the past itself, the evidence that survives from it, and the written accounts historians build from that evidence. Keeping the three apart explains why historians can disagree and why their conclusions can change.",
       "points": [
-        "The past itself is gone; no one can examine the Dublin lockout of 1913 directly, only what it left behind.",
-        "Evidence is whatever survives: documents, objects, images, buildings and recorded memories.",
+        "The past itself is gone, so no one can examine the Dublin lockout of 1913 directly; all that remains is what it left behind, such as records, newspapers, photographs and memoirs.",
+        "Evidence is whatever survives from the past: documents, objects, images, buildings and recorded memories. Only some of it survives, so every account is built on an incomplete picture.",
         "A written history is a historian’s account, shaped by the questions asked and the evidence found, so two historians can offer different histories of the same events.",
-        "Historical knowledge is provisional: new evidence or new questions can revise an account, as when the Pigott forgeries collapsed in 1889 and showed the letters against Parnell to be false.",
-        "A source is the item itself, such as a speech by Gladstone; it becomes evidence only when a historian uses it to answer a particular question, such as why Liberals split in 1886.",
-        "Public records (census returns, parliamentary papers, police reports) show official policy and statistics; private institutions’ records (union minute books, company papers, the GAA’s convention reports) show the interests of their members.",
-        "Letters, memoirs and eyewitness accounts give personal views, for example Davitt’s Leaves from a Prison Diary or accounts by participants in Bloody Sunday.",
-        "Newspapers, speeches and pamphlets show how events were presented to the public at the time.",
-        "Maps, photographs and political cartoons are visual evidence; oral testimony and radio or television transcripts are usually recorded long after events.",
-        "Repositories include archives (state records and the papers of organisations), libraries (printed books, newspapers and pamphlets) and museums (objects, banners and photographs), and each holds different kinds of source."
-      ]
+        "Historical knowledge is provisional, which means open to revision, because new evidence or new questions can change an account. For example, the Pigott forgeries collapsed in 1889 and showed the letters against Parnell to be false.",
+        "A source is the item itself, such as a speech by Gladstone. It becomes evidence only when a historian uses it to answer a particular question, such as why the Liberals split in 1886.",
+        "The same source can be evidence for different questions. A Gladstone speech could explain why the Liberals split, or show how he defended Home Rule; he introduced the first Home Rule Bill on 8 April 1886 and it was defeated in the Commons on 8 June 1886."
+      ],
+      "tip": "Keep source and evidence apart: a source is the item, and it only becomes evidence when you use it to answer a stated question."
     },
     {
-      "h": "Interrogating a source and the stages of research",
-      "b": "A historian cross-examines every source with the same set of questions before using it.",
+      "h": "Kinds of evidence and where they are kept",
+      "b": "Evidence comes in many forms, and each form tends to show a different side of events. Knowing what kind of source you hold, and where such sources are stored, tells you what it can and cannot reveal.",
+      "points": [
+        "Public records (census returns, parliamentary papers, police reports) show official policy and statistics, for example Dublin Metropolitan Police reports for 1913 or Royal Irish Constabulary reports for the GAA.",
+        "Private institutions’ records, such as union minute books, company papers or the GAA’s convention reports, show the interests of their members, so they reveal what an organisation wanted rather than what the state decided.",
+        "Letters, memoirs and eyewitness accounts give personal views, for example Davitt’s Leaves from a Prison Diary (1885) or accounts by participants in the baton charges of 31 August 1913.",
+        "Newspapers, speeches and pamphlets show how events were presented to the public at the time. Examples are the Freeman’s Journal, Belfast News-Letter, United Ireland (Parnell’s party paper), Irish Worker (Larkin’s paper) and Irish Independent (owned by William Martin Murphy).",
+        "Maps, photographs and political cartoons are visual evidence; Punch, a British cartoon magazine, is a typical source of cartoons.",
+        "Oral testimony and radio or television transcripts are usually recorded long after the events, so memory may have faded or been reshaped by what the speaker learned later.",
+        "Archives hold state records and the papers of organisations, so they are the place to look for police reports or a union’s minute books.",
+        "Libraries hold printed books, newspapers and pamphlets, while museums hold objects, banners and photographs. Each repository holds different kinds of source, so a historian often needs several."
+      ],
+      "tip": "If asked what kind of source a document is, name the type and use the source note, with its author and date, as your reason."
+    },
+    {
+      "h": "Interrogating a source: the five questions",
+      "b": "A historian cross-examines every source with the same five questions before using it. The answers decide how far it can be trusted and what it is good evidence of.",
       "points": [
         "Who made it: a nationalist MP, a unionist editor, a bishop or a trade unionist each saw events from a position that shaped what they recorded.",
-        "Why it was made: to inform, persuade, defend an interest, record an event or claim credit afterwards.",
-        "When it was made: a report written during the election campaign of 1885 differs from a memoir written decades later.",
-        "In what circumstances: a statement made under pressure, in secret or before an inquiry may differ from a public speech.",
-        "For what audience: a speech to supporters aims to rally them; a letter to an opponent aims to persuade or warn.",
-        "Stages of research: choose a question, locate sources, evaluate them, compare them with each other, form an interpretation and test it against the evidence.",
-        "Primary sources were produced at the time of the events (a speech, a letter, a newspaper report, a cartoon); secondary sources are later accounts based on them (a modern book on Home Rule).",
-        "Primary does not mean reliable: a participant’s account is close to events but may be biased, and a secondary source may be more balanced but further from the facts.",
-        "A source can be both: a historian’s book is secondary for the period it describes but primary evidence for the thinking of the time it was written."
+        "Why it was made: to inform, persuade, defend an interest, record an event or claim credit afterwards. A source made to persuade will select facts that help its cause.",
+        "When it was made: a report written during the election campaign of 1885 differs from a memoir written decades later, because the memoir is shaped by what the author knew afterwards.",
+        "In what circumstances: a statement made under pressure, in secret or before an inquiry may differ from a public speech, because the speaker has different things to hide or gain.",
+        "For what audience: a speech to supporters aims to rally them, while a letter to an opponent aims to persuade or warn, so the same author may say different things to each."
+      ],
+      "tip": "Use the source note (author and date) before you read the document, and say how each answer affects the document’s trustworthiness."
+    },
+    {
+      "h": "The stages of research and corroboration",
+      "b": "Historians do not simply read a source and believe it. They follow a sequence of steps that moves from a question to a tested conclusion.",
+      "points": [
+        "1. Choose a question, because a source is only evidence for a particular question, such as why the Liberals split in 1886.",
+        "2. Locate sources that might answer it, in archives, libraries and museums.",
+        "3. Evaluate each source by asking who made it, why, when, in what circumstances and for what audience.",
+        "4. Compare the sources with each other, because one source on its own may be biased or incomplete.",
+        "5. Form an interpretation: an explanation of what happened that fits the evidence.",
+        "6. Test the interpretation against the evidence, and revise it if some of the evidence does not fit.",
+        "Corroboration means testing a source’s claims against independent evidence. A claim that unconnected sources also support is more reliable than one that stands alone."
       ]
     },
     {
-      "h": "Fact, opinion, bias, propaganda and objectivity",
-      "b": "Documents mix checkable facts with opinion and persuasion, and the historian has to separate them.",
+      "h": "Primary and secondary sources",
+      "b": "Sources are sorted by when they were made in relation to the events. This is a different matter from whether they can be trusted.",
+      "points": [
+        "Primary sources were produced at the time of the events, such as a speech, a letter, a newspaper report or a cartoon.",
+        "Secondary sources are later accounts based on primary ones, such as a modern book on Home Rule.",
+        "Primary does not mean reliable: a participant’s account is close to events but may be biased, while a secondary source may be more balanced but further from the facts.",
+        "A source can be both, depending on the question. A historian’s book is secondary for the period it describes but primary evidence for the thinking of the time it was written."
+      ],
+      "tip": "When asked whether a source is primary or secondary, give a reason from the source note, such as its date and author. Never write that primary means reliable."
+    },
+    {
+      "h": "Fact, opinion and bias",
+      "b": "Documents mix statements that can be checked with judgements and with a tilt towards one side. The historian has to separate them before using a document.",
       "points": [
         "A fact can be checked against other evidence, for example that Lord Frederick Cavendish and Thomas Burke were killed in Phoenix Park on 6 May 1882.",
-        "An opinion is a judgement that evidence cannot settle, for example that the Land Act of 1881 was a betrayal of the tenants.",
+        "An opinion is a judgement that evidence cannot settle, for example that the Land Act of 1881 was a betrayal of the tenants. That the Act was passed in 1881 is a fact; whether it was a betrayal is opinion.",
         "Bias is a consistent tilt in how a source presents events, shown by loaded words, selective detail and omission, for example a unionist newspaper describing a nationalist rally as a mob.",
-        "Propaganda is material designed to persuade a mass audience, using emotion, slogans and selected facts; Home Rule is Rome Rule is a unionist slogan that works this way.",
-        "A biased source is not worthless: it is good evidence of what its author and audience believed, even when poor evidence of what happened.",
-        "Objectivity is the aim of fair, evidence-based judgement, although no historian is free from all assumptions.",
-        "Strengths of a source include closeness to events, first-hand knowledge, precision and corroboration by others; limitations include bias, a narrow viewpoint, gaps, later revision and the survival of only some records.",
-        "Revising a view: historians change their accounts when new sources appear, when old ones are tested harder, or when new questions are asked, such as women’s roles in the suffrage movement."
+        "A biased source is not worthless: it is good evidence of what its author and audience believed, even when it is poor evidence of what actually happened."
+      ],
+      "tip": "Never say only that a source is biased. Give the loaded word or omission, then say what the source is still good evidence of."
+    },
+    {
+      "h": "Propaganda and objectivity",
+      "b": "Some sources go beyond bias and set out to win over a crowd. Historians answer this with the aim of objectivity.",
+      "points": [
+        "Propaganda is material designed to persuade a mass audience, using emotion, slogans and selected facts; the unionist slogan ‘Home Rule is Rome Rule’ (1886 onwards) works this way.",
+        "Bias and propaganda are not the same: bias is a tilt in the source, while propaganda is deliberate persuasion aimed at many people.",
+        "Objectivity is the aim of fair, evidence-based judgement, although no historian is free from all assumptions, so historians test each other’s work against the evidence."
+      ],
+      "tip": "Questions on propaganda ask how language or imagery persuades the audience, so point to emotive words, slogans or selected facts."
+    },
+    {
+      "h": "Strengths, limitations and revising views",
+      "b": "Every source has strengths and weaknesses, and accounts are revised when the balance of evidence changes.",
+      "points": [
+        "Strengths of a source include closeness to events, first-hand knowledge, precision and corroboration by other sources.",
+        "Limitations include bias, a narrow viewpoint, gaps and later revision. Only some records survive, so a source may be missing the very evidence that would balance it.",
+        "Historians revise their accounts when new sources appear, when old ones are tested harder, or when new questions are asked, such as about women’s roles in the suffrage movement.",
+        "The Pigott forgeries show this. The Times published letters in 1887 linking Parnell to the Phoenix Park murders; the forger Richard Pigott was exposed before the Parnell Commission, and he confessed and fled in February 1889, so the letters were shown to be forged."
+      ],
+      "tip": "A criticism answer should name both a strength and a limitation of the document, for example whether it is first-hand or an extract."
+    },
+    {
+      "h": "The documents-based question: format and question types",
+      "b": "Question 1 on the paper is the documents-based question on the prescribed topic, and it tests skills rather than new facts. It has four parts: comprehension, comparison, criticism and contextualisation.",
+      "points": [
+        "Question 1 is the documents-based question, and this chapter is examined only through it. Its four parts are (a) comprehension, (b) comparison, (c) criticism and (d) contextualisation.",
+        "The documents, written or visual (including cartoons and photographs), come from one of the topic’s three case studies: the elections of 1885 and 1886, the Dublin strike and lockout of 1913, or the GAA to 1891.",
+        "Part (d) carries 40 marks, the most of the four parts.",
+        "Because part (d) carries the most marks, give it the biggest share of your time, and keep parts (a) to (c) short and precise.",
+        "Parts (a) to (c) ask what a document says or shows on a stated point, which of two documents is more favourable, more critical, more effective or more useful, and why.",
+        "Classification questions ask whether a source is primary or secondary, for a reason taken from the source note, or ask you to pick out one example of fact and one of opinion.",
+        "Other questions ask how language or imagery is propaganda, whether a source is fully objective, and whether a cartoon is hostile to a group."
       ]
     },
     {
-      "h": "The documents-based question and part (a): comprehension",
-      "b": "Question 1 on the paper is the documents-based question on the prescribed topic, with four parts: comprehension, comparison, criticism and contextualisation.",
+      "h": "Part (a): comprehension",
+      "b": "Part (a) asks what a document says or shows. It tests careful reading, not outside knowledge, so the answer must come from the named document alone.",
       "points": [
-        "Question 1 is worth 100 marks of the 400: part (a) comprehension 20, part (b) comparison 20, part (c) criticism 20 and part (d) contextualisation 40.",
-        "The documents, written or visual, come from one of the topic’s three case studies: the elections of 1885–86, Dublin 1913 or the GAA to 1891.",
-        "With four equal questions in about 170 minutes, plan roughly 40 minutes for Question 1: a few minutes each for parts (a) to (c) and the biggest share for part (d).",
-        "Part (a) asks what a document says or shows; the answer must come from the named document alone.",
-        "Step 1: read the source note giving the author, date and publication, then the document.",
-        "Step 2: underline the exact points the question asks for, and find the line for each.",
-        "Step 3: put each point in your own words with a detail from the document (a name, date, place or figure).",
-        "Step 4: do not add outside knowledge; part (a) is marked on what the document tells you, and extra background earns nothing.",
-        "Example approach: for a speech on Home Rule, list each argument the speaker gives, in order, with a short reference to each."
-      ]
+        "1. Read the source note giving the author, date and publication, then read the document, so that you know its context before you start.",
+        "2. Underline the exact points the question asks for, and find the line that supplies each one.",
+        "3. Put each point in your own words with a detail from the document (a name, date, place or figure), because a bare paraphrase without a detail shows less careful reading.",
+        "4. Do not add outside knowledge; part (a) is marked on what the document tells you, and extra background earns nothing.",
+        "For example, for a speech on Home Rule, list each argument the speaker gives, in order, with a short reference to each."
+      ],
+      "tip": "Do not bring in outside knowledge in part (a). Answer from the named document only, in your own words, with a detail for each point."
     },
     {
       "h": "Part (b): comparison",
-      "b": "Comparison asks how two documents are alike or different on a stated point, and every point needs evidence from both.",
+      "b": "Comparison asks how two documents are alike or different on a stated point. Every point you make needs evidence from both documents.",
       "points": [
         "Choose the exact point the question names, such as attitude to Home Rule, to the strikers or to the GAA’s bans.",
         "State what the first document says on that point, quoting or referring to a line.",
         "State what the second says, then say whether they agree, differ or agree only in part.",
-        "A specific similarity or difference in both documents earns marks; a description of each document separately does not.",
-        "Explain the difference where you can, using the authors’ positions: for example a nationalist paper and a unionist paper describing the same crowd would use different words and numbers.",
-        "Compare like with like: a private letter and a public speech can differ because of audience rather than disagreement.",
+        "A specific similarity or difference with evidence from both documents earns marks; a description of each document separately does not, because it leaves the comparing undone.",
+        "Explain the difference where you can, using the authors’ positions: a nationalist paper and a unionist paper describing the same crowd would use different words and numbers.",
+        "Compare like with like: a private letter and a public speech can differ because of audience rather than real disagreement.",
         "Use linking words such as whereas, both and unlike to keep every sentence a comparison."
-      ]
+      ],
+      "tip": "Two separate summaries earn little. Name the point, then give a specific agreement or disagreement with evidence from each document."
     },
     {
       "h": "Part (c): criticism and usefulness",
-      "b": "Criticism asks how far a document can be trusted or how useful it is, and the answer tests provenance, purpose, viewpoint and reliability.",
+      "b": "Criticism asks how far a document can be trusted or how useful it is. The answer tests provenance, purpose, viewpoint and reliability.",
       "points": [
-        "Provenance: who produced the document, when and where; a name and date alone are not an evaluation.",
-        "Purpose: why it was produced and for whom; a speech meant to rally supporters will present facts in their favour.",
-        "Viewpoint: the author’s party, religion, class or nationality, for example a landlord, a tenant, a priest or an employer.",
-        "Reliability: whether the claims are specific and supported by other evidence, or general and unsupported.",
+        "Provenance means the origin of the document: who produced it, when and where. A name and date alone are not an evaluation; say what they imply for trust.",
+        "Purpose is why it was produced and for whom; a speech meant to rally supporters will present facts in their favour.",
+        "Viewpoint is the author’s party, religion, class or nationality, for example a landlord, a tenant, a priest or an employer.",
+        "Reliability is whether the claims are specific and supported by other evidence, or general and unsupported. Provenance is one test of reliability, not the same thing.",
         "Cite a line from the document for each judgement, for example an emotional phrase as evidence of bias.",
-        "Balance the answer: say what the document is good evidence for as well as what it cannot show; a biased source can still be useful evidence of attitudes.",
-        "Usefulness questions ask how useful a document is for a stated enquiry, so measure it against that enquiry.",
+        "Balance the answer: say what the document is good evidence for as well as what it cannot show, because a biased source can still be useful evidence of attitudes.",
+        "Usefulness questions ask how useful a document is for a stated enquiry, so measure it against that enquiry rather than in general.",
         "Questions on fact and opinion ask you to pick out one example of each, and questions on propaganda ask how the language and imagery persuade the audience."
-      ]
+      ],
+      "tip": "Quote or point to a line for every judgement, give a balanced verdict, and never say only that a source is biased."
     },
     {
       "h": "Reading cartoons and photographs",
       "b": "Visual sources are read with the same questions as written ones, with extra attention to symbols and captions.",
       "points": [
-        "Identify every figure and what it stands for: Hibernia or Erin for Ireland, John Bull or Britannia for Britain, a statesman drawn from his known appearance.",
+        "Identify every figure and what it stands for: Hibernia or Erin for Ireland, John Bull or Britannia for Britain, or a statesman drawn from his known appearance.",
         "Read the caption, labels and dates, because the meaning often rests on the words.",
         "Note the exaggeration: caricature of faces, size, dress or animal imagery shows the artist’s attitude to a person or group.",
-        "Identify the message and the target audience: a cartoon in Punch addressed British readers, while one in a nationalist or unionist paper addressed supporters.",
-        "A cartoon is opinion, not record: use it as evidence of attitudes and propaganda, not of the facts of an event.",
-        "Ask whether a cartoon is hostile to Irish people or to a politician, and support the answer with a detail such as the way a figure is drawn.",
-        "A photograph shows what stood in front the camera, but the choice of subject, framing, staging and caption can mislead.",
-        "Example: a photograph of the Church Street ruins of September 1913 is good evidence of the state of Dublin housing, but does not show who was to blame."
-      ]
+        "Identify the message and the target audience: Punch addressed British readers, while a cartoon in a nationalist or unionist paper addressed its own supporters.",
+        "A cartoon is opinion, not record, so use it as evidence of attitudes and propaganda, not of the facts of an event.",
+        "Ask whether a cartoon is hostile to Irish people or only to a politician, and support the answer with a detail such as the way a figure is drawn.",
+        "A photograph shows what stood in front of the camera, but the choice of subject, framing, staging and caption can mislead.",
+        "For example, a photograph of Church Street, Dublin, after tenement houses collapsed on 2 September 1913, killing seven people, is good evidence of tenement conditions but does not show who was to blame."
+      ],
+      "tip": "If asked whether a cartoon is anti-Irish as well as anti-Home Rule, give details of how the figures are drawn rather than only the caption."
     },
     {
       "h": "Part (d): contextualisation",
-      "b": "Part (d) is a short essay on the subject of the case study, using your own knowledge; it is not a retelling of the documents.",
+      "b": "Part (d) is a short essay on the subject of the case study, using your own knowledge. It is not a retelling of the documents.",
       "points": [
-        "Part (d) carries 40 marks, twice as much as any other part, and is marked like a short essay on cumulative relevant points.",
-        "It asks about the case study’s subject, such as a leader’s strengths and weaknesses, how an organisation dealt with difficulties, or the causes and outcome of a dispute.",
-        "Open with the background and context, then deal with events in order, with dates, names and numbers, then outcomes and significance.",
+        "Part (d) carries 40 marks, the largest share of the question, and it rewards dated, named, relevant points drawn from the whole chapter.",
+        "It asks about the case study’s subject, such as a leader’s strengths and weaknesses or how an organisation dealt with its difficulties.",
+        "Open with the background and context, then deal with events in order with dates, names and numbers, then outcomes and significance.",
         "Use the documents sparingly as supporting evidence, referring to them by letter, but do not summarise them.",
-        "Cover both sides: for example the arguments of nationalists and unionists in 1885–86, employers and workers in 1913, or the Church, the IRB and the founders in the GAA.",
+        "Cover both sides, for example the arguments of nationalists and unionists in 1885–86, employers and workers in 1913, or the Church, the IRB and the founders in the GAA.",
         "Finish with a judgement that answers the question set, such as how far a leader succeeded or how significant an event was.",
         "Draw on the rest of the topic for context: Home Rule and land for the elections, labour and Dublin’s poverty for 1913, and cultural revival and the Parnell split for the GAA."
-      ]
+      ],
+      "tip": "Part (d) rewards dated, named points and a judgement, not a retelling of the documents. Refer to a document by letter only as support."
     },
     {
       "h": "Placing a document in its case study",
-      "b": "Every document can be dated by the people, events and language it contains, and dating it is the first step in using it.",
+      "b": "Every document can be dated by the people, events and language it contains, and dating it is the first step in using it. The cues below place a document in its case study.",
       "points": [
-        "Elections of 1885–86: mention of the Third Reform Act or the new voters points to 1884–85; the balance of power, the Hawarden Kite or Salisbury points to late 1885; a bill, Chamberlain or the Liberal Unionists points to April–June 1886; the Orange card, Belfast rioting or the July poll points to mid-1886.",
-        "Typical voices for 1885–86: Parnell and Irish Party speakers, Gladstone, Chamberlain, Hartington, Lord Randolph Churchill, the Freeman’s Journal, the Belfast News-Letter, and Punch.",
-        "Dublin 1913: trams and Horse Show week point to late August; O’Connell Street, batons and a banned meeting point to 31 August; the Document, Askwith or AE’s letter to September–October; food ships, Save the Kiddies and the Citizen Army to October–November; return to work to January 1914.",
-        "Typical voices for 1913: Larkin, Connolly, William Martin Murphy, Archbishop Walsh, the Irish Worker, the Irish Independent, the TUC and the Dublin Metropolitan Police.",
-        "The GAA to 1891: Thurles and Hayes’ Hotel point to November 1884; Croke, Parnell and Davitt as patrons to 1884–85; Cusack’s removal and IRB influence to 1886–87; the first championships to 1887–88; the American tour to 1888; the Parnell split and collapsing membership to 1890–91.",
-        "Typical voices for the GAA: Cusack, Davin, Croke, Davitt, Parnell, the nationalist press, the RIC and Dublin Castle.",
-        "Once dated, ask who gains from the document’s version of events, and what it leaves out."
+        "Elections of 1885–86: the Third Reform Act of 1884 (new rural voters) points to 1884–85; the Irish Party’s balance of power after the November–December 1885 election and the Hawarden Kite of December 1885 point to late 1885.",
+        "Elections of 1885–86, continued: Chamberlain’s resignation from the cabinet in March 1886, the Home Rule Bill and the Liberal Unionists point to March–June 1886; the Orange card (early 1886) and Belfast rioting (summer 1886) point to 1886; the July 1886 election saw the Conservatives under Salisbury returned.",
+        "Typical voices for 1885–86: Parnell and Irish Party speakers, Gladstone, Chamberlain, Hartington, Lord Randolph Churchill, Salisbury, the Freeman’s Journal, the Belfast News-Letter, and Punch.",
+        "Dublin 1913: trams and Horse Show week point to the start of the lockout on 26 August; O’Connell Street, batons and a banned meeting point to 31 August.",
+        "The Document (a pledge not to be a member of the ITGWU, demanded by about 400 employers on 3 September), the Askwith inquiry and AE’s open letter to the employers point to September–October.",
+        "The British TUC food ship points to late September; the ‘Save the Kiddies’ scheme to October; the Irish Citizen Army to November; and a return to work to early 1914.",
+        "Typical voices for 1913: Larkin, Connolly, William Martin Murphy, Archbishop Walsh, the Irish Worker, the Irish Independent, the TUC and the Dublin Metropolitan Police."
+      ],
+      "tip": "Do not date a document by Salisbury’s name alone: he was prime minister in 1885–86 and again from July 1886, so look for a second cue."
+    },
+    {
+      "h": "Placing a document in its case study: the GAA",
+      "b": "The GAA to 1891 can be dated in the same way, by its founding events, patrons, crises and voices.",
+      "points": [
+        "The GAA to 1891: Hayes’ Hotel, Thurles, points to 1 November 1884; Archbishop Croke, Parnell and Davitt as patrons to 1884–85; Cusack’s removal as secretary to 1886; IRB influence to the early years.",
+        "The first All-Ireland championships point to 1887, the American tour to 1888, and the Parnell split and falling membership to 1890–91.",
+        "Typical voices for the GAA: Cusack, Davin, Croke, Davitt, Parnell, the nationalist press, the Royal Irish Constabulary and Dublin Castle. Once a document is dated, ask who gains from its version of events and what it leaves out."
       ]
     },
     {
       "h": "Assessment: strong and weak documents-based answers",
-      "b": "Marks separate answers that use the evidence precisely from those that retell it or ignore it.",
+      "b": "Marks separate answers that use the evidence precisely from those that retell it or ignore it. Strong and weak answers differ in the same way for each part.",
       "points": [
         "Strong comprehension answers use only the document and give precise details; weak ones add outside facts or copy whole passages.",
-        "Strong comparison answers name a point and give a line from each document; weak ones describe the two documents one after the other.",
+        "Strong comparison answers name a point and give evidence from each document; weak ones describe the two documents one after the other.",
         "Strong criticism answers judge provenance, purpose and viewpoint with cited lines and reach a balanced verdict; weak ones say only that the source is biased.",
         "Strong part (d) answers combine dated detail, two or more viewpoints and a clear judgement; weak ones paraphrase the documents or offer a general essay.",
-        "A strength of the format is that it rewards close reading; a limit is that it rewards answers that are tied closely to the case study and its documents.",
-        "Contemporary views and later historians’ views are both useful in part (d), for example how contemporaries saw Parnell or Larkin and how historians now judge them."
+        "A strength of the format is that it rewards close reading; a limit is that it is tied to one case study and its documents, so it rewards answers that stay close to them.",
+        "Contemporary views and later historians’ views are both useful material for part (d), for example how contemporaries saw Parnell or Larkin and how historians now judge them."
       ]
     }
   ],

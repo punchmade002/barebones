@@ -6,29 +6,44 @@
   "notes": [
     {
       "h": "Production of flour (milling)",
-      "b": "Milling separates the bran, germ and endosperm of the grain and reduces the endosperm to fine flour.",
+      "b": "Milling turns the whole wheat grain into flour by separating the bran, germ and endosperm and then grinding the endosperm finely. Each stage has a purpose, and an account of production should give the stages in order with the reason for each.",
       "points": [
-        "Cleaning: the grain is passed through sieves, air currents and magnets to remove stones, dust, chaff and metal.",
-        "Conditioning (tempering): a controlled amount of water is added and the grain is left to rest, which toughens the bran so it separates cleanly and softens the endosperm for milling.",
-        "Break rolling: corrugated rollers crack open the grain and release the endosperm while the bran and germ stay in larger pieces.",
-        "Sifting (plansifting): sieves separate the bran, germ and endosperm particles by size.",
-        "Reduction rolling: smooth rollers grind the endosperm repeatedly, with a sieving step after each pass, until it becomes fine white flour.",
-        "Blending and testing: flour from different batches is blended for consistent quality, tested for moisture and gluten strength, and fortified where required.",
-        "Extraction rate: the proportion of the original grain kept in the flour; white flour has a low extraction rate, and wholemeal flour keeps the whole grain.",
-        "Diagram: flow diagram of the milling stages in order, with the bran, germ and endosperm streams branching off at the sifting step."
-      ]
+        "1. Intake and cleaning: the wheat is sampled, graded and may be blended to give the quality needed. It is then passed through sieves, air currents and magnets to remove stones, dust, chaff and metal, so that none of these end up in the flour.",
+        "2. Conditioning (tempering): a controlled amount of water is added and the grain is left to rest. This toughens the bran so it separates in large pieces rather than shattering into the flour, and it softens the endosperm (the starchy centre of the grain) ready for milling.",
+        "3. Break rolling: corrugated (grooved) rollers crack open the grain and release the endosperm, while the bran and germ stay in larger pieces because the bran is not crushed.",
+        "4. Sifting (plansifting): plansifters, which are stacks of sieves, separate the bran, germ and endosperm particles by size, so each stream can be dealt with separately.",
+        "5. Reduction rolling: smooth rollers grind the endosperm repeatedly, with a sieving step after each pass, until it becomes fine white flour.",
+        "6. Finishing: flour from different batches is blended for consistent quality, such as gluten strength, and may be treated with permitted improvers. It may be fortified (have extra nutrients added) and is tested for moisture, gluten strength and colour before packing.",
+        "Extraction rate is the percentage of the original grain that ends up in the flour. White flour is about 75% and wholemeal flour is 100%, because it keeps all three parts of the grain. Wheatmeal falls between the two.",
+        "Stone-ground flour is made by grinding the grain between millstones instead of rollers, and it is accepted as a type of flour.",
+        "Diagram: a flow chart of the milling stages in order (intake and cleaning, conditioning, break rolling, sifting, reduction rolling, finishing), with the bran, germ and endosperm streams branching off at the sifting step."
+      ],
+      "tip": "For an account of production, give the stages in the right order and a reason for each, then add packaging and what the label states. Do not name any chemical treatment: 'treated with permitted improvers' is enough, and flour is only 'may be fortified'."
+    },
+    {
+      "h": "White and wholemeal flour compared",
+      "b": "The difference between white and wholemeal flour comes down to how much of the grain is kept during milling. This changes the colour, nutrition, texture of baked foods and how long the flour keeps.",
+      "points": [
+        "White flour is made from the endosperm only, because the bran and germ are removed. It is lighter in colour and texture, and has about 75% extraction.",
+        "White flour has less fibre and fewer B vitamins and minerals than wholemeal, because these are mostly lost with the bran and germ. It has a longer shelf life.",
+        "Wholemeal flour is made from the whole grain, with 100% extraction, so it is brown and higher in fibre, B vitamins and minerals.",
+        "Wholemeal flour makes denser baked products. It has a shorter shelf life because of the oil in the germ, which goes off over time."
+      ],
+      "tip": "When asked to explain the difference, cover bran and germ removed or kept, extraction rate, fibre, vitamins, colour and shelf life. Wholemeal is not made by adding bran back to white flour unless the label says so."
     },
     {
       "h": "Types of flour and their uses",
+      "b": "Flours differ in how much of the grain they contain, how much gluten-forming protein they have and whether anything has been added. This decides which job each one does best.",
       "points": [
-        "Strong flour: made from hard wheat with a high gluten content; used for yeast breads, because the gluten traps the carbon dioxide produced by yeast.",
-        "White plain (cream) flour: medium gluten content; used for pastry, sauces, scones and cakes.",
-        "Self-raising flour: plain flour with a raising agent, usually baking powder, added; used for cakes, sponges, scones and biscuits.",
-        "Wholemeal (wholewheat) flour: milled from the whole grain, so it contains bran, germ and endosperm; used for brown bread, scones, muffins and wholemeal pastry, and gives a denser texture because the bran cuts the gluten strands.",
-        "Wheatmeal flour: partly refined, with some bran removed; used for brown bread and soda bread.",
-        "Cornflour: a fine starch made from the endosperm of maize; used as a thickener for sauces, custards and gravy.",
-        "Rice flour and other gluten-free flours: used in baking for people with coeliac disease."
-      ]
+        "Plain white (cream) flour has a medium gluten content. It is used for pastry, cakes (creamed or whisked), biscuits, sauces and roux, pizza, scones and batters.",
+        "Self-raising flour is plain flour with a raising agent, usually baking powder, added, so it is not a different wheat. It is used for cakes, sponges, scones and biscuits.",
+        "Strong flour is made from hard wheat and is high in gluten-forming protein. It is used for yeast breads, pizza dough and puff pastry because the gluten traps gas, such as the carbon dioxide produced by yeast, for a good rise.",
+        "Wholemeal (wholewheat) flour is milled from the whole grain, so it contains bran, germ and endosperm. It is used for brown bread, scones, muffins and wholemeal pastry, and gives a denser texture because the bran cuts the gluten strands.",
+        "Wheatmeal (brown) flour is partly refined, with part of the bran removed. It is used for brown bread and soda bread.",
+        "Cornflour is a fine starch made from the endosperm of maize, not a wheat flour, so it does not contain gluten. It is used as a thickener for sauces, custards and gravy.",
+        "Rice flour and other gluten-free flours (rice, maize and other blends) are used in baking for people with coeliac disease, who cannot eat gluten."
+      ],
+      "tip": "When asked to name flours and uses, pair each named flour with a different use, for example self-raising for sponges, wholemeal for brown bread and plain for pastry."
     },
     {
       "h": "Gluten in flour",
@@ -38,18 +53,22 @@
         "Gluten is elastic and stretchy: it traps gas and gives bread its structure.",
         "Kneading develops gluten, producing a strong, elastic dough, whereas rubbing in fat and mixing lightly limit gluten, giving tender pastry.",
         "Strong flour contains more gluten-forming protein than plain flour, so it gives a more elastic dough."
-      ]
+      ],
+      "tip": "Explain why strong flour is used for bread, because its extra gluten traps the gas and gives a good rise, and why plain flour is used for pastry, where less gluten gives a tender result."
     },
     {
       "h": "Flour as a processed food",
+      "b": "Flour is the syllabus's example of a food that undergoes extensive processing. The grain is cleaned, separated, ground, blended, treated and packed, and the packaging and label then protect and inform the buyer.",
       "points": [
         "Flour is a processed food: milling turns the whole grain into a refined ingredient with a different nutrient profile.",
-        "Packaging: flour is packed in strong, sealed, food-grade bags that protect it from moisture, insects, contamination and odours.",
-        "Labelling: the label gives the name of the food, the ingredients list, the net quantity, the nutrition declaration, the best-before date, storage instructions and the name and address of the food business.",
-        "Allergens: wheat and gluten must be emphasised in the ingredients list, for example in bold type.",
-        "Traceability: a batch code and date mark allow the manufacturer to trace the flour back through production.",
-        "Fortified flour: the added nutrients are shown on the nutrition declaration."
-      ]
+        "Packaging: flour is packed in strong, sealed, food-grade bags, paper or plastic, that protect it from moisture, insects, contamination and odours, and are easy to handle and store.",
+        "Labelling: the label gives the name of the food (the type of flour), the ingredients list, the net quantity, the nutrition declaration, the best-before date, storage instructions and the name and address of the food business. It may also carry cooking or recipe guidance.",
+        "Allergens: wheat and gluten must be emphasised in the ingredients list, for example in bold type, so people with allergies or coeliac disease can spot them. This is set by Regulation (EU) No 1169/2011.",
+        "Traceability: a batch (lot) code and date mark allow the manufacturer to trace the flour back through production, so it can be recalled if there is a problem.",
+        "Fortified flour: any added nutrients are shown on the nutrition declaration.",
+        "Labelling also lets shoppers make a safe choice, compare products and follow the storage guidance."
+      ],
+      "tip": "After the production stages, say what protects the flour (the packaging) and what the label states and why, including the batch code for traceability and allergens in bold."
     }
   ],
   "keyTerms": [

@@ -4,77 +4,124 @@
   "subsection": "3. Globalisation, interdependence and technology",
   "syllabusRef": "1.5.7, 1.5.8, 1.5.9",
   "notes": [
-    { "h": "Globalisation and interdependence", "b": "Globalisation is the growing integration of economies, markets and cultures across borders. Interdependence is the reliance that countries and firms have on one another as a result.", "points": [
-      "Globalisation is driven by the removal of trade barriers, falling transport and communication costs, and the growth of multinational firms.",
-      "The World Trade Organisation, established in 1995, sets rules for international trade and handles disputes between its members.",
-      "Interdependence means a downturn in one major economy spreads to trading partners through lower demand, prices and finance.",
-      "Irish firms depend on imported components, energy and raw materials, so global supply disruption raises their costs.",
-      "For consumers, interdependence brings access to a wider range of goods, but also greater exposure to shortages and price shocks."
-    ] },
-    { "h": "Positive and negative effects of globalisation", "b": "Globalisation creates benefits and costs, and a good answer shows which stakeholders gain or lose.", "points": [
-      "Positive: foreign investment and exports can create jobs and add to national output.",
-      "Positive: transfer of technology and management practices from multinationals can raise productivity in host economies.",
-      "Negative: job relocation, as firms move production to lower-cost countries, can cause job losses in the home economy.",
-      "Negative: workers in low-cost countries can be exploited through low pay and unsafe conditions, as the 2013 Rana Plaza collapse in Bangladesh showed.",
-      "Negative: carbon emissions rise from long-distance shipping and air freight, and from production in carbon-intensive economies.",
-      "Negative: cultural homogenisation occurs when global brands and media reduce local traditions and products."
-    ] },
-    { "h": "Political, financial and cultural risks", "b": "Firms trading internationally face risks that domestic firms rarely meet, and each type needs a different response.", "points": [
-      "Political risk: changes of government, trade wars, sanctions or the seizure of assets can close a market or reduce the value of an investment.",
-      "Responses to political risk include spreading sales across several markets and monitoring policy changes in each country.",
-      "Financial risk: exchange-rate movements change the euro value of earnings and costs, and firms may use hedging to manage this.",
-      "Financial risk: overseas customers may fail to pay, so firms use credit insurance or secure payment methods to reduce bad debts.",
-      "Cultural risk: differences in language, religion, customs and business etiquette can cause misunderstandings in negotiation and marketing.",
-      "Cultural risk: consumer tastes vary, so a product that sells well at home may fail abroad without adaptation."
-    ] },
-    { "h": "Supply chain interdependence and recent disruptions", "b": "Global supply chains spread production across countries, which lowers costs but leaves firms exposed when one link fails.", "points": [
-      "A supply chain links suppliers, manufacturers, logistics providers and retailers that can sit in several countries.",
-      "The COVID-19 pandemic in 2020 closed factories and ports, causing shortages of components such as semiconductors.",
-      "The blocking of the Suez Canal by a container ship in March 2021 delayed shipments between Asia and Europe for several days.",
-      "Russia's invasion of Ukraine in 2022 pushed up energy and food prices, raising input costs for firms that rely on imports.",
-      "Firms respond by diversifying suppliers, holding more stock or moving production closer to home, a move often called nearshoring.",
-      "Shorter supply chains can cut transport emissions and risk but may raise unit costs."
-    ] },
-    { "h": "Global marketing: standardise or adapt", "b": "A firm must decide whether to offer the same marketing mix worldwide or adjust it for each market.", "points": [
-      "Standardisation keeps the same product, brand and promotion in every market, which reduces costs and builds a consistent global brand.",
-      "Adaptation changes the product, price, promotion or packaging to suit local tastes, laws or incomes.",
-      "McDonald's in India does not serve beef, an example of adaptation to local religious and cultural preferences.",
-      "A firm can standardise its core product while adapting elements such as packaging or language, which is often the most practical approach."
-    ] },
-    { "h": "Technology's role in globalisation", "b": "Technology has changed how firms trade, how work is organised and how operations run across borders.", "points": [
-      "E-commerce lets small firms sell to overseas customers without a physical presence, through online marketplaces or their own websites.",
-      "Digital payment providers, such as Stripe, which was founded by Irish-born brothers, process payments in many currencies.",
-      "Logistics technology, such as shipment tracking and digital customs documentation, makes international deliveries faster and more predictable.",
-      "Communication tools, such as video conferencing and cloud collaboration, let firms run remote teams across time zones.",
-      "Cross-border data flows support cloud services and global operations, but they can conflict with local rules on where data must be stored.",
-      "Automation and robotics can bring production back to high-wage countries, which changes where and how work is done."
-    ] },
-    { "h": "Evaluating technology and globalisation", "b": "Technology widens access and efficiency but creates new risks, and an evaluation should weigh both.", "points": [
-      "Benefit: lower barriers to entry let small Irish firms reach global customers quickly.",
-      "Benefit: real-time data helps firms manage stock, suppliers and demand across several countries.",
-      "Risk: cyber-attacks and data breaches can disrupt operations and damage customer trust across several jurisdictions.",
-      "Risk: a digital divide excludes firms and consumers who lack access to technology or the skills to use it.",
-      "Risk: automation can displace workers in some sectors while creating demand for new digital skills.",
-      "Ethical concern: personal data collected across borders must comply with rules such as the GDPR, which protects personal data in the EU."
-    ] },
-    { "h": "Consequences for Irish consumers", "b": "Irish consumers gain from globalisation through lower prices and wider choice, but they are exposed to shocks from abroad.", "points": [
-      "Benefit: a wide range of imported goods and services at competitive prices supports household budgets.",
-      "Challenge: Ireland imports most of its fuel and many consumer goods, so household prices depend on global prices and shipping networks.",
-      "Challenge: supply disruptions can cause shortages or price spikes for food, fuel and electronics.",
-      "Challenge: goods made in countries with weaker product inspection can carry safety risks for consumers.",
-      "Challenge: competition from global online retailers can put pressure on local shops and producers."
-    ] },
-    { "h": "Evaluating an Irish organisation's international impact", "b": "An Irish firm that trades abroad has social and environmental effects in other countries as well as at home, and an evaluation should cover both.", "points": [
-      "Social positive: Irish firms that build overseas facilities or supply networks can create jobs in host countries and transfer skills.",
-      "Social negative: poor labour standards in overseas supplier factories can harm workers and damage the reputation of an Irish brand.",
-      "Environmental negative: long supply chains and freight add emissions, and overseas production may draw on resources that are scarce locally.",
-      "Environmental positive: an Irish firm can improve standards at overseas suppliers through audits and sustainability requirements.",
-      "Evaluation test: a firm should be judged on whether its overseas operations meet the standards it applies at home, which links to ethics and sustainability."
-    ] }
+    {
+      "h": "Globalisation and interdependence",
+      "b": "Globalisation is the growing interdependence and interconnectedness of the world's economies, cultures and populations. It arises from cross-border trade in goods, services and digital technology, and from the movement of investment, people, data and information. Interdependence is what it leaves behind: one group becomes dependent on another for necessary goods and services.",
+      "points": [
+        "Globalisation is a process of growing connection, while interdependence is the dependence that process creates. Keep them apart: one is the cause, the other is the result.",
+        "Globalisation is driven by fewer trade barriers (taxes called tariffs and limits called quotas on imports), falling transport and communication costs, digital technology, and the growth of multinational firms (firms that own or control operations in more than one country).",
+        "Globalisation makes countries more interdependent because a downturn in one major economy spreads to its trading partners through lower demand for their exports, changed prices and tighter finance.",
+        "Irish firms depend on imported components, energy and raw materials, so a disruption to global supply raises their costs.",
+        "Irish consumers also depend on imports. This brings a wider range of goods and lower prices, but also greater exposure to shortages and price shocks.",
+        "Trade barriers and the trading blocs (groups of countries that reduce barriers between themselves) that lower them are a driver of globalisation. The World Trade Organisation (WTO), established in 1995, sets rules for international trade and handles disputes between its members, so firms trade on agreed terms."
+      ],
+      "tip": "Define the glossary term first, then apply it. When asked how globalisation increases interdependence, define interdependence, give a supply-chain example, give effects for both businesses and consumers, positive and negative, and end with a judgement."
+    },
+    {
+      "h": "Positive and negative effects of globalisation",
+      "b": "Globalisation creates benefits and costs, social and environmental as well as economic. A good answer shows which stakeholders gain and which lose.",
+      "points": [
+        "Positive: foreign investment and exports can create jobs and add to national output, because firms that sell abroad need more workers and produce more.",
+        "Positive: multinationals bring technology and management practices to the countries they operate in, which can raise productivity in host economies (the countries receiving the investment).",
+        "Negative: firms may move production to lower-cost countries, so jobs are relocated and the home economy can suffer job losses.",
+        "Negative: workers in low-cost countries can be exploited through low pay and unsafe conditions. The Rana Plaza garment-factory building collapsed on 24 April 2013 at Savar, Bangladesh, and the ILO reports at least 1,132 people killed.",
+        "Negative: carbon emissions rise from long-distance shipping and air freight, and from production in carbon-intensive economies (those whose energy and industry produce a lot of carbon).",
+        "Negative: cultural homogenisation (cultures becoming more alike) occurs when global brands and media reduce local traditions and products."
+      ],
+      "tip": "Rana Plaza is a good example of unsafe conditions in a global supply chain. When asked for social and environmental effects, cover both rather than only economic ones."
+    },
+    {
+      "h": "Political, financial and cultural risks",
+      "b": "Firms trading internationally face risks that domestic firms rarely meet. Each type of risk comes from a different source and needs its own response.",
+      "points": [
+        "Political risk comes from government action. A change of government, a trade war, sanctions or the seizure of assets can close a market or cut the value of an investment.",
+        "To respond to political risk, a firm spreads its sales across several markets so no single government can damage it badly, and monitors policy changes in each country.",
+        "Financial risk (currency): exchange-rate movements change the euro value of overseas earnings and costs. Hedging means fixing the exchange rate in advance, so the firm knows what it will receive.",
+        "Financial risk (payment): overseas customers may fail to pay. Credit insurance protects against non-payment, and secure payment methods reduce bad debts (money owed that is never collected).",
+        "Cultural barriers: differences in language, religion, customs and business etiquette can cause misunderstandings in negotiation and marketing.",
+        "Tastes also vary between countries, so a product that sells well at home may fail abroad unless it is adapted."
+      ],
+      "tip": "Keep the three risks distinct: political risk is government action, financial risk is currency and payment, and cultural barriers are language and custom. Give a response to each risk, not only a description, and do not mix up hedging with credit insurance."
+    },
+    {
+      "h": "Supply chain interdependence and recent disruptions",
+      "b": "A supply chain is the network of suppliers, manufacturers, transport firms and retailers that moves a product from raw material to customer. Spreading it across countries lowers costs, but leaves firms exposed when one link fails.",
+      "points": [
+        "A global supply chain links suppliers, manufacturers, logistics providers and retailers that can sit in several countries, so a problem in one place can stop the whole chain.",
+        "The COVID-19 pandemic in 2020 closed factories and ports, causing shortages of components such as semiconductors (the chips inside electronic goods).",
+        "A container ship blocking the Suez Canal in March 2021 delayed shipments between Asia and Europe for several days, because many goods travel along that route.",
+        "Russia's invasion of Ukraine in 2022 pushed up energy and food prices, raising input costs for firms that rely on imports.",
+        "Firms respond by diversifying suppliers (using more than one), holding more stock, or moving production closer to home, a move often called nearshoring.",
+        "Shorter supply chains can cut transport emissions and risk, but may raise unit costs because production moves to a more expensive location."
+      ],
+      "tip": "Describe these events without dates or figures. Use a supply-chain example when you explain interdependence."
+    },
+    {
+      "h": "Global marketing: standardise or adapt",
+      "b": "A firm selling in many countries must decide whether to offer the same marketing mix everywhere or adjust it for each market. The marketing mix is the 7 Ps: product/service, pricing, promotion, people, packaging, process and place.",
+      "points": [
+        "Standardisation keeps the same product, brand and promotion in every market, which reduces costs and builds a consistent global brand.",
+        "Adaptation changes the product, price, promotion or packaging to suit local tastes, laws or incomes, because what suits one market may not suit another.",
+        "McDonald's India does not serve beef or pork, and its menu is built round chicken and vegetarian burgers. This is an example of adaptation to religious and cultural preferences.",
+        "A firm can standardise its core product while adapting elements such as packaging or language. This hybrid approach is often the most practical."
+      ],
+      "tip": "Standardise means one marketing mix everywhere and adapt means changing it by market, but a firm can do both. Use McDonald's India as your worked example of adaptation."
+    },
+    {
+      "h": "Technology's role in globalisation",
+      "b": "Technology has changed how firms trade, how work is organised and how operations run across borders. It is a main reason small firms can now take part in global markets.",
+      "points": [
+        "How trade happens: e-commerce lets small firms sell to overseas customers without a physical presence, through online marketplaces or their own websites.",
+        "Digital payment providers make it easy to take payment from overseas customers. Stripe, for example, is an online payments company founded by the Irish-born brothers Patrick and John Collison, which processes payments in many currencies.",
+        "Logistics technology, such as shipment tracking and digital customs documentation, makes international deliveries faster and more predictable.",
+        "Work practices: communication tools, such as video conferencing and cloud collaboration (shared online working), let firms run remote teams across time zones.",
+        "How the business operates: cross-border data flows support cloud services and global operations, but they can conflict with local rules on where data must be stored.",
+        "Real-time data on stock, suppliers and demand lets managers run operations in several countries from one place.",
+        "Automation and robotics can bring production back to high-wage countries, which changes where and how work is done."
+      ],
+      "tip": "Organise a technology answer around three headings: trade, work practices and how the business operates."
+    },
+    {
+      "h": "Evaluating technology and globalisation",
+      "b": "Technology widens access and efficiency but creates new risks. An evaluation weighs both and ends with a judgement.",
+      "points": [
+        "Benefit: lower barriers to entry let small Irish firms reach global customers quickly, because they no longer need overseas premises.",
+        "Benefit: real-time data helps firms manage stock, suppliers and demand across several countries, so decisions are based on current evidence.",
+        "Risk: cyber-attacks and data breaches can disrupt operations and damage customer trust across several jurisdictions.",
+        "Risk: a digital divide excludes firms and consumers who lack access to technology or the skills to use it, so the benefits are not shared equally.",
+        "Risk: automation can displace workers in some sectors, while creating demand for new digital skills.",
+        "Ethical concern: personal data collected across borders must meet data-protection rules such as the GDPR, the EU General Data Protection Regulation, which protects personal data in the EU."
+      ],
+      "tip": "Give three or four developed points across trade, work practices and operations, include a risk or ethical point such as data protection or the digital divide, and finish with a judgement."
+    },
+    {
+      "h": "Consequences for Irish consumers",
+      "b": "Irish consumers gain from globalisation through lower prices and wider choice, but they are exposed to shocks from abroad.",
+      "points": [
+        "Benefit: a wide range of imported goods and services at competitive prices supports household budgets.",
+        "Challenge: Ireland imports most of its fuel and many consumer goods, so household prices depend on global prices and shipping networks.",
+        "Challenge: supply disruptions can cause shortages or price spikes for food, fuel and electronics, which hits household spending.",
+        "Challenge: goods made in countries with weaker product inspection can carry safety risks for consumers.",
+        "Challenge: competition from global online retailers can put pressure on local shops and producers, who may lose customers."
+      ],
+      "tip": "When asked for three challenges for Irish consumers, give three distinct ones, such as price exposure, shortages, product-safety risk or pressure on local shops. Explain each with a reason and its effect on households. Common mistakes are listing benefits or giving the same point three ways."
+    },
+    {
+      "h": "Evaluating an Irish organisation's international impact",
+      "b": "An Irish firm that trades abroad has social and environmental effects in other countries as well as at home. An evaluation should cover all four combinations: social and environmental, positive and negative. A sample Irish food exporter or a sample Irish clothing retailer shows how.",
+      "points": [
+        "Social positive: Irish firms that build overseas facilities or supply networks can create jobs in host countries and transfer skills.",
+        "Social negative: poor labour standards in overseas supplier factories can harm workers and damage the reputation of an Irish brand.",
+        "Environmental negative: long supply chains and freight add emissions, and overseas production may draw on resources that are scarce locally.",
+        "Environmental positive: an Irish firm can improve standards at overseas suppliers through audits and sustainability requirements.",
+        "Evaluation test: a firm should be judged on whether its overseas operations meet the standards it applies at home, which links to ethics and sustainability."
+      ],
+      "tip": "Name the stakeholders affected, such as host-country workers, customers and the firm's owners. State whether overseas standards match home standards. A common mistake is giving only economic effects."
+    }
   ],
   "keyTerms": [
     { "term": "Globalisation", "definition": "The growing integration of national economies, markets and cultures through trade, investment and technology." },
-    { "term": "Interdependence", "definition": "A situation in which countries and firms rely on one another for trade, inputs, markets and finance." },
+    { "term": "Interdependence", "definition": "Interdependence arises when one group becomes dependent on another for the supply of necessary goods and services." },
     { "term": "Standardisation", "definition": "Using the same product, brand and marketing approach in every country." },
     { "term": "Adaptation", "definition": "Changing a product or marketing approach to suit local tastes, laws or incomes." },
     { "term": "Supply chain", "definition": "The network of suppliers, producers, transport firms and distributors that moves a product from raw material to customer." },

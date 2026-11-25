@@ -8,106 +8,184 @@
       "h": "Key personality: Marie Curie",
       "b": "Marie Curie was a Polish-born physicist and chemist who worked in France. Her research on radioactivity made her one of the most important scientists of the period and the first woman to win a Nobel Prize.",
       "points": [
-        "Maria Skłodowska was born in Warsaw on 7 November 1867, when Poland was under Russian rule. Women could not attend university there, so in 1891 she went to study physics and mathematics at the Sorbonne in Paris.",
-        "In 1895 she married the physicist Pierre Curie. After Henri Becquerel found in 1896 that uranium gave off penetrating rays, she began research on them for her doctorate and coined the term 'radioactivity'.",
-        "She found that the mineral pitchblende was more radioactive than the uranium it contained and concluded that it must hold new elements. In July 1898 the Curies announced polonium, named after her homeland, and in December 1898 radium.",
-        "They processed tonnes of pitchblende in a shed to separate radium salt, which she achieved by 1902. Pure radium metal was isolated with André Debierne in 1910.",
-        "Marie Curie shared the 1903 Nobel Prize for Physics with Pierre Curie and Henri Becquerel for the study of radioactivity, becoming the first woman to win a Nobel Prize.",
-        "Pierre was killed in a street accident in Paris in April 1906. Marie took over his post and became the first woman professor at the Sorbonne.",
-        "She won the 1911 Nobel Prize for Chemistry for the discovery of polonium and radium. She is the first person to win Nobel Prizes in two different sciences.",
-        "In 1911 the French Academy of Sciences rejected her membership by a narrow vote, and the press attacked her over a relationship with the physicist Paul Langevin, partly on xenophobic grounds.",
-        "During the First World War she organised mobile X-ray units, known as 'petites Curies', for field hospitals and trained women to run them, with her daughter Irène. She also set up fixed radiological posts.",
-        "She founded the Radium Institute in Paris (opened 1914) and died on 4 July 1934 of aplastic anaemia, probably caused by long exposure to radiation. Her notebooks are still radioactive.",
-        "Contemporaries admired her as an exceptional scientist, though some were hostile to a foreign woman in a leading scientific position. Historians regard her as a founder of the study of radioactivity and a pioneer for women in science."
-      ]
+        "Maria Skłodowska was born in Warsaw on 7 November 1867, when Poland was under Russian rule. Women could not attend university there, so in 1891 she went to study physics and mathematics at the Sorbonne (the University of Paris).",
+        "In 1895 she married the physicist Pierre Curie. After Henri Becquerel found in 1896 that uranium gave off penetrating rays, she researched them for her doctorate and coined the word 'radioactivity'. Atoms were thought unchangeable, but radioactivity showed atoms could break down and give off energy.",
+        "She found pitchblende more radioactive than its uranium could explain, so it must hold new elements: polonium, named after Poland (July 1898), and radium (December 1898). Separating radium salt from tonnes of it in a shed took until 1902; pure radium metal followed with André Debierne in 1910.",
+        "She shared the 1903 Nobel Prize for Physics with Pierre Curie and Becquerel, the first woman to win a Nobel Prize. After Pierre was killed in a Paris street accident in April 1906, she took over his post as the first woman professor at the Sorbonne.",
+        "She won the 1911 Nobel Prize for Chemistry, alone, for polonium and radium, the first person to win Nobel Prizes in two sciences. In 1911 the French Academy of Sciences rejected her by a narrow vote, and the press attacked her over Paul Langevin, partly on xenophobic (anti-foreign) grounds.",
+        "In the First World War she organised about 20 mobile X-ray vehicles, called 'petites Curies', for the front, plus about 200 fixed radiological posts. Her daughter Irène helped train women to run them, and she learned to drive to take the units out.",
+        "The Radium Institute in Paris was completed in 1914, and radium was later used against cancer (radiotherapy). She died on 4 July 1934 of aplastic anaemia, probably caused by long exposure to radiation, whose dangers were not understood in her working life.",
+        "Contemporaries admired her as a great scientist and national hero in France and Poland, but some resented a foreign woman in a leading post. Historians see her as a founder of the study of radioactivity, opening the way to atomic physics and radiotherapy, and a pioneer for women in science."
+      ],
+      "tip": "Do not swap her prizes: 1903 was Physics (shared), 1911 was Chemistry (alone). Do not confuse Becquerel (uranium rays, 1896) with Röntgen (X-rays, 1895) or Curie (named radioactivity, found new elements). For judgement, set achievements (two Nobels, new elements, wartime uses) against obstacles (sex, foreign birth, the 1911 Academy vote, press attacks, the cost to her health)."
     },
     {
-      "h": "Medicine: germ theory, vaccines and antiseptics",
-      "b": "The discovery that microbes cause disease transformed medicine and surgery between 1870 and 1920.",
+      "h": "Medicine: germ theory, Pasteur and Koch",
+      "b": "Before 1870 most doctors blamed disease on 'miasma' (bad air from filth). The discovery that microbes cause disease changed that, and it is the basis of the medical progress of 1870 to 1920.",
       "points": [
-        "Louis Pasteur showed in the 1860s that microbes cause fermentation and decay, and argued that they cause disease. Pasteurisation (heating liquids to kill microbes) was developed from this work.",
-        "He developed vaccines using weakened microbes against chicken cholera (about 1879), anthrax (1881) and rabies. In July 1885 he treated a nine-year-old boy, Joseph Meister, who had been bitten by a rabid dog, and the boy survived.",
-        "The Pasteur Institute was founded in Paris in 1887-88 to continue research and make vaccines.",
-        "Robert Koch in Germany developed methods to isolate bacteria in pure culture. He identified the anthrax bacterium (1876), the tuberculosis bacillus (announced on 24 March 1882) and the cholera bacterium (1883), and won the Nobel Prize for Medicine in 1905.",
-        "Emil von Behring and Kitasato Shibasaburo developed antitoxins against diphtheria and tetanus in 1890, and Behring received the first Nobel Prize for Medicine in 1901.",
-        "Paul Ehrlich developed Salvarsan, the first effective drug against syphilis, in 1909. It was the first modern chemotherapy.",
-        "Joseph Lister, a Scottish surgeon, used carbolic acid to clean wounds and instruments and spray the operating theatre from 1865-67. This antiseptic surgery cut deaths from infection.",
-        "Anaesthetics, ether (1846) and chloroform (1847, used by Queen Victoria in 1853), had made longer operations possible, and with asepsis (sterile conditions, developed in Germany in the 1880s-90s) surgery became much safer.",
-        "Public health measures such as clean water supplies and sewers, built from the 1850s, as well as better food and housing, did much to cut deaths from cholera and typhoid in European cities."
-      ]
+        "Louis Pasteur showed in the 1860s that microbes cause fermentation and decay, and argued that they also cause disease; this is germ theory. Pasteurisation (heating liquids to kill microbes) came from this work.",
+        "Pasteur made vaccines from weakened microbes, so the body learns to resist the real disease: against chicken cholera (about 1879) and anthrax (1881, shown in a public trial). In July 1885 he treated a nine-year-old boy, Joseph Meister, bitten by a rabid dog, and the boy survived.",
+        "The Pasteur Institute in Paris was founded in 1887 and opened in 1888 so that research could continue and vaccines could be made in quantity.",
+        "Robert Koch in Germany developed pure cultures (growing one kind of bacterium alone) and staining methods, which let others identify the germs of many diseases. He found the anthrax bacterium (1876), the tuberculosis bacillus (announced 24 March 1882) and the cholera bacterium (1883).",
+        "Koch won the Nobel Prize for Medicine in 1905. The rivalry of Pasteur (French) and Koch (German) had a national edge after the war of 1870-71, so science also became a source of national prestige.",
+        "Emil von Behring and Kitasato Shibasaburo developed antitoxins (substances that neutralise a germ's poison) against diphtheria and tetanus in 1890. Behring received the first Nobel Prize for Medicine in 1901.",
+        "Paul Ehrlich developed Salvarsan, effective against syphilis, in 1909-10. It was the first modern chemotherapy (a chemical aimed at killing a disease germ), based on his 'magic bullet' idea."
+      ],
+      "tip": "Examiners reward you for linking germ theory to vaccines and then to antiseptic and aseptic surgery. Keep Pasteur (French; vaccines, pasteurisation) apart from Koch (German; identified TB and cholera germs)."
+    },
+    {
+      "h": "Medicine: surgery, antiseptics and public health",
+      "b": "Surgery before anaesthetics and antiseptics was fast, painful and often fatal from infection. Three steps made it safer: stopping pain, killing germs, then keeping germs out altogether.",
+      "points": [
+        "Anaesthetics (drugs that stop pain) came first: ether in 1846 and chloroform in 1847. Queen Victoria's use of chloroform in childbirth in 1853 made it acceptable, and longer operations became possible.",
+        "Joseph Lister, a surgeon working in Glasgow, used carbolic acid on wounds, dressings and instruments from 1865 and published his results in 1867. He built on Pasteur's work, and deaths from infection after surgery fell sharply.",
+        "This is antisepsis: killing germs that are already present. From the 1880s, especially in German hospitals, surgeons moved on to asepsis, which keeps germs out of the wound at all, because prevention is safer than killing germs already there.",
+        "Asepsis used steam sterilisation of instruments and gowns, and later rubber gloves. With anaesthetics and asepsis together, surgery became much safer.",
+        "Public health measures such as clean water supplies, sewers, and better food and housing cut deaths from cholera and typhoid in European cities, with clean water and sewers built from the 1850s. Germ theory explained why these worked, since they stopped microbes spreading."
+      ],
+      "tip": "Do not mix up antisepsis (kill germs: Lister, carbolic), asepsis (keep germs out: sterilisation) and anaesthesia (stop pain: ether, chloroform). Say Lister was a surgeon working in Glasgow and used carbolic acid on wounds, dressings and instruments from 1865."
     },
     {
       "h": "X-rays, electricity and communications",
+      "b": "Between the 1870s and 1914 new physics and new machines changed medicine and everyday life. X-rays, electric power and wireless are the examples to know.",
       "points": [
-        "Wilhelm Röntgen discovered X-rays in Würzburg in November 1895. Doctors quickly used them to find broken bones and bullets, and he won the first Nobel Prize for Physics in 1901.",
-        "In the First World War X-ray equipment became standard in military hospitals, and Curie's mobile units brought it close to the front.",
-        "Alexander Graham Bell patented the telephone in 1876, and telephone exchanges and networks spread rapidly in cities in the 1880s and 1890s.",
-        "Thomas Edison invented the phonograph in 1877 and developed a long-lasting electric light bulb in 1879. The first power stations followed in the 1880s, and electric lighting, trams and underground railways spread in cities.",
-        "Guglielmo Marconi, who had an Irish mother, Annie Jameson, sent wireless signals over longer distances from 1895-96. In December 1901 he claimed to receive a signal across the Atlantic in Newfoundland, sent from Poldhu in Cornwall. He shared the 1909 Nobel Prize for Physics.",
-        "Wireless became important at sea: it was used to call for help when the Titanic sank in April 1912, and it was used in military communication in the First World War.",
-        "The Nobel Prizes were first awarded in 1901 under the will of the Swedish chemist Alfred Nobel, who invented dynamite, and several early winners were German or French scientists."
-      ]
+        "Wilhelm Röntgen discovered X-rays at Würzburg in November 1895, famously making an X-ray image of his wife's hand. Doctors quickly used them to find broken bones, since the rays pass through flesh but not bone, and he won the first Nobel Prize for Physics in 1901.",
+        "In the First World War X-ray equipment became standard in military hospitals, used to locate bullets and shrapnel (metal fragments from shells). Curie's mobile units took it close to the front.",
+        "Alexander Graham Bell patented the telephone in 1876, and telephone exchanges and networks spread in cities in the 1880s and 1890s.",
+        "Thomas Edison invented the phonograph in 1877 and a long-lasting electric light bulb in 1879, while Joseph Swan in England worked on the bulb at the same time. The first public power stations opened in 1882 (London and New York), so electric lighting, trams and underground railways spread in cities.",
+        "Guglielmo Marconi, whose mother was Annie Jameson of the Irish whiskey family, developed wireless telegraphy (signals sent without wires) from 1895-96 and patented it in Britain in 1896. He shared the 1909 Nobel Prize for Physics.",
+        "On 12 December 1901 a signal sent from Poldhu, Cornwall, was received in Newfoundland, proving wireless could cross the Atlantic. A station at Clifden, Co. Galway, opened in 1907.",
+        "Wireless mattered at sea and in war: distress calls brought rescue ships when the Titanic sank in April 1912, and it was used for military communication in the First World War.",
+        "The Nobel Prizes were first awarded in 1901 under the will of Alfred Nobel, a Swedish chemist who invented dynamite. Early prizes were dominated by German and French scientists."
+      ],
+      "tip": "Do not confuse Edison (light bulb, phonograph), Bell (telephone) and Marconi (wireless). Link X-rays to battlefield surgery through Curie's units, and give effects on ordinary life, not just names."
     },
     {
       "h": "Flight and other advances",
+      "b": "Powered flight arrived at the start of the twentieth century and was developed quickly by war. Alongside it came advances in engines, chemistry and physics.",
       "points": [
-        "Count Zeppelin built rigid airships from 1900, and the Wright brothers made the first controlled, powered flight of a heavier-than-air machine at Kitty Hawk, North Carolina, on 17 December 1903.",
-        "Louis Blériot flew across the English Channel on 25 July 1909. Aviation meetings and prizes attracted publicity across Europe.",
-        "In the First World War aircraft were used for reconnaissance, artillery spotting, bombing and air combat. Production rose from hundreds to tens of thousands, and engines improved greatly.",
-        "John Alcock and Arthur Whitten Brown made the first non-stop transatlantic flight in June 1919, from Newfoundland to a bog near Clifden in Co. Galway.",
-        "Rudolf Diesel patented the diesel engine in 1892, and Fritz Haber and Carl Bosch developed the synthesis of ammonia (1909-13), which made artificial fertilisers and explosives possible.",
+        "Count Zeppelin's first rigid airship flew in 1900. The Wright brothers, Orville and Wilbur, made the first controlled, powered, sustained flight of a heavier-than-air machine at Kitty Hawk, North Carolina, on 17 December 1903.",
+        "Louis Blériot flew across the English Channel on 25 July 1909. Flying displays and prizes in Europe attracted publicity, so public interest in aviation grew.",
+        "In the First World War aircraft were used for reconnaissance, artillery spotting, bombing and air combat. Production rose from hundreds to tens of thousands, so engines improved fast.",
+        "John Alcock and Arthur Whitten Brown made the first non-stop transatlantic flight in June 1919, from Newfoundland to a bog near Clifden, Co. Galway.",
+        "Rudolf Diesel applied for a patent in 1892 for his compression-ignition engine, in which fuel ignites from the heat of compressed air rather than from a spark.",
+        "Fritz Haber (laboratory synthesis in 1909) and Carl Bosch (industrial process, first plant 1913) made ammonia from the air. This allowed artificial fertilisers and, in the war, explosives for Germany despite the blockade.",
         "Albert Einstein published the special theory of relativity in 1905 and the general theory in 1915."
-      ]
+      ],
+      "tip": "Keep the aviators apart: Wright brothers (aeroplane, 1903), Zeppelin (airship, 1900), Blériot (Channel, 1909), Alcock and Brown (Atlantic, 1919). Do not mix up Diesel's compression-ignition engine with the petrol engine of Otto and Daimler."
     },
     {
-      "h": "Case study: the origins of the motor car",
-      "b": "The motor car emerged in Germany and France in the 1880s from the internal combustion engine, and from the bicycle and carriage industries. Steam and electric vehicles had been tried, but petrol won out.",
+      "h": "Key personality: Karl Benz",
+      "b": "Karl Benz was the engineer who designed the first practical car as a complete machine. He was a participant, not a witness: he designed and built it himself, with his wife Bertha as partner.",
       "points": [
-        "Nikolaus Otto built the first practical four-stroke internal combustion engine in 1876, burning gas. It became the basis of the petrol engine.",
-        "Gottlieb Daimler and Wilhelm Maybach, who had worked for Otto's company, developed a small, light, high-speed petrol engine in the 1880s. In 1885 they fitted it to a wooden motorcycle, and in 1886 to a carriage.",
-        "Karl Benz founded Benz and Cie in Mannheim in 1883 and built a three-wheeled vehicle with a single-cylinder engine, running in 1885. He applied for a patent for his 'Motorwagen' on 29 January 1886, and it was granted in November 1886. It is regarded as the first practical car designed as a whole.",
-        "Benz and Daimler worked independently and never met. Their firms merged in 1926 to form Daimler-Benz.",
-        "Bertha Benz, with her sons Eugen and Richard, drove a Motorwagen from Mannheim to Pforzheim, about 106 km, in August 1888, without telling her husband. She bought fuel (ligroin) at a pharmacy in Wiesloch and made repairs on the way. The journey proved the car's usefulness and publicity helped sales.",
-        "In France, Panhard et Levassor and Peugeot began building cars in 1890-91 using Daimler engines. France led early car production, with races such as Paris-Rouen (1894) boosting interest. Louis Renault built his first car in 1898 and the Renault company followed in 1899.",
-        "John Boyd Dunlop, a Scottish veterinary surgeon in Belfast, patented the pneumatic tyre in 1888 for his son's tricycle. Dunlop tyres helped bicycles and cars run more smoothly, and the Michelin brothers brought out a detachable pneumatic tyre in 1891.",
-        "In Britain the 'red flag' law limited early vehicles to walking pace until 1896. The Locomotives on Highways Act of 1896 raised the limit to 12 mph and was celebrated by the Emancipation Run from London to Brighton in November 1896.",
-        "Daimler died in 1900. In 1901 the Daimler company produced the Mercedes, named after the daughter of the businessman Emil Jellinek, a car with a lighter engine and a lower body that set the pattern for later cars.",
-        "Charles Rolls and Henry Royce met in 1904, and the Rolls-Royce Silver Ghost (1906) made Britain a leader in luxury cars."
-      ]
+        "Karl Benz was born on 25 November 1844 near Karlsruhe (at Mühlburg), the son of a locomotive driver who died when Karl was a small child. He studied mechanical engineering at the Karlsruhe Polytechnic.",
+        "A first engineering business in Mannheim failed. To earn money he built a working two-stroke gas engine, running in 1879, and in 1883 he founded Benz & Cie in Mannheim, building stationary gas engines, which paid for his car work.",
+        "He designed the car as a whole, not as an engine added to a carriage: a light three-wheeled vehicle with a single-cylinder four-stroke petrol engine at the rear, running in 1885.",
+        "He applied for a patent on 29 January 1886 for the 'Benz Patent-Motorwagen' (motor carriage), and it was granted in November 1886. It is often called the birth certificate of the car.",
+        "Bertha Benz was his wife and business partner, and her money helped fund the firm. Her 1888 drive gave publicity and showed faults he then fixed, such as the need for a lower gear for hills.",
+        "The Benz Velo of 1894 was the first car built in series (many copies of one design). By about 1900 Benz & Cie was among the largest car makers in the world, and France was its biggest early market.",
+        "Benz was cautious about faster, more powerful designs, so he fell behind the Daimler company's Mercedes after 1901, and he left day-to-day management in the early 1900s. In 1926 Benz & Cie merged with the Daimler company to form Daimler-Benz, and he died in 1929.",
+        "He is honoured in Germany as the inventor of the car. Historians credit him with the first practical car designed as a whole, but stress that Daimler and Maybach's engine, French manufacturers and Ford's mass production were equally needed to make the car a success."
+      ],
+      "tip": "Short answers on the invention of the car earn marks for separate, accurate points: Otto (four-stroke gas engine), Daimler and Maybach (light high-speed petrol engine), Benz (complete car, patent 1886), Bertha Benz (1888 drive). Do not mix up Otto, Daimler and Maybach, Benz and Diesel."
     },
     {
-      "h": "Case study: Ford, mass production and the Model T",
+      "h": "Case study: before the car and the petrol engine",
+      "b": "Before the car, road transport meant horses and carriages and, from the 1880s, the bicycle, while railways carried long-distance traffic. The car emerged in Germany and France in the 1880s from the internal combustion engine and from the bicycle and carriage industries.",
       "points": [
-        "Early cars were handmade luxury goods for the rich. Henry Ford founded the Ford Motor Company in 1903 in Detroit with the aim of building a cheap car for ordinary people.",
-        "The Model T, launched in October 1908, was simple, strong and easy to repair. The price fell from about 850 dollars to under 300 dollars by the early 1920s as output rose.",
-        "In 1913 Ford introduced the moving assembly line at Highland Park, Michigan, in which the chassis moved past workers who each did one task. The time to build a chassis fell from over twelve hours to about ninety minutes.",
-        "Repetitive work caused high turnover. In January 1914 Ford announced a wage of five dollars for an eight-hour day, about double the usual pay, which kept workers and made them potential customers.",
-        "By 1920 the USA had millions of cars and produced most of the world's cars. Ford's mass production methods, later called Fordism, were studied and copied by European firms.",
-        "In Ireland the Gordon Bennett motor race was held in Co. Kildare and Carlow in July 1903, and the Motor Car Act 1903 introduced registration and a speed limit of 20 mph in Britain and Ireland."
-      ]
+        "The bicycle trade supplied skills, light frames, chain drive and tyres to the early car makers, which is why the car grew out of it rather than out of the railway.",
+        "Steam road vehicles and electric cars had been tried earlier. Petrol won because its engine was light, it gave a long range, and refuelling was quick, whereas steam needed time to raise steam and electric cars needed slow recharging.",
+        "Nikolaus Otto built the first practical four-stroke gas engine in 1876 at the Deutz company near Cologne. Its four strokes are intake, compression, power and exhaust, and it became the basis of the petrol engine.",
+        "Gottlieb Daimler and Wilhelm Maybach, formerly of Deutz, developed a small, light, high-speed petrol engine in the 1880s. It was fitted to a wooden motorcycle in 1885 and to a four-wheeled carriage in 1886, which was a converted coach, not a car designed as a whole.",
+        "They founded the Daimler company, Daimler-Motoren-Gesellschaft, in 1890. Benz's three-wheeled Motorwagen, patented in 1886, was the first vehicle designed as a whole, and Benz and Daimler worked separately, about 100 km apart."
+      ],
+      "tip": "Distinguish the engines: Otto (four-stroke gas engine), Daimler and Maybach (light high-speed petrol engine), Benz (the complete car), Diesel (compression-ignition). Gottlieb Daimler (the person), the Daimler company and the later Daimler-Benz (1926) are different things."
+    },
+    {
+      "h": "Case study: Bertha Benz's drive and the spread of the car",
+      "b": "After 1886 the car had to prove itself on the road and then find makers and customers. Publicity from a famous journey, French manufacturers and new tyres all helped in the 1880s and 1890s.",
+      "points": [
+        "In August 1888 Bertha Benz drove a Motorwagen from Mannheim to Pforzheim, about 100 km, with her sons Eugen and Richard and without telling Karl. This showed that a car could travel a long distance.",
+        "On the way she bought fuel (ligroin, a light petroleum) at a pharmacy in Wiesloch and made roadside repairs. The journey proved the car practical, and the publicity helped sales.",
+        "In France, Panhard et Levassor and Peugeot began building cars in 1890-91 with Daimler-licensed engines. France led early car production, with trials such as Paris-Rouen (1894) boosting interest, and it was the biggest car producer in Europe before 1914.",
+        "Louis Renault built his first car in 1898 and the Renault company followed in 1899.",
+        "John Boyd Dunlop, a Scottish vet in Belfast, patented the pneumatic (air-filled) tyre in 1888 for his son's tricycle. It made bicycles and cars run more smoothly, and the Michelin brothers brought out a detachable pneumatic tyre in 1891."
+      ],
+      "tip": "Keep Dunlop (Belfast, 1888, pneumatic tyre) apart from Michelin (detachable tyre, 1891). Marks go to separate accurate points with dates, so give the year with each name."
+    },
+    {
+      "h": "Case study: Mercedes, Britain and Ireland to 1907",
+      "b": "By 1900 cars were still handmade and slow, and law held them back in Britain. A new design, new rules and new makers in the next decade moved the car forward.",
+      "points": [
+        "In Britain the 'red flag' laws, which required a man with a flag to walk in front of early vehicles, limited them to walking pace.",
+        "The Locomotives on Highways Act of 1896 raised the speed limit and ended the red-flag rules. It was celebrated by the Emancipation Run from London to Brighton on 14 November 1896.",
+        "Daimler died in 1900. In 1901 the Daimler company produced the Mercedes, designed by Maybach and named after Mercédès, the daughter of the businessman Emil Jellinek. It was lighter, more powerful and lower than earlier cars, so it set the pattern for later cars.",
+        "The Mercedes was a Daimler car, not a Benz car, until the two firms merged in 1926.",
+        "Charles Rolls and Henry Royce met in 1904, and the Rolls-Royce Silver Ghost (1906-07) made Britain known for luxury cars.",
+        "In Ireland the Gordon Bennett motor race was held on 2 July 1903 in Co. Kildare, Queen's County (Laois) and Co. Carlow. The Motor Car Act 1903 brought registration plates, driving licences and a 20 mph limit for Britain and Ireland, in force from 1904."
+      ],
+      "tip": "Do not claim the 1896 Act set one particular speed limit; say only that it raised the speed limit and ended the red-flag rules."
+    },
+    {
+      "h": "Case study: early motoring as a luxury",
+      "b": "Early cars were handmade, expensive and uncomfortable, so motoring before 1914 was for the rich. You need this detail to place a document such as an advertisement or a motorist's account.",
+      "points": [
+        "Cars were luxury goods for the wealthy, and advertisements were aimed at the upper classes. Drivers were often employed as chauffeurs, and motoring clubs and early tourism grew.",
+        "There were no filling stations, so fuel was bought in cans from chemists, shops or hotels. This is why a journey needed planning, as Bertha Benz's drive showed.",
+        "Cars were open, with no roof or windscreen, so drivers wore protective goggles and dust coats. Unsurfaced roads threw up dust, and candle or acetylene lamps gave poor light.",
+        "Breakdowns and punctures were frequent, and poor oil made engines unreliable. Early motorists also met hostility from farmers, carters, cyclists and pedestrians, who disliked the noise, dust and danger.",
+        "Doctors, salesmen and country clergy were among the early users of cars before 1914, because they travelled far and could make use of the speed."
+      ],
+      "tip": "For documents questions, read the document closely and give short accurate answers from it, then add one point of outside knowledge: cars were sold to the wealthy, early motoring had problems (fuel, dust, open cars, lamps, breakdowns), and Daimler and Benz pioneered the petrol engine and car. Describe these in your own words."
+    },
+    {
+      "h": "Case study: Henry Ford, the Model T and mass production",
+      "b": "Ford turned the car from a luxury into a product ordinary people could buy by cutting the cost of making it. The Model T (1908), the moving assembly line (1913) and the five-dollar day (1914) are three different steps to keep apart.",
+      "points": [
+        "Henry Ford founded the Ford Motor Company in Detroit in 1903, because he wanted to build a cheap, simple car for ordinary people.",
+        "The Model T, launched in October 1908, was simple, strong and easy to repair. It cost about 850 dollars at launch, and the price was cut again and again as output rose, falling by more than half within about eight years, so far more people could buy one.",
+        "In 1913 Ford introduced the moving assembly line at Highland Park, Michigan: the chassis (the car's frame) moved past workers, who each did one task, using standard interchangeable parts. Chassis assembly time fell from over 12 hours to about 90 minutes.",
+        "Dull, repetitive work caused very high staff turnover. In January 1914 Ford announced the five-dollar day, about double the usual pay for an eight-hour day, which kept workers and meant they could become customers.",
+        "By 1920 the USA had millions of cars and made most of the world's cars. Ford also began assembly at Trafford Park, Manchester, in 1911, and in 1917 founded a factory at Cork.",
+        "European firms studied Ford's methods, later called 'Fordism'. About 15 million Model Ts were made by 1927, which is outside the topic's dates."
+      ],
+      "tip": "Link the assembly line to lower prices and the five-dollar day to staff turnover. Use the Model T price fall and the assembly-line times as evidence of cost cutting. Do not give any saying of Ford, and keep Model T (1908), assembly line (1913) and five-dollar day (1914) separate."
     },
     {
       "h": "Case study: economic and social effects of the motor car",
+      "b": "The car created new industries and changed roads and war transport, but by 1920 it had changed everyday life in Europe much less than in the USA.",
       "points": [
-        "The car industry drove demand for steel, rubber, glass, petrol and machine tools, and created work in manufacturing, garages and repair. Oil companies and tyre firms expanded.",
-        "Roads were improved and tarred for motor traffic, and governments passed traffic laws, licences and speed limits. Early motorists faced hostility from pedestrians, farmers and cyclists.",
-        "Cars were first status symbols for the rich. Motoring clubs and early tourism grew, and doctors, salesmen and country priests used cars before 1914.",
-        "In the First World War, motor lorries, cars and ambulances were vital. About 600 Paris taxis carried troops to the Marne battle in September 1914, and motor lorries supplied Verdun along the 'Sacred Way' in 1916.",
-        "War made engines and lorries more powerful, and the war also gave rise to the tank and armoured car, as well as aircraft engines.",
-        "After the war ex-army lorries and cheap cars allowed bus services and road haulage to compete with the railways in the 1920s.",
-        "Cars were still too expensive for most Europeans by 1920, and they were much less common than in the USA, where the Model T made them part of everyday life."
-      ]
+        "The car industry drove demand for steel, rubber, glass, petrol and machine tools, and created jobs in factories, garages and repair. Oil and tyre firms grew.",
+        "Roads were improved and tarred for motor traffic, since cars raised dust on unsurfaced roads. Governments passed traffic laws, licences and speed limits.",
+        "In the First World War motor transport was vital. About 600 Paris taxis took troops to the Marne in September 1914, and lorries carried supplies to Verdun along the Voie Sacrée (Sacred Way) in 1916, as well as ambulances.",
+        "War production made engines and lorries more powerful, and the war gave rise to the tank and the armoured car (first tanks in action in 1916), as well as aircraft engines.",
+        "After the war surplus army lorries and trained drivers fed bus services and road haulage, which began to compete with the railways in the 1920s.",
+        "Cars stayed rare and expensive in Europe by 1920, so they were far less common than in the USA, where the Model T made them part of everyday life."
+      ],
+      "tip": "Use the Marne taxis and the Verdun lorries as concrete evidence of the car's role in the war. Link the car to the steel, rubber and oil industries and to road building, and judge that its main effects before 1920 were on industry, engineering and war, not everyday life."
     },
     {
-      "h": "Assessment: science and technology as drivers of change",
+      "h": "Assessment: science, technology and medicine as drivers of change",
+      "b": "The period's science and technology saved lives and changed daily life, but their benefits were uneven and they also made war deadlier. Examiners reward a judgement that sets these against each other.",
       "points": [
-        "Achievement: germ theory, antiseptics and vaccines saved millions of lives, and new medical technologies such as the X-ray changed diagnosis.",
-        "Limit: knowledge of radiation danger came too late for many pioneers, including Curie, and the benefits of medicine reached the poor only slowly.",
-        "Achievement: electricity, the telephone and wireless changed communication, and the car and aeroplane transformed transport.",
-        "Limit: these technologies also served war. Aircraft, motor vehicles, chemistry and wireless were used in the First World War, producing deadlier weapons.",
-        "The car's early history: Germany and France invented it, but the USA, through the Model T and mass production, made it a mass consumer product.",
-        "Contemporary view: people saw science as progress and as a source of national prestige, as in Curie's French and Polish recognition. Later historians stress that the social effects of the car came mostly after 1920."
-      ]
+        "Achievement: germ theory, vaccines, antiseptics and X-rays saved many lives, and X-rays changed diagnosis.",
+        "Limit: knowledge of radiation dangers came too late for pioneers such as Curie, and the benefits of medicine reached the poor slowly.",
+        "Achievement: electricity, the telephone and wireless changed communication, and the car and aeroplane changed transport.",
+        "Limit: the same science made the war deadlier, because aircraft, motor transport, chemistry and wireless were all used in the First World War.",
+        "Contemporary view: people saw science as progress and as a source of national prestige, as in the Pasteur and Koch rivalry and the honours given to Curie in France and Poland. Later view: it was also a weapon."
+      ],
+      "tip": "Organise essays by field (medicine, science, communications, transport), give named people, dates and the effect on ordinary life, and end with a judgement of which mattered most and the link to war. A list of inventors without effects scores poorly."
+    },
+    {
+      "h": "Assessment: the importance of the motor car",
+      "b": "The car's history shows the difference between inventing a machine and making it widely available. By 1920 its importance was greater for industry and war than for daily life in Europe.",
+      "points": [
+        "Invention versus innovation: Germany invented the car (Benz, Daimler and Maybach), France developed and raced it, and the USA, through the Model T, mass-produced it.",
+        "Importance by 1920: greater for industry, engineering and war than for everyday European life, since cars were still too expensive for most Europeans.",
+        "Contemporary view: an exciting luxury or a dangerous nuisance, as the hostility of farmers, cyclists and pedestrians shows.",
+        "Later view: historians stress that its mass social effects came mostly after 1920."
+      ],
+      "tip": "Strong answers on the motor car's importance distinguish invention (Benz, Daimler) from mass production (Ford). Use the Marne taxis and Verdun lorries as war evidence and the Model T price fall as evidence of cost cutting."
     }
   ],
   "keyTerms": [

@@ -5,70 +5,119 @@
   "syllabusRef": "2.1.5",
   "notes": [
     {
-      "h": "Design of a food processor (example)",
-      "b": "A food processor is a typical motor-driven appliance: the motor sits in the base and drives interchangeable attachments.",
+      "h": "What an appliance with a motor does",
+      "b": "Some appliances exist to make something move, such as a blade, a drum or a fan. They use an electric motor, which turns electrical energy into movement (kinetic energy), rather than a heating element, which turns electricity into heat.",
       "points": [
-        "The heavy motor is enclosed in a stable base with rubber feet, which keeps the centre of gravity low and prevents the appliance moving during use.",
-        "A spindle transfers rotary motion from the motor to the blade or disc fitted in the bowl.",
-        "The transparent, graduated bowl lets the user see the quantity and texture of food being processed.",
-        "The lid locks onto the bowl, and a safety interlock stops the motor from starting unless both are correctly fitted.",
-        "Interchangeable attachments include chopping blades, shredding and slicing discs, a dough blade and a pusher for feeding food through the feed tube.",
+        "Common motor appliances are the food processor, blender, hand mixer, vacuum cleaner, washing machine, dishwasher pump, extractor fan and the fan in a hairdryer, because each one needs something to spin or move.",
+        "Kettles, toasters and irons work differently: they have a heating element that produces heat, not a motor that produces movement.",
+        "Some appliances have both, so a washing machine, hairdryer and dishwasher each contain a motor for movement and an element for heat.",
+        "Classification check: a food processor has a motor, a kettle has an element and a toaster has an element."
+      ],
+      "tip": "If asked to tick whether an appliance has a motor or an element, remember that the food processor has a motor, while the kettle and toaster have elements."
+    },
+    {
+      "h": "Design of a food processor (example)",
+      "b": "A food processor is a typical motor-driven appliance: the motor sits in the base and drives interchangeable attachments. Each part of its design is there for performance or safety, and exam answers should name the part and its purpose.",
+      "points": [
+        "The heavy motor is enclosed in a stable base with rubber (non-slip) feet, which keeps the centre of gravity low and prevents the appliance moving during use.",
+        "A spindle (drive shaft) transfers rotary motion from the motor to the blade or disc fitted in the bowl, so the attachment turns when the motor runs.",
+        "The bowl is transparent and graduated (marked with a measuring scale), so the user can see the quantity and texture of the food being processed. It is made of heat-resistant, impact-resistant plastic or glass.",
+        "The lid locks onto the bowl and has a feed tube with a pusher, which keeps fingers out of the tube. A safety interlock stops the motor from starting unless the bowl and lid are correctly fitted.",
+        "Further safety features: an overload cut-out protects the motor from overheating, and the blade comes to a stop quickly when switched off.",
+        "Interchangeable attachments include the chopping (S-) blade, slicing and shredding (grating) discs, a dough blade and a whisk. Blades are stainless steel, which resists rust and stays sharp.",
         "Controls usually include on/off, variable speeds and a pulse button that gives short, controlled bursts of power.",
-        "Removable components and smooth surfaces make cleaning easier, and internal cord storage keeps the base tidy.",
-        "Diagram: food processor showing the base with motor and spindle, the bowl, the lid with feed tube and pusher, and the interlock position."
-      ]
+        "Removable, dishwasher-safe components and a smooth, sealed base make cleaning easier, and internal cord storage keeps the base tidy.",
+        "Diagram: food processor in section, showing the base with motor and spindle (drive shaft), the bowl, the blade, the lid with feed tube and pusher, and the interlock position."
+      ],
+      "tip": "Give a concrete appliance and name its parts: examiners want the heavy base, locking bowl, controls and materials rather than general statements."
+    },
+    {
+      "h": "Selecting a motor appliance",
+      "b": "When choosing a motor appliance, some factors matter that do not apply to other appliances. They all come down to whether the machine suits the jobs you will actually do and is safe and easy to live with.",
+      "points": [
+        "Capacity and motor power (wattage) decide how much food it can handle and how well it copes with heavy tasks such as dough.",
+        "Choose a range of attachments you will actually use, because extra attachments add cost and storage problems if they are never needed.",
+        "Consider noise, cord length and storage, and how easy it is to assemble and clean, because these decide whether it will be used often.",
+        "Look for safety features such as an interlock, and for a guarantee and service availability in case the motor fails."
+      ],
+      "tip": "In a selection question, give factors particular to the appliance, such as capacity, power, attachments and safety, and say why each matters."
     },
     {
       "h": "Guidelines for use: food processor (example)",
+      "b": "A food processor has fast-moving sharp blades and an electric motor, so most guidelines prevent cuts, electric shock or damage to the motor. Each guideline is worth stating together with the hazard it prevents.",
       "points": [
-        "Read the manufacturer's instructions and fit the correct attachment before connecting the appliance to the electricity supply.",
-        "Place the processor on a dry, level surface, and keep it away from water and the edge of the worktop.",
-        "Lock the bowl and lid before switching on, and never try to defeat the safety interlock.",
-        "Cut food into even pieces, do not exceed the maximum fill line, and use the speed recommended for the ingredient.",
-        "Feed food only with the supplied pusher, never with fingers, knives or spoons, and keep hands and loose clothing away from moving parts.",
+        "Read the manufacturer's instructions, assemble correctly and fit the correct attachment before connecting the appliance to the electricity supply, so the machine is used as designed.",
+        "Check that the plug, flex and bowl are undamaged, and place the processor on a dry, level surface, away from water and the edge of the worktop so it cannot fall or cause shock.",
+        "Lock the bowl and lid before switching on, and never try to defeat the safety interlock, which exists to stop the blade turning while it is exposed.",
+        "Cut food into even pieces, do not exceed the maximum fill line, and use the speed recommended for the ingredient, so the motor is not strained.",
+        "Do not run the machine for longer than the instructions allow, because the motor can overheat; pause to let it cool.",
+        "Feed food only with the supplied pusher, never with fingers, knives or spoons, and keep hands, hair and loose clothing away from moving parts, because the blade can cut or catch them.",
         "Use pulse control to avoid over-processing and to keep control of the texture of the food.",
-        "Switch off and unplug before changing attachments, removing the lid, scraping the bowl or cleaning, and wait until the blade has stopped completely.",
-        "Lift sharp blades by the centre hub, wash and dry them carefully, and store them safely away from children.",
-        "Wipe the motor base with a damp cloth; never immerse it or hold it under running water.",
-        "Do not use the appliance if the plug, flex, bowl or interlock is damaged; have it repaired by a qualified person before use."
-      ]
+        "Switch off and unplug before changing attachments, removing the lid, scraping the bowl or cleaning, and wait until the blade has stopped completely, so it cannot start or cut by accident."
+      ],
+      "tip": "Marks go to a guideline plus its reason, for example never use fingers in the feed tube because the blade can cut. Always include unplugging before cleaning, and for the appliance say to use the correct attachment and speed, not to overfill, and to pause to avoid overheating."
+    },
+    {
+      "h": "Care, cleaning and electrical safety",
+      "b": "Looking after the appliance keeps it safe and working. The rules about unplugging, water and damage matter most.",
+      "points": [
+        "Lift sharp blades by the centre hub, wash and dry them carefully, and store them safely and out of reach of young children.",
+        "Wash the bowl, lid and attachments in warm soapy water, or in the dishwasher if the manufacturer allows it.",
+        "Wipe the motor base with a damp cloth; never immerse it or hold it under running water, because water entering the motor and wiring can cause electric shock.",
+        "Wind or store the flex neatly, and do not use the appliance if the plug, flex, bowl or interlock is damaged; have it repaired by a qualified person before use.",
+        "Dry your hands before touching the plug, and never overload a socket, because wet hands and overloaded sockets risk shock and fire.",
+        "Use the correct fuse in the plug: 3 A for low-power appliances and 13 A for high-power ones, as the manufacturer states. A fuse melts if too much current flows, which protects the appliance and its flex."
+      ],
+      "tip": "Link each care rule to a hazard (water and electric shock, blades and cuts) and mention that damage must be repaired by a qualified person."
     },
     {
       "h": "Guidelines for use: other motor appliances",
+      "b": "Other motor appliances have their own particular hazards, so each has a rule matched to what it does.",
       "points": [
         "Hand mixers: start on the lowest speed to avoid splashing, then increase speed, and switch off before removing the beaters.",
-        "Blenders: add liquids first, never run the blender empty, and do not blend hot liquid in a sealed container, because steam pressure can force the lid off.",
-        "Vacuum cleaners: empty the dust container or change the bag when it is full, since a blocked airflow strains the motor.",
+        "Blenders: add liquids first and never run the blender empty. Do not blend hot liquid in a sealed container, because steam pressure can force the lid off.",
+        "Vacuum cleaners: empty the dust container or change the bag before it is full, since a blocked airflow strains the motor; clear blockages with the machine switched off.",
         "Washing machines: do not overload the drum, use the detergent amount recommended by the manufacturer, and choose a programme suited to the fabric."
-      ]
+      ],
+      "tip": "Name the appliance first, then give a guideline and the hazard it prevents."
     },
     {
       "h": "Efficient use of a motor appliance",
+      "b": "Motor appliances use little energy compared with heating appliances because they run for short periods. Using them well keeps running costs low and saves energy.",
       "points": [
         "Prepare several ingredients in sequence, starting with dry or clean foods, so the appliance is used once for many tasks rather than washed between each one.",
-        "Use the appliance only for the job it is designed for, and switch it off as soon as the task is complete rather than letting it run on."
-      ]
+        "Use the appliance only for the job it is designed for, use the right size for the task, and switch it off as soon as the task is complete rather than letting it run on.",
+        "Switch off at the socket when not in use, and choose an efficient, correctly sized model.",
+        "The cost to run an appliance is its power in kW multiplied by the hours used and the unit price, so a short-use appliance costs very little.",
+        "Appliances with a motor that run for long periods, such as the washing machine, dishwasher and fridge, are where the energy label matters. Use eco programmes and full loads to save energy."
+      ],
+      "tip": "For energy efficiency, say right-sized, avoid running longer than needed, and choose an efficient model."
     },
     {
       "h": "Electric motors: working principle (Higher Level only)",
-      "b": "A motor converts electrical energy into kinetic energy by using the magnetic force on a current-carrying conductor.",
+      "b": "A motor converts electrical energy into kinetic energy by using the magnetic force on a current-carrying conductor. Understanding this force explains why a coil of wire can be made to spin.",
       "points": [
         "A wire carrying a current in a magnetic field experiences a force, the motor effect, which is greatest when the wire is at right angles to the field.",
-        "The direction of the force is given by Fleming's left-hand rule: the thumb shows the force, the first finger the magnetic field and the second finger the current.",
-        "In a simple DC motor, a coil sits between the poles of a magnet; the forces on opposite sides of the coil act in opposite directions, creating a turning effect.",
-        "The commutator is a split ring on the shaft; brushes press on it and reverse the current in the coil every half turn, so the turning effect continues in one direction.",
-        "Electrical energy is the input and kinetic energy the output; heat from the coil and friction in the bearings is wasted energy.",
-        "Diagram: a simple DC motor showing the magnet poles, the coil, the commutator and brushes, with arrows for current direction and the forces on each side of the coil."
-      ]
+        "The direction of the force is given by Fleming's left-hand rule: the thumb shows the force (motion), the first finger the magnetic field and the second finger the current.",
+        "In a simple DC motor, a coil sits between the poles of a permanent magnet or electromagnet. The forces on opposite sides of the coil act in opposite directions, creating a turning effect, so the coil turns.",
+        "The commutator is a split ring on the shaft; carbon brushes press on it and reverse the current in the coil every half turn, so the coil keeps turning the same way instead of stopping.",
+        "Electrical energy is the input and kinetic energy the output; some is wasted as heat from the resistance of the coil and friction in the bearings.",
+        "The shaft's rotation is passed to the blade, drum or fan by a drive shaft, and in some designs by gears or a drive belt.",
+        "Diagram: a simple motor showing the magnet poles, the coil, the commutator and brushes, and the supply, with arrows for current direction and the forces on each side of the coil."
+      ],
+      "tip": "For Higher Level, link the motor to energy conversion (electrical to kinetic, with some heat wasted) and name parts such as the coil, magnet, commutator and brushes."
     },
     {
       "h": "Motor types used in household appliances (Higher Level only)",
+      "b": "Household appliances use different kinds of motor depending on whether they need high speed and light weight or steady, quiet running.",
       "points": [
-        "A universal motor is a series-wound motor that runs on either AC or DC; it runs at high speed and is used in portable appliances such as food processors, hand mixers and vacuum cleaners.",
+        "A universal motor (a series-wound motor) is the common motor in small kitchen appliances and vacuum cleaners. It runs on either AC or DC, spins at high speed and is lightweight, which suits portable appliances such as food processors and hand mixers.",
+        "The carbon brushes of a universal motor wear and need replacing.",
+        "Speed control adjusts the voltage or current supplied to the motor, so a variable-speed controller changes the speed of a universal motor.",
         "An induction motor runs on AC and has no brushes or commutator; the rotating magnetic field of the stator induces currents in the rotor, which turns it.",
-        "Induction motors are robust and need little maintenance, which suits drums in washing machines and dishwasher pumps.",
-        "Speed control adjusts the voltage or current supplied to the motor, so a variable-speed control changes the speed of a universal motor."
-      ]
+        "Induction motors are robust, quiet, long-lived and need little maintenance, which suits uses where steady, quieter running is wanted, such as dishwasher pumps, some older washing machines and fridge compressors."
+      ],
+      "tip": "For Higher Level, name a motor type with a typical use and a reason: universal for high speed in food processors, induction for quiet, long-lived running."
     }
   ],
   "keyTerms": [

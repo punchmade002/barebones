@@ -4,51 +4,99 @@
   "subsection": "3. Analysing, evaluating and presenting findings",
   "syllabusRef": "U4.1, U4.2, U4.3, U4.4, U4.5, U5.1, U5.2, U5.3, U5.4",
   "notes": [
-    { "h": "Reading tables and charts", "b": "Interpreting data means describing what it shows before explaining why. Descriptions must use specific figures from the data.", "points": [
-      "A trend is the direction of change over time, described by the starting value, the end value and the general movement between them.",
-      "A comparison sets two or more values side by side and states which is larger or smaller, and by how much.",
-      "A percentage shows a part of a whole, so the base it is calculated from must be stated, since the same change can look different on different bases.",
-      "An average summarises a data set. The mean, median and mode describe the centre differently, and the mean can be pulled by a few extreme values.",
-      "A description should quote the figures themselves, such as a rise from 40 units in one year to 65 units four years later, rather than saying sales went up."
-    ] },
-    { "h": "Choosing the right chart", "b": "The chart should display the pattern the research question needs. The wrong choice can hide the pattern or distort it.", "points": [
-      "A line graph shows change over time, so it suits trends in sales or prices across several years.",
-      "A bar chart compares separate categories, such as the sales of different products in one year.",
-      "A pie chart shows the parts of one whole, and works only with a few categories that together make up the total.",
-      "A scatter graph plots pairs of numerical values to show whether two variables are related, such as advertising spend and sales, but it does not prove that one causes the other.",
-      "Axes must be labelled with units, and a vertical axis that does not start at zero can exaggerate small changes."
-    ] },
-    { "h": "Analysis, evaluation and synthesis", "b": "These are three different tasks. Analysis breaks information into parts, evaluation judges its worth, and synthesis brings findings together into a new answer.", "points": [
-      "Analysis examines the parts of information and explains how and why they relate, such as why a sales trend occurred.",
-      "Evaluation weighs the strengths and limitations of a source, argument or decision against stated criteria, and reaches a judgement.",
-      "Synthesis combines findings from several sources into one coherent answer to the research question, going beyond what any single source says.",
-      "Describing the data when the question asks for analysis does not show the reasoning the question requires, even when the description is accurate."
-    ] },
-    { "h": "Drawing justified conclusions", "b": "A conclusion answers the research question using the evidence gathered. A justified conclusion shows the reasoning from evidence to answer.", "points": [
-      "Begin by restating the research question, then give a direct answer that the evidence supports.",
-      "Support each conclusion with specific findings from at least two sources, so the reader can trace the reasoning.",
-      "Do not claim more than the evidence shows: a small sample supports a tentative conclusion, not a general rule.",
-      "A recommendation proposes a specific action for a named audience. It should follow from the conclusions and must not introduce new evidence."
-    ] },
-    { "h": "Stating limitations", "b": "Limitations are weaknesses in the study that affect how far the findings can be trusted. Stating them is part of honest evaluation.", "points": [
-      "A limitation names the weakness, such as a sample drawn from one location, and explains its effect on the conclusion.",
-      "Limitations should be ranked by how much they weaken the conclusion, so the most serious appear first.",
-      "A limitation about the method, such as a questionnaire with leading questions, should be linked to the specific finding it affects.",
-      "Suggesting a fix for a limitation, such as a larger sample in a future study, shows evaluative thinking."
-    ] },
-    { "h": "Reflecting on a changed perspective", "b": "The specification asks students to identify how and why their perspective changed. Reflection shows learning rather than simple reporting.", "points": [
-      "Record the starting view early in the study, so the change can be compared against it later.",
-      "Name the evidence that changed the view, such as a customer survey result that contradicted an assumption.",
-      "Explain the change in terms of the evidence and reasoning, not simply that more was learned.",
-      "State whether the change affected the conclusion or the recommendation, and how."
-    ] },
-    { "h": "Presenting for an audience and using terminology", "b": "The audience determines the format and level of detail. The specification allows oral, visual, written and multimodal presentation.", "points": [
-      "A written report suits a detailed audience, such as a teacher or a board, and uses full sentences, headings and referenced evidence.",
-      "A visual format such as an infographic suits a general audience and must have clear labels and one main message per visual.",
-      "An oral presentation needs a clear structure with the conclusion stated early and supported by visuals, rather than read from a script.",
-      "Business terms such as gross margin, market share and stakeholder must be used accurately and defined where the audience may not know them.",
-      "A multimodal presentation combines two or more formats, such as a written report with an embedded chart and a short spoken summary."
-    ] }
+    {
+      "h": "Reading tables and charts",
+      "b": "Interpreting data means describing what it shows before you explain why it happened. The specification defines interpret as using knowledge and understanding to recognise trends and draw conclusions from given information, so every description must rest on specific figures.",
+      "points": [
+        "A trend is the direction of change over time, so say where the data starts, where it ends and the general movement between them. Quote figures, such as a rise from 40 units in one year to 65 units four years later, rather than saying sales went up.",
+        "A comparison sets two or more values side by side and states which is larger or smaller, and by how much. Quoting the gap makes the comparison checkable.",
+        "A percentage shows a part of a whole, so you must state the base it is calculated from. The same change can look quite different on different bases, which is why a percentage with no base is hard to trust.",
+        "An average summarises a data set in one figure. The mean (add up the values and divide by how many there are), the median (the middle value when the values are in order) and the mode (the most common value) describe the centre differently.",
+        "The mean can be pulled up or down by a few extreme values, so one unusually large figure can make a typical month look better than it was. The median is not affected in the same way.",
+        "Look for patterns (any regularity), trends and contradictions (figures that do not fit the story), and pick out the most important aspects relative to the research question. A pattern is wider than a trend, and an unusual value that breaks the pattern is an outlier.",
+        "Analysing also means breaking information into smaller parts. For example, split a sample café's revenue over five years into each year, or each product, and look at which part drives the overall movement."
+      ],
+      "tip": "If asked to interpret or describe a table or graph, quote numbers: the start value, the end value, the direction, and a comparison or percentage with its base. 'It went up' is a common mistake, not a full answer."
+    },
+    {
+      "h": "Choosing the right chart",
+      "b": "A chart is a tool for showing one pattern clearly. The right choice displays the pattern your research question needs, and the wrong choice can hide it or distort it.",
+      "points": [
+        "A line graph shows change over time, so it suits trends in sales or prices across several years. The line joins the points so the eye follows the direction.",
+        "A bar chart compares separate categories, such as the sales of different products in one year. Each bar stands alone, so the heights are easy to compare.",
+        "A pie chart shows the parts of one whole, and works only with a few categories that together make up the total. With many slices, or parts that do not add to a whole, it becomes unreadable or misleading.",
+        "A scatter graph plots pairs of numerical values to show whether two variables are related, such as advertising spend and sales. It shows association, not cause, so a pattern in the dots does not prove that one variable causes the other.",
+        "Tables, diagrams and infographics (a visual that combines figures, images and short text) also present findings. Give each visual one main message, so the reader knows what to take from it.",
+        "Label axes with units and give each graphic a title. Label each figure and refer to it in the text, so the reader knows why it is there.",
+        "A vertical axis that does not start at zero can exaggerate small changes, because a small difference looks like a large one. Showing the full axis, or stating clearly that it is truncated, keeps the graph honest."
+      ],
+      "tip": "Common mistakes are the wrong chart for the data and a truncated axis that goes unnoticed. Never say a scatter graph shows that one variable causes the other, and never say a pie chart can show any proportion data."
+    },
+    {
+      "h": "Analysis, evaluation and synthesis",
+      "b": "These are three different tasks, and a question will use the command word on purpose. Analysis breaks information into parts and explains it, evaluation judges its worth, and synthesis combines findings into a new answer. A fourth word, appraise, means to evaluate, judge or consider information or a piece of work.",
+      "points": [
+        "Analyse means to study something in detail and break it down to bring out its essential elements or structure, identifying parts and relationships and interpreting the information to reach conclusions. For example, break a sales trend into its parts and explain why each part moved.",
+        "Evaluate (data) means to collect and examine data to make judgments, describe how evidence supports or does not support a conclusion, and identify the limitations of data in conclusions. It weighs strengths and limitations of a source, argument or decision against stated criteria and reaches a judgement.",
+        "Useful criteria for evaluating a source or finding are: how relevant is it, is it reliable and recent, is it biased, what is its purpose, is it fact or opinion, and are there alternative explanations or perspectives.",
+        "Evaluate the range of perspectives within the findings by asking whose view is represented and whose is missing. Stakeholders such as owners, employees, customers, regulators and the community can see the same finding very differently.",
+        "Synthesise means to combine different ideas to create new or enhanced understanding. It brings findings from several sources into one coherent answer to the research question, going beyond what any single source says.",
+        "Analysis and evaluation are not interchangeable: analysis explains how and why, while evaluation judges worth against evidence. Keep the two apart, and appraisal (judging the value of the information) is part of the evaluating side.",
+        "Describing the data when the question asks for analysis does not show the reasoning the question requires, even when the description is accurate. Use words such as 'because', 'so' and 'which means for the business' to link cause to effect."
+      ],
+      "tip": "If asked to distinguish analysis from evaluation or synthesis, give a definition of each and then apply the difference to one sample study. The common mistake is describing when asked to analyse."
+    },
+    {
+      "h": "Drawing justified conclusions",
+      "b": "A conclusion answers the research question using the evidence gathered. A justified conclusion shows the reasoning from evidence to answer, so the reader can follow how you got there.",
+      "points": [
+        "Begin by restating the research question, then give a direct answer that the evidence supports. A conclusion that does not answer the question is a common mistake.",
+        "Support each conclusion with specific findings from at least two sources, so the reader can trace the reasoning and one weak source does not carry the whole answer.",
+        "Do not claim more than the evidence shows. A small sample supports a tentative conclusion, not a general rule, because a few responses may not represent everyone. State what the evidence cannot show.",
+        "Report findings honestly, including results that go against your hypothesis (your starting prediction). Do not cherry-pick (choose only the results that suit your view), and do not mislead with a truncated axis.",
+        "A finding is what the data shows, a conclusion is the answer to the question, and a recommendation is what to do. Keep these three separate.",
+        "A recommendation proposes a specific action for a named audience. It should follow from the conclusions, and must not introduce new evidence, because the reader has no way to check evidence that appeared only at the end."
+      ],
+      "tip": "Make your recommendation a specific action for a named audience, justified by a named finding. A recommendation with no link to the evidence is a common mistake."
+    },
+    {
+      "h": "Stating limitations",
+      "b": "Limitations are weaknesses in the study that affect how far the findings can be trusted. Stating them is part of honest evaluation, and it is a different thing from a risk in a plan or a gap in information.",
+      "points": [
+        "A limitation names the weakness, such as a sample drawn from one location, and explains its effect on the conclusion. 'The sample was small' with no effect stated is a common mistake, because the reader still does not know what it means for the answer.",
+        "Limitations can arise in the design of the research question, in the research gathered and in the analysis conducted, so look across all three.",
+        "Rank limitations by how much they weaken the conclusion, so the most serious appear first and the reader sees what matters most.",
+        "A limitation about the method, such as a questionnaire with leading questions, should be linked to the specific finding it affects, because leading questions push answers in one direction.",
+        "Suggesting a fix for a limitation, such as a larger sample in a future study, shows evaluative thinking because it shows you know how the weakness could be removed."
+      ],
+      "tip": "If asked to state and explain limitations, name two, state the effect of each on the conclusion, and suggest a remedy for each."
+    },
+    {
+      "h": "Reflecting on a changed perspective",
+      "b": "The specification asks students to identify how and why their perspective changed because of their research. Reflection shows learning rather than simple reporting, and findings can also be related to the world of business and the media where relevant.",
+      "points": [
+        "Record your starting view early in the study, so the change can be compared against it later. Without a recorded starting point you cannot show that anything changed.",
+        "Name the evidence that changed the view, such as a customer survey result that contradicted an assumption.",
+        "Explain the change in terms of the evidence and reasoning, not simply that more was learned, because 'I learned more' does not say why the view moved.",
+        "State whether the change affected the conclusion or the recommendation, and how.",
+        "Where relevant, relate the findings to the cross-cutting themes, such as ethics, sustainability and digital technology, and to how they connect to business stories in the media."
+      ]
+    },
+    {
+      "h": "Presenting for an audience and using terminology",
+      "b": "The audience decides the format and the level of detail. The specification allows oral, visual, written and multimodal presentation, and to present is to show something for others to consider.",
+      "points": [
+        "A written report suits a detailed audience, such as a teacher or a board, because readers can study it at their own pace. It uses full sentences, headings and referenced evidence.",
+        "A visual format such as an infographic suits a general audience because it can be taken in at a glance. It must have clear labels and one main message per visual.",
+        "An oral presentation needs a clear structure with the conclusion stated early and supported by visuals, rather than read from a script, so the audience can follow it as it is spoken.",
+        "A multimodal presentation combines two or more formats, such as a written report with an embedded chart and a short spoken summary.",
+        "Present conclusions, perspectives and recommendations logically, in an order the audience can follow from the question to the evidence to the answer.",
+        "Use business terms accurately and define them where the audience may not know them. For example, a general audience may need a short explanation of any business term used.",
+        "Use coherent and consistent language throughout, so that the same idea is not called by different names in different places.",
+        "Digital tools such as spreadsheet charts and online tools can build graphics quickly. AI-generated analysis must be checked for accuracy and acknowledged, because you remain responsible for what you present."
+      ],
+      "tip": "If asked to present, pick a form for the given audience and justify it: written for a board, visual for the public, oral with visuals for a class."
+    }
   ],
   "keyTerms": [
     { "term": "Trend", "definition": "The overall direction in which data changes over time, described by its start, its end and its general movement." },

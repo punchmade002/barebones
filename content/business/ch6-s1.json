@@ -4,60 +4,105 @@
   "subsection": "1. Enterprise, innovation, intrapreneurship, entrepreneurship and the competencies of innovators",
   "syllabusRef": "2.1.1, 2.1.2, 2.8.1",
   "notes": [
-    { "h": "Enterprise and types of innovation", "b": "Enterprise is wider than starting a company, and innovation can change what a firm sells, how it works or how it earns money.", "points": [
-      "Enterprise is the process of spotting an opportunity and organising people, money and ideas to pursue it, so it applies to charities, community groups and public bodies as well as new companies.",
-      "Innovation is the introduction of something new or significantly improved, and it can take the form of a product, a process or a business model.",
-      "Product innovation changes what a firm sells, such as a new flavour of crisp or a redesigned phone.",
-      "Process innovation changes how a firm makes or delivers its output, such as automated stock control or online ordering.",
-      "Business-model innovation changes how a firm earns money, such as a monthly subscription replacing one-off sales."
-    ] },
-    { "h": "Entrepreneurs and intrapreneurs", "b": "Both take new ideas forward, but they work in different settings and carry risk differently.", "points": [
-      "An entrepreneur starts and runs a new venture and carries the financial risk of its success or failure personally.",
-      "An intrapreneur develops new products or processes inside an existing organisation, using the firm's resources, so the firm carries most of the financial risk.",
-      "Intrapreneurship lets an established firm innovate while keeping the stability of its existing business.",
-      "Entrepreneurship and innovation are linked but not identical: an entrepreneur may run a business with no new product, and an established firm may produce an innovation."
-    ] },
-    { "h": "Reasons for starting an enterprise", "b": "Reasons are financial and non-financial, and most people who start a business have more than one.", "points": [
-      "Financial reasons include the wish to earn more than paid employment offers and to build personal wealth.",
-      "Independence means being your own boss and controlling how, when and where you work.",
-      "A gap in the market is an unmet customer need that existing firms are not serving, which the entrepreneur sees as an opportunity.",
-      "A social goal drives people to solve a community problem, with the business run to achieve that aim.",
-      "Redundancy can push a worker to start a business when no suitable job is available.",
-      "Passion for a hobby or skill can be turned into a business, such as a baker who starts by selling from home.",
-      "Recognition, or the wish to prove an idea works, also motivates many founders."
-    ] },
-    { "h": "Enterprise in society and personal life", "b": "Enterprise appears in government, communities, social enterprises and everyday life, not only in private companies.", "points": [
-      "Government bodies support enterprise through agencies that give advice and funding to business.",
-      "Community enterprise is run by local people for the benefit of their area, often using surplus income to fund local services.",
-      "A social enterprise trades to achieve a social or environmental purpose and reinvests most of its surplus in that aim.",
-      "Enterprise skills matter in personal life too, such as planning a school fundraiser or managing the budget for a part-time job.",
-      "Enterprise education in schools builds the planning, teamwork and decision-making skills that students need to run their own projects."
-    ] },
-    { "h": "Why innovation matters", "b": "Innovation is important to the firm, the economy and society, and it also raises ethical questions.", "points": [
-      "For a business, innovation creates competitive advantage, because a new product or process is hard for rivals to copy quickly.",
-      "Innovation supports growth by opening new markets and increasing sales to existing customers.",
-      "For the economy, innovation creates jobs in new sectors and helps exporters win sales abroad.",
-      "Successful innovative firms grow and pay more tax on profits and wages, which raises revenue for the state.",
-      "For society, innovation provides solutions to problems in health, energy use and waste, and can make production more sustainable.",
-      "Innovation can carry costs, such as job losses from automation or privacy risks from new digital services, which firms must weigh up ethically."
-    ] },
-    { "h": "Competencies of innovators", "b": "Competencies are the knowledge, skills, values and dispositions that help people turn ideas into working businesses.", "points": [
-      "Creativity lets an innovator generate many ideas and look at problems from new angles.",
-      "Risk-taking means accepting uncertain outcomes in return for possible rewards, and it is needed to launch a product with no proven market.",
-      "Resilience is the ability to recover from setbacks, which matters because many start-ups fail or stumble early.",
-      "Self-confidence and decisiveness allow a founder to make choices quickly when information is incomplete.",
-      "Vision gives a clear picture of where the business is going, which helps attract staff, investors and customers.",
-      "Initiative means acting without waiting to be told, such as finding a second supplier before a shortage happens.",
-      "Networking builds contacts with mentors, suppliers and customers, which helps a new business get advice and early sales.",
-      "Adaptability means changing a plan when customer feedback or market conditions change, which is essential at start-up."
-    ] },
-    { "h": "Examples and reading enterprise news", "b": "Examples show how enterprise and innovation appear in practice, from local firms to global ones.", "points": [
-      "Kerry Group, an Irish food company, competes internationally by developing food ingredients that it adapts for its customers.",
-      "Stripe was founded by two Irish brothers and provides online payment tools, an example of Irish-founded digital innovation with a global market.",
-      "Supermac's, an Irish fast food chain, has grown across Ireland by building a brand around its own menu and outlet network.",
-      "An intrapreneurship example is a bank's internal team developing a mobile app for a new savings service, rather than a founder starting a new bank.",
-      "When analysing news on enterprise, ask what problem the firm solves, who benefits, and what risks it faces."
-    ] }
+    {
+      "h": "Enterprise and the three types of innovation",
+      "b": "Enterprise is wider than starting a company, and innovation can change what a firm sells, how it works or how it earns money. Sorting an innovation by what changes is a quick way to describe it.",
+      "points": [
+        "Enterprise is the process of spotting an opportunity and organising people, money and ideas to pursue it, so it applies to charities, community groups and public bodies as well as new companies. Note the difference between enterprise (the process or attitude) and an enterprise (a business).",
+        "Innovation is the introduction of something new or significantly improved. It is not the same as invention: an invention is a new idea, while an innovation is the new idea put into use.",
+        "Product innovation changes what a firm sells, such as a new flavour of crisp or a redesigned phone.",
+        "Process innovation changes how a firm makes or delivers its output, such as automated stock control or online ordering, which can cut costs or speed up delivery.",
+        "Business-model innovation changes how a firm earns money, such as a monthly subscription replacing one-off sales. A business model describes how a business operates and earns money.",
+        "The specification defines a business model as an element within the business plan which outlines how a company will operate, create, deliver, and capture value in economic, social, and cultural contexts."
+      ],
+      "tip": "When you describe an innovation, say whether it is a product, process or business-model innovation and say what changed. Do not confuse innovation (a new idea put into use) with invention (the new idea itself)."
+    },
+    {
+      "h": "Entrepreneurs and intrapreneurs",
+      "b": "Both take new ideas forward, but they work in different settings and the financial risk falls on different people.",
+      "points": [
+        "An entrepreneur starts and runs a new venture and carries the financial risk of its success or failure personally, because the money at stake is usually their own or what they have borrowed.",
+        "An intrapreneur is an employee who develops new products or processes inside an existing organisation, using the firm's resources, so the firm carries most of the financial risk. The intrapreneur can still lose their job or standing if the idea fails.",
+        "Intrapreneurship lets an established firm innovate while keeping the stability of its existing business, because the new idea is tested without the firm staking everything on it.",
+        "In short: an entrepreneur works in a new venture and carries the financial risk; an intrapreneur works inside an existing firm, which owns the idea and carries most of that risk.",
+        "Entrepreneurship and innovation are linked but not identical: an entrepreneur may run a business with nothing new in it, and an established firm may produce an innovation.",
+        "Entrepreneurship means starting a business, while intrapreneurship happens inside an existing firm. Keep the two terms apart."
+      ],
+      "tip": "To distinguish an entrepreneur from an intrapreneur, compare the setting and who carries the financial risk. Do not say an intrapreneur carries no risk at all, since they can still lose their job or standing."
+    },
+    {
+      "h": "Reasons for starting an enterprise",
+      "b": "Reasons are financial and non-financial, and most people who start a business have more than one. Some reasons push a person towards starting out, while others pull them.",
+      "points": [
+        "Financial reasons include the wish to earn more than paid employment offers, to build personal wealth, and to create a business that could later be sold.",
+        "Independence means being your own boss and controlling how, when and where you work.",
+        "A gap in the market is an unmet customer need that existing firms are not serving, which the entrepreneur sees as an opportunity. This is a pull factor, because the opportunity attracts the founder.",
+        "A social goal drives people to solve a community problem, with the business run to achieve that aim.",
+        "Redundancy can push a worker to start a business when no suitable job is available. This is a push factor, because circumstances force the move.",
+        "Passion for a hobby or skill can be turned into a business, such as a baker who starts by selling from home.",
+        "Recognition, or the wish to prove an idea works, also motivates many founders.",
+        "Most founders have more than one reason, mixing financial and non-financial ones, for example independence together with a gap in the market."
+      ],
+      "tip": "When asked to outline reasons for starting an enterprise, split financial from non-financial reasons and show that a founder usually has several."
+    },
+    {
+      "h": "Enterprise in society and personal life",
+      "b": "Enterprise appears in government, communities, social enterprises, businesses and everyday life, not only in new private companies.",
+      "points": [
+        "Government bodies support enterprise through state agencies that give advice and funding to business. Enterprise Ireland, the Irish government's trade and innovation agency, is one example.",
+        "Community enterprise is run by local people for the benefit of their area, often using surplus income to fund local services.",
+        "A social enterprise trades to achieve a social or environmental purpose and reinvests most of its surplus in that aim. It differs from a charity, which relies on donations, and from a private firm, which aims at profit for its owners.",
+        "In business, enterprise appears inside existing firms, where intrapreneurs develop new products or processes, and in new ventures started by entrepreneurs.",
+        "Enterprise skills matter in personal life too, such as planning a school fundraiser or managing the budget for a part-time job.",
+        "Enterprise education in schools builds the planning, teamwork and decision-making skills that students need to run their own projects."
+      ],
+      "tip": "Do not mix up the three: a social enterprise trades for a social or environmental aim and reinvests most of its surplus, a charity relies on donations, and a private firm aims at profit for its owners."
+    },
+    {
+      "h": "Why innovation matters",
+      "b": "Innovation is important to the firm, the economy and society, and it also raises ethical questions. Each level has its own effect.",
+      "points": [
+        "For a business, innovation creates competitive advantage, because a new product or process is hard for rivals to copy quickly.",
+        "Innovation supports growth by opening new markets and increasing sales to existing customers.",
+        "For the economy, innovation creates jobs in new sectors and helps exporters win sales abroad. Successful innovative firms grow and pay more tax on profits and wages, which raises revenue for the state.",
+        "For society, innovation provides solutions to problems in health, energy use and waste, and gives new services to people who lacked them.",
+        "Innovation can make production more sustainable, for example through circular, low-waste production, which reduces the environmental impact of making goods.",
+        "Digital innovation, such as online payments and online ordering, opens new markets because firms can reach customers without a physical outlet.",
+        "Innovation can carry costs, such as job losses from automation or privacy risks from new digital services, so firms must weigh these up ethically. It can also have an environmental impact."
+      ],
+      "tip": "Give a developed point for each of business, economy and society, with its effect: competitive advantage for the business, and jobs, exports and tax revenue for the economy. Do not treat the economy as only more profit. Add one sentence on an ethical cost or a digital or sustainability gain."
+    },
+    {
+      "h": "Competencies of innovators",
+      "b": "Competencies are the knowledge, skills, values and dispositions that help people turn ideas into working businesses. Each one has an effect on a new business. Competencies are not the same as competition or competitive advantage.",
+      "points": [
+        "The specification defines competencies of entrepreneurs as the integration of knowledge, skills, values and dispositions that support and foster innovation. In plain terms, they are what a person knows, can do, believes in and is inclined to do.",
+        "Creativity lets an innovator generate many ideas and look at problems from new angles, so a new business is not stuck with its first idea.",
+        "Risk-taking means accepting uncertain outcomes in return for possible rewards, and it is needed to launch a product with no proven market.",
+        "Resilience is the ability to recover from setbacks, which matters because many start-ups fail or stumble early. A resilient founder keeps going after early problems.",
+        "Self-confidence and decisiveness allow a founder to make choices quickly when information is incomplete, so the business is not held up waiting for certainty.",
+        "Vision gives a clear picture of where the business is going, which helps attract staff, investors and customers.",
+        "Initiative means acting without waiting to be told, such as finding a second supplier before a shortage happens.",
+        "Networking builds contacts with mentors, suppliers and customers, which helps a new business get advice and early sales.",
+        "Adaptability means changing a plan when customer feedback or market conditions change, which is essential at start-up."
+      ],
+      "tip": "If asked to identify four competencies, name four clearly different personal ones with a short phrase each. A common mistake is giving two near-identical ones, such as confidence and self-belief, or a business skill such as bookkeeping. For a why-it-matters part, pair each with its effect on a new business."
+    },
+    {
+      "h": "Examples and analysing enterprise news",
+      "b": "Examples show how enterprise and innovation appear in practice, from local firms to global ones. Whenever you use one, link it to what the firm did that was entrepreneurial or innovative.",
+      "points": [
+        "Kerry Group is an established firm that calls itself a world-leading taste and nutrition company. It started in 1972 on a greenfield site in Listowel, Co. Kerry, has its headquarters in Tralee, Co. Kerry, and is listed on the London and Euronext Dublin stock exchanges.",
+        "Stripe was co-founded by the brothers Patrick and John Collison and is a financial infrastructure platform for businesses, with headquarters in Dublin and San Francisco. It is an example of digital innovation, since it supports online payments.",
+        "Supermac's is an example of entrepreneurship. Pat McDonagh, a former primary schoolteacher, saw an opening in the quick-service restaurant market and opened the first restaurant in 1978 on Main Street, Ballinasloe, Co. Galway. It is now an Irish, family-owned fast-food chain headquartered in Galway.",
+        "A local example is a sample business: a baker who starts by selling from home, turning a hobby into a business.",
+        "An intrapreneurship example is a sample bank's internal team developing a mobile app for a new savings service, rather than a founder starting a new bank. The bank's resources are used, so the bank carries most of the financial risk.",
+        "When analysing news on enterprise, break the story down: what problem the firm solves, who benefits, and what risks it faces.",
+        "Then ask whether the innovation is a product, process or business-model one, which competencies the founder shows, and what the ethical, sustainability and digital effects are.",
+        "Finish with an informed opinion supported by a reason, for example whether the innovation is likely to succeed and why."
+      ],
+      "tip": "Analyse means break the story into its parts: what the firm does, what is new, who gains and what the risk is. Close with a one-sentence justified opinion. Use only what the news item says, and avoid naming a firm without saying what it did that was entrepreneurial or innovative."
+    }
   ],
   "keyTerms": [
     { "term": "Enterprise", "definition": "The process of spotting an opportunity and organising people, money and ideas to pursue it." },
@@ -80,7 +125,7 @@
     { "term": "Entrepreneur versus intrapreneur on risk", "definition": "The entrepreneur carries the financial risk personally, while an intrapreneur uses the existing firm's resources and stability." }
   ],
   "questions": [
-    { "marks": 20, "prompt": "Distinguish between an entrepreneur and an intrapreneur, using an Irish example of each, and assess the benefits of intrapreneurship for an established firm.", "model": "An entrepreneur starts and runs a new venture and carries the financial risk personally, as two Irish brothers did when they founded Stripe, a payments company that now operates globally. An intrapreneur develops new products or processes inside an existing organisation using its resources, so the firm rather than the employee carries most of the financial risk, for example a bank employee who designs a savings app within the bank. The first benefit for an established firm is continued innovation: it can respond to changing customer needs without the cost of setting up a separate company. The second benefit is retention, because staff whose ideas are supported internally are less likely to leave and start a rival business. The third benefit is reduced risk, since ideas can be tested on a small scale inside a firm that already has customers, a brand and finance. The limits are real, though: if the firm does not share the rewards of a successful idea, staff motivation falls and the process stops working." },
+    { "marks": 20, "prompt": "Distinguish between an entrepreneur and an intrapreneur, using an Irish example of each, and assess the benefits of intrapreneurship for an established firm.", "model": "An entrepreneur starts and runs a new venture and carries the financial risk personally, as the brothers Patrick and John Collison did when they co-founded Stripe, a payments company with headquarters in Dublin and San Francisco. An intrapreneur develops new products or processes inside an existing organisation using its resources, so the firm rather than the employee carries most of the financial risk, for example a bank employee who designs a savings app within the bank. The first benefit for an established firm is continued innovation: it can respond to changing customer needs without the cost of setting up a separate company. The second benefit is retention, because staff whose ideas are supported internally are less likely to leave and start a rival business. The third benefit is reduced risk, since ideas can be tested on a small scale inside a firm that already has customers, a brand and finance. The limits are real, though: if the firm does not share the rewards of a successful idea, staff motivation falls and the process stops working." },
     { "marks": 15, "prompt": "A friend with a new food product idea asks which personal qualities will help most at start-up stage. Name three competencies and explain why each matters.", "model": "Resilience matters because most new food products face early setbacks such as poor sales or supplier problems, and a resilient founder keeps testing and improving rather than giving up. Networking matters because contacts with suppliers, buyers and mentors help a small producer find ingredients, win shelf space in shops and get advice without a large budget. Adaptability matters because a founder who acts on customer feedback can change the recipe, packaging or price quickly, which keeps the product relevant in a competitive market." },
     { "marks": 10, "prompt": "Explain why innovation is important for the Irish economy.", "model": "Innovation creates jobs in new sectors, because firms that develop new products need staff for design, production and sales. It also supports exports, since innovative products can win sales abroad where competitors cannot match them, which brings money into the economy." }
   ]

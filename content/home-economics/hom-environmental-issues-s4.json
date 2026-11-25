@@ -6,82 +6,128 @@
   "notes": [
     {
       "h": "Environmental impact of household activity",
-      "b": "Everyday household activities use energy, water and materials, and generate emissions and waste. The impact of each activity depends on how much energy it uses and which fuel supplies that energy.",
+      "b": "Everyday household activities use energy, water and materials, and they produce emissions and waste. How big the impact is depends on how much energy an activity uses and which fuel supplies that energy.",
       "points": [
-        "Space heating and hot water account for the largest share of energy use in most homes.",
-        "Electricity used in the home is generated partly by burning fossil fuels, releasing carbon dioxide at the power station.",
-        "Water used in the home must be pumped and treated, and hot water also needs energy to heat it.",
-        "Packaging, food waste and discarded appliances all add to the waste that is landfilled or recovered."
-      ]
+        "Space heating and hot water account for the largest share of energy use in most homes, so savings on heating usually matter more than savings elsewhere.",
+        "Electricity used in the home is generated partly by burning fossil fuels, which releases carbon dioxide at the power station, so using less electricity cuts emissions.",
+        "Water used in the home must be pumped and treated, and hot water also needs energy to heat it, so saving water saves energy as well.",
+        "Packaging, food waste and discarded appliances all add to the waste that is landfilled (buried in a landfill site) or recovered (reused or recycled)."
+      ],
+      "tip": "Name the inefficient use first, then the strategy and why it works. Examiners ask for energy-saving strategies in the home, so link every action to less fuel or electricity burned."
     },
     {
       "h": "Heating the home",
+      "b": "Heating is the biggest energy use in most homes, so the best savings come from stopping heat escaping and from heating only when and where it is needed. Heat leaves through the roof, walls, floor, windows and gaps.",
       "points": [
-        "Heat escapes through the roof, walls, floor and windows; insulation laid on the floor of the roof space is one of the most effective measures for an existing house.",
+        "Insulation laid on the floor of the roof space (attic) is one of the most effective measures for an existing house, because warm air rises and escapes through the roof.",
         "Cavity wall insulation fills the gap between the two leaves of a masonry wall, reducing heat loss through the walls.",
-        "Draught-proofing seals gaps around doors, windows, letterboxes and floorboards, which stops warm air escaping and cold air entering.",
-        "Double or triple glazing reduces heat loss through windows; closing thick curtains at night adds a further layer of insulation.",
-        "A lagging jacket on the hot water cylinder and insulated pipes reduce heat lost while water is stored and moved.",
-        "A room thermostat and a programmer ensure that the heating runs only when it is needed; lowering the set temperature, even slightly, reduces fuel use.",
+        "Draught-proofing seals gaps around doors, windows, letterboxes and floorboards, which stops warm air escaping and cold air entering. Keep controlled ventilation where fuel is burned.",
+        "Double or triple glazing reduces heat loss through windows, and closing thick curtains at night adds a further layer of insulation.",
+        "A lagging jacket on the hot water cylinder and insulated (lagged) pipes reduce heat lost while water is stored and moved.",
+        "Reflective panels or foil behind radiators on external walls send heat back into the room rather than into the wall.",
+        "An annual boiler service keeps combustion efficient and safe, so less fuel is burned for the same heat."
+      ],
+      "tip": "For a heating question, organise your answer as stop heat escaping (insulation, draught-proofing, glazing, lagging) and then control the heating, giving a reason for each."
+    },
+    {
+      "h": "Controlling heating and using renewable heat",
+      "b": "Heating only when and where it is needed saves fuel, and renewable sources reduce reliance on fossil fuels. Controls and cleaner fuels also cut the emissions released when fuel is burned at home.",
+      "points": [
+        "A room thermostat and a programmer ensure the heating runs only when it is needed, and timers on the immersion heater do the same for hot water. Lowering the set temperature, even slightly, reduces fuel use.",
         "Thermostatic radiator valves control the temperature of individual radiators, so unused rooms can be kept cooler.",
-        "Reflective panels behind radiators on external walls send heat back into the room rather than into the wall.",
-        "An annual boiler service keeps combustion efficient so that less fuel is burned for the same heat.",
-        "Renewable heat sources, such as heat pumps, solar thermal panels and stoves burning wood from sustainably managed forests, reduce reliance on fossil fuels."
-      ]
+        "Renewable heat sources, such as heat pumps, solar thermal panels and stoves burning wood from sustainably managed forests, reduce reliance on fossil fuels.",
+        "Burning fuels at home releases carbon dioxide, sulphur dioxide, nitrogen oxides, carbon monoxide and smoke, which harm the environment.",
+        "Emissions can be reduced by using smokeless fuel, an efficient boiler, heating controls and renewable heat."
+      ],
+      "tip": "If asked about burning fuels in the home, name an emission, say what it does to the environment, then give a strategy that cuts it."
     },
     {
       "h": "Washing clothes",
+      "b": "A washing machine's energy use is mostly about heat, so the choices you make about temperature, load size and drying matter far more than the machine itself.",
       "points": [
-        "Heating the water accounts for most of the energy used by a washing machine on a hot wash.",
-        "A cold or 30 °C wash uses far less energy than a 60 °C or 90 °C wash, and modern detergents clean well at lower temperatures.",
+        "Heating the water accounts for most of the energy used on a hot wash, so lower temperatures save energy.",
+        "A cold or 30 °C wash uses far less energy than a 60 °C or 90 °C wash, and modern detergents clean well at lower temperatures, so a hotter wash is not usually needed.",
         "A full load uses almost the same energy and water as a part load, so run the machine only when it is full.",
         "An eco programme runs at lower temperatures or with less water, using less energy per load.",
         "A higher spin speed removes more water before drying, which reduces the time a dryer must run.",
         "A tumble dryer is one of the most energy-intensive appliances in the home, so line drying saves significant energy.",
-        "Using the correct dose of detergent avoids residue in the water and reduces the amount of product that enters drains."
-      ]
+        "Using the correct dose of detergent avoids residue and reduces the amount of product that enters drains.",
+        "Wash clothes only when needed, and repair and reuse them rather than replacing them."
+      ],
+      "tip": "Remember that a part load is not half the energy: it uses nearly as much as a full one. Say that higher temperature mainly costs energy, not that it cleans much better."
     },
     {
-      "h": "Food consumption",
+      "h": "Food consumption and reducing food waste",
+      "b": "Food has an environmental cost before it reaches the plate and after it is thrown away. Wasting food wastes everything used to produce it and creates a greenhouse gas in landfill.",
       "points": [
-        "Food waste sent to landfill decomposes anaerobically and releases methane, a greenhouse gas.",
+        "Food waste sent to landfill decomposes without oxygen (anaerobically) and releases methane, a greenhouse gas.",
         "Food production uses land, water, fertiliser and energy, so wasted food wastes all the resources used to grow, transport and package it.",
-        "Plan meals and buy only what will be eaten; use leftovers and freeze surplus food promptly.",
-        "Store food correctly: keep the fridge at or below 5 °C, and freeze food at -18 °C or below, which slows bacterial growth and preserves it.",
+        "Plan meals, shop with a list, check dates and stock, and buy only what will be eaten. Use leftovers and freeze surplus food promptly.",
+        "Store food correctly: keep the fridge at or below 5 °C and freeze food at -18 °C or below, which slows bacterial growth and spoilage and so cuts waste.",
+        "Compost food and garden waste or use the brown bin, so it is not sent to landfill."
+      ],
+      "tip": "Examiners ask how to reduce food waste: give practical steps such as a list and meal plan, checking dates and freezing leftovers, and say why each reduces waste."
+    },
+    {
+      "h": "Environmentally aware food shopping and diet",
+      "b": "What you choose to buy and eat, and how it is packaged and transported, also affects the environment. Small changes in the weekly shop add up.",
+      "points": [
         "Vegetables, pulses and cereals generally need less land, water and energy to produce than meat and dairy, so eating more plant-based foods lowers the environmental impact of the diet.",
-        "Seasonal and local food avoids the energy used for long-distance transport and for heated or refrigerated storage and growing.",
-        "Buy loose fruit and vegetables and products with minimal packaging, and use a reusable bag and containers for bulk and counter purchases."
-      ]
+        "Seasonal and local food avoids the energy used for long-distance transport and for heated or refrigerated growing and storage.",
+        "Buy loose fruit and vegetables and products with minimal packaging, and buy in bulk to reduce packaging.",
+        "Use reusable bags and containers for bulk and counter purchases, so fewer single-use bags are thrown away.",
+        "Buy refills and products in recycled or reusable packaging, and choose products with the Ecolabel.",
+        "Cutting the number of shopping trips reduces the fuel used for travel."
+      ],
+      "tip": "For environmentally aware shopping, give several distinct choices (loose produce, reusable bags, bulk, Ecolabel, list and meal plan) and a reason for each."
     },
     {
       "h": "Reading an appliance energy label",
+      "b": "The energy label lets you compare appliances before you buy, so you can choose the one that will use the least energy over its life.",
       "points": [
-        "The EU energy label rates an appliance from A to G for energy efficiency; A-rated appliances are the most efficient.",
-        "The label also shows the appliance's annual energy consumption and its noise level.",
+        "The EU energy label rates an appliance from A (most efficient) to G (least efficient) for energy efficiency, and this rescaled scale replaced the older A+++ to D scale in 2021, so do not compare old and new ratings.",
+        "The label also shows the appliance's annual or per-cycle energy consumption and its noise level.",
         "For washing machines and dishwashers, the label shows water use as well.",
-        "Choosing a model with a higher rating and the right capacity for the household gives the lowest energy use; an oversized appliance uses more energy than its load needs."
-      ]
+        "Choose a high rating and the right capacity for the household, because an oversized appliance uses more energy than its load needs.",
+        "Other criteria to look for are appliances that are repairable and durable, have little packaging, and offer eco and low-temperature programmes."
+      ],
+      "tip": "Older papers and schemes mention A+++, and A-rated in a scheme means the most efficient on the label. When you answer, use the A to G scale."
     },
     {
       "h": "Using appliances efficiently",
+      "b": "Even an efficient appliance wastes energy if it is used badly. Most savings come from small habits, which are easy to name in an exam answer.",
       "points": [
-        "Standby mode draws electricity continuously; switch appliances off at the socket, or use a switched power strip.",
-        "LED bulbs use much less power than incandescent bulbs and last much longer.",
-        "Use the oven only when needed, avoid preheating for longer than necessary, and use a microwave or slow cooker for small quantities.",
-        "Boil only the water needed in a kettle.",
-        "Clogged filters and dirty condenser coils make fridges and dryers use more energy; keep them clean.",
-        "A fridge set colder than necessary wastes energy, and a freezer that is not kept full uses more energy to stay cold.",
-        "Keeping a working appliance in use through servicing, repair or second-hand sale avoids the energy and materials needed to manufacture a replacement."
-      ]
+        "Standby is not off: the appliance still draws electricity continuously, so switch appliances off at the socket, or use a switched power strip.",
+        "LED bulbs use much less power than incandescent bulbs and last much longer. Older schemes say CFL for the energy-saving bulb.",
+        "Use the oven only when needed, avoid preheating for longer than necessary, and use a microwave, slow cooker or air fryer for small quantities. Use lids on pans.",
+        "Boil only the water needed in a kettle, so no energy is spent heating water you do not use.",
+        "Clogged filters and dirty condenser coils make fridges and dryers use more energy, so keep them clean and keep door seals sound.",
+        "A fridge set colder than necessary wastes energy. Keep the door closed and do not overpack it, and a freezer that is not kept full uses more energy to stay cold.",
+        "Use full loads and eco or cold cycles in washing machines and dishwashers."
+      ],
+      "tip": "Examiners ask how to be responsible with appliances. Organise your answer as choose, use and dispose, with at least one point under each."
+    },
+    {
+      "h": "Looking after and disposing of appliances",
+      "b": "Making an appliance take longer to wear out avoids the energy and materials needed to manufacture a new one. When it is finally finished with, how you get rid of it matters too.",
+      "points": [
+        "Keeping a working appliance in use through servicing, repair or second-hand sale avoids the energy and materials needed to manufacture a replacement.",
+        "Sell or donate a working appliance rather than replacing and discarding it.",
+        "Dispose of old appliances through the retailer take-back or a recycling centre, rather than putting them in the bin."
+      ],
+      "tip": "When disposal is asked, name the route: retailer take-back or a recycling centre."
     },
     {
       "h": "Water use in the home",
+      "b": "Saving water saves the energy used to pump, treat and heat it. Most savings come from fixing leaks and changing habits in the bathroom and garden.",
       "points": [
-        "Shorter showers use less hot water than baths, and so less energy is needed for heating.",
-        "Turning off the tap while brushing teeth and fixing dripping taps save water that would otherwise be wasted.",
+        "Showers use less hot water than baths, so short showers save both water and the energy needed for heating.",
+        "Turning off the tap while brushing teeth and fixing dripping taps and leaks save water that would otherwise be wasted. Aerator or sensor taps and efficient showerheads reduce flow further.",
         "A dual-flush toilet allows the smaller flush to be used for liquid waste, saving water with each flush.",
-        "Collecting rainwater in a butt provides free water for the garden."
-      ]
+        "Collecting rainwater in a butt provides free water for the garden, and grey water (used water from baths, sinks and washing machines) can be reused.",
+        "Insulating the cylinder and pipes and timing the immersion save water-heating energy, and solar thermal heating can supply hot water."
+      ],
+      "tip": "For water management, give several named strategies (shorter showers, repairing leaks, dual-flush toilets, rainwater harvesting, solar water heating, lagging, timed immersion) and say why each saves water or energy."
     }
   ],
   "keyTerms": [
