@@ -5001,7 +5001,7 @@ function crunchPageNote() {
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=2" };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=2", pe: "./pe-crunch.js?v=1" };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 
@@ -5027,7 +5027,8 @@ function crunchStats(data, need) {
   return { hidden, total, savedHours: saved / 60, allHours: all / 60 };
 }
 
-const crunchHours = (h) => (h > 0 && h < 1 ? "<1" : String(Math.round(h)));
+// Share of the course's study time that Crunch Mode cuts
+const crunchCut = (st) => (st.savedHours > 0 && st.savedHours < st.allHours / 100 ? "<1" : String(Math.round((100 * st.savedHours) / st.allHours)));
 
 function crunchReadoutHtml(data, s) {
   const need = crunchNeed(data, s);
@@ -5039,8 +5040,8 @@ function crunchReadoutHtml(data, s) {
     ? `Your ${escapeHtml(data.aac?.name || "coursework")} alone reaches ${s.grade}, so the notes can all go.`
     : `You need ${Math.round(need)}% on the written paper${withAac}. Crunch Mode hides ${st.hidden.toLocaleString("en-IE")} of ${st.total.toLocaleString("en-IE")} points, the ones the last ${data.years.length} papers rewarded least.`;
   return `
-    <p class="crunch-readout"><span class="crunch-hours">${crunchHours(need > 100 ? 0 : st.savedHours)}</span>
-      <span class="crunch-hours-unit">hours saved<small>of ${Math.round(st.allHours)} hours of notes</small></span></p>
+    <p class="crunch-readout"><span class="crunch-hours">${need > 100 ? 0 : crunchCut(st)}%</span>
+      <span class="crunch-hours-unit">of the course<small>cut from your study time</small></span></p>
     <p class="crunch-why">${why}</p>`;
 }
 
@@ -5053,12 +5054,13 @@ function crunchControlsHtml(data, s) {
       </div>
     </div>
     ${data.aac ? `
-    <label class="crunch-field">
-      <span class="crunch-label">Expected ${escapeHtml(data.aac.short || "AAC")} mark</span>
-      <span class="crunch-aac"><input id="crunchAac" type="number" min="0" max="100" step="1" inputmode="numeric" value="${Number(s.aac) || 0}"><span aria-hidden="true">%</span></span>
-    </label>` : ""}
+    <div class="crunch-field crunch-aac">
+      <label class="crunch-label" for="crunchAac">Expected ${escapeHtml(data.aac.short || "AAC")} mark <output id="crunchAacValue" for="crunchAac">${Number(s.aac) || 0}%</output></label>
+      <input id="crunchAac" type="range" min="0" max="100" step="5" value="${Number(s.aac) || 0}" style="--fill-n:${(Number(s.aac) || 0) / 100}">
+      <span class="crunch-ticks" aria-hidden="true"><span>0</span><span>50</span><span>100</span></span>
+    </div>` : ""}
     <div class="crunch-result" aria-live="polite">${crunchReadoutHtml(data, s)}</div>
-    <p class="crunch-foot">Study time counts about 40 words a minute of active learning.</p>`;
+    <p class="crunch-foot">The course is measured in study time, at about 40 words a minute of active learning.</p>`;
 }
 
 // The bar above the tiles, until the student sets Crunch Mode up
@@ -5074,7 +5076,9 @@ function crunchBarHtml() {
           <h2 class="crunch-hero"><span>Study less.</span> <span>Score more.</span></h2>
           <p>Cut ${title} down to what your grade needs.</p>
         </div>
-        <button class="crunch-go" type="button" data-crunch-go aria-expanded="${open}"><span>Crunch</span></button>
+        <button class="crunch-go" type="button" data-crunch-go aria-expanded="${open}" aria-label="Crunch">
+          <svg viewBox="0 -70.4 100 71.6" preserveAspectRatio="none" aria-hidden="true"><text x="0" y="0" textLength="100" lengthAdjust="spacingAndGlyphs">CRUNCH</text></svg>
+        </button>
       </div>
       ${open ? `
       <div class="crunch-setup" data-crunch-setup="draft">
@@ -5092,7 +5096,7 @@ function withCrunchTile(tilesHtml) {
   const data = crunchData(PAGE_SUBJECT), s = crunchSettings(PAGE_SUBJECT);
   if (!data || !s.set) return tilesHtml;
   const need = crunchNeed(data, s);
-  const meta = !s.on ? "Off" : need > 100 ? `${s.grade} · keeps everything` : `${s.grade} · saves ${crunchHours(crunchStats(data, need).savedHours)} h`;
+  const meta = !s.on ? "Off" : need > 100 ? `${s.grade} · keeps everything` : `${s.grade} · cuts ${crunchCut(crunchStats(data, need))}%`;
   const tile = `
     <li><a class="section-tile crunch-tile${crunchJustSet ? " is-new" : ""}" href="app/${PAGE_SUBJECT}/#crunch">${iconHtml("crunch")}<span>Crunch Mode<small>${meta}</small></span></a></li>`;
   crunchJustSet = false;
@@ -5180,8 +5184,11 @@ function bindCrunch() {
     if (event.target.closest("[data-crunch-cancel]")) { crunchDraft = null; repaintCrunchBar(); }
   });
   panel.addEventListener("input", (event) => {
-    if (event.target.id !== "crunchAac" || event.target.value === "") return;
-    updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { aac: Math.max(0, Math.min(100, Number(event.target.value) || 0)) });
+    if (event.target.id !== "crunchAac") return;
+    const aac = Math.max(0, Math.min(100, Number(event.target.value) || 0));
+    event.target.style.setProperty("--fill-n", aac / 100);
+    document.getElementById("crunchAacValue").textContent = `${aac}%`;
+    updateCrunchSetup(event.target.closest("[data-crunch-setup]"), { aac });
   });
   panel.addEventListener("change", (event) => {
     if (event.target.id !== "crunchOn") return;
