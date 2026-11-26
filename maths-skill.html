@@ -210,7 +210,12 @@ let LESSON = null;
 let crunchReveal = false;
 const crunch = (() => {
   let s = null;
-  try { s = JSON.parse(localStorage.getItem('bb-crunch') || '{}').maths } catch {}
+  // Same source as app.js crunchSettings: the signed-in student's account copy, else this browser's
+  try {
+    const app = JSON.parse(localStorage.getItem('bare-bones-app-v4') || '{}');
+    const user = app.usersByName?.[app.session?.currentUser];
+    s = (user?.crunch || JSON.parse(localStorage.getItem('bb-crunch') || '{}')).maths;
+  } catch {}
   const data = window.CRUNCH?.[MathsPacks.level === 'ordinary' ? 'maths-ordinary' : 'maths'];
   if (!s?.on || !data) return null;
   const PCT = { H1: 95, H2: 85, H3: 75, H4: 65, H5: 55, H6: 45, H7: 35, H8: 25 };

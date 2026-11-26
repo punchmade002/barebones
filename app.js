@@ -8,6 +8,10 @@ const isLocalMathsPreview = ["localhost", "127.0.0.1"].includes(window.location.
 // Localhost-only: ?preview=onboarding opens the first-run questionnaire without an account.
 const isLocalOnboardingPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
   && new URLSearchParams(window.location.search).get("preview") === "onboarding";
+// Localhost-only: ?preview=tour is a playable demo of sign-up → questionnaire → subject tour
+// (tour.js). Nothing reaches Supabase or localStorage; the demo user rides in sessionStorage.
+const isLocalTourPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
+  && new URLSearchParams(window.location.search).get("preview") === "tour";
 // Localhost-only: ?preview=test opens the Test tab with a throwaway profile.
 const isLocalTestPreview = ["localhost", "127.0.0.1"].includes(window.location.hostname)
   && new URLSearchParams(window.location.search).get("preview") === "test";
@@ -358,6 +362,12 @@ if (isLocalOnboardingPreview) {
   const previewUsername = "onboarding-preview";
   state.usersByName[previewUsername] = createEmptyStudyUser(previewUsername);
   state.session.currentUser = previewUsername;
+}
+
+if (isLocalTourPreview) {
+  const demoUser = PAGE_SUBJECT ? JSON.parse(sessionStorage.getItem("bb_tour_user") || "null") : null;
+  if (demoUser) state.usersByName[demoUser.username] = demoUser;
+  state.session.currentUser = demoUser?.username || "";
 }
 
 if (isLocalTestPreview) {
@@ -1082,6 +1092,7 @@ async function handleAuthEvent(event, session) {
 
 async function handleSignIn(event) {
   event.preventDefault();
+  if (isLocalTourPreview) return startTourPreview(els.signInEmail.value.split("@")[0]);
   if (!els.signInForm.reportValidity()) return;
   localStorage.setItem(
     pendingAuthEmailKey,
@@ -1108,6 +1119,7 @@ function welcomeName(user) {
 
 async function handleSignUp(event) {
   event.preventDefault();
+  if (isLocalTourPreview) return startTourPreview(els.signUpUsername.value);
   if (!els.signUpForm.reportValidity()) return;
   if (!passwordsMatch(els.signUpPassword, els.signUpPasswordConfirm)) return;
   const username = accountAuth.normalizeUsername(els.signUpUsername.value);
@@ -1284,7 +1296,7 @@ function showAuthMode(mode) {
     submit.textContent = "Secure my account";
     delete els.legacySetupForm.dataset.locked;
   } else if (mode === "signup") {
-    els.authTitle.textContent = "Start from zero. Build from there.";
+    els.authTitle.textContent = "A new type\u00a0of\u00a0study."; // non-breaking: wraps as "A new / type of study."
     els.authIntro.textContent = "Make an account to save progress across devices and recover your password.";
   } else if (mode === "details") {
     els.authTitle.textContent = "Your account.";
@@ -1551,9 +1563,35 @@ function showOnboarding(user, { editing = false } = {}) {
       // The preview profile is throwaway; saving it would surface as a legacy account.
       if (!isLocalOnboardingPreview) persist();
       renderAll();
+      if (!editing && result.startSubject) return startSubjectTour(current, result.startSubject);
       if (!editing) window.setTimeout(() => triggerLoginAnimation(welcomeName(current)), 420);
     },
   });
+}
+
+// The questionnaire's last answer: open that subject's page, where tour.js walks through its sections.
+// The study data is saved first so the answers survive the page change.
+function startSubjectTour(user, subjectId) {
+  sessionStorage.setItem("bb_tour", subjectId);
+  if (isLocalTourPreview) sessionStorage.setItem("bb_tour_user", JSON.stringify(user));
+  const saved = isLocalTourPreview || !activeAuthUserId ? Promise.resolve()
+    : accountAuth.saveStudyData(serializeStudyUser(user));
+  saved.catch((error) => console.error(error)).finally(() => {
+    location.href = `app/${subjectId}/${isLocalTourPreview ? "?preview=tour" : ""}`;
+  });
+}
+
+// Demo sign-in/up: any details work; the account only lives in this tab
+function startTourPreview(name) {
+  const username = String(name || "").trim().toLowerCase() || "student";
+  localStorage.removeItem(CRUNCH_KEY);
+  state.usersByName[username] = createEmptyStudyUser(username);
+  state.session.currentUser = username;
+  els.authPanel.classList.add("hidden");
+  document.body.classList.remove("auth-open");
+  setAuthBackgroundInert(false);
+  renderAll();
+  showOnboarding(getCurrentUser());
 }
 
 function findLocalUsername(username) {
@@ -1653,6 +1691,7 @@ function mergeStudyUser(localValue, remoteValue, preferLocal) {
       ? [...(local.disabledSubjects || [])]
       : [...(remote.disabledSubjects?.length ? remote.disabledSubjects : local.disabledSubjects || [])],
     onboarding: local.onboarding || remote.onboarding || null,
+    ...((local.crunch || remote.crunch) && { crunch: mergeCrunchSettings(local.crunch, remote.crunch) }),
   };
 }
 
@@ -1666,6 +1705,7 @@ function serializeStudyUser(user) {
     onboarding: user?.onboarding || null,
     ownCards: user?.ownCards, // left out until the first card, so an empty device can't wipe the synced ones
     testHistory: Array.isArray(user?.testHistory) ? user.testHistory : [],
+    crunch: user?.crunch, // Crunch Mode settings per subject (see crunchSettings)
   };
 }
 
@@ -4978,7 +5018,8 @@ function bindFullNotesPager() {
 // ── Crunch Mode: hide the note points a student doesn't need for their target grade (CRUNCH_MODE.md) ──
 // window.CRUNCH[subject] (from <subject>-crunch.js) gives each point the written-paper mark at which it is
 // first hidden, keyed "<outcome id>" → "<block>.<point>" ("b" = the block's paragraph).
-const CRUNCH_KEY = "bb-crunch";
+// The tour demo keeps its own Crunch settings (cleared at each demo sign-up), so it starts off and leaves yours alone
+const CRUNCH_KEY = isLocalTourPreview ? "bb-crunch-tour-demo" : "bb-crunch";
 const CRUNCH_GRADES = [["H1", 95], ["H2", 85], ["H3", 75], ["H4", 65], ["H5", 55], ["H6", 45], ["H7", 35], ["H8", 25]];
 let crunchReveal = false; // show hidden points, dimmed
 let crunchPage = { hidden: 0, crunched: 0, total: 0 }; // counted while the page's notes are built
@@ -4996,17 +5037,46 @@ function crunchData(subjectId = selectedSubjectId) {
   return window.CRUNCH?.[crunchOrdinary(subjectId) ? "maths-ordinary" : subjectId] || null;
 }
 
-function crunchSettings(subjectId = selectedSubjectId) {
+// Crunch settings live on the account (user.crunch, synced with the study data) once signed in.
+// This browser's copy is for signed-out use; an account with none yet adopts it once.
+function crunchDeviceSettings() {
   let all = {};
   try { all = JSON.parse(localStorage.getItem(CRUNCH_KEY) || "{}"); } catch {}
-  return { on: false, grade: "H2", aac: 80, ...(all[subjectId] || {}) };
+  return all;
 }
 
+function crunchAll() {
+  const user = getCurrentUser();
+  if (!user) return crunchDeviceSettings();
+  if (!user.crunch) user.crunch = crunchDeviceSettings();
+  return user.crunch;
+}
+
+function crunchSettings(subjectId = selectedSubjectId) {
+  return { on: false, grade: "H2", aac: 80, ...(crunchAll()[subjectId] || {}) };
+}
+
+let crunchSaveTimer = 0;
 function saveCrunchSettings(patch, subjectId = selectedSubjectId) {
-  let all = {};
-  try { all = JSON.parse(localStorage.getItem(CRUNCH_KEY) || "{}"); } catch {}
-  all[subjectId] = { ...crunchSettings(subjectId), ...patch };
-  try { localStorage.setItem(CRUNCH_KEY, JSON.stringify(all)); } catch {}
+  const all = crunchAll();
+  // `at` lets two devices' copies merge per subject, newest first (mergeCrunchSettings)
+  all[subjectId] = { ...crunchSettings(subjectId), ...patch, at: Date.now() };
+  if (!getCurrentUser()) {
+    try { localStorage.setItem(CRUNCH_KEY, JSON.stringify(all)); } catch {}
+    return;
+  }
+  // The grade and AAC controls save on every change; one save once they settle is enough
+  window.clearTimeout(crunchSaveTimer);
+  crunchSaveTimer = window.setTimeout(() => persist(), 400);
+}
+
+// Per subject, the most recently changed settings win (ties go to the first map given)
+function mergeCrunchSettings(...maps) {
+  const merged = {};
+  maps.forEach((map) => Object.entries(map || {}).forEach(([id, settings]) => {
+    if (settings && (!merged[id] || (settings.at || 0) > (merged[id].at || 0))) merged[id] = settings;
+  }));
+  return merged;
 }
 
 // The written-paper mark needed: the AAC is marked separately, so the notes only have to cover the rest.
@@ -5267,8 +5337,10 @@ function crunchSettingsPageHtml() {
         <span class="crunch-switch-track" aria-hidden="true"></span>
         <span>Hide the ${crunchWords().unit} I don't need</span>
       </label>
-      <div class="crunch-setup" data-crunch-setup="saved">${crunchControlsHtml(data, s)}</div>
-      <p class="crunch-foot">${PAGE_SUBJECT === "maths" ? `Only the skills list changes. It has "${crunchWords().show}" to bring the hidden ones back, faded.` : `Only the notes and flashcards change. Each has "Show crunched points" to bring the hidden ones back, faded.`}</p>
+      <div class="crunch-more"><div>
+        <div class="crunch-setup" data-crunch-setup="saved">${crunchControlsHtml(data, s)}</div>
+        ${PAGE_SUBJECT === "maths" ? "" : `<p class="crunch-foot">Only the notes and flashcards change. Each has "Show crunched points" to bring the hidden ones back, faded.</p>`}
+      </div></div>
     </div>`;
 }
 
@@ -5291,7 +5363,7 @@ function repaintCrunchBar() {
 function updateCrunchSetup(setup, patch) {
   const draft = setup.dataset.crunchSetup === "draft";
   if (draft) Object.assign(crunchDraft, patch);
-  else saveCrunchSettings({ ...patch, on: true }, PAGE_SUBJECT);
+  else saveCrunchSettings({ ...patch, on: true, set: true }, PAGE_SUBJECT);
   const s = draft ? crunchDraft : crunchSettings(PAGE_SUBJECT);
   setup.querySelectorAll("[data-crunch-grade]").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.crunchGrade === s.grade)));
   const picked = new Set(Object.values(crunchPicks(crunchData(PAGE_SUBJECT), s) || {}).flat());
@@ -5359,7 +5431,8 @@ function bindCrunch() {
       return;
     }
     if (event.target.id !== "crunchOn") return;
-    saveCrunchSettings({ on: event.target.checked }, PAGE_SUBJECT);
+    // `set` keeps the Crunch tile on the subject page once it has been used here (the offer bar only shows while off)
+    saveCrunchSettings({ on: event.target.checked, set: true }, PAGE_SUBJECT);
     event.target.closest(".crunch-settings")?.classList.toggle("is-off", !event.target.checked);
   });
   els.fullNotesBody.addEventListener("click", (event) => {
@@ -5856,6 +5929,12 @@ function loadState() {
 }
 
 function persist(options = {}) {
+  // The demo must not leave an account behind: its user lives in this tab only
+  if (isLocalTourPreview) {
+    const demo = getCurrentUser();
+    if (demo) sessionStorage.setItem("bb_tour_user", JSON.stringify(demo));
+    return;
+  }
   localStorage.setItem(storageKey, JSON.stringify(state));
   if (options.sync !== false) scheduleRemoteStudySave();
 }
@@ -6514,6 +6593,8 @@ if (PAGE_SUBJECT) {
 }
 if (isLocalOnboardingPreview) {
   showOnboarding(getCurrentUser());
+} else if (isLocalTourPreview) {
+  if (!PAGE_SUBJECT) showAuthMode("signup");
 } else if (isLocalTestPreview) {
   if (!PAGE_SUBJECT) switchTab("test");
 } else if (!isLocalMathsPreview) {

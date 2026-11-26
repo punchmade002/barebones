@@ -6,7 +6,7 @@ const vm = require("node:vm");
 const { readPacks } = require("../scripts/subject-index.cjs");
 
 const root = path.resolve(__dirname, "..");
-const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "auth.js", "auth-config.js", "paper-archive.js"]);
+const SKIP_SCRIPTS = new Set(["app.js", "timer.js", "onboarding.js", "tour.js", "auth.js", "auth-config.js", "paper-archive.js"]);
 
 // Loads every local data script app.html loads, in the same order, plus the builder.
 // Subjects' own files load lazily in the app (subject-packs.js), so they go in

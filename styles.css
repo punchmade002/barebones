@@ -4957,7 +4957,8 @@ body.onboarding-open .timer-widget {
 
 .ob-rail {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; /* 5 steps when editing a plan, 6 for a new account */
   margin: 0;
   padding: 0;
   list-style: none;
@@ -5016,7 +5017,7 @@ body.onboarding-open .timer-widget {
 .ob-rail-track {
   position: relative;
   height: 4px;
-  margin: -0.4rem 10% 0;
+  margin: -0.4rem calc(50% / var(--steps, 5)) 0;
   border-radius: var(--r-full);
   background: var(--panel-3);
   overflow: hidden;
@@ -6197,9 +6198,35 @@ body.onboarding-open .timer-widget {
 }
 
 /* The Crunch Mode section: its settings */
-.crunch-settings { display: grid; gap: 1.4rem; }
-.crunch-settings .crunch-setup { transition: opacity var(--t) var(--ease); }
-.crunch-settings.is-off .crunch-setup { opacity: 0.45; }
+.crunch-settings { display: grid; } /* the space under the switch lives in .crunch-more, so it closes with it */
+/* Off: only the switch shows. On: the options slide open beneath it (rows 0fr → 1fr animates the height). */
+.crunch-more {
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.5s var(--ease), opacity 0.35s var(--ease) 0.1s, visibility 0s;
+}
+.crunch-more > div {
+  display: grid;
+  gap: 1.4rem;
+  min-height: 0;
+  overflow: hidden;
+  /* 1.4rem of space under the switch, plus 6px of room for focus rings and the slider thumb inside the clip */
+  padding: calc(1.4rem + 6px) 6px 6px;
+  margin: -6px;
+  transition: padding 0.45s var(--ease), margin 0.45s var(--ease);
+}
+.crunch-more > div > * { transition: transform 0.5s var(--ease); }
+.crunch-settings.is-off .crunch-more {
+  grid-template-rows: 0fr;
+  opacity: 0;
+  visibility: hidden; /* out of the tab order and screen readers while closed */
+  transition: grid-template-rows 0.45s var(--ease), opacity 0.2s var(--ease), visibility 0s 0.45s;
+}
+.crunch-settings.is-off .crunch-more > div { padding-block: 0; margin-block: 0; }
+.crunch-settings.is-off .crunch-more > div > * { transform: translateY(-10px); }
+@media (prefers-reduced-motion: reduce) {
+  .crunch-more, .crunch-more > div > * { transition: none !important; }
+}
 
 @media (prefers-reduced-motion: reduce) {
   .crunch-bar .crunch-setup, .crunch-tile.is-new,
@@ -6360,7 +6387,10 @@ body.onboarding-open .timer-widget {
 #fullNotesScreen .full-notes-body .note-block.is-crunched .is-crunched { opacity: 1; }
 #fullNotesScreen .full-notes-body li.is-crunched::marker { color: var(--muted); }
 
-#fullNotesScreen .full-notes-body > .crunch-note:first-child { margin: 0 0 1.25rem; }
+/* Centred on the notes column and exactly as wide: the box keeps the notes' text size so its 68ch
+   matches theirs, and only the words inside shrink */
+#fullNotesScreen .full-notes-body > .crunch-note:first-child { margin: 0 auto 1.25rem; font-size: inherit; }
+#fullNotesScreen .full-notes-body > .crunch-note:first-child > * { font-size: 0.92rem; }
 
 .crunch-note {
   display: flex;
@@ -7712,3 +7742,206 @@ body { height: 100vh; height: 100dvh; }
 @keyframes skeleton-shimmer { to { background-position: -200% 0; } }
 @media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
 .study-card-footer[aria-hidden="true"] button { opacity: 0.5; pointer-events: none; }
+
+/* ── First-run subject tour (tour.js) ── */
+.tour {
+  position: fixed;
+  inset: 0;
+  z-index: 200; /* above the test screen and full notes it spotlights */
+  animation: ob-fade-in 0.35s var(--ease) both;
+}
+.tour.is-exiting { opacity: 0; transition: opacity 0.34s var(--ease); }
+/* The wrapper lets clicks through; the blocker (with its hole cut out) and the card take them */
+.tour { pointer-events: none; }
+.tour-catch, .tour-card { pointer-events: auto; }
+.tour-catch { position: absolute; inset: 0; }
+
+/* The cut-out: a rounded box whose huge shadow is the dimmed page. tour.js moves it every frame,
+   so it has no transitions, and its pulse is a separate ring that only fades (no repaint of the dim). */
+.tour-hole {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--r-md);
+  box-shadow: 0 0 0 200vmax rgba(26, 25, 22, 0.62), 0 0 0 3px var(--accent);
+  pointer-events: none;
+  will-change: transform, width, height;
+  transition: opacity 0.45s var(--ease);
+}
+/* Reading (the student scrolled the section) or a section shown bare: the spotlight fades away */
+.tour.is-reading .tour-hole,
+.tour.no-spot .tour-hole { opacity: 0; }
+.tour-hole::after {
+  content: "";
+  position: absolute;
+  inset: -9px;
+  border-radius: calc(var(--r-md) + 9px);
+  box-shadow: 0 0 0 6px rgba(250, 76, 6, 0.28);
+  animation: tour-ring 2.4s ease-in-out infinite;
+}
+@keyframes tour-ring { 50% { opacity: 0.25; } }
+
+.tour-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: min(400px, calc(100vw - 24px));
+  padding: 1.1rem 1.2rem 1.05rem;
+  border-radius: var(--r-lg);
+  background: var(--panel);
+  box-shadow: 0 24px 60px rgba(26, 25, 22, 0.28), 0 2px 6px rgba(26, 25, 22, 0.08);
+  transition: width 0.45s var(--ease), padding 0.45s var(--ease);
+}
+/* The welcome and finish cards, and a card whose section is being read: bigger, then back */
+.tour-card.is-big { width: min(540px, calc(100vw - 24px)); padding: 1.6rem 1.7rem 1.5rem; }
+.tour-card.is-big .tour-title { font-size: clamp(1.6rem, 4vw, 2.15rem); }
+.tour-card.is-big .tour-body { font-size: 1.08rem; }
+.tour-card { will-change: transform; }
+/* Words swap while faded out, then rise back in one after another */
+.tour-card > * { transition: opacity 0.22s var(--ease), transform 0.32s var(--ease); }
+.tour-card > :nth-child(2) { transition-delay: 30ms; }
+.tour-card > :nth-child(3) { transition-delay: 60ms; }
+.tour-card.is-swapping > * { opacity: 0; transform: translateY(5px); transition-duration: 0.14s; transition-delay: 0s; }
+.tour-body { transition: opacity 0.14s var(--ease); }
+.tour-body.is-changing { opacity: 0; }
+.tour-next:disabled { opacity: 0.75; cursor: progress; }
+
+.tour-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.tour-skip {
+  width: auto;
+  padding: 0.2rem 0.4rem;
+  border: none;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.tour-skip:hover { color: var(--ink); }
+.tour-title {
+  margin: 0 0 0.3rem;
+  transition: font-size 0.45s var(--ease);
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+}
+.tour-title em { font-style: normal; color: var(--accent); }
+.tour-body {
+  margin: 0 0 1rem;
+  color: var(--ink-2);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.tour-foot {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.6rem;
+}
+/* Next on a feature's tile: skip the demo and go to the next feature */
+.tour-alt {
+  width: auto;
+  min-height: 48px;
+  padding: 0 1.2rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1.02rem;
+  font-weight: 650;
+  cursor: pointer;
+  transition: border-color var(--t) var(--ease), background var(--t) var(--ease);
+}
+.tour-alt:hover { border-color: var(--ink-2); background: var(--panel-2); }
+.tour-alt:focus-visible { outline: 3px solid var(--accent-light); outline-offset: 2px; }
+.tour-alt[hidden] { display: none; }
+.tour-next {
+  min-height: 48px; /* a comfortable tap target */
+  padding: 0 1.45rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.tour-next .ob-icon { width: 20px; height: 20px; }
+@media (max-width: 480px) {
+  .tour-next, .tour-alt { flex: 1 1 0; justify-content: center; min-height: 52px; }
+}
+
+/* Finish card: words, then the row of features, then one wide Start studying button */
+.tour.is-last .tour-skip { display: none; }
+.tour.is-last .tour-title { order: 1; }
+.tour.is-last .tour-body { order: 2; }
+.tour.is-last .tour-card-top { order: 3; justify-content: center; margin: 0.25rem 0 1.1rem; }
+.tour.is-last .tour-foot { order: 4; }
+.tour.is-last .tour-next { flex: 1 1 100%; justify-content: center; min-height: 58px; font-size: 1.15rem; }
+.tour.is-last .tour-rail li { width: 30px; height: 30px; }
+.tour.is-last .tour-rail .tile-icon svg { width: 18px; height: 18px; }
+
+/* One icon per section: lit while it's shown, faded once seen */
+.tour-rail {
+  display: flex;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tour-rail li {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--r-full);
+  color: var(--muted);
+  opacity: 0.45;
+  transition: color var(--t) var(--ease), background var(--t) var(--ease);
+}
+/* Reset the section-tile icon chip (layout.css) to a bare glyph */
+.tour-rail .tile-icon { display: block; width: auto; height: auto; padding: 0; border-radius: 0; background: none; color: inherit; }
+.tour-rail .tile-icon svg { width: 15px; height: 15px; display: block; }
+.tour-rail li.is-done { color: var(--accent-edge); opacity: 1; }
+.tour-rail li.is-current { color: #fff; background: var(--accent); opacity: 1; }
+
+/* Room at the bottom of a spotlit scroller while the card sits over it (tour.js sets the height) */
+.tour-reserve {
+  padding-bottom: var(--tour-reserve, 0px) !important;
+  transition: padding-bottom 0.3s var(--ease);
+}
+
+/* Demo only (?preview=tour) */
+.tour-restart {
+  position: fixed;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 210;
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.9rem 0.5rem 0.75rem;
+  border: 1.5px solid var(--line);
+  border-radius: var(--r-full);
+  background: var(--panel);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 650;
+  box-shadow: 0 6px 18px rgba(26, 25, 22, 0.14);
+  cursor: pointer;
+}
+.tour-restart:hover { border-color: var(--accent); color: var(--accent-strong); }
+.tour-restart svg { width: 16px; height: 16px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tour, .tour *, .tour-hole { animation: none !important; transition: none !important; }
+}

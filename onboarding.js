@@ -4,18 +4,11 @@
   // First-run questionnaire shown once after a new account is created.
   // Builds its own DOM; app.js supplies the subject list and persists the answers.
 
-  const ICONS = {
+  // UI glyphs. Subject icons come from dashboard.js's ICONS, the same ones as the subject tiles.
+  const OB_ICONS = {
     compass: '<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>',
     sprout: '<path d="M7 20h10"/><path d="M12 20v-9"/><path d="M12 11C12 7 9.5 5 5 5c0 4 2.5 6 7 6Z"/><path d="M12 11c0-3.5 2.2-6 7-6 0 4-2.4 6-7 6Z"/>',
     summit: '<path d="m3 20 6.5-11 4 6.5L16 12l5 8Z"/><path d="M9.5 9V3l4 1.5-4 1.5"/>',
-    business: '<rect x="2.5" y="7" width="19" height="13" rx="2.5"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M2.5 13h19"/>',
-    pe: '<path d="M22 12h-4l-3 8L9 4l-3 8H2"/>',
-    biology: '<path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>',
-    geography: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/>',
-    maths: '<path d="M18 7V4H6l6 8-6 8h12v-3"/>',
-    chemistry: '<path d="M9 2v6.5L4.2 17.4A3 3 0 0 0 6.8 22h10.4a3 3 0 0 0 2.6-4.6L15 8.5V2"/><path d="M7.5 2h9"/><path d="M6.5 15h11"/>',
-    "home-economics": '<path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 9.18 0A4 4 0 0 1 18 13.87V21H6Z"/><path d="M6 17h12"/>',
-    history: '<path d="M3 22h18"/><path d="M6 18v-7"/><path d="M10 18v-7"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M12 2 20 7H4Z"/>',
     book: '<path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>',
     check: '<polyline points="20 6 9 17 4 12"/>',
     close: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
@@ -55,11 +48,13 @@
     { id: "subjects", kicker: "Subjects", icon: "stack" },
     { id: "levels", kicker: "Levels", icon: "layers" },
     { id: "days", kicker: "Study days", icon: "calendar" },
-    { id: "priority", kicker: "Priority", icon: "target" },
   ];
 
+  // The subjects with full study tools (flashcards, notes, exam questions); the tour runs on one of these.
+  const TOUR_SUBJECTS = ["biology", "chemistry", "maths", "geography", "business", "history", "pe", "home-economics"];
+
   function icon(name, extraClass = "") {
-    const body = ICONS[name] || ICONS.book;
+    const body = OB_ICONS[name] || (typeof ICONS !== "undefined" && ICONS[name]) || OB_ICONS.book;
     return `<svg class="ob-icon ${extraClass}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${body}</svg>`;
   }
 
@@ -78,15 +73,14 @@
     const existing = document.getElementById("onboardingScreen");
     if (existing) existing.remove();
 
-    // Teachers aren't in a school year, so they never see that question.
-    const steps = teacher ? STEPS.filter((s) => s.id !== "year") : STEPS;
     const answers = {
       year: initial.year || "",
       subjects: Array.isArray(initial.subjects) ? [...initial.subjects] : [],
       levels: { ...(initial.levels || {}) },
       studyDays: Array.isArray(initial.studyDays) ? [...initial.studyDays] : [],
-      prioritySubject: initial.prioritySubject || "",
     };
+    // Teachers aren't in a school year, so they never see that question.
+    const steps = STEPS.filter((s) => !(teacher && s.id === "year"));
     let stepIndex = 0;
     let direction = 1;
 
@@ -102,7 +96,7 @@
         <span class="ob-blob ob-blob-b"></span>
         <span class="ob-blob ob-blob-c"></span>
       </div>
-      <div class="ob-frame">
+      <div class="ob-frame" style="--steps:${steps.length}">
         <header class="ob-head">
           <div class="ob-head-top">
             <img class="ob-logo" src="design_handoff_barebones_landing/assets/logo-wordmark.png" alt="barebones" />
@@ -134,13 +128,16 @@
 
     const subjectById = (id) => subjects.find((s) => s.id === id);
     const chosenSubjects = () => subjects.filter((s) => answers.subjects.includes(s.id));
+    // The tour's subject, picked for them: Biology if they take it, else another full-course subject they take,
+    // else Maths (it has no flashcards or notes yet), else Biology anyway so everyone gets the tour.
+    const TOUR_ORDER = ["biology", ...TOUR_SUBJECTS.filter((id) => id !== "biology" && id !== "maths"), "maths"];
+    const tourSubject = () => TOUR_ORDER.find((id) => answers.subjects.includes(id) && subjectById(id)) || "biology";
 
     function isStepValid(id) {
       if (id === "year") return Boolean(answers.year);
       if (id === "subjects") return answers.subjects.length > 0;
       if (id === "levels") return true;
       if (id === "days") return answers.studyDays.length > 0;
-      if (id === "priority") return Boolean(answers.prioritySubject);
       return true;
     }
 
@@ -153,7 +150,6 @@
         subjects: `${welcome}Which <em>subjects</em> are you taking?`,
         levels: `Which <em>level</em> for each?`,
         days: `Which <em>days</em> will you study?`,
-        priority: `What's your <em>biggest priority</em> right now?`,
       }[id];
     }
 
@@ -163,7 +159,6 @@
         subjects: "Pick every one you sit. You can change this later.",
         levels: "Everything starts at Higher. Tap to switch to Ordinary.",
         days: "Choose the days that work. Little and often wins.",
-        priority: "We'll put this one front and centre when you sign in.",
       }[id];
     }
 
@@ -232,21 +227,6 @@
         <p class="ob-meta"><span class="ob-meta-num">${set.size}</span> day${set.size === 1 ? "" : "s"} a week</p>`;
       }
 
-      if (id === "priority") {
-        return `<div class="ob-grid ob-grid-subjects" role="radiogroup" aria-label="Priority subject">
-          ${chosenSubjects().map((s, i) => {
-            const on = answers.prioritySubject === s.id;
-            const level = answers.levels[s.id] === "ordinary" ? "Ordinary" : "Higher";
-            return `<button type="button" class="ob-tile ob-tile-subject ob-tile-priority ${on ? "is-on" : ""}"
-                role="radio" aria-checked="${on}" data-priority="${s.id}" style="--i:${i}">
-              <span class="ob-tile-icon">${icon(s.id)}</span>
-              <span class="ob-tile-label">${escapeText(s.title)}</span>
-              <span class="ob-tile-hint">${level}</span>
-              <span class="ob-tick">${icon("target")}</span>
-            </button>`;
-          }).join("")}
-        </div>`;
-      }
       return "";
     }
 
@@ -296,7 +276,7 @@
       if (!panel) return;
       const body = panel.querySelector(".ob-body");
       const active = document.activeElement;
-      const key = active && ["year", "subject", "level", "day", "priority", "preset"]
+      const key = active && ["year", "subject", "level", "day", "preset"]
         .map((k) => active.dataset?.[k] ? `[data-${k}="${active.dataset[k]}"]` : "")
         .find(Boolean);
       body.innerHTML = bodyFor(steps[stepIndex].id);
@@ -314,10 +294,6 @@
       stepIndex = target;
       // Keep downstream answers consistent with the subject list.
       answers.subjects = answers.subjects.filter((id) => subjectById(id));
-      if (!answers.subjects.includes(answers.prioritySubject)) answers.prioritySubject = "";
-      if (steps[stepIndex].id === "priority" && !answers.prioritySubject && answers.subjects.length === 1) {
-        answers.prioritySubject = answers.subjects[0];
-      }
       renderStep();
     }
 
@@ -331,7 +307,9 @@
         subjects: [...answers.subjects],
         levels,
         studyDays: DAYS.map((d) => d.id).filter((d) => answers.studyDays.includes(d)),
-        prioritySubject: answers.prioritySubject,
+        prioritySubject: tourSubject(),
+        // Only a new account goes on to the tour; editing the plan just saves it
+        ...(!editing && { startSubject: tourSubject() }),
         completedAt: new Date().toISOString(),
       };
       showDone(result);
@@ -356,7 +334,7 @@
             <span class="ob-chip" style="--i:2">${icon("calendar")}${escapeText(dayNames.join(" · "))}</span>
             <span class="ob-chip ob-chip-hot" style="--i:3">${icon(priority?.id || "target")}${escapeText(priority?.title || "")} first</span>
           </div>
-          <button type="button" class="ob-start" data-ob-start><span>${editing ? "Back to studying" : "Start studying"}</span>${icon("arrowRight")}</button>
+          <button type="button" class="ob-start" data-ob-start><span>${editing ? "Back to studying" : result.startSubject ? `Show me ${escapeText(subjectById(result.startSubject)?.title || "")}` : "Start studying"}</span>${icon("arrowRight")}</button>
         </div>`;
       const start = stage.querySelector("[data-ob-start]");
       window.setTimeout(() => start.focus({ preventScroll: true }), 300);
@@ -429,10 +407,6 @@
       if (t.dataset.preset) {
         const preset = DAY_PRESETS.find((p) => p.id === t.dataset.preset);
         if (preset) answers.studyDays = [...preset.days];
-        return refreshStep();
-      }
-      if (t.dataset.priority) {
-        answers.prioritySubject = t.dataset.priority;
         return refreshStep();
       }
     });
