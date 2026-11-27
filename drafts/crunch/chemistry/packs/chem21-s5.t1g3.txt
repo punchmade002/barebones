@@ -1,0 +1,281 @@
+MODE: links only (another package rates cost)
+TARGET chem21-s5: 5. Combustion and heats of combustion
+[chem21-s5.0.b] Burning is the everyday reaction that powers fires, cookers and engines. Chemists define it precisely, and then measure how much heat it gives out per mole of fuel, a quantity called the heat of combustion.
+[chem21-s5.0.0] Combustion is the reaction of a substance with oxygen, giving out heat (and usually light). It is always exothermic, which means it releases energy to the surroundings, so the temperature around it rises.
+[chem21-s5.0.1] Complete combustion happens in plenty of oxygen: all the carbon becomes carbon dioxide and all the hydrogen becomes water. For hydrocarbons (compounds of only carbon and hydrogen) and alcohols the only products are CO₂ and H₂O.
+[chem21-s5.0.2] Incomplete combustion happens in limited oxygen. It also gives carbon monoxide (a toxic gas) and soot (carbon), and releases less energy because less of the fuel is fully oxidised, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).
+[chem21-s5.0.3] Standard heat of combustion, ΔHc°: the enthalpy change (the heat change at constant pressure) when one mole of a substance is completely burned in excess oxygen under standard conditions (25 °C, 101.3 kPa). It is always negative, because combustion is exothermic.
+[chem21-s5.0.4] Because it is per mole of the substance burned, the equation for a heat of combustion has 1 mol of fuel, so fractions of O₂ may be needed, e.g. C₂H₆(g) + 3½O₂(g) → 2CO₂(g) + 3H₂O(l), ΔHc = −1560 kJ mol⁻¹.
+[chem21-s5.0.5] The same equation doubled, 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, has ΔH = −3120 kJ, because twice as many moles of fuel burn and so twice as much heat is released.
+[chem21-s5.1.b] Every complete combustion equation can be balanced by the same five steps. The order matters: carbon first, hydrogen second, and oxygen last, because oxygen appears in more than one product.
+[chem21-s5.1.0] Step 1: write the formula of the fuel and the products CO₂ and H₂O.
+[chem21-s5.1.1] Step 2: balance carbon. The number of CO₂ equals the number of C atoms in the fuel, since each CO₂ holds one carbon.
+[chem21-s5.1.2] Step 3: balance hydrogen. The number of H₂O equals half the number of H atoms in the fuel, since each H₂O holds two hydrogens.
+[chem21-s5.1.3] Step 4: balance oxygen last. Count the O atoms in the products, subtract any O already in the fuel (one for an alcohol), and divide by two for the number of O₂, since each O₂ molecule holds two O atoms.
+[chem21-s5.1.4] Step 5: double everything if you want whole numbers, for example to remove a ½ in front of O₂.
+[chem21-s5.1.5] Check: count each type of atom on both sides, and add state symbols (fuel, O₂(g), CO₂(g), H₂O(l) under standard conditions). The (l) for water is because standard heats of combustion are measured with water as a liquid.
+[chem21-s5.2.b] Each family of compounds follows a pattern, so one general equation covers every member. Here n is the number of carbon atoms in the molecule. The range examined is hydrocarbons with no more than one double or triple bond, and primary alcohols (alcohols with the OH group on a carbon at the end of the chain) up to C6.
+[chem21-s5.2.0] Alkanes (hydrocarbons with only single bonds): CₙH₂ₙ₊₂ + ((3n + 1)/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.2.1] Alkenes (one C=C, a carbon-carbon double bond): CₙH₂ₙ + (3n/2) O₂ → nCO₂ + nH₂O.
+[chem21-s5.2.2] Alkynes (one C≡C, a carbon-carbon triple bond): CₙH₂ₙ₋₂ + ((3n − 1)/2) O₂ → nCO₂ + (n − 1)H₂O.
+[chem21-s5.2.3] Primary alcohols: CₙH₂ₙ₊₁OH + (3n/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.3.b] These are the complete combustion equations for the alkanes, alkenes and alkyne you may be asked for, with water as a liquid. Where the fuel needs a half-molecule of oxygen, the doubled form gives whole numbers.
+[chem21-s5.3.0] Methane: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem21-s5.3.1] Propane: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l), because 3 carbons give 3 CO₂ and 8 hydrogens give 4 H₂O.
+[chem21-s5.3.2] Butane: C₄H₁₀(g) + 6½O₂(g) → 4CO₂(g) + 5H₂O(l), or 2C₄H₁₀(g) + 13O₂(g) → 8CO₂(g) + 10H₂O(l).
+[chem21-s5.3.3] Ethene: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).
+[chem21-s5.3.4] Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).
+[chem21-s5.3.5] Ethyne: C₂H₂(g) + 2½O₂(g) → 2CO₂(g) + H₂O(l), or 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
+[chem21-s5.4.b] Each alcohol already contains one oxygen atom in its OH group, so it needs less O₂ from the air than the alkane with the same number of carbons. Step 4 above (subtract the O in the fuel) is what gives these numbers.
+[chem21-s5.4.0] Methanol: CH₃OH(l) + 1½O₂(g) → CO₂(g) + 2H₂O(l), or 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l).
+[chem21-s5.4.1] Ethanol: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), because the products hold 7 oxygen atoms, one of which comes from the ethanol, so 6 atoms (3 O₂) come from the air.
+[chem21-s5.4.2] Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem21-s5.4.3] Butan-1-ol: C₄H₉OH(l) + 6O₂(g) → 4CO₂(g) + 5H₂O(l).
+[chem21-s5.4.4] Pentan-1-ol: C₅H₁₁OH(l) + 7½O₂(g) → 5CO₂(g) + 6H₂O(l).
+[chem21-s5.4.5] Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l).
+[chem21-s5.5.b] These are the data values you are given and must be able to use to spot trends. Values are in kJ mol⁻¹ (kilojoules per mole) at 25 °C, with water as a liquid. All are negative because combustion is exothermic.
+[chem21-s5.5.0] Alkanes: methane −890; ethane −1560; propane −2220; butane −2877. For example, each is more negative than the one before it.
+[chem21-s5.5.1] Primary alcohols: methanol −726; ethanol −1367; propan-1-ol −2021; butan-1-ol −2676; pentan-1-ol −3331; hexan-1-ol −3984.
+[chem21-s5.5.2] Two-carbon compounds: ethane −1560; ethene −1411; ethyne −1300; ethanol −1367.
+[chem21-s5.5.3] Three-carbon compounds: propane −2220; propene −2058.
+[chem21-s5.6.b] In a homologous series (a family of compounds in which each member differs from the next by one CH₂ group), the heat of combustion changes in a very regular way. The reason lies in the bonds broken and formed for each extra CH₂.
+[chem21-s5.6.0] ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂, so more heat is released per mole of a longer molecule.
+[chem21-s5.6.1] For alkanes the increase is about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670 and 2877 − 2220 = 657.
+[chem21-s5.6.2] For primary alcohols the increase is about 640–655 kJ mol⁻¹, e.g. 1367 − 726 = 641 and 2021 − 1367 = 654.
+[chem21-s5.6.3] Each extra CH₂ group adds one C–C and two C–H bonds to break, and needs 1½ more O₂ molecules. It forms one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds).
+[chem21-s5.6.4] More energy is released by the new bonds formed than is needed to break the extra bonds, so each extra CH₂ makes ΔHc more negative.
+[chem21-s5.6.5] Because exactly the same extra bonds are broken and formed for every CH₂ added, the increase is nearly constant, so a graph of ΔHc against number of carbon atoms is a straight line.
+[chem21-s5.7.b] Bond enthalpies (the energy needed to break one mole of a given bond) let you put a number on the increase per CH₂. The regular straight-line trend also lets you predict a missing value.
+[chem21-s5.7.0] Bond enthalpy estimate per CH₂, using C–C 348, C–H 412, O=O 498, C=O 799 and O–H 463 kJ mol⁻¹: broken 348 + 2(412) + 1½(498) = 1919 kJ; formed 2(799) + 2(463) = 2524 kJ; difference −605 kJ.
+[chem21-s5.7.1] This estimate is for gaseous water. The measured increase is larger because the water formed is liquid, which means extra heat is released when the vapour condenses.
+[chem21-s5.7.2] The straight-line trend can be used to predict values, e.g. hexan-1-ol ≈ −3331 − 655 = −3986 kJ mol⁻¹, close to the data value of −3984 kJ mol⁻¹.
+[chem21-s5.8.b] An alcohol and the alkane with the same number of carbon atoms give the same CO₂ and H₂O, yet the alcohol releases less heat. The difference comes from the oxygen already inside the alcohol.
+[chem21-s5.8.0] A primary alcohol has a less negative ΔHc than the alkane with the same number of carbon atoms, e.g. ethanol −1367 against ethane −1560 kJ mol⁻¹, and methanol −726 against methane −890 kJ mol⁻¹.
+[chem21-s5.8.1] The alcohol molecule already contains an oxygen atom bonded to carbon and hydrogen (C–O–H), so it is already partly oxidised (it has already combined with some oxygen).
+[chem21-s5.8.2] It therefore needs less oxygen (ethanol 3 O₂, ethane 3½ O₂), and less energy is released on complete oxidation, although the same numbers of CO₂ and H₂O are formed.
+[chem21-s5.9.b] Comparing compounds with the same number of carbon atoms but different numbers of hydrogens shows a second pattern. Fewer hydrogens means less water formed.
+[chem21-s5.9.0] For the same number of carbon atoms, ΔHc becomes less negative in the order alkane, then alkene, then alkyne: ethane −1560, ethene −1411, ethyne −1300 kJ mol⁻¹.
+[chem21-s5.9.1] The alkene has two fewer hydrogen atoms than the alkane, and the alkyne four fewer, so fewer water molecules (fewer O–H bonds) are formed and less energy is released.
+[chem21-s5.9.2] The main reason is the fewer O–H bonds formed, not the C=C bond being harder to break.
+[chem21-s5.10.b] You can estimate a heat of combustion in the lab by burning an alcohol under a can of water and measuring how much the water warms up. This investigation uses primary alcohols to test how heat of combustion changes along a series.
+[chem21-s5.10.0] Aim: to estimate the heats of combustion of a series of primary alcohols (methanol, ethanol, propan-1-ol and butan-1-ol) using spirit burners (small lamps that burn liquid alcohol from a wick), and to compare them with standard values.
+[chem21-s5.10.1] Heat of combustion: the enthalpy change when one mole of a substance is completely burned in excess oxygen.
+[chem21-s5.10.2] Principle: the heat released by burning a measured mass of alcohol is absorbed by a known mass of water, so Q = m(water) × c × ΔT.
+[chem21-s5.10.3] Here c is the specific heat capacity of water (the heat needed to warm a given mass by one degree) and ΔT is the temperature rise, so Q is the heat the water has gained.
+[chem21-s5.10.4] ΔHc = −Q ÷ moles of alcohol burned. The negative sign is there because heat released by the burning alcohol means a negative enthalpy change.
+[chem21-s5.10.5] Hypothesis (the prediction being tested): the heat of combustion becomes more negative by a roughly constant amount for each extra CH₂ in the alcohol.
+[chem21-s5.11.b] For a fair test, only one thing is changed, one thing is measured, and everything else is kept the same.
+[chem21-s5.11.0] Independent variable (the one you change): the alcohol, i.e. the number of carbon atoms.
+[chem21-s5.11.1] Dependent variable (the one you measure): the heat released per mole, calculated from the mass of alcohol burned and the temperature rise of the water.
+[chem21-s5.11.2] Controlled (kept the same): the same volume (mass) of water, at the same starting temperature, so that the same heat gives the same temperature rise each time.
+[chem21-s5.11.3] Controlled: the same copper can, the same distance from wick to can, and the same wick length, so that the share of heat reaching the can is similar for every alcohol.
+[chem21-s5.11.4] Controlled: the same temperature rise (e.g. 20 °C), and the draught shield in the same position.
+[chem21-s5.12.b] The method is the same for every alcohol: heat a fixed mass of water with the burner, and find out from the change in the burner's mass how much alcohol was burned.
+[chem21-s5.12.0] Step 1: measure 100 cm³ (100 g) of water with a graduated cylinder into a copper can (calorimeter, a container used to measure heat changes).
+[chem21-s5.12.1] Step 2: clamp the can a fixed distance (about 2–3 cm) above the wick of the spirit burner, and surround both with a draught shield.
+[chem21-s5.12.2] Step 3: weigh the spirit burner containing the alcohol, with its cap on, on a balance reading to 0.01 g.
+[chem21-s5.12.3] Step 4: record the initial temperature of the water.
+[chem21-s5.12.4] Step 5: light the burner and stir the water gently with the thermometer or a stirrer.
+[chem21-s5.12.5] Step 6: when the temperature has risen by about 20 °C, put out the flame by replacing the cap, and record the highest temperature reached.
+[chem21-s5.12.6] Step 7: reweigh the burner with its cap at once. The mass burned is the initial mass minus the final mass.
+[chem21-s5.12.7] Step 8: repeat with each alcohol, using fresh water each time, and repeat each alcohol to check reproducibility (that you get similar results each time).
+[chem21-s5.13.b] The apparatus has several parts, and each one has a job in the method, so know every part and where it sits.
+[chem21-s5.13.0] Diagram: a copper can of water held by a clamp above a spirit burner, a thermometer and stirrer in the water, a draught shield around the burner and can, the burner on a heat-proof mat, and a balance for weighing the burner.
+[chem21-s5.14.b] Every feature of the set-up either gets more of the heat into the water or keeps the measurement of the alcohol burned accurate.
+[chem21-s5.14.0] Copper is a good conductor of heat, so heat passes quickly from the flame into the water.
+[chem21-s5.14.1] The draught shield reduces heat lost by air currents and keeps the flame steady.
+[chem21-s5.14.2] Capping the burner as soon as the flame is out, and weighing immediately, stops the volatile alcohol (one that evaporates easily) evaporating from the wick, which would otherwise be counted as burned.
+[chem21-s5.14.3] Stirring spreads the heat evenly, so the thermometer reading represents all the water.
+[chem21-s5.14.4] The same temperature rise and set-up for each alcohol make the heat losses similar, so the comparison between alcohols is fair even if the absolute values are low.
+[chem21-s5.14.5] A temperature rise of about 20 °C is large enough to measure accurately, but not so large that heat losses, which increase as the water gets hotter, become very large.
+[chem21-s5.15.b] The calculation has two parts: the heat absorbed by the water, then that heat divided by the moles of alcohol burned. Here it is for ethanol, using sample data.
+[chem21-s5.15.0] For each alcohol: 100 g (0.100 kg) of water heated through 20.0 °C gives Q = 0.100 × 4.18 × 20.0 = 8.36 kJ, using c(water) = 4.18 kJ kg⁻¹ K⁻¹.
+[chem21-s5.15.1] Ethanol (M = 46 g mol⁻¹, the molar mass): mass burned 0.63 g, so moles = 0.63 ÷ 46 = 0.0137 mol.
+[chem21-s5.15.2] Heat per mole = 8.36 ÷ (0.63 ÷ 46) = 610 kJ mol⁻¹, so ΔHc(experimental) = −610 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.15.3] Percentage error = (standard − experimental) ÷ standard × 100, e.g. ethanol (1367 − 610) ÷ 1367 × 100 = 55%.
+[chem21-s5.16.b] Repeating the calculation for all four alcohols gives a set of experimental values to compare with the standard ones.
+[chem21-s5.16.0] Methanol (M = 32 g mol⁻¹): 0.82 g burned, giving ΔHc = −326 kJ mol⁻¹.
+[chem21-s5.16.1] Propan-1-ol (M = 60 g mol⁻¹): 0.55 g burned, giving ΔHc = −912 kJ mol⁻¹.
+[chem21-s5.16.2] Butan-1-ol (M = 74 g mol⁻¹): 0.51 g burned, giving ΔHc = −1210 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.16.3] Standard values are −726, −1367, −2021 and −2676 kJ mol⁻¹; each experimental value is about 45% of the standard value.
+[chem21-s5.16.4] A graph of experimental ΔHc against number of carbon atoms is a straight line, like the standard values but less steep, so the trend is confirmed even though the values are too low.
+[chem21-s5.17.b] The experimental values come out far below the standard ones. A good answer says why each error makes the value too low, not just that it is a problem.
+[chem21-s5.17.0] Heat loss: much of the heat from the flame goes to the surrounding air rather than into the water; this is the main reason the values are much less negative than standard values.
+[chem21-s5.17.1] Heat absorbed by the copper can, thermometer and clamp is not included in Q, so less heat is measured in the water and the value is too small. It could be added as m(copper) × c(copper) × ΔT, with c(copper) ≈ 0.385 J g⁻¹ K⁻¹.
+[chem21-s5.17.2] Incomplete combustion: with limited air at the wick, some carbon forms soot, seen on the base of the can, and carbon monoxide, releasing less energy than complete combustion.
+[chem21-s5.17.3] Evaporation of alcohol from the wick: alcohol lost without burning is counted as burned, making the heat per mole too small.
+[chem21-s5.17.4] Non-standard conditions: standard values assume products at 25 °C with water as a liquid; in the experiment the water leaves as vapour, so its heat of condensation is not released into the can.
+[chem21-s5.17.5] Improvements to reduce heat loss: insulate the can and add a lid, reduce the distance between flame and can, and use a draught shield.
+[chem21-s5.17.6] Improvements to reduce other errors: ensure a good air supply for complete combustion, cap and weigh the burner immediately, and include the heat absorbed by the can.
+[chem21-s5.17.7] Accurate values are measured in a sealed calorimeter, which is not required here.
+[chem21-s5.18.b] Alcohols burn easily and methanol is poisonous, so the main precautions are about fire and fumes.
+[chem21-s5.18.0] Alcohols are highly flammable: keep bottles stoppered and away from flames, never refill a burner while it is lit or hot, and refill in a fume cupboard or away from flames.
+[chem21-s5.18.1] Methanol is toxic by swallowing, by skin contact and by inhaling its vapour; avoid skin contact and work in a well-ventilated room.
+[chem21-s5.18.2] Wear safety glasses, tie back long hair, stand the burner on a heat-proof mat, and let the copper can cool before handling it.
+
+CANDIDATES chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.

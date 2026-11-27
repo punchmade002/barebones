@@ -1,0 +1,74 @@
+{
+  "homeeconomics-pp-2013-HI-sectionb-consumerrights-Q5": {
+    "(a)": ["hom-sociological-concepts-s1", "hom-sociological-concepts-s2"],
+    "(b)": ["hom-family-society-s4", "hom-sociological-concepts-s5"],
+    "(c)": ["hom-family-law-s3", "hom-family-law-s5"]
+  },
+  "homeeconomics-pp-2013-HI-sectionc-housing-Q1": {
+    "(a)(i)": ["hom-housing-s3"],
+    "(a)(ii)": ["hom-housing-s4"],
+    "(a)(iii)": ["hom-housing-s4"],
+    "(b)(i)": ["hom-home-services-s8"],
+    "(b)(ii)": ["hom-home-services-s8"],
+    "(c)(i)": ["hom-home-interior-s2"],
+    "(c)(ii)": ["hom-home-interior-s2"]
+  },
+  "homeeconomics-pp-2013-HI-sectionc-clothingselection-Q2": {
+    "(a)(i)": ["hom-clothing-selection-s3"],
+    "(a)(ii)": ["hom-clothing-selection-s4"],
+    "(a)(iii)": ["hom-clothing-selection-s4"],
+    "(b)": ["hom-textiles-fibres-s4", "hom-textiles-fibres-s3"],
+    "(c)(i)": ["hom-clothing-selection-s6"],
+    "(c)(ii)": ["hom-clothing-selection-s6"]
+  },
+  "homeeconomics-pp-2013-HI-sectionc-personalfinance-Q3": {
+    "(a)(i)": ["hom-work-leisure-s3", "hom-work-leisure-s1"],
+    "(a)(ii)": ["hom-work-leisure-s2"],
+    "(a)(iii)": ["hom-work-leisure-s1"],
+    "(b)(i)": ["hom-unemployment-poverty-s4"],
+    "(b)(ii)": ["hom-unemployment-poverty-s6"],
+    "(c)": ["hom-education-s3"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-proteins-A1": {
+    "(whole)": ["hom-proteins-s4"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-lipids-A2": {
+    "(a)": ["hom-lipids-s5"],
+    "(b)": ["hom-digestion-metabolism-s3"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-energynutrition-A3": {
+    "(a)": ["hom-energy-nutrition-s6"],
+    "(b)": ["hom-energy-nutrition-s6"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-dairyeggs-A4": {
+    "(a)": ["hom-dairy-eggs-s2"],
+    "(b)": ["hom-food-additives-s1"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-foodadditives-A5": {
+    "(a)": ["hom-food-additives-s6"],
+    "(b)": ["hom-food-additives-s6"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-foodsafety-A6": {
+    "(a)": ["hom-food-safety-s4"],
+    "(b)": ["hom-food-safety-s5"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-foodsafety-A7": {
+    "(a)": ["hom-food-industry-s3"],
+    "(b)": ["hom-food-safety-s8"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-foodadditives-A8": {
+    "(whole)": ["hom-food-additives-s4"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-appliancesequipment-A9": {
+    "(whole)": ["hom-appliances-equipment-s5"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-personalfinance-A10": {
+    "(whole)": ["hom-resource-management-s2"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-personalfinance-A11": {
+    "(whole)": ["hom-personal-finance-s1"]
+  },
+  "homeeconomics-pp-2005-HI-sectiona-housing-A12": {
+    "(whole)": ["hom-housing-s1"]
+  }
+}

@@ -1,0 +1,60 @@
+MODE: cost and links
+TARGET chem1-s1: 1. How science works: ideas and models
+[chem1-s1.0.b] Scientific knowledge is built from observations and evidence, and everyday words such as "theory" and "law" have a much more precise meaning in science. Learning the exact meanings lets you describe how science works.
+[chem1-s1.0.0] Observation: information gathered with the senses or with instruments. It is qualitative (a description, such as a colour change) or quantitative (a measurement with a number and a unit).
+[chem1-s1.0.1] Hypothesis: a testable, tentative explanation or prediction. It is tentative (not yet confirmed) because evidence from an experiment can support it or contradict it.
+[chem1-s1.0.2] Theory: a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations. Examples are the kinetic theory of matter (matter is made of moving particles) and collision theory (reactions happen when particles collide).
+[chem1-s1.0.3] Law: a statement, often mathematical, that describes what always happens under stated conditions. Examples are the law of conservation of mass (the total mass stays the same during a reaction) and Boyle's law (a law linking the pressure and volume of a gas).
+[chem1-s1.0.4] A law describes what happens; a theory explains why it happens. This is why a theory never turns into a law: they do different jobs, and a law is not a "proven theory".
+[chem1-s1.0.5] Evidence: data from observation and experiment that are used to support or reject a hypothesis or theory. Scientific knowledge rests on evidence, not on authority or opinion, so a claim is only as good as the data behind it.
+[chem1-s1.1.b] Scientists follow a recognisable sequence of steps, from first noticing something to sharing what they found. Each step exists so that the final conclusion rests on evidence that others can check.
+[chem1-s1.1.0] 1. Make observations and ask a question about what you have noticed.
+[chem1-s1.1.1] 2. Research what is already known, so that you do not repeat work or ignore existing evidence.
+[chem1-s1.1.2] 3. Form a hypothesis (a tentative explanation) and use it to make a prediction of what should happen if it is right.
+[chem1-s1.1.3] 4. Test the prediction with a fair, controlled experiment, in which only one factor is changed and the others are kept the same.
+[chem1-s1.1.4] 5. Analyse the data and draw a conclusion.
+[chem1-s1.1.5] 6. Accept, modify or reject the hypothesis, depending on whether the data support it.
+[chem1-s1.1.6] 7. Communicate the results so that others can check them.
+[chem1-s1.2.b] In practice the steps above are not completed once and then left behind. Real investigations loop back, and they need imagination as well as method.
+[chem1-s1.2.0] Scientists repeat, redesign and troubleshoot (find and fix faults in) experiments, so the cycle is iterative, meaning it is repeated and each pass improves on the last.
+[chem1-s1.2.1] Unexpected results often lead to new questions and new hypotheses, so a surprising result can open a new line of investigation.
+[chem1-s1.2.2] Creativity and imagination, as well as logic, are used to propose hypotheses and to design experiments and models, because no rule produces a good idea automatically.
+[chem1-s1.2.3] One reliable, reproducible result (one that others can obtain again) that contradicts a hypothesis can be enough to reject it, whereas agreeing results never prove a hypothesis absolutely.
+[chem1-s1.3.b] Scientific ideas are not fixed for ever. They change in a particular way, and that way is what makes science reliable.
+[chem1-s1.3.0] Scientific knowledge is tentative (provisional): it is the best explanation of the evidence available now, and it can change when new evidence appears.
+[chem1-s1.3.1] Ideas change when new observations do not fit the existing explanation, because an explanation has to account for everything observed.
+[chem1-s1.3.2] Ideas change when new technology or instruments allow measurements that were not possible before.
+[chem1-s1.3.3] Ideas change when a better explanation is proposed and tested against the evidence.
+[chem1-s1.3.4] A theory is refined or replaced only when the new idea explains all the old evidence as well as the new evidence; this is how science progresses.
+[chem1-s1.3.5] Long-standing, well-tested theories are durable. They are rarely discarded completely; they are modified or have their limits identified.
+[chem1-s1.4.b] The atom shows how ideas change. Each model of the atom was replaced or refined when new evidence did not fit the earlier one. A model here means a picture of the atom that explains what has been observed.
+[chem1-s1.4.0] Dalton (early 1800s): matter is made of tiny indivisible atoms (atoms that cannot be split), and atoms of the same element are identical. This was supported by the laws of chemical combination (rules for the masses in which elements combine).
+[chem1-s1.4.1] Thomson (1897) discovered the electron, a negatively charged particle, which showed that atoms are not indivisible. He proposed the plum pudding model, with negative electrons embedded in a sphere of positive charge.
+[chem1-s1.4.2] Rutherford (1911): his gold-foil experiment, carried out by Geiger and Marsden, showed that most of the atom is empty space with a tiny, dense, positive nucleus (the central core). This is the nuclear model.
+[chem1-s1.4.3] Bohr (1913) proposed that electrons move in fixed energy levels around the nucleus, which explained line emission spectra (the separate coloured lines of light that an element gives out when heated).
+[chem1-s1.4.4] The current orbital model describes electrons in orbitals, which are regions with a high probability of finding an electron. There is more on this in "Atomic structure: the nuclear model" and "The orbital model and electronic structure".
+[chem1-s1.5.b] Scientists are people, and people can unknowingly tilt results. Bias is a tendency, deliberate or not, to collect, interpret or present information so as to favour one outcome.
+[chem1-s1.5.0] Confirmation bias: expecting a particular result and then seeing it in the data.
+[chem1-s1.5.1] Selecting only the data that support a hypothesis, or using small or unrepresentative samples, introduces bias, because the results then do not reflect the whole picture.
+[chem1-s1.5.2] Funding or commercial interests, and personal or political beliefs, can introduce bias, for example when a result would benefit whoever paid for the study.
+[chem1-s1.5.3] Scientists reduce bias with fair tests that use controls (a comparison with nothing changed), repeats and random sampling (choosing subjects by chance), and with blind trials (where those taking part do not know which treatment they receive) where possible.
+[chem1-s1.5.4] Scientists also publish all results, including negative ones (results that do not support the hypothesis), declare funding and conflicts of interest, and invite independent checks by other scientists. There is more on this in "Science as a global enterprise and researching an issue".
+[chem1-s1.6.b] Much of chemistry is about things too small to see, such as atoms and molecules. Scientists use models to think about them. A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly.
+[chem1-s1.6.0] Physical models include ball-and-stick and space-filling molecular models, which are three-dimensional builds of a molecule that show how its atoms are arranged.
+[chem1-s1.6.1] Diagrams used as models include dot-and-cross diagrams (showing the electrons in bonds), energy-level diagrams and energy profile diagrams (showing how energy changes during a reaction).
+[chem1-s1.6.2] Mathematical models are equations, such as PV = nRT, which links the pressure, volume, amount and temperature of a gas.
+[chem1-s1.6.3] Symbolic models are chemical formulae and equations, which use symbols to stand for substances and reactions.
+[chem1-s1.6.4] Computer or digital simulations show particles and processes moving and changing, which a fixed diagram cannot do.
+[chem1-s1.6.5] A theory can also act as a model: the kinetic theory models matter as moving particles, and collision theory models how reactions happen.
+[chem1-s1.7.b] Models are used because they do things that direct observation cannot. They give us a way to picture, explain and test ideas.
+[chem1-s1.7.0] Models make the very small, the very large and the invisible understandable; a molecular model shows the shape of a molecule that is far too small to see.
+[chem1-s1.7.1] Models explain observations: the particle model (matter as tiny moving particles) explains why gases can be compressed but liquids cannot be compressed much.
+[chem1-s1.7.2] Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory (which treats electron pairs around an atom as repelling one another) predicts molecular shapes.
+[chem1-s1.7.3] Models help scientists communicate ideas to each other and to the public, because a shared picture is easier to discuss than an unseen object.
+[chem1-s1.8.b] A model is useful but never complete. Knowing where a model stops working is as important as knowing what it explains.
+[chem1-s1.8.0] Every model is a simplification: it leaves out detail and rests on assumptions, so it is never a perfect copy of reality.
+[chem1-s1.8.1] A model works only within a range of conditions; the ideal gas model fails at high pressure and low temperature, where real gases deviate from it.
+[chem1-s1.8.2] Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances, so they can mislead.
+[chem1-s1.8.3] Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question.
+[chem1-s1.8.4] The Bohr model (electrons in fixed energy levels) explains flame colours and line spectra but not the shapes of orbitals.
+[chem1-s1.8.5] Models are tested against evidence and are modified or replaced when they fail to explain new observations.

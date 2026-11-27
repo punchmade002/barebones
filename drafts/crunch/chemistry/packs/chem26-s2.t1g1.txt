@@ -1,0 +1,159 @@
+MODE: cost and links
+TARGET chem26-s2: 2. Theoretical, actual and percentage yield
+[chem26-s2.0.b] When a chemist makes a substance, the amount collected is almost never the amount the equation predicts. Three linked terms describe the amount made, the amount that was possible, and how the two compare.
+[chem26-s2.0.0] Yield is the amount of a product obtained from a reaction.
+[chem26-s2.0.1] Theoretical yield is the maximum amount of product that could be formed from the given amounts of reactants. It is calculated from the balanced equation, assuming the reaction goes to completion and all of the limiting reactant (the reactant that runs out first) becomes the desired product.
+[chem26-s2.0.2] Actual yield is the amount of product actually obtained, measured in practice, in the laboratory or in industry. It is what you weigh or measure at the end, not what the equation predicts.
+[chem26-s2.0.3] Percentage yield = (actual yield ÷ theoretical yield) × 100. It measures how efficiently reactants are converted into the desired product, so 100% would be perfect conversion.
+[chem26-s2.0.4] The actual and theoretical yields must be in the same units: both grams, both moles, or both gas volumes at the same temperature and pressure. Gas volumes change with temperature and pressure, so a comparison is only fair under the same conditions.
+[chem26-s2.1.b] Every yield question follows the same four steps. The theoretical yield comes from the equation and the amount of starting material; only the last step brings in what was actually collected.
+[chem26-s2.1.0] Step 1: Write the balanced equation, because the coefficients (the numbers in front of each formula) give the mole ratio between reactant and product.
+[chem26-s2.1.1] Step 2: Find the moles of the reactant that decides the amount of product, the one not in excess (excess means more than enough, so some is left over). Moles = mass ÷ molar mass.
+[chem26-s2.1.2] Step 3: Use the mole ratio to find the moles of product, then convert to grams (or a gas volume). This is the theoretical yield.
+[chem26-s2.1.3] Step 4: Percentage yield = actual ÷ theoretical × 100.
+[chem26-s2.2.b] Ethene is made by dehydrating ethanol (removing the elements of water from it). This example follows the four steps for a reaction with a 1 : 1 ratio and shows the yield worked out from a mass and then from a gas volume.
+[chem26-s2.2.0] Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O, and the preparation is in “Investigation: preparing ethene”.
+[chem26-s2.2.1] Moles of ethanol = 4.60 ÷ 46 = 0.100 mol (M of C₂H₅OH is 46 g mol⁻¹). The ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.
+[chem26-s2.2.2] Theoretical mass of ethene = 0.100 × 28 = 2.80 g (M of C₂H₄ is 28 g mol⁻¹).
+[chem26-s2.2.3] Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.
+[chem26-s2.2.4] A gas yield can also be compared by volume. One mole of gas occupies 22.4 L at STP (standard temperature and pressure), so 0.100 mol of ethene is 2.24 L at STP.
+[chem26-s2.2.5] If 1.50 L of ethene (at STP) were collected, the percentage yield would be (1.50 ÷ 2.24) × 100 = 67.0%.
+[chem26-s2.3.b] An ester is made by refluxing (boiling with a condenser so vapour returns to the flask) a carboxylic acid with an alcohol and an acid catalyst (a substance that speeds up the reaction without being used up). Here the ethanol is in excess, so the ethanoic acid decides the theoretical yield.
+[chem26-s2.3.0] Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained. The equation is CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem26-s2.3.1] Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol (M of CH₃COOH is 60 g mol⁻¹), so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).
+[chem26-s2.3.2] Theoretical mass = 0.100 × 88 = 8.80 g (M of CH₃COOC₂H₅ is 88 g mol⁻¹).
+[chem26-s2.3.3] Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.
+[chem26-s2.3.4] The yield is well below 100% mainly because esterification (making an ester) is reversible and reaches equilibrium, a balance in which reactants and products are both present. The preparation is in “Tests, reaction schemes and preparing an ester”.
+[chem26-s2.4.b] Aspirin is made from salicylic acid in a 1 : 1 ratio, so this is another single-step yield calculation. Here the product was dried and purified before weighing.
+[chem26-s2.4.0] Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138). One mole of salicylic acid gives one mole of aspirin.
+[chem26-s2.4.1] Moles of salicylic acid = 2.76 ÷ 138 = 0.0200 mol, so the theoretical yield is 0.0200 mol of aspirin.
+[chem26-s2.4.2] Theoretical mass of aspirin = 0.0200 × 180 = 3.60 g.
+[chem26-s2.4.3] 2.52 g of dry, recrystallised aspirin was obtained (recrystallised means purified by dissolving and letting crystals form again). The percentage yield = (2.52 ÷ 3.60) × 100 = 70.0%.
+[chem26-s2.5.b] Sometimes the percentage yield is given and you must find how much reactant to start with, or how much product will actually be collected. The calculation runs in the opposite direction, so the theoretical yield must be found first.
+[chem26-s2.5.0] Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?
+[chem26-s2.5.1] Because only 65.0% of the possible product is obtained, the theoretical yield needed is larger: 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.
+[chem26-s2.5.2] Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.
+[chem26-s2.5.3] Mass of ethanoic acid = 0.08741 × 60 = 5.24 g (M of CH₃COOH is 60 g mol⁻¹).
+[chem26-s2.5.4] To go from a percentage yield to an actual yield, use actual yield = theoretical yield × (percentage ÷ 100). For example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³.
+[chem26-s2.6.b] In practice the actual yield is almost always below the theoretical yield. There are several separate causes, some chemical and some to do with handling the product.
+[chem26-s2.6.0] The reaction may not go to completion. Many organic reactions are slow or reversible and reach equilibrium, for example esterification, so some reactant is left unconverted.
+[chem26-s2.6.1] Side reactions form other, unwanted products from the same reactants. For example, some ethanol forms other products instead of ethene, so less ethene is made.
+[chem26-s2.6.2] Product is lost during transfer, filtration, separation and purification. For example, some product stays dissolved in the solvent after recrystallisation, or sticks to glassware and filter paper.
+[chem26-s2.6.3] The reactants may be impure, so less of the real reactant is present than the mass suggests. A volatile product or reactant (one that evaporates easily) may also be lost as vapour.
+[chem26-s2.6.4] A percentage yield above 100% means the product is impure or not fully dry, for example still containing water or solvent. The true yield can never exceed 100%.
+[chem26-s2.7.b] Yield is not just a number in an exam question. It decides how much a process costs and how much waste it creates, and in multi-step syntheses (making a compound through a series of reactions) the losses add up.
+[chem26-s2.7.0] In industry, a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of. This links yield to sustainability (making products while using fewer resources and creating less waste).
+[chem26-s2.7.1] Pharmaceuticals (medicines) are made in many steps from simpler precursors (the starting compounds), so a low yield at each step makes the overall yield very small. There is more on this in “Organic products and pharmaceuticals”.
+[chem26-s2.7.2] Overall yield of a multi-step synthesis = the product of the fractional yields of the steps, because each step only has what the one before delivered. For example, two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%.
+
+CANDIDATES chem26-s1: 1. Quantitative problems from balanced equations
+[chem26-s1.0.b] A balanced equation tells you more than which substances react: it tells you how much of each is involved. Using it to predict amounts is the subject of this whole subsection.
+[chem26-s1.0.0] Stoichiometry is the study of the quantitative relationships (the relationships in amounts) between the reactants and products in a chemical reaction, given by the balanced equation.
+[chem26-s1.0.1] The coefficients (the big numbers written in front of formulae in a balanced equation) give the ratio of moles, not of masses. A mole is the amount of substance containing 6.02 × 10²³ particles.
+[chem26-s1.0.2] Masses must therefore always be converted to moles before the ratio is used, because equal numbers of moles of different substances have different masses.
+[chem26-s1.1.b] Every quantitative problem on a balanced equation follows the same five steps: equation, convert to moles, use the ratio, convert back, check. Learn the steps in order and the problems all become the same problem.
+[chem26-s1.1.0] 1. Write the balanced equation. There is more on this in Formulae and balancing equations.
+[chem26-s1.1.1] 2. Convert the quantity you are given into moles. For a mass use n = m ÷ M, where M is the molar mass (the mass of one mole, in g mol⁻¹).
+[chem26-s1.1.2] 2. For a gas, use n = V ÷ 22.4, with V in litres at STP (standard temperature and pressure), because one mole of any gas at STP occupies 22.4 L.
+[chem26-s1.1.3] 2. For a solution, use n = c × V, where c is the concentration in mol L⁻¹ and V is the volume in litres.
+[chem26-s1.1.4] 3. Use the mole ratio from the equation to find the moles of the substance asked for: moles wanted = moles known × (coefficient of wanted ÷ coefficient of known).
+[chem26-s1.1.5] 4. Convert those moles into the quantity asked for. For a mass, m = n × M; for a gas, V = n × 22.4 L at STP.
+[chem26-s1.1.6] 4. For particles (atoms, molecules or ions), number of particles = n × 6.02 × 10²³.
+[chem26-s1.1.7] 5. Give the answer with units and to a sensible number of significant figures, usually 3, and check that it is reasonable.
+[chem26-s1.2.b] The simplest problem gives the mass of one substance and asks for the masses of others. Moles are the bridge between the two masses.
+[chem26-s1.2.0] Question: what masses of carbon dioxide and calcium oxide are produced when 25.0 g of calcium carbonate is heated strongly until it decomposes (breaks down) completely?
+[chem26-s1.2.1] Equation: CaCO₃(s) → CaO(s) + CO₂(g); the ratio CaCO₃ : CaO : CO₂ is 1 : 1 : 1.
+[chem26-s1.2.2] Moles of CaCO₃ = 25.0 ÷ 100 = 0.250 mol, using M = 100 g mol⁻¹.
+[chem26-s1.2.3] Moles of CO₂ = moles of CaO = 0.250 mol, because the ratio is 1 : 1 : 1.
+[chem26-s1.2.4] Mass of CO₂ = 0.250 × 44 = 11.0 g, because M of CO₂ is 44 g mol⁻¹.
+[chem26-s1.2.5] Mass of CaO = 0.250 × 56 = 14.0 g, because M of CaO is 56 g mol⁻¹.
+[chem26-s1.2.6] Check by conservation of mass (matter is neither created nor destroyed): 11.0 + 14.0 = 25.0 g, the mass of calcium carbonate.
+[chem26-s1.3.b] Gases are usually measured by volume, not mass. Here a mass of solid is converted into moles and then into a gas volume at STP.
+[chem26-s1.3.0] Question: what volume of hydrogen, measured at STP, is produced when 1.20 g of magnesium reacts with excess hydrochloric acid?
+[chem26-s1.3.1] Equation: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g); the ratio Mg : H₂ is 1 : 1.
+[chem26-s1.3.2] Moles of Mg = 1.20 ÷ 24 = 0.0500 mol.
+[chem26-s1.3.3] Moles of H₂ = moles of Mg = 0.0500 mol.
+[chem26-s1.3.4] Volume of H₂ = 0.0500 × 22.4 = 1.12 L, which is 1120 cm³, at STP.
+[chem26-s1.3.5] 'Excess' acid means there is more than enough acid, so all the magnesium reacts and the magnesium decides the amount of hydrogen.
+[chem26-s1.4.b] The same method runs in reverse when you are given a gas volume and asked for a mass. Start by getting the volume into litres.
+[chem26-s1.4.0] Question: what mass of hydrogen peroxide must decompose to give 560 cm³ of oxygen at STP?
+[chem26-s1.4.1] Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g); the ratio H₂O₂ : O₂ is 2 : 1.
+[chem26-s1.4.2] Convert the volume first, because 22.4 is in litres: 560 cm³ = 0.560 L.
+[chem26-s1.4.3] Moles of O₂ = 0.560 L ÷ 22.4 L mol⁻¹ = 0.0250 mol.
+[chem26-s1.4.4] Moles of H₂O₂ = 2 × 0.0250 = 0.0500 mol, because two moles of H₂O₂ are needed for each mole of O₂.
+[chem26-s1.4.5] Mass of H₂O₂ = 0.0500 × 34 = 1.70 g, because M of H₂O₂ is 34 g mol⁻¹.
+[chem26-s1.5.b] One known amount can give several answers, because every substance in the equation is linked to it by its own ratio. Here the known substance is propane, a fuel that burns completely in oxygen.
+[chem26-s1.5.0] Question: 8.80 g of propane burns completely in oxygen; calculate the mass of oxygen needed and the volume of carbon dioxide formed at STP.
+[chem26-s1.5.1] Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem26-s1.5.2] Moles of C₃H₈ = 8.80 ÷ 44 = 0.200 mol.
+[chem26-s1.5.3] Moles of O₂ = 5 × 0.200 = 1.00 mol, because the ratio C₃H₈ : O₂ is 1 : 5.
+[chem26-s1.5.4] Mass of O₂ = 1.00 × 32 = 32.0 g, because M of O₂ is 32 g mol⁻¹.
+[chem26-s1.5.5] Moles of CO₂ = 3 × 0.200 = 0.600 mol, because the ratio C₃H₈ : CO₂ is 1 : 3.
+[chem26-s1.5.6] Volume of CO₂ = 0.600 × 22.4 = 13.4 L at STP.
+[chem26-s1.5.7] Reacting gas volumes alone, all measured at the same temperature and pressure, can be found directly from the mole ratio without converting to moles. There is more on this in The mole and molar volume.
+[chem26-s1.6.b] A liquid is usually measured by volume, but the mole method needs a mass. Density, the mass per unit volume, links the two.
+[chem26-s1.6.0] For a liquid, find the mass from its volume and density first: m = ρ × V, where ρ (the Greek letter rho) is the density.
+[chem26-s1.6.1] Question: 5.00 cm³ of ethanol (density 0.789 g cm⁻³) burns completely; what mass of carbon dioxide forms?
+[chem26-s1.6.2] Mass of ethanol = 5.00 × 0.789 = 3.945 g.
+[chem26-s1.6.3] Moles of ethanol = 3.945 ÷ 46 = 0.08576 mol.
+[chem26-s1.6.4] Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), so moles of CO₂ = 2 × 0.08576 = 0.1715 mol.
+[chem26-s1.6.5] Mass of CO₂ = 0.1715 × 44 = 7.55 g.
+[chem26-s1.6.6] Keep an extra figure in intermediate values and round only at the end, so that rounding errors do not build up.
+[chem26-s1.7.b] In thermal decomposition (breaking a compound down by heating) a solid gives off gas and leaves a different solid behind. You can calculate both the residue (the solid left in the dish) and the gas.
+[chem26-s1.7.0] Question: 8.40 g of sodium hydrogencarbonate is heated until no more gas is given off; equation 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).
+[chem26-s1.7.1] Moles of NaHCO₃ = 8.40 ÷ 84 = 0.100 mol.
+[chem26-s1.7.2] Moles of Na₂CO₃ = 0.100 ÷ 2 = 0.0500 mol, because the ratio NaHCO₃ : Na₂CO₃ is 2 : 1.
+[chem26-s1.7.3] Mass of solid residue = 0.0500 × 106 = 5.30 g.
+[chem26-s1.7.4] Moles of CO₂ = 0.0500 mol, because the ratio NaHCO₃ : CO₂ is also 2 : 1.
+[chem26-s1.7.5] Volume of CO₂ = 0.0500 × 22.4 = 1.12 L at STP.
+[chem26-s1.8.b] Unit analysis is a way of checking a calculation as you do it: the units tell you whether you have used the right conversion. It also covers the unit conversions you need in these problems.
+[chem26-s1.8.0] Unit analysis (dimensional analysis): write the units with every number and multiply by conversion factors so that unwanted units cancel, leaving the unit asked for. If the units do not come out right, the method is wrong.
+[chem26-s1.8.1] 3.945 g × (1 mol ÷ 46 g) = 0.08576 mol of ethanol; the grams cancel, leaving moles.
+[chem26-s1.8.2] 0.08576 mol ethanol × (2 mol CO₂ ÷ 1 mol ethanol) × (44 g ÷ 1 mol CO₂) = 7.55 g of CO₂; the mol of ethanol and the mol of CO₂ cancel, leaving grams.
+[chem26-s1.8.3] Volume conversions: 1 L = 1000 cm³ = 1 dm³; 1 m³ = 1000 L.
+[chem26-s1.8.4] Mass conversions: 1 kg = 1000 g; 1 tonne = 1000 kg = 10⁶ g.
+[chem26-s1.8.5] Because the mole ratio is a ratio, masses can be scaled in any consistent unit: 100 g of CaCO₃ gives 56 g of CaO, so 1.00 tonne of CaCO₃ gives 0.560 tonnes of CaO.
+[chem26-s1.8.6] Common slip: using cm³ in n = V ÷ 22.4. The volume must be in litres.
+[chem26-s1.8.7] Common slips: using the Mr (relative molecular mass) of the wrong substance, and forgetting the mole ratio in step 3.
+[chem26-s1.9.b] Gravimetric analysis finds how much of a substance is in a sample by weighing. You turn the substance into a solid you can weigh accurately, then work backwards to the original amount.
+[chem26-s1.9.0] Gravimetric analysis is quantitative analysis by mass: the substance being measured is converted into a pure solid, usually an insoluble precipitate (a solid that forms in a solution), of known formula, which is separated, dried and weighed.
+[chem26-s1.9.1] 1. Weigh the sample accurately and dissolve it in deionised water (water with its dissolved ions removed, so it adds no ions of its own).
+[chem26-s1.9.2] 2. Add an excess of the precipitating reagent, e.g. silver nitrate solution for chloride ions or barium chloride solution for sulfate ions, so that all of the ion is precipitated.
+[chem26-s1.9.3] Silver chloride forms by Ag⁺(aq) + Cl⁻(aq) → AgCl(s), a white precipitate. Barium sulfate forms by Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s), a white precipitate.
+[chem26-s1.9.4] 3. Check that precipitation is complete by adding a drop more reagent to the clear liquid above the settled precipitate; no further cloudiness should appear.
+[chem26-s1.9.5] 4. Filter through a weighed filter paper or weighed sintered-glass crucible (a container with a porous glass base), and wash the precipitate with deionised water to remove soluble impurities, which would otherwise add to the mass.
+[chem26-s1.9.6] 5. Dry the precipitate in an oven, cool and weigh; repeat drying and weighing until the mass is constant, so that all water is removed.
+[chem26-s1.9.7] Diagram: filter funnel with folded filter paper in a conical flask, the precipitate on the paper and a wash bottle of deionised water beside it.
+[chem26-s1.10.b] Once you have the mass of dry precipitate, a short chain of mole calculations gives the amount in the original sample. Knowing which mistakes raise or lower the result lets you judge sources of error.
+[chem26-s1.10.0] Calculation: moles of precipitate → moles of the ion (from the formula) → mass of the ion or of the original compound → percentage of the sample.
+[chem26-s1.10.1] Safety: silver nitrate stains skin and barium compounds are toxic, so wear gloves and goggles.
+[chem26-s1.10.2] Silver chloride darkens (turns purple-grey) in bright light, so keep it out of direct sunlight.
+[chem26-s1.10.3] Losing precipitate through the filter paper gives a low result, because less solid is weighed than was formed.
+[chem26-s1.10.4] Not washing the precipitate, or not drying it to constant mass, gives a high result, because the extra impurities or water add to the mass.
+[chem26-s1.11.b] Here the precipitate is silver chloride, and the aim is to find how much of an impure sodium chloride sample is chlorine and how pure the sample is. All the numbers are sample data.
+[chem26-s1.11.0] Question: 0.500 g of impure sodium chloride was dissolved and treated with excess silver nitrate solution; the dry silver chloride weighed 1.148 g, with M of AgCl = 143.5 g mol⁻¹.
+[chem26-s1.11.1] Moles of AgCl = 1.148 ÷ 143.5 = 0.00800 mol.
+[chem26-s1.11.2] Moles of Cl⁻ = moles of NaCl = 0.00800 mol, because AgCl and NaCl each contain one Cl.
+[chem26-s1.11.3] Mass of chlorine = 0.00800 × 35.5 = 0.284 g.
+[chem26-s1.11.4] Chlorine in the sample = (0.284 ÷ 0.500) × 100 = 56.8% by mass.
+[chem26-s1.11.5] Mass of NaCl = 0.00800 × 58.5 = 0.468 g.
+[chem26-s1.11.6] Purity (the percentage of the sample that is the compound) = (0.468 ÷ 0.500) × 100 = 93.6%.
+[chem26-s1.12.b] The same chain of steps works for sulfate, this time precipitated as barium sulfate from a fertiliser. All the numbers are sample data.
+[chem26-s1.12.0] Question: 1.00 g of a fertiliser containing ammonium sulfate, (NH₄)₂SO₄, gave 1.60 g of dry barium sulfate, with M of BaSO₄ = 233 g mol⁻¹.
+[chem26-s1.12.1] Moles of BaSO₄ = 1.60 ÷ 233 = 6.867 × 10⁻³ mol.
+[chem26-s1.12.2] Moles of (NH₄)₂SO₄ = moles of BaSO₄ = 6.867 × 10⁻³ mol, because each formula unit contains one sulfate ion.
+[chem26-s1.12.3] Mass of (NH₄)₂SO₄ = 6.867 × 10⁻³ × 132 = 0.906 g.
+[chem26-s1.12.4] Percentage of (NH₄)₂SO₄ in the fertiliser = 90.6%.
+[chem26-s1.13.b] Combustion analysis finds the formula of an organic compound (one built on carbon) by burning it and weighing what comes off. It works because the carbon and hydrogen all end up in known products.
+[chem26-s1.13.0] When an organic compound of C, H and O burns completely, all its carbon ends up in CO₂ and all its hydrogen in H₂O.
+[chem26-s1.13.1] The masses of these products give the masses of C and H in the sample, and the oxygen is found by difference (the sample mass minus the masses of C and H).
+[chem26-s1.13.2] The empirical formula (the simplest whole-number ratio of atoms in the compound) is then found as in Formulae and balancing equations.
+[chem26-s1.14.b] This example follows the idea above from masses of products to a molecular formula. All the numbers are sample data.
+[chem26-s1.14.0] Data: 0.290 g of a compound containing only C, H and O burned completely to give 0.660 g of CO₂ and 0.270 g of H₂O; its Mr is 58.
+[chem26-s1.14.1] Moles of C = moles of CO₂ = 0.660 ÷ 44 = 0.0150 mol, because each CO₂ contains one C.
+[chem26-s1.14.2] Mass of C = 0.0150 × 12 = 0.180 g.
+[chem26-s1.14.3] Moles of H = 2 × moles of H₂O = 2 × (0.270 ÷ 18) = 0.0300 mol, because each H₂O contains two H. Mass of H = 0.0300 g.
+[chem26-s1.14.4] Mass of O = 0.290 − 0.180 − 0.0300 = 0.0800 g, found by difference.
+[chem26-s1.14.5] Moles of O = 0.0800 ÷ 16 = 0.00500 mol.
+[chem26-s1.14.6] Ratio C : H : O = 0.0150 : 0.0300 : 0.00500 = 3 : 6 : 1, so the empirical formula is C₃H₆O, with mass 58.
+[chem26-s1.14.7] Since Mr = 58, the molecular formula (the actual number of atoms in one molecule) is also C₃H₆O, for example propanone.

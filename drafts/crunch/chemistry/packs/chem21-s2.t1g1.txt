@@ -1,0 +1,469 @@
+MODE: cost and links
+TARGET chem21-s2: 2. Calculating ΔH and the heat of neutralisation
+[chem21-s2.0.b] Neutralisation gives out heat, and that heat can be measured with a thermometer. This experiment turns a temperature rise into an enthalpy change (ΔH, the heat change of a reaction) for hydrochloric acid reacting with sodium hydroxide.
+[chem21-s2.0.0] Aim: to determine the heat of neutralisation (ΔH) of hydrochloric acid by sodium hydroxide, using primary data (results you measure yourself in the experiment).
+[chem21-s2.0.1] Heat of neutralisation is the heat change when one mole of water is formed in the reaction between an acid and a base, i.e. one mole of H⁺ ions reacting with one mole of OH⁻ ions.
+[chem21-s2.0.2] Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l); ionic equation (showing only the ions that actually react): H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s2.0.3] ΔH is the heat change at constant pressure. The cup is open to the atmosphere, so the pressure stays constant during the reaction.
+[chem21-s2.0.4] The heat released by the reaction is absorbed by the solution, so the heat produced is found from the temperature rise of the solution: Q = m × c × ΔT (Q is the heat, m the mass of solution, c its specific heat capacity and ΔT the temperature rise).
+[chem21-s2.1.b] The method mixes equal amounts of acid and base in an insulated cup and records the highest temperature reached. Each step is there to give an accurate temperature rise.
+[chem21-s2.1.0] Step 1: using a graduated cylinder (or, more accurately, a burette or pipette), measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, which insulates the reaction.
+[chem21-s2.1.1] Step 2: measure 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker, so the two solutions stay separate until mixed.
+[chem21-s2.1.2] Step 3: allow both solutions to reach room temperature, then measure the temperature of each with a thermometer reading to 0.1 °C (or a temperature sensor).
+[chem21-s2.1.3] Step 4: rinse and dry the thermometer between the two measurements so no solution is carried across. If the two temperatures differ, take their average as the initial temperature.
+[chem21-s2.1.4] Step 5: add the sodium hydroxide to the acid quickly and all at once, put on the lid, and stir gently with the thermometer (or a stirrer).
+[chem21-s2.1.5] Step 6: record the highest temperature reached, because the heat produced is worked out from the biggest rise.
+[chem21-s2.1.6] Step 7: repeat the experiment and use the mean temperature rise, which reduces the effect of a single poor reading.
+[chem21-s2.1.7] Diagram: a polystyrene cup with a lid, a thermometer through the lid into the solution, a stirrer, and the cup standing in a beaker for support.
+[chem21-s2.2.b] Every detail of the method has a reason, and the exam asks for these reasons. Most of them are about stopping heat escaping or making a small temperature change easier to read.
+[chem21-s2.2.0] Polystyrene foam is a good insulator with a very low heat capacity, so little heat is lost to the surroundings or absorbed by the cup; glass or metal would conduct heat away and absorb heat.
+[chem21-s2.2.1] The lid reduces heat loss by convection (heat carried away by moving air) and evaporation.
+[chem21-s2.2.2] Moderately concentrated (1.00 M) solutions give a large enough temperature rise (about 7 °C) to measure accurately; with 0.1 M solutions the rise would be under 1 °C, and the percentage error in reading it would be very large.
+[chem21-s2.2.3] Equal amounts of acid and base (same volume and concentration) are used so that all of each reacts, so the moles of water formed is known.
+[chem21-s2.2.4] Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum temperature is recorded before heat is lost.
+[chem21-s2.2.5] A thermometer reading to 0.1 °C is needed because the temperature change is small.
+[chem21-s2.2.6] A burette or pipette measures volumes more accurately than a graduated cylinder.
+[chem21-s2.2.7] The disadvantage of adding the base slowly from a burette is that heat is lost while it is added.
+[chem21-s2.3.b] In the simple method, the mixture starts cooling as soon as it reaches its peak, so the highest reading is a little too low. A temperature–time graph corrects for this.
+[chem21-s2.3.0] Record the temperature of the acid every 30 s for a few minutes before mixing, then add the base at a recorded time.
+[chem21-s2.3.1] Record the temperature every 30 s for several minutes after mixing, so the whole rise and the cooling that follows are captured.
+[chem21-s2.3.2] After the maximum, the temperature falls gradually because heat is lost to the surroundings.
+[chem21-s2.3.3] Plot temperature against time and extrapolate (extend) the cooling line back to the time of mixing. The temperature rise read from the graph allows for heat lost while the mixture was warming up, giving a more accurate ΔT.
+[chem21-s2.3.4] Diagram: a temperature–time graph with a flat line before mixing, a sharp rise, a gently falling line after the maximum, and the falling line extended back to the time of mixing to give ΔT.
+[chem21-s2.4.b] To turn the temperature rise into ΔH, find the heat produced, then divide by the moles of water formed. Each step uses the total mass of the mixture, not the mass of acid alone.
+[chem21-s2.4.0] Data: 50.0 cm³ of 1.00 M HCl and 50.0 cm³ of 1.00 M NaOH; initial temperature 18.4 °C; maximum 25.0 °C.
+[chem21-s2.4.1] Temperature rise: ΔT = 25.0 − 18.4 = 6.6 °C = 6.6 K; a temperature change is the same in °C and K, so no conversion is needed.
+[chem21-s2.4.2] Mass of solution: 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg, assuming the density and specific heat capacity are those of water.
+[chem21-s2.4.3] Heat produced: Q = m × c × ΔT = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.6 K = 2.76 kJ.
+[chem21-s2.4.4] Moles of water formed = moles of HCl = 1.00 × 0.0500 = 0.0500 mol.
+[chem21-s2.4.5] Heat per mole: 2.76 kJ ÷ 0.0500 mol = 55.2 kJ mol⁻¹, because ΔH is defined per mole of water formed.
+[chem21-s2.4.6] The reaction gives out heat, so ΔH = −55.2 kJ mol⁻¹: Q is the heat gained by the solution, and ΔH is the heat lost by the reaction.
+[chem21-s2.4.7] Comparison: the accepted value for a strong acid with a strong base is about −57 kJ mol⁻¹; the experimental value is less negative mainly because some heat was lost to the surroundings and absorbed by the cup and thermometer.
+[chem21-s2.5.b] The result does not depend on which strong acid or base you use, but it does change for weak ones. Acids that release two H⁺ ions need extra care when counting moles.
+[chem21-s2.5.0] All strong acid–strong base neutralisations have almost the same ΔH, about −57 kJ mol⁻¹, because the acids and bases are fully dissociated (split completely into ions) and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators.
+[chem21-s2.5.1] With a weak acid (e.g. ethanoic acid) or a weak base (e.g. ammonia), ΔH is slightly less negative, because some energy is used to complete the dissociation of the weak acid or base as it reacts.
+[chem21-s2.5.2] With a diprotic acid (one that can give two H⁺ ions per molecule), count moles of water, not moles of acid: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem21-s2.5.3] Sample data: 25.0 cm³ of 2.00 M H₂SO₄ + 50.0 cm³ of 2.00 M NaOH, with ΔT = 17.8 K.
+[chem21-s2.5.4] Mass of solution = 75.0 cm³ (25.0 + 50.0) = 0.0750 kg, so Q = 0.0750 × 4.18 × 17.8 = 5.58 kJ.
+[chem21-s2.5.5] Moles of water = moles of NaOH = 2.00 × 0.0500 = 0.100 mol, so ΔH = −55.8 kJ mol⁻¹ per mole of water.
+[chem21-s2.5.6] Doubling the volumes of the same solutions gives the same ΔT: twice the moles react and twice the heat is produced, but it heats twice the mass of solution.
+[chem21-s2.6.b] The solutions are hazardous, and the experiment always gives a value that differs from the accepted one. Knowing which errors push the value which way lets you suggest improvements.
+[chem21-s2.6.0] Safety: 1.00 M hydrochloric acid and sodium hydroxide are corrosive (they damage skin and eyes), sodium hydroxide especially to the eyes; wear safety glasses and gloves and wipe up spills.
+[chem21-s2.6.1] Both bottles carry the GHS corrosion pictogram: liquid dripping from two test tubes onto a hand and a surface.
+[chem21-s2.6.2] Errors that make the value less negative: heat lost to the air and bench; heat absorbed by the cup and thermometer; not recording the true maximum temperature; solutions starting at different temperatures.
+[chem21-s2.6.3] Assumption error: the solution's density and specific heat capacity are taken as those of water.
+[chem21-s2.6.4] Improvements: use the temperature–time graph, a lid, two nested cups, a more precise thermometer or temperature sensor, and burettes or pipettes for volumes.
+[chem21-s2.7.b] An enthalpy change varies with the conditions it is measured in. So chemists agree one set of conditions, so that values from different reactions can be compared fairly.
+[chem21-s2.7.0] Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.
+[chem21-s2.7.1] Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa).
+[chem21-s2.7.2] Solutions have a concentration of 1 mol L⁻¹, and each substance is in its standard state, its normal physical state under these conditions, e.g. water as a liquid and carbon as graphite.
+[chem21-s2.7.3] A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °), so the symbol shows the value refers to standard conditions.
+[chem21-s2.7.4] IUPAC (the international chemistry body) now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.
+[chem21-s2.7.5] Standard conditions are not s.t.p. (standard temperature and pressure: 0 °C, 273 K and 101.3 kPa), which is used for gas volumes. There is more on this in Molar volume and Avogadro's law.
+[chem21-s2.8.b] The neutralisation experiment and the zinc and copper(II) sulfate example below both follow the same five steps. The idea is to use the temperature change of a known mass of water or solution to find the heat, then scale to one mole.
+[chem21-s2.8.0] Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.
+[chem21-s2.8.1] Step 2: calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution in kg and ΔT is the temperature change in K or °C.
+[chem21-s2.8.2] Here c is the specific heat capacity of the water or solution, 4.18 kJ kg⁻¹ K⁻¹ for water.
+[chem21-s2.8.3] Step 3: calculate the moles of the reactant that reacted completely (the limiting reactant, the one that runs out first), using n = concentration × V (in L) for solutions or n = m ÷ M for solids and liquids.
+[chem21-s2.8.4] Step 4: heat per mole = Q ÷ n, in kJ mol⁻¹, scaled to the moles in the balanced equation if the heat of reaction is asked for.
+[chem21-s2.8.5] Step 5: give ΔH a sign: negative if the temperature rose (exothermic, giving out heat), positive if it fell (endothermic, taking in heat). Q is always positive; the sign of ΔH comes only from whether the temperature rose or fell.
+[chem21-s2.8.6] Specific heat capacity, c, is the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water it is 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹).
+[chem21-s2.8.7] Dilute solutions are assumed to have the same specific heat capacity as water and a density of 1.00 g cm⁻³, so 1 cm³ of solution is taken as 1 g.
+[chem21-s2.8.8] If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead.
+[chem21-s2.9.b] This displacement reaction (a more reactive metal pushing a less reactive one out of solution) is measured in the same way as neutralisation. The key extra step is choosing the limiting reactant.
+[chem21-s2.9.0] Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.
+[chem21-s2.9.1] Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s); ionic equation: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
+[chem21-s2.9.2] Zinc is in excess, so the copper(II) sulfate is the limiting reactant and fixes how much reacts.
+[chem21-s2.9.3] Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.
+[chem21-s2.9.4] Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.
+[chem21-s2.9.5] Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.
+[chem21-s2.9.6] The value is a little less negative than the accepted value because of heat losses. There is more on errors and improvements in Investigation: heat of neutralisation.
+[chem21-s2.10.b] A ΔH value is a heat per mole, so once you know it you can predict the heat for any amount of reactant. Work out the moles, then multiply.
+[chem21-s2.10.0] ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.
+[chem21-s2.10.1] Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; M(CH₄) = 16 g mol⁻¹, so 8.0 g of methane is 8.0 ÷ 16 = 0.50 mol.
+[chem21-s2.10.2] Burning 0.50 mol of methane releases 0.50 × 890 = 445 kJ, because half a mole gives half the heat of a full mole.
+[chem21-s2.10.3] Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹.
+[chem21-s2.11.b] An energy profile diagram is a graph of how the energy of a reaction changes as it goes from reactants to products. It shows both the overall heat change and the energy barrier the reaction has to climb.
+[chem21-s2.11.0] An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction, with energy on the vertical axis and progress of reaction (reaction pathway) on the horizontal axis.
+[chem21-s2.11.1] It shows the reactants' level, a hump rising to a maximum, and the products' level; unlike an enthalpy level diagram (which only compares the two levels), it shows this hump.
+[chem21-s2.11.2] The height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen. There is more on this in Catalysis and energy profiles.
+[chem21-s2.11.3] ΔH is the vertical difference between the reactants' and products' levels and does not depend on the height of the hump.
+[chem21-s2.11.4] Exothermic profile: products below reactants, ΔH is negative, and the energy released as bonds form is greater than the activation energy taken in.
+[chem21-s2.11.5] Endothermic profile: products above reactants, ΔH is positive, and the activation energy is larger than ΔH.
+[chem21-s2.11.6] Energy transfer: the energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making; the net difference is transferred as heat to the surroundings (exothermic) or from them (endothermic).
+[chem21-s2.11.7] Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products.
+
+CANDIDATES chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.

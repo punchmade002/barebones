@@ -1,0 +1,241 @@
+MODE: links only (another package rates cost)
+TARGET chem20-s2: 2. Water contamination
+[chem20-s2.0.b] Water covers most of the planet, yet very little of it can be drunk or used. Contamination (pollution of water by unwanted substances) removes even more of that small share.
+[chem20-s2.0.0] About 97.5% of the Earth's water is salt water in the oceans, which is unsuitable for drinking or farming; only about 2.5% is fresh water.
+[chem20-s2.0.1] Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater (water held in rock and soil that can be reached by wells).
+[chem20-s2.0.2] Fresh water is constantly recycled by the water cycle (evaporation, rainfall and run-off), but the amount available in a place at a time is limited, and demand rises with population, farming and industry.
+[chem20-s2.0.3] Contamination makes some of the available fresh water unusable, so there is even less to share between all these demands.
+[chem20-s2.1.b] Making water fit to drink, and cleaning it again after use, takes machinery, chemicals and electricity. Each of these has a cost to the energy supply and to the environment.
+[chem20-s2.1.0] Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it returns to rivers.
+[chem20-s2.1.1] Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, and sludge (the solid waste left after treatment) must be disposed of.
+[chem20-s2.1.2] Abstraction (taking water out of a river or lake) lowers the level of rivers and lakes, which affects the living things that depend on them.
+[chem20-s2.1.3] Leaking pipes waste treated water and the energy used to treat it, because water that is lost has already been pumped and cleaned.
+[chem20-s2.1.4] Making fresh water from sea water by desalination (removing the dissolved salts), e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.
+[chem20-s2.1.5] So conserving water, by fixing leaks and using less, also saves energy and reduces emissions.
+[chem20-s2.2.b] Fish breathe oxygen that is dissolved in the water, and only a little dissolves. Pollution that feeds bacteria uses that oxygen up, and biochemical oxygen demand (BOD) is the measure of how much.
+[chem20-s2.2.0] Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m., parts per million) of dissolved oxygen, and warmer water holds less.
+[chem20-s2.2.1] When organic matter (material from living things, such as sewage, slurry, food waste or dead plants) enters water, aerobic bacteria (bacteria that use oxygen) break it down, using up dissolved oxygen.
+[chem20-s2.2.2] Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days. It is measured in mg L⁻¹ (p.p.m.) of oxygen.
+[chem20-s2.2.3] A high BOD means a lot of organic pollution: the oxygen is used up and fish die (a fish kill). When the oxygen is gone, anaerobic bacteria (which live without oxygen) take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.
+[chem20-s2.2.4] Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage (sewage that has had no treatment) has a BOD of a few hundred mg L⁻¹ (about 300).
+[chem20-s2.2.5] Farm wastes such as silage effluent (the liquid that drains from stored fermented grass) and slurry (liquid animal manure) have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river.
+[chem20-s2.3.b] The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity. The conditions are fixed so that the only thing using up oxygen is the bacteria and the results can be compared.
+[chem20-s2.3.0] The sample is kept in the dark because this prevents photosynthesis by algae and plants from adding oxygen.
+[chem20-s2.3.1] The temperature is fixed at 20 °C because both the solubility of oxygen (how much dissolves in the water) and the rate of bacterial activity depend on temperature.
+[chem20-s2.3.2] The time is fixed at five days so that results are comparable.
+[chem20-s2.3.3] Step 1: Measure the dissolved oxygen in one bottle of the sample at the start.
+[chem20-s2.3.4] Step 2: Fill a second bottle completely and seal it, so no air can add oxygen, then keep it in the dark at 20 °C for five days.
+[chem20-s2.3.5] Step 3: Measure the dissolved oxygen in the second bottle after five days.
+[chem20-s2.3.6] Step 4: The BOD is the difference between the two dissolved oxygen readings, because that difference is the oxygen the bacteria used.
+[chem20-s2.3.7] Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation (keeping the sample under set conditions) in the dark at 20 °C for five days.
+[chem20-s2.4.b] Sewage is waste water from toilets, kitchens and washing. If it is untreated or poorly treated, it harms a river in three different ways.
+[chem20-s2.4.0] Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion (the water losing its dissolved oxygen).
+[chem20-s2.4.1] Sewage also contains nitrates and phosphates, which cause eutrophication (an overgrowth of algae caused by too many nutrients).
+[chem20-s2.4.2] Sewage contains disease-causing microorganisms, including bacteria such as E. coli and those causing cholera and typhoid, as well as viruses and parasites.
+[chem20-s2.4.3] Faecal contamination (contamination with human or animal faeces) of drinking water or bathing water causes gastrointestinal illness (illness of the stomach and gut); this is why sewage must be treated before discharge and drinking water disinfected.
+[chem20-s2.5.b] Effluent means liquid waste that flows out into the environment. Farms produce several kinds, and each can reach rivers through spills or run-off (water washing over land into streams).
+[chem20-s2.5.0] Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.
+[chem20-s2.5.1] Slurry and silage effluent have a very high BOD, so they use up the dissolved oxygen and cause fish kills if they reach a river.
+[chem20-s2.5.2] Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.
+[chem20-s2.5.3] Nitrate in drinking water is a health concern, especially for babies, because it can reduce the blood's ability to carry oxygen.
+[chem20-s2.5.4] The EU drinking-water limit for nitrate is 50 mg L⁻¹.
+[chem20-s2.5.5] Pesticides (chemicals that kill pests) washed off farmland can contaminate water and are toxic to aquatic life.
+[chem20-s2.6.b] Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants. It is a chain of events that starts with added nutrients and can end with the death of fish.
+[chem20-s2.6.0] Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.
+[chem20-s2.6.1] Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom (a thick layer of algae) that covers the surface and blocks light from plants below.
+[chem20-s2.6.2] Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply. Living algae growing in light do not use up the oxygen; the bacteria decomposing them after they die do.
+[chem20-s2.6.3] Step 4: Dissolved oxygen falls so low that fish and other animals die, and anaerobic bacteria then produce foul-smelling H₂S.
+[chem20-s2.6.4] Some algal blooms, e.g. of cyanobacteria ("blue-green algae"), also produce toxins harmful to animals and people.
+[chem20-s2.6.5] Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain (which would wash it into rivers), and buffer strips (strips of vegetation) along rivers.
+[chem20-s2.6.6] Prevention: proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, and phosphate-free detergents.
+[chem20-s2.7.b] Factories and power stations discharge waste water that can harm water in several ways: poisoning it, changing its pH, using up its oxygen or heating it.
+[chem20-s2.7.0] Industrial effluent can contain toxic chemicals such as heavy metals, solvents and oils.
+[chem20-s2.7.1] Industrial effluent can contain acids or alkalis that change the pH of the water, which harms the organisms living in it.
+[chem20-s2.7.2] Organic waste from industries such as breweries and food processing has a high BOD, because bacteria use oxygen to break it down.
+[chem20-s2.7.3] Thermal pollution (pollution by heat): warm water from power stations and factories holds less dissolved oxygen.
+[chem20-s2.7.4] Warm water also speeds up the metabolism (the chemical reactions of life), and so the oxygen demand, of organisms, so even less oxygen is available.
+[chem20-s2.7.5] Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals.
+[chem20-s2.8.b] Heavy metals are dense metals whose ions are poisonous to living things. Their danger lies in how they act inside cells and in how they build up over time.
+[chem20-s2.8.0] Heavy metal ions such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations, in micrograms per litre.
+[chem20-s2.8.1] Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes (the proteins that speed up reactions in cells), changing their shape and stopping them working.
+[chem20-s2.8.2] Heavy metals damage the nervous system, kidneys and liver.
+[chem20-s2.8.3] They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation).
+[chem20-s2.8.4] Their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.
+[chem20-s2.8.5] Heavy metal ions can be removed from water by precipitation (turning them into a solid that forms in the water) as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange (swapping the metal ions for harmless ions).
+[chem20-s2.9.b] Each of the three metals reaches water from a different source and harms the body in a particular way. Two Japanese disease outbreaks show what the harm can look like.
+[chem20-s2.9.0] Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic, because such water dissolves lead more readily.
+[chem20-s2.9.1] Lead damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺.
+[chem20-s2.9.2] The EU drinking-water limit for lead is 10 µg L⁻¹ (0.010 mg L⁻¹).
+[chem20-s2.9.3] At Minamata, Japan, the Chisso Corporation's chemical factory discharged mercury compounds into the bay.
+[chem20-s2.9.4] Methylmercury (an organic mercury compound) built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.
+[chem20-s2.9.5] The disease was called Minamata disease and was officially recognised in 1956.
+[chem20-s2.9.6] Cadmium comes from mining and some industries and damages the kidneys and bones.
+[chem20-s2.9.7] Itai-itai disease in Japan was caused by cadmium from mining, which reached river water used for rice fields.
+[chem20-s2.10.b] Plastic that breaks into tiny pieces does not disappear; it spreads through water and into living things. These small pieces are called microplastics.
+[chem20-s2.10.0] Microplastics are pieces of plastic smaller than 5 mm.
+[chem20-s2.10.1] Primary microplastics are made small, e.g. microbeads once used in cosmetics and plastic pellets.
+[chem20-s2.10.2] Secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.
+[chem20-s2.10.3] Plastics are very unreactive and not biodegradable (bacteria cannot break them down), so they persist for hundreds of years. There is more on this in Addition polymers.
+[chem20-s2.10.4] Microplastics are swallowed by plankton (tiny drifting organisms), shellfish and fish, blocking feeding and digestion, and they pass up the food chain.
+[chem20-s2.10.5] Microplastics can carry adsorbed toxic chemicals (chemicals stuck to their surface).
+[chem20-s2.10.6] Microplastics are found in drinking water and food; their long-term effects on human health are still being researched.
+[chem20-s2.11.b] Acidification is the lowering of the pH of water. Gases from burning fuels dissolve in rain to make acids, and acidic waste water adds to the effect.
+[chem20-s2.11.0] Sulfur dioxide dissolves in rain: SO₂ + H₂O → H₂SO₃.
+[chem20-s2.11.1] Sulfur dioxide and oxygen form sulfuric acid in rain: 2SO₂ + O₂ + 2H₂O → 2H₂SO₄.
+[chem20-s2.11.2] Nitrogen dioxide forms nitric acid in rain: 4NO₂ + O₂ + 2H₂O → 4HNO₃.
+[chem20-s2.11.3] Acidic industrial and mine waste water also lowers the pH of rivers and lakes.
+[chem20-s2.11.4] Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH.
+[chem20-s2.12.b] Low pH harms water life directly, through enzymes, and indirectly, by dissolving substances from rocks, shells and pipes.
+[chem20-s2.12.0] Enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells.
+[chem20-s2.12.1] Fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.
+[chem20-s2.12.2] Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so that fish can't take in oxygen.
+[chem20-s2.12.3] Acidic water dissolves the calcium carbonate shells of snails and shellfish: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.
+[chem20-s2.12.4] In drinking water, acidic water dissolves lead and copper from pipes.
+
+CANDIDATES chem15-s1: 1. Redox titrations and iron tablets
+[chem15-s1.0.b] A titration (adding one solution from a burette to a measured volume of another until they have exactly reacted) can be used for redox reactions as well as acid–base ones. Here the reaction involves transfer of electrons between an oxidising agent and a reducing agent.
+[chem15-s1.0.0] A redox titration finds the concentration of an oxidising or reducing agent by titrating it against a reducing or oxidising agent of known concentration.
+[chem15-s1.0.1] The mole ratio used in the calculation comes from the balanced redox equation, so you must be able to write or recall the equation for each reaction.
+[chem15-s1.0.2] The apparatus and technique are the same as in acid–base titrations: pipette, burette, conical flask and white tile, with rough and accurate titrations agreeing within 0.1 cm³.
+[chem15-s1.0.3] The end point (the moment the reaction is exactly complete) is shown either by the colour of one of the reagents themselves (self-indicating, as with potassium manganate(VII)) or by an indicator (starch in iodine–thiosulfate titrations).
+[chem15-s1.0.4] The two redox titrations in the specification are potassium manganate(VII) with iron(II), and iodine with sodium thiosulfate.
+[chem15-s1.1.b] Potassium manganate(VII) is the oxidising agent in the first redox titration. Its strong colour is useful, but its instability means it can never be made up by weighing alone.
+[chem15-s1.1.0] Potassium manganate(VII), KMnO₄ (potassium permanganate), is a dark purple solid; its solution is an intense purple and it is a strong oxidising agent (it readily takes electrons from other substances).
+[chem15-s1.1.1] It is usually used at about 0.01–0.02 mol L⁻¹.
+[chem15-s1.1.2] It is not a primary standard (a substance pure and stable enough to make a solution of exactly known concentration by weighing): it can't be obtained pure.
+[chem15-s1.1.3] Its solution slowly decomposes in light and in the presence of traces of organic matter, depositing brown MnO₂, so its concentration changes.
+[chem15-s1.1.4] It is therefore standardised (its concentration found by titration) against ammonium iron(II) sulfate shortly before use.
+[chem15-s1.2.b] In acidic solution, permanganate takes electrons from iron(II). Knowing the half-equations gives the 1 : 5 mole ratio on which every calculation in this subsection rests.
+[chem15-s1.2.0] In acidic solution MnO₄⁻ is reduced (gains electrons) to the almost colourless manganese(II) ion: MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l), with manganese changing from +7 to +2 and the solution going from purple to colourless.
+[chem15-s1.2.1] Iron(II) is oxidised (loses an electron): Fe²⁺(aq) → Fe³⁺(aq) + e⁻.
+[chem15-s1.2.2] Overall: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5, because each MnO₄⁻ takes five electrons and each Fe²⁺ gives one.
+[chem15-s1.2.3] The Mn²⁺ ions produced catalyse the reaction (autocatalysis: a product of the reaction is its catalyst), so the first few drops are decolourised slowly and later drops almost at once.
+[chem15-s1.3.b] Permanganate acts as its own indicator, which makes the titration simple, but its deep colour changes how you read the burette.
+[chem15-s1.3.0] Potassium manganate(VII) is self-indicating (its own colour shows the end point), so no indicator is added.
+[chem15-s1.3.1] The KMnO₄ goes in the burette; each drop is decolourised while Fe²⁺ remains in the flask.
+[chem15-s1.3.2] The end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻ once all the Fe²⁺ has been used up.
+[chem15-s1.3.3] The solution is so deeply coloured that the bottom of the meniscus (the curved surface of the liquid) can't be seen, so read the top of the meniscus, consistently for both readings.
+[chem15-s1.3.4] Rinse the burette thoroughly after use, because permanganate leaves brown stains of MnO₂ on glass.
+[chem15-s1.4.b] The reduction of MnO₄⁻ to Mn²⁺ uses up H⁺ ions, so the flask must contain excess acid. The choice of acid matters, because the wrong one reacts with the permanganate or the iron(II).
+[chem15-s1.4.0] Excess dilute sulfuric acid is added to the flask to supply the H⁺ ions needed for the reduction.
+[chem15-s1.4.1] With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, forming a brown precipitate: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂(s) + 4OH⁻, with manganese changing from +7 to +4.
+[chem15-s1.4.2] With too little acid the ratio is no longer 1 : 5 and the end point can't be seen.
+[chem15-s1.4.3] Hydrochloric acid is not used, because MnO₄⁻ oxidises Cl⁻ to chlorine, using up extra permanganate.
+[chem15-s1.4.4] Nitric acid is not used, because it is itself an oxidising agent and would oxidise some of the Fe²⁺.
+[chem15-s1.5.b] To find the concentration of permanganate you need an iron(II) solution of exactly known concentration. Ammonium iron(II) sulfate is the salt used to make it.
+[chem15-s1.5.0] Ammonium iron(II) sulfate hexahydrate, (NH₄)₂SO₄·FeSO₄·6H₂O, also written (NH₄)₂Fe(SO₄)₂·6H₂O, has M = 392 g mol⁻¹ and forms pale green crystals.
+[chem15-s1.5.1] It is a double salt: ammonium sulfate and iron(II) sulfate crystallise together in a fixed ratio in one crystal.
+[chem15-s1.5.2] Its standard solution (one of accurately known concentration) is made up by dissolving a weighed mass in a volumetric flask, with the crystals dissolved in deionised water and some dilute sulfuric acid added.
+[chem15-s1.5.3] The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen, which would make the solution weaker than calculated.
+[chem15-s1.6.b] A primary standard must give a known amount of substance from a weighed mass. Ammonium iron(II) sulfate does, whereas plain iron(II) sulfate does not.
+[chem15-s1.6.0] It can be obtained very pure, so the weighed mass is all the compound.
+[chem15-s1.6.1] It is stable in air: the solid is not oxidised by air, does not absorb water and does not lose its water of crystallisation (water locked into the crystal), so its formula stays fixed.
+[chem15-s1.6.2] It is soluble and has a high molar mass, so weighing errors are a small percentage of the mass weighed.
+[chem15-s1.6.3] Iron(II) sulfate itself is not used: its crystals are oxidised by air to iron(III) and their water content varies, so a weighed mass does not correspond to a known amount of Fe²⁺.
+[chem15-s1.7.b] Standardising means titrating permanganate against the standard iron(II) solution to find its true concentration. Do this shortly before the permanganate is used.
+[chem15-s1.7.0] 1. Pipette 25.0 cm³ of the standard ammonium iron(II) sulfate solution into a conical flask.
+[chem15-s1.7.1] 2. Add about 20 cm³ of dilute sulfuric acid (an excess) with a graduated cylinder; its volume does not need to be exact, because the acid is in excess and is not being measured.
+[chem15-s1.7.2] 3. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour.
+[chem15-s1.7.3] 4. Repeat until two titres (the volumes of solution added from the burette) agree within 0.1 cm³.
+[chem15-s1.7.4] Diagram: pipette with its filler, labelled with the graduation mark at 25.0 cm³.
+[chem15-s1.7.5] Diagram: graduated cylinder marked in cm³, labelled with the scale used to measure the sulfuric acid.
+[chem15-s1.7.6] Diagram: burette of purple KMnO₄ above a conical flask on a white tile, labelled with the burette tap and the top of the meniscus.
+[chem15-s1.8.b] The titre gives the moles of permanganate. Dividing the moles of Fe²⁺ by 5 gives the moles of MnO₄⁻, from the 1 : 5 ratio, and then the concentration.
+[chem15-s1.8.0] Data: 25.0 cm³ of 0.0500 mol L⁻¹ ammonium iron(II) sulfate needs a mean titre of 24.4 cm³ of KMnO₄.
+[chem15-s1.8.1] Moles Fe²⁺ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.
+[chem15-s1.8.2] Moles MnO₄⁻ = 1.25 × 10⁻³ mol ÷ 5 = 2.50 × 10⁻⁴ mol, since MnO₄⁻ : Fe²⁺ = 1 : 5.
+[chem15-s1.8.3] Concentration of KMnO₄ = 2.50 × 10⁻⁴ mol ÷ 0.0244 L = 0.0102 mol L⁻¹.
+[chem15-s1.9.b] The second redox titration uses sodium thiosulfate as the reducing agent and iodine as the oxidising agent. Neither is a primary standard, so each needs care.
+[chem15-s1.9.0] Sodium thiosulfate, Na₂S₂O₃·5H₂O (M = 248 g mol⁻¹), is a colourless crystalline solid and a reducing agent.
+[chem15-s1.9.1] The thiosulfate ion, S₂O₃²⁻, is like a sulfate ion with one oxygen replaced by sulfur; “thio” means sulfur.
+[chem15-s1.9.2] Sodium thiosulfate is not a primary standard: its crystals are efflorescent, losing water of crystallisation to the air, so their exact formula and the mass of thiosulfate are uncertain.
+[chem15-s1.9.3] Its solution is therefore standardised against iodine made from a standard oxidising agent.
+[chem15-s1.9.4] Iodine is not a primary standard either: it sublimes slowly at room temperature (turns from solid to vapour), so it cannot be weighed accurately, and it is almost insoluble in water.
+[chem15-s1.10.b] Iodine barely dissolves in water, so it is dissolved with potassium iodide. The resulting red-brown solution is then titrated with thiosulfate.
+[chem15-s1.10.0] Iodine is brought into solution with potassium iodide: I₂ + I⁻ ⇌ I₃⁻.
+[chem15-s1.10.1] The tri-iodide ion is charged, so it dissolves in water; the solution behaves as a solution of iodine and is red-brown.
+[chem15-s1.10.2] Titration reaction: I₂(aq) + 2S₂O₃²⁻(aq) → 2I⁻(aq) + S₄O₆²⁻(aq), so I₂ : S₂O₃²⁻ = 1 : 2.
+[chem15-s1.10.3] Iodine is the oxidising agent; thiosulfate is the reducing agent and is oxidised to the tetrathionate ion, S₄O₆²⁻.
+[chem15-s1.10.4] The iodine solution is pipetted into the conical flask and the thiosulfate is in the burette.
+[chem15-s1.11.b] Unlike permanganate, this titration needs an indicator for a sharp end point. Starch is used, but only at the right moment.
+[chem15-s1.11.0] As thiosulfate is added, the red-brown iodine fades to yellow and then to pale yellow (straw-coloured).
+[chem15-s1.11.1] At pale yellow, add a few drops of freshly made starch solution, which turns blue-black because of the starch–iodine complex.
+[chem15-s1.11.2] Add thiosulfate drop by drop until the blue-black colour just disappears, leaving a colourless solution: the end point.
+[chem15-s1.11.3] Starch is added only near the end point, because with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate.
+[chem15-s1.11.4] The pale yellow colour also shows that the end point is close.
+[chem15-s1.12.b] Water quality affects this titration, and thiosulfate's reducing power has uses outside the laboratory.
+[chem15-s1.12.0] Use deionised water throughout, not tap water: tap water contains dissolved chlorine from water treatment, which oxidises iodide to extra iodine (Cl₂ + 2I⁻ → 2Cl⁻ + I₂), so the titre would be too large.
+[chem15-s1.12.1] Sodium thiosulfate is used to remove excess chlorine from water, reducing it to harmless chloride ions.
+[chem15-s1.12.2] Sodium thiosulfate is the “fixer” (“hypo”) in film photography.
+[chem15-s1.13.b] Thiosulfate is standardised against iodine that is made fresh from a standardised permanganate solution. Permanganate oxidises iodide to iodine, and the iodine is then titrated.
+[chem15-s1.13.0] 1. Pipette 25.0 cm³ of standardised KMnO₄ solution into a conical flask and add about 20 cm³ of dilute sulfuric acid.
+[chem15-s1.13.1] 2. Add an excess of potassium iodide, as solution or solid: the purple colour disappears and red-brown iodine forms: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.
+[chem15-s1.13.2] Potassium iodide is in excess for two reasons: so that all the MnO₄⁻ reacts, producing a known amount of iodine; and so that the iodine stays in solution as I₃⁻.
+[chem15-s1.13.3] 3. Titrate the liberated (released) iodine with the thiosulfate solution by the starch method: starch added at pale yellow, end point blue-black to colourless.
+[chem15-s1.13.4] Combined ratio: 2MnO₄⁻ → 5I₂ → 10S₂O₃²⁻, so MnO₄⁻ : S₂O₃²⁻ = 1 : 5.
+[chem15-s1.14.b] Work through the chain of ratios one step at a time: permanganate to iodine, then iodine to thiosulfate.
+[chem15-s1.14.0] Data: 25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ liberates iodine that needs a mean titre of 25.3 cm³ of thiosulfate.
+[chem15-s1.14.1] Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.
+[chem15-s1.14.2] Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, since 2MnO₄⁻ gives 5I₂.
+[chem15-s1.14.3] Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since I₂ : S₂O₃²⁻ = 1 : 2.
+[chem15-s1.14.4] Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0253 L = 0.0988 mol L⁻¹.
+[chem15-s1.15.b] Three words describe how solids behave with water from the air. They explain why some substances can't be primary standards.
+[chem15-s1.15.0] Efflorescent: a hydrated crystal that loses some of its water of crystallisation to the air on standing, e.g. sodium thiosulfate pentahydrate and washing soda (Na₂CO₃·10H₂O).
+[chem15-s1.15.1] Hygroscopic: absorbs water vapour from the air without dissolving, e.g. concentrated sulfuric acid and silica gel.
+[chem15-s1.15.2] Deliquescent: absorbs so much water from the air that it dissolves in it and forms a solution, e.g. sodium hydroxide pellets.
+[chem15-s1.15.3] None of these substances can be a primary standard, because the mass weighed does not correspond to a known amount of substance.
+[chem15-s1.16.b] The reagents in these titrations are oxidising, staining or irritant, so protect your eyes, skin and clothes.
+[chem15-s1.16.0] Wear goggles: potassium manganate(VII) is an oxidising agent, is harmful, and stains skin and clothes.
+[chem15-s1.16.1] Dilute sulfuric acid is an irritant; iodine solution stains and is harmful.
+[chem15-s1.16.2] Use a pipette filler, so that no solution is drawn into the mouth.
+[chem15-s1.17.b] Iron tablets can be analysed by a redox titration. The iron(II) in a dissolved tablet is titrated with standardised permanganate, which gives the mass of iron per tablet.
+[chem15-s1.17.0] Aim: to find the mass of iron in an iron tablet, and the percentage of elemental iron by mass in the tablet, by titration with a standard solution of potassium manganate(VII).
+[chem15-s1.17.1] Iron tablets contain iron as iron(II), commonly as iron(II) sulfate (iron(II) fumarate and iron(II) gluconate are also used), and are prescribed to treat iron-deficiency anaemia.
+[chem15-s1.17.2] The label usually gives the mass of the iron compound or of iron per tablet, which is the value your result is compared with.
+[chem15-s1.17.3] Equation: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.
+[chem15-s1.17.4] The KMnO₄ solution is first standardised against ammonium iron(II) sulfate, just before use, because its concentration changes on standing.
+[chem15-s1.17.5] Hypothesis (example): the tablet contains the mass of iron stated on the label, within a few percent.
+[chem15-s1.18.b] The tablets must be turned into a solution of known total volume. Only a measured fraction of it is then titrated.
+[chem15-s1.18.0] 1. Weigh five tablets together accurately and record the mass; dividing by five gives the mean mass of one tablet.
+[chem15-s1.18.1] 2. Grind the tablets to a fine powder in a mortar and pestle, adding a little dilute sulfuric acid.
+[chem15-s1.18.2] 3. Transfer the paste to a beaker with dilute sulfuric acid and deionised water, rinsing the mortar and pestle into the beaker, and stir to dissolve.
+[chem15-s1.18.3] 4. Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinsing the beaker, glass rod and funnel into the flask with deionised water.
+[chem15-s1.18.4] 5. Make up to the mark with deionised water, with the bottom of the meniscus on the mark at eye level and the last drops added with a dropper; stopper and invert about 20 times to mix.
+[chem15-s1.18.5] Diagram: mortar and pestle holding the tablet powder, labelled with the pestle and the mortar bowl.
+[chem15-s1.18.6] Diagram: 250 cm³ volumetric flask with a funnel in its neck, labelled with the graduation mark.
+[chem15-s1.18.7] Diagram: beaker with a glass rod stirring the solution, labelled with the glass rod.
+[chem15-s1.19.b] A 25.0 cm³ portion of the tablet solution is titrated with standardised permanganate. This is the same method as the standardisation, with the tablet solution in the flask.
+[chem15-s1.19.0] 1. Rinse the pipette with deionised water and then with the tablet solution; pipette 25.0 cm³ into a conical flask.
+[chem15-s1.19.1] 2. Add about 20 cm³ of dilute sulfuric acid (an excess) to the flask.
+[chem15-s1.19.2] 3. Rinse the burette with deionised water and then with the standard KMnO₄ solution; fill it and read the top of the meniscus.
+[chem15-s1.19.3] 4. Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is added.
+[chem15-s1.19.4] 5. Do a rough titration, then accurate titrations until two agree within 0.1 cm³; titrate soon after making the solution.
+[chem15-s1.19.5] Diagram: burette of purple KMnO₄ above a conical flask of tablet solution on a white tile, labelled with the burette tap and the top of the meniscus.
+[chem15-s1.20.b] Each step of the tablet method has a reason. Exams ask for these reasons directly.
+[chem15-s1.20.0] Dilute sulfuric acid is used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen; this would make the result too low, because Fe³⁺ does not react with MnO₄⁻.
+[chem15-s1.20.1] More dilute sulfuric acid is added before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds.
+[chem15-s1.20.2] Several tablets are used: the result is an average over tablets that vary slightly in mass and iron content, a larger mass gives a smaller percentage error in weighing, and the solution is concentrated enough to give a reasonable titre.
+[chem15-s1.20.3] Grinding increases the surface area so that the tablets dissolve fully and all the iron(II) is extracted.
+[chem15-s1.20.4] The solution may be cloudy from the insoluble coating and binder (filler); this does not affect the result, because those substances do not react with the permanganate.
+[chem15-s1.20.5] A volumetric flask and pipette are used because the 25.0 cm³ portion must be exactly one-tenth of the total.
+[chem15-s1.20.6] No indicator is needed because KMnO₄ is self-indicating: the first excess drop colours the solution pink.
+[chem15-s1.21.b] The steps convert the titre into the mass of iron in one tablet, then into a percentage of the tablet's mass.
+[chem15-s1.21.0] Data: five tablets have a total mass of 1.80 g, a mean of 0.360 g per tablet; 25.0 cm³ portions of the 250 cm³ tablet solution need a mean titre of 11.6 cm³ of 0.0100 mol L⁻¹ KMnO₄.
+[chem15-s1.21.1] Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0116 L = 1.16 × 10⁻⁴ mol.
+[chem15-s1.21.2] Moles Fe²⁺ in 25.0 cm³ = 5 × 1.16 × 10⁻⁴ mol = 5.80 × 10⁻⁴ mol, using the 1 : 5 ratio.
+[chem15-s1.21.3] Moles Fe²⁺ in 250 cm³ (five tablets) = 5.80 × 10⁻⁴ mol × 10 = 5.80 × 10⁻³ mol, since 25.0 cm³ is one-tenth of 250 cm³; per tablet = 5.80 × 10⁻³ mol ÷ 5 = 1.16 × 10⁻³ mol.
+[chem15-s1.21.4] Mass of iron per tablet = 1.16 × 10⁻³ mol × 56 g mol⁻¹ = 0.06496 g = 65.0 mg.
+[chem15-s1.21.5] Percentage of iron by mass = 0.06496 g ÷ 0.360 g × 100 = 18.0%.
+[chem15-s1.21.6] If the label gives the iron(II) sulfate content instead: mass of FeSO₄ per tablet = 1.16 × 10⁻³ mol × 152 g mol⁻¹ = 0.176 g = 176 mg; iron is 56 ÷ 152 = 36.8% of the mass of FeSO₄.
+[chem15-s1.21.7] Conclusion: compare the result with the label value, calculate the percentage difference, and comment on whether the hypothesis is supported.
+[chem15-s1.22.b] Besides the acid and permanganate, the tablets themselves are a hazard.
+[chem15-s1.22.0] Wear goggles: dilute sulfuric acid is an irritant, and KMnO₄ is an oxidising agent that stains skin and clothes.
+[chem15-s1.22.1] Iron tablets are dangerous if swallowed by young children: keep them secure and do not eat them in the laboratory.
+[chem15-s1.23.b] Errors push the result in a known direction, so say whether the result would be too low or too high, and why.
+[chem15-s1.23.0] Result too low: Fe²⁺ is oxidised to Fe³⁺ by air before titration, because the solution was not acidified or was left standing too long.
+[chem15-s1.23.1] Result too low: tablet material is lost while grinding or transferring, so less iron reaches the titration.
+[chem15-s1.23.2] Result too high: overshooting the end point, taking a deep purple colour instead of the first permanent pale pink.
+[chem15-s1.23.3] Result too high: tablets that also contain vitamin C or another reducing agent, which also reacts with MnO₄⁻.
+[chem15-s1.23.4] Other error: too little acid gives brown MnO₂ and an unclear end point.
+[chem15-s1.23.5] Other error: KMnO₄ that has partly decomposed since it was standardised.
+[chem15-s1.23.6] Other error: a burette or pipette not rinsed with its own solution, as in acid–base titrations.

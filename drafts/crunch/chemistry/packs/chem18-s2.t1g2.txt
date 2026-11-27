@@ -1,0 +1,308 @@
+MODE: links only (another package rates cost)
+TARGET chem18-s2: 2. Le Châtelier's principle
+[chem18-s2.0.b] A reaction at equilibrium (reactants turning into products at exactly the rate products turn back into reactants, so the amounts stay constant) can be disturbed. Le Châtelier’s principle lets you predict how it responds.
+[chem18-s2.0.0] Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up.
+[chem18-s2.0.1] A shift to the right means the forward reaction is favoured, so more products form until equilibrium is restored; a shift to the left means more reactants form.
+[chem18-s2.0.2] The principle predicts the direction of the shift, not how fast it happens or how large it is; the change is only partly reversed, so the system never fully cancels the disturbance.
+[chem18-s2.1.b] Concentration (the amount of a substance per unit volume of solution) is the easiest disturbance to picture. The equilibrium shifts to use up whatever has been added, or to replace whatever has been taken away.
+[chem18-s2.1.0] Adding a reactant (or removing a product) shifts the equilibrium to the right, using up some of the added reactant and forming more product.
+[chem18-s2.1.1] Adding a product (or removing a reactant) shifts the equilibrium to the left, because the system opposes the extra product by turning some of it back into reactant.
+[chem18-s2.1.2] Kc (the equilibrium constant, the fixed ratio of product to reactant concentrations in the Kc expression) is unchanged: the concentrations adjust until that ratio is back at its old value.
+[chem18-s2.1.3] Removing a product as it forms keeps pulling the equilibrium to the right, so the reaction keeps making more product. This is how a yield (the amount of product obtained) is raised.
+[chem18-s2.1.4] In esterification (an alcohol reacting with an acid to make an ester), using an excess of ethanol, the cheaper reactant, shifts the equilibrium right and increases the yield of ester.
+[chem18-s2.1.5] In Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) (red), adding either reactant deepens the red colour because more of the red product forms. There is more on this in Investigation: disturbing an equilibrium.
+[chem18-s2.2.b] Pressure only affects equilibria that involve gases, because only gases take up very different volumes depending on how many molecules there are. The equilibrium shifts to the side that exerts less pressure when pressure is raised.
+[chem18-s2.2.0] Increasing the pressure shifts the equilibrium towards the side with fewer moles of gas, because that side exerts the lower pressure; decreasing the pressure shifts it towards the side with more moles of gas.
+[chem18-s2.2.1] Count only the gas molecules, using the coefficients (the numbers in front of each formula): N₂(g) + 3H₂(g) ⇌ 2NH₃(g) has 4 mol of gas on the left and 2 mol on the right, so high pressure shifts it to the right, giving more ammonia.
+[chem18-s2.2.2] If both sides have the same number of moles of gas, pressure has no effect on the position of equilibrium, e.g. H₂(g) + I₂(g) ⇌ 2HI(g), with 2 mol on each side.
+[chem18-s2.2.3] Compressing H₂ + I₂ ⇌ 2HI makes the purple colour deeper because every concentration, including that of I₂, rises (the same amount of gas is squeezed into a smaller volume); the percentage of each substance is unchanged.
+[chem18-s2.2.4] 2NO₂(g) (brown) ⇌ N₂O₄(g) (colourless): compressing the mixture in a sealed syringe makes it darker at once, because the concentration of the brown NO₂ rises.
+[chem18-s2.2.5] The darkening then fades as the equilibrium shifts to the right, from 2 mol to 1 mol of gas, but the mixture does not become as pale as before.
+[chem18-s2.2.6] A change of pressure does not change Kc.
+[chem18-s2.3.b] Heat behaves like a reactant or a product: an exothermic reaction (one that releases heat, ΔH negative) gives out heat, and an endothermic one (ΔH positive) absorbs it. Changing the temperature moves the equilibrium to oppose the change in heat.
+[chem18-s2.3.0] Raising the temperature shifts the equilibrium in the endothermic direction, which absorbs heat; lowering it shifts the equilibrium in the exothermic direction, which releases heat.
+[chem18-s2.3.1] If the forward reaction is exothermic (ΔH negative), heating shifts the equilibrium to the left and cooling shifts it to the right; the reverse is true if the forward reaction is endothermic.
+[chem18-s2.3.2] Example: 2NO₂(g) ⇌ N₂O₄(g), with ΔH about −57 kJ mol⁻¹. Heating shifts the equilibrium to the left, giving a darker brown mixture with more NO₂.
+[chem18-s2.3.3] Cooling the same mixture in ice-water shifts the equilibrium to the right, giving a paler mixture because more colourless N₂O₄ forms.
+[chem18-s2.3.4] Temperature is the only one of these disturbances that changes Kc: for an exothermic forward reaction Kc falls as temperature rises; for an endothermic one it rises.
+[chem18-s2.3.5] Diagram: two sealed tubes of the brown mixture, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.4.b] A catalyst (a substance that speeds up a reaction without being used up) is not a disturbance to an equilibrium at all, so it cannot shift one.
+[chem18-s2.4.0] A catalyst does not disturb an equilibrium or change its position, because it speeds up the forward and reverse reactions equally.
+[chem18-s2.4.1] A catalyst lets equilibrium be reached more quickly, so the same yield is obtained in less time.
+[chem18-s2.4.2] A catalyst does not change Kc.
+[chem18-s2.5.b] Le Châtelier’s principle explains familiar things, from the fizz in a drink to the damage that extra carbon dioxide does to sea life. In each case, work out what was disturbed and which way the equilibrium moves.
+[chem18-s2.5.0] Fizzy drinks: CO₂(g) ⇌ CO₂(aq). Opening the bottle lowers the pressure of CO₂ above the drink, so the equilibrium shifts to the left and gas bubbles out.
+[chem18-s2.5.1] A cold drink holds more dissolved CO₂.
+[chem18-s2.5.2] Oceans: CO₂(g) ⇌ CO₂(aq); CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq); H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Here H₂CO₃ is carbonic acid and CO₃²⁻ is the carbonate ion.
+[chem18-s2.5.3] More CO₂ in the air increases the dissolved CO₂ and carbonic acid; the third equilibrium shifts to the right, using up carbonate ions. This is ocean acidification.
+[chem18-s2.5.4] With less carbonate available, shellfish and corals find it harder to build calcium carbonate shells and skeletons.
+[chem18-s2.5.5] Indicators: the colour of an acid–base indicator (a dye that changes colour with acidity) changes because adding acid or base shifts HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s2.6.b] The Haber process makes ammonia from nitrogen and hydrogen. Le Châtelier’s principle tells you which conditions give the most ammonia at equilibrium, but cost and rate force compromises.
+[chem18-s2.6.0] N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Ammonia is used mainly to make fertilisers.
+[chem18-s2.6.1] Pressure: there are 4 mol of gas on the left and 2 mol on the right, so high pressure increases the yield by Le Châtelier’s principle, and also increases the rate because the concentrations are higher.
+[chem18-s2.6.2] In practice a pressure of about 200 atm (range about 150–300 atm) is used as a compromise.
+[chem18-s2.6.3] Higher pressures would give more ammonia, but a plant that can withstand them is very expensive to build and run, and the risk of leaks and explosions increases.
+[chem18-s2.6.4] Temperature: the forward reaction is exothermic, so a low temperature gives a higher yield at equilibrium. But at low temperature the reaction is too slow to be economic.
+[chem18-s2.6.5] In practice a compromise of about 400–500 °C (about 450 °C) gives a reasonable yield at a fast enough rate.
+[chem18-s2.7.b] Two more features keep the Haber process economic: a catalyst that makes the reaction fast enough, and the removal of ammonia so that the equilibrium keeps moving right.
+[chem18-s2.7.0] The iron catalyst does not change the yield; it lets equilibrium be approached quickly at the compromise temperature.
+[chem18-s2.7.1] Ammonia is removed by cooling and liquefying it, which keeps pulling the equilibrium to the right, and unreacted nitrogen and hydrogen are recycled through the catalyst, so the overall conversion is high.
+[chem18-s2.8.b] The Contact process makes sulfur trioxide, the step on the way to sulfuric acid. It follows the same pattern as the Haber process: Le Châtelier predicts one set of conditions and practice uses another.
+[chem18-s2.8.0] Contact process (sulfuric acid manufacture): 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH about −197 kJ mol⁻¹.
+[chem18-s2.8.1] Le Châtelier predicts high pressure (3 mol of gas on the left, 2 mol on the right) and low temperature for the best yield, because the forward reaction is exothermic.
+[chem18-s2.8.2] In practice about 450 °C is used as a compromise between yield and rate, with a vanadium(V) oxide (V₂O₅) catalyst.
+[chem18-s2.8.3] The pressure is only slightly above atmospheric (1–2 atm), because the yield is already very high and extra pressure would cost more than it gains.
+[chem18-s2.9.b] For any equilibrium you can choose conditions the same way. First decide what favours the product, then weigh that against practical limits.
+[chem18-s2.9.0] General method for any equilibrium: for the best yield choose the temperature that favours the exothermic or endothermic direction as needed, the pressure that favours the side with fewer (or more) gas moles, and an excess of a cheap reactant or removal of product.
+[chem18-s2.9.1] Then weigh these choices against rate, cost, energy use and safety, because the best conditions for yield are rarely the best for the whole process.
+[chem18-s2.9.2] Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature.
+[chem18-s2.10.b] A reversible reaction that changes colour lets you see the position of equilibrium shift. This investigation tests Le Châtelier’s principle by changing one factor at a time.
+[chem18-s2.10.0] Aim: to investigate how changes in concentration and temperature affect the position of an equilibrium, and to test whether the results agree with Le Châtelier’s principle.
+[chem18-s2.10.1] Independent variable (the factor you deliberately change): here concentration or temperature.
+[chem18-s2.10.2] Dependent variable (what you observe as a result): the colour of the equilibrium mixture, which shows the position of equilibrium; more of the coloured product gives a deeper colour.
+[chem18-s2.10.3] Controlled variables (kept the same so the test is fair): the volume of solution, the number of drops added, the observer and the white background.
+[chem18-s2.10.4] Set up one equilibrium mixture and divide it into equal portions in identical test tubes; keep one tube untouched as a control (a comparison with no change) and change one factor in each of the others.
+[chem18-s2.10.5] Compare each tube with the control and record the colour before and after the change.
+[chem18-s2.11.b] This equilibrium is a good test of concentration changes because the product is strongly coloured. Adding or removing a reactant visibly changes the red colour.
+[chem18-s2.11.0] Equation: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Fe³⁺ (from iron(III) chloride) is yellow, SCN⁻ (from potassium thiocyanate) is colourless, and FeSCN²⁺ is blood-red.
+[chem18-s2.11.1] Method: add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms. Diluting it makes the colour changes easy to see.
+[chem18-s2.11.2] Pour equal portions (about 10 cm³) into four test tubes; tube 1 is the control.
+[chem18-s2.11.3] Tube 2: add a few drops of iron(III) chloride solution; the red deepens, because [Fe³⁺] (the concentration of Fe³⁺) increases and the equilibrium shifts to the right, forming more FeSCN²⁺.
+[chem18-s2.11.4] Tube 3: add a few drops of potassium thiocyanate solution; the red deepens, because [SCN⁻] increases and the equilibrium shifts to the right.
+[chem18-s2.11.5] Tube 4: add a few drops of silver nitrate solution; a white precipitate (an insoluble solid formed in a solution) forms and the red colour fades.
+[chem18-s2.11.6] Silver ions remove SCN⁻ as insoluble silver thiocyanate, AgSCN, lowering [SCN⁻], so the equilibrium shifts to the left; silver chloride, also white, can form from the chloride ions in the iron(III) chloride.
+[chem18-s2.11.7] Conclusion: adding a reactant shifts the equilibrium to the right; removing a reactant shifts it to the left, as Le Châtelier’s principle predicts.
+[chem18-s2.12.b] A labelled diagram sums up the four tubes and the colour each one shows.
+[chem18-s2.12.0] Diagram: a row of four test tubes in a rack, labelled control, + FeCl₃, + KSCN and + AgNO₃, showing pale red, deep red, deep red, and pale or colourless with a white precipitate.
+[chem18-s2.13.b] The cobalt(II) chloride equilibrium shows both concentration and temperature effects, because its two forms are different colours and the forward reaction is endothermic.
+[chem18-s2.13.0] Equation: [Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l).
+[chem18-s2.13.1] [Co(H₂O)₆]²⁺ is pink and [CoCl₄]²⁻ is blue; the forward reaction is endothermic.
+[chem18-s2.13.2] Method: dissolve a little cobalt(II) chloride in water to give a pink solution; add concentrated hydrochloric acid drop by drop until the solution is violet, a mixture of pink and blue.
+[chem18-s2.13.3] Divide the violet solution into test tubes, keeping one as a control.
+[chem18-s2.13.4] Adding more concentrated hydrochloric acid adds Cl⁻ and turns the solution blue: the equilibrium shifts to the right.
+[chem18-s2.13.5] Adding water turns the solution pink: water is a product, so the equilibrium shifts to the left. Dilution also favours the side with more dissolved ions, here the left, with five ions against one.
+[chem18-s2.14.b] Because the forward reaction is endothermic, temperature changes move this equilibrium in a predictable direction. The chemicals involved need careful handling.
+[chem18-s2.14.0] Heating: a tube placed in a beaker of hot water (about 80 °C) turns blue, because heating favours the endothermic forward reaction.
+[chem18-s2.14.1] Cooling: a tube placed in ice-water turns pink, because cooling favours the exothermic reverse reaction.
+[chem18-s2.14.2] The changes reverse when the tubes return to room temperature, showing that the reaction is reversible and still dynamic.
+[chem18-s2.14.3] Because heating shifts this equilibrium to the right, Kc for it increases with temperature.
+[chem18-s2.14.4] Safety: concentrated hydrochloric acid is corrosive and gives off choking fumes, so wear goggles and gloves and work in a fume cupboard.
+[chem18-s2.14.5] Safety: cobalt(II) chloride is toxic, may cause cancer and skin allergy, and is harmful to aquatic life, so wear gloves and put waste in the residue container, not the sink.
+[chem18-s2.14.6] Diagram: three test tubes of the violet mixture, one in a beaker of hot water (blue), one in a beaker of ice-water (pink) and one at room temperature as a control (violet), with a thermometer in each beaker.
+[chem18-s2.15.b] This gas equilibrium shows a temperature effect directly, because one form is brown and the other is colourless. The teacher performs it because NO₂ is toxic.
+[chem18-s2.15.0] 2NO₂(g) ⇌ N₂O₄(g), with the forward reaction exothermic; NO₂ is brown and N₂O₄ is colourless.
+[chem18-s2.15.1] Sealed glass tubes containing the same equilibrium mixture are placed in hot water and in ice-water.
+[chem18-s2.15.2] The hot tube becomes darker brown, as the equilibrium shifts to the left, the endothermic direction, giving more NO₂.
+[chem18-s2.15.3] The cold tube becomes paler, as the equilibrium shifts to the right.
+[chem18-s2.15.4] Safety: NO₂ is very toxic; the tubes are sealed and the demonstration is done by the teacher.
+[chem18-s2.15.5] Diagram: two sealed tubes, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.16.b] Primary data are collected by you in the laboratory; secondary data come from somewhere else, such as a simulation, table or graph. Both can show how an equilibrium responds to a disturbance.
+[chem18-s2.16.0] A digital simulation models the particles of a reversible reaction; the user can add reactant or product, or change the temperature, and watch the numbers of each particle and the forward and reverse rates change until a new equilibrium is set up.
+[chem18-s2.16.1] Simulations show what cannot be seen in the laboratory: both reactions continuing at equal rates at equilibrium, and concentration–time graphs showing the sudden change and the new constant levels.
+[chem18-s2.16.2] Simulations are safe, fast and repeatable and avoid toxic chemicals, but they are models: their results depend on the rules programmed into them, so they are checked against experimental data.
+[chem18-s2.16.3] Secondary data, such as a table or graph of the percentage of ammonia at equilibrium at different temperatures and pressures, can be analysed for trends.
+[chem18-s2.16.4] The percentage of ammonia rises with pressure and falls with temperature, so the forward reaction reduces the number of moles of gas and is exothermic.
+[chem18-s2.16.5] On a concentration–time graph, a sudden vertical jump in one line shows a substance being added; the gradual changes that follow show the shift; new horizontal lines show the new equilibrium.
+[chem18-s2.17.b] Judging a colour by eye is not exact, so the method is designed to make the comparison fair and the results reliable.
+[chem18-s2.17.0] Judging colour by eye is subjective (it depends on the observer): compare each tube with the control against a white background, use the same volume in identical tubes, and have the same observer.
+[chem18-s2.17.1] Add the same number of drops to each tube, and allow time for the new equilibrium to set up (the colour stops changing) before recording.
+[chem18-s2.17.2] Concentration changes move the position of equilibrium but do not change Kc; temperature changes both.
+[chem18-s2.17.3] Adding a solution also dilutes the mixture a little, so add only a few drops, or add the same volume of water to the control.
+
+CANDIDATES chem9-s3: 3. Gas laws and the ideal gas equation
+[chem9-s3.0.b] Gas pressure is the force of the particles hitting the container walls, per unit area. For a fixed mass of gas (a set amount, with none added or lost) at constant temperature, pressure and volume are linked by Boyle's law.
+[chem9-s3.0.0] Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure (when one doubles, the other halves): P₁V₁ = P₂V₂.
+[chem9-s3.0.1] The law was stated by Robert Boyle in 1662, and Charles's law is named after Jacques Charles.
+[chem9-s3.0.2] Particle explanation: in a smaller volume the particles hit the walls more often, so the pressure rises.
+[chem9-s3.0.3] Example: 200 cm³ of gas at 100 kPa (kilopascals, a unit of pressure) is compressed to 50 cm³ at the same temperature.
+[chem9-s3.0.4] Step 1: Rearrange P₁V₁ = P₂V₂ to P₂ = P₁V₁ ÷ V₂, because P₂ is the unknown.
+[chem9-s3.0.5] Step 2: P₂ = 100 kPa × 200 cm³ ÷ 50 cm³ = 400 kPa. The volume fell to a quarter, so the pressure rose four times.
+[chem9-s3.1.b] Heating a gas makes it expand if its pressure is held constant. For a fixed mass of gas at constant pressure, volume and temperature are linked by Charles's law.
+[chem9-s3.1.0] Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin (K, the absolute temperature scale): V₁/T₁ = V₂/T₂.
+[chem9-s3.1.1] Particle explanation: hotter particles move faster and hit the walls harder, so the gas expands to keep the pressure the same.
+[chem9-s3.1.2] Example: 300 cm³ of gas at 27 °C (300 K) is heated to 127 °C (400 K) at constant pressure.
+[chem9-s3.1.3] Step 1: Rearrange V₁/T₁ = V₂/T₂ to V₂ = V₁ × T₂ ÷ T₁, because V₂ is the unknown.
+[chem9-s3.1.4] Step 2: V₂ = 300 cm³ × 400 K ÷ 300 K = 400 cm³.
+[chem9-s3.2.b] A third pair of properties completes the set: pressure and temperature at constant volume. The combined gas law then joins all three relationships into one.
+[chem9-s3.2.0] Pressure law (Gay-Lussac's law): at constant volume, the pressure of a fixed mass of gas is directly proportional to its temperature in kelvin: P₁/T₁ = P₂/T₂.
+[chem9-s3.2.1] Particle explanation: faster particles hit the walls more often and harder, so the pressure rises.
+[chem9-s3.2.2] Combined gas law: P₁V₁/T₁ = P₂V₂/T₂, for a fixed mass of gas. It is useful when pressure, volume and temperature all change together.
+[chem9-s3.3.b] The gas laws only work on a temperature scale that starts at the lowest possible temperature. That scale is the kelvin scale.
+[chem9-s3.3.0] Temperatures in the gas laws must be in kelvin (K), not in °C; using °C gives wrong answers, because a gas at 0 °C does not have zero volume or pressure.
+[chem9-s3.3.1] Absolute zero (0 K = −273 °C) is the temperature at which, in theory, an ideal gas would have zero volume.
+[chem9-s3.3.2] At absolute zero the particles would stop moving.
+[chem9-s3.4.b] Plotting the relationships shows them as straight lines, which is the easiest way to see what proportional means.
+[chem9-s3.4.0] Diagram: a graph of V against 1/P, which is a straight line through the origin for Boyle's law, and a graph of V against T in K, which is a straight line through the origin for Charles's law. Label the axes with their quantities and units.
+[chem9-s3.5.b] The ideal gas is a model that allows analysis and prediction of how gases behave. It is a simplified picture of a gas, built on a set of assumptions.
+[chem9-s3.5.0] An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions.
+[chem9-s3.5.1] The ideal gas model assumes that the gas particles are in constant random motion, so they keep colliding with the walls and each other.
+[chem9-s3.5.2] The ideal gas model assumes that the volume of the particles themselves is negligible (so small it can be ignored) compared with the volume of the container.
+[chem9-s3.5.3] The ideal gas model assumes that there are no attractive or repulsive forces between the particles.
+[chem9-s3.5.4] The ideal gas model assumes that collisions are perfectly elastic, which means no kinetic energy (energy of movement) is lost in a collision.
+[chem9-s3.5.5] The ideal gas model assumes that the average kinetic energy is proportional to the kelvin temperature.
+[chem9-s3.5.6] No real gas is ideal, but most gases behave nearly ideally at room temperature and pressure, so the model allows useful predictions.
+[chem9-s3.6.b] Real gases break the ideal assumptions about particle volume and attractive forces. They deviate most in conditions where those assumptions fail.
+[chem9-s3.6.0] Real gases deviate most from ideal behaviour at high pressure and low temperature, and behave most ideally at low pressure and high temperature.
+[chem9-s3.6.1] At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas.
+[chem9-s3.6.2] At low temperature the particles move slowly, so the attractive forces between them become significant; this is close to the point where the gas condenses (turns into a liquid).
+[chem9-s3.6.3] Small, non-polar particles (with no charged ends) and weak intermolecular forces (forces between molecules), such as helium and hydrogen, behave most ideally.
+[chem9-s3.6.4] Polar molecules with strong attractions, especially those that hydrogen bond, such as ammonia and water vapour, deviate most.
+[chem9-s3.7.b] The ideal gas equation combines the gas laws into one relationship between pressure, volume, amount and temperature.
+[chem9-s3.7.0] PV = nRT, where P is pressure in pascals (Pa), V is volume in cubic metres (m³), n is the number of moles (the amount of gas), and T is temperature in kelvin (K).
+[chem9-s3.7.1] R is the gas constant, 8.314 J K⁻¹ mol⁻¹. It is the same for every gas, and its units match pascals, cubic metres, moles and kelvin.
+[chem9-s3.7.2] The equation combines Boyle's law, Charles's law, the pressure law and Avogadro's law (equal volumes of gases at the same temperature and pressure hold equal numbers of molecules) into one equation.
+[chem9-s3.7.3] The equation applies exactly only to an ideal gas, but it gives good results for real gases at ordinary conditions.
+[chem9-s3.8.b] PV = nRT only works when every quantity is in the units that R uses. Mixed units are the commonest error, so convert every quantity before substituting.
+[chem9-s3.8.0] Pressure: kPa × 1000 = Pa, so 101 kPa = 101 000 Pa.
+[chem9-s3.8.1] Volume: cm³ × 10⁻⁶ = m³, so 250 cm³ = 2.50 × 10⁻⁴ m³.
+[chem9-s3.8.2] Volume: L × 10⁻³ = m³.
+[chem9-s3.8.3] Temperature: °C + 273 = K.
+[chem9-s3.9.b] When the moles, temperature and pressure are known, rearrange the equation to find the volume. Convert units first.
+[chem9-s3.9.0] Given: 0.50 mol of nitrogen at 27 °C and 100 kPa.
+[chem9-s3.9.1] Step 1: Convert the temperature: 27 °C + 273 = 300 K.
+[chem9-s3.9.2] Step 2: Convert the pressure: 100 kPa = 100 000 Pa.
+[chem9-s3.9.3] Step 3: Rearrange the equation to V = nRT ÷ P, because V is the unknown.
+[chem9-s3.9.4] Step 4: V = 0.50 × 8.314 × 300 ÷ 100 000 = 0.0125 m³ (to 3 significant figures).
+[chem9-s3.9.5] Step 5: Convert to litres: 0.0125 m³ × 1000 = 12.5 L.
+[chem9-s3.10.b] If the volume, pressure and temperature are measured, the equation gives the amount of gas in moles.
+[chem9-s3.10.0] Given: 600 cm³ of oxygen at 20 °C and 101 kPa.
+[chem9-s3.10.1] Step 1: Convert the volume: 600 cm³ = 6.00 × 10⁻⁴ m³; the temperature is 20 °C + 273 = 293 K.
+[chem9-s3.10.2] Step 2: Rearrange the equation to n = PV ÷ RT, because n is the unknown.
+[chem9-s3.10.3] Step 3: n = (101 000 × 6.00 × 10⁻⁴) ÷ (8.314 × 293) = 60.6 ÷ 2436 = 0.0249 mol.
+[chem9-s3.11.b] Measuring the mass of a gas as well as its volume, pressure and temperature lets you work out its molar mass, which identifies the gas.
+[chem9-s3.11.0] Since n = m ÷ M (moles = mass ÷ molar mass), the molar mass is M = mRT ÷ PV.
+[chem9-s3.11.1] Given: 1.60 g of a gas occupies 1.20 L at 27 °C and 101 kPa (sample data).
+[chem9-s3.11.2] Step 1: Convert the volume to m³: 1.20 L = 1.20 × 10⁻³ m³; the temperature is 27 °C + 273 = 300 K.
+[chem9-s3.11.3] Step 2: n = PV ÷ RT = (101 000 × 1.20 × 10⁻³) ÷ (8.314 × 300) = 121.2 ÷ 2494 = 0.0486 mol.
+[chem9-s3.11.4] Step 3: M = m ÷ n = 1.60 g ÷ 0.0486 mol = 32.9 g mol⁻¹.
+[chem9-s3.11.5] The answer is close to 32, the Mr of oxygen, so the gas could be oxygen (sample data).
+[chem9-s3.12.b] A fixed amount of gas in a container of known volume exerts a pressure that depends on its temperature. The equation gives that pressure.
+[chem9-s3.12.0] Given: 0.10 mol of gas in a 2.0 L container at 25 °C.
+[chem9-s3.12.1] Step 1: Convert the volume to m³: 2.0 L = 2.0 × 10⁻³ m³; the temperature is 25 °C + 273 = 298 K.
+[chem9-s3.12.2] Step 2: Rearrange the equation to P = nRT ÷ V, because P is the unknown.
+[chem9-s3.12.3] Step 3: P = 0.10 × 8.314 × 298 ÷ 2.0 × 10⁻³ = 1.24 × 10⁵ Pa = 124 kPa.
+[chem9-s3.13.b] A quick check catches most arithmetic and unit slips before you hand in the answer.
+[chem9-s3.13.0] Check the units of the answer, and check whether the answer is sensible.
+[chem9-s3.13.1] A mole of gas at room conditions occupies about 24 L, so a volume far from this for one mole signals an error.
+[chem9-s3.14.b] The equation can be verified by comparing a measured gas volume with the volume it predicts. Magnesium reacting with acid gives a known amount of hydrogen gas to test it with.
+[chem9-s3.14.0] Aim: to verify the ideal gas equation by comparing a measured gas volume with the volume it predicts.
+[chem9-s3.14.1] Step 1: React a weighed piece of magnesium ribbon, e.g. 0.048 g, with excess dilute hydrochloric acid (so all the magnesium reacts) in a flask connected to a gas syringe (a syringe that collects and measures gas volume): Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).
+[chem9-s3.14.2] Step 2: When the reaction stops and the apparatus has cooled to room temperature, record the volume of hydrogen, the room temperature and the atmospheric pressure.
+[chem9-s3.14.3] Step 3: Moles of hydrogen = moles of magnesium, because the equation shows a 1 : 1 ratio: 0.048 g ÷ 24 g mol⁻¹ = 0.0020 mol, using Ar(Mg) = 24.
+[chem9-s3.14.4] Step 4: Predicted volume V = nRT ÷ P = 0.0020 × 8.314 × 293 ÷ 101 000 = 4.82 × 10⁻⁵ m³ = 48.2 cm³ (sample data).
+[chem9-s3.14.5] Step 5: Compare the measured volume with the predicted volume; close agreement verifies the equation for a gas behaving nearly ideally.
+[chem9-s3.14.6] Diagram: a conical flask containing acid, with the magnesium added, connected by a delivery tube to a gas syringe. Label the flask, acid, magnesium, delivery tube and gas syringe.
+[chem9-s3.15.b] The equation can also be checked by testing one relationship at a time, holding the other quantities constant.
+[chem9-s3.15.0] A gas syringe connected to a pressure sensor shows that PV is constant at constant temperature.
+[chem9-s3.15.1] A sealed flask in a water bath shows that P/T is constant, because the volume stays fixed while the temperature is changed.
+
+CANDIDATES chem17-s3: 3. Catalysis
+[chem17-s3.0.b] Many reactions are too slow to be useful on their own. A catalyst is a substance that changes the speed of a reaction and comes out of it chemically unchanged, so it is not a reactant.
+[chem17-s3.0.0] A catalyst is a substance that alters the rate of a chemical reaction (how fast reactants turn into products) but is itself chemically unchanged at the end of the reaction.
+[chem17-s3.0.1] A catalyst works by providing an alternative reaction pathway with a lower activation energy (the minimum energy colliding particles need in order to react), so more collisions are successful.
+[chem17-s3.0.2] Only a small amount of catalyst is needed, because it is not used up and so can act on reactants over and over.
+[chem17-s3.0.3] Catalysts tend to be specific: a catalyst speeds up one reaction or one type of reaction, not every reaction.
+[chem17-s3.1.b] A catalyst affects only the speed of a reaction, not its energy change or how much product forms. The decomposition (breaking down) of hydrogen peroxide, H₂O₂, shows both the speed-up and the recovery of the catalyst.
+[chem17-s3.1.0] A catalyst's physical form can change, for example a powder may become finer, but it is chemically unchanged and can be recovered.
+[chem17-s3.1.1] Manganese(IV) oxide filtered off after decomposing hydrogen peroxide has the same mass as it had at the start, which shows it was not used up.
+[chem17-s3.1.2] A catalyst does not change ΔH (the heat change of the reaction) or the amount of product formed; it speeds up the forward and reverse reactions equally. There is more on this in Le Châtelier's principle.
+[chem17-s3.1.3] Without a catalyst, hydrogen peroxide decomposes very slowly on its own at room temperature.
+[chem17-s3.1.4] With manganese(IV) oxide added, hydrogen peroxide decomposes rapidly, with vigorous fizzing of oxygen.
+[chem17-s3.2.b] Catalysts are sorted into two types by comparing the phase of the catalyst with the phase of the reactants. The comparison is about phase, not about whether everything is in the same container.
+[chem17-s3.2.0] “Phase” means solid, liquid, gas or solution.
+[chem17-s3.2.1] Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them.
+[chem17-s3.2.2] Homogeneous example: iodide ions, from potassium iodide solution, catalyse the decomposition of hydrogen peroxide solution, so catalyst and reactant are both dissolved in one solution.
+[chem17-s3.2.3] Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them.
+[chem17-s3.2.4] Heterogeneous example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide. It is heterogeneous even though both are in one flask, because a solid and a solution are different phases.
+[chem17-s3.2.5] Heterogeneous example: solid iron catalyses the Haber process (the industrial manufacture of ammonia), in which the reactants are gases.
+[chem17-s3.3.b] A hot platinum wire held above methanol is a heterogeneous catalyst you can watch working, because the wire keeps glowing.
+[chem17-s3.3.0] A hot platinum wire held above methanol catalyses its oxidation (reaction with oxygen) by air: 2CH₃OH(g) + O₂(g) → 2HCHO(g) + 2H₂O(g).
+[chem17-s3.3.1] The platinum wire keeps glowing red because the reaction on its surface is exothermic (it gives out heat).
+[chem17-s3.3.2] The products are methanal and water; methanol and methanal are toxic, and methanol is flammable.
+[chem17-s3.3.3] It is heterogeneous catalysis because the solid platinum is in a different phase from the gaseous methanol and air.
+[chem17-s3.4.b] Usually a catalyst is added at the start. In autocatalysis the reaction makes its own catalyst.
+[chem17-s3.4.0] Autocatalysis: a product of the reaction is a catalyst for it, so the reaction starts slowly (there is little catalyst at first) and speeds up as the product builds up.
+[chem17-s3.4.1] Autocatalysis example: Mn²⁺ ions are formed when potassium permanganate reacts with iron(II) or ethanedioate ions, and the Mn²⁺ ions then catalyse the reaction. There is more on this in Redox titrations and iron tablets.
+[chem17-s3.5.b] Car exhausts contain harmful gases. A catalytic converter is fitted in the exhaust and uses a solid catalyst to turn them into less harmful gases.
+[chem17-s3.5.0] A catalytic converter in a car exhaust uses the metals platinum, palladium and rhodium.
+[chem17-s3.5.1] The metals are spread thinly on a ceramic honeycomb (a ceramic support full of small channels), giving a very large surface area for the gases to touch, inside a steel case.
+[chem17-s3.5.2] It converts harmful exhaust gases (carbon monoxide, nitrogen oxides and unburnt hydrocarbons, which are fuel that did not burn) into carbon dioxide, nitrogen and water.
+[chem17-s3.5.3] Example: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+[chem17-s3.5.4] It is heterogeneous catalysis: a solid catalyst acting on gaseous reactants, so there is a boundary between the phases.
+[chem17-s3.5.5] Environmental benefit: it reduces carbon monoxide, which is toxic, nitrogen oxides, which cause acid rain and smog, and unburnt hydrocarbons in the air.
+[chem17-s3.5.6] Poisoning of the catalysts (a substance stopping them from working) is a separate topic. There is more on this in Rate of reaction and collision theory.
+[chem17-s3.6.b] Living cells use catalysts too. These are called enzymes, and each of the examples below catalyses one reaction.
+[chem17-s3.6.0] An enzyme is a biological catalyst: a protein (a large molecule built from amino acids) produced by living cells that catalyses a reaction in living things.
+[chem17-s3.6.1] Catalase, found in liver and potato, catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism (the chemical reactions in cells), into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem17-s3.6.2] Catalase is one of the fastest-acting enzymes known: a piece of liver added to hydrogen peroxide fizzes vigorously.
+[chem17-s3.6.3] Amylase, in saliva, catalyses the breakdown of starch into the sugar maltose.
+[chem17-s3.6.4] Enzymes in yeast, called zymase, catalyse the fermentation (conversion by yeast into alcohol and gas) of glucose: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).
+[chem17-s3.7.b] An enzyme's action depends on its shape. This explains why each enzyme is so specific and why heat or extreme pH stops it.
+[chem17-s3.7.0] Enzymes are very specific: each acts on one substance, its substrate (the substance the enzyme works on), or one type of reaction, because the substrate must fit the enzyme's active site (the region where the substrate binds).
+[chem17-s3.7.1] Enzymes work best at an optimum temperature, about 37 °C (body temperature) for human enzymes, and at an optimum pH.
+[chem17-s3.7.2] High temperatures and extreme pH denature enzymes by changing the shape of the active site, so the substrate no longer fits and they stop working.
+[chem17-s3.7.3] Biological washing powders contain enzymes, such as proteases for protein stains and lipases for fats, that clean at lower wash temperatures, saving energy.
+[chem17-s3.8.b] An energy profile diagram shows how the energy of the particles changes as reactants turn into products. It is the way to compare a catalysed and an uncatalysed reaction.
+[chem17-s3.8.0] An energy profile diagram plots energy on the y-axis against progress of reaction on the x-axis.
+[chem17-s3.8.1] For an exothermic reaction (one that gives out heat) the products are lower than the reactants and ΔH is negative; for an endothermic reaction (one that takes in heat) the products are higher and ΔH is positive.
+[chem17-s3.8.2] The curve rises from the reactants to a peak and falls to the products.
+[chem17-s3.8.3] The peak is the activated complex (transition state): the high-energy arrangement of atoms in which old bonds are partly broken and new bonds partly formed; it cannot be isolated.
+[chem17-s3.8.4] The activated complex is not an intermediate (a species formed in one step and used up in the next): an intermediate sits in a dip between two peaks and can sometimes be detected.
+[chem17-s3.9.b] Two heights on the diagram carry the key numbers: how high the peak is above the reactants, and how far apart the reactant and product levels are.
+[chem17-s3.9.0] Activation energy (Ea) is the height from the reactant level up to the peak.
+[chem17-s3.9.1] ΔH is the difference between the reactant and product levels.
+[chem17-s3.9.2] For an endothermic reaction Ea is always greater than ΔH, since the peak is above the products.
+[chem17-s3.9.3] The activation energy of the reverse reaction is the height from the product level up to the peak, so Ea(reverse) = Ea(forward) − ΔH.
+[chem17-s3.9.4] Sample data: a forward Ea of 100 kJ mol⁻¹ and ΔH of −60 kJ mol⁻¹ give a reverse Ea of 100 − (−60) = 160 kJ mol⁻¹, because the products start 60 kJ mol⁻¹ lower than the reactants.
+[chem17-s3.10.b] To show a catalyst on an energy profile you draw a second pathway on the same axes. Only the peak changes; the start and end levels stay where they were.
+[chem17-s3.10.0] On the same axes, the catalysed pathway is drawn as a lower peak between the same reactant and product levels.
+[chem17-s3.10.1] The catalyst lowers the activation energy; the reactant and product energy levels, and so ΔH, are unchanged, because the catalyst only changes the route, not the start or end.
+[chem17-s3.10.2] Exothermic reaction: both curves start at the reactant level and end at the lower product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is negative and the same for both.
+[chem17-s3.10.3] Endothermic reaction: both curves start at the reactant level and end at the higher product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is positive and the same for both.
+[chem17-s3.10.4] The catalyst lowers the activation energy of the reverse reaction by the same amount as the forward one, which is why it speeds up both directions equally.
+[chem17-s3.10.5] The catalysed pathway may show two or more smaller humps with a dip between them when it goes through an intermediate (a species formed in one step and used up in the next).
+[chem17-s3.11.b] The lower peak is what makes the reaction faster, and the labelling of the arrows is where marks are easily lost.
+[chem17-s3.11.0] With a lower Ea, a much greater fraction of collisions have enough energy to react. On the energy-distribution curve (a graph of how many particles have each energy), the Ea line moves to the left and the area beyond it increases, at the same temperature.
+[chem17-s3.11.1] There is more on this in Rate of reaction and collision theory.
+[chem17-s3.11.2] Arrows for Ea start at the reactant level, not the axis; the ΔH arrow runs from the reactants to the products.
+[chem17-s3.11.3] Diagram: two energy profile diagrams, exothermic and endothermic, each with axes “energy” and “progress of reaction”, reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower dashed peak, and Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows.
+[chem17-s3.12.b] One way a catalyst works is by taking part in the reaction temporarily. It joins a reactant to make an unstable compound, and is handed back unchanged when that compound reacts on.
+[chem17-s3.12.0] In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound.
+[chem17-s3.12.1] The intermediate then reacts with the other reactant, or breaks down, to form the products, and the catalyst is regenerated (returned to its original form).
+[chem17-s3.12.2] General model: step 1, A + Cat → A–Cat (intermediate); step 2, A–Cat + B → AB + Cat.
+[chem17-s3.12.3] Adding the two steps, the catalyst cancels, so it does not appear in the overall equation, giving A + B → AB.
+[chem17-s3.12.4] Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster.
+[chem17-s3.12.5] The energy profile shows two smaller humps, with the intermediate in the dip between them.
+[chem17-s3.12.6] The intermediate is formed and then used up; it is not a product and does not appear in the overall equation.
+[chem17-s3.12.7] This mechanism usually explains homogeneous catalysis.
+[chem17-s3.13.b] Iodide ions catalysing the decomposition of hydrogen peroxide is the worked example of intermediate formation. It takes two steps, and the catalyst is used in the first and regenerated in the second.
+[chem17-s3.13.0] Step 1: H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq); the hypoiodite ion, IO⁻, is the intermediate.
+[chem17-s3.13.1] Step 2: H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq); the iodide ion is regenerated.
+[chem17-s3.13.2] Adding steps 1 and 2 gives 2H₂O₂(aq) → 2H₂O(l) + O₂(g), since I⁻ and IO⁻ cancel.
+[chem17-s3.14.b] Colour changes in this reaction give visible evidence that a catalyst forms an intermediate. Hydrogen peroxide oxidises (reacts with) potassium sodium tartrate, and a cobalt catalyst makes it fast.
+[chem17-s3.14.0] Hydrogen peroxide oxidises potassium sodium tartrate (Rochelle salt) only slowly, even when the solution is warmed to about 70 °C.
+[chem17-s3.14.1] A little pink cobalt(II) chloride solution is added as the catalyst.
+[chem17-s3.14.2] The solution turns green and fizzes vigorously as gas, oxygen and carbon dioxide, is given off.
+[chem17-s3.14.3] When the reaction is over, the solution turns pink again.
+[chem17-s3.14.4] The green colour is an intermediate formed from the cobalt catalyst, not a product.
+[chem17-s3.14.5] The return of the pink colour shows that the cobalt(II) catalyst is regenerated, unchanged, at the end.
+[chem17-s3.14.6] Safety: wear goggles; cobalt compounds are toxic and harmful to the environment; hydrogen peroxide is an oxidiser. The foam can overflow, so use a large beaker.
+[chem17-s3.14.7] Diagram: a beaker of warm tartrate solution with H₂O₂ on a hot plate, with a thermometer; show three colour stages: pink on adding cobalt(II) chloride, green and frothing, and pink again at the end.
+[chem17-s3.15.b] Surface adsorption is the second mechanism, and it explains most heterogeneous catalysis. The reaction takes place on the surface of a solid catalyst in three stages.
+[chem17-s3.15.0] In surface adsorption, reactant molecules are held on the surface of a solid catalyst while they react; this explains most heterogeneous catalysis.
+[chem17-s3.15.1] 1. Adsorption: reactant molecules diffuse (spread by random movement) to the catalyst surface and form weak temporary bonds with it at active sites (the places on the surface where reactants attach).
+[chem17-s3.15.2] 2. Reaction: bonds within the adsorbed molecules are weakened or broken, and the molecules are held close together in a suitable orientation, so they react more easily with a lower activation energy.
+[chem17-s3.15.3] 3. Desorption: the product molecules break away from the surface and diffuse away, freeing the active sites for more reactant molecules.
+[chem17-s3.15.4] Adsorption means accumulation on a surface; absorption means taking a substance into the bulk of a material. Catalysts adsorb.
+[chem17-s3.16.b] Since reactions happen only at active sites on the surface, a catalyst's surface area matters. The examples show adsorption at work.
+[chem17-s3.16.0] The greater the surface area, the more active sites, so catalysts are used as a fine powder, a thin wire or gauze, or a coating spread over a honeycomb support.
+[chem17-s3.16.1] A powdered catalyst is more effective than the same mass of pellets, because the powder exposes more surface and so more active sites.
+[chem17-s3.16.2] Example: in a catalytic converter, CO and NO are adsorbed on the platinum or rhodium surface, react, and CO₂ and N₂ desorb: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+[chem17-s3.16.3] Example: hydrogen and oxygen do not react at room temperature, but with powdered platinum the reaction is violently rapid, because H₂ and O₂ are adsorbed and their bonds weakened on the platinum surface.
+[chem17-s3.16.4] Diagram: a row of catalyst surface atoms, with reactant molecules arriving and attaching (adsorption), reacting on the surface, and product molecules leaving (desorption).
+[chem17-s3.17.b] The two mechanisms explain other features of catalysts, including how they stop working and how enzymes act.
+[chem17-s3.17.0] Poisoning explained: a poison is adsorbed so strongly on the active sites that it does not desorb, so those sites are permanently blocked, e.g. lead or sulfur compounds on a catalytic converter.
+[chem17-s3.17.1] Saturation explained: when every active site is occupied, a higher reactant concentration cannot speed up the reaction, since molecules must wait for a free site.
+[chem17-s3.17.2] Enzymes combine both ideas: the substrate binds to the enzyme's active site, like adsorption on a surface, forming an enzyme–substrate complex, which is an intermediate.
+[chem17-s3.17.3] The enzyme–substrate complex breaks down to products and releases the unchanged enzyme: E + S → ES → E + P.
+[chem17-s3.17.4] Both mechanisms provide a different pathway with a lower activation energy; neither changes ΔH.

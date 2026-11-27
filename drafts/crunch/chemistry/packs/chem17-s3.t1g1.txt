@@ -1,0 +1,380 @@
+MODE: cost and links
+TARGET chem17-s3: 3. Catalysis
+[chem17-s3.0.b] Many reactions are too slow to be useful on their own. A catalyst is a substance that changes the speed of a reaction and comes out of it chemically unchanged, so it is not a reactant.
+[chem17-s3.0.0] A catalyst is a substance that alters the rate of a chemical reaction (how fast reactants turn into products) but is itself chemically unchanged at the end of the reaction.
+[chem17-s3.0.1] A catalyst works by providing an alternative reaction pathway with a lower activation energy (the minimum energy colliding particles need in order to react), so more collisions are successful.
+[chem17-s3.0.2] Only a small amount of catalyst is needed, because it is not used up and so can act on reactants over and over.
+[chem17-s3.0.3] Catalysts tend to be specific: a catalyst speeds up one reaction or one type of reaction, not every reaction.
+[chem17-s3.1.b] A catalyst affects only the speed of a reaction, not its energy change or how much product forms. The decomposition (breaking down) of hydrogen peroxide, H₂O₂, shows both the speed-up and the recovery of the catalyst.
+[chem17-s3.1.0] A catalyst's physical form can change, for example a powder may become finer, but it is chemically unchanged and can be recovered.
+[chem17-s3.1.1] Manganese(IV) oxide filtered off after decomposing hydrogen peroxide has the same mass as it had at the start, which shows it was not used up.
+[chem17-s3.1.2] A catalyst does not change ΔH (the heat change of the reaction) or the amount of product formed; it speeds up the forward and reverse reactions equally. There is more on this in Le Châtelier's principle.
+[chem17-s3.1.3] Without a catalyst, hydrogen peroxide decomposes very slowly on its own at room temperature.
+[chem17-s3.1.4] With manganese(IV) oxide added, hydrogen peroxide decomposes rapidly, with vigorous fizzing of oxygen.
+[chem17-s3.2.b] Catalysts are sorted into two types by comparing the phase of the catalyst with the phase of the reactants. The comparison is about phase, not about whether everything is in the same container.
+[chem17-s3.2.0] “Phase” means solid, liquid, gas or solution.
+[chem17-s3.2.1] Homogeneous catalysis: the catalyst and the reactants are in the same phase, with no boundary between them.
+[chem17-s3.2.2] Homogeneous example: iodide ions, from potassium iodide solution, catalyse the decomposition of hydrogen peroxide solution, so catalyst and reactant are both dissolved in one solution.
+[chem17-s3.2.3] Heterogeneous catalysis: the catalyst and the reactants are in different phases, with a boundary between them.
+[chem17-s3.2.4] Heterogeneous example: solid manganese(IV) oxide catalyses the decomposition of aqueous hydrogen peroxide. It is heterogeneous even though both are in one flask, because a solid and a solution are different phases.
+[chem17-s3.2.5] Heterogeneous example: solid iron catalyses the Haber process (the industrial manufacture of ammonia), in which the reactants are gases.
+[chem17-s3.3.b] A hot platinum wire held above methanol is a heterogeneous catalyst you can watch working, because the wire keeps glowing.
+[chem17-s3.3.0] A hot platinum wire held above methanol catalyses its oxidation (reaction with oxygen) by air: 2CH₃OH(g) + O₂(g) → 2HCHO(g) + 2H₂O(g).
+[chem17-s3.3.1] The platinum wire keeps glowing red because the reaction on its surface is exothermic (it gives out heat).
+[chem17-s3.3.2] The products are methanal and water; methanol and methanal are toxic, and methanol is flammable.
+[chem17-s3.3.3] It is heterogeneous catalysis because the solid platinum is in a different phase from the gaseous methanol and air.
+[chem17-s3.4.b] Usually a catalyst is added at the start. In autocatalysis the reaction makes its own catalyst.
+[chem17-s3.4.0] Autocatalysis: a product of the reaction is a catalyst for it, so the reaction starts slowly (there is little catalyst at first) and speeds up as the product builds up.
+[chem17-s3.4.1] Autocatalysis example: Mn²⁺ ions are formed when potassium permanganate reacts with iron(II) or ethanedioate ions, and the Mn²⁺ ions then catalyse the reaction. There is more on this in Redox titrations and iron tablets.
+[chem17-s3.5.b] Car exhausts contain harmful gases. A catalytic converter is fitted in the exhaust and uses a solid catalyst to turn them into less harmful gases.
+[chem17-s3.5.0] A catalytic converter in a car exhaust uses the metals platinum, palladium and rhodium.
+[chem17-s3.5.1] The metals are spread thinly on a ceramic honeycomb (a ceramic support full of small channels), giving a very large surface area for the gases to touch, inside a steel case.
+[chem17-s3.5.2] It converts harmful exhaust gases (carbon monoxide, nitrogen oxides and unburnt hydrocarbons, which are fuel that did not burn) into carbon dioxide, nitrogen and water.
+[chem17-s3.5.3] Example: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+[chem17-s3.5.4] It is heterogeneous catalysis: a solid catalyst acting on gaseous reactants, so there is a boundary between the phases.
+[chem17-s3.5.5] Environmental benefit: it reduces carbon monoxide, which is toxic, nitrogen oxides, which cause acid rain and smog, and unburnt hydrocarbons in the air.
+[chem17-s3.5.6] Poisoning of the catalysts (a substance stopping them from working) is a separate topic. There is more on this in Rate of reaction and collision theory.
+[chem17-s3.6.b] Living cells use catalysts too. These are called enzymes, and each of the examples below catalyses one reaction.
+[chem17-s3.6.0] An enzyme is a biological catalyst: a protein (a large molecule built from amino acids) produced by living cells that catalyses a reaction in living things.
+[chem17-s3.6.1] Catalase, found in liver and potato, catalyses the decomposition of hydrogen peroxide, a toxic by-product of metabolism (the chemical reactions in cells), into water and oxygen: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem17-s3.6.2] Catalase is one of the fastest-acting enzymes known: a piece of liver added to hydrogen peroxide fizzes vigorously.
+[chem17-s3.6.3] Amylase, in saliva, catalyses the breakdown of starch into the sugar maltose.
+[chem17-s3.6.4] Enzymes in yeast, called zymase, catalyse the fermentation (conversion by yeast into alcohol and gas) of glucose: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g).
+[chem17-s3.7.b] An enzyme's action depends on its shape. This explains why each enzyme is so specific and why heat or extreme pH stops it.
+[chem17-s3.7.0] Enzymes are very specific: each acts on one substance, its substrate (the substance the enzyme works on), or one type of reaction, because the substrate must fit the enzyme's active site (the region where the substrate binds).
+[chem17-s3.7.1] Enzymes work best at an optimum temperature, about 37 °C (body temperature) for human enzymes, and at an optimum pH.
+[chem17-s3.7.2] High temperatures and extreme pH denature enzymes by changing the shape of the active site, so the substrate no longer fits and they stop working.
+[chem17-s3.7.3] Biological washing powders contain enzymes, such as proteases for protein stains and lipases for fats, that clean at lower wash temperatures, saving energy.
+[chem17-s3.8.b] An energy profile diagram shows how the energy of the particles changes as reactants turn into products. It is the way to compare a catalysed and an uncatalysed reaction.
+[chem17-s3.8.0] An energy profile diagram plots energy on the y-axis against progress of reaction on the x-axis.
+[chem17-s3.8.1] For an exothermic reaction (one that gives out heat) the products are lower than the reactants and ΔH is negative; for an endothermic reaction (one that takes in heat) the products are higher and ΔH is positive.
+[chem17-s3.8.2] The curve rises from the reactants to a peak and falls to the products.
+[chem17-s3.8.3] The peak is the activated complex (transition state): the high-energy arrangement of atoms in which old bonds are partly broken and new bonds partly formed; it cannot be isolated.
+[chem17-s3.8.4] The activated complex is not an intermediate (a species formed in one step and used up in the next): an intermediate sits in a dip between two peaks and can sometimes be detected.
+[chem17-s3.9.b] Two heights on the diagram carry the key numbers: how high the peak is above the reactants, and how far apart the reactant and product levels are.
+[chem17-s3.9.0] Activation energy (Ea) is the height from the reactant level up to the peak.
+[chem17-s3.9.1] ΔH is the difference between the reactant and product levels.
+[chem17-s3.9.2] For an endothermic reaction Ea is always greater than ΔH, since the peak is above the products.
+[chem17-s3.9.3] The activation energy of the reverse reaction is the height from the product level up to the peak, so Ea(reverse) = Ea(forward) − ΔH.
+[chem17-s3.9.4] Sample data: a forward Ea of 100 kJ mol⁻¹ and ΔH of −60 kJ mol⁻¹ give a reverse Ea of 100 − (−60) = 160 kJ mol⁻¹, because the products start 60 kJ mol⁻¹ lower than the reactants.
+[chem17-s3.10.b] To show a catalyst on an energy profile you draw a second pathway on the same axes. Only the peak changes; the start and end levels stay where they were.
+[chem17-s3.10.0] On the same axes, the catalysed pathway is drawn as a lower peak between the same reactant and product levels.
+[chem17-s3.10.1] The catalyst lowers the activation energy; the reactant and product energy levels, and so ΔH, are unchanged, because the catalyst only changes the route, not the start or end.
+[chem17-s3.10.2] Exothermic reaction: both curves start at the reactant level and end at the lower product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is negative and the same for both.
+[chem17-s3.10.3] Endothermic reaction: both curves start at the reactant level and end at the higher product level; Ea(catalysed) is less than Ea(uncatalysed), and ΔH is positive and the same for both.
+[chem17-s3.10.4] The catalyst lowers the activation energy of the reverse reaction by the same amount as the forward one, which is why it speeds up both directions equally.
+[chem17-s3.10.5] The catalysed pathway may show two or more smaller humps with a dip between them when it goes through an intermediate (a species formed in one step and used up in the next).
+[chem17-s3.11.b] The lower peak is what makes the reaction faster, and the labelling of the arrows is where marks are easily lost.
+[chem17-s3.11.0] With a lower Ea, a much greater fraction of collisions have enough energy to react. On the energy-distribution curve (a graph of how many particles have each energy), the Ea line moves to the left and the area beyond it increases, at the same temperature.
+[chem17-s3.11.1] There is more on this in Rate of reaction and collision theory.
+[chem17-s3.11.2] Arrows for Ea start at the reactant level, not the axis; the ΔH arrow runs from the reactants to the products.
+[chem17-s3.11.3] Diagram: two energy profile diagrams, exothermic and endothermic, each with axes “energy” and “progress of reaction”, reactant and product levels, an uncatalysed curve with a high peak and a catalysed curve with a lower dashed peak, and Ea (uncatalysed), Ea (catalysed) and ΔH marked with arrows.
+[chem17-s3.12.b] One way a catalyst works is by taking part in the reaction temporarily. It joins a reactant to make an unstable compound, and is handed back unchanged when that compound reacts on.
+[chem17-s3.12.0] In intermediate formation, the catalyst reacts with one reactant to form an unstable intermediate compound.
+[chem17-s3.12.1] The intermediate then reacts with the other reactant, or breaks down, to form the products, and the catalyst is regenerated (returned to its original form).
+[chem17-s3.12.2] General model: step 1, A + Cat → A–Cat (intermediate); step 2, A–Cat + B → AB + Cat.
+[chem17-s3.12.3] Adding the two steps, the catalyst cancels, so it does not appear in the overall equation, giving A + B → AB.
+[chem17-s3.12.4] Each step has a lower activation energy than the uncatalysed reaction, so the overall reaction is faster.
+[chem17-s3.12.5] The energy profile shows two smaller humps, with the intermediate in the dip between them.
+[chem17-s3.12.6] The intermediate is formed and then used up; it is not a product and does not appear in the overall equation.
+[chem17-s3.12.7] This mechanism usually explains homogeneous catalysis.
+[chem17-s3.13.b] Iodide ions catalysing the decomposition of hydrogen peroxide is the worked example of intermediate formation. It takes two steps, and the catalyst is used in the first and regenerated in the second.
+[chem17-s3.13.0] Step 1: H₂O₂(aq) + I⁻(aq) → H₂O(l) + IO⁻(aq); the hypoiodite ion, IO⁻, is the intermediate.
+[chem17-s3.13.1] Step 2: H₂O₂(aq) + IO⁻(aq) → H₂O(l) + O₂(g) + I⁻(aq); the iodide ion is regenerated.
+[chem17-s3.13.2] Adding steps 1 and 2 gives 2H₂O₂(aq) → 2H₂O(l) + O₂(g), since I⁻ and IO⁻ cancel.
+[chem17-s3.14.b] Colour changes in this reaction give visible evidence that a catalyst forms an intermediate. Hydrogen peroxide oxidises (reacts with) potassium sodium tartrate, and a cobalt catalyst makes it fast.
+[chem17-s3.14.0] Hydrogen peroxide oxidises potassium sodium tartrate (Rochelle salt) only slowly, even when the solution is warmed to about 70 °C.
+[chem17-s3.14.1] A little pink cobalt(II) chloride solution is added as the catalyst.
+[chem17-s3.14.2] The solution turns green and fizzes vigorously as gas, oxygen and carbon dioxide, is given off.
+[chem17-s3.14.3] When the reaction is over, the solution turns pink again.
+[chem17-s3.14.4] The green colour is an intermediate formed from the cobalt catalyst, not a product.
+[chem17-s3.14.5] The return of the pink colour shows that the cobalt(II) catalyst is regenerated, unchanged, at the end.
+[chem17-s3.14.6] Safety: wear goggles; cobalt compounds are toxic and harmful to the environment; hydrogen peroxide is an oxidiser. The foam can overflow, so use a large beaker.
+[chem17-s3.14.7] Diagram: a beaker of warm tartrate solution with H₂O₂ on a hot plate, with a thermometer; show three colour stages: pink on adding cobalt(II) chloride, green and frothing, and pink again at the end.
+[chem17-s3.15.b] Surface adsorption is the second mechanism, and it explains most heterogeneous catalysis. The reaction takes place on the surface of a solid catalyst in three stages.
+[chem17-s3.15.0] In surface adsorption, reactant molecules are held on the surface of a solid catalyst while they react; this explains most heterogeneous catalysis.
+[chem17-s3.15.1] 1. Adsorption: reactant molecules diffuse (spread by random movement) to the catalyst surface and form weak temporary bonds with it at active sites (the places on the surface where reactants attach).
+[chem17-s3.15.2] 2. Reaction: bonds within the adsorbed molecules are weakened or broken, and the molecules are held close together in a suitable orientation, so they react more easily with a lower activation energy.
+[chem17-s3.15.3] 3. Desorption: the product molecules break away from the surface and diffuse away, freeing the active sites for more reactant molecules.
+[chem17-s3.15.4] Adsorption means accumulation on a surface; absorption means taking a substance into the bulk of a material. Catalysts adsorb.
+[chem17-s3.16.b] Since reactions happen only at active sites on the surface, a catalyst's surface area matters. The examples show adsorption at work.
+[chem17-s3.16.0] The greater the surface area, the more active sites, so catalysts are used as a fine powder, a thin wire or gauze, or a coating spread over a honeycomb support.
+[chem17-s3.16.1] A powdered catalyst is more effective than the same mass of pellets, because the powder exposes more surface and so more active sites.
+[chem17-s3.16.2] Example: in a catalytic converter, CO and NO are adsorbed on the platinum or rhodium surface, react, and CO₂ and N₂ desorb: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).
+[chem17-s3.16.3] Example: hydrogen and oxygen do not react at room temperature, but with powdered platinum the reaction is violently rapid, because H₂ and O₂ are adsorbed and their bonds weakened on the platinum surface.
+[chem17-s3.16.4] Diagram: a row of catalyst surface atoms, with reactant molecules arriving and attaching (adsorption), reacting on the surface, and product molecules leaving (desorption).
+[chem17-s3.17.b] The two mechanisms explain other features of catalysts, including how they stop working and how enzymes act.
+[chem17-s3.17.0] Poisoning explained: a poison is adsorbed so strongly on the active sites that it does not desorb, so those sites are permanently blocked, e.g. lead or sulfur compounds on a catalytic converter.
+[chem17-s3.17.1] Saturation explained: when every active site is occupied, a higher reactant concentration cannot speed up the reaction, since molecules must wait for a free site.
+[chem17-s3.17.2] Enzymes combine both ideas: the substrate binds to the enzyme's active site, like adsorption on a surface, forming an enzyme–substrate complex, which is an intermediate.
+[chem17-s3.17.3] The enzyme–substrate complex breaks down to products and releases the unchanged enzyme: E + S → ES → E + P.
+[chem17-s3.17.4] Both mechanisms provide a different pathway with a lower activation energy; neither changes ΔH.
+
+CANDIDATES chem17-s1: 1. Rate of reaction and collision theory
+[chem17-s1.0.b] Some reactions finish in a flash and others take years. Rate of reaction is the measure chemists use to say exactly how fast a reaction goes, and it is always a change per unit of time.
+[chem17-s1.0.0] Rate of reaction is the change in concentration (the amount of substance per litre of solution) of a reactant (a substance used up) or a product (a substance formed) per unit time.
+[chem17-s1.0.1] When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹, that is, moles per litre changing each second or each minute.
+[chem17-s1.0.2] When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).
+[chem17-s1.0.3] Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio (the ratio of the numbers in front of the formulas) in the balanced equation.
+[chem17-s1.0.4] For example, in 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed, because the equation shows 2 mol H₂O₂ for every 1 mol O₂.
+[chem17-s1.0.5] A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.
+[chem17-s1.0.6] For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time), so halving the time taken doubles the rate.
+[chem17-s1.0.7] The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst (a substance that changes the rate without being used up) and, for reactions of gases, pressure; the nature of the reactants also matters. There is more on this in “Collision theory”.
+[chem17-s1.1.b] To find a rate you need a property that changes as the reaction goes and that you can measure repeatedly. When a reaction gives off a gas, either the gas volume or the mass lost can be tracked.
+[chem17-s1.1.0] Measure the volume of gas produced at regular time intervals, collected in a gas syringe (a calibrated syringe that the gas pushes out) or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.
+[chem17-s1.1.1] When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar, because a gas jar has no scale to read the volume from.
+[chem17-s1.1.2] Diagram: a flask joined by a delivery tube to a gas syringe, or to an inverted graduated cylinder full of water standing in a trough; label the flask, reactants, delivery tube and the gas collector.
+[chem17-s1.1.3] Measure the loss in mass as a gas escapes, with the flask on an electronic balance, because the escaping gas carries mass away from the flask.
+[chem17-s1.1.4] A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost, which would give a false mass loss.
+[chem17-s1.1.5] Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.
+[chem17-s1.1.6] Diagram: a conical flask of calcium carbonate and hydrochloric acid, with a cotton-wool plug in its neck, standing on an electronic balance; label the flask, plug, balance and the CO₂ escaping.
+[chem17-s1.2.b] Not every reaction gives off a gas. Another way to follow a reaction is to time how long a fixed amount of change takes, or to watch a colour change.
+[chem17-s1.2.0] Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate (a solid formed in a solution) to hide a cross under the flask.
+[chem17-s1.2.1] Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s1.2.2] The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate, because the same amount of sulfur forms to hide the cross in every run, so a shorter time means a faster rate.
+[chem17-s1.2.3] Diagram: a conical flask of sodium thiosulfate solution standing on a paper marked with a cross, viewed from above; label the flask, the solution and the cross.
+[chem17-s1.2.4] Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.
+[chem17-s1.2.5] The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction.
+[chem17-s1.3.b] A reaction does not run at one steady speed. Its rate falls as it goes, and the shape of a graph shows this.
+[chem17-s1.3.0] The rate is greatest at the start, when the concentration of reactants is highest, so there are the most particles available to react.
+[chem17-s1.3.1] As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.
+[chem17-s1.3.2] The reaction stops when the limiting reactant (the reactant that runs out first) is used up; the rate is then zero.
+[chem17-s1.3.3] On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.
+[chem17-s1.3.4] The gradient (steepness) of the curve at any point is the rate at that time, so a steep curve means fast and a flat line means no reaction.
+[chem17-s1.3.5] On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.
+[chem17-s1.3.6] The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.
+[chem17-s1.3.7] Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”.
+[chem17-s1.4.b] Controlling how fast a reaction goes is useful in industry, in the kitchen and in the body.
+[chem17-s1.4.0] Industry wants fast reactions, so that products are made quickly and economically.
+[chem17-s1.4.1] Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.
+[chem17-s1.4.2] The rates of reactions in the body are controlled by enzymes (biological catalysts). There is more on this in “Catalysis and energy profiles”.
+[chem17-s1.5.b] Collision theory explains what has to happen at the level of particles for a reaction to take place. It is the idea behind every factor that changes rate.
+[chem17-s1.5.0] For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.
+[chem17-s1.5.1] Most collisions do not lead to reaction: the particles just bounce apart.
+[chem17-s1.5.2] A collision leads to reaction only if the particles collide with at least a minimum amount of energy, the activation energy, so that bonds can begin to break.
+[chem17-s1.5.3] Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.
+[chem17-s1.5.4] An effective collision is one that results in the formation of products.
+[chem17-s1.5.5] The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate.
+[chem17-s1.6.b] Reactions range from instantaneous to almost undetectable. The syllabus asks for examples of both.
+[chem17-s1.6.0] Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.
+[chem17-s1.6.1] Ionic equation (showing only the ions that react) for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem17-s1.6.2] Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.
+[chem17-s1.6.3] Slow: rusting of iron takes days to years.
+[chem17-s1.6.4] Fermentation of glucose by yeast (the breakdown of glucose by yeast to make ethanol) takes days.
+[chem17-s1.6.5] A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction, even though it explodes when ignited.
+[chem17-s1.7.b] Whether a reaction is fast or slow depends on its activation energy, which in turn depends on whether bonds must be broken first.
+[chem17-s1.7.0] Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.
+[chem17-s1.7.1] Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.
+[chem17-s1.7.2] Reactions between covalent molecules are usually slower, because covalent bonds (bonds formed by sharing electrons) must be broken before new bonds can form, so the activation energy is higher.
+[chem17-s1.7.3] A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast.
+[chem17-s1.8.b] Concentration is the first factor that collision theory explains. More particles in the same space means more chances to collide.
+[chem17-s1.8.0] Increasing the concentration of a reactant in solution increases the number of particles per unit volume.
+[chem17-s1.8.1] The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.
+[chem17-s1.8.2] In many reactions the rate is directly proportional to the concentration of a reactant: a graph of rate against concentration is a straight line through the origin, as shown by the thiosulfate investigation in “Investigation: factors affecting rate”.
+[chem17-s1.9.b] For a solid, only the outside can react. Cutting a solid into smaller pieces exposes more of it without adding any more substance.
+[chem17-s1.9.0] Only particles at the surface of a solid can collide with the other reactant, so particles buried inside a lump cannot react until the surface is used up.
+[chem17-s1.9.1] Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.
+[chem17-s1.9.2] For example, powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.
+[chem17-s1.9.3] Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.
+[chem17-s1.9.4] Dust explosions are a risk in flour mills, grain silos and coal mines.
+[chem17-s1.9.5] A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame.
+[chem17-s1.10.b] Raising the temperature speeds up most reactions. Collision theory gives two reasons, and one matters far more than the other.
+[chem17-s1.10.0] Raising the temperature increases the rate of almost all reactions.
+[chem17-s1.10.1] For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.
+[chem17-s1.10.2] Reason 1: at a higher temperature particles have more kinetic energy (energy of movement) and move faster, so they collide more often.
+[chem17-s1.10.3] Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.
+[chem17-s1.10.4] Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.
+[chem17-s1.10.5] Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.
+[chem17-s1.11.b] Particles in a sample do not all have the same energy. A graph of how the energies are spread shows why a small temperature rise has such a large effect.
+[chem17-s1.11.0] On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.
+[chem17-s1.11.1] The area under the curve to the right of Ea is the number of particles with enough energy to react.
+[chem17-s1.11.2] At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger, so many more collisions are effective.
+[chem17-s1.11.3] Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.
+[chem17-s1.11.4] Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower because fewer particles have energy at or above Ea. There is more on this in “Rate of reaction”.
+[chem17-s1.12.b] A catalyst speeds up a reaction without raising the temperature. It does this by changing the route the reaction takes.
+[chem17-s1.12.0] A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.
+[chem17-s1.12.1] A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.
+[chem17-s1.12.2] The catalyst is not used up, so a small amount can speed up the reaction again and again. There is more on types of catalysis, enzymes and energy profiles in “Catalysis and energy profiles”.
+[chem17-s1.13.b] Pressure is the last factor, and it only matters when gases are reacting.
+[chem17-s1.13.0] Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.
+[chem17-s1.13.1] The molecules collide more often, so the rate increases.
+[chem17-s1.13.2] Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids.
+[chem17-s1.14.b] The simple collision theory leaves out some things. Orientation, surfaces that become full, and poisoned catalysts all explain why real reactions can behave differently.
+[chem17-s1.14.0] Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.
+[chem17-s1.14.1] Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.
+[chem17-s1.14.2] Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.
+[chem17-s1.14.3] For example, an enzyme-catalysed reaction speeds up as substrate (the substance the enzyme acts on) concentration rises, but levels off when all the enzyme's active sites (the places where the substrate binds) are occupied; further substrate has no effect.
+[chem17-s1.14.4] A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.
+[chem17-s1.14.5] A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.
+[chem17-s1.14.6] The catalysts in a car's catalytic converter (platinum, palladium and rhodium) are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds.
+
+CANDIDATES chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.
+
+CANDIDATES chem17-s2: 2. Investigation: factors affecting rate
+[chem17-s2.0.b] The rate of a reaction is how fast reactants are used up or products appear. You can measure it over a whole stretch of time (average rate) or at the very start (initial rate), and the two give different answers.
+[chem17-s2.0.0] Average rate over a time interval is the change in the amount of product or reactant divided by the time taken, for example the total volume of gas divided by the total time.
+[chem17-s2.0.1] Initial rate is the rate at the very start (t = 0). It is the greatest rate of the whole reaction because the reactant concentrations are highest then.
+[chem17-s2.0.2] The initial rate is the gradient (slope) of the tangent drawn to the curve at the origin. A tangent is a straight line that just touches a curve at one point without cutting it.
+[chem17-s2.0.3] A clock reaction is one timed until a fixed amount of product forms, such as the sulfur cross, where you time how long until a mark is hidden. For these, 1/time measures the initial rate.
+[chem17-s2.0.4] 1/time works as the initial rate because in a clock reaction only a small fraction of the reactants has been used in the time taken, so the rate has hardly changed.
+[chem17-s2.1.b] Here one set of results is used to find an average rate, compare two minutes and find an initial rate. Follow the arithmetic step by step so you can repeat it on any graph or table.
+[chem17-s2.1.0] Sample data: oxygen from hydrogen peroxide with manganese(IV) oxide. Time (min) and volume (cm³): 0, 0; 1, 21; 2, 36; 3, 47; 4, 56; 5, 62; 6, 67; 8, 73; 10, 76; 12, 78; 14, 79; 16, 80; 18, 80.
+[chem17-s2.1.1] The reaction is complete when the volume stops changing. Here it levels at 80 cm³, at about 16 min.
+[chem17-s2.1.2] Average rate over the first 4 min = 56 cm³ ÷ 4 min = 14.0 cm³ min⁻¹.
+[chem17-s2.1.3] Average rate in the first minute = 21 cm³ min⁻¹.
+[chem17-s2.1.4] Average rate in the second minute = (36 − 21) cm³ ÷ 1 min = 15 cm³ min⁻¹. This is lower than the first minute because the concentration of H₂O₂ has fallen as it is used up.
+[chem17-s2.1.5] Initial rate: the tangent at the origin passes through (1.0 min, 24 cm³), so the initial rate = 24 cm³ ÷ 1.0 min = 24.0 cm³ min⁻¹.
+[chem17-s2.1.6] To convert a rate in g min⁻¹ to mol min⁻¹, divide by the molar mass (the mass of one mole): M(CO₂) = 44 g mol⁻¹ (C 12, O 16).
+[chem17-s2.1.7] If the mass of CO₂ lost is 0.220 g min⁻¹ (sample data), the rate = 0.220 g min⁻¹ ÷ 44 g mol⁻¹ = 5.00 × 10⁻³ mol CO₂ min⁻¹.
+[chem17-s2.2.b] The rate keeps changing as reactants are used up, so sometimes you need the rate at one exact moment. A tangent to the curve gives it.
+[chem17-s2.2.0] Instantaneous rate is the rate at one particular moment: the gradient of the tangent drawn to the curve at that time.
+[chem17-s2.2.1] To draw the tangent, place a ruler so that it touches the curve at the chosen time without cutting it, and draw a long straight line. A long line makes the gradient more accurate.
+[chem17-s2.2.2] Pick two points far apart on the tangent line and calculate gradient = change in y ÷ change in x. Points far apart reduce the error in reading the graph.
+[chem17-s2.2.3] The instantaneous rate falls during the reaction because the reactants are used up. The average rate over an interval lies between the instantaneous rates at its start and end.
+[chem17-s2.2.4] Instantaneous rate at 2.0 min, from the sample data above: the tangent passes through (0 min, 10 cm³) and (5.0 min, 76 cm³), so the rate = (76 − 10) cm³ ÷ (5.0 − 0) min = 13.2 cm³ min⁻¹.
+[chem17-s2.3.b] This reaction gives off carbon dioxide gas, so the mass of the flask falls as the reaction goes. Weighing the flask over time lets you follow the rate and test two factors: particle size and acid concentration.
+[chem17-s2.3.0] Aim: to investigate the effect of particle size (and of acid concentration) on the rate of reaction of calcium carbonate with hydrochloric acid.
+[chem17-s2.3.1] Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem17-s2.3.2] 1. Place a conical flask (a flask with a flat base and narrow neck) containing a known mass, e.g. 10 g, of large marble chips (calcium carbonate) on an electronic balance.
+[chem17-s2.3.3] 2. Put a graduated cylinder holding a known volume, e.g. 50 cm³, of 1.0 M hydrochloric acid beside the flask, and record the total mass.
+[chem17-s2.4.b] With the flask set up on the balance, you start the reaction and record the falling mass, then repeat with one factor changed.
+[chem17-s2.4.0] 3. Pour in the acid, put a loose cotton-wool plug in the neck, and start the stopwatch at once.
+[chem17-s2.4.1] 4. Record the mass every 30 s for about 10 min, until it stops changing. The loss in mass is the mass of CO₂ given off.
+[chem17-s2.4.2] 5. Repeat with the same mass of small chips or powder, with the same volume and concentration of acid at the same temperature.
+[chem17-s2.4.3] 6. For concentration, repeat with the same size and mass of chips and the same volume of acid at different concentrations, e.g. 0.5 M, 1.0 M and 2.0 M. (M means mol L⁻¹.)
+[chem17-s2.4.4] Alternative: collect the CO₂ in a gas syringe (a calibrated syringe that the gas pushes out) and record its volume every 30 s.
+[chem17-s2.4.5] Diagram: conical flask with marble chips and acid, loose cotton-wool plug, on an electronic balance; a graduated cylinder of acid beside it; a stopwatch.
+[chem17-s2.5.b] Plotting the results shows which conditions give the faster reaction. Each choice in the method also has a reason, which is what makes the test fair.
+[chem17-s2.5.0] Plot mass of CO₂ lost (y-axis) against time (x-axis) for each run on the same axes. The steeper initial curve shows the faster rate.
+[chem17-s2.5.1] Smaller chips give a steeper curve, a faster rate, because of their greater surface area: more calcium carbonate is exposed to the acid at once.
+[chem17-s2.5.2] More concentrated acid gives a faster rate. There is more on this in Rate of reaction and collision theory.
+[chem17-s2.5.3] The chips are in excess (more than enough), so the acid is the limiting reactant (the one that runs out first and so sets the total amount of product).
+[chem17-s2.5.4] Because the acid is the limiting reactant, more concentrated acid of the same volume also gives more CO₂ in total.
+[chem17-s2.5.5] The cotton-wool plug lets CO₂ escape but stops acid spray being lost, which would otherwise add to the mass loss and give a false result.
+[chem17-s2.5.6] The same mass of carbonate and the same acid keep the test fair, so only the factor you chose changes.
+[chem17-s2.6.b] In this reaction a solid forms and slowly turns the solution cloudy. Timing how long until a cross under the flask disappears gives a measure of rate without any gas collection.
+[chem17-s2.6.0] Aim: to investigate the effect of concentration and of temperature on rate.
+[chem17-s2.6.1] Equation: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s2.6.2] The pale yellow sulfur precipitate (an insoluble solid formed in a solution) makes the solution cloudy until it hides the cross.
+[chem17-s2.6.3] Draw a dark cross on white paper and place a conical flask on it, so you can look down through the solution at the cross.
+[chem17-s2.6.4] Look down through the solution from above and stop the watch when the cross can no longer be seen. Record the time.
+[chem17-s2.7.b] To change the concentration you dilute the thiosulfate with water. The total volume must stay the same so that the only thing that changes is the concentration.
+[chem17-s2.7.0] Make a series of thiosulfate solutions of the same total volume, e.g. 50, 40, 30, 20 and 10 cm³ of 0.20 M Na₂S₂O₃, each made up to 50 cm³ with deionised water (water with dissolved ions removed). This gives 0.20, 0.16, 0.12, 0.08 and 0.04 M.
+[chem17-s2.7.1] Dilute with water only, using a burette or graduated pipette (accurate glass tubes for measuring liquid volumes), and keep the total volume constant.
+[chem17-s2.7.2] Pour one solution into the flask, add a fixed volume of acid, e.g. 10 cm³ of 2.0 M hydrochloric acid, quickly, swirl, and start the stopwatch at the same moment.
+[chem17-s2.7.3] Repeat for each concentration, keeping the acid volume and concentration, total volume, temperature, flask, cross and observer the same. Calculate rate = 1/time.
+[chem17-s2.8.b] To test temperature, the concentration is fixed and the starting temperature is changed with a water bath (a container of water held at a set temperature).
+[chem17-s2.8.0] Use the same concentration each time, e.g. 0.05 M Na₂S₂O₃, so that temperature is the only factor that changes.
+[chem17-s2.8.1] Warm the thiosulfate in a water bath to the chosen temperature, e.g. 20, 30, 40 or 50 °C, add the acid, start timing, and record the temperature of the mixture with a thermometer.
+[chem17-s2.8.2] Use the average of the start and end temperatures, because the mixture does not stay at one temperature during the run.
+[chem17-s2.9.b] Converting each time into a rate (1/time) lets you plot rate against the factor and draw a conclusion. These results are sample data.
+[chem17-s2.9.0] Sample data, concentration: 0.20 M, 20 s; 0.16 M, 25 s; 0.12 M, 34 s; 0.08 M, 50 s; 0.04 M, 102 s.
+[chem17-s2.9.1] Rates (1/time) for those concentrations: 0.0500, 0.0400, 0.0294, 0.0200 and 0.0098 s⁻¹.
+[chem17-s2.9.2] A graph of rate against concentration is a straight line through the origin, so rate is directly proportional to concentration.
+[chem17-s2.9.3] Sample data, temperature: 20 °C, 80 s; 30 °C, 41 s; 40 °C, 21 s; 50 °C, 11 s.
+[chem17-s2.9.4] Rates (1/time) for those temperatures: 0.0125, 0.0244, 0.0476 and 0.0909 s⁻¹.
+[chem17-s2.9.5] A graph of rate against temperature is a curve rising ever more steeply. The rate roughly doubles for each 10 °C rise.
+[chem17-s2.9.6] The same total volume means the same depth of liquid over the cross, so the same amount of sulfur hides it in each run.
+[chem17-s2.9.7] 1/time is used as the measure of rate because a shorter time means a faster rate.
+[chem17-s2.10.b] Sulfur dioxide is made in this reaction, so there is a safety point to state. The timing relies on judgement, so there are also errors to know.
+[chem17-s2.10.0] Safety: sulfur dioxide is a toxic, choking gas that is dangerous for people with asthma. Work in a well-ventilated room, do not heat above about 60 °C, and pour the mixture away promptly when each run ends.
+[chem17-s2.10.1] Judging when the cross disappears is subjective (it depends on the person looking), so use the same observer and the same cross.
+[chem17-s2.10.2] A delay in starting the stopwatch affects the time recorded, because the clock must start the moment the solutions mix.
+[chem17-s2.10.3] The temperature falls during a warm run, which is why the average of the start and end temperatures is used.
+[chem17-s2.10.4] Diagram: conical flask standing on white paper marked with a cross, eye looking down from above; thermometer and water bath for the temperature runs.
+[chem17-s2.11.b] Hydrogen peroxide breaks down slowly into water and oxygen. Manganese(IV) oxide speeds this up, and collecting the oxygen lets you follow the rate.
+[chem17-s2.11.0] Aim: to measure the rate of decomposition (breaking down) of hydrogen peroxide with manganese(IV) oxide catalyst (a substance that speeds up a reaction without being used up), and to investigate the effect of one factor: the concentration of H₂O₂, the form of the catalyst, or the temperature.
+[chem17-s2.11.1] Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem17-s2.11.2] 1. Place a measured volume of dilute hydrogen peroxide, e.g. 5 cm³ of 20-volume H₂O₂ diluted to 25 cm³ with deionised water, in a conical flask.
+[chem17-s2.11.3] 20-volume hydrogen peroxide gives 20 cm³ of oxygen per cm³ of solution on complete decomposition.
+[chem17-s2.11.4] 2. Put a small mass, e.g. 0.5 g, of manganese(IV) oxide (manganese dioxide, MnO₂), a black powder, in a small test tube. Lower it into the flask on a thread so that it does not touch the peroxide.
+[chem17-s2.11.5] 3. Stopper the flask, with a delivery tube leading to an inverted graduated cylinder full of water in a basin, or to a gas syringe.
+[chem17-s2.11.6] 4. Tilt or shake the flask so the catalyst mixes with the peroxide, and start the stopwatch at the same instant. This starts the reaction without losing any oxygen.
+[chem17-s2.11.7] 5. Record the volume of oxygen every 30 s or 1 min until no more gas is produced; swirl the flask throughout.
+[chem17-s2.12.b] Once the basic run works, you change one factor at a time and compare. A control and a safety check complete the investigation.
+[chem17-s2.12.0] Repeat, changing one factor: e.g. half the concentration of H₂O₂ with the same total volume, or granules instead of powder with the same mass, keeping everything else the same.
+[chem17-s2.12.1] A control (a run with the factor you are testing left out): hydrogen peroxide without catalyst gives almost no oxygen over the same time. This shows the catalyst is what speeds the reaction.
+[chem17-s2.12.2] The catalyst can be filtered off, washed, dried and weighed at the end to show it is unchanged in mass.
+[chem17-s2.12.3] Safety: hydrogen peroxide is an oxidising agent (it readily causes other substances to be oxidised) and, in concentrated form, is corrosive to skin and eyes (it damages them on contact). Wear goggles and gloves.
+[chem17-s2.12.4] Store hydrogen peroxide in a cool, dark place, because it decomposes in light and heat, building up pressure.
+[chem17-s2.12.5] Diagram: conical flask with H₂O₂ and a small test tube of MnO₂ hanging on a thread; stopper and delivery tube to an inverted graduated cylinder of water in a trough, or to a gas syringe.
+[chem17-s2.13.b] A graph of gas volume against time changes in predictable ways when you change a condition. The gradient shows the rate, and the final level shows how much product could form.
+[chem17-s2.13.0] A faster rate gives a steeper initial curve that levels off sooner. The causes are a higher temperature, a catalyst, powder instead of lumps, or a more concentrated excess reactant.
+[chem17-s2.13.1] A faster rate gives the same final volume if the amount of limiting reactant (the reactant that runs out first) is unchanged.
+[chem17-s2.13.2] A slower rate, from a lower temperature (e.g. ice-water), larger lumps or no catalyst, gives a less steep curve that takes longer to level off.
+[chem17-s2.13.3] A slower rate also gives the same final volume if the amount of limiting reactant is unchanged.
+[chem17-s2.13.4] Halving the concentration of the limiting reactant, at the same volume, gives a less steep curve and half the final volume, because there is half as much reactant to form product.
+[chem17-s2.13.5] The final volume of gas tells you the amount of limiting reactant; the gradient tells you the rate.
+[chem17-s2.13.6] Secondary data (values you are given, not ones you measured) come from a graph or table, such as the volume at a stated time, the time to reach a volume, the time the reaction ended or half the final volume.
+[chem17-s2.13.7] Use secondary data to calculate rates as above, and instantaneous rates at Higher Level.

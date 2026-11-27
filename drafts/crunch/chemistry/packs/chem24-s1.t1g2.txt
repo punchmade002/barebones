@@ -1,0 +1,384 @@
+MODE: links only (another package rates cost)
+TARGET chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.

@@ -1,0 +1,118 @@
+MODE: cost and links
+TARGET hom-home-services-s1: 1. Energy supplies to the home
+[hom-home-services-s1.0.b] A home needs energy for heat, light, power and sound, and every supply is a fuel or a flow of energy converted into one of these. To compare supplies, you need to know how energy is measured, how fuels form and whether a source can be replaced.
+[hom-home-services-s1.0.0] A fuel is a material burned to release heat. Combustion needs fuel, oxygen and a source of heat, and complete combustion of a hydrocarbon gives carbon dioxide and water vapour.
+[hom-home-services-s1.0.1] Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables. One kWh equals 3.6 MJ (3600 kJ).
+[hom-home-services-s1.0.2] Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment. Burning them releases carbon dioxide that was locked away long ago.
+[hom-home-services-s1.0.3] Primary energy is a fuel dug up or collected, such as gas, oil, coal, turf, wood or sunlight. Electricity is secondary energy because it is made from another source and then carried to the house.
+[hom-home-services-s1.0.4] A non-renewable source has finite reserves that cannot be replaced on a human timescale, such as coal, peat, natural gas and oil. A renewable source is replenished naturally within a human lifetime, such as solar, wind, hydro and wood.
+[hom-home-services-s1.0.5] Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations. For each source, ask three questions: will it run out, what does it do to the environment, and can it be supplied reliably?
+[hom-home-services-s1.1.b] Electricity is not a fuel you dig up. It is made in power stations from other sources and sent to the home, which is why it is called a secondary energy.
+[hom-home-services-s1.1.0] In a power station a turbine turns a generator. The turbine is driven by steam from burning gas, coal or other fuel, by flowing water (hydro) or by wind. Solar panels make electricity directly with no turbine.
+[hom-home-services-s1.1.1] Ireland's electricity comes from a mix of natural gas, wind and other sources, and part of it is imported through interconnectors (cables linking Ireland's grid to other countries).
+[hom-home-services-s1.1.2] The national grid carries electricity at high voltage over long distances. High voltage means low current, which reduces the energy lost as heat in the cables. EirGrid operates the national grid.
+[hom-home-services-s1.1.3] Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V (50 Hz) used in Irish homes. ESB Networks runs the distribution network.
+[hom-home-services-s1.1.4] A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used.
+[hom-home-services-s1.2.b] Electricity is the most convenient supply in the home, but how green it is depends on how it was generated.
+[hom-home-services-s1.2.0] Advantages: it is clean and quiet at the point of use, needs no storage, and is available instantly. It suits lighting, appliances and cooking, and can be used for heating, for example storage heaters, panel heaters and heat pumps.
+[hom-home-services-s1.2.1] Electricity can also be produced in the home from solar panels or small wind turbines.
+[hom-home-services-s1.2.2] Disadvantages: how green it is depends on how it was generated, electric heating is expensive to run unless on night rate, and there is no supply in a power cut.
+[hom-home-services-s1.2.3] Sustainability: electricity from wind, hydro and solar is renewable, and electricity from burning gas, coal or oil is not. A home on the grid gets a mix of both.
+[hom-home-services-s1.3.b] Natural gas is the fuel behind most mains-gas heating and cooking. Knowing where it comes from and how it arrives helps you describe it as a supply.
+[hom-home-services-s1.3.0] Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment. It is found under the seabed or land and brought ashore or up by pipe.
+[hom-home-services-s1.3.1] Ireland's own supply comes from the Corrib gas field, off the coast of Co. Mayo, with gas coming ashore at Bellanaboy. The rest is imported by subsea pipeline from Britain, which reaches Ireland from Moffat in Scotland. Gas Networks Ireland runs the gas network.
+[hom-home-services-s1.3.2] Mains gas is distributed through underground pipe networks to a meter and a regulator (which keeps the pressure steady) at the house, where it is burned in boilers, cookers and fires.
+[hom-home-services-s1.3.3] Where there is no pipeline, bottled or tank liquefied petroleum gas (LPG) is used instead.
+[hom-home-services-s1.3.4] Natural gas has no smell, so an odorant (a sulphur compound called mercaptan) is added so that a leak can be smelled.
+[hom-home-services-s1.3.5] Diagram: a simple pipeline route from the gas network through a meter and a regulator to a boiler and a cooker.
+[hom-home-services-s1.4.b] Gas is popular because it is convenient and cleaner than coal or oil, but it is still a finite fossil fuel.
+[hom-home-services-s1.4.0] Advantages: it burns almost completely and cleanly compared with coal and oil, and its heat can be controlled instantly. It needs no storage tank on mains gas, is relatively cheap to run, and can be used for cooking, heating and hot water.
+[hom-home-services-s1.4.1] Disadvantages: it is non-renewable with finite reserves, and burning it produces carbon dioxide. It is dangerous if it leaks or if appliances burn incompletely, giving carbon monoxide.
+[hom-home-services-s1.4.2] A gas appliance also needs a flue (a pipe carrying burnt gases outside) and a registered installer, and gas is not available everywhere because it depends on a pipeline.
+[hom-home-services-s1.4.3] Sustainability: reserves are limited and worldwide demand is rising. Per unit of heat, gas releases less carbon dioxide than oil or coal, so it is cleaner than they are and often described as a transitional fuel, but it is still a fossil fuel.
+[hom-home-services-s1.4.4] Ireland's own gas field is running down, so imports are rising.
+[hom-home-services-s1.5.b] Oil heats houses beyond the gas network, but it is delivered and stored rather than piped, and it depends on imports.
+[hom-home-services-s1.5.0] Home heating oil is kerosene, a fossil fuel refined from crude oil, which is pumped from under the ground or sea and formed from marine organisms over millions of years.
+[hom-home-services-s1.5.1] Ireland relies on imported oil, so supply and price depend on world markets and the price varies. Households can buy when the price is low.
+[hom-home-services-s1.5.2] Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank, a bund or safe base, and arrange refills. A tank can leak or be stolen.
+[hom-home-services-s1.5.3] It is burned in a boiler with a burner, which needs a flue to carry the gases outside and an annual service to stay efficient. One boiler gives central heating and hot water, and oil has a high heat output.
+[hom-home-services-s1.5.4] Burning oil releases carbon dioxide, sulphur dioxide from the sulphur in the fuel, and soot if the burner is poorly adjusted.
+[hom-home-services-s1.5.5] Sustainability: oil is non-renewable with finite reserves, and it releases more carbon dioxide per unit of heat than natural gas.
+[hom-home-services-s1.6.b] Solid fuels are burned in the room or in a boiler, so they need storage, a chimney and cleaning. They range from fossil coal to renewable wood.
+[hom-home-services-s1.6.0] Solid fuels used in the home are coal, turf (peat), wood (logs, pellets and chips) and manufactured smokeless fuel. Smokeless fuel is a processed solid fuel, made from processed coal or other material, that burns with little smoke.
+[hom-home-services-s1.6.1] Coal is a fossil fuel mined from underground seams; it is burned in open fires and stoves and produces a high level of carbon dioxide and smoke.
+[hom-home-services-s1.6.2] Smokeless fuel reduces smoke and particulate pollution in towns, but it is still a fossil product.
+[hom-home-services-s1.6.3] Turf (peat) is cut from bogs and forms very slowly over thousands of years, so it is effectively non-renewable on a human timescale because it forms far more slowly than it is cut. Burning it releases carbon dioxide.
+[hom-home-services-s1.6.4] Wood is a biomass fuel (fuel from plant material): it is renewable when trees are replanted and the forest is managed sustainably, because growing trees take up carbon dioxide. Burning it still gives carbon dioxide and particles.
+[hom-home-services-s1.6.5] Use: open fire, stove or solid-fuel boiler (a back boiler or stove can also heat water for radiators). Solid fuels need dry storage, a chimney or flue and regular cleaning and ash removal, because soot builds up and can cause chimney fires and carbon monoxide poisoning.
+[hom-home-services-s1.6.6] An open fire loses most of its heat up the chimney, while an enclosed stove burns efficiently and transfers more of the heat into the room.
+[hom-home-services-s1.7.b] Solid fuels can be cheap and local, but they involve work and some risks.
+[hom-home-services-s1.7.0] Advantages: turf and wood are local supplies, a fire is attractive, a stove or boiler can heat water as well, and a stove burns efficiently.
+[hom-home-services-s1.7.1] Disadvantages: carrying fuel and cleaning out ash is labour, and the fuel makes dust and ash.
+[hom-home-services-s1.7.2] Soot can cause chimney fires, and there is a carbon monoxide risk if the flue is blocked.
+[hom-home-services-s1.7.3] Smoke pollutes the air, and an open fire wastes most of its heat up the chimney.
+[hom-home-services-s1.8.b] Solar energy is radiant energy from the sun. It is renewable and free to collect, but the sun does not shine all the time, which makes it intermittent.
+[hom-home-services-s1.8.0] A house can use solar energy in three ways. First, solar thermal collectors on the roof absorb sunlight into a fluid that heats water, which circulates to a hot water cylinder, supplying much of the household hot water in summer.
+[hom-home-services-s1.8.1] Second, photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use. PV makes electricity without a turbine.
+[hom-home-services-s1.8.2] Surplus PV electricity can be exported to the grid, and a battery can store it for use when the sun is not shining.
+[hom-home-services-s1.8.3] Third, passive solar design uses large south-facing windows to let in winter sunshine, which walls and floors absorb and release.
+[hom-home-services-s1.8.4] Output depends on sunlight, so it falls on cloudy days, in winter and at night, and it is reduced by shade from trees or buildings.
+[hom-home-services-s1.8.5] A roof facing south with no shading gives the best output; the roof must also be strong enough to carry the panels.
+[hom-home-services-s1.8.6] Diagram: plan view of a south-facing roof with PV panels and solar thermal collectors; schematic of a PV system showing panels, inverter, meter and the house circuit.
+[hom-home-services-s1.9.b] Solar energy has no fuel bill and no emissions in use, but it costs a lot to install and cannot work alone.
+[hom-home-services-s1.9.0] Advantages: no fuel cost, no emissions in use, lower bills and a reduced carbon footprint. Solar can also raise the Building Energy Rating (BER, the energy label of a home), and SEAI grants support it.
+[hom-home-services-s1.9.1] Disadvantages: high installation cost, dependence on the weather and the season, and the need for a suitable unshaded roof, best south-facing.
+[hom-home-services-s1.9.2] A back-up supply is still needed because solar is intermittent, and panels need space and some people find them unsightly.
+[hom-home-services-s1.9.3] Sustainability: solar energy is inexhaustible and renewable, with no fuel to extract or deliver. Making and disposing of panels does use energy and materials.
+[hom-home-services-s1.10.b] Other renewable sources can serve a home, and they trade off differently from fossil fuels.
+[hom-home-services-s1.10.0] Wind: turbines feed the grid, and small turbines can serve one house.
+[hom-home-services-s1.10.1] Hydro: flowing water turns a turbine. Ardnacrusha on the River Shannon, a hydro-electric station run by the ESB, built under the Shannon Scheme and opened in 1929, is the Irish example.
+[hom-home-services-s1.10.2] Biomass: wood, pellets and other plant material burned for heat.
+[hom-home-services-s1.10.3] Heat pumps and geothermal: a ground-source heat pump raises the temperature of heat drawn from the ground or air, and it uses electricity to run, so it is not free energy or a fuel. Tidal and wave energy are other renewable sources.
+[hom-home-services-s1.10.4] Non-renewable sources for the home are natural gas, heating oil, coal and peat. They are finite, their demand is rising, and their supply depends on extraction, imports and transport. They are reliable and well established but finite and polluting.
+[hom-home-services-s1.10.5] Renewable sources have high start-up costs and depend on local weather, but their running fuel is free and they produce few emissions in use.
+[hom-home-services-s1.10.6] SEAI (Sustainable Energy Authority of Ireland) provides advice, the Building Energy Rating (BER) system and grants that support renewable heating and solar energy in homes.
+
+CANDIDATES hom-environmental-issues-s1: 1. Renewable and non-renewable resources
+[hom-environmental-issues-s1.0.b] A natural resource is a material or energy source taken from the environment, such as fuels, water, minerals, timber, wind and sunlight. Because some resources run out and others do not, what we use and how we use it matters for the future.
+[hom-environmental-issues-s1.0.0] Sustainable use means meeting present needs without reducing the ability of future generations to meet theirs, so resources are still there for the people who come after us.
+[hom-environmental-issues-s1.0.1] Resources are classed by how quickly they are replaced: renewable resources are replenished naturally, while non-renewable resources are finite (limited in supply).
+[hom-environmental-issues-s1.0.2] Consumers influence resource use through what they buy, how long they keep products in use and how they dispose of them, so everyday choices add up.
+[hom-environmental-issues-s1.0.3] Consumers conserve resources by buying only what is needed, choosing durable and repairable goods, and using items fully before replacing them, which means fewer new materials and less energy are used.
+[hom-environmental-issues-s1.1.b] A renewable resource is naturally replenished and is not used up by constant use, provided it is used no faster than it is replaced. Each renewable energy source works by turning a natural movement or heat into electricity or heat for buildings.
+[hom-environmental-issues-s1.1.0] Solar energy: photovoltaic (PV) panels convert sunlight directly into electricity, and solar thermal panels use sunlight to heat water. Passive solar design, which sites the house and its glazing towards the sun, uses sunlight for heat and light.
+[hom-environmental-issues-s1.1.1] Wind energy: turbines convert the kinetic energy (movement energy) of moving air into electricity; wind farms are usually sited on exposed upland and coastal land, or at sea, where the wind is strongest.
+[hom-environmental-issues-s1.1.2] Hydroelectric energy: falling or flowing water turns turbines, so the source depends on a steady flow of water and a difference in height. The Shannon Scheme at Ardnacrusha, opened in 1929, is an Irish example.
+[hom-environmental-issues-s1.1.3] Biomass: wood, straw, energy crops and plant or animal waste are burned, or converted to biogas, to release heat or electricity.
+[hom-environmental-issues-s1.1.4] Geothermal energy: heat stored in the earth's crust is brought to the surface as hot water or steam to heat buildings or generate electricity.
+[hom-environmental-issues-s1.1.5] Tidal energy uses the rise and fall of the tides to drive turbines; wave energy uses the motion of waves to drive devices.
+[hom-environmental-issues-s1.1.6] Renewable heat in the home comes from heat pumps (which take low-grade heat from the air, ground or water), solar thermal panels, and stoves burning wood from managed forests. Heat pumps count as renewable heat because most of their heat comes from air, ground or water.
+[hom-environmental-issues-s1.1.7] Hydrogen can also carry energy, but it is renewable only if it is made using renewable electricity.
+[hom-environmental-issues-s1.2.b] Renewable energy is attractive because it does not run out and is cleaner to produce, but it is not free of drawbacks. Exam answers need both sides.
+[hom-environmental-issues-s1.2.0] Renewable sources are sustainable: their supply does not run out on human timescales, so a well sited and maintained system can last indefinitely.
+[hom-environmental-issues-s1.2.1] Most produce little or no air pollution or carbon dioxide while generating energy, which reduces damage to air and water.
+[hom-environmental-issues-s1.2.2] Using renewables reduces dependence on imported fuel, which improves energy security (a dependable supply that does not rely on other countries).
+[hom-environmental-issues-s1.2.3] Some renewables can be installed in a home, such as solar panels on a roof or a small wind turbine, so energy is produced where it is used.
+[hom-environmental-issues-s1.2.4] Building, maintaining and manufacturing renewable systems creates employment, and running costs are low once the system is installed.
+[hom-environmental-issues-s1.2.5] Limitation: wind and solar output varies with weather and daylight, so storage or a backup supply is needed.
+[hom-environmental-issues-s1.2.6] Limitation: installation costs can be high, and hydro and tidal systems need suitable sites.
+[hom-environmental-issues-s1.2.7] Limitation: wind farms and dams can affect the landscape and habitats.
+[hom-environmental-issues-s1.3.b] A non-renewable resource is limited in supply and cannot be replaced within a human lifetime once it is used up. Fuels and minerals dug out of the ground fall into this group.
+[hom-environmental-issues-s1.3.0] Fossil fuels are coal, oil, natural gas and peat, formed from the remains of plants and animals over very long periods: peat over thousands of years, coal, oil and gas over millions. Coke and anthracite (a type of coal) are other fuels in this group.
+[hom-environmental-issues-s1.3.1] Peat (turf) is cut from bogs for home heating and electricity generation. Bogs regrow far too slowly to count as renewable, so peat is a non-renewable fossil fuel, and bog habitats do not regenerate quickly.
+[hom-environmental-issues-s1.3.2] Nuclear energy uses uranium, a mined, finite fuel, so it is non-renewable. Ireland has no nuclear power station.
+[hom-environmental-issues-s1.3.3] Iron ore, copper ore and bauxite (the ore of aluminium) are non-renewable mineral resources because they are mined and finite; recycling extends the life of the metal they yield.
+[hom-environmental-issues-s1.3.4] For one non-renewable source used in the home, give the source and an advantage: fossil fuels are concentrated, give a lot of heat, and have an established supply and appliances.
+[hom-environmental-issues-s1.3.5] The disadvantages are that the fuel is finite, its price rises as reserves fall, burning it causes emissions and extracting it damages the land. For these reasons it is not sustainable.
+[hom-environmental-issues-s1.4.b] Using non-renewable resources harms the environment twice: when they are extracted and when they are burned. As they become scarce, the supply itself also becomes a problem.
+[hom-environmental-issues-s1.4.0] Burning fossil fuels releases carbon dioxide, the main greenhouse gas (a gas that traps heat in the atmosphere), which contributes to global warming and climate change.
+[hom-environmental-issues-s1.4.1] Burning coal, oil and peat releases sulphur dioxide, which forms acid rain.
+[hom-environmental-issues-s1.4.2] Mining, quarrying, drilling and peat extraction destroy habitats and landscapes, so the wildlife that lived there loses its home.
+[hom-environmental-issues-s1.4.3] Cutting bogs releases stored carbon, which adds to the carbon dioxide in the air.
+[hom-environmental-issues-s1.4.4] As reserves fall, fuel becomes harder and more costly to extract, so supplies become less secure.
+[hom-environmental-issues-s1.5.b] Consumers are responsible for how they use resources because their daily choices decide how much fuel is burned and how much material is thrown away. Practical steps cut demand for non-renewable resources and support renewable ones.
+[hom-environmental-issues-s1.5.0] Reduce energy demand, for example by insulating the home, using appliances efficiently and switching off standby, so less fossil fuel is burned.
+[hom-environmental-issues-s1.5.1] Choose a renewable electricity supplier, or install a renewable system such as solar panels or a heat pump, where practical. Smokeless or renewable fuel is also a better choice.
+[hom-environmental-issues-s1.5.2] Buy wood and paper products certified by a recognised scheme such as FSC (Forest Stewardship Council) or PEFC, which confirms that the timber came from managed forests.
+[hom-environmental-issues-s1.5.3] Reuse and recycle metals, glass and paper so that finite materials are used again.
+[hom-environmental-issues-s1.5.4] Choose products made with recycled content, which means less new material has to be mined or felled.

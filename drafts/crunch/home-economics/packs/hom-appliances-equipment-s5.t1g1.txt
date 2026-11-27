@@ -1,0 +1,248 @@
+MODE: cost and links
+TARGET hom-appliances-equipment-s5: 5. A refrigeration appliance
+[hom-appliances-equipment-s5.0.b] A refrigerator does not make cold. It removes heat from inside the cabinet and gives it out into the room, and the food left behind is cooler as a result.
+[hom-appliances-equipment-s5.0.0] A refrigerator keeps food at 0 to 5°C (at or below 5°C), which slows the growth of micro-organisms and the activity of enzymes, so spoilage is slower.
+[hom-appliances-equipment-s5.0.1] A freezer holds food at -18°C or colder, which stops micro-organisms growing, so food keeps for much longer.
+[hom-appliances-equipment-s5.0.2] Keeping the cabinet at 5°C or below keeps food outside the danger zone of 5°C to 63°C, where bacteria multiply quickly.
+[hom-appliances-equipment-s5.1.b] Refrigeration appliances differ in size, layout and whether they include a freezer. In an exam you pick one type to study, so know what sets each apart.
+[hom-appliances-equipment-s5.1.0] Under-counter fridge (standard): a low unit that fits beneath a worktop and usually has no separate freezer compartment.
+[hom-appliances-equipment-s5.1.1] Larder fridge: a single-door, all-fridge unit for chilled food, without a freezer compartment.
+[hom-appliances-equipment-s5.1.2] Fridge-freezer: a combined unit with separate fridge and freezer compartments, each with its own door, and one or two compressors.
+[hom-appliances-equipment-s5.1.3] American fridge: a tall, wide unit with side-by-side doors, often with an ice and water dispenser in the door.
+[hom-appliances-equipment-s5.1.4] Integrated model: built into kitchen units, with a door panel that matches the cabinet doors so it blends in.
+[hom-appliances-equipment-s5.1.5] Upright freezer and chest freezer: freezer-only units, either tall with a front door or a low box with a lid on top.
+[hom-appliances-equipment-s5.1.6] Retro style: a refrigerator with a classic, old-fashioned look.
+[hom-appliances-equipment-s5.2.b] A refrigerator is a sealed loop of parts that move a fluid, the refrigerant, round and round. Each part has one job, and examiners ask for these jobs in short sentences.
+[hom-appliances-equipment-s5.2.0] Compressor: a pump driven by an electric motor, usually at the back or base. It draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas, which also drives it round the loop.
+[hom-appliances-equipment-s5.2.1] Condenser: a coil of tubing, a black grille at the back or in the walls, where the hot gaseous refrigerant gives out heat to the surrounding air and condenses (changes) into a liquid. It is usually at the back or underneath.
+[hom-appliances-equipment-s5.2.2] Expansion valve or capillary tube: a narrow restriction that lowers the pressure of the liquid refrigerant before it enters the evaporator.
+[hom-appliances-equipment-s5.2.3] Evaporator: a coil inside the cabinet, often in the freezer compartment or behind the back panel, where the liquid refrigerant evaporates (changes to gas), absorbing heat from the food compartment so the cabinet cools.
+[hom-appliances-equipment-s5.2.4] Refrigerant: the fluid that circulates in the sealed system. It evaporates at a low temperature, so it takes in heat from inside the fridge, and it releases that heat when it condenses.
+[hom-appliances-equipment-s5.2.5] Thermostat: senses the cabinet temperature and switches the compressor motor off when the set temperature is reached and on again when the cabinet warms, holding it at about 5°C or below. The dial is turned to a colder or warmer setting.
+[hom-appliances-equipment-s5.2.6] Other parts: the insulated cabinet, a door seal (gasket) that keeps cold air in, an interior light that comes on when the door opens, and shelves and drawers.
+[hom-appliances-equipment-s5.2.7] Diagram: draw a closed loop of compressor, condenser, expansion valve and evaporator, with arrows for the flow of refrigerant and labels for gas or liquid and hot or cold at each part. Each part is also labelled high or low pressure.
+[hom-appliances-equipment-s5.3.b] The refrigerant passes through the four main parts in a fixed order. Heat is picked up inside the cabinet and released outside it, and the cycle repeats until the thermostat switches the motor off.
+[hom-appliances-equipment-s5.3.0] 1. The motor drives the compressor, which draws in low-pressure gaseous refrigerant and compresses it into hot, high-pressure gas and forces it into the condenser.
+[hom-appliances-equipment-s5.3.1] 2. The hot gas flows to the condenser, where it releases heat to the kitchen air and condenses into a liquid.
+[hom-appliances-equipment-s5.3.2] 3. The liquid passes through the capillary tube or expansion valve into the evaporator, where the pressure is low, so its pressure falls and some of it begins to vaporise.
+[hom-appliances-equipment-s5.3.3] 4. In the evaporator the refrigerant boils at a low temperature, drawing heat from inside the cabinet, so the cabinet and food are cooled. It becomes a low-pressure gas.
+[hom-appliances-equipment-s5.3.4] 5. The gas returns to the compressor and the cycle repeats until the thermostat switches the motor off.
+[hom-appliances-equipment-s5.3.5] Modern refrigerators use a hydrocarbon refrigerant (isobutane), which does not damage the ozone layer. Older appliances used CFC refrigerants, which are now banned.
+[hom-appliances-equipment-s5.4.b] A refrigerator moves heat from a cold space to a warmer room, which needs work from the compressor and so a continuous supply of electrical energy.
+[hom-appliances-equipment-s5.4.0] Heat flows naturally from hot to cold. A refrigerator pumps heat against that direction, from the cold cabinet to the warm room, so the compressor must do work on the refrigerant.
+[hom-appliances-equipment-s5.4.1] The boiling point of a liquid falls as the pressure on it falls. The expansion valve lowers the pressure, so the refrigerant boils at a low temperature in the evaporator.
+[hom-appliances-equipment-s5.4.2] Raising the pressure raises the condensing temperature, so the hot gas can release heat to the room air in the condenser.
+[hom-appliances-equipment-s5.4.3] Latent heat of vaporisation: the refrigerant absorbs a large amount of heat from the cabinet as it evaporates, without a rise in its own temperature. This is how the evaporator takes heat from the cabinet.
+[hom-appliances-equipment-s5.4.4] Compression raises both the pressure and the temperature of the gas, which is why the condenser is warm. The condenser releases the latent heat as the gas changes back to a liquid.
+[hom-appliances-equipment-s5.4.5] Heat flows from the warm cabinet air to the cold refrigerant through the walls of the evaporator by conduction.
+[hom-appliances-equipment-s5.5.b] Where you put a refrigerator and how you load it decide how well it keeps food safe and how hard the motor has to work. Each guideline has a reason, and examiners want the reason with it.
+[hom-appliances-equipment-s5.5.0] Install the refrigerator on a level surface, away from the cooker, radiators, boiler and direct sunlight, and leave space behind and above it so air can circulate around the condenser and carry heat away.
+[hom-appliances-equipment-s5.5.1] Keep the cabinet at 5°C or below (0 to 5°C), using a thermometer if necessary, with the freezer compartment at -18°C. This keeps food outside the danger zone of 5°C to 63°C, in which bacteria multiply quickly.
+[hom-appliances-equipment-s5.5.2] Cool hot food before placing it in the refrigerator, since hot food raises the cabinet temperature and makes the motor work harder.
+[hom-appliances-equipment-s5.5.3] Cover or wrap food to prevent it drying out and to stop strong flavours passing between foods.
+[hom-appliances-equipment-s5.5.4] Store raw meat and fish on the lowest shelf, in covered containers and below cooked food and dairy, so that juices cannot drip onto food stored beneath. Keep cooked and raw foods separate.
+[hom-appliances-equipment-s5.5.5] Do not store opened tins in the tin. Transfer the food to a covered container.
+[hom-appliances-equipment-s5.5.6] Do not overpack the cabinet, because air must circulate around food for even cooling.
+[hom-appliances-equipment-s5.6.b] Good habits during daily use save electricity and stop food going off, and regular care keeps the appliance working properly.
+[hom-appliances-equipment-s5.6.0] Avoid opening the door unnecessarily, and keep it open as briefly as possible, since each opening lets in warm air and makes the motor run for longer.
+[hom-appliances-equipment-s5.6.1] Use food in rotation, first in and first out, so that items are eaten before their use-by or best-before date.
+[hom-appliances-equipment-s5.6.2] Thaw frozen food in the refrigerator rather than at room temperature, so the food stays cold while it thaws.
+[hom-appliances-equipment-s5.6.3] Clean the inside with warm water and bicarbonate of soda, avoid strong-smelling cleaners, and wipe the door seal. Check the door seal regularly, since a damaged seal lets warm air in.
+[hom-appliances-equipment-s5.6.4] Clean the dust from the condenser grille at the back occasionally, so the condenser can give out heat freely.
+[hom-appliances-equipment-s5.6.5] Defrost the freezer regularly if it is not frost-free: switch off, unplug, collect the water, and never use a knife or sharp object to remove ice.
+[hom-appliances-equipment-s5.6.6] In a power cut, keep the doors shut so the cold is held in. If the appliance is left empty for a long time, switch it off and leave the door open to prevent mould.
+[hom-appliances-equipment-s5.7.b] A refrigerator runs all day, every day, so small habits and a good choice of appliance make a real difference to running costs and to the environment.
+[hom-appliances-equipment-s5.7.0] Choose a high energy class on the A to G energy label, the scale that rates how efficient an appliance is, and the correct size for the household.
+[hom-appliances-equipment-s5.7.1] Keep the refrigerator away from heat, keep the door closed as much as possible, and cool food before storing it.
+[hom-appliances-equipment-s5.7.2] Defrost when needed, clean the condenser, and check the door seal so warm air cannot leak in.
+[hom-appliances-equipment-s5.7.3] Do not set the cabinet colder than needed, since colder settings make the motor run for longer.
+[hom-appliances-equipment-s5.7.4] Choose modern features that save energy, such as LED lighting and an inverter compressor.
+[hom-appliances-equipment-s5.7.5] The star rating applies to the freezer compartment only, not to the fresh-food compartment.
+[hom-appliances-equipment-s5.8.b] Modern refrigerators add features that make food storage easier and more reliable. Exams ask for about three, so be ready to say what each does.
+[hom-appliances-equipment-s5.8.0] Automatic (frost-free) defrosting: a fan circulates cold air and a timed heater periodically melts frost from the evaporator, and the water drains away, so no manual defrost is needed.
+[hom-appliances-equipment-s5.8.1] Zoned refrigeration gives separate areas at different temperatures, such as a chill zone for meat and fish.
+[hom-appliances-equipment-s5.8.2] Humidity-controlled drawers (crisper drawers) keep fruit and vegetables fresh by controlling the moisture in the drawer.
+[hom-appliances-equipment-s5.8.3] Gated shelves hold tall bottles securely, and flexible or adjustable shelving fits items of different heights. Bottle or wine racks hold bottles.
+[hom-appliances-equipment-s5.8.4] A digital display shows the cabinet temperature and allows it to be adjusted, using electronic controls.
+[hom-appliances-equipment-s5.8.5] A quick-chill, power-chill or fast-freeze setting cools newly added food rapidly, reducing the rise in temperature of the other food in the cabinet.
+[hom-appliances-equipment-s5.8.6] An open-door alarm sounds if the door is left ajar. A holiday mode is also available.
+[hom-appliances-equipment-s5.9.b] Other features add convenience, hygiene and lower running costs, and some connect the refrigerator to your phone.
+[hom-appliances-equipment-s5.9.0] A drinks dispenser in the door, or an internal or external ice maker, gives chilled water and ice without opening the main door. It is usually found on American-style models.
+[hom-appliances-equipment-s5.9.1] LED lighting uses less electricity than traditional bulbs and gives off little heat into the cabinet.
+[hom-appliances-equipment-s5.9.2] An inverter (variable-speed) compressor runs at the speed needed, which saves energy and reduces noise.
+[hom-appliances-equipment-s5.9.3] Antibacterial coatings on interior surfaces reduce the build-up of bacteria.
+[hom-appliances-equipment-s5.9.4] Smart refrigerators can be monitored and controlled from a phone.
+
+CANDIDATES hom-appliances-equipment-s2: 2. Selecting a large and a small household appliance
+[hom-appliances-equipment-s2.0.b] Before buying, compare the cost, size and capacity of each model against what the household needs. A good choice is value for money, which means quality against price, not simply the lowest price.
+[hom-appliances-equipment-s2.0.0] Initial cost: compare the purchase price, including delivery and installation, across several shops and brands, so you know the true cost of getting the appliance working in your home.
+[hom-appliances-equipment-s2.0.1] Running cost: this is the energy and water the appliance uses over its life. Compare it with the purchase price, since a cheap appliance can cost more to run, and the energy label shows this.
+[hom-appliances-equipment-s2.0.2] Size and space: the appliance must fit the available space and allow room for doors to open, air to circulate (ventilation) and access to plumbing and power points.
+[hom-appliances-equipment-s2.0.3] Capacity: match it to household size, such as litres of fresh and frozen food for a fridge or kilograms of laundry for a washing machine, and litres for a kettle.
+[hom-appliances-equipment-s2.0.4] Payment method: compare cash, debit or credit card and credit agreements, and the total amount payable under any credit, because credit adds to the final cost.
+[hom-appliances-equipment-s2.1.b] Cost and size are not the whole story. A buyer also checks how long the appliance will last, who will fix it, and how easy and safe it is to use every day.
+[hom-appliances-equipment-s2.1.0] Brand reputation and reliability: established brands with a record of durable products, good reviews and available spare parts are less likely to need early repair.
+[hom-appliances-equipment-s2.1.1] Guarantee and after-sales service: check the length of the guarantee, what it covers, and how quickly repairs, servicing, spare parts, delivery and installation are available.
+[hom-appliances-equipment-s2.1.2] Ease of operation and cleaning: clear controls, removable parts and filters, smooth surfaces, dishwasher-safe parts and cord storage reduce the time and effort of use.
+[hom-appliances-equipment-s2.1.3] Safety features: automatic cut-outs, interlocks, child lock, cool-touch surfaces and recognised safety marks reduce the risk of injury or fire.
+[hom-appliances-equipment-s2.1.4] Family needs and modern features: choose features the household will actually use, such as programmes, timers and smart controls, rather than paying for extras that stay unused.
+[hom-appliances-equipment-s2.2.b] The same criteria apply to every appliance, but how much each one matters depends on the size and price of what you are buying. Apply them to one large and one small example.
+[hom-appliances-equipment-s2.2.0] Large appliances (cooker, fridge, washing machine, dishwasher, tumble dryer) are expensive and long-lived and usually delivered and installed, so cost, energy efficiency, size and servicing weigh most.
+[hom-appliances-equipment-s2.2.1] Small appliances (kettle, toaster, iron, food processor, mixer) are cheaper and portable, so storage, cleaning and cord length weigh more.
+[hom-appliances-equipment-s2.2.2] Examples to use for the individual studies: a washing machine, fridge-freezer or dishwasher as the large appliance, and a kettle, toaster, food processor or iron as the small one.
+[hom-appliances-equipment-s2.3.b] Design is how an appliance looks and works, and construction is what it is made of and how well it is built. Together they decide how safe, durable and easy to clean it is.
+[hom-appliances-equipment-s2.3.0] Design affects safety, durability, ease of use and cleaning, and how well the appliance fits the style and colour of the kitchen.
+[hom-appliances-equipment-s2.3.1] Controls should be clearly labelled, easy to reach and simple to read; large, simple controls suit older users and children.
+[hom-appliances-equipment-s2.3.2] Weight, handles and grip should suit the person using the appliance, so that lifting and pouring are safe, and non-slip feet give stability.
+[hom-appliances-equipment-s2.3.3] Robust construction and good-quality materials, such as stainless steel for surfaces and blades, increase durability. Other materials used include heat-resistant or cool-touch plastic, glass and enamelled steel.
+[hom-appliances-equipment-s2.3.4] Smooth, sealed surfaces and removable parts are easier to clean and give fewer places for food and bacteria to collect. Sealed joints and a strong flex and plug add durability.
+[hom-appliances-equipment-s2.3.5] Design for safety and efficiency: insulation, interlocks, automatic cut-off, energy-saving settings and quiet running make the appliance safer and cheaper to use.
+[hom-appliances-equipment-s2.3.6] Examples of safe design: an interlock stops a machine working while its door is open, so fingers cannot reach moving parts.
+[hom-appliances-equipment-s2.4.b] The energy label lets buyers compare the energy efficiency of appliances at a glance, on a common scale. An efficient appliance costs less to run and does less harm to the environment.
+[hom-appliances-equipment-s2.4.0] The EU energy label rates an appliance from A to G, where A is the most efficient and G the least efficient. This scale applies to fridges, freezers, washing machines, washer-dryers and dishwashers from 1 March 2021, and to tumble dryers from 1 July 2025.
+[hom-appliances-equipment-s2.4.1] The label is displayed on refrigerating appliances (fridges, freezers and fridge-freezers), washing machines, washer-dryers, dishwashers and tumble dryers. Two named appliances are enough if asked to name two.
+[hom-appliances-equipment-s2.4.2] A-rated appliances use the least electricity, so they cost least to run and cause the least harm to the environment; G-rated appliances use the most.
+[hom-appliances-equipment-s2.4.3] The label gives annual energy consumption in kilowatt-hours (kWh), which indicates likely running cost and environmental impact. Washing machine and dishwasher labels give energy per 100 cycles.
+[hom-appliances-equipment-s2.4.4] It also gives, depending on the appliance, the noise level in decibels, capacity and water use. A refrigeration label shows the fresh and frozen capacity in litres.
+[hom-appliances-equipment-s2.4.5] The current label carries a QR code that links to the product's entry in the EU product database (EPREL) for more detail.
+[hom-appliances-equipment-s2.4.6] Energy in kWh equals power in kW multiplied by hours used. Higher Level answers can use this to compare the running costs of two appliances.
+[hom-appliances-equipment-s2.4.7] Efficiency in use is also the consumer's job: use full loads, eco programmes and lower temperatures, switch off standby, and choose the correct size.
+[hom-appliances-equipment-s2.5.b] A star rating on a fridge-freezer or freezer tells you how cold the frozen-food compartment is and how long frozen food keeps in it.
+[hom-appliances-equipment-s2.5.0] The star rating applies to the frozen-food compartment of fridges and fridge-freezers and to freezers, not to the fresh-food section.
+[hom-appliances-equipment-s2.5.1] One star: the compartment holds frozen food at −6°C for up to one week.
+[hom-appliances-equipment-s2.5.2] Two stars: the compartment holds frozen food at −12°C for up to one month.
+[hom-appliances-equipment-s2.5.3] Three stars: the compartment holds frozen food at −18°C for up to three months.
+[hom-appliances-equipment-s2.5.4] Four stars: the compartment holds frozen food at −18°C to −25°C for up to one year, and fresh food can be frozen in it. Only four stars allows this.
+[hom-appliances-equipment-s2.5.5] The star rating measures storage performance, not energy efficiency, so the energy label is used to compare running costs.
+[hom-appliances-equipment-s2.6.b] Marks on an appliance or its packaging tell the buyer that a standard has been met. Each mark means something different, so know what each one does and does not show.
+[hom-appliances-equipment-s2.6.0] The CE mark is the manufacturer's declaration that the product meets the health, safety and environmental requirements of the European Union. It is not independent testing.
+[hom-appliances-equipment-s2.6.1] The double insulation symbol, a square inside a square, shows that the appliance has two layers of insulation (a Class II appliance), so it needs no earth wire and its plug has no earth connection. It is common on plastic-bodied small appliances.
+[hom-appliances-equipment-s2.6.2] The Irish Standard mark of the National Standards Authority of Ireland (NSAI) shows that the product has been certified to a standard.
+[hom-appliances-equipment-s2.6.3] An ISO 9000 quality mark shows that the maker's quality-management system has been assessed.
+[hom-appliances-equipment-s2.6.4] Marks should appear on the appliance or its packaging, and a mark that cannot be found on the product does not show certification.
+[hom-appliances-equipment-s2.6.5] Safety marks show that a product has been tested to a standard, but they do not guarantee its performance or reliability.
+[hom-appliances-equipment-s2.6.6] A manufacturer's guarantee or a retailer's own-brand label is not an independent mark.
+[hom-appliances-equipment-s2.7.b] Before buying, a consumer gathers information from several sources. Some are independent, some come from sellers and may be biased, and some are personal experience.
+[hom-appliances-equipment-s2.7.0] Independent sources: consumer magazines and websites that test and compare products publish independent results on appliance models.
+[hom-appliances-equipment-s2.7.1] The Competition and Consumer Protection Commission (CCPC), the body for consumer protection and information, publishes guidance for consumers on their rights when buying appliances.
+[hom-appliances-equipment-s2.7.2] Citizens Information offers free, independent information on consumer rights and on buying goods and services. The European Consumer Centre Ireland helps with cross-border purchases, and libraries also hold information.
+[hom-appliances-equipment-s2.7.3] Manufacturers' leaflets and brochures give specifications, guidelines for use and guarantee terms, but they are promotional documents.
+[hom-appliances-equipment-s2.7.4] Product labels and packaging show the energy rating, safety marks, capacity and guarantee details, so you can compare models for example in the shop.
+[hom-appliances-equipment-s2.7.5] Sales staff can explain features, but their advice may be influenced by the stock and margins of the shop. Advertisements highlight strengths, so check their claims against independent sources.
+[hom-appliances-equipment-s2.7.6] Word of mouth, online user reviews and in-shop demonstrations reflect other people's experience; read them critically because they can be unreliable.
+[hom-appliances-equipment-s2.7.7] Benefits of getting information before buying: compare price, installation and running cost; find the most energy-efficient model; compare features, design, size and ease of operation; reduce the influence of advertising; avoid a costly mistake.
+[hom-appliances-equipment-s2.8.b] An appliance affects the environment at three points: when it is chosen, while it is used and when it is thrown out. A responsible consumer thinks about all three.
+[hom-appliances-equipment-s2.8.0] Choosing: pick the best energy class you can afford and the correct size, and prefer repairable, durable appliances with eco and low-water programmes and little packaging.
+[hom-appliances-equipment-s2.8.1] Using: run full loads, use eco and short cycles and lower temperatures, switch off standby, defrost freezers, and do not leave fridge doors open, because each wastes energy.
+[hom-appliances-equipment-s2.8.2] Maintaining: descale and maintain appliances so that they keep working efficiently.
+[hom-appliances-equipment-s2.8.3] Disposing: repair, sell or donate an appliance while it still works, so it is not wasted.
+[hom-appliances-equipment-s2.8.4] Maintaining also helps because limescale and ice build-up make an appliance work harder and use more energy.
+[hom-appliances-equipment-s2.8.5] Under the European Union (Waste Electrical and Electronic Equipment) Regulations 2014, a retailer must take back an old appliance of similar type free of charge, one for one, when a new one is bought, so old appliances do not end up in landfill.
+[hom-appliances-equipment-s2.8.6] Collection is on delivery if notice was given, and larger shops must accept very small items without a purchase.
+[hom-appliances-equipment-s2.8.7] Electrical waste can also go to a civic amenity site. Never put it in the household bin, which the crossed-out wheelie bin symbol warns.
+[hom-appliances-equipment-s2.9.b] A washing machine shows how the selection criteria apply to a large appliance, where cost, efficiency, size and installation all matter.
+[hom-appliances-equipment-s2.9.0] Capacity: the drum size, stated in kilograms of dry laundry, should match the number of people in the household.
+[hom-appliances-equipment-s2.9.1] Spin speed, measured in revolutions per minute (rpm), affects how dry clothes are after washing and so how much drying is needed.
+[hom-appliances-equipment-s2.9.2] Eco and low-temperature programmes reduce water and energy use, and the energy label shows the rating for the model.
+[hom-appliances-equipment-s2.9.3] Installation needs: a water supply and drain, a suitable power point, and a level floor must all be available where the machine is placed.
+[hom-appliances-equipment-s2.10.b] A kettle shows how the criteria apply to a small appliance, where capacity, cleaning and safety features matter most.
+[hom-appliances-equipment-s2.10.0] Capacity is stated in litres; buy a kettle that holds the amount the household needs, not more, because heating extra water wastes energy.
+[hom-appliances-equipment-s2.10.1] A concealed element in the base is easier to clean than an exposed element, where limescale collects.
+[hom-appliances-equipment-s2.10.2] Automatic cut-off switches the kettle off when the water boils, and boil-dry protection switches it off if the water level is too low.
+
+CANDIDATES hom-food-safety-s6: 6. Safe food preparation
+[hom-food-safety-s6.0.b] Almost every rule for handling food comes from two facts about food poisoning bacteria: they multiply fastest in warm food, and they travel easily from one food to another. Knowing these makes the individual rules easy to remember.
+[hom-food-safety-s6.0.0] Food poisoning bacteria multiply fastest in the danger zone, 5°C to 63°C. This is why safe preparation keeps food cold, hot, or moving quickly through that range.
+[hom-food-safety-s6.0.1] Cross-contamination is the transfer of bacteria from raw food to cooked or ready-to-eat food, directly or by hands, chopping boards, cloths, utensils or meat juices. This is why raw and cooked foods are kept apart.
+[hom-food-safety-s6.0.2] Freezing does not kill bacteria, it only stops them multiplying, and thawing lets them start multiplying again. So frozen food must be handled with care once it thaws.
+[hom-food-safety-s6.1.b] Storage aims to keep food cold or frozen so bacteria cannot multiply, and to stop bacteria passing from one food to another. Short questions usually ask for three to six storage guidelines.
+[hom-food-safety-s6.1.0] Cover all food and store it in sealed containers, which prevents drying out, odour transfer and cross-contamination.
+[hom-food-safety-s6.1.1] Keep perishable food (food that spoils quickly) in the fridge at 5°C or below, which slows the growth of bacteria. Check the fridge and freezer temperature with a thermometer.
+[hom-food-safety-s6.1.2] Store raw meat, poultry and fish on the lowest shelf, on a plate and loosely covered with the shop wrapping removed, so that juices cannot drip onto cooked or ready-to-eat food.
+[hom-food-safety-s6.1.3] Keep raw and cooked foods apart, covered or in sealed containers, so bacteria cannot pass between them.
+[hom-food-safety-s6.1.4] Cool cooked food quickly before refrigerating or freezing it, and do not overpack the fridge, so that cold air can circulate around the food.
+[hom-food-safety-s6.1.5] Check the use-by or best-before date of each food and follow the storage instructions on its label. Use-by is a safety date for highly perishable food, while best-before is a quality date.
+[hom-food-safety-s6.1.6] Remove fruit and vegetables from plastic wrapping, which encourages mould, and check them regularly for mould.
+[hom-food-safety-s6.1.7] Store dry foods in a cool, dry, well-ventilated cupboard, in vermin-proof containers, and keep storage areas clean.
+[hom-food-safety-s6.1.8] Keep perishable food out of the fridge for the shortest possible time while it is being prepared, because food left in warm air soon enters the danger zone.
+[hom-food-safety-s6.2.b] Freezing keeps food safe for a long time, but only if it is frozen and thawed properly. Bacteria are not killed by freezing, so the care taken when thawing matters.
+[hom-food-safety-s6.2.0] Freeze food quickly at −25°C, then store it at −18°C.
+[hom-food-safety-s6.2.1] Defrost frozen food completely before cooking, preferably in the fridge on the bottom shelf, so that it thaws slowly and any drips cannot reach other food.
+[hom-food-safety-s6.2.2] Never refreeze food that has thawed, because bacteria multiply while it thaws.
+[hom-food-safety-s6.3.b] Cooking and reheating must heat food right through to kill bacteria, and hot food must then stay hot or be eaten promptly. Otherwise bacteria multiply again in the danger zone.
+[hom-food-safety-s6.3.0] Cook food thoroughly, using the right time and temperature, and turn or stir it so that heat reaches the centre. Cook meat, poultry and minced meat right through, to a core temperature of at least 72°C for poultry.
+[hom-food-safety-s6.3.1] Reheat food quickly until it is above 100°C throughout, and reheat it only once.
+[hom-food-safety-s6.3.2] High-risk foods such as stews and gravies should be brought to boiling when reheated, because their moist, protein-rich nature suits bacteria.
+[hom-food-safety-s6.3.3] Cover food when reheating. In a microwave, stir or turn the food and allow standing time, so that heat reaches all parts evenly, and follow the appliance's instructions.
+[hom-food-safety-s6.3.4] Serve cooked food immediately. If holding it hot, keep it above 63°C, because bacteria multiply rapidly between 5°C and 63°C.
+[hom-food-safety-s6.3.5] Eat food that has been held hot within about 90 minutes (1.5 hours).
+[hom-food-safety-s6.3.6] Do not keep food in the danger zone. Cool leftovers quickly, refrigerate them and use them soon.
+[hom-food-safety-s6.4.b] People carry food poisoning bacteria on their hands, hair, skin and clothes, so the person preparing food is a major source of contamination. Examiners usually ask for four to six personal hygiene points.
+[hom-food-safety-s6.4.0] Wash hands in hot water with liquid soap, and a nailbrush for the nails, before handling food, because hands carry food poisoning bacteria. Dry them on a clean towel or paper towel.
+[hom-food-safety-s6.4.1] Wash hands after the toilet, sneezing or coughing, changing nappies, handling pets, handling rubbish and handling raw meat.
+[hom-food-safety-s6.4.2] Keep nails short and clean and remove jewellery before preparing food, because dirt and bacteria collect under nails and around jewellery.
+[hom-food-safety-s6.4.3] Tie hair back or cover it. Wear a clean apron or clothing, and change it if it becomes soiled.
+[hom-food-safety-s6.4.4] Cover cuts, boils and sores with a brightly coloured waterproof plaster, so that infection cannot pass to food and the plaster can be seen if it falls into the food.
+[hom-food-safety-s6.4.5] Do not cough or sneeze over food, and do not taste food with your fingers or lick your fingers.
+[hom-food-safety-s6.4.6] Do not prepare or serve food for others while suffering from diarrhoea or vomiting, because the illness can pass to the people eating it.
+[hom-food-safety-s6.5.b] A clean kitchen with sensible habits stops bacteria building up on surfaces and equipment and passing to food. Four kitchen hygiene practices is a common exam question.
+[hom-food-safety-s6.5.0] Clean and disinfect work surfaces often, and wash equipment in hot water and detergent. Clean as you go.
+[hom-food-safety-s6.5.1] Use colour-coded chopping boards and separate utensils for raw and cooked foods, to prevent cross-contamination.
+[hom-food-safety-s6.5.2] Never prepare raw and cooked foods on the same surface.
+[hom-food-safety-s6.5.3] Handle food as little as possible during preparation, and keep it covered, because every touch can pass on bacteria.
+[hom-food-safety-s6.5.4] Floors, walls and work surfaces should be easy to clean, and the kitchen should have good lighting.
+[hom-food-safety-s6.5.5] Effective ventilation reduces condensation, which encourages the growth of micro-organisms.
+[hom-food-safety-s6.5.6] The kitchen should have a clean water supply and no access for pets or pests.
+[hom-food-safety-s6.5.7] Keep a covered waste bin and empty it regularly, and change clean cloths and dishtowels often.
+
+CANDIDATES hom-cooking-methods-s2: 2. Heat transfer and the principles of cooking
+[hom-cooking-methods-s2.0.b] Cooking is more than making food hot. Heat changes the food in several useful ways, and each change is a reason examiners expect you to give.
+[hom-cooking-methods-s2.0.0] Cooking makes food safe by destroying harmful micro-organisms, so food must be heated right through to the centre, because bacteria deep inside a thick piece can survive if the heat never reaches them.
+[hom-cooking-methods-s2.0.1] Heat denatures protein (changes its structure), so that digestive enzymes can act on it more easily.
+[hom-cooking-methods-s2.0.2] Cooking gelatinises starch (the starch grains swell and burst in water and heat), which makes rice, potatoes and pasta easier to digest.
+[hom-cooking-methods-s2.0.3] Cooking softens the cellulose in plant cell walls, so vegetables become tender and easier to chew.
+[hom-cooking-methods-s2.0.4] Heat develops flavour and changes colour and texture, which makes food more appetising and gives variety in the diet.
+[hom-cooking-methods-s2.0.5] Cooking destroys enzymes and most spoilage micro-organisms, which extends the time food stays fit to eat.
+[hom-cooking-methods-s2.1.b] Whatever the method, cooking is heat moving from a source into the food. The cook controls how much heat reaches the food, for how long, and whether moisture or fat is present.
+[hom-cooking-methods-s2.1.0] Too low a temperature or too short a time leaves food undercooked and unsafe, because the centre never gets hot enough; too high a temperature or too long a time dries, toughens and burns the surface.
+[hom-cooking-methods-s2.1.1] Thickness governs cooking time: thin or small pieces cook quickly and evenly, while a large joint needs lower heat for longer so that the centre cooks before the outside burns.
+[hom-cooking-methods-s2.1.2] Moist methods prevent food drying out; dry methods need added fat, basting (spooning hot fat or juices over the food) or a covered dish to keep food juicy.
+[hom-cooking-methods-s2.1.3] Food type governs the method: cuts rich in connective tissue need long, slow cooking, while delicate foods need short cooking at gentle heat.
+[hom-cooking-methods-s2.1.4] Cooked food must be served promptly or cooled quickly, because the danger zone of 5 to 63 °C is where bacteria multiply fastest.
+[hom-cooking-methods-s2.2.b] Conduction is heat transfer through a solid from one molecule to the next, without the material itself moving. It is the way heat passes from a hot pan into the food.
+[hom-cooking-methods-s2.2.0] As molecules at the hot end are heated they vibrate faster and pass energy to their neighbours, until the whole piece is hot.
+[hom-cooking-methods-s2.2.1] Metals such as aluminium, copper and steel conduct heat quickly, which is why saucepans have metal bases; glass, ceramic, wood, plastic and air conduct heat slowly (they are insulators), which is why handles and oven gloves are made from them.
+[hom-cooking-methods-s2.2.2] Pan-based methods begin with conduction: the cooker heats the pan base, which heats the liquid or fat in the pan, and that then heats the food.
+[hom-cooking-methods-s2.2.3] Boiling, poaching, stewing, shallow frying and stir-frying all depend on conduction through the pan base.
+[hom-cooking-methods-s2.2.4] Searing a steak in a hot pan: heat conducts from the pan surface into the outer layers of the meat and then gradually towards the centre.
+[hom-cooking-methods-s2.2.5] Baking trays and cake tins conduct heat into the base of a cake, so the base sets before the top.
+[hom-cooking-methods-s2.2.6] A large solid piece of food takes longer to cook through, because the heat has to travel inwards from the surface molecule by molecule.
+[hom-cooking-methods-s2.2.7] Diagram: arrows from a gas flame through a pan base into the food, labelled as conduction, with the direction of heat flow marked.
+[hom-cooking-methods-s2.3.b] Convection is heat transfer through a liquid or gas by currents. The heated fluid expands and becomes less dense so it rises, and cooler, denser fluid sinks to take its place and is heated in turn.
+[hom-cooking-methods-s2.3.0] Natural convection occurs in a pot of boiling water, in a stew and in the hot air of a conventional oven, because the heated fluid rises on its own and the cooler fluid sinks.
+[hom-cooking-methods-s2.3.1] Forced convection: the fan in a fan oven circulates the hot air, so food cooks faster and more evenly than in a conventional oven.
+[hom-cooking-methods-s2.3.2] Deep-fat frying: convection currents in the hot oil carry heat to every surface of the immersed food at once.
+[hom-cooking-methods-s2.3.3] Steaming: hot steam rises from boiling water and carries heat to the food, and it also condenses on cooler food, releasing its latent heat (the heat stored in steam) to cook it.
+[hom-cooking-methods-s2.3.4] Examples: boiling, stewing, steaming, deep-fat frying, and baking or roasting in an oven.
+[hom-cooking-methods-s2.3.5] Diagram: a pot of water with arrows showing hot water rising from the base, cooling at the surface and sinking at the sides.
+[hom-cooking-methods-s2.4.b] Radiation is heat transfer by infrared rays that travel in straight lines from a hot source and heat the first solid surface they strike. No solid, liquid or gas is needed to carry it.
+[hom-cooking-methods-s2.4.0] The surface struck by radiant heat absorbs it, so browning and crisping happen on that surface while the inside of the food cooks by conduction.
+[hom-cooking-methods-s2.4.1] Grilling uses an element or flame above or below the food to heat the surface, sealing and browning it; thin pieces cook quickly because the heat is intense.
+[hom-cooking-methods-s2.4.2] Barbecuing and toasting use radiant heat from glowing coals, gas flames or electric elements.
+[hom-cooking-methods-s2.4.3] Dark, dull (matt) surfaces absorb radiant heat more readily than shiny surfaces, which reflect it; this is why foil reflects heat.
+[hom-cooking-methods-s2.4.4] Radiant heat weakens with distance from the source, so the height of the grill rack is adjusted to control how much heat the food receives.
+[hom-cooking-methods-s2.4.5] Diagram: straight arrows from a grill element to the top surface of a piece of food, labelled as radiation.
+[hom-cooking-methods-s2.5.b] In practice most cooking uses more than one type of heat transfer at once. Microwave cooking is a special case, because the heat is made inside the food.
+[hom-cooking-methods-s2.5.0] Roasting uses radiation from the oven walls and element, convection by the hot air, and conduction inside the food.
+[hom-cooking-methods-s2.5.1] Boiling uses conduction through the pan base, then convection in the water, which is at 100 °C when boiling.
+[hom-cooking-methods-s2.5.2] In microwave cooking, a magnetron produces microwaves (electromagnetic waves) that make the water molecules in the food vibrate, and this makes heat inside the outer layer of the food.
+[hom-cooking-methods-s2.5.3] Once the heat is made in the outer layer, it spreads inwards by conduction.
+[hom-cooking-methods-s2.6.b] Each type of food reacts to heat in its own way, so the principles above are applied differently to each one. The right choice gives food that is safe, tender and keeps its colour and nutrients.
+[hom-cooking-methods-s2.6.0] Meat: tough cuts, rich in collagen, need long, slow, moist cooking so that collagen converts to gelatine; tender cuts can be grilled or fried quickly.
+[hom-cooking-methods-s2.6.1] Fish: its flesh has little connective tissue and sets quickly, so it needs short cooking at gentle heat; poaching, steaming, grilling, baking and frying all suit it.
+[hom-cooking-methods-s2.6.2] Eggs: egg proteins set (coagulate) at moderate temperatures, so eggs and custards need gentle heat; high heat makes scrambled egg rubbery and custard curdle.
+[hom-cooking-methods-s2.6.3] Vegetables and fruit: short cooking in a little boiling water, or steaming, keeps colour, texture and water-soluble vitamins, which would otherwise dissolve into the cooking water.
+[hom-cooking-methods-s2.6.4] Cereals, rice and pasta: starch needs water and heat to gelatinise, so they are cooked in plenty of boiling water or steam.
+[hom-cooking-methods-s2.6.5] Milk and cheese: milk scorches on direct heat and cheese turns stringy at high temperatures, so sauces containing them are cooked gently.
+[hom-cooking-methods-s2.6.6] Fats and oils: fat overheats, smokes and breaks down if heated too far, so frying oil must be watched, an oil with a high smoke point chosen for deep-fat frying, and it should not be reused too often.
+[hom-cooking-methods-s2.6.7] Pastry and cakes: the fat is kept cold when rubbed in, the dry heat of the oven sets the flaky structure, and the oven should not be opened early when baking a cake.

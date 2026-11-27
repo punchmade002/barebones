@@ -1,0 +1,464 @@
+MODE: cost and links
+TARGET chem24-s2: 2. Physical properties and acidity
+[chem24-s2.0.b] When a solid melts or a liquid boils, the molecules move apart from one another but stay intact. So the energy needed depends on the attractions between molecules, and three kinds of attraction matter for organic compounds.
+[chem24-s2.0.0] Melting and boiling separate molecules, so they depend on the intermolecular forces (the attractions between separate molecules), not on the covalent bonds (shared electron pairs) inside the molecules.
+[chem24-s2.0.1] The stronger the forces, the more energy is needed to pull the molecules apart, so the higher the melting and boiling points.
+[chem24-s2.0.2] London dispersion forces are the weak attractions between all molecules, polar or not. They grow stronger as a molecule has more electrons and more surface.
+[chem24-s2.0.3] Permanent dipole–dipole forces act between polar molecules. A polar bond is one where the shared electrons sit nearer the more electronegative atom (the atom that pulls harder on shared electrons), leaving one end δ+ and the other δ−.
+[chem24-s2.0.4] Hydrogen bonding is a strong attraction between an H bonded to O, N or F and a lone pair (a non-bonding pair of outer electrons) on O, N or F of a neighbouring molecule. The order of strength is London forces only, then dipole–dipole, then hydrogen bonding.
+[chem24-s2.1.b] Which forces a compound has depends on its family, meaning the functional group (the atom or group that gives a family its properties) and whether that group has polar bonds. None of these families can hydrogen bond to its own molecules.
+[chem24-s2.1.0] Alkanes and alkenes (hydrocarbons, made only of C and H) are non-polar, so they have London dispersion forces only.
+[chem24-s2.1.1] Haloalkanes (alkanes with a halogen such as Cl in place of an H) have a polar C–Cl bond (Cl 3.16, C 2.55 on the electronegativity scale), so they have permanent dipole–dipole forces as well as London forces.
+[chem24-s2.1.2] Haloalkanes cannot hydrogen bond, because they have no H bonded to O, N or F.
+[chem24-s2.1.3] Aldehydes and ketones (compounds containing the C=O carbonyl group) have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.
+[chem24-s2.1.4] Aldehydes and ketones cannot hydrogen bond with each other, because their hydrogens are bonded to carbon, not oxygen.
+[chem24-s2.1.5] Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules.
+[chem24-s2.2.b] Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind.
+[chem24-s2.2.0] Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.
+[chem24-s2.2.1] Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.
+[chem24-s2.2.2] In the pure liquid, carboxylic acid molecules pair up as dimers (two molecules joined together) held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.
+[chem24-s2.2.3] Diagram: two ethanoic acid molecules facing each other, with dashed hydrogen bonds from each O–H hydrogen to the C=O oxygen of the other molecule, forming a dimer.
+[chem24-s2.3.b] Size also affects boiling point, because bigger molecules have stronger London forces. To compare the type of force fairly, you need compounds with about the same relative molecular mass (Mr, the mass of a molecule compared with carbon-12).
+[chem24-s2.3.0] At similar relative molecular mass, so with similar London forces, boiling point depends on the type of intermolecular force: London forces only give the lowest boiling point, then dipole–dipole forces, then hydrogen bonding.
+[chem24-s2.3.1] Butane (Mr 58) boils at −1 °C, propanal (Mr 58) at 48 °C and propanone (Mr 58) at 56 °C.
+[chem24-s2.3.2] Methyl methanoate (Mr 60) boils at 32 °C, propan-1-ol (Mr 60) at 97 °C and ethanoic acid (Mr 60) at 118 °C.
+[chem24-s2.3.3] Propanal boils far higher than butane because its polar C=O gives dipole–dipole forces in addition to London forces.
+[chem24-s2.3.4] Propan-1-ol boils higher than propanal because its O–H groups form hydrogen bonds between molecules, which are stronger than dipole–dipole forces.
+[chem24-s2.3.5] Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome.
+[chem24-s2.4.b] Two compounds can have the same mass, or even the same formula, and still boil at very different temperatures. The difference comes down to whether hydrogen bonding is possible.
+[chem24-s2.4.0] Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.
+[chem24-s2.4.1] The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.
+[chem24-s2.4.2] Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only.
+[chem24-s2.5.b] Within one family the functional group stays the same, so what changes boiling point is chain length. A homologous series (a family whose members differ by one CH₂ unit) shows this clearly.
+[chem24-s2.5.0] Within a homologous series, boiling point rises with chain length, because each extra CH₂ adds electrons and surface area, so London forces get stronger.
+[chem24-s2.5.1] Alcohols: methanol 65 °C; ethanol 78 °C; propan-1-ol 97 °C; butan-1-ol 117 °C; pentan-1-ol 138 °C; hexan-1-ol 157 °C, a rise of about 20 °C per CH₂.
+[chem24-s2.5.2] Carboxylic acids: methanoic acid 101 °C; ethanoic acid 118 °C; propanoic acid 141 °C; butanoic acid 164 °C.
+[chem24-s2.5.3] Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C.
+[chem24-s2.6.b] Haloalkanes follow the same trend, and adding halogens has its own effect. A longer chain also makes the families more alike.
+[chem24-s2.6.0] Chloroalkanes: chloromethane −24 °C and chloroethane 12 °C are gases at room temperature.
+[chem24-s2.6.1] Chloroalkanes: 1-chloropropane 47 °C and 1-chlorobutane 78 °C are liquids.
+[chem24-s2.6.2] Adding more chlorines also raises the boiling point: CH₃Cl −24 °C; CH₂Cl₂ 40 °C; CHCl₃ 61 °C; CCl₄ 77 °C, because more electrons give stronger London forces.
+[chem24-s2.6.3] As the chain gets longer, the hydrocarbon part makes up more of the molecule, so the difference between families gets smaller, because the effect of the functional group is diluted.
+[chem24-s2.7.b] Molecules with the same formula can have different shapes. A branched molecule is more compact than a straight chain, and that changes how strongly molecules attract one another.
+[chem24-s2.7.0] Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker. There is more on this in Groups of hydrocarbons and their properties.
+[chem24-s2.7.1] Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.
+[chem24-s2.7.2] The more compact the molecule, and the more crowded the –OH, the lower the boiling point.
+[chem24-s2.8.b] Exams give a table or graph of boiling point against number of carbons and ask for the trend, the reason and a prediction. A fixed three-step method covers all three.
+[chem24-s2.8.0] Step 1: from a table or graph of boiling point against number of carbons, describe the trend, for example that boiling point rises as the number of carbons rises.
+[chem24-s2.8.1] Step 2: explain the trend in terms of chain length, London forces and the functional group.
+[chem24-s2.8.2] Step 3: predict the next member by continuing the trend, e.g. continuing the primary alcohols from butan-1-ol, 117 °C, gives about 138 °C for pentan-1-ol.
+[chem24-s2.9.b] Melting also depends on intermolecular forces, but a solid is an ordered packing of molecules. So how neatly the molecules fit together matters too.
+[chem24-s2.9.0] Melting points depend on the intermolecular forces and also on how well the molecules pack together in the solid, so they follow trends less regularly than boiling points.
+[chem24-s2.9.1] Ethanoic acid melts at 17 °C, high for its size, because of strong hydrogen bonding.
+[chem24-s2.9.2] On a cold day, pure ethanoic acid freezes to an ice-like solid, so it is called glacial ethanoic acid.
+[chem24-s2.9.3] Compact, symmetrical molecules pack well and melt higher: 2-methylpropan-2-ol melts at about 25 °C, but butan-1-ol melts at −89 °C.
+[chem24-s2.9.4] Cyclohexane (a ring of six carbons) melts at 6.5 °C, but hexane (the straight chain) melts at −95 °C, again because the compact ring packs better.
+[chem24-s2.9.5] Ionic bonding (attraction between oppositely charged ions) gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C.
+[chem24-s2.10.b] Whether a compound dissolves depends on whether it can attract the solvent (the liquid doing the dissolving) as strongly as it attracts itself. For water, that means hydrogen bonding.
+[chem24-s2.10.0] Like dissolves like: a compound dissolves in water if it can form hydrogen bonds with water molecules.
+[chem24-s2.10.1] Non-polar compounds dissolve in non-polar solvents such as cyclohexane, where London forces are similar.
+[chem24-s2.10.2] Lower alcohols (methanol, ethanol, propan-1-ol and propan-2-ol) are miscible with water, mixing in all proportions, because their –OH groups hydrogen bond with water.
+[chem24-s2.10.3] Lower carboxylic acids, from methanoic acid to butanoic acid, are also miscible with water, for the same reason.
+[chem24-s2.10.4] Solubility in water falls as the chain gets longer, because the non-polar hydrocarbon part cannot hydrogen bond and disrupts the hydrogen bonding of the water.
+[chem24-s2.10.5] Butan-1-ol is only partly soluble in water, and hexan-1-ol is only slightly soluble.
+[chem24-s2.10.6] Longer chains dissolve better in non-polar solvents.
+[chem24-s2.11.b] These families cannot hydrogen bond to their own molecules, yet small ones still dissolve in water. The reason is that water can hydrogen bond to them.
+[chem24-s2.11.0] Small aldehydes and ketones, methanal, ethanal and propanone, are miscible with water: they have no O–H, but water molecules hydrogen bond to the lone pairs on their C=O oxygen.
+[chem24-s2.11.1] Propanone dissolves both polar and non-polar substances, so it is a useful solvent.
+[chem24-s2.11.2] Butanone is not fully miscible with water; only the smallest ketone, propanone, is.
+[chem24-s2.11.3] Small esters are slightly soluble in water for the same reason, as water hydrogen bonds to their oxygens: about 8 g of ethyl ethanoate dissolves in 100 g of water at room temperature.
+[chem24-s2.11.4] Small esters dissolve well in organic solvents.
+[chem24-s2.12.b] Compounds with no way to hydrogen bond with water stay out of it, while ionic compounds are pulled in by water's charges. These cases explain common solvents and a purification method.
+[chem24-s2.12.0] Alkanes, alkenes, benzene and haloalkanes are insoluble in water, as they cannot hydrogen bond with it, but they dissolve in non-polar solvents.
+[chem24-s2.12.1] Haloalkanes are good solvents for grease and oil.
+[chem24-s2.12.2] Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation (dissolving in hot water, then cooling so pure crystals form).
+[chem24-s2.12.3] There is more on this in Investigation: synthesising benzoic acid.
+[chem24-s2.12.4] Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction).
+[chem24-s2.13.b] Alcohols and carboxylic acids both contain an O–H group, yet carboxylic acids are far more acidic. To see why, first look at why an O–H hydrogen can be lost at all.
+[chem24-s2.13.0] An acid, in the Brønsted–Lowry sense, is a proton donor; both alcohols and carboxylic acids can donate the H⁺ of their O–H group.
+[chem24-s2.13.1] The O–H bond is polar because oxygen (3.44) is much more electronegative than hydrogen (2.20), so the shared electrons are pulled towards oxygen.
+[chem24-s2.13.2] This leaves the hydrogen δ+, so it can be removed as H⁺ by a base (a proton acceptor).
+[chem24-s2.13.3] C–H bonds are almost non-polar (C 2.55, H 2.20), so hydrogens bonded to carbon are not acidic.
+[chem24-s2.13.4] In ethanoic acid, CH₃COOH, only the hydrogen on oxygen is lost.
+[chem24-s2.13.5] How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base, what is left after H⁺ leaves) is.
+[chem24-s2.13.6] The more stable the negative ion, the more easily H⁺ is lost and the stronger the acid.
+[chem24-s2.14.b] An alcohol can lose H⁺, but the ion it leaves behind is unstable. This is why alcohols are such weak acids.
+[chem24-s2.14.0] An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺. Ethanol gives the ethoxide ion, C₂H₅O⁻.
+[chem24-s2.14.1] In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance (sharing the charge over more than one atom).
+[chem24-s2.14.2] The alkoxide ion is therefore unstable and readily takes back H⁺.
+[chem24-s2.14.3] The alkyl group (a chain of carbons and hydrogens) is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.
+[chem24-s2.14.4] Alcohols are therefore weaker acids than water.
+[chem24-s2.15.b] Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Their acidic O–H shows up in the reaction with sodium metal.
+[chem24-s2.15.0] Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.
+[chem24-s2.15.1] Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.
+[chem24-s2.15.2] Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g), forming sodium ethoxide.
+[chem24-s2.15.3] The reaction of ethanol with sodium is gentler than the reaction of sodium with water, showing that ethanol is a weaker acid than water.
+[chem24-s2.16.b] A carboxylic acid loses H⁺ much more easily than an alcohol, and the reason lies in the ion it leaves behind. Its negative charge is not stuck on one atom.
+[chem24-s2.16.0] A carboxylic acid loses H⁺ to form a carboxylate ion: RCOOH(aq) ⇌ RCOO⁻(aq) + H⁺(aq).
+[chem24-s2.16.1] Ethanoic acid gives the ethanoate ion: CH₃COOH ⇌ CH₃COO⁻ + H⁺.
+[chem24-s2.16.2] In the carboxylate ion the negative charge is delocalised (spread out), shared over both oxygen atoms through the O–C–O group.
+[chem24-s2.16.3] The carboxylate ion is a resonance hybrid (a blend) of two structures, in each of which a different oxygen carries the negative charge.
+[chem24-s2.17.b] Bond lengths show that the charge really is shared, and the sharing is what stabilises the ion. This is why a carboxylic acid is a much stronger acid than an alcohol.
+[chem24-s2.17.0] The two C–O bonds in a carboxylate ion are the same length, between the length of a C–O single bond and that of a C=O double bond.
+[chem24-s2.17.1] In the acid itself, the C=O bond is shorter than the C–O bond.
+[chem24-s2.17.2] Spreading the charge over two oxygens stabilises the carboxylate ion.
+[chem24-s2.17.3] So a carboxylic acid loses H⁺ much more readily than an alcohol, whose alkoxide ion has no such stabilisation.
+[chem24-s2.17.4] Diagram: the two resonance structures of the ethanoate ion, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and the hybrid drawn with a dashed bond over O–C–O and a charge of −½ on each oxygen.
+[chem24-s2.18.b] A second effect adds to resonance. Atoms in a molecule pull on electrons along the bonds, and this changes how easily the O–H hydrogen leaves.
+[chem24-s2.18.0] The inductive effect is the pulling (or pushing) of electron density along sigma bonds (the single bonds that join atoms) by an atom or group, because of its electronegativity.
+[chem24-s2.18.1] In the –COOH group, the electronegative oxygen of the C=O pulls electron density away from the O–H bond.
+[chem24-s2.18.2] This makes the O–H more polar and the hydrogen easier to lose than in an alcohol.
+[chem24-s2.18.3] Electron-withdrawing groups such as chlorine, attached to the carbon chain, pull electron density towards themselves.
+[chem24-s2.18.4] This spreads out the negative charge of the carboxylate ion and stabilises it, so the acid is stronger.
+[chem24-s2.18.5] More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect.
+[chem24-s2.19.b] Alkyl groups have the opposite effect to chlorine, so they weaken an acid. The Ka values (the acid dissociation constant: the larger the Ka, the stronger the acid) confirm the order.
+[chem24-s2.19.0] Alkyl groups are electron-releasing; they push electron density towards the –COO⁻ group, destabilising it, so the acid is weaker.
+[chem24-s2.19.1] Methanoic acid, with H on the –COOH, is stronger than ethanoic acid, with CH₃ on the –COOH, which is slightly stronger than propanoic acid.
+[chem24-s2.19.2] Ka data at 25 °C: methanoic acid 1.8 × 10⁻⁴; ethanoic acid 1.8 × 10⁻⁵; propanoic acid 1.3 × 10⁻⁵.
+[chem24-s2.19.3] Ka data at 25 °C: chloroethanoic acid 1.4 × 10⁻³; trichloroethanoic acid about 0.2.
+[chem24-s2.19.4] Order of strength: CCl₃COOH > CH₂ClCOOH > HCOOH > CH₃COOH > CH₃CH₂COOH.
+[chem24-s2.20.b] Carboxylic acids are much more acidic than alcohols, but they are still weak acids. A weak acid dissociates (splits into H⁺ and its negative ion) only partly, and a short calculation shows how little.
+[chem24-s2.20.0] Carboxylic acids are weak acids, only partly dissociated.
+[chem24-s2.20.1] Step 1: the degree of dissociation (the fraction of molecules that lose H⁺) is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.
+[chem24-s2.20.2] Step 2: [H⁺] = 0.013 × 0.1 mol L⁻¹ = 1.3 × 10⁻³ mol L⁻¹.
+[chem24-s2.20.3] Step 3: pH = −log₁₀[H⁺] = −log₁₀(1.3 × 10⁻³) ≈ 2.9.
+[chem24-s2.20.4] Carboxylic acids are still far stronger acids than alcohols, because of the resonance-stabilised carboxylate ion and the inductive effect of the C=O.
+[chem24-s2.20.5] Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.
+[chem24-s2.21.b] The difference in acidity shows up in everyday reactions. Carboxylic acids give the typical reactions of an acid, and alcohols mostly do not.
+[chem24-s2.21.0] Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.
+[chem24-s2.21.1] Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O. There is more on this in Tests, reaction schemes and preparing an ester.
+[chem24-s2.21.2] Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.
+[chem24-s2.21.3] Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.
+[chem24-s2.21.4] Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.
+[chem24-s2.21.5] Indicator: an alcohol is neutral; an acid is acidic.
+[chem24-s2.22.b] Every acidity question has the same logic: the more stable the negative ion left behind, the stronger the acid. A two-step answer follows it.
+[chem24-s2.22.0] Step 1 of explaining a difference in acidity: say which anion is more stable and why, referring to resonance and to electron-withdrawing or electron-releasing groups.
+[chem24-s2.22.1] Step 2 of explaining a difference in acidity: conclude which acid loses H⁺ more easily.
+
+CANDIDATES chem6-s1: 1. Bond type and intermolecular forces
+[chem6-s1.0.b] When two atoms share a pair of electrons in a covalent bond (a bond formed by sharing electrons), the pair is not always shared equally. Electronegativity tells you which atom pulls harder on it. There is more on the continuum from ionic to non-polar covalent bonding in “Types of chemical bonding”.
+[chem6-s1.0.0] Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the value, the harder the atom pulls on the pair.
+[chem6-s1.0.1] It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4). Pauling values are relative, so they have no units.
+[chem6-s1.0.2] Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.
+[chem6-s1.0.3] Non-metals have high electronegativities and metals have low ones, so a non-metal bonded to a metal pulls the electrons strongly towards itself.
+[chem6-s1.1.b] Electronegativity follows a pattern in the periodic table. Both halves of the pattern are explained by how close the bonding electrons are to the nucleus (the positive centre of the atom) and how much positive charge pulls on them.
+[chem6-s1.1.0] Across a period (a row of the periodic table, left to right) electronegativity increases, for example from Na 0.93 to Cl 3.16.
+[chem6-s1.1.1] Across a period the nuclear charge (the positive charge of the nucleus) increases while electrons are added to the same main energy level (shell), so the atomic radius (the size of the atom) decreases.
+[chem6-s1.1.2] Because the atomic radius decreases across a period, the bonding electrons are closer to a more highly charged nucleus, so the nucleus attracts them more strongly.
+[chem6-s1.1.3] Down a group (a column of the periodic table) electronegativity decreases, for example from F 3.98 to I 2.66.
+[chem6-s1.1.4] Down a group each element has an extra energy level, so the atomic radius increases and the bonding electrons are further from the nucleus.
+[chem6-s1.1.5] Inner electrons screen (shield) the outer electrons from the nucleus. The bonding electrons are therefore further away and less strongly attracted, even though the nuclear charge is greater.
+[chem6-s1.1.6] Noble gases are usually given no electronegativity value because they rarely form bonds, so there is no shared pair to attract.
+[chem6-s1.2.b] The difference in electronegativity between two bonded atoms predicts the bond type: the larger the difference, the more ionic the bond. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum (a smooth range from ionic to non-polar covalent).
+[chem6-s1.2.0] Step 1: Look up the Pauling electronegativity of each atom.
+[chem6-s1.2.1] Step 2: Subtract the smaller value from the larger to find the difference.
+[chem6-s1.2.2] Step 3: Compare the difference with the cut-offs below.
+[chem6-s1.2.3] A difference greater than 1.7 gives a mainly ionic bond (electrons largely transferred from one atom to the other), for example NaCl: 3.16 − 0.93 = 2.23.
+[chem6-s1.2.4] A difference between about 0.4 and 1.7 gives a polar covalent bond (a bond in which the shared pair is pulled unequally), for example H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.
+[chem6-s1.2.5] A difference less than about 0.4 gives a non-polar (pure) covalent bond, in which the pair is shared almost equally, for example C–H: 2.55 − 2.20 = 0.35.
+[chem6-s1.2.6] A bond between identical atoms has a difference of zero, so the pair is shared equally and the bond is non-polar, for example Cl–Cl: 3.16 − 3.16 = 0.
+[chem6-s1.2.7] In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+).
+[chem6-s1.3.b] Ionic compounds are made of oppositely charged ions packed in a lattice (a regular, repeating three-dimensional arrangement). Their properties follow from the strong attraction between those ions and from whether the ions can move.
+[chem6-s1.3.0] Ionic compounds are solids at room temperature, for example sodium chloride and magnesium oxide.
+[chem6-s1.3.1] Sodium chloride melts at 801 °C and boils at 1413 °C.
+[chem6-s1.3.2] The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions (attractions between opposite charges) between oppositely charged ions throughout the lattice.
+[chem6-s1.3.3] Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions and cannot carry charge.
+[chem6-s1.3.4] Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.
+[chem6-s1.3.5] Many ionic compounds are soluble in water, because polar water molecules (molecules with a slightly positive end and a slightly negative end) attract and surround the ions.
+[chem6-s1.3.6] Ionic compounds are insoluble in non-polar solvents such as cyclohexane, because non-polar molecules have no charged ends to attract the ions.
+[chem6-s1.4.b] Covalent compounds are made of separate molecules. Because of this, melting or boiling them only has to separate one molecule from the next, which takes far less energy than melting an ionic lattice.
+[chem6-s1.4.0] Many covalent compounds are gases or liquids at room temperature, for example methane, carbon dioxide and water.
+[chem6-s1.4.1] Some covalent compounds are solids with low melting points, for example iodine and sugar.
+[chem6-s1.4.2] Iodine sublimes (turns straight from solid to gas) on gentle heating and melts at 114 °C.
+[chem6-s1.4.3] Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.
+[chem6-s1.4.4] The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.
+[chem6-s1.5.b] Whether a covalent compound conducts or dissolves depends on whether it has charged particles and on whether its molecules are polar (have a slightly positive end and a slightly negative end).
+[chem6-s1.5.0] Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.
+[chem6-s1.5.1] Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.
+[chem6-s1.5.2] Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.
+[chem6-s1.5.3] Polar molecules such as ethanol, sugar and ammonia dissolve in water, because they can form hydrogen bonds with it. There is more on this in “Intermolecular forces and physical properties”.
+[chem6-s1.5.4] “Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents.
+[chem6-s1.6.b] Putting the two types side by side shows four paired differences, and each has its own reason: melting and boiling points depend on whether strong ionic attractions or only weak forces between molecules must be overcome, and conductivity depends on whether ions are free to move.
+[chem6-s1.6.0] Melting and boiling points: ionic compounds are high; covalent compounds are low.
+[chem6-s1.6.1] Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.
+[chem6-s1.6.2] Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.
+[chem6-s1.6.3] State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.
+[chem6-s1.6.4] Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken. There is more on this in “Allotropes of Carbon. Hydrocarbons”.
+[chem6-s1.7.b] A simple conductivity test shows whether a substance contains ions that are free to move. Ionic compounds pass the test when molten or dissolved.
+[chem6-s1.7.0] Step 1: Melt the substance, or dissolve it in water.
+[chem6-s1.7.1] Step 2: Dip two carbon electrodes (the rods that carry current into the liquid) into it, connected to a battery and a bulb (or an ammeter, which measures current).
+[chem6-s1.7.2] Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.
+[chem6-s1.7.3] Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.
+[chem6-s1.8.b] Two different kinds of attraction operate in a molecular substance: bonds inside each molecule and forces between molecules. Keeping them apart explains why melting and boiling are easy compared with breaking a molecule.
+[chem6-s1.8.0] Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.
+[chem6-s1.8.1] Intermolecular forces are the weaker forces of attraction between separate molecules.
+[chem6-s1.8.2] Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.
+[chem6-s1.8.3] Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).
+[chem6-s1.8.4] Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”.
+[chem6-s1.9.b] Even a molecule with no permanent charged ends still attracts its neighbours weakly. London dispersion forces are the intermolecular force that every molecule has.
+[chem6-s1.9.0] London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, for example H₂, Cl₂, CH₄ and noble gas atoms.
+[chem6-s1.9.1] They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole (one side slightly negative, the other slightly positive).
+[chem6-s1.9.2] The temporary dipole induces a dipole in a neighbouring molecule (pushes its electrons to one side), and the two attract.
+[chem6-s1.9.3] London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons, because a bigger electron cloud is easier to distort.
+[chem6-s1.10.b] Polar molecules have charged ends all the time, not just for an instant. This gives them an extra attraction on top of London dispersion forces.
+[chem6-s1.10.0] A polar molecule has a permanent dipole: a δ+ end and a δ− end, which arises from polar bonds. There is more on this in “Electronegativity and bond type”.
+[chem6-s1.10.1] Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, for example between HCl molecules (Hδ+–Clδ−).
+[chem6-s1.10.2] Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size, because the charged ends are permanent.
+[chem6-s1.11.b] Hydrogen bonding is the strongest of the intermolecular forces. It needs a hydrogen atom attached to one of three very electronegative atoms, F, O or N.
+[chem6-s1.11.0] A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.
+[chem6-s1.11.1] A lone pair is a pair of outer electrons on an atom that is not used in bonding, so it can attract the δ+ hydrogen of a neighbouring molecule.
+[chem6-s1.11.2] It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.
+[chem6-s1.11.3] A hydrogen bond is between molecules, not a covalent bond to hydrogen.
+[chem6-s1.11.4] Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.
+[chem6-s1.11.5] Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.
+[chem6-s1.11.6] Hydrogen bonds are the strongest intermolecular forces.
+[chem6-s1.11.7] Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule.
+[chem6-s1.12.b] When an ionic compound dissolves in water, the ions are pulled out of the lattice by the polar water molecules. The attraction between a full charge and a partial charge is called an ion–dipole force.
+[chem6-s1.12.0] An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.
+[chem6-s1.12.1] When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.
+[chem6-s1.12.2] The ions become surrounded by water molecules (hydrated).
+[chem6-s1.12.3] Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.
+[chem6-s1.12.4] Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it.
+[chem6-s1.13.b] Putting the forces in order lets you predict which substance holds its molecules together most strongly, for molecules of similar size.
+[chem6-s1.13.0] For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.
+[chem6-s1.13.1] All intermolecular forces are much weaker than covalent and ionic bonds, which is why melting or boiling a molecular substance leaves its molecules intact.
+
+CANDIDATES chem6-s2: 2. Polarity, shape and physical properties
+[chem6-s2.0.b] Melting and boiling are about the attractions between molecules, not the bonds inside them. Intermolecular forces (the attractions between separate molecules) decide how much energy a molecular substance needs to change state.
+[chem6-s2.0.0] To melt or boil a molecular substance (one made of separate small molecules), energy must be supplied to overcome the intermolecular forces, so the molecules can move apart.
+[chem6-s2.0.1] The stronger the intermolecular forces, the higher the melting and boiling points, because more energy is needed to pull the molecules apart.
+[chem6-s2.0.2] Substances with only London dispersion forces (weak attractions caused by temporary uneven electron distribution) between small molecules are gases at room temperature, because the forces are too weak to hold them together. Methane is an example: it boils at −162 °C.
+[chem6-s2.0.3] Group 14 hydrides (compounds of hydrogen with the group 14 elements) rise steadily in boiling point: CH₄ < SiH₄ < GeH₄ < SnH₄.
+[chem6-s2.0.4] Hydrogen bonding (a strong intermolecular attraction involving hydrogen) gives unusually high boiling points. Water boils at 100 °C, but hydrogen sulfide, a heavier molecule with no hydrogen bonding, boils at −60 °C.
+[chem6-s2.1.b] Whether one substance dissolves in another depends on the attractions between their particles. The solvent is the liquid that does the dissolving and the solute is the substance that dissolves.
+[chem6-s2.1.0] A substance dissolves when the attractions between solvent and solute particles are similar to or stronger than the attractions they replace. This is summed up as “like dissolves like”.
+[chem6-s2.1.1] Polar substances (those whose molecules have a slightly positive end and a slightly negative end) and hydrogen-bonding substances such as ethanol, ammonia and sugar dissolve in water, because they form hydrogen bonds with water molecules.
+[chem6-s2.1.2] Non-polar substances such as iodine, hexane and oils do not dissolve in water. They dissolve in non-polar solvents such as cyclohexane, where the London forces are similar to those they replace.
+[chem6-s2.1.3] Hexane and water do not mix, which means they form two layers.
+[chem6-s2.2.b] Water is a very small molecule, yet it behaves unlike other small molecules. The reason is hydrogen bonding between its molecules.
+[chem6-s2.2.0] Water has a high boiling point and a high melting point for such a small molecule, because the hydrogen bonds between molecules take a lot of energy to overcome.
+[chem6-s2.2.1] Ice is less dense than liquid water: hydrogen bonds hold the molecules in an open lattice (a regular arrangement with gaps between molecules), so ice floats.
+[chem6-s2.2.2] Water is a good solvent for ionic and polar substances, because it can form attractions with them.
+[chem6-s2.3.b] Secondary data means results taken from tables or graphs rather than measured yourself. The boiling points below (bp) are the sample data you may be asked to interpret.
+[chem6-s2.3.0] Noble gas boiling points (the noble gases are the group 18 elements): He −269 °C; Ne −246 °C; Ar −186 °C; Kr −153 °C; Xe −108 °C.
+[chem6-s2.3.1] Halogens (the group 17 elements) at room temperature: fluorine and chlorine are gases, bromine is a liquid and iodine is a solid.
+[chem6-s2.3.2] Alkane (hydrocarbon) boiling points: methane −162 °C; ethane −89 °C; propane −42 °C; butane −1 °C; pentane 36 °C; hexane 69 °C.
+[chem6-s2.3.3] Group 16 hydride boiling points: H₂O 100 °C; H₂S −60 °C; H₂Se −41 °C; H₂Te −2 °C.
+[chem6-s2.3.4] Group 15 and 17 hydride boiling points: NH₃ −33 °C vs PH₃ −88 °C; HF 20 °C vs HCl −85 °C.
+[chem6-s2.3.5] Compounds of similar mass: ethanol (bp 78 °C, hydrogen bonding) vs propane (bp −42 °C, London forces only).
+[chem6-s2.4.b] At Higher Level you must explain why the boiling points in the data follow their patterns. Two ideas do all the work: London forces grow with molecule size, and hydrogen bonding lifts a boiling point far above the trend.
+[chem6-s2.4.0] Down group 18, down group 17 and along the alkane series, boiling points rise because the molecules have more electrons and larger electron clouds, so London dispersion forces get stronger.
+[chem6-s2.4.1] In the group 16 hydrides, boiling point rises from H₂S to H₂Te as London forces increase with size. Water is far higher than the trend predicts because of hydrogen bonding.
+[chem6-s2.4.2] The same anomaly (a value far out of line with the trend) appears for NH₃ in group 15 and HF in group 17, which both form hydrogen bonds.
+[chem6-s2.4.3] Molecules of similar mass have higher boiling points if they are polar (attracted by dipole–dipole forces, the attractions between opposite ends of polar molecules), and much higher ones if they hydrogen bond, e.g. ethanol compared with propane.
+[chem6-s2.4.4] Diagram: a graph of boiling point against period for the hydrides of groups 14, 15, 16 and 17, showing the high values of H₂O, HF and NH₃ and the steady rise from CH₄ to SnH₄.
+[chem6-s2.5.b] Some bonds share electrons unequally, but that does not always make the whole molecule polar. Whether it does depends on the shape. The shapes named here are given; see “VSEPR theory” for how shapes are predicted.
+[chem6-s2.5.0] A polar bond has an uneven share of electrons, giving a slightly positive end (δ+) and a slightly negative end (δ−).
+[chem6-s2.5.1] A polar molecule has an overall uneven distribution of charge, with a δ+ end and a δ− end.
+[chem6-s2.5.2] Whether a molecule is polar depends on both its bonds and its shape: polar bonds arranged symmetrically cancel out, so the molecule has no δ+ or δ− end.
+[chem6-s2.6.b] A dipole is the pair of δ+ and δ− ends of a polar bond. In a symmetrical molecule the dipoles pull in opposite directions and cancel, while in an unsymmetrical molecule they add up.
+[chem6-s2.6.0] Carbon dioxide: each C=O bond is polar, but the molecule is linear (O=C=O, in a straight line), so the two bond polarities point in opposite directions and cancel; CO₂ is non-polar.
+[chem6-s2.6.1] Tetrachloromethane (CCl₄): four polar C–Cl bonds arranged tetrahedrally (pointing to the corners of a tetrahedron) cancel; CCl₄ is non-polar.
+[chem6-s2.6.2] Boron trifluoride (BF₃): three polar B–F bonds at 120° in a trigonal plane (flat, evenly spaced) cancel; BF₃ is non-polar.
+[chem6-s2.6.3] Water: two polar O–H bonds in a V-shaped (bent) molecule do not cancel, so water is polar, with δ− on oxygen.
+[chem6-s2.6.4] Ammonia: three polar N–H bonds in a pyramidal molecule (a shape like a pyramid, with nitrogen at the top) do not cancel, so NH₃ is polar.
+[chem6-s2.6.5] Trichloromethane (CHCl₃): the C–H bond differs from the three C–Cl bonds, so the tetrahedral molecule is unsymmetrical and polar.
+[chem6-s2.6.6] Diagram: CO₂, CCl₄, H₂O and NH₃, with arrows (or δ+ and δ− labels) on each bond showing whether the polarities cancel; label each molecule polar or non-polar.
+[chem6-s2.7.b] Polarity decides which intermolecular forces act between molecules. Those forces then set the boiling point and the solubility.
+[chem6-s2.7.0] Polar molecules attract each other by permanent dipole–dipole forces (or hydrogen bonds) as well as London dispersion forces, so they have stronger intermolecular forces than non-polar molecules of similar size.
+[chem6-s2.7.1] Non-polar molecules, including symmetrical ones with polar bonds, have only London dispersion forces between them. For example, carbon dioxide is a gas at room temperature, and tetrachloromethane is immiscible with water (does not mix with it).
+[chem6-s2.7.2] A symmetrical molecule usually has a lower boiling point and lower solubility in water than an unsymmetrical one of similar size, because its forces between molecules are weaker.
+[chem6-s2.7.3] Tetrachloromethane is immiscible with water, while trichloromethane is slightly soluble; both dissolve in non-polar solvents.
+[chem6-s2.8.b] A molecule can contain polar bonds and still be non-polar overall. What matters is the shape. These shapes are stated, not derived.
+[chem6-s2.8.0] A molecule with polar bonds is polar overall only if its shape is unsymmetrical, so that its charge is unevenly spread.
+[chem6-s2.8.1] Water is V-shaped (bent), so it is polar.
+[chem6-s2.8.2] Ammonia is pyramidal, so it is polar.
+[chem6-s2.8.3] Carbon dioxide is linear and methane is tetrahedral: both are non-polar.
+[chem6-s2.9.b] Once you know a molecule's shape and polarity, you can predict its boiling point and what it dissolves in.
+[chem6-s2.9.0] Polar molecules have stronger forces between them than non-polar molecules of similar size, so they have higher boiling points.
+[chem6-s2.9.1] Polar molecules tend to dissolve in polar solvents such as water; non-polar molecules dissolve in non-polar solvents such as cyclohexane.
+[chem6-s2.9.2] Water is a liquid at room temperature and dissolves salts, because it is polar and forms hydrogen bonds; methane is a non-polar gas and is almost insoluble in water.
+[chem6-s2.9.3] Ammonia, which is polar, is very soluble in water; carbon dioxide, which is non-polar, is only slightly soluble.
+[chem6-s2.10.b] Polar molecules respond to an electric charge and non-polar ones do not. A charged rod held beside a thin stream of liquid shows which kind a liquid is made of.
+[chem6-s2.10.0] Aim: to show whether a liquid is made of polar molecules.
+[chem6-s2.10.1] Apparatus: a burette (a long graduated tube with a tap) clamped above a beaker, a polythene (or acetate) rod, a cloth, and liquids such as water and cyclohexane.
+[chem6-s2.10.2] Diagram: a burette clamped above a beaker, releasing a thin stream of liquid; label the burette, the beaker and the stream.
+[chem6-s2.10.3] Diagram: a charged polythene rod held beside the stream, with the stream bending towards it; label the rod, the stream and the direction of deflection (the sideways bend).
+[chem6-s2.10.4] Independent variable (the one you change): the liquid tested.
+[chem6-s2.10.5] Dependent variable (the one you observe): whether the stream is deflected.
+[chem6-s2.10.6] Controlled variables (kept the same): the same rod and cloth, with the rod recharged before each test, so that every liquid meets a charged rod.
+[chem6-s2.11.b] The method is the same for each liquid, and comparing the two streams gives the conclusion.
+[chem6-s2.11.0] Step 1: Charge the rod by rubbing it with the cloth.
+[chem6-s2.11.1] Step 2: Let a thin stream of the liquid run from the burette, and hold the rod close to the stream without touching it.
+[chem6-s2.11.2] Step 3: Repeat with the other liquid, recharging the rod each time.
+[chem6-s2.11.3] Result: the stream of water is deflected (attracted) towards the rod; the stream of cyclohexane is not deflected.
+[chem6-s2.11.4] The water stream is attracted to the rod whether the rod is charged positively or negatively, because the molecules rotate.
+[chem6-s2.11.5] Explanation: polar molecules turn so that their oppositely charged end faces the rod and are attracted to it; non-polar molecules are not attracted.
+[chem6-s2.11.6] Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation, and collect it for disposal.
+
+CANDIDATES chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.

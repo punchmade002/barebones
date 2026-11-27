@@ -26,6 +26,9 @@ from crunch_exam_tags import tok
 AAC = {"biology": {"name": "Biology in Practice Investigation", "weight": 0.4},
        "geography": {"name": "Geographical Investigation", "weight": 0.2},
        "history": {"name": "Research Study Report", "weight": 0.2},
+       "chemistry": {"name": "Chemistry in Practice Investigation", "weight": 0.4},
+       # shortcut: Textiles (Elective 2) students' extra 10% coursework isn't modelled; add it if the app asks for the elective first
+       "home-economics": {"name": "Food Studies coursework", "short": "coursework", "weight": 0.2},
        # PE's coursework is two parts, the Physical Activity Project (20%) and the Performance Assessment (30%)
        "pe": {"name": "coursework (project and performance)", "short": "coursework", "weight": 0.5}}
 
@@ -58,6 +61,29 @@ HIST_TITLES = {"ire": ["Ireland and the Union, 1815-1870", "Movements for politi
 def hist_track(sid):
     ch = sid.rsplit("-s", 1)[0]  # hist-ire3
     return ch.split("-")[1][:3] + ":" + ch
+
+
+HOM_ELECTIVES = {"4": "elective:design", "5": "elective:textiles", "6": "elective:social"}  # by syllabus area
+_hom_refs = {}
+
+
+def hom_track(sid):
+    """Elective content is syllabus areas 4-6; areas 1-3 are the Core everyone studies."""
+    if sid not in _hom_refs:
+        ref = json.loads((ROOT / "content" / "home-economics" / f"{sid}.json").read_text()).get("syllabusRef") or "1"
+        _hom_refs[sid] = HOM_ELECTIVES.get(str(ref)[0], "")
+    return _hom_refs[sid]
+
+
+def hom_question(q):
+    """Section A best 10 short questions; B Q1 compulsory plus two of Q2-5; C one question: Q1-3 are Electives 1-3,
+    Q4 (since 2021) is a Core question anyone may take."""
+    sec, n = q["sectionId"][-1], int(re.sub(r"\D", "", q["id"].rsplit("-", 1)[1]))
+    if sec == "a":
+        return "A", ""
+    if sec == "b":
+        return ("B1" if n == 1 else "B"), ""
+    return "C", (["elective:design", "elective:textiles", "elective:social"][n - 1] if n <= 3 else "")
 
 
 GEO_OPTIONS = ["global-interdependence", "geoecology", "culture-identity", "atmosphere-ocean"]  # Q13-15, 16-18, 19-21, 22-24
@@ -98,6 +124,18 @@ SUBJECTS = {
     # Section C best 3 of 5 long questions (120). Physical activity areas are left out (crunch_points.LEFT_OUT).
     "pe": {"groups": {"A": [80 / 250, 10], "B": [50 / 250, None], "C": [120 / 250, 3]},
            "question": lambda q: (q["sectionId"][-1], ""), "track": lambda sid: ""},
+    # 2027 HL: Q1 compulsory (50) and five of Q2-7 (50 each). The bank is the old course (2001-2025: 11 questions,
+    # any 8). Re-marked the 2027 way, as Biology: old Q4, the short questions, is the compulsory Q1; the rest are
+    # optional, best 5 in 6.
+    "chemistry": {"groups": {"Q1": [1 / 6, None], "rest": [5 / 6, 5 / 6]},
+                  "question": lambda q: ("Q1" if q["id"].endswith("-q4") else "rest", ""), "track": lambda sid: ""},
+    # HL 320: Section A best 10 of 12-14 (60), Section B Q1 (80) and two of Q2-5 (100), Section C one question (80).
+    # shortcut: Elective 2's Section C is 40 marks (paper out of 280); modelled as 80, so Textiles shares are a little high.
+    "home-economics": {"groups": {"A": [60 / 320, 10], "B1": [80 / 320, None], "B": [100 / 320, 2], "C": [80 / 320, 1]},
+                       "question": hom_question, "track": hom_track,
+                       "picks": {"elective": [["elective:design", "Home Design and Management"],
+                                              ["elective:textiles", "Textiles, Fashion and Design"],
+                                              ["elective:social", "Social Studies"]]}},
 }
 
 
@@ -133,7 +171,15 @@ ALL_SIDS = []
 
 def higher_questions(subject):
     s = (ROOT / f"{subject}-exam-questions.js").read_text()
-    return [q for q in json.loads(s[s.index("[", s.index("concat(")):s.rindex("]") + 1]) if q.get("level") == "higher"]
+    qs = json.loads(s[s.index("[", s.index("concat(")):s.rindex("]") + 1])
+    # Home Ec's bank predates the rebuild: no level field (the id says -HI-) and no notesRefs (exam-refs.json has them)
+    refs_file = ROOT / "content" / "crunch" / f"{subject}-exam-refs.json"
+    refs = json.loads(refs_file.read_text()) if refs_file.exists() else {}
+    for q in qs:
+        for p in q["parts"]:
+            if not p.get("notesRefs") and p["label"] in refs.get(q["id"], {}):
+                p["notesRefs"] = refs[q["id"]][p["label"]]
+    return [q for q in qs if q.get("level", "higher" if "-HI-" in q["id"] else "") == "higher"]
 
 
 def exam_marks(qs, track):

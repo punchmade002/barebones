@@ -1,0 +1,256 @@
+{
+"hom-food-safety-s4": [
+ {"needs":"hom-food-safety-s1","strength":"essential","why":"moulds, yeasts and bacterial cell structure","confidence":"high"},
+ {"needs":"hom-food-safety-s2","strength":"helpful","why":"bacteria types and their growth conditions","confidence":"low"}
+],
+"hom-food-safety-s5": [
+ {"needs":"hom-digestion-metabolism-s1","strength":"helpful","why":"enzymes and hydrolysis assumed knowledge","confidence":"low"},
+ {"needs":"hom-cooking-methods-s1","strength":"helpful","why":"enzymic browning and its control","confidence":"high"}
+],
+"hom-food-safety-s6": [
+ {"needs":"hom-food-safety-s2","strength":"essential","why":"food poisoning bacteria and temperature danger zone","confidence":"high"},
+ {"needs":"hom-food-safety-s3","strength":"essential","why":"conditions for microbial growth and its control","confidence":"high"},
+ {"needs":"hom-food-preservation-s2","strength":"helpful","why":"freezing principle behind storing and thawing rules","confidence":"low"}
+],
+"hom-food-safety-s7": [
+ {"needs":"hom-food-safety-s2","strength":"essential","why":"biological hazards: food poisoning bacteria","confidence":"high"},
+ {"needs":"hom-food-safety-s6","strength":"essential","why":"safe storage, cooking and hygiene controls","confidence":"high"},
+ {"needs":"hom-food-safety-s3","strength":"helpful","why":"controlling microbial growth at critical points","confidence":"high"}
+],
+"hom-food-safety-s8": [
+ {"needs":"hom-food-safety-s9","strength":"helpful","why":"legislation the agencies enforce","confidence":"high"},
+ {"needs":"hom-food-safety-s7","strength":"helpful","why":"HACCP checked by agencies","confidence":"low"}
+],
+"hom-food-safety-s9": [
+ {"needs":"hom-food-safety-s8","strength":"helpful","why":"agencies that enforce food law","confidence":"high"},
+ {"needs":"hom-food-safety-s6","strength":"helpful","why":"hygiene practice that hygiene law requires","confidence":"high"},
+ {"needs":"hom-food-additives-s2","strength":"helpful","why":"labelling requirements and nutrition declarations","confidence":"high"}
+],
+"hom-fruit-vegetables-s1": [
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"vitamin C and folate in produce","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"beta-carotene and vitamin A","confidence":"high"},
+ {"needs":"hom-carbohydrates-s3","strength":"helpful","why":"dietary fibre sources","confidence":"high"},
+ {"needs":"hom-energy-nutrition-s4","strength":"helpful","why":"healthy eating guidelines and servings","confidence":"high"}
+],
+"hom-fruit-vegetables-s2": [
+ {"needs":"hom-food-safety-s5","strength":"essential","why":"enzymes in ripening and spoilage","confidence":"high"},
+ {"needs":"hom-food-safety-s3","strength":"helpful","why":"micro-organism spoilage","confidence":"high"},
+ {"needs":"hom-cooking-methods-s1","strength":"helpful","why":"enzymic browning","confidence":"low"},
+ {"needs":"hom-food-preservation-s2","strength":"helpful","why":"storing frozen produce","confidence":"low"}
+],
+"hom-fruit-vegetables-s3": [
+ {"needs":"hom-cooking-methods-s1","strength":"essential","why":"nutrient loss and browning during cooking","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"retaining vitamin C when cooking","confidence":"high"},
+ {"needs":"hom-cooking-methods-s2","strength":"helpful","why":"heat transfer in cooking","confidence":"low"},
+ {"needs":"hom-carbohydrates-s4","strength":"helpful","why":"cellulose, pectin and heat effects","confidence":"high"},
+ {"needs":"hom-food-preservation-s2","strength":"helpful","why":"blanching before freezing","confidence":"low"}
+],
+"hom-fruit-vegetables-s4": [
+ {"needs":"hom-food-preservation-s2","strength":"essential","why":"freezing principle and quick freezing","confidence":"high"},
+ {"needs":"hom-food-preservation-s3","strength":"essential","why":"canning heat processing","confidence":"high"},
+ {"needs":"hom-food-preservation-s4","strength":"essential","why":"dehydration principle","confidence":"high"},
+ {"needs":"hom-food-additives-s4","strength":"helpful","why":"additives in processed produce","confidence":"high"}
+],
+"hom-home-interior-s1": [],
+"hom-home-interior-s2": [
+ {"needs":"hom-home-interior-s1","strength":"essential","why":"design elements and selection factors for coverings","confidence":"high"},
+ {"needs":"hom-home-interior-s3","strength":"helpful","why":"wood and fabric materials","confidence":"high"},
+ {"needs":"hom-textiles-fibres-s1","strength":"helpful","why":"fabric properties for soft furnishings","confidence":"high"},
+ {"needs":"hom-textiles-fibres-s2","strength":"helpful","why":"fire safety of upholstery","confidence":"low"}
+],
+"hom-home-interior-s3": [
+ {"needs":"hom-textiles-fibres-s1","strength":"helpful","why":"fabric properties and household use","confidence":"low"},
+ {"needs":"hom-home-interior-s1","strength":"helpful","why":"selection criteria and design factors","confidence":"low"}
+],
+"hom-home-services-s1": [
+ {"needs":"hom-environmental-issues-s1","strength":"helpful","why":"renewable and non-renewable resources","confidence":"high"}
+],
+"hom-home-services-s2": [
+ {"needs":"hom-home-services-s1","strength":"helpful","why":"fuels whose burning causes emissions","confidence":"high"},
+ {"needs":"hom-home-services-s5","strength":"helpful","why":"heat transfer and heating controls","confidence":"high"},
+ {"needs":"hom-home-services-s6","strength":"helpful","why":"insulation as an efficiency strategy","confidence":"high"},
+ {"needs":"hom-cooking-methods-s2","strength":"helpful","why":"conduction, convection, radiation heat loss","confidence":"high"},
+ {"needs":"hom-environmental-issues-s3","strength":"helpful","why":"air pollution effects of emissions","confidence":"low"}
+],
+"hom-home-services-s3": [
+ {"needs":"hom-home-services-s1","strength":"helpful","why":"how electricity is generated and supplied","confidence":"low"},
+ {"needs":"hom-appliances-equipment-s3","strength":"helpful","why":"electrical safety and appliance wattage","confidence":"low"}
+],
+"hom-home-services-s4": [
+ {"needs":"hom-environmental-issues-s4","strength":"helpful","why":"water use in the home","confidence":"low"}
+],
+"hom-home-services-s5": [
+ {"needs":"hom-cooking-methods-s2","strength":"essential","why":"conduction, convection and radiation","confidence":"high"},
+ {"needs":"hom-home-services-s1","strength":"essential","why":"fuels used by heating systems","confidence":"high"},
+ {"needs":"hom-home-services-s4","strength":"helpful","why":"cold water tank feeding central heating","confidence":"high"},
+ {"needs":"hom-home-services-s6","strength":"helpful","why":"insulation and thermal comfort","confidence":"low"},
+ {"needs":"hom-home-services-s2","strength":"helpful","why":"heat loss and energy-saving strategies","confidence":"low"}
+],
+"hom-home-services-s6": [
+ {"needs":"hom-home-services-s5","strength":"essential","why":"heat transfer in the home","confidence":"high"},
+ {"needs":"hom-cooking-methods-s2","strength":"helpful","why":"conduction, convection, radiation principles","confidence":"high"},
+ {"needs":"hom-home-services-s2","strength":"helpful","why":"heat loss routes being reduced","confidence":"high"}
+],
+"hom-home-services-s7": [
+ {"needs":"hom-home-services-s5","strength":"helpful","why":"convection and heat transfer","confidence":"low"},
+ {"needs":"hom-home-services-s6","strength":"helpful","why":"insulation, warm surfaces and condensation","confidence":"high"}
+],
+"hom-home-services-s8": [
+ {"needs":"hom-home-services-s3","strength":"essential","why":"wattage, kilowatt-hour and electrical safety","confidence":"high"},
+ {"needs":"hom-home-services-s2","strength":"helpful","why":"energy-efficient lighting strategies","confidence":"low"},
+ {"needs":"hom-home-interior-s1","strength":"helpful","why":"colour and lighting in room design","confidence":"low"}
+],
+"hom-housing-s1": [],
+"hom-housing-s2": [
+ {"needs":"hom-personal-finance-s3","strength":"essential","why":"credit, interest and cost of credit","confidence":"high"},
+ {"needs":"hom-housing-s1","strength":"helpful","why":"buying versus renting","confidence":"high"},
+ {"needs":"hom-personal-finance-s4","strength":"helpful","why":"saving for a deposit","confidence":"high"},
+ {"needs":"hom-personal-finance-s5","strength":"helpful","why":"insurance and mortgage protection","confidence":"high"},
+ {"needs":"hom-personal-finance-s1","strength":"helpful","why":"income that determines mortgage affordability","confidence":"low"}
+],
+"hom-housing-s3": [
+ {"needs":"hom-housing-s1","strength":"helpful","why":"housing choices and trends","confidence":"low"}
+],
+"hom-housing-s4": [
+ {"needs":"hom-housing-s1","strength":"essential","why":"housing policy, buying and renting","confidence":"high"},
+ {"needs":"hom-housing-s2","strength":"helpful","why":"costs of buying a home","confidence":"high"},
+ {"needs":"hom-family-caring-s3","strength":"helpful","why":"accommodation needs of older people","confidence":"low"}
+],
+"hom-housing-s5": [
+ {"needs":"hom-housing-s3","strength":"essential","why":"housing styles to choose from","confidence":"high"},
+ {"needs":"hom-housing-s4","strength":"helpful","why":"local amenities and housing requirements","confidence":"high"},
+ {"needs":"hom-housing-s1","strength":"helpful","why":"factors shaping housing and location choice","confidence":"high"},
+ {"needs":"hom-housing-s6","strength":"helpful","why":"design and building standards in planning","confidence":"low"}
+],
+"hom-housing-s6": [
+ {"needs":"hom-home-services-s2","strength":"essential","why":"energy efficiency and Building Energy Rating","confidence":"high"},
+ {"needs":"hom-home-services-s6","strength":"helpful","why":"insulation in efficient house design","confidence":"high"},
+ {"needs":"hom-home-interior-s1","strength":"helpful","why":"ergonomics and aesthetic factors","confidence":"high"},
+ {"needs":"hom-housing-s3","strength":"helpful","why":"housing styles and environmental factors","confidence":"low"}
+],
+"hom-lipids-s1": [],
+"hom-lipids-s2": [
+ {"needs":"hom-lipids-s1","strength":"essential","why":"fatty acids that make up a triglyceride","confidence":"high"}
+],
+"hom-lipids-s3": [
+ {"needs":"hom-lipids-s1","strength":"essential","why":"saturated, mono- and polyunsaturated classification","confidence":"high"},
+ {"needs":"hom-lipids-s2","strength":"helpful","why":"classifying lipids by source","confidence":"high"}
+],
+"hom-lipids-s4": [
+ {"needs":"hom-lipids-s1","strength":"essential","why":"saturation and cis/trans fatty acids","confidence":"high"},
+ {"needs":"hom-lipids-s2","strength":"essential","why":"triglyceride structure and composition","confidence":"high"},
+ {"needs":"hom-food-additives-s4","strength":"helpful","why":"antioxidants and emulsifiers as additives","confidence":"low"}
+],
+"hom-lipids-s5": [
+ {"needs":"hom-lipids-s1","strength":"essential","why":"saturated fat and essential fatty acids","confidence":"high"},
+ {"needs":"hom-lipids-s2","strength":"helpful","why":"what lipids are","confidence":"high"},
+ {"needs":"hom-energy-nutrition-s3","strength":"helpful","why":"energy value per gram","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"lipids carry fat-soluble vitamins","confidence":"high"}
+],
+"hom-lipids-s6": [
+ {"needs":"hom-lipids-s3","strength":"essential","why":"animal, vegetable and marine fat sources","confidence":"high"},
+ {"needs":"hom-lipids-s4","strength":"essential","why":"hydrogenation, emulsions, rancidity in margarine","confidence":"high"},
+ {"needs":"hom-lipids-s1","strength":"helpful","why":"saturated and unsaturated fat content","confidence":"high"},
+ {"needs":"hom-lipids-s5","strength":"helpful","why":"health effects of saturated fat","confidence":"high"},
+ {"needs":"hom-food-additives-s2","strength":"helpful","why":"reading labels and nutrition declarations","confidence":"low"}
+],
+"hom-marriage-s1": [
+ {"needs":"hom-family-society-s1","strength":"helpful","why":"definition of the family","confidence":"low"}
+],
+"hom-marriage-s2": [
+ {"needs":"hom-marriage-s1","strength":"essential","why":"legal meaning of marriage","confidence":"high"},
+ {"needs":"hom-family-society-s1","strength":"helpful","why":"terms for marriage and families in other societies","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s1","strength":"helpful","why":"culture, norms and values","confidence":"low"}
+],
+"hom-marriage-s3": [
+ {"needs":"hom-marriage-s1","strength":"helpful","why":"legal requirements being prepared for","confidence":"low"},
+ {"needs":"hom-marriage-s2","strength":"helpful","why":"commitment, rights and responsibilities of spouses","confidence":"high"}
+],
+"hom-marriage-s4": [
+ {"needs":"hom-marriage-s1","strength":"essential","why":"void and voidable marriages underlie nullity","confidence":"high"},
+ {"needs":"hom-family-law-s4","strength":"helpful","why":"judicial separation orders","confidence":"high"},
+ {"needs":"hom-family-law-s1","strength":"helpful","why":"maintenance after breakdown","confidence":"low"}
+],
+"hom-meal-planning-s1": [
+ {"needs":"hom-energy-nutrition-s5","strength":"helpful","why":"changes in Irish diet over time","confidence":"high"},
+ {"needs":"hom-consumer-rights-s1","strength":"helpful","why":"advertising, pricing and labelling influence","confidence":"low"}
+],
+"hom-meal-planning-s2": [
+ {"needs":"hom-energy-nutrition-s1","strength":"essential","why":"energy requirements and BMR factors","confidence":"high"},
+ {"needs":"hom-energy-nutrition-s4","strength":"helpful","why":"dietary guidelines and RDA","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s4","strength":"helpful","why":"calcium and iron needs by life stage","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"folate in pregnancy","confidence":"high"},
+ {"needs":"hom-energy-nutrition-s6","strength":"helpful","why":"water in pregnancy and sport","confidence":"low"}
+],
+"hom-meal-planning-s3": [
+ {"needs":"hom-energy-nutrition-s2","strength":"essential","why":"energy balance, obesity and BMI","confidence":"high"},
+ {"needs":"hom-lipids-s5","strength":"essential","why":"cholesterol and saturated fat in heart disease","confidence":"high"},
+ {"needs":"hom-carbohydrates-s5","strength":"essential","why":"fibre and bowel conditions","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s4","strength":"essential","why":"calcium and osteoporosis, iron","confidence":"high"},
+ {"needs":"hom-carbohydrates-s6","strength":"helpful","why":"sugar intake, dental caries and diabetes","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"vitamin D and calcium","confidence":"low"},
+ {"needs":"hom-energy-nutrition-s4","strength":"helpful","why":"dietary guidelines","confidence":"low"}
+],
+"hom-meal-planning-s4": [
+ {"needs":"hom-meal-planning-s3","strength":"essential","why":"diet-related conditions being managed","confidence":"high"},
+ {"needs":"hom-proteins-s7","strength":"essential","why":"complementation of plant proteins","confidence":"high"},
+ {"needs":"hom-proteins-s4","strength":"essential","why":"gluten as a protein source","confidence":"high"},
+ {"needs":"hom-cereals-grains-s3","strength":"helpful","why":"gluten in flour for coeliac diet","confidence":"high"},
+ {"needs":"hom-lipids-s5","strength":"helpful","why":"saturated fat and cholesterol in CHD diet","confidence":"high"},
+ {"needs":"hom-carbohydrates-s6","strength":"helpful","why":"sugar and fibre in diabetic diet","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"B12 in vegan diets","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s4","strength":"helpful","why":"iron and calcium in vegetarian diets","confidence":"low"},
+ {"needs":"hom-proteins-s9","strength":"helpful","why":"novel protein foods as alternatives","confidence":"low"},
+ {"needs":"hom-consumer-rights-s1","strength":"helpful","why":"food labelling for special diets","confidence":"low"}
+],
+"hom-meal-planning-s5": [
+ {"needs":"hom-energy-nutrition-s4","strength":"essential","why":"healthy eating guidelines and servings","confidence":"high"},
+ {"needs":"hom-meal-planning-s2","strength":"essential","why":"dietary needs of the people planned for","confidence":"high"},
+ {"needs":"hom-meal-planning-s4","strength":"helpful","why":"modified diets in planning","confidence":"high"},
+ {"needs":"hom-meal-planning-s1","strength":"helpful","why":"factors shaping food choices","confidence":"high"},
+ {"needs":"hom-personal-finance-s2","strength":"helpful","why":"budgeting and reducing the food bill","confidence":"low"},
+ {"needs":"hom-resource-management-s1","strength":"helpful","why":"managing time, money and skills as resources","confidence":"low"}
+],
+"hom-meat-preparation-s1": [
+ {"needs":"hom-proteins-s4","strength":"helpful","why":"myosin, actin and collagen in meat","confidence":"high"},
+ {"needs":"hom-proteins-s7","strength":"helpful","why":"high biological value protein","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s4","strength":"helpful","why":"iron and other minerals in meat","confidence":"high"}
+],
+"hom-meat-preparation-s2": [
+ {"needs":"hom-meat-preparation-s1","strength":"helpful","why":"meat categories and structure when judging","confidence":"low"},
+ {"needs":"hom-food-safety-s6","strength":"helpful","why":"safe storage, freezing and thawing","confidence":"high"},
+ {"needs":"hom-food-safety-s3","strength":"helpful","why":"microbial spoilage of stored meat","confidence":"high"},
+ {"needs":"hom-food-safety-s8","strength":"helpful","why":"FSAI and official food safety agencies","confidence":"high"},
+ {"needs":"hom-food-safety-s9","strength":"helpful","why":"food law, labelling and date marks","confidence":"high"},
+ {"needs":"hom-consumer-rights-s1","strength":"helpful","why":"food labelling and buying decisions","confidence":"low"}
+],
+"hom-meat-preparation-s3": [
+ {"needs":"hom-meat-preparation-s1","strength":"essential","why":"meat structure, muscle and connective tissue","confidence":"high"},
+ {"needs":"hom-proteins-s5","strength":"essential","why":"denaturation, coagulation and enzymes on protein","confidence":"high"},
+ {"needs":"hom-cooking-methods-s2","strength":"essential","why":"conduction, convection and radiation","confidence":"high"},
+ {"needs":"hom-cooking-methods-s3","strength":"helpful","why":"moist and dry cooking methods","confidence":"high"},
+ {"needs":"hom-proteins-s4","strength":"helpful","why":"collagen turning to gelatine","confidence":"high"}
+],
+"hom-meat-preparation-s4": [
+ {"needs":"hom-food-preservation-s1","strength":"essential","why":"spoilage causes and preservation principles","confidence":"high"},
+ {"needs":"hom-food-preservation-s5","strength":"essential","why":"curing with salt as chemical preservation","confidence":"high"},
+ {"needs":"hom-food-preservation-s2","strength":"helpful","why":"freezing principle","confidence":"high"},
+ {"needs":"hom-food-preservation-s3","strength":"helpful","why":"canning heat processing","confidence":"high"},
+ {"needs":"hom-food-preservation-s4","strength":"helpful","why":"dehydration principle","confidence":"high"},
+ {"needs":"hom-food-safety-s3","strength":"helpful","why":"microbial spoilage of meat","confidence":"high"},
+ {"needs":"hom-meat-preparation-s1","strength":"helpful","why":"meat structure and nutrients","confidence":"low"}
+],
+"hom-personal-finance-s1": [],
+"hom-personal-finance-s2": [
+ {"needs":"hom-personal-finance-s1","strength":"essential","why":"net income that the budget allocates","confidence":"high"},
+ {"needs":"hom-resource-management-s2","strength":"helpful","why":"planning and decision-making","confidence":"low"}
+],
+"hom-personal-finance-s3": [
+ {"needs":"hom-personal-finance-s2","strength":"helpful","why":"budget affordability before credit","confidence":"high"},
+ {"needs":"hom-consumer-rights-s1","strength":"helpful","why":"hire purchase and easy-pay schemes","confidence":"high"}
+],
+"hom-personal-finance-s4": [
+ {"needs":"hom-personal-finance-s2","strength":"helpful","why":"surplus income after budgeting","confidence":"high"},
+ {"needs":"hom-personal-finance-s3","strength":"helpful","why":"credit versus saving trade-offs","confidence":"low"}
+]
+}

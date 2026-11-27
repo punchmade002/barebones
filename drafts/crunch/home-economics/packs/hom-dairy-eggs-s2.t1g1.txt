@@ -1,0 +1,221 @@
+MODE: cost and links
+TARGET hom-dairy-eggs-s2: 2. Milk processing
+[hom-dairy-eggs-s2.0.b] Raw milk is a perfect home for bacteria, so it spoils within days and can carry disease-causing bacteria. Manufacturers heat-treat and package it so that it is safe and keeps longer.
+[hom-dairy-eggs-s2.0.0] Raw milk contains water, lactose (milk sugar) and protein at a neutral pH, which is exactly what bacteria need to grow, so it spoils quickly. It can also carry pathogenic (disease-causing) bacteria such as tuberculosis bacteria, Salmonella, Listeria and E. coli.
+[hom-dairy-eggs-s2.0.1] Heat treatment destroys pathogenic bacteria and most spoilage bacteria, which makes milk safe to drink and extends its shelf life.
+[hom-dairy-eggs-s2.0.2] Refrigeration slows bacterial growth but does not destroy bacteria, because bacteria grow fastest in warm, moist conditions and only slow down in the cold. This is why heat treatment is needed as well.
+[hom-dairy-eggs-s2.0.3] Every heat treatment causes some loss of heat-sensitive vitamins (thiamine B1, B12, folate and vitamin C). The more severe the heat, the greater the vitamin loss and the more the flavour changes, so the process chosen balances safety, shelf life and nutrient loss.
+[hom-dairy-eggs-s2.1.b] Pasteurisation is the gentlest of the heat treatments. It makes milk safe to drink while leaving its taste, colour and most nutrients almost unchanged, but it does not make the milk sterile.
+[hom-dairy-eggs-s2.1.0] Milk is heated to 72 to 75°C for 15 to 25 seconds, usually in a heat exchanger (a set of plates) as a continuous flow.
+[hom-dairy-eggs-s2.1.1] It is then cooled rapidly to below 10°C and packaged. Rapid cooling stops any surviving bacteria from multiplying.
+[hom-dairy-eggs-s2.1.2] Effect on safety: pathogenic bacteria and most spoilage bacteria are destroyed, but not all, and not bacterial spores (tough resting forms). The milk is therefore not sterile.
+[hom-dairy-eggs-s2.1.3] Nutritive effect: a small amount of thiamine (B1) and vitamin C is lost, while taste, colour and the other nutrients are little changed.
+[hom-dairy-eggs-s2.1.4] Because some bacteria survive, pasteurised milk keeps for only a few days. It must be kept refrigerated, and once opened it should be used within a few days. Its shelf life is short compared with UHT milk.
+[hom-dairy-eggs-s2.1.5] Pasteurisation is also needed for milk that will be made into cream, yoghurt and cheese.
+[hom-dairy-eggs-s2.2.b] Sterilisation uses stronger heat for longer than pasteurisation, and the heating is done inside the sealed container. The result is milk that keeps for months but tastes different.
+[hom-dairy-eggs-s2.2.0] The milk is homogenised, filled into bottles, sealed and then heated in the sealed bottle to about 110 to 120°C for about 20 to 30 minutes (approximate figures), then cooled. This is a higher temperature for longer than in pasteurisation.
+[hom-dairy-eggs-s2.2.1] Effect on safety: all bacteria and their spores are destroyed, so the milk is sterile and safer, and keeps for several months unopened without refrigeration. Once opened it must be refrigerated.
+[hom-dairy-eggs-s2.2.2] Nutritive effect: more vitamin is lost than in pasteurisation, including thiamine, vitamin C and some other B vitamins, because the heating is long.
+[hom-dairy-eggs-s2.2.3] Flavour is altered by the stronger heat, giving a creamy colour and a cooked, caramelised taste.
+[hom-dairy-eggs-s2.3.b] UHT heats milk to a very high temperature for only a moment. Because the heating is so short, the milk is made sterile with less damage to flavour and vitamins than in-bottle sterilisation.
+[hom-dairy-eggs-s2.3.0] Milk is heated to approximately 132°C for 1 to 3 seconds, by steam injection or in a heat exchanger, then cooled rapidly.
+[hom-dairy-eggs-s2.3.1] It is then packed aseptically, which means into sterile, airtight cartons in sterile conditions, so that no bacteria can get back in.
+[hom-dairy-eggs-s2.3.2] Effect: all bacteria are destroyed, giving commercially sterile milk (pathogenic and spoilage micro-organisms are both destroyed).
+[hom-dairy-eggs-s2.3.3] Unopened UHT milk keeps for several months without refrigeration. Once opened it must be refrigerated and used within a few days.
+[hom-dairy-eggs-s2.3.4] Nutritive effect: some loss of heat-sensitive B group vitamins and vitamin C. The loss is less than in in-bottle sterilisation because the heating time is so short.
+[hom-dairy-eggs-s2.3.5] There may be a slight cooked flavour, which is the main disadvantage.
+[hom-dairy-eggs-s2.3.6] Advantages: long unopened shelf life, no refrigeration needed in the shop or the cupboard, and convenience for travel, holidays and emergencies.
+[hom-dairy-eggs-s2.4.b] Fat in raw milk floats to the top as cream. Homogenisation changes the texture and appearance of the milk, but it does not make the milk safe.
+[hom-dairy-eggs-s2.4.0] Milk is forced at high pressure through a very small opening, which breaks the fat globules into much smaller particles that are distributed evenly through the milk.
+[hom-dairy-eggs-s2.4.1] Even distribution stops the cream rising to the surface, so there is no cream line and the milk stays uniform.
+[hom-dairy-eggs-s2.4.2] The milk looks whiter and is creamier and smoother in texture.
+[hom-dairy-eggs-s2.4.3] Smaller fat globules are more easily digested.
+[hom-dairy-eggs-s2.4.4] Homogenisation is not a heat treatment and does not separate the fat, so it does not destroy bacteria. In production it is usually carried out before pasteurisation or UHT treatment.
+[hom-dairy-eggs-s2.5.b] Milk goes through a series of stages between the farm and the shop. In order, they make up the production profile of a processed food that has had its shelf life extended.
+[hom-dairy-eggs-s2.5.0] 1. Milk is collected from farms in refrigerated tankers, then tested for quality and bacterial content on arrival, and cooled and stored.
+[hom-dairy-eggs-s2.5.1] 2. Milk is separated where cream is required, and skimmed milk is produced.
+[hom-dairy-eggs-s2.5.2] 3. The fat content is standardised (adjusted to a set level) to make whole, semi-skimmed or skimmed milk.
+[hom-dairy-eggs-s2.5.3] 4. Vitamins or minerals are added if a fortified milk is being made.
+[hom-dairy-eggs-s2.5.4] 5. Milk is homogenised and then heat-treated by pasteurisation, sterilisation or UHT, then cooled.
+[hom-dairy-eggs-s2.5.5] 6. Milk is filled and packaged under hygienic conditions, so that it is not contaminated after heat treatment.
+[hom-dairy-eggs-s2.5.6] 7. Milk is labelled, stored and distributed, with pasteurised milk kept chilled throughout.
+[hom-dairy-eggs-s2.5.7] Diagram: draw a flow chart of milk from farm to shop, labelling collection, testing, separation and standardising, homogenisation, heat treatment, packaging, labelling and distribution.
+[hom-dairy-eggs-s2.6.b] Packaging keeps heat-treated milk safe after processing, and the label gives the buyer the information they need and the law requires.
+[hom-dairy-eggs-s2.6.0] Packaging includes glass bottles, plastic bottles, waxed or plastic-coated cardboard cartons, aseptic cartons for UHT milk, and metal cans for evaporated and condensed milk.
+[hom-dairy-eggs-s2.6.1] Packaging protects milk from light and contamination, because light destroys riboflavin and vitamin A. It also holds the stated quantity, is hygienic and convenient, and is increasingly recyclable.
+[hom-dairy-eggs-s2.6.2] Label: the name of the food and type of milk (whole, semi-skimmed, skimmed or fortified), the brand, the name and address of the producer, and the quantity.
+[hom-dairy-eggs-s2.6.3] Label: nutritional information, including energy, protein, fat, saturates, carbohydrate, sugars and salt.
+[hom-dairy-eggs-s2.6.4] Label: a date stamp and storage instructions, and allergen information (milk). Pasteurised milk carries a use-by date, whereas unopened UHT milk carries a best-before date.
+[hom-dairy-eggs-s2.6.5] Labels must comply with Regulation (EU) No 1169/2011 on food information to consumers, given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.
+[hom-dairy-eggs-s2.7.b] Milk is the syllabus's example of a food processed to extend its shelf life. Besides heat-treated liquid milk, other processed milks keep for months and are useful where fresh milk is not available.
+[hom-dairy-eggs-s2.7.0] Evaporated milk is concentrated by removing water by heating. It is canned and sterilised, unsweetened, keeps for months and is used in cooking and drinks.
+[hom-dairy-eggs-s2.7.1] Condensed milk is concentrated by removing water and is usually sweetened with added sugar. The high sugar concentration helps to preserve it, and it is thick and sweet, used in sweet dishes and confectionery.
+[hom-dairy-eggs-s2.7.2] Dried milk is made into powder by removing all the water, by spray drying (milk sprayed as droplets into hot air) or roller drying (a film of milk dried on heated rollers), giving a long shelf life.
+[hom-dairy-eggs-s2.7.3] Dried milk is reconstituted (mixed back up) with water and used in baking, infant formula and where fresh milk is not available.
+[hom-dairy-eggs-s2.7.4] Processed milks have the convenience of long storage and can be used where fresh milk is not available.
+[hom-dairy-eggs-s2.7.5] Pasteurisation, sterilisation, UHT, evaporating, condensing and drying all count as processes that extend shelf life. If one is chosen for an answer, give the method, the effect and the labelling.
+
+CANDIDATES hom-food-preservation-s3: 3. Heat processing
+[hom-food-preservation-s3.0.b] Food spoils because micro-organisms (bacteria, yeasts and moulds) and enzymes (natural proteins in the food that break it down) keep working. Heat processing stops both, and a clean airtight container then keeps new micro-organisms out.
+[hom-food-preservation-s3.0.0] Heat destroys vegetative bacteria (bacteria in their active, growing form), yeasts and moulds, and denatures (permanently changes the shape of) the enzymes that cause spoilage, so the food stops breaking down.
+[hom-food-preservation-s3.0.1] Sealing the food in a clean airtight container while it is hot, or sealing before heating, prevents re-contamination, because otherwise new micro-organisms would simply re-enter after the heating.
+[hom-food-preservation-s3.0.2] Spores (tough resting forms) of some bacteria, such as Clostridium botulinum, are very heat-resistant and survive boiling at normal pressure, so low-acid foods need higher temperatures held for longer, in a pressure cooker or retort (a large industrial pressure cooker).
+[hom-food-preservation-s3.0.3] Acid foods such as fruit, tomatoes and pickles are easier to preserve by heat because acid hinders micro-organisms and their spores. Low-acid foods such as peas, beans, meat and fish need a higher temperature.
+[hom-food-preservation-s3.0.4] Heat also changes the colour, texture, flavour and nutritive value of food, which is why heat-processed fruit and vegetables differ from fresh produce.
+[hom-food-preservation-s3.0.5] Heat-sensitive, water-soluble vitamins (vitamin C and the B group) are reduced by heat processing.
+[hom-food-preservation-s3.1.b] Heat treatments differ in how much they kill. A mild treatment leaves some organisms alive so the food must be chilled, while a severe one kills everything so the sealed food keeps at room temperature.
+[hom-food-preservation-s3.1.0] Pasteurisation is a moderate heat treatment that destroys most food poisoning (pathogenic) bacteria and reduces spoilage organisms, but not all spores, so pasteurised products keep for a limited time and still need refrigeration.
+[hom-food-preservation-s3.1.1] Milk is pasteurised at 72 °C for 15 seconds, then cooled rapidly. Pasteurisation is also used for cream, fruit juice, beer and some canned foods.
+[hom-food-preservation-s3.1.2] Sterilisation uses a higher temperature for longer, for example milk sterilised in the bottle and canned foods. It destroys all micro-organisms including spores, so the sealed product can be stored at room temperature.
+[hom-food-preservation-s3.1.3] The price of sterilisation is that flavour and colour change and vitamin losses are greater than with pasteurisation.
+[hom-food-preservation-s3.1.4] UHT (ultra-heat treatment) heats milk to about 135 °C for a few seconds, and the milk is then packed aseptically (in a germ-free way) into sterile cartons.
+[hom-food-preservation-s3.1.5] UHT milk keeps for months unopened at room temperature, must be refrigerated after opening, and has a slight cooked flavour.
+[hom-food-preservation-s3.1.6] Three processing methods make milk safe: pasteurisation, sterilisation or UHT, and evaporation or dehydration (drying).
+[hom-food-preservation-s3.2.b] Canning seals food in a container and heats it hard enough to sterilise it, so it keeps for a long time without a fridge. Commercial canning in tin cans is different from home bottling in glass jars.
+[hom-food-preservation-s3.2.0] Commercial canning has stages: food is prepared (washed, peeled, trimmed, blanched where needed), packed into cans, covered with brine, syrup or oil, and air is removed (exhausting).
+[hom-food-preservation-s3.2.1] Then the can is sealed with a double seam, heated in a retort at a high temperature for a set time, and cooled quickly. The heat sterilises the contents and the sealed can prevents re-contamination.
+[hom-food-preservation-s3.2.2] Cans are lined with a lacquer, a protective coating, to prevent the metal reacting with the food.
+[hom-food-preservation-s3.2.3] Canned food is shelf-stable, so it keeps at room temperature for a long time without refrigeration, and it can be eaten straight away.
+[hom-food-preservation-s3.2.4] Foods suited to canning include fruit, tomatoes, vegetables such as peas and beans, fish (tuna, sardines, salmon), meat, soup and baked beans.
+[hom-food-preservation-s3.2.5] Low-acid vegetables such as peas, beans and carrots must be processed in a pressure canner (a sealed pot that heats above 100 °C), because boiling water at normal pressure, which is 100 °C, does not destroy Clostridium botulinum spores.
+[hom-food-preservation-s3.2.6] A bulging can end or lid indicates gas produced by micro-organisms. Hissing, leaking, rust, deep dents or an off smell are also warning signs, so the contents must be discarded unopened and never tasted.
+[hom-food-preservation-s3.3.b] The very high temperature and long processing time that make canned food safe also change it. Examiners ask what is lost and what is gained.
+[hom-food-preservation-s3.3.0] Vitamin C is heat-sensitive and water-soluble, so it is lost during high-temperature canning, especially into the canning liquid.
+[hom-food-preservation-s3.3.1] Thiamine (vitamin B1) is unstable at high temperature and is reduced by canning.
+[hom-food-preservation-s3.3.2] Canned vegetables are softer, paler and less bright in colour than fresh or frozen produce, and the flavour changes too.
+[hom-food-preservation-s3.3.3] Canned vegetables gain sodium from added salt (brine), so no-added-salt versions are preferred on a low-salt diet.
+[hom-food-preservation-s3.3.4] Fruit canned in heavy syrup gains sugar, and food packed in oil gains fat, which raises the energy content.
+[hom-food-preservation-s3.3.5] Heat destroys micro-organisms and enzymes in the can, which is the purpose of canning. Minerals and fibre are largely kept, and the liquid can be used in cooking to keep the nutrients it holds.
+[hom-food-preservation-s3.3.6] One past-paper table showed vitamin C in peas falling from 25 mg per 100 g fresh to 8 mg canned, and sodium rising from 1 mg to 230 mg. The reasons were the very high temperature and long time, and the salt used in canning.
+[hom-food-preservation-s3.4.b] Bottling is the home version of heat preservation. Fruit is heated in glass jars so that the contents are sterilised and sealed.
+[hom-food-preservation-s3.4.0] Bottling packs fruit (and tomatoes) into clean sterilised glass jars with sugar syrup or water, seals them, and heats them in a water bath (or oven) until the contents reach a temperature that destroys organisms and enzymes.
+[hom-food-preservation-s3.4.1] The seal closes as the jar cools and a vacuum forms, which holds the lid down and keeps new micro-organisms out.
+[hom-food-preservation-s3.4.2] Jars must be filled hot, leaving headspace, and sealed at once; the contents cool and form a vacuum that holds the lid down.
+[hom-food-preservation-s3.4.3] Jars must be sterilised and undamaged with new or sound lids, and filled leaving headspace (a gap at the top). Hot jars must be lifted carefully.
+[hom-food-preservation-s3.4.4] Label bottled food with the date and store it in a cool, dark, dry place. Discard any jar whose lid is not tight or domed.
+[hom-food-preservation-s3.4.5] Low-acid vegetables and meat should not be bottled in a boiling-water bath at home, because boiling at normal pressure does not destroy Clostridium botulinum spores. They need pressure processing, so home bottling is restricted to fruit and acid foods.
+[hom-food-preservation-s3.4.6] Fruit is routinely bottled in a water bath because acid foods are easier to preserve by heat.
+[hom-food-preservation-s3.5.b] Jam is fruit boiled with sugar until it sets. It keeps because of heat, a high concentration of sugar and a sealed jar, and it sets because pectin, acid and sugar combine.
+[hom-food-preservation-s3.5.0] Heat: boiling at about 100 °C or higher destroys micro-organisms and inactivates enzymes in the fruit. The fruit is first simmered gently to soften its tissues and release pectin.
+[hom-food-preservation-s3.5.1] Sugar preserves by osmosis: at high concentration it draws water out of microbial cells, so they cannot multiply. Sugar also helps the gel to form and gives sweetness.
+[hom-food-preservation-s3.5.2] Pectin is a natural gelling substance, a carbohydrate found in the cell walls of fruit, mostly in the skin and core. It forms a gel with sugar and acid as the jam cools, so the jam sets. Pectin is not a preservative.
+[hom-food-preservation-s3.5.3] Apples, blackcurrants, redcurrants, gooseberries and lemons or other citrus fruit are high in pectin. Strawberries, raspberries, cherries and pears are low, so add pectin-rich fruit or a commercial pectin.
+[hom-food-preservation-s3.5.4] Acid, from lemon juice or the fruit itself, releases pectin from the cell walls and helps the pectin set. It also improves colour and flavour, and lemon juice is added for low-acid or low-pectin fruit.
+[hom-food-preservation-s3.5.5] Choose just ripe, firm, sound fruit. Under-ripe fruit contains more pectin, whereas over-ripe fruit has less pectin and spoils the set.
+[hom-food-preservation-s3.5.6] Sealing: pour the jam hot into clean sterilised jars and cover at once so micro-organisms cannot re-enter. A vacuum forms as the jam cools, and a waxed disc plus cover is the traditional method.
+[hom-food-preservation-s3.5.7] Jam loses some heat-sensitive vitamin C in boiling, its sugar concentration is high, and its flavour and colour change, so it no longer tastes fresh.
+[hom-food-preservation-s3.6.b] A jam method runs in a set order, and each stage protects either the set or the keeping quality. Jam spoils when one of these protections fails.
+[hom-food-preservation-s3.6.0] 1. Wash and sterilise the jars, and prepare the fruit. 2. Simmer the fruit in a heavy pan to soften it and release pectin.
+[hom-food-preservation-s3.6.1] 3. Add the sugar in the correct proportion, with lemon juice if needed, and dissolve it fully before the mixture is boiled rapidly to setting point.
+[hom-food-preservation-s3.6.2] Setting point is confirmed by the wrinkle test: a spoonful of jam dropped onto a cold saucer wrinkles when pushed with a finger. A sugar thermometer reads about 105 °C (220 °F) at setting point.
+[hom-food-preservation-s3.6.3] 4. Skim the scum from the surface with a clean dry spoon. 5. Pot the jam into hot sterilised jars, seal at once, label and store in a cool, dry place.
+[hom-food-preservation-s3.6.4] Jam ferments or grows mould if too little sugar is used, setting point is not reached, jars or lids are not sterilised, the seal fails, or a dirty or wet spoon introduces yeasts and moulds.
+[hom-food-preservation-s3.6.5] Storage in a warm or damp place also spoils jam. Mould on the surface or fermentation (bubbles and an alcoholic smell) is the result.
+
+CANDIDATES hom-food-safety-s3: 3. Micro-organisms and the control of microbial spoilage
+[hom-food-safety-s3.0.b] Spoilage is any change that makes food unfit or unpleasant to eat, such as an off smell, taste, colour or texture. Several causes are at work, but micro-organisms are the main one.
+[hom-food-safety-s3.0.0] Micro-organisms (bacteria, moulds and yeasts) are the main cause of spoilage, and they are the cause this subsection deals with.
+[hom-food-safety-s3.0.1] Enzyme action (the food's own chemicals continuing to work) causes changes such as browning and over-ripening.
+[hom-food-safety-s3.0.2] Physical damage and bruising break the surface of food, which lets other spoilage in.
+[hom-food-safety-s3.0.3] Moisture loss makes food shrink, wrinkle or harden, for example a dried-out piece of fruit.
+[hom-food-safety-s3.0.4] Rancidity is the going-off of fats, which gives them an unpleasant smell and taste.
+[hom-food-safety-s3.0.5] Chemical contamination, for example by pesticides, antibiotics or metals, spoils food and can make it unsafe.
+[hom-food-safety-s3.0.6] Spoilage micro-organisms mainly make food unpleasant, so spoiled food is not always unsafe. Pathogens (disease-causing micro-organisms) can make food unsafe even when it looks and smells normal.
+[hom-food-safety-s3.1.b] Bacteria are the micro-organisms that spoil most protein and moist foods, and they change food in several ways.
+[hom-food-safety-s3.1.0] Putrefaction: bacteria break down protein in meat, fish and eggs, producing foul odours and a slimy surface.
+[hom-food-safety-s3.1.1] Souring: lactic acid bacteria ferment the lactose (milk sugar) in milk, producing lactic acid that curdles the milk.
+[hom-food-safety-s3.1.2] Bacteria that survive in food can produce toxins (poisons), which can make food unsafe even when the food looks and smells normal.
+[hom-food-safety-s3.1.3] The foods at greatest risk are high-moisture, high-protein foods such as meat, fish, poultry, eggs, milk and cooked rice, because bacteria find both water and nutrients in them.
+[hom-food-safety-s3.2.b] Moulds and yeasts spoil foods that bacteria find harder to use, especially acidic and sugary ones.
+[hom-food-safety-s3.2.0] Moulds grow visibly on food as fluffy, powdery or coloured patches, for example on bread, cheese, fruit and jam, and some produce mycotoxins (poisons made by moulds) that are harmful if eaten.
+[hom-food-safety-s3.2.1] Mould spores (tiny reproductive cells) spread through the air, which is how they land on food.
+[hom-food-safety-s3.2.2] Yeasts ferment the sugars in fruit juices, jams, syrups and fruit, producing carbon dioxide, alcohol and off-flavours, and sometimes bubbling or swollen containers.
+[hom-food-safety-s3.2.3] Mould and yeast growth is mostly on the surface of food, where oxygen is available, but moulds also grow through open-textured foods such as bread.
+[hom-food-safety-s3.2.4] Acidic, sugary foods favour moulds and yeasts because they tolerate acid better than most bacteria.
+[hom-food-safety-s3.3.b] Micro-organisms spoil food only when the conditions they need are present. Remove or change one of them and growth slows or stops.
+[hom-food-safety-s3.3.0] Food: micro-organisms need nutrients, particularly protein and carbohydrate, as a source of energy and for building new cells.
+[hom-food-safety-s3.3.1] Moisture: their chemical reactions and nutrient absorption take place in solution, so dry foods support little growth and high-moisture foods are high risk.
+[hom-food-safety-s3.3.2] Warmth: most spoilage and poisoning micro-organisms multiply fastest in the danger zone (5 to 63 °C), while cold slows growth, freezing stops it without killing them, and heat kills them.
+[hom-food-safety-s3.3.3] Oxygen: aerobic micro-organisms such as moulds need oxygen, while anaerobic bacteria grow in sealed packs from which oxygen is absent, and facultative ones can adapt to either.
+[hom-food-safety-s3.3.4] pH (how acid or alkaline food is): most bacteria prefer a near-neutral pH, whereas moulds and yeasts tolerate acid. Lactic acid bacteria are an exception because they tolerate acid, but strongly acidic foods are generally safer.
+[hom-food-safety-s3.3.5] Time: micro-organisms need time to multiply, and some bacteria can double in number in about 20 minutes under ideal conditions (binary fission, where one cell divides into two).
+[hom-food-safety-s3.4.b] Control of spoilage works either by destroying micro-organisms, keeping them away from food, or restricting one of the conditions they need. The first two principles deal with the micro-organisms themselves.
+[hom-food-safety-s3.4.0] Heat treatments kill micro-organisms: cooking, pasteurisation, which uses a lower temperature for a set time, and sterilisation, which destroys all micro-organisms and their spores. Canning and bottling also use heat.
+[hom-food-safety-s3.4.1] Irradiation destroys micro-organisms and parasites in food by exposing it to controlled radiation, without making the food radioactive.
+[hom-food-safety-s3.4.2] Irradiation can extend shelf life and slow ripening and sprouting in fruit and vegetables, with little effect on colour, flavour or texture.
+[hom-food-safety-s3.4.3] Preventing micro-organisms reaching the food in the first place uses hygiene, clean equipment, covering food, sealed packaging, sterile containers and separating raw and cooked food.
+[hom-food-safety-s3.5.b] The other principles leave micro-organisms alive but take away something they need. Most foods use more than one, and applying each to a named food is the usual exam task.
+[hom-food-safety-s3.5.0] Low temperature: refrigeration slows the growth of micro-organisms, and freezing inactivates them without destroying them, so growth resumes on thawing.
+[hom-food-safety-s3.5.1] Removing moisture: drying, salting, sugaring and concentrating reduce the water available to micro-organisms. Dissolved salt or sugar draws water out of microbial cells by osmosis, which dehydrates them.
+[hom-food-safety-s3.5.2] Acidity: pickling in vinegar, or adding lemon juice, lowers the pH to a level that most bacteria cannot tolerate. Chutney and fermentation acids work the same way.
+[hom-food-safety-s3.5.3] Removing oxygen: vacuum packing and canning exclude air, preventing growth of aerobic micro-organisms, and modified-atmosphere packs replace the air around the food.
+[hom-food-safety-s3.5.4] Preservatives: chemicals such as sulphur dioxide, benzoates and nitrites inhibit the growth of micro-organisms. Natural preservatives are salt, sugar, vinegar, alcohol and smoke.
+[hom-food-safety-s3.5.5] Combining principles: jam, for example, uses heat, sugar, acid and sealing together, so several principles protect the same food.
+
+CANDIDATES hom-dairy-eggs-s1: 1. Milk: nutritional significance and contribution to the diet
+[hom-dairy-eggs-s1.0.b] Milk is a complete food for young mammals, meaning it supports a growing baby animal, and a useful source of most nutrients for people. It is widely available, so it is a staple of the Irish diet.
+[hom-dairy-eggs-s1.0.0] Water makes up about 87% of milk, so a glass of milk contributes to hydration as well as supplying nutrients.
+[hom-dairy-eggs-s1.0.1] Protein makes up about 3.5% of whole milk. It is mainly casein, with whey proteins making up the rest, and it is high biological value (HBV) protein, which means it contains all the essential amino acids (the ones the body cannot make).
+[hom-dairy-eggs-s1.0.2] Protein from milk is used for growth and repair, and for making hormones and enzymes.
+[hom-dairy-eggs-s1.0.3] Fat in whole milk is about 3.5 to 4%, mostly saturated (fat that is solid at room temperature and raises cholesterol). It is held in small globules, so it is easily digested, and cholesterol is present.
+[hom-dairy-eggs-s1.0.4] The fat carries the fat-soluble vitamins A and D, so these are highest in whole milk.
+[hom-dairy-eggs-s1.0.5] Lactose is the milk sugar, a disaccharide (a double sugar) at about 4 to 5%. It is the only significant carbohydrate in milk, it supplies energy, and it aids the absorption of calcium. Milk contains almost no starch.
+[hom-dairy-eggs-s1.0.6] Minerals: calcium and phosphorus are present in useful amounts for bones and teeth, with traces of magnesium, potassium and sodium. Milk is low in iron.
+[hom-dairy-eggs-s1.0.7] Vitamins: A and D, and the B group vitamins, including riboflavin (B2) and B12. Skimmed milk keeps the B vitamins but loses A and D with the fat.
+[hom-dairy-eggs-s1.0.8] Milk supplies energy from lactose and fat, so the more fat a milk contains, the more energy it gives.
+[hom-dairy-eggs-s1.1.b] Milk is a good source of protein and calcium, but it is not a complete diet for an adult. Knowing what it lacks explains why it must be balanced with other foods.
+[hom-dairy-eggs-s1.1.0] Milk contains no vitamin C, so it cannot be the only source of this vitamin.
+[hom-dairy-eggs-s1.1.1] Milk contains no fibre, so it does not help bowel movement the way cereals, fruit and vegetables do.
+[hom-dairy-eggs-s1.1.2] Milk contains very little starch, so its carbohydrate is almost all lactose.
+[hom-dairy-eggs-s1.1.3] Milk is low in iron, so it should not be relied on to prevent iron deficiency.
+[hom-dairy-eggs-s1.2.b] Nutritive value means the nutrients a food contains and what each one does in the body. A good answer names the nutrient, its function and the milk fact.
+[hom-dairy-eggs-s1.2.0] Protein (HBV) is for growth and repair, and fat and lactose give energy.
+[hom-dairy-eggs-s1.2.1] Calcium and phosphorus build and maintain bones and teeth, and vitamins A, D and the B group support the body's functioning, while water gives hydration.
+[hom-dairy-eggs-s1.2.2] Milk lacks vitamin C, fibre and iron, so a full answer also states what it does not provide.
+[hom-dairy-eggs-s1.3.b] Dietetic value means how milk suits different people and different diets. Each point is strongest when it is given with its reason.
+[hom-dairy-eggs-s1.3.0] Protein supports growth and repair in children, adolescents and pregnant women, who need extra for their body's needs.
+[hom-dairy-eggs-s1.3.1] Calcium and phosphorus support bone and tooth development and maintenance, and are needed by older people and nursing mothers.
+[hom-dairy-eggs-s1.3.2] Lactose and fat give energy for an active lifestyle.
+[hom-dairy-eggs-s1.3.3] Milk is easily digested, so it suits invalid and elderly diets, and convalescents.
+[hom-dairy-eggs-s1.3.4] Low-fat milks suit low-cholesterol and weight-watching diets, because less fat means less saturated fat and energy.
+[hom-dairy-eggs-s1.3.5] Milk is versatile, used in drinks, cereals, sauces, soups, puddings and baking.
+[hom-dairy-eggs-s1.3.6] Milk is inexpensive, widely available and quick to use with no preparation, and nothing is wasted.
+[hom-dairy-eggs-s1.3.7] Milk can be fortified (have nutrients added) to add nutrients that are otherwise low.
+[hom-dairy-eggs-s1.4.b] Milk has real strengths, but there are situations where it is not suitable. State these limits as well as the benefits.
+[hom-dairy-eggs-s1.4.0] Milk is not suitable as the only food, because it has no vitamin C or fibre and little iron.
+[hom-dairy-eggs-s1.4.1] Whole milk is high in saturated fat, so it is not ideal for people cutting cholesterol or calories.
+[hom-dairy-eggs-s1.4.2] Lactose intolerance means a person lacks the enzyme lactase and cannot digest lactose, the sugar in milk. Lactose-free milk exists for them.
+[hom-dairy-eggs-s1.4.3] Milk allergy is a different condition, a reaction to the milk protein.
+[hom-dairy-eggs-s1.5.b] Irish healthy eating guidance treats milk and other dairy foods as a food group that should be eaten every day.
+[hom-dairy-eggs-s1.5.0] The Department of Health healthy eating guidelines and the Irish Food Pyramid place milk in the dairy food group (the milk, yoghurt and cheese shelf), which should be included every day.
+[hom-dairy-eggs-s1.5.1] Three servings a day are recommended for most adults and five a day for 9 to 18 year olds, because of the calcium and protein needed for growth and bone development.
+[hom-dairy-eggs-s1.5.2] Lower-fat choices are advised, and cheese in small amounts.
+[hom-dairy-eggs-s1.5.3] Three servings of milk, cheese and yoghurt are recommended because of the HBV protein, calcium, vitamins A, D and some B, versatility and low cost.
+[hom-dairy-eggs-s1.6.b] Questions on a teenager's diet ask for several different, practical ways to include dairy, each with a nutritional reason.
+[hom-dairy-eggs-s1.6.0] Milk can be used on cereal or porridge, in smoothies and milky drinks, in soups, sauces and batters, and in puddings and baking.
+[hom-dairy-eggs-s1.6.1] Yoghurt can be eaten as a snack, on cereal, in smoothies, or used as a dip or dressing.
+[hom-dairy-eggs-s1.6.2] Cheese can go in sandwiches, salads, pasta, pizza and soups, or on potatoes.
+[hom-dairy-eggs-s1.6.3] Cream can be used in soups, mash, sauces and desserts.
+[hom-dairy-eggs-s1.7.b] Young children are growing quickly, so milk matters more to them than to most adults. The type of milk and what it is eaten with both matter.
+[hom-dairy-eggs-s1.7.0] Protein is for growth and repair, calcium and phosphorus with vitamin D build developing bones and teeth, and B vitamins and water are also supplied.
+[hom-dairy-eggs-s1.7.1] Young children need the energy and fat-soluble vitamins A and D that whole milk supplies.
+[hom-dairy-eggs-s1.7.2] Reduced-fat and skimmed milks have less energy and fewer fat-soluble vitamins, so they are less suitable as a young child's main milk.
+[hom-dairy-eggs-s1.7.3] Safefood advises full-fat milk for ages 1 to 2, and skimmed milk is not suitable as a main drink under 5.
+[hom-dairy-eggs-s1.7.4] The HSE advises that cow's milk is not given as the main drink to babies under 12 months, only from 12 months as whole pasteurised milk.
+[hom-dairy-eggs-s1.7.5] Milk is low in iron and has no vitamin C, so iron-rich foods such as meat, fish, eggs or fortified cereals should be given alongside it, with foods supplying vitamin C and fibre. Too much milk can crowd out other foods.
+[hom-dairy-eggs-s1.7.6] Milk can be used in young children's diets in cereals, sauces, soups and puddings to add protein and calcium, and it can be fortified.
+[hom-dairy-eggs-s1.8.b] Milk is sold in several types that differ mainly in how much fat they contain, and so in energy and fat-soluble vitamins. Fortified milk differs by what has been added.
+[hom-dairy-eggs-s1.8.0] Whole milk is full fat, about 3.5 to 4% fat, with the most energy and vitamin A of the common types, and is the most popular type.
+[hom-dairy-eggs-s1.8.1] Semi-skimmed or low-fat milk is a reduced-fat milk, with part of the fat removed. Compared with whole milk it has less energy, fat, saturated fat and vitamin A.
+[hom-dairy-eggs-s1.8.2] Semi-skimmed milk has slightly more protein, carbohydrate and calcium per 100 ml, so it is the milk type higher in calcium, protein and carbohydrate than whole milk.
+[hom-dairy-eggs-s1.8.3] Skimmed milk has 0.1 to 0.4% fat. Most of the fat is removed along with vitamins A and D, so it suits low-fat and low-cholesterol diets, while the protein, lactose and calcium remain.
+[hom-dairy-eggs-s1.8.4] Fortified milk has nutrients added to whole, low-fat or skimmed milk, such as vitamins A and D, folic acid, calcium, protein or omega-3 fatty acids. Fortification adds nutrients that are low or were lost in processing, so it can restore vitamins A and D to low-fat milk.
+[hom-dairy-eggs-s1.8.5] Semi-skimmed and skimmed milk are not fortified unless the label says so.
+[hom-dairy-eggs-s1.8.6] Other types to name are long-life (UHT), sterilised, evaporated, condensed and dried milk, which are heat-treated or concentrated, and lactose-free milk. Goat's milk and soya (plant) milk are alternatives.
+[hom-dairy-eggs-s1.9.b] Nutrition labels give values per 100 ml, so different milks can be compared like with like. Use only the figures you are given and link each to a function.
+[hom-dairy-eggs-s1.9.0] Energy and fat content: a lower-energy, lower-fat milk suits a slimming or low-cholesterol diet, for weight control and heart health.
+[hom-dairy-eggs-s1.9.1] Protein: needed for growth and repair, so compare grams per 100 ml for growing teenagers.
+[hom-dairy-eggs-s1.9.2] Calcium: compare the amount per 100 ml, because it is needed for bones and teeth.
+[hom-dairy-eggs-s1.9.3] Vitamin B12: needed for healthy red blood cells, for making use of folate and fatty acids in metabolism, and for the myelin sheath of nerves.
+[hom-dairy-eggs-s1.9.4] A fat-free milk compared with whole milk has lower energy and fat, similar protein and vitamin B12, and more calcium, which is the basis for recommending it to a teenager.
+[hom-dairy-eggs-s1.9.5] Diagram: draw a comparison table of whole, semi-skimmed and skimmed milk (fat, energy, vitamins A and D, calcium) as a revision aid.

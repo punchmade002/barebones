@@ -1,0 +1,424 @@
+MODE: cost and links
+TARGET chem21-s4: 4. Hess's law
+[chem21-s4.0.b] Some enthalpy changes (ΔH, the heat energy taken in or given out by a reaction) can't be measured directly. Hess's law gets round this by letting us work them out from reactions that can be measured.
+[chem21-s4.0.0] Hess's law: if a reaction takes place in a number of stages, the total enthalpy change for the stages is equal to the enthalpy change if the reaction takes place in one stage.
+[chem21-s4.0.1] In other words, ΔH depends only on the initial and final states (the reactants you start with and the products you end with), not on the route taken between them.
+[chem21-s4.0.2] It follows from the law of conservation of energy (energy can't be created or destroyed). If two routes between the same reactants and products had different ΔH values, energy could be created by going one way and returning the other.
+[chem21-s4.0.3] It lets us calculate ΔH for reactions that can't be measured directly, e.g. the formation of methane from carbon and hydrogen, or of carbon monoxide.
+[chem21-s4.0.4] Carbon monoxide can't be measured directly because burning carbon in limited oxygen always gives some CO₂ too, so the heat measured would not belong to one reaction only.
+[chem21-s4.0.5] Germain Henri Hess (1802–1850), a Swiss-born chemist who worked in St Petersburg, published the law in 1840.
+[chem21-s4.1.b] Hess's law can be drawn as a diagram. An energy cycle puts the unknown ΔH on one side and a route of known ΔH values on the other, so the unknown can be found by adding.
+[chem21-s4.1.0] An energy cycle (Hess cycle) shows the direct route from reactants to products and an indirect route through intermediate substances, with ΔH on each arrow.
+[chem21-s4.1.1] ΔH for the direct route equals the sum of ΔH along the indirect route, because both routes start and end at the same place.
+[chem21-s4.1.2] When going along an arrow in the opposite direction, change the sign of its ΔH, because the reverse of a reaction has the opposite enthalpy change.
+[chem21-s4.1.3] Methane cycle: the top arrow is C(s) + 2H₂(g) → CH₄(g) (ΔH = ?), the unknown heat of formation (the ΔH for making a compound from its elements). Both sides lead down to the combustion products CO₂(g) + 2H₂O(l) (+ O₂).
+[chem21-s4.1.4] From the elements to the combustion products: ΔH = ΔHc(C) + 2ΔHc(H₂). ΔHc is the heat of combustion (the ΔH for burning one mole of a substance in oxygen). From methane to the combustion products: ΔH = ΔHc(CH₄).
+[chem21-s4.1.5] So ΔHf(CH₄) = ΔHc(C) + 2ΔHc(H₂) − ΔHc(CH₄).
+[chem21-s4.1.6] The same cycle can be modelled as an enthalpy level diagram (a diagram where higher means more enthalpy), with the elements, the compound and the combustion products at different levels and arrows between them.
+[chem21-s4.1.7] Diagram: the triangular Hess cycle for methane with all three arrows labelled with their ΔH values, and the same information as an enthalpy level diagram.
+[chem21-s4.2.b] Instead of a diagram, you can work with the equations themselves. You adjust the given equations until they add up to the one you want, and adjust their ΔH values in the same way.
+[chem21-s4.2.0] Write the target equation first, so you know what the final answer must look like.
+[chem21-s4.2.1] Rearrange the given equations so that each substance in the target ends up on the correct side in the correct amount.
+[chem21-s4.2.2] Reverse an equation to put a substance on the other side, and change the sign of its ΔH.
+[chem21-s4.2.3] Multiply an equation by a number to get the right amount, and multiply its ΔH by the same number.
+[chem21-s4.2.4] Add the equations and their ΔH values.
+[chem21-s4.2.5] Cancel substances that appear on both sides, then check that the result is the target equation.
+[chem21-s4.3.b] Heats of formation give every compound a reference value measured from its elements. With a table of them, you can find the ΔH of any reaction using Hess's law.
+[chem21-s4.3.0] Standard heat (enthalpy) of formation, ΔHf°: the enthalpy change when one mole of a compound is formed from its elements in their standard states (the usual physical form of each element) under standard conditions.
+[chem21-s4.3.1] Formation equations have exactly one mole of product, so fractions may be needed, e.g. ½N₂(g) + 1½H₂(g) → NH₃(g), ΔHf = −46 kJ mol⁻¹.
+[chem21-s4.3.2] More formation equations: C(s) + O₂(g) → CO₂(g), ΔHf = −394 kJ mol⁻¹, and 2C(s) + 3H₂(g) + ½O₂(g) → C₂H₅OH(l), ΔHf = −278 kJ mol⁻¹.
+[chem21-s4.3.3] The heat of formation of an element in its standard state is zero by definition, as nothing is formed, e.g. O₂(g), H₂(g) and C(graphite). CO₂ is a compound, so its ΔHf is not zero.
+[chem21-s4.3.4] The heats of formation of CO₂ and H₂O equal the heats of combustion of carbon and hydrogen, which can be measured directly.
+[chem21-s4.3.5] Most heats of formation, e.g. of methane, ethanol or ethanoic acid, can't be measured directly and are found by Hess's law from heats of combustion.
+[chem21-s4.3.6] From heats of formation: ΔH(reaction) = ΣΔHf(products) − ΣΔHf(reactants), each multiplied by its coefficient. Σ means the sum of, and the coefficient is the number in front of the substance in the balanced equation.
+[chem21-s4.3.7] This follows from Hess's law, going from reactants to elements and then to products.
+[chem21-s4.4.b] Methane can't be made cleanly from carbon and hydrogen in a calorimeter (a device that measures heat), but its heat of combustion can be measured. Here the equations are combined to find the heat of formation.
+[chem21-s4.4.0] Target: C(s) + 2H₂(g) → CH₄(g). Given: (a) C(s) + O₂(g) → CO₂(g), ΔH = −394; (b) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286; (c) CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s4.4.1] Keep (a), because it already has C on the left as in the target: ΔH = −394.
+[chem21-s4.4.2] Multiply (b) by 2, because the target needs 2H₂: 2H₂ + O₂ → 2H₂O, ΔH = −572.
+[chem21-s4.4.3] Reverse (c), because CH₄ must be a product in the target: CO₂ + 2H₂O → CH₄ + 2O₂, ΔH = +890.
+[chem21-s4.4.4] Add the equations: C + 2H₂ + 2O₂ + CO₂ + 2H₂O → CO₂ + 2H₂O + CH₄ + 2O₂; cancelling gives C + 2H₂ → CH₄.
+[chem21-s4.4.5] ΔHf(CH₄) = −394 − 572 + 890 = −76 kJ mol⁻¹; the data-book value is −75 kJ mol⁻¹, and the difference comes from rounding.
+[chem21-s4.5.b] Now the method runs the other way: a heat of combustion (the ΔH for burning one mole of a substance in oxygen) is found from heats of formation using products minus reactants.
+[chem21-s4.5.0] Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l); ΔHf: C₂H₅OH(l) −278, CO₂(g) −394, H₂O(l) −286, O₂(g) 0 kJ mol⁻¹. O₂ is zero because it is an element in its standard state.
+[chem21-s4.5.1] ΣΔHf(products) = 2(−394) + 3(−286) = −788 − 858 = −1646 kJ. Each ΔHf is multiplied by its coefficient.
+[chem21-s4.5.2] ΣΔHf(reactants) = −278 + 3(0) = −278 kJ.
+[chem21-s4.5.3] ΔH = −1646 − (−278) = −1368 kJ mol⁻¹; the standard value is −1367 kJ mol⁻¹.
+[chem21-s4.6.b] Propane follows the same pattern as ethanol: add up the formation values of the products, subtract those of the reactants, and use the coefficients from the balanced equation.
+[chem21-s4.6.0] Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l); ΔHf: C₃H₈ −104, CO₂ −394, H₂O −286 kJ mol⁻¹. O₂ is left out of the sum because its ΔHf is zero.
+[chem21-s4.6.1] ΔH = [3(−394) + 4(−286)] − (−104) = −1182 − 1144 + 104 = −2222 kJ mol⁻¹; the standard value is −2220 kJ mol⁻¹.
+[chem21-s4.7.b] Ethyne (C₂H₂) is a case where the heat of formation comes out positive. The calculation uses the energy cycle result from earlier: elements to combustion products, minus compound to combustion products.
+[chem21-s4.7.0] Target: 2C(s) + H₂(g) → C₂H₂(g). Given ΔHc: C −394, H₂ −286, C₂H₂ −1300 kJ mol⁻¹.
+[chem21-s4.7.1] ΔHf = 2ΔHc(C) + ΔHc(H₂) − ΔHc(C₂H₂) = 2(−394) + (−286) − (−1300) = −788 − 286 + 1300 = +226 kJ mol⁻¹.
+[chem21-s4.7.2] The positive value shows ethyne is formed endothermically (heat is taken in): it has more enthalpy than its elements, which helps explain why it releases so much energy when burned.
+[chem21-s4.8.b] This problem has no formation or combustion data to lean on. You must reverse and multiply the given equations until they add up to the target.
+[chem21-s4.8.0] Target: 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). Given: (a) H₂(g) + S(s) → H₂S(g), ΔH = −21; (b) S(s) + O₂(g) → SO₂(g), ΔH = −297; (c) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ mol⁻¹.
+[chem21-s4.8.1] Reverse (a) and multiply by 2, because the target has 2H₂S on the left: 2H₂S → 2H₂ + 2S, ΔH = +42.
+[chem21-s4.8.2] Reverse (b), because SO₂ is on the left in the target: SO₂ → S + O₂, ΔH = +297.
+[chem21-s4.8.3] Multiply (c) by 2, because the target has 2H₂O on the right: 2H₂ + O₂ → 2H₂O, ΔH = −572.
+[chem21-s4.8.4] Add and cancel 2H₂ and O₂: 2H₂S + SO₂ → 3S + 2H₂O; ΔH = 42 + 297 − 572 = −233 kJ.
+
+CANDIDATES chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.
+
+CANDIDATES chem21-s2: 2. Calculating ΔH and the heat of neutralisation
+[chem21-s2.0.b] Neutralisation gives out heat, and that heat can be measured with a thermometer. This experiment turns a temperature rise into an enthalpy change (ΔH, the heat change of a reaction) for hydrochloric acid reacting with sodium hydroxide.
+[chem21-s2.0.0] Aim: to determine the heat of neutralisation (ΔH) of hydrochloric acid by sodium hydroxide, using primary data (results you measure yourself in the experiment).
+[chem21-s2.0.1] Heat of neutralisation is the heat change when one mole of water is formed in the reaction between an acid and a base, i.e. one mole of H⁺ ions reacting with one mole of OH⁻ ions.
+[chem21-s2.0.2] Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l); ionic equation (showing only the ions that actually react): H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s2.0.3] ΔH is the heat change at constant pressure. The cup is open to the atmosphere, so the pressure stays constant during the reaction.
+[chem21-s2.0.4] The heat released by the reaction is absorbed by the solution, so the heat produced is found from the temperature rise of the solution: Q = m × c × ΔT (Q is the heat, m the mass of solution, c its specific heat capacity and ΔT the temperature rise).
+[chem21-s2.1.b] The method mixes equal amounts of acid and base in an insulated cup and records the highest temperature reached. Each step is there to give an accurate temperature rise.
+[chem21-s2.1.0] Step 1: using a graduated cylinder (or, more accurately, a burette or pipette), measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, which insulates the reaction.
+[chem21-s2.1.1] Step 2: measure 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker, so the two solutions stay separate until mixed.
+[chem21-s2.1.2] Step 3: allow both solutions to reach room temperature, then measure the temperature of each with a thermometer reading to 0.1 °C (or a temperature sensor).
+[chem21-s2.1.3] Step 4: rinse and dry the thermometer between the two measurements so no solution is carried across. If the two temperatures differ, take their average as the initial temperature.
+[chem21-s2.1.4] Step 5: add the sodium hydroxide to the acid quickly and all at once, put on the lid, and stir gently with the thermometer (or a stirrer).
+[chem21-s2.1.5] Step 6: record the highest temperature reached, because the heat produced is worked out from the biggest rise.
+[chem21-s2.1.6] Step 7: repeat the experiment and use the mean temperature rise, which reduces the effect of a single poor reading.
+[chem21-s2.1.7] Diagram: a polystyrene cup with a lid, a thermometer through the lid into the solution, a stirrer, and the cup standing in a beaker for support.
+[chem21-s2.2.b] Every detail of the method has a reason, and the exam asks for these reasons. Most of them are about stopping heat escaping or making a small temperature change easier to read.
+[chem21-s2.2.0] Polystyrene foam is a good insulator with a very low heat capacity, so little heat is lost to the surroundings or absorbed by the cup; glass or metal would conduct heat away and absorb heat.
+[chem21-s2.2.1] The lid reduces heat loss by convection (heat carried away by moving air) and evaporation.
+[chem21-s2.2.2] Moderately concentrated (1.00 M) solutions give a large enough temperature rise (about 7 °C) to measure accurately; with 0.1 M solutions the rise would be under 1 °C, and the percentage error in reading it would be very large.
+[chem21-s2.2.3] Equal amounts of acid and base (same volume and concentration) are used so that all of each reacts, so the moles of water formed is known.
+[chem21-s2.2.4] Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum temperature is recorded before heat is lost.
+[chem21-s2.2.5] A thermometer reading to 0.1 °C is needed because the temperature change is small.
+[chem21-s2.2.6] A burette or pipette measures volumes more accurately than a graduated cylinder.
+[chem21-s2.2.7] The disadvantage of adding the base slowly from a burette is that heat is lost while it is added.
+[chem21-s2.3.b] In the simple method, the mixture starts cooling as soon as it reaches its peak, so the highest reading is a little too low. A temperature–time graph corrects for this.
+[chem21-s2.3.0] Record the temperature of the acid every 30 s for a few minutes before mixing, then add the base at a recorded time.
+[chem21-s2.3.1] Record the temperature every 30 s for several minutes after mixing, so the whole rise and the cooling that follows are captured.
+[chem21-s2.3.2] After the maximum, the temperature falls gradually because heat is lost to the surroundings.
+[chem21-s2.3.3] Plot temperature against time and extrapolate (extend) the cooling line back to the time of mixing. The temperature rise read from the graph allows for heat lost while the mixture was warming up, giving a more accurate ΔT.
+[chem21-s2.3.4] Diagram: a temperature–time graph with a flat line before mixing, a sharp rise, a gently falling line after the maximum, and the falling line extended back to the time of mixing to give ΔT.
+[chem21-s2.4.b] To turn the temperature rise into ΔH, find the heat produced, then divide by the moles of water formed. Each step uses the total mass of the mixture, not the mass of acid alone.
+[chem21-s2.4.0] Data: 50.0 cm³ of 1.00 M HCl and 50.0 cm³ of 1.00 M NaOH; initial temperature 18.4 °C; maximum 25.0 °C.
+[chem21-s2.4.1] Temperature rise: ΔT = 25.0 − 18.4 = 6.6 °C = 6.6 K; a temperature change is the same in °C and K, so no conversion is needed.
+[chem21-s2.4.2] Mass of solution: 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg, assuming the density and specific heat capacity are those of water.
+[chem21-s2.4.3] Heat produced: Q = m × c × ΔT = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.6 K = 2.76 kJ.
+[chem21-s2.4.4] Moles of water formed = moles of HCl = 1.00 × 0.0500 = 0.0500 mol.
+[chem21-s2.4.5] Heat per mole: 2.76 kJ ÷ 0.0500 mol = 55.2 kJ mol⁻¹, because ΔH is defined per mole of water formed.
+[chem21-s2.4.6] The reaction gives out heat, so ΔH = −55.2 kJ mol⁻¹: Q is the heat gained by the solution, and ΔH is the heat lost by the reaction.
+[chem21-s2.4.7] Comparison: the accepted value for a strong acid with a strong base is about −57 kJ mol⁻¹; the experimental value is less negative mainly because some heat was lost to the surroundings and absorbed by the cup and thermometer.
+[chem21-s2.5.b] The result does not depend on which strong acid or base you use, but it does change for weak ones. Acids that release two H⁺ ions need extra care when counting moles.
+[chem21-s2.5.0] All strong acid–strong base neutralisations have almost the same ΔH, about −57 kJ mol⁻¹, because the acids and bases are fully dissociated (split completely into ions) and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators.
+[chem21-s2.5.1] With a weak acid (e.g. ethanoic acid) or a weak base (e.g. ammonia), ΔH is slightly less negative, because some energy is used to complete the dissociation of the weak acid or base as it reacts.
+[chem21-s2.5.2] With a diprotic acid (one that can give two H⁺ ions per molecule), count moles of water, not moles of acid: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem21-s2.5.3] Sample data: 25.0 cm³ of 2.00 M H₂SO₄ + 50.0 cm³ of 2.00 M NaOH, with ΔT = 17.8 K.
+[chem21-s2.5.4] Mass of solution = 75.0 cm³ (25.0 + 50.0) = 0.0750 kg, so Q = 0.0750 × 4.18 × 17.8 = 5.58 kJ.
+[chem21-s2.5.5] Moles of water = moles of NaOH = 2.00 × 0.0500 = 0.100 mol, so ΔH = −55.8 kJ mol⁻¹ per mole of water.
+[chem21-s2.5.6] Doubling the volumes of the same solutions gives the same ΔT: twice the moles react and twice the heat is produced, but it heats twice the mass of solution.
+[chem21-s2.6.b] The solutions are hazardous, and the experiment always gives a value that differs from the accepted one. Knowing which errors push the value which way lets you suggest improvements.
+[chem21-s2.6.0] Safety: 1.00 M hydrochloric acid and sodium hydroxide are corrosive (they damage skin and eyes), sodium hydroxide especially to the eyes; wear safety glasses and gloves and wipe up spills.
+[chem21-s2.6.1] Both bottles carry the GHS corrosion pictogram: liquid dripping from two test tubes onto a hand and a surface.
+[chem21-s2.6.2] Errors that make the value less negative: heat lost to the air and bench; heat absorbed by the cup and thermometer; not recording the true maximum temperature; solutions starting at different temperatures.
+[chem21-s2.6.3] Assumption error: the solution's density and specific heat capacity are taken as those of water.
+[chem21-s2.6.4] Improvements: use the temperature–time graph, a lid, two nested cups, a more precise thermometer or temperature sensor, and burettes or pipettes for volumes.
+[chem21-s2.7.b] An enthalpy change varies with the conditions it is measured in. So chemists agree one set of conditions, so that values from different reactions can be compared fairly.
+[chem21-s2.7.0] Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.
+[chem21-s2.7.1] Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa).
+[chem21-s2.7.2] Solutions have a concentration of 1 mol L⁻¹, and each substance is in its standard state, its normal physical state under these conditions, e.g. water as a liquid and carbon as graphite.
+[chem21-s2.7.3] A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °), so the symbol shows the value refers to standard conditions.
+[chem21-s2.7.4] IUPAC (the international chemistry body) now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.
+[chem21-s2.7.5] Standard conditions are not s.t.p. (standard temperature and pressure: 0 °C, 273 K and 101.3 kPa), which is used for gas volumes. There is more on this in Molar volume and Avogadro's law.
+[chem21-s2.8.b] The neutralisation experiment and the zinc and copper(II) sulfate example below both follow the same five steps. The idea is to use the temperature change of a known mass of water or solution to find the heat, then scale to one mole.
+[chem21-s2.8.0] Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.
+[chem21-s2.8.1] Step 2: calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution in kg and ΔT is the temperature change in K or °C.
+[chem21-s2.8.2] Here c is the specific heat capacity of the water or solution, 4.18 kJ kg⁻¹ K⁻¹ for water.
+[chem21-s2.8.3] Step 3: calculate the moles of the reactant that reacted completely (the limiting reactant, the one that runs out first), using n = concentration × V (in L) for solutions or n = m ÷ M for solids and liquids.
+[chem21-s2.8.4] Step 4: heat per mole = Q ÷ n, in kJ mol⁻¹, scaled to the moles in the balanced equation if the heat of reaction is asked for.
+[chem21-s2.8.5] Step 5: give ΔH a sign: negative if the temperature rose (exothermic, giving out heat), positive if it fell (endothermic, taking in heat). Q is always positive; the sign of ΔH comes only from whether the temperature rose or fell.
+[chem21-s2.8.6] Specific heat capacity, c, is the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water it is 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹).
+[chem21-s2.8.7] Dilute solutions are assumed to have the same specific heat capacity as water and a density of 1.00 g cm⁻³, so 1 cm³ of solution is taken as 1 g.
+[chem21-s2.8.8] If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead.
+[chem21-s2.9.b] This displacement reaction (a more reactive metal pushing a less reactive one out of solution) is measured in the same way as neutralisation. The key extra step is choosing the limiting reactant.
+[chem21-s2.9.0] Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.
+[chem21-s2.9.1] Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s); ionic equation: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
+[chem21-s2.9.2] Zinc is in excess, so the copper(II) sulfate is the limiting reactant and fixes how much reacts.
+[chem21-s2.9.3] Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.
+[chem21-s2.9.4] Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.
+[chem21-s2.9.5] Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.
+[chem21-s2.9.6] The value is a little less negative than the accepted value because of heat losses. There is more on errors and improvements in Investigation: heat of neutralisation.
+[chem21-s2.10.b] A ΔH value is a heat per mole, so once you know it you can predict the heat for any amount of reactant. Work out the moles, then multiply.
+[chem21-s2.10.0] ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.
+[chem21-s2.10.1] Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; M(CH₄) = 16 g mol⁻¹, so 8.0 g of methane is 8.0 ÷ 16 = 0.50 mol.
+[chem21-s2.10.2] Burning 0.50 mol of methane releases 0.50 × 890 = 445 kJ, because half a mole gives half the heat of a full mole.
+[chem21-s2.10.3] Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹.
+[chem21-s2.11.b] An energy profile diagram is a graph of how the energy of a reaction changes as it goes from reactants to products. It shows both the overall heat change and the energy barrier the reaction has to climb.
+[chem21-s2.11.0] An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction, with energy on the vertical axis and progress of reaction (reaction pathway) on the horizontal axis.
+[chem21-s2.11.1] It shows the reactants' level, a hump rising to a maximum, and the products' level; unlike an enthalpy level diagram (which only compares the two levels), it shows this hump.
+[chem21-s2.11.2] The height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen. There is more on this in Catalysis and energy profiles.
+[chem21-s2.11.3] ΔH is the vertical difference between the reactants' and products' levels and does not depend on the height of the hump.
+[chem21-s2.11.4] Exothermic profile: products below reactants, ΔH is negative, and the energy released as bonds form is greater than the activation energy taken in.
+[chem21-s2.11.5] Endothermic profile: products above reactants, ΔH is positive, and the activation energy is larger than ΔH.
+[chem21-s2.11.6] Energy transfer: the energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making; the net difference is transferred as heat to the surroundings (exothermic) or from them (endothermic).
+[chem21-s2.11.7] Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.
+
+CANDIDATES chem21-s5: 5. Combustion and heats of combustion
+[chem21-s5.0.b] Burning is the everyday reaction that powers fires, cookers and engines. Chemists define it precisely, and then measure how much heat it gives out per mole of fuel, a quantity called the heat of combustion.
+[chem21-s5.0.0] Combustion is the reaction of a substance with oxygen, giving out heat (and usually light). It is always exothermic, which means it releases energy to the surroundings, so the temperature around it rises.
+[chem21-s5.0.1] Complete combustion happens in plenty of oxygen: all the carbon becomes carbon dioxide and all the hydrogen becomes water. For hydrocarbons (compounds of only carbon and hydrogen) and alcohols the only products are CO₂ and H₂O.
+[chem21-s5.0.2] Incomplete combustion happens in limited oxygen. It also gives carbon monoxide (a toxic gas) and soot (carbon), and releases less energy because less of the fuel is fully oxidised, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).
+[chem21-s5.0.3] Standard heat of combustion, ΔHc°: the enthalpy change (the heat change at constant pressure) when one mole of a substance is completely burned in excess oxygen under standard conditions (25 °C, 101.3 kPa). It is always negative, because combustion is exothermic.
+[chem21-s5.0.4] Because it is per mole of the substance burned, the equation for a heat of combustion has 1 mol of fuel, so fractions of O₂ may be needed, e.g. C₂H₆(g) + 3½O₂(g) → 2CO₂(g) + 3H₂O(l), ΔHc = −1560 kJ mol⁻¹.
+[chem21-s5.0.5] The same equation doubled, 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, has ΔH = −3120 kJ, because twice as many moles of fuel burn and so twice as much heat is released.
+[chem21-s5.1.b] Every complete combustion equation can be balanced by the same five steps. The order matters: carbon first, hydrogen second, and oxygen last, because oxygen appears in more than one product.
+[chem21-s5.1.0] Step 1: write the formula of the fuel and the products CO₂ and H₂O.
+[chem21-s5.1.1] Step 2: balance carbon. The number of CO₂ equals the number of C atoms in the fuel, since each CO₂ holds one carbon.
+[chem21-s5.1.2] Step 3: balance hydrogen. The number of H₂O equals half the number of H atoms in the fuel, since each H₂O holds two hydrogens.
+[chem21-s5.1.3] Step 4: balance oxygen last. Count the O atoms in the products, subtract any O already in the fuel (one for an alcohol), and divide by two for the number of O₂, since each O₂ molecule holds two O atoms.
+[chem21-s5.1.4] Step 5: double everything if you want whole numbers, for example to remove a ½ in front of O₂.
+[chem21-s5.1.5] Check: count each type of atom on both sides, and add state symbols (fuel, O₂(g), CO₂(g), H₂O(l) under standard conditions). The (l) for water is because standard heats of combustion are measured with water as a liquid.
+[chem21-s5.2.b] Each family of compounds follows a pattern, so one general equation covers every member. Here n is the number of carbon atoms in the molecule. The range examined is hydrocarbons with no more than one double or triple bond, and primary alcohols (alcohols with the OH group on a carbon at the end of the chain) up to C6.
+[chem21-s5.2.0] Alkanes (hydrocarbons with only single bonds): CₙH₂ₙ₊₂ + ((3n + 1)/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.2.1] Alkenes (one C=C, a carbon-carbon double bond): CₙH₂ₙ + (3n/2) O₂ → nCO₂ + nH₂O.
+[chem21-s5.2.2] Alkynes (one C≡C, a carbon-carbon triple bond): CₙH₂ₙ₋₂ + ((3n − 1)/2) O₂ → nCO₂ + (n − 1)H₂O.
+[chem21-s5.2.3] Primary alcohols: CₙH₂ₙ₊₁OH + (3n/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.3.b] These are the complete combustion equations for the alkanes, alkenes and alkyne you may be asked for, with water as a liquid. Where the fuel needs a half-molecule of oxygen, the doubled form gives whole numbers.
+[chem21-s5.3.0] Methane: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem21-s5.3.1] Propane: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l), because 3 carbons give 3 CO₂ and 8 hydrogens give 4 H₂O.
+[chem21-s5.3.2] Butane: C₄H₁₀(g) + 6½O₂(g) → 4CO₂(g) + 5H₂O(l), or 2C₄H₁₀(g) + 13O₂(g) → 8CO₂(g) + 10H₂O(l).
+[chem21-s5.3.3] Ethene: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).
+[chem21-s5.3.4] Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).
+[chem21-s5.3.5] Ethyne: C₂H₂(g) + 2½O₂(g) → 2CO₂(g) + H₂O(l), or 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
+[chem21-s5.4.b] Each alcohol already contains one oxygen atom in its OH group, so it needs less O₂ from the air than the alkane with the same number of carbons. Step 4 above (subtract the O in the fuel) is what gives these numbers.
+[chem21-s5.4.0] Methanol: CH₃OH(l) + 1½O₂(g) → CO₂(g) + 2H₂O(l), or 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l).
+[chem21-s5.4.1] Ethanol: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), because the products hold 7 oxygen atoms, one of which comes from the ethanol, so 6 atoms (3 O₂) come from the air.
+[chem21-s5.4.2] Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem21-s5.4.3] Butan-1-ol: C₄H₉OH(l) + 6O₂(g) → 4CO₂(g) + 5H₂O(l).
+[chem21-s5.4.4] Pentan-1-ol: C₅H₁₁OH(l) + 7½O₂(g) → 5CO₂(g) + 6H₂O(l).
+[chem21-s5.4.5] Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l).
+[chem21-s5.5.b] These are the data values you are given and must be able to use to spot trends. Values are in kJ mol⁻¹ (kilojoules per mole) at 25 °C, with water as a liquid. All are negative because combustion is exothermic.
+[chem21-s5.5.0] Alkanes: methane −890; ethane −1560; propane −2220; butane −2877. For example, each is more negative than the one before it.
+[chem21-s5.5.1] Primary alcohols: methanol −726; ethanol −1367; propan-1-ol −2021; butan-1-ol −2676; pentan-1-ol −3331; hexan-1-ol −3984.
+[chem21-s5.5.2] Two-carbon compounds: ethane −1560; ethene −1411; ethyne −1300; ethanol −1367.
+[chem21-s5.5.3] Three-carbon compounds: propane −2220; propene −2058.
+[chem21-s5.6.b] In a homologous series (a family of compounds in which each member differs from the next by one CH₂ group), the heat of combustion changes in a very regular way. The reason lies in the bonds broken and formed for each extra CH₂.
+[chem21-s5.6.0] ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂, so more heat is released per mole of a longer molecule.
+[chem21-s5.6.1] For alkanes the increase is about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670 and 2877 − 2220 = 657.
+[chem21-s5.6.2] For primary alcohols the increase is about 640–655 kJ mol⁻¹, e.g. 1367 − 726 = 641 and 2021 − 1367 = 654.
+[chem21-s5.6.3] Each extra CH₂ group adds one C–C and two C–H bonds to break, and needs 1½ more O₂ molecules. It forms one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds).
+[chem21-s5.6.4] More energy is released by the new bonds formed than is needed to break the extra bonds, so each extra CH₂ makes ΔHc more negative.
+[chem21-s5.6.5] Because exactly the same extra bonds are broken and formed for every CH₂ added, the increase is nearly constant, so a graph of ΔHc against number of carbon atoms is a straight line.
+[chem21-s5.7.b] Bond enthalpies (the energy needed to break one mole of a given bond) let you put a number on the increase per CH₂. The regular straight-line trend also lets you predict a missing value.
+[chem21-s5.7.0] Bond enthalpy estimate per CH₂, using C–C 348, C–H 412, O=O 498, C=O 799 and O–H 463 kJ mol⁻¹: broken 348 + 2(412) + 1½(498) = 1919 kJ; formed 2(799) + 2(463) = 2524 kJ; difference −605 kJ.
+[chem21-s5.7.1] This estimate is for gaseous water. The measured increase is larger because the water formed is liquid, which means extra heat is released when the vapour condenses.
+[chem21-s5.7.2] The straight-line trend can be used to predict values, e.g. hexan-1-ol ≈ −3331 − 655 = −3986 kJ mol⁻¹, close to the data value of −3984 kJ mol⁻¹.
+[chem21-s5.8.b] An alcohol and the alkane with the same number of carbon atoms give the same CO₂ and H₂O, yet the alcohol releases less heat. The difference comes from the oxygen already inside the alcohol.
+[chem21-s5.8.0] A primary alcohol has a less negative ΔHc than the alkane with the same number of carbon atoms, e.g. ethanol −1367 against ethane −1560 kJ mol⁻¹, and methanol −726 against methane −890 kJ mol⁻¹.
+[chem21-s5.8.1] The alcohol molecule already contains an oxygen atom bonded to carbon and hydrogen (C–O–H), so it is already partly oxidised (it has already combined with some oxygen).
+[chem21-s5.8.2] It therefore needs less oxygen (ethanol 3 O₂, ethane 3½ O₂), and less energy is released on complete oxidation, although the same numbers of CO₂ and H₂O are formed.
+[chem21-s5.9.b] Comparing compounds with the same number of carbon atoms but different numbers of hydrogens shows a second pattern. Fewer hydrogens means less water formed.
+[chem21-s5.9.0] For the same number of carbon atoms, ΔHc becomes less negative in the order alkane, then alkene, then alkyne: ethane −1560, ethene −1411, ethyne −1300 kJ mol⁻¹.
+[chem21-s5.9.1] The alkene has two fewer hydrogen atoms than the alkane, and the alkyne four fewer, so fewer water molecules (fewer O–H bonds) are formed and less energy is released.
+[chem21-s5.9.2] The main reason is the fewer O–H bonds formed, not the C=C bond being harder to break.
+[chem21-s5.10.b] You can estimate a heat of combustion in the lab by burning an alcohol under a can of water and measuring how much the water warms up. This investigation uses primary alcohols to test how heat of combustion changes along a series.
+[chem21-s5.10.0] Aim: to estimate the heats of combustion of a series of primary alcohols (methanol, ethanol, propan-1-ol and butan-1-ol) using spirit burners (small lamps that burn liquid alcohol from a wick), and to compare them with standard values.
+[chem21-s5.10.1] Heat of combustion: the enthalpy change when one mole of a substance is completely burned in excess oxygen.
+[chem21-s5.10.2] Principle: the heat released by burning a measured mass of alcohol is absorbed by a known mass of water, so Q = m(water) × c × ΔT.
+[chem21-s5.10.3] Here c is the specific heat capacity of water (the heat needed to warm a given mass by one degree) and ΔT is the temperature rise, so Q is the heat the water has gained.
+[chem21-s5.10.4] ΔHc = −Q ÷ moles of alcohol burned. The negative sign is there because heat released by the burning alcohol means a negative enthalpy change.
+[chem21-s5.10.5] Hypothesis (the prediction being tested): the heat of combustion becomes more negative by a roughly constant amount for each extra CH₂ in the alcohol.
+[chem21-s5.11.b] For a fair test, only one thing is changed, one thing is measured, and everything else is kept the same.
+[chem21-s5.11.0] Independent variable (the one you change): the alcohol, i.e. the number of carbon atoms.
+[chem21-s5.11.1] Dependent variable (the one you measure): the heat released per mole, calculated from the mass of alcohol burned and the temperature rise of the water.
+[chem21-s5.11.2] Controlled (kept the same): the same volume (mass) of water, at the same starting temperature, so that the same heat gives the same temperature rise each time.
+[chem21-s5.11.3] Controlled: the same copper can, the same distance from wick to can, and the same wick length, so that the share of heat reaching the can is similar for every alcohol.
+[chem21-s5.11.4] Controlled: the same temperature rise (e.g. 20 °C), and the draught shield in the same position.
+[chem21-s5.12.b] The method is the same for every alcohol: heat a fixed mass of water with the burner, and find out from the change in the burner's mass how much alcohol was burned.
+[chem21-s5.12.0] Step 1: measure 100 cm³ (100 g) of water with a graduated cylinder into a copper can (calorimeter, a container used to measure heat changes).
+[chem21-s5.12.1] Step 2: clamp the can a fixed distance (about 2–3 cm) above the wick of the spirit burner, and surround both with a draught shield.
+[chem21-s5.12.2] Step 3: weigh the spirit burner containing the alcohol, with its cap on, on a balance reading to 0.01 g.
+[chem21-s5.12.3] Step 4: record the initial temperature of the water.
+[chem21-s5.12.4] Step 5: light the burner and stir the water gently with the thermometer or a stirrer.
+[chem21-s5.12.5] Step 6: when the temperature has risen by about 20 °C, put out the flame by replacing the cap, and record the highest temperature reached.
+[chem21-s5.12.6] Step 7: reweigh the burner with its cap at once. The mass burned is the initial mass minus the final mass.
+[chem21-s5.12.7] Step 8: repeat with each alcohol, using fresh water each time, and repeat each alcohol to check reproducibility (that you get similar results each time).
+[chem21-s5.13.b] The apparatus has several parts, and each one has a job in the method, so know every part and where it sits.
+[chem21-s5.13.0] Diagram: a copper can of water held by a clamp above a spirit burner, a thermometer and stirrer in the water, a draught shield around the burner and can, the burner on a heat-proof mat, and a balance for weighing the burner.
+[chem21-s5.14.b] Every feature of the set-up either gets more of the heat into the water or keeps the measurement of the alcohol burned accurate.
+[chem21-s5.14.0] Copper is a good conductor of heat, so heat passes quickly from the flame into the water.
+[chem21-s5.14.1] The draught shield reduces heat lost by air currents and keeps the flame steady.
+[chem21-s5.14.2] Capping the burner as soon as the flame is out, and weighing immediately, stops the volatile alcohol (one that evaporates easily) evaporating from the wick, which would otherwise be counted as burned.
+[chem21-s5.14.3] Stirring spreads the heat evenly, so the thermometer reading represents all the water.
+[chem21-s5.14.4] The same temperature rise and set-up for each alcohol make the heat losses similar, so the comparison between alcohols is fair even if the absolute values are low.
+[chem21-s5.14.5] A temperature rise of about 20 °C is large enough to measure accurately, but not so large that heat losses, which increase as the water gets hotter, become very large.
+[chem21-s5.15.b] The calculation has two parts: the heat absorbed by the water, then that heat divided by the moles of alcohol burned. Here it is for ethanol, using sample data.
+[chem21-s5.15.0] For each alcohol: 100 g (0.100 kg) of water heated through 20.0 °C gives Q = 0.100 × 4.18 × 20.0 = 8.36 kJ, using c(water) = 4.18 kJ kg⁻¹ K⁻¹.
+[chem21-s5.15.1] Ethanol (M = 46 g mol⁻¹, the molar mass): mass burned 0.63 g, so moles = 0.63 ÷ 46 = 0.0137 mol.
+[chem21-s5.15.2] Heat per mole = 8.36 ÷ (0.63 ÷ 46) = 610 kJ mol⁻¹, so ΔHc(experimental) = −610 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.15.3] Percentage error = (standard − experimental) ÷ standard × 100, e.g. ethanol (1367 − 610) ÷ 1367 × 100 = 55%.
+[chem21-s5.16.b] Repeating the calculation for all four alcohols gives a set of experimental values to compare with the standard ones.
+[chem21-s5.16.0] Methanol (M = 32 g mol⁻¹): 0.82 g burned, giving ΔHc = −326 kJ mol⁻¹.
+[chem21-s5.16.1] Propan-1-ol (M = 60 g mol⁻¹): 0.55 g burned, giving ΔHc = −912 kJ mol⁻¹.
+[chem21-s5.16.2] Butan-1-ol (M = 74 g mol⁻¹): 0.51 g burned, giving ΔHc = −1210 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.16.3] Standard values are −726, −1367, −2021 and −2676 kJ mol⁻¹; each experimental value is about 45% of the standard value.
+[chem21-s5.16.4] A graph of experimental ΔHc against number of carbon atoms is a straight line, like the standard values but less steep, so the trend is confirmed even though the values are too low.
+[chem21-s5.17.b] The experimental values come out far below the standard ones. A good answer says why each error makes the value too low, not just that it is a problem.
+[chem21-s5.17.0] Heat loss: much of the heat from the flame goes to the surrounding air rather than into the water; this is the main reason the values are much less negative than standard values.
+[chem21-s5.17.1] Heat absorbed by the copper can, thermometer and clamp is not included in Q, so less heat is measured in the water and the value is too small. It could be added as m(copper) × c(copper) × ΔT, with c(copper) ≈ 0.385 J g⁻¹ K⁻¹.
+[chem21-s5.17.2] Incomplete combustion: with limited air at the wick, some carbon forms soot, seen on the base of the can, and carbon monoxide, releasing less energy than complete combustion.
+[chem21-s5.17.3] Evaporation of alcohol from the wick: alcohol lost without burning is counted as burned, making the heat per mole too small.
+[chem21-s5.17.4] Non-standard conditions: standard values assume products at 25 °C with water as a liquid; in the experiment the water leaves as vapour, so its heat of condensation is not released into the can.
+[chem21-s5.17.5] Improvements to reduce heat loss: insulate the can and add a lid, reduce the distance between flame and can, and use a draught shield.
+[chem21-s5.17.6] Improvements to reduce other errors: ensure a good air supply for complete combustion, cap and weigh the burner immediately, and include the heat absorbed by the can.
+[chem21-s5.17.7] Accurate values are measured in a sealed calorimeter, which is not required here.
+[chem21-s5.18.b] Alcohols burn easily and methanol is poisonous, so the main precautions are about fire and fumes.
+[chem21-s5.18.0] Alcohols are highly flammable: keep bottles stoppered and away from flames, never refill a burner while it is lit or hot, and refill in a fume cupboard or away from flames.
+[chem21-s5.18.1] Methanol is toxic by swallowing, by skin contact and by inhaling its vapour; avoid skin contact and work in a well-ventilated room.
+[chem21-s5.18.2] Wear safety glasses, tie back long hair, stand the burner on a heat-proof mat, and let the copper can cool before handling it.

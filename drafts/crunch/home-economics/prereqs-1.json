@@ -1,0 +1,207 @@
+{
+"hom-appliances-equipment-s1": [],
+"hom-appliances-equipment-s2": [
+ {"needs": "hom-consumer-rights-s1", "strength": "helpful", "why": "uses factors affecting consumer choice when buying", "confidence": "high"},
+ {"needs": "hom-consumer-rights-s3", "strength": "helpful", "why": "uses sources of consumer information", "confidence": "high"},
+ {"needs": "hom-environmental-issues-s2", "strength": "helpful", "why": "uses WEEE disposal and recycling of appliances", "confidence": "low"},
+ {"needs": "hom-environmental-issues-s4", "strength": "helpful", "why": "uses reading the appliance energy label", "confidence": "high"}
+],
+"hom-appliances-equipment-s3": [
+ {"needs": "hom-appliances-equipment-s2", "strength": "helpful", "why": "uses appliance selection criteria and safety marks", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s5", "strength": "helpful", "why": "uses safe use of electrical kitchen appliances", "confidence": "low"}
+],
+"hom-appliances-equipment-s4": [
+ {"needs": "hom-cooking-methods-s2", "strength": "essential", "why": "uses conduction, convection and radiation heat transfer", "confidence": "high"},
+ {"needs": "hom-appliances-equipment-s2", "strength": "helpful", "why": "uses selection criteria and energy label", "confidence": "high"}
+],
+"hom-appliances-equipment-s5": [
+ {"needs": "hom-appliances-equipment-s2", "strength": "helpful", "why": "uses energy label and frozen-food star rating", "confidence": "high"},
+ {"needs": "hom-food-safety-s6", "strength": "helpful", "why": "uses safe food storage temperatures in the home", "confidence": "low"},
+ {"needs": "hom-cooking-methods-s2", "strength": "helpful", "why": "uses heat transfer in the refrigeration cycle", "confidence": "low"}
+],
+"hom-appliances-equipment-s6": [
+ {"needs": "hom-cooking-methods-s2", "strength": "essential", "why": "uses heat transfer and how a microwave heats", "confidence": "high"},
+ {"needs": "hom-appliances-equipment-s2", "strength": "helpful", "why": "uses selection criteria and energy efficiency", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s3", "strength": "helpful", "why": "uses microwave as a cooking method", "confidence": "low"}
+],
+"hom-carbohydrates-s1": [],
+"hom-carbohydrates-s2": [],
+"hom-carbohydrates-s3": [
+ {"needs": "hom-carbohydrates-s2", "strength": "essential", "why": "uses classification into mono, di and polysaccharides", "confidence": "high"}
+],
+"hom-carbohydrates-s4": [
+ {"needs": "hom-carbohydrates-s2", "strength": "essential", "why": "uses sugar and polysaccharide structure and classification", "confidence": "high"},
+ {"needs": "hom-proteins-s5", "strength": "helpful", "why": "uses Maillard reaction in browning comparison", "confidence": "low"}
+],
+"hom-carbohydrates-s5": [
+ {"needs": "hom-carbohydrates-s4", "strength": "essential", "why": "culinary functions use gelatinisation, caramelisation and pectin gel", "confidence": "high"},
+ {"needs": "hom-carbohydrates-s2", "strength": "helpful", "why": "uses sugar, starch and fibre classes", "confidence": "high"},
+ {"needs": "hom-digestion-metabolism-s2", "strength": "helpful", "why": "uses carbohydrate digestion and glucose use", "confidence": "low"}
+],
+"hom-carbohydrates-s6": [
+ {"needs": "hom-carbohydrates-s3", "strength": "helpful", "why": "uses food sources of sugar and fibre", "confidence": "high"},
+ {"needs": "hom-carbohydrates-s5", "strength": "helpful", "why": "uses fibre functions and sugar effects", "confidence": "low"}
+],
+"hom-cereals-grains-s1": [
+ {"needs": "hom-carbohydrates-s3", "strength": "helpful", "why": "uses starch and fibre sources", "confidence": "high"},
+ {"needs": "hom-proteins-s4", "strength": "helpful", "why": "uses plant protein and gluten", "confidence": "low"},
+ {"needs": "hom-vitamins-minerals-s3", "strength": "helpful", "why": "uses B vitamins in cereal bran and germ", "confidence": "high"}
+],
+"hom-cereals-grains-s2": [
+ {"needs": "hom-cereals-grains-s1", "strength": "helpful", "why": "uses grain structure and nutritive value", "confidence": "high"},
+ {"needs": "hom-proteins-s4", "strength": "helpful", "why": "uses gluten for coeliac special diets", "confidence": "low"}
+],
+"hom-cereals-grains-s3": [
+ {"needs": "hom-cereals-grains-s1", "strength": "essential", "why": "uses grain structure in milling and white versus wholemeal", "confidence": "high"},
+ {"needs": "hom-proteins-s4", "strength": "essential", "why": "uses gluten protein in flour", "confidence": "high"}
+],
+"hom-cereals-grains-s4": [
+ {"needs": "hom-carbohydrates-s4", "strength": "essential", "why": "uses starch gelatinisation and dextrinisation on heating", "confidence": "high"},
+ {"needs": "hom-cereals-grains-s3", "strength": "essential", "why": "uses gluten and flour types for raising", "confidence": "high"},
+ {"needs": "hom-proteins-s5", "strength": "helpful", "why": "uses protein coagulation and gluten stretching", "confidence": "low"}
+],
+"hom-cereals-grains-s5": [
+ {"needs": "hom-cereals-grains-s3", "strength": "essential", "why": "uses flour types and gluten in pastry", "confidence": "high"},
+ {"needs": "hom-cereals-grains-s4", "strength": "helpful", "why": "uses raising by steam and air", "confidence": "high"},
+ {"needs": "hom-lipids-s4", "strength": "helpful", "why": "uses plasticity of fats in shortcrust", "confidence": "low"}
+],
+"hom-clothing-selection-s1": [
+ {"needs": "hom-textiles-fibres-s1", "strength": "helpful", "why": "uses household fabric properties", "confidence": "low"}
+],
+"hom-clothing-selection-s2": [
+ {"needs": "hom-sociological-concepts-s1", "strength": "helpful", "why": "uses culture, norms and values", "confidence": "high"},
+ {"needs": "hom-consumer-rights-s1", "strength": "helpful", "why": "uses advertising and media influence on choice", "confidence": "low"}
+],
+"hom-clothing-selection-s3": [
+ {"needs": "hom-clothing-selection-s4", "strength": "essential", "why": "uses elements of design to identify a trend", "confidence": "high"},
+ {"needs": "hom-clothing-selection-s2", "strength": "essential", "why": "uses influences of media, trendsetters and fashion", "confidence": "high"}
+],
+"hom-clothing-selection-s4": [],
+"hom-clothing-selection-s5": [
+ {"needs": "hom-clothing-selection-s4", "strength": "essential", "why": "uses elements and principles of design in the design process", "confidence": "high"},
+ {"needs": "hom-textiles-fibres-s4", "strength": "helpful", "why": "uses fabric profiles to select fabric", "confidence": "high"},
+ {"needs": "hom-textiles-fibres-s5", "strength": "helpful", "why": "uses construction, finishes and design application", "confidence": "high"}
+],
+"hom-clothing-selection-s6": [
+ {"needs": "hom-clothing-selection-s3", "strength": "helpful", "why": "uses trends, vintage and Irish fashion context", "confidence": "low"}
+],
+"hom-consumer-rights-s1": [
+ {"needs": "hom-personal-finance-s3", "strength": "helpful", "why": "uses hire purchase and credit payment methods", "confidence": "high"},
+ {"needs": "hom-personal-finance-s2", "strength": "helpful", "why": "uses budget limits on consumer choice", "confidence": "low"}
+],
+"hom-consumer-rights-s2": [
+ {"needs": "hom-consumer-rights-s1", "strength": "helpful", "why": "uses merchandising, advertising and shopping choices", "confidence": "high"},
+ {"needs": "hom-personal-finance-s3", "strength": "helpful", "why": "uses payment methods and credit", "confidence": "high"}
+],
+"hom-consumer-rights-s3": [
+ {"needs": "hom-consumer-rights-s1", "strength": "helpful", "why": "uses consumer choice and labelling information", "confidence": "low"}
+],
+"hom-consumer-rights-s4": [
+ {"needs": "hom-consumer-rights-s3", "strength": "essential", "why": "uses parties to transaction and consumer rights", "confidence": "high"}
+],
+"hom-consumer-rights-s5": [
+ {"needs": "hom-consumer-rights-s4", "strength": "helpful", "why": "bodies enforce the consumer protection legislation", "confidence": "high"},
+ {"needs": "hom-consumer-rights-s3", "strength": "helpful", "why": "uses consumer information and responsibilities", "confidence": "low"},
+ {"needs": "hom-food-safety-s8", "strength": "helpful", "why": "uses FSAI role in food safety", "confidence": "low"}
+],
+"hom-consumer-rights-s6": [
+ {"needs": "hom-consumer-rights-s4", "strength": "essential", "why": "uses statutory rights and remedies for faulty goods", "confidence": "high"},
+ {"needs": "hom-consumer-rights-s5", "strength": "essential", "why": "uses bodies that handle complaints", "confidence": "high"},
+ {"needs": "hom-consumer-rights-s3", "strength": "helpful", "why": "uses consumer responsibilities when acting on problems", "confidence": "low"}
+],
+"hom-cooking-methods-s1": [
+ {"needs": "hom-proteins-s5", "strength": "essential", "why": "uses denaturation, coagulation and Maillard reaction", "confidence": "high"},
+ {"needs": "hom-carbohydrates-s4", "strength": "essential", "why": "uses gelatinisation, caramelisation and dextrinisation", "confidence": "high"},
+ {"needs": "hom-vitamins-minerals-s2", "strength": "helpful", "why": "uses vitamin C loss in cooking", "confidence": "high"},
+ {"needs": "hom-lipids-s4", "strength": "helpful", "why": "uses effects of heat on fats", "confidence": "low"}
+],
+"hom-cooking-methods-s2": [],
+"hom-cooking-methods-s3": [
+ {"needs": "hom-cooking-methods-s2", "strength": "essential", "why": "uses heat transfer principles behind each method", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s1", "strength": "helpful", "why": "uses changes and nutrient loss during cooking", "confidence": "high"},
+ {"needs": "hom-meal-planning-s2", "strength": "helpful", "why": "steaming for an older person uses life-cycle needs", "confidence": "low"}
+],
+"hom-cooking-methods-s4": [
+ {"needs": "hom-carbohydrates-s4", "strength": "essential", "why": "uses starch gelatinisation to thicken roux sauces", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s3", "strength": "helpful", "why": "uses moist cooking methods for soups", "confidence": "low"}
+],
+"hom-cooking-methods-s5": [
+ {"needs": "hom-cooking-methods-s2", "strength": "helpful", "why": "uses conduction in choosing pans", "confidence": "high"},
+ {"needs": "hom-food-safety-s6", "strength": "helpful", "why": "uses kitchen hygiene and safety rules", "confidence": "low"}
+],
+"hom-cooking-methods-s6": [
+ {"needs": "hom-energy-nutrition-s4", "strength": "essential", "why": "uses healthy eating guidelines for balance and modifying", "confidence": "high"},
+ {"needs": "hom-meal-planning-s4", "strength": "helpful", "why": "uses modified diets for dishes", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s3", "strength": "helpful", "why": "uses cooking methods when modifying recipes", "confidence": "high"},
+ {"needs": "hom-carbohydrates-s6", "strength": "helpful", "why": "uses reducing sugar and raising fibre", "confidence": "low"}
+],
+"hom-cooking-methods-s7": [
+ {"needs": "hom-cooking-methods-s6", "strength": "helpful", "why": "uses recipe balance and presentation in dishes", "confidence": "high"},
+ {"needs": "hom-cooking-methods-s5", "strength": "helpful", "why": "uses equipment in practical coursework", "confidence": "high"},
+ {"needs": "hom-food-safety-s6", "strength": "helpful", "why": "uses safe food preparation in practicals", "confidence": "low"}
+],
+"hom-dairy-eggs-s1": [
+ {"needs": "hom-proteins-s4", "strength": "helpful", "why": "uses casein and albumin in milk", "confidence": "high"},
+ {"needs": "hom-vitamins-minerals-s4", "strength": "helpful", "why": "uses calcium in milk", "confidence": "high"},
+ {"needs": "hom-energy-nutrition-s4", "strength": "helpful", "why": "uses healthy eating guidelines for dairy", "confidence": "high"},
+ {"needs": "hom-vitamins-minerals-s1", "strength": "helpful", "why": "uses vitamins A and D in milk", "confidence": "low"}
+],
+"hom-dairy-eggs-s2": [
+ {"needs": "hom-food-preservation-s3", "strength": "essential", "why": "uses pasteurisation, sterilisation and UHT principles", "confidence": "high"},
+ {"needs": "hom-food-safety-s3", "strength": "helpful", "why": "uses microbial spoilage control", "confidence": "high"},
+ {"needs": "hom-dairy-eggs-s1", "strength": "helpful", "why": "uses milk composition and types", "confidence": "low"}
+],
+"hom-dairy-eggs-s3": [
+ {"needs": "hom-food-safety-s4", "strength": "essential", "why": "uses lactic acid bacteria in yoghurt manufacture", "confidence": "high"},
+ {"needs": "hom-dairy-eggs-s2", "strength": "helpful", "why": "uses milk processing for cream and yoghurt", "confidence": "high"},
+ {"needs": "hom-dairy-eggs-s1", "strength": "helpful", "why": "uses milk composition", "confidence": "high"},
+ {"needs": "hom-lipids-s6", "strength": "helpful", "why": "uses butter and spreads as fats", "confidence": "low"}
+],
+"hom-dairy-eggs-s4": [
+ {"needs": "hom-food-safety-s4", "strength": "essential", "why": "uses starter cultures and moulds in cheese", "confidence": "high"},
+ {"needs": "hom-proteins-s4", "strength": "essential", "why": "uses casein coagulation by rennet", "confidence": "high"},
+ {"needs": "hom-proteins-s5", "strength": "helpful", "why": "uses coagulation and effect of heat on protein", "confidence": "high"},
+ {"needs": "hom-dairy-eggs-s1", "strength": "helpful", "why": "uses milk composition", "confidence": "high"}
+],
+"hom-dairy-eggs-s5": [
+ {"needs": "hom-proteins-s4", "strength": "helpful", "why": "uses albumin as egg protein", "confidence": "high"},
+ {"needs": "hom-proteins-s7", "strength": "helpful", "why": "uses egg as high biological value protein", "confidence": "low"}
+],
+"hom-dairy-eggs-s6": [
+ {"needs": "hom-dairy-eggs-s5", "strength": "essential", "why": "uses egg structure for selection and properties", "confidence": "high"},
+ {"needs": "hom-proteins-s5", "strength": "essential", "why": "uses coagulation, foam formation and denaturation", "confidence": "high"},
+ {"needs": "hom-lipids-s4", "strength": "helpful", "why": "uses emulsion formation and emulsifiers", "confidence": "high"},
+ {"needs": "hom-food-safety-s6", "strength": "helpful", "why": "uses safe storage of eggs", "confidence": "low"}
+],
+"hom-digestion-metabolism-s1": [
+ {"needs": "hom-proteins-s1", "strength": "essential", "why": "uses amino acids, peptide bonds and hydrolysis", "confidence": "high"}
+],
+"hom-digestion-metabolism-s2": [
+ {"needs": "hom-carbohydrates-s2", "strength": "essential", "why": "uses starch, disaccharides and monosaccharides", "confidence": "high"}
+],
+"hom-digestion-metabolism-s3": [
+ {"needs": "hom-lipids-s2", "strength": "essential", "why": "uses triglyceride structure for lipase hydrolysis", "confidence": "high"},
+ {"needs": "hom-lipids-s1", "strength": "helpful", "why": "uses fatty acids as digestion products", "confidence": "high"}
+],
+"hom-education-s1": [
+ {"needs": "hom-sociological-concepts-s3", "strength": "essential", "why": "uses socialisation and agents of socialisation", "confidence": "high"},
+ {"needs": "hom-sociological-concepts-s4", "strength": "helpful", "why": "uses education as a social institution", "confidence": "high"}
+],
+"hom-education-s2": [
+ {"needs": "hom-sociological-concepts-s2", "strength": "helpful", "why": "uses socio-economic groupings and social mobility", "confidence": "high"},
+ {"needs": "hom-education-s1", "strength": "helpful", "why": "uses the purposes of education", "confidence": "low"}
+],
+"hom-education-s3": [
+ {"needs": "hom-education-s1", "strength": "helpful", "why": "uses the purposes of education", "confidence": "low"}
+],
+"hom-education-s4": [
+ {"needs": "hom-sociological-concepts-s4", "strength": "essential", "why": "uses education and equality of opportunity concept", "confidence": "high"},
+ {"needs": "hom-education-s2", "strength": "helpful", "why": "uses factors that influence achievement", "confidence": "high"},
+ {"needs": "hom-education-s3", "strength": "helpful", "why": "uses provision of education in Ireland", "confidence": "high"},
+ {"needs": "hom-sociological-concepts-s2", "strength": "helpful", "why": "uses socio-economic groupings", "confidence": "low"}
+],
+"hom-education-s5": [
+ {"needs": "hom-education-s4", "strength": "essential", "why": "initiatives address inequality of opportunity", "confidence": "high"},
+ {"needs": "hom-education-s3", "strength": "essential", "why": "uses structure of education provision", "confidence": "high"}
+]
+}

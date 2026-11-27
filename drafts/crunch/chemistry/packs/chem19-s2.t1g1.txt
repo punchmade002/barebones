@@ -1,0 +1,393 @@
+MODE: cost and links
+TARGET chem19-s2: 2. pH calculations and dissociation constants
+[chem19-s2.0.b] pH is a number that measures how acidic a solution is: pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen ions in mol L⁻¹ (M means mol L⁻¹). A strong acid ionises completely, so its [H⁺] can be read straight from the concentration of the acid.
+[chem19-s2.0.0] A strong acid is fully dissociated (every molecule splits into ions), so [H⁺] = concentration of the acid × number of H⁺ released per formula unit (its basicity, the number of H⁺ each unit of acid can give).
+[chem19-s2.0.1] Monoprotic (monobasic) strong acids, which release one H⁺ each, such as HCl and HNO₃, give [H⁺] = [acid], because each molecule supplies exactly one H⁺.
+[chem19-s2.0.2] For example, 0.010 M HCl has [H⁺] = 0.010 mol L⁻¹, so pH = −log₁₀(0.010) = 2.00.
+[chem19-s2.0.3] For example, 0.025 M HCl has pH = −log₁₀(0.025) = 1.60.
+[chem19-s2.0.4] Sulfuric acid is diprotic (it can release two H⁺) and is treated as fully dissociated: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × [H₂SO₄].
+[chem19-s2.0.5] For example, 0.050 M H₂SO₄ has [H⁺] = 0.10 mol L⁻¹, so pH = 1.00.
+[chem19-s2.1.b] Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.
+[chem19-s2.1.0] Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.
+[chem19-s2.1.1] Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹, because 250 cm³ is 0.250 L.
+[chem19-s2.1.2] Step 2: Concentration in mol L⁻¹ = 20 ÷ 98 = 0.204 mol L⁻¹, dividing by the molar mass.
+[chem19-s2.1.3] Step 3: [H⁺] = 2 × 0.204 = 0.408 mol L⁻¹, because each H₂SO₄ releases 2H⁺.
+[chem19-s2.1.4] Step 4: pH = −log₁₀(0.408) = 0.39.
+[chem19-s2.2.b] A strong base is treated like a strong acid, except that it supplies OH⁻ (hydroxide ions) rather than H⁺. So you find [OH⁻] first and then convert it to a pH.
+[chem19-s2.2.0] A strong base is fully dissociated, so [OH⁻] = concentration of the base × number of OH⁻ per formula unit: NaOH and KOH give 1 OH⁻, while Ca(OH)₂ gives 2.
+[chem19-s2.2.1] Method: find [OH⁻], then pOH = −log₁₀[OH⁻] (pOH is the same scale as pH but for OH⁻); pH = 14 − pOH at 25 °C, because pH + pOH = 14 only at that temperature.
+[chem19-s2.2.2] Alternative method: [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹⁴ ÷ [OH⁻] (Kw is the ionic product of water, [H⁺][OH⁻]), then pH = −log₁₀[H⁺]; both methods give the same answer.
+[chem19-s2.2.3] For example, 0.010 M NaOH has [OH⁻] = 0.010, so pOH = 2.00 and pH = 14 − 2.00 = 12.00.
+[chem19-s2.2.4] For example, 0.15 M NaOH has pOH = −log₁₀(0.15) = 0.82, so pH = 13.18.
+[chem19-s2.2.5] For example, 0.010 M Ca(OH)₂ dissociates as Ca(OH)₂ → Ca²⁺ + 2OH⁻, so [OH⁻] = 0.020 mol L⁻¹, pOH = 1.70 and pH = 12.30.
+[chem19-s2.2.6] Example from a mass: 9.0 g of KOH (56 g mol⁻¹) made up to 500 cm³ gives 18 g L⁻¹ ÷ 56 = 0.321 mol L⁻¹ = [OH⁻].
+[chem19-s2.2.7] For the KOH example, pOH = 0.49 and pH = 13.51.
+[chem19-s2.3.b] A weak acid dissociates only slightly, so you cannot take [H⁺] equal to its concentration. Instead you use Ka, the acid dissociation constant, a number that measures how far the acid dissociates (the larger the Ka, the stronger the acid).
+[chem19-s2.3.0] A weak acid is only slightly dissociated, so [H⁺] is much less than the acid concentration and must be found from Ka.
+[chem19-s2.3.1] Formula: [H⁺] = √(Ka × c), where c is the concentration of the acid in mol L⁻¹; this formula must be learned, because it is not in the Formulae and Tables booklet.
+[chem19-s2.3.2] It assumes the acid is monoprotic (gives one H⁺ per molecule), that the amount dissociated is very small compared with c (so c − x ≈ c, where x is the amount that dissociates), and that the H⁺ from water is negligible.
+[chem19-s2.3.3] The approximation is good: the exact quadratic answer for 0.10 M ethanoic acid is pH 2.88, so the formula is good to about 0.01 pH unit.
+[chem19-s2.4.b] Once [H⁺] is found from √(Ka × c), the pH follows with −log₁₀ as for any acid. These examples use Ka values at 25 °C.
+[chem19-s2.4.0] For example, 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵ has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.4.1] So its pH = −log₁₀(1.34 × 10⁻³) = 2.87.
+[chem19-s2.4.2] For example, 0.50 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.50) = √(9.0 × 10⁻⁶) = 3.0 × 10⁻³ mol L⁻¹, so pH = 2.52.
+[chem19-s2.4.3] For example, 0.10 M methanoic acid with Ka = 1.8 × 10⁻⁴ has [H⁺] = √(1.8 × 10⁻⁵) = 4.24 × 10⁻³ mol L⁻¹, so pH = 2.37.
+[chem19-s2.4.4] Methanoic acid has a lower pH than ethanoic acid at the same concentration, because it is the stronger acid (larger Ka).
+[chem19-s2.4.5] Example from a mass: 1.48 g of propanoic acid (CH₃CH₂COOH, 74 g mol⁻¹) in 200 cm³ gives moles = 1.48 ÷ 74 = 0.0200 mol.
+[chem19-s2.4.6] Concentration c = 0.0200 ÷ 0.200 = 0.100 mol L⁻¹, with the volume converted to litres.
+[chem19-s2.4.7] With Ka = 1.3 × 10⁻⁵, [H⁺] = √(1.3 × 10⁻⁵ × 0.100) = 1.14 × 10⁻³ mol L⁻¹, so pH = 2.94.
+[chem19-s2.5.b] A weak base reacts only slightly with water to give OH⁻, so it is handled like a weak acid but with Kb, the base dissociation constant (a measure of how far the base dissociates). You find [OH⁻] first.
+[chem19-s2.5.0] Formula: [OH⁻] = √(Kb × c), with the same assumptions as for weak acids (the amount dissociated is very small compared with c, and OH⁻ from water is negligible); then pOH = −log₁₀[OH⁻] and pH = 14 − pOH.
+[chem19-s2.5.1] For example, 0.10 M ammonia with Kb = 1.8 × 10⁻⁵ has [OH⁻] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.5.2] So its pOH = 2.87 and pH = 14 − 2.87 = 11.13.
+[chem19-s2.5.3] For example, 0.050 M ammonia has [OH⁻] = √(1.8 × 10⁻⁵ × 0.050) = 9.49 × 10⁻⁴ mol L⁻¹, so pOH = 3.02 and pH = 10.98.
+[chem19-s2.6.b] Sometimes the pH is given and you must work backwards to a concentration or to Ka. Undo the log with 10 raised to the power of minus pH.
+[chem19-s2.6.0] Concentration of a strong acid from its pH: for a monoprotic acid, [acid] = [H⁺] = 10⁻ᵖᴴ, because pH = −log₁₀[H⁺].
+[chem19-s2.6.1] For example, a strong monoprotic acid HX with pH 5.65 has [HX] = 10⁻⁵·⁶⁵ = 2.24 × 10⁻⁶ mol L⁻¹.
+[chem19-s2.6.2] [OH⁻] from pH: [OH⁻] = Kw ÷ [H⁺], where Kw is 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.6.3] For example, at pH 5.65, pOH = 14 − 5.65 = 8.35, so [OH⁻] = 10⁻⁸·³⁵ = 4.47 × 10⁻⁹ mol L⁻¹, the same as 1.0 × 10⁻¹⁴ ÷ 10⁻⁵·⁶⁵.
+[chem19-s2.6.4] Ka of a weak acid from its pH: [H⁺] = 10⁻ᵖᴴ, then Ka = [H⁺]² ÷ c, which is the formula [H⁺] = √(Ka × c) rearranged.
+[chem19-s2.6.5] For example, a 0.10 M weak monoprotic acid with pH 3.00 has [H⁺] = 1.0 × 10⁻³, so Ka = (1.0 × 10⁻³)² ÷ 0.10 = 1.0 × 10⁻⁵.
+[chem19-s2.6.6] Concentration of a weak acid from its pH and Ka: c = [H⁺]² ÷ Ka.
+[chem19-s2.6.7] For example, ethanoic acid of pH 3.00 has c = (1.0 × 10⁻³)² ÷ 1.8 × 10⁻⁵ = 0.0556 mol L⁻¹.
+[chem19-s2.7.b] Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.
+[chem19-s2.7.0] First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).
+[chem19-s2.7.1] For any base, find [OH⁻] first, then convert to pH; do not put [OH⁻] into −log₁₀ and call the result pH.
+[chem19-s2.7.2] Convert masses to mol L⁻¹ first: n = m ÷ M (moles = mass ÷ molar mass), then c = n ÷ V, with V in litres.
+[chem19-s2.7.3] Check that the answer is sensible: acids have pH below 7, bases have pH above 7, and a weak acid has a higher pH than a strong acid of the same concentration.
+[chem19-s2.7.4] Give pH answers to two decimal places.
+[chem19-s2.8.b] When an acid or base dissolves in water, it splits into ions; this is called dissociation. Writing the equation for it is the starting point for strength and for the dissociation constants that follow.
+[chem19-s2.8.0] A general acid is written HA; in water it dissociates by donating a proton (an H⁺ ion) to water: HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or simply HA(aq) ⇌ H⁺(aq) + A⁻(aq).
+[chem19-s2.8.1] For example, ethanoic acid dissociates as CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq); A⁻ is the ethanoate ion.
+[chem19-s2.8.2] A general base that contains hydroxide is written BOH: BOH(aq) ⇌ B⁺(aq) + OH⁻(aq).
+[chem19-s2.8.3] A base such as ammonia, written B, produces OH⁻ by accepting a proton from water: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem19-s2.8.4] Here B⁺ is the ammonium ion, NH₄⁺ (BH⁺ in some books).
+[chem19-s2.8.5] For a strong acid or base the dissociation goes to completion, shown by a single arrow (→); for a weak acid or base it is an equilibrium (⇌, a reaction that runs both ways) that lies well to the left, so most of the molecules stay undissociated.
+[chem19-s2.9.b] The acid dissociation constant Ka comes from the equilibrium constant Kc (products over reactants, each concentration in mol L⁻¹) for the acid reacting with water. Water is then left out, for a reason you can state.
+[chem19-s2.9.0] Step 1: Write the equilibrium: HA + H₂O ⇌ H₃O⁺ + A⁻.
+[chem19-s2.9.1] Step 2: Write Kc as products over reactants: Kc = [H₃O⁺][A⁻] ÷ ([HA][H₂O]).
+[chem19-s2.9.2] Step 3: In a dilute solution [H₂O] is effectively constant (55.6 mol L⁻¹, from 1000 ÷ 18), because so little water reacts; so it is combined with Kc: Ka = Kc × [H₂O].
+[chem19-s2.9.3] Result: Ka = [H₃O⁺][A⁻] ÷ [HA], or in simplified form Ka = [H⁺][A⁻] ÷ [HA]; Ka is the acid dissociation constant.
+[chem19-s2.9.4] Example: for ethanoic acid, Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.9.5] The units of Ka are mol L⁻¹ (concentration² ÷ concentration); they are often omitted.
+[chem19-s2.10.b] The base dissociation constant Kb is found by exactly the same steps as Ka, using the equilibrium of a base with water.
+[chem19-s2.10.0] For B + H₂O ⇌ B⁺ + OH⁻ (or BOH ⇌ B⁺ + OH⁻), the same steps give the base dissociation constant: Kb = [B⁺][OH⁻] ÷ [B] (or [B⁺][OH⁻] ÷ [BOH]).
+[chem19-s2.10.1] [H₂O] is again effectively constant and is absorbed into Kb, so it does not appear in the expression.
+[chem19-s2.10.2] Example: for ammonia, Kb = [NH₄⁺][OH⁻] ÷ [NH₃] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.11.b] Ka and Kb are equilibrium constants, so a large value means the equilibrium lies far to the right and a small value means it lies far to the left. This makes them a direct measure of strength.
+[chem19-s2.11.0] Ka measures the strength of an acid, its tendency to donate a proton: the larger Ka, the further the equilibrium lies to the right and the stronger the acid.
+[chem19-s2.11.1] Likewise, the larger Kb, the stronger the base.
+[chem19-s2.11.2] Weak acids have small Ka values (much less than 1): methanoic acid 1.8 × 10⁻⁴, benzoic acid 6.3 × 10⁻⁵, ethanoic acid 1.8 × 10⁻⁵, propanoic acid 1.3 × 10⁻⁵ (strongest to weakest).
+[chem19-s2.11.3] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) dissociate essentially completely, so their Ka or Kb values are very large and the expressions are not used.
+[chem19-s2.11.4] Ka and Kb are used for weak acids and bases.
+[chem19-s2.11.5] Like all equilibrium constants, Ka and Kb are constant at a given temperature and do not change with concentration; values are quoted at 25 °C.
+[chem19-s2.12.b] The weak acid formula comes from the Ka expression plus one approximation. If you can show these four steps, you can state the formula and the assumption behind it.
+[chem19-s2.12.0] Step 1: Start with c mol L⁻¹ of a weak acid HA, of which x mol L⁻¹ dissociates. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x, because each HA that dissociates gives one H⁺ and one A⁻.
+[chem19-s2.12.1] Step 2: Ka = x × x ÷ (c − x) = x² ÷ (c − x).
+[chem19-s2.12.2] Step 3: A weak acid dissociates so little that x is tiny compared with c, so c − x ≈ c and Ka = x² ÷ c.
+[chem19-s2.12.3] Step 4: x² = Ka × c, so [H⁺] = √(Ka × c).
+[chem19-s2.12.4] The same steps for a weak base give [OH⁻] = √(Kb × c); the formulas are used in the weak acid and weak base calculations earlier in this subsection.
+[chem19-s2.13.b] Strength describes how far an acid or base splits into ions. The degree of dissociation puts a number on this, and it is what separates strong from weak.
+[chem19-s2.13.0] The degree of dissociation is the fraction of acid (or base) molecules that have dissociated into ions in solution; as a percentage, % dissociation = (concentration dissociated ÷ initial concentration) × 100.
+[chem19-s2.13.1] For an acid HA, % dissociation = ([H⁺] at equilibrium ÷ initial [HA]) × 100; for a base, % dissociation = ([OH⁻] ÷ initial [base]) × 100.
+[chem19-s2.13.2] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) are essentially 100% dissociated in dilute solution, because the reaction goes to completion.
+[chem19-s2.13.3] Weak acids (e.g. ethanoic acid) and weak bases (e.g. ammonia) are only slightly dissociated, typically a few per cent or less.
+[chem19-s2.13.4] For example, 0.10 M ethanoic acid is about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH.
+[chem19-s2.13.5] So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium.
+[chem19-s2.13.6] In Brønsted–Lowry terms (acids donate protons, bases accept them), a strong acid is a good proton donor whose conjugate base (the ion left after it loses H⁺, e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.
+[chem19-s2.13.7] A weak acid's conjugate base (e.g. CH₃COO⁻) readily takes the proton back, so the equilibrium lies to the left.
+[chem19-s2.14.b] Ka and Kb let you rank weak acids and bases and work out their percentage dissociation. Compare them only at the same concentration and temperature.
+[chem19-s2.14.0] At the same concentration and temperature, the acid with the larger Ka is dissociated to a greater degree and is the stronger acid; the base with the larger Kb is the stronger base.
+[chem19-s2.14.1] For example, methanoic acid (Ka 1.8 × 10⁻⁴) is a stronger acid than ethanoic acid (Ka 1.8 × 10⁻⁵): at 0.10 M, methanoic acid is 4.2% dissociated and ethanoic acid 1.3%.
+[chem19-s2.14.2] Formula: degree of dissociation (as a fraction) = [H⁺] ÷ c = √(Ka × c) ÷ c = √(Ka ÷ c); for a weak base, the same form is √(Kb ÷ c).
+[chem19-s2.14.3] Worked example: 0.10 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.14.4] Its % dissociation = (1.34 × 10⁻³ ÷ 0.10) × 100 = 1.34%.
+[chem19-s2.14.5] Worked example: 0.10 M ammonia (Kb 1.8 × 10⁻⁵) has [OH⁻] = 1.34 × 10⁻³ mol L⁻¹, so 1.34% of the ammonia has reacted to form NH₄⁺ and OH⁻.
+[chem19-s2.14.6] A very small Ka (or Kb) means a very low degree of dissociation; the Ka values of strong acids are so large that dissociation is complete, which is why Ka is used only to compare weak acids.
+[chem19-s2.15.b] Diluting a weak acid does not change Ka, but it does change how much of the acid is dissociated. The percentage dissociation and the [H⁺] move in opposite directions.
+[chem19-s2.15.0] Ka is constant at a given temperature, but the degree of dissociation of a weak acid increases as the solution is diluted, because √(Ka ÷ c) gets larger as c gets smaller.
+[chem19-s2.15.1] For example, ethanoic acid is 0.42% dissociated at 1.0 M, 1.34% at 0.10 M and 4.2% at 0.010 M.
+[chem19-s2.15.2] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.
+[chem19-s2.15.3] Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises.
+[chem19-s2.15.4] A strong acid is fully dissociated at every dilute concentration, so its degree of dissociation does not change on dilution.
+[chem19-s2.16.b] An acid and the base left after it loses H⁺ are a conjugate acid–base pair. Their dissociation constants are linked through Kw, the ionic product of water.
+[chem19-s2.16.0] For a conjugate acid–base pair in water, Ka (of the acid) × Kb (of its conjugate base) = Kw = 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.16.1] So the larger the Ka of an acid, the smaller the Kb of its conjugate base: the stronger the acid, the weaker its conjugate base.
+[chem19-s2.16.2] Example: Kb of the ethanoate ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+[chem19-s2.16.3] Example: Ka of the ammonium ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+
+CANDIDATES chem19-s1: 1. Self-ionisation of water and pH
+[chem19-s1.0.b] Even perfectly pure water contains a very small number of ions, made when water molecules pass protons (hydrogen ions, H⁺) to each other. This is the starting point for understanding pH, because it fixes what 'neutral' means.
+[chem19-s1.0.0] Pure water conducts electricity very slightly, so it must contain a small number of ions, since only moving charged particles can carry current through a liquid.
+[chem19-s1.0.1] These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another. This is a Brønsted–Lowry acid–base reaction (an acid gives a proton, a base accepts it): H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).
+[chem19-s1.0.2] H₃O⁺ is the hydronium ion (a water molecule carrying an extra proton) and OH⁻ is the hydroxide ion. The double arrow shows an equilibrium, a reaction going both ways at the same rate so that amounts stay constant.
+[chem19-s1.0.3] In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). This is the same change with the proton written as H⁺ instead of showing it attached to a water molecule.
+[chem19-s1.0.4] The equilibrium lies very far to the left, so almost all the water stays as molecules: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.
+[chem19-s1.0.5] In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻]. Square brackets mean concentration in mol L⁻¹.
+[chem19-s1.0.6] A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]. Even acidic solutions contain some OH⁻ and basic solutions contain some H⁺.
+[chem19-s1.1.b] Because water ionises only slightly, its equilibrium constant can be simplified into a single value, the ionic product of water, Kw. Work through it one step at a time.
+[chem19-s1.1.0] Step 1: Write the equilibrium constant (Kc, the ratio of product concentrations to reactant concentration at equilibrium) for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].
+[chem19-s1.1.1] Step 2: So little water ionises that [H₂O] is effectively constant, because almost every molecule is unchanged: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.
+[chem19-s1.1.2] Step 3: Combine the two constants: Kc × [H₂O] = [H⁺][OH⁻]. This new constant is the ionic product of water, Kw.
+[chem19-s1.1.3] Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations in water or any dilute aqueous solution.
+[chem19-s1.1.4] At 25 °C, Kw = 1.0 × 10⁻¹⁴ (units mol² L⁻², often omitted).
+[chem19-s1.2.b] Kw links [H⁺] and [OH⁻] in every dilute aqueous solution. It explains why pure water has pH 7 and lets you find one concentration from the other.
+[chem19-s1.2.0] Pure water at 25 °C has [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴.
+[chem19-s1.2.1] Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹.
+[chem19-s1.2.2] So pH = −log₁₀(1.0 × 10⁻⁷) = 7.0, which is why pH 7 is neutral at 25 °C.
+[chem19-s1.2.3] Kw applies to every dilute aqueous solution, not just pure water: if [H⁺] rises, [OH⁻] falls so that the product stays 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s1.2.4] Example: a solution with [H⁺] = 1.0 × 10⁻² mol L⁻¹ (pH 2) has [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² = 1.0 × 10⁻¹² mol L⁻¹.
+[chem19-s1.2.5] Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.3.b] Kw is an equilibrium constant, so it depends on temperature. The direction of the change follows from whether self-ionisation takes in or gives out heat.
+[chem19-s1.3.0] Self-ionisation is endothermic (it takes in heat) in the forward direction, with ΔH about +56 kJ mol⁻¹. It is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic (gives out heat).
+[chem19-s1.3.1] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), raising the temperature shifts the equilibrium to the right, the endothermic direction. This produces more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.
+[chem19-s1.3.2] Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.
+[chem19-s1.4.b] Because Kw rises with temperature, the pH of pure water falls as it gets hotter, yet the water is still neutral. Neutral is defined by [H⁺] = [OH⁻], not by a fixed pH.
+[chem19-s1.4.0] Kw at 0 °C is 1.1 × 10⁻¹⁵, giving a neutral pH of 7.48.
+[chem19-s1.4.1] Kw at 25 °C is 1.0 × 10⁻¹⁴, giving a neutral pH of 7.00.
+[chem19-s1.4.2] Kw at 50 °C is 5.5 × 10⁻¹⁴, giving a neutral pH of 6.63.
+[chem19-s1.4.3] Kw at 100 °C is 5.1 × 10⁻¹³, giving a neutral pH of 6.15.
+[chem19-s1.4.4] Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.
+[chem19-s1.4.5] The neutral pH is therefore lower at higher temperatures and higher at lower temperatures, so pH 7 is the neutral point only at 25 °C.
+[chem19-s1.5.b] Concentrations of H⁺ in solutions are often tiny numbers such as 0.0000001 mol L⁻¹. The pH scale turns them into easy numbers, usually between 0 and 14.
+[chem19-s1.5.0] pH is defined as pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen (hydronium) ions in mol L⁻¹.
+[chem19-s1.5.1] The scale was introduced by the Danish chemist Søren Sørensen in 1909, while working at the Carlsberg Laboratory in Copenhagen, as a convenient way to express very small [H⁺] values.
+[chem19-s1.5.2] At 25 °C, pH below 7 is acidic, pH 7 is neutral and pH above 7 is basic (alkaline); the lower the pH, the more acidic the solution.
+[chem19-s1.5.3] Where [H⁺] = 10⁻ˣ mol L⁻¹, the pH is x: for example, [H⁺] = 10⁻⁴ mol L⁻¹ gives pH 4.
+[chem19-s1.5.4] The scale is logarithmic (each step multiplies by a fixed factor): a change of 1 pH unit is a tenfold change in [H⁺]. A solution of pH 3 has 10 times the [H⁺] of one of pH 4 and 100 times that of one of pH 5.
+[chem19-s1.6.b] Putting numbers on familiar substances helps you judge whether a calculated pH is sensible. These values are approximate.
+[chem19-s1.6.0] Stomach acid has a pH of about 1–2; lemon juice about 2–3; vinegar about 3. These are acidic.
+[chem19-s1.6.1] Pure water has pH 7, and blood 7.35–7.45.
+[chem19-s1.6.2] Baking soda solution has a pH of about 8–9; milk of magnesia about 10.5. These are weakly basic.
+[chem19-s1.6.3] Household ammonia has a pH of about 11–12; oven cleaner (sodium hydroxide) about 13–14. These are strongly basic.
+[chem19-s1.7.b] Exam questions give you either [H⁺] or the pH and ask for the other. Each direction uses the same relationship, worked here with sample numbers.
+[chem19-s1.7.0] From [H⁺] to pH: pH = −log₁₀[H⁺]. For example, [H⁺] = 3.5 × 10⁻⁴ mol L⁻¹ gives pH = −log₁₀(3.5 × 10⁻⁴) = 3.46.
+[chem19-s1.7.1] For example, [H⁺] = 7.1 × 10⁻⁷ mol L⁻¹ gives pH = 6.15, which is slightly acidic at 25 °C because it is below 7.
+[chem19-s1.7.2] From pH to [H⁺]: [H⁺] = 10⁻ᵖᴴ, the antilog (the reverse of log) of −pH. For example, pH 3.7 gives [H⁺] = 10⁻³·⁷ = 2.00 × 10⁻⁴ mol L⁻¹.
+[chem19-s1.7.3] For example, pH 8.6 gives [H⁺] = 10⁻⁸·⁶ = 2.51 × 10⁻⁹ mol L⁻¹.
+[chem19-s1.7.4] On a calculator, use the log key with a minus sign to find pH, and the 10ˣ key (or inverse log) with −pH to find [H⁺]; give pH to two decimal places unless the question asks otherwise.
+[chem19-s1.8.b] The pH scale works well for the dilute aqueous solutions met in most experiments, but it breaks down outside them.
+[chem19-s1.8.0] It is normally used only between 0 and 14; very concentrated acids and alkalis go outside this range, where pH is not a convenient measure.
+[chem19-s1.8.1] For example, 2.0 M HCl has pH −log₁₀(2.0) = −0.30, a negative value.
+[chem19-s1.8.2] It is reliable only for dilute solutions; in concentrated solutions (above about 1 mol L⁻¹) the ions interact and the measured pH no longer matches −log₁₀ of the concentration.
+[chem19-s1.8.3] It applies only to aqueous solutions (those with water as the solvent).
+[chem19-s1.8.4] pH 7 is neutral only at 25 °C, because Kw and so the neutral pH change with temperature.
+[chem19-s1.9.b] The simplest way to find a pH is with an indicator, a dye that changes colour with the pH of the solution. Indicators are quick but not precise.
+[chem19-s1.9.0] Universal indicator (solution or paper): add a few drops to the solution, or dip in a strip of paper, and compare the colour with the colour chart. It gives the pH only to about the nearest whole unit. There is more on its colours in Acids, bases and their reactions.
+[chem19-s1.9.1] Single indicators such as litmus, methyl orange and phenolphthalein show only whether the pH is above or below their colour-change range, not a pH value.
+[chem19-s1.10.b] A pH meter gives a numerical reading, but it must be calibrated (set against known values) and looked after to be accurate.
+[chem19-s1.10.0] A pH meter (or pH sensor with a data-logger, a device that records readings automatically) uses a glass electrode probe that responds to [H⁺] and gives a digital reading, usually to 0.01 pH units.
+[chem19-s1.10.1] Calibrate the meter before use: place the rinsed probe in buffer solutions of known pH (e.g. pH 4.00 and 7.00, or 7.00 and 10.00) and set the meter to read these values.
+[chem19-s1.10.2] A buffer solution resists a change in pH when small amounts of acid or base are added, so its pH is reliably known. This is why buffers, not water or an acid of supposedly known pH, are used to calibrate.
+[chem19-s1.10.3] Rinse the probe with deionised water (water with dissolved ions removed) between solutions and blot it dry gently, so one solution does not contaminate the next; store the bulb wet, as directed.
+[chem19-s1.11.b] Exams ask for reasons why a meter is preferred, so know each advantage and what it improves.
+[chem19-s1.11.0] A pH meter gives a precise numerical value (e.g. 4.72) rather than an estimate to the nearest whole unit.
+[chem19-s1.11.1] A pH meter needs no judgement of colour, which varies from person to person and with lighting.
+[chem19-s1.11.2] A pH meter works in coloured or cloudy solutions, where an indicator colour cannot be seen.
+[chem19-s1.11.3] A pH meter can record pH continuously, which suits following a reaction over time, as in pH titration curves.
+[chem19-s1.12.b] The aim is to compare the pH of several substances by two methods and check that they agree.
+[chem19-s1.12.0] Aim: to measure and compare the pH of everyday substances, e.g. vinegar, lemon juice, a soft drink, tap water, toothpaste or an antacid tablet mixed with deionised water, and baking soda solution.
+[chem19-s1.12.1] Step 1: Put about 20 cm³ of each sample in a clean, labelled beaker.
+[chem19-s1.12.2] Step 2: Test each sample with universal indicator paper and record the pH from the colour chart.
+[chem19-s1.12.3] Step 3: Measure each sample with a calibrated pH meter, rinsing the probe between samples.
+[chem19-s1.12.4] Step 4: Repeat each reading.
+[chem19-s1.12.5] Use deionised water to dissolve or mix solids, because tap water may contain dissolved substances that change the pH.
+[chem19-s1.12.6] Diagram: a pH probe in a beaker of sample, connected to a meter (or data-logger) showing a digital reading.
+[chem19-s1.12.7] Diagram: universal indicator paper beside its colour chart.
+[chem19-s1.13.b] After the readings, rank the substances, compare the two methods and take care with hazards and errors.
+[chem19-s1.13.0] Results: record both sets of readings in a table and rank the substances from most acidic to most basic.
+[chem19-s1.13.1] The meter readings are more precise, and the two methods should agree to about one unit, because universal indicator reads only to about the nearest whole unit.
+[chem19-s1.13.2] Safety: wear goggles; treat oven cleaner and other strong alkalis as corrosive (use gloves, small volumes, or omit them); do not taste any sample.
+[chem19-s1.13.3] Sources of error: a probe that is not calibrated or not rinsed; a temperature different from the calibration temperature; misjudging indicator colours.
+[chem19-s1.14.b] The pH depends on the [H⁺] in the solution, which depends on how far the acid dissociates (splits into ions) and on its concentration. A strong acid dissociates almost completely; a weak acid only partly, measured by its Ka (the acid dissociation constant).
+[chem19-s1.14.0] Tendency to dissociate: at the same concentration, a strong acid has a lower pH than a weak acid.
+[chem19-s1.14.1] For example, 0.10 M HCl has pH 1.00, but 0.10 M ethanoic acid (Ka 1.8 × 10⁻⁵) has pH 2.87, because the weak acid is only about 1% dissociated.
+[chem19-s1.14.2] Concentration: diluting an acid lowers [H⁺] and raises the pH.
+[chem19-s1.14.3] Diluting a strong acid ten times raises its pH by 1: 0.10 M HCl has pH 1.00 and 0.010 M HCl has pH 2.00.
+[chem19-s1.14.4] Diluting a weak acid ten times raises its pH by only about 0.5: 0.10 M ethanoic acid has pH 2.87 and 0.010 M has pH 3.37.
+[chem19-s1.14.5] This is because [H⁺] depends on the square root of the concentration, and dilution makes a weak acid dissociate a larger fraction. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.15.b] Temperature changes pH because it changes Kw, Ka and Kb (the dissociation constants of water, weak acids and weak bases).
+[chem19-s1.15.0] Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls, to 6.15 at 100 °C.
+[chem19-s1.15.1] Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.
+[chem19-s1.15.2] For a base, the pH also changes with temperature at fixed [OH⁻], because [H⁺] = Kw ÷ [OH⁻] and Kw changes.
+[chem19-s1.15.3] For example, 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C, because Kw is larger at 50 °C so [H⁺] is larger.
+[chem19-s1.16.b] Strength and pH are different ideas. Strength is how far an acid dissociates; pH is the [H⁺] actually present, which also depends on concentration.
+[chem19-s1.16.0] pH measures acidity (the [H⁺] in the solution), not the strength of the acid: a very dilute strong acid can have a higher pH than a concentrated weak acid.
+[chem19-s1.16.1] For example, 1.0 × 10⁻⁵ M HCl has pH 5.00, while 1.0 M ethanoic acid has pH 2.37.
+
+CANDIDATES chem18-s1: 1. Dynamic equilibrium and Kc
+[chem18-s1.0.b] Some reactions run to completion; others reach a balance in which the forward and reverse reactions both continue. Telling the two types apart is the starting point for the whole chapter.
+[chem18-s1.0.0] Some reactions go to completion: the reactants are converted completely into products and the reaction cannot easily be reversed, e.g. burning magnesium, 2Mg(s) + O₂(g) → 2MgO(s).
+[chem18-s1.0.1] A reversible reaction is one in which the products can react to form the reactants again, so both the forward and the reverse reactions take place. It is shown by the sign ⇌, a double arrow.
+[chem18-s1.0.2] The forward reaction is the one from left to right as written; the reverse (back) reaction is from right to left. Both are always labelled relative to how the equation is written.
+[chem18-s1.0.3] The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), makes ammonia from nitrogen and hydrogen. It is named after Fritz Haber (1868–1934); Carl Bosch (1874–1940) developed it industrially.
+[chem18-s1.0.4] Hydrogen and iodine react reversibly: H₂(g) + I₂(g) ⇌ 2HI(g), where HI is hydrogen iodide gas.
+[chem18-s1.0.5] Esterification (an acid reacting with an alcohol to make an ester and water) is reversible: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.0.6] Nitrogen dioxide and dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). NO₂ is brown and N₂O₄ is colourless, so the colour of the mixture shows how far the reaction has moved.
+[chem18-s1.0.7] Weak acids (acids that only partly split into ions in water) and acid–base indicators (dyes that change colour with acidity) are also reversible, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq) and HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s1.1.b] In a reversible reaction in a sealed container, the mixture settles into a balance. At chemical equilibrium both reactions continue, and their rates are equal.
+[chem18-s1.1.0] Chemical equilibrium is a state of dynamic balance in a reversible reaction in which the rate of the forward reaction (how fast reactants turn into products) equals the rate of the reverse reaction.
+[chem18-s1.1.1] It is called dynamic because both reactions are still happening: reactant particles are still forming products and product particles are still forming reactants, at the same rate.
+[chem18-s1.1.2] Because substances are formed and used up at the same rate, their concentrations (amounts per litre) stay constant at equilibrium, so observable properties such as colour, pressure and density stop changing.
+[chem18-s1.1.3] The concentrations are constant but not equal: at equilibrium there may be much more product than reactant, or the reverse. It is the rates that are equal, not the amounts.
+[chem18-s1.1.4] Static equilibrium is different: nothing moves at all, e.g. a metre stick balanced at its centre.
+[chem18-s1.1.5] Analogy: a person walking up a down-escalator at the same speed it moves stays in the same place, although both movements continue. Likewise nothing seems to change at equilibrium, but both reactions carry on.
+[chem18-s1.2.b] Equilibrium only forms if nothing can escape. This is why the container matters.
+[chem18-s1.2.0] Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave; energy such as heat can still pass to and from the surroundings.
+[chem18-s1.2.1] Heating calcium carbonate in a sealed container, CaCO₃(s) ⇌ CaO(s) + CO₂(g): the CO₂ gas builds up and equilibrium is reached.
+[chem18-s1.2.2] Heating calcium carbonate in an open container: the CO₂ escapes, so the reverse reaction cannot happen and the calcium carbonate decomposes completely.
+[chem18-s1.2.3] A fizzy drink in a closed bottle contains CO₂(g) ⇌ CO₂(aq) at equilibrium (gas above the drink and gas dissolved in it); once the bottle is opened the gas escapes and the drink goes flat.
+[chem18-s1.3.b] Equilibrium is not instant. The two rates start far apart and move towards each other until they meet.
+[chem18-s1.3.0] At the start, when only reactants are present, the forward rate is high and the reverse rate is zero, because there are no products yet to react back.
+[chem18-s1.3.1] As reactants are used up the forward rate falls; as products build up the reverse rate rises.
+[chem18-s1.3.2] Equilibrium is reached when the two rates become equal; from then on all concentrations are constant. This is why equilibrium is reached some time after the reactants are mixed.
+[chem18-s1.3.3] The same equilibrium is reached from either direction: starting with 1 mol of H₂ and 1 mol of I₂, or with 2 mol of HI only, in the same sealed flask at the same temperature, gives the same equilibrium mixture.
+[chem18-s1.3.4] Concentration–time graph for N₂ + 3H₂ ⇌ 2NH₃ starting with N₂ and H₂: the reactant curves fall and the product curve rises from zero, each changing quickly at first because the reactants are most concentrated then.
+[chem18-s1.3.5] All three curves level off (become horizontal) at the same moment, when equilibrium is reached. H₂ falls three times as fast as N₂, and NH₃ rises twice as fast as N₂ falls, matching the 1 : 3 : 2 ratio in the equation.
+[chem18-s1.3.6] Rate–time graph: the forward-rate curve falls and the reverse-rate curve rises from zero until they meet and continue as one horizontal line at equilibrium.
+[chem18-s1.3.7] Diagram: draw (a) concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked; and (b) forward and reverse rates against time, meeting at equilibrium.
+[chem18-s1.4.b] At equilibrium the concentrations are not random: for a given reaction at a given temperature they always fit one fixed pattern. That pattern is a number, the equilibrium constant Kc.
+[chem18-s1.4.0] The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.
+[chem18-s1.4.1] For aA + bB ⇌ cC + dD (where a, b, c and d are the coefficients, the numbers in front of each formula in the balanced equation): Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ. Square brackets mean the concentration in mol L⁻¹ at equilibrium.
+[chem18-s1.4.2] Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.
+[chem18-s1.4.3] Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³. The 3 in front of H₂ becomes the power 3.
+[chem18-s1.4.4] Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂], with HI squared because its coefficient is 2.
+[chem18-s1.4.5] Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].
+[chem18-s1.4.6] Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.
+[chem18-s1.4.7] Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻].
+[chem18-s1.5.b] Kc is a ratio of concentrations, so whether it has units depends on how many concentrations are on top and on the bottom.
+[chem18-s1.5.0] To find the units, substitute mol L⁻¹ for each concentration in the Kc expression and cancel.
+[chem18-s1.5.1] When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.
+[chem18-s1.5.2] For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻², because there are fewer powers on top than on the bottom.
+[chem18-s1.5.3] For PCl₅ ⇌ PCl₃ + Cl₂: (mol L⁻¹)² ÷ (mol L⁻¹), so the units of Kc are mol L⁻¹.
+[chem18-s1.6.b] Many changes alter the composition of an equilibrium mixture, but the constant itself is much harder to move. Only one factor changes its value.
+[chem18-s1.6.0] Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.
+[chem18-s1.6.1] Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.
+[chem18-s1.6.2] Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.
+[chem18-s1.6.3] A catalyst (a substance that speeds up a reaction without being used up) does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.
+[chem18-s1.6.4] Exothermic forward reaction (one that gives out heat, ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc. Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.
+[chem18-s1.6.5] Endothermic forward reaction (one that takes in heat, ΔH positive): raising the temperature increases Kc; lowering it decreases Kc. Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.
+[chem18-s1.6.6] So if Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic.
+[chem18-s1.7.b] The size of Kc tells you where the equilibrium lies, and comparing it with the current mixture tells you which way a reaction will go.
+[chem18-s1.7.0] A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion. A small Kc (much less than 1) means mainly reactants: it lies to the left and little product forms.
+[chem18-s1.7.1] A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium. Esterification has Kc ≈ 4 (at room temperature), so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms.
+[chem18-s1.7.2] Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.
+[chem18-s1.7.3] The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.
+[chem18-s1.7.4] If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.
+[chem18-s1.7.5] Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.
+[chem18-s1.7.6] This explains Le Châtelier’s principle (a system at equilibrium shifts to oppose a change) mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.
+[chem18-s1.7.7] Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature.
+[chem18-s1.8.b] Kc calculations follow the same routine every time. Working through a table of amounts keeps the steps in order and avoids the usual mistakes.
+[chem18-s1.8.0] 1. Write the balanced equation and the Kc expression.
+[chem18-s1.8.1] 2. Convert any masses to moles using n = mass ÷ M, where M is the molar mass in g mol⁻¹.
+[chem18-s1.8.2] 3. Set up a table with rows Initial (moles at the start), Change (moles reacting or forming, in the ratio of the coefficients) and Equilibrium (initial + change) for every species.
+[chem18-s1.8.3] 4. Divide each equilibrium amount by the volume of the container in litres to get concentrations in mol L⁻¹. When the total number of moles is the same on each side, as in H₂ + I₂ ⇌ 2HI or esterification, the volume cancels, so moles can be used directly.
+[chem18-s1.8.4] 5. Substitute the concentrations into the Kc expression and calculate; give the answer to 3 significant figures, with units if asked.
+[chem18-s1.8.5] To find equilibrium amounts from Kc: let x be the amount that reacts, write each equilibrium amount in terms of x, substitute into the Kc expression and solve for x.
+[chem18-s1.8.6] If both sides of the resulting equation are perfect squares, take the square root of both sides. Otherwise rearrange into a quadratic, ax² + bx + c = 0, and use x = (−b ± √(b² − 4ac)) ÷ 2a.
+[chem18-s1.8.7] Choose the root that makes physical sense: no equilibrium amount can be negative, so x cannot exceed the starting amount of a reactant.
+[chem18-s1.9.b] The simplest type: every equilibrium amount is given, so convert to concentrations and substitute.
+[chem18-s1.9.0] Data: H₂(g) + I₂(g) ⇌ 2HI(g) in a 2.00 L flask at a fixed temperature; at equilibrium there are 0.100 mol H₂, 0.150 mol I₂ and 0.840 mol HI.
+[chem18-s1.9.1] [H₂] = 0.100 mol ÷ 2.00 L = 0.0500 mol L⁻¹, because Kc needs concentrations, not moles.
+[chem18-s1.9.2] [I₂] = 0.150 mol ÷ 2.00 L = 0.0750 mol L⁻¹.
+[chem18-s1.9.3] [HI] = 0.840 mol ÷ 2.00 L = 0.420 mol L⁻¹.
+[chem18-s1.9.4] Kc = [HI]² ÷ [H₂][I₂] = (0.420)² ÷ (0.0500 × 0.0750) = 0.1764 ÷ 0.00375 = 47.0 (no units, because the powers on top and bottom match).
+[chem18-s1.10.b] Here only one equilibrium amount is given. Use the mole ratio from the equation to work out all the others.
+[chem18-s1.10.0] Data: 2.00 mol N₂ and 6.00 mol H₂ are sealed in a 4.00 L vessel; at equilibrium 1.20 mol NH₃ is present, for N₂(g) + 3H₂(g) ⇌ 2NH₃(g).
+[chem18-s1.10.1] Change: forming 1.20 mol NH₃ uses 0.600 mol N₂ and 1.80 mol H₂, in the ratio 1 : 3 : 2 from the coefficients.
+[chem18-s1.10.2] Equilibrium amounts: N₂ = 2.00 − 0.600 = 1.40 mol; H₂ = 6.00 − 1.80 = 4.20 mol; NH₃ = 1.20 mol.
+[chem18-s1.10.3] Concentrations (÷ 4.00 L): [N₂] = 0.350 mol L⁻¹; [H₂] = 1.05 mol L⁻¹; [NH₃] = 0.300 mol L⁻¹.
+[chem18-s1.10.4] Kc = [NH₃]² ÷ [N₂][H₂]³ = (0.300)² ÷ (0.350 × 1.05³) = 0.0900 ÷ 0.405 = 0.222 L² mol⁻².
+[chem18-s1.11.b] Here the starting amount is a mass, and the extent of reaction is a percentage dissociated (the percentage of the starting compound that has split up into products).
+[chem18-s1.11.0] Data: 41.7 g of PCl₅ is heated in a sealed 5.00 L vessel; at equilibrium 40.0% has dissociated, for PCl₅(g) ⇌ PCl₃(g) + Cl₂(g).
+[chem18-s1.11.1] Molar mass: M(PCl₅) = 31 + 5 × 35.5 = 208.5 g mol⁻¹.
+[chem18-s1.11.2] Moles PCl₅ = 41.7 g ÷ 208.5 g mol⁻¹ = 0.200 mol, using n = mass ÷ M.
+[chem18-s1.11.3] Moles dissociated = 40.0% of 0.200 mol = 0.0800 mol, because the percentage applies to the starting amount.
+[chem18-s1.11.4] At equilibrium: PCl₅ = 0.120 mol; PCl₃ = 0.0800 mol; Cl₂ = 0.0800 mol, because each PCl₅ that dissociates gives one PCl₃ and one Cl₂.
+[chem18-s1.11.5] Concentrations (÷ 5.00 L): [PCl₅] = 0.0240 mol L⁻¹; [PCl₃] = [Cl₂] = 0.0160 mol L⁻¹.
+[chem18-s1.11.6] Kc = [PCl₃][Cl₂] ÷ [PCl₅] = (0.0160 × 0.0160) ÷ 0.0240 = 0.0107 mol L⁻¹.
+[chem18-s1.12.b] Now Kc is given and you find an amount. When the expression is a perfect square (the same bracket squared on top and bottom), taking a square root avoids a quadratic.
+[chem18-s1.12.0] Data: 1.00 mol of ethanoic acid and 1.00 mol of ethanol are mixed and reach equilibrium; Kc = 4.00 for CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.12.1] Let x mol of ester form: at equilibrium the acid and the ethanol are each (1.00 − x) mol, and the ester and the water are each x mol; the volume cancels.
+[chem18-s1.12.2] Kc = x² ÷ (1.00 − x)² = 4.00.
+[chem18-s1.12.3] Taking the square root of both sides, which removes the squares, gives x ÷ (1.00 − x) = 2.00.
+[chem18-s1.12.4] Rearranging: x = 2.00 − 2.00x, so 3.00x = 2.00 and x = 0.667 mol of ester.
+[chem18-s1.12.5] The acid and the ethanol each remain at 1.00 − 0.667 = 0.333 mol, because each mole of ester formed used up one mole of each.
+[chem18-s1.12.6] Mass of ester = 0.667 mol × 88 g mol⁻¹ = 58.7 g, using M(CH₃COOC₂H₅) = 88 g mol⁻¹.
+[chem18-s1.13.b] When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).
+[chem18-s1.13.0] Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).
+[chem18-s1.13.1] Let x mol of H₂ react: at equilibrium H₂ = (1.00 − x), I₂ = (2.00 − x) and HI = 2x; as the volume is 1.00 L, these amounts are also the concentrations in mol L⁻¹.
+[chem18-s1.13.2] 49.0 = (2x)² ÷ [(1.00 − x)(2.00 − x)], so 4x² = 49.0(2.00 − 3.00x + x²).
+[chem18-s1.13.3] Rearranging gives 45.0x² − 147x + 98.0 = 0, which is the form ax² + bx + c = 0 needed for the formula.
+[chem18-s1.13.4] x = (147 ± √(147² − 4 × 45.0 × 98.0)) ÷ (2 × 45.0) = (147 ± 63.0) ÷ 90.0, so x = 2.33 or x = 0.933.
+[chem18-s1.13.5] x = 2.33 is impossible because it exceeds the 1.00 mol of H₂ present, so x = 0.933.
+[chem18-s1.13.6] Equilibrium concentrations: [H₂] = 0.0667 mol L⁻¹; [I₂] = 1.07 mol L⁻¹; [HI] = 1.87 mol L⁻¹.
+[chem18-s1.13.7] Check: 1.87² ÷ (0.0667 × 1.07) ≈ 49, which matches Kc.
+
+CANDIDATES chem11-s2: 2. Acid–base theories and strength
+[chem11-s2.0.b] The first successful definition of acids and bases came from Svante Arrhenius in 1887, in his theory of electrolytic dissociation. He defined them by the ions they produce when dissolved in water.
+[chem11-s2.0.0] An Arrhenius acid is a substance that dissociates (splits into ions) in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.0.1] An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.0.2] Neutralisation (an acid and a base cancelling each other's properties) is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O.
+[chem11-s2.1.b] The Arrhenius theory works well for simple cases like HCl and NaOH, but it breaks down as soon as a substance or reaction does not fit its water-and-ions picture. These gaps are why a wider theory was needed.
+[chem11-s2.1.0] It applies only to aqueous solutions (substances dissolved in water), so it says nothing about acids and bases in other solvents.
+[chem11-s2.1.1] It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate, because it only allows a base to produce OH⁻ itself.
+[chem11-s2.1.2] It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem11-s2.1.3] It ignores the role of water: a bare hydrogen ion (a proton) does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺.
+[chem11-s2.2.b] Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton, so it no longer depends on water or on OH⁻.
+[chem11-s2.2.0] A proton is the same particle as a hydrogen ion, H⁺ (a hydrogen atom that has lost its electron, leaving just a proton).
+[chem11-s2.2.1] A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.
+[chem11-s2.2.2] An acid–base reaction is the transfer of a proton from an acid to a base.
+[chem11-s2.2.3] HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.
+[chem11-s2.2.4] NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid. The ⇌ arrow means the reaction is reversible.
+[chem11-s2.2.5] Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric.
+[chem11-s2.3.b] A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions. Brønsted–Lowry does this by fixing each of the Arrhenius limitations.
+[chem11-s2.3.0] It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor, so it counts as a base.
+[chem11-s2.3.1] It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.
+[chem11-s2.3.2] It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.
+[chem11-s2.3.3] It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.
+[chem11-s2.3.4] Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.
+[chem11-s2.3.5] Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.
+[chem11-s2.3.6] Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent (the liquid doing the dissolving) and in the absence of a solvent.
+[chem11-s2.4.b] Because a Brønsted–Lowry reaction passes a proton along, the acid and base each turn into a new species that can pass the proton back. These linked species are called conjugates.
+[chem11-s2.4.0] When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.
+[chem11-s2.4.1] When a base accepts a proton, the species formed is the conjugate acid of that base.
+[chem11-s2.4.2] A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.
+[chem11-s2.4.3] H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.
+[chem11-s2.4.4] Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁.
+[chem11-s2.5.b] To label the acids, bases and conjugate pairs in any equation, follow the movement of the proton. These four steps work for every equation.
+[chem11-s2.5.0] 1. For each reactant, check whether it loses or gains a proton in going to the products.
+[chem11-s2.5.1] 2. The reactant that loses a proton is the acid; the reactant that gains a proton is the base.
+[chem11-s2.5.2] 3. On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.
+[chem11-s2.5.3] 4. In a reversible reaction (one that can run in both directions, shown by ⇌), the products act as an acid and a base in the reverse reaction.
+[chem11-s2.6.b] Each equation below is labelled using the four steps: find which reactant loses a proton, which gains one, then match each to its product. Notice that the same species can be an acid in one equation and a base in another.
+[chem11-s2.6.0] HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.1] NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.
+[chem11-s2.6.2] CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.3] HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid because it loses a proton; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.4] HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base because it gains a proton; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.5] NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻.
+[chem11-s2.7.b] An acid and its conjugate base are linked like a see-saw: the stronger one is, the weaker the other. Some species can sit on either side, depending on what they react with.
+[chem11-s2.7.0] The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.
+[chem11-s2.7.1] A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.
+[chem11-s2.7.2] Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the worked examples above.
+[chem11-s2.8.b] Strength describes how far an acid splits into ions (dissociates, or ionises) when it dissolves in water. This decides how many H⁺ ions it releases.
+[chem11-s2.8.0] A strong acid is completely dissociated (ionised) into ions in water, shown with a single arrow: HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.8.1] Strong acids include hydrochloric acid (HCl), nitric acid (HNO₃) and sulfuric acid (H₂SO₄).
+[chem11-s2.8.2] A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium (a balance between the forward and reverse reactions) is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).
+[chem11-s2.8.3] Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids (acids built on carbon chains).
+[chem11-s2.9.b] Bases have strength in the same way as acids: it depends on how fully they produce hydroxide ions in water.
+[chem11-s2.9.0] A strong base is completely dissociated in water, e.g. sodium hydroxide and potassium hydroxide: NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.9.1] A weak base reacts only slightly with water to produce hydroxide ions, e.g. ammonia: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem11-s2.10.b] Concentration describes how much acid or base is present; strength describes how far it dissociates. The two are separate properties.
+[chem11-s2.10.0] Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹ (moles per litre; a mole is a fixed counting amount of particles).
+[chem11-s2.10.1] A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl.
+[chem11-s2.10.2] A dilute strong acid, e.g. 0.01 M HCl, is still fully dissociated.
+[chem11-s2.10.3] A concentrated weak acid, e.g. glacial ethanoic acid, is still only slightly dissociated.
+[chem11-s2.11.b] Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration. Any difference in behaviour must then come from strength, not concentration.
+[chem11-s2.11.0] pH (a scale measuring how acidic a solution is; lower means more H⁺): 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.
+[chem11-s2.11.1] Ethanoic acid has an acid dissociation constant (Ka) of 1.8 × 10⁻⁵, a small value showing that it is only slightly dissociated.
+[chem11-s2.11.2] Rate of reaction: magnesium ribbon fizzes much faster in 0.1 M hydrochloric acid than in 0.1 M ethanoic acid, because hydrogen ions are present at a higher concentration.
+[chem11-s2.11.3] Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions to carry the current.
+[chem11-s2.11.4] Equal volumes of the two acids at the same concentration neutralise the same amount of sodium hydroxide and give the same total volume of hydrogen with excess magnesium, because the weak acid's equilibrium shifts to release more H⁺ as H⁺ is used up.
+[chem11-s2.11.5] Safety: concentrated acids and alkalis are corrosive, so wear goggles and gloves; dilute an acid by adding it to water.

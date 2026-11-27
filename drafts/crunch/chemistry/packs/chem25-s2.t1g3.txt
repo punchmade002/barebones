@@ -1,0 +1,394 @@
+MODE: links only (another package rates cost)
+TARGET chem25-s2: 2. Tests, reaction schemes and preparing an ester
+[chem25-s2.0.b] Aldehydes and ketones both contain the carbonyl group (a carbon double-bonded to oxygen, C=O), so they look alike. The difference is one hydrogen atom, and that hydrogen decides whether the compound can be oxidised (have oxygen added or hydrogen removed) by a mild reagent.
+[chem25-s2.0.0] An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.
+[chem25-s2.0.1] A ketone has the C=O group joined to two carbon atoms, so its carbonyl carbon has no hydrogen, e.g. propanone, CH₃COCH₃.
+[chem25-s2.0.2] An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH. This makes aldehydes good reducing agents (substances that get oxidised themselves while reducing something else).
+[chem25-s2.0.3] A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond, which a mild reagent cannot do.
+[chem25-s2.0.4] A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none.
+[chem25-s2.1.b] Fehling's reagent is the mild oxidising agent the specification uses to test for aldehydes. It is made from two solutions that are kept apart and mixed only when needed.
+[chem25-s2.1.0] Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).
+[chem25-s2.1.1] The mixture is a clear deep-blue solution containing Cu²⁺ ions, which are the part that reacts with an aldehyde.
+[chem25-s2.1.2] The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate (form as an insoluble solid).
+[chem25-s2.2.b] The aim is to show which of two unlabelled liquids is the aldehyde (ethanal) and which is the ketone (propanone). Both are tested in the same way so the results can be compared.
+[chem25-s2.2.0] Method: put about 2 cm³ of Fehling's reagent into each of two test tubes, so that one can be tested with each liquid for comparison.
+[chem25-s2.2.1] Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.
+[chem25-s2.2.2] Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame, because the liquids are flammable.
+[chem25-s2.2.3] With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.
+[chem25-s2.2.4] With propanone there is no change: the solution stays blue.
+[chem25-s2.2.5] An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde, because only aldehydes reduce the Cu²⁺; one that leaves the reagent blue is a ketone.
+[chem25-s2.3.b] Both the reagent and the liquids being tested carry hazards, which is why the heating is done in a water bath.
+[chem25-s2.3.0] Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.
+[chem25-s2.3.1] Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile (they evaporate easily) and flammable, so keep them away from flames and use a water bath.
+[chem25-s2.3.2] Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue).
+[chem25-s2.4.b] The colour change is a redox reaction (one where electrons are transferred). The copper ions in the reagent are reduced while the aldehyde is oxidised.
+[chem25-s2.4.0] Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).
+[chem25-s2.4.1] The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.
+[chem25-s2.4.2] Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.
+[chem25-s2.4.3] Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).
+[chem25-s2.4.4] Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.
+[chem25-s2.4.5] Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone.
+[chem25-s2.5.b] Carboxylic acids such as ethanoic acid show the usual properties of an acid. Three reactions (with a metal, a carbonate and a base) and an indicator (a dye that changes colour with acidity) are used to show this.
+[chem25-s2.5.0] Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.
+[chem25-s2.5.1] Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).
+[chem25-s2.5.2] Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.
+[chem25-s2.6.b] An acid reacts with a reactive metal to give a salt and hydrogen gas, and the gas is identified with a lighted taper.
+[chem25-s2.6.0] Add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.
+[chem25-s2.6.1] The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.
+[chem25-s2.6.2] Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).
+[chem25-s2.6.3] Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated (split into ions), so its H⁺ concentration is lower.
+[chem25-s2.6.4] Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.
+[chem25-s2.7.b] Acids react with carbonates to release carbon dioxide, which gives a clear visible sign of reaction.
+[chem25-s2.7.0] Add a little solid sodium carbonate to ethanoic acid; the mixture effervesces (fizzes).
+[chem25-s2.7.1] The gas turns limewater milky, so it is carbon dioxide.
+[chem25-s2.7.2] Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).
+[chem25-s2.7.3] Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater.
+[chem25-s2.8.b] A base neutralises an acid, giving a salt and water. Because this gives no gas, a different way of seeing the reaction is needed.
+[chem25-s2.8.0] Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).
+[chem25-s2.8.1] There is no visible change in this reaction, so add phenolphthalein (an indicator that is pink in alkali) to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.
+[chem25-s2.9.b] Concentrated ethanoic acid and the hydrogen test both need care.
+[chem25-s2.9.0] Wear goggles, because concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid.
+[chem25-s2.9.1] Keep flames away from any flammable liquid when testing for hydrogen, because hydrogen burns with a pop.
+[chem25-s2.10.b] A reaction scheme is a map of organic chemistry. Reading one means working out, arrow by arrow, what has changed and what caused the change.
+[chem25-s2.10.0] A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.
+[chem25-s2.10.1] A scheme shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps; this is organic synthesis.
+[chem25-s2.10.2] To read a scheme, name each compound and its functional group (the atom or group that gives a family its reactions), then for each arrow compare the formulae before and after.
+[chem25-s2.10.3] Decide what has been added, removed or swapped at each arrow, then name the reaction type and the reagent.
+[chem25-s2.10.4] A formula change of +H₂ across C=C or C=O is addition (two molecules joining with no atoms lost) or reduction; a change of −2H is oxidation; a change of +O is oxidation.
+[chem25-s2.10.5] A change of −H₂O or −HCl with a new C=C bond is elimination (a small molecule removed, leaving a double bond); one atom swapped for another is substitution.
+[chem25-s2.10.6] A carboxylic acid converted to its sodium salt is an acid–base reaction.
+[chem25-s2.11.b] Ethene, the two-carbon alkene (a hydrocarbon with a C=C double bond), sits at the centre of the scheme. Most of its conversions are additions across the double bond.
+[chem25-s2.11.0] Ethane to chloroethane: chlorine in ultraviolet light (substitution, because a chlorine atom takes the place of a hydrogen atom).
+[chem25-s2.11.1] Ethene to ethane: hydrogen with a nickel catalyst (addition, because H₂ adds across the C=C; also reduction).
+[chem25-s2.11.2] Ethene to chloroethane: hydrogen chloride (addition).
+[chem25-s2.11.3] Ethene to 1,2-dichloroethane: chlorine (addition).
+[chem25-s2.11.4] Ethene to 1,2-dibromoethane: bromine (addition).
+[chem25-s2.11.5] Ethene to ethanol: water (addition).
+[chem25-s2.11.6] Ethanol to ethene: heated aluminium oxide (elimination, because water is removed and a C=C forms).
+[chem25-s2.11.7] Chloroethane to ethene: loss of HCl (elimination, because a hydrogen and a chlorine are removed and a C=C forms).
+[chem25-s2.12.b] Ethanol links to the oxidation sequence and to the ester. Here the carbon skeleton stays the same except where two molecules join or split.
+[chem25-s2.12.0] Ethanol to ethanal to ethanoic acid: acidified potassium permanganate, as two oxidation steps.
+[chem25-s2.12.1] Ethanal to ethanol: hydrogen with a nickel catalyst (reduction, because H₂ adds across the C=O).
+[chem25-s2.12.2] Ethanoic acid and ethanol give ethyl ethanoate and water, with concentrated sulfuric acid as catalyst (substitution, esterification).
+[chem25-s2.12.3] Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis, splitting the ester with the help of water and base).
+[chem25-s2.12.4] Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).
+[chem25-s2.13.b] Ethene and its chlorinated relative can also be joined into long chains, giving plastics.
+[chem25-s2.13.0] Ethene to poly(ethene) by addition polymerisation (many ethene molecules adding together into a chain).
+[chem25-s2.13.1] 1,2-dichloroethane to chloroethene by elimination of HCl, then polymerisation to poly(chloroethene), PVC.
+[chem25-s2.13.2] Diagram: the two-carbon scheme as a map, with ethene at the centre and arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with its reagent and reaction type.
+[chem25-s2.14.b] The same reactions apply to longer chains. Whether the alcohol is primary or secondary decides whether oxidation gives an aldehyde and acid or a ketone.
+[chem25-s2.14.0] Propan-1-ol (a primary alcohol, with the –OH on an end carbon) to propanal to propanoic acid: acidified potassium permanganate (oxidation).
+[chem25-s2.14.1] Propan-2-ol (a secondary alcohol, with the –OH on a middle carbon) to propanone: acidified potassium permanganate (oxidation).
+[chem25-s2.14.2] Propanone to propan-2-ol: hydrogen with nickel (reduction).
+[chem25-s2.14.3] Propan-2-ol to propene and water (elimination).
+[chem25-s2.14.4] Propene to propane: hydrogen with nickel (addition, because H₂ adds across the C=C).
+[chem25-s2.14.5] Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation). There is more on this in Investigation: synthesising benzoic acid.
+[chem25-s2.15.b] When a scheme is incomplete, the product tells you what must have come before it, and counting carbon atoms checks your answer.
+[chem25-s2.15.0] A scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.
+[chem25-s2.15.1] An alkene can come from an alcohol by elimination, or go to an alcohol by addition of water.
+[chem25-s2.15.2] Carbon atoms are neither gained nor lost in these steps, except in esterification, which joins two molecules, and hydrolysis, which splits them, so the carbon skeleton checks each answer.
+[chem25-s2.16.b] To predict a product, recognise the functional group and recall its typical reaction. Multi-step syntheses just chain these together.
+[chem25-s2.16.0] To predict a product, identify the functional group and apply its typical reaction.
+[chem25-s2.16.1] An alkene with X₂, HX, H₂O or H₂ gives an addition product.
+[chem25-s2.16.2] A primary alcohol with an oxidising agent gives an aldehyde, then a carboxylic acid; a carboxylic acid with an alcohol gives an ester; an ester with NaOH gives a salt and an alcohol.
+[chem25-s2.16.3] Example: ethene to ethanoic acid in two steps, by adding water to give ethanol (addition), then oxidising with excess acidified potassium permanganate (oxidation).
+[chem25-s2.16.4] Example: ethanal to ethyl ethanoate, by reducing part of the ethanal to ethanol with H₂ and nickel, oxidising another part to ethanoic acid with acidified KMnO₄, then esterifying the two with concentrated H₂SO₄.
+[chem25-s2.16.5] Example: chloroethane to ethanol in two steps, by eliminating HCl to give ethene, then adding water.
+[chem25-s2.16.6] Example: heating propan-1-ol with methanoic acid gives propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol supplies the propyl part and the acid supplies the methanoate part.
+[chem25-s2.17.b] The shape around a carbon atom depends on its bonds. Tracking whether a carbon is tetrahedral (four bonds pointing to the corners of a pyramid-like shape) or planar (flat) shows what a reaction does to a molecule.
+[chem25-s2.17.0] A carbon atom with four single bonds is tetrahedral, with bond angles of about 109.5°.
+[chem25-s2.17.1] A carbon atom in a C=C or C=O double bond is planar (trigonal planar), with bond angles of about 120°.
+[chem25-s2.17.2] Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.
+[chem25-s2.17.3] Ethanol and ethane have only tetrahedral carbon atoms.
+[chem25-s2.18.b] A reaction that adds to or removes a double bond changes the carbons involved between planar and tetrahedral. Reactions that leave the C=O in place change nothing.
+[chem25-s2.18.0] Addition to C=C, as in ethene to ethane, ethene to ethanol or polymerisation, changes the two carbon atoms from planar to tetrahedral.
+[chem25-s2.18.1] Elimination, as in ethanol to ethene, changes the two carbon atoms from tetrahedral to planar.
+[chem25-s2.18.2] Oxidising an alcohol to an aldehyde or ketone changes the carbon bearing the oxygen from tetrahedral to planar.
+[chem25-s2.18.3] Reducing an aldehyde or ketone to an alcohol changes that carbon from planar to tetrahedral.
+[chem25-s2.18.4] Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry.
+[chem25-s2.19.b] Each reaction needs a particular feature in the molecule. Where it is missing, the reaction cannot happen, and the reason always comes back to that feature.
+[chem25-s2.19.0] Tertiary alcohols (alcohols with the –OH on a carbon bonded to three other carbons), such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.
+[chem25-s2.19.1] The carbon bearing the –OH group of a tertiary alcohol has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.
+[chem25-s2.19.2] Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.
+[chem25-s2.19.3] Alkanes and poly(ethene) cannot undergo addition, because they are saturated (they have only single bonds) and have no pi bond, so they do not decolourise bromine water.
+[chem25-s2.19.4] Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.
+[chem25-s2.19.5] Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons (shared around the whole ring) make the ring unusually stable, so it resists addition. There is more on this in Shapes, bonding and isomerism.
+[chem25-s2.19.6] Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol.
+[chem25-s2.20.b] An ester is the compound formed when a carboxylic acid reacts with an alcohol. In this investigation methyl propanoate is made from propanoic acid and methanol.
+[chem25-s2.20.0] Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux (boiling with a condenser that returns the vapour to the flask).
+[chem25-s2.20.1] Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.
+[chem25-s2.20.2] Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.
+[chem25-s2.20.3] The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.
+[chem25-s2.20.4] The specification needs only esters made from monocarboxylic acids and primary alcohols.
+[chem25-s2.21.b] Esterification does not go to completion, which shapes the whole purification. Isotope labelling shows exactly which bond forms.
+[chem25-s2.21.0] Esterification is slow and reversible: it reaches an equilibrium (the forward and reverse reactions balance) with only part of the acid and alcohol converted.
+[chem25-s2.21.1] The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.
+[chem25-s2.21.2] Isotope evidence: when the alcohol is labelled with oxygen-18 (a heavier form of oxygen used as a tracer), the ¹⁸O is found in the ester, not in the water.
+[chem25-s2.21.3] So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.
+[chem25-s2.22.b] The reactants are mixed with a catalyst and boiled gently for a while. A condenser fitted vertically stops the volatile liquids escaping.
+[chem25-s2.22.0] In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.
+[chem25-s2.22.1] Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic (gives out heat).
+[chem25-s2.22.2] Add a few anti-bumping granules, so that the mixture boils smoothly.
+[chem25-s2.22.3] Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.
+[chem25-s2.22.4] Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.
+[chem25-s2.22.5] Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top.
+[chem25-s2.23.b] After reflux the flask holds a mixture. The ester is separated from the other substances by washing, drying and then distilling.
+[chem25-s2.23.0] Cool the flask, then pour the mixture into a separating funnel (a tapped funnel for separating two liquids that do not mix) with some water and shake.
+[chem25-s2.23.1] The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.
+[chem25-s2.23.2] Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.
+[chem25-s2.23.3] Run off the lower aqueous layer, which now holds the sodium salt of the acid and the water, so the ester is left on its own.
+[chem25-s2.23.4] Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride (a drying agent that removes water) to remove water; swirl until the liquid is clear, then decant (pour off) or filter it.
+[chem25-s2.23.5] Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.
+[chem25-s2.23.6] Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.
+[chem25-s2.23.7] Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap.
+[chem25-s2.24.b] Every choice in the method has a purpose. Exams ask for these reasons directly.
+[chem25-s2.24.0] Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.
+[chem25-s2.24.1] Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.
+[chem25-s2.24.2] A water bath or heating mantle is used rather than a Bunsen burner, because methanol and the ester are flammable; it also gives gentle, even heating.
+[chem25-s2.24.3] Anti-bumping granules give smooth boiling by providing sites for small bubbles to form, which prevents sudden violent boiling (bumping).
+[chem25-s2.24.4] The condenser is never stoppered, because heating a closed system would build up pressure.
+[chem25-s2.24.5] Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.
+[chem25-s2.24.6] The pressure in the separating funnel must be released because carbon dioxide is produced.
+[chem25-s2.24.7] Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product.
+[chem25-s2.25.b] The hazards are corrosive and flammable chemicals. The yield is low because of the equilibrium and because product is lost in handling.
+[chem25-s2.25.0] Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.
+[chem25-s2.25.1] Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.
+[chem25-s2.25.2] The yield is well below 100%, because the reaction is an equilibrium.
+[chem25-s2.25.3] Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.
+[chem25-s2.25.4] Percentage yield = actual mass ÷ theoretical mass × 100. There is more on this in Theoretical, actual and percentage yield.
+[chem25-s2.25.5] Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.
+[chem25-s2.25.6] Not releasing the pressure in the separating funnel can blow out the stopper and lose product.
+[chem25-s2.25.7] Heating too strongly lets vapour escape from the top of the condenser.
+
+CANDIDATES chem18-s1: 1. Dynamic equilibrium and Kc
+[chem18-s1.0.b] Some reactions run to completion; others reach a balance in which the forward and reverse reactions both continue. Telling the two types apart is the starting point for the whole chapter.
+[chem18-s1.0.0] Some reactions go to completion: the reactants are converted completely into products and the reaction cannot easily be reversed, e.g. burning magnesium, 2Mg(s) + O₂(g) → 2MgO(s).
+[chem18-s1.0.1] A reversible reaction is one in which the products can react to form the reactants again, so both the forward and the reverse reactions take place. It is shown by the sign ⇌, a double arrow.
+[chem18-s1.0.2] The forward reaction is the one from left to right as written; the reverse (back) reaction is from right to left. Both are always labelled relative to how the equation is written.
+[chem18-s1.0.3] The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), makes ammonia from nitrogen and hydrogen. It is named after Fritz Haber (1868–1934); Carl Bosch (1874–1940) developed it industrially.
+[chem18-s1.0.4] Hydrogen and iodine react reversibly: H₂(g) + I₂(g) ⇌ 2HI(g), where HI is hydrogen iodide gas.
+[chem18-s1.0.5] Esterification (an acid reacting with an alcohol to make an ester and water) is reversible: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.0.6] Nitrogen dioxide and dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). NO₂ is brown and N₂O₄ is colourless, so the colour of the mixture shows how far the reaction has moved.
+[chem18-s1.0.7] Weak acids (acids that only partly split into ions in water) and acid–base indicators (dyes that change colour with acidity) are also reversible, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq) and HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s1.1.b] In a reversible reaction in a sealed container, the mixture settles into a balance. At chemical equilibrium both reactions continue, and their rates are equal.
+[chem18-s1.1.0] Chemical equilibrium is a state of dynamic balance in a reversible reaction in which the rate of the forward reaction (how fast reactants turn into products) equals the rate of the reverse reaction.
+[chem18-s1.1.1] It is called dynamic because both reactions are still happening: reactant particles are still forming products and product particles are still forming reactants, at the same rate.
+[chem18-s1.1.2] Because substances are formed and used up at the same rate, their concentrations (amounts per litre) stay constant at equilibrium, so observable properties such as colour, pressure and density stop changing.
+[chem18-s1.1.3] The concentrations are constant but not equal: at equilibrium there may be much more product than reactant, or the reverse. It is the rates that are equal, not the amounts.
+[chem18-s1.1.4] Static equilibrium is different: nothing moves at all, e.g. a metre stick balanced at its centre.
+[chem18-s1.1.5] Analogy: a person walking up a down-escalator at the same speed it moves stays in the same place, although both movements continue. Likewise nothing seems to change at equilibrium, but both reactions carry on.
+[chem18-s1.2.b] Equilibrium only forms if nothing can escape. This is why the container matters.
+[chem18-s1.2.0] Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave; energy such as heat can still pass to and from the surroundings.
+[chem18-s1.2.1] Heating calcium carbonate in a sealed container, CaCO₃(s) ⇌ CaO(s) + CO₂(g): the CO₂ gas builds up and equilibrium is reached.
+[chem18-s1.2.2] Heating calcium carbonate in an open container: the CO₂ escapes, so the reverse reaction cannot happen and the calcium carbonate decomposes completely.
+[chem18-s1.2.3] A fizzy drink in a closed bottle contains CO₂(g) ⇌ CO₂(aq) at equilibrium (gas above the drink and gas dissolved in it); once the bottle is opened the gas escapes and the drink goes flat.
+[chem18-s1.3.b] Equilibrium is not instant. The two rates start far apart and move towards each other until they meet.
+[chem18-s1.3.0] At the start, when only reactants are present, the forward rate is high and the reverse rate is zero, because there are no products yet to react back.
+[chem18-s1.3.1] As reactants are used up the forward rate falls; as products build up the reverse rate rises.
+[chem18-s1.3.2] Equilibrium is reached when the two rates become equal; from then on all concentrations are constant. This is why equilibrium is reached some time after the reactants are mixed.
+[chem18-s1.3.3] The same equilibrium is reached from either direction: starting with 1 mol of H₂ and 1 mol of I₂, or with 2 mol of HI only, in the same sealed flask at the same temperature, gives the same equilibrium mixture.
+[chem18-s1.3.4] Concentration–time graph for N₂ + 3H₂ ⇌ 2NH₃ starting with N₂ and H₂: the reactant curves fall and the product curve rises from zero, each changing quickly at first because the reactants are most concentrated then.
+[chem18-s1.3.5] All three curves level off (become horizontal) at the same moment, when equilibrium is reached. H₂ falls three times as fast as N₂, and NH₃ rises twice as fast as N₂ falls, matching the 1 : 3 : 2 ratio in the equation.
+[chem18-s1.3.6] Rate–time graph: the forward-rate curve falls and the reverse-rate curve rises from zero until they meet and continue as one horizontal line at equilibrium.
+[chem18-s1.3.7] Diagram: draw (a) concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked; and (b) forward and reverse rates against time, meeting at equilibrium.
+[chem18-s1.4.b] At equilibrium the concentrations are not random: for a given reaction at a given temperature they always fit one fixed pattern. That pattern is a number, the equilibrium constant Kc.
+[chem18-s1.4.0] The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.
+[chem18-s1.4.1] For aA + bB ⇌ cC + dD (where a, b, c and d are the coefficients, the numbers in front of each formula in the balanced equation): Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ. Square brackets mean the concentration in mol L⁻¹ at equilibrium.
+[chem18-s1.4.2] Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.
+[chem18-s1.4.3] Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³. The 3 in front of H₂ becomes the power 3.
+[chem18-s1.4.4] Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂], with HI squared because its coefficient is 2.
+[chem18-s1.4.5] Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].
+[chem18-s1.4.6] Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.
+[chem18-s1.4.7] Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻].
+[chem18-s1.5.b] Kc is a ratio of concentrations, so whether it has units depends on how many concentrations are on top and on the bottom.
+[chem18-s1.5.0] To find the units, substitute mol L⁻¹ for each concentration in the Kc expression and cancel.
+[chem18-s1.5.1] When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.
+[chem18-s1.5.2] For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻², because there are fewer powers on top than on the bottom.
+[chem18-s1.5.3] For PCl₅ ⇌ PCl₃ + Cl₂: (mol L⁻¹)² ÷ (mol L⁻¹), so the units of Kc are mol L⁻¹.
+[chem18-s1.6.b] Many changes alter the composition of an equilibrium mixture, but the constant itself is much harder to move. Only one factor changes its value.
+[chem18-s1.6.0] Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.
+[chem18-s1.6.1] Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.
+[chem18-s1.6.2] Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.
+[chem18-s1.6.3] A catalyst (a substance that speeds up a reaction without being used up) does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.
+[chem18-s1.6.4] Exothermic forward reaction (one that gives out heat, ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc. Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.
+[chem18-s1.6.5] Endothermic forward reaction (one that takes in heat, ΔH positive): raising the temperature increases Kc; lowering it decreases Kc. Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.
+[chem18-s1.6.6] So if Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic.
+[chem18-s1.7.b] The size of Kc tells you where the equilibrium lies, and comparing it with the current mixture tells you which way a reaction will go.
+[chem18-s1.7.0] A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion. A small Kc (much less than 1) means mainly reactants: it lies to the left and little product forms.
+[chem18-s1.7.1] A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium. Esterification has Kc ≈ 4 (at room temperature), so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms.
+[chem18-s1.7.2] Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.
+[chem18-s1.7.3] The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.
+[chem18-s1.7.4] If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.
+[chem18-s1.7.5] Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.
+[chem18-s1.7.6] This explains Le Châtelier’s principle (a system at equilibrium shifts to oppose a change) mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.
+[chem18-s1.7.7] Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature.
+[chem18-s1.8.b] Kc calculations follow the same routine every time. Working through a table of amounts keeps the steps in order and avoids the usual mistakes.
+[chem18-s1.8.0] 1. Write the balanced equation and the Kc expression.
+[chem18-s1.8.1] 2. Convert any masses to moles using n = mass ÷ M, where M is the molar mass in g mol⁻¹.
+[chem18-s1.8.2] 3. Set up a table with rows Initial (moles at the start), Change (moles reacting or forming, in the ratio of the coefficients) and Equilibrium (initial + change) for every species.
+[chem18-s1.8.3] 4. Divide each equilibrium amount by the volume of the container in litres to get concentrations in mol L⁻¹. When the total number of moles is the same on each side, as in H₂ + I₂ ⇌ 2HI or esterification, the volume cancels, so moles can be used directly.
+[chem18-s1.8.4] 5. Substitute the concentrations into the Kc expression and calculate; give the answer to 3 significant figures, with units if asked.
+[chem18-s1.8.5] To find equilibrium amounts from Kc: let x be the amount that reacts, write each equilibrium amount in terms of x, substitute into the Kc expression and solve for x.
+[chem18-s1.8.6] If both sides of the resulting equation are perfect squares, take the square root of both sides. Otherwise rearrange into a quadratic, ax² + bx + c = 0, and use x = (−b ± √(b² − 4ac)) ÷ 2a.
+[chem18-s1.8.7] Choose the root that makes physical sense: no equilibrium amount can be negative, so x cannot exceed the starting amount of a reactant.
+[chem18-s1.9.b] The simplest type: every equilibrium amount is given, so convert to concentrations and substitute.
+[chem18-s1.9.0] Data: H₂(g) + I₂(g) ⇌ 2HI(g) in a 2.00 L flask at a fixed temperature; at equilibrium there are 0.100 mol H₂, 0.150 mol I₂ and 0.840 mol HI.
+[chem18-s1.9.1] [H₂] = 0.100 mol ÷ 2.00 L = 0.0500 mol L⁻¹, because Kc needs concentrations, not moles.
+[chem18-s1.9.2] [I₂] = 0.150 mol ÷ 2.00 L = 0.0750 mol L⁻¹.
+[chem18-s1.9.3] [HI] = 0.840 mol ÷ 2.00 L = 0.420 mol L⁻¹.
+[chem18-s1.9.4] Kc = [HI]² ÷ [H₂][I₂] = (0.420)² ÷ (0.0500 × 0.0750) = 0.1764 ÷ 0.00375 = 47.0 (no units, because the powers on top and bottom match).
+[chem18-s1.10.b] Here only one equilibrium amount is given. Use the mole ratio from the equation to work out all the others.
+[chem18-s1.10.0] Data: 2.00 mol N₂ and 6.00 mol H₂ are sealed in a 4.00 L vessel; at equilibrium 1.20 mol NH₃ is present, for N₂(g) + 3H₂(g) ⇌ 2NH₃(g).
+[chem18-s1.10.1] Change: forming 1.20 mol NH₃ uses 0.600 mol N₂ and 1.80 mol H₂, in the ratio 1 : 3 : 2 from the coefficients.
+[chem18-s1.10.2] Equilibrium amounts: N₂ = 2.00 − 0.600 = 1.40 mol; H₂ = 6.00 − 1.80 = 4.20 mol; NH₃ = 1.20 mol.
+[chem18-s1.10.3] Concentrations (÷ 4.00 L): [N₂] = 0.350 mol L⁻¹; [H₂] = 1.05 mol L⁻¹; [NH₃] = 0.300 mol L⁻¹.
+[chem18-s1.10.4] Kc = [NH₃]² ÷ [N₂][H₂]³ = (0.300)² ÷ (0.350 × 1.05³) = 0.0900 ÷ 0.405 = 0.222 L² mol⁻².
+[chem18-s1.11.b] Here the starting amount is a mass, and the extent of reaction is a percentage dissociated (the percentage of the starting compound that has split up into products).
+[chem18-s1.11.0] Data: 41.7 g of PCl₅ is heated in a sealed 5.00 L vessel; at equilibrium 40.0% has dissociated, for PCl₅(g) ⇌ PCl₃(g) + Cl₂(g).
+[chem18-s1.11.1] Molar mass: M(PCl₅) = 31 + 5 × 35.5 = 208.5 g mol⁻¹.
+[chem18-s1.11.2] Moles PCl₅ = 41.7 g ÷ 208.5 g mol⁻¹ = 0.200 mol, using n = mass ÷ M.
+[chem18-s1.11.3] Moles dissociated = 40.0% of 0.200 mol = 0.0800 mol, because the percentage applies to the starting amount.
+[chem18-s1.11.4] At equilibrium: PCl₅ = 0.120 mol; PCl₃ = 0.0800 mol; Cl₂ = 0.0800 mol, because each PCl₅ that dissociates gives one PCl₃ and one Cl₂.
+[chem18-s1.11.5] Concentrations (÷ 5.00 L): [PCl₅] = 0.0240 mol L⁻¹; [PCl₃] = [Cl₂] = 0.0160 mol L⁻¹.
+[chem18-s1.11.6] Kc = [PCl₃][Cl₂] ÷ [PCl₅] = (0.0160 × 0.0160) ÷ 0.0240 = 0.0107 mol L⁻¹.
+[chem18-s1.12.b] Now Kc is given and you find an amount. When the expression is a perfect square (the same bracket squared on top and bottom), taking a square root avoids a quadratic.
+[chem18-s1.12.0] Data: 1.00 mol of ethanoic acid and 1.00 mol of ethanol are mixed and reach equilibrium; Kc = 4.00 for CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.12.1] Let x mol of ester form: at equilibrium the acid and the ethanol are each (1.00 − x) mol, and the ester and the water are each x mol; the volume cancels.
+[chem18-s1.12.2] Kc = x² ÷ (1.00 − x)² = 4.00.
+[chem18-s1.12.3] Taking the square root of both sides, which removes the squares, gives x ÷ (1.00 − x) = 2.00.
+[chem18-s1.12.4] Rearranging: x = 2.00 − 2.00x, so 3.00x = 2.00 and x = 0.667 mol of ester.
+[chem18-s1.12.5] The acid and the ethanol each remain at 1.00 − 0.667 = 0.333 mol, because each mole of ester formed used up one mole of each.
+[chem18-s1.12.6] Mass of ester = 0.667 mol × 88 g mol⁻¹ = 58.7 g, using M(CH₃COOC₂H₅) = 88 g mol⁻¹.
+[chem18-s1.13.b] When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).
+[chem18-s1.13.0] Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).
+[chem18-s1.13.1] Let x mol of H₂ react: at equilibrium H₂ = (1.00 − x), I₂ = (2.00 − x) and HI = 2x; as the volume is 1.00 L, these amounts are also the concentrations in mol L⁻¹.
+[chem18-s1.13.2] 49.0 = (2x)² ÷ [(1.00 − x)(2.00 − x)], so 4x² = 49.0(2.00 − 3.00x + x²).
+[chem18-s1.13.3] Rearranging gives 45.0x² − 147x + 98.0 = 0, which is the form ax² + bx + c = 0 needed for the formula.
+[chem18-s1.13.4] x = (147 ± √(147² − 4 × 45.0 × 98.0)) ÷ (2 × 45.0) = (147 ± 63.0) ÷ 90.0, so x = 2.33 or x = 0.933.
+[chem18-s1.13.5] x = 2.33 is impossible because it exceeds the 1.00 mol of H₂ present, so x = 0.933.
+[chem18-s1.13.6] Equilibrium concentrations: [H₂] = 0.0667 mol L⁻¹; [I₂] = 1.07 mol L⁻¹; [HI] = 1.87 mol L⁻¹.
+[chem18-s1.13.7] Check: 1.87² ÷ (0.0667 × 1.07) ≈ 49, which matches Kc.
+
+CANDIDATES chem9-s2: 2. Using the kinetic theory: separation techniques
+[chem9-s2.0.b] The kinetic theory says matter is made of particles that are always moving. How close the particles are, how strongly they attract one another and how they move explain why solids, liquids and gases behave so differently.
+[chem9-s2.0.0] Solids have a fixed shape and volume and cannot be compressed (squeezed into a smaller volume), because the particles are held tightly in fixed positions by strong forces and only vibrate on the spot.
+[chem9-s2.0.1] Liquids have a fixed volume but take the shape of their container and flow, because the particles are close together but can slide past one another.
+[chem9-s2.0.2] Gases fill their container and are easily compressed, because the particles are far apart, with weak forces between them, and move rapidly and randomly. The empty space between them is what lets them be pushed closer.
+[chem9-s2.0.3] Gas pressure is caused by gas particles colliding with the walls of the container. Many fast collisions every second add up to a steady push on the walls.
+[chem9-s2.1.b] Each change of state is explained by the energy of the particles and the forces between them. Heating gives particles energy to break free of those forces, and cooling takes energy away so the forces win again.
+[chem9-s2.1.0] Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another. This happens at the melting point.
+[chem9-s2.1.1] Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.
+[chem9-s2.1.2] Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and because the fastest (highest-energy) particles leave, the remaining liquid cools.
+[chem9-s2.1.3] Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour (the substance as a gas) form within the liquid.
+[chem9-s2.1.4] Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.
+[chem9-s2.1.5] Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.
+[chem9-s2.1.6] Deposition (gas to solid directly) is the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.
+[chem9-s2.1.7] Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition.
+[chem9-s2.2.b] A heating curve plots temperature against time as a pure substance is heated at a steady rate. The flat sections show the changes of state, and they show where the supplied energy goes.
+[chem9-s2.2.0] When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.
+[chem9-s2.2.1] During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy (the energy of their movement), so the temperature does not rise even though heat is being supplied.
+[chem9-s2.2.2] The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.
+[chem9-s2.2.3] The boiling plateau (flat section) is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.
+[chem9-s2.2.4] Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C. Water melts at 0 °C and boils at 100 °C at standard pressure.
+[chem9-s2.3.b] The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.
+[chem9-s2.3.0] Assumption: the particles are tiny spheres in constant, random motion.
+[chem9-s2.3.1] Assumption: the higher the temperature, the greater the average kinetic energy (energy of movement) of the particles.
+[chem9-s2.3.2] Assumption: collisions between particles are perfectly elastic, which means no kinetic energy is lost when they collide.
+[chem9-s2.3.3] Assumption: in a gas the volume of the particles themselves is negligible (so small it can be ignored), and there are no forces between the particles except during collisions.
+[chem9-s2.4.b] A model is useful only if you know where it fails. The first two limitations come from what the simple model leaves out about the forces between particles.
+[chem9-s2.4.0] Limitation: real particles are not hard spheres, and they do attract one another. These forces between particles (intermolecular forces) are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.
+[chem9-s2.4.1] Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points. That needs the types of bonding and intermolecular forces. There is more on this in Polarity, shape and physical properties.
+[chem9-s2.5.b] The model also says nothing about what is inside particles, and it works best only for gases under certain conditions.
+[chem9-s2.5.0] Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative (it describes behaviour in words), giving no values.
+[chem9-s2.5.1] Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, because the particles are then squeezed close together or moving slowly, so gases deviate from the model. There is more on this in Gas laws and the ideal gas equation.
+[chem9-s2.6.b] A mixture is separated by using a physical property in which its components differ. So the first step is always to work out how the components differ, then choose the technique that uses that difference.
+[chem9-s2.6.0] Particle size and solubility (whether a substance dissolves) separate by filtration; solubility and volatility (how easily a substance turns to vapour) by evaporation and crystallisation; boiling point by distillation.
+[chem9-s2.6.1] Solubility in a solvent and attraction to paper separate by chromatography; immiscibility (the liquids do not mix) and density by a separating funnel.
+[chem9-s2.6.2] Heterogeneous mixtures (the components can be seen as separate parts), such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting (carefully pouring off the liquid) or a separating funnel.
+[chem9-s2.6.3] Homogeneous mixtures (uniform throughout), such as solutions and miscible liquids (liquids that mix completely), need evaporation, crystallisation, distillation or chromatography.
+[chem9-s2.7.b] Filtration separates an insoluble solid (one that does not dissolve) from a liquid. The paper has holes small enough to hold back the solid particles but large enough to let the liquid through.
+[chem9-s2.7.0] Example: sand is separated from salt solution by filtration, because sand is insoluble and the salt is dissolved in the water.
+[chem9-s2.7.1] Step 1: Fold filter paper into a cone and place it in a funnel.
+[chem9-s2.7.2] Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.
+[chem9-s2.7.3] Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate.
+[chem9-s2.8.b] When a solid is dissolved in a liquid, filtering will not work because the dissolved solid passes through the paper. Instead you remove the solvent (the liquid that does the dissolving) by heating, either completely (evaporation) or only partly (crystallisation).
+[chem9-s2.8.0] Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water. It is used when the solid does not decompose (break down) on heating.
+[chem9-s2.8.1] Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated (cannot dissolve any more solid). A drop on a cold glass rod forms crystals when it is saturated.
+[chem9-s2.8.2] Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.
+[chem9-s2.8.3] Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.
+[chem9-s2.8.4] Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution.
+[chem9-s2.9.b] Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour. The liquid with the lower boiling point boils off first and is collected separately.
+[chem9-s2.9.0] Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.
+[chem9-s2.9.1] Step 1: Heat the mixture in a flask containing anti-bumping granules (small pieces that make boiling smooth and stop violent bursts of bubbling).
+[chem9-s2.9.2] Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser (a tube that cools the vapour back to liquid).
+[chem9-s2.9.3] Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.
+[chem9-s2.9.4] Step 4: The distillate (the liquid that has condensed) is collected in a receiving flask.
+[chem9-s2.9.5] Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.
+[chem9-s2.9.6] Fractional distillation separates miscible liquids with close boiling points, using a fractionating column (a tall column that gives repeated condensing and re-boiling), e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).
+[chem9-s2.9.7] Crude oil is separated into fractions (groups of compounds with similar boiling points) by fractional distillation.
+[chem9-s2.10.b] Distillation heats liquids that may be flammable and produces vapour, so the apparatus and heat source matter as well as the method.
+[chem9-s2.10.0] Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, so the vapour cannot ignite.
+[chem9-s2.10.1] Safety: a closed system is never heated, because the pressure would build up as the vapour expands.
+[chem9-s2.10.2] Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser (a straight condenser cooled by a water jacket) with water flow, and a receiving flask.
+[chem9-s2.11.b] Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators. Each substance is carried up the paper by a solvent at its own speed.
+[chem9-s2.11.0] Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.
+[chem9-s2.11.1] Step 2: Put small spots of the mixture and of known substances on the line.
+[chem9-s2.11.2] Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, so the spots are not washed into the solvent.
+[chem9-s2.11.3] Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front (the highest point the solvent reached).
+[chem9-s2.11.4] Principle: components that are more soluble in the solvent (the mobile phase, which moves) and less attracted to the paper (the stationary phase, which stays still) travel further.
+[chem9-s2.11.5] Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.
+[chem9-s2.11.6] Components are identified by matching their spots and Rf values with those of known substances.
+[chem9-s2.11.7] Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots.
+[chem9-s2.12.b] A separating funnel separates two immiscible liquids of different density. Immiscible liquids settle into two layers, with the denser liquid underneath.
+[chem9-s2.12.0] Examples: oil and water, or an organic layer from an aqueous layer (a water-based layer), which is used to purify an ester.
+[chem9-s2.12.1] Step 1: Pour the mixture into the separating funnel and let the layers settle.
+[chem9-s2.12.2] Step 2: Remove the stopper and run off the lower, denser layer through the tap.
+[chem9-s2.12.3] Step 3: Collect the upper layer separately.
+[chem9-s2.12.4] Diagram: a separating funnel with two layers, the stopper and the tap labelled.
+
+CANDIDATES chem26-s2: 2. Theoretical, actual and percentage yield
+[chem26-s2.0.b] When a chemist makes a substance, the amount collected is almost never the amount the equation predicts. Three linked terms describe the amount made, the amount that was possible, and how the two compare.
+[chem26-s2.0.0] Yield is the amount of a product obtained from a reaction.
+[chem26-s2.0.1] Theoretical yield is the maximum amount of product that could be formed from the given amounts of reactants. It is calculated from the balanced equation, assuming the reaction goes to completion and all of the limiting reactant (the reactant that runs out first) becomes the desired product.
+[chem26-s2.0.2] Actual yield is the amount of product actually obtained, measured in practice, in the laboratory or in industry. It is what you weigh or measure at the end, not what the equation predicts.
+[chem26-s2.0.3] Percentage yield = (actual yield ÷ theoretical yield) × 100. It measures how efficiently reactants are converted into the desired product, so 100% would be perfect conversion.
+[chem26-s2.0.4] The actual and theoretical yields must be in the same units: both grams, both moles, or both gas volumes at the same temperature and pressure. Gas volumes change with temperature and pressure, so a comparison is only fair under the same conditions.
+[chem26-s2.1.b] Every yield question follows the same four steps. The theoretical yield comes from the equation and the amount of starting material; only the last step brings in what was actually collected.
+[chem26-s2.1.0] Step 1: Write the balanced equation, because the coefficients (the numbers in front of each formula) give the mole ratio between reactant and product.
+[chem26-s2.1.1] Step 2: Find the moles of the reactant that decides the amount of product, the one not in excess (excess means more than enough, so some is left over). Moles = mass ÷ molar mass.
+[chem26-s2.1.2] Step 3: Use the mole ratio to find the moles of product, then convert to grams (or a gas volume). This is the theoretical yield.
+[chem26-s2.1.3] Step 4: Percentage yield = actual ÷ theoretical × 100.
+[chem26-s2.2.b] Ethene is made by dehydrating ethanol (removing the elements of water from it). This example follows the four steps for a reaction with a 1 : 1 ratio and shows the yield worked out from a mass and then from a gas volume.
+[chem26-s2.2.0] Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O, and the preparation is in “Investigation: preparing ethene”.
+[chem26-s2.2.1] Moles of ethanol = 4.60 ÷ 46 = 0.100 mol (M of C₂H₅OH is 46 g mol⁻¹). The ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.
+[chem26-s2.2.2] Theoretical mass of ethene = 0.100 × 28 = 2.80 g (M of C₂H₄ is 28 g mol⁻¹).
+[chem26-s2.2.3] Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.
+[chem26-s2.2.4] A gas yield can also be compared by volume. One mole of gas occupies 22.4 L at STP (standard temperature and pressure), so 0.100 mol of ethene is 2.24 L at STP.
+[chem26-s2.2.5] If 1.50 L of ethene (at STP) were collected, the percentage yield would be (1.50 ÷ 2.24) × 100 = 67.0%.
+[chem26-s2.3.b] An ester is made by refluxing (boiling with a condenser so vapour returns to the flask) a carboxylic acid with an alcohol and an acid catalyst (a substance that speeds up the reaction without being used up). Here the ethanol is in excess, so the ethanoic acid decides the theoretical yield.
+[chem26-s2.3.0] Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained. The equation is CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem26-s2.3.1] Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol (M of CH₃COOH is 60 g mol⁻¹), so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).
+[chem26-s2.3.2] Theoretical mass = 0.100 × 88 = 8.80 g (M of CH₃COOC₂H₅ is 88 g mol⁻¹).
+[chem26-s2.3.3] Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.
+[chem26-s2.3.4] The yield is well below 100% mainly because esterification (making an ester) is reversible and reaches equilibrium, a balance in which reactants and products are both present. The preparation is in “Tests, reaction schemes and preparing an ester”.
+[chem26-s2.4.b] Aspirin is made from salicylic acid in a 1 : 1 ratio, so this is another single-step yield calculation. Here the product was dried and purified before weighing.
+[chem26-s2.4.0] Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138). One mole of salicylic acid gives one mole of aspirin.
+[chem26-s2.4.1] Moles of salicylic acid = 2.76 ÷ 138 = 0.0200 mol, so the theoretical yield is 0.0200 mol of aspirin.
+[chem26-s2.4.2] Theoretical mass of aspirin = 0.0200 × 180 = 3.60 g.
+[chem26-s2.4.3] 2.52 g of dry, recrystallised aspirin was obtained (recrystallised means purified by dissolving and letting crystals form again). The percentage yield = (2.52 ÷ 3.60) × 100 = 70.0%.
+[chem26-s2.5.b] Sometimes the percentage yield is given and you must find how much reactant to start with, or how much product will actually be collected. The calculation runs in the opposite direction, so the theoretical yield must be found first.
+[chem26-s2.5.0] Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?
+[chem26-s2.5.1] Because only 65.0% of the possible product is obtained, the theoretical yield needed is larger: 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.
+[chem26-s2.5.2] Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.
+[chem26-s2.5.3] Mass of ethanoic acid = 0.08741 × 60 = 5.24 g (M of CH₃COOH is 60 g mol⁻¹).
+[chem26-s2.5.4] To go from a percentage yield to an actual yield, use actual yield = theoretical yield × (percentage ÷ 100). For example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³.
+[chem26-s2.6.b] In practice the actual yield is almost always below the theoretical yield. There are several separate causes, some chemical and some to do with handling the product.
+[chem26-s2.6.0] The reaction may not go to completion. Many organic reactions are slow or reversible and reach equilibrium, for example esterification, so some reactant is left unconverted.
+[chem26-s2.6.1] Side reactions form other, unwanted products from the same reactants. For example, some ethanol forms other products instead of ethene, so less ethene is made.
+[chem26-s2.6.2] Product is lost during transfer, filtration, separation and purification. For example, some product stays dissolved in the solvent after recrystallisation, or sticks to glassware and filter paper.
+[chem26-s2.6.3] The reactants may be impure, so less of the real reactant is present than the mass suggests. A volatile product or reactant (one that evaporates easily) may also be lost as vapour.
+[chem26-s2.6.4] A percentage yield above 100% means the product is impure or not fully dry, for example still containing water or solvent. The true yield can never exceed 100%.
+[chem26-s2.7.b] Yield is not just a number in an exam question. It decides how much a process costs and how much waste it creates, and in multi-step syntheses (making a compound through a series of reactions) the losses add up.
+[chem26-s2.7.0] In industry, a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of. This links yield to sustainability (making products while using fewer resources and creating less waste).
+[chem26-s2.7.1] Pharmaceuticals (medicines) are made in many steps from simpler precursors (the starting compounds), so a low yield at each step makes the overall yield very small. There is more on this in “Organic products and pharmaceuticals”.
+[chem26-s2.7.2] Overall yield of a multi-step synthesis = the product of the fractional yields of the steps, because each step only has what the one before delivered. For example, two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%.

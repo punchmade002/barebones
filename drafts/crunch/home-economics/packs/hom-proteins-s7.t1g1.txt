@@ -1,0 +1,104 @@
+MODE: cost and links
+TARGET hom-proteins-s7: 7. Biological value
+[hom-proteins-s7.0.b] Not all protein foods are equally useful to the body. Biological value (BV) measures how fully a protein food supplies the essential amino acids (the amino acids the body cannot make for itself) in the right proportions for growth and repair.
+[hom-proteins-s7.0.0] High biological value (HBV) protein, also called complete protein, contains all the essential amino acids in adequate amounts, so the body can use it to build and repair tissue.
+[hom-proteins-s7.0.1] HBV sources are mainly animal foods: meat, fish, poultry, eggs, milk, cheese and yoghurt.
+[hom-proteins-s7.0.2] Soya beans are the main plant exception: they contain all the essential amino acids, so soya beans and soya products are classed as HBV.
+[hom-proteins-s7.0.3] Low biological value (LBV) protein, also called incomplete protein, lacks one or more essential amino acids or contains them in small amounts.
+[hom-proteins-s7.0.4] LBV sources are mainly plant foods: cereals such as wheat, rice and maize, and pulses (dried peas, beans and lentils), along with nuts and seeds. Peas, beans and lentils are LBV on their own.
+[hom-proteins-s7.0.5] To sort foods quickly: eggs, fish, meat and milk are HBV; peas, rice, wheat and maize are LBV.
+[hom-proteins-s7.1.b] A low biological value food is not a dead end. Two LBV foods eaten together can supply all the essential amino acids, because each makes good what the other lacks.
+[hom-proteins-s7.1.0] This is called complementation, or supplementary value: one protein food makes up the deficiency of another, so the combined meal provides protein of high biological value. The foods are eaten in the same meal or the same day.
+[hom-proteins-s7.1.1] Beans on toast is the classic example: bread supplies methionine, which beans lack, while beans supply lysine, which bread lacks, so together they give a complete set of essential amino acids.
+[hom-proteins-s7.1.2] Hummus with pitta bread and dhal with chapatti are further complementary pairs, as are rice with lentils, lentil soup with wholemeal bread and bolognese with beans.
+[hom-proteins-s7.1.3] Adding a small amount of an HBV food such as milk, cheese or egg to a cereal or pulse also raises its value, for example in macaroni cheese, rice pudding or cereal with milk.
+[hom-proteins-s7.1.4] Complementation lets vegetarians and vegans meet their protein needs from plant foods alone, makes meals cheaper, and lets pulses stretch meat as meat extenders.
+[hom-proteins-s7.2.b] Complementation is easy to put into practice, because everyday meals can be built around a pair of foods that fill each other's gaps. When you plan a simple meal, say which two foods complement each other and why.
+[hom-proteins-s7.2.0] Pair a cereal (rice, pasta, bread or oats) with a pulse (lentils, chickpeas, beans or peas) in the same meal, for example lentil soup with wholemeal bread, because the cereal and pulse lack different essential amino acids.
+[hom-proteins-s7.2.1] Add a small amount of egg, milk, cheese or yoghurt to a plant-based meal to raise its biological value.
+[hom-proteins-s7.2.2] Soya products such as tofu and textured vegetable protein are HBV, so they can provide protein alone in a vegetarian meal.
+[hom-proteins-s7.2.3] Use pulses as meat extenders, adding them to minced meat dishes such as bolognese or chilli to stretch the meat, which makes the meal cheaper.
+[hom-proteins-s7.3.b] Protein is often a large part of a food bill, so value depends on cost per usable portion rather than the price of the pack.
+[hom-proteins-s7.3.0] Compare unit prices, such as price per kilogram or per 100 g, to judge value across different pack sizes and brands.
+[hom-proteins-s7.3.1] Allow for waste: bone, gristle, fat and cooking losses reduce the usable portion of meat and fish, so a cheap-looking pack may give less to eat.
+[hom-proteins-s7.3.2] Cheaper cuts of meat for stewing and braising are as nutritious as expensive cuts and suit slow, moist cooking.
+[hom-proteins-s7.3.3] Eggs, milk, cheese, dried or tinned pulses, tinned fish such as mackerel, tofu, textured vegetable protein and mycoprotein are low-cost sources of protein.
+[hom-proteins-s7.3.4] Fish is usually cheaper when in season, for example mackerel.
+[hom-proteins-s7.3.5] Own-brand products and special offers save money only if the extra food can be used before it spoils.
+[hom-proteins-s7.3.6] Bulk buying saves money when the food is divided into portions and frozen, so that only the amount needed is thawed.
+[hom-proteins-s7.3.7] Plan meals and use a shopping list, and use pulses or TVP to extend mince. Low-cost protein foods also fit the Food Pyramid shelf of meat, poultry, fish, eggs, beans and nuts, where two servings a day are recommended.
+[hom-proteins-s7.4.b] Protein foods such as meat, fish and dairy spoil quickly and can carry bacteria, so safe buying and storing matter as much as price.
+[hom-proteins-s7.4.0] Buy from a clean, reputable retailer, and check the use-by date, and the quality assurance and traceability information on the label, before buying.
+[hom-proteins-s7.4.1] Chilled meat, fish and dairy should be kept at 5 degrees Celsius or below, so they are bought last and carried home in a cool bag.
+[hom-proteins-s7.4.2] Frozen protein foods should be solid when bought and stored at −18 °C, and packs that have thawed and refrozen should be avoided.
+[hom-proteins-s7.4.3] Packaging should be sealed and undamaged, and cans should not be bulging.
+[hom-proteins-s7.4.4] Fresh fish has firm flesh, bright eyes and red gills; fresh meat has a fresh colour and smell.
+[hom-proteins-s7.4.5] At home, refrigerate protein foods quickly, keep raw and cooked foods apart, defrost in the fridge and cook thoroughly.
+
+CANDIDATES hom-proteins-s1: 1. Composition and amino acids
+[hom-proteins-s1.0.b] Protein is built from a small set of chemical elements, and one of them, nitrogen, is found in no other nutrient. This is what makes protein different from carbohydrate and fat.
+[hom-proteins-s1.0.0] Every protein contains carbon, hydrogen, oxygen and nitrogen. Some proteins also contain small amounts of sulphur, phosphorus and iron.
+[hom-proteins-s1.0.1] Protein is the only nutrient that contains nitrogen. Carbohydrate and fat contain only carbon, hydrogen and oxygen, so they contain none. Nitrogen is the element essential for growth.
+[hom-proteins-s1.0.2] These elements are arranged into basic units called amino acids. A protein is a large molecule made of many amino acids joined together.
+[hom-proteins-s1.0.3] Nitrogen sits in the amino group (the –NH₂ part) of every amino acid, so the nitrogen in a food comes from its protein.
+[hom-proteins-s1.0.4] Sulphur is found in only some amino acids, such as cysteine and methionine, which is why only some proteins contain it.
+[hom-proteins-s1.1.b] Every amino acid has the same central carbon atom bonded to four groups. Only the side group differs between amino acids, and that difference is what makes each one unique.
+[hom-proteins-s1.1.0] An amino group, –NH₂, which carries the nitrogen. It is basic (alkaline).
+[hom-proteins-s1.1.1] A carboxyl group, –COOH, which is the acidic part of the amino acid.
+[hom-proteins-s1.1.2] A hydrogen atom.
+[hom-proteins-s1.1.3] A variable side group, written R. It differs between amino acids and gives each one its identity. R is a group of atoms, not an element.
+[hom-proteins-s1.1.4] The body builds its proteins from about 20 different amino acids. Different proteins are different sequences of the same 20, much as different words are made from the same letters.
+[hom-proteins-s1.1.5] Diagram: draw a central carbon bonded to H, R, –COOH and –NH₂. Label each group, naming the amino group (–NH₂), the carboxyl group (–COOH) and R as the side group that varies.
+[hom-proteins-s1.2.b] The body can make some amino acids itself but not others. Those it cannot make have to arrive in food, which is why the idea matters for diet.
+[hom-proteins-s1.2.0] Essential (indispensable) amino acids cannot be made by the body, or not in adequate amounts, so they must be supplied by the diet. Lysine is an example.
+[hom-proteins-s1.2.1] Eight amino acids are essential for adults: lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan.
+[hom-proteins-s1.2.2] Children also need histidine and arginine, which makes ten essential amino acids for children. Give the figures of eight for adults and ten for children; if a question gives nine, accept it, since some sources count histidine as essential for adults too.
+[hom-proteins-s1.2.3] Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds, so food does not need to supply them.
+[hom-proteins-s1.2.4] Examples of non-essential amino acids: alanine, asparagine, aspartic acid, cysteine, glutamic acid, glutamine, glycine, proline, serine and tyrosine.
+[hom-proteins-s1.2.5] Non-essential does not mean unimportant. It means a dietary supply is not normally required, because the body can make them.
+[hom-proteins-s1.2.6] A protein's biological value (its quality as a source of amino acids) depends on whether it supplies all the essential amino acids in the right proportions.
+[hom-proteins-s1.3.b] Amino acids become proteins by being joined end to end. The link between two amino acids is called a peptide bond.
+[hom-proteins-s1.3.0] A peptide bond forms when the carboxyl group (–COOH) of one amino acid reacts with the amino group (–NH₂) of another. It is not formed between the R groups.
+[hom-proteins-s1.3.1] A molecule of water is released in this reaction, so peptide bond formation is a condensation reaction.
+[hom-proteins-s1.3.2] The link formed is –CO–NH–.
+[hom-proteins-s1.3.3] Two amino acids joined by one peptide bond form a dipeptide. A short chain of amino acids is a peptide, and a long chain is a polypeptide.
+[hom-proteins-s1.3.4] A protein is made of one or more polypeptide chains.
+[hom-proteins-s1.3.5] Diagram: draw two amino acids side by side, then joined. Label the –CO–NH– link and the molecule of water released.
+[hom-proteins-s1.4.b] Hydrolysis is the opposite of the reaction that builds protein. It is how long protein chains are broken back into their amino acids.
+[hom-proteins-s1.4.0] Hydrolysis breaks a peptide bond by adding a molecule of water, which reverses the condensation reaction.
+[hom-proteins-s1.4.1] Repeated hydrolysis splits a polypeptide into smaller peptides and finally into free amino acids.
+[hom-proteins-s1.4.2] In the body the enzymes pepsin (in the stomach) and trypsin (in the small intestine) do this in digestion. Acid and heat can also hydrolyse protein.
+
+CANDIDATES hom-proteins-s4: 4. Sources
+[hom-proteins-s4.0.b] Protein comes from both animal and plant foods, so everyone can meet their needs whatever they eat. Exam answers earn marks for naming a variety of foods from each group.
+[hom-proteins-s4.0.0] Animal protein sources are meat, poultry, fish, eggs, milk, cheese and yoghurt. Cheese and yoghurt belong in the list because they are made from milk.
+[hom-proteins-s4.0.1] Plant protein sources are soya beans and soya products, pulses (lentils, peas and beans), cereals (wheat, rice, maize and oats), nuts and seeds.
+[hom-proteins-s4.0.2] Cereals such as wheat, rice and maize supply protein as well as carbohydrate, so everyday foods like wheat, bread and pasta are plant protein sources.
+[hom-proteins-s4.0.3] Potatoes and vegetables contain only small amounts of protein, so they are not counted as main protein sources.
+[hom-proteins-s4.1.b] Albumin is the protein most people meet first, in the white of an egg. It is a good example of a protein that is tied to one particular food.
+[hom-proteins-s4.1.0] Albumin is the main protein of egg white (ovalbumin), and it is also found in lean meat.
+[hom-proteins-s4.1.1] Lactalbumin, a related albumin, is found in the whey of milk, the watery part left when the casein is removed.
+[hom-proteins-s4.1.2] Albumin is a soluble globular protein. It dissolves in water and coagulates (sets) when heated, which is why raw egg white turns solid and white on cooking.
+[hom-proteins-s4.2.b] Casein is the main protein of milk, so it follows milk into every food made from milk. Cheese-making depends on changing it.
+[hom-proteins-s4.2.0] Casein (the older term is caseinogen) is the main protein of milk.
+[hom-proteins-s4.2.1] Casein is present in cheese and yoghurt, the products made from milk.
+[hom-proteins-s4.2.2] Casein is coagulated by the enzyme rennin, which is the first step in making cheese because it forms the curd. Acid also coagulates it, which is why milk curdles when it sours.
+[hom-proteins-s4.3.b] Gelatine is the protein behind jelly, but it is not found in raw meat. It is made when another protein, collagen, is heated.
+[hom-proteins-s4.3.0] Gelatine is not present in raw meat; it forms when collagen from animal bones, skin and connective tissue is heated in moisture.
+[hom-proteins-s4.3.1] Gelatine sets to a gel when it cools, so it is used in jelly, aspic, gelatine-set mousses and desserts, marshmallows and some sweets.
+[hom-proteins-s4.3.2] Gelatine comes from animal sources, so foods set with it are not vegetarian.
+[hom-proteins-s4.4.b] Gluten is the protein that gives wheat bread its structure. It does not exist in dry flour; it is formed when the flour is wet.
+[hom-proteins-s4.4.0] Gluten is the protein of wheat and wheat flour.
+[hom-proteins-s4.4.1] Gluten forms when the proteins gliadin and glutenin, both already present in the flour, are mixed with water. Flour itself contains gliadin and glutenin, not formed gluten.
+[hom-proteins-s4.4.2] Gluten is elastic and stretchy, and kneading develops it. It gives bread dough its elastic, stretchy texture and traps the carbon dioxide made by yeast, so the dough rises.
+[hom-proteins-s4.4.3] Foods that depend on wheat gluten include bread, pasta, cakes, pastry and other flour products.
+[hom-proteins-s4.5.b] Each of these proteins is tied to a food or food group. Pairing every named protein with one food is the quickest way to answer a naming question.
+[hom-proteins-s4.5.0] Albumin: found in egg white and meat, and it sets when heated.
+[hom-proteins-s4.5.1] Casein: found in milk, cheese and yoghurt, and it is coagulated by rennin.
+[hom-proteins-s4.5.2] Gelatine: found in set desserts such as jelly, and it is made from collagen.
+[hom-proteins-s4.5.3] Gluten: found in wheat flour and bread, and it traps gas in dough.
+[hom-proteins-s4.6.b] Meat and fish are made of muscle and connective tissue, and each contains its own proteins. Higher Level questions ask you to name them.
+[hom-proteins-s4.6.0] Myosin and actin are the contractile proteins of muscle, which means they contract to move the muscle. They are found in the flesh of meat and fish.
+[hom-proteins-s4.6.1] Collagen is the main protein of connective tissue and is found in meat, fish and bones.
+[hom-proteins-s4.6.2] Collagen in meat and fish is the source of gelatine when it is heated in moisture; this is why cheap tough cuts of meat tenderise on slow, moist cooking.
+[hom-proteins-s4.6.3] Elastin in meat and globulin in egg are also acceptable answers when asked for proteins in meat or egg.

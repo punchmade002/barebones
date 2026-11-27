@@ -1,0 +1,454 @@
+MODE: links only (another package rates cost)
+TARGET chem24-s2: 2. Physical properties and acidity
+[chem24-s2.0.b] When a solid melts or a liquid boils, the molecules move apart from one another but stay intact. So the energy needed depends on the attractions between molecules, and three kinds of attraction matter for organic compounds.
+[chem24-s2.0.0] Melting and boiling separate molecules, so they depend on the intermolecular forces (the attractions between separate molecules), not on the covalent bonds (shared electron pairs) inside the molecules.
+[chem24-s2.0.1] The stronger the forces, the more energy is needed to pull the molecules apart, so the higher the melting and boiling points.
+[chem24-s2.0.2] London dispersion forces are the weak attractions between all molecules, polar or not. They grow stronger as a molecule has more electrons and more surface.
+[chem24-s2.0.3] Permanent dipole–dipole forces act between polar molecules. A polar bond is one where the shared electrons sit nearer the more electronegative atom (the atom that pulls harder on shared electrons), leaving one end δ+ and the other δ−.
+[chem24-s2.0.4] Hydrogen bonding is a strong attraction between an H bonded to O, N or F and a lone pair (a non-bonding pair of outer electrons) on O, N or F of a neighbouring molecule. The order of strength is London forces only, then dipole–dipole, then hydrogen bonding.
+[chem24-s2.1.b] Which forces a compound has depends on its family, meaning the functional group (the atom or group that gives a family its properties) and whether that group has polar bonds. None of these families can hydrogen bond to its own molecules.
+[chem24-s2.1.0] Alkanes and alkenes (hydrocarbons, made only of C and H) are non-polar, so they have London dispersion forces only.
+[chem24-s2.1.1] Haloalkanes (alkanes with a halogen such as Cl in place of an H) have a polar C–Cl bond (Cl 3.16, C 2.55 on the electronegativity scale), so they have permanent dipole–dipole forces as well as London forces.
+[chem24-s2.1.2] Haloalkanes cannot hydrogen bond, because they have no H bonded to O, N or F.
+[chem24-s2.1.3] Aldehydes and ketones (compounds containing the C=O carbonyl group) have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.
+[chem24-s2.1.4] Aldehydes and ketones cannot hydrogen bond with each other, because their hydrogens are bonded to carbon, not oxygen.
+[chem24-s2.1.5] Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules.
+[chem24-s2.2.b] Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind.
+[chem24-s2.2.0] Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.
+[chem24-s2.2.1] Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.
+[chem24-s2.2.2] In the pure liquid, carboxylic acid molecules pair up as dimers (two molecules joined together) held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.
+[chem24-s2.2.3] Diagram: two ethanoic acid molecules facing each other, with dashed hydrogen bonds from each O–H hydrogen to the C=O oxygen of the other molecule, forming a dimer.
+[chem24-s2.3.b] Size also affects boiling point, because bigger molecules have stronger London forces. To compare the type of force fairly, you need compounds with about the same relative molecular mass (Mr, the mass of a molecule compared with carbon-12).
+[chem24-s2.3.0] At similar relative molecular mass, so with similar London forces, boiling point depends on the type of intermolecular force: London forces only give the lowest boiling point, then dipole–dipole forces, then hydrogen bonding.
+[chem24-s2.3.1] Butane (Mr 58) boils at −1 °C, propanal (Mr 58) at 48 °C and propanone (Mr 58) at 56 °C.
+[chem24-s2.3.2] Methyl methanoate (Mr 60) boils at 32 °C, propan-1-ol (Mr 60) at 97 °C and ethanoic acid (Mr 60) at 118 °C.
+[chem24-s2.3.3] Propanal boils far higher than butane because its polar C=O gives dipole–dipole forces in addition to London forces.
+[chem24-s2.3.4] Propan-1-ol boils higher than propanal because its O–H groups form hydrogen bonds between molecules, which are stronger than dipole–dipole forces.
+[chem24-s2.3.5] Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome.
+[chem24-s2.4.b] Two compounds can have the same mass, or even the same formula, and still boil at very different temperatures. The difference comes down to whether hydrogen bonding is possible.
+[chem24-s2.4.0] Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.
+[chem24-s2.4.1] The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.
+[chem24-s2.4.2] Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only.
+[chem24-s2.5.b] Within one family the functional group stays the same, so what changes boiling point is chain length. A homologous series (a family whose members differ by one CH₂ unit) shows this clearly.
+[chem24-s2.5.0] Within a homologous series, boiling point rises with chain length, because each extra CH₂ adds electrons and surface area, so London forces get stronger.
+[chem24-s2.5.1] Alcohols: methanol 65 °C; ethanol 78 °C; propan-1-ol 97 °C; butan-1-ol 117 °C; pentan-1-ol 138 °C; hexan-1-ol 157 °C, a rise of about 20 °C per CH₂.
+[chem24-s2.5.2] Carboxylic acids: methanoic acid 101 °C; ethanoic acid 118 °C; propanoic acid 141 °C; butanoic acid 164 °C.
+[chem24-s2.5.3] Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C.
+[chem24-s2.6.b] Haloalkanes follow the same trend, and adding halogens has its own effect. A longer chain also makes the families more alike.
+[chem24-s2.6.0] Chloroalkanes: chloromethane −24 °C and chloroethane 12 °C are gases at room temperature.
+[chem24-s2.6.1] Chloroalkanes: 1-chloropropane 47 °C and 1-chlorobutane 78 °C are liquids.
+[chem24-s2.6.2] Adding more chlorines also raises the boiling point: CH₃Cl −24 °C; CH₂Cl₂ 40 °C; CHCl₃ 61 °C; CCl₄ 77 °C, because more electrons give stronger London forces.
+[chem24-s2.6.3] As the chain gets longer, the hydrocarbon part makes up more of the molecule, so the difference between families gets smaller, because the effect of the functional group is diluted.
+[chem24-s2.7.b] Molecules with the same formula can have different shapes. A branched molecule is more compact than a straight chain, and that changes how strongly molecules attract one another.
+[chem24-s2.7.0] Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker. There is more on this in Groups of hydrocarbons and their properties.
+[chem24-s2.7.1] Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.
+[chem24-s2.7.2] The more compact the molecule, and the more crowded the –OH, the lower the boiling point.
+[chem24-s2.8.b] Exams give a table or graph of boiling point against number of carbons and ask for the trend, the reason and a prediction. A fixed three-step method covers all three.
+[chem24-s2.8.0] Step 1: from a table or graph of boiling point against number of carbons, describe the trend, for example that boiling point rises as the number of carbons rises.
+[chem24-s2.8.1] Step 2: explain the trend in terms of chain length, London forces and the functional group.
+[chem24-s2.8.2] Step 3: predict the next member by continuing the trend, e.g. continuing the primary alcohols from butan-1-ol, 117 °C, gives about 138 °C for pentan-1-ol.
+[chem24-s2.9.b] Melting also depends on intermolecular forces, but a solid is an ordered packing of molecules. So how neatly the molecules fit together matters too.
+[chem24-s2.9.0] Melting points depend on the intermolecular forces and also on how well the molecules pack together in the solid, so they follow trends less regularly than boiling points.
+[chem24-s2.9.1] Ethanoic acid melts at 17 °C, high for its size, because of strong hydrogen bonding.
+[chem24-s2.9.2] On a cold day, pure ethanoic acid freezes to an ice-like solid, so it is called glacial ethanoic acid.
+[chem24-s2.9.3] Compact, symmetrical molecules pack well and melt higher: 2-methylpropan-2-ol melts at about 25 °C, but butan-1-ol melts at −89 °C.
+[chem24-s2.9.4] Cyclohexane (a ring of six carbons) melts at 6.5 °C, but hexane (the straight chain) melts at −95 °C, again because the compact ring packs better.
+[chem24-s2.9.5] Ionic bonding (attraction between oppositely charged ions) gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C.
+[chem24-s2.10.b] Whether a compound dissolves depends on whether it can attract the solvent (the liquid doing the dissolving) as strongly as it attracts itself. For water, that means hydrogen bonding.
+[chem24-s2.10.0] Like dissolves like: a compound dissolves in water if it can form hydrogen bonds with water molecules.
+[chem24-s2.10.1] Non-polar compounds dissolve in non-polar solvents such as cyclohexane, where London forces are similar.
+[chem24-s2.10.2] Lower alcohols (methanol, ethanol, propan-1-ol and propan-2-ol) are miscible with water, mixing in all proportions, because their –OH groups hydrogen bond with water.
+[chem24-s2.10.3] Lower carboxylic acids, from methanoic acid to butanoic acid, are also miscible with water, for the same reason.
+[chem24-s2.10.4] Solubility in water falls as the chain gets longer, because the non-polar hydrocarbon part cannot hydrogen bond and disrupts the hydrogen bonding of the water.
+[chem24-s2.10.5] Butan-1-ol is only partly soluble in water, and hexan-1-ol is only slightly soluble.
+[chem24-s2.10.6] Longer chains dissolve better in non-polar solvents.
+[chem24-s2.11.b] These families cannot hydrogen bond to their own molecules, yet small ones still dissolve in water. The reason is that water can hydrogen bond to them.
+[chem24-s2.11.0] Small aldehydes and ketones, methanal, ethanal and propanone, are miscible with water: they have no O–H, but water molecules hydrogen bond to the lone pairs on their C=O oxygen.
+[chem24-s2.11.1] Propanone dissolves both polar and non-polar substances, so it is a useful solvent.
+[chem24-s2.11.2] Butanone is not fully miscible with water; only the smallest ketone, propanone, is.
+[chem24-s2.11.3] Small esters are slightly soluble in water for the same reason, as water hydrogen bonds to their oxygens: about 8 g of ethyl ethanoate dissolves in 100 g of water at room temperature.
+[chem24-s2.11.4] Small esters dissolve well in organic solvents.
+[chem24-s2.12.b] Compounds with no way to hydrogen bond with water stay out of it, while ionic compounds are pulled in by water's charges. These cases explain common solvents and a purification method.
+[chem24-s2.12.0] Alkanes, alkenes, benzene and haloalkanes are insoluble in water, as they cannot hydrogen bond with it, but they dissolve in non-polar solvents.
+[chem24-s2.12.1] Haloalkanes are good solvents for grease and oil.
+[chem24-s2.12.2] Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation (dissolving in hot water, then cooling so pure crystals form).
+[chem24-s2.12.3] There is more on this in Investigation: synthesising benzoic acid.
+[chem24-s2.12.4] Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction).
+[chem24-s2.13.b] Alcohols and carboxylic acids both contain an O–H group, yet carboxylic acids are far more acidic. To see why, first look at why an O–H hydrogen can be lost at all.
+[chem24-s2.13.0] An acid, in the Brønsted–Lowry sense, is a proton donor; both alcohols and carboxylic acids can donate the H⁺ of their O–H group.
+[chem24-s2.13.1] The O–H bond is polar because oxygen (3.44) is much more electronegative than hydrogen (2.20), so the shared electrons are pulled towards oxygen.
+[chem24-s2.13.2] This leaves the hydrogen δ+, so it can be removed as H⁺ by a base (a proton acceptor).
+[chem24-s2.13.3] C–H bonds are almost non-polar (C 2.55, H 2.20), so hydrogens bonded to carbon are not acidic.
+[chem24-s2.13.4] In ethanoic acid, CH₃COOH, only the hydrogen on oxygen is lost.
+[chem24-s2.13.5] How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base, what is left after H⁺ leaves) is.
+[chem24-s2.13.6] The more stable the negative ion, the more easily H⁺ is lost and the stronger the acid.
+[chem24-s2.14.b] An alcohol can lose H⁺, but the ion it leaves behind is unstable. This is why alcohols are such weak acids.
+[chem24-s2.14.0] An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺. Ethanol gives the ethoxide ion, C₂H₅O⁻.
+[chem24-s2.14.1] In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance (sharing the charge over more than one atom).
+[chem24-s2.14.2] The alkoxide ion is therefore unstable and readily takes back H⁺.
+[chem24-s2.14.3] The alkyl group (a chain of carbons and hydrogens) is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.
+[chem24-s2.14.4] Alcohols are therefore weaker acids than water.
+[chem24-s2.15.b] Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Their acidic O–H shows up in the reaction with sodium metal.
+[chem24-s2.15.0] Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.
+[chem24-s2.15.1] Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.
+[chem24-s2.15.2] Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g), forming sodium ethoxide.
+[chem24-s2.15.3] The reaction of ethanol with sodium is gentler than the reaction of sodium with water, showing that ethanol is a weaker acid than water.
+[chem24-s2.16.b] A carboxylic acid loses H⁺ much more easily than an alcohol, and the reason lies in the ion it leaves behind. Its negative charge is not stuck on one atom.
+[chem24-s2.16.0] A carboxylic acid loses H⁺ to form a carboxylate ion: RCOOH(aq) ⇌ RCOO⁻(aq) + H⁺(aq).
+[chem24-s2.16.1] Ethanoic acid gives the ethanoate ion: CH₃COOH ⇌ CH₃COO⁻ + H⁺.
+[chem24-s2.16.2] In the carboxylate ion the negative charge is delocalised (spread out), shared over both oxygen atoms through the O–C–O group.
+[chem24-s2.16.3] The carboxylate ion is a resonance hybrid (a blend) of two structures, in each of which a different oxygen carries the negative charge.
+[chem24-s2.17.b] Bond lengths show that the charge really is shared, and the sharing is what stabilises the ion. This is why a carboxylic acid is a much stronger acid than an alcohol.
+[chem24-s2.17.0] The two C–O bonds in a carboxylate ion are the same length, between the length of a C–O single bond and that of a C=O double bond.
+[chem24-s2.17.1] In the acid itself, the C=O bond is shorter than the C–O bond.
+[chem24-s2.17.2] Spreading the charge over two oxygens stabilises the carboxylate ion.
+[chem24-s2.17.3] So a carboxylic acid loses H⁺ much more readily than an alcohol, whose alkoxide ion has no such stabilisation.
+[chem24-s2.17.4] Diagram: the two resonance structures of the ethanoate ion, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and the hybrid drawn with a dashed bond over O–C–O and a charge of −½ on each oxygen.
+[chem24-s2.18.b] A second effect adds to resonance. Atoms in a molecule pull on electrons along the bonds, and this changes how easily the O–H hydrogen leaves.
+[chem24-s2.18.0] The inductive effect is the pulling (or pushing) of electron density along sigma bonds (the single bonds that join atoms) by an atom or group, because of its electronegativity.
+[chem24-s2.18.1] In the –COOH group, the electronegative oxygen of the C=O pulls electron density away from the O–H bond.
+[chem24-s2.18.2] This makes the O–H more polar and the hydrogen easier to lose than in an alcohol.
+[chem24-s2.18.3] Electron-withdrawing groups such as chlorine, attached to the carbon chain, pull electron density towards themselves.
+[chem24-s2.18.4] This spreads out the negative charge of the carboxylate ion and stabilises it, so the acid is stronger.
+[chem24-s2.18.5] More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect.
+[chem24-s2.19.b] Alkyl groups have the opposite effect to chlorine, so they weaken an acid. The Ka values (the acid dissociation constant: the larger the Ka, the stronger the acid) confirm the order.
+[chem24-s2.19.0] Alkyl groups are electron-releasing; they push electron density towards the –COO⁻ group, destabilising it, so the acid is weaker.
+[chem24-s2.19.1] Methanoic acid, with H on the –COOH, is stronger than ethanoic acid, with CH₃ on the –COOH, which is slightly stronger than propanoic acid.
+[chem24-s2.19.2] Ka data at 25 °C: methanoic acid 1.8 × 10⁻⁴; ethanoic acid 1.8 × 10⁻⁵; propanoic acid 1.3 × 10⁻⁵.
+[chem24-s2.19.3] Ka data at 25 °C: chloroethanoic acid 1.4 × 10⁻³; trichloroethanoic acid about 0.2.
+[chem24-s2.19.4] Order of strength: CCl₃COOH > CH₂ClCOOH > HCOOH > CH₃COOH > CH₃CH₂COOH.
+[chem24-s2.20.b] Carboxylic acids are much more acidic than alcohols, but they are still weak acids. A weak acid dissociates (splits into H⁺ and its negative ion) only partly, and a short calculation shows how little.
+[chem24-s2.20.0] Carboxylic acids are weak acids, only partly dissociated.
+[chem24-s2.20.1] Step 1: the degree of dissociation (the fraction of molecules that lose H⁺) is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.
+[chem24-s2.20.2] Step 2: [H⁺] = 0.013 × 0.1 mol L⁻¹ = 1.3 × 10⁻³ mol L⁻¹.
+[chem24-s2.20.3] Step 3: pH = −log₁₀[H⁺] = −log₁₀(1.3 × 10⁻³) ≈ 2.9.
+[chem24-s2.20.4] Carboxylic acids are still far stronger acids than alcohols, because of the resonance-stabilised carboxylate ion and the inductive effect of the C=O.
+[chem24-s2.20.5] Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.
+[chem24-s2.21.b] The difference in acidity shows up in everyday reactions. Carboxylic acids give the typical reactions of an acid, and alcohols mostly do not.
+[chem24-s2.21.0] Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.
+[chem24-s2.21.1] Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O. There is more on this in Tests, reaction schemes and preparing an ester.
+[chem24-s2.21.2] Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.
+[chem24-s2.21.3] Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.
+[chem24-s2.21.4] Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.
+[chem24-s2.21.5] Indicator: an alcohol is neutral; an acid is acidic.
+[chem24-s2.22.b] Every acidity question has the same logic: the more stable the negative ion left behind, the stronger the acid. A two-step answer follows it.
+[chem24-s2.22.0] Step 1 of explaining a difference in acidity: say which anion is more stable and why, referring to resonance and to electron-withdrawing or electron-releasing groups.
+[chem24-s2.22.1] Step 2 of explaining a difference in acidity: conclude which acid loses H⁺ more easily.
+
+CANDIDATES chem11-s2: 2. Acid–base theories and strength
+[chem11-s2.0.b] The first successful definition of acids and bases came from Svante Arrhenius in 1887, in his theory of electrolytic dissociation. He defined them by the ions they produce when dissolved in water.
+[chem11-s2.0.0] An Arrhenius acid is a substance that dissociates (splits into ions) in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.0.1] An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.0.2] Neutralisation (an acid and a base cancelling each other's properties) is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O.
+[chem11-s2.1.b] The Arrhenius theory works well for simple cases like HCl and NaOH, but it breaks down as soon as a substance or reaction does not fit its water-and-ions picture. These gaps are why a wider theory was needed.
+[chem11-s2.1.0] It applies only to aqueous solutions (substances dissolved in water), so it says nothing about acids and bases in other solvents.
+[chem11-s2.1.1] It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate, because it only allows a base to produce OH⁻ itself.
+[chem11-s2.1.2] It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem11-s2.1.3] It ignores the role of water: a bare hydrogen ion (a proton) does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺.
+[chem11-s2.2.b] Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton, so it no longer depends on water or on OH⁻.
+[chem11-s2.2.0] A proton is the same particle as a hydrogen ion, H⁺ (a hydrogen atom that has lost its electron, leaving just a proton).
+[chem11-s2.2.1] A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.
+[chem11-s2.2.2] An acid–base reaction is the transfer of a proton from an acid to a base.
+[chem11-s2.2.3] HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.
+[chem11-s2.2.4] NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid. The ⇌ arrow means the reaction is reversible.
+[chem11-s2.2.5] Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric.
+[chem11-s2.3.b] A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions. Brønsted–Lowry does this by fixing each of the Arrhenius limitations.
+[chem11-s2.3.0] It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor, so it counts as a base.
+[chem11-s2.3.1] It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.
+[chem11-s2.3.2] It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.
+[chem11-s2.3.3] It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.
+[chem11-s2.3.4] Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.
+[chem11-s2.3.5] Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.
+[chem11-s2.3.6] Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent (the liquid doing the dissolving) and in the absence of a solvent.
+[chem11-s2.4.b] Because a Brønsted–Lowry reaction passes a proton along, the acid and base each turn into a new species that can pass the proton back. These linked species are called conjugates.
+[chem11-s2.4.0] When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.
+[chem11-s2.4.1] When a base accepts a proton, the species formed is the conjugate acid of that base.
+[chem11-s2.4.2] A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.
+[chem11-s2.4.3] H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.
+[chem11-s2.4.4] Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁.
+[chem11-s2.5.b] To label the acids, bases and conjugate pairs in any equation, follow the movement of the proton. These four steps work for every equation.
+[chem11-s2.5.0] 1. For each reactant, check whether it loses or gains a proton in going to the products.
+[chem11-s2.5.1] 2. The reactant that loses a proton is the acid; the reactant that gains a proton is the base.
+[chem11-s2.5.2] 3. On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.
+[chem11-s2.5.3] 4. In a reversible reaction (one that can run in both directions, shown by ⇌), the products act as an acid and a base in the reverse reaction.
+[chem11-s2.6.b] Each equation below is labelled using the four steps: find which reactant loses a proton, which gains one, then match each to its product. Notice that the same species can be an acid in one equation and a base in another.
+[chem11-s2.6.0] HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.1] NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.
+[chem11-s2.6.2] CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.3] HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid because it loses a proton; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.4] HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base because it gains a proton; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.5] NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻.
+[chem11-s2.7.b] An acid and its conjugate base are linked like a see-saw: the stronger one is, the weaker the other. Some species can sit on either side, depending on what they react with.
+[chem11-s2.7.0] The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.
+[chem11-s2.7.1] A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.
+[chem11-s2.7.2] Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the worked examples above.
+[chem11-s2.8.b] Strength describes how far an acid splits into ions (dissociates, or ionises) when it dissolves in water. This decides how many H⁺ ions it releases.
+[chem11-s2.8.0] A strong acid is completely dissociated (ionised) into ions in water, shown with a single arrow: HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.8.1] Strong acids include hydrochloric acid (HCl), nitric acid (HNO₃) and sulfuric acid (H₂SO₄).
+[chem11-s2.8.2] A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium (a balance between the forward and reverse reactions) is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).
+[chem11-s2.8.3] Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids (acids built on carbon chains).
+[chem11-s2.9.b] Bases have strength in the same way as acids: it depends on how fully they produce hydroxide ions in water.
+[chem11-s2.9.0] A strong base is completely dissociated in water, e.g. sodium hydroxide and potassium hydroxide: NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.9.1] A weak base reacts only slightly with water to produce hydroxide ions, e.g. ammonia: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem11-s2.10.b] Concentration describes how much acid or base is present; strength describes how far it dissociates. The two are separate properties.
+[chem11-s2.10.0] Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹ (moles per litre; a mole is a fixed counting amount of particles).
+[chem11-s2.10.1] A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl.
+[chem11-s2.10.2] A dilute strong acid, e.g. 0.01 M HCl, is still fully dissociated.
+[chem11-s2.10.3] A concentrated weak acid, e.g. glacial ethanoic acid, is still only slightly dissociated.
+[chem11-s2.11.b] Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration. Any difference in behaviour must then come from strength, not concentration.
+[chem11-s2.11.0] pH (a scale measuring how acidic a solution is; lower means more H⁺): 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.
+[chem11-s2.11.1] Ethanoic acid has an acid dissociation constant (Ka) of 1.8 × 10⁻⁵, a small value showing that it is only slightly dissociated.
+[chem11-s2.11.2] Rate of reaction: magnesium ribbon fizzes much faster in 0.1 M hydrochloric acid than in 0.1 M ethanoic acid, because hydrogen ions are present at a higher concentration.
+[chem11-s2.11.3] Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions to carry the current.
+[chem11-s2.11.4] Equal volumes of the two acids at the same concentration neutralise the same amount of sodium hydroxide and give the same total volume of hydrogen with excess magnesium, because the weak acid's equilibrium shifts to release more H⁺ as H⁺ is used up.
+[chem11-s2.11.5] Safety: concentrated acids and alkalis are corrosive, so wear goggles and gloves; dilute an acid by adding it to water.
+
+CANDIDATES chem19-s2: 2. pH calculations and dissociation constants
+[chem19-s2.0.b] pH is a number that measures how acidic a solution is: pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen ions in mol L⁻¹ (M means mol L⁻¹). A strong acid ionises completely, so its [H⁺] can be read straight from the concentration of the acid.
+[chem19-s2.0.0] A strong acid is fully dissociated (every molecule splits into ions), so [H⁺] = concentration of the acid × number of H⁺ released per formula unit (its basicity, the number of H⁺ each unit of acid can give).
+[chem19-s2.0.1] Monoprotic (monobasic) strong acids, which release one H⁺ each, such as HCl and HNO₃, give [H⁺] = [acid], because each molecule supplies exactly one H⁺.
+[chem19-s2.0.2] For example, 0.010 M HCl has [H⁺] = 0.010 mol L⁻¹, so pH = −log₁₀(0.010) = 2.00.
+[chem19-s2.0.3] For example, 0.025 M HCl has pH = −log₁₀(0.025) = 1.60.
+[chem19-s2.0.4] Sulfuric acid is diprotic (it can release two H⁺) and is treated as fully dissociated: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × [H₂SO₄].
+[chem19-s2.0.5] For example, 0.050 M H₂SO₄ has [H⁺] = 0.10 mol L⁻¹, so pH = 1.00.
+[chem19-s2.1.b] Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.
+[chem19-s2.1.0] Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.
+[chem19-s2.1.1] Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹, because 250 cm³ is 0.250 L.
+[chem19-s2.1.2] Step 2: Concentration in mol L⁻¹ = 20 ÷ 98 = 0.204 mol L⁻¹, dividing by the molar mass.
+[chem19-s2.1.3] Step 3: [H⁺] = 2 × 0.204 = 0.408 mol L⁻¹, because each H₂SO₄ releases 2H⁺.
+[chem19-s2.1.4] Step 4: pH = −log₁₀(0.408) = 0.39.
+[chem19-s2.2.b] A strong base is treated like a strong acid, except that it supplies OH⁻ (hydroxide ions) rather than H⁺. So you find [OH⁻] first and then convert it to a pH.
+[chem19-s2.2.0] A strong base is fully dissociated, so [OH⁻] = concentration of the base × number of OH⁻ per formula unit: NaOH and KOH give 1 OH⁻, while Ca(OH)₂ gives 2.
+[chem19-s2.2.1] Method: find [OH⁻], then pOH = −log₁₀[OH⁻] (pOH is the same scale as pH but for OH⁻); pH = 14 − pOH at 25 °C, because pH + pOH = 14 only at that temperature.
+[chem19-s2.2.2] Alternative method: [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹⁴ ÷ [OH⁻] (Kw is the ionic product of water, [H⁺][OH⁻]), then pH = −log₁₀[H⁺]; both methods give the same answer.
+[chem19-s2.2.3] For example, 0.010 M NaOH has [OH⁻] = 0.010, so pOH = 2.00 and pH = 14 − 2.00 = 12.00.
+[chem19-s2.2.4] For example, 0.15 M NaOH has pOH = −log₁₀(0.15) = 0.82, so pH = 13.18.
+[chem19-s2.2.5] For example, 0.010 M Ca(OH)₂ dissociates as Ca(OH)₂ → Ca²⁺ + 2OH⁻, so [OH⁻] = 0.020 mol L⁻¹, pOH = 1.70 and pH = 12.30.
+[chem19-s2.2.6] Example from a mass: 9.0 g of KOH (56 g mol⁻¹) made up to 500 cm³ gives 18 g L⁻¹ ÷ 56 = 0.321 mol L⁻¹ = [OH⁻].
+[chem19-s2.2.7] For the KOH example, pOH = 0.49 and pH = 13.51.
+[chem19-s2.3.b] A weak acid dissociates only slightly, so you cannot take [H⁺] equal to its concentration. Instead you use Ka, the acid dissociation constant, a number that measures how far the acid dissociates (the larger the Ka, the stronger the acid).
+[chem19-s2.3.0] A weak acid is only slightly dissociated, so [H⁺] is much less than the acid concentration and must be found from Ka.
+[chem19-s2.3.1] Formula: [H⁺] = √(Ka × c), where c is the concentration of the acid in mol L⁻¹; this formula must be learned, because it is not in the Formulae and Tables booklet.
+[chem19-s2.3.2] It assumes the acid is monoprotic (gives one H⁺ per molecule), that the amount dissociated is very small compared with c (so c − x ≈ c, where x is the amount that dissociates), and that the H⁺ from water is negligible.
+[chem19-s2.3.3] The approximation is good: the exact quadratic answer for 0.10 M ethanoic acid is pH 2.88, so the formula is good to about 0.01 pH unit.
+[chem19-s2.4.b] Once [H⁺] is found from √(Ka × c), the pH follows with −log₁₀ as for any acid. These examples use Ka values at 25 °C.
+[chem19-s2.4.0] For example, 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵ has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.4.1] So its pH = −log₁₀(1.34 × 10⁻³) = 2.87.
+[chem19-s2.4.2] For example, 0.50 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.50) = √(9.0 × 10⁻⁶) = 3.0 × 10⁻³ mol L⁻¹, so pH = 2.52.
+[chem19-s2.4.3] For example, 0.10 M methanoic acid with Ka = 1.8 × 10⁻⁴ has [H⁺] = √(1.8 × 10⁻⁵) = 4.24 × 10⁻³ mol L⁻¹, so pH = 2.37.
+[chem19-s2.4.4] Methanoic acid has a lower pH than ethanoic acid at the same concentration, because it is the stronger acid (larger Ka).
+[chem19-s2.4.5] Example from a mass: 1.48 g of propanoic acid (CH₃CH₂COOH, 74 g mol⁻¹) in 200 cm³ gives moles = 1.48 ÷ 74 = 0.0200 mol.
+[chem19-s2.4.6] Concentration c = 0.0200 ÷ 0.200 = 0.100 mol L⁻¹, with the volume converted to litres.
+[chem19-s2.4.7] With Ka = 1.3 × 10⁻⁵, [H⁺] = √(1.3 × 10⁻⁵ × 0.100) = 1.14 × 10⁻³ mol L⁻¹, so pH = 2.94.
+[chem19-s2.5.b] A weak base reacts only slightly with water to give OH⁻, so it is handled like a weak acid but with Kb, the base dissociation constant (a measure of how far the base dissociates). You find [OH⁻] first.
+[chem19-s2.5.0] Formula: [OH⁻] = √(Kb × c), with the same assumptions as for weak acids (the amount dissociated is very small compared with c, and OH⁻ from water is negligible); then pOH = −log₁₀[OH⁻] and pH = 14 − pOH.
+[chem19-s2.5.1] For example, 0.10 M ammonia with Kb = 1.8 × 10⁻⁵ has [OH⁻] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.5.2] So its pOH = 2.87 and pH = 14 − 2.87 = 11.13.
+[chem19-s2.5.3] For example, 0.050 M ammonia has [OH⁻] = √(1.8 × 10⁻⁵ × 0.050) = 9.49 × 10⁻⁴ mol L⁻¹, so pOH = 3.02 and pH = 10.98.
+[chem19-s2.6.b] Sometimes the pH is given and you must work backwards to a concentration or to Ka. Undo the log with 10 raised to the power of minus pH.
+[chem19-s2.6.0] Concentration of a strong acid from its pH: for a monoprotic acid, [acid] = [H⁺] = 10⁻ᵖᴴ, because pH = −log₁₀[H⁺].
+[chem19-s2.6.1] For example, a strong monoprotic acid HX with pH 5.65 has [HX] = 10⁻⁵·⁶⁵ = 2.24 × 10⁻⁶ mol L⁻¹.
+[chem19-s2.6.2] [OH⁻] from pH: [OH⁻] = Kw ÷ [H⁺], where Kw is 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.6.3] For example, at pH 5.65, pOH = 14 − 5.65 = 8.35, so [OH⁻] = 10⁻⁸·³⁵ = 4.47 × 10⁻⁹ mol L⁻¹, the same as 1.0 × 10⁻¹⁴ ÷ 10⁻⁵·⁶⁵.
+[chem19-s2.6.4] Ka of a weak acid from its pH: [H⁺] = 10⁻ᵖᴴ, then Ka = [H⁺]² ÷ c, which is the formula [H⁺] = √(Ka × c) rearranged.
+[chem19-s2.6.5] For example, a 0.10 M weak monoprotic acid with pH 3.00 has [H⁺] = 1.0 × 10⁻³, so Ka = (1.0 × 10⁻³)² ÷ 0.10 = 1.0 × 10⁻⁵.
+[chem19-s2.6.6] Concentration of a weak acid from its pH and Ka: c = [H⁺]² ÷ Ka.
+[chem19-s2.6.7] For example, ethanoic acid of pH 3.00 has c = (1.0 × 10⁻³)² ÷ 1.8 × 10⁻⁵ = 0.0556 mol L⁻¹.
+[chem19-s2.7.b] Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.
+[chem19-s2.7.0] First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).
+[chem19-s2.7.1] For any base, find [OH⁻] first, then convert to pH; do not put [OH⁻] into −log₁₀ and call the result pH.
+[chem19-s2.7.2] Convert masses to mol L⁻¹ first: n = m ÷ M (moles = mass ÷ molar mass), then c = n ÷ V, with V in litres.
+[chem19-s2.7.3] Check that the answer is sensible: acids have pH below 7, bases have pH above 7, and a weak acid has a higher pH than a strong acid of the same concentration.
+[chem19-s2.7.4] Give pH answers to two decimal places.
+[chem19-s2.8.b] When an acid or base dissolves in water, it splits into ions; this is called dissociation. Writing the equation for it is the starting point for strength and for the dissociation constants that follow.
+[chem19-s2.8.0] A general acid is written HA; in water it dissociates by donating a proton (an H⁺ ion) to water: HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or simply HA(aq) ⇌ H⁺(aq) + A⁻(aq).
+[chem19-s2.8.1] For example, ethanoic acid dissociates as CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq); A⁻ is the ethanoate ion.
+[chem19-s2.8.2] A general base that contains hydroxide is written BOH: BOH(aq) ⇌ B⁺(aq) + OH⁻(aq).
+[chem19-s2.8.3] A base such as ammonia, written B, produces OH⁻ by accepting a proton from water: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem19-s2.8.4] Here B⁺ is the ammonium ion, NH₄⁺ (BH⁺ in some books).
+[chem19-s2.8.5] For a strong acid or base the dissociation goes to completion, shown by a single arrow (→); for a weak acid or base it is an equilibrium (⇌, a reaction that runs both ways) that lies well to the left, so most of the molecules stay undissociated.
+[chem19-s2.9.b] The acid dissociation constant Ka comes from the equilibrium constant Kc (products over reactants, each concentration in mol L⁻¹) for the acid reacting with water. Water is then left out, for a reason you can state.
+[chem19-s2.9.0] Step 1: Write the equilibrium: HA + H₂O ⇌ H₃O⁺ + A⁻.
+[chem19-s2.9.1] Step 2: Write Kc as products over reactants: Kc = [H₃O⁺][A⁻] ÷ ([HA][H₂O]).
+[chem19-s2.9.2] Step 3: In a dilute solution [H₂O] is effectively constant (55.6 mol L⁻¹, from 1000 ÷ 18), because so little water reacts; so it is combined with Kc: Ka = Kc × [H₂O].
+[chem19-s2.9.3] Result: Ka = [H₃O⁺][A⁻] ÷ [HA], or in simplified form Ka = [H⁺][A⁻] ÷ [HA]; Ka is the acid dissociation constant.
+[chem19-s2.9.4] Example: for ethanoic acid, Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.9.5] The units of Ka are mol L⁻¹ (concentration² ÷ concentration); they are often omitted.
+[chem19-s2.10.b] The base dissociation constant Kb is found by exactly the same steps as Ka, using the equilibrium of a base with water.
+[chem19-s2.10.0] For B + H₂O ⇌ B⁺ + OH⁻ (or BOH ⇌ B⁺ + OH⁻), the same steps give the base dissociation constant: Kb = [B⁺][OH⁻] ÷ [B] (or [B⁺][OH⁻] ÷ [BOH]).
+[chem19-s2.10.1] [H₂O] is again effectively constant and is absorbed into Kb, so it does not appear in the expression.
+[chem19-s2.10.2] Example: for ammonia, Kb = [NH₄⁺][OH⁻] ÷ [NH₃] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.11.b] Ka and Kb are equilibrium constants, so a large value means the equilibrium lies far to the right and a small value means it lies far to the left. This makes them a direct measure of strength.
+[chem19-s2.11.0] Ka measures the strength of an acid, its tendency to donate a proton: the larger Ka, the further the equilibrium lies to the right and the stronger the acid.
+[chem19-s2.11.1] Likewise, the larger Kb, the stronger the base.
+[chem19-s2.11.2] Weak acids have small Ka values (much less than 1): methanoic acid 1.8 × 10⁻⁴, benzoic acid 6.3 × 10⁻⁵, ethanoic acid 1.8 × 10⁻⁵, propanoic acid 1.3 × 10⁻⁵ (strongest to weakest).
+[chem19-s2.11.3] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) dissociate essentially completely, so their Ka or Kb values are very large and the expressions are not used.
+[chem19-s2.11.4] Ka and Kb are used for weak acids and bases.
+[chem19-s2.11.5] Like all equilibrium constants, Ka and Kb are constant at a given temperature and do not change with concentration; values are quoted at 25 °C.
+[chem19-s2.12.b] The weak acid formula comes from the Ka expression plus one approximation. If you can show these four steps, you can state the formula and the assumption behind it.
+[chem19-s2.12.0] Step 1: Start with c mol L⁻¹ of a weak acid HA, of which x mol L⁻¹ dissociates. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x, because each HA that dissociates gives one H⁺ and one A⁻.
+[chem19-s2.12.1] Step 2: Ka = x × x ÷ (c − x) = x² ÷ (c − x).
+[chem19-s2.12.2] Step 3: A weak acid dissociates so little that x is tiny compared with c, so c − x ≈ c and Ka = x² ÷ c.
+[chem19-s2.12.3] Step 4: x² = Ka × c, so [H⁺] = √(Ka × c).
+[chem19-s2.12.4] The same steps for a weak base give [OH⁻] = √(Kb × c); the formulas are used in the weak acid and weak base calculations earlier in this subsection.
+[chem19-s2.13.b] Strength describes how far an acid or base splits into ions. The degree of dissociation puts a number on this, and it is what separates strong from weak.
+[chem19-s2.13.0] The degree of dissociation is the fraction of acid (or base) molecules that have dissociated into ions in solution; as a percentage, % dissociation = (concentration dissociated ÷ initial concentration) × 100.
+[chem19-s2.13.1] For an acid HA, % dissociation = ([H⁺] at equilibrium ÷ initial [HA]) × 100; for a base, % dissociation = ([OH⁻] ÷ initial [base]) × 100.
+[chem19-s2.13.2] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) are essentially 100% dissociated in dilute solution, because the reaction goes to completion.
+[chem19-s2.13.3] Weak acids (e.g. ethanoic acid) and weak bases (e.g. ammonia) are only slightly dissociated, typically a few per cent or less.
+[chem19-s2.13.4] For example, 0.10 M ethanoic acid is about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH.
+[chem19-s2.13.5] So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium.
+[chem19-s2.13.6] In Brønsted–Lowry terms (acids donate protons, bases accept them), a strong acid is a good proton donor whose conjugate base (the ion left after it loses H⁺, e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.
+[chem19-s2.13.7] A weak acid's conjugate base (e.g. CH₃COO⁻) readily takes the proton back, so the equilibrium lies to the left.
+[chem19-s2.14.b] Ka and Kb let you rank weak acids and bases and work out their percentage dissociation. Compare them only at the same concentration and temperature.
+[chem19-s2.14.0] At the same concentration and temperature, the acid with the larger Ka is dissociated to a greater degree and is the stronger acid; the base with the larger Kb is the stronger base.
+[chem19-s2.14.1] For example, methanoic acid (Ka 1.8 × 10⁻⁴) is a stronger acid than ethanoic acid (Ka 1.8 × 10⁻⁵): at 0.10 M, methanoic acid is 4.2% dissociated and ethanoic acid 1.3%.
+[chem19-s2.14.2] Formula: degree of dissociation (as a fraction) = [H⁺] ÷ c = √(Ka × c) ÷ c = √(Ka ÷ c); for a weak base, the same form is √(Kb ÷ c).
+[chem19-s2.14.3] Worked example: 0.10 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.14.4] Its % dissociation = (1.34 × 10⁻³ ÷ 0.10) × 100 = 1.34%.
+[chem19-s2.14.5] Worked example: 0.10 M ammonia (Kb 1.8 × 10⁻⁵) has [OH⁻] = 1.34 × 10⁻³ mol L⁻¹, so 1.34% of the ammonia has reacted to form NH₄⁺ and OH⁻.
+[chem19-s2.14.6] A very small Ka (or Kb) means a very low degree of dissociation; the Ka values of strong acids are so large that dissociation is complete, which is why Ka is used only to compare weak acids.
+[chem19-s2.15.b] Diluting a weak acid does not change Ka, but it does change how much of the acid is dissociated. The percentage dissociation and the [H⁺] move in opposite directions.
+[chem19-s2.15.0] Ka is constant at a given temperature, but the degree of dissociation of a weak acid increases as the solution is diluted, because √(Ka ÷ c) gets larger as c gets smaller.
+[chem19-s2.15.1] For example, ethanoic acid is 0.42% dissociated at 1.0 M, 1.34% at 0.10 M and 4.2% at 0.010 M.
+[chem19-s2.15.2] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.
+[chem19-s2.15.3] Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises.
+[chem19-s2.15.4] A strong acid is fully dissociated at every dilute concentration, so its degree of dissociation does not change on dilution.
+[chem19-s2.16.b] An acid and the base left after it loses H⁺ are a conjugate acid–base pair. Their dissociation constants are linked through Kw, the ionic product of water.
+[chem19-s2.16.0] For a conjugate acid–base pair in water, Ka (of the acid) × Kb (of its conjugate base) = Kw = 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.16.1] So the larger the Ka of an acid, the smaller the Kb of its conjugate base: the stronger the acid, the weaker its conjugate base.
+[chem19-s2.16.2] Example: Kb of the ethanoate ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+[chem19-s2.16.3] Example: Ka of the ammonium ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.

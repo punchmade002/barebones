@@ -1,0 +1,404 @@
+MODE: cost and links
+TARGET chem17-s2: 2. Investigation: factors affecting rate
+[chem17-s2.0.b] The rate of a reaction is how fast reactants are used up or products appear. You can measure it over a whole stretch of time (average rate) or at the very start (initial rate), and the two give different answers.
+[chem17-s2.0.0] Average rate over a time interval is the change in the amount of product or reactant divided by the time taken, for example the total volume of gas divided by the total time.
+[chem17-s2.0.1] Initial rate is the rate at the very start (t = 0). It is the greatest rate of the whole reaction because the reactant concentrations are highest then.
+[chem17-s2.0.2] The initial rate is the gradient (slope) of the tangent drawn to the curve at the origin. A tangent is a straight line that just touches a curve at one point without cutting it.
+[chem17-s2.0.3] A clock reaction is one timed until a fixed amount of product forms, such as the sulfur cross, where you time how long until a mark is hidden. For these, 1/time measures the initial rate.
+[chem17-s2.0.4] 1/time works as the initial rate because in a clock reaction only a small fraction of the reactants has been used in the time taken, so the rate has hardly changed.
+[chem17-s2.1.b] Here one set of results is used to find an average rate, compare two minutes and find an initial rate. Follow the arithmetic step by step so you can repeat it on any graph or table.
+[chem17-s2.1.0] Sample data: oxygen from hydrogen peroxide with manganese(IV) oxide. Time (min) and volume (cm³): 0, 0; 1, 21; 2, 36; 3, 47; 4, 56; 5, 62; 6, 67; 8, 73; 10, 76; 12, 78; 14, 79; 16, 80; 18, 80.
+[chem17-s2.1.1] The reaction is complete when the volume stops changing. Here it levels at 80 cm³, at about 16 min.
+[chem17-s2.1.2] Average rate over the first 4 min = 56 cm³ ÷ 4 min = 14.0 cm³ min⁻¹.
+[chem17-s2.1.3] Average rate in the first minute = 21 cm³ min⁻¹.
+[chem17-s2.1.4] Average rate in the second minute = (36 − 21) cm³ ÷ 1 min = 15 cm³ min⁻¹. This is lower than the first minute because the concentration of H₂O₂ has fallen as it is used up.
+[chem17-s2.1.5] Initial rate: the tangent at the origin passes through (1.0 min, 24 cm³), so the initial rate = 24 cm³ ÷ 1.0 min = 24.0 cm³ min⁻¹.
+[chem17-s2.1.6] To convert a rate in g min⁻¹ to mol min⁻¹, divide by the molar mass (the mass of one mole): M(CO₂) = 44 g mol⁻¹ (C 12, O 16).
+[chem17-s2.1.7] If the mass of CO₂ lost is 0.220 g min⁻¹ (sample data), the rate = 0.220 g min⁻¹ ÷ 44 g mol⁻¹ = 5.00 × 10⁻³ mol CO₂ min⁻¹.
+[chem17-s2.2.b] The rate keeps changing as reactants are used up, so sometimes you need the rate at one exact moment. A tangent to the curve gives it.
+[chem17-s2.2.0] Instantaneous rate is the rate at one particular moment: the gradient of the tangent drawn to the curve at that time.
+[chem17-s2.2.1] To draw the tangent, place a ruler so that it touches the curve at the chosen time without cutting it, and draw a long straight line. A long line makes the gradient more accurate.
+[chem17-s2.2.2] Pick two points far apart on the tangent line and calculate gradient = change in y ÷ change in x. Points far apart reduce the error in reading the graph.
+[chem17-s2.2.3] The instantaneous rate falls during the reaction because the reactants are used up. The average rate over an interval lies between the instantaneous rates at its start and end.
+[chem17-s2.2.4] Instantaneous rate at 2.0 min, from the sample data above: the tangent passes through (0 min, 10 cm³) and (5.0 min, 76 cm³), so the rate = (76 − 10) cm³ ÷ (5.0 − 0) min = 13.2 cm³ min⁻¹.
+[chem17-s2.3.b] This reaction gives off carbon dioxide gas, so the mass of the flask falls as the reaction goes. Weighing the flask over time lets you follow the rate and test two factors: particle size and acid concentration.
+[chem17-s2.3.0] Aim: to investigate the effect of particle size (and of acid concentration) on the rate of reaction of calcium carbonate with hydrochloric acid.
+[chem17-s2.3.1] Equation: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem17-s2.3.2] 1. Place a conical flask (a flask with a flat base and narrow neck) containing a known mass, e.g. 10 g, of large marble chips (calcium carbonate) on an electronic balance.
+[chem17-s2.3.3] 2. Put a graduated cylinder holding a known volume, e.g. 50 cm³, of 1.0 M hydrochloric acid beside the flask, and record the total mass.
+[chem17-s2.4.b] With the flask set up on the balance, you start the reaction and record the falling mass, then repeat with one factor changed.
+[chem17-s2.4.0] 3. Pour in the acid, put a loose cotton-wool plug in the neck, and start the stopwatch at once.
+[chem17-s2.4.1] 4. Record the mass every 30 s for about 10 min, until it stops changing. The loss in mass is the mass of CO₂ given off.
+[chem17-s2.4.2] 5. Repeat with the same mass of small chips or powder, with the same volume and concentration of acid at the same temperature.
+[chem17-s2.4.3] 6. For concentration, repeat with the same size and mass of chips and the same volume of acid at different concentrations, e.g. 0.5 M, 1.0 M and 2.0 M. (M means mol L⁻¹.)
+[chem17-s2.4.4] Alternative: collect the CO₂ in a gas syringe (a calibrated syringe that the gas pushes out) and record its volume every 30 s.
+[chem17-s2.4.5] Diagram: conical flask with marble chips and acid, loose cotton-wool plug, on an electronic balance; a graduated cylinder of acid beside it; a stopwatch.
+[chem17-s2.5.b] Plotting the results shows which conditions give the faster reaction. Each choice in the method also has a reason, which is what makes the test fair.
+[chem17-s2.5.0] Plot mass of CO₂ lost (y-axis) against time (x-axis) for each run on the same axes. The steeper initial curve shows the faster rate.
+[chem17-s2.5.1] Smaller chips give a steeper curve, a faster rate, because of their greater surface area: more calcium carbonate is exposed to the acid at once.
+[chem17-s2.5.2] More concentrated acid gives a faster rate. There is more on this in Rate of reaction and collision theory.
+[chem17-s2.5.3] The chips are in excess (more than enough), so the acid is the limiting reactant (the one that runs out first and so sets the total amount of product).
+[chem17-s2.5.4] Because the acid is the limiting reactant, more concentrated acid of the same volume also gives more CO₂ in total.
+[chem17-s2.5.5] The cotton-wool plug lets CO₂ escape but stops acid spray being lost, which would otherwise add to the mass loss and give a false result.
+[chem17-s2.5.6] The same mass of carbonate and the same acid keep the test fair, so only the factor you chose changes.
+[chem17-s2.6.b] In this reaction a solid forms and slowly turns the solution cloudy. Timing how long until a cross under the flask disappears gives a measure of rate without any gas collection.
+[chem17-s2.6.0] Aim: to investigate the effect of concentration and of temperature on rate.
+[chem17-s2.6.1] Equation: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s2.6.2] The pale yellow sulfur precipitate (an insoluble solid formed in a solution) makes the solution cloudy until it hides the cross.
+[chem17-s2.6.3] Draw a dark cross on white paper and place a conical flask on it, so you can look down through the solution at the cross.
+[chem17-s2.6.4] Look down through the solution from above and stop the watch when the cross can no longer be seen. Record the time.
+[chem17-s2.7.b] To change the concentration you dilute the thiosulfate with water. The total volume must stay the same so that the only thing that changes is the concentration.
+[chem17-s2.7.0] Make a series of thiosulfate solutions of the same total volume, e.g. 50, 40, 30, 20 and 10 cm³ of 0.20 M Na₂S₂O₃, each made up to 50 cm³ with deionised water (water with dissolved ions removed). This gives 0.20, 0.16, 0.12, 0.08 and 0.04 M.
+[chem17-s2.7.1] Dilute with water only, using a burette or graduated pipette (accurate glass tubes for measuring liquid volumes), and keep the total volume constant.
+[chem17-s2.7.2] Pour one solution into the flask, add a fixed volume of acid, e.g. 10 cm³ of 2.0 M hydrochloric acid, quickly, swirl, and start the stopwatch at the same moment.
+[chem17-s2.7.3] Repeat for each concentration, keeping the acid volume and concentration, total volume, temperature, flask, cross and observer the same. Calculate rate = 1/time.
+[chem17-s2.8.b] To test temperature, the concentration is fixed and the starting temperature is changed with a water bath (a container of water held at a set temperature).
+[chem17-s2.8.0] Use the same concentration each time, e.g. 0.05 M Na₂S₂O₃, so that temperature is the only factor that changes.
+[chem17-s2.8.1] Warm the thiosulfate in a water bath to the chosen temperature, e.g. 20, 30, 40 or 50 °C, add the acid, start timing, and record the temperature of the mixture with a thermometer.
+[chem17-s2.8.2] Use the average of the start and end temperatures, because the mixture does not stay at one temperature during the run.
+[chem17-s2.9.b] Converting each time into a rate (1/time) lets you plot rate against the factor and draw a conclusion. These results are sample data.
+[chem17-s2.9.0] Sample data, concentration: 0.20 M, 20 s; 0.16 M, 25 s; 0.12 M, 34 s; 0.08 M, 50 s; 0.04 M, 102 s.
+[chem17-s2.9.1] Rates (1/time) for those concentrations: 0.0500, 0.0400, 0.0294, 0.0200 and 0.0098 s⁻¹.
+[chem17-s2.9.2] A graph of rate against concentration is a straight line through the origin, so rate is directly proportional to concentration.
+[chem17-s2.9.3] Sample data, temperature: 20 °C, 80 s; 30 °C, 41 s; 40 °C, 21 s; 50 °C, 11 s.
+[chem17-s2.9.4] Rates (1/time) for those temperatures: 0.0125, 0.0244, 0.0476 and 0.0909 s⁻¹.
+[chem17-s2.9.5] A graph of rate against temperature is a curve rising ever more steeply. The rate roughly doubles for each 10 °C rise.
+[chem17-s2.9.6] The same total volume means the same depth of liquid over the cross, so the same amount of sulfur hides it in each run.
+[chem17-s2.9.7] 1/time is used as the measure of rate because a shorter time means a faster rate.
+[chem17-s2.10.b] Sulfur dioxide is made in this reaction, so there is a safety point to state. The timing relies on judgement, so there are also errors to know.
+[chem17-s2.10.0] Safety: sulfur dioxide is a toxic, choking gas that is dangerous for people with asthma. Work in a well-ventilated room, do not heat above about 60 °C, and pour the mixture away promptly when each run ends.
+[chem17-s2.10.1] Judging when the cross disappears is subjective (it depends on the person looking), so use the same observer and the same cross.
+[chem17-s2.10.2] A delay in starting the stopwatch affects the time recorded, because the clock must start the moment the solutions mix.
+[chem17-s2.10.3] The temperature falls during a warm run, which is why the average of the start and end temperatures is used.
+[chem17-s2.10.4] Diagram: conical flask standing on white paper marked with a cross, eye looking down from above; thermometer and water bath for the temperature runs.
+[chem17-s2.11.b] Hydrogen peroxide breaks down slowly into water and oxygen. Manganese(IV) oxide speeds this up, and collecting the oxygen lets you follow the rate.
+[chem17-s2.11.0] Aim: to measure the rate of decomposition (breaking down) of hydrogen peroxide with manganese(IV) oxide catalyst (a substance that speeds up a reaction without being used up), and to investigate the effect of one factor: the concentration of H₂O₂, the form of the catalyst, or the temperature.
+[chem17-s2.11.1] Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem17-s2.11.2] 1. Place a measured volume of dilute hydrogen peroxide, e.g. 5 cm³ of 20-volume H₂O₂ diluted to 25 cm³ with deionised water, in a conical flask.
+[chem17-s2.11.3] 20-volume hydrogen peroxide gives 20 cm³ of oxygen per cm³ of solution on complete decomposition.
+[chem17-s2.11.4] 2. Put a small mass, e.g. 0.5 g, of manganese(IV) oxide (manganese dioxide, MnO₂), a black powder, in a small test tube. Lower it into the flask on a thread so that it does not touch the peroxide.
+[chem17-s2.11.5] 3. Stopper the flask, with a delivery tube leading to an inverted graduated cylinder full of water in a basin, or to a gas syringe.
+[chem17-s2.11.6] 4. Tilt or shake the flask so the catalyst mixes with the peroxide, and start the stopwatch at the same instant. This starts the reaction without losing any oxygen.
+[chem17-s2.11.7] 5. Record the volume of oxygen every 30 s or 1 min until no more gas is produced; swirl the flask throughout.
+[chem17-s2.12.b] Once the basic run works, you change one factor at a time and compare. A control and a safety check complete the investigation.
+[chem17-s2.12.0] Repeat, changing one factor: e.g. half the concentration of H₂O₂ with the same total volume, or granules instead of powder with the same mass, keeping everything else the same.
+[chem17-s2.12.1] A control (a run with the factor you are testing left out): hydrogen peroxide without catalyst gives almost no oxygen over the same time. This shows the catalyst is what speeds the reaction.
+[chem17-s2.12.2] The catalyst can be filtered off, washed, dried and weighed at the end to show it is unchanged in mass.
+[chem17-s2.12.3] Safety: hydrogen peroxide is an oxidising agent (it readily causes other substances to be oxidised) and, in concentrated form, is corrosive to skin and eyes (it damages them on contact). Wear goggles and gloves.
+[chem17-s2.12.4] Store hydrogen peroxide in a cool, dark place, because it decomposes in light and heat, building up pressure.
+[chem17-s2.12.5] Diagram: conical flask with H₂O₂ and a small test tube of MnO₂ hanging on a thread; stopper and delivery tube to an inverted graduated cylinder of water in a trough, or to a gas syringe.
+[chem17-s2.13.b] A graph of gas volume against time changes in predictable ways when you change a condition. The gradient shows the rate, and the final level shows how much product could form.
+[chem17-s2.13.0] A faster rate gives a steeper initial curve that levels off sooner. The causes are a higher temperature, a catalyst, powder instead of lumps, or a more concentrated excess reactant.
+[chem17-s2.13.1] A faster rate gives the same final volume if the amount of limiting reactant (the reactant that runs out first) is unchanged.
+[chem17-s2.13.2] A slower rate, from a lower temperature (e.g. ice-water), larger lumps or no catalyst, gives a less steep curve that takes longer to level off.
+[chem17-s2.13.3] A slower rate also gives the same final volume if the amount of limiting reactant is unchanged.
+[chem17-s2.13.4] Halving the concentration of the limiting reactant, at the same volume, gives a less steep curve and half the final volume, because there is half as much reactant to form product.
+[chem17-s2.13.5] The final volume of gas tells you the amount of limiting reactant; the gradient tells you the rate.
+[chem17-s2.13.6] Secondary data (values you are given, not ones you measured) come from a graph or table, such as the volume at a stated time, the time to reach a volume, the time the reaction ended or half the final volume.
+[chem17-s2.13.7] Use secondary data to calculate rates as above, and instantaneous rates at Higher Level.
+
+CANDIDATES chem17-s1: 1. Rate of reaction and collision theory
+[chem17-s1.0.b] Some reactions finish in a flash and others take years. Rate of reaction is the measure chemists use to say exactly how fast a reaction goes, and it is always a change per unit of time.
+[chem17-s1.0.0] Rate of reaction is the change in concentration (the amount of substance per litre of solution) of a reactant (a substance used up) or a product (a substance formed) per unit time.
+[chem17-s1.0.1] When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹, that is, moles per litre changing each second or each minute.
+[chem17-s1.0.2] When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).
+[chem17-s1.0.3] Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio (the ratio of the numbers in front of the formulas) in the balanced equation.
+[chem17-s1.0.4] For example, in 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed, because the equation shows 2 mol H₂O₂ for every 1 mol O₂.
+[chem17-s1.0.5] A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.
+[chem17-s1.0.6] For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time), so halving the time taken doubles the rate.
+[chem17-s1.0.7] The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst (a substance that changes the rate without being used up) and, for reactions of gases, pressure; the nature of the reactants also matters. There is more on this in “Collision theory”.
+[chem17-s1.1.b] To find a rate you need a property that changes as the reaction goes and that you can measure repeatedly. When a reaction gives off a gas, either the gas volume or the mass lost can be tracked.
+[chem17-s1.1.0] Measure the volume of gas produced at regular time intervals, collected in a gas syringe (a calibrated syringe that the gas pushes out) or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.
+[chem17-s1.1.1] When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar, because a gas jar has no scale to read the volume from.
+[chem17-s1.1.2] Diagram: a flask joined by a delivery tube to a gas syringe, or to an inverted graduated cylinder full of water standing in a trough; label the flask, reactants, delivery tube and the gas collector.
+[chem17-s1.1.3] Measure the loss in mass as a gas escapes, with the flask on an electronic balance, because the escaping gas carries mass away from the flask.
+[chem17-s1.1.4] A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost, which would give a false mass loss.
+[chem17-s1.1.5] Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.
+[chem17-s1.1.6] Diagram: a conical flask of calcium carbonate and hydrochloric acid, with a cotton-wool plug in its neck, standing on an electronic balance; label the flask, plug, balance and the CO₂ escaping.
+[chem17-s1.2.b] Not every reaction gives off a gas. Another way to follow a reaction is to time how long a fixed amount of change takes, or to watch a colour change.
+[chem17-s1.2.0] Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate (a solid formed in a solution) to hide a cross under the flask.
+[chem17-s1.2.1] Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s1.2.2] The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate, because the same amount of sulfur forms to hide the cross in every run, so a shorter time means a faster rate.
+[chem17-s1.2.3] Diagram: a conical flask of sodium thiosulfate solution standing on a paper marked with a cross, viewed from above; label the flask, the solution and the cross.
+[chem17-s1.2.4] Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.
+[chem17-s1.2.5] The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction.
+[chem17-s1.3.b] A reaction does not run at one steady speed. Its rate falls as it goes, and the shape of a graph shows this.
+[chem17-s1.3.0] The rate is greatest at the start, when the concentration of reactants is highest, so there are the most particles available to react.
+[chem17-s1.3.1] As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.
+[chem17-s1.3.2] The reaction stops when the limiting reactant (the reactant that runs out first) is used up; the rate is then zero.
+[chem17-s1.3.3] On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.
+[chem17-s1.3.4] The gradient (steepness) of the curve at any point is the rate at that time, so a steep curve means fast and a flat line means no reaction.
+[chem17-s1.3.5] On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.
+[chem17-s1.3.6] The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.
+[chem17-s1.3.7] Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”.
+[chem17-s1.4.b] Controlling how fast a reaction goes is useful in industry, in the kitchen and in the body.
+[chem17-s1.4.0] Industry wants fast reactions, so that products are made quickly and economically.
+[chem17-s1.4.1] Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.
+[chem17-s1.4.2] The rates of reactions in the body are controlled by enzymes (biological catalysts). There is more on this in “Catalysis and energy profiles”.
+[chem17-s1.5.b] Collision theory explains what has to happen at the level of particles for a reaction to take place. It is the idea behind every factor that changes rate.
+[chem17-s1.5.0] For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.
+[chem17-s1.5.1] Most collisions do not lead to reaction: the particles just bounce apart.
+[chem17-s1.5.2] A collision leads to reaction only if the particles collide with at least a minimum amount of energy, the activation energy, so that bonds can begin to break.
+[chem17-s1.5.3] Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.
+[chem17-s1.5.4] An effective collision is one that results in the formation of products.
+[chem17-s1.5.5] The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate.
+[chem17-s1.6.b] Reactions range from instantaneous to almost undetectable. The syllabus asks for examples of both.
+[chem17-s1.6.0] Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.
+[chem17-s1.6.1] Ionic equation (showing only the ions that react) for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem17-s1.6.2] Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.
+[chem17-s1.6.3] Slow: rusting of iron takes days to years.
+[chem17-s1.6.4] Fermentation of glucose by yeast (the breakdown of glucose by yeast to make ethanol) takes days.
+[chem17-s1.6.5] A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction, even though it explodes when ignited.
+[chem17-s1.7.b] Whether a reaction is fast or slow depends on its activation energy, which in turn depends on whether bonds must be broken first.
+[chem17-s1.7.0] Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.
+[chem17-s1.7.1] Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.
+[chem17-s1.7.2] Reactions between covalent molecules are usually slower, because covalent bonds (bonds formed by sharing electrons) must be broken before new bonds can form, so the activation energy is higher.
+[chem17-s1.7.3] A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast.
+[chem17-s1.8.b] Concentration is the first factor that collision theory explains. More particles in the same space means more chances to collide.
+[chem17-s1.8.0] Increasing the concentration of a reactant in solution increases the number of particles per unit volume.
+[chem17-s1.8.1] The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.
+[chem17-s1.8.2] In many reactions the rate is directly proportional to the concentration of a reactant: a graph of rate against concentration is a straight line through the origin, as shown by the thiosulfate investigation in “Investigation: factors affecting rate”.
+[chem17-s1.9.b] For a solid, only the outside can react. Cutting a solid into smaller pieces exposes more of it without adding any more substance.
+[chem17-s1.9.0] Only particles at the surface of a solid can collide with the other reactant, so particles buried inside a lump cannot react until the surface is used up.
+[chem17-s1.9.1] Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.
+[chem17-s1.9.2] For example, powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.
+[chem17-s1.9.3] Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.
+[chem17-s1.9.4] Dust explosions are a risk in flour mills, grain silos and coal mines.
+[chem17-s1.9.5] A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame.
+[chem17-s1.10.b] Raising the temperature speeds up most reactions. Collision theory gives two reasons, and one matters far more than the other.
+[chem17-s1.10.0] Raising the temperature increases the rate of almost all reactions.
+[chem17-s1.10.1] For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.
+[chem17-s1.10.2] Reason 1: at a higher temperature particles have more kinetic energy (energy of movement) and move faster, so they collide more often.
+[chem17-s1.10.3] Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.
+[chem17-s1.10.4] Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.
+[chem17-s1.10.5] Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.
+[chem17-s1.11.b] Particles in a sample do not all have the same energy. A graph of how the energies are spread shows why a small temperature rise has such a large effect.
+[chem17-s1.11.0] On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.
+[chem17-s1.11.1] The area under the curve to the right of Ea is the number of particles with enough energy to react.
+[chem17-s1.11.2] At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger, so many more collisions are effective.
+[chem17-s1.11.3] Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.
+[chem17-s1.11.4] Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower because fewer particles have energy at or above Ea. There is more on this in “Rate of reaction”.
+[chem17-s1.12.b] A catalyst speeds up a reaction without raising the temperature. It does this by changing the route the reaction takes.
+[chem17-s1.12.0] A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.
+[chem17-s1.12.1] A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.
+[chem17-s1.12.2] The catalyst is not used up, so a small amount can speed up the reaction again and again. There is more on types of catalysis, enzymes and energy profiles in “Catalysis and energy profiles”.
+[chem17-s1.13.b] Pressure is the last factor, and it only matters when gases are reacting.
+[chem17-s1.13.0] Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.
+[chem17-s1.13.1] The molecules collide more often, so the rate increases.
+[chem17-s1.13.2] Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids.
+[chem17-s1.14.b] The simple collision theory leaves out some things. Orientation, surfaces that become full, and poisoned catalysts all explain why real reactions can behave differently.
+[chem17-s1.14.0] Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.
+[chem17-s1.14.1] Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.
+[chem17-s1.14.2] Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.
+[chem17-s1.14.3] For example, an enzyme-catalysed reaction speeds up as substrate (the substance the enzyme acts on) concentration rises, but levels off when all the enzyme's active sites (the places where the substrate binds) are occupied; further substrate has no effect.
+[chem17-s1.14.4] A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.
+[chem17-s1.14.5] A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.
+[chem17-s1.14.6] The catalysts in a car's catalytic converter (platinum, palladium and rhodium) are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds.
+
+CANDIDATES chem1-s3: 3. Questions, hypotheses and designing investigations
+[chem1-s3.0.b] Every investigation starts with a question, but not every question can be settled in a laboratory. A scientific question is one that evidence can answer.
+[chem1-s3.0.0] A scientific question can be answered by collecting evidence through observation (careful looking and recording) or experiment (changing something and measuring the effect).
+[chem1-s3.0.1] A good question is specific and focused and names measurable quantities, so you know exactly what to measure. For example: “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”
+[chem1-s3.0.2] Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation, because no measurement can decide what is good or bad.
+[chem1-s3.0.3] A vague question, or one that cannot be tested with the available methods, is unsuitable. A vague question can often be refined into a testable one by naming the quantities to be measured.
+[chem1-s3.1.b] A variable is any factor in an experiment that can change. Sorting variables into three types is how you make a test fair and know what you are really testing.
+[chem1-s3.1.0] The independent variable is the one the investigator deliberately changes, for example the concentration of acid.
+[chem1-s3.1.1] The dependent variable is the one that is measured, and it may change as a result of changing the independent variable, for example the rate of reaction.
+[chem1-s3.1.2] Controlled variables are all the other factors that could affect the result. They are kept the same so that the test is fair, because then any change in the result can only be due to the independent variable.
+[chem1-s3.2.b] A hypothesis is based on existing scientific theory rather than on a guess. It turns a question into a statement that an experiment can test.
+[chem1-s3.2.0] A hypothesis is a proposed explanation that leads to a testable prediction, so it is a statement, not a question.
+[chem1-s3.2.1] A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason. For example: “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”.
+[chem1-s3.2.2] That reason is drawn from collision theory (the theory that reactions happen when particles collide with enough energy).
+[chem1-s3.2.3] A hypothesis must be falsifiable, which means an experiment could show it to be wrong. A statement that no result could ever contradict cannot be tested.
+[chem1-s3.2.4] A prediction is the specific result expected if the hypothesis is correct, for example “doubling the concentration will roughly halve the time taken”.
+[chem1-s3.3.b] There is usually more than one way to collect evidence for the same hypothesis. Choosing between them means weighing each against a set of criteria.
+[chem1-s3.3.0] A hypothesis can often be tested in more than one way. For example, the rate of a reaction that gives off gas can be found in three ways.
+[chem1-s3.3.1] Measure the volume of gas collected in a gas syringe (a calibrated syringe that the gas pushes out), the mass lost on a balance, or the time taken for a solid to disappear.
+[chem1-s3.3.2] Strategies are compared by validity (does it measure what it should?), the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.
+[chem1-s3.3.3] The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified, meaning you give reasons using the criteria above.
+[chem1-s3.4.b] A good plan lets someone else carry out your investigation exactly as you intended. It also shows that you have thought about the whole process before starting.
+[chem1-s3.4.0] A plan states the aim or hypothesis, the variables, the equipment and chemicals, a step-by-step method, the measurements to be taken and how often, and the number of repeats.
+[chem1-s3.4.1] A plan also includes a risk assessment (a check of what could go wrong and how to prevent it) and states how the data will be recorded and analysed.
+[chem1-s3.4.2] Choose a suitable range and number of values for the independent variable, so that a trend can be seen. At least five values across a sensible range is a suggested minimum.
+[chem1-s3.4.3] Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison. For example, hydrogen peroxide with no catalyst shows how it behaves without the catalyst.
+[chem1-s3.5.b] Examiners use these words to judge how well an investigation was designed. Each one has a distinct meaning, so keep them separate.
+[chem1-s3.5.0] Fairness (a fair test): only the independent variable is changed, and all other variables are controlled.
+[chem1-s3.5.1] Validity: the investigation actually tests the hypothesis and measures what it claims to measure. It requires a fair test and suitable measurements.
+[chem1-s3.5.2] Reliability: results can be trusted because they are consistent when the investigation is repeated.
+[chem1-s3.5.3] Reliability is improved by repeating each measurement at least three times, calculating a mean (the average of the repeats), and comparing the results with those of other groups.
+[chem1-s3.5.4] Accuracy and precision (how close a result is to the true value, and how close repeats are to each other) are improved by choosing suitable equipment and good technique. There is more on this in Measurement, error and data.
+[chem1-s3.5.5] Error: likely sources of error are identified in advance and the design is changed to reduce them. For example, a burette rather than a measuring cylinder is used for accurate volumes.
+[chem1-s3.5.6] Integrity: all results are recorded honestly, including unexpected ones. Data are not invented, altered or selectively deleted, and others' work is acknowledged.
+[chem1-s3.6.b] The right piece of equipment depends on what is being measured and how exactly it must be measured. Resolution is the smallest change the instrument can show.
+[chem1-s3.6.0] A pipette or burette is used for accurate volumes of solution, because they are made to deliver exact volumes.
+[chem1-s3.6.1] A volumetric flask is used to make up a solution to an exact volume.
+[chem1-s3.6.2] A measuring cylinder is used only where an approximate volume is enough, because it is less accurate than a pipette or burette.
+[chem1-s3.6.3] A balance with a suitable resolution, for example 0.01 g, is used for small masses.
+[chem1-s3.6.4] A thermometer or temperature probe with an appropriate range is used to measure temperature.
+[chem1-s3.6.5] A gas syringe is used to measure gas volumes.
+[chem1-s3.6.6] Data-loggers and sensors for pH, temperature and pressure give continuous readings, meaning the values are recorded automatically as the reaction proceeds.
+[chem1-s3.6.7] Each choice of equipment is justified in terms of accuracy, precision and safety.
+[chem1-s3.7.b] Chemicals and equipment can cause burns, poisoning or fires, so safe habits are part of every investigation. These rules apply whatever the experiment.
+[chem1-s3.7.0] Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair, so that splashes and flames cannot reach the eyes, skin or hair.
+[chem1-s3.7.1] Do not eat or drink in the laboratory, and wash hands after practical work, so that no chemical is swallowed.
+[chem1-s3.7.2] Use a fume cupboard (a ventilated cabinet that draws fumes away) for toxic or harmful gases and for volatile (easily evaporating), flammable or harmful liquids.
+[chem1-s3.7.3] Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame, because their vapour could catch fire.
+[chem1-s3.7.4] When diluting concentrated acids, add the acid to water, never water to acid.
+[chem1-s3.7.5] Use a pipette filler (a rubber bulb or device that draws liquid up); never pipette by mouth.
+[chem1-s3.7.6] Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed.
+[chem1-s3.8.b] A risk assessment is a planned check of what could cause harm in an experiment and how to prevent it. It depends on telling a hazard apart from a risk.
+[chem1-s3.8.0] A hazard is anything that could cause harm, such as a corrosive acid (one that damages skin and materials).
+[chem1-s3.8.1] A risk is the likelihood that harm will happen and how serious it would be.
+[chem1-s3.8.2] 1. Identify each hazard from labels, hazard pictograms (warning symbols) and safety data sheets (documents giving a chemical's hazards and handling advice).
+[chem1-s3.8.3] 2. Assess the risk of each hazard.
+[chem1-s3.8.4] 3. Decide on control measures that reduce the risk.
+[chem1-s3.8.5] 4. Know what to do in an emergency.
+[chem1-s3.8.6] The GHS (Globally Harmonized System) uses nine hazard pictograms, each with a red diamond border: corrosive, flammable, toxic, harmful or irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive and compressed gas.
+[chem1-s3.8.7] Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns. Controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water.
+
+CANDIDATES chem1-s4: 4. Measurement, error and data
+[chem1-s4.0.b] Chemistry measurements only make sense when everyone uses the same units. SI (the international system of units) gives one agreed set, and you often have to convert between it and the smaller units used in the lab.
+[chem1-s4.0.0] The SI base units used in chemistry are the metre (m) for length, kilogram (kg) for mass, second (s) for time, kelvin (K) for temperature and mole (mol) for amount of substance. Derived units are built from these, such as m³ for volume and the pascal (Pa) for pressure.
+[chem1-s4.0.1] Volume: 1 dm³ (a cubic decimetre, a cube 10 cm along each edge) = 1 L = 1000 cm³ = 1000 mL. Also 1 m³ = 1000 dm³ = 1 000 000 cm³.
+[chem1-s4.0.2] Mass: 1 kg = 1000 g, and 1 g = 1000 mg (milligrams), so a quantity in grams is turned into milligrams by multiplying by 1000.
+[chem1-s4.0.3] Temperature: T (K) = θ (°C) + 273.15, often rounded to 273, where θ is the Celsius temperature. For example 25 °C = 298 K. Use kelvin in gas calculations because the kelvin scale starts at 0 K, with no negative values.
+[chem1-s4.0.4] Pressure: 1 kPa = 1000 Pa. The IUPAC (the international chemistry organisation) standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm (one atmosphere, the average air pressure at sea level) = 101 325 Pa.
+[chem1-s4.0.5] Convert by multiplying or dividing by the conversion factor (the number linking the two units) and writing the unit at each step, so mistakes show up. For example 250 cm³ = 250 ÷ 1000 = 0.250 L.
+[chem1-s4.1.b] Two words that sound alike describe how good a measurement is: accuracy and precision. They mean different things, and every instrument also has limits on how well it can measure.
+[chem1-s4.1.0] Accuracy is how close a measurement, or a mean (the average of repeated readings), is to the true or accepted value.
+[chem1-s4.1.1] Precision is how close repeated measurements are to each other, meaning their spread.
+[chem1-s4.1.2] Precision is also used for the smallest division an instrument can read, which is its resolution. A scale marked in 0.1 cm³ steps has a finer resolution than one marked in 1 cm³ steps.
+[chem1-s4.1.3] Results can be precise but not accurate, such as closely grouped readings that are all off the true value because a balance has not been zeroed (set to read 0 g with nothing on it).
+[chem1-s4.1.4] Results can be accurate on average but not precise, with readings scattered on either side of the true value so that the mean lands close to it.
+[chem1-s4.1.5] Every instrument has an uncertainty, the amount by which a reading could be out.
+[chem1-s4.1.6] Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.
+[chem1-s4.1.7] Volumetric glassware (pipettes, burettes and volumetric flasks, made to deliver or hold one exact volume) is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.
+[chem1-s4.1.8] Significant figures (assumed knowledge): answers are reported to the same number of significant figures (the meaningful digits in a number) as the least precise measurement used, so the answer does not look more exact than the data. This is usually three in titration calculations.
+[chem1-s4.2.b] No measurement is perfect. Errors fall into two types that behave differently, and knowing which type you have tells you how to reduce it.
+[chem1-s4.2.0] Random error is unpredictable variation that scatters readings above and below the true value. It is reduced by repeating and averaging, because the highs and lows cancel out.
+[chem1-s4.2.1] Examples of random error are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations.
+[chem1-s4.2.2] Systematic error is a consistent error that shifts all readings in the same direction.
+[chem1-s4.2.3] Examples of systematic error are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.
+[chem1-s4.2.4] Repeating does not reduce systematic error, because every repeat is wrong in the same way. It is reduced by calibrating the equipment (checking it against a known standard and adjusting it) or by improving the method.
+[chem1-s4.2.5] Parallax error occurs when a scale is read from an angle, which makes the liquid level appear to sit at a different mark. Read the bottom of the meniscus at eye level.
+[chem1-s4.2.6] Anomalous results (outliers, readings that do not fit the rest) caused by mistakes are identified and either repeated or excluded with a reason.
+[chem1-s4.2.7] Percentage error = (experimental value − accepted value) ÷ accepted value × 100.
+[chem1-s4.3.b] Data are the observations and measurements collected in an experiment. They come in two kinds, and you choose which to record according to what the question asks.
+[chem1-s4.3.0] Qualitative data are descriptions without numbers, such as a colour change, effervescence (fizzing as a gas is given off) or a precipitate (an insoluble solid) forming.
+[chem1-s4.3.1] Quantitative data are measurements with numbers and units, such as a mass in g or a volume in cm³.
+[chem1-s4.3.2] Select the data that answer the question. Record the raw data (the readings exactly as measured) first, then the processed data, such as means and rates, which are worked out from the raw data.
+[chem1-s4.4.b] A results table organises raw data so it can be read and graphed. A set layout means a reader can see at once what was changed and what was measured.
+[chem1-s4.4.0] The independent variable (the quantity you change) goes in the first column. The dependent variable (the quantity you measure in response) and its repeats go in the following columns, with a mean column.
+[chem1-s4.4.1] Each column heading gives the quantity and its unit, e.g. “Time / s”, so units are not written in the body of the table.
+[chem1-s4.4.2] All readings are recorded to the same number of decimal places, matching the resolution of the instrument (the smallest division it can read).
+[chem1-s4.5.b] A graph turns a table of results into a picture of the pattern, and it lets you read off values or find a rate.
+[chem1-s4.5.0] The independent variable is plotted on the x-axis (horizontal) and the dependent variable on the y-axis (vertical). Both axes are labelled with the quantity and its unit.
+[chem1-s4.5.1] Scales are chosen so that the points fill more than half of the grid, with even and sensible intervals.
+[chem1-s4.5.2] Points are plotted accurately as small crosses, which show the exact position of each reading.
+[chem1-s4.5.3] A line or smooth curve of best fit is drawn through the general trend, because the line shows the underlying pattern. The points are not joined dot to dot.
+[chem1-s4.5.4] The line is not forced through the origin unless the origin is a real data point.
+[chem1-s4.5.5] A line graph is used when both variables are continuous (can take any value in a range, such as time and volume); a bar chart is used for categories.
+[chem1-s4.6.b] Once the data are plotted, you describe the pattern, measure it and use it to predict. These skills are used to read off values, find rates and draw conclusions.
+[chem1-s4.6.0] Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin, so doubling one variable doubles the other) or are inversely proportional (one variable goes up as the other goes down).
+[chem1-s4.6.1] The gradient (steepness) of a straight line is the change in y divided by the change in x.
+[chem1-s4.6.2] For a curve, the gradient at a point is found from a tangent (a straight line touching the curve at that point only) drawn at that point; this gives a rate.
+[chem1-s4.6.3] Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable, because the pattern may not continue outside the range measured.
+[chem1-s4.6.4] Both interpolation and extrapolation are predictions.
+[chem1-s4.6.5] Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane (the next hydrocarbon in the series) can be predicted from the trend in the series.
+[chem1-s4.6.6] Mathematical representations (equations linking quantities) are rearranged and used, e.g. PV = nRT, the gas equation linking pressure, volume, amount in moles and temperature. Means, percentages and rates are calculated.
+[chem1-s4.7.b] Chemistry uses very large and very small numbers, such as the number of particles in a mole. Scientific notation writes them compactly.
+[chem1-s4.7.0] Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10 and n is a whole number (the power of ten).
+[chem1-s4.7.1] The Avogadro constant (the number of particles in one mole) is 6.02 × 10²³ mol⁻¹.
+[chem1-s4.7.2] 0.00050 = 5.0 × 10⁻⁴: the decimal point moves four places to the right, so the power of ten is −4.
+[chem1-s4.8.b] The last steps of analysis are to deal with any result that does not fit and then to state what the data show. A good conclusion is tied to the data and to the hypothesis (the prediction being tested).
+[chem1-s4.8.0] An anomalous result does not fit the pattern of the other results. It is identified on the graph or in the table, and a reason is suggested, such as a misreading.
+[chem1-s4.8.1] An anomalous result is left out of the mean and of the line of best fit, and this is stated, so the reader knows the data were treated openly.
+[chem1-s4.8.2] A conclusion states the relationship shown by the data and says whether it supports the hypothesis.
+[chem1-s4.8.3] A conclusion explains the relationship using scientific theory or a model, e.g. collision theory (the model that reactions happen when particles collide).
+[chem1-s4.8.4] The conclusion is justified by reference to the data and states its limits: the range tested, the amount of data and the size of the errors.
+[chem1-s4.8.5] Correlation (a link between two variables) does not prove causation (that one causes the other): the link may be due to a third factor.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.

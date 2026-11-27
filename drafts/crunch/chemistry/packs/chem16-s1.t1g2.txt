@@ -1,0 +1,258 @@
+MODE: links only (another package rates cost)
+TARGET chem16-s1: 1. Redox volumetric problems
+[chem16-s1.0.b] A redox titration is one where a measured volume of an oxidising agent (a substance that takes electrons) reacts with a reducing agent (a substance that gives electrons). It is solved with the same mole steps as an acid–base titration; only the source of the mole ratio changes.
+[chem16-s1.0.0] Recap: write the balanced equation to get the mole ratio, calculate moles of the known solution with n = c × V (V in litres), convert to moles of the other substance using the mole ratio, divide by its volume, then convert units and allow for dilution.
+[chem16-s1.0.1] These are the steps used in acid–base volumetric problems. Allowing for dilution means scaling back up when extra water was added, which lowered the concentration.
+[chem16-s1.0.2] The difference in redox problems is that the mole ratio comes from the balanced redox equation (the same number of each atom and the same total charge on both sides), which may need to be balanced first. There is more on this in Balancing redox equations.
+[chem16-s1.0.3] The ratio can be checked from electrons: the moles of electrons gained by the oxidising agent equal the moles of electrons lost by the reducing agent, because electrons are only transferred, never created or lost.
+[chem16-s1.0.4] Example: MnO₄⁻ gains 5 e⁻ and Fe²⁺ loses 1 e⁻, so 1 MnO₄⁻ reacts with 5 Fe²⁺, because five Fe²⁺ are needed to supply the five electrons one MnO₄⁻ takes.
+[chem16-s1.0.5] Titration formula for redox: (V_ox × M_ox) ÷ n_ox = (V_red × M_red) ÷ n_red, where V is volume, M is concentration in mol L⁻¹, and n_ox and n_red are the coefficients of the oxidising and reducing agents in the balanced equation.
+[chem16-s1.0.6] Volumes can stay in cm³ in this formula because the units cancel, exactly as in acid–base volumetric problems.
+[chem16-s1.0.7] Worked example of the formula: 23.8 cm³ of KMnO₄ reacts with 25.0 cm³ of 0.100 M Fe²⁺, with n_ox = 1 and n_red = 5 (sample data).
+[chem16-s1.0.8] M_ox = (25.0 × 0.100) ÷ (5 × 23.8) = 0.0210 mol L⁻¹, the concentration of the KMnO₄.
+[chem16-s1.1.b] These ratios turn up again and again in redox titrations. Each comes straight from a balanced equation, so learn the equation and the ratio together.
+[chem16-s1.1.0] MnO₄⁻ : Fe²⁺ = 1 : 5, from MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Permanganate (MnO₄⁻) is the oxidising agent and iron(II) the reducing agent.
+[chem16-s1.1.1] I₂ : S₂O₃²⁻ = 1 : 2, from I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻. Here thiosulfate (S₂O₃²⁻) is the reducing agent that uses up iodine.
+[chem16-s1.1.2] MnO₄⁻ : I₂ = 2 : 5, from 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O, in which permanganate oxidises iodide (I⁻) to iodine.
+[chem16-s1.1.3] MnO₄⁻ : S₂O₃²⁻ = 1 : 5 when iodine made from permanganate is titrated with thiosulfate. The combined ratio is 2 : 5 : 10 for MnO₄⁻ : I₂ : S₂O₃²⁻, because 2 MnO₄⁻ make 5 I₂, which use up 10 S₂O₃²⁻.
+[chem16-s1.1.4] Ammonium iron(II) sulfate supplies one Fe²⁺ per formula unit, so moles of (NH₄)₂SO₄·FeSO₄·6H₂O = moles of Fe²⁺.
+[chem16-s1.1.5] Each Na₂S₂O₃·5H₂O supplies one S₂O₃²⁻, so moles of the salt equal moles of thiosulfate ions.
+[chem16-s1.1.6] Each I₂ is one mole whether it is written as I₂ or I₃⁻ (the form iodine takes when dissolved in iodide solution).
+[chem16-s1.2.b] Some substances can't be titrated directly. Instead they release a product that can be, so the calculation has to run back through two equations.
+[chem16-s1.2.0] In an indirect titration, the substance being analysed (the analyte) first reacts with an excess of a reagent (more than enough, so the analyte is completely used up) to release a product in proportion to it.
+[chem16-s1.2.1] The product released is then titrated with a solution of known concentration (the titrant). For example, an oxidising agent added to excess iodide releases iodine, which is titrated with thiosulfate.
+[chem16-s1.2.2] Work backwards through each equation in turn, starting from the titrant, because the titrant is the only amount you measured directly.
+[chem16-s1.2.3] Step 1: divide the moles of thiosulfate by 2 to give the moles of iodine, because I₂ : S₂O₃²⁻ = 1 : 2.
+[chem16-s1.2.4] Step 2: use the first equation to convert the moles of iodine to moles of the oxidising agent.
+[chem16-s1.2.5] The excess reagent, e.g. KI, doesn't need to be measured accurately, because it is not part of the calculation.
+[chem16-s1.2.6] Only the analyte and the titrant must be measured exactly, since the moles you calculate depend only on them.
+[chem16-s1.3.b] Titration data rarely give the answer in the form the question wants. You scale up from the small portion titrated, then convert moles into masses and percentages.
+[chem16-s1.3.0] Scale from the portion titrated to the whole solution, e.g. × 10 for 25.0 cm³ out of 250 cm³, because only a portion was run against the titrant.
+[chem16-s1.3.1] Then divide by the number of tablets if several were dissolved, because the flask holds all of them together.
+[chem16-s1.3.2] Mass = moles × molar mass (M, the mass of one mole in g mol⁻¹), and mg = g × 1000.
+[chem16-s1.3.3] Percentage by mass of a tablet = mass of the substance ÷ mass of the tablet × 100.
+[chem16-s1.3.4] Percentage of the label value = measured mass ÷ stated mass × 100, which shows how close a tablet is to what its label claims.
+[chem16-s1.3.5] Concentration in g L⁻¹ = mol L⁻¹ × M.
+[chem16-s1.3.6] %w/v (grams of solute per 100 cm³ of solution) = g L⁻¹ ÷ 10. There is more on this in Units of concentration.
+[chem16-s1.3.7] A concentration in g L⁻¹ of a hydrated salt (one with water locked into its crystals) uses the molar mass of the hydrate, e.g. Na₂S₂O₃·5H₂O for thiosulfate solution.
+[chem16-s1.4.b] Use whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.
+[chem16-s1.4.0] Ar: H 1, C 12, N 14, O 16, Na 23, S 32, Cl 35.5, K 39, Mn 55, Fe 56, I 127. Use Ar(Fe) = 56 for iron.
+[chem16-s1.4.1] M(FeSO₄) = 152 for iron(II) sulfate, and M(KMnO₄) = 158.
+[chem16-s1.4.2] M(Na₂S₂O₃·5H₂O) = 248, which includes the five waters of crystallisation.
+[chem16-s1.4.3] M((NH₄)₂SO₄·FeSO₄·6H₂O) = 392 for ammonium iron(II) sulfate, and M(I₂) = 254.
+[chem16-s1.5.b] Careful technique and a sense check separate a correct answer from one that is slightly off. Redox titrations also have particular errors that push the result in a known direction.
+[chem16-s1.5.0] Use the mean of concordant titres (titres that agree closely), because averaging results that agree reduces the effect of random error.
+[chem16-s1.5.1] Give answers to three significant figures, with units.
+[chem16-s1.5.2] Check the answer is sensible: a tablet usually contains tens of milligrams of iron, not grams.
+[chem16-s1.5.3] A percentage cannot exceed 100%, so a result above that signals a mistake.
+[chem16-s1.5.4] Taking deep purple as the end point with KMnO₄ (the point where the reaction is complete) makes the titre too high, because extra permanganate has been added. This is a systematic error (one that shifts every result the same way).
+[chem16-s1.5.5] Oxidation of Fe²⁺ by air before titration makes the iron result too low, because some Fe²⁺ has already been used up and less permanganate is needed. There is more on random and systematic error in Measurement and error.
+[chem16-s1.6.b] At Higher Level a redox titration may use a substance you have not met in class. The chemistry looks new, but the question supplies what you need and the same method applies.
+[chem16-s1.6.0] An unfamiliar redox problem may involve a reagent or product not studied before, e.g. hydrogen peroxide, hypochlorite in bleach, vitamin C or sodium oxalate (sodium ethanedioate, Na₂C₂O₄).
+[chem16-s1.6.1] The question gives the balanced equation or asks for it, and the same method applies.
+[chem16-s1.6.2] 1. Identify the oxidising and reducing agents (which substance takes electrons and which gives them).
+[chem16-s1.6.3] 2. Write or balance the equation, using oxidation numbers (the charge-like numbers that track electron transfer) if needed.
+[chem16-s1.6.4] 3. List the data with units.
+[chem16-s1.6.5] 4. Plan the route through moles, including any two-step reaction and dilution, before calculating.
+[chem16-s1.7.b] Four reactions show how the ratio changes with the substance. In each case read the ratio from the coefficients of the balanced equation.
+[chem16-s1.7.0] MnO₄⁻ : H₂O₂ = 2 : 5, from 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, where acidified permanganate oxidises hydrogen peroxide to oxygen.
+[chem16-s1.7.1] MnO₄⁻ : C₂O₄²⁻ = 2 : 5, from 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.
+[chem16-s1.7.2] ClO⁻ : I₂ = 1 : 1, from ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, because hypochlorite oxidises iodide to iodine in acid solution.
+[chem16-s1.7.3] Vitamin C : I₂ = 1 : 1, from C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻.
+[chem16-s1.8.b] Vitamin C and sodium oxalate are two substances that exams may use in redox titrations. You need their formulae and one practical detail for each.
+[chem16-s1.8.0] Vitamin C is ascorbic acid, C₆H₈O₆, with M = 176 g mol⁻¹; iodine oxidises it to dehydroascorbic acid, C₆H₆O₆.
+[chem16-s1.8.1] Sodium oxalate is an alternative primary standard for KMnO₄, meaning a pure, stable solid that can be weighed accurately to make a solution of known concentration for standardising it.
+[chem16-s1.8.2] The oxalate titration is done warm, at about 60 °C, because the reaction is slow at room temperature.
+[chem16-s1.9.b] Standardising means finding the exact concentration of a solution by titrating it against one of known concentration. Here ammonium iron(II) sulfate, which can be weighed accurately, is used to standardise KMnO₄. The mean titre is the average volume run in from the burette, and all data in these worked problems are sample data.
+[chem16-s1.9.0] Data: 9.80 g of ammonium iron(II) sulfate, (NH₄)₂SO₄·FeSO₄·6H₂O (M = 392), was dissolved in dilute sulfuric acid and made up to 250 cm³; 25.0 cm³ portions needed a mean titre of 24.0 cm³ of KMnO₄.
+[chem16-s1.9.1] Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, a 1 : 5 ratio. The dilute sulfuric acid supplies the H⁺ in this equation.
+[chem16-s1.9.2] Moles of salt = 9.80 g ÷ 392 g mol⁻¹ = 0.0250 mol, in 250 cm³.
+[chem16-s1.9.3] Concentration of Fe²⁺ = 0.0250 mol ÷ 0.250 L = 0.100 mol L⁻¹, because each formula unit gives one Fe²⁺.
+[chem16-s1.9.4] Moles Fe²⁺ in 25.0 cm³ = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol.
+[chem16-s1.9.5] Moles MnO₄⁻ = 2.50 × 10⁻³ mol ÷ 5 = 5.00 × 10⁻⁴ mol, using the 1 : 5 ratio.
+[chem16-s1.9.6] Concentration of KMnO₄ = 5.00 × 10⁻⁴ mol ÷ 0.0240 L = 0.0208 mol L⁻¹.
+[chem16-s1.9.7] In g L⁻¹: 0.0208 mol L⁻¹ × 158 g mol⁻¹ = 3.29 g L⁻¹.
+[chem16-s1.10.b] Here the titration checks a tablet's label. You work from the titre back to the mass of iron(II) sulfate in one tablet and compare it with the stated value.
+[chem16-s1.10.0] Data: five tablets, each labelled “200 mg iron(II) sulfate”, were dissolved in dilute sulfuric acid and made up to 250 cm³; 25.0 cm³ portions needed a mean titre of 12.9 cm³ of 0.0100 M KMnO₄.
+[chem16-s1.10.1] Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0129 L = 1.29 × 10⁻⁴ mol.
+[chem16-s1.10.2] Moles Fe²⁺ in 25.0 cm³ = 5 × 1.29 × 10⁻⁴ mol = 6.45 × 10⁻⁴ mol, using MnO₄⁻ : Fe²⁺ = 1 : 5.
+[chem16-s1.10.3] Moles Fe²⁺ in 250 cm³ = 6.45 × 10⁻⁴ mol × 10 = 6.45 × 10⁻³ mol, because 25.0 cm³ is one tenth of the flask.
+[chem16-s1.10.4] Moles Fe²⁺ per tablet = 6.45 × 10⁻³ mol ÷ 5 = 1.29 × 10⁻³ mol, because five tablets were dissolved.
+[chem16-s1.10.5] Mass of FeSO₄ per tablet = 1.29 × 10⁻³ mol × 152 g mol⁻¹ = 0.196 g = 196 mg.
+[chem16-s1.10.6] As a percentage of the label value: 196 mg ÷ 200 mg × 100 = 98.0%.
+[chem16-s1.10.7] Mass of elemental iron per tablet = 1.29 × 10⁻³ mol × 56 g mol⁻¹ = 0.0722 g = 72.2 mg.
+[chem16-s1.11.b] Thiosulfate is standardised in two steps. Permanganate first releases iodine from excess iodide, and the iodine is then titrated with the thiosulfate.
+[chem16-s1.11.0] Data: 25.0 cm³ of 0.0200 M KMnO₄ was acidified and excess KI added; the iodine liberated (released) needed a mean titre of 25.0 cm³ of sodium thiosulfate solution, using starch (an indicator for iodine) near the end point.
+[chem16-s1.11.1] Equation: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.
+[chem16-s1.11.2] Equation: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.
+[chem16-s1.11.3] Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.
+[chem16-s1.11.4] Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, using MnO₄⁻ : I₂ = 2 : 5.
+[chem16-s1.11.5] Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, the same as 5 × the moles of MnO₄⁻.
+[chem16-s1.11.6] Concentration of S₂O₃²⁻ = 2.50 × 10⁻³ mol ÷ 0.0250 L = 0.100 mol L⁻¹.
+[chem16-s1.11.7] In g L⁻¹ of Na₂S₂O₃·5H₂O: 0.100 mol L⁻¹ × 248 g mol⁻¹ = 24.8 g L⁻¹.
+[chem16-s1.12.b] Bleach contains hypochlorite (ClO⁻), which oxidises iodide to iodine. The iodine is then titrated with thiosulfate, and because the bleach was diluted first, the answer must be scaled back up.
+[chem16-s1.12.0] Data: 25.0 cm³ of bleach was diluted to 250 cm³; 25.0 cm³ of the diluted bleach was added to excess KI and dilute sulfuric acid, and the iodine liberated needed a mean titre of 18.4 cm³ of 0.100 M sodium thiosulfate.
+[chem16-s1.12.1] Equations: ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, so ClO⁻ : I₂ = 1 : 1; and I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.
+[chem16-s1.12.2] Moles S₂O₃²⁻ = 0.100 mol L⁻¹ × 0.0184 L = 1.84 × 10⁻³ mol.
+[chem16-s1.12.3] Moles I₂ = 1.84 × 10⁻³ mol ÷ 2 = 9.20 × 10⁻⁴ mol, using I₂ : S₂O₃²⁻ = 1 : 2; this equals the moles of ClO⁻ in 25.0 cm³ of diluted bleach.
+[chem16-s1.12.4] Diluted concentration = 9.20 × 10⁻⁴ mol ÷ 0.0250 L = 0.0368 mol L⁻¹.
+[chem16-s1.12.5] Original bleach = 0.0368 mol L⁻¹ × 10 = 0.368 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.
+[chem16-s1.12.6] As sodium hypochlorite (NaOCl, M = 74.5): 0.368 mol L⁻¹ × 74.5 g mol⁻¹ = 27.4 g L⁻¹.
+[chem16-s1.12.7] As %w/v: 27.4 g L⁻¹ ÷ 10 = 2.74% w/v.
+[chem16-s1.13.b] Here hydrogen peroxide acts as the reducing agent, and the dilution factor is 25 rather than 10.
+[chem16-s1.13.0] Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³; 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.
+[chem16-s1.13.1] Equation: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, so MnO₄⁻ : H₂O₂ = 2 : 5.
+[chem16-s1.13.2] Here H₂O₂ is the reducing agent, with oxygen changing from −1 to 0 as it is oxidised to O₂. The permanganate is still the oxidising agent.
+[chem16-s1.13.3] Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0200 L = 4.00 × 10⁻⁴ mol.
+[chem16-s1.13.4] Moles H₂O₂ = 4.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.00 × 10⁻³ mol in 25.0 cm³.
+[chem16-s1.13.5] Diluted concentration = 1.00 × 10⁻³ mol ÷ 0.0250 L = 0.0400 mol L⁻¹.
+[chem16-s1.13.6] Dilution factor = 250 ÷ 10.0 = 25, so the original concentration = 0.0400 mol L⁻¹ × 25 = 1.00 mol L⁻¹.
+[chem16-s1.13.7] In g L⁻¹ (H₂O₂ = 34 g mol⁻¹): 1.00 mol L⁻¹ × 34 g mol⁻¹ = 34.0 g L⁻¹, and as %w/v: 34.0 g L⁻¹ ÷ 10 = 3.40% w/v.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.
+
+CANDIDATES chem13-s1: 1. Acid–base volumetric problems
+[chem13-s1.0.b] A titration (adding one solution from a burette into another until the reaction is exactly complete) gives volumes, and the calculation turns those volumes into a concentration. Work through the steps in order; each step produces the quantity the next step needs. There is more on units in Solutions and concentration.
+[chem13-s1.0.0] Step 1: Write the balanced equation and note the mole ratio of the two reactants (the ratio of their coefficients), because this ratio links the amounts of the two substances.
+[chem13-s1.0.1] Step 2: Calculate the moles of the substance whose concentration and volume are both known, using n = c × V (moles = concentration in mol L⁻¹ × volume), with V in litres (cm³ ÷ 1000).
+[chem13-s1.0.2] Step 3: Use the mole ratio to find the moles of the other substance, since the equation tells you how many moles of one react with each mole of the other.
+[chem13-s1.0.3] Step 4: Divide those moles by the volume of that solution in litres to get its concentration in mol L⁻¹, because concentration is moles per litre.
+[chem13-s1.0.4] Step 5: Convert to the units asked for: multiply the concentration in mol L⁻¹ by the molar mass (mass of one mole) in g mol⁻¹ to get g L⁻¹, then allow for any dilution.
+[chem13-s1.0.5] To give %w/v, divide the value in g L⁻¹ by 10, because %w/v is grams of solute (the dissolved substance) per 100 cm³ of solution.
+[chem13-s1.1.b] The five steps can be squeezed into a single equation. It saves time once you trust the method, and it gives exactly the same answer.
+[chem13-s1.1.0] For the reaction aA + bB → products: (cA × VA) ÷ a = (cB × VB) ÷ b, where c is concentration, V is volume, and a and b are the coefficients (the numbers in front of each formula) in the balanced equation.
+[chem13-s1.1.1] The volumes can be in cm³ on both sides, because the units cancel; the concentrations must be in the same units on both sides too.
+[chem13-s1.1.2] Example: for Na₂CO₃ + 2HCl, (c(Na₂CO₃) × V(Na₂CO₃)) ÷ 1 = (c(HCl) × V(HCl)) ÷ 2.
+[chem13-s1.1.3] The formula gives the same answer as the step-by-step method, so show the working whichever route is used.
+[chem13-s1.2.b] Samples are often diluted (water added to make a weaker solution) or made up to a larger volume before titrating, so the titration does not measure the original sample directly. You must scale back up to get the original.
+[chem13-s1.2.0] If a sample was diluted before titration, for example 25.0 cm³ made up to 250 cm³, the titration gives the diluted concentration, not the original one.
+[chem13-s1.2.1] Multiply the diluted concentration by the dilution factor (how many times the volume was increased) to get the original concentration: 250 ÷ 25.0 = 10.
+[chem13-s1.2.2] If a solid was dissolved and made up to a volume, the titration of a portion gives the moles in that portion only, because the rest of the solution was not used.
+[chem13-s1.2.3] Scale up by (total volume ÷ portion volume) to get the moles in the whole sample, for example × 10 for 25.0 cm³ out of 250 cm³.
+[chem13-s1.3.b] A correct method can still lose marks through poor data choice or careless presentation. These habits protect your answer.
+[chem13-s1.3.0] Use the mean (average) of the concordant titres (titres that agree closely), not the rough titre, because it is less precise (the quick first run that only shows roughly where the end point is).
+[chem13-s1.3.1] Give answers to three significant figures with units, matching the precision of the titration data.
+[chem13-s1.3.2] Check the answer is sensible: a dilute laboratory solution is usually 0.01–2 M (mol L⁻¹), and a % purity (the percentage of a sample that is the pure substance) cannot exceed 100%.
+[chem13-s1.4.b] At Higher Level the titration may be set in a situation you have not seen before. The chemistry is the same, so a clear plan through moles gets you through.
+[chem13-s1.4.0] An unfamiliar problem may involve an unusual substance, a back titration, finding a formula or percentage purity, or a substance used in everyday life; the same method applies.
+[chem13-s1.4.1] Read the question for the balanced equation, or write it yourself, then list the known quantities with units.
+[chem13-s1.4.2] Plan the route through moles before calculating anything, so you know which quantity leads to which.
+[chem13-s1.4.3] Back titration: an excess (more than enough) of a known amount of reagent is added to the sample, for example acid added to an insoluble antacid (a tablet that neutralises stomach acid), and the excess is then titrated.
+[chem13-s1.4.4] Moles that reacted with the sample = moles added − moles in excess, because whatever acid was not left over must have reacted with the sample.
+[chem13-s1.4.5] Back titration is used when the sample is insoluble or reacts slowly, because such a sample cannot be titrated directly.
+[chem13-s1.5.b] Standardising an acid means finding its exact concentration by titrating it against a solution of known concentration, here sodium carbonate. Each problem follows the method above. All data are sample data.
+[chem13-s1.5.0] Data: 25.0 cm³ of 0.0500 M sodium carbonate was titrated with hydrochloric acid, using methyl orange (an indicator that changes colour at the end point).
+[chem13-s1.5.1] Data: the mean titre (the volume of acid run in from the burette) of hydrochloric acid was 24.2 cm³.
+[chem13-s1.5.2] Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂.
+[chem13-s1.5.3] Moles Na₂CO₃ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol, using n = c × V with V in litres.
+[chem13-s1.5.4] Moles HCl = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.
+[chem13-s1.5.5] Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0242 L = 0.103 mol L⁻¹.
+[chem13-s1.6.b] This problem adds a dilution step, so the titration result must be scaled up to find the strength of the original cleaner.
+[chem13-s1.6.0] Data: 25.0 cm³ of a cleaner was diluted to 250 cm³, so the dilution factor will be needed.
+[chem13-s1.6.1] Data: 25.0 cm³ of the diluted solution needed 21.5 cm³ of 0.100 M hydrochloric acid, using methyl orange.
+[chem13-s1.6.2] Equation: NH₃ + HCl → NH₄Cl, a 1 : 1 reaction, so no ratio factor is needed.
+[chem13-s1.6.3] Moles HCl = 0.100 mol L⁻¹ × 0.0215 L = 2.15 × 10⁻³ mol, which equals the moles of NH₃ in 25.0 cm³ of diluted cleaner because the ratio is 1 : 1.
+[chem13-s1.6.4] Diluted concentration = 2.15 × 10⁻³ mol ÷ 0.0250 L = 0.0860 mol L⁻¹, because 25.0 cm³ is the volume that was titrated.
+[chem13-s1.6.5] Original concentration = 0.0860 mol L⁻¹ × 10 = 0.860 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.
+[chem13-s1.6.6] Mass concentration of ammonia = 0.860 mol L⁻¹ × 17 g mol⁻¹ = 14.6 g L⁻¹, using the molar mass of NH₃ (17 g mol⁻¹).
+[chem13-s1.7.b] Washing soda crystals hold water inside the crystal (water of crystallisation), written Na₂CO₃·xH₂O, where x is unknown. Titrating the carbonate tells you how much Na₂CO₃ is in the crystals, and the rest of the mass must be water.
+[chem13-s1.7.0] Data: 3.58 g of washing soda crystals, Na₂CO₃·xH₂O, were dissolved and made up to 250 cm³.
+[chem13-s1.7.1] Data: 25.0 cm³ portions needed a mean titre of 25.0 cm³ of 0.100 M hydrochloric acid.
+[chem13-s1.7.2] Moles HCl = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol, using n = c × V.
+[chem13-s1.7.3] Moles Na₂CO₃ in 25.0 cm³ = 2.50 × 10⁻³ mol ÷ 2 = 1.25 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.
+[chem13-s1.7.4] Moles Na₂CO₃ in 250 cm³ = 1.25 × 10⁻³ mol × 10 = 1.25 × 10⁻² mol, because only a tenth of the solution was titrated.
+[chem13-s1.7.5] Mass of Na₂CO₃ = 1.25 × 10⁻² mol × 106 g mol⁻¹ = 1.325 g, using mass = moles × molar mass. Mass of water = 3.58 g − 1.325 g = 2.255 g.
+[chem13-s1.7.6] Moles of water = 2.255 g ÷ 18 g mol⁻¹ = 0.125 mol, so that it can be compared with the moles of Na₂CO₃.
+[chem13-s1.7.7] Ratio of water to Na₂CO₃ = 0.125 ÷ 0.0125 = 10, so x = 10 and the formula is Na₂CO₃·10H₂O.
+[chem13-s1.8.b] Calcium carbonate in an antacid tablet cannot be titrated directly, so a back titration is used: add too much acid, then measure how much was left over. The tablet's share is the difference.
+[chem13-s1.8.0] Data: an antacid tablet containing calcium carbonate was added to 50.0 cm³ of 1.00 M hydrochloric acid, an excess.
+[chem13-s1.8.1] Data: when the tablet had reacted, the remaining acid needed 30.0 cm³ of 0.500 M sodium hydroxide.
+[chem13-s1.8.2] Moles HCl added = 1.00 mol L⁻¹ × 0.0500 L = 0.0500 mol, which is the starting amount before any is used up.
+[chem13-s1.8.3] Moles HCl in excess = moles NaOH, because they react 1 : 1; moles NaOH = 0.500 mol L⁻¹ × 0.0300 L = 0.0150 mol.
+[chem13-s1.8.4] Moles HCl that reacted with the tablet = 0.0500 mol − 0.0150 mol = 0.0350 mol.
+[chem13-s1.8.5] Equation: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Moles CaCO₃ = 0.0350 mol ÷ 2 = 0.0175 mol.
+[chem13-s1.8.6] Mass of calcium carbonate per tablet = 0.0175 mol × 100 g mol⁻¹ = 1.75 g.
+[chem13-s1.8.7] A back titration is needed because calcium carbonate is insoluble and reacts too slowly to titrate directly.

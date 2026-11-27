@@ -1,0 +1,170 @@
+MODE: cost and links
+TARGET hom-energy-nutrition-s3: 3. Energy value of the nutrients
+[hom-energy-nutrition-s3.0.b] Only three nutrients supply energy in food: protein, carbohydrate and fat (lipid). Each releases a fixed amount of energy, measured in kilojoules (kJ) or kilocalories (kcal), for every gram eaten, and these values are the basis of every energy calculation.
+[hom-energy-nutrition-s3.0.0] Protein supplies 17 kJ (4 kcal) per gram, carbohydrate supplies 16 kJ (3.75 kcal) per gram and fat (lipid) supplies 37 kJ (9 kcal) per gram. A simple table of these three values is the best way to learn them.
+[hom-energy-nutrition-s3.0.1] Fat is the most concentrated energy source, giving more than twice the energy per gram of protein or carbohydrate. This is why a high-fat diet is energy-dense and contributes strongly to weight gain.
+[hom-energy-nutrition-s3.0.2] Vitamins, minerals and water supply no energy, so they are not energy nutrients, even though the body cannot work without them.
+[hom-energy-nutrition-s3.0.3] Alcohol is not a nutrient, but it does supply energy, at 29 kJ (7 kcal) per gram. It supplies no protein, vitamins or minerals, so it is a source of empty kilocalories (energy with no nutrition).
+[hom-energy-nutrition-s3.0.4] Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy. Do not count it with the starches and sugars, and do not give it 16 kJ per gram.
+[hom-energy-nutrition-s3.0.5] 1 kcal is about 4.2 kJ, so dividing kJ by 4.2 gives kcal. Check: 37 kJ is about 9 kcal, 17 kJ is about 4 kcal, 16 kJ is about 3.75 kcal and 29 kJ is about 7 kcal.
+[hom-energy-nutrition-s3.1.b] A food's energy value is worked out from how many grams of each energy nutrient it contains. Food composition tables and labels give these amounts per 100 g, so the method is multiply, add, then state the unit.
+[hom-energy-nutrition-s3.1.0] 1. Find the grams of protein, carbohydrate and fat in the amount eaten, from the food label or a food composition table (which gives values per 100 g).
+[hom-energy-nutrition-s3.1.1] 2. Multiply the grams of each nutrient by its energy value per gram: protein by 17, carbohydrate by 16 and fat by 37.
+[hom-energy-nutrition-s3.1.2] 3. Add the three results to give the total energy value of the food.
+[hom-energy-nutrition-s3.1.3] 4. Give the unit, kJ, and convert to kcal if asked by dividing by 4.2.
+[hom-energy-nutrition-s3.1.4] Scaling to a portion: if the table gives values per 100 g and the portion is 150 g, multiply each per-100 g value by 150 divided by 100 (or 1.5).
+[hom-energy-nutrition-s3.1.5] Without scaling, the answer is for 100 g, not for the portion eaten.
+[hom-energy-nutrition-s3.2.b] Seeing the method on sample figures shows where the marks are: each multiplication, the total and the unit. These are invented sample foods, not facts about any named product.
+[hom-energy-nutrition-s3.2.0] Worked example (sample data): 100 g of a food with 12 g protein, 60 g carbohydrate and 8 g fat gives 12 x 17 = 204 kJ, 60 x 16 = 960 kJ and 8 x 37 = 296 kJ.
+[hom-energy-nutrition-s3.2.1] These add to a total of 1460 kJ. In kcal this is about 348 (1460 divided by 4.2).
+[hom-energy-nutrition-s3.2.2] Second worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ.
+[hom-energy-nutrition-s3.2.3] These add to a total of 1510 kJ, which is about 360 kcal.
+[hom-energy-nutrition-s3.2.4] Percentage contribution: divide the energy from one nutrient by the total energy, then multiply by 100. In the 1460 kJ sample, fat gives 296 out of 1460, which is about 20 per cent of the energy.
+[hom-energy-nutrition-s3.3.b] Section B data questions give a table of composition per 100 g for several foods, such as protein, fat, carbohydrate, fibre, calcium and iron. The sum is only half the answer, because you must also say what the figures mean for a diet.
+[hom-energy-nutrition-s3.3.0] To rank foods by energy value, calculate the kJ for each food using the method above, then put them in order and name the highest and the lowest.
+[hom-energy-nutrition-s3.3.1] A high-fibre food helps bowel health, because fibre adds bulk and keeps waste moving through the gut.
+[hom-energy-nutrition-s3.3.2] A high-fat food is a disadvantage on a low-fat diet, because fat has the most energy per gram and contributes to weight gain.
+[hom-energy-nutrition-s3.3.3] A high-carbohydrate food is a good source of energy for the body.
+[hom-energy-nutrition-s3.3.4] The 2007H bread comparison is an example of this type of question: calculate, rank, then comment on how suitable each bread is for a given diet.
+[hom-energy-nutrition-s3.4.b] Carbohydrate supplies the largest share of energy in the diet. It is the body's main and most readily available energy source.
+[hom-energy-nutrition-s3.4.0] Sugars and starches are digested to glucose, which cells use for energy. Any glucose not needed straight away is stored as glycogen in the liver and muscles.
+[hom-energy-nutrition-s3.4.1] Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate together with fibre, vitamins and minerals, so they give energy with useful nutrition. Cereals and fruit are also sources.
+[hom-energy-nutrition-s3.4.2] Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories.
+[hom-energy-nutrition-s3.4.3] Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from added sugars.
+[hom-energy-nutrition-s3.5.b] Fat packs far more energy into each gram than the other nutrients, so it contributes strongly to the energy in the diet even when it is a smaller part of the weight of the food. It is the second largest source of energy.
+[hom-energy-nutrition-s3.5.0] Fats and oils are lipids, mostly triglycerides, made of glycerol and fatty acids.
+[hom-energy-nutrition-s3.5.1] Fat supplies the most energy per gram of the three energy nutrients, more than twice that of carbohydrate or protein.
+[hom-energy-nutrition-s3.5.2] Surplus energy from fat is stored as adipose tissue, an energy reserve, which is why high-fat diets contribute strongly to weight gain.
+[hom-energy-nutrition-s3.5.3] Saturated fats come mainly from animal foods and some plant oils, such as palm oil. Unsaturated fats come from vegetable oils, nuts, seeds and oily fish.
+[hom-energy-nutrition-s3.5.4] Sources of fat include butter, oils, fatty meat, nuts, cheese and oily fish.
+[hom-energy-nutrition-s3.6.b] Protein can supply energy, but this is not its main job. It makes the smallest contribution to the energy in the diet.
+[hom-energy-nutrition-s3.6.0] Protein is made of amino acids. The body uses it mainly for growth and repair of tissue, but it can also supply energy.
+[hom-energy-nutrition-s3.6.1] Protein is not stored in the body as protein, so surplus protein is broken down and used for energy or converted to fat.
+[hom-energy-nutrition-s3.6.2] When carbohydrate and fat are short, protein is used for energy at the expense of its building role.
+[hom-energy-nutrition-s3.6.3] High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids. Beans are also a protein source.
+[hom-energy-nutrition-s3.6.4] Protein is not a major energy source in a healthy diet: its value per gram is close to that of carbohydrate, but it is eaten in smaller amounts.
+[hom-energy-nutrition-s3.7.b] How much each nutrient contributes to a diet depends on how much of it is eaten and on how much energy each gram of the food carries.
+[hom-energy-nutrition-s3.7.0] Energy density is the energy per gram of a food. Foods rich in fat and sugar are the most energy-dense.
+[hom-energy-nutrition-s3.7.1] Wholegrain starchy foods, fruit, vegetables and lean protein give nutrients with less energy per gram, so they are a better choice than empty kilocalories.
+[hom-energy-nutrition-s3.7.2] Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from fat, especially saturated fat, and less from added sugars.
+[hom-energy-nutrition-s3.7.3] The typical Irish diet gets more of its energy from saturated fat and from added sugar in drinks and processed foods than the guidelines recommend.
+[hom-energy-nutrition-s3.7.4] Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total and multiply by 100 to give its percentage share.
+
+CANDIDATES hom-carbohydrates-s6: 6. Energy value and dietary fibre targets
+[hom-carbohydrates-s6.0.b] Every nutrient releases a set amount of energy per gram, so we can work out how much energy a food supplies from its nutrient content. Carbohydrate is the main energy nutrient in most diets, so you need its figure and how to use it.
+[hom-carbohydrates-s6.0.0] Carbohydrate provides 16 kJ (3.75 kcal) per gram. Sugars and starch have the same energy value per gram, so a gram of sugar gives no more energy than a gram of starch.
+[hom-carbohydrates-s6.0.1] For comparison, protein provides 17 kJ (4 kcal) per gram, fat 37 kJ (9 kcal) per gram and alcohol 29 kJ (7 kcal) per gram. Fat gives more than twice the energy of carbohydrate for the same weight.
+[hom-carbohydrates-s6.0.2] Fibre (non-starch polysaccharide) is not digested by human enzymes, so it contributes little usable energy. Say 'little', not 'none'.
+[hom-carbohydrates-s6.0.3] To calculate the energy from a food, multiply the grams of carbohydrate by 16 to get kilojoules (kJ), or by 3.75 to get kilocalories (kcal).
+[hom-carbohydrates-s6.0.4] Worked example: 30 g of sugar provides 30 × 16 = 480 kJ, or 30 × 3.75 = 112.5 kcal. One kilocalorie is about 4.2 kilojoules (1 kcal = 4.184 kJ), which is why the kcal figure is smaller.
+[hom-carbohydrates-s6.0.5] Label point: the nutrition declaration on a food label states carbohydrate and, of which, sugars; fibre is an optional item. The energy figure is calculated by the manufacturer, so it may not match your own calculation exactly.
+[hom-carbohydrates-s6.0.6] Settings, comparative study: compare two breakfast cereals, one with added sugar and one without, using the label's carbohydrate, sugar and energy per 100 g. Discuss which supplies more energy and which supplies more fibre.
+[hom-carbohydrates-s6.0.7] Settings, activity comparison: work out the energy in a food such as a bar of chocolate and compare it with the time an activity such as walking or running takes to use it up. Use the energy values from the source given with the question.
+[hom-carbohydrates-s6.1.b] Carbohydrate, mostly as starch, is the main source of energy in most diets, and it should supply the largest share of the energy in the diet, with fat and protein supplying the rest. The kind of carbohydrate matters, because some carries other nutrients and some does not.
+[hom-carbohydrates-s6.1.0] Healthy eating guidelines use the Healthy Ireland Food Pyramid (Department of Health and HSE, 2016). Its base shelf is vegetables, salad and fruit, and the second shelf up is wholemeal cereals, breads, potatoes, pasta and rice.
+[hom-carbohydrates-s6.1.1] The top shelf holds foods high in fat, sugar and salt. These are eaten in small amounts and not every day, so they should not be the main source of energy.
+[hom-carbohydrates-s6.1.2] Choose wholemeal and wholegrain starchy foods, because they supply energy together with fibre, vitamins and minerals.
+[hom-carbohydrates-s6.1.3] Foods with a lot of added sugar supply energy but few other nutrients, so they are described as energy-dense and nutrient-poor ('empty calories').
+[hom-carbohydrates-s6.1.4] Replacing sugary foods and refined starchy foods with wholegrain starchy foods, fruit and vegetables raises the intake of fibre and nutrients without raising the energy intake.
+[hom-carbohydrates-s6.2.b] Fibre is the part of plant foods that humans cannot digest, and adults are advised to eat a set amount each day. Many Irish adults do not reach it, so you should know the target and the everyday ways to meet it.
+[hom-carbohydrates-s6.2.0] The European Food Safety Authority (EFSA) recommends a daily intake of dietary fibre for adults of 25 g a day. This is its adequate intake, set in 2010 for normal bowel function.
+[hom-carbohydrates-s6.2.1] Irish healthy eating guidance from the Department of Health and the HSE (the Healthy Ireland Food Pyramid) also advises eating wholegrain cereals, fruit and vegetables every day.
+[hom-carbohydrates-s6.2.2] Breakfast: choose a high-fibre cereal (look for at least 3 g of fibre per 100 g on the label), porridge, bran or wholegrain bread or toast. Check the fibre per 100 g when choosing cereals.
+[hom-carbohydrates-s6.2.3] Choose wholegrain or wholemeal bread, brown rice, wholemeal pasta and brown flour in baking in place of white versions, because the fibre is in the outer part of the grain that white versions have lost.
+[hom-carbohydrates-s6.2.4] Add pulses such as beans, lentils, peas and chickpeas to soups, stews and salads. Half a tin of beans gives about 7.5 g of fibre, and chickpeas, kidney beans and butter beans give about 10 g.
+[hom-carbohydrates-s6.2.5] Add two tablespoons of seeds a day, such as sunflower, sesame, pumpkin and linseed, or bran or porridge oats, to cereal, yoghurt, bread and salads.
+[hom-carbohydrates-s6.2.6] Eat vegetables at lunch and dinner, about a third of each meal; frozen vegetables are as good as fresh. Leave the skins on fruit and vegetables, and bake or boil potatoes in their jackets, since most of the fibre in a potato is in the skin.
+[hom-carbohydrates-s6.2.7] Eat 2-3 pieces of fruit a day (a piece gives about 2 g of fibre), and snack on fresh fruit, dried fruit or a handful of nuts instead of biscuits or crisps. Increase fibre gradually and drink plenty of water, because fibre absorbs water.
+[hom-carbohydrates-s6.3.b] Added sugar supplies energy with few other nutrients, so cutting it down is a main healthy eating target. Strategies fall into two groups: what you buy, and how you prepare and eat food.
+[hom-carbohydrates-s6.3.0] Purchasing: read labels and ingredient lists, because added sugars appear under names such as sucrose, glucose syrup, fructose, honey, cane sugar, brown sugar, corn syrup and fruit juice concentrate.
+[hom-carbohydrates-s6.3.1] Choose reduced-sugar, lower-sugar or no-added-sugar versions of drinks, jams, cereals and yoghurts, choose fruit canned in juice rather than syrup, and avoid sugar-coated cereals.
+[hom-carbohydrates-s6.3.2] Front-of-pack colour (traffic-light) labelling, where used, shows at a glance whether a food is high, medium or low in sugars. It is voluntary, so not every product carries it.
+[hom-carbohydrates-s6.3.3] Preparing: reduce the sugar in recipes and use spices, vanilla or ripe fruit for flavour. Pureed fruit, banana, dates or apple can sweeten recipes instead of sugar.
+[hom-carbohydrates-s6.3.4] Do not add sugar to tea, coffee or breakfast cereals. Replace fizzy drinks with water, or with fruit juice diluted with sparkling water, which cuts the sugar per glass.
+[hom-carbohydrates-s6.3.5] Eat whole fruit rather than fruit juice or smoothies. Juice contains little fibre, and the sugar in juices and smoothies is released from the fruit's cells so it counts as free sugar, whereas whole fruit keeps its fibre and fills you up.
+[hom-carbohydrates-s6.3.6] Snacks and treats: limit sweets, biscuits, cakes, sweet sauces and sugary drinks, and keep fresh fruit, fruit or vegetable sticks, nuts and natural yoghurt as snacks instead.
+[hom-carbohydrates-s6.4.b] A diet high in sugar causes harm in several ways, some directly on the teeth and others through the energy and nutrients the diet supplies. Each effect needs its reason to earn marks.
+[hom-carbohydrates-s6.4.0] Tooth decay: bacteria in plaque (the sticky film on teeth) ferment sugar to produce acid, which dissolves the enamel of the teeth.
+[hom-carbohydrates-s6.4.1] Weight gain and obesity: sugary foods are energy-dense and nutrient-poor, so regular intake adds to excess energy intake.
+[hom-carbohydrates-s6.4.2] Type 2 diabetes: a diet high in sugar and energy is a risk factor for type 2 diabetes, which is linked to excess body weight.
+[hom-carbohydrates-s6.4.3] Heart disease and high blood pressure: high sugar intake is associated with a higher risk of heart disease and raised blood pressure. High fructose intake has been linked with higher blood pressure, and refined carbohydrate with excess insulin that can raise LDL cholesterol.
+[hom-carbohydrates-s6.4.4] Nutritional deficiency: foods high in sugar displace fruit, vegetables and other nutrient-rich foods from the diet, so vitamins and minerals fall short.
+[hom-carbohydrates-s6.4.5] Sugary foods are also low in fibre, so they do little for bowel health.
+[hom-carbohydrates-s6.5.b] Artificial sweeteners give a sweet taste without the energy of sugar, or with less of it. They fall into two types, intense and bulk, and each has its uses and limits.
+[hom-carbohydrates-s6.5.0] Intense sweeteners, such as aspartame and saccharin, are many times sweeter than sugar, so only tiny amounts are needed and they add almost no energy.
+[hom-carbohydrates-s6.5.1] Bulk sweeteners, such as sorbitol, mannitol and xylitol, have a similar bulk to sugar and provide some energy, though less than sugar.
+[hom-carbohydrates-s6.5.2] Uses in food manufacture: they sweeten and improve palatability, and they are used in low-calorie, sugar-free, slimming and reduced-sugar foods, soft drinks and confectionery.
+[hom-carbohydrates-s6.5.3] Sorbitol and other bulk sweeteners act as humectants: they retain moisture and stop products drying out.
+[hom-carbohydrates-s6.5.4] Bulk sweeteners are used where sugar's bulk is needed, as in confectionery and fudge. Xylitol and sorbitol do not cause tooth decay, so they are used to avoid it.
+[hom-carbohydrates-s6.5.5] Sweeteners cannot replace all of sugar's functions: they do not provide the bulk, browning, preserving or bulk-texture roles of sugar.
+[hom-carbohydrates-s6.5.6] Sweeteners are food additives with E numbers. Labels must say 'contains sweetener', and aspartame carries a warning for people with phenylketonuria.
+[hom-carbohydrates-s6.5.7] Excess bulk sweeteners can have a laxative effect, so their labels carry a warning.
+
+CANDIDATES hom-lipids-s5: 5. Functions and energy value
+[hom-lipids-s5.0.b] Lipids (fats and oils) do far more in the body than provide energy. Each function below follows from where fat sits in the body or what it does as it passes through the digestive system.
+[hom-lipids-s5.0.0] Lipids are a concentrated source of energy, supplying the body with more energy per gram than carbohydrate or protein, so a small amount of fat gives a lot of energy.
+[hom-lipids-s5.0.1] Excess energy from any food is stored as adipose tissue (the body's stored fat), which is a reserve of energy for when food intake is low.
+[hom-lipids-s5.0.2] Adipose tissue lies under the skin and insulates the body against heat loss, which helps to keep body temperature constant.
+[hom-lipids-s5.0.3] Adipose tissue around organs such as the kidneys and heart cushions them against knocks and pressure, and holds them in place.
+[hom-lipids-s5.0.4] Lipids slow the emptying of the stomach, which helps to delay hunger, so meals containing fat are more satisfying.
+[hom-lipids-s5.1.b] Beyond energy and body protection, lipids carry nutrients, build cell structures and affect how food tastes.
+[hom-lipids-s5.1.0] Lipids carry the fat-soluble vitamins A, D, E and K and help the body absorb them, because these vitamins dissolve in fat and not in water. Dairy fat, oily fish and egg yolk supply them.
+[hom-lipids-s5.1.1] Lipids are a source of essential fatty acids, the fatty acids the body cannot make for itself and must get from food.
+[hom-lipids-s5.1.2] Phospholipids (fat-like lipids containing phosphorus) and cholesterol form part of the structure of every cell membrane, the thin layer around each cell.
+[hom-lipids-s5.1.3] Fat also adds flavour and a smooth texture to food, although this is a cooking benefit and not a biological function.
+[hom-lipids-s5.1.4] Digestion link: the enzyme lipase digests triglycerides (the main fats in food) to fatty acids and glycerol, and any excess is stored as adipose tissue.
+[hom-lipids-s5.2.b] Cholesterol is a lipid that is often blamed for heart disease, yet the body needs it. It is different from the saturated fat in food, and students often confuse the two.
+[hom-lipids-s5.2.0] Cholesterol is a fat-like substance called a sterol, found only in animal foods such as egg yolk, offal (liver and kidney), meat, butter, cream, cheese, prawns and other shellfish. Plant foods contain none.
+[hom-lipids-s5.2.1] The liver makes cholesterol itself, in fact most of what the body has, so the amount eaten has less effect on blood cholesterol than the saturated fat in the diet.
+[hom-lipids-s5.2.2] Saturated fat in the diet raises blood LDL cholesterol more than dietary cholesterol does. A plant oil such as coconut oil is cholesterol-free but can still be high in saturated fat.
+[hom-lipids-s5.2.3] The body uses cholesterol to make cell membranes, bile salts that emulsify fat (break it into tiny droplets) for digestion, and steroid hormones such as oestrogen, progesterone, testosterone and cortisol.
+[hom-lipids-s5.2.4] Vitamin D is made in the skin from a derivative of cholesterol.
+[hom-lipids-s5.2.5] Too much cholesterol in the blood, especially LDL, builds up on artery walls and narrows them, which increases the risk of coronary heart disease (CHD) and stroke. It is also a main constituent of most gallstones.
+[hom-lipids-s5.2.6] To lower blood cholesterol, eat less saturated and trans fat and more unsaturated fat, oily fish, oats, pulses, fruit and vegetables (their fibre helps). Keep to a healthy weight, be active and do not smoke.
+[hom-lipids-s5.2.7] Functional spreads containing plant stanols or sterols also help to lower blood cholesterol.
+[hom-lipids-s5.3.b] Foods high in saturated fat are energy-dense and raise blood LDL cholesterol. A diet high in them over years raises the risk of several diseases, and each has its own mechanism.
+[hom-lipids-s5.3.0] Obesity: saturated-fat foods are energy-dense, and surplus energy from them is stored as adipose tissue, which can lead to obesity.
+[hom-lipids-s5.3.1] Coronary heart disease and high blood pressure: raised LDL cholesterol narrows the arteries (atherosclerosis), increasing the risk of coronary heart disease, high blood pressure (hypertension) and stroke.
+[hom-lipids-s5.3.2] Type 2 diabetes: excess body fat reduces the effectiveness of insulin (the hormone that controls blood sugar), which is called insulin resistance, so the risk of Type 2 diabetes increases.
+[hom-lipids-s5.3.3] Gallstones: cholesterol is a main component of gallstones, which can form in the gall bladder.
+[hom-lipids-s5.3.4] Varicose veins and infertility are also linked to a high-fat diet; the first four effects carry the most weight.
+[hom-lipids-s5.3.5] Lifestyle changes recommended for someone at risk of CHD: a low-fat, low-cholesterol, low-salt diet; losing weight; not smoking; limiting alcohol; exercise; and managing stress.
+[hom-lipids-s5.3.6] Irish healthy eating guidelines from the Department of Health advise replacing saturated fats with unsaturated (mono- and polyunsaturated) fats and using fats and oils in small amounts, which is the fats, spreads and oils shelf of the Food Pyramid.
+[hom-lipids-s5.3.7] Other advice: choose lean meat and low-fat dairy, and grill, steam or bake instead of frying. Saturated fat should supply less than 10% of daily energy (HSE and Department of Health guidelines).
+[hom-lipids-s5.4.b] Energy is measured in kilojoules (kJ) or kilocalories (kcal). Fat has the highest energy value per gram of the three nutrients, which is why fatty foods are so energy-dense.
+[hom-lipids-s5.4.0] Fat provides 37 kJ or 9 kcal of energy per gram, which is more than twice the energy per gram of carbohydrate or protein. The true/false statement that 1 gram of fat provides 20 kilocalories is false.
+[hom-lipids-s5.4.1] Carbohydrate provides 16 kJ or 3.75 kcal per gram; protein provides 17 kJ or 4 kcal per gram; alcohol provides 29 kJ or 7 kcal per gram.
+[hom-lipids-s5.4.2] Energy from fat is calculated by multiplying the grams of fat by 37 kJ, or by 9 kcal.
+[hom-lipids-s5.4.3] Worked example (sample data): 20 g of fat gives 20 × 37 = 740 kJ, or 20 × 9 = 180 kcal.
+[hom-lipids-s5.4.4] A large part of the energy in the average Irish diet comes from fat, much of it hidden in processed and convenience foods, meat products, dairy, cakes, pastries, biscuits, chocolate, fried foods and takeaways, and much of that is saturated.
+[hom-lipids-s5.4.5] Guidance is to reduce total fat, especially saturated and trans fat, replacing them with unsaturated fat and complex carbohydrate. Over-consumption of fat leads to obesity because fat is energy-dense and stores readily.
+
+CANDIDATES hom-proteins-s8: 8. Energy value
+[hom-proteins-s8.0.b] Protein can be burned for energy, but its main jobs are growth and repair, so it is a supplementary (secondary) energy source rather than the body's main fuel.
+[hom-proteins-s8.0.0] Protein provides 17 kJ, or 4 kcal, of energy per gram. Energy value is measured in kilojoules (kJ) or kilocalories (kcal).
+[hom-proteins-s8.0.1] Carbohydrate provides 16 kJ, or 3.75 kcal, per gram; fat provides 37 kJ, or 9 kcal, per gram; alcohol provides 29 kJ, or 7 kcal, per gram.
+[hom-proteins-s8.0.2] Fat provides more than twice as much energy per gram as protein, so a fatty food packs far more energy into the same weight than a lean protein food.
+[hom-proteins-s8.0.3] Protein is used for energy when carbohydrate and fat intake is too low to meet the body's energy needs, because the body then has to burn protein as fuel.
+[hom-proteins-s8.0.4] Surplus protein is used for energy once the body's needs for growth, repair and body proteins are met.
+[hom-proteins-s8.0.5] Protein-sparing: when the diet has enough carbohydrate and fat to supply energy, protein is left free for growth and repair.
+[hom-proteins-s8.0.6] Eating more protein than the body needs does not build extra protein, because surplus amino acids (the units protein is made of) cannot be stored as protein.
+[hom-proteins-s8.1.b] Protein is one of the three energy-giving nutrients, alongside carbohydrate and fat (alcohol also gives energy). It supplies only part of the total energy in a day's food, and the rest comes mainly from carbohydrate and fat.
+[hom-proteins-s8.1.0] Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol energy.
+[hom-proteins-s8.1.1] Lean meat and white fish supply protein with little energy, because they contain little fat.
+[hom-proteins-s8.1.2] Full-fat milk, cheese, fatty meat and nuts supply protein together with considerable fat, and therefore more energy.
+[hom-proteins-s8.1.3] Pulses supply protein along with carbohydrate and fibre, and little fat.
+[hom-proteins-s8.1.4] For healthy eating, choose lean protein foods. Excess energy from any source, including protein foods, can lead to weight gain.
+[hom-proteins-s8.2.b] The energy a food gets from its protein is worked out from the grams of protein it contains, using the energy value per gram. The total energy of the food then adds the other energy-giving nutrients.
+[hom-proteins-s8.2.0] 1. Find the grams of protein in the food or portion from its nutrition label or a food composition table.
+[hom-proteins-s8.2.1] 2. Multiply the grams of protein by 17 kJ, or by 4 kcal, to find the energy in that portion.
+[hom-proteins-s8.2.2] Sample data: a portion with 25 g of protein gives 25 x 17 = 425 kJ, or 25 x 4 = 100 kcal.
+[hom-proteins-s8.2.3] 3. Add the energy from protein, carbohydrate, fat and alcohol to find the total energy of the portion.
+[hom-proteins-s8.3.b] The body cannot store protein, so amino acids that are surplus to its needs are broken down in the liver. Deamination removes the nitrogen-containing part, so that what is left can be used for energy.
+[hom-proteins-s8.3.0] Amino acids cannot be stored as protein, so surplus amino acids are carried to the liver.
+[hom-proteins-s8.3.1] 1. In the liver, the amino group (–NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.
+[hom-proteins-s8.3.2] 2. The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic and so safe to carry in the blood.
+[hom-proteins-s8.3.3] 3. Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.
+[hom-proteins-s8.3.4] Adequate fluid intake is needed so that the kidneys can excrete the urea.
+[hom-proteins-s8.3.5] The remaining carbon skeleton, which carries the carboxyl group (–COOH), is oxidised in respiration to release energy (heat and energy).
+[hom-proteins-s8.3.6] The three fates of the carbon skeleton after deamination are energy, glucose or fat. When energy is in surplus, carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue (fatty tissue).
+[hom-proteins-s8.3.7] Diagram: draw a flow chart of the sequence: excess amino acids, liver, NH₂ removed, ammonia, urea, kidneys, urine; and the carbon part going to energy.

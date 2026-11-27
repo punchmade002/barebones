@@ -1,0 +1,455 @@
+MODE: cost and links
+TARGET chem15-s1: 1. Redox titrations and iron tablets
+[chem15-s1.0.b] A titration (adding one solution from a burette to a measured volume of another until they have exactly reacted) can be used for redox reactions as well as acid–base ones. Here the reaction involves transfer of electrons between an oxidising agent and a reducing agent.
+[chem15-s1.0.0] A redox titration finds the concentration of an oxidising or reducing agent by titrating it against a reducing or oxidising agent of known concentration.
+[chem15-s1.0.1] The mole ratio used in the calculation comes from the balanced redox equation, so you must be able to write or recall the equation for each reaction.
+[chem15-s1.0.2] The apparatus and technique are the same as in acid–base titrations: pipette, burette, conical flask and white tile, with rough and accurate titrations agreeing within 0.1 cm³.
+[chem15-s1.0.3] The end point (the moment the reaction is exactly complete) is shown either by the colour of one of the reagents themselves (self-indicating, as with potassium manganate(VII)) or by an indicator (starch in iodine–thiosulfate titrations).
+[chem15-s1.0.4] The two redox titrations in the specification are potassium manganate(VII) with iron(II), and iodine with sodium thiosulfate.
+[chem15-s1.1.b] Potassium manganate(VII) is the oxidising agent in the first redox titration. Its strong colour is useful, but its instability means it can never be made up by weighing alone.
+[chem15-s1.1.0] Potassium manganate(VII), KMnO₄ (potassium permanganate), is a dark purple solid; its solution is an intense purple and it is a strong oxidising agent (it readily takes electrons from other substances).
+[chem15-s1.1.1] It is usually used at about 0.01–0.02 mol L⁻¹.
+[chem15-s1.1.2] It is not a primary standard (a substance pure and stable enough to make a solution of exactly known concentration by weighing): it can't be obtained pure.
+[chem15-s1.1.3] Its solution slowly decomposes in light and in the presence of traces of organic matter, depositing brown MnO₂, so its concentration changes.
+[chem15-s1.1.4] It is therefore standardised (its concentration found by titration) against ammonium iron(II) sulfate shortly before use.
+[chem15-s1.2.b] In acidic solution, permanganate takes electrons from iron(II). Knowing the half-equations gives the 1 : 5 mole ratio on which every calculation in this subsection rests.
+[chem15-s1.2.0] In acidic solution MnO₄⁻ is reduced (gains electrons) to the almost colourless manganese(II) ion: MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l), with manganese changing from +7 to +2 and the solution going from purple to colourless.
+[chem15-s1.2.1] Iron(II) is oxidised (loses an electron): Fe²⁺(aq) → Fe³⁺(aq) + e⁻.
+[chem15-s1.2.2] Overall: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5, because each MnO₄⁻ takes five electrons and each Fe²⁺ gives one.
+[chem15-s1.2.3] The Mn²⁺ ions produced catalyse the reaction (autocatalysis: a product of the reaction is its catalyst), so the first few drops are decolourised slowly and later drops almost at once.
+[chem15-s1.3.b] Permanganate acts as its own indicator, which makes the titration simple, but its deep colour changes how you read the burette.
+[chem15-s1.3.0] Potassium manganate(VII) is self-indicating (its own colour shows the end point), so no indicator is added.
+[chem15-s1.3.1] The KMnO₄ goes in the burette; each drop is decolourised while Fe²⁺ remains in the flask.
+[chem15-s1.3.2] The end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻ once all the Fe²⁺ has been used up.
+[chem15-s1.3.3] The solution is so deeply coloured that the bottom of the meniscus (the curved surface of the liquid) can't be seen, so read the top of the meniscus, consistently for both readings.
+[chem15-s1.3.4] Rinse the burette thoroughly after use, because permanganate leaves brown stains of MnO₂ on glass.
+[chem15-s1.4.b] The reduction of MnO₄⁻ to Mn²⁺ uses up H⁺ ions, so the flask must contain excess acid. The choice of acid matters, because the wrong one reacts with the permanganate or the iron(II).
+[chem15-s1.4.0] Excess dilute sulfuric acid is added to the flask to supply the H⁺ ions needed for the reduction.
+[chem15-s1.4.1] With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, forming a brown precipitate: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂(s) + 4OH⁻, with manganese changing from +7 to +4.
+[chem15-s1.4.2] With too little acid the ratio is no longer 1 : 5 and the end point can't be seen.
+[chem15-s1.4.3] Hydrochloric acid is not used, because MnO₄⁻ oxidises Cl⁻ to chlorine, using up extra permanganate.
+[chem15-s1.4.4] Nitric acid is not used, because it is itself an oxidising agent and would oxidise some of the Fe²⁺.
+[chem15-s1.5.b] To find the concentration of permanganate you need an iron(II) solution of exactly known concentration. Ammonium iron(II) sulfate is the salt used to make it.
+[chem15-s1.5.0] Ammonium iron(II) sulfate hexahydrate, (NH₄)₂SO₄·FeSO₄·6H₂O, also written (NH₄)₂Fe(SO₄)₂·6H₂O, has M = 392 g mol⁻¹ and forms pale green crystals.
+[chem15-s1.5.1] It is a double salt: ammonium sulfate and iron(II) sulfate crystallise together in a fixed ratio in one crystal.
+[chem15-s1.5.2] Its standard solution (one of accurately known concentration) is made up by dissolving a weighed mass in a volumetric flask, with the crystals dissolved in deionised water and some dilute sulfuric acid added.
+[chem15-s1.5.3] The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen, which would make the solution weaker than calculated.
+[chem15-s1.6.b] A primary standard must give a known amount of substance from a weighed mass. Ammonium iron(II) sulfate does, whereas plain iron(II) sulfate does not.
+[chem15-s1.6.0] It can be obtained very pure, so the weighed mass is all the compound.
+[chem15-s1.6.1] It is stable in air: the solid is not oxidised by air, does not absorb water and does not lose its water of crystallisation (water locked into the crystal), so its formula stays fixed.
+[chem15-s1.6.2] It is soluble and has a high molar mass, so weighing errors are a small percentage of the mass weighed.
+[chem15-s1.6.3] Iron(II) sulfate itself is not used: its crystals are oxidised by air to iron(III) and their water content varies, so a weighed mass does not correspond to a known amount of Fe²⁺.
+[chem15-s1.7.b] Standardising means titrating permanganate against the standard iron(II) solution to find its true concentration. Do this shortly before the permanganate is used.
+[chem15-s1.7.0] 1. Pipette 25.0 cm³ of the standard ammonium iron(II) sulfate solution into a conical flask.
+[chem15-s1.7.1] 2. Add about 20 cm³ of dilute sulfuric acid (an excess) with a graduated cylinder; its volume does not need to be exact, because the acid is in excess and is not being measured.
+[chem15-s1.7.2] 3. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour.
+[chem15-s1.7.3] 4. Repeat until two titres (the volumes of solution added from the burette) agree within 0.1 cm³.
+[chem15-s1.7.4] Diagram: pipette with its filler, labelled with the graduation mark at 25.0 cm³.
+[chem15-s1.7.5] Diagram: graduated cylinder marked in cm³, labelled with the scale used to measure the sulfuric acid.
+[chem15-s1.7.6] Diagram: burette of purple KMnO₄ above a conical flask on a white tile, labelled with the burette tap and the top of the meniscus.
+[chem15-s1.8.b] The titre gives the moles of permanganate. Dividing the moles of Fe²⁺ by 5 gives the moles of MnO₄⁻, from the 1 : 5 ratio, and then the concentration.
+[chem15-s1.8.0] Data: 25.0 cm³ of 0.0500 mol L⁻¹ ammonium iron(II) sulfate needs a mean titre of 24.4 cm³ of KMnO₄.
+[chem15-s1.8.1] Moles Fe²⁺ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.
+[chem15-s1.8.2] Moles MnO₄⁻ = 1.25 × 10⁻³ mol ÷ 5 = 2.50 × 10⁻⁴ mol, since MnO₄⁻ : Fe²⁺ = 1 : 5.
+[chem15-s1.8.3] Concentration of KMnO₄ = 2.50 × 10⁻⁴ mol ÷ 0.0244 L = 0.0102 mol L⁻¹.
+[chem15-s1.9.b] The second redox titration uses sodium thiosulfate as the reducing agent and iodine as the oxidising agent. Neither is a primary standard, so each needs care.
+[chem15-s1.9.0] Sodium thiosulfate, Na₂S₂O₃·5H₂O (M = 248 g mol⁻¹), is a colourless crystalline solid and a reducing agent.
+[chem15-s1.9.1] The thiosulfate ion, S₂O₃²⁻, is like a sulfate ion with one oxygen replaced by sulfur; “thio” means sulfur.
+[chem15-s1.9.2] Sodium thiosulfate is not a primary standard: its crystals are efflorescent, losing water of crystallisation to the air, so their exact formula and the mass of thiosulfate are uncertain.
+[chem15-s1.9.3] Its solution is therefore standardised against iodine made from a standard oxidising agent.
+[chem15-s1.9.4] Iodine is not a primary standard either: it sublimes slowly at room temperature (turns from solid to vapour), so it cannot be weighed accurately, and it is almost insoluble in water.
+[chem15-s1.10.b] Iodine barely dissolves in water, so it is dissolved with potassium iodide. The resulting red-brown solution is then titrated with thiosulfate.
+[chem15-s1.10.0] Iodine is brought into solution with potassium iodide: I₂ + I⁻ ⇌ I₃⁻.
+[chem15-s1.10.1] The tri-iodide ion is charged, so it dissolves in water; the solution behaves as a solution of iodine and is red-brown.
+[chem15-s1.10.2] Titration reaction: I₂(aq) + 2S₂O₃²⁻(aq) → 2I⁻(aq) + S₄O₆²⁻(aq), so I₂ : S₂O₃²⁻ = 1 : 2.
+[chem15-s1.10.3] Iodine is the oxidising agent; thiosulfate is the reducing agent and is oxidised to the tetrathionate ion, S₄O₆²⁻.
+[chem15-s1.10.4] The iodine solution is pipetted into the conical flask and the thiosulfate is in the burette.
+[chem15-s1.11.b] Unlike permanganate, this titration needs an indicator for a sharp end point. Starch is used, but only at the right moment.
+[chem15-s1.11.0] As thiosulfate is added, the red-brown iodine fades to yellow and then to pale yellow (straw-coloured).
+[chem15-s1.11.1] At pale yellow, add a few drops of freshly made starch solution, which turns blue-black because of the starch–iodine complex.
+[chem15-s1.11.2] Add thiosulfate drop by drop until the blue-black colour just disappears, leaving a colourless solution: the end point.
+[chem15-s1.11.3] Starch is added only near the end point, because with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate.
+[chem15-s1.11.4] The pale yellow colour also shows that the end point is close.
+[chem15-s1.12.b] Water quality affects this titration, and thiosulfate's reducing power has uses outside the laboratory.
+[chem15-s1.12.0] Use deionised water throughout, not tap water: tap water contains dissolved chlorine from water treatment, which oxidises iodide to extra iodine (Cl₂ + 2I⁻ → 2Cl⁻ + I₂), so the titre would be too large.
+[chem15-s1.12.1] Sodium thiosulfate is used to remove excess chlorine from water, reducing it to harmless chloride ions.
+[chem15-s1.12.2] Sodium thiosulfate is the “fixer” (“hypo”) in film photography.
+[chem15-s1.13.b] Thiosulfate is standardised against iodine that is made fresh from a standardised permanganate solution. Permanganate oxidises iodide to iodine, and the iodine is then titrated.
+[chem15-s1.13.0] 1. Pipette 25.0 cm³ of standardised KMnO₄ solution into a conical flask and add about 20 cm³ of dilute sulfuric acid.
+[chem15-s1.13.1] 2. Add an excess of potassium iodide, as solution or solid: the purple colour disappears and red-brown iodine forms: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.
+[chem15-s1.13.2] Potassium iodide is in excess for two reasons: so that all the MnO₄⁻ reacts, producing a known amount of iodine; and so that the iodine stays in solution as I₃⁻.
+[chem15-s1.13.3] 3. Titrate the liberated (released) iodine with the thiosulfate solution by the starch method: starch added at pale yellow, end point blue-black to colourless.
+[chem15-s1.13.4] Combined ratio: 2MnO₄⁻ → 5I₂ → 10S₂O₃²⁻, so MnO₄⁻ : S₂O₃²⁻ = 1 : 5.
+[chem15-s1.14.b] Work through the chain of ratios one step at a time: permanganate to iodine, then iodine to thiosulfate.
+[chem15-s1.14.0] Data: 25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ liberates iodine that needs a mean titre of 25.3 cm³ of thiosulfate.
+[chem15-s1.14.1] Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.
+[chem15-s1.14.2] Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, since 2MnO₄⁻ gives 5I₂.
+[chem15-s1.14.3] Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since I₂ : S₂O₃²⁻ = 1 : 2.
+[chem15-s1.14.4] Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0253 L = 0.0988 mol L⁻¹.
+[chem15-s1.15.b] Three words describe how solids behave with water from the air. They explain why some substances can't be primary standards.
+[chem15-s1.15.0] Efflorescent: a hydrated crystal that loses some of its water of crystallisation to the air on standing, e.g. sodium thiosulfate pentahydrate and washing soda (Na₂CO₃·10H₂O).
+[chem15-s1.15.1] Hygroscopic: absorbs water vapour from the air without dissolving, e.g. concentrated sulfuric acid and silica gel.
+[chem15-s1.15.2] Deliquescent: absorbs so much water from the air that it dissolves in it and forms a solution, e.g. sodium hydroxide pellets.
+[chem15-s1.15.3] None of these substances can be a primary standard, because the mass weighed does not correspond to a known amount of substance.
+[chem15-s1.16.b] The reagents in these titrations are oxidising, staining or irritant, so protect your eyes, skin and clothes.
+[chem15-s1.16.0] Wear goggles: potassium manganate(VII) is an oxidising agent, is harmful, and stains skin and clothes.
+[chem15-s1.16.1] Dilute sulfuric acid is an irritant; iodine solution stains and is harmful.
+[chem15-s1.16.2] Use a pipette filler, so that no solution is drawn into the mouth.
+[chem15-s1.17.b] Iron tablets can be analysed by a redox titration. The iron(II) in a dissolved tablet is titrated with standardised permanganate, which gives the mass of iron per tablet.
+[chem15-s1.17.0] Aim: to find the mass of iron in an iron tablet, and the percentage of elemental iron by mass in the tablet, by titration with a standard solution of potassium manganate(VII).
+[chem15-s1.17.1] Iron tablets contain iron as iron(II), commonly as iron(II) sulfate (iron(II) fumarate and iron(II) gluconate are also used), and are prescribed to treat iron-deficiency anaemia.
+[chem15-s1.17.2] The label usually gives the mass of the iron compound or of iron per tablet, which is the value your result is compared with.
+[chem15-s1.17.3] Equation: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.
+[chem15-s1.17.4] The KMnO₄ solution is first standardised against ammonium iron(II) sulfate, just before use, because its concentration changes on standing.
+[chem15-s1.17.5] Hypothesis (example): the tablet contains the mass of iron stated on the label, within a few percent.
+[chem15-s1.18.b] The tablets must be turned into a solution of known total volume. Only a measured fraction of it is then titrated.
+[chem15-s1.18.0] 1. Weigh five tablets together accurately and record the mass; dividing by five gives the mean mass of one tablet.
+[chem15-s1.18.1] 2. Grind the tablets to a fine powder in a mortar and pestle, adding a little dilute sulfuric acid.
+[chem15-s1.18.2] 3. Transfer the paste to a beaker with dilute sulfuric acid and deionised water, rinsing the mortar and pestle into the beaker, and stir to dissolve.
+[chem15-s1.18.3] 4. Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinsing the beaker, glass rod and funnel into the flask with deionised water.
+[chem15-s1.18.4] 5. Make up to the mark with deionised water, with the bottom of the meniscus on the mark at eye level and the last drops added with a dropper; stopper and invert about 20 times to mix.
+[chem15-s1.18.5] Diagram: mortar and pestle holding the tablet powder, labelled with the pestle and the mortar bowl.
+[chem15-s1.18.6] Diagram: 250 cm³ volumetric flask with a funnel in its neck, labelled with the graduation mark.
+[chem15-s1.18.7] Diagram: beaker with a glass rod stirring the solution, labelled with the glass rod.
+[chem15-s1.19.b] A 25.0 cm³ portion of the tablet solution is titrated with standardised permanganate. This is the same method as the standardisation, with the tablet solution in the flask.
+[chem15-s1.19.0] 1. Rinse the pipette with deionised water and then with the tablet solution; pipette 25.0 cm³ into a conical flask.
+[chem15-s1.19.1] 2. Add about 20 cm³ of dilute sulfuric acid (an excess) to the flask.
+[chem15-s1.19.2] 3. Rinse the burette with deionised water and then with the standard KMnO₄ solution; fill it and read the top of the meniscus.
+[chem15-s1.19.3] 4. Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is added.
+[chem15-s1.19.4] 5. Do a rough titration, then accurate titrations until two agree within 0.1 cm³; titrate soon after making the solution.
+[chem15-s1.19.5] Diagram: burette of purple KMnO₄ above a conical flask of tablet solution on a white tile, labelled with the burette tap and the top of the meniscus.
+[chem15-s1.20.b] Each step of the tablet method has a reason. Exams ask for these reasons directly.
+[chem15-s1.20.0] Dilute sulfuric acid is used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen; this would make the result too low, because Fe³⁺ does not react with MnO₄⁻.
+[chem15-s1.20.1] More dilute sulfuric acid is added before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds.
+[chem15-s1.20.2] Several tablets are used: the result is an average over tablets that vary slightly in mass and iron content, a larger mass gives a smaller percentage error in weighing, and the solution is concentrated enough to give a reasonable titre.
+[chem15-s1.20.3] Grinding increases the surface area so that the tablets dissolve fully and all the iron(II) is extracted.
+[chem15-s1.20.4] The solution may be cloudy from the insoluble coating and binder (filler); this does not affect the result, because those substances do not react with the permanganate.
+[chem15-s1.20.5] A volumetric flask and pipette are used because the 25.0 cm³ portion must be exactly one-tenth of the total.
+[chem15-s1.20.6] No indicator is needed because KMnO₄ is self-indicating: the first excess drop colours the solution pink.
+[chem15-s1.21.b] The steps convert the titre into the mass of iron in one tablet, then into a percentage of the tablet's mass.
+[chem15-s1.21.0] Data: five tablets have a total mass of 1.80 g, a mean of 0.360 g per tablet; 25.0 cm³ portions of the 250 cm³ tablet solution need a mean titre of 11.6 cm³ of 0.0100 mol L⁻¹ KMnO₄.
+[chem15-s1.21.1] Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0116 L = 1.16 × 10⁻⁴ mol.
+[chem15-s1.21.2] Moles Fe²⁺ in 25.0 cm³ = 5 × 1.16 × 10⁻⁴ mol = 5.80 × 10⁻⁴ mol, using the 1 : 5 ratio.
+[chem15-s1.21.3] Moles Fe²⁺ in 250 cm³ (five tablets) = 5.80 × 10⁻⁴ mol × 10 = 5.80 × 10⁻³ mol, since 25.0 cm³ is one-tenth of 250 cm³; per tablet = 5.80 × 10⁻³ mol ÷ 5 = 1.16 × 10⁻³ mol.
+[chem15-s1.21.4] Mass of iron per tablet = 1.16 × 10⁻³ mol × 56 g mol⁻¹ = 0.06496 g = 65.0 mg.
+[chem15-s1.21.5] Percentage of iron by mass = 0.06496 g ÷ 0.360 g × 100 = 18.0%.
+[chem15-s1.21.6] If the label gives the iron(II) sulfate content instead: mass of FeSO₄ per tablet = 1.16 × 10⁻³ mol × 152 g mol⁻¹ = 0.176 g = 176 mg; iron is 56 ÷ 152 = 36.8% of the mass of FeSO₄.
+[chem15-s1.21.7] Conclusion: compare the result with the label value, calculate the percentage difference, and comment on whether the hypothesis is supported.
+[chem15-s1.22.b] Besides the acid and permanganate, the tablets themselves are a hazard.
+[chem15-s1.22.0] Wear goggles: dilute sulfuric acid is an irritant, and KMnO₄ is an oxidising agent that stains skin and clothes.
+[chem15-s1.22.1] Iron tablets are dangerous if swallowed by young children: keep them secure and do not eat them in the laboratory.
+[chem15-s1.23.b] Errors push the result in a known direction, so say whether the result would be too low or too high, and why.
+[chem15-s1.23.0] Result too low: Fe²⁺ is oxidised to Fe³⁺ by air before titration, because the solution was not acidified or was left standing too long.
+[chem15-s1.23.1] Result too low: tablet material is lost while grinding or transferring, so less iron reaches the titration.
+[chem15-s1.23.2] Result too high: overshooting the end point, taking a deep purple colour instead of the first permanent pale pink.
+[chem15-s1.23.3] Result too high: tablets that also contain vitamin C or another reducing agent, which also reacts with MnO₄⁻.
+[chem15-s1.23.4] Other error: too little acid gives brown MnO₂ and an unclear end point.
+[chem15-s1.23.5] Other error: KMnO₄ that has partly decomposed since it was standardised.
+[chem15-s1.23.6] Other error: a burette or pipette not rinsed with its own solution, as in acid–base titrations.
+
+CANDIDATES chem12-s1: 1. Standard solutions and acid–base titrations
+[chem12-s1.0.b] Volumetric analysis uses a measured volume of reaction to find an unknown concentration. It is the basis of every titration, so the terms here are used throughout the subsection.
+[chem12-s1.0.0] Volumetric analysis (titration) finds the concentration of a solution, the analyte (the solution being analysed), by measuring the volume that reacts exactly with a known volume of another solution of known concentration.
+[chem12-s1.0.1] The calculation depends on knowing one concentration exactly, so at least one of the two solutions must be a standard solution (a solution whose concentration is accurately known).
+[chem12-s1.0.2] Titre: the volume of solution added from the burette (the long graduated glass tube with a tap, used to add measured volumes of liquid).
+[chem12-s1.0.3] End point: the point at which the indicator (a substance that changes colour depending on whether the solution is acidic or basic) changes colour.
+[chem12-s1.0.4] Equivalence point: the point at which the reactants have reacted in exactly the mole ratio of the balanced equation (the ratio of the numbers of moles shown by the coefficients).
+[chem12-s1.0.5] A good indicator is one whose end point coincides with the equivalence point, so that the colour change tells you the moment the reaction is exactly complete.
+[chem12-s1.1.b] A titration answer can only be as good as the solution it is measured against. That is why one special type of substance, the primary standard, is used to fix the concentration.
+[chem12-s1.1.0] A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its properties and the method for making up a standard solution are in Solutions and concentration.
+[chem12-s1.1.1] Acid–base primary standard: anhydrous sodium carbonate, Na₂CO₃ (anhydrous means it contains no water of crystallisation, so its formula and mass are exact).
+[chem12-s1.1.2] Redox primary standard: ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O. Redox titrations are ones where electrons are transferred, and this is mentioned here only as an example.
+[chem12-s1.1.3] Every result in volumetric analysis is only as accurate as the standard: an impure or unstable standard gives a wrong concentration, and so a wrong answer for the analyte.
+[chem12-s1.2.b] Some reagents cannot be made up directly as standard solutions, because their concentration changes or cannot be known from the mass weighed out. Their concentration must instead be found by titration, a process called standardisation.
+[chem12-s1.2.0] Sodium hydroxide absorbs water and carbon dioxide from the air, so the mass weighed out is not all NaOH.
+[chem12-s1.2.1] Hydrochloric acid is volatile (it evaporates easily, so hydrogen chloride is lost from the solution).
+[chem12-s1.2.2] Potassium manganate(VII) solution slowly decomposes, especially in light and in the presence of organic matter, forming MnO₂.
+[chem12-s1.2.3] Sodium thiosulfate crystals have an uncertain water content, so their formula mass, and the number of moles weighed out, is uncertain.
+[chem12-s1.2.4] Standardisation is finding the exact concentration of such a solution by titrating it against a primary standard, or against a solution already standardised against one.
+[chem12-s1.2.5] Example: hydrochloric acid is standardised by titration against a standard solution of sodium carbonate: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g).
+[chem12-s1.2.6] Example: sodium hydroxide is then standardised against the standardised hydrochloric acid, and potassium manganate(VII) is standardised against ammonium iron(II) sulfate.
+[chem12-s1.2.7] A solution standardised in this way is sometimes called a secondary standard.
+[chem12-s1.3.b] A titration uses a small set of apparatus, each with a specific job. Knowing what each item is for lets you explain why it is used.
+[chem12-s1.3.0] Pipette, used with a pipette filler (a rubber bulb that draws liquid up): delivers an exact volume, e.g. 25.0 cm³, of one solution into a conical flask.
+[chem12-s1.3.1] Burette: delivers measured, variable volumes of the other solution, read to 0.05 cm³.
+[chem12-s1.3.2] Conical flask: can be swirled without splashing, and holds the pipetted solution during the titration.
+[chem12-s1.3.3] White tile: placed under the flask so that the colour change shows clearly.
+[chem12-s1.3.4] Funnel: used to fill the burette and then removed.
+[chem12-s1.3.5] Wash bottle of deionised water (water with dissolved ions removed): used to rinse the apparatus and to wash down the flask.
+[chem12-s1.3.6] Indicator: added to the conical flask.
+[chem12-s1.3.7] Diagram: a burette clamped above a conical flask on a white tile, with the pipette and pipette filler shown separately; label burette, tap, pipette, pipette filler, conical flask and white tile.
+[chem12-s1.4.b] Each rinse removes water or other solution that would dilute the solution it is about to hold. Following the steps in order, with the reason for each, is what the exam asks for.
+[chem12-s1.4.0] Rinse the pipette with deionised water, then with a little of the solution it is to measure, so that any water left in it does not dilute the solution.
+[chem12-s1.4.1] Draw the solution up above the mark using a pipette filler, then let it down until the bottom of the meniscus (the curved surface of the liquid) sits on the mark at eye level.
+[chem12-s1.4.2] Let the solution run into the conical flask, touching the tip against the inside of the flask at the end; do not blow out the last drop, because the pipette is calibrated (marked to deliver an exact volume) to allow for it.
+[chem12-s1.4.3] Rinse the burette with deionised water, then with the solution it is to contain, so that any water left in it does not dilute the solution.
+[chem12-s1.4.4] Fill the burette using a funnel, then remove the funnel, because drips from it would change the reading.
+[chem12-s1.4.5] Run a little solution out through the tap to fill the part below the tap and remove any air bubble, which would otherwise make the volume delivered inaccurate.
+[chem12-s1.4.6] Read the burette at eye level, from the bottom of the meniscus.
+[chem12-s1.4.7] Rinsing the conical flask with deionised water is fine, because it does not change the number of moles in the pipetted volume.
+[chem12-s1.4.8] The conical flask must not be rinsed with either solution, because that would leave extra moles of reagent in the flask.
+[chem12-s1.5.b] A titration is done twice over: a quick rough run to find roughly where the end point is, then careful accurate runs. Each step is there to make the final volume as precise as possible.
+[chem12-s1.5.0] Add two or three drops of the indicator to the conical flask.
+[chem12-s1.5.1] Add solution from the burette while swirling the flask; first do a rough titration to find the approximate end point.
+[chem12-s1.5.2] In the accurate titrations, add the solution quickly to within about 1 cm³ of the rough titre, then add it drop by drop, swirling, until one drop gives a permanent colour change.
+[chem12-s1.5.3] Wash the inside walls of the flask with deionised water near the end point, so that all the reagent reacts.
+[chem12-s1.5.4] Repeat until two accurate titres agree to within 0.1 cm³, then average them, leaving out the rough titre.
+[chem12-s1.6.b] Hydrochloric acid is a strong acid and sodium hydroxide a strong base, meaning each ionises fully in water. This is the simplest titration, with a 1 : 1 mole ratio.
+[chem12-s1.6.0] Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), with a mole ratio of 1 : 1.
+[chem12-s1.6.1] Indicator: phenolphthalein, which changes from colourless to pink as NaOH is added from the burette, or methyl orange.
+[chem12-s1.6.2] Either indicator works because the pH (the scale of acidity) changes sharply over a wide range at the equivalence point.
+[chem12-s1.6.3] Sample data: 25.0 cm³ of NaOH needs a mean titre of 22.5 cm³ of 0.100 mol L⁻¹ HCl.
+[chem12-s1.6.4] Moles HCl = 0.100 × 0.0225 = 2.25 × 10⁻³ mol.
+[chem12-s1.6.5] Moles NaOH = 2.25 × 10⁻³ mol, because the mole ratio is 1 : 1.
+[chem12-s1.6.6] Concentration of NaOH = 2.25 × 10⁻³ mol ÷ 0.0250 L = 0.0900 mol L⁻¹.
+[chem12-s1.7.b] Sodium carbonate is the primary standard used to standardise hydrochloric acid. It is a weak base (one that ionises only partly in water), and the mole ratio is not 1 : 1, so the equation must be used in the calculation.
+[chem12-s1.7.0] Equation: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), with a mole ratio of Na₂CO₃ : HCl of 1 : 2.
+[chem12-s1.7.1] Indicator: methyl orange, which is yellow in the sodium carbonate and turns orange-red at the end point as acid is added.
+[chem12-s1.7.2] Phenolphthalein is unsuitable because it changes colour in alkaline solution, before the end point.
+[chem12-s1.7.3] Sample data: 25.0 cm³ of 0.0500 mol L⁻¹ Na₂CO₃ needs 23.8 cm³ of HCl.
+[chem12-s1.7.4] Moles Na₂CO₃ = 0.0500 × 0.0250 = 1.25 × 10⁻³ mol.
+[chem12-s1.7.5] Moles HCl = 2 × 1.25 × 10⁻³ = 2.50 × 10⁻³ mol, because the mole ratio is 1 : 2.
+[chem12-s1.7.6] Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0238 L = 0.105 mol L⁻¹.
+[chem12-s1.7.7] Ammonia, a weak base, is titrated with hydrochloric acid in the same way, using methyl orange: NH₃(aq) + HCl(aq) → NH₄Cl(aq).
+[chem12-s1.8.b] The solutions used in these titrations can harm skin and eyes, so a few precautions apply every time.
+[chem12-s1.8.0] Wear goggles: sodium hydroxide is corrosive (it burns tissue), especially to the eyes, and hydrochloric acid is corrosive or irritant.
+[chem12-s1.8.1] Use a pipette filler, never the mouth, so that no solution is swallowed.
+[chem12-s1.8.2] Fill the burette while it is below eye level, for example by lowering it or removing it from the stand, so that you do not spill solution towards your face.
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem14-s2: 2. Balancing redox equations and the electrochemical series
+[chem14-s2.0.b] Complex redox equations are balanced by making the electrons lost equal the electrons gained. That fixes the key ratio of the equation, and the remaining atoms are then balanced by inspection (by counting atoms and adjusting the numbers in front of the formulas).
+[chem14-s2.0.0] Recap: oxidation is an increase in oxidation number (the charge an atom would have if its bonds were ionic) and reduction is a decrease. There is more on the rules for assigning oxidation numbers in Oxidation and reduction.
+[chem14-s2.0.1] Step 1: assign oxidation numbers to every atom on both sides, so that you can see which atoms change.
+[chem14-s2.0.2] Step 2: identify the elements whose oxidation numbers change. One increases, so the species containing it is oxidised and is the reducing agent (it gives away electrons). One decreases, so that species is reduced and is the oxidising agent (it takes electrons).
+[chem14-s2.0.3] Step 3: work out the change per formula unit, which is the change per atom multiplied by the number of those atoms in the formula. This equals the number of electrons lost or gained.
+[chem14-s2.0.4] Step 4: choose coefficients (the numbers written in front of formulas) for the oxidising and reducing agents, and their products, so that the total increase equals the total decrease. Use the lowest common multiple, so that electrons lost equal electrons gained.
+[chem14-s2.0.5] Step 5: balance the remaining atoms by inspection, leaving oxygen and hydrogen until last, because the other atoms are fixed by the electron step.
+[chem14-s2.0.6] Step 5 in acidic solution: add H₂O to balance O, then add H⁺ to balance H.
+[chem14-s2.0.7] Step 6: check that each element balances and that the total charge is the same on both sides.
+[chem14-s2.1.b] Redox equations often have many atoms and charges, so guessing coefficients rarely works. The method gives a fixed order of working with a built-in check.
+[chem14-s2.1.0] Complex redox equations can't easily be balanced by inspection alone, because oxygen, hydrogen and charge all have to come out right at once.
+[chem14-s2.1.1] Matching electrons lost and gained fixes the key ratio first, and the charge check at the end catches mistakes.
+[chem14-s2.1.2] Write every charge correctly, because one wrong charge makes the equation wrong.
+[chem14-s2.2.b] Acidified manganate(VII) (MnO₄⁻, the purple permanganate ion) oxidises iron(II) ions to iron(III). Each step below follows the method in order.
+[chem14-s2.2.0] Unbalanced: MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺ + H₂O.
+[chem14-s2.2.1] Mn goes from +7 to +2, a decrease of 5, so Mn is reduced and MnO₄⁻ is the oxidising agent.
+[chem14-s2.2.2] Fe goes from +2 to +3, an increase of 1, so Fe²⁺ is oxidised and is the reducing agent.
+[chem14-s2.2.3] Equalise: one MnO₄⁻ gains 5 electrons, so 5 Fe²⁺ are needed to lose 5: MnO₄⁻ + 5Fe²⁺ + H⁺ → Mn²⁺ + 5Fe³⁺ + H₂O.
+[chem14-s2.2.4] Balance O: there are 4 O on the left, so 4H₂O on the right.
+[chem14-s2.2.5] Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.
+[chem14-s2.2.6] Check atoms: Mn 1 = 1, Fe 5 = 5, O 4 = 4, H 8 = 8.
+[chem14-s2.2.7] Check charge: left (−1) + 5(+2) + 8(+1) = +17; right (+2) + 5(+3) = +17.
+[chem14-s2.3.b] Copper metal is oxidised by the nitrate ion (NO₃⁻) in acid, and the nitrate is reduced to nitrogen monoxide, NO. Here the electron changes, 2 and 3, don't match, so you need the lowest common multiple.
+[chem14-s2.3.0] Unbalanced: Cu + NO₃⁻ + H⁺ → Cu²⁺ + NO + H₂O.
+[chem14-s2.3.1] Cu goes from 0 to +2, an increase of 2, so copper is oxidised and is the reducing agent.
+[chem14-s2.3.2] N goes from +5 in NO₃⁻ to +2 in NO, a decrease of 3, so nitrate is reduced and is the oxidising agent.
+[chem14-s2.3.3] The lowest common multiple of 2 and 3 is 6: 3Cu (lose 6) and 2NO₃⁻ (gain 6) give 3Cu + 2NO₃⁻ + H⁺ → 3Cu²⁺ + 2NO + H₂O.
+[chem14-s2.3.4] Balance O: 6 O are on the left and 2 are in 2NO, so 4H₂O go on the right.
+[chem14-s2.3.5] Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O.
+[chem14-s2.3.6] Check charge: left 2(−1) + 8(+1) = +6; right 3(+2) = +6.
+[chem14-s2.4.b] Here the species being oxidised contains two atoms that change, so the change per atom must be multiplied up. Ethanedioate is C₂O₄²⁻.
+[chem14-s2.4.0] Unbalanced: MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O.
+[chem14-s2.4.1] Mn goes from +7 to +2, a decrease of 5, so MnO₄⁻ is reduced and is the oxidising agent.
+[chem14-s2.4.2] C is +3 in C₂O₄²⁻ (2C + 4(−2) = −2) and +4 in CO₂: an increase of 1 per C atom, so 2 per C₂O₄²⁻ ion. The ethanedioate ion is oxidised and is the reducing agent.
+[chem14-s2.4.3] The ethanedioate ion C₂O₄²⁻ is also called oxalate.
+[chem14-s2.4.4] The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5C₂O₄²⁻ (lose 10) give 2Mn²⁺ and 10CO₂.
+[chem14-s2.4.5] Balance O: the left has 8 + 20 = 28 O, and 10CO₂ holds 20 O, so 8H₂O go on the right.
+[chem14-s2.4.6] Balance H: 16 H⁺ go on the left, to match the 16 H in 8H₂O: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.
+[chem14-s2.4.7] Check charge: left 2(−1) + 5(−2) + 16(+1) = +4; right 2(+2) = +4.
+[chem14-s2.5.b] Thiosulfate (S₂O₃²⁻) reacts with iodine, and the sulfur ends up with a fractional oxidation number. This is allowed, because an oxidation number is an average over the atoms of that element in the ion.
+[chem14-s2.5.0] Unbalanced: I₂ + S₂O₃²⁻ → I⁻ + S₄O₆²⁻.
+[chem14-s2.5.1] I goes from 0 to −1, so each I gains 1 electron and I₂ gains 2: iodine is reduced and is the oxidising agent.
+[chem14-s2.5.2] S goes from +2 in S₂O₃²⁻ to +2.5 in S₄O₆²⁻, so each S's oxidation number rises by 0.5 and each S₂O₃²⁻ loses 1 electron: thiosulfate is oxidised and is the reducing agent.
+[chem14-s2.5.3] Two S₂O₃²⁻ ions lose 2 electrons, matching one I₂: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.
+[chem14-s2.5.4] S₄O₆²⁻ is the tetrathionate ion.
+[chem14-s2.5.5] Check atoms: I 2 = 2, S 4 = 4, O 6 = 6.
+[chem14-s2.5.6] Check charge: left 2(−2) = −4; right 2(−1) + (−2) = −4.
+[chem14-s2.6.b] A P₄ molecule has four atoms that all change, so the electron change per formula is large, and the lowest common multiple is 60. This example also has H₂O and H⁺ on opposite sides.
+[chem14-s2.6.0] Unbalanced: P₄ + NO₃⁻ + H₂O → PO₄³⁻ + NO + H⁺.
+[chem14-s2.6.1] P goes from 0 in P₄ to +5 in PO₄³⁻, an increase of 5 per atom, so 20 per P₄ molecule: P₄ is oxidised and is the reducing agent.
+[chem14-s2.6.2] N goes from +5 to +2, a decrease of 3: nitrate is reduced and is the oxidising agent.
+[chem14-s2.6.3] The lowest common multiple of 20 and 3 is 60: 3P₄ (lose 60) and 20NO₃⁻ (gain 60) give 3P₄ + 20NO₃⁻ → 12PO₄³⁻ + 20NO.
+[chem14-s2.6.4] Balance O: the left has 60 O, and the right has 48 + 20 = 68, so 8H₂O go on the left.
+[chem14-s2.6.5] Balance H: the 8H₂O supply 16 H, so 16H⁺ go on the right: 3P₄ + 20NO₃⁻ + 8H₂O → 12PO₄³⁻ + 20NO + 16H⁺.
+[chem14-s2.6.6] Check charge: left 20(−1) = −20; right 12(−3) + 16(+1) = −20.
+[chem14-s2.7.b] These equations use the same method with other common oxidising agents. Some are used in titrations (measured reactions between solutions), and you should know them.
+[chem14-s2.7.0] Manganate(VII) oxidises chloride to chlorine, which is why hydrochloric acid is not used to acidify permanganate titrations: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O.
+[chem14-s2.7.1] In that equation each Mn gains 5 electrons (+7 to +2) and each Cl loses 1 electron (−1 to 0).
+[chem14-s2.7.2] Manganate(VII) oxidises iodide to iodine, which is used to make iodine for thiosulfate titrations: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.
+[chem14-s2.7.3] Dichromate(VI) oxidises iron(II): Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O.
+[chem14-s2.7.4] Each Cr falls from +6 to +3, so Cr₂O₇²⁻ gains 6 electrons, and each Fe²⁺ loses 1 electron, which is why 6Fe²⁺ are needed.
+[chem14-s2.7.5] Only some atoms of an element may change: in Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O, one S goes from +6 to +4 (gain 2) and the other stays at +6 in CuSO₄, so only that one is counted.
+[chem14-s2.7.6] Copper loses 2 electrons, and the second H₂SO₄ is needed to supply the sulfate for the CuSO₄.
+[chem14-s2.7.7] The manganate(VII) and iron(II) equation, and the iodine and thiosulfate equation, are the ones used in Redox titrations.
+[chem14-s2.8.b] A half-equation shows only the oxidation or only the reduction, with electrons written in. Building the full equation from two half-equations is an alternative to the oxidation-number method.
+[chem14-s2.8.0] The same equation can be built from half-equations: balance the atom that changes, add H₂O to balance O, add H⁺ to balance H, then add electrons to balance charge.
+[chem14-s2.8.1] The number of electrons in a half-equation equals the change in oxidation number.
+[chem14-s2.8.2] Example: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, where the 5 electrons match the change from +7 to +2.
+[chem14-s2.8.3] The iron half-equation is Fe²⁺ → Fe³⁺ + e⁻.
+[chem14-s2.8.4] Multiply the iron half-equation by 5 so that the electrons cancel, then add: MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.
+[chem14-s2.8.5] Either method earns full marks once oxidation numbers have been assigned, whether or not the question says “hence or otherwise”.
+[chem14-s2.9.b] These are the mistakes that most often spoil a balanced equation. Each has a simple rule to prevent it.
+[chem14-s2.9.0] Multiply the change per atom by the number of atoms of that element in the formula: 2 C in C₂O₄²⁻, 2 Cr in Cr₂O₇²⁻, 4 P in P₄, 2 I in I₂. Otherwise the electron count, and so the ratio, is wrong.
+[chem14-s2.9.1] Balance the electron change before adding H₂O and H⁺; adding them first gives wrong ratios.
+[chem14-s2.9.2] Always check charge as well as atoms; an equation can balance in atoms and still be wrong.
+[chem14-s2.9.3] Spectator ions (ions that are present but do not change, such as K⁺, SO₄²⁻, Na⁺) are left out of ionic equations.
+[chem14-s2.9.4] Bismuth is element 83, so bismuthate (BiO₃⁻) is outside the first 36 elements and outside the specification.
+[chem14-s2.10.b] Metals differ in how easily they give up electrons. The electrochemical series ranks them so that you can predict which will react with which.
+[chem14-s2.10.0] The electrochemical series is a list of metals (and hydrogen) in order of their tendency to be oxidised, that is, to lose electrons and form positive ions in solution.
+[chem14-s2.10.1] Order, most easily oxidised first: potassium, calcium, sodium, magnesium, aluminium, zinc, iron, lead, hydrogen, copper, silver, gold (K, Ca, Na, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au).
+[chem14-s2.10.2] A metal high in the series loses electrons easily (M → Mⁿ⁺ + ne⁻), so it is a strong reducing agent (a good electron donor). For example Mg(s) → Mg²⁺(aq) + 2e⁻ happens more readily than Cu(s) → Cu²⁺(aq) + 2e⁻.
+[chem14-s2.10.3] The ions of metals low in the series gain electrons most easily, so they are the better oxidising agents: Ag⁺ and Cu²⁺ are reduced more readily than Mg²⁺ or Zn²⁺.
+[chem14-s2.10.4] Metals near the top corrode most easily; gold and silver at the bottom are found uncombined in nature and resist corrosion, which is why they are used in jewellery.
+[chem14-s2.10.5] Hydrogen is included as a reference point: metals above hydrogen displace it from dilute acids, for example Mg(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g).
+[chem14-s2.10.6] Copper, silver and gold, below hydrogen, don't react with dilute hydrochloric or sulfuric acid. There is more on this in Acids, bases and their reactions.
+[chem14-s2.11.b] In a displacement reaction a more easily oxidised metal pushes a less easily oxidised metal out of solution. You can see it happen, because the new metal appears as a deposit and the colour of the solution changes.
+[chem14-s2.11.0] A displacement reaction of metals: a metal higher in the series displaces a metal lower in the series from a solution of its ions. The higher metal is oxidised (reducing agent); the lower metal's ions are reduced (oxidising agent).
+[chem14-s2.11.1] Zinc in copper(II) sulfate: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The half-equations for this reaction are those given in Oxidation and reduction.
+[chem14-s2.11.2] Zinc in copper(II) sulfate: the grey zinc becomes coated with brown copper and the blue colour fades, because blue Cu²⁺ ions are used up.
+[chem14-s2.11.3] Magnesium in copper(II) sulfate: Mg(s) + Cu²⁺(aq) → Mg²⁺(aq) + Cu(s); brown copper forms, the blue colour fades and the solution warms, because the reaction is exothermic (it gives out heat).
+[chem14-s2.11.4] Iron in copper(II) sulfate: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s); an iron nail becomes coated with pink-brown copper and the solution turns from blue towards pale green (iron(II) ions).
+[chem14-s2.11.5] Copper in silver nitrate: Cu(s) + 2Ag⁺(aq) → Cu²⁺(aq) + 2Ag(s); grey-white crystals of silver grow on the copper and the colourless solution turns blue (copper(II) ions).
+[chem14-s2.12.b] The series also tells you when nothing will happen, and how fast a reaction should be.
+[chem14-s2.12.0] No reaction happens when the metal is lower than the metal ion: copper in zinc sulfate, or copper in sodium chloride solution, where Cu + 2Na⁺ → Cu²⁺ + 2Na does not happen because copper is below sodium and is less easily oxidised.
+[chem14-s2.12.1] The anions (negative ions, such as SO₄²⁻, NO₃⁻) don't change; they are spectator ions and are left out of the ionic equation.
+[chem14-s2.12.2] The further apart two metals are in the series, the more vigorous the displacement reaction tends to be: magnesium with copper(II) ions reacts faster and releases more heat than iron with copper(II) ions.
+[chem14-s2.13.b] This experiment ranks four metals by testing which of them displace the others from solution. The ranking is then compared with the electrochemical series.
+[chem14-s2.13.0] Aim: to place magnesium, zinc, iron and copper in order of their tendency to be oxidised, using displacement reactions, and to compare the order with the electrochemical series.
+[chem14-s2.13.1] Independent variable (the thing you change): the metal, and so the metal-ion solution it is placed in.
+[chem14-s2.13.2] Dependent variable (the thing you observe): whether a reaction is seen, shown by a deposit, a colour change or a temperature rise.
+[chem14-s2.13.3] Controlled variables (kept the same so that the test is fair): the concentration and volume of each solution, the size and surface area of each metal piece, the temperature and the time allowed.
+[chem14-s2.14.b] Each metal is added to the solutions of the other metals' ions, and the observations are recorded in a grid.
+[chem14-s2.14.0] Step 1: clean each strip of metal (magnesium ribbon, zinc foil, iron nail or wire, copper foil) with sandpaper to remove the oxide layer, which would stop or slow the reaction.
+[chem14-s2.14.1] Step 2: place the same volume (e.g. about 5 cm³) of each solution, all at the same concentration, in test tubes (or the wells of a spotting tile, a white tile with small hollows): magnesium sulfate, zinc sulfate, iron(II) sulfate and copper(II) sulfate.
+[chem14-s2.14.2] Step 3: add a piece of each metal to each solution other than its own; a metal in a solution of its own ions acts as a control, because no reaction is possible.
+[chem14-s2.14.3] Step 4: leave for a set time (e.g. 5 minutes), then record any deposit on the metal, change in colour of the solution and temperature change in a results grid.
+[chem14-s2.14.4] Step 5: repeat the experiment to check the observations.
+[chem14-s2.15.b] Counting how many displacements each metal causes gives a ranking, which you then compare with the series.
+[chem14-s2.15.0] Sample data (expected): magnesium reacts with zinc, iron(II) and copper(II) ions (3 reactions); zinc reacts with iron(II) and copper(II) ions (2); iron reacts with copper(II) ions (1); copper reacts with none (0).
+[chem14-s2.15.1] Ranking by number of displacements gives Mg > Zn > Fe > Cu, which matches the order in the electrochemical series: magnesium is the most easily oxidised and the strongest reducing agent of the four.
+[chem14-s2.15.2] Write an ionic equation for each reaction seen, e.g. Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s), with a grey zinc deposit on the magnesium.
+[chem14-s2.15.3] Zn(s) + Fe²⁺(aq) → Zn²⁺(aq) + Fe(s) gives a dark deposit, and the pale green colour fades.
+[chem14-s2.15.4] A larger temperature rise, measured with a thermometer using equal amounts of metal powder and solution, is further evidence that the metals are further apart in the series.
+[chem14-s2.15.5] Limitation: no visible change shows only that a reaction is too slow to see in the time allowed; it does not prove that no reaction is possible.
+[chem14-s2.16.b] Some of the chemicals are hazardous, and several things can make the results misleading.
+[chem14-s2.16.0] Wear goggles. Copper(II) sulfate is harmful if swallowed, an irritant and toxic to aquatic life; silver nitrate stains skin and is corrosive.
+[chem14-s2.16.1] Collect metal-ion solutions in a waste container rather than pouring them down the sink, because they are harmful to aquatic life.
+[chem14-s2.16.2] Keep magnesium away from flames.
+[chem14-s2.16.3] An oxide layer left on a metal can stop a reaction that should happen; aluminium's Al₂O₃ layer makes it appear unreactive.
+[chem14-s2.16.4] Deposits are hard to see on dark metals, very slow reactions may be missed, and different surface areas or concentrations make comparisons unfair.
+[chem14-s2.16.5] Diagram: a row of test tubes in a rack (or a spotting tile), each containing a metal-ion solution with a strip of metal, labelled with the metal and the solution.
+[chem14-s2.16.6] Diagram: a results grid of metals against solutions, with ticks and crosses for reaction and no reaction.
+[chem14-s2.17.b] You can also work out the order of metals from results that someone else collected, and you can use the series to predict reactions without doing them.
+[chem14-s2.17.0] Secondary data are results collected by others, e.g. a table of displacement observations from another class or a data source; they are analysed in the same way, so a metal that displaces another from solution is higher in the series.
+[chem14-s2.17.1] Example: if metal X displaces copper and lead from solutions of their ions but not zinc, X lies between zinc and lead in the series.
+[chem14-s2.17.2] The series predicts reactions without doing them: zinc will displace silver from silver nitrate; silver will not displace copper from copper(II) sulfate.
+[chem14-s2.17.3] The most reactive metals (potassium, sodium, calcium) are not used in displacement from solution, because they react with the water instead, releasing hydrogen: 2Na + 2H₂O → 2NaOH + H₂.

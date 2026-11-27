@@ -1,0 +1,329 @@
+MODE: cost and links
+TARGET hom-housing-s2: 2. Housing finance
+[hom-housing-s2.0.b] Few buyers can pay for a home from savings alone, so most borrow. The amount a buyer must borrow is the purchase price minus the deposit, plus any costs of buying that the buyer cannot pay from savings.
+[hom-housing-s2.0.0] The factors that determine the amount of finance required are the purchase price (which depends on the size, type and location of the house, and whether it is new or second-hand) and the buyer's own savings and deposit.
+[hom-housing-s2.0.1] Additional costs of buying add to the total needed, so a buyer must budget for more than the price: solicitor's (legal) fees for the transfer of ownership, and stamp duty, a tax paid on the purchase.
+[hom-housing-s2.0.2] Further costs are the valuation and survey carried out for the lender (to check what the house is worth and what condition it is in), an application or lender fee, land registry fees (to record the new owner), home insurance, and any fitting-out, furnishing or repair costs.
+[hom-housing-s2.0.3] A deposit is the buyer's own money paid towards the purchase price. Lenders require a minimum percentage deposit, set by Central Bank rules, and supply the balance as a mortgage, so saving a deposit is a main barrier for first-time buyers.
+[hom-housing-s2.0.4] A mortgage is a long-term loan to buy property, repaid with interest in regular (usually monthly) instalments over a term of many years. Interest is the cost of borrowing the money.
+[hom-housing-s2.0.5] A mortgage is secured on the house itself, which means that if repayments are not made the lender can take possession of the property and sell it to recover the loan. This is called repossession.
+[hom-housing-s2.1.b] A buyer usually combines several sources of money. Some are the buyer's own, some are borrowed from a lender, and some come from the State or family.
+[hom-housing-s2.1.0] The buyer's own savings are the first source, and they make up the deposit that lenders require before they will lend the balance.
+[hom-housing-s2.1.1] A mortgage from a bank or other lending institution is the main source of finance, because it provides the large sum that savings cannot cover.
+[hom-housing-s2.1.2] A local authority home loan is government-backed and is for people who qualify but cannot get a commercial loan.
+[hom-housing-s2.1.3] A credit union loan is usually a smaller amount, for example to help with a deposit or home improvements.
+[hom-housing-s2.1.4] Help from parents or family, as a gift or a loan, is often used towards the deposit.
+[hom-housing-s2.1.5] State supports for buyers include the First Home shared equity scheme (the State and participating lenders take a share in a new home, which the buyer can buy back), the Help to Buy incentive for first-time buyers of new homes, and affordable purchase schemes run by local authorities.
+[hom-housing-s2.2.b] A lending institution assesses whether the applicant can repay the loan and whether the property is a suitable security for it. Each condition below protects the lender by making sure the loan can be repaid, or the property sold if it is not.
+[hom-housing-s2.2.0] Borrowing limit: the loan is capped at a set multiple of the applicant's gross income (income before tax), so the borrower is not lent more than can be repaid. The multiple is set by Central Bank rules and changes.
+[hom-housing-s2.2.1] Loan-to-value limit: the loan cannot exceed a set share of the property's value, so the buyer must provide the balance as a deposit. The rules differ for first-time buyers and others.
+[hom-housing-s2.2.2] Secure, continuous employment: the applicant must be in stable work so that repayments can be met over the term. The self-employed supply accounts instead.
+[hom-housing-s2.2.3] Proof of income: payslips, a P60 (the yearly summary of pay and tax), and tax and bank statements show the lender what the applicant earns.
+[hom-housing-s2.2.4] Good financial record: a clean credit history with no missed repayments or unpaid debts, a record of regular saving and reasonable spending habits. Existing debts and commitments reduce the amount lent.
+[hom-housing-s2.2.5] Term of the loan: repayments are spread over a long period, but an older applicant is usually offered a shorter term so the loan ends before retirement.
+[hom-housing-s2.2.6] Property: the lender has it valued and surveyed, and it must be in good condition and good value as security. The lender checks the title deeds through a solicitor, and the buyer must have buildings insurance for the term.
+[hom-housing-s2.2.7] Mortgage protection insurance, plus proof of identity and address so the lender can confirm who the borrower is.
+[hom-housing-s2.3.b] A mortgage is a large debt that may last decades, and the borrower could die before it is repaid. A mortgage protection policy is a life assurance policy that protects the lender's loan and the borrower's family if the borrower dies during the term.
+[hom-housing-s2.3.0] Mortgage protection is a term life assurance policy for the length of the mortgage and the amount of the loan. Life assurance means premiums (regular payments) are made and a sum is paid out when the insured person dies.
+[hom-housing-s2.3.1] If the borrower dies during the term, the insurer repays the outstanding mortgage balance to the lender, so the family keeps the home.
+[hom-housing-s2.3.2] Without cover, the remaining debt would fall on the borrower's family, who could be forced to sell the home.
+[hom-housing-s2.3.3] Life assurance in general can run for life, whereas mortgage protection runs for the term only, and the sum insured falls as the loan is repaid (a decreasing term policy).
+[hom-housing-s2.3.4] Under the Consumer Credit Act 1995 a lender must make sure that the borrower has mortgage protection, with exceptions such as where cover cannot be obtained because of age or health.
+[hom-housing-s2.3.5] The borrower may buy mortgage protection from the lender's group scheme, an insurer or a broker, and cannot be forced to buy it from the lender.
+[hom-housing-s2.3.6] Mortgage protection does not pay the repayments if the borrower is ill, disabled or made redundant, because it pays only on death. Income protection is a separate policy.
+[hom-housing-s2.3.7] Annuity and pension-linked mortgages require a mortgage protection policy to be taken out with the loan.
+[hom-housing-s2.3.8] An endowment mortgage does not need a separate protection policy, because its life assurance policy already covers the loan.
+[hom-housing-s2.4.b] Mortgages differ in how the capital (the sum borrowed) and the interest are repaid. Annuity, endowment, pension-linked and tracker mortgages are the main types to be able to describe.
+[hom-housing-s2.4.0] Annuity (repayment) mortgage: each repayment pays part of the interest and part of the capital borrowed, so the amount owed falls over time. Early repayments are mostly interest. It is the most common type, the rate may be fixed, variable or a combination, and it needs mortgage protection.
+[hom-housing-s2.4.1] Endowment mortgage: the borrower pays only interest on the loan, plus a premium on a life assurance (endowment) policy designed to repay the loan when it matures. The policy yield may not fully cover the loan, and no separate protection policy is needed. It is no longer widely available.
+[hom-housing-s2.4.2] Pension-linked mortgage: interest is paid on the loan and contributions are paid into a pension scheme, and the loan is repaid from the pension lump sum on retirement. It needs mortgage protection, is rare today, and was popular with self-employed people because of tax relief on pension contributions.
+[hom-housing-s2.4.3] Tracker mortgage: the interest rate follows a published benchmark rate, the European Central Bank (ECB) rate, plus a fixed margin, so repayments rise and fall with the ECB rate. Trackers are no longer offered to new borrowers, but you may be asked to describe one.
+[hom-housing-s2.4.4] Interest-only mortgage: the borrower pays only the interest for a period, so the capital is still owed at the end of that period. It is rarely offered.
+[hom-housing-s2.4.5] Current account (offset) mortgage: savings held in a linked current account reduce the balance on which interest is charged. It is rarely offered.
+[hom-housing-s2.4.6] Local authority mortgages and loans are also accepted as types of home finance.
+[hom-housing-s2.5.b] Interest is the cost of borrowing, so the rate on a mortgage decides how much the borrower pays each month and in total. A borrower can choose how the rate behaves and how long the loan lasts.
+[hom-housing-s2.5.0] A fixed rate is set for an agreed period of a number of years, so repayments are the same during that period and the buyer is protected from rises. The buyer misses out if rates fall, and ending early may carry a charge.
+[hom-housing-s2.5.1] A variable rate changes with the lender's rate, which tends to follow market and ECB rates, so repayments rise when rates rise and fall when rates fall. This means there is risk for the borrower.
+[hom-housing-s2.5.2] A combination (split) mortgage divides the loan between a fixed portion and a variable portion.
+[hom-housing-s2.5.3] A fixed rate is often higher than the variable rate at the start, because the lender takes on the risk of rate changes.
+[hom-housing-s2.5.4] A longer loan term gives smaller repayments but more interest in total, because interest is charged for more years.
+[hom-housing-s2.5.5] A shorter loan term means higher repayments but less interest paid in total.
+
+CANDIDATES hom-personal-finance-s3: 3. Methods of payment and credit
+[hom-personal-finance-s3.0.b] A household can pay for what it buys in several ways. Each method moves money differently, and knowing how each works lets you match the method to the purchase.
+[hom-personal-finance-s3.0.0] Cash: immediate payment in notes and coins. It is fast, costs nothing and shows exactly what has been spent, but carrying large amounts is unsafe, it leaves no record, and it cannot be used for online or distance purchases.
+[hom-personal-finance-s3.0.1] Cheque: a written order to the bank to pay a sum from the account to a named person. It requires a current account, takes time to clear, and can be refused if there are not enough funds. Cheques are used less now but are still examined.
+[hom-personal-finance-s3.0.2] Debit card: the amount is taken from the bank account straight away, so spending stays within the balance. It works by contactless or chip and PIN, and can be used online, for cashback and for ATM withdrawals.
+[hom-personal-finance-s3.0.3] Credit card: goods are bought now and paid for later, up to a credit limit. A minimum monthly payment is required, there is an interest-free period if the balance is cleared by the due date, and interest applies to any balance not cleared.
+[hom-personal-finance-s3.0.4] The card issuer may also protect some credit card purchases.
+[hom-personal-finance-s3.0.5] Direct debit: the account holder authorises a company or utility to take money from the account on a due date. The amount can vary, which suits bills such as utilities and insurance.
+[hom-personal-finance-s3.0.6] Standing order: the account holder instructs the bank to make a fixed payment at regular intervals to a named payee, such as rent, savings or loan repayments. The difference from direct debit is that the amount is fixed and the account holder controls the payment.
+[hom-personal-finance-s3.0.7] Online or mobile banking and payment apps: payments, bill payments and transfers made from a bank account through a computer or phone. They are convenient and keep a record, but need internet access and care with security.
+[hom-personal-finance-s3.0.8] Prepaid methods, gift vouchers and store credit are other ways to pay, where the money is paid in advance or held by one retailer.
+[hom-personal-finance-s3.1.b] No single method is best for every purchase. A household compares methods against a set of criteria, then picks the one that suits the item and its own situation.
+[hom-personal-finance-s3.1.0] Cost: whether the method charges fees or interest, since this adds to the price of the goods.
+[hom-personal-finance-s3.1.1] Security: the risk of loss, theft or fraud, and whether the method leaves a record of the payment, which a cash payment does not.
+[hom-personal-finance-s3.1.2] Convenience: speed of payment, the ability to pay at a distance or online, and ease of budgeting.
+[hom-personal-finance-s3.1.3] Availability: whether the retailer or service provider accepts the method, and whether the buyer holds the card or account needed.
+[hom-personal-finance-s3.1.4] Control: whether the buyer can see and limit spending, which is easier with cash or a debit card than with credit, because credit lets you spend money you do not yet have.
+[hom-personal-finance-s3.1.5] Size of purchase: cash suits small everyday purchases, while credit or instalment methods suit large, expensive items the household cannot pay for at once, so the cost is spread.
+[hom-personal-finance-s3.2.b] Credit means obtaining goods, services or money now and paying later, usually with interest or charges. Households can use several different forms, each suited to a different need.
+[hom-personal-finance-s3.2.0] Credit card: a revolving credit facility (borrowing that can be reused as you repay) with a credit limit. It can offer an interest-free period if the full balance is paid on time.
+[hom-personal-finance-s3.2.1] Charge card: the full balance is due each month, and no interest is charged on it because it is repaid in full.
+[hom-personal-finance-s3.2.2] Store card: credit offered by a retailer, usable for purchases in that shop. It is usually costly.
+[hom-personal-finance-s3.2.3] Overdraft: the bank allows the current account balance to go below zero up to an agreed limit, with interest charged on the amount overdrawn. It is short-term and flexible but can be costly.
+[hom-personal-finance-s3.2.4] Personal or term loan from a bank, credit union or other lender: a fixed sum borrowed and repaid in fixed instalments over a set period at an agreed interest rate. It suits one-off large purchases such as a car.
+[hom-personal-finance-s3.2.5] Credit union loan: members can borrow from the credit union, usually after building up a savings record. Credit unions often have lower rates.
+[hom-personal-finance-s3.2.6] Other forms named in marking schemes: a budget account (spreads household bills), a credit sale, a moneylender (a licensed lender, usually very expensive) and a mortgage (a loan for house purchase).
+[hom-personal-finance-s3.3.b] Hire purchase lets a household use an expensive item straight away while paying for it over time. It is different from buying on a credit card, because ownership does not pass to the buyer at once.
+[hom-personal-finance-s3.3.0] Hire purchase combines hiring and buying: the buyer pays a deposit and then instalments over an agreed period, and uses the goods straight away.
+[hom-personal-finance-s3.3.1] The goods belong to the finance company until the final payment is made, so the buyer is only the hirer until then. Ownership passes to the buyer only at the last payment.
+[hom-personal-finance-s3.3.2] Once one-third or more of the total hire-purchase price has been paid, counting the deposit, instalments and the value of any trade-in, the owner cannot repossess the goods without a court order.
+[hom-personal-finance-s3.3.3] Before that point the owner must follow a procedure, including a default notice and time for the buyer to put things right. The buyer may also end the agreement.
+[hom-personal-finance-s3.3.4] Advantages: the goods can be used immediately, repayments are fixed and the cost is spread across instalments, so no large lump sum is needed.
+[hom-personal-finance-s3.3.5] Disadvantages: interest can make the total cost much higher than the cash price, and the buyer does not own the goods until the end.
+[hom-personal-finance-s3.3.6] Missed payments can lead to repossession. The goods may also lose value faster than the debt falls.
+[hom-personal-finance-s3.4.b] Credit nearly always costs more than paying cash. To decide whether it is worth it, a household has to work out exactly how much extra it will pay.
+[hom-personal-finance-s3.4.0] Total cash price: the price of the goods if they are paid for in full at the time of purchase.
+[hom-personal-finance-s3.4.1] Total amount repayable: the deposit plus all the instalments paid under the credit agreement.
+[hom-personal-finance-s3.4.2] Cost of credit: the total amount repayable minus the cash price. It is the extra paid for the convenience of credit, so do not say the cost of credit is the total repayable.
+[hom-personal-finance-s3.4.3] Annual percentage rate (APR): the yearly cost of borrowing, as a percentage, including charges. Because every lender must express cost the same way, it allows different credit offers to be compared.
+[hom-personal-finance-s3.4.4] To compare cash and credit, the household adds all the payments, subtracts the cash price to find the cost of credit, and decides whether the immediate use of the goods is worth that extra cost.
+[hom-personal-finance-s3.5.b] Credit can solve a real problem for a household, but it also carries costs and risks. Exam answers need both sides, each linked to the household.
+[hom-personal-finance-s3.5.0] Advantages: goods are available immediately, and large purchases become affordable because the cost is spread.
+[hom-personal-finance-s3.5.1] Advantages: credit can cover urgent or emergency costs, such as an emergency repair, and avoids the need to carry large amounts of cash, which is safer.
+[hom-personal-finance-s3.5.2] Advantages: loan repayments are fixed over a set period, so the cost is predictable, and a household can take advantage of sales. A good repayment record also helps later borrowing.
+[hom-personal-finance-s3.5.3] Disadvantages: interest makes goods cost more than the cash price, and high interest is charged if the credit balance is not repaid in full.
+[hom-personal-finance-s3.5.4] Disadvantages: credit makes overspending and impulse buying easier, and several credit agreements at once increase the risk of unmanageable debt.
+[hom-personal-finance-s3.5.5] Disadvantages: missed repayments can lead to penalties, repossession or a poor credit record, which makes future borrowing harder.
+[hom-personal-finance-s3.6.b] Before signing a credit agreement, a household should check that the borrowing is sensible and that it can afford it. These are the questions to ask.
+[hom-personal-finance-s3.6.0] Whether the purchase is needed, because credit makes it easy to buy things that are only wanted.
+[hom-personal-finance-s3.6.1] The total cost, the interest rate and the APR, so that the offer can be compared with others and with the cash price.
+[hom-personal-finance-s3.6.2] The repayment amount and the length of the agreement, because a longer period usually means more interest in total.
+[hom-personal-finance-s3.6.3] Fees and penalties for missed payments.
+[hom-personal-finance-s3.6.4] Ownership, and what happens if repayments are missed, for example repossession under hire purchase.
+[hom-personal-finance-s3.6.5] Whether the repayments fit the household budget.
+[hom-personal-finance-s3.7.b] The Consumer Credit Act 1995 (as amended) is the law that protects people who borrow or buy on credit. It sets rules for lenders, so consumers know what they are agreeing to.
+[hom-personal-finance-s3.7.0] The Act protects consumers who buy on credit, including through hire purchase and other credit agreements. It regulates lenders, moneylenders and credit advertising, and the Central Bank of Ireland regulates the sector.
+[hom-personal-finance-s3.7.1] A credit agreement must be in writing and signed, and must set out the APR and the terms of repayment. The consumer must be given a copy.
+[hom-personal-finance-s3.7.2] The consumer has a short cooling-off period of 10 days after receiving a copy of the agreement to withdraw from it in writing.
+[hom-personal-finance-s3.7.3] Credit advertisements must be accurate and must show the APR, so offers can be compared.
+[hom-personal-finance-s3.7.4] For hire purchase, once one-third or more of the total price has been paid, the goods cannot be repossessed without a court order.
+[hom-personal-finance-s3.7.5] Where to get help: MABS (the Money Advice and Budgeting Service) and the Central Bank's consumer hub, the CCPC, and the Financial Services and Pensions Ombudsman for complaints about a bank or lender.
+
+CANDIDATES hom-housing-s1: 1. Housing choices
+[hom-housing-s1.0.b] A household chooses a home by weighing what it needs and can afford against what is available in the place it wants to live. No single factor decides alone, so a good answer shows how several of them pull against each other.
+[hom-housing-s1.0.0] Socio-economic factors include income (which decides whether a household can afford a deposit or rent), employment, household size and the stage of the family life cycle, such as a young couple, young children, teenagers, an empty nest or an older couple whose children have left home.
+[hom-housing-s1.0.1] Each stage of the family life cycle needs a different amount of space, which is why a growing family and an older couple choose differently.
+[hom-housing-s1.0.2] Cost decides the size, type and location of home a household can afford. The deposit and running costs matter as much as the purchase price or rent.
+[hom-housing-s1.0.3] Legal and lender fees, stamp duty, repayments, insurance, maintenance, heating and travel to work must all be counted, not just the headline price. Parental help with a deposit is also an economic factor.
+[hom-housing-s1.0.4] Special needs, such as those of older people or people with a disability, may call for single-storey living, step-free access or a stairlift, because stairs and steps can make a home unusable.
+[hom-housing-s1.1.b] Once a household knows what it needs and can afford, it looks at where homes are, what kinds exist and whether any are on offer.
+[hom-housing-s1.1.0] Location is shaped by proximity to work, schools, shops, childcare, public transport, health services and family or friends. Urban areas offer services and jobs, while rural areas offer space and quiet. Safety, noise and risks such as flooding or pollution also count.
+[hom-housing-s1.1.1] Personal preference covers layout, aspect (the direction the home faces), view, garden size and whether the household wants to own or rent.
+[hom-housing-s1.1.2] Type and size of home: a household chooses between a bungalow, two-storey, detached, semi-detached, terraced, townhouse, duplex, apartment or bedsit. It also weighs room for the family, a possible attic conversion or extension, parking, space to work from home, and energy efficiency, shown by the BER.
+[hom-housing-s1.1.3] Availability, meaning the supply of suitable homes at a given time and place, limits choice. In some urban and commuter areas private supply is short, which raises prices and rents, and social housing waiting lists are long because demand exceeds supply.
+[hom-housing-s1.1.4] Setting: a case study of a student, a young couple or a retired couple, asking which of these factors matters most to them. For example, a student may rank low cost and closeness to college first, while a retired couple may rank step-free access and nearby health services first.
+[hom-housing-s1.2.b] The way new homes are planned and built changes over time. Examiners want you to recognise the current trends and say what each means for households.
+[hom-housing-s1.2.0] Mixed estates plan detached, semi-detached, terraced and apartment or duplex units together, so that different household types live in the same community.
+[hom-housing-s1.2.1] New developments include shared open space and play areas, and in larger estates a crèche or shops, so families have facilities on their doorstep. Many estates and complexes have a gated or controlled entrance.
+[hom-housing-s1.2.2] Refurbishment and inner-city redevelopment bring vacant, derelict and older buildings back into residential use. This includes the restoration of period homes, attic conversions and extensions, which add space without using new land.
+[hom-housing-s1.2.3] Apartment living and higher-density development grow in cities and towns, using less land per household. Townhouses are built on small urban sites for the same reason.
+[hom-housing-s1.2.4] An eco-house (an energy-efficient, environmentally friendly or passive home) is an emerging trend. They have high insulation and renewable heating, and may use timber frame or other modern methods of construction, so they cost less to heat.
+[hom-housing-s1.2.5] Housing development follows employment. Demand rises where jobs grow, which pulls people towards commuter towns and suburbs around cities, and commuting distance becomes a cost to the household. Older marking schemes also name satellite towns and one-off rural houses.
+[hom-housing-s1.2.6] Working from home creates demand for a study or home-office space, which affects the size and layout of home a household looks for.
+[hom-housing-s1.3.b] Housing policy is the government's plan for how enough suitable homes are provided and who is helped. The current national plan is Delivering Homes, Building Communities 2025 to 2030, published by the Government in November 2025. It rests on activating supply and supporting people.
+[hom-housing-s1.3.0] Increasing the supply of new homes, with investment in the infrastructure (water, wastewater and roads) that housing needs, because homes cannot be built where these services are missing.
+[hom-housing-s1.3.1] Social housing is built by local authorities and approved housing bodies, and social and affordable housing is delivered by these together with voluntary and co-operative housing organisations.
+[hom-housing-s1.3.2] Affordable homeownership supports include the Starter Homes programme, and cost rental homes are let at rents based on the cost of providing them.
+[hom-housing-s1.3.3] Measures to reduce and prevent homelessness include the Housing First programme, and rented accommodation must be registered, so that rented homes are on a register.
+[hom-housing-s1.3.4] National rent controls protect tenants, and modern methods of construction (factory-built components) speed up building.
+[hom-housing-s1.3.5] Sustainable communities are a policy aim: new housing should be supported by shops, schools, transport, parks and other infrastructure and services. Higher-density living and increased housing supply in urban areas aim to make more homes available at affordable cost.
+[hom-housing-s1.3.6] Energy-efficient homes are promoted through the Building Regulations, BER ratings and SEAI grants for upgrading existing homes.
+[hom-housing-s1.3.7] Accommodation for Travellers is planned by each local authority under a Traveller Accommodation Programme, required by the Housing (Traveller Accommodation) Act 1998.
+[hom-housing-s1.3.8] Policy affects a household's choice because it changes what is built and where, what supports and grants are open to a buyer or tenant, and how much a tenant is protected.
+[hom-housing-s1.4.b] Buying makes the household an owner-occupier. It gives control and a possible asset, but it demands money up front and a long commitment.
+[hom-housing-s1.4.0] Advantage: a home may rise in value, so it can act as an investment, and ownership builds equity (the part of the home's value the owner owns).
+[hom-housing-s1.4.1] Advantage: security of tenure, meaning the right to stay in the home, because an owner cannot be asked to leave by a landlord.
+[hom-housing-s1.4.2] Advantage: freedom to choose the design and type of home, to alter and decorate it, and to decide whether to share it with others.
+[hom-housing-s1.4.3] Advantage: mortgage repayments (the regular payments on a loan taken to buy the home) may cost less than rent over the long term, and grants or other supports may apply to some purchases.
+[hom-housing-s1.4.4] Disadvantage: a large deposit and a long financial commitment are needed before the purchase can be completed.
+[hom-housing-s1.4.5] Disadvantage: legal, lending, valuation and survey fees and stamp duty add to the initial cost on top of the price.
+[hom-housing-s1.4.6] Disadvantage: the owner pays for all maintenance, repairs and insurance, and property tax where it applies, because there is no landlord to carry them.
+[hom-housing-s1.4.7] Disadvantage: the value may fall, leaving the owner owing more than the home is worth, and buying ties the household to one location, so moving is slow and expensive.
+[hom-housing-s1.5.b] A tenant pays a landlord (the owner who lets the home) for the right to live in a property, under a tenancy. Renting asks for little money at the start but gives no ownership.
+[hom-housing-s1.5.0] Advantage: little capital is needed, usually only a deposit and rent paid in advance.
+[hom-housing-s1.5.1] Advantage: mobility, so a household can move when work or family circumstances change.
+[hom-housing-s1.5.2] Advantage: the landlord is normally responsible for structural repairs and maintenance, so the tenant has no repair bills.
+[hom-housing-s1.5.3] Advantage: a wider choice of location and accommodation, from apartments and houses to shared houses and digs.
+[hom-housing-s1.5.4] Advantage: tenants have legal protections, including notice rules before a tenancy can be ended.
+[hom-housing-s1.5.5] Disadvantage: rent paid gives no ownership or return, often described as dead money. The rent can also be as high as a mortgage repayment on a similar home, and there is no long-term security if the landlord sells.
+[hom-housing-s1.5.6] Disadvantage: an agency fee, a deposit and rent in advance add to the initial cost.
+[hom-housing-s1.5.7] Disadvantage: the tenant must insure the contents of the home.
+[hom-housing-s1.5.8] Disadvantage: facilities may be poor or shared, and the tenant has no say over changes to the property.
+[hom-housing-s1.6.b] The private rented sector is made up of homes let by private landlords rather than by the State. Its standards and registration are regulated to protect tenants.
+[hom-housing-s1.6.0] Private rented housing (houses, apartments, flats and rooms) is provided by individual landlords and businesses, mainly in cities and larger towns. Rent depends on demand and supply, location, size, quality and amenities, and quality varies.
+[hom-housing-s1.6.1] Landlords must register tenancies with the Residential Tenancies Board (RTB), which helps the state track rented housing and its standards. The RTB also deals with disputes between landlords and tenants.
+[hom-housing-s1.6.2] Rented homes must meet the minimum standards in the Housing (Standards for Rented Houses) Regulations 2019, enforced by local authorities, who inspect rented homes. The property must be structurally sound and in good repair.
+[hom-housing-s1.6.3] Every room must have adequate ventilation and lighting, hot and cold water must be provided, and there must be heating and fire safety. Gas and electricity supplies must be safe.
+[hom-housing-s1.6.4] Bathrooms, showers and other sanitary facilities must be in good working order and kept in a proper state of repair.
+[hom-housing-s1.6.5] Private renting is popular with students, young workers and people who are saving for a deposit to buy a home. It gives flexibility to people in temporary work or who want to move, and the State helps some tenants with rent through social housing supports.
+
+CANDIDATES hom-personal-finance-s4: 4. Saving
+[hom-personal-finance-s4.0.b] Saving means setting aside part of your income for future use instead of spending it, and it takes planning, such as a budget or paying yourself first. A household that saves is better prepared for what life brings.
+[hom-personal-finance-s4.0.0] Saving reduces financial worry and gives the household security against unexpected costs, because there is money to fall back on.
+[hom-personal-finance-s4.0.1] A savings fund covers emergencies, such as job loss, illness or an urgent repair, so the household does not have to borrow.
+[hom-personal-finance-s4.0.2] Regular saving allows the household to plan for expensive items or events, such as a holiday, a car, education, a wedding or a deposit for a home, without using credit.
+[hom-personal-finance-s4.0.3] Saving avoids the need for loans and credit agreements, and so avoids the interest charged on them.
+[hom-personal-finance-s4.0.4] Money held in a suitable scheme earns interest (the payment a bank or other institution makes for holding your money) and grows over time.
+[hom-personal-finance-s4.0.5] Saving for retirement means the household has an income to live on once work stops.
+[hom-personal-finance-s4.0.6] Saving sets a good example for children and builds a sound financial reputation for the family, as well as independence.
+[hom-personal-finance-s4.0.7] Teenagers who save regularly gain financial independence, build a habit, gain security, can reach future goals and avoid credit.
+[hom-personal-finance-s4.1.b] How long you plan to save for decides what kind of scheme suits you, because the two aims need different things from an account.
+[hom-personal-finance-s4.1.0] Short-term saving, for an emergency or a planned spend within a year, needs easy access, so the money can be reached when it is needed.
+[hom-personal-finance-s4.1.1] Long-term saving, for retirement or a house, can accept restricted access in return for higher interest, because the money is not needed soon.
+[hom-personal-finance-s4.1.2] Higher interest generally means less access or more risk, so a saver always gives something up for a better rate.
+[hom-personal-finance-s4.2.b] Banks and building societies offer several kinds of savings account. They differ mainly in how quickly you can reach your money and how much interest you earn in return.
+[hom-personal-finance-s4.2.0] A current account is for everyday spending, not for saving.
+[hom-personal-finance-s4.2.1] Demand deposit account: money can be withdrawn on demand (instantly), so it suits short-term saving and an emergency fund, although the interest is low.
+[hom-personal-finance-s4.2.2] Notice account: withdrawals require a set period of notice, and the interest paid is usually higher than on a demand deposit account, because the institution can plan around when money leaves.
+[hom-personal-finance-s4.2.3] Term deposit (fixed-term deposit): money is locked away for an agreed period at a fixed rate, and early withdrawal usually reduces or loses the interest, or is refused.
+[hom-personal-finance-s4.2.4] Regular saver account: a fixed monthly deposit is made into an account that pays a higher rate in return for regular saving.
+[hom-personal-finance-s4.3.b] State Savings products are run by the National Treasury Management Agency and sold through An Post, the Post Office. Because the State stands behind them, they are among the safest places to save.
+[hom-personal-finance-s4.3.0] Instalment saving scheme: a fixed amount is saved each month over a set period, and the money is then left to earn interest for a further period.
+[hom-personal-finance-s4.3.1] Savings certificates: a fixed-term product paying interest higher than an ordinary deposit account, with interest reduced if the certificate is cashed in early.
+[hom-personal-finance-s4.3.2] Savings bonds: a fixed-term product, so the money is tied up for the term in return for a better return. Early withdrawal reduces or removes the interest earned.
+[hom-personal-finance-s4.3.3] Prize Bonds give a chance to win prizes rather than earning interest.
+[hom-personal-finance-s4.3.4] Returns on fixed-term products and instalment savings are not subject to DIRT or income tax, which means the saver keeps the whole return.
+[hom-personal-finance-s4.3.5] State Savings are backed by the State, so there is no loss of capital (the money you put in).
+[hom-personal-finance-s4.4.b] A credit union is a different kind of saving institution, owned by the people who save in it rather than by outside shareholders.
+[hom-personal-finance-s4.4.0] A credit union is a member-owned, non-profit co-operative serving a local or work-based community (a common bond), and its share and saver accounts are run for its members.
+[hom-personal-finance-s4.4.1] Members can usually save small amounts regularly, often by payroll deduction, which suits a low-income family.
+[hom-personal-finance-s4.4.2] Credit union shares earn a dividend, not interest, paid at the end of the year if the credit union can afford it, so the dividend is not guaranteed.
+[hom-personal-finance-s4.4.3] Members with a savings record find it easier to qualify for a low-cost credit union loan.
+[hom-personal-finance-s4.4.4] Credit union deposits are protected by the Deposit Guarantee Scheme.
+[hom-personal-finance-s4.5.b] Money can also go into products that aim for a higher return, but these carry risk and are not the same as saving.
+[hom-personal-finance-s4.5.0] Shares and investment funds, pensions (PRSA, occupational pension, AVCs) and property can give a higher return, but their value can fall.
+[hom-personal-finance-s4.5.1] They are not suited to an emergency fund, because the money may be worth less when it is needed.
+[hom-personal-finance-s4.5.2] Equity-linked products risk loss of capital, whereas savings keep capital safe.
+[hom-personal-finance-s4.6.b] Before choosing where to save, the household needs to know how safe the money is if an institution fails.
+[hom-personal-finance-s4.6.0] The Deposit Guarantee Scheme protects deposits in banks, building societies and credit unions authorised in Ireland, up to a limit of 100,000 euro per person per institution.
+[hom-personal-finance-s4.6.1] State Savings are backed by the State, so their security does not depend on a guarantee limit.
+[hom-personal-finance-s4.6.2] Investment funds and shares in companies are not covered by the Deposit Guarantee Scheme, so they can lose value.
+[hom-personal-finance-s4.7.b] No scheme is best on every count. A saver compares schemes against a set of criteria and picks the one that fits the household's need.
+[hom-personal-finance-s4.7.0] Security: how safe the money is, shown by a State or deposit guarantee, the stability of the institution, and the risk of loss with investments.
+[hom-personal-finance-s4.7.1] Interest: the rate paid, whether it is fixed or variable, and how often it is paid.
+[hom-personal-finance-s4.7.2] The annual equivalent rate (AER) shows the yearly return including the effect of compounding, so different schemes can be compared fairly.
+[hom-personal-finance-s4.7.3] Compounding means interest is paid on earlier interest, so a longer-term deposit grows faster than the simple rate suggests.
+[hom-personal-finance-s4.7.4] Access: how quickly and at what cost money can be withdrawn (instant, notice or fixed term), whether penalties apply, and whether the account is by branch or online, with its opening hours and location.
+[hom-personal-finance-s4.7.5] Tax: Deposit Interest Retention Tax (DIRT) is deducted from interest on most bank, building society and credit union deposits before the saver receives it, while State Savings fixed-term products are exempt. Net return matters, not only the headline rate.
+[hom-personal-finance-s4.7.6] Other factors: minimum or regular deposit, fees, convenience, and whether the scheme suits the family's goal and income. A low-income family needs small deposits and easy access.
+[hom-personal-finance-s4.8.b] The criteria only help once they are tied to what the household is saving for, so a good answer links the purpose to a scheme.
+[hom-personal-finance-s4.8.0] Emergency fund: a demand deposit or credit union share account, because money must be reachable at once.
+[hom-personal-finance-s4.8.1] Holiday within a year: a demand or notice account.
+[hom-personal-finance-s4.8.2] Long-term lump sum: a term deposit or State Savings fixed term, because the money can be locked away for higher interest.
+[hom-personal-finance-s4.8.3] Regular small amounts: a credit union, regular saver or instalment savings.
+[hom-personal-finance-s4.8.4] Purpose: short-term access suits emergencies, and longer-term schemes suit planned spending.
+
+CANDIDATES hom-personal-finance-s5: 5. Insurance
+[hom-personal-finance-s5.0.b] Some events, such as a fire or a serious illness, cost far more than most households could pay at once. Insurance solves this by sharing the cost of those events across many people.
+[hom-personal-finance-s5.0.0] Insurance spreads the financial risk of an event, such as death, illness, fire or theft, across many people who each pay a premium. Only the few who suffer a loss are paid, out of the pool everyone has paid into.
+[hom-personal-finance-s5.0.1] The insured (the person covered, also called the policyholder) pays a premium to the insurer, and the insurer pays a stated sum when the insured event occurs.
+[hom-personal-finance-s5.0.2] Cover applies only to the events named in the policy, so an event the policy does not list is not paid for.
+[hom-personal-finance-s5.0.3] Insurance protects a household against a large, unexpected cost that it could not otherwise meet, for example illness, fire, theft or an accident.
+[hom-personal-finance-s5.0.4] Insurance pays the loss and not a profit, and the policyholder must give full and honest information when buying. Reading the policy and comparing quotes before buying helps you choose the right cover.
+[hom-personal-finance-s5.1.b] Exam questions ask you to explain the everyday words of insurance. Each one names a different person or part of the arrangement, so keep them apart.
+[hom-personal-finance-s5.1.0] Premium: the sum paid annually or in instalments to the insurance company to keep a policy in force. It is what you pay in.
+[hom-personal-finance-s5.1.1] Policy: the written document, a contract, setting out the terms and conditions of the cover, including what is covered and what is excluded.
+[hom-personal-finance-s5.1.2] Insurer: the insurance company that accepts the risk and pays claims.
+[hom-personal-finance-s5.1.3] Broker: an agent who advises the consumer on insurance and arranges cover with several insurance companies. A broker is paid by commission or a fee. This differs from an agent of one company, or buying direct from the insurer.
+[hom-personal-finance-s5.1.4] Claim: a request to the insurer for payment after a loss. Excess is the part of a claim that the policyholder pays. The sum assured (or sum insured) is the most the insurer will pay out.
+[hom-personal-finance-s5.1.5] The premium depends on the risk: age, health, claims history, location, the value of what is insured and security measures such as alarms all matter. The cover and excess you choose also change it, and a no-claims bonus lowers car premiums.
+[hom-personal-finance-s5.2.b] PRSI is the State's own insurance scheme. It works like insurance because contributions made while working protect you against losing income later.
+[hom-personal-finance-s5.2.0] PRSI is the State's social insurance scheme. Workers (employees, employers and the self-employed) pay contributions, related to pay, into the Social Insurance Fund. Entitlement to its benefits depends on a record of contributions, not on means.
+[hom-personal-finance-s5.2.1] PRSI is a compulsory scheme set by law, not a private policy chosen by the individual. It is State-run and its benefits are not paid by an insurer, whereas private insurance is voluntary and private.
+[hom-personal-finance-s5.2.2] PRSI-linked payments include Jobseeker's Benefit, Illness Benefit, maternity benefit, Carer's Benefit and the contributory State pension. Others are the widow's or widower's pension and treatment benefit for dental and optical care.
+[hom-personal-finance-s5.2.3] It counts as insurance because contributions pay for protection against loss of income through unemployment, illness, retirement, bereavement or maternity.
+[hom-personal-finance-s5.2.4] Different PRSI classes carry different benefits, and low earners may be exempt from paying.
+[hom-personal-finance-s5.3.b] The public health system is available to everyone, but some people want more choice or quicker treatment. Private health insurance is a voluntary policy that pays towards those costs.
+[hom-personal-finance-s5.3.0] Private health insurance pays towards hospital, consultant and other medical costs, within the terms of the policy. It is voluntary and held alongside the public health system.
+[hom-personal-finance-s5.3.1] Advantages: choice of private or semi-private hospital accommodation, help with consultant fees, and shorter waiting times for some treatment.
+[hom-personal-finance-s5.3.2] Cover can include access to outpatient clinics, day-care, convalescence (recovery time) after treatment, some GP fees, some dental and optical cover, and treatment abroad. It also gives peace of mind.
+[hom-personal-finance-s5.3.3] Premiums may qualify for tax relief at source, which reduces the cost of cover.
+[hom-personal-finance-s5.3.4] When choosing a plan, compare the level of cover, premiums, excess, waiting periods, hospital choice and what is excluded. Compare insurers and plans.
+[hom-personal-finance-s5.3.5] Premiums are set by plan, not by your health (community rating), but joining late costs more.
+[hom-personal-finance-s5.3.6] Providers include Vhi (the largest), Laya, Irish Life Health and Level Health. The regulator is the Health Insurance Authority.
+[hom-personal-finance-s5.4.b] A household faces several different risks: damage to the home, loss of belongings, a car accident, trips abroad. Each has its own type of cover.
+[hom-personal-finance-s5.4.0] Buildings insurance covers the structure of the home (walls, roof, fixtures) against damage such as fire, storm, flood and subsidence. Mortgage lenders usually require it.
+[hom-personal-finance-s5.4.1] Contents insurance covers furniture, appliances, clothes, valuables and personal belongings against loss or damage such as theft and fire. An all-risks extension covers items outside the home, such as phones and bicycles.
+[hom-personal-finance-s5.4.2] Buildings and contents cover can be combined in one household policy, which may also include public liability and temporary accommodation.
+[hom-personal-finance-s5.4.3] Car insurance: third-party cover is required by law before a car is driven on public roads. It covers damage and injury to other people, not the policyholder's own car. Third party, fire and theft adds cover for those events, and comprehensive covers the most.
+[hom-personal-finance-s5.4.4] Travel insurance covers medical costs, cancelled trips and lost luggage abroad. Mobile phone insurance covers loss, theft or damage to a phone. Income protection, holiday, public liability and pet insurance are other types.
+[hom-personal-finance-s5.4.5] Insure for the correct value, because underinsurance means a reduced payout. Keep an inventory and receipts, state security measures, keep the policy up to date and report claims promptly.
+[hom-personal-finance-s5.5.b] Death is certain to happen, so this cover is called assurance rather than insurance. It pays a sum so that dependants are looked after if the insured person dies.
+[hom-personal-finance-s5.5.0] Life assurance pays a lump sum to the insured person's family or beneficiary (dependants) on death, either during the policy term or after it, depending on the type.
+[hom-personal-finance-s5.5.1] Term assurance covers a set period and pays only if death occurs within that period. There is no payout if the insured survives, and it is generally the cheapest type.
+[hom-personal-finance-s5.5.2] Whole-of-life assurance lasts for life, as long as premiums are paid, and pays an agreed sum on death whenever it occurs. It is dearer than term cover.
+[hom-personal-finance-s5.5.3] Endowment assurance pays a sum at the end of a set term or on earlier death, combining cover with saving.
+[hom-personal-finance-s5.5.4] A mortgage protection policy is term assurance taken out with a mortgage. Its sum assured falls with the mortgage balance, so if the insured dies before the mortgage is repaid, the debt is cleared. Lenders normally require it.
+[hom-personal-finance-s5.5.5] Convertible term assurance can be converted into a longer-term policy, such as whole-of-life, during the term without a new health check. Serious illness cover and income protection are related cover.
+[hom-personal-finance-s5.5.6] Benefits of life assurance: financial security for dependants after a premature death, help clearing a mortgage or debts, and peace of mind. Some policies can be cashed in or act as savings.
+
+CANDIDATES hom-personal-finance-s1: 1. Household income
+[hom-personal-finance-s1.0.b] A household is a group who share a home and make shared decisions about income, spending and saving. It is the basic financial unit of the economy, because everything the economy produces is ultimately bought, taxed or worked for by households.
+[hom-personal-finance-s1.0.0] Households spend on goods and services, which supports the businesses that supply them and the jobs those businesses provide.
+[hom-personal-finance-s1.0.1] Households pay taxes, which fund public services and State welfare payments.
+[hom-personal-finance-s1.0.2] Households buy property, and property purchases generate stamp duty, a tax that is income for the State.
+[hom-personal-finance-s1.0.3] Households supply the workforce: children who grow up in families become the future workers, so families that teach children money management also prepare the next generation.
+[hom-personal-finance-s1.0.4] Families usually run their finances independently, but they may need State aid, such as welfare payments or help from MABS, when income falls short of need.
+[hom-personal-finance-s1.1.b] Households receive money in different forms depending on whether, and how, their members work. The main sources are wages, salaries, pensions and State payments.
+[hom-personal-finance-s1.1.0] Wages: payment for hours worked or output, usually paid weekly or fortnightly, often for manual or hourly work. Because pay follows hours, a week with fewer hours means a smaller wage.
+[hom-personal-finance-s1.1.1] Salaries: a fixed annual amount paid in regular instalments, usually for non-manual or professional work, so the pay is the same each period.
+[hom-personal-finance-s1.1.2] Pensions: income after retirement from an employer's scheme, a personal pension fund or the State. Money paid into a pension while working is a voluntary deduction.
+[hom-personal-finance-s1.1.3] Social welfare allowances and benefits: payments made by the State to people who are unemployed, ill, disabled, caring, retired, widowed or raising children.
+[hom-personal-finance-s1.1.4] Other sources, in one line: profit from self-employment, rent from property, interest on savings, gifts and maintenance payments.
+[hom-personal-finance-s1.2.b] Two households with similar jobs can still have very different incomes. Age, gender, social class, culture and employment pattern all shape how much a household earns and what it must spend.
+[hom-personal-finance-s1.2.0] Age: income tends to rise with experience and promotion, then falls at retirement unless a pension has been arranged.
+[hom-personal-finance-s1.2.1] Age: teenagers can earn part-time income, which eases the financial strain on the family.
+[hom-personal-finance-s1.2.2] Gender: equal-pay law requires equal pay for the same work, but women are still under-represented in senior management, which men hold more of in many sectors. Women are also more likely to work part-time or take career breaks for caring.
+[hom-personal-finance-s1.2.3] Social class: low qualifications or early school leaving can lead to low pay or unemployment, while higher education widens access to better-paid work.
+[hom-personal-finance-s1.2.4] Culture: cultural attitudes shape whether women take paid work, which occupations are seen as suitable, and which spending priorities a household sets.
+[hom-personal-finance-s1.2.5] Employment pattern: the number of family members in paid work, and whether hours are full-time, part-time, job-sharing, flexible or seasonal, all change household income.
+[hom-personal-finance-s1.2.6] Disability, illness or addiction can reduce earning capacity and raise household costs, so income falls while spending needs rise.
+[hom-personal-finance-s1.3.b] The pay a person earns is not the pay they take home, because deductions are taken off first. Knowing which figure is which matters for both exams and household planning.
+[hom-personal-finance-s1.3.0] Gross income is income earned before any deductions are made.
+[hom-personal-finance-s1.3.1] Net income is take-home pay: gross income after deductions have been made.
+[hom-personal-finance-s1.3.2] Compulsory deductions from gross pay are PAYE, PRSI and USC. The law requires them, so the employee cannot choose to avoid them.
+[hom-personal-finance-s1.3.3] Voluntary deductions are chosen by the employee and include union subscriptions, pension contributions, additional voluntary contributions (AVCs, extra payments into a pension), health insurance, savings, social club fees and holiday fund payments.
+[hom-personal-finance-s1.3.4] Budgets are planned from net income, because net income is the money a household actually has to spend and save.
+[hom-personal-finance-s1.4.b] The three compulsory deductions each work differently and each pays for something different. Between them they take money from gross pay for the State.
+[hom-personal-finance-s1.4.0] PAYE (Pay As You Earn) is income tax deducted by the employer from each pay, based on the employee's earnings, and paid to the Revenue Commissioners (the State). It rises with income through a standard rate and a higher rate.
+[hom-personal-finance-s1.4.1] Revenue works out the employee's credits and rate band, and the employer uses these details to calculate the PAYE to deduct.
+[hom-personal-finance-s1.4.2] PAYE and USC go to the State to pay for public services such as health, education, roads and welfare.
+[hom-personal-finance-s1.4.3] PRSI (Pay Related Social Insurance) is a compulsory percentage of pay, so it is related to income. It is paid by the employee, through deduction, and separately by the employer, and it funds social insurance benefits.
+[hom-personal-finance-s1.4.4] Different PRSI classes exist, and self-employed people pay PRSI too. Employees earning below a set threshold are exempt from paying employee PRSI.
+[hom-personal-finance-s1.4.5] USC (Universal Social Charge) is a compulsory charge on gross income, calculated at rates that rise in bands as income rises. It is separate from income tax.
+[hom-personal-finance-s1.4.6] Employees with gross income below a set threshold are exempt from paying USC.
+[hom-personal-finance-s1.5.b] A tax credit lowers the tax bill itself, so it is worth the same as an equal amount of tax saved. It is not a reduction in the pay the tax is worked out on.
+[hom-personal-finance-s1.5.0] A tax credit reduces the amount of income tax a person has to pay. Examples are the personal credit and the employee (PAYE) credit.
+[hom-personal-finance-s1.5.1] Income tax is worked out on gross income first, and the person's tax credits are then subtracted from the tax calculated. A credit does not reduce income before tax is worked out.
+[hom-personal-finance-s1.5.2] Revenue works out the employee's credits and standard rate cut-off point (the income up to which the lower rate applies), and the employer uses them when deducting PAYE.
+[hom-personal-finance-s1.5.3] Tax credits do not reduce the USC, which is charged separately on gross income.
+[hom-personal-finance-s1.6.b] The State pays welfare in two ways. One is earned through PRSI contributions; the other is paid from taxes to people who do not qualify for the first, and it checks their means.
+[hom-personal-finance-s1.6.0] Social insurance payments are paid to people who have made the minimum PRSI contributions, so the person has earned them, and they are not means tested.
+[hom-personal-finance-s1.6.1] Examples of social insurance payments: Jobseeker's Benefit, Illness Benefit, Maternity Benefit, Carer's Benefit and the contributory State pension.
+[hom-personal-finance-s1.6.2] Social assistance payments are paid from taxes to people whose PRSI contributions are insufficient to qualify for social insurance payments, and they are means tested.
+[hom-personal-finance-s1.6.3] Examples of social assistance payments: Jobseeker's Allowance, Disability Allowance, Carer's Allowance and the non-contributory State pension. Carer's Benefit is the PRSI-based alternative to Carer's Allowance.
+[hom-personal-finance-s1.6.4] A means test assesses the claimant's income and capital (usually including a partner's) against a set limit. The payment is reduced or refused as means rise above it.
+[hom-personal-finance-s1.7.b] Some payments follow neither pattern exactly. A universal payment is paid to everyone who meets one condition, without a means test or a contribution record.
+[hom-personal-finance-s1.7.0] Child Benefit: a monthly universal payment for each qualifying child. It is not means tested and does not depend on PRSI contributions.
+[hom-personal-finance-s1.7.1] Working Family Payment: a weekly payment to employees on low pay who have children, and means tested against a family-size income limit. It replaced the name Family Income Supplement.
+[hom-personal-finance-s1.7.2] Supplementary Welfare Allowance: means tested, and paid to people whose means cannot meet their basic needs or those of their dependants.
+[hom-personal-finance-s1.7.3] Supplementary Welfare Allowance can also be a temporary payment for people awaiting another benefit while their claim is being processed.
+[hom-personal-finance-s1.7.4] Maternity Benefit: a social insurance payment for employees on maternity leave.
+[hom-personal-finance-s1.7.5] Other payments a student may name: Carer's Allowance, Disability Allowance, Back to School Clothing and Footwear Allowance and Fuel Allowance.
+[hom-personal-finance-s1.8.b] There are two State pensions for older people, and the difference between them is the same as the difference between social insurance and social assistance.
+[hom-personal-finance-s1.8.0] The contributory State pension (formerly called the old age pension) is based on the claimant's record of PRSI contributions.
+[hom-personal-finance-s1.8.1] The contributory pension is not means tested, so other income does not normally remove entitlement to it.
+[hom-personal-finance-s1.8.2] The non-contributory State pension is means-tested social assistance for an older person who lacks enough PRSI contributions.
+[hom-personal-finance-s1.8.3] Eligibility for the non-contributory pension depends on means and on residence conditions, including habitual residence in the State (a settled, normal home there).

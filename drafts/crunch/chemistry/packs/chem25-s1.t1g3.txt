@@ -1,0 +1,249 @@
+MODE: links only (another package rates cost)
+TARGET chem25-s1: 1. Types of organic reaction and addition polymers
+[chem25-s1.0.b] Organic reactions fall into five types, and the first is addition. It is the characteristic reaction of compounds with a carbon-carbon double bond, because the double bond can open up to take on new atoms.
+[chem25-s1.0.0] An addition reaction is one in which two or more molecules react to form a single molecule.
+[chem25-s1.0.1] Atoms add across a double (or triple) bond, so an unsaturated compound (one with a C=C or C≡C bond) becomes saturated (only single bonds) and there is only one product.
+[chem25-s1.0.2] Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane. Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.
+[chem25-s1.0.3] Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.
+[chem25-s1.0.4] Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.
+[chem25-s1.0.5] Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.
+[chem25-s1.0.6] Ethene and hydrogen with a nickel catalyst (a substance that speeds up the reaction without being used up): CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.
+[chem25-s1.0.7] Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions, because each monomer (small molecule) adds on to the growing chain. It is taught in full later in this subsection.
+[chem25-s1.1.b] In a substitution reaction one atom or group is swapped for another, so two reactants give two products. Alkanes, which have no double bond to add across, react this way.
+[chem25-s1.1.0] A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.
+[chem25-s1.1.1] Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.
+[chem25-s1.1.2] Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.
+[chem25-s1.1.3] Esterification: a carboxylic acid (contains –COOH) and an alcohol (contains –OH) give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem25-s1.1.4] In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol, which is why it counts as substitution.
+[chem25-s1.1.5] Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.
+[chem25-s1.1.6] Hydrolysis of an ester (splitting it using water or a base) is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.
+[chem25-s1.1.7] Alkanes (saturated hydrocarbons) react by substitution, not addition, because they have no double bond to add across.
+[chem25-s1.2.b] Elimination is the reverse of addition. A small molecule is stripped out of a larger one, and the larger molecule is left with a double bond.
+[chem25-s1.2.0] An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.
+[chem25-s1.2.1] Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.
+[chem25-s1.2.2] Water is the small molecule removed, so this elimination is also called a dehydration.
+[chem25-s1.2.3] Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.
+[chem25-s1.2.4] A haloalkane (an alkane with a halogen atom such as Cl) can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.
+[chem25-s1.2.5] 1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).
+[chem25-s1.2.6] Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated.
+[chem25-s1.3.b] Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.
+[chem25-s1.3.0] In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.
+[chem25-s1.3.1] Reduction is the gain of hydrogen or the loss of oxygen.
+[chem25-s1.3.2] Oxidation is also the loss of electrons and an increase in oxidation number (the charge an atom would have if all its bonds were ionic). There is more on this in Oxidation and reduction.
+[chem25-s1.3.3] Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate as the oxidising agent.
+[chem25-s1.3.4] Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH. This is reduction because the molecule gains hydrogen.
+[chem25-s1.3.5] Combustion (burning in oxygen) is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem25-s1.4.b] An acid–base reaction is about a proton moving from one species to another. Carboxylic acids show this clearly, while alcohols are barely acidic.
+[chem25-s1.4.0] An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.
+[chem25-s1.4.1] Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.
+[chem25-s1.4.2] Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+[chem25-s1.4.3] Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.
+[chem25-s1.4.4] Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.
+[chem25-s1.4.5] Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; there is more on this in Physical properties and acidity.
+[chem25-s1.5.b] At Higher Level you must be able to look at an unfamiliar reaction and say which type or types it is. Work through the checks in a fixed order.
+[chem25-s1.5.0] Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.
+[chem25-s1.5.1] Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.
+[chem25-s1.5.2] One reaction can be of more than one type, so give every type that fits: hydrogenation of ethene is addition and reduction.
+[chem25-s1.5.3] Esterification is substitution and condensation, and base hydrolysis of an ester is substitution and acid–base.
+[chem25-s1.6.b] Higher Level questions also ask which bonds break and form. A pi bond is the second, weaker bond of a C=C double bond, added to the stronger C–C sigma bond that is already there.
+[chem25-s1.6.0] Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.
+[chem25-s1.6.1] Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.
+[chem25-s1.6.2] Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.
+[chem25-s1.6.3] Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.
+[chem25-s1.6.4] Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.
+[chem25-s1.6.5] The reaction of sodium with ethanol is likewise a redox reaction.
+[chem25-s1.7.b] Many everyday plastics are built by joining huge numbers of small molecules into one very long molecule. The words polymer, monomer and repeating unit describe this.
+[chem25-s1.7.0] A polymer is a very large molecule, a macromolecule, made of many small units called monomers joined by covalent bonds in a long chain.
+[chem25-s1.7.1] A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.
+[chem25-s1.7.2] The repeating unit is the part of the polymer whose repetition makes up the whole chain, apart from the ends.
+[chem25-s1.7.3] Polymer chains contain thousands of repeating units, so their relative molecular masses (Mr, the mass of a molecule compared with the carbon-12 standard) are very large and vary from chain to chain.
+[chem25-s1.7.4] Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units, because the Mr of ethene is 28.
+[chem25-s1.7.5] Many plastics are polymers, and most addition polymers are made from monomers obtained from crude oil.
+[chem25-s1.8.b] Monomers with a C=C double bond can join end to end because each double bond opens up, just as in an ordinary addition reaction. Repeating this thousands of times builds the chain.
+[chem25-s1.8.0] An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.
+[chem25-s1.8.1] In each addition the pi bond of C=C (the weaker, second bond of the double bond) breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.
+[chem25-s1.8.2] No other product is formed, so the polymer has the same empirical formula (simplest whole-number ratio of atoms) as the monomer.
+[chem25-s1.8.3] General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.
+[chem25-s1.8.4] The polymer is saturated, with no C=C left, so unlike its monomer it does not decolourise bromine water.
+[chem25-s1.8.5] Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end.
+[chem25-s1.8.6] To draw two repeating units, show four backbone carbons in a row, with the side groups on alternate carbons and an open bond at each end; do not write atoms at the ends of the open bonds.
+[chem25-s1.9.b] Poly(ethene) is the simplest addition polymer. How closely its chains pack decides whether it is soft and flexible or strong and rigid.
+[chem25-s1.9.0] The monomer is ethene, CH₂=CH₂, and the repeating unit is –CH₂–CH₂–; poly(ethene) is also called polythene or polyethylene.
+[chem25-s1.9.1] Low-density poly(ethene), LDPE, has branched chains that cannot pack closely, so it is soft and flexible.
+[chem25-s1.9.2] LDPE is used for plastic bags, food-wrapping film and squeezy bottles.
+[chem25-s1.9.3] High-density poly(ethene), HDPE, has unbranched chains that pack closely, so it is stronger and more rigid, with a higher melting point.
+[chem25-s1.9.4] HDPE is used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.
+[chem25-s1.9.5] Diagram: two repeating units of poly(ethene), –CH₂–CH₂–CH₂–CH₂–, with open end bonds.
+[chem25-s1.10.b] PVC is ethene with one hydrogen replaced by chlorine. The polar C–Cl bond gives it very different properties from poly(ethene).
+[chem25-s1.10.0] The monomer is chloroethene, also called vinyl chloride, CH₂=CHCl; the repeating unit is –CH₂–CHCl–.
+[chem25-s1.10.1] Poly(chloroethene) is also called polyvinyl chloride, PVC.
+[chem25-s1.10.2] The polar C–Cl bonds (the shared electrons sit nearer the chlorine) give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.
+[chem25-s1.10.3] Rigid PVC is used for window frames, doors, gutters, drainpipes, water pipes and bank cards.
+[chem25-s1.10.4] Adding plasticisers, small molecules that let the chains slide past each other, makes flexible PVC.
+[chem25-s1.10.5] Flexible PVC is used for electrical cable insulation, flooring and raincoats.
+[chem25-s1.10.6] Diagram: two repeating units of PVC, –CH₂–CHCl–CH₂–CHCl–, with open end bonds.
+[chem25-s1.11.b] Polystyrene is ethene with one hydrogen replaced by a large benzene ring (a ring of six carbon atoms). The bulk of that ring controls the properties.
+[chem25-s1.11.0] The monomer is phenylethene, also called styrene, C₆H₅CH=CH₂, which is ethene with one hydrogen replaced by a benzene ring; the repeating unit is –CH₂–CH(C₆H₅)–.
+[chem25-s1.11.1] The bulky benzene rings stop the chains moving past each other, so solid polystyrene is rigid and brittle.
+[chem25-s1.11.2] Solid polystyrene is used for yoghurt cartons, disposable cups and cutlery, CD cases and ballpoint pen cases.
+[chem25-s1.11.3] Expanded polystyrene is blown with gas into a foam, which makes it very light and a good thermal insulator.
+[chem25-s1.11.4] Expanded polystyrene is used for packaging, takeaway food boxes, ceiling tiles and building insulation.
+[chem25-s1.11.5] Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms.
+[chem25-s1.12.b] Addition polymers are used everywhere because their properties suit the job. The same few polymers turn up in fuel systems, farming, food packaging and the home.
+[chem25-s1.12.0] Fuels: HDPE fuel tanks in cars are light, tough and do not corrode; plastic fuel cans and pipes are also used.
+[chem25-s1.12.1] Waste plastics can be burned for energy, or broken down by heating (pyrolysis) into liquid fuels.
+[chem25-s1.12.2] Food production: poly(ethene) film is used for polytunnels and greenhouses, silage wrap and mulch film on farms.
+[chem25-s1.12.3] PVC and poly(ethene) pipes are used for irrigation and water supply.
+[chem25-s1.12.4] Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so food lasts longer and less is wasted.
+[chem25-s1.12.5] Household products: buckets, bowls, bottles, bags, toys and containers are made from poly(ethene); pipes, gutters and window frames from PVC; insulation and packaging from polystyrene.
+[chem25-s1.12.6] These polymers suit their uses because they are cheap, light, waterproof, durable, easily moulded and unreactive, so they do not react with food, water, fuels or most chemicals.
+[chem25-s1.13.b] Biodegradability depends on whether living things can break a substance down. Addition polymers resist this because of their bonding.
+[chem25-s1.13.0] A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.
+[chem25-s1.13.1] Addition polymers are non-biodegradable.
+[chem25-s1.13.2] The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.
+[chem25-s1.13.3] Like an alkane, an addition polymer has no pi bonds and no polar functional group (a reactive atom or group) for a reagent to attack, so it is chemically stable and unreactive. There is more on this in Groups of hydrocarbons and their properties.
+[chem25-s1.13.4] Microorganisms break down natural polymers, such as starch and proteins, with enzymes (biological catalysts) that attack specific polar linkages.
+[chem25-s1.13.5] Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.
+[chem25-s1.14.b] The stability that makes addition polymers so useful is the same property that makes plastic waste a problem.
+[chem25-s1.14.0] The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.
+[chem25-s1.14.1] Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, and filling of landfill sites.
+[chem25-s1.14.2] Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically.
+[chem25-s1.15.b] Because plastics do not break down, society has to manage them: use less, recycle, burn for energy, or switch to polymers that can degrade.
+[chem25-s1.15.0] Responses include reducing use, reusing, and recycling.
+[chem25-s1.15.1] Plastics are sorted for recycling by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.
+[chem25-s1.15.2] Incineration gives energy but releases CO₂, and burning PVC releases hydrogen chloride.
+[chem25-s1.15.3] Biodegradable polymers with ester linkages, which microorganisms can hydrolyse (split using water), are being developed. These can break down because the ester linkage gives microorganisms something to attack.
+[chem25-s1.15.4] Poly(lactic acid), PLA, is one example: it is made from plant starch and breaks down in industrial composting.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.

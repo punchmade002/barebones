@@ -1,0 +1,439 @@
+MODE: cost and links
+TARGET chem14-s2: 2. Balancing redox equations and the electrochemical series
+[chem14-s2.0.b] Complex redox equations are balanced by making the electrons lost equal the electrons gained. That fixes the key ratio of the equation, and the remaining atoms are then balanced by inspection (by counting atoms and adjusting the numbers in front of the formulas).
+[chem14-s2.0.0] Recap: oxidation is an increase in oxidation number (the charge an atom would have if its bonds were ionic) and reduction is a decrease. There is more on the rules for assigning oxidation numbers in Oxidation and reduction.
+[chem14-s2.0.1] Step 1: assign oxidation numbers to every atom on both sides, so that you can see which atoms change.
+[chem14-s2.0.2] Step 2: identify the elements whose oxidation numbers change. One increases, so the species containing it is oxidised and is the reducing agent (it gives away electrons). One decreases, so that species is reduced and is the oxidising agent (it takes electrons).
+[chem14-s2.0.3] Step 3: work out the change per formula unit, which is the change per atom multiplied by the number of those atoms in the formula. This equals the number of electrons lost or gained.
+[chem14-s2.0.4] Step 4: choose coefficients (the numbers written in front of formulas) for the oxidising and reducing agents, and their products, so that the total increase equals the total decrease. Use the lowest common multiple, so that electrons lost equal electrons gained.
+[chem14-s2.0.5] Step 5: balance the remaining atoms by inspection, leaving oxygen and hydrogen until last, because the other atoms are fixed by the electron step.
+[chem14-s2.0.6] Step 5 in acidic solution: add H₂O to balance O, then add H⁺ to balance H.
+[chem14-s2.0.7] Step 6: check that each element balances and that the total charge is the same on both sides.
+[chem14-s2.1.b] Redox equations often have many atoms and charges, so guessing coefficients rarely works. The method gives a fixed order of working with a built-in check.
+[chem14-s2.1.0] Complex redox equations can't easily be balanced by inspection alone, because oxygen, hydrogen and charge all have to come out right at once.
+[chem14-s2.1.1] Matching electrons lost and gained fixes the key ratio first, and the charge check at the end catches mistakes.
+[chem14-s2.1.2] Write every charge correctly, because one wrong charge makes the equation wrong.
+[chem14-s2.2.b] Acidified manganate(VII) (MnO₄⁻, the purple permanganate ion) oxidises iron(II) ions to iron(III). Each step below follows the method in order.
+[chem14-s2.2.0] Unbalanced: MnO₄⁻ + Fe²⁺ + H⁺ → Mn²⁺ + Fe³⁺ + H₂O.
+[chem14-s2.2.1] Mn goes from +7 to +2, a decrease of 5, so Mn is reduced and MnO₄⁻ is the oxidising agent.
+[chem14-s2.2.2] Fe goes from +2 to +3, an increase of 1, so Fe²⁺ is oxidised and is the reducing agent.
+[chem14-s2.2.3] Equalise: one MnO₄⁻ gains 5 electrons, so 5 Fe²⁺ are needed to lose 5: MnO₄⁻ + 5Fe²⁺ + H⁺ → Mn²⁺ + 5Fe³⁺ + H₂O.
+[chem14-s2.2.4] Balance O: there are 4 O on the left, so 4H₂O on the right.
+[chem14-s2.2.5] Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.
+[chem14-s2.2.6] Check atoms: Mn 1 = 1, Fe 5 = 5, O 4 = 4, H 8 = 8.
+[chem14-s2.2.7] Check charge: left (−1) + 5(+2) + 8(+1) = +17; right (+2) + 5(+3) = +17.
+[chem14-s2.3.b] Copper metal is oxidised by the nitrate ion (NO₃⁻) in acid, and the nitrate is reduced to nitrogen monoxide, NO. Here the electron changes, 2 and 3, don't match, so you need the lowest common multiple.
+[chem14-s2.3.0] Unbalanced: Cu + NO₃⁻ + H⁺ → Cu²⁺ + NO + H₂O.
+[chem14-s2.3.1] Cu goes from 0 to +2, an increase of 2, so copper is oxidised and is the reducing agent.
+[chem14-s2.3.2] N goes from +5 in NO₃⁻ to +2 in NO, a decrease of 3, so nitrate is reduced and is the oxidising agent.
+[chem14-s2.3.3] The lowest common multiple of 2 and 3 is 6: 3Cu (lose 6) and 2NO₃⁻ (gain 6) give 3Cu + 2NO₃⁻ + H⁺ → 3Cu²⁺ + 2NO + H₂O.
+[chem14-s2.3.4] Balance O: 6 O are on the left and 2 are in 2NO, so 4H₂O go on the right.
+[chem14-s2.3.5] Balance H: 8 H are in 4H₂O, so 8H⁺ go on the left: 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O.
+[chem14-s2.3.6] Check charge: left 2(−1) + 8(+1) = +6; right 3(+2) = +6.
+[chem14-s2.4.b] Here the species being oxidised contains two atoms that change, so the change per atom must be multiplied up. Ethanedioate is C₂O₄²⁻.
+[chem14-s2.4.0] Unbalanced: MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O.
+[chem14-s2.4.1] Mn goes from +7 to +2, a decrease of 5, so MnO₄⁻ is reduced and is the oxidising agent.
+[chem14-s2.4.2] C is +3 in C₂O₄²⁻ (2C + 4(−2) = −2) and +4 in CO₂: an increase of 1 per C atom, so 2 per C₂O₄²⁻ ion. The ethanedioate ion is oxidised and is the reducing agent.
+[chem14-s2.4.3] The ethanedioate ion C₂O₄²⁻ is also called oxalate.
+[chem14-s2.4.4] The lowest common multiple of 5 and 2 is 10: 2MnO₄⁻ (gain 10) and 5C₂O₄²⁻ (lose 10) give 2Mn²⁺ and 10CO₂.
+[chem14-s2.4.5] Balance O: the left has 8 + 20 = 28 O, and 10CO₂ holds 20 O, so 8H₂O go on the right.
+[chem14-s2.4.6] Balance H: 16 H⁺ go on the left, to match the 16 H in 8H₂O: 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.
+[chem14-s2.4.7] Check charge: left 2(−1) + 5(−2) + 16(+1) = +4; right 2(+2) = +4.
+[chem14-s2.5.b] Thiosulfate (S₂O₃²⁻) reacts with iodine, and the sulfur ends up with a fractional oxidation number. This is allowed, because an oxidation number is an average over the atoms of that element in the ion.
+[chem14-s2.5.0] Unbalanced: I₂ + S₂O₃²⁻ → I⁻ + S₄O₆²⁻.
+[chem14-s2.5.1] I goes from 0 to −1, so each I gains 1 electron and I₂ gains 2: iodine is reduced and is the oxidising agent.
+[chem14-s2.5.2] S goes from +2 in S₂O₃²⁻ to +2.5 in S₄O₆²⁻, so each S's oxidation number rises by 0.5 and each S₂O₃²⁻ loses 1 electron: thiosulfate is oxidised and is the reducing agent.
+[chem14-s2.5.3] Two S₂O₃²⁻ ions lose 2 electrons, matching one I₂: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.
+[chem14-s2.5.4] S₄O₆²⁻ is the tetrathionate ion.
+[chem14-s2.5.5] Check atoms: I 2 = 2, S 4 = 4, O 6 = 6.
+[chem14-s2.5.6] Check charge: left 2(−2) = −4; right 2(−1) + (−2) = −4.
+[chem14-s2.6.b] A P₄ molecule has four atoms that all change, so the electron change per formula is large, and the lowest common multiple is 60. This example also has H₂O and H⁺ on opposite sides.
+[chem14-s2.6.0] Unbalanced: P₄ + NO₃⁻ + H₂O → PO₄³⁻ + NO + H⁺.
+[chem14-s2.6.1] P goes from 0 in P₄ to +5 in PO₄³⁻, an increase of 5 per atom, so 20 per P₄ molecule: P₄ is oxidised and is the reducing agent.
+[chem14-s2.6.2] N goes from +5 to +2, a decrease of 3: nitrate is reduced and is the oxidising agent.
+[chem14-s2.6.3] The lowest common multiple of 20 and 3 is 60: 3P₄ (lose 60) and 20NO₃⁻ (gain 60) give 3P₄ + 20NO₃⁻ → 12PO₄³⁻ + 20NO.
+[chem14-s2.6.4] Balance O: the left has 60 O, and the right has 48 + 20 = 68, so 8H₂O go on the left.
+[chem14-s2.6.5] Balance H: the 8H₂O supply 16 H, so 16H⁺ go on the right: 3P₄ + 20NO₃⁻ + 8H₂O → 12PO₄³⁻ + 20NO + 16H⁺.
+[chem14-s2.6.6] Check charge: left 20(−1) = −20; right 12(−3) + 16(+1) = −20.
+[chem14-s2.7.b] These equations use the same method with other common oxidising agents. Some are used in titrations (measured reactions between solutions), and you should know them.
+[chem14-s2.7.0] Manganate(VII) oxidises chloride to chlorine, which is why hydrochloric acid is not used to acidify permanganate titrations: 2MnO₄⁻ + 10Cl⁻ + 16H⁺ → 2Mn²⁺ + 5Cl₂ + 8H₂O.
+[chem14-s2.7.1] In that equation each Mn gains 5 electrons (+7 to +2) and each Cl loses 1 electron (−1 to 0).
+[chem14-s2.7.2] Manganate(VII) oxidises iodide to iodine, which is used to make iodine for thiosulfate titrations: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.
+[chem14-s2.7.3] Dichromate(VI) oxidises iron(II): Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O.
+[chem14-s2.7.4] Each Cr falls from +6 to +3, so Cr₂O₇²⁻ gains 6 electrons, and each Fe²⁺ loses 1 electron, which is why 6Fe²⁺ are needed.
+[chem14-s2.7.5] Only some atoms of an element may change: in Cu + 2H₂SO₄ → CuSO₄ + SO₂ + 2H₂O, one S goes from +6 to +4 (gain 2) and the other stays at +6 in CuSO₄, so only that one is counted.
+[chem14-s2.7.6] Copper loses 2 electrons, and the second H₂SO₄ is needed to supply the sulfate for the CuSO₄.
+[chem14-s2.7.7] The manganate(VII) and iron(II) equation, and the iodine and thiosulfate equation, are the ones used in Redox titrations.
+[chem14-s2.8.b] A half-equation shows only the oxidation or only the reduction, with electrons written in. Building the full equation from two half-equations is an alternative to the oxidation-number method.
+[chem14-s2.8.0] The same equation can be built from half-equations: balance the atom that changes, add H₂O to balance O, add H⁺ to balance H, then add electrons to balance charge.
+[chem14-s2.8.1] The number of electrons in a half-equation equals the change in oxidation number.
+[chem14-s2.8.2] Example: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, where the 5 electrons match the change from +7 to +2.
+[chem14-s2.8.3] The iron half-equation is Fe²⁺ → Fe³⁺ + e⁻.
+[chem14-s2.8.4] Multiply the iron half-equation by 5 so that the electrons cancel, then add: MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.
+[chem14-s2.8.5] Either method earns full marks once oxidation numbers have been assigned, whether or not the question says “hence or otherwise”.
+[chem14-s2.9.b] These are the mistakes that most often spoil a balanced equation. Each has a simple rule to prevent it.
+[chem14-s2.9.0] Multiply the change per atom by the number of atoms of that element in the formula: 2 C in C₂O₄²⁻, 2 Cr in Cr₂O₇²⁻, 4 P in P₄, 2 I in I₂. Otherwise the electron count, and so the ratio, is wrong.
+[chem14-s2.9.1] Balance the electron change before adding H₂O and H⁺; adding them first gives wrong ratios.
+[chem14-s2.9.2] Always check charge as well as atoms; an equation can balance in atoms and still be wrong.
+[chem14-s2.9.3] Spectator ions (ions that are present but do not change, such as K⁺, SO₄²⁻, Na⁺) are left out of ionic equations.
+[chem14-s2.9.4] Bismuth is element 83, so bismuthate (BiO₃⁻) is outside the first 36 elements and outside the specification.
+[chem14-s2.10.b] Metals differ in how easily they give up electrons. The electrochemical series ranks them so that you can predict which will react with which.
+[chem14-s2.10.0] The electrochemical series is a list of metals (and hydrogen) in order of their tendency to be oxidised, that is, to lose electrons and form positive ions in solution.
+[chem14-s2.10.1] Order, most easily oxidised first: potassium, calcium, sodium, magnesium, aluminium, zinc, iron, lead, hydrogen, copper, silver, gold (K, Ca, Na, Mg, Al, Zn, Fe, Pb, H, Cu, Ag, Au).
+[chem14-s2.10.2] A metal high in the series loses electrons easily (M → Mⁿ⁺ + ne⁻), so it is a strong reducing agent (a good electron donor). For example Mg(s) → Mg²⁺(aq) + 2e⁻ happens more readily than Cu(s) → Cu²⁺(aq) + 2e⁻.
+[chem14-s2.10.3] The ions of metals low in the series gain electrons most easily, so they are the better oxidising agents: Ag⁺ and Cu²⁺ are reduced more readily than Mg²⁺ or Zn²⁺.
+[chem14-s2.10.4] Metals near the top corrode most easily; gold and silver at the bottom are found uncombined in nature and resist corrosion, which is why they are used in jewellery.
+[chem14-s2.10.5] Hydrogen is included as a reference point: metals above hydrogen displace it from dilute acids, for example Mg(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g).
+[chem14-s2.10.6] Copper, silver and gold, below hydrogen, don't react with dilute hydrochloric or sulfuric acid. There is more on this in Acids, bases and their reactions.
+[chem14-s2.11.b] In a displacement reaction a more easily oxidised metal pushes a less easily oxidised metal out of solution. You can see it happen, because the new metal appears as a deposit and the colour of the solution changes.
+[chem14-s2.11.0] A displacement reaction of metals: a metal higher in the series displaces a metal lower in the series from a solution of its ions. The higher metal is oxidised (reducing agent); the lower metal's ions are reduced (oxidising agent).
+[chem14-s2.11.1] Zinc in copper(II) sulfate: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s). The half-equations for this reaction are those given in Oxidation and reduction.
+[chem14-s2.11.2] Zinc in copper(II) sulfate: the grey zinc becomes coated with brown copper and the blue colour fades, because blue Cu²⁺ ions are used up.
+[chem14-s2.11.3] Magnesium in copper(II) sulfate: Mg(s) + Cu²⁺(aq) → Mg²⁺(aq) + Cu(s); brown copper forms, the blue colour fades and the solution warms, because the reaction is exothermic (it gives out heat).
+[chem14-s2.11.4] Iron in copper(II) sulfate: Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s); an iron nail becomes coated with pink-brown copper and the solution turns from blue towards pale green (iron(II) ions).
+[chem14-s2.11.5] Copper in silver nitrate: Cu(s) + 2Ag⁺(aq) → Cu²⁺(aq) + 2Ag(s); grey-white crystals of silver grow on the copper and the colourless solution turns blue (copper(II) ions).
+[chem14-s2.12.b] The series also tells you when nothing will happen, and how fast a reaction should be.
+[chem14-s2.12.0] No reaction happens when the metal is lower than the metal ion: copper in zinc sulfate, or copper in sodium chloride solution, where Cu + 2Na⁺ → Cu²⁺ + 2Na does not happen because copper is below sodium and is less easily oxidised.
+[chem14-s2.12.1] The anions (negative ions, such as SO₄²⁻, NO₃⁻) don't change; they are spectator ions and are left out of the ionic equation.
+[chem14-s2.12.2] The further apart two metals are in the series, the more vigorous the displacement reaction tends to be: magnesium with copper(II) ions reacts faster and releases more heat than iron with copper(II) ions.
+[chem14-s2.13.b] This experiment ranks four metals by testing which of them displace the others from solution. The ranking is then compared with the electrochemical series.
+[chem14-s2.13.0] Aim: to place magnesium, zinc, iron and copper in order of their tendency to be oxidised, using displacement reactions, and to compare the order with the electrochemical series.
+[chem14-s2.13.1] Independent variable (the thing you change): the metal, and so the metal-ion solution it is placed in.
+[chem14-s2.13.2] Dependent variable (the thing you observe): whether a reaction is seen, shown by a deposit, a colour change or a temperature rise.
+[chem14-s2.13.3] Controlled variables (kept the same so that the test is fair): the concentration and volume of each solution, the size and surface area of each metal piece, the temperature and the time allowed.
+[chem14-s2.14.b] Each metal is added to the solutions of the other metals' ions, and the observations are recorded in a grid.
+[chem14-s2.14.0] Step 1: clean each strip of metal (magnesium ribbon, zinc foil, iron nail or wire, copper foil) with sandpaper to remove the oxide layer, which would stop or slow the reaction.
+[chem14-s2.14.1] Step 2: place the same volume (e.g. about 5 cm³) of each solution, all at the same concentration, in test tubes (or the wells of a spotting tile, a white tile with small hollows): magnesium sulfate, zinc sulfate, iron(II) sulfate and copper(II) sulfate.
+[chem14-s2.14.2] Step 3: add a piece of each metal to each solution other than its own; a metal in a solution of its own ions acts as a control, because no reaction is possible.
+[chem14-s2.14.3] Step 4: leave for a set time (e.g. 5 minutes), then record any deposit on the metal, change in colour of the solution and temperature change in a results grid.
+[chem14-s2.14.4] Step 5: repeat the experiment to check the observations.
+[chem14-s2.15.b] Counting how many displacements each metal causes gives a ranking, which you then compare with the series.
+[chem14-s2.15.0] Sample data (expected): magnesium reacts with zinc, iron(II) and copper(II) ions (3 reactions); zinc reacts with iron(II) and copper(II) ions (2); iron reacts with copper(II) ions (1); copper reacts with none (0).
+[chem14-s2.15.1] Ranking by number of displacements gives Mg > Zn > Fe > Cu, which matches the order in the electrochemical series: magnesium is the most easily oxidised and the strongest reducing agent of the four.
+[chem14-s2.15.2] Write an ionic equation for each reaction seen, e.g. Mg(s) + Zn²⁺(aq) → Mg²⁺(aq) + Zn(s), with a grey zinc deposit on the magnesium.
+[chem14-s2.15.3] Zn(s) + Fe²⁺(aq) → Zn²⁺(aq) + Fe(s) gives a dark deposit, and the pale green colour fades.
+[chem14-s2.15.4] A larger temperature rise, measured with a thermometer using equal amounts of metal powder and solution, is further evidence that the metals are further apart in the series.
+[chem14-s2.15.5] Limitation: no visible change shows only that a reaction is too slow to see in the time allowed; it does not prove that no reaction is possible.
+[chem14-s2.16.b] Some of the chemicals are hazardous, and several things can make the results misleading.
+[chem14-s2.16.0] Wear goggles. Copper(II) sulfate is harmful if swallowed, an irritant and toxic to aquatic life; silver nitrate stains skin and is corrosive.
+[chem14-s2.16.1] Collect metal-ion solutions in a waste container rather than pouring them down the sink, because they are harmful to aquatic life.
+[chem14-s2.16.2] Keep magnesium away from flames.
+[chem14-s2.16.3] An oxide layer left on a metal can stop a reaction that should happen; aluminium's Al₂O₃ layer makes it appear unreactive.
+[chem14-s2.16.4] Deposits are hard to see on dark metals, very slow reactions may be missed, and different surface areas or concentrations make comparisons unfair.
+[chem14-s2.16.5] Diagram: a row of test tubes in a rack (or a spotting tile), each containing a metal-ion solution with a strip of metal, labelled with the metal and the solution.
+[chem14-s2.16.6] Diagram: a results grid of metals against solutions, with ticks and crosses for reaction and no reaction.
+[chem14-s2.17.b] You can also work out the order of metals from results that someone else collected, and you can use the series to predict reactions without doing them.
+[chem14-s2.17.0] Secondary data are results collected by others, e.g. a table of displacement observations from another class or a data source; they are analysed in the same way, so a metal that displaces another from solution is higher in the series.
+[chem14-s2.17.1] Example: if metal X displaces copper and lead from solutions of their ions but not zinc, X lies between zinc and lead in the series.
+[chem14-s2.17.2] The series predicts reactions without doing them: zinc will displace silver from silver nitrate; silver will not displace copper from copper(II) sulfate.
+[chem14-s2.17.3] The most reactive metals (potassium, sodium, calcium) are not used in displacement from solution, because they react with the water instead, releasing hydrogen: 2Na + 2H₂O → 2NaOH + H₂.
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.
+
+CANDIDATES chem7-s1: 1. Families and trends in the periodic table
+[chem7-s1.0.b] An element's position in the periodic table tells you how its atoms behave. Columns are called groups, and the groups on the left and right edges are the ones you need to know.
+[chem7-s1.0.0] Elements in the same group have the same number of outer electrons (the electrons in the highest occupied energy level), so they undergo similar reactions.
+[chem7-s1.0.1] Going down a group, atoms have more energy levels (the shells that hold electrons around the nucleus), which explains the trends in reactivity within each group.
+[chem7-s1.0.2] Groups 1 and 2 are on the left of the periodic table; they are metals that lose electrons to form positive ions (charged particles).
+[chem7-s1.0.3] Groups 17 and 18 are on the right; the halogens (group 17) are non-metals that gain electrons, and the noble gases (group 18) neither gain nor lose electrons.
+[chem7-s1.0.4] Hydrogen appears in group 1 in some tables but is not an alkali metal.
+[chem7-s1.1.b] Group 1 is the first column of the periodic table. Its metals are named alkali metals because they form alkaline solutions with water, and each has a single outer electron that it loses very easily.
+[chem7-s1.1.0] Members: lithium, sodium, potassium, rubidium, caesium and francium; each atom has one outer electron.
+[chem7-s1.1.1] State and conductivity: soft, shiny solids when freshly cut, with low densities and low melting points for metals; good conductors of heat and electricity.
+[chem7-s1.1.2] Reactivity: very reactive, so they tarnish quickly in air (the shiny surface goes dull as it reacts) and are stored under oil to keep air and moisture away.
+[chem7-s1.1.3] Reactivity increases down the group because the outer electron is further from the nucleus and more shielded (inner electrons block some of the nucleus's pull), so it is lost more easily.
+[chem7-s1.1.4] They form 1+ ions (Li⁺, Na⁺, K⁺) because each atom loses its one outer electron, and they make ionic compounds such as sodium chloride.
+[chem7-s1.1.5] Safety: use only small pieces, behind a safety screen and wearing goggles, because the reactions are vigorous; never touch them with bare hands.
+[chem7-s1.2.b] All the alkali metals react with water to give an alkaline solution and hydrogen gas. What you see changes with the metal, and the observations show the trend in reactivity.
+[chem7-s1.2.0] With water they form an alkaline hydroxide and hydrogen: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem7-s1.2.1] Lithium: 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g). Potassium: 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g).
+[chem7-s1.2.2] Lithium floats and fizzes steadily on the water, the gentlest of the three.
+[chem7-s1.2.3] Sodium melts into a silvery ball that darts about on the surface.
+[chem7-s1.2.4] Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame.
+[chem7-s1.2.5] The solution formed turns universal indicator (a mixture of dyes that shows pH by colour) purple, showing that it is alkaline.
+[chem7-s1.3.b] Group 2 sits next to group 1. These metals are also reactive, but each atom has two outer electrons to lose, which makes them a little less reactive than their group 1 neighbours.
+[chem7-s1.3.0] Members: beryllium, magnesium, calcium, strontium, barium and radium; each atom has two outer electrons.
+[chem7-s1.3.1] State and conductivity: solid metals, harder and denser than group 1 metals; good conductors.
+[chem7-s1.3.2] Reactivity: reactive, but less so than group 1 metals in the same period (the same row), because two electrons must be lost.
+[chem7-s1.3.3] Calcium reacts steadily with cold water: Ca(s) + 2H₂O(l) → Ca(OH)₂(aq) + H₂(g).
+[chem7-s1.3.4] Magnesium reacts only very slowly with cold water but burns in air with a bright white flame: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem7-s1.3.5] Reactivity increases down the group, for the same reason as group 1: the outer electrons are further from the nucleus and more shielded.
+[chem7-s1.3.6] They form 2+ ions (Mg²⁺, Ca²⁺) because each atom loses its two outer electrons.
+[chem7-s1.4.b] The halogens are the reactive non-metals in group 17. Each atom is one electron short of a full outer level, so it readily gains one electron.
+[chem7-s1.4.0] Members: fluorine, chlorine, bromine and iodine (astatine); each atom has seven outer electrons.
+[chem7-s1.4.1] The halogens exist as diatomic molecules (two atoms joined together): F₂, Cl₂, Br₂ and I₂.
+[chem7-s1.4.2] Fluorine is a pale yellow gas at room temperature, and chlorine is a yellow-green gas.
+[chem7-s1.4.3] Bromine is a red-brown liquid at room temperature. Iodine is a grey-black solid that forms a purple vapour when heated.
+[chem7-s1.4.4] Conductivity: halogens are non-metals and do not conduct electricity.
+[chem7-s1.4.5] Reactivity: very reactive non-metals that gain one electron to form 1− halide ions (negative ions of a halogen): F⁻, Cl⁻, Br⁻ and I⁻.
+[chem7-s1.4.6] They react with metals to form salts, e.g. 2Na(s) + Cl₂(g) → 2NaCl(s).
+[chem7-s1.4.7] Reactivity decreases down the group because larger atoms attract an extra electron less strongly, as it is further from the nucleus and more shielded.
+[chem7-s1.5.b] Because reactivity falls down group 17, a more reactive halogen can push a less reactive one out of a solution of its salt. This is called displacement, and the colour change shows it has happened.
+[chem7-s1.5.0] Displacement: a more reactive halogen displaces a less reactive one from a solution of its salt.
+[chem7-s1.5.1] Chlorine and potassium bromide: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq); the colourless solution turns orange-brown as bromine forms.
+[chem7-s1.5.2] Chlorine and potassium iodide: Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq); the solution turns brown as iodine forms.
+[chem7-s1.5.3] Bromine displaces iodine from a solution of its salt but does not displace chlorine, because bromine is less reactive than chlorine.
+[chem7-s1.5.4] Safety: halogens are toxic and corrosive, so they are used in a fume cupboard (an enclosure that draws fumes away from the user).
+[chem7-s1.6.b] The noble gases are the last column of the periodic table. Their atoms already have a full outer energy level, so they have almost no tendency to react, and their uses depend on that.
+[chem7-s1.6.0] Members: helium, neon, argon, krypton, xenon and radon.
+[chem7-s1.6.1] State: colourless, odourless gases made of single atoms (monatomic).
+[chem7-s1.6.2] Conductivity: non-conductors.
+[chem7-s1.6.3] Reactivity: very unreactive (inert) because they have full outer energy levels, a stable arrangement: helium has 2 outer electrons and the others have 8.
+[chem7-s1.6.4] Helium is used in balloons and airships because it is unreactive and has a low density.
+[chem7-s1.6.5] Argon is used in filament light bulbs and as a shield gas in welding, where its lack of reactivity protects the hot metal and the filament.
+[chem7-s1.6.6] Neon is used in advertising signs, where it glows red in an electric discharge.
+[chem7-s1.7.b] The periodic table lists elements in order of atomic number (the number of protons in an atom). Relative atomic mass (the average mass of an atom of the element, compared with carbon-12) follows a looser pattern.
+[chem7-s1.7.0] Atomic number increases by one from each element to the next.
+[chem7-s1.7.1] Relative atomic mass generally increases with atomic number.
+[chem7-s1.7.2] Relative atomic mass falls in a few places: argon (39.95) comes before potassium (39.10), and tellurium (127.6) comes before iodine (126.9).
+[chem7-s1.7.3] These exceptions come from the mix of isotopes (atoms of the same element with different masses) of each element, not from mistakes in the table.
+[chem7-s1.8.b] The way outer electrons change across and down the table explains why elements are arranged in periods (rows) and groups (columns).
+[chem7-s1.8.0] Across a period, the number of outer electrons increases by one at each step, all in the same main energy level, which is why a period is one row.
+[chem7-s1.8.1] Down a group, the number of outer electrons stays the same, so the elements react similarly, but a new main energy level is added each time, so the outer electrons are further out.
+[chem7-s1.8.2] The repeating pattern of outer-electron arrangements causes periodicity (the regular repeating of properties down the table): elements with the same outer arrangement fall in the same group.
+[chem7-s1.9.b] Electronegativity is the ability of an atom to attract bonding electrons towards itself. Values are on the Pauling scale.
+[chem7-s1.9.0] Electronegativity increases across a period, e.g. sodium 0.93 to chlorine 3.16 in period 3.
+[chem7-s1.9.1] Electronegativity decreases down a group, e.g. fluorine 3.98 to iodine 2.66 in group 17.
+[chem7-s1.9.2] The explanation for these values is in "Bond type and intermolecular forces".
+[chem7-s1.10.b] Atoms react because they are more stable with a full outer level. This explains why reactivity rises and falls in a pattern across and down the table.
+[chem7-s1.10.0] Atoms react to reach a full outer level of eight electrons (the octet rule), by losing, gaining or sharing electrons.
+[chem7-s1.10.1] Metals react by losing electrons: reactivity increases down group 1 and group 2, because the outer electrons are further from the nucleus and more shielded.
+[chem7-s1.10.2] Across a period, metal reactivity decreases from group 1 to group 2 to group 13.
+[chem7-s1.10.3] Non-metals react by gaining electrons: reactivity decreases down group 17, because larger atoms attract an extra electron less strongly.
+[chem7-s1.10.4] Across a period, non-metal reactivity generally increases towards group 17.
+[chem7-s1.10.5] Noble gases already have a full outer level, so they have no need to gain or lose electrons and are unreactive.
+[chem7-s1.11.b] Period 3 runs from sodium to argon. Across it the elements change from metals to non-metals, and the physical properties change with them.
+[chem7-s1.11.0] Sodium, magnesium and aluminium are shiny metals and good conductors.
+[chem7-s1.11.1] Silicon is a metalloid (an element with properties between those of a metal and a non-metal) and a semiconductor (it conducts only slightly).
+[chem7-s1.11.2] Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors.
+[chem7-s1.11.3] Melting points rise across period 3 to a maximum at silicon (1414 °C), which has a giant covalent structure (a huge network of atoms joined by covalent bonds).
+[chem7-s1.11.4] Beyond silicon, melting points fall sharply for the molecular non-metals and for argon.
+[chem7-s1.11.5] Down group 1, melting points decrease: lithium 181 °C, sodium 98 °C, potassium 63 °C.
+[chem7-s1.11.6] Down group 17, melting and boiling points increase, so the halogens change from gases to a liquid to a solid.
+[chem7-s1.12.b] These trends are Higher Level only. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.
+[chem7-s1.12.0] Atomic (covalent) radius decreases across a period and increases down a group.
+[chem7-s1.12.1] First ionisation energy generally increases across a period and decreases down a group.
+[chem7-s1.12.2] Successive ionisation energies of an element always increase.
+[chem7-s1.12.3] Higher Level trends extend to the first 36 elements, to krypton; Ordinary level uses the first 20, to calcium.
+[chem7-s1.13.b] How strongly an atom holds its outer electrons depends on three factors. They explain every trend in atomic radius and ionisation energy that follows.
+[chem7-s1.13.0] Effective nuclear charge: the more protons in the nucleus, the stronger the pull on the outer electrons.
+[chem7-s1.13.1] Distance: the further the outer electrons are from the nucleus (more energy levels), the weaker the pull on them.
+[chem7-s1.13.2] Screening (shielding): inner electrons shield the outer electrons from the full nuclear charge; electrons in the same energy level shield each other very little.
+[chem7-s1.14.b] Atomic radius measures the size of an atom. Its trends follow from the nuclear charge, the number of energy levels and the screening.
+[chem7-s1.14.0] Atomic (covalent) radius: half the distance between the nuclei of two atoms of the same element joined by a single covalent bond.
+[chem7-s1.14.1] Across a period it decreases: nuclear charge increases while electrons enter the same main energy level, with little extra screening, so the outer electrons are pulled closer.
+[chem7-s1.14.2] Down a group it increases: each element has an extra energy level, and the extra inner electrons screen the outer electrons, outweighing the increase in nuclear charge.
+[chem7-s1.14.3] Noble gases are not given a covalent radius because they don't form bonds.
+[chem7-s1.15.b] First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends, and a few elements break the pattern because of sublevel stability and electron pairing.
+[chem7-s1.15.0] First ionisation energy: the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state (lowest energy state): X(g) → X⁺(g) + e⁻. Its unit is kJ mol⁻¹.
+[chem7-s1.15.1] Period 2 first ionisation energies (kJ mol⁻¹): Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2081.
+[chem7-s1.15.2] Period 3 first ionisation energies (kJ mol⁻¹): Na 496, Mg 738, Al 578, Si 787, P 1012, S 1000, Cl 1251, Ar 1521.
+[chem7-s1.15.3] Values are standard data book figures, rounded.
+[chem7-s1.15.4] Across a period the value generally increases, because nuclear charge increases and atomic radius decreases, so the outer electron is held more tightly. Noble gases have the highest first ionisation energy in each period.
+[chem7-s1.15.5] Down a group the value decreases, because the outer electron is further from the nucleus and more screened, despite the larger nuclear charge.
+[chem7-s1.15.6] Group 1 metals have the lowest values in each period, which is why they lose electrons easily and are so reactive; the value falls down the group to potassium at 419 kJ mol⁻¹.
+[chem7-s1.16.b] The rise across a period is not perfectly smooth, because a few elements have a lower value than the one before. The cause is the stability of particular sublevels (subdivisions of an energy level, such as 2s and 2p) and electron pairing.
+[chem7-s1.16.0] Beryllium is higher than boron (899 against 801 kJ mol⁻¹) because beryllium's 2s sublevel is full (1s² 2s²), a stable arrangement.
+[chem7-s1.16.1] Boron's outer electron is alone in a 2p orbital (1s² 2s² 2p¹), which is slightly higher in energy and more screened, so it is removed more easily.
+[chem7-s1.16.2] Nitrogen is higher than oxygen (1402 against 1314 kJ mol⁻¹) because nitrogen's 2p sublevel is half full, with one electron in each orbital (2p³), a stable arrangement.
+[chem7-s1.16.3] In oxygen (2p⁴) one 2p orbital holds a pair of electrons, and repulsion between the paired electrons makes one of them easier to remove.
+[chem7-s1.16.4] The same pattern occurs in period 3: magnesium (738) is higher than aluminium (578), and phosphorus (1012) is higher than sulfur (1000).
+[chem7-s1.16.5] Diagram: a graph of first ionisation energy against atomic number for elements 1 to 20, showing peaks at the noble gases, troughs at the alkali metals and small dips after Be, N, Mg and P.
+[chem7-s1.17.b] After the first electron is removed, more can be taken away one at a time. The sizes of the successive energies reveal how an atom's electrons are arranged in energy levels.
+[chem7-s1.17.0] Second ionisation energy: the energy needed to remove an electron from a 1+ ion, not a second electron from the neutral atom: X⁺(g) → X²⁺(g) + e⁻; the third and later follow the same pattern.
+[chem7-s1.17.1] Successive ionisation energies always increase, because each electron is removed from an increasingly positive ion, so the same nuclear charge holds fewer electrons more tightly.
+[chem7-s1.17.2] A very large jump occurs when an electron is removed from a new, inner energy level, which is closer to the nucleus and less screened.
+[chem7-s1.17.3] Magnesium: 738, 1451 and 7733 kJ mol⁻¹; the big jump between the second and third shows two outer electrons, so magnesium is in group 2.
+[chem7-s1.17.4] Sodium: 496 then 4562 kJ mol⁻¹; the big jump after the first shows one outer electron, so sodium is in group 1.
+[chem7-s1.17.5] A graph of the log of successive ionisation energies against electron number for potassium shows jumps that group its electrons into 2, 8, 8 and 1, which is evidence for main energy levels.

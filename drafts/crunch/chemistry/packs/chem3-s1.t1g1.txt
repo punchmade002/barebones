@@ -1,0 +1,258 @@
+MODE: cost and links
+TARGET chem3-s1: 1. The orbital model and electronic structure
+[chem3-s1.0.b] The current model of the atom has a tiny nucleus at the centre and electrons arranged around it in energy levels and orbitals. Knowing these four ideas, nucleus, energy level, orbital and capacity, lets you describe any atom.
+[chem3-s1.0.0] The nucleus is a tiny, dense, positively charged centre of the atom, containing protons (positive particles) and neutrons (particles with no charge). There is more on this in Atomic structure: the nuclear model.
+[chem3-s1.0.1] Electrons (the negatively charged particles) surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…
+[chem3-s1.0.2] The main energy levels increase in energy, and in average distance from the nucleus, as n increases, so an electron in n = 3 has more energy and is on average further out than one in n = 1.
+[chem3-s1.0.3] Within a main energy level, electrons occupy orbitals, which are the smaller regions that make up the level.
+[chem3-s1.0.4] An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.
+[chem3-s1.0.5] Each orbital can hold a maximum of two electrons, so an orbital that is full is holding a pair.
+[chem3-s1.0.6] The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.
+[chem3-s1.0.7] Each main energy level is divided into sublevels (smaller groups of orbitals within the level), made of orbitals; the sublevels and how they fill are covered later in this subsection.
+[chem3-s1.1.b] The Bohr model, an older picture of the atom, drew electrons orbiting like planets. The orbital model keeps part of that idea but changes how we describe where an electron is.
+[chem3-s1.1.0] The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.
+[chem3-s1.1.1] The orbital model gives no exact path or position for an electron, only the probability of it being found in each region.
+[chem3-s1.1.2] The orbital model keeps the Bohr idea of fixed energy levels, so electrons can only have certain energies.
+[chem3-s1.1.3] Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability instead of a path.
+[chem3-s1.1.4] Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison.
+[chem3-s1.2.b] In hydrogen, the single electron cannot have just any energy. This is the idea behind the hydrogen spectrum, and it gives two terms, ground state and excited state, that you must be able to distinguish.
+[chem3-s1.2.0] The electron in a hydrogen atom can exist only in certain allowed energy levels, n = 1, 2, 3…, so its energy is quantised: it can take only certain fixed values.
+[chem3-s1.2.1] The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen.
+[chem3-s1.2.2] An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge (a current passed through a gas).
+[chem3-s1.2.3] Excited states are unstable, so the electron soon falls back to a lower level.
+[chem3-s1.3.b] When an excited electron drops to a lower level, the atom has to get rid of the energy difference. It does so as light, and the equation Em − En = hf links the size of the drop to the light given out.
+[chem3-s1.3.0] An electron transition is a jump of an electron from one energy level to another.
+[chem3-s1.3.1] When an electron falls from a higher level (energy Em) to a lower level (energy En), the energy difference is emitted as a photon, a packet of light energy.
+[chem3-s1.3.2] The photon's energy is related to its frequency (the number of wave cycles per second) by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).
+[chem3-s1.3.3] Light is emitted when electrons fall to lower levels; when electrons jump up to higher levels they absorb energy instead.
+[chem3-s1.3.4] Because the energy levels are fixed, each transition has one definite energy difference, so it emits light of one definite frequency, seen as one line of one colour.
+[chem3-s1.3.5] A larger energy gap gives light of higher frequency and shorter wavelength.
+[chem3-s1.4.b] An emission spectrum is the pattern of light an element gives out when its atoms are excited. Hydrogen's pattern is separate lines, and that is direct evidence for fixed energy levels.
+[chem3-s1.4.0] An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope (an instrument that splits light into its colours) or diffraction grating.
+[chem3-s1.4.1] It is a line spectrum: separate bright coloured lines on a dark background, not the continuous band of colours produced by white light.
+[chem3-s1.4.2] Each line corresponds to one transition from a higher energy level to a lower one.
+[chem3-s1.4.3] A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.
+[chem3-s1.5.b] The lines of hydrogen fall into groups called series, named by the level the electrons fall to. The visible lines are the Balmer series, and each colour comes from a different starting level.
+[chem3-s1.5.0] The visible lines form the Balmer series, made by electrons falling to n = 2.
+[chem3-s1.5.1] Red line, 656 nm: the electron falls from n = 3 to n = 2.
+[chem3-s1.5.2] Blue-green line, 486 nm: the electron falls from n = 4 to n = 2.
+[chem3-s1.5.3] Blue-violet line, 434 nm: the electron falls from n = 5 to n = 2.
+[chem3-s1.5.4] Violet line, 410 nm: the electron falls from n = 6 to n = 2.
+[chem3-s1.6.b] Falls to levels other than n = 2 give lines outside the visible region. The spacing of the lines also reflects how the levels are spaced.
+[chem3-s1.6.0] Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet (light of higher energy than visible light).
+[chem3-s1.6.1] Transitions down to n = 3 form the Paschen series, which lies in the infrared (light of lower energy than visible light).
+[chem3-s1.6.2] The lines get closer together at higher energy, because the energy levels themselves get closer together further from the nucleus.
+[chem3-s1.6.3] Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared).
+[chem3-s1.6.4] Diagram: beside it, sketch the line spectrum with the four visible lines labelled.
+[chem3-s1.7.b] Hydrogen's lines come from electrons changing level. The same thing happens in every element, which is why heating a compound in a flame makes a colour you can use to identify it.
+[chem3-s1.7.0] Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.
+[chem3-s1.7.1] The electrons fall back to lower levels and give out the energy as light.
+[chem3-s1.7.2] Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element.
+[chem3-s1.8.b] A flame test identifies a metal from the colour its salt gives to a flame. A fair test needs the right equipment, and everything except the metal kept the same.
+[chem3-s1.8.0] Aim: to identify the metal in a salt from the colour it gives to a flame.
+[chem3-s1.8.1] Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.
+[chem3-s1.8.2] Independent variable (the one you change): the metal in the salt being tested.
+[chem3-s1.8.3] Dependent variable (the one you observe): the colour of the flame.
+[chem3-s1.8.4] Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.
+[chem3-s1.8.5] Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.
+[chem3-s1.9.b] The method is four steps, repeated for each salt. The cleaning step matters most, because leftover salt from a previous test would colour the flame and give a wrong result.
+[chem3-s1.9.0] 1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.
+[chem3-s1.9.1] 2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile (they vaporise easily in the flame).
+[chem3-s1.9.2] 3. Hold the wire at the edge of the non-luminous flame and note the colour.
+[chem3-s1.9.3] 4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.
+[chem3-s1.9.4] Repeats: repeat each test to confirm the colour observed.
+[chem3-s1.9.5] Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.
+[chem3-s1.10.b] The chemicals and the hot wire are hazards, and the result only means something when it is compared with known colours. Each piece of apparatus also needs a labelled diagram.
+[chem3-s1.10.0] Safety: wear goggles, so that no splash or spark reaches the eyes.
+[chem3-s1.10.1] Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.
+[chem3-s1.10.2] Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.
+[chem3-s1.10.3] Safety: keep the hot wire away from the skin, because it can burn.
+[chem3-s1.10.4] Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.
+[chem3-s1.10.5] Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.
+[chem3-s1.10.6] Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.
+[chem3-s1.10.7] Diagram: cobalt-blue glass held between the eye and the flame; label the cobalt-blue glass.
+[chem3-s1.11.b] Each of the six metals gives its own flame colour. Learn the colour for each, and note the one pair that look alike.
+[chem3-s1.11.0] Lithium: crimson red, which is why it is easily confused with strontium.
+[chem3-s1.11.1] Sodium: bright yellow-orange; the colour is persistent (it lasts and is strong).
+[chem3-s1.11.2] Potassium: lilac (pale purple).
+[chem3-s1.11.3] Copper: blue-green.
+[chem3-s1.11.4] Barium: pale (apple) green.
+[chem3-s1.11.5] Strontium: red (scarlet).
+[chem3-s1.11.6] Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them.
+[chem3-s1.12.b] A flame colour is a mix of light of several wavelengths. Splitting the light with a spectroscope separates it into lines, which gives a more precise way to identify an element.
+[chem3-s1.12.0] A spectroscope splits the light from a flame or electric discharge into its separate colours.
+[chem3-s1.12.1] Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.
+[chem3-s1.12.2] To identify an element, compare the lines from an unknown sample, obtained as primary data (your own measurements) from a spectroscope or as secondary data (from another source) such as a published spectrum, with reference spectra of known elements.
+[chem3-s1.12.3] A match of all the lines identifies the element.
+[chem3-s1.13.b] The syllabus names three elements whose line spectra you must be able to use. Their lines explain the flame colours seen, and the same idea is applied in stars and fireworks.
+[chem3-s1.13.0] Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.
+[chem3-s1.13.1] Strontium: several lines, strongest in the red, so its flame looks red.
+[chem3-s1.13.2] Copper: lines mainly in the green, giving its blue-green flame.
+[chem3-s1.13.3] Line spectra are used to identify elements in samples and in stars.
+[chem3-s1.13.4] Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green.
+[chem3-s1.14.b] For the first 20 elements, you can write an atom's electrons as a list of numbers, one for each main energy level. The electrons fill from the inside out.
+[chem3-s1.14.0] Electrons fill the lowest energy levels available first, because that is the most stable arrangement.
+[chem3-s1.14.1] For elements 1 to 20, the first main energy level holds up to 2 electrons, the second up to 8 and the third up to 8; the fourth level starts to fill at potassium.
+[chem3-s1.14.2] The outer-shell (valence) electrons, those in the outermost occupied level, determine the chemical properties of an element.
+[chem3-s1.14.3] Elements in the same group have the same number of outer electrons, which is why they have similar properties.
+[chem3-s1.15.b] Write the number of electrons in each main energy level, from the inside out, separated by commas. These ten examples show the pattern.
+[chem3-s1.15.0] Hydrogen (H) 1.
+[chem3-s1.15.1] Helium (He) 2.
+[chem3-s1.15.2] Carbon (C) 2,4.
+[chem3-s1.15.3] Oxygen (O) 2,6.
+[chem3-s1.15.4] Sodium (Na) 2,8,1.
+[chem3-s1.15.5] Magnesium (Mg) 2,8,2.
+[chem3-s1.15.6] Chlorine (Cl) 2,8,7.
+[chem3-s1.15.7] Argon (Ar) 2,8,8.
+[chem3-s1.16.b] Potassium and calcium show the fourth level beginning to fill, and a shell diagram is a way to draw an arrangement.
+[chem3-s1.16.0] Potassium (K) 2,8,8,1.
+[chem3-s1.16.1] Calcium (Ca) 2,8,8,2.
+[chem3-s1.16.2] Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons.
+[chem3-s1.17.b] Atoms with a full outer energy level are stable. Many atoms reach one by losing or gaining electrons, which turns them into ions (charged particles).
+[chem3-s1.17.0] A stable electronic configuration has a full outer energy level, as in the noble gases (the very unreactive elements in group 18): helium 2, neon 2,8 and argon 2,8,8.
+[chem3-s1.17.1] Atoms usually reach a full outer level of eight electrons (an octet), or two for the first level.
+[chem3-s1.17.2] Metals in groups 1, 2 and 13 lose electrons to form positive ions with a noble-gas configuration: Na⁺ 2,8; Mg²⁺ 2,8; Al³⁺ 2,8.
+[chem3-s1.17.3] Potassium and calcium ions also have noble-gas configurations: K⁺ 2,8,8; Ca²⁺ 2,8,8.
+[chem3-s1.17.4] Non-metals in groups 15, 16 and 17 gain electrons to form negative ions with a noble-gas configuration: N³⁻ 2,8; O²⁻ 2,8; F⁻ 2,8.
+[chem3-s1.17.5] Sulfide and chloride ions have noble-gas configurations: S²⁻ 2,8,8; Cl⁻ 2,8,8.
+[chem3-s1.17.6] Ions with the same electron arrangement as each other are isoelectronic; for example Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have the arrangement 2,8.
+[chem3-s1.18.b] A main energy level is split into sublevels, and each sublevel is made of orbitals. The type of sublevel decides how many orbitals it has and so how many electrons it holds.
+[chem3-s1.18.0] A sublevel is a subdivision of a main energy level, made of orbitals of equal energy; the sublevels are s, p, d and f.
+[chem3-s1.18.1] An s sublevel has 1 orbital, holding 2 electrons, because each orbital holds 2.
+[chem3-s1.18.2] A p sublevel has 3 orbitals, holding 6 electrons, because each orbital holds 2.
+[chem3-s1.18.3] A d sublevel has 5 orbitals, holding 10 electrons, because 5 × 2 = 10.
+[chem3-s1.19.b] The higher the main energy level, the more types of sublevel it contains. The sublevels fill in order of increasing energy, and this order has a surprise at 4s and 3d.
+[chem3-s1.19.0] Level 1 contains 1s only, so it holds just 2 electrons.
+[chem3-s1.19.1] Level 2 contains 2s and 2p, so it holds 2 + 6 = 8 electrons.
+[chem3-s1.19.2] Level 3 contains 3s, 3p and 3d.
+[chem3-s1.19.3] Level 4 contains 4s, 4p, 4d and 4f.
+[chem3-s1.19.4] The order of filling, from lowest to highest energy, is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.
+[chem3-s1.19.5] The 4s sublevel is lower in energy than 3d, so it fills first.
+[chem3-s1.20.b] Three rules decide how electrons are placed in orbitals. Together they let you draw an orbital (box) diagram and count unpaired electrons.
+[chem3-s1.20.0] Aufbau principle: the filling rule above, applied to orbitals; electrons occupy the lowest-energy orbital available first.
+[chem3-s1.20.1] Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins (a property of the electron, like turning in opposite directions), shown as ↑↓.
+[chem3-s1.20.2] Hund's rule: when filling orbitals of equal energy, such as the three 2p orbitals, electrons occupy them singly with parallel spins before any pairing occurs.
+[chem3-s1.20.3] Orbital (box) diagrams show one box per orbital, with arrows for electrons.
+[chem3-s1.20.4] Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons (electrons alone in an orbital).
+[chem3-s1.20.5] Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons, because its fourth 2p electron has to pair up with one already in an orbital.
+[chem3-s1.21.b] The s, p, d notation writes each sublevel followed by its number of electrons as a superscript. Up to calcium the sublevels simply fill in the order given above.
+[chem3-s1.21.0] Notation writes each sublevel followed by its number of electrons as a superscript: sodium 1s² 2s² 2p⁶ 3s¹.
+[chem3-s1.21.1] Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵.
+[chem3-s1.21.2] Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s², with 4s filling before 3d because 4s is lower in energy.
+[chem3-s1.21.3] Beyond calcium the 3d sublevel fills.
+[chem3-s1.22.b] Once 3d starts to fill, the configurations get longer. The 4s sublevel fills before 3d, but the configuration is written with the levels in order.
+[chem3-s1.22.0] Iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², written in level order rather than filling order.
+[chem3-s1.22.1] Bromine: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵.
+[chem3-s1.22.2] Krypton, element 36, ends 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.22.3] Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s².
+[chem3-s1.23.b] Two elements do not follow the filling order exactly. One electron moves from 4s into 3d, because a half-full or full d sublevel is more stable.
+[chem3-s1.23.0] Chromium is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹.
+[chem3-s1.23.1] Copper is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹.
+[chem3-s1.23.2] The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable.
+[chem3-s1.24.b] To write an ion, take the atom's configuration and remove or add electrons at the outermost sublevel. The result is usually a stable configuration, with full sublevels.
+[chem3-s1.24.0] Ions, excluding transition metal ions, are written by removing or adding electrons from the outermost sublevel: Na⁺ 1s² 2s² 2p⁶.
+[chem3-s1.24.1] Chloride ion: Cl⁻ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.2] Bromide ion: Br⁻ 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.24.3] Calcium ion: Ca²⁺ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.4] Stable configurations at this level are full sublevels (s², p⁶) and the noble-gas configuration ns² np⁶.
+[chem3-s1.25.b] An orbital's shape shows where the electron is most likely to be found. You need only the s and p shapes.
+[chem3-s1.25.0] An s orbital is spherical and centred on the nucleus.
+[chem3-s1.25.1] The 2s orbital is larger than the 1s orbital, because it belongs to a higher energy level, further from the nucleus.
+[chem3-s1.25.2] A p orbital is dumbbell-shaped, with two lobes on either side of the nucleus.
+[chem3-s1.25.3] The three p orbitals in a sublevel, px, py and pz, lie at right angles to each other along the x, y and z axes, and have equal energy.
+[chem3-s1.25.4] Diagram: a sphere labelled s, and three dumbbells along the x, y and z axes labelled px, py and pz.
+
+CANDIDATES chem2-s1: 1. Atomic structure: the nuclear model
+[chem2-s1.0.b] A model of the atom is a picture scientists use to explain the evidence they have. These two early models are background to the nuclear model: each was accepted in its time and then replaced.
+[chem2-s1.0.0] Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms, which means that atoms cannot be split into anything smaller.
+[chem2-s1.0.1] Dalton's atoms of the same element are identical, atoms of different elements differ in mass, and atoms combine in simple whole-number ratios to form compounds.
+[chem2-s1.0.2] Dalton's atoms are not created or destroyed in chemical reactions, so a reaction only rearranges the atoms that were already there.
+[chem2-s1.0.3] Thomson discovered the electron in 1897 using cathode rays (beams of particles given off in a glass tube from which the air has been removed). The electron is a negatively charged particle much lighter than an atom and present in all atoms, so atoms are divisible.
+[chem2-s1.0.4] Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, like plums in a pudding, so the atom is neutral overall because the charges cancel.
+[chem2-s1.1.b] The nuclear model came from a scattering experiment, in which a beam of particles is fired at a target and the paths of the deflected particles are studied. The results could not be explained by the plum pudding model.
+[chem2-s1.1.0] Gold-foil experiment (1909): Hans Geiger and Ernest Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil.
+[chem2-s1.1.1] A fluorescent screen (a screen that gives off a flash of light where a particle hits it) was placed around the foil and showed where the particles went after they hit the foil.
+[chem2-s1.1.2] Observation: most particles passed straight through the foil, so most of the atom is empty space.
+[chem2-s1.1.3] Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them, because like charges repel.
+[chem2-s1.1.4] Observation: a very few particles bounced straight back, so this positive region is very small and very dense, containing almost all of the atom's mass.
+[chem2-s1.1.5] This positive region is the nucleus. Rutherford published the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.
+[chem2-s1.1.6] Later work found that the nucleus contains protons (positively charged particles) and neutrons (particles with no charge): Rutherford identified the proton, and Chadwick discovered the neutron in 1932.
+[chem2-s1.1.7] Diagram: the gold-foil set-up, labelled with the alpha particle source, the beam, the gold foil and the fluorescent screen, and the paths of particles past the nuclei: straight through, deflected, and bounced back.
+[chem2-s1.2.b] Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies. His model keeps the nucleus but gives the electrons a definite arrangement around it.
+[chem2-s1.2.0] Electrons move around the nucleus in fixed circular orbits called energy levels (shells), each with a fixed energy.
+[chem2-s1.2.1] An electron in a given energy level does not lose energy, so it stays in that level rather than spiralling inwards.
+[chem2-s1.2.2] An electron can move to a higher energy level by absorbing a definite amount of energy.
+[chem2-s1.2.3] When the electron falls back to a lower level, it emits light of a definite energy. This explains the lines in emission spectra (the separate coloured lines an element gives out when heated).
+[chem2-s1.2.4] Energy levels are numbered n = 1, 2, 3…, with n = 1 closest to the nucleus and lowest in energy.
+[chem2-s1.2.5] The energy levels hold up to 2, 8, 18… electrons.
+[chem2-s1.3.b] The orbital model is the current model. It describes where electrons are likely to be found, not the path they follow.
+[chem2-s1.3.0] Electrons do not follow fixed paths; they occupy orbitals, which are regions of space around the nucleus where there is a high probability of finding an electron.
+[chem2-s1.3.1] Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons. There is more on this in the later subsection on the orbital model.
+[chem2-s1.3.2] The model developed from evidence that electrons behave as waves as well as particles, which a fixed circular path cannot describe.
+[chem2-s1.3.3] It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time, which is why only probabilities can be given.
+[chem2-s1.4.b] Each model rested on an assumption, and each had a limitation: evidence it could not explain. The first two models fail because the atom has parts and a structure they did not allow for.
+[chem2-s1.4.0] Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.
+[chem2-s1.4.1] Dalton: limited because subatomic particles (particles smaller than the atom) exist, and because isotopes show that atoms of the same element can differ in mass.
+[chem2-s1.4.2] Plum pudding model: assumed that positive charge is spread through the atom.
+[chem2-s1.4.3] Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment, which need a small, dense positive centre.
+[chem2-s1.5.b] The nuclear model fixed the problem of the positive charge but said little about the electrons.
+[chem2-s1.5.0] Nuclear model: assumed that electrons orbit the nucleus like planets.
+[chem2-s1.5.1] Nuclear model: limited because it does not say how electrons are arranged in the space around the nucleus.
+[chem2-s1.5.2] Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus, so the atom would not be stable.
+[chem2-s1.5.3] Nuclear model: limited because it cannot explain line spectra (the separate lines of light an element emits).
+[chem2-s1.6.b] The Bohr model fixed the nuclear model's problems for hydrogen but not for other atoms. The orbital model is the best fit for the evidence, but it has its own limitation.
+[chem2-s1.6.0] Bohr model: assumed that electrons move in fixed circular orbits with fixed energies.
+[chem2-s1.6.1] Bohr model: explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron.
+[chem2-s1.6.2] Bohr model: does not account for sublevels or for the wave nature of electrons.
+[chem2-s1.6.3] Bohr model: treats the electron's exact path as known, but the exact position and path of an electron cannot be known at the same time.
+[chem2-s1.6.4] Orbital model: the best fit for the evidence available, but its limitation is that it is mathematical and abstract.
+[chem2-s1.6.5] Orbital model: gives probabilities of where an electron is found, not exact positions, and is hard to picture.
+[chem2-s1.7.b] Scientists judge a model by how well it explains the evidence. Replaced models are not useless, because they still work for the things they explain well.
+[chem2-s1.7.0] Each model was accepted because it explained the evidence of its time, and was replaced or refined when new evidence did not fit.
+[chem2-s1.7.1] The Bohr model is still enough to explain flame colours and simple line spectra.
+[chem2-s1.7.2] The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.
+[chem2-s1.7.3] The nuclear model still explains why atoms are mostly empty space.
+[chem2-s1.8.b] An atom is made of protons, neutrons and electrons. Their masses and charges are given relative to the proton (that is, as comparisons with it), because the real values are very small numbers.
+[chem2-s1.8.0] Proton: relative mass 1, relative charge +1, found in the nucleus.
+[chem2-s1.8.1] Neutron: relative mass 1, relative charge 0 (no charge), found in the nucleus.
+[chem2-s1.8.2] Electron: relative mass about 1/1840 of a proton, so negligible though not zero; relative charge −1; found outside the nucleus, in energy levels (orbitals).
+[chem2-s1.9.b] The relative values hide the real sizes. The actual masses show how tiny the particles are and how much lighter the electron is.
+[chem2-s1.9.0] Actual masses: proton 1.6726 × 10⁻²⁷ kg; neutron 1.6749 × 10⁻²⁷ kg; electron 9.109 × 10⁻³¹ kg.
+[chem2-s1.9.1] The proton and neutron have almost the same mass, which is why each is given a relative mass of 1.
+[chem2-s1.9.2] The charge on a proton is equal in size and opposite in sign to the charge on an electron, so equal numbers of each cancel out.
+[chem2-s1.10.b] The particles are not spread evenly. The nucleus is tiny, yet it holds almost all the mass, and the rest of the atom is mostly empty.
+[chem2-s1.10.0] Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass because electrons are so light.
+[chem2-s1.10.1] The nucleus is tiny compared with the atom: an atom is about 10⁵ (100 000) times the diameter of its nucleus, so most of the atom is empty space.
+[chem2-s1.10.2] A neutral atom has equal numbers of protons and electrons, so the positive and negative charges cancel.
+[chem2-s1.10.3] The number of protons identifies the element: every atom with 6 protons, for example, is carbon.
+[chem2-s1.11.b] Exams ask you to state the numbers of protons, neutrons and electrons in an atom or ion. An ion is an atom that has lost or gained electrons, so it carries a charge. The number of protons never changes in an ion.
+[chem2-s1.11.0] Number of protons = atomic number (the number of protons in the nucleus).
+[chem2-s1.11.1] Number of neutrons = mass number − atomic number, where the mass number is the total of protons and neutrons.
+[chem2-s1.11.2] In a neutral atom, number of electrons = number of protons.
+[chem2-s1.11.3] A positive ion has lost electrons, so number of electrons = number of protons − charge, e.g. Na⁺ has 11 protons and 10 electrons.
+[chem2-s1.11.4] A negative ion has gained electrons, so number of electrons = number of protons + charge, e.g. Cl⁻ (chlorine-35) has 17 protons, 18 neutrons and 18 electrons; O²⁻ has 8 protons and 10 electrons.
+[chem2-s1.12.b] The three particles were found one at a time. The order of discovery follows how easy each is to detect.
+[chem2-s1.12.0] The electron was discovered by J. J. Thomson in 1897.
+[chem2-s1.12.1] The proton was identified by Rutherford about 1917–1919.
+[chem2-s1.12.2] The neutron was discovered by Chadwick in 1932.
+[chem2-s1.12.3] The neutron was found last because it has no charge, which makes it hard to detect.
+[chem2-s1.13.b] Two whole numbers describe the nucleus of an atom. Together they give the number of each particle and are written beside the element's symbol.
+[chem2-s1.13.0] Atomic number (Z): the number of protons in the nucleus of an atom of an element.
+[chem2-s1.13.1] Each element has its own atomic number, and the periodic table is arranged in order of atomic number.
+[chem2-s1.13.2] Mass number (A): the total number of protons and neutrons in the nucleus of an atom.
+[chem2-s1.13.3] Number of neutrons = mass number − atomic number (A − Z).
+[chem2-s1.13.4] Nuclear notation writes the mass number at the top left and the atomic number at the bottom left of the element symbol, e.g. ²³₁₁Na has 11 protons, 12 neutrons and (as an atom) 11 electrons.
+[chem2-s1.14.b] Atoms of one element are not all identical. They can have different numbers of neutrons, and such atoms are called isotopes.
+[chem2-s1.14.0] Isotopes have the same atomic number, so the same number of protons, but different mass numbers because they have different numbers of neutrons.
+[chem2-s1.14.1] Hydrogen-1 (¹H) has no neutrons; hydrogen-2 (²H), called deuterium, has one neutron; hydrogen-3 (³H), called tritium, has two.
+[chem2-s1.14.2] Chlorine-35 (³⁵Cl) has 18 neutrons and chlorine-37 (³⁷Cl) has 20 neutrons.
+[chem2-s1.14.3] Carbon-12, carbon-13 and carbon-14 are isotopes of carbon.
+[chem2-s1.14.4] Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement, and electrons control how an atom reacts.
+[chem2-s1.14.5] Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion (how fast a gas spreads out).
+[chem2-s1.14.6] Isotopes are written by name and mass number, e.g. chlorine-35, or in nuclear notation, e.g. ³⁵₁₇Cl.
+[chem2-s1.15.b] Because an element's isotopes have different masses, one atom's mass number does not describe the element as a whole. Relative atomic mass is an average over its isotopes.
+[chem2-s1.15.0] Relative atomic mass (Ar): the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12.
+[chem2-s1.15.1] Carbon-12 is the standard: an atom of carbon-12 is defined as having a mass of exactly 12 units.
+[chem2-s1.15.2] Ar has no units, because it compares masses.
+[chem2-s1.15.3] The mass number of a single isotope is always a whole number; Ar is a weighted average of the isotopes present, so it is usually not whole.
+[chem2-s1.15.4] Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables). There is more on calculating Ar from isotopic abundance in the later subsection on the mole.

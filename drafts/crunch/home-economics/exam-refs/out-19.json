@@ -1,0 +1,61 @@
+{
+"homeeconomics-pp-2026-HI-sectionc-housing-Q1": {
+"(a)(i)": ["hom-housing-s4", "hom-housing-s1"],
+"(a)(ii)": ["hom-housing-s4"],
+"(a)(iii)": ["hom-housing-s3"],
+"(b)(i)": ["hom-housing-s6"],
+"(b)(ii)": ["hom-housing-s5"],
+"(c)(i)": ["hom-home-services-s1", "hom-environmental-issues-s1"],
+"(c)(ii)": ["hom-home-services-s5", "hom-home-services-s6", "hom-home-services-s7"]
+},
+"homeeconomics-pp-2026-HI-sectionc-clothingselection-Q2": {
+"(a)(i)": ["hom-clothing-selection-s3"],
+"(a)(ii)": ["hom-clothing-selection-s3", "hom-clothing-selection-s4"],
+"(a)(iii)": ["hom-clothing-selection-s4", "hom-textiles-fibres-s4"],
+"(b)": ["hom-textiles-fibres-s4"],
+"(c)(i)": ["hom-clothing-selection-s2"],
+"(c)(ii)": ["hom-clothing-selection-s2", "hom-clothing-selection-s3"]
+},
+"homeeconomics-pp-2026-HI-sectionc-personalfinance-Q3": {
+"(a)(i)": ["hom-unemployment-poverty-s1", "hom-unemployment-poverty-s2"],
+"(a)(ii)": ["hom-unemployment-poverty-s3", "hom-social-change-s6"],
+"(a)(iii)": ["hom-unemployment-poverty-s6"],
+"(b)(i)": ["hom-work-leisure-s3"],
+"(b)(ii)": ["hom-work-leisure-s3", "hom-unemployment-poverty-s7"],
+"(c)(i)": ["hom-education-s1"],
+"(c)(ii)": ["hom-education-s3"]
+},
+"homeeconomics-pp-2026-HI-sectionc-cerealsgrains-Q4": {
+"(a)(i)": ["hom-cereals-grains-s1", "hom-carbohydrates-s5"],
+"(a)(ii)": ["hom-cereals-grains-s3", "hom-food-additives-s2"],
+"(a)(iii)": ["hom-cereals-grains-s2", "hom-meal-planning-s4"],
+"(b)(i)": ["hom-food-additives-s6"],
+"(b)(ii)": ["hom-food-additives-s6"],
+"(c)(i)": ["hom-family-caring-s4"],
+"(c)(ii)": ["hom-family-caring-s4"]
+},
+"homeeconomics-pp-2023-HI-sectiona-lipids-Q1": {
+"(whole)": ["hom-lipids-s5"]
+},
+"homeeconomics-pp-2023-HI-sectiona-carbohydrates-Q2": {
+"(whole)": ["hom-carbohydrates-s4"]
+},
+"homeeconomics-pp-2023-HI-sectiona-foodsafety-Q3": {
+"(whole)": ["hom-food-safety-s2"]
+},
+"homeeconomics-pp-2023-HI-sectiona-energynutrition-Q4": {
+"(whole)": ["hom-energy-nutrition-s1"]
+},
+"homeeconomics-pp-2023-HI-sectiona-cookingmethods-Q5": {
+"(whole)": ["hom-cooking-methods-s4"]
+},
+"homeeconomics-pp-2023-HI-sectiona-carbohydrates-Q6": {
+"(whole)": ["hom-carbohydrates-s5", "hom-carbohydrates-s6"]
+},
+"homeeconomics-pp-2023-HI-sectiona-cookingmethods-Q7": {
+"(whole)": ["hom-cooking-methods-s1", "hom-carbohydrates-s4"]
+},
+"homeeconomics-pp-2023-HI-sectiona-foodadditives-Q8": {
+"(whole)": ["hom-food-additives-s6"]
+}
+}

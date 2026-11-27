@@ -1,0 +1,134 @@
+{
+"hom-personal-finance-s5": [
+ {"needs":"hom-personal-finance-s1","strength":"helpful","why":"uses PRSI and social insurance contributions","confidence":"high"}],
+"hom-proteins-s1": [],
+"hom-proteins-s2": [
+ {"needs":"hom-proteins-s1","strength":"essential","why":"structure is built from amino acids and peptide bonds","confidence":"high"}],
+"hom-proteins-s3": [
+ {"needs":"hom-proteins-s2","strength":"helpful","why":"fibrous versus globular depends on protein structure","confidence":"high"},
+ {"needs":"hom-proteins-s1","strength":"helpful","why":"conjugated proteins are amino acids plus other groups","confidence":"low"}],
+"hom-proteins-s4": [
+ {"needs":"hom-proteins-s3","strength":"helpful","why":"albumin, glutelins and fibrous proteins classes","confidence":"high"}],
+"hom-proteins-s5": [
+ {"needs":"hom-proteins-s2","strength":"essential","why":"denaturation unfolds secondary and tertiary structure","confidence":"high"},
+ {"needs":"hom-proteins-s4","strength":"helpful","why":"albumin, gluten and gelatine behave in these properties","confidence":"high"},
+ {"needs":"hom-carbohydrates-s4","strength":"helpful","why":"Maillard reaction compared with other browning reactions","confidence":"low"}],
+"hom-proteins-s6": [
+ {"needs":"hom-proteins-s1","strength":"helpful","why":"amino acids build structural and active proteins","confidence":"high"}],
+"hom-proteins-s7": [
+ {"needs":"hom-proteins-s1","strength":"essential","why":"biological value rests on essential amino acids","confidence":"high"},
+ {"needs":"hom-proteins-s4","strength":"helpful","why":"animal and plant protein sources compared","confidence":"high"}],
+"hom-proteins-s8": [
+ {"needs":"hom-energy-nutrition-s3","strength":"helpful","why":"energy per gram and energy calculation method","confidence":"high"},
+ {"needs":"hom-proteins-s1","strength":"helpful","why":"deamination removes the amino group from amino acids","confidence":"low"}],
+"hom-proteins-s9": [
+ {"needs":"hom-proteins-s7","strength":"helpful","why":"biological value and complementation of plant proteins","confidence":"high"},
+ {"needs":"hom-proteins-s4","strength":"helpful","why":"conventional protein sources compared with novel ones","confidence":"low"}],
+"hom-resource-management-s1": [],
+"hom-resource-management-s2": [
+ {"needs":"hom-resource-management-s1","strength":"essential","why":"management systems and types of resource","confidence":"high"}],
+"hom-resource-management-s3": [
+ {"needs":"hom-resource-management-s1","strength":"helpful","why":"factors act on the management process and resources","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s2","strength":"helpful","why":"socio-economic groupings and roles shape lifestyle","confidence":"low"},
+ {"needs":"hom-family-caring-s1","strength":"helpful","why":"family life cycle and changing roles","confidence":"low"}],
+"hom-social-change-s1": [
+ {"needs":"hom-sociological-concepts-s5","strength":"helpful","why":"causes and effects of social change","confidence":"high"},
+ {"needs":"hom-family-society-s3","strength":"helpful","why":"family structures affected by urbanisation","confidence":"low"}],
+"hom-social-change-s2": [
+ {"needs":"hom-work-leisure-s2","strength":"helpful","why":"changes in working patterns and conditions","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s5","strength":"helpful","why":"social change and its effects on family","confidence":"low"}],
+"hom-social-change-s3": [
+ {"needs":"hom-education-s3","strength":"helpful","why":"provision of education in Ireland","confidence":"high"},
+ {"needs":"hom-personal-finance-s1","strength":"helpful","why":"social welfare and family payments","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s6","strength":"helpful","why":"social insurance and assistance payments","confidence":"low"}],
+"hom-social-change-s4": [
+ {"needs":"hom-marriage-s4","strength":"helpful","why":"separation and divorce","confidence":"high"},
+ {"needs":"hom-family-caring-s1","strength":"helpful","why":"traditional and changing family roles","confidence":"high"},
+ {"needs":"hom-family-society-s2","strength":"helpful","why":"historical change in the Irish family and law","confidence":"low"},
+ {"needs":"hom-sociological-concepts-s5","strength":"helpful","why":"causes of social change","confidence":"high"}],
+"hom-social-change-s5": [
+ {"needs":"hom-work-leisure-s2","strength":"helpful","why":"increased participation by women in work","confidence":"high"},
+ {"needs":"hom-work-leisure-s5","strength":"helpful","why":"dual-earner families and role conflict","confidence":"high"},
+ {"needs":"hom-family-caring-s1","strength":"helpful","why":"gender and family roles","confidence":"low"}],
+"hom-social-change-s6": [
+ {"needs":"hom-unemployment-poverty-s1","strength":"helpful","why":"definition and types of unemployment","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s3","strength":"helpful","why":"effects of unemployment on individual and family","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s6","strength":"helpful","why":"statutory income and training supports","confidence":"high"}],
+"hom-sociological-concepts-s1": [],
+"hom-sociological-concepts-s2": [
+ {"needs":"hom-sociological-concepts-s1","strength":"helpful","why":"norms and values underlie roles and status","confidence":"low"}],
+"hom-sociological-concepts-s3": [
+ {"needs":"hom-sociological-concepts-s1","strength":"helpful","why":"socialisation passes on norms, values and culture","confidence":"high"},
+ {"needs":"hom-family-society-s1","strength":"helpful","why":"kinship, descent and marriage terms","confidence":"low"}],
+"hom-sociological-concepts-s4": [
+ {"needs":"hom-sociological-concepts-s3","strength":"helpful","why":"institutions as agents of socialisation","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s1","strength":"helpful","why":"institutions transmit norms and values","confidence":"low"},
+ {"needs":"hom-family-society-s5","strength":"helpful","why":"family functions as an institution","confidence":"low"}],
+"hom-sociological-concepts-s5": [
+ {"needs":"hom-sociological-concepts-s1","strength":"helpful","why":"change in norms, values and culture","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s4","strength":"helpful","why":"change in institutions such as family and education","confidence":"low"}],
+"hom-textiles-fibres-s1": [],
+"hom-textiles-fibres-s2": [
+ {"needs":"hom-textiles-fibres-s1","strength":"helpful","why":"selection criteria and fabric properties in the home","confidence":"high"}],
+"hom-textiles-fibres-s3": [
+ {"needs":"hom-textiles-fibres-s1","strength":"helpful","why":"fabric properties that fibres determine","confidence":"low"}],
+"hom-textiles-fibres-s4": [
+ {"needs":"hom-textiles-fibres-s3","strength":"essential","why":"fibre classification, sources and manufacture","confidence":"high"},
+ {"needs":"hom-textiles-fibres-s1","strength":"helpful","why":"fabric properties that matter in use","confidence":"low"},
+ {"needs":"hom-clothing-selection-s1","strength":"helpful","why":"tests on fabrics: shrinkage, crease recovery","confidence":"low"}],
+"hom-textiles-fibres-s5": [
+ {"needs":"hom-textiles-fibres-s3","strength":"helpful","why":"fibre types affect construction, finishes and dyeing","confidence":"high"},
+ {"needs":"hom-textiles-fibres-s4","strength":"helpful","why":"fabric profiles use construction and finishes","confidence":"low"},
+ {"needs":"hom-clothing-selection-s1","strength":"helpful","why":"shrinkage and water repellence finishes","confidence":"low"}],
+"hom-unemployment-poverty-s1": [],
+"hom-unemployment-poverty-s2": [
+ {"needs":"hom-unemployment-poverty-s1","strength":"essential","why":"types of unemployment: frictional, long-term, labour force","confidence":"high"},
+ {"needs":"hom-work-leisure-s2","strength":"helpful","why":"technology and decline of industry change work","confidence":"low"}],
+"hom-unemployment-poverty-s3": [
+ {"needs":"hom-unemployment-poverty-s1","strength":"helpful","why":"types and extent of unemployment","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s2","strength":"helpful","why":"groups affected and causes","confidence":"low"}],
+"hom-unemployment-poverty-s4": [],
+"hom-unemployment-poverty-s5": [
+ {"needs":"hom-unemployment-poverty-s4","strength":"essential","why":"definitions of poverty and groups at risk","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s3","strength":"helpful","why":"unemployment feeds the cycle of poverty","confidence":"low"}],
+"hom-unemployment-poverty-s6": [
+ {"needs":"hom-personal-finance-s1","strength":"helpful","why":"social insurance and social assistance payments","confidence":"high"},
+ {"needs":"hom-unemployment-poverty-s4","strength":"helpful","why":"poverty these schemes respond to","confidence":"low"},
+ {"needs":"hom-unemployment-poverty-s1","strength":"helpful","why":"unemployment these schemes respond to","confidence":"low"}],
+"hom-unemployment-poverty-s7": [
+ {"needs":"hom-unemployment-poverty-s4","strength":"helpful","why":"poverty community groups address","confidence":"low"},
+ {"needs":"hom-unemployment-poverty-s6","strength":"helpful","why":"statutory responses compared with community ones","confidence":"low"},
+ {"needs":"hom-work-leisure-s3","strength":"helpful","why":"voluntary work and its benefits","confidence":"high"}],
+"hom-vitamins-minerals-s1": [
+ {"needs":"hom-lipids-s2","strength":"helpful","why":"fat-soluble vitamins are carried and stored in lipids","confidence":"low"},
+ {"needs":"hom-digestion-metabolism-s3","strength":"helpful","why":"bile and fat absorption carry fat-soluble vitamins","confidence":"low"}],
+"hom-vitamins-minerals-s2": [
+ {"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"two classes of vitamins contrasted","confidence":"high"},
+ {"needs":"hom-energy-nutrition-s4","strength":"helpful","why":"RDA concept","confidence":"high"},
+ {"needs":"hom-cooking-methods-s1","strength":"helpful","why":"nutrient loss in preparation and cooking","confidence":"low"}],
+"hom-vitamins-minerals-s3": [
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"water-soluble vitamin properties and RDA","confidence":"high"}],
+"hom-vitamins-minerals-s4": [],
+"hom-vitamins-minerals-s5": [
+ {"needs":"hom-vitamins-minerals-s4","strength":"essential","why":"iron and calcium sources and functions","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"vitamin D aids calcium absorption","confidence":"high"},
+ {"needs":"hom-vitamins-minerals-s2","strength":"helpful","why":"vitamin C aids iron absorption","confidence":"high"}],
+"hom-work-leisure-s1": [],
+"hom-work-leisure-s2": [
+ {"needs":"hom-work-leisure-s1","strength":"helpful","why":"concept of work and job satisfaction","confidence":"low"}],
+"hom-work-leisure-s3": [
+ {"needs":"hom-work-leisure-s1","strength":"helpful","why":"definition of work, paid and unpaid","confidence":"high"}],
+"hom-work-leisure-s4": [],
+"hom-work-leisure-s5": [
+ {"needs":"hom-work-leisure-s2","strength":"helpful","why":"increased participation by women in work","confidence":"high"},
+ {"needs":"hom-family-caring-s1","strength":"helpful","why":"family roles and role conflict","confidence":"high"},
+ {"needs":"hom-sociological-concepts-s2","strength":"helpful","why":"concept of role","confidence":"low"}],
+"hom-work-leisure-s6": [
+ {"needs":"hom-work-leisure-s5","strength":"helpful","why":"dual-earner families need child care","confidence":"high"},
+ {"needs":"hom-education-s3","strength":"helpful","why":"pre-school education provision","confidence":"low"},
+ {"needs":"hom-family-caring-s2","strength":"helpful","why":"physical and psychological needs of young children","confidence":"high"}],
+"hom-work-leisure-s7": [
+ {"needs":"hom-work-leisure-s1","strength":"helpful","why":"leisure defined against work","confidence":"low"}],
+"hom-work-leisure-s8": [
+ {"needs":"hom-work-leisure-s7","strength":"essential","why":"leisure value and influences on choice","confidence":"high"}]
+}

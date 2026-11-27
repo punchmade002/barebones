@@ -1,0 +1,115 @@
+MODE: cost and links
+TARGET hom-proteins-s8: 8. Energy value
+[hom-proteins-s8.0.b] Protein can be burned for energy, but its main jobs are growth and repair, so it is a supplementary (secondary) energy source rather than the body's main fuel.
+[hom-proteins-s8.0.0] Protein provides 17 kJ, or 4 kcal, of energy per gram. Energy value is measured in kilojoules (kJ) or kilocalories (kcal).
+[hom-proteins-s8.0.1] Carbohydrate provides 16 kJ, or 3.75 kcal, per gram; fat provides 37 kJ, or 9 kcal, per gram; alcohol provides 29 kJ, or 7 kcal, per gram.
+[hom-proteins-s8.0.2] Fat provides more than twice as much energy per gram as protein, so a fatty food packs far more energy into the same weight than a lean protein food.
+[hom-proteins-s8.0.3] Protein is used for energy when carbohydrate and fat intake is too low to meet the body's energy needs, because the body then has to burn protein as fuel.
+[hom-proteins-s8.0.4] Surplus protein is used for energy once the body's needs for growth, repair and body proteins are met.
+[hom-proteins-s8.0.5] Protein-sparing: when the diet has enough carbohydrate and fat to supply energy, protein is left free for growth and repair.
+[hom-proteins-s8.0.6] Eating more protein than the body needs does not build extra protein, because surplus amino acids (the units protein is made of) cannot be stored as protein.
+[hom-proteins-s8.1.b] Protein is one of the three energy-giving nutrients, alongside carbohydrate and fat (alcohol also gives energy). It supplies only part of the total energy in a day's food, and the rest comes mainly from carbohydrate and fat.
+[hom-proteins-s8.1.0] Energy from protein is calculated from the grams of protein in a food, so a food's energy value is the sum of its protein, carbohydrate, fat and alcohol energy.
+[hom-proteins-s8.1.1] Lean meat and white fish supply protein with little energy, because they contain little fat.
+[hom-proteins-s8.1.2] Full-fat milk, cheese, fatty meat and nuts supply protein together with considerable fat, and therefore more energy.
+[hom-proteins-s8.1.3] Pulses supply protein along with carbohydrate and fibre, and little fat.
+[hom-proteins-s8.1.4] For healthy eating, choose lean protein foods. Excess energy from any source, including protein foods, can lead to weight gain.
+[hom-proteins-s8.2.b] The energy a food gets from its protein is worked out from the grams of protein it contains, using the energy value per gram. The total energy of the food then adds the other energy-giving nutrients.
+[hom-proteins-s8.2.0] 1. Find the grams of protein in the food or portion from its nutrition label or a food composition table.
+[hom-proteins-s8.2.1] 2. Multiply the grams of protein by 17 kJ, or by 4 kcal, to find the energy in that portion.
+[hom-proteins-s8.2.2] Sample data: a portion with 25 g of protein gives 25 x 17 = 425 kJ, or 25 x 4 = 100 kcal.
+[hom-proteins-s8.2.3] 3. Add the energy from protein, carbohydrate, fat and alcohol to find the total energy of the portion.
+[hom-proteins-s8.3.b] The body cannot store protein, so amino acids that are surplus to its needs are broken down in the liver. Deamination removes the nitrogen-containing part, so that what is left can be used for energy.
+[hom-proteins-s8.3.0] Amino acids cannot be stored as protein, so surplus amino acids are carried to the liver.
+[hom-proteins-s8.3.1] 1. In the liver, the amino group (–NH₂) is removed from each amino acid and converted to ammonia, which is highly toxic.
+[hom-proteins-s8.3.2] 2. The liver combines ammonia with carbon dioxide (CO₂) to form urea, which is much less toxic and so safe to carry in the blood.
+[hom-proteins-s8.3.3] 3. Urea enters the blood, is filtered from the blood by the kidneys and leaves the body in urine.
+[hom-proteins-s8.3.4] Adequate fluid intake is needed so that the kidneys can excrete the urea.
+[hom-proteins-s8.3.5] The remaining carbon skeleton, which carries the carboxyl group (–COOH), is oxidised in respiration to release energy (heat and energy).
+[hom-proteins-s8.3.6] The three fates of the carbon skeleton after deamination are energy, glucose or fat. When energy is in surplus, carbon skeletons can be converted to glucose and stored as glycogen, or converted to fat and stored in adipose tissue (fatty tissue).
+[hom-proteins-s8.3.7] Diagram: draw a flow chart of the sequence: excess amino acids, liver, NH₂ removed, ammonia, urea, kidneys, urine; and the carbon part going to energy.
+
+CANDIDATES hom-energy-nutrition-s3: 3. Energy value of the nutrients
+[hom-energy-nutrition-s3.0.b] Only three nutrients supply energy in food: protein, carbohydrate and fat (lipid). Each releases a fixed amount of energy, measured in kilojoules (kJ) or kilocalories (kcal), for every gram eaten, and these values are the basis of every energy calculation.
+[hom-energy-nutrition-s3.0.0] Protein supplies 17 kJ (4 kcal) per gram, carbohydrate supplies 16 kJ (3.75 kcal) per gram and fat (lipid) supplies 37 kJ (9 kcal) per gram. A simple table of these three values is the best way to learn them.
+[hom-energy-nutrition-s3.0.1] Fat is the most concentrated energy source, giving more than twice the energy per gram of protein or carbohydrate. This is why a high-fat diet is energy-dense and contributes strongly to weight gain.
+[hom-energy-nutrition-s3.0.2] Vitamins, minerals and water supply no energy, so they are not energy nutrients, even though the body cannot work without them.
+[hom-energy-nutrition-s3.0.3] Alcohol is not a nutrient, but it does supply energy, at 29 kJ (7 kcal) per gram. It supplies no protein, vitamins or minerals, so it is a source of empty kilocalories (energy with no nutrition).
+[hom-energy-nutrition-s3.0.4] Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy. Do not count it with the starches and sugars, and do not give it 16 kJ per gram.
+[hom-energy-nutrition-s3.0.5] 1 kcal is about 4.2 kJ, so dividing kJ by 4.2 gives kcal. Check: 37 kJ is about 9 kcal, 17 kJ is about 4 kcal, 16 kJ is about 3.75 kcal and 29 kJ is about 7 kcal.
+[hom-energy-nutrition-s3.1.b] A food's energy value is worked out from how many grams of each energy nutrient it contains. Food composition tables and labels give these amounts per 100 g, so the method is multiply, add, then state the unit.
+[hom-energy-nutrition-s3.1.0] 1. Find the grams of protein, carbohydrate and fat in the amount eaten, from the food label or a food composition table (which gives values per 100 g).
+[hom-energy-nutrition-s3.1.1] 2. Multiply the grams of each nutrient by its energy value per gram: protein by 17, carbohydrate by 16 and fat by 37.
+[hom-energy-nutrition-s3.1.2] 3. Add the three results to give the total energy value of the food.
+[hom-energy-nutrition-s3.1.3] 4. Give the unit, kJ, and convert to kcal if asked by dividing by 4.2.
+[hom-energy-nutrition-s3.1.4] Scaling to a portion: if the table gives values per 100 g and the portion is 150 g, multiply each per-100 g value by 150 divided by 100 (or 1.5).
+[hom-energy-nutrition-s3.1.5] Without scaling, the answer is for 100 g, not for the portion eaten.
+[hom-energy-nutrition-s3.2.b] Seeing the method on sample figures shows where the marks are: each multiplication, the total and the unit. These are invented sample foods, not facts about any named product.
+[hom-energy-nutrition-s3.2.0] Worked example (sample data): 100 g of a food with 12 g protein, 60 g carbohydrate and 8 g fat gives 12 x 17 = 204 kJ, 60 x 16 = 960 kJ and 8 x 37 = 296 kJ.
+[hom-energy-nutrition-s3.2.1] These add to a total of 1460 kJ. In kcal this is about 348 (1460 divided by 4.2).
+[hom-energy-nutrition-s3.2.2] Second worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ.
+[hom-energy-nutrition-s3.2.3] These add to a total of 1510 kJ, which is about 360 kcal.
+[hom-energy-nutrition-s3.2.4] Percentage contribution: divide the energy from one nutrient by the total energy, then multiply by 100. In the 1460 kJ sample, fat gives 296 out of 1460, which is about 20 per cent of the energy.
+[hom-energy-nutrition-s3.3.b] Section B data questions give a table of composition per 100 g for several foods, such as protein, fat, carbohydrate, fibre, calcium and iron. The sum is only half the answer, because you must also say what the figures mean for a diet.
+[hom-energy-nutrition-s3.3.0] To rank foods by energy value, calculate the kJ for each food using the method above, then put them in order and name the highest and the lowest.
+[hom-energy-nutrition-s3.3.1] A high-fibre food helps bowel health, because fibre adds bulk and keeps waste moving through the gut.
+[hom-energy-nutrition-s3.3.2] A high-fat food is a disadvantage on a low-fat diet, because fat has the most energy per gram and contributes to weight gain.
+[hom-energy-nutrition-s3.3.3] A high-carbohydrate food is a good source of energy for the body.
+[hom-energy-nutrition-s3.3.4] The 2007H bread comparison is an example of this type of question: calculate, rank, then comment on how suitable each bread is for a given diet.
+[hom-energy-nutrition-s3.4.b] Carbohydrate supplies the largest share of energy in the diet. It is the body's main and most readily available energy source.
+[hom-energy-nutrition-s3.4.0] Sugars and starches are digested to glucose, which cells use for energy. Any glucose not needed straight away is stored as glycogen in the liver and muscles.
+[hom-energy-nutrition-s3.4.1] Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate together with fibre, vitamins and minerals, so they give energy with useful nutrition. Cereals and fruit are also sources.
+[hom-energy-nutrition-s3.4.2] Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories.
+[hom-energy-nutrition-s3.4.3] Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from added sugars.
+[hom-energy-nutrition-s3.5.b] Fat packs far more energy into each gram than the other nutrients, so it contributes strongly to the energy in the diet even when it is a smaller part of the weight of the food. It is the second largest source of energy.
+[hom-energy-nutrition-s3.5.0] Fats and oils are lipids, mostly triglycerides, made of glycerol and fatty acids.
+[hom-energy-nutrition-s3.5.1] Fat supplies the most energy per gram of the three energy nutrients, more than twice that of carbohydrate or protein.
+[hom-energy-nutrition-s3.5.2] Surplus energy from fat is stored as adipose tissue, an energy reserve, which is why high-fat diets contribute strongly to weight gain.
+[hom-energy-nutrition-s3.5.3] Saturated fats come mainly from animal foods and some plant oils, such as palm oil. Unsaturated fats come from vegetable oils, nuts, seeds and oily fish.
+[hom-energy-nutrition-s3.5.4] Sources of fat include butter, oils, fatty meat, nuts, cheese and oily fish.
+[hom-energy-nutrition-s3.6.b] Protein can supply energy, but this is not its main job. It makes the smallest contribution to the energy in the diet.
+[hom-energy-nutrition-s3.6.0] Protein is made of amino acids. The body uses it mainly for growth and repair of tissue, but it can also supply energy.
+[hom-energy-nutrition-s3.6.1] Protein is not stored in the body as protein, so surplus protein is broken down and used for energy or converted to fat.
+[hom-energy-nutrition-s3.6.2] When carbohydrate and fat are short, protein is used for energy at the expense of its building role.
+[hom-energy-nutrition-s3.6.3] High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids. Beans are also a protein source.
+[hom-energy-nutrition-s3.6.4] Protein is not a major energy source in a healthy diet: its value per gram is close to that of carbohydrate, but it is eaten in smaller amounts.
+[hom-energy-nutrition-s3.7.b] How much each nutrient contributes to a diet depends on how much of it is eaten and on how much energy each gram of the food carries.
+[hom-energy-nutrition-s3.7.0] Energy density is the energy per gram of a food. Foods rich in fat and sugar are the most energy-dense.
+[hom-energy-nutrition-s3.7.1] Wholegrain starchy foods, fruit, vegetables and lean protein give nutrients with less energy per gram, so they are a better choice than empty kilocalories.
+[hom-energy-nutrition-s3.7.2] Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from fat, especially saturated fat, and less from added sugars.
+[hom-energy-nutrition-s3.7.3] The typical Irish diet gets more of its energy from saturated fat and from added sugar in drinks and processed foods than the guidelines recommend.
+[hom-energy-nutrition-s3.7.4] Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total and multiply by 100 to give its percentage share.
+
+CANDIDATES hom-proteins-s1: 1. Composition and amino acids
+[hom-proteins-s1.0.b] Protein is built from a small set of chemical elements, and one of them, nitrogen, is found in no other nutrient. This is what makes protein different from carbohydrate and fat.
+[hom-proteins-s1.0.0] Every protein contains carbon, hydrogen, oxygen and nitrogen. Some proteins also contain small amounts of sulphur, phosphorus and iron.
+[hom-proteins-s1.0.1] Protein is the only nutrient that contains nitrogen. Carbohydrate and fat contain only carbon, hydrogen and oxygen, so they contain none. Nitrogen is the element essential for growth.
+[hom-proteins-s1.0.2] These elements are arranged into basic units called amino acids. A protein is a large molecule made of many amino acids joined together.
+[hom-proteins-s1.0.3] Nitrogen sits in the amino group (the –NH₂ part) of every amino acid, so the nitrogen in a food comes from its protein.
+[hom-proteins-s1.0.4] Sulphur is found in only some amino acids, such as cysteine and methionine, which is why only some proteins contain it.
+[hom-proteins-s1.1.b] Every amino acid has the same central carbon atom bonded to four groups. Only the side group differs between amino acids, and that difference is what makes each one unique.
+[hom-proteins-s1.1.0] An amino group, –NH₂, which carries the nitrogen. It is basic (alkaline).
+[hom-proteins-s1.1.1] A carboxyl group, –COOH, which is the acidic part of the amino acid.
+[hom-proteins-s1.1.2] A hydrogen atom.
+[hom-proteins-s1.1.3] A variable side group, written R. It differs between amino acids and gives each one its identity. R is a group of atoms, not an element.
+[hom-proteins-s1.1.4] The body builds its proteins from about 20 different amino acids. Different proteins are different sequences of the same 20, much as different words are made from the same letters.
+[hom-proteins-s1.1.5] Diagram: draw a central carbon bonded to H, R, –COOH and –NH₂. Label each group, naming the amino group (–NH₂), the carboxyl group (–COOH) and R as the side group that varies.
+[hom-proteins-s1.2.b] The body can make some amino acids itself but not others. Those it cannot make have to arrive in food, which is why the idea matters for diet.
+[hom-proteins-s1.2.0] Essential (indispensable) amino acids cannot be made by the body, or not in adequate amounts, so they must be supplied by the diet. Lysine is an example.
+[hom-proteins-s1.2.1] Eight amino acids are essential for adults: lysine, leucine, isoleucine, valine, methionine, phenylalanine, threonine and tryptophan.
+[hom-proteins-s1.2.2] Children also need histidine and arginine, which makes ten essential amino acids for children. Give the figures of eight for adults and ten for children; if a question gives nine, accept it, since some sources count histidine as essential for adults too.
+[hom-proteins-s1.2.3] Non-essential amino acids can be made by the body from other amino acids and nitrogen-containing compounds, so food does not need to supply them.
+[hom-proteins-s1.2.4] Examples of non-essential amino acids: alanine, asparagine, aspartic acid, cysteine, glutamic acid, glutamine, glycine, proline, serine and tyrosine.
+[hom-proteins-s1.2.5] Non-essential does not mean unimportant. It means a dietary supply is not normally required, because the body can make them.
+[hom-proteins-s1.2.6] A protein's biological value (its quality as a source of amino acids) depends on whether it supplies all the essential amino acids in the right proportions.
+[hom-proteins-s1.3.b] Amino acids become proteins by being joined end to end. The link between two amino acids is called a peptide bond.
+[hom-proteins-s1.3.0] A peptide bond forms when the carboxyl group (–COOH) of one amino acid reacts with the amino group (–NH₂) of another. It is not formed between the R groups.
+[hom-proteins-s1.3.1] A molecule of water is released in this reaction, so peptide bond formation is a condensation reaction.
+[hom-proteins-s1.3.2] The link formed is –CO–NH–.
+[hom-proteins-s1.3.3] Two amino acids joined by one peptide bond form a dipeptide. A short chain of amino acids is a peptide, and a long chain is a polypeptide.
+[hom-proteins-s1.3.4] A protein is made of one or more polypeptide chains.
+[hom-proteins-s1.3.5] Diagram: draw two amino acids side by side, then joined. Label the –CO–NH– link and the molecule of water released.
+[hom-proteins-s1.4.b] Hydrolysis is the opposite of the reaction that builds protein. It is how long protein chains are broken back into their amino acids.
+[hom-proteins-s1.4.0] Hydrolysis breaks a peptide bond by adding a molecule of water, which reverses the condensation reaction.
+[hom-proteins-s1.4.1] Repeated hydrolysis splits a polypeptide into smaller peptides and finally into free amino acids.
+[hom-proteins-s1.4.2] In the body the enzymes pepsin (in the stomach) and trypsin (in the small intestine) do this in digestion. Acid and heat can also hydrolyse protein.

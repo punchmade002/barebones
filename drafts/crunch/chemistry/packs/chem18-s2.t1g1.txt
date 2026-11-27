@@ -1,0 +1,390 @@
+MODE: cost and links
+TARGET chem18-s2: 2. Le Châtelier's principle
+[chem18-s2.0.b] A reaction at equilibrium (reactants turning into products at exactly the rate products turn back into reactants, so the amounts stay constant) can be disturbed. Le Châtelier’s principle lets you predict how it responds.
+[chem18-s2.0.0] Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up.
+[chem18-s2.0.1] A shift to the right means the forward reaction is favoured, so more products form until equilibrium is restored; a shift to the left means more reactants form.
+[chem18-s2.0.2] The principle predicts the direction of the shift, not how fast it happens or how large it is; the change is only partly reversed, so the system never fully cancels the disturbance.
+[chem18-s2.1.b] Concentration (the amount of a substance per unit volume of solution) is the easiest disturbance to picture. The equilibrium shifts to use up whatever has been added, or to replace whatever has been taken away.
+[chem18-s2.1.0] Adding a reactant (or removing a product) shifts the equilibrium to the right, using up some of the added reactant and forming more product.
+[chem18-s2.1.1] Adding a product (or removing a reactant) shifts the equilibrium to the left, because the system opposes the extra product by turning some of it back into reactant.
+[chem18-s2.1.2] Kc (the equilibrium constant, the fixed ratio of product to reactant concentrations in the Kc expression) is unchanged: the concentrations adjust until that ratio is back at its old value.
+[chem18-s2.1.3] Removing a product as it forms keeps pulling the equilibrium to the right, so the reaction keeps making more product. This is how a yield (the amount of product obtained) is raised.
+[chem18-s2.1.4] In esterification (an alcohol reacting with an acid to make an ester), using an excess of ethanol, the cheaper reactant, shifts the equilibrium right and increases the yield of ester.
+[chem18-s2.1.5] In Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) (red), adding either reactant deepens the red colour because more of the red product forms. There is more on this in Investigation: disturbing an equilibrium.
+[chem18-s2.2.b] Pressure only affects equilibria that involve gases, because only gases take up very different volumes depending on how many molecules there are. The equilibrium shifts to the side that exerts less pressure when pressure is raised.
+[chem18-s2.2.0] Increasing the pressure shifts the equilibrium towards the side with fewer moles of gas, because that side exerts the lower pressure; decreasing the pressure shifts it towards the side with more moles of gas.
+[chem18-s2.2.1] Count only the gas molecules, using the coefficients (the numbers in front of each formula): N₂(g) + 3H₂(g) ⇌ 2NH₃(g) has 4 mol of gas on the left and 2 mol on the right, so high pressure shifts it to the right, giving more ammonia.
+[chem18-s2.2.2] If both sides have the same number of moles of gas, pressure has no effect on the position of equilibrium, e.g. H₂(g) + I₂(g) ⇌ 2HI(g), with 2 mol on each side.
+[chem18-s2.2.3] Compressing H₂ + I₂ ⇌ 2HI makes the purple colour deeper because every concentration, including that of I₂, rises (the same amount of gas is squeezed into a smaller volume); the percentage of each substance is unchanged.
+[chem18-s2.2.4] 2NO₂(g) (brown) ⇌ N₂O₄(g) (colourless): compressing the mixture in a sealed syringe makes it darker at once, because the concentration of the brown NO₂ rises.
+[chem18-s2.2.5] The darkening then fades as the equilibrium shifts to the right, from 2 mol to 1 mol of gas, but the mixture does not become as pale as before.
+[chem18-s2.2.6] A change of pressure does not change Kc.
+[chem18-s2.3.b] Heat behaves like a reactant or a product: an exothermic reaction (one that releases heat, ΔH negative) gives out heat, and an endothermic one (ΔH positive) absorbs it. Changing the temperature moves the equilibrium to oppose the change in heat.
+[chem18-s2.3.0] Raising the temperature shifts the equilibrium in the endothermic direction, which absorbs heat; lowering it shifts the equilibrium in the exothermic direction, which releases heat.
+[chem18-s2.3.1] If the forward reaction is exothermic (ΔH negative), heating shifts the equilibrium to the left and cooling shifts it to the right; the reverse is true if the forward reaction is endothermic.
+[chem18-s2.3.2] Example: 2NO₂(g) ⇌ N₂O₄(g), with ΔH about −57 kJ mol⁻¹. Heating shifts the equilibrium to the left, giving a darker brown mixture with more NO₂.
+[chem18-s2.3.3] Cooling the same mixture in ice-water shifts the equilibrium to the right, giving a paler mixture because more colourless N₂O₄ forms.
+[chem18-s2.3.4] Temperature is the only one of these disturbances that changes Kc: for an exothermic forward reaction Kc falls as temperature rises; for an endothermic one it rises.
+[chem18-s2.3.5] Diagram: two sealed tubes of the brown mixture, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.4.b] A catalyst (a substance that speeds up a reaction without being used up) is not a disturbance to an equilibrium at all, so it cannot shift one.
+[chem18-s2.4.0] A catalyst does not disturb an equilibrium or change its position, because it speeds up the forward and reverse reactions equally.
+[chem18-s2.4.1] A catalyst lets equilibrium be reached more quickly, so the same yield is obtained in less time.
+[chem18-s2.4.2] A catalyst does not change Kc.
+[chem18-s2.5.b] Le Châtelier’s principle explains familiar things, from the fizz in a drink to the damage that extra carbon dioxide does to sea life. In each case, work out what was disturbed and which way the equilibrium moves.
+[chem18-s2.5.0] Fizzy drinks: CO₂(g) ⇌ CO₂(aq). Opening the bottle lowers the pressure of CO₂ above the drink, so the equilibrium shifts to the left and gas bubbles out.
+[chem18-s2.5.1] A cold drink holds more dissolved CO₂.
+[chem18-s2.5.2] Oceans: CO₂(g) ⇌ CO₂(aq); CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq); H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Here H₂CO₃ is carbonic acid and CO₃²⁻ is the carbonate ion.
+[chem18-s2.5.3] More CO₂ in the air increases the dissolved CO₂ and carbonic acid; the third equilibrium shifts to the right, using up carbonate ions. This is ocean acidification.
+[chem18-s2.5.4] With less carbonate available, shellfish and corals find it harder to build calcium carbonate shells and skeletons.
+[chem18-s2.5.5] Indicators: the colour of an acid–base indicator (a dye that changes colour with acidity) changes because adding acid or base shifts HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s2.6.b] The Haber process makes ammonia from nitrogen and hydrogen. Le Châtelier’s principle tells you which conditions give the most ammonia at equilibrium, but cost and rate force compromises.
+[chem18-s2.6.0] N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Ammonia is used mainly to make fertilisers.
+[chem18-s2.6.1] Pressure: there are 4 mol of gas on the left and 2 mol on the right, so high pressure increases the yield by Le Châtelier’s principle, and also increases the rate because the concentrations are higher.
+[chem18-s2.6.2] In practice a pressure of about 200 atm (range about 150–300 atm) is used as a compromise.
+[chem18-s2.6.3] Higher pressures would give more ammonia, but a plant that can withstand them is very expensive to build and run, and the risk of leaks and explosions increases.
+[chem18-s2.6.4] Temperature: the forward reaction is exothermic, so a low temperature gives a higher yield at equilibrium. But at low temperature the reaction is too slow to be economic.
+[chem18-s2.6.5] In practice a compromise of about 400–500 °C (about 450 °C) gives a reasonable yield at a fast enough rate.
+[chem18-s2.7.b] Two more features keep the Haber process economic: a catalyst that makes the reaction fast enough, and the removal of ammonia so that the equilibrium keeps moving right.
+[chem18-s2.7.0] The iron catalyst does not change the yield; it lets equilibrium be approached quickly at the compromise temperature.
+[chem18-s2.7.1] Ammonia is removed by cooling and liquefying it, which keeps pulling the equilibrium to the right, and unreacted nitrogen and hydrogen are recycled through the catalyst, so the overall conversion is high.
+[chem18-s2.8.b] The Contact process makes sulfur trioxide, the step on the way to sulfuric acid. It follows the same pattern as the Haber process: Le Châtelier predicts one set of conditions and practice uses another.
+[chem18-s2.8.0] Contact process (sulfuric acid manufacture): 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH about −197 kJ mol⁻¹.
+[chem18-s2.8.1] Le Châtelier predicts high pressure (3 mol of gas on the left, 2 mol on the right) and low temperature for the best yield, because the forward reaction is exothermic.
+[chem18-s2.8.2] In practice about 450 °C is used as a compromise between yield and rate, with a vanadium(V) oxide (V₂O₅) catalyst.
+[chem18-s2.8.3] The pressure is only slightly above atmospheric (1–2 atm), because the yield is already very high and extra pressure would cost more than it gains.
+[chem18-s2.9.b] For any equilibrium you can choose conditions the same way. First decide what favours the product, then weigh that against practical limits.
+[chem18-s2.9.0] General method for any equilibrium: for the best yield choose the temperature that favours the exothermic or endothermic direction as needed, the pressure that favours the side with fewer (or more) gas moles, and an excess of a cheap reactant or removal of product.
+[chem18-s2.9.1] Then weigh these choices against rate, cost, energy use and safety, because the best conditions for yield are rarely the best for the whole process.
+[chem18-s2.9.2] Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature.
+[chem18-s2.10.b] A reversible reaction that changes colour lets you see the position of equilibrium shift. This investigation tests Le Châtelier’s principle by changing one factor at a time.
+[chem18-s2.10.0] Aim: to investigate how changes in concentration and temperature affect the position of an equilibrium, and to test whether the results agree with Le Châtelier’s principle.
+[chem18-s2.10.1] Independent variable (the factor you deliberately change): here concentration or temperature.
+[chem18-s2.10.2] Dependent variable (what you observe as a result): the colour of the equilibrium mixture, which shows the position of equilibrium; more of the coloured product gives a deeper colour.
+[chem18-s2.10.3] Controlled variables (kept the same so the test is fair): the volume of solution, the number of drops added, the observer and the white background.
+[chem18-s2.10.4] Set up one equilibrium mixture and divide it into equal portions in identical test tubes; keep one tube untouched as a control (a comparison with no change) and change one factor in each of the others.
+[chem18-s2.10.5] Compare each tube with the control and record the colour before and after the change.
+[chem18-s2.11.b] This equilibrium is a good test of concentration changes because the product is strongly coloured. Adding or removing a reactant visibly changes the red colour.
+[chem18-s2.11.0] Equation: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Fe³⁺ (from iron(III) chloride) is yellow, SCN⁻ (from potassium thiocyanate) is colourless, and FeSCN²⁺ is blood-red.
+[chem18-s2.11.1] Method: add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms. Diluting it makes the colour changes easy to see.
+[chem18-s2.11.2] Pour equal portions (about 10 cm³) into four test tubes; tube 1 is the control.
+[chem18-s2.11.3] Tube 2: add a few drops of iron(III) chloride solution; the red deepens, because [Fe³⁺] (the concentration of Fe³⁺) increases and the equilibrium shifts to the right, forming more FeSCN²⁺.
+[chem18-s2.11.4] Tube 3: add a few drops of potassium thiocyanate solution; the red deepens, because [SCN⁻] increases and the equilibrium shifts to the right.
+[chem18-s2.11.5] Tube 4: add a few drops of silver nitrate solution; a white precipitate (an insoluble solid formed in a solution) forms and the red colour fades.
+[chem18-s2.11.6] Silver ions remove SCN⁻ as insoluble silver thiocyanate, AgSCN, lowering [SCN⁻], so the equilibrium shifts to the left; silver chloride, also white, can form from the chloride ions in the iron(III) chloride.
+[chem18-s2.11.7] Conclusion: adding a reactant shifts the equilibrium to the right; removing a reactant shifts it to the left, as Le Châtelier’s principle predicts.
+[chem18-s2.12.b] A labelled diagram sums up the four tubes and the colour each one shows.
+[chem18-s2.12.0] Diagram: a row of four test tubes in a rack, labelled control, + FeCl₃, + KSCN and + AgNO₃, showing pale red, deep red, deep red, and pale or colourless with a white precipitate.
+[chem18-s2.13.b] The cobalt(II) chloride equilibrium shows both concentration and temperature effects, because its two forms are different colours and the forward reaction is endothermic.
+[chem18-s2.13.0] Equation: [Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l).
+[chem18-s2.13.1] [Co(H₂O)₆]²⁺ is pink and [CoCl₄]²⁻ is blue; the forward reaction is endothermic.
+[chem18-s2.13.2] Method: dissolve a little cobalt(II) chloride in water to give a pink solution; add concentrated hydrochloric acid drop by drop until the solution is violet, a mixture of pink and blue.
+[chem18-s2.13.3] Divide the violet solution into test tubes, keeping one as a control.
+[chem18-s2.13.4] Adding more concentrated hydrochloric acid adds Cl⁻ and turns the solution blue: the equilibrium shifts to the right.
+[chem18-s2.13.5] Adding water turns the solution pink: water is a product, so the equilibrium shifts to the left. Dilution also favours the side with more dissolved ions, here the left, with five ions against one.
+[chem18-s2.14.b] Because the forward reaction is endothermic, temperature changes move this equilibrium in a predictable direction. The chemicals involved need careful handling.
+[chem18-s2.14.0] Heating: a tube placed in a beaker of hot water (about 80 °C) turns blue, because heating favours the endothermic forward reaction.
+[chem18-s2.14.1] Cooling: a tube placed in ice-water turns pink, because cooling favours the exothermic reverse reaction.
+[chem18-s2.14.2] The changes reverse when the tubes return to room temperature, showing that the reaction is reversible and still dynamic.
+[chem18-s2.14.3] Because heating shifts this equilibrium to the right, Kc for it increases with temperature.
+[chem18-s2.14.4] Safety: concentrated hydrochloric acid is corrosive and gives off choking fumes, so wear goggles and gloves and work in a fume cupboard.
+[chem18-s2.14.5] Safety: cobalt(II) chloride is toxic, may cause cancer and skin allergy, and is harmful to aquatic life, so wear gloves and put waste in the residue container, not the sink.
+[chem18-s2.14.6] Diagram: three test tubes of the violet mixture, one in a beaker of hot water (blue), one in a beaker of ice-water (pink) and one at room temperature as a control (violet), with a thermometer in each beaker.
+[chem18-s2.15.b] This gas equilibrium shows a temperature effect directly, because one form is brown and the other is colourless. The teacher performs it because NO₂ is toxic.
+[chem18-s2.15.0] 2NO₂(g) ⇌ N₂O₄(g), with the forward reaction exothermic; NO₂ is brown and N₂O₄ is colourless.
+[chem18-s2.15.1] Sealed glass tubes containing the same equilibrium mixture are placed in hot water and in ice-water.
+[chem18-s2.15.2] The hot tube becomes darker brown, as the equilibrium shifts to the left, the endothermic direction, giving more NO₂.
+[chem18-s2.15.3] The cold tube becomes paler, as the equilibrium shifts to the right.
+[chem18-s2.15.4] Safety: NO₂ is very toxic; the tubes are sealed and the demonstration is done by the teacher.
+[chem18-s2.15.5] Diagram: two sealed tubes, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.16.b] Primary data are collected by you in the laboratory; secondary data come from somewhere else, such as a simulation, table or graph. Both can show how an equilibrium responds to a disturbance.
+[chem18-s2.16.0] A digital simulation models the particles of a reversible reaction; the user can add reactant or product, or change the temperature, and watch the numbers of each particle and the forward and reverse rates change until a new equilibrium is set up.
+[chem18-s2.16.1] Simulations show what cannot be seen in the laboratory: both reactions continuing at equal rates at equilibrium, and concentration–time graphs showing the sudden change and the new constant levels.
+[chem18-s2.16.2] Simulations are safe, fast and repeatable and avoid toxic chemicals, but they are models: their results depend on the rules programmed into them, so they are checked against experimental data.
+[chem18-s2.16.3] Secondary data, such as a table or graph of the percentage of ammonia at equilibrium at different temperatures and pressures, can be analysed for trends.
+[chem18-s2.16.4] The percentage of ammonia rises with pressure and falls with temperature, so the forward reaction reduces the number of moles of gas and is exothermic.
+[chem18-s2.16.5] On a concentration–time graph, a sudden vertical jump in one line shows a substance being added; the gradual changes that follow show the shift; new horizontal lines show the new equilibrium.
+[chem18-s2.17.b] Judging a colour by eye is not exact, so the method is designed to make the comparison fair and the results reliable.
+[chem18-s2.17.0] Judging colour by eye is subjective (it depends on the observer): compare each tube with the control against a white background, use the same volume in identical tubes, and have the same observer.
+[chem18-s2.17.1] Add the same number of drops to each tube, and allow time for the new equilibrium to set up (the colour stops changing) before recording.
+[chem18-s2.17.2] Concentration changes move the position of equilibrium but do not change Kc; temperature changes both.
+[chem18-s2.17.3] Adding a solution also dilutes the mixture a little, so add only a few drops, or add the same volume of water to the control.
+
+CANDIDATES chem18-s1: 1. Dynamic equilibrium and Kc
+[chem18-s1.0.b] Some reactions run to completion; others reach a balance in which the forward and reverse reactions both continue. Telling the two types apart is the starting point for the whole chapter.
+[chem18-s1.0.0] Some reactions go to completion: the reactants are converted completely into products and the reaction cannot easily be reversed, e.g. burning magnesium, 2Mg(s) + O₂(g) → 2MgO(s).
+[chem18-s1.0.1] A reversible reaction is one in which the products can react to form the reactants again, so both the forward and the reverse reactions take place. It is shown by the sign ⇌, a double arrow.
+[chem18-s1.0.2] The forward reaction is the one from left to right as written; the reverse (back) reaction is from right to left. Both are always labelled relative to how the equation is written.
+[chem18-s1.0.3] The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), makes ammonia from nitrogen and hydrogen. It is named after Fritz Haber (1868–1934); Carl Bosch (1874–1940) developed it industrially.
+[chem18-s1.0.4] Hydrogen and iodine react reversibly: H₂(g) + I₂(g) ⇌ 2HI(g), where HI is hydrogen iodide gas.
+[chem18-s1.0.5] Esterification (an acid reacting with an alcohol to make an ester and water) is reversible: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.0.6] Nitrogen dioxide and dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). NO₂ is brown and N₂O₄ is colourless, so the colour of the mixture shows how far the reaction has moved.
+[chem18-s1.0.7] Weak acids (acids that only partly split into ions in water) and acid–base indicators (dyes that change colour with acidity) are also reversible, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq) and HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s1.1.b] In a reversible reaction in a sealed container, the mixture settles into a balance. At chemical equilibrium both reactions continue, and their rates are equal.
+[chem18-s1.1.0] Chemical equilibrium is a state of dynamic balance in a reversible reaction in which the rate of the forward reaction (how fast reactants turn into products) equals the rate of the reverse reaction.
+[chem18-s1.1.1] It is called dynamic because both reactions are still happening: reactant particles are still forming products and product particles are still forming reactants, at the same rate.
+[chem18-s1.1.2] Because substances are formed and used up at the same rate, their concentrations (amounts per litre) stay constant at equilibrium, so observable properties such as colour, pressure and density stop changing.
+[chem18-s1.1.3] The concentrations are constant but not equal: at equilibrium there may be much more product than reactant, or the reverse. It is the rates that are equal, not the amounts.
+[chem18-s1.1.4] Static equilibrium is different: nothing moves at all, e.g. a metre stick balanced at its centre.
+[chem18-s1.1.5] Analogy: a person walking up a down-escalator at the same speed it moves stays in the same place, although both movements continue. Likewise nothing seems to change at equilibrium, but both reactions carry on.
+[chem18-s1.2.b] Equilibrium only forms if nothing can escape. This is why the container matters.
+[chem18-s1.2.0] Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave; energy such as heat can still pass to and from the surroundings.
+[chem18-s1.2.1] Heating calcium carbonate in a sealed container, CaCO₃(s) ⇌ CaO(s) + CO₂(g): the CO₂ gas builds up and equilibrium is reached.
+[chem18-s1.2.2] Heating calcium carbonate in an open container: the CO₂ escapes, so the reverse reaction cannot happen and the calcium carbonate decomposes completely.
+[chem18-s1.2.3] A fizzy drink in a closed bottle contains CO₂(g) ⇌ CO₂(aq) at equilibrium (gas above the drink and gas dissolved in it); once the bottle is opened the gas escapes and the drink goes flat.
+[chem18-s1.3.b] Equilibrium is not instant. The two rates start far apart and move towards each other until they meet.
+[chem18-s1.3.0] At the start, when only reactants are present, the forward rate is high and the reverse rate is zero, because there are no products yet to react back.
+[chem18-s1.3.1] As reactants are used up the forward rate falls; as products build up the reverse rate rises.
+[chem18-s1.3.2] Equilibrium is reached when the two rates become equal; from then on all concentrations are constant. This is why equilibrium is reached some time after the reactants are mixed.
+[chem18-s1.3.3] The same equilibrium is reached from either direction: starting with 1 mol of H₂ and 1 mol of I₂, or with 2 mol of HI only, in the same sealed flask at the same temperature, gives the same equilibrium mixture.
+[chem18-s1.3.4] Concentration–time graph for N₂ + 3H₂ ⇌ 2NH₃ starting with N₂ and H₂: the reactant curves fall and the product curve rises from zero, each changing quickly at first because the reactants are most concentrated then.
+[chem18-s1.3.5] All three curves level off (become horizontal) at the same moment, when equilibrium is reached. H₂ falls three times as fast as N₂, and NH₃ rises twice as fast as N₂ falls, matching the 1 : 3 : 2 ratio in the equation.
+[chem18-s1.3.6] Rate–time graph: the forward-rate curve falls and the reverse-rate curve rises from zero until they meet and continue as one horizontal line at equilibrium.
+[chem18-s1.3.7] Diagram: draw (a) concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked; and (b) forward and reverse rates against time, meeting at equilibrium.
+[chem18-s1.4.b] At equilibrium the concentrations are not random: for a given reaction at a given temperature they always fit one fixed pattern. That pattern is a number, the equilibrium constant Kc.
+[chem18-s1.4.0] The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.
+[chem18-s1.4.1] For aA + bB ⇌ cC + dD (where a, b, c and d are the coefficients, the numbers in front of each formula in the balanced equation): Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ. Square brackets mean the concentration in mol L⁻¹ at equilibrium.
+[chem18-s1.4.2] Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.
+[chem18-s1.4.3] Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³. The 3 in front of H₂ becomes the power 3.
+[chem18-s1.4.4] Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂], with HI squared because its coefficient is 2.
+[chem18-s1.4.5] Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].
+[chem18-s1.4.6] Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.
+[chem18-s1.4.7] Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻].
+[chem18-s1.5.b] Kc is a ratio of concentrations, so whether it has units depends on how many concentrations are on top and on the bottom.
+[chem18-s1.5.0] To find the units, substitute mol L⁻¹ for each concentration in the Kc expression and cancel.
+[chem18-s1.5.1] When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.
+[chem18-s1.5.2] For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻², because there are fewer powers on top than on the bottom.
+[chem18-s1.5.3] For PCl₅ ⇌ PCl₃ + Cl₂: (mol L⁻¹)² ÷ (mol L⁻¹), so the units of Kc are mol L⁻¹.
+[chem18-s1.6.b] Many changes alter the composition of an equilibrium mixture, but the constant itself is much harder to move. Only one factor changes its value.
+[chem18-s1.6.0] Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.
+[chem18-s1.6.1] Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.
+[chem18-s1.6.2] Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.
+[chem18-s1.6.3] A catalyst (a substance that speeds up a reaction without being used up) does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.
+[chem18-s1.6.4] Exothermic forward reaction (one that gives out heat, ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc. Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.
+[chem18-s1.6.5] Endothermic forward reaction (one that takes in heat, ΔH positive): raising the temperature increases Kc; lowering it decreases Kc. Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.
+[chem18-s1.6.6] So if Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic.
+[chem18-s1.7.b] The size of Kc tells you where the equilibrium lies, and comparing it with the current mixture tells you which way a reaction will go.
+[chem18-s1.7.0] A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion. A small Kc (much less than 1) means mainly reactants: it lies to the left and little product forms.
+[chem18-s1.7.1] A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium. Esterification has Kc ≈ 4 (at room temperature), so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms.
+[chem18-s1.7.2] Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.
+[chem18-s1.7.3] The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.
+[chem18-s1.7.4] If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.
+[chem18-s1.7.5] Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.
+[chem18-s1.7.6] This explains Le Châtelier’s principle (a system at equilibrium shifts to oppose a change) mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.
+[chem18-s1.7.7] Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature.
+[chem18-s1.8.b] Kc calculations follow the same routine every time. Working through a table of amounts keeps the steps in order and avoids the usual mistakes.
+[chem18-s1.8.0] 1. Write the balanced equation and the Kc expression.
+[chem18-s1.8.1] 2. Convert any masses to moles using n = mass ÷ M, where M is the molar mass in g mol⁻¹.
+[chem18-s1.8.2] 3. Set up a table with rows Initial (moles at the start), Change (moles reacting or forming, in the ratio of the coefficients) and Equilibrium (initial + change) for every species.
+[chem18-s1.8.3] 4. Divide each equilibrium amount by the volume of the container in litres to get concentrations in mol L⁻¹. When the total number of moles is the same on each side, as in H₂ + I₂ ⇌ 2HI or esterification, the volume cancels, so moles can be used directly.
+[chem18-s1.8.4] 5. Substitute the concentrations into the Kc expression and calculate; give the answer to 3 significant figures, with units if asked.
+[chem18-s1.8.5] To find equilibrium amounts from Kc: let x be the amount that reacts, write each equilibrium amount in terms of x, substitute into the Kc expression and solve for x.
+[chem18-s1.8.6] If both sides of the resulting equation are perfect squares, take the square root of both sides. Otherwise rearrange into a quadratic, ax² + bx + c = 0, and use x = (−b ± √(b² − 4ac)) ÷ 2a.
+[chem18-s1.8.7] Choose the root that makes physical sense: no equilibrium amount can be negative, so x cannot exceed the starting amount of a reactant.
+[chem18-s1.9.b] The simplest type: every equilibrium amount is given, so convert to concentrations and substitute.
+[chem18-s1.9.0] Data: H₂(g) + I₂(g) ⇌ 2HI(g) in a 2.00 L flask at a fixed temperature; at equilibrium there are 0.100 mol H₂, 0.150 mol I₂ and 0.840 mol HI.
+[chem18-s1.9.1] [H₂] = 0.100 mol ÷ 2.00 L = 0.0500 mol L⁻¹, because Kc needs concentrations, not moles.
+[chem18-s1.9.2] [I₂] = 0.150 mol ÷ 2.00 L = 0.0750 mol L⁻¹.
+[chem18-s1.9.3] [HI] = 0.840 mol ÷ 2.00 L = 0.420 mol L⁻¹.
+[chem18-s1.9.4] Kc = [HI]² ÷ [H₂][I₂] = (0.420)² ÷ (0.0500 × 0.0750) = 0.1764 ÷ 0.00375 = 47.0 (no units, because the powers on top and bottom match).
+[chem18-s1.10.b] Here only one equilibrium amount is given. Use the mole ratio from the equation to work out all the others.
+[chem18-s1.10.0] Data: 2.00 mol N₂ and 6.00 mol H₂ are sealed in a 4.00 L vessel; at equilibrium 1.20 mol NH₃ is present, for N₂(g) + 3H₂(g) ⇌ 2NH₃(g).
+[chem18-s1.10.1] Change: forming 1.20 mol NH₃ uses 0.600 mol N₂ and 1.80 mol H₂, in the ratio 1 : 3 : 2 from the coefficients.
+[chem18-s1.10.2] Equilibrium amounts: N₂ = 2.00 − 0.600 = 1.40 mol; H₂ = 6.00 − 1.80 = 4.20 mol; NH₃ = 1.20 mol.
+[chem18-s1.10.3] Concentrations (÷ 4.00 L): [N₂] = 0.350 mol L⁻¹; [H₂] = 1.05 mol L⁻¹; [NH₃] = 0.300 mol L⁻¹.
+[chem18-s1.10.4] Kc = [NH₃]² ÷ [N₂][H₂]³ = (0.300)² ÷ (0.350 × 1.05³) = 0.0900 ÷ 0.405 = 0.222 L² mol⁻².
+[chem18-s1.11.b] Here the starting amount is a mass, and the extent of reaction is a percentage dissociated (the percentage of the starting compound that has split up into products).
+[chem18-s1.11.0] Data: 41.7 g of PCl₅ is heated in a sealed 5.00 L vessel; at equilibrium 40.0% has dissociated, for PCl₅(g) ⇌ PCl₃(g) + Cl₂(g).
+[chem18-s1.11.1] Molar mass: M(PCl₅) = 31 + 5 × 35.5 = 208.5 g mol⁻¹.
+[chem18-s1.11.2] Moles PCl₅ = 41.7 g ÷ 208.5 g mol⁻¹ = 0.200 mol, using n = mass ÷ M.
+[chem18-s1.11.3] Moles dissociated = 40.0% of 0.200 mol = 0.0800 mol, because the percentage applies to the starting amount.
+[chem18-s1.11.4] At equilibrium: PCl₅ = 0.120 mol; PCl₃ = 0.0800 mol; Cl₂ = 0.0800 mol, because each PCl₅ that dissociates gives one PCl₃ and one Cl₂.
+[chem18-s1.11.5] Concentrations (÷ 5.00 L): [PCl₅] = 0.0240 mol L⁻¹; [PCl₃] = [Cl₂] = 0.0160 mol L⁻¹.
+[chem18-s1.11.6] Kc = [PCl₃][Cl₂] ÷ [PCl₅] = (0.0160 × 0.0160) ÷ 0.0240 = 0.0107 mol L⁻¹.
+[chem18-s1.12.b] Now Kc is given and you find an amount. When the expression is a perfect square (the same bracket squared on top and bottom), taking a square root avoids a quadratic.
+[chem18-s1.12.0] Data: 1.00 mol of ethanoic acid and 1.00 mol of ethanol are mixed and reach equilibrium; Kc = 4.00 for CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.12.1] Let x mol of ester form: at equilibrium the acid and the ethanol are each (1.00 − x) mol, and the ester and the water are each x mol; the volume cancels.
+[chem18-s1.12.2] Kc = x² ÷ (1.00 − x)² = 4.00.
+[chem18-s1.12.3] Taking the square root of both sides, which removes the squares, gives x ÷ (1.00 − x) = 2.00.
+[chem18-s1.12.4] Rearranging: x = 2.00 − 2.00x, so 3.00x = 2.00 and x = 0.667 mol of ester.
+[chem18-s1.12.5] The acid and the ethanol each remain at 1.00 − 0.667 = 0.333 mol, because each mole of ester formed used up one mole of each.
+[chem18-s1.12.6] Mass of ester = 0.667 mol × 88 g mol⁻¹ = 58.7 g, using M(CH₃COOC₂H₅) = 88 g mol⁻¹.
+[chem18-s1.13.b] When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).
+[chem18-s1.13.0] Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).
+[chem18-s1.13.1] Let x mol of H₂ react: at equilibrium H₂ = (1.00 − x), I₂ = (2.00 − x) and HI = 2x; as the volume is 1.00 L, these amounts are also the concentrations in mol L⁻¹.
+[chem18-s1.13.2] 49.0 = (2x)² ÷ [(1.00 − x)(2.00 − x)], so 4x² = 49.0(2.00 − 3.00x + x²).
+[chem18-s1.13.3] Rearranging gives 45.0x² − 147x + 98.0 = 0, which is the form ax² + bx + c = 0 needed for the formula.
+[chem18-s1.13.4] x = (147 ± √(147² − 4 × 45.0 × 98.0)) ÷ (2 × 45.0) = (147 ± 63.0) ÷ 90.0, so x = 2.33 or x = 0.933.
+[chem18-s1.13.5] x = 2.33 is impossible because it exceeds the 1.00 mol of H₂ present, so x = 0.933.
+[chem18-s1.13.6] Equilibrium concentrations: [H₂] = 0.0667 mol L⁻¹; [I₂] = 1.07 mol L⁻¹; [HI] = 1.87 mol L⁻¹.
+[chem18-s1.13.7] Check: 1.87² ÷ (0.0667 × 1.07) ≈ 49, which matches Kc.
+
+CANDIDATES chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.
+
+CANDIDATES chem17-s1: 1. Rate of reaction and collision theory
+[chem17-s1.0.b] Some reactions finish in a flash and others take years. Rate of reaction is the measure chemists use to say exactly how fast a reaction goes, and it is always a change per unit of time.
+[chem17-s1.0.0] Rate of reaction is the change in concentration (the amount of substance per litre of solution) of a reactant (a substance used up) or a product (a substance formed) per unit time.
+[chem17-s1.0.1] When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹, that is, moles per litre changing each second or each minute.
+[chem17-s1.0.2] When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).
+[chem17-s1.0.3] Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio (the ratio of the numbers in front of the formulas) in the balanced equation.
+[chem17-s1.0.4] For example, in 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed, because the equation shows 2 mol H₂O₂ for every 1 mol O₂.
+[chem17-s1.0.5] A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.
+[chem17-s1.0.6] For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time), so halving the time taken doubles the rate.
+[chem17-s1.0.7] The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst (a substance that changes the rate without being used up) and, for reactions of gases, pressure; the nature of the reactants also matters. There is more on this in “Collision theory”.
+[chem17-s1.1.b] To find a rate you need a property that changes as the reaction goes and that you can measure repeatedly. When a reaction gives off a gas, either the gas volume or the mass lost can be tracked.
+[chem17-s1.1.0] Measure the volume of gas produced at regular time intervals, collected in a gas syringe (a calibrated syringe that the gas pushes out) or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.
+[chem17-s1.1.1] When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar, because a gas jar has no scale to read the volume from.
+[chem17-s1.1.2] Diagram: a flask joined by a delivery tube to a gas syringe, or to an inverted graduated cylinder full of water standing in a trough; label the flask, reactants, delivery tube and the gas collector.
+[chem17-s1.1.3] Measure the loss in mass as a gas escapes, with the flask on an electronic balance, because the escaping gas carries mass away from the flask.
+[chem17-s1.1.4] A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost, which would give a false mass loss.
+[chem17-s1.1.5] Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.
+[chem17-s1.1.6] Diagram: a conical flask of calcium carbonate and hydrochloric acid, with a cotton-wool plug in its neck, standing on an electronic balance; label the flask, plug, balance and the CO₂ escaping.
+[chem17-s1.2.b] Not every reaction gives off a gas. Another way to follow a reaction is to time how long a fixed amount of change takes, or to watch a colour change.
+[chem17-s1.2.0] Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate (a solid formed in a solution) to hide a cross under the flask.
+[chem17-s1.2.1] Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s1.2.2] The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate, because the same amount of sulfur forms to hide the cross in every run, so a shorter time means a faster rate.
+[chem17-s1.2.3] Diagram: a conical flask of sodium thiosulfate solution standing on a paper marked with a cross, viewed from above; label the flask, the solution and the cross.
+[chem17-s1.2.4] Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.
+[chem17-s1.2.5] The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction.
+[chem17-s1.3.b] A reaction does not run at one steady speed. Its rate falls as it goes, and the shape of a graph shows this.
+[chem17-s1.3.0] The rate is greatest at the start, when the concentration of reactants is highest, so there are the most particles available to react.
+[chem17-s1.3.1] As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.
+[chem17-s1.3.2] The reaction stops when the limiting reactant (the reactant that runs out first) is used up; the rate is then zero.
+[chem17-s1.3.3] On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.
+[chem17-s1.3.4] The gradient (steepness) of the curve at any point is the rate at that time, so a steep curve means fast and a flat line means no reaction.
+[chem17-s1.3.5] On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.
+[chem17-s1.3.6] The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.
+[chem17-s1.3.7] Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”.
+[chem17-s1.4.b] Controlling how fast a reaction goes is useful in industry, in the kitchen and in the body.
+[chem17-s1.4.0] Industry wants fast reactions, so that products are made quickly and economically.
+[chem17-s1.4.1] Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.
+[chem17-s1.4.2] The rates of reactions in the body are controlled by enzymes (biological catalysts). There is more on this in “Catalysis and energy profiles”.
+[chem17-s1.5.b] Collision theory explains what has to happen at the level of particles for a reaction to take place. It is the idea behind every factor that changes rate.
+[chem17-s1.5.0] For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.
+[chem17-s1.5.1] Most collisions do not lead to reaction: the particles just bounce apart.
+[chem17-s1.5.2] A collision leads to reaction only if the particles collide with at least a minimum amount of energy, the activation energy, so that bonds can begin to break.
+[chem17-s1.5.3] Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.
+[chem17-s1.5.4] An effective collision is one that results in the formation of products.
+[chem17-s1.5.5] The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate.
+[chem17-s1.6.b] Reactions range from instantaneous to almost undetectable. The syllabus asks for examples of both.
+[chem17-s1.6.0] Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.
+[chem17-s1.6.1] Ionic equation (showing only the ions that react) for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem17-s1.6.2] Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.
+[chem17-s1.6.3] Slow: rusting of iron takes days to years.
+[chem17-s1.6.4] Fermentation of glucose by yeast (the breakdown of glucose by yeast to make ethanol) takes days.
+[chem17-s1.6.5] A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction, even though it explodes when ignited.
+[chem17-s1.7.b] Whether a reaction is fast or slow depends on its activation energy, which in turn depends on whether bonds must be broken first.
+[chem17-s1.7.0] Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.
+[chem17-s1.7.1] Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.
+[chem17-s1.7.2] Reactions between covalent molecules are usually slower, because covalent bonds (bonds formed by sharing electrons) must be broken before new bonds can form, so the activation energy is higher.
+[chem17-s1.7.3] A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast.
+[chem17-s1.8.b] Concentration is the first factor that collision theory explains. More particles in the same space means more chances to collide.
+[chem17-s1.8.0] Increasing the concentration of a reactant in solution increases the number of particles per unit volume.
+[chem17-s1.8.1] The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.
+[chem17-s1.8.2] In many reactions the rate is directly proportional to the concentration of a reactant: a graph of rate against concentration is a straight line through the origin, as shown by the thiosulfate investigation in “Investigation: factors affecting rate”.
+[chem17-s1.9.b] For a solid, only the outside can react. Cutting a solid into smaller pieces exposes more of it without adding any more substance.
+[chem17-s1.9.0] Only particles at the surface of a solid can collide with the other reactant, so particles buried inside a lump cannot react until the surface is used up.
+[chem17-s1.9.1] Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.
+[chem17-s1.9.2] For example, powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.
+[chem17-s1.9.3] Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.
+[chem17-s1.9.4] Dust explosions are a risk in flour mills, grain silos and coal mines.
+[chem17-s1.9.5] A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame.
+[chem17-s1.10.b] Raising the temperature speeds up most reactions. Collision theory gives two reasons, and one matters far more than the other.
+[chem17-s1.10.0] Raising the temperature increases the rate of almost all reactions.
+[chem17-s1.10.1] For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.
+[chem17-s1.10.2] Reason 1: at a higher temperature particles have more kinetic energy (energy of movement) and move faster, so they collide more often.
+[chem17-s1.10.3] Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.
+[chem17-s1.10.4] Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.
+[chem17-s1.10.5] Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.
+[chem17-s1.11.b] Particles in a sample do not all have the same energy. A graph of how the energies are spread shows why a small temperature rise has such a large effect.
+[chem17-s1.11.0] On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.
+[chem17-s1.11.1] The area under the curve to the right of Ea is the number of particles with enough energy to react.
+[chem17-s1.11.2] At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger, so many more collisions are effective.
+[chem17-s1.11.3] Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.
+[chem17-s1.11.4] Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower because fewer particles have energy at or above Ea. There is more on this in “Rate of reaction”.
+[chem17-s1.12.b] A catalyst speeds up a reaction without raising the temperature. It does this by changing the route the reaction takes.
+[chem17-s1.12.0] A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.
+[chem17-s1.12.1] A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.
+[chem17-s1.12.2] The catalyst is not used up, so a small amount can speed up the reaction again and again. There is more on types of catalysis, enzymes and energy profiles in “Catalysis and energy profiles”.
+[chem17-s1.13.b] Pressure is the last factor, and it only matters when gases are reacting.
+[chem17-s1.13.0] Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.
+[chem17-s1.13.1] The molecules collide more often, so the rate increases.
+[chem17-s1.13.2] Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids.
+[chem17-s1.14.b] The simple collision theory leaves out some things. Orientation, surfaces that become full, and poisoned catalysts all explain why real reactions can behave differently.
+[chem17-s1.14.0] Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.
+[chem17-s1.14.1] Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.
+[chem17-s1.14.2] Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.
+[chem17-s1.14.3] For example, an enzyme-catalysed reaction speeds up as substrate (the substance the enzyme acts on) concentration rises, but levels off when all the enzyme's active sites (the places where the substrate binds) are occupied; further substrate has no effect.
+[chem17-s1.14.4] A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.
+[chem17-s1.14.5] A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.
+[chem17-s1.14.6] The catalysts in a car's catalytic converter (platinum, palladium and rhodium) are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds.

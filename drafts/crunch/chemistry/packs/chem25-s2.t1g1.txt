@@ -1,0 +1,501 @@
+MODE: cost and links
+TARGET chem25-s2: 2. Tests, reaction schemes and preparing an ester
+[chem25-s2.0.b] Aldehydes and ketones both contain the carbonyl group (a carbon double-bonded to oxygen, C=O), so they look alike. The difference is one hydrogen atom, and that hydrogen decides whether the compound can be oxidised (have oxygen added or hydrogen removed) by a mild reagent.
+[chem25-s2.0.0] An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.
+[chem25-s2.0.1] A ketone has the C=O group joined to two carbon atoms, so its carbonyl carbon has no hydrogen, e.g. propanone, CH₃COCH₃.
+[chem25-s2.0.2] An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH. This makes aldehydes good reducing agents (substances that get oxidised themselves while reducing something else).
+[chem25-s2.0.3] A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond, which a mild reagent cannot do.
+[chem25-s2.0.4] A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none.
+[chem25-s2.1.b] Fehling's reagent is the mild oxidising agent the specification uses to test for aldehydes. It is made from two solutions that are kept apart and mixed only when needed.
+[chem25-s2.1.0] Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).
+[chem25-s2.1.1] The mixture is a clear deep-blue solution containing Cu²⁺ ions, which are the part that reacts with an aldehyde.
+[chem25-s2.1.2] The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate (form as an insoluble solid).
+[chem25-s2.2.b] The aim is to show which of two unlabelled liquids is the aldehyde (ethanal) and which is the ketone (propanone). Both are tested in the same way so the results can be compared.
+[chem25-s2.2.0] Method: put about 2 cm³ of Fehling's reagent into each of two test tubes, so that one can be tested with each liquid for comparison.
+[chem25-s2.2.1] Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.
+[chem25-s2.2.2] Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame, because the liquids are flammable.
+[chem25-s2.2.3] With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.
+[chem25-s2.2.4] With propanone there is no change: the solution stays blue.
+[chem25-s2.2.5] An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde, because only aldehydes reduce the Cu²⁺; one that leaves the reagent blue is a ketone.
+[chem25-s2.3.b] Both the reagent and the liquids being tested carry hazards, which is why the heating is done in a water bath.
+[chem25-s2.3.0] Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.
+[chem25-s2.3.1] Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile (they evaporate easily) and flammable, so keep them away from flames and use a water bath.
+[chem25-s2.3.2] Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue).
+[chem25-s2.4.b] The colour change is a redox reaction (one where electrons are transferred). The copper ions in the reagent are reduced while the aldehyde is oxidised.
+[chem25-s2.4.0] Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).
+[chem25-s2.4.1] The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.
+[chem25-s2.4.2] Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.
+[chem25-s2.4.3] Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).
+[chem25-s2.4.4] Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.
+[chem25-s2.4.5] Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone.
+[chem25-s2.5.b] Carboxylic acids such as ethanoic acid show the usual properties of an acid. Three reactions (with a metal, a carbonate and a base) and an indicator (a dye that changes colour with acidity) are used to show this.
+[chem25-s2.5.0] Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.
+[chem25-s2.5.1] Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).
+[chem25-s2.5.2] Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.
+[chem25-s2.6.b] An acid reacts with a reactive metal to give a salt and hydrogen gas, and the gas is identified with a lighted taper.
+[chem25-s2.6.0] Add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.
+[chem25-s2.6.1] The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.
+[chem25-s2.6.2] Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).
+[chem25-s2.6.3] Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated (split into ions), so its H⁺ concentration is lower.
+[chem25-s2.6.4] Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.
+[chem25-s2.7.b] Acids react with carbonates to release carbon dioxide, which gives a clear visible sign of reaction.
+[chem25-s2.7.0] Add a little solid sodium carbonate to ethanoic acid; the mixture effervesces (fizzes).
+[chem25-s2.7.1] The gas turns limewater milky, so it is carbon dioxide.
+[chem25-s2.7.2] Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).
+[chem25-s2.7.3] Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater.
+[chem25-s2.8.b] A base neutralises an acid, giving a salt and water. Because this gives no gas, a different way of seeing the reaction is needed.
+[chem25-s2.8.0] Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).
+[chem25-s2.8.1] There is no visible change in this reaction, so add phenolphthalein (an indicator that is pink in alkali) to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.
+[chem25-s2.9.b] Concentrated ethanoic acid and the hydrogen test both need care.
+[chem25-s2.9.0] Wear goggles, because concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid.
+[chem25-s2.9.1] Keep flames away from any flammable liquid when testing for hydrogen, because hydrogen burns with a pop.
+[chem25-s2.10.b] A reaction scheme is a map of organic chemistry. Reading one means working out, arrow by arrow, what has changed and what caused the change.
+[chem25-s2.10.0] A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.
+[chem25-s2.10.1] A scheme shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps; this is organic synthesis.
+[chem25-s2.10.2] To read a scheme, name each compound and its functional group (the atom or group that gives a family its reactions), then for each arrow compare the formulae before and after.
+[chem25-s2.10.3] Decide what has been added, removed or swapped at each arrow, then name the reaction type and the reagent.
+[chem25-s2.10.4] A formula change of +H₂ across C=C or C=O is addition (two molecules joining with no atoms lost) or reduction; a change of −2H is oxidation; a change of +O is oxidation.
+[chem25-s2.10.5] A change of −H₂O or −HCl with a new C=C bond is elimination (a small molecule removed, leaving a double bond); one atom swapped for another is substitution.
+[chem25-s2.10.6] A carboxylic acid converted to its sodium salt is an acid–base reaction.
+[chem25-s2.11.b] Ethene, the two-carbon alkene (a hydrocarbon with a C=C double bond), sits at the centre of the scheme. Most of its conversions are additions across the double bond.
+[chem25-s2.11.0] Ethane to chloroethane: chlorine in ultraviolet light (substitution, because a chlorine atom takes the place of a hydrogen atom).
+[chem25-s2.11.1] Ethene to ethane: hydrogen with a nickel catalyst (addition, because H₂ adds across the C=C; also reduction).
+[chem25-s2.11.2] Ethene to chloroethane: hydrogen chloride (addition).
+[chem25-s2.11.3] Ethene to 1,2-dichloroethane: chlorine (addition).
+[chem25-s2.11.4] Ethene to 1,2-dibromoethane: bromine (addition).
+[chem25-s2.11.5] Ethene to ethanol: water (addition).
+[chem25-s2.11.6] Ethanol to ethene: heated aluminium oxide (elimination, because water is removed and a C=C forms).
+[chem25-s2.11.7] Chloroethane to ethene: loss of HCl (elimination, because a hydrogen and a chlorine are removed and a C=C forms).
+[chem25-s2.12.b] Ethanol links to the oxidation sequence and to the ester. Here the carbon skeleton stays the same except where two molecules join or split.
+[chem25-s2.12.0] Ethanol to ethanal to ethanoic acid: acidified potassium permanganate, as two oxidation steps.
+[chem25-s2.12.1] Ethanal to ethanol: hydrogen with a nickel catalyst (reduction, because H₂ adds across the C=O).
+[chem25-s2.12.2] Ethanoic acid and ethanol give ethyl ethanoate and water, with concentrated sulfuric acid as catalyst (substitution, esterification).
+[chem25-s2.12.3] Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis, splitting the ester with the help of water and base).
+[chem25-s2.12.4] Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).
+[chem25-s2.13.b] Ethene and its chlorinated relative can also be joined into long chains, giving plastics.
+[chem25-s2.13.0] Ethene to poly(ethene) by addition polymerisation (many ethene molecules adding together into a chain).
+[chem25-s2.13.1] 1,2-dichloroethane to chloroethene by elimination of HCl, then polymerisation to poly(chloroethene), PVC.
+[chem25-s2.13.2] Diagram: the two-carbon scheme as a map, with ethene at the centre and arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with its reagent and reaction type.
+[chem25-s2.14.b] The same reactions apply to longer chains. Whether the alcohol is primary or secondary decides whether oxidation gives an aldehyde and acid or a ketone.
+[chem25-s2.14.0] Propan-1-ol (a primary alcohol, with the –OH on an end carbon) to propanal to propanoic acid: acidified potassium permanganate (oxidation).
+[chem25-s2.14.1] Propan-2-ol (a secondary alcohol, with the –OH on a middle carbon) to propanone: acidified potassium permanganate (oxidation).
+[chem25-s2.14.2] Propanone to propan-2-ol: hydrogen with nickel (reduction).
+[chem25-s2.14.3] Propan-2-ol to propene and water (elimination).
+[chem25-s2.14.4] Propene to propane: hydrogen with nickel (addition, because H₂ adds across the C=C).
+[chem25-s2.14.5] Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation). There is more on this in Investigation: synthesising benzoic acid.
+[chem25-s2.15.b] When a scheme is incomplete, the product tells you what must have come before it, and counting carbon atoms checks your answer.
+[chem25-s2.15.0] A scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.
+[chem25-s2.15.1] An alkene can come from an alcohol by elimination, or go to an alcohol by addition of water.
+[chem25-s2.15.2] Carbon atoms are neither gained nor lost in these steps, except in esterification, which joins two molecules, and hydrolysis, which splits them, so the carbon skeleton checks each answer.
+[chem25-s2.16.b] To predict a product, recognise the functional group and recall its typical reaction. Multi-step syntheses just chain these together.
+[chem25-s2.16.0] To predict a product, identify the functional group and apply its typical reaction.
+[chem25-s2.16.1] An alkene with X₂, HX, H₂O or H₂ gives an addition product.
+[chem25-s2.16.2] A primary alcohol with an oxidising agent gives an aldehyde, then a carboxylic acid; a carboxylic acid with an alcohol gives an ester; an ester with NaOH gives a salt and an alcohol.
+[chem25-s2.16.3] Example: ethene to ethanoic acid in two steps, by adding water to give ethanol (addition), then oxidising with excess acidified potassium permanganate (oxidation).
+[chem25-s2.16.4] Example: ethanal to ethyl ethanoate, by reducing part of the ethanal to ethanol with H₂ and nickel, oxidising another part to ethanoic acid with acidified KMnO₄, then esterifying the two with concentrated H₂SO₄.
+[chem25-s2.16.5] Example: chloroethane to ethanol in two steps, by eliminating HCl to give ethene, then adding water.
+[chem25-s2.16.6] Example: heating propan-1-ol with methanoic acid gives propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol supplies the propyl part and the acid supplies the methanoate part.
+[chem25-s2.17.b] The shape around a carbon atom depends on its bonds. Tracking whether a carbon is tetrahedral (four bonds pointing to the corners of a pyramid-like shape) or planar (flat) shows what a reaction does to a molecule.
+[chem25-s2.17.0] A carbon atom with four single bonds is tetrahedral, with bond angles of about 109.5°.
+[chem25-s2.17.1] A carbon atom in a C=C or C=O double bond is planar (trigonal planar), with bond angles of about 120°.
+[chem25-s2.17.2] Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.
+[chem25-s2.17.3] Ethanol and ethane have only tetrahedral carbon atoms.
+[chem25-s2.18.b] A reaction that adds to or removes a double bond changes the carbons involved between planar and tetrahedral. Reactions that leave the C=O in place change nothing.
+[chem25-s2.18.0] Addition to C=C, as in ethene to ethane, ethene to ethanol or polymerisation, changes the two carbon atoms from planar to tetrahedral.
+[chem25-s2.18.1] Elimination, as in ethanol to ethene, changes the two carbon atoms from tetrahedral to planar.
+[chem25-s2.18.2] Oxidising an alcohol to an aldehyde or ketone changes the carbon bearing the oxygen from tetrahedral to planar.
+[chem25-s2.18.3] Reducing an aldehyde or ketone to an alcohol changes that carbon from planar to tetrahedral.
+[chem25-s2.18.4] Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry.
+[chem25-s2.19.b] Each reaction needs a particular feature in the molecule. Where it is missing, the reaction cannot happen, and the reason always comes back to that feature.
+[chem25-s2.19.0] Tertiary alcohols (alcohols with the –OH on a carbon bonded to three other carbons), such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.
+[chem25-s2.19.1] The carbon bearing the –OH group of a tertiary alcohol has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.
+[chem25-s2.19.2] Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.
+[chem25-s2.19.3] Alkanes and poly(ethene) cannot undergo addition, because they are saturated (they have only single bonds) and have no pi bond, so they do not decolourise bromine water.
+[chem25-s2.19.4] Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.
+[chem25-s2.19.5] Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons (shared around the whole ring) make the ring unusually stable, so it resists addition. There is more on this in Shapes, bonding and isomerism.
+[chem25-s2.19.6] Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol.
+[chem25-s2.20.b] An ester is the compound formed when a carboxylic acid reacts with an alcohol. In this investigation methyl propanoate is made from propanoic acid and methanol.
+[chem25-s2.20.0] Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux (boiling with a condenser that returns the vapour to the flask).
+[chem25-s2.20.1] Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.
+[chem25-s2.20.2] Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.
+[chem25-s2.20.3] The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.
+[chem25-s2.20.4] The specification needs only esters made from monocarboxylic acids and primary alcohols.
+[chem25-s2.21.b] Esterification does not go to completion, which shapes the whole purification. Isotope labelling shows exactly which bond forms.
+[chem25-s2.21.0] Esterification is slow and reversible: it reaches an equilibrium (the forward and reverse reactions balance) with only part of the acid and alcohol converted.
+[chem25-s2.21.1] The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.
+[chem25-s2.21.2] Isotope evidence: when the alcohol is labelled with oxygen-18 (a heavier form of oxygen used as a tracer), the ¹⁸O is found in the ester, not in the water.
+[chem25-s2.21.3] So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.
+[chem25-s2.22.b] The reactants are mixed with a catalyst and boiled gently for a while. A condenser fitted vertically stops the volatile liquids escaping.
+[chem25-s2.22.0] In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.
+[chem25-s2.22.1] Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic (gives out heat).
+[chem25-s2.22.2] Add a few anti-bumping granules, so that the mixture boils smoothly.
+[chem25-s2.22.3] Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.
+[chem25-s2.22.4] Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.
+[chem25-s2.22.5] Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top.
+[chem25-s2.23.b] After reflux the flask holds a mixture. The ester is separated from the other substances by washing, drying and then distilling.
+[chem25-s2.23.0] Cool the flask, then pour the mixture into a separating funnel (a tapped funnel for separating two liquids that do not mix) with some water and shake.
+[chem25-s2.23.1] The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.
+[chem25-s2.23.2] Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.
+[chem25-s2.23.3] Run off the lower aqueous layer, which now holds the sodium salt of the acid and the water, so the ester is left on its own.
+[chem25-s2.23.4] Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride (a drying agent that removes water) to remove water; swirl until the liquid is clear, then decant (pour off) or filter it.
+[chem25-s2.23.5] Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.
+[chem25-s2.23.6] Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.
+[chem25-s2.23.7] Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap.
+[chem25-s2.24.b] Every choice in the method has a purpose. Exams ask for these reasons directly.
+[chem25-s2.24.0] Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.
+[chem25-s2.24.1] Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.
+[chem25-s2.24.2] A water bath or heating mantle is used rather than a Bunsen burner, because methanol and the ester are flammable; it also gives gentle, even heating.
+[chem25-s2.24.3] Anti-bumping granules give smooth boiling by providing sites for small bubbles to form, which prevents sudden violent boiling (bumping).
+[chem25-s2.24.4] The condenser is never stoppered, because heating a closed system would build up pressure.
+[chem25-s2.24.5] Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.
+[chem25-s2.24.6] The pressure in the separating funnel must be released because carbon dioxide is produced.
+[chem25-s2.24.7] Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product.
+[chem25-s2.25.b] The hazards are corrosive and flammable chemicals. The yield is low because of the equilibrium and because product is lost in handling.
+[chem25-s2.25.0] Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.
+[chem25-s2.25.1] Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.
+[chem25-s2.25.2] The yield is well below 100%, because the reaction is an equilibrium.
+[chem25-s2.25.3] Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.
+[chem25-s2.25.4] Percentage yield = actual mass ÷ theoretical mass × 100. There is more on this in Theoretical, actual and percentage yield.
+[chem25-s2.25.5] Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.
+[chem25-s2.25.6] Not releasing the pressure in the separating funnel can blow out the stopper and lose product.
+[chem25-s2.25.7] Heating too strongly lets vapour escape from the top of the condenser.
+
+CANDIDATES chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.
+
+CANDIDATES chem25-s1: 1. Types of organic reaction and addition polymers
+[chem25-s1.0.b] Organic reactions fall into five types, and the first is addition. It is the characteristic reaction of compounds with a carbon-carbon double bond, because the double bond can open up to take on new atoms.
+[chem25-s1.0.0] An addition reaction is one in which two or more molecules react to form a single molecule.
+[chem25-s1.0.1] Atoms add across a double (or triple) bond, so an unsaturated compound (one with a C=C or C≡C bond) becomes saturated (only single bonds) and there is only one product.
+[chem25-s1.0.2] Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane. Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.
+[chem25-s1.0.3] Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.
+[chem25-s1.0.4] Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.
+[chem25-s1.0.5] Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.
+[chem25-s1.0.6] Ethene and hydrogen with a nickel catalyst (a substance that speeds up the reaction without being used up): CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.
+[chem25-s1.0.7] Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions, because each monomer (small molecule) adds on to the growing chain. It is taught in full later in this subsection.
+[chem25-s1.1.b] In a substitution reaction one atom or group is swapped for another, so two reactants give two products. Alkanes, which have no double bond to add across, react this way.
+[chem25-s1.1.0] A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.
+[chem25-s1.1.1] Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.
+[chem25-s1.1.2] Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.
+[chem25-s1.1.3] Esterification: a carboxylic acid (contains –COOH) and an alcohol (contains –OH) give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem25-s1.1.4] In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol, which is why it counts as substitution.
+[chem25-s1.1.5] Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.
+[chem25-s1.1.6] Hydrolysis of an ester (splitting it using water or a base) is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.
+[chem25-s1.1.7] Alkanes (saturated hydrocarbons) react by substitution, not addition, because they have no double bond to add across.
+[chem25-s1.2.b] Elimination is the reverse of addition. A small molecule is stripped out of a larger one, and the larger molecule is left with a double bond.
+[chem25-s1.2.0] An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.
+[chem25-s1.2.1] Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.
+[chem25-s1.2.2] Water is the small molecule removed, so this elimination is also called a dehydration.
+[chem25-s1.2.3] Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.
+[chem25-s1.2.4] A haloalkane (an alkane with a halogen atom such as Cl) can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.
+[chem25-s1.2.5] 1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).
+[chem25-s1.2.6] Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated.
+[chem25-s1.3.b] Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.
+[chem25-s1.3.0] In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.
+[chem25-s1.3.1] Reduction is the gain of hydrogen or the loss of oxygen.
+[chem25-s1.3.2] Oxidation is also the loss of electrons and an increase in oxidation number (the charge an atom would have if all its bonds were ionic). There is more on this in Oxidation and reduction.
+[chem25-s1.3.3] Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate as the oxidising agent.
+[chem25-s1.3.4] Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH. This is reduction because the molecule gains hydrogen.
+[chem25-s1.3.5] Combustion (burning in oxygen) is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem25-s1.4.b] An acid–base reaction is about a proton moving from one species to another. Carboxylic acids show this clearly, while alcohols are barely acidic.
+[chem25-s1.4.0] An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.
+[chem25-s1.4.1] Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.
+[chem25-s1.4.2] Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+[chem25-s1.4.3] Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.
+[chem25-s1.4.4] Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.
+[chem25-s1.4.5] Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; there is more on this in Physical properties and acidity.
+[chem25-s1.5.b] At Higher Level you must be able to look at an unfamiliar reaction and say which type or types it is. Work through the checks in a fixed order.
+[chem25-s1.5.0] Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.
+[chem25-s1.5.1] Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.
+[chem25-s1.5.2] One reaction can be of more than one type, so give every type that fits: hydrogenation of ethene is addition and reduction.
+[chem25-s1.5.3] Esterification is substitution and condensation, and base hydrolysis of an ester is substitution and acid–base.
+[chem25-s1.6.b] Higher Level questions also ask which bonds break and form. A pi bond is the second, weaker bond of a C=C double bond, added to the stronger C–C sigma bond that is already there.
+[chem25-s1.6.0] Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.
+[chem25-s1.6.1] Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.
+[chem25-s1.6.2] Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.
+[chem25-s1.6.3] Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.
+[chem25-s1.6.4] Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.
+[chem25-s1.6.5] The reaction of sodium with ethanol is likewise a redox reaction.
+[chem25-s1.7.b] Many everyday plastics are built by joining huge numbers of small molecules into one very long molecule. The words polymer, monomer and repeating unit describe this.
+[chem25-s1.7.0] A polymer is a very large molecule, a macromolecule, made of many small units called monomers joined by covalent bonds in a long chain.
+[chem25-s1.7.1] A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.
+[chem25-s1.7.2] The repeating unit is the part of the polymer whose repetition makes up the whole chain, apart from the ends.
+[chem25-s1.7.3] Polymer chains contain thousands of repeating units, so their relative molecular masses (Mr, the mass of a molecule compared with the carbon-12 standard) are very large and vary from chain to chain.
+[chem25-s1.7.4] Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units, because the Mr of ethene is 28.
+[chem25-s1.7.5] Many plastics are polymers, and most addition polymers are made from monomers obtained from crude oil.
+[chem25-s1.8.b] Monomers with a C=C double bond can join end to end because each double bond opens up, just as in an ordinary addition reaction. Repeating this thousands of times builds the chain.
+[chem25-s1.8.0] An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.
+[chem25-s1.8.1] In each addition the pi bond of C=C (the weaker, second bond of the double bond) breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.
+[chem25-s1.8.2] No other product is formed, so the polymer has the same empirical formula (simplest whole-number ratio of atoms) as the monomer.
+[chem25-s1.8.3] General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.
+[chem25-s1.8.4] The polymer is saturated, with no C=C left, so unlike its monomer it does not decolourise bromine water.
+[chem25-s1.8.5] Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end.
+[chem25-s1.8.6] To draw two repeating units, show four backbone carbons in a row, with the side groups on alternate carbons and an open bond at each end; do not write atoms at the ends of the open bonds.
+[chem25-s1.9.b] Poly(ethene) is the simplest addition polymer. How closely its chains pack decides whether it is soft and flexible or strong and rigid.
+[chem25-s1.9.0] The monomer is ethene, CH₂=CH₂, and the repeating unit is –CH₂–CH₂–; poly(ethene) is also called polythene or polyethylene.
+[chem25-s1.9.1] Low-density poly(ethene), LDPE, has branched chains that cannot pack closely, so it is soft and flexible.
+[chem25-s1.9.2] LDPE is used for plastic bags, food-wrapping film and squeezy bottles.
+[chem25-s1.9.3] High-density poly(ethene), HDPE, has unbranched chains that pack closely, so it is stronger and more rigid, with a higher melting point.
+[chem25-s1.9.4] HDPE is used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.
+[chem25-s1.9.5] Diagram: two repeating units of poly(ethene), –CH₂–CH₂–CH₂–CH₂–, with open end bonds.
+[chem25-s1.10.b] PVC is ethene with one hydrogen replaced by chlorine. The polar C–Cl bond gives it very different properties from poly(ethene).
+[chem25-s1.10.0] The monomer is chloroethene, also called vinyl chloride, CH₂=CHCl; the repeating unit is –CH₂–CHCl–.
+[chem25-s1.10.1] Poly(chloroethene) is also called polyvinyl chloride, PVC.
+[chem25-s1.10.2] The polar C–Cl bonds (the shared electrons sit nearer the chlorine) give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.
+[chem25-s1.10.3] Rigid PVC is used for window frames, doors, gutters, drainpipes, water pipes and bank cards.
+[chem25-s1.10.4] Adding plasticisers, small molecules that let the chains slide past each other, makes flexible PVC.
+[chem25-s1.10.5] Flexible PVC is used for electrical cable insulation, flooring and raincoats.
+[chem25-s1.10.6] Diagram: two repeating units of PVC, –CH₂–CHCl–CH₂–CHCl–, with open end bonds.
+[chem25-s1.11.b] Polystyrene is ethene with one hydrogen replaced by a large benzene ring (a ring of six carbon atoms). The bulk of that ring controls the properties.
+[chem25-s1.11.0] The monomer is phenylethene, also called styrene, C₆H₅CH=CH₂, which is ethene with one hydrogen replaced by a benzene ring; the repeating unit is –CH₂–CH(C₆H₅)–.
+[chem25-s1.11.1] The bulky benzene rings stop the chains moving past each other, so solid polystyrene is rigid and brittle.
+[chem25-s1.11.2] Solid polystyrene is used for yoghurt cartons, disposable cups and cutlery, CD cases and ballpoint pen cases.
+[chem25-s1.11.3] Expanded polystyrene is blown with gas into a foam, which makes it very light and a good thermal insulator.
+[chem25-s1.11.4] Expanded polystyrene is used for packaging, takeaway food boxes, ceiling tiles and building insulation.
+[chem25-s1.11.5] Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms.
+[chem25-s1.12.b] Addition polymers are used everywhere because their properties suit the job. The same few polymers turn up in fuel systems, farming, food packaging and the home.
+[chem25-s1.12.0] Fuels: HDPE fuel tanks in cars are light, tough and do not corrode; plastic fuel cans and pipes are also used.
+[chem25-s1.12.1] Waste plastics can be burned for energy, or broken down by heating (pyrolysis) into liquid fuels.
+[chem25-s1.12.2] Food production: poly(ethene) film is used for polytunnels and greenhouses, silage wrap and mulch film on farms.
+[chem25-s1.12.3] PVC and poly(ethene) pipes are used for irrigation and water supply.
+[chem25-s1.12.4] Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so food lasts longer and less is wasted.
+[chem25-s1.12.5] Household products: buckets, bowls, bottles, bags, toys and containers are made from poly(ethene); pipes, gutters and window frames from PVC; insulation and packaging from polystyrene.
+[chem25-s1.12.6] These polymers suit their uses because they are cheap, light, waterproof, durable, easily moulded and unreactive, so they do not react with food, water, fuels or most chemicals.
+[chem25-s1.13.b] Biodegradability depends on whether living things can break a substance down. Addition polymers resist this because of their bonding.
+[chem25-s1.13.0] A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.
+[chem25-s1.13.1] Addition polymers are non-biodegradable.
+[chem25-s1.13.2] The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.
+[chem25-s1.13.3] Like an alkane, an addition polymer has no pi bonds and no polar functional group (a reactive atom or group) for a reagent to attack, so it is chemically stable and unreactive. There is more on this in Groups of hydrocarbons and their properties.
+[chem25-s1.13.4] Microorganisms break down natural polymers, such as starch and proteins, with enzymes (biological catalysts) that attack specific polar linkages.
+[chem25-s1.13.5] Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.
+[chem25-s1.14.b] The stability that makes addition polymers so useful is the same property that makes plastic waste a problem.
+[chem25-s1.14.0] The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.
+[chem25-s1.14.1] Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, and filling of landfill sites.
+[chem25-s1.14.2] Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically.
+[chem25-s1.15.b] Because plastics do not break down, society has to manage them: use less, recycle, burn for energy, or switch to polymers that can degrade.
+[chem25-s1.15.0] Responses include reducing use, reusing, and recycling.
+[chem25-s1.15.1] Plastics are sorted for recycling by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.
+[chem25-s1.15.2] Incineration gives energy but releases CO₂, and burning PVC releases hydrogen chloride.
+[chem25-s1.15.3] Biodegradable polymers with ester linkages, which microorganisms can hydrolyse (split using water), are being developed. These can break down because the ester linkage gives microorganisms something to attack.
+[chem25-s1.15.4] Poly(lactic acid), PLA, is one example: it is made from plant starch and breaks down in industrial composting.
+
+CANDIDATES chem23-s2: 2. Investigation: preparing ethene
+[chem23-s2.0.b] Ethene is made in the lab by taking the elements of water out of ethanol. The investigation then uses the gas to show what an alkene (a hydrocarbon with a carbon-carbon double bond) is like.
+[chem23-s2.0.0] Aim: to prepare ethene by dehydrating ethanol, to observe its physical properties, and to investigate its combustion and show that it is unsaturated (contains a multiple carbon-carbon bond).
+[chem23-s2.0.1] Hypothesis: ethene contains a C=C double bond, so it will decolourise bromine water and acidified potassium manganate(VII), while a saturated hydrocarbon (one with only single carbon-carbon bonds) will not.
+[chem23-s2.0.2] Ethanol vapour passed over hot aluminium oxide loses a molecule of water: C₂H₅OH(g) → C₂H₄(g) + H₂O(g).
+[chem23-s2.0.3] This is a dehydration reaction, a type of elimination reaction in which a small molecule, water, is removed from a larger one and a double bond forms. There is more on this in Five types of organic reaction.
+[chem23-s2.0.4] Aluminium oxide, Al₂O₃, a white powder, is the catalyst (a substance that speeds up a reaction), so it is not used up in the reaction.
+[chem23-s2.1.b] Heat the aluminium oxide, not the ethanol. The method runs in the order below.
+[chem23-s2.1.0] 1. Push some glass wool (a loose plug of glass fibres that soaks up liquid) into the closed end of a hard-glass boiling tube, which withstands strong heating, and soak it with about 2 cm³ of ethanol, using a dropper.
+[chem23-s2.1.1] 2. Place a small heap of aluminium oxide about halfway along the tube.
+[chem23-s2.1.2] 3. Clamp the tube horizontally and fit a stopper with a delivery tube (a bent tube that carries the gas away) that leads under water in a trough.
+[chem23-s2.1.3] 4. Put an inverted test tube full of water over the end of the delivery tube, standing on a beehive shelf (a perforated support that holds the tube mouth under water).
+[chem23-s2.1.4] 5. Heat the aluminium oxide strongly with a Bunsen burner; heat conducted along the tube warms the ethanol so that its vapour passes over the hot catalyst.
+[chem23-s2.1.5] 6. Collect the gas by displacement of water (the gas bubbles up into the water-filled tube and pushes the water out), and discard the first one or two tubes, then collect several tubes of gas, stoppering each under water so that no gas escapes, and storing it mouth down.
+[chem23-s2.1.6] 7. Before removing the heat, lift the delivery tube out of the water, to prevent suck-back.
+[chem23-s2.1.7] Diagram: a horizontal boiling tube, clamped, with ethanol-soaked glass wool at the closed end and aluminium oxide in the middle; a Bunsen flame under the aluminium oxide; a delivery tube to an inverted water-filled test tube on a beehive shelf in a trough of water. Label the ethanol on the glass wool, the aluminium oxide, the heat and the ethene collecting.
+[chem23-s2.2.b] Each feature of the set-up solves a practical problem. Knowing the reason for each is what the exam tests.
+[chem23-s2.2.0] Glass wool holds the liquid ethanol at the end of the tube, so it doesn't run onto the hot catalyst or the hot glass.
+[chem23-s2.2.1] The catalyst is heated rather than the ethanol, because aluminium oxide must be hot to work, and ethanol is flammable with a low boiling point of 78 °C, so gentle conducted heat is enough to vaporise it.
+[chem23-s2.2.2] Ethene can be collected over water because it is almost insoluble in water, so very little of it dissolves as it bubbles through.
+[chem23-s2.2.3] The first tubes are discarded because they contain mainly air pushed out of the apparatus, not ethene.
+[chem23-s2.2.4] Suck-back happens if heating stops while the delivery tube is under water: the gas in the hot tube cools and contracts, cold water is drawn back into the hot boiling tube, and the tube can crack or shatter.
+[chem23-s2.3.b] Before testing its chemistry, observe the gas itself. Its properties follow from its small, non-polar molecules.
+[chem23-s2.3.0] Ethene is a colourless gas with a boiling point of −104 °C and a faint sweet smell, which should be wafted towards the nose, not sniffed directly.
+[chem23-s2.3.1] It is almost insoluble in water, shown by its collection over water, because it is non-polar (its molecules have no charged ends) and cannot form hydrogen bonds with water.
+[chem23-s2.3.2] It dissolves readily in non-polar solvents such as cyclohexane, because like dissolves like: both have non-polar molecules.
+[chem23-s2.3.3] Its density is close to that of air: its relative molecular mass is 28, compared with about 29 for air.
+[chem23-s2.4.b] Ethene burns, and the products of burning can be identified. The flame also reveals how much carbon the molecule contains compared with methane.
+[chem23-s2.4.0] Remove the stopper and hold the mouth of the tube to a lighted taper or Bunsen flame: ethene burns with a yellow, luminous (bright), slightly smoky flame.
+[chem23-s2.4.1] Combustion equation: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).
+[chem23-s2.4.2] Add limewater (calcium hydroxide solution) to the tube after burning, stopper and shake; it turns milky because insoluble calcium carbonate forms, showing that carbon dioxide was produced: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem23-s2.4.3] Droplets of water may condense on the inside of the tube, which is the other product of combustion.
+[chem23-s2.4.4] Methane burns with a clean, non-luminous blue flame, whereas ethene's flame is more luminous and smoky, because ethene has a higher percentage of carbon by mass, 85.7% compared with 75.0% in methane.
+[chem23-s2.5.b] A C=C double bond can take in extra atoms, which is why alkenes react with bromine and with manganate(VII) while saturated hydrocarbons do not. Each reagent changes colour when it reacts, so the colour change is the evidence.
+[chem23-s2.5.0] Bromine water: add a few drops of dilute bromine water to a tube of ethene, stopper and shake; the orange, or red-brown, colour disappears and the solution becomes colourless.
+[chem23-s2.5.1] Bromine adds across the double bond in an addition reaction (the two bromine atoms join on and the double bond becomes a single bond): CH₂=CH₂(g) + Br₂ → CH₂BrCH₂Br, which is 1,2-dibromoethane.
+[chem23-s2.5.2] Acidified potassium manganate(VII): add a few drops of dilute KMnO₄ acidified with dilute sulfuric acid, stopper and shake; the purple colour disappears.
+[chem23-s2.5.3] In the manganate(VII) test the alkene is oxidised (it is attacked by the oxidising agent), and MnO₄⁻ is reduced (gains electrons) to almost colourless Mn²⁺, which is why the purple fades.
+[chem23-s2.5.4] Both decolourisations are positive tests for unsaturation, meaning a C=C or C≡C bond is present.
+[chem23-s2.5.5] Control: repeat both tests with a saturated hydrocarbon, e.g. a few drops of cyclohexane or methane from the gas tap; there is no rapid colour change, so the decolourisation is due to the double bond.
+[chem23-s2.6.b] The percentage yield compares the ethene actually collected with the most that the ethanol could give. Sample data: 2.0 cm³ of ethanol, with a density of 0.789 g cm⁻³, was used, and 310 cm³ of ethene was collected, taken as if at s.t.p. (standard temperature and pressure).
+[chem23-s2.6.0] Mass of ethanol = volume × density = 2.0 cm³ × 0.789 g cm⁻³ = 1.58 g.
+[chem23-s2.6.1] Moles of ethanol = mass ÷ molar mass = 1.58 g ÷ 46 g mol⁻¹ = 0.0343 mol.
+[chem23-s2.6.2] The mole ratio of ethanol to ethene is 1 : 1, so the theoretical yield (the most ethene the reaction could give) is 0.0343 mol of ethene.
+[chem23-s2.6.3] Theoretical volume = 0.0343 mol × 22.4 L mol⁻¹ = 0.768 L = 768 cm³ at s.t.p.
+[chem23-s2.6.4] Percentage yield = 310 cm³ ÷ 768 cm³ × 100 = 40.4%.
+[chem23-s2.6.5] The yield is low because some ethanol evaporates past the catalyst unreacted and dissolves in the trough water, some ethene is lost in the discarded tubes, and gas is left in the apparatus.
+[chem23-s2.7.b] The hazards come from flammable gases, toxic bromine and hot glass. The errors weaken the tests, and the conclusion ties the results back to the aim.
+[chem23-s2.7.0] Wear safety glasses; ethanol and ethene are highly flammable, so keep the stock bottle of ethanol away from the flame and add the ethanol before lighting the Bunsen burner.
+[chem23-s2.7.1] Bromine water is toxic and corrosive: use small amounts of dilute bromine water in a well-ventilated room or a fume cupboard, and wear gloves.
+[chem23-s2.7.2] Potassium manganate(VII) is an oxidiser that stains, and dilute sulfuric acid is an irritant.
+[chem23-s2.7.3] Let the apparatus cool before handling it, because the glass is hot, and remove the delivery tube from the water before stopping the heating to avoid suck-back.
+[chem23-s2.7.4] Air in the first tubes dilutes the ethene and weakens the tests.
+[chem23-s2.7.5] Unreacted ethanol vapour carried over can slowly decolourise acidified manganate(VII) by itself, so the bromine water test and its control are the more convincing evidence.
+[chem23-s2.7.6] Bromine water slowly fades in bright light, so the result must be compared with a control.
+[chem23-s2.7.7] Conclusion: ethene is a colourless, almost insoluble, flammable gas that decolourises bromine water and acidified manganate(VII), so it is unsaturated.

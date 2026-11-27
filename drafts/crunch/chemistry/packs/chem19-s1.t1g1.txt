@@ -1,0 +1,471 @@
+MODE: cost and links
+TARGET chem19-s1: 1. Self-ionisation of water and pH
+[chem19-s1.0.b] Even perfectly pure water contains a very small number of ions, made when water molecules pass protons (hydrogen ions, H⁺) to each other. This is the starting point for understanding pH, because it fixes what 'neutral' means.
+[chem19-s1.0.0] Pure water conducts electricity very slightly, so it must contain a small number of ions, since only moving charged particles can carry current through a liquid.
+[chem19-s1.0.1] These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another. This is a Brønsted–Lowry acid–base reaction (an acid gives a proton, a base accepts it): H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).
+[chem19-s1.0.2] H₃O⁺ is the hydronium ion (a water molecule carrying an extra proton) and OH⁻ is the hydroxide ion. The double arrow shows an equilibrium, a reaction going both ways at the same rate so that amounts stay constant.
+[chem19-s1.0.3] In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). This is the same change with the proton written as H⁺ instead of showing it attached to a water molecule.
+[chem19-s1.0.4] The equilibrium lies very far to the left, so almost all the water stays as molecules: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.
+[chem19-s1.0.5] In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻]. Square brackets mean concentration in mol L⁻¹.
+[chem19-s1.0.6] A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]. Even acidic solutions contain some OH⁻ and basic solutions contain some H⁺.
+[chem19-s1.1.b] Because water ionises only slightly, its equilibrium constant can be simplified into a single value, the ionic product of water, Kw. Work through it one step at a time.
+[chem19-s1.1.0] Step 1: Write the equilibrium constant (Kc, the ratio of product concentrations to reactant concentration at equilibrium) for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].
+[chem19-s1.1.1] Step 2: So little water ionises that [H₂O] is effectively constant, because almost every molecule is unchanged: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.
+[chem19-s1.1.2] Step 3: Combine the two constants: Kc × [H₂O] = [H⁺][OH⁻]. This new constant is the ionic product of water, Kw.
+[chem19-s1.1.3] Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations in water or any dilute aqueous solution.
+[chem19-s1.1.4] At 25 °C, Kw = 1.0 × 10⁻¹⁴ (units mol² L⁻², often omitted).
+[chem19-s1.2.b] Kw links [H⁺] and [OH⁻] in every dilute aqueous solution. It explains why pure water has pH 7 and lets you find one concentration from the other.
+[chem19-s1.2.0] Pure water at 25 °C has [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴.
+[chem19-s1.2.1] Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹.
+[chem19-s1.2.2] So pH = −log₁₀(1.0 × 10⁻⁷) = 7.0, which is why pH 7 is neutral at 25 °C.
+[chem19-s1.2.3] Kw applies to every dilute aqueous solution, not just pure water: if [H⁺] rises, [OH⁻] falls so that the product stays 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s1.2.4] Example: a solution with [H⁺] = 1.0 × 10⁻² mol L⁻¹ (pH 2) has [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² = 1.0 × 10⁻¹² mol L⁻¹.
+[chem19-s1.2.5] Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.3.b] Kw is an equilibrium constant, so it depends on temperature. The direction of the change follows from whether self-ionisation takes in or gives out heat.
+[chem19-s1.3.0] Self-ionisation is endothermic (it takes in heat) in the forward direction, with ΔH about +56 kJ mol⁻¹. It is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic (gives out heat).
+[chem19-s1.3.1] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), raising the temperature shifts the equilibrium to the right, the endothermic direction. This produces more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.
+[chem19-s1.3.2] Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.
+[chem19-s1.4.b] Because Kw rises with temperature, the pH of pure water falls as it gets hotter, yet the water is still neutral. Neutral is defined by [H⁺] = [OH⁻], not by a fixed pH.
+[chem19-s1.4.0] Kw at 0 °C is 1.1 × 10⁻¹⁵, giving a neutral pH of 7.48.
+[chem19-s1.4.1] Kw at 25 °C is 1.0 × 10⁻¹⁴, giving a neutral pH of 7.00.
+[chem19-s1.4.2] Kw at 50 °C is 5.5 × 10⁻¹⁴, giving a neutral pH of 6.63.
+[chem19-s1.4.3] Kw at 100 °C is 5.1 × 10⁻¹³, giving a neutral pH of 6.15.
+[chem19-s1.4.4] Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.
+[chem19-s1.4.5] The neutral pH is therefore lower at higher temperatures and higher at lower temperatures, so pH 7 is the neutral point only at 25 °C.
+[chem19-s1.5.b] Concentrations of H⁺ in solutions are often tiny numbers such as 0.0000001 mol L⁻¹. The pH scale turns them into easy numbers, usually between 0 and 14.
+[chem19-s1.5.0] pH is defined as pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen (hydronium) ions in mol L⁻¹.
+[chem19-s1.5.1] The scale was introduced by the Danish chemist Søren Sørensen in 1909, while working at the Carlsberg Laboratory in Copenhagen, as a convenient way to express very small [H⁺] values.
+[chem19-s1.5.2] At 25 °C, pH below 7 is acidic, pH 7 is neutral and pH above 7 is basic (alkaline); the lower the pH, the more acidic the solution.
+[chem19-s1.5.3] Where [H⁺] = 10⁻ˣ mol L⁻¹, the pH is x: for example, [H⁺] = 10⁻⁴ mol L⁻¹ gives pH 4.
+[chem19-s1.5.4] The scale is logarithmic (each step multiplies by a fixed factor): a change of 1 pH unit is a tenfold change in [H⁺]. A solution of pH 3 has 10 times the [H⁺] of one of pH 4 and 100 times that of one of pH 5.
+[chem19-s1.6.b] Putting numbers on familiar substances helps you judge whether a calculated pH is sensible. These values are approximate.
+[chem19-s1.6.0] Stomach acid has a pH of about 1–2; lemon juice about 2–3; vinegar about 3. These are acidic.
+[chem19-s1.6.1] Pure water has pH 7, and blood 7.35–7.45.
+[chem19-s1.6.2] Baking soda solution has a pH of about 8–9; milk of magnesia about 10.5. These are weakly basic.
+[chem19-s1.6.3] Household ammonia has a pH of about 11–12; oven cleaner (sodium hydroxide) about 13–14. These are strongly basic.
+[chem19-s1.7.b] Exam questions give you either [H⁺] or the pH and ask for the other. Each direction uses the same relationship, worked here with sample numbers.
+[chem19-s1.7.0] From [H⁺] to pH: pH = −log₁₀[H⁺]. For example, [H⁺] = 3.5 × 10⁻⁴ mol L⁻¹ gives pH = −log₁₀(3.5 × 10⁻⁴) = 3.46.
+[chem19-s1.7.1] For example, [H⁺] = 7.1 × 10⁻⁷ mol L⁻¹ gives pH = 6.15, which is slightly acidic at 25 °C because it is below 7.
+[chem19-s1.7.2] From pH to [H⁺]: [H⁺] = 10⁻ᵖᴴ, the antilog (the reverse of log) of −pH. For example, pH 3.7 gives [H⁺] = 10⁻³·⁷ = 2.00 × 10⁻⁴ mol L⁻¹.
+[chem19-s1.7.3] For example, pH 8.6 gives [H⁺] = 10⁻⁸·⁶ = 2.51 × 10⁻⁹ mol L⁻¹.
+[chem19-s1.7.4] On a calculator, use the log key with a minus sign to find pH, and the 10ˣ key (or inverse log) with −pH to find [H⁺]; give pH to two decimal places unless the question asks otherwise.
+[chem19-s1.8.b] The pH scale works well for the dilute aqueous solutions met in most experiments, but it breaks down outside them.
+[chem19-s1.8.0] It is normally used only between 0 and 14; very concentrated acids and alkalis go outside this range, where pH is not a convenient measure.
+[chem19-s1.8.1] For example, 2.0 M HCl has pH −log₁₀(2.0) = −0.30, a negative value.
+[chem19-s1.8.2] It is reliable only for dilute solutions; in concentrated solutions (above about 1 mol L⁻¹) the ions interact and the measured pH no longer matches −log₁₀ of the concentration.
+[chem19-s1.8.3] It applies only to aqueous solutions (those with water as the solvent).
+[chem19-s1.8.4] pH 7 is neutral only at 25 °C, because Kw and so the neutral pH change with temperature.
+[chem19-s1.9.b] The simplest way to find a pH is with an indicator, a dye that changes colour with the pH of the solution. Indicators are quick but not precise.
+[chem19-s1.9.0] Universal indicator (solution or paper): add a few drops to the solution, or dip in a strip of paper, and compare the colour with the colour chart. It gives the pH only to about the nearest whole unit. There is more on its colours in Acids, bases and their reactions.
+[chem19-s1.9.1] Single indicators such as litmus, methyl orange and phenolphthalein show only whether the pH is above or below their colour-change range, not a pH value.
+[chem19-s1.10.b] A pH meter gives a numerical reading, but it must be calibrated (set against known values) and looked after to be accurate.
+[chem19-s1.10.0] A pH meter (or pH sensor with a data-logger, a device that records readings automatically) uses a glass electrode probe that responds to [H⁺] and gives a digital reading, usually to 0.01 pH units.
+[chem19-s1.10.1] Calibrate the meter before use: place the rinsed probe in buffer solutions of known pH (e.g. pH 4.00 and 7.00, or 7.00 and 10.00) and set the meter to read these values.
+[chem19-s1.10.2] A buffer solution resists a change in pH when small amounts of acid or base are added, so its pH is reliably known. This is why buffers, not water or an acid of supposedly known pH, are used to calibrate.
+[chem19-s1.10.3] Rinse the probe with deionised water (water with dissolved ions removed) between solutions and blot it dry gently, so one solution does not contaminate the next; store the bulb wet, as directed.
+[chem19-s1.11.b] Exams ask for reasons why a meter is preferred, so know each advantage and what it improves.
+[chem19-s1.11.0] A pH meter gives a precise numerical value (e.g. 4.72) rather than an estimate to the nearest whole unit.
+[chem19-s1.11.1] A pH meter needs no judgement of colour, which varies from person to person and with lighting.
+[chem19-s1.11.2] A pH meter works in coloured or cloudy solutions, where an indicator colour cannot be seen.
+[chem19-s1.11.3] A pH meter can record pH continuously, which suits following a reaction over time, as in pH titration curves.
+[chem19-s1.12.b] The aim is to compare the pH of several substances by two methods and check that they agree.
+[chem19-s1.12.0] Aim: to measure and compare the pH of everyday substances, e.g. vinegar, lemon juice, a soft drink, tap water, toothpaste or an antacid tablet mixed with deionised water, and baking soda solution.
+[chem19-s1.12.1] Step 1: Put about 20 cm³ of each sample in a clean, labelled beaker.
+[chem19-s1.12.2] Step 2: Test each sample with universal indicator paper and record the pH from the colour chart.
+[chem19-s1.12.3] Step 3: Measure each sample with a calibrated pH meter, rinsing the probe between samples.
+[chem19-s1.12.4] Step 4: Repeat each reading.
+[chem19-s1.12.5] Use deionised water to dissolve or mix solids, because tap water may contain dissolved substances that change the pH.
+[chem19-s1.12.6] Diagram: a pH probe in a beaker of sample, connected to a meter (or data-logger) showing a digital reading.
+[chem19-s1.12.7] Diagram: universal indicator paper beside its colour chart.
+[chem19-s1.13.b] After the readings, rank the substances, compare the two methods and take care with hazards and errors.
+[chem19-s1.13.0] Results: record both sets of readings in a table and rank the substances from most acidic to most basic.
+[chem19-s1.13.1] The meter readings are more precise, and the two methods should agree to about one unit, because universal indicator reads only to about the nearest whole unit.
+[chem19-s1.13.2] Safety: wear goggles; treat oven cleaner and other strong alkalis as corrosive (use gloves, small volumes, or omit them); do not taste any sample.
+[chem19-s1.13.3] Sources of error: a probe that is not calibrated or not rinsed; a temperature different from the calibration temperature; misjudging indicator colours.
+[chem19-s1.14.b] The pH depends on the [H⁺] in the solution, which depends on how far the acid dissociates (splits into ions) and on its concentration. A strong acid dissociates almost completely; a weak acid only partly, measured by its Ka (the acid dissociation constant).
+[chem19-s1.14.0] Tendency to dissociate: at the same concentration, a strong acid has a lower pH than a weak acid.
+[chem19-s1.14.1] For example, 0.10 M HCl has pH 1.00, but 0.10 M ethanoic acid (Ka 1.8 × 10⁻⁵) has pH 2.87, because the weak acid is only about 1% dissociated.
+[chem19-s1.14.2] Concentration: diluting an acid lowers [H⁺] and raises the pH.
+[chem19-s1.14.3] Diluting a strong acid ten times raises its pH by 1: 0.10 M HCl has pH 1.00 and 0.010 M HCl has pH 2.00.
+[chem19-s1.14.4] Diluting a weak acid ten times raises its pH by only about 0.5: 0.10 M ethanoic acid has pH 2.87 and 0.010 M has pH 3.37.
+[chem19-s1.14.5] This is because [H⁺] depends on the square root of the concentration, and dilution makes a weak acid dissociate a larger fraction. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.15.b] Temperature changes pH because it changes Kw, Ka and Kb (the dissociation constants of water, weak acids and weak bases).
+[chem19-s1.15.0] Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls, to 6.15 at 100 °C.
+[chem19-s1.15.1] Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.
+[chem19-s1.15.2] For a base, the pH also changes with temperature at fixed [OH⁻], because [H⁺] = Kw ÷ [OH⁻] and Kw changes.
+[chem19-s1.15.3] For example, 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C, because Kw is larger at 50 °C so [H⁺] is larger.
+[chem19-s1.16.b] Strength and pH are different ideas. Strength is how far an acid dissociates; pH is the [H⁺] actually present, which also depends on concentration.
+[chem19-s1.16.0] pH measures acidity (the [H⁺] in the solution), not the strength of the acid: a very dilute strong acid can have a higher pH than a concentrated weak acid.
+[chem19-s1.16.1] For example, 1.0 × 10⁻⁵ M HCl has pH 5.00, while 1.0 M ethanoic acid has pH 2.37.
+
+CANDIDATES chem11-s2: 2. Acid–base theories and strength
+[chem11-s2.0.b] The first successful definition of acids and bases came from Svante Arrhenius in 1887, in his theory of electrolytic dissociation. He defined them by the ions they produce when dissolved in water.
+[chem11-s2.0.0] An Arrhenius acid is a substance that dissociates (splits into ions) in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.0.1] An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.0.2] Neutralisation (an acid and a base cancelling each other's properties) is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O.
+[chem11-s2.1.b] The Arrhenius theory works well for simple cases like HCl and NaOH, but it breaks down as soon as a substance or reaction does not fit its water-and-ions picture. These gaps are why a wider theory was needed.
+[chem11-s2.1.0] It applies only to aqueous solutions (substances dissolved in water), so it says nothing about acids and bases in other solvents.
+[chem11-s2.1.1] It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate, because it only allows a base to produce OH⁻ itself.
+[chem11-s2.1.2] It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem11-s2.1.3] It ignores the role of water: a bare hydrogen ion (a proton) does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺.
+[chem11-s2.2.b] Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton, so it no longer depends on water or on OH⁻.
+[chem11-s2.2.0] A proton is the same particle as a hydrogen ion, H⁺ (a hydrogen atom that has lost its electron, leaving just a proton).
+[chem11-s2.2.1] A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.
+[chem11-s2.2.2] An acid–base reaction is the transfer of a proton from an acid to a base.
+[chem11-s2.2.3] HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.
+[chem11-s2.2.4] NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid. The ⇌ arrow means the reaction is reversible.
+[chem11-s2.2.5] Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric.
+[chem11-s2.3.b] A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions. Brønsted–Lowry does this by fixing each of the Arrhenius limitations.
+[chem11-s2.3.0] It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor, so it counts as a base.
+[chem11-s2.3.1] It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.
+[chem11-s2.3.2] It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.
+[chem11-s2.3.3] It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.
+[chem11-s2.3.4] Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.
+[chem11-s2.3.5] Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.
+[chem11-s2.3.6] Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent (the liquid doing the dissolving) and in the absence of a solvent.
+[chem11-s2.4.b] Because a Brønsted–Lowry reaction passes a proton along, the acid and base each turn into a new species that can pass the proton back. These linked species are called conjugates.
+[chem11-s2.4.0] When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.
+[chem11-s2.4.1] When a base accepts a proton, the species formed is the conjugate acid of that base.
+[chem11-s2.4.2] A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.
+[chem11-s2.4.3] H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.
+[chem11-s2.4.4] Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁.
+[chem11-s2.5.b] To label the acids, bases and conjugate pairs in any equation, follow the movement of the proton. These four steps work for every equation.
+[chem11-s2.5.0] 1. For each reactant, check whether it loses or gains a proton in going to the products.
+[chem11-s2.5.1] 2. The reactant that loses a proton is the acid; the reactant that gains a proton is the base.
+[chem11-s2.5.2] 3. On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.
+[chem11-s2.5.3] 4. In a reversible reaction (one that can run in both directions, shown by ⇌), the products act as an acid and a base in the reverse reaction.
+[chem11-s2.6.b] Each equation below is labelled using the four steps: find which reactant loses a proton, which gains one, then match each to its product. Notice that the same species can be an acid in one equation and a base in another.
+[chem11-s2.6.0] HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.1] NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.
+[chem11-s2.6.2] CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.3] HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid because it loses a proton; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.4] HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base because it gains a proton; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.5] NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻.
+[chem11-s2.7.b] An acid and its conjugate base are linked like a see-saw: the stronger one is, the weaker the other. Some species can sit on either side, depending on what they react with.
+[chem11-s2.7.0] The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.
+[chem11-s2.7.1] A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.
+[chem11-s2.7.2] Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the worked examples above.
+[chem11-s2.8.b] Strength describes how far an acid splits into ions (dissociates, or ionises) when it dissolves in water. This decides how many H⁺ ions it releases.
+[chem11-s2.8.0] A strong acid is completely dissociated (ionised) into ions in water, shown with a single arrow: HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.8.1] Strong acids include hydrochloric acid (HCl), nitric acid (HNO₃) and sulfuric acid (H₂SO₄).
+[chem11-s2.8.2] A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium (a balance between the forward and reverse reactions) is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).
+[chem11-s2.8.3] Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids (acids built on carbon chains).
+[chem11-s2.9.b] Bases have strength in the same way as acids: it depends on how fully they produce hydroxide ions in water.
+[chem11-s2.9.0] A strong base is completely dissociated in water, e.g. sodium hydroxide and potassium hydroxide: NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.9.1] A weak base reacts only slightly with water to produce hydroxide ions, e.g. ammonia: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem11-s2.10.b] Concentration describes how much acid or base is present; strength describes how far it dissociates. The two are separate properties.
+[chem11-s2.10.0] Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹ (moles per litre; a mole is a fixed counting amount of particles).
+[chem11-s2.10.1] A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl.
+[chem11-s2.10.2] A dilute strong acid, e.g. 0.01 M HCl, is still fully dissociated.
+[chem11-s2.10.3] A concentrated weak acid, e.g. glacial ethanoic acid, is still only slightly dissociated.
+[chem11-s2.11.b] Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration. Any difference in behaviour must then come from strength, not concentration.
+[chem11-s2.11.0] pH (a scale measuring how acidic a solution is; lower means more H⁺): 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.
+[chem11-s2.11.1] Ethanoic acid has an acid dissociation constant (Ka) of 1.8 × 10⁻⁵, a small value showing that it is only slightly dissociated.
+[chem11-s2.11.2] Rate of reaction: magnesium ribbon fizzes much faster in 0.1 M hydrochloric acid than in 0.1 M ethanoic acid, because hydrogen ions are present at a higher concentration.
+[chem11-s2.11.3] Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions to carry the current.
+[chem11-s2.11.4] Equal volumes of the two acids at the same concentration neutralise the same amount of sodium hydroxide and give the same total volume of hydrogen with excess magnesium, because the weak acid's equilibrium shifts to release more H⁺ as H⁺ is used up.
+[chem11-s2.11.5] Safety: concentrated acids and alkalis are corrosive, so wear goggles and gloves; dilute an acid by adding it to water.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.
+
+CANDIDATES chem18-s1: 1. Dynamic equilibrium and Kc
+[chem18-s1.0.b] Some reactions run to completion; others reach a balance in which the forward and reverse reactions both continue. Telling the two types apart is the starting point for the whole chapter.
+[chem18-s1.0.0] Some reactions go to completion: the reactants are converted completely into products and the reaction cannot easily be reversed, e.g. burning magnesium, 2Mg(s) + O₂(g) → 2MgO(s).
+[chem18-s1.0.1] A reversible reaction is one in which the products can react to form the reactants again, so both the forward and the reverse reactions take place. It is shown by the sign ⇌, a double arrow.
+[chem18-s1.0.2] The forward reaction is the one from left to right as written; the reverse (back) reaction is from right to left. Both are always labelled relative to how the equation is written.
+[chem18-s1.0.3] The Haber process, N₂(g) + 3H₂(g) ⇌ 2NH₃(g), makes ammonia from nitrogen and hydrogen. It is named after Fritz Haber (1868–1934); Carl Bosch (1874–1940) developed it industrially.
+[chem18-s1.0.4] Hydrogen and iodine react reversibly: H₂(g) + I₂(g) ⇌ 2HI(g), where HI is hydrogen iodide gas.
+[chem18-s1.0.5] Esterification (an acid reacting with an alcohol to make an ester and water) is reversible: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.0.6] Nitrogen dioxide and dinitrogen tetroxide: 2NO₂(g) ⇌ N₂O₄(g). NO₂ is brown and N₂O₄ is colourless, so the colour of the mixture shows how far the reaction has moved.
+[chem18-s1.0.7] Weak acids (acids that only partly split into ions in water) and acid–base indicators (dyes that change colour with acidity) are also reversible, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq) and HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s1.1.b] In a reversible reaction in a sealed container, the mixture settles into a balance. At chemical equilibrium both reactions continue, and their rates are equal.
+[chem18-s1.1.0] Chemical equilibrium is a state of dynamic balance in a reversible reaction in which the rate of the forward reaction (how fast reactants turn into products) equals the rate of the reverse reaction.
+[chem18-s1.1.1] It is called dynamic because both reactions are still happening: reactant particles are still forming products and product particles are still forming reactants, at the same rate.
+[chem18-s1.1.2] Because substances are formed and used up at the same rate, their concentrations (amounts per litre) stay constant at equilibrium, so observable properties such as colour, pressure and density stop changing.
+[chem18-s1.1.3] The concentrations are constant but not equal: at equilibrium there may be much more product than reactant, or the reverse. It is the rates that are equal, not the amounts.
+[chem18-s1.1.4] Static equilibrium is different: nothing moves at all, e.g. a metre stick balanced at its centre.
+[chem18-s1.1.5] Analogy: a person walking up a down-escalator at the same speed it moves stays in the same place, although both movements continue. Likewise nothing seems to change at equilibrium, but both reactions carry on.
+[chem18-s1.2.b] Equilibrium only forms if nothing can escape. This is why the container matters.
+[chem18-s1.2.0] Equilibrium can be reached only in a closed system, where no reactants or products can enter or leave; energy such as heat can still pass to and from the surroundings.
+[chem18-s1.2.1] Heating calcium carbonate in a sealed container, CaCO₃(s) ⇌ CaO(s) + CO₂(g): the CO₂ gas builds up and equilibrium is reached.
+[chem18-s1.2.2] Heating calcium carbonate in an open container: the CO₂ escapes, so the reverse reaction cannot happen and the calcium carbonate decomposes completely.
+[chem18-s1.2.3] A fizzy drink in a closed bottle contains CO₂(g) ⇌ CO₂(aq) at equilibrium (gas above the drink and gas dissolved in it); once the bottle is opened the gas escapes and the drink goes flat.
+[chem18-s1.3.b] Equilibrium is not instant. The two rates start far apart and move towards each other until they meet.
+[chem18-s1.3.0] At the start, when only reactants are present, the forward rate is high and the reverse rate is zero, because there are no products yet to react back.
+[chem18-s1.3.1] As reactants are used up the forward rate falls; as products build up the reverse rate rises.
+[chem18-s1.3.2] Equilibrium is reached when the two rates become equal; from then on all concentrations are constant. This is why equilibrium is reached some time after the reactants are mixed.
+[chem18-s1.3.3] The same equilibrium is reached from either direction: starting with 1 mol of H₂ and 1 mol of I₂, or with 2 mol of HI only, in the same sealed flask at the same temperature, gives the same equilibrium mixture.
+[chem18-s1.3.4] Concentration–time graph for N₂ + 3H₂ ⇌ 2NH₃ starting with N₂ and H₂: the reactant curves fall and the product curve rises from zero, each changing quickly at first because the reactants are most concentrated then.
+[chem18-s1.3.5] All three curves level off (become horizontal) at the same moment, when equilibrium is reached. H₂ falls three times as fast as N₂, and NH₃ rises twice as fast as N₂ falls, matching the 1 : 3 : 2 ratio in the equation.
+[chem18-s1.3.6] Rate–time graph: the forward-rate curve falls and the reverse-rate curve rises from zero until they meet and continue as one horizontal line at equilibrium.
+[chem18-s1.3.7] Diagram: draw (a) concentration against time, with the reactant and product curves levelling off and the moment equilibrium is reached marked; and (b) forward and reverse rates against time, meeting at equilibrium.
+[chem18-s1.4.b] At equilibrium the concentrations are not random: for a given reaction at a given temperature they always fit one fixed pattern. That pattern is a number, the equilibrium constant Kc.
+[chem18-s1.4.0] The equilibrium law: at equilibrium, at a fixed temperature, the concentrations of products and reactants are related by a constant, the equilibrium constant Kc.
+[chem18-s1.4.1] For aA + bB ⇌ cC + dD (where a, b, c and d are the coefficients, the numbers in front of each formula in the balanced equation): Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ. Square brackets mean the concentration in mol L⁻¹ at equilibrium.
+[chem18-s1.4.2] Products go on top and reactants on the bottom; each concentration is raised to the power of its coefficient in the balanced equation, and the concentrations are multiplied, not added.
+[chem18-s1.4.3] Example: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) gives Kc = [NH₃]² ÷ [N₂][H₂]³. The 3 in front of H₂ becomes the power 3.
+[chem18-s1.4.4] Example: H₂(g) + I₂(g) ⇌ 2HI(g) gives Kc = [HI]² ÷ [H₂][I₂], with HI squared because its coefficient is 2.
+[chem18-s1.4.5] Example: PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) gives Kc = [PCl₃][Cl₂] ÷ [PCl₅].
+[chem18-s1.4.6] Example: esterification, CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, gives Kc = [CH₃COOC₂H₅][H₂O] ÷ [CH₃COOH][C₂H₅OH]; water is included because it is a product, not the solvent.
+[chem18-s1.4.7] Example: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) gives Kc = [FeSCN²⁺] ÷ [Fe³⁺][SCN⁻].
+[chem18-s1.5.b] Kc is a ratio of concentrations, so whether it has units depends on how many concentrations are on top and on the bottom.
+[chem18-s1.5.0] To find the units, substitute mol L⁻¹ for each concentration in the Kc expression and cancel.
+[chem18-s1.5.1] When the total of the powers is the same on top and bottom, as in H₂ + I₂ ⇌ 2HI or esterification, the units cancel and Kc has no units.
+[chem18-s1.5.2] For N₂ + 3H₂ ⇌ 2NH₃: (mol L⁻¹)² ÷ (mol L⁻¹)⁴ = (mol L⁻¹)⁻², that is L² mol⁻², because there are fewer powers on top than on the bottom.
+[chem18-s1.5.3] For PCl₅ ⇌ PCl₃ + Cl₂: (mol L⁻¹)² ÷ (mol L⁻¹), so the units of Kc are mol L⁻¹.
+[chem18-s1.6.b] Many changes alter the composition of an equilibrium mixture, but the constant itself is much harder to move. Only one factor changes its value.
+[chem18-s1.6.0] Kc changes only with temperature, so a value of Kc must always be quoted with its temperature.
+[chem18-s1.6.1] Changing a concentration does not change Kc: the system shifts until the ratio in the Kc expression has its original value again.
+[chem18-s1.6.2] Changing the pressure of a gas mixture does not change Kc: the concentrations change, but the new equilibrium mixture gives the same value of Kc.
+[chem18-s1.6.3] A catalyst (a substance that speeds up a reaction without being used up) does not change Kc: it speeds up the forward and reverse reactions equally, so equilibrium is reached sooner with the same composition.
+[chem18-s1.6.4] Exothermic forward reaction (one that gives out heat, ΔH negative): raising the temperature decreases Kc, so less product is present at equilibrium; lowering the temperature increases Kc. Example: N₂ + 3H₂ ⇌ 2NH₃, with ΔH = −92 kJ mol⁻¹.
+[chem18-s1.6.5] Endothermic forward reaction (one that takes in heat, ΔH positive): raising the temperature increases Kc; lowering it decreases Kc. Example: PCl₅ ⇌ PCl₃ + Cl₂, which is endothermic in the forward direction; PCl₅ decomposes further on heating.
+[chem18-s1.6.6] So if Kc rises with temperature the forward reaction is endothermic; if Kc falls with temperature the forward reaction is exothermic.
+[chem18-s1.7.b] The size of Kc tells you where the equilibrium lies, and comparing it with the current mixture tells you which way a reaction will go.
+[chem18-s1.7.0] A large Kc (much greater than 1) means the equilibrium mixture is mainly products: the equilibrium lies to the right and the reaction goes almost to completion. A small Kc (much less than 1) means mainly reactants: it lies to the left and little product forms.
+[chem18-s1.7.1] A Kc near 1 means appreciable amounts of both reactants and products are present at equilibrium. Esterification has Kc ≈ 4 (at room temperature), so starting with 1 mol each of ethanoic acid and ethanol, about two-thirds of a mole of ester forms.
+[chem18-s1.7.2] Kc tells how far a reaction goes, not how fast: a reaction with a large Kc may be very slow, e.g. without a catalyst.
+[chem18-s1.7.3] The reaction quotient, Q, has the same expression as Kc but uses the concentrations at any moment, not necessarily at equilibrium.
+[chem18-s1.7.4] If Q is less than Kc, the mixture has too little product and the reaction proceeds forward (to the right) until Q = Kc; if Q is greater than Kc, it proceeds in reverse (to the left); if Q = Kc, the mixture is at equilibrium.
+[chem18-s1.7.5] Worked prediction (sample data): for esterification with Kc = 4.0, a mixture with 0.50 mol each of acid, ethanol, ester and water has Q = (0.50 × 0.50) ÷ (0.50 × 0.50) = 1.0, which is less than Kc, so more ester forms.
+[chem18-s1.7.6] This explains Le Châtelier’s principle (a system at equilibrium shifts to oppose a change) mathematically: adding a reactant makes the denominator larger, Q falls below Kc, and the reaction proceeds forward until Q = Kc again.
+[chem18-s1.7.7] Writing the equation the other way round inverts Kc: for 2HI ⇌ H₂ + I₂, Kc = [H₂][I₂] ÷ [HI]², which is 1 ÷ Kc for H₂ + I₂ ⇌ 2HI at the same temperature.
+[chem18-s1.8.b] Kc calculations follow the same routine every time. Working through a table of amounts keeps the steps in order and avoids the usual mistakes.
+[chem18-s1.8.0] 1. Write the balanced equation and the Kc expression.
+[chem18-s1.8.1] 2. Convert any masses to moles using n = mass ÷ M, where M is the molar mass in g mol⁻¹.
+[chem18-s1.8.2] 3. Set up a table with rows Initial (moles at the start), Change (moles reacting or forming, in the ratio of the coefficients) and Equilibrium (initial + change) for every species.
+[chem18-s1.8.3] 4. Divide each equilibrium amount by the volume of the container in litres to get concentrations in mol L⁻¹. When the total number of moles is the same on each side, as in H₂ + I₂ ⇌ 2HI or esterification, the volume cancels, so moles can be used directly.
+[chem18-s1.8.4] 5. Substitute the concentrations into the Kc expression and calculate; give the answer to 3 significant figures, with units if asked.
+[chem18-s1.8.5] To find equilibrium amounts from Kc: let x be the amount that reacts, write each equilibrium amount in terms of x, substitute into the Kc expression and solve for x.
+[chem18-s1.8.6] If both sides of the resulting equation are perfect squares, take the square root of both sides. Otherwise rearrange into a quadratic, ax² + bx + c = 0, and use x = (−b ± √(b² − 4ac)) ÷ 2a.
+[chem18-s1.8.7] Choose the root that makes physical sense: no equilibrium amount can be negative, so x cannot exceed the starting amount of a reactant.
+[chem18-s1.9.b] The simplest type: every equilibrium amount is given, so convert to concentrations and substitute.
+[chem18-s1.9.0] Data: H₂(g) + I₂(g) ⇌ 2HI(g) in a 2.00 L flask at a fixed temperature; at equilibrium there are 0.100 mol H₂, 0.150 mol I₂ and 0.840 mol HI.
+[chem18-s1.9.1] [H₂] = 0.100 mol ÷ 2.00 L = 0.0500 mol L⁻¹, because Kc needs concentrations, not moles.
+[chem18-s1.9.2] [I₂] = 0.150 mol ÷ 2.00 L = 0.0750 mol L⁻¹.
+[chem18-s1.9.3] [HI] = 0.840 mol ÷ 2.00 L = 0.420 mol L⁻¹.
+[chem18-s1.9.4] Kc = [HI]² ÷ [H₂][I₂] = (0.420)² ÷ (0.0500 × 0.0750) = 0.1764 ÷ 0.00375 = 47.0 (no units, because the powers on top and bottom match).
+[chem18-s1.10.b] Here only one equilibrium amount is given. Use the mole ratio from the equation to work out all the others.
+[chem18-s1.10.0] Data: 2.00 mol N₂ and 6.00 mol H₂ are sealed in a 4.00 L vessel; at equilibrium 1.20 mol NH₃ is present, for N₂(g) + 3H₂(g) ⇌ 2NH₃(g).
+[chem18-s1.10.1] Change: forming 1.20 mol NH₃ uses 0.600 mol N₂ and 1.80 mol H₂, in the ratio 1 : 3 : 2 from the coefficients.
+[chem18-s1.10.2] Equilibrium amounts: N₂ = 2.00 − 0.600 = 1.40 mol; H₂ = 6.00 − 1.80 = 4.20 mol; NH₃ = 1.20 mol.
+[chem18-s1.10.3] Concentrations (÷ 4.00 L): [N₂] = 0.350 mol L⁻¹; [H₂] = 1.05 mol L⁻¹; [NH₃] = 0.300 mol L⁻¹.
+[chem18-s1.10.4] Kc = [NH₃]² ÷ [N₂][H₂]³ = (0.300)² ÷ (0.350 × 1.05³) = 0.0900 ÷ 0.405 = 0.222 L² mol⁻².
+[chem18-s1.11.b] Here the starting amount is a mass, and the extent of reaction is a percentage dissociated (the percentage of the starting compound that has split up into products).
+[chem18-s1.11.0] Data: 41.7 g of PCl₅ is heated in a sealed 5.00 L vessel; at equilibrium 40.0% has dissociated, for PCl₅(g) ⇌ PCl₃(g) + Cl₂(g).
+[chem18-s1.11.1] Molar mass: M(PCl₅) = 31 + 5 × 35.5 = 208.5 g mol⁻¹.
+[chem18-s1.11.2] Moles PCl₅ = 41.7 g ÷ 208.5 g mol⁻¹ = 0.200 mol, using n = mass ÷ M.
+[chem18-s1.11.3] Moles dissociated = 40.0% of 0.200 mol = 0.0800 mol, because the percentage applies to the starting amount.
+[chem18-s1.11.4] At equilibrium: PCl₅ = 0.120 mol; PCl₃ = 0.0800 mol; Cl₂ = 0.0800 mol, because each PCl₅ that dissociates gives one PCl₃ and one Cl₂.
+[chem18-s1.11.5] Concentrations (÷ 5.00 L): [PCl₅] = 0.0240 mol L⁻¹; [PCl₃] = [Cl₂] = 0.0160 mol L⁻¹.
+[chem18-s1.11.6] Kc = [PCl₃][Cl₂] ÷ [PCl₅] = (0.0160 × 0.0160) ÷ 0.0240 = 0.0107 mol L⁻¹.
+[chem18-s1.12.b] Now Kc is given and you find an amount. When the expression is a perfect square (the same bracket squared on top and bottom), taking a square root avoids a quadratic.
+[chem18-s1.12.0] Data: 1.00 mol of ethanoic acid and 1.00 mol of ethanol are mixed and reach equilibrium; Kc = 4.00 for CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem18-s1.12.1] Let x mol of ester form: at equilibrium the acid and the ethanol are each (1.00 − x) mol, and the ester and the water are each x mol; the volume cancels.
+[chem18-s1.12.2] Kc = x² ÷ (1.00 − x)² = 4.00.
+[chem18-s1.12.3] Taking the square root of both sides, which removes the squares, gives x ÷ (1.00 − x) = 2.00.
+[chem18-s1.12.4] Rearranging: x = 2.00 − 2.00x, so 3.00x = 2.00 and x = 0.667 mol of ester.
+[chem18-s1.12.5] The acid and the ethanol each remain at 1.00 − 0.667 = 0.333 mol, because each mole of ester formed used up one mole of each.
+[chem18-s1.12.6] Mass of ester = 0.667 mol × 88 g mol⁻¹ = 58.7 g, using M(CH₃COOC₂H₅) = 88 g mol⁻¹.
+[chem18-s1.13.b] When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).
+[chem18-s1.13.0] Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).
+[chem18-s1.13.1] Let x mol of H₂ react: at equilibrium H₂ = (1.00 − x), I₂ = (2.00 − x) and HI = 2x; as the volume is 1.00 L, these amounts are also the concentrations in mol L⁻¹.
+[chem18-s1.13.2] 49.0 = (2x)² ÷ [(1.00 − x)(2.00 − x)], so 4x² = 49.0(2.00 − 3.00x + x²).
+[chem18-s1.13.3] Rearranging gives 45.0x² − 147x + 98.0 = 0, which is the form ax² + bx + c = 0 needed for the formula.
+[chem18-s1.13.4] x = (147 ± √(147² − 4 × 45.0 × 98.0)) ÷ (2 × 45.0) = (147 ± 63.0) ÷ 90.0, so x = 2.33 or x = 0.933.
+[chem18-s1.13.5] x = 2.33 is impossible because it exceeds the 1.00 mol of H₂ present, so x = 0.933.
+[chem18-s1.13.6] Equilibrium concentrations: [H₂] = 0.0667 mol L⁻¹; [I₂] = 1.07 mol L⁻¹; [HI] = 1.87 mol L⁻¹.
+[chem18-s1.13.7] Check: 1.87² ÷ (0.0667 × 1.07) ≈ 49, which matches Kc.
+
+CANDIDATES chem18-s2: 2. Le Châtelier's principle
+[chem18-s2.0.b] A reaction at equilibrium (reactants turning into products at exactly the rate products turn back into reactants, so the amounts stay constant) can be disturbed. Le Châtelier’s principle lets you predict how it responds.
+[chem18-s2.0.0] Le Châtelier’s principle: if a system at equilibrium is disturbed by a change in concentration, pressure or temperature, the system responds so as to oppose the change, and a new equilibrium is set up.
+[chem18-s2.0.1] A shift to the right means the forward reaction is favoured, so more products form until equilibrium is restored; a shift to the left means more reactants form.
+[chem18-s2.0.2] The principle predicts the direction of the shift, not how fast it happens or how large it is; the change is only partly reversed, so the system never fully cancels the disturbance.
+[chem18-s2.1.b] Concentration (the amount of a substance per unit volume of solution) is the easiest disturbance to picture. The equilibrium shifts to use up whatever has been added, or to replace whatever has been taken away.
+[chem18-s2.1.0] Adding a reactant (or removing a product) shifts the equilibrium to the right, using up some of the added reactant and forming more product.
+[chem18-s2.1.1] Adding a product (or removing a reactant) shifts the equilibrium to the left, because the system opposes the extra product by turning some of it back into reactant.
+[chem18-s2.1.2] Kc (the equilibrium constant, the fixed ratio of product to reactant concentrations in the Kc expression) is unchanged: the concentrations adjust until that ratio is back at its old value.
+[chem18-s2.1.3] Removing a product as it forms keeps pulling the equilibrium to the right, so the reaction keeps making more product. This is how a yield (the amount of product obtained) is raised.
+[chem18-s2.1.4] In esterification (an alcohol reacting with an acid to make an ester), using an excess of ethanol, the cheaper reactant, shifts the equilibrium right and increases the yield of ester.
+[chem18-s2.1.5] In Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq) (red), adding either reactant deepens the red colour because more of the red product forms. There is more on this in Investigation: disturbing an equilibrium.
+[chem18-s2.2.b] Pressure only affects equilibria that involve gases, because only gases take up very different volumes depending on how many molecules there are. The equilibrium shifts to the side that exerts less pressure when pressure is raised.
+[chem18-s2.2.0] Increasing the pressure shifts the equilibrium towards the side with fewer moles of gas, because that side exerts the lower pressure; decreasing the pressure shifts it towards the side with more moles of gas.
+[chem18-s2.2.1] Count only the gas molecules, using the coefficients (the numbers in front of each formula): N₂(g) + 3H₂(g) ⇌ 2NH₃(g) has 4 mol of gas on the left and 2 mol on the right, so high pressure shifts it to the right, giving more ammonia.
+[chem18-s2.2.2] If both sides have the same number of moles of gas, pressure has no effect on the position of equilibrium, e.g. H₂(g) + I₂(g) ⇌ 2HI(g), with 2 mol on each side.
+[chem18-s2.2.3] Compressing H₂ + I₂ ⇌ 2HI makes the purple colour deeper because every concentration, including that of I₂, rises (the same amount of gas is squeezed into a smaller volume); the percentage of each substance is unchanged.
+[chem18-s2.2.4] 2NO₂(g) (brown) ⇌ N₂O₄(g) (colourless): compressing the mixture in a sealed syringe makes it darker at once, because the concentration of the brown NO₂ rises.
+[chem18-s2.2.5] The darkening then fades as the equilibrium shifts to the right, from 2 mol to 1 mol of gas, but the mixture does not become as pale as before.
+[chem18-s2.2.6] A change of pressure does not change Kc.
+[chem18-s2.3.b] Heat behaves like a reactant or a product: an exothermic reaction (one that releases heat, ΔH negative) gives out heat, and an endothermic one (ΔH positive) absorbs it. Changing the temperature moves the equilibrium to oppose the change in heat.
+[chem18-s2.3.0] Raising the temperature shifts the equilibrium in the endothermic direction, which absorbs heat; lowering it shifts the equilibrium in the exothermic direction, which releases heat.
+[chem18-s2.3.1] If the forward reaction is exothermic (ΔH negative), heating shifts the equilibrium to the left and cooling shifts it to the right; the reverse is true if the forward reaction is endothermic.
+[chem18-s2.3.2] Example: 2NO₂(g) ⇌ N₂O₄(g), with ΔH about −57 kJ mol⁻¹. Heating shifts the equilibrium to the left, giving a darker brown mixture with more NO₂.
+[chem18-s2.3.3] Cooling the same mixture in ice-water shifts the equilibrium to the right, giving a paler mixture because more colourless N₂O₄ forms.
+[chem18-s2.3.4] Temperature is the only one of these disturbances that changes Kc: for an exothermic forward reaction Kc falls as temperature rises; for an endothermic one it rises.
+[chem18-s2.3.5] Diagram: two sealed tubes of the brown mixture, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.4.b] A catalyst (a substance that speeds up a reaction without being used up) is not a disturbance to an equilibrium at all, so it cannot shift one.
+[chem18-s2.4.0] A catalyst does not disturb an equilibrium or change its position, because it speeds up the forward and reverse reactions equally.
+[chem18-s2.4.1] A catalyst lets equilibrium be reached more quickly, so the same yield is obtained in less time.
+[chem18-s2.4.2] A catalyst does not change Kc.
+[chem18-s2.5.b] Le Châtelier’s principle explains familiar things, from the fizz in a drink to the damage that extra carbon dioxide does to sea life. In each case, work out what was disturbed and which way the equilibrium moves.
+[chem18-s2.5.0] Fizzy drinks: CO₂(g) ⇌ CO₂(aq). Opening the bottle lowers the pressure of CO₂ above the drink, so the equilibrium shifts to the left and gas bubbles out.
+[chem18-s2.5.1] A cold drink holds more dissolved CO₂.
+[chem18-s2.5.2] Oceans: CO₂(g) ⇌ CO₂(aq); CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq); H₂CO₃(aq) + CO₃²⁻(aq) ⇌ 2HCO₃⁻(aq). Here H₂CO₃ is carbonic acid and CO₃²⁻ is the carbonate ion.
+[chem18-s2.5.3] More CO₂ in the air increases the dissolved CO₂ and carbonic acid; the third equilibrium shifts to the right, using up carbonate ions. This is ocean acidification.
+[chem18-s2.5.4] With less carbonate available, shellfish and corals find it harder to build calcium carbonate shells and skeletons.
+[chem18-s2.5.5] Indicators: the colour of an acid–base indicator (a dye that changes colour with acidity) changes because adding acid or base shifts HIn ⇌ H⁺ + In⁻. There is more on this in How indicators work.
+[chem18-s2.6.b] The Haber process makes ammonia from nitrogen and hydrogen. Le Châtelier’s principle tells you which conditions give the most ammonia at equilibrium, but cost and rate force compromises.
+[chem18-s2.6.0] N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ mol⁻¹. Ammonia is used mainly to make fertilisers.
+[chem18-s2.6.1] Pressure: there are 4 mol of gas on the left and 2 mol on the right, so high pressure increases the yield by Le Châtelier’s principle, and also increases the rate because the concentrations are higher.
+[chem18-s2.6.2] In practice a pressure of about 200 atm (range about 150–300 atm) is used as a compromise.
+[chem18-s2.6.3] Higher pressures would give more ammonia, but a plant that can withstand them is very expensive to build and run, and the risk of leaks and explosions increases.
+[chem18-s2.6.4] Temperature: the forward reaction is exothermic, so a low temperature gives a higher yield at equilibrium. But at low temperature the reaction is too slow to be economic.
+[chem18-s2.6.5] In practice a compromise of about 400–500 °C (about 450 °C) gives a reasonable yield at a fast enough rate.
+[chem18-s2.7.b] Two more features keep the Haber process economic: a catalyst that makes the reaction fast enough, and the removal of ammonia so that the equilibrium keeps moving right.
+[chem18-s2.7.0] The iron catalyst does not change the yield; it lets equilibrium be approached quickly at the compromise temperature.
+[chem18-s2.7.1] Ammonia is removed by cooling and liquefying it, which keeps pulling the equilibrium to the right, and unreacted nitrogen and hydrogen are recycled through the catalyst, so the overall conversion is high.
+[chem18-s2.8.b] The Contact process makes sulfur trioxide, the step on the way to sulfuric acid. It follows the same pattern as the Haber process: Le Châtelier predicts one set of conditions and practice uses another.
+[chem18-s2.8.0] Contact process (sulfuric acid manufacture): 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), ΔH about −197 kJ mol⁻¹.
+[chem18-s2.8.1] Le Châtelier predicts high pressure (3 mol of gas on the left, 2 mol on the right) and low temperature for the best yield, because the forward reaction is exothermic.
+[chem18-s2.8.2] In practice about 450 °C is used as a compromise between yield and rate, with a vanadium(V) oxide (V₂O₅) catalyst.
+[chem18-s2.8.3] The pressure is only slightly above atmospheric (1–2 atm), because the yield is already very high and extra pressure would cost more than it gains.
+[chem18-s2.9.b] For any equilibrium you can choose conditions the same way. First decide what favours the product, then weigh that against practical limits.
+[chem18-s2.9.0] General method for any equilibrium: for the best yield choose the temperature that favours the exothermic or endothermic direction as needed, the pressure that favours the side with fewer (or more) gas moles, and an excess of a cheap reactant or removal of product.
+[chem18-s2.9.1] Then weigh these choices against rate, cost, energy use and safety, because the best conditions for yield are rarely the best for the whole process.
+[chem18-s2.9.2] Sustainability: lower temperatures and pressures save energy and reduce CO₂ emissions, and a good catalyst lets a process run at a lower temperature.
+[chem18-s2.10.b] A reversible reaction that changes colour lets you see the position of equilibrium shift. This investigation tests Le Châtelier’s principle by changing one factor at a time.
+[chem18-s2.10.0] Aim: to investigate how changes in concentration and temperature affect the position of an equilibrium, and to test whether the results agree with Le Châtelier’s principle.
+[chem18-s2.10.1] Independent variable (the factor you deliberately change): here concentration or temperature.
+[chem18-s2.10.2] Dependent variable (what you observe as a result): the colour of the equilibrium mixture, which shows the position of equilibrium; more of the coloured product gives a deeper colour.
+[chem18-s2.10.3] Controlled variables (kept the same so the test is fair): the volume of solution, the number of drops added, the observer and the white background.
+[chem18-s2.10.4] Set up one equilibrium mixture and divide it into equal portions in identical test tubes; keep one tube untouched as a control (a comparison with no change) and change one factor in each of the others.
+[chem18-s2.10.5] Compare each tube with the control and record the colour before and after the change.
+[chem18-s2.11.b] This equilibrium is a good test of concentration changes because the product is strongly coloured. Adding or removing a reactant visibly changes the red colour.
+[chem18-s2.11.0] Equation: Fe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq). Fe³⁺ (from iron(III) chloride) is yellow, SCN⁻ (from potassium thiocyanate) is colourless, and FeSCN²⁺ is blood-red.
+[chem18-s2.11.1] Method: add about 1 cm³ of 0.1 M iron(III) chloride and 1 cm³ of 0.1 M potassium thiocyanate to about 100 cm³ of deionised water and stir; a pale red solution forms. Diluting it makes the colour changes easy to see.
+[chem18-s2.11.2] Pour equal portions (about 10 cm³) into four test tubes; tube 1 is the control.
+[chem18-s2.11.3] Tube 2: add a few drops of iron(III) chloride solution; the red deepens, because [Fe³⁺] (the concentration of Fe³⁺) increases and the equilibrium shifts to the right, forming more FeSCN²⁺.
+[chem18-s2.11.4] Tube 3: add a few drops of potassium thiocyanate solution; the red deepens, because [SCN⁻] increases and the equilibrium shifts to the right.
+[chem18-s2.11.5] Tube 4: add a few drops of silver nitrate solution; a white precipitate (an insoluble solid formed in a solution) forms and the red colour fades.
+[chem18-s2.11.6] Silver ions remove SCN⁻ as insoluble silver thiocyanate, AgSCN, lowering [SCN⁻], so the equilibrium shifts to the left; silver chloride, also white, can form from the chloride ions in the iron(III) chloride.
+[chem18-s2.11.7] Conclusion: adding a reactant shifts the equilibrium to the right; removing a reactant shifts it to the left, as Le Châtelier’s principle predicts.
+[chem18-s2.12.b] A labelled diagram sums up the four tubes and the colour each one shows.
+[chem18-s2.12.0] Diagram: a row of four test tubes in a rack, labelled control, + FeCl₃, + KSCN and + AgNO₃, showing pale red, deep red, deep red, and pale or colourless with a white precipitate.
+[chem18-s2.13.b] The cobalt(II) chloride equilibrium shows both concentration and temperature effects, because its two forms are different colours and the forward reaction is endothermic.
+[chem18-s2.13.0] Equation: [Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l).
+[chem18-s2.13.1] [Co(H₂O)₆]²⁺ is pink and [CoCl₄]²⁻ is blue; the forward reaction is endothermic.
+[chem18-s2.13.2] Method: dissolve a little cobalt(II) chloride in water to give a pink solution; add concentrated hydrochloric acid drop by drop until the solution is violet, a mixture of pink and blue.
+[chem18-s2.13.3] Divide the violet solution into test tubes, keeping one as a control.
+[chem18-s2.13.4] Adding more concentrated hydrochloric acid adds Cl⁻ and turns the solution blue: the equilibrium shifts to the right.
+[chem18-s2.13.5] Adding water turns the solution pink: water is a product, so the equilibrium shifts to the left. Dilution also favours the side with more dissolved ions, here the left, with five ions against one.
+[chem18-s2.14.b] Because the forward reaction is endothermic, temperature changes move this equilibrium in a predictable direction. The chemicals involved need careful handling.
+[chem18-s2.14.0] Heating: a tube placed in a beaker of hot water (about 80 °C) turns blue, because heating favours the endothermic forward reaction.
+[chem18-s2.14.1] Cooling: a tube placed in ice-water turns pink, because cooling favours the exothermic reverse reaction.
+[chem18-s2.14.2] The changes reverse when the tubes return to room temperature, showing that the reaction is reversible and still dynamic.
+[chem18-s2.14.3] Because heating shifts this equilibrium to the right, Kc for it increases with temperature.
+[chem18-s2.14.4] Safety: concentrated hydrochloric acid is corrosive and gives off choking fumes, so wear goggles and gloves and work in a fume cupboard.
+[chem18-s2.14.5] Safety: cobalt(II) chloride is toxic, may cause cancer and skin allergy, and is harmful to aquatic life, so wear gloves and put waste in the residue container, not the sink.
+[chem18-s2.14.6] Diagram: three test tubes of the violet mixture, one in a beaker of hot water (blue), one in a beaker of ice-water (pink) and one at room temperature as a control (violet), with a thermometer in each beaker.
+[chem18-s2.15.b] This gas equilibrium shows a temperature effect directly, because one form is brown and the other is colourless. The teacher performs it because NO₂ is toxic.
+[chem18-s2.15.0] 2NO₂(g) ⇌ N₂O₄(g), with the forward reaction exothermic; NO₂ is brown and N₂O₄ is colourless.
+[chem18-s2.15.1] Sealed glass tubes containing the same equilibrium mixture are placed in hot water and in ice-water.
+[chem18-s2.15.2] The hot tube becomes darker brown, as the equilibrium shifts to the left, the endothermic direction, giving more NO₂.
+[chem18-s2.15.3] The cold tube becomes paler, as the equilibrium shifts to the right.
+[chem18-s2.15.4] Safety: NO₂ is very toxic; the tubes are sealed and the demonstration is done by the teacher.
+[chem18-s2.15.5] Diagram: two sealed tubes, one in hot water and one in ice-water, each labelled with its colour.
+[chem18-s2.16.b] Primary data are collected by you in the laboratory; secondary data come from somewhere else, such as a simulation, table or graph. Both can show how an equilibrium responds to a disturbance.
+[chem18-s2.16.0] A digital simulation models the particles of a reversible reaction; the user can add reactant or product, or change the temperature, and watch the numbers of each particle and the forward and reverse rates change until a new equilibrium is set up.
+[chem18-s2.16.1] Simulations show what cannot be seen in the laboratory: both reactions continuing at equal rates at equilibrium, and concentration–time graphs showing the sudden change and the new constant levels.
+[chem18-s2.16.2] Simulations are safe, fast and repeatable and avoid toxic chemicals, but they are models: their results depend on the rules programmed into them, so they are checked against experimental data.
+[chem18-s2.16.3] Secondary data, such as a table or graph of the percentage of ammonia at equilibrium at different temperatures and pressures, can be analysed for trends.
+[chem18-s2.16.4] The percentage of ammonia rises with pressure and falls with temperature, so the forward reaction reduces the number of moles of gas and is exothermic.
+[chem18-s2.16.5] On a concentration–time graph, a sudden vertical jump in one line shows a substance being added; the gradual changes that follow show the shift; new horizontal lines show the new equilibrium.
+[chem18-s2.17.b] Judging a colour by eye is not exact, so the method is designed to make the comparison fair and the results reliable.
+[chem18-s2.17.0] Judging colour by eye is subjective (it depends on the observer): compare each tube with the control against a white background, use the same volume in identical tubes, and have the same observer.
+[chem18-s2.17.1] Add the same number of drops to each tube, and allow time for the new equilibrium to set up (the colour stops changing) before recording.
+[chem18-s2.17.2] Concentration changes move the position of equilibrium but do not change Kc; temperature changes both.
+[chem18-s2.17.3] Adding a solution also dilutes the mixture a little, so add only a few drops, or add the same volume of water to the control.

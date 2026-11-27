@@ -1,0 +1,506 @@
+MODE: cost and links
+TARGET chem12-s1: 1. Standard solutions and acid–base titrations
+[chem12-s1.0.b] Volumetric analysis uses a measured volume of reaction to find an unknown concentration. It is the basis of every titration, so the terms here are used throughout the subsection.
+[chem12-s1.0.0] Volumetric analysis (titration) finds the concentration of a solution, the analyte (the solution being analysed), by measuring the volume that reacts exactly with a known volume of another solution of known concentration.
+[chem12-s1.0.1] The calculation depends on knowing one concentration exactly, so at least one of the two solutions must be a standard solution (a solution whose concentration is accurately known).
+[chem12-s1.0.2] Titre: the volume of solution added from the burette (the long graduated glass tube with a tap, used to add measured volumes of liquid).
+[chem12-s1.0.3] End point: the point at which the indicator (a substance that changes colour depending on whether the solution is acidic or basic) changes colour.
+[chem12-s1.0.4] Equivalence point: the point at which the reactants have reacted in exactly the mole ratio of the balanced equation (the ratio of the numbers of moles shown by the coefficients).
+[chem12-s1.0.5] A good indicator is one whose end point coincides with the equivalence point, so that the colour change tells you the moment the reaction is exactly complete.
+[chem12-s1.1.b] A titration answer can only be as good as the solution it is measured against. That is why one special type of substance, the primary standard, is used to fix the concentration.
+[chem12-s1.1.0] A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its properties and the method for making up a standard solution are in Solutions and concentration.
+[chem12-s1.1.1] Acid–base primary standard: anhydrous sodium carbonate, Na₂CO₃ (anhydrous means it contains no water of crystallisation, so its formula and mass are exact).
+[chem12-s1.1.2] Redox primary standard: ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O. Redox titrations are ones where electrons are transferred, and this is mentioned here only as an example.
+[chem12-s1.1.3] Every result in volumetric analysis is only as accurate as the standard: an impure or unstable standard gives a wrong concentration, and so a wrong answer for the analyte.
+[chem12-s1.2.b] Some reagents cannot be made up directly as standard solutions, because their concentration changes or cannot be known from the mass weighed out. Their concentration must instead be found by titration, a process called standardisation.
+[chem12-s1.2.0] Sodium hydroxide absorbs water and carbon dioxide from the air, so the mass weighed out is not all NaOH.
+[chem12-s1.2.1] Hydrochloric acid is volatile (it evaporates easily, so hydrogen chloride is lost from the solution).
+[chem12-s1.2.2] Potassium manganate(VII) solution slowly decomposes, especially in light and in the presence of organic matter, forming MnO₂.
+[chem12-s1.2.3] Sodium thiosulfate crystals have an uncertain water content, so their formula mass, and the number of moles weighed out, is uncertain.
+[chem12-s1.2.4] Standardisation is finding the exact concentration of such a solution by titrating it against a primary standard, or against a solution already standardised against one.
+[chem12-s1.2.5] Example: hydrochloric acid is standardised by titration against a standard solution of sodium carbonate: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g).
+[chem12-s1.2.6] Example: sodium hydroxide is then standardised against the standardised hydrochloric acid, and potassium manganate(VII) is standardised against ammonium iron(II) sulfate.
+[chem12-s1.2.7] A solution standardised in this way is sometimes called a secondary standard.
+[chem12-s1.3.b] A titration uses a small set of apparatus, each with a specific job. Knowing what each item is for lets you explain why it is used.
+[chem12-s1.3.0] Pipette, used with a pipette filler (a rubber bulb that draws liquid up): delivers an exact volume, e.g. 25.0 cm³, of one solution into a conical flask.
+[chem12-s1.3.1] Burette: delivers measured, variable volumes of the other solution, read to 0.05 cm³.
+[chem12-s1.3.2] Conical flask: can be swirled without splashing, and holds the pipetted solution during the titration.
+[chem12-s1.3.3] White tile: placed under the flask so that the colour change shows clearly.
+[chem12-s1.3.4] Funnel: used to fill the burette and then removed.
+[chem12-s1.3.5] Wash bottle of deionised water (water with dissolved ions removed): used to rinse the apparatus and to wash down the flask.
+[chem12-s1.3.6] Indicator: added to the conical flask.
+[chem12-s1.3.7] Diagram: a burette clamped above a conical flask on a white tile, with the pipette and pipette filler shown separately; label burette, tap, pipette, pipette filler, conical flask and white tile.
+[chem12-s1.4.b] Each rinse removes water or other solution that would dilute the solution it is about to hold. Following the steps in order, with the reason for each, is what the exam asks for.
+[chem12-s1.4.0] Rinse the pipette with deionised water, then with a little of the solution it is to measure, so that any water left in it does not dilute the solution.
+[chem12-s1.4.1] Draw the solution up above the mark using a pipette filler, then let it down until the bottom of the meniscus (the curved surface of the liquid) sits on the mark at eye level.
+[chem12-s1.4.2] Let the solution run into the conical flask, touching the tip against the inside of the flask at the end; do not blow out the last drop, because the pipette is calibrated (marked to deliver an exact volume) to allow for it.
+[chem12-s1.4.3] Rinse the burette with deionised water, then with the solution it is to contain, so that any water left in it does not dilute the solution.
+[chem12-s1.4.4] Fill the burette using a funnel, then remove the funnel, because drips from it would change the reading.
+[chem12-s1.4.5] Run a little solution out through the tap to fill the part below the tap and remove any air bubble, which would otherwise make the volume delivered inaccurate.
+[chem12-s1.4.6] Read the burette at eye level, from the bottom of the meniscus.
+[chem12-s1.4.7] Rinsing the conical flask with deionised water is fine, because it does not change the number of moles in the pipetted volume.
+[chem12-s1.4.8] The conical flask must not be rinsed with either solution, because that would leave extra moles of reagent in the flask.
+[chem12-s1.5.b] A titration is done twice over: a quick rough run to find roughly where the end point is, then careful accurate runs. Each step is there to make the final volume as precise as possible.
+[chem12-s1.5.0] Add two or three drops of the indicator to the conical flask.
+[chem12-s1.5.1] Add solution from the burette while swirling the flask; first do a rough titration to find the approximate end point.
+[chem12-s1.5.2] In the accurate titrations, add the solution quickly to within about 1 cm³ of the rough titre, then add it drop by drop, swirling, until one drop gives a permanent colour change.
+[chem12-s1.5.3] Wash the inside walls of the flask with deionised water near the end point, so that all the reagent reacts.
+[chem12-s1.5.4] Repeat until two accurate titres agree to within 0.1 cm³, then average them, leaving out the rough titre.
+[chem12-s1.6.b] Hydrochloric acid is a strong acid and sodium hydroxide a strong base, meaning each ionises fully in water. This is the simplest titration, with a 1 : 1 mole ratio.
+[chem12-s1.6.0] Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), with a mole ratio of 1 : 1.
+[chem12-s1.6.1] Indicator: phenolphthalein, which changes from colourless to pink as NaOH is added from the burette, or methyl orange.
+[chem12-s1.6.2] Either indicator works because the pH (the scale of acidity) changes sharply over a wide range at the equivalence point.
+[chem12-s1.6.3] Sample data: 25.0 cm³ of NaOH needs a mean titre of 22.5 cm³ of 0.100 mol L⁻¹ HCl.
+[chem12-s1.6.4] Moles HCl = 0.100 × 0.0225 = 2.25 × 10⁻³ mol.
+[chem12-s1.6.5] Moles NaOH = 2.25 × 10⁻³ mol, because the mole ratio is 1 : 1.
+[chem12-s1.6.6] Concentration of NaOH = 2.25 × 10⁻³ mol ÷ 0.0250 L = 0.0900 mol L⁻¹.
+[chem12-s1.7.b] Sodium carbonate is the primary standard used to standardise hydrochloric acid. It is a weak base (one that ionises only partly in water), and the mole ratio is not 1 : 1, so the equation must be used in the calculation.
+[chem12-s1.7.0] Equation: Na₂CO₃(aq) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g), with a mole ratio of Na₂CO₃ : HCl of 1 : 2.
+[chem12-s1.7.1] Indicator: methyl orange, which is yellow in the sodium carbonate and turns orange-red at the end point as acid is added.
+[chem12-s1.7.2] Phenolphthalein is unsuitable because it changes colour in alkaline solution, before the end point.
+[chem12-s1.7.3] Sample data: 25.0 cm³ of 0.0500 mol L⁻¹ Na₂CO₃ needs 23.8 cm³ of HCl.
+[chem12-s1.7.4] Moles Na₂CO₃ = 0.0500 × 0.0250 = 1.25 × 10⁻³ mol.
+[chem12-s1.7.5] Moles HCl = 2 × 1.25 × 10⁻³ = 2.50 × 10⁻³ mol, because the mole ratio is 1 : 2.
+[chem12-s1.7.6] Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0238 L = 0.105 mol L⁻¹.
+[chem12-s1.7.7] Ammonia, a weak base, is titrated with hydrochloric acid in the same way, using methyl orange: NH₃(aq) + HCl(aq) → NH₄Cl(aq).
+[chem12-s1.8.b] The solutions used in these titrations can harm skin and eyes, so a few precautions apply every time.
+[chem12-s1.8.0] Wear goggles: sodium hydroxide is corrosive (it burns tissue), especially to the eyes, and hydrochloric acid is corrosive or irritant.
+[chem12-s1.8.1] Use a pipette filler, never the mouth, so that no solution is swallowed.
+[chem12-s1.8.2] Fill the burette while it is below eye level, for example by lowering it or removing it from the stand, so that you do not spill solution towards your face.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem11-s1: 1. Acids, bases and their reactions
+[chem11-s1.0.b] Acids show a common set of properties that can be observed in the laboratory and at home. These shared properties are how we decide whether a substance counts as an acid.
+[chem11-s1.0.0] Acids taste sour, but laboratory chemicals must never be tasted because many are corrosive or poisonous.
+[chem11-s1.0.1] Acids turn blue litmus (a dye that changes colour in acids and bases) red, and they have a pH below 7 (pH is a number that describes how acidic or basic a solution is).
+[chem11-s1.0.2] Acids react with reactive metals such as magnesium and zinc to give hydrogen gas, so bubbles form on the metal.
+[chem11-s1.0.3] Acids react with carbonates (compounds containing the CO₃²⁻ ion, such as chalk) to give carbon dioxide, seen as fizzing.
+[chem11-s1.0.4] Acids neutralise bases, which means they react with them so that both lose their acidic or basic character.
+[chem11-s1.0.5] Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits).
+[chem11-s1.1.b] Bases are the chemical opposites of acids. Their properties mirror those of acids, and some of them dissolve in water to form alkalis.
+[chem11-s1.1.0] Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.
+[chem11-s1.1.1] Bases turn red litmus blue and have a pH above 7.
+[chem11-s1.1.2] Bases neutralise acids, so an acid and a base each cancel out the other's properties.
+[chem11-s1.1.3] An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃), which is ammonia dissolved in water.
+[chem11-s1.1.4] Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.
+[chem11-s1.1.5] Concentrated alkalis (those with a lot of dissolved base in a small volume of water) are corrosive, meaning they damage skin and other materials: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners.
+[chem11-s1.2.b] You cannot tell whether a clear solution is acidic or basic by looking at it, so chemists add an indicator. An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.
+[chem11-s1.2.0] Litmus is red in acid and blue in base, so it is the simplest test for which kind of solution you have.
+[chem11-s1.2.1] Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.
+[chem11-s1.2.2] Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.
+[chem11-s1.2.3] Universal indicator is a mixture of indicators, so it gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.
+[chem11-s1.2.4] Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions.
+[chem11-s1.3.b] Common substances are classed as acids or bases according to the properties they show. For each one, the category is justified by a property you can observe or a substance it contains.
+[chem11-s1.3.0] Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.
+[chem11-s1.3.1] Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.
+[chem11-s1.3.2] Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.
+[chem11-s1.3.3] Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).
+[chem11-s1.3.4] Baking soda (sodium hydrogencarbonate) is a weak base.
+[chem11-s1.3.5] Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.
+[chem11-s1.3.6] Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid.
+[chem11-s1.4.b] Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties. This is useful whenever something is too acidic and needs to be corrected.
+[chem11-s1.4.0] Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.
+[chem11-s1.4.1] Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂. Here H⁺ stands for the acid in the soil.
+[chem11-s1.4.2] Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn, so a base is taken to remove it.
+[chem11-s1.4.3] Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.
+[chem11-s1.4.4] Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.
+[chem11-s1.4.5] Lime is added to acidic lakes to neutralise the acid, so the water becomes less acidic.
+[chem11-s1.4.6] Toothpaste neutralises plaque acid, and baking soda is a claimed remedy for a bee sting, which is said to be acidic.
+[chem11-s1.5.b] Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal. Knowing this lets you name the product of any acid reaction.
+[chem11-s1.5.0] A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion (NH₄⁺).
+[chem11-s1.5.1] Hydrochloric acid gives chlorides, e.g. NaCl, because the chloride ion Cl⁻ is what remains of the acid.
+[chem11-s1.5.2] Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.
+[chem11-s1.5.3] Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it (a fixed amount of substance) reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does.
+[chem11-s1.6.b] General word equation: acid + base → salt + water. A base here includes metal oxides and hydroxides, and ammonia.
+[chem11-s1.6.0] HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
+[chem11-s1.6.1] H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)
+[chem11-s1.6.2] With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.
+[chem11-s1.6.3] With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.
+[chem11-s1.6.4] Ionic equation (showing only the ions that react) for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem11-s1.6.5] Neutralisation is exothermic, so it releases heat.
+[chem11-s1.7.b] General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.
+[chem11-s1.7.0] Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.
+[chem11-s1.7.1] Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).
+[chem11-s1.7.2] Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series (the list of metals in order of reactivity).
+[chem11-s1.7.3] Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.
+[chem11-s1.8.b] General word equation: acid + carbonate → salt + water + carbon dioxide. Hydrogencarbonates (compounds containing the HCO₃⁻ ion) behave the same way.
+[chem11-s1.8.0] CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.
+[chem11-s1.8.1] Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.2] Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.3] Test for carbon dioxide: it turns limewater (a solution of calcium hydroxide) milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem11-s1.9.b] Use this method to write the equation for any reaction of an acid. It works because each type of reaction always gives the same pattern of products.
+[chem11-s1.9.0] Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.
+[chem11-s1.9.1] Step 2: Name the salt from the metal (or ammonium) ion and the acid.
+[chem11-s1.9.2] Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.
+[chem11-s1.9.3] Step 4: Balance the equation, so that each element has the same number of atoms on both sides.
+[chem11-s1.9.4] Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.
+[chem11-s1.9.5] Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.
+
+CANDIDATES chem11-s2: 2. Acid–base theories and strength
+[chem11-s2.0.b] The first successful definition of acids and bases came from Svante Arrhenius in 1887, in his theory of electrolytic dissociation. He defined them by the ions they produce when dissolved in water.
+[chem11-s2.0.0] An Arrhenius acid is a substance that dissociates (splits into ions) in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.0.1] An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.0.2] Neutralisation (an acid and a base cancelling each other's properties) is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O.
+[chem11-s2.1.b] The Arrhenius theory works well for simple cases like HCl and NaOH, but it breaks down as soon as a substance or reaction does not fit its water-and-ions picture. These gaps are why a wider theory was needed.
+[chem11-s2.1.0] It applies only to aqueous solutions (substances dissolved in water), so it says nothing about acids and bases in other solvents.
+[chem11-s2.1.1] It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate, because it only allows a base to produce OH⁻ itself.
+[chem11-s2.1.2] It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem11-s2.1.3] It ignores the role of water: a bare hydrogen ion (a proton) does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺.
+[chem11-s2.2.b] Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton, so it no longer depends on water or on OH⁻.
+[chem11-s2.2.0] A proton is the same particle as a hydrogen ion, H⁺ (a hydrogen atom that has lost its electron, leaving just a proton).
+[chem11-s2.2.1] A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.
+[chem11-s2.2.2] An acid–base reaction is the transfer of a proton from an acid to a base.
+[chem11-s2.2.3] HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.
+[chem11-s2.2.4] NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid. The ⇌ arrow means the reaction is reversible.
+[chem11-s2.2.5] Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric.
+[chem11-s2.3.b] A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions. Brønsted–Lowry does this by fixing each of the Arrhenius limitations.
+[chem11-s2.3.0] It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor, so it counts as a base.
+[chem11-s2.3.1] It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.
+[chem11-s2.3.2] It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.
+[chem11-s2.3.3] It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.
+[chem11-s2.3.4] Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.
+[chem11-s2.3.5] Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.
+[chem11-s2.3.6] Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent (the liquid doing the dissolving) and in the absence of a solvent.
+[chem11-s2.4.b] Because a Brønsted–Lowry reaction passes a proton along, the acid and base each turn into a new species that can pass the proton back. These linked species are called conjugates.
+[chem11-s2.4.0] When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.
+[chem11-s2.4.1] When a base accepts a proton, the species formed is the conjugate acid of that base.
+[chem11-s2.4.2] A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.
+[chem11-s2.4.3] H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.
+[chem11-s2.4.4] Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁.
+[chem11-s2.5.b] To label the acids, bases and conjugate pairs in any equation, follow the movement of the proton. These four steps work for every equation.
+[chem11-s2.5.0] 1. For each reactant, check whether it loses or gains a proton in going to the products.
+[chem11-s2.5.1] 2. The reactant that loses a proton is the acid; the reactant that gains a proton is the base.
+[chem11-s2.5.2] 3. On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.
+[chem11-s2.5.3] 4. In a reversible reaction (one that can run in both directions, shown by ⇌), the products act as an acid and a base in the reverse reaction.
+[chem11-s2.6.b] Each equation below is labelled using the four steps: find which reactant loses a proton, which gains one, then match each to its product. Notice that the same species can be an acid in one equation and a base in another.
+[chem11-s2.6.0] HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.1] NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.
+[chem11-s2.6.2] CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.3] HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid because it loses a proton; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.4] HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base because it gains a proton; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.
+[chem11-s2.6.5] NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻.
+[chem11-s2.7.b] An acid and its conjugate base are linked like a see-saw: the stronger one is, the weaker the other. Some species can sit on either side, depending on what they react with.
+[chem11-s2.7.0] The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.
+[chem11-s2.7.1] A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.
+[chem11-s2.7.2] Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the worked examples above.
+[chem11-s2.8.b] Strength describes how far an acid splits into ions (dissociates, or ionises) when it dissolves in water. This decides how many H⁺ ions it releases.
+[chem11-s2.8.0] A strong acid is completely dissociated (ionised) into ions in water, shown with a single arrow: HCl(aq) → H⁺(aq) + Cl⁻(aq).
+[chem11-s2.8.1] Strong acids include hydrochloric acid (HCl), nitric acid (HNO₃) and sulfuric acid (H₂SO₄).
+[chem11-s2.8.2] A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium (a balance between the forward and reverse reactions) is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).
+[chem11-s2.8.3] Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids (acids built on carbon chains).
+[chem11-s2.9.b] Bases have strength in the same way as acids: it depends on how fully they produce hydroxide ions in water.
+[chem11-s2.9.0] A strong base is completely dissociated in water, e.g. sodium hydroxide and potassium hydroxide: NaOH(aq) → Na⁺(aq) + OH⁻(aq).
+[chem11-s2.9.1] A weak base reacts only slightly with water to produce hydroxide ions, e.g. ammonia: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem11-s2.10.b] Concentration describes how much acid or base is present; strength describes how far it dissociates. The two are separate properties.
+[chem11-s2.10.0] Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹ (moles per litre; a mole is a fixed counting amount of particles).
+[chem11-s2.10.1] A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl.
+[chem11-s2.10.2] A dilute strong acid, e.g. 0.01 M HCl, is still fully dissociated.
+[chem11-s2.10.3] A concentrated weak acid, e.g. glacial ethanoic acid, is still only slightly dissociated.
+[chem11-s2.11.b] Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration. Any difference in behaviour must then come from strength, not concentration.
+[chem11-s2.11.0] pH (a scale measuring how acidic a solution is; lower means more H⁺): 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.
+[chem11-s2.11.1] Ethanoic acid has an acid dissociation constant (Ka) of 1.8 × 10⁻⁵, a small value showing that it is only slightly dissociated.
+[chem11-s2.11.2] Rate of reaction: magnesium ribbon fizzes much faster in 0.1 M hydrochloric acid than in 0.1 M ethanoic acid, because hydrogen ions are present at a higher concentration.
+[chem11-s2.11.3] Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions to carry the current.
+[chem11-s2.11.4] Equal volumes of the two acids at the same concentration neutralise the same amount of sodium hydroxide and give the same total volume of hydrogen with excess magnesium, because the weak acid's equilibrium shifts to release more H⁺ as H⁺ is used up.
+[chem11-s2.11.5] Safety: concentrated acids and alkalis are corrosive, so wear goggles and gloves; dilute an acid by adding it to water.

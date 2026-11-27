@@ -1,0 +1,410 @@
+MODE: cost and links
+TARGET chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem2-s1: 1. Atomic structure: the nuclear model
+[chem2-s1.0.b] A model of the atom is a picture scientists use to explain the evidence they have. These two early models are background to the nuclear model: each was accepted in its time and then replaced.
+[chem2-s1.0.0] Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms, which means that atoms cannot be split into anything smaller.
+[chem2-s1.0.1] Dalton's atoms of the same element are identical, atoms of different elements differ in mass, and atoms combine in simple whole-number ratios to form compounds.
+[chem2-s1.0.2] Dalton's atoms are not created or destroyed in chemical reactions, so a reaction only rearranges the atoms that were already there.
+[chem2-s1.0.3] Thomson discovered the electron in 1897 using cathode rays (beams of particles given off in a glass tube from which the air has been removed). The electron is a negatively charged particle much lighter than an atom and present in all atoms, so atoms are divisible.
+[chem2-s1.0.4] Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, like plums in a pudding, so the atom is neutral overall because the charges cancel.
+[chem2-s1.1.b] The nuclear model came from a scattering experiment, in which a beam of particles is fired at a target and the paths of the deflected particles are studied. The results could not be explained by the plum pudding model.
+[chem2-s1.1.0] Gold-foil experiment (1909): Hans Geiger and Ernest Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil.
+[chem2-s1.1.1] A fluorescent screen (a screen that gives off a flash of light where a particle hits it) was placed around the foil and showed where the particles went after they hit the foil.
+[chem2-s1.1.2] Observation: most particles passed straight through the foil, so most of the atom is empty space.
+[chem2-s1.1.3] Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them, because like charges repel.
+[chem2-s1.1.4] Observation: a very few particles bounced straight back, so this positive region is very small and very dense, containing almost all of the atom's mass.
+[chem2-s1.1.5] This positive region is the nucleus. Rutherford published the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.
+[chem2-s1.1.6] Later work found that the nucleus contains protons (positively charged particles) and neutrons (particles with no charge): Rutherford identified the proton, and Chadwick discovered the neutron in 1932.
+[chem2-s1.1.7] Diagram: the gold-foil set-up, labelled with the alpha particle source, the beam, the gold foil and the fluorescent screen, and the paths of particles past the nuclei: straight through, deflected, and bounced back.
+[chem2-s1.2.b] Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies. His model keeps the nucleus but gives the electrons a definite arrangement around it.
+[chem2-s1.2.0] Electrons move around the nucleus in fixed circular orbits called energy levels (shells), each with a fixed energy.
+[chem2-s1.2.1] An electron in a given energy level does not lose energy, so it stays in that level rather than spiralling inwards.
+[chem2-s1.2.2] An electron can move to a higher energy level by absorbing a definite amount of energy.
+[chem2-s1.2.3] When the electron falls back to a lower level, it emits light of a definite energy. This explains the lines in emission spectra (the separate coloured lines an element gives out when heated).
+[chem2-s1.2.4] Energy levels are numbered n = 1, 2, 3…, with n = 1 closest to the nucleus and lowest in energy.
+[chem2-s1.2.5] The energy levels hold up to 2, 8, 18… electrons.
+[chem2-s1.3.b] The orbital model is the current model. It describes where electrons are likely to be found, not the path they follow.
+[chem2-s1.3.0] Electrons do not follow fixed paths; they occupy orbitals, which are regions of space around the nucleus where there is a high probability of finding an electron.
+[chem2-s1.3.1] Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons. There is more on this in the later subsection on the orbital model.
+[chem2-s1.3.2] The model developed from evidence that electrons behave as waves as well as particles, which a fixed circular path cannot describe.
+[chem2-s1.3.3] It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time, which is why only probabilities can be given.
+[chem2-s1.4.b] Each model rested on an assumption, and each had a limitation: evidence it could not explain. The first two models fail because the atom has parts and a structure they did not allow for.
+[chem2-s1.4.0] Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.
+[chem2-s1.4.1] Dalton: limited because subatomic particles (particles smaller than the atom) exist, and because isotopes show that atoms of the same element can differ in mass.
+[chem2-s1.4.2] Plum pudding model: assumed that positive charge is spread through the atom.
+[chem2-s1.4.3] Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment, which need a small, dense positive centre.
+[chem2-s1.5.b] The nuclear model fixed the problem of the positive charge but said little about the electrons.
+[chem2-s1.5.0] Nuclear model: assumed that electrons orbit the nucleus like planets.
+[chem2-s1.5.1] Nuclear model: limited because it does not say how electrons are arranged in the space around the nucleus.
+[chem2-s1.5.2] Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus, so the atom would not be stable.
+[chem2-s1.5.3] Nuclear model: limited because it cannot explain line spectra (the separate lines of light an element emits).
+[chem2-s1.6.b] The Bohr model fixed the nuclear model's problems for hydrogen but not for other atoms. The orbital model is the best fit for the evidence, but it has its own limitation.
+[chem2-s1.6.0] Bohr model: assumed that electrons move in fixed circular orbits with fixed energies.
+[chem2-s1.6.1] Bohr model: explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron.
+[chem2-s1.6.2] Bohr model: does not account for sublevels or for the wave nature of electrons.
+[chem2-s1.6.3] Bohr model: treats the electron's exact path as known, but the exact position and path of an electron cannot be known at the same time.
+[chem2-s1.6.4] Orbital model: the best fit for the evidence available, but its limitation is that it is mathematical and abstract.
+[chem2-s1.6.5] Orbital model: gives probabilities of where an electron is found, not exact positions, and is hard to picture.
+[chem2-s1.7.b] Scientists judge a model by how well it explains the evidence. Replaced models are not useless, because they still work for the things they explain well.
+[chem2-s1.7.0] Each model was accepted because it explained the evidence of its time, and was replaced or refined when new evidence did not fit.
+[chem2-s1.7.1] The Bohr model is still enough to explain flame colours and simple line spectra.
+[chem2-s1.7.2] The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.
+[chem2-s1.7.3] The nuclear model still explains why atoms are mostly empty space.
+[chem2-s1.8.b] An atom is made of protons, neutrons and electrons. Their masses and charges are given relative to the proton (that is, as comparisons with it), because the real values are very small numbers.
+[chem2-s1.8.0] Proton: relative mass 1, relative charge +1, found in the nucleus.
+[chem2-s1.8.1] Neutron: relative mass 1, relative charge 0 (no charge), found in the nucleus.
+[chem2-s1.8.2] Electron: relative mass about 1/1840 of a proton, so negligible though not zero; relative charge −1; found outside the nucleus, in energy levels (orbitals).
+[chem2-s1.9.b] The relative values hide the real sizes. The actual masses show how tiny the particles are and how much lighter the electron is.
+[chem2-s1.9.0] Actual masses: proton 1.6726 × 10⁻²⁷ kg; neutron 1.6749 × 10⁻²⁷ kg; electron 9.109 × 10⁻³¹ kg.
+[chem2-s1.9.1] The proton and neutron have almost the same mass, which is why each is given a relative mass of 1.
+[chem2-s1.9.2] The charge on a proton is equal in size and opposite in sign to the charge on an electron, so equal numbers of each cancel out.
+[chem2-s1.10.b] The particles are not spread evenly. The nucleus is tiny, yet it holds almost all the mass, and the rest of the atom is mostly empty.
+[chem2-s1.10.0] Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass because electrons are so light.
+[chem2-s1.10.1] The nucleus is tiny compared with the atom: an atom is about 10⁵ (100 000) times the diameter of its nucleus, so most of the atom is empty space.
+[chem2-s1.10.2] A neutral atom has equal numbers of protons and electrons, so the positive and negative charges cancel.
+[chem2-s1.10.3] The number of protons identifies the element: every atom with 6 protons, for example, is carbon.
+[chem2-s1.11.b] Exams ask you to state the numbers of protons, neutrons and electrons in an atom or ion. An ion is an atom that has lost or gained electrons, so it carries a charge. The number of protons never changes in an ion.
+[chem2-s1.11.0] Number of protons = atomic number (the number of protons in the nucleus).
+[chem2-s1.11.1] Number of neutrons = mass number − atomic number, where the mass number is the total of protons and neutrons.
+[chem2-s1.11.2] In a neutral atom, number of electrons = number of protons.
+[chem2-s1.11.3] A positive ion has lost electrons, so number of electrons = number of protons − charge, e.g. Na⁺ has 11 protons and 10 electrons.
+[chem2-s1.11.4] A negative ion has gained electrons, so number of electrons = number of protons + charge, e.g. Cl⁻ (chlorine-35) has 17 protons, 18 neutrons and 18 electrons; O²⁻ has 8 protons and 10 electrons.
+[chem2-s1.12.b] The three particles were found one at a time. The order of discovery follows how easy each is to detect.
+[chem2-s1.12.0] The electron was discovered by J. J. Thomson in 1897.
+[chem2-s1.12.1] The proton was identified by Rutherford about 1917–1919.
+[chem2-s1.12.2] The neutron was discovered by Chadwick in 1932.
+[chem2-s1.12.3] The neutron was found last because it has no charge, which makes it hard to detect.
+[chem2-s1.13.b] Two whole numbers describe the nucleus of an atom. Together they give the number of each particle and are written beside the element's symbol.
+[chem2-s1.13.0] Atomic number (Z): the number of protons in the nucleus of an atom of an element.
+[chem2-s1.13.1] Each element has its own atomic number, and the periodic table is arranged in order of atomic number.
+[chem2-s1.13.2] Mass number (A): the total number of protons and neutrons in the nucleus of an atom.
+[chem2-s1.13.3] Number of neutrons = mass number − atomic number (A − Z).
+[chem2-s1.13.4] Nuclear notation writes the mass number at the top left and the atomic number at the bottom left of the element symbol, e.g. ²³₁₁Na has 11 protons, 12 neutrons and (as an atom) 11 electrons.
+[chem2-s1.14.b] Atoms of one element are not all identical. They can have different numbers of neutrons, and such atoms are called isotopes.
+[chem2-s1.14.0] Isotopes have the same atomic number, so the same number of protons, but different mass numbers because they have different numbers of neutrons.
+[chem2-s1.14.1] Hydrogen-1 (¹H) has no neutrons; hydrogen-2 (²H), called deuterium, has one neutron; hydrogen-3 (³H), called tritium, has two.
+[chem2-s1.14.2] Chlorine-35 (³⁵Cl) has 18 neutrons and chlorine-37 (³⁷Cl) has 20 neutrons.
+[chem2-s1.14.3] Carbon-12, carbon-13 and carbon-14 are isotopes of carbon.
+[chem2-s1.14.4] Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement, and electrons control how an atom reacts.
+[chem2-s1.14.5] Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion (how fast a gas spreads out).
+[chem2-s1.14.6] Isotopes are written by name and mass number, e.g. chlorine-35, or in nuclear notation, e.g. ³⁵₁₇Cl.
+[chem2-s1.15.b] Because an element's isotopes have different masses, one atom's mass number does not describe the element as a whole. Relative atomic mass is an average over its isotopes.
+[chem2-s1.15.0] Relative atomic mass (Ar): the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12.
+[chem2-s1.15.1] Carbon-12 is the standard: an atom of carbon-12 is defined as having a mass of exactly 12 units.
+[chem2-s1.15.2] Ar has no units, because it compares masses.
+[chem2-s1.15.3] The mass number of a single isotope is always a whole number; Ar is a weighted average of the isotopes present, so it is usually not whole.
+[chem2-s1.15.4] Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables). There is more on calculating Ar from isotopic abundance in the later subsection on the mole.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem4-s1: 1. The periodic table: arrangement and use
+[chem4-s1.0.b] By the mid-1800s over 60 elements were known, and chemists looked for relationships among their properties. Two early attempts at a pattern, Döbereiner's triads and Newlands' octaves, led towards the periodic table.
+[chem4-s1.0.0] An element is a substance that cannot be split into simpler substances by chemical means, so each of the 60-plus known elements was a basic building block that chemists tried to sort by its properties.
+[chem4-s1.0.1] Johann Döbereiner (1829) noticed triads: groups of three elements with similar properties in which the atomic weight (the old term for relative atomic mass, the mass of an atom compared with other atoms) of the middle element is about the average of the other two.
+[chem4-s1.0.2] Döbereiner's triads included lithium, sodium and potassium; calcium, strontium and barium; and chlorine, bromine and iodine. In each, the three elements behave alike and the middle one sits between the others in atomic weight.
+[chem4-s1.0.3] John Newlands (1864–1865) proposed the law of octaves: when the elements were arranged by atomic weight, every eighth element had properties similar to the first, like the eighth note repeating in a musical scale.
+[chem4-s1.0.4] Newlands' law worked for the lighter elements but broke down for the heavier ones, and he left no gaps in his table, so there was no room for elements that had not yet been discovered.
+[chem4-s1.1.b] Dmitri Mendeleev produced a table that chemists came to accept as correct. His success came from trusting a pattern enough to leave gaps and make predictions that were later confirmed.
+[chem4-s1.1.0] Dmitri Mendeleev (1869) arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group.
+[chem4-s1.1.1] Mendeleev's periodic law: the properties of the elements vary periodically with their atomic weights, which means similar properties recur at regular intervals as atomic weight increases.
+[chem4-s1.1.2] He left gaps for elements not yet discovered and predicted their properties, rather than forcing the known elements to fit with no spaces as Newlands had done.
+[chem4-s1.1.3] His predicted elements eka-aluminium and eka-silicon were matched by gallium (discovered 1875) and germanium (discovered 1886); scandium (discovered 1879) matched eka-boron.
+[chem4-s1.1.4] The discovery of elements with the predicted properties convinced chemists that the table was correct, because a prediction that comes true is strong evidence for the pattern behind it.
+[chem4-s1.1.5] Where atomic weight order placed an element in the wrong group, he reversed the order of the pair: tellurium (relative atomic mass 127.6) is placed before iodine (relative atomic mass 126.9) so that iodine sits with the other halogens (the reactive non-metals chlorine, bromine and so on).
+[chem4-s1.1.6] The table organised all the known elements, showed relationships between them, made predictions that were confirmed, and became the basis of the modern table.
+[chem4-s1.2.b] Mendeleev's table was later improved by new discoveries. These explained why his pattern worked and removed the need for his reversed pairs.
+[chem4-s1.2.0] The noble gases helium, neon, argon, krypton and xenon were discovered in the 1890s (William Ramsay and others) and were added as a new group, now group 18.
+[chem4-s1.2.1] Henry Moseley (1913) showed by experiment that each element has a whole-number atomic number, equal to the number of protons (positively charged particles) in its nucleus (the atom's centre).
+[chem4-s1.2.2] The modern periodic table is arranged in order of increasing atomic number, so tellurium (atomic number 52) naturally comes before iodine (atomic number 53) and Mendeleev's reversal is unnecessary.
+[chem4-s1.2.3] Modern periodic law: the properties of the elements are a periodic function of their atomic numbers, meaning the properties repeat in a regular pattern as atomic number increases.
+[chem4-s1.2.4] The repeating pattern is explained by electron arrangement: elements in the same group have the same outer-electron arrangement (the same number of electrons in the outermost energy level), so they behave alike.
+[chem4-s1.3.b] The modern table keeps Mendeleev's idea of groups of similar elements but differs from his in five ways.
+[chem4-s1.3.0] Order: Mendeleev ordered the elements by atomic weight; the modern table orders them by atomic number.
+[chem4-s1.3.1] Gaps: Mendeleev's table had gaps for undiscovered elements; the modern table has none, because all the elements up to 118 are now known.
+[chem4-s1.3.2] Noble gases: absent from Mendeleev's table, which was drawn up before they were discovered; present in the modern table as group 18.
+[chem4-s1.3.3] Number of elements: Mendeleev's table contained fewer elements, while the modern table contains 118.
+[chem4-s1.3.4] Blocks: Mendeleev's table had no separate blocks of elements (sets of columns grouped by the type of sublevel being filled); the modern table is divided into blocks.
+[chem4-s1.4.b] The table is arranged so that elements with the same outer electrons fall in the same column. This is why the elements in a column behave alike.
+[chem4-s1.4.0] A group is a vertical column of elements; using IUPAC numbering (the internationally agreed system) there are 18 groups, numbered 1 to 18.
+[chem4-s1.4.1] Elements in the same group have the same number of electrons in their outer energy level (the outermost shell of electrons), so they have similar chemical properties.
+[chem4-s1.4.2] For groups 1 and 2, the group number equals the number of outer electrons, so group 2 elements have 2 outer electrons.
+[chem4-s1.4.3] For groups 13 to 18, the number of outer electrons is the group number minus 10, so group 17 has 7 outer electrons; helium, in group 18, is the exception with 2 outer electrons.
+[chem4-s1.4.4] Group 1 elements are the alkali metals and group 2 elements are the alkaline earth metals.
+[chem4-s1.4.5] Group 17 elements are the halogens and group 18 elements are the noble gases.
+[chem4-s1.5.b] While a group is a column of similar elements, a period is a row, and its number tells you how many energy levels the atoms use.
+[chem4-s1.5.0] A period is a horizontal row of elements; there are 7 periods.
+[chem4-s1.5.1] The period number equals the number of occupied main energy levels (shells holding electrons); sodium, with electron arrangement 2,8,1, has three occupied levels, so it is in period 3.
+[chem4-s1.5.2] Across a period, one proton and one electron are added at each step, and the elements change from metals on the left to non-metals on the right.
+[chem4-s1.5.3] Period 1 has 2 elements (hydrogen and helium); periods 2 and 3 have 8 each; period 4 has 18.
+[chem4-s1.6.b] The elements fall into three types according to where they sit on the table. A staircase line marks the boundary between metals and non-metals.
+[chem4-s1.6.0] About three-quarters of the elements are metals, found on the left and in the centre of the table.
+[chem4-s1.6.1] Non-metals are found on the right of the table; hydrogen is also a non-metal, even though it sits at the top left.
+[chem4-s1.6.2] A staircase line running from boron to astatine separates metals from non-metals.
+[chem4-s1.6.3] Metalloids (semi-metals) lie next to the staircase line, including boron, silicon, germanium, arsenic, antimony and tellurium; they have some properties of metals and some of non-metals.
+[chem4-s1.6.4] Metals are shiny, good conductors of heat and electricity, malleable (can be hammered into shape) and ductile (can be drawn into wires), and form positive ions (charged atoms).
+[chem4-s1.6.5] Non-metals are dull, poor conductors of electricity (graphite is an exception), brittle as solids, and often form negative ions or share electrons.
+[chem4-s1.7.b] A block is the set of elements whose highest-energy electron enters the same type of sublevel (a subdivision of an energy level, labelled s, p, d or f). The blocks explain the overall shape of the table.
+[chem4-s1.7.0] The s-block is groups 1 and 2, together with helium; its highest-energy electron is in an s sublevel.
+[chem4-s1.7.1] The p-block is groups 13 to 18, except helium; its highest-energy electron is in a p sublevel.
+[chem4-s1.7.2] The d-block is groups 3 to 12, in the middle of periods 4 to 7; its electrons fill a d sublevel.
+[chem4-s1.7.3] The f-block is the lanthanides and actinides, usually shown below the main table; its electrons fill an f sublevel.
+[chem4-s1.7.4] The shape of the table follows from sublevel capacities: 2 columns for s, 6 for p, 10 for d and 14 for f, because an s sublevel holds 2 electrons, p holds 6, d holds 10 and f holds 14. This is why the d-block is ten elements wide.
+[chem4-s1.7.5] Diagram: an outline of the periodic table with the s, p, d and f blocks shaded and labelled, and group and period numbers marked.
+[chem4-s1.8.b] Each element's box and position give information about its atoms and its behaviour, so the table works as a quick reference.
+[chem4-s1.8.0] Each box gives the symbol, atomic number and relative atomic mass of an element.
+[chem4-s1.8.1] The atomic number gives the number of protons and, in a neutral atom, the number of electrons, because the positive and negative charges must balance.
+[chem4-s1.8.2] The group gives the element's outer-electron arrangement.
+[chem4-s1.8.3] The period gives the number of occupied energy levels.
+[chem4-s1.8.4] The element's position relative to the staircase line shows whether it is a metal, non-metal or metalloid.
+[chem4-s1.9.b] Elements in the same group share an outer-electron arrangement, so they behave in similar ways. This lets you predict reactions and ion charges from the group alone.
+[chem4-s1.9.0] Reactions can be predicted from a group: sodium reacts with water to give sodium hydroxide and hydrogen, so potassium, in the same group, will react with water in the same way, giving potassium hydroxide and hydrogen.
+[chem4-s1.9.1] Group 1 elements form 1⁺ ions, group 2 elements form 2⁺ ions and group 13 elements form 3⁺ ions, because each loses its outer electrons (1, 2 and 3 respectively).
+[chem4-s1.9.2] Group 15 elements form 3⁻ ions, group 16 elements form 2⁻ ions and group 17 elements form 1⁻ ions, because each gains the electrons needed to fill its outer level.
+[chem4-s1.9.3] Noble gases (group 18) have full outer energy levels and are very unreactive, so they have no tendency to form ions.
+[chem4-s1.10.b] The formula of a compound follows from the charges of its ions, which must balance to give no overall charge. The group of each element gives you its ion's charge.
+[chem4-s1.10.0] Magnesium (group 2) forms Mg²⁺ and chlorine (group 17) forms Cl⁻, so two chloride ions balance one magnesium ion and the formula is MgCl₂.
+[chem4-s1.10.1] Aluminium (group 13) forms Al³⁺ and oxygen (group 16) forms O²⁻, so two aluminium ions balance three oxide ions and the formula is Al₂O₃.
+[chem4-s1.11.b] Trends in the table allow properties of unfamiliar elements to be estimated from their neighbours. The trends themselves are taught in full elsewhere.
+[chem4-s1.11.0] Properties change gradually and predictably down a group and across a period, so an unknown property can be estimated from neighbouring elements.
+[chem4-s1.11.1] Astatine (At, atomic number 85) lies at the bottom of group 17; from the trend in the halogens it is predicted to be a dark solid that is less reactive than iodine.
+[chem4-s1.11.2] Mendeleev used the same approach to predict the properties of undiscovered elements.
+[chem4-s1.11.3] Every trend is explained by electron arrangement: the number of outer electrons, the number of occupied energy levels and the nuclear charge (the positive charge of the nucleus, equal to the number of protons).

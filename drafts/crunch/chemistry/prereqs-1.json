@@ -1,0 +1,180 @@
+{
+"chem1-s1": [],
+"chem1-s2": [],
+"chem1-s3": [],
+"chem1-s4": [],
+"chem1-s5": [
+{"needs": "chem1-s3", "strength": "helpful", "why": "evaluates investigations using fairness, validity, reliability terms", "confidence": "high"},
+{"needs": "chem1-s4", "strength": "helpful", "why": "reports present data, graphs and errors", "confidence": "high"}
+],
+"chem1-s6": [
+{"needs": "chem1-s2", "strength": "helpful", "why": "evaluating sources and evidence applied to media claims", "confidence": "high"}
+],
+"chem1-s7": [
+{"needs": "chem1-s1", "strength": "essential", "why": "uses what a model is and its limitations", "confidence": "high"},
+{"needs": "chem1-s3", "strength": "helpful", "why": "investigation design: variables, hypotheses, safety", "confidence": "high"},
+{"needs": "chem1-s5", "strength": "helpful", "why": "report structure and communicating findings", "confidence": "high"},
+{"needs": "chem9-s1", "strength": "helpful", "why": "relating observations to particles", "confidence": "low"},
+{"needs": "chem3-s1", "strength": "helpful", "why": "flame colour explained by electrons", "confidence": "low"}
+],
+"chem10-s1": [
+{"needs": "chem9-s1", "strength": "helpful", "why": "explaining change with the particle model", "confidence": "low"},
+{"needs": "chem2-s1", "strength": "helpful", "why": "atoms rearranged, not created or destroyed", "confidence": "low"}
+],
+"chem10-s2": [
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass for empirical formulae and mole ratios", "confidence": "high"},
+{"needs": "chem10-s1", "strength": "helpful", "why": "balancing rests on conservation of mass", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "ionic formulae and ions for ionic equations", "confidence": "high"}
+],
+"chem11-s1": [
+{"needs": "chem10-s2", "strength": "helpful", "why": "writing and balancing neutralisation equations", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "ionic formulae of salts", "confidence": "low"}
+],
+"chem11-s2": [
+{"needs": "chem11-s1", "strength": "essential", "why": "properties of acids and bases being explained", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "ionisation of covalent molecules, ions", "confidence": "low"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration and dilution terms", "confidence": "high"},
+{"needs": "chem6-s1", "strength": "helpful", "why": "polar bonds explain acid ionisation in water", "confidence": "low"}
+],
+"chem12-s1": [
+{"needs": "chem8-s2", "strength": "essential", "why": "primary standards, standard solutions, concentration", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass in standardising", "confidence": "high"},
+{"needs": "chem11-s1", "strength": "essential", "why": "neutralisation reaction and indicators", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "helpful", "why": "balanced equations and mole ratios", "confidence": "high"},
+{"needs": "chem11-s2", "strength": "helpful", "why": "strong versus weak acids and bases", "confidence": "high"}
+],
+"chem12-s2": [
+{"needs": "chem12-s1", "strength": "essential", "why": "titration technique and apparatus", "confidence": "high"},
+{"needs": "chem11-s2", "strength": "essential", "why": "strong and weak acids and bases shape curves", "confidence": "high"},
+{"needs": "chem19-s1", "strength": "essential", "why": "pH values plotted on titration curves", "confidence": "high"},
+{"needs": "chem19-s2", "strength": "helpful", "why": "indicators as weak acids use Ka", "confidence": "high"},
+{"needs": "chem18-s1", "strength": "helpful", "why": "indicator equilibrium shifts colour", "confidence": "low"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration and dilution in vinegar calculation", "confidence": "high"}
+],
+"chem13-s1": [
+{"needs": "chem12-s1", "strength": "essential", "why": "titration method and standard solutions", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass in titration sums", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "essential", "why": "concentration units and dilution factors", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "essential", "why": "mole ratios from balanced equations", "confidence": "high"},
+{"needs": "chem12-s2", "strength": "helpful", "why": "vinegar and indicator choice context", "confidence": "low"}
+],
+"chem14-s1": [
+{"needs": "chem2-s1", "strength": "essential", "why": "electrons, ions and charge in electron transfer", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "ions, covalent bonds, valency for oxidation numbers", "confidence": "high"},
+{"needs": "chem4-s1", "strength": "helpful", "why": "groups and element behaviour for oxidation number rules", "confidence": "low"}
+],
+"chem14-s2": [
+{"needs": "chem14-s1", "strength": "essential", "why": "oxidation numbers and redox agents", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "helpful", "why": "balancing equations", "confidence": "high"},
+{"needs": "chem7-s1", "strength": "helpful", "why": "reactivity and halogen displacement", "confidence": "low"}
+],
+"chem15-s1": [
+{"needs": "chem12-s1", "strength": "essential", "why": "titration technique and primary standards", "confidence": "high"},
+{"needs": "chem14-s1", "strength": "essential", "why": "oxidising and reducing agents, redox", "confidence": "high"},
+{"needs": "chem14-s2", "strength": "helpful", "why": "balanced redox equations give titration ratios", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass in calculations", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "essential", "why": "concentration and standard solutions", "confidence": "high"}
+],
+"chem16-s1": [
+{"needs": "chem15-s1", "strength": "essential", "why": "redox titration reagents and procedures", "confidence": "high"},
+{"needs": "chem14-s2", "strength": "helpful", "why": "redox equations for mole ratios", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "essential", "why": "concentration and unit conversions", "confidence": "high"},
+{"needs": "chem13-s1", "strength": "helpful", "why": "same titration calculation method", "confidence": "high"}
+],
+"chem17-s1": [
+{"needs": "chem9-s1", "strength": "essential", "why": "kinetic theory and particle motion for collisions", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration of solutions", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "ionic versus covalent compounds in reaction speed", "confidence": "low"},
+{"needs": "chem9-s3", "strength": "helpful", "why": "gas pressure and temperature effects", "confidence": "low"}
+],
+"chem17-s2": [
+{"needs": "chem17-s1", "strength": "essential", "why": "factors affecting rate and collision theory", "confidence": "high"},
+{"needs": "chem1-s3", "strength": "helpful", "why": "controlling variables, fair tests", "confidence": "high"},
+{"needs": "chem1-s4", "strength": "helpful", "why": "graphs and data analysis", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration and dilution of solutions", "confidence": "high"}
+],
+"chem17-s3": [
+{"needs": "chem17-s1", "strength": "essential", "why": "activation energy, collisions and catalysts", "confidence": "high"},
+{"needs": "chem21-s1", "strength": "essential", "why": "enthalpy change and exothermic/endothermic profiles", "confidence": "high"},
+{"needs": "chem17-s2", "strength": "helpful", "why": "hydrogen peroxide catalyst investigation context", "confidence": "low"}
+],
+"chem18-s1": [
+{"needs": "chem8-s2", "strength": "essential", "why": "concentration in mol per litre for Kc", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "essential", "why": "balanced equation coefficients become powers in Kc", "confidence": "high"},
+{"needs": "chem17-s1", "strength": "helpful", "why": "equal forward and reverse rates", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "helpful", "why": "moles in equilibrium amounts", "confidence": "high"}
+],
+"chem18-s2": [
+{"needs": "chem18-s1", "strength": "essential", "why": "equilibrium and Kc being disturbed", "confidence": "high"},
+{"needs": "chem21-s1", "strength": "essential", "why": "exothermic/endothermic direction for temperature effects", "confidence": "high"},
+{"needs": "chem17-s1", "strength": "helpful", "why": "rate effects of temperature, pressure, catalyst", "confidence": "high"},
+{"needs": "chem9-s3", "strength": "helpful", "why": "gas pressure and volume", "confidence": "low"},
+{"needs": "chem17-s3", "strength": "helpful", "why": "catalysts in Haber and Contact processes", "confidence": "low"}
+],
+"chem19-s1": [
+{"needs": "chem11-s2", "strength": "essential", "why": "acids, bases and H+ ions", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "essential", "why": "concentration in mol per litre for pH", "confidence": "high"},
+{"needs": "chem18-s1", "strength": "essential", "why": "Kw is an equilibrium constant", "confidence": "high"},
+{"needs": "chem18-s2", "strength": "helpful", "why": "temperature shifts equilibrium, changes Kw", "confidence": "high"}
+],
+"chem19-s2": [
+{"needs": "chem19-s1", "strength": "essential", "why": "pH, Kw and H+ concentration", "confidence": "high"},
+{"needs": "chem18-s1", "strength": "essential", "why": "Ka and Kb are equilibrium constants", "confidence": "high"},
+{"needs": "chem11-s2", "strength": "essential", "why": "strong and weak acids, conjugate pairs", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "helpful", "why": "mass to moles for strong acid concentration", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration and dilution", "confidence": "high"}
+],
+"chem2-s1": [
+{"needs": "chem1-s1", "strength": "helpful", "why": "what a model is, limitations of models", "confidence": "high"}
+],
+"chem20-s1": [
+{"needs": "chem11-s2", "strength": "helpful", "why": "carbonic acid and ocean acidification", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "helpful", "why": "covalent molecules and bonds absorbing infrared", "confidence": "low"},
+{"needs": "chem21-s5", "strength": "helpful", "why": "combustion of fuels producing carbon dioxide", "confidence": "low"},
+{"needs": "chem23-s1", "strength": "helpful", "why": "fossil fuels and hydrocarbons", "confidence": "low"}
+],
+"chem20-s2": [
+{"needs": "chem20-s1", "strength": "helpful", "why": "nitrogen and sulfur oxides cause acid rain", "confidence": "high"},
+{"needs": "chem11-s2", "strength": "helpful", "why": "acidity and acid rain", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "helpful", "why": "concentration and ppm units", "confidence": "high"},
+{"needs": "chem6-s2", "strength": "helpful", "why": "solubility and properties of water", "confidence": "low"},
+{"needs": "chem15-s1", "strength": "helpful", "why": "iodine-thiosulfate titration in oxygen measurement", "confidence": "low"}
+],
+"chem20-s3": [
+{"needs": "chem9-s2", "strength": "helpful", "why": "filtration and sedimentation separation techniques", "confidence": "high"},
+{"needs": "chem14-s1", "strength": "helpful", "why": "chlorine as oxidising agent in disinfection", "confidence": "high"},
+{"needs": "chem19-s1", "strength": "helpful", "why": "pH scale for pH adjustment", "confidence": "high"},
+{"needs": "chem20-s2", "strength": "helpful", "why": "contaminants being removed", "confidence": "low"}
+],
+"chem20-s4": [
+{"needs": "chem22-s1", "strength": "essential", "why": "galvanic and electrolytic cells", "confidence": "high"},
+{"needs": "chem14-s1", "strength": "essential", "why": "oxidation and reduction as electron transfer", "confidence": "high"},
+{"needs": "chem7-s1", "strength": "helpful", "why": "alkali metal properties of lithium", "confidence": "low"}
+],
+"chem20-s5": [
+{"needs": "chem1-s2", "strength": "essential", "why": "researching an issue and evaluating sources", "confidence": "high"},
+{"needs": "chem1-s6", "strength": "helpful", "why": "chemistry in society, weighing claims", "confidence": "high"},
+{"needs": "chem20-s3", "strength": "helpful", "why": "water treatment content for worked outlines", "confidence": "high"},
+{"needs": "chem1-s5", "strength": "helpful", "why": "communicating and citing sources", "confidence": "low"}
+],
+"chem21-s1": [
+{"needs": "chem5-s1", "strength": "helpful", "why": "bonds being made and broken", "confidence": "high"},
+{"needs": "chem10-s1", "strength": "helpful", "why": "chemical versus physical change", "confidence": "low"},
+{"needs": "chem17-s1", "strength": "helpful", "why": "activation energy idea", "confidence": "low"}
+],
+"chem21-s2": [
+{"needs": "chem21-s1", "strength": "essential", "why": "enthalpy change, exothermic and endothermic ideas", "confidence": "high"},
+{"needs": "chem8-s1", "strength": "essential", "why": "moles and molar mass for heat per mole", "confidence": "high"},
+{"needs": "chem8-s2", "strength": "essential", "why": "solution concentration and volume to moles", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "helpful", "why": "balanced equations and mole ratios", "confidence": "high"},
+{"needs": "chem11-s1", "strength": "helpful", "why": "neutralisation reaction of acids and bases", "confidence": "high"},
+{"needs": "chem1-s4", "strength": "helpful", "why": "graphs and sources of error", "confidence": "low"}
+],
+"chem21-s3": [
+{"needs": "chem21-s1", "strength": "essential", "why": "bond enthalpy, making and breaking bonds", "confidence": "high"},
+{"needs": "chem21-s2", "strength": "essential", "why": "sign and meaning of ΔH calculations", "confidence": "high"},
+{"needs": "chem5-s1", "strength": "essential", "why": "covalent bonds and structures in molecules", "confidence": "high"},
+{"needs": "chem10-s2", "strength": "helpful", "why": "balancing equations", "confidence": "high"}
+]
+}

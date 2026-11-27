@@ -1,0 +1,414 @@
+MODE: links only (another package rates cost)
+TARGET chem25-s1: 1. Types of organic reaction and addition polymers
+[chem25-s1.0.b] Organic reactions fall into five types, and the first is addition. It is the characteristic reaction of compounds with a carbon-carbon double bond, because the double bond can open up to take on new atoms.
+[chem25-s1.0.0] An addition reaction is one in which two or more molecules react to form a single molecule.
+[chem25-s1.0.1] Atoms add across a double (or triple) bond, so an unsaturated compound (one with a C=C or C≡C bond) becomes saturated (only single bonds) and there is only one product.
+[chem25-s1.0.2] Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane. Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.
+[chem25-s1.0.3] Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.
+[chem25-s1.0.4] Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.
+[chem25-s1.0.5] Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.
+[chem25-s1.0.6] Ethene and hydrogen with a nickel catalyst (a substance that speeds up the reaction without being used up): CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.
+[chem25-s1.0.7] Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions, because each monomer (small molecule) adds on to the growing chain. It is taught in full later in this subsection.
+[chem25-s1.1.b] In a substitution reaction one atom or group is swapped for another, so two reactants give two products. Alkanes, which have no double bond to add across, react this way.
+[chem25-s1.1.0] A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.
+[chem25-s1.1.1] Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.
+[chem25-s1.1.2] Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.
+[chem25-s1.1.3] Esterification: a carboxylic acid (contains –COOH) and an alcohol (contains –OH) give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem25-s1.1.4] In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol, which is why it counts as substitution.
+[chem25-s1.1.5] Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.
+[chem25-s1.1.6] Hydrolysis of an ester (splitting it using water or a base) is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.
+[chem25-s1.1.7] Alkanes (saturated hydrocarbons) react by substitution, not addition, because they have no double bond to add across.
+[chem25-s1.2.b] Elimination is the reverse of addition. A small molecule is stripped out of a larger one, and the larger molecule is left with a double bond.
+[chem25-s1.2.0] An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.
+[chem25-s1.2.1] Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.
+[chem25-s1.2.2] Water is the small molecule removed, so this elimination is also called a dehydration.
+[chem25-s1.2.3] Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.
+[chem25-s1.2.4] A haloalkane (an alkane with a halogen atom such as Cl) can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.
+[chem25-s1.2.5] 1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).
+[chem25-s1.2.6] Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated.
+[chem25-s1.3.b] Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.
+[chem25-s1.3.0] In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.
+[chem25-s1.3.1] Reduction is the gain of hydrogen or the loss of oxygen.
+[chem25-s1.3.2] Oxidation is also the loss of electrons and an increase in oxidation number (the charge an atom would have if all its bonds were ionic). There is more on this in Oxidation and reduction.
+[chem25-s1.3.3] Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate as the oxidising agent.
+[chem25-s1.3.4] Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH. This is reduction because the molecule gains hydrogen.
+[chem25-s1.3.5] Combustion (burning in oxygen) is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem25-s1.4.b] An acid–base reaction is about a proton moving from one species to another. Carboxylic acids show this clearly, while alcohols are barely acidic.
+[chem25-s1.4.0] An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.
+[chem25-s1.4.1] Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.
+[chem25-s1.4.2] Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+[chem25-s1.4.3] Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.
+[chem25-s1.4.4] Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.
+[chem25-s1.4.5] Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; there is more on this in Physical properties and acidity.
+[chem25-s1.5.b] At Higher Level you must be able to look at an unfamiliar reaction and say which type or types it is. Work through the checks in a fixed order.
+[chem25-s1.5.0] Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.
+[chem25-s1.5.1] Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.
+[chem25-s1.5.2] One reaction can be of more than one type, so give every type that fits: hydrogenation of ethene is addition and reduction.
+[chem25-s1.5.3] Esterification is substitution and condensation, and base hydrolysis of an ester is substitution and acid–base.
+[chem25-s1.6.b] Higher Level questions also ask which bonds break and form. A pi bond is the second, weaker bond of a C=C double bond, added to the stronger C–C sigma bond that is already there.
+[chem25-s1.6.0] Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.
+[chem25-s1.6.1] Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.
+[chem25-s1.6.2] Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.
+[chem25-s1.6.3] Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.
+[chem25-s1.6.4] Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.
+[chem25-s1.6.5] The reaction of sodium with ethanol is likewise a redox reaction.
+[chem25-s1.7.b] Many everyday plastics are built by joining huge numbers of small molecules into one very long molecule. The words polymer, monomer and repeating unit describe this.
+[chem25-s1.7.0] A polymer is a very large molecule, a macromolecule, made of many small units called monomers joined by covalent bonds in a long chain.
+[chem25-s1.7.1] A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.
+[chem25-s1.7.2] The repeating unit is the part of the polymer whose repetition makes up the whole chain, apart from the ends.
+[chem25-s1.7.3] Polymer chains contain thousands of repeating units, so their relative molecular masses (Mr, the mass of a molecule compared with the carbon-12 standard) are very large and vary from chain to chain.
+[chem25-s1.7.4] Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units, because the Mr of ethene is 28.
+[chem25-s1.7.5] Many plastics are polymers, and most addition polymers are made from monomers obtained from crude oil.
+[chem25-s1.8.b] Monomers with a C=C double bond can join end to end because each double bond opens up, just as in an ordinary addition reaction. Repeating this thousands of times builds the chain.
+[chem25-s1.8.0] An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.
+[chem25-s1.8.1] In each addition the pi bond of C=C (the weaker, second bond of the double bond) breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.
+[chem25-s1.8.2] No other product is formed, so the polymer has the same empirical formula (simplest whole-number ratio of atoms) as the monomer.
+[chem25-s1.8.3] General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.
+[chem25-s1.8.4] The polymer is saturated, with no C=C left, so unlike its monomer it does not decolourise bromine water.
+[chem25-s1.8.5] Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end.
+[chem25-s1.8.6] To draw two repeating units, show four backbone carbons in a row, with the side groups on alternate carbons and an open bond at each end; do not write atoms at the ends of the open bonds.
+[chem25-s1.9.b] Poly(ethene) is the simplest addition polymer. How closely its chains pack decides whether it is soft and flexible or strong and rigid.
+[chem25-s1.9.0] The monomer is ethene, CH₂=CH₂, and the repeating unit is –CH₂–CH₂–; poly(ethene) is also called polythene or polyethylene.
+[chem25-s1.9.1] Low-density poly(ethene), LDPE, has branched chains that cannot pack closely, so it is soft and flexible.
+[chem25-s1.9.2] LDPE is used for plastic bags, food-wrapping film and squeezy bottles.
+[chem25-s1.9.3] High-density poly(ethene), HDPE, has unbranched chains that pack closely, so it is stronger and more rigid, with a higher melting point.
+[chem25-s1.9.4] HDPE is used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.
+[chem25-s1.9.5] Diagram: two repeating units of poly(ethene), –CH₂–CH₂–CH₂–CH₂–, with open end bonds.
+[chem25-s1.10.b] PVC is ethene with one hydrogen replaced by chlorine. The polar C–Cl bond gives it very different properties from poly(ethene).
+[chem25-s1.10.0] The monomer is chloroethene, also called vinyl chloride, CH₂=CHCl; the repeating unit is –CH₂–CHCl–.
+[chem25-s1.10.1] Poly(chloroethene) is also called polyvinyl chloride, PVC.
+[chem25-s1.10.2] The polar C–Cl bonds (the shared electrons sit nearer the chlorine) give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.
+[chem25-s1.10.3] Rigid PVC is used for window frames, doors, gutters, drainpipes, water pipes and bank cards.
+[chem25-s1.10.4] Adding plasticisers, small molecules that let the chains slide past each other, makes flexible PVC.
+[chem25-s1.10.5] Flexible PVC is used for electrical cable insulation, flooring and raincoats.
+[chem25-s1.10.6] Diagram: two repeating units of PVC, –CH₂–CHCl–CH₂–CHCl–, with open end bonds.
+[chem25-s1.11.b] Polystyrene is ethene with one hydrogen replaced by a large benzene ring (a ring of six carbon atoms). The bulk of that ring controls the properties.
+[chem25-s1.11.0] The monomer is phenylethene, also called styrene, C₆H₅CH=CH₂, which is ethene with one hydrogen replaced by a benzene ring; the repeating unit is –CH₂–CH(C₆H₅)–.
+[chem25-s1.11.1] The bulky benzene rings stop the chains moving past each other, so solid polystyrene is rigid and brittle.
+[chem25-s1.11.2] Solid polystyrene is used for yoghurt cartons, disposable cups and cutlery, CD cases and ballpoint pen cases.
+[chem25-s1.11.3] Expanded polystyrene is blown with gas into a foam, which makes it very light and a good thermal insulator.
+[chem25-s1.11.4] Expanded polystyrene is used for packaging, takeaway food boxes, ceiling tiles and building insulation.
+[chem25-s1.11.5] Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms.
+[chem25-s1.12.b] Addition polymers are used everywhere because their properties suit the job. The same few polymers turn up in fuel systems, farming, food packaging and the home.
+[chem25-s1.12.0] Fuels: HDPE fuel tanks in cars are light, tough and do not corrode; plastic fuel cans and pipes are also used.
+[chem25-s1.12.1] Waste plastics can be burned for energy, or broken down by heating (pyrolysis) into liquid fuels.
+[chem25-s1.12.2] Food production: poly(ethene) film is used for polytunnels and greenhouses, silage wrap and mulch film on farms.
+[chem25-s1.12.3] PVC and poly(ethene) pipes are used for irrigation and water supply.
+[chem25-s1.12.4] Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so food lasts longer and less is wasted.
+[chem25-s1.12.5] Household products: buckets, bowls, bottles, bags, toys and containers are made from poly(ethene); pipes, gutters and window frames from PVC; insulation and packaging from polystyrene.
+[chem25-s1.12.6] These polymers suit their uses because they are cheap, light, waterproof, durable, easily moulded and unreactive, so they do not react with food, water, fuels or most chemicals.
+[chem25-s1.13.b] Biodegradability depends on whether living things can break a substance down. Addition polymers resist this because of their bonding.
+[chem25-s1.13.0] A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.
+[chem25-s1.13.1] Addition polymers are non-biodegradable.
+[chem25-s1.13.2] The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.
+[chem25-s1.13.3] Like an alkane, an addition polymer has no pi bonds and no polar functional group (a reactive atom or group) for a reagent to attack, so it is chemically stable and unreactive. There is more on this in Groups of hydrocarbons and their properties.
+[chem25-s1.13.4] Microorganisms break down natural polymers, such as starch and proteins, with enzymes (biological catalysts) that attack specific polar linkages.
+[chem25-s1.13.5] Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.
+[chem25-s1.14.b] The stability that makes addition polymers so useful is the same property that makes plastic waste a problem.
+[chem25-s1.14.0] The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.
+[chem25-s1.14.1] Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, and filling of landfill sites.
+[chem25-s1.14.2] Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically.
+[chem25-s1.15.b] Because plastics do not break down, society has to manage them: use less, recycle, burn for energy, or switch to polymers that can degrade.
+[chem25-s1.15.0] Responses include reducing use, reusing, and recycling.
+[chem25-s1.15.1] Plastics are sorted for recycling by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.
+[chem25-s1.15.2] Incineration gives energy but releases CO₂, and burning PVC releases hydrogen chloride.
+[chem25-s1.15.3] Biodegradable polymers with ester linkages, which microorganisms can hydrolyse (split using water), are being developed. These can break down because the ester linkage gives microorganisms something to attack.
+[chem25-s1.15.4] Poly(lactic acid), PLA, is one example: it is made from plant starch and breaks down in industrial composting.
+
+CANDIDATES chem23-s4: 4. Shapes, bonding and isomerism
+[chem23-s4.0.b] There are several ways to write down a hydrocarbon (a compound of only carbon and hydrogen), and each shows a different amount of information. Knowing which one you are looking at tells you what you can and cannot read from it.
+[chem23-s4.0.0] A molecular formula gives the number of atoms of each element in one molecule, e.g. C₄H₁₀, but it does not show how the atoms are joined, so it cannot tell two different molecules with the same atoms apart.
+[chem23-s4.0.1] An expanded, or displayed, structural formula (a drawing of the structure) shows every atom and every bond as a line, e.g. butane drawn with four carbon atoms in a row, each hydrogen joined by its own line.
+[chem23-s4.0.2] A condensed structural formula shows the groups on each carbon in order without drawing the bonds: butane is CH₃CH₂CH₂CH₃ or CH₃(CH₂)₂CH₃, methylpropane is CH₃CH(CH₃)CH₃, and but-1-ene is CH₂=CHCH₂CH₃.
+[chem23-s4.0.3] Double and triple bonds are always shown in a condensed formula, so you can still see where they are even though single bonds are left out.
+[chem23-s4.0.4] A 3D model shows the real spatial arrangement of the atoms (how they sit in space), which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron (a triangular-based pyramid).
+[chem23-s4.0.5] Two flat drawings can show the same molecule: a four-carbon chain drawn bent or straight is still butane, and building the model shows whether two structures are identical.
+[chem23-s4.1.b] Building models is the way to see shapes that flat drawings hide, and it is a practical activity you should be able to describe. A molecular model kit is used, and digital models can do the same job on screen.
+[chem23-s4.1.0] Use a molecular model kit: black balls with four holes for carbon, white balls with one hole for hydrogen, short rigid links for single bonds, and flexible links, or springs, for double and triple bonds.
+[chem23-s4.1.1] Build methane, ethane, propane and butane; each carbon with four single bonds is tetrahedral, so a straight chain (an unbranched chain) is actually a zig-zag, not a straight line of atoms.
+[chem23-s4.1.2] Rotate the two ends of ethane about the C–C bond: rotation is free about a single bond, and the different positions, called conformations, are still the same molecule.
+[chem23-s4.1.3] Build ethene with two flexible links: the molecule is flat, and the C=C bond cannot be twisted.
+[chem23-s4.1.4] Build ethyne with three flexible links: the four atoms lie in a straight line.
+[chem23-s4.1.5] Build all the isomers of C₄H₁₀ and C₅H₁₂ (isomers are different molecules with the same molecular formula); try to build another isomer, and check by rotating it whether it is really new or the same as one already made.
+[chem23-s4.1.6] Record each model as an expanded and a condensed formula, and give its IUPAC name (the official systematic name).
+[chem23-s4.1.7] Digital models, made with molecule-viewing software or apps, can be rotated on screen and show ball-and-stick and space-filling views.
+[chem23-s4.1.8] Ball-and-stick models exaggerate the gaps between atoms and are not to scale; space-filling models show size and shape but hide the bonds; no model shows the electrons, and real molecules are constantly vibrating and rotating.
+[chem23-s4.2.b] The three model shapes you build are worth drawing, because they show how the number of bonds between carbons changes the geometry.
+[chem23-s4.2.0] Diagram: ball-and-stick models of methane (tetrahedral), ethene (planar) and ethyne (linear), labelled with their bond angles.
+[chem23-s4.3.b] The type of bond a carbon forms decides the angles around it and whether the groups attached to it can turn. This is why the molecules you built have the shapes they do.
+[chem23-s4.3.0] A carbon with four single bonds is tetrahedral, with bond angles of 109.5°, and the groups around it can rotate about each single bond.
+[chem23-s4.3.1] A carbon in a C=C double bond is trigonal planar (its three neighbours lie in one flat triangle around it), with bond angles of 120°; the double bond holds the two carbons and the four atoms attached to them in one plane and prevents rotation.
+[chem23-s4.3.2] A carbon in a C≡C triple bond is linear, with bond angles of 180°.
+[chem23-s4.3.3] In benzene (a ring-shaped hydrocarbon, C₆H₆) all twelve atoms lie in one flat hexagonal ring.
+[chem23-s4.3.4] Spatial arrangement helps predict properties: branched isomers are more compact than straight chains, so they have less contact with neighbouring molecules and lower boiling points. There is more on this in Groups of hydrocarbons and their properties.
+[chem23-s4.4.b] Structural isomers are compounds with the same molecular formula but different structural formulae, so the atoms are joined in a different order. Alkanes (hydrocarbons with only single bonds) show this once the chain is long enough to branch.
+[chem23-s4.4.0] Isomers can differ in the carbon chain, through branching; in the position of a double bond; or in having a ring instead of a double bond, e.g. cyclohexane and hex-1-ene are both C₆H₁₂.
+[chem23-s4.4.1] Methane, ethane and propane have no isomers; isomerism in alkanes starts at C₄, because a chain needs at least four carbons before it can be arranged in more than one way.
+[chem23-s4.4.2] C₄H₁₀ has two structural isomers: butane, CH₃CH₂CH₂CH₃, and methylpropane, CH₃CH(CH₃)CH₃.
+[chem23-s4.4.3] C₅H₁₂ has three: pentane, CH₃CH₂CH₂CH₂CH₃; 2-methylbutane, CH₃CH(CH₃)CH₂CH₃; and 2,2-dimethylpropane, C(CH₃)₄.
+[chem23-s4.4.4] C₆H₁₄ has five. The first three are hexane, CH₃(CH₂)₄CH₃; 2-methylpentane, CH₃CH(CH₃)CH₂CH₂CH₃; and 3-methylpentane, CH₃CH₂CH(CH₃)CH₂CH₃.
+[chem23-s4.4.5] The other two isomers of C₆H₁₄ are 2,2-dimethylbutane, CH₃C(CH₃)₂CH₂CH₃, and 2,3-dimethylbutane, CH₃CH(CH₃)CH(CH₃)CH₃.
+[chem23-s4.5.b] Alkenes (hydrocarbons with a C=C double bond) have more isomers than alkanes of the same size, because the double bond can sit in different positions as well as the chain being branched.
+[chem23-s4.5.0] Isomers of alkenes also first appear at C₄, and propene's only isomer is the ring compound cyclopropane.
+[chem23-s4.5.1] The C₄H₈ alkene isomers are but-1-ene, CH₂=CHCH₂CH₃; but-2-ene, CH₃CH=CHCH₃; and methylpropene, CH₂=C(CH₃)CH₃.
+[chem23-s4.5.2] The C₅H₁₀ alkene isomers are pent-1-ene, CH₂=CHCH₂CH₂CH₃; pent-2-ene, CH₃CH=CHCH₂CH₃; and 2-methylbut-1-ene, CH₂=C(CH₃)CH₂CH₃.
+[chem23-s4.5.3] The other two C₅H₁₀ alkene isomers are 3-methylbut-1-ene, CH₂=CHCH(CH₃)CH₃, and 2-methylbut-2-ene, CH₃C(CH₃)=CHCH₃.
+[chem23-s4.5.4] The straight-chain alkene isomers of C₆H₁₂ differ in the position of the double bond: hex-1-ene, hex-2-ene and hex-3-ene.
+[chem23-s4.5.5] Check for repeats by numbering the chain from the other end or by rotating the model: 1-methylbutane is really pentane, and pent-4-ene is really pent-1-ene.
+[chem23-s4.6.b] Ethane is the simplest molecule with a carbon–carbon single bond, and its shape is the pattern for every carbon with four single bonds.
+[chem23-s4.6.0] Ethane, C₂H₆, is CH₃–CH₃: each carbon forms four single bonds, three to hydrogen atoms and one to the other carbon.
+[chem23-s4.6.1] The four bonds around each carbon point to the corners of a tetrahedron, with bond angles of about 109.5°, so the molecule is three-dimensional and not flat.
+[chem23-s4.6.2] The two CH₃ groups can rotate freely about the C–C single bond.
+[chem23-s4.6.3] Diagram: ethane drawn in 3D with wedges and dashes, with the 109.5° angle marked.
+[chem23-s4.7.b] Ethene has a carbon–carbon double bond, which changes both the shape and whether the molecule can twist.
+[chem23-s4.7.0] Ethene, C₂H₄, is CH₂=CH₂: each carbon forms a double bond to the other carbon and single bonds to two hydrogen atoms.
+[chem23-s4.7.1] Each carbon is trigonal planar, with bond angles of about 120°, so all six atoms lie in one plane and the molecule is flat.
+[chem23-s4.7.2] There is no rotation about the C=C double bond.
+[chem23-s4.7.3] Diagram: flat ethene molecule with the 120° angles marked.
+[chem23-s4.8.b] Ethyne has a carbon–carbon triple bond, which gives the most extreme shape of the three: a straight line.
+[chem23-s4.8.0] Ethyne, C₂H₂, is HC≡CH: each carbon forms a triple bond to the other carbon and a single bond to one hydrogen atom.
+[chem23-s4.8.1] The molecule is linear, with a bond angle of 180°, so all four atoms lie in a straight line.
+[chem23-s4.8.2] Diagram: H–C≡C–H in a straight line, with 180° marked.
+[chem23-s4.9.b] Putting ethane, ethene and ethyne side by side shows a pattern: each extra bond between the carbons changes the shape around them.
+[chem23-s4.9.0] As the carbon–carbon bond changes from single to double to triple, the shape around each carbon changes from tetrahedral, 109.5°, to trigonal planar, 120°, to linear, 180°.
+[chem23-s4.9.1] This happens because the number of groups of electrons around each carbon falls from four to three to two, and the groups spread as far apart as possible.
+[chem23-s4.9.2] The carbon–carbon bond becomes shorter and stronger from single to double to triple: C–C 0.154 nm, C=C 0.134 nm and C≡C 0.120 nm.
+[chem23-s4.9.3] Ethane is three-dimensional, ethene is planar, and ethyne is linear.
+[chem23-s4.10.b] At Higher Level you explain the shapes using two kinds of covalent bond (a bond made by sharing electrons), σ and π, which differ in how their orbitals overlap. An orbital is the region where an electron is likely to be found.
+[chem23-s4.10.0] A σ (sigma) bond is formed by head-on overlap of orbitals along the line between the nuclei; a π (pi) bond is formed by sideways overlap of parallel p orbitals above and below that line.
+[chem23-s4.10.1] A single bond is σ; a double bond is σ + π; a triple bond is σ + 2π.
+[chem23-s4.10.2] Only the σ bonds and any lone pairs (pairs of electrons not used in bonding) decide the shape: the σ bonds around each carbon spread as far apart as possible (VSEPR theory, electron-pair repulsion), and the π bonds lie over the σ framework without changing the angles.
+[chem23-s4.10.3] In ethane each carbon has four σ bonds around it, giving a tetrahedral shape, and rotation about the σ C–C bond does not change the overlap, so rotation is free.
+[chem23-s4.10.4] In ethene each carbon has three σ bonds around it, giving a trigonal planar shape; the p orbital left on each carbon, at right angles to the plane, overlaps sideways with the other to form the π bond above and below the plane.
+[chem23-s4.10.5] The π bond prevents rotation: twisting one CH₂ group would turn the p orbitals away from each other and break the π overlap, so the molecule is rigid and planar; this is why cis–trans isomers exist.
+[chem23-s4.10.6] In ethyne each carbon has two σ bonds around it, giving a linear shape, and the two p orbitals left on each carbon are at right angles to each other. The two π bonds together form a cylinder of electron density around the C–C axis.
+[chem23-s4.10.7] Diagram: σ framework of ethene with the π cloud drawn above and below the plane; ethyne with its two π bonds at right angles around the C–C axis.
+[chem23-s4.11.b] Benzene is a flat ring of six carbons whose bonding cannot be described with ordinary single and double bonds. Its electrons are spread over the whole ring instead, which is called delocalised bonding.
+[chem23-s4.11.0] Benzene, C₆H₆, has each carbon forming three σ bonds, to two neighbouring carbons and to one hydrogen, so each carbon is trigonal planar with 120° angles and the molecule is a flat, regular hexagon. There are twelve σ bonds in total, six C–C and six C–H.
+[chem23-s4.11.1] Each carbon has one remaining p orbital, holding one electron, at right angles to the ring.
+[chem23-s4.11.2] The six p orbitals overlap sideways all round the ring, not in three separate pairs, forming a delocalised π system (π electrons shared over the whole ring): one ring of electron density above the plane and one below it, containing six electrons shared by all six carbons.
+[chem23-s4.12.b] Delocalisation has measurable effects: the bond lengths are all equal and benzene resists the reactions that alkenes undergo. These are the evidence for the delocalised model.
+[chem23-s4.12.0] All six C–C bonds are identical, 0.139 nm long, between a single bond at 0.154 nm and a double bond at 0.134 nm; benzene is drawn as a hexagon with a circle inside to show the delocalised electrons.
+[chem23-s4.12.1] Delocalisation makes benzene unusually stable: it does not decolourise bromine water, because addition (joining new atoms on across a double bond) would destroy the delocalised ring, so it reacts by substitution (swapping an atom for another), keeping the ring.
+[chem23-s4.12.2] The evidence against the Kekulé structure, with alternating C–C and C=C bonds, is that all the bonds are the same length and benzene does not undergo the addition reactions of alkenes.
+[chem23-s4.12.3] Kathleen Lonsdale, born in Newbridge, Co. Kildare, showed in 1929, using hexamethylbenzene, that the benzene ring is flat and a regular hexagon.
+[chem23-s4.13.b] Exams ask you to share out the electrons of a benzene molecule between the different kinds of bonding. The total is the starting point, and each group is then counted in turn.
+[chem23-s4.13.0] C₆H₆ has 42 electrons in total: 6 × 6 from the carbons and 6 × 1 from the hydrogens.
+[chem23-s4.13.1] Of these, 12 electrons are in the six C–H bonds (two per bond), 12 are in the six C–C σ bonds, and 6 are delocalised π electrons.
+[chem23-s4.13.2] So 18 electrons are involved in carbon–carbon bonding, and the remaining 12 are the inner (1s) electrons of the carbons, which are not involved in bonding.
+[chem23-s4.13.3] Diagram: the planar ring of six C atoms with H atoms, the σ framework, the p orbitals at right angles to the ring, the delocalised π clouds above and below the ring, and the hexagon-with-circle symbol.
+[chem23-s4.14.b] Draw a table with one row for each molecule, giving its σ bonds, π bonds, shape and rotation. It pulls the whole section together.
+[chem23-s4.14.0] Ethane: 7 σ bonds, no π bonds, tetrahedral with 109.5° angles, and free rotation about the C–C bond.
+[chem23-s4.14.1] Ethene: 5 σ bonds, 1 π bond, planar with 120° angles, and no rotation about the C=C bond.
+[chem23-s4.14.2] Ethyne: 3 σ bonds, 2 π bonds, and linear with 180° angles.
+[chem23-s4.14.3] Benzene: 12 σ bonds and a delocalised π system of 6 electrons, planar with 120° angles, and all C–C bonds equal in length.
+[chem23-s4.15.b] There are two ways for molecules to be isomers, and you must be able to tell them apart. The difference is whether the atoms are joined in a different order or only arranged differently in space.
+[chem23-s4.15.0] Isomers are compounds with the same molecular formula but different arrangements of atoms.
+[chem23-s4.15.1] Structural isomers have the same molecular formula but different structural formulae, so the atoms are joined in a different order; butane and methylpropane (C₄H₁₀), and but-1-ene and but-2-ene (C₄H₈), are examples.
+[chem23-s4.15.2] Geometric, or cis–trans, isomers have the same molecular formula and the same structural formula, so the atoms are joined in the same order, but the atoms are arranged differently in space.
+[chem23-s4.15.3] If converting one isomer into the other would mean breaking bonds and joining atoms in a different order, they are structural isomers.
+[chem23-s4.15.4] If the order of joining is the same and only the positions in space differ, they are geometric isomers.
+[chem23-s4.16.b] Geometric isomerism depends on the rigidity of the C=C double bond. Butene, C₄H₈, is the example, in its but-2-ene form.
+[chem23-s4.16.0] Geometric isomerism arises in alkenes because there is no rotation about the C=C double bond, since rotation would break the π bond, so groups are fixed on one side or the other of the double bond.
+[chem23-s4.16.1] Each carbon of the double bond must carry two different atoms or groups for geometric isomerism to occur.
+[chem23-s4.16.2] In cis-but-2-ene the two CH₃ groups are on the same side of the double bond, and the two H atoms are on the same side.
+[chem23-s4.16.3] In trans-but-2-ene the two CH₃ groups are on opposite sides of the double bond.
+[chem23-s4.17.b] Not every alkene has cis and trans forms. Apply the condition that each double-bond carbon must carry two different groups to decide.
+[chem23-s4.17.0] But-1-ene, CH₂=CHCH₂CH₃, has no cis–trans isomers, because one carbon of the double bond carries two identical H atoms.
+[chem23-s4.17.1] Methylpropene, CH₂=C(CH₃)₂, has none, because both carbons of the double bond carry identical pairs of groups.
+[chem23-s4.17.2] Butene, C₄H₈, therefore has four alkene isomers: but-1-ene, cis-but-2-ene, trans-but-2-ene and methylpropene (three structural isomers, one of which has cis and trans forms).
+[chem23-s4.17.3] Alkanes have no geometric isomers, because groups rotate freely about C–C single bonds.
+[chem23-s4.17.4] Other alkenes up to C6 with two different groups on each double-bond carbon, e.g. pent-2-ene, hex-2-ene and hex-3-ene, have cis and trans forms.
+[chem23-s4.17.5] In a 3D model of but-2-ene the double bond, made of two flexible links, cannot be twisted, so the cis model cannot be turned into the trans model without taking it apart; digital models show the same when rotated.
+[chem23-s4.17.6] Diagram: cis-but-2-ene and trans-but-2-ene drawn flat with 120° angles, the CH₃ groups circled on the same and on opposite sides.
+[chem23-s4.18.b] Whether isomers react alike depends on whether they have the same types of bond. The same family means the same bonds and so similar chemistry.
+[chem23-s4.18.0] Structural isomers of the same family, such as butane and methylpropane, have very similar chemical properties, because they have the same types of bond.
+[chem23-s4.18.1] Structural isomers in different families have different chemical properties: hex-1-ene and cyclohexane are both C₆H₁₂, but hex-1-ene, with its C=C bond, decolourises bromine water, and cyclohexane, which is saturated (it has only single bonds), does not.
+[chem23-s4.18.2] cis- and trans-but-2-ene have almost the same chemical properties, with the same C=C bond, the same addition reactions and the same combustion: C₄H₈ + 6O₂ → 4CO₂ + 4H₂O.
+[chem23-s4.19.b] Isomers have the same atoms but different shapes, and shape affects the physical property of boiling point.
+[chem23-s4.19.0] Branched structural isomers have lower boiling points than unbranched ones, e.g. butane, −1 °C, and methylpropane, −12 °C.
+[chem23-s4.19.1] The more compact shape of the branched isomer gives less contact between molecules and weaker London dispersion forces (the weak attractions between all molecules), so less energy is needed to separate them. There is more on this in Polarity and symmetry.
+[chem23-s4.20.b] Cis and trans isomers react alike but differ in physical properties such as boiling point and melting point. The cause is the difference in polarity and in how the molecules pack.
+[chem23-s4.20.0] cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C.
+[chem23-s4.20.1] The cis molecule is slightly polar (it has a side with slightly more negative charge and a side with slightly more positive), because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces.
+[chem23-s4.20.2] The symmetrical trans molecule is non-polar, so it has only London forces; this is why cis boils higher than trans.
+[chem23-s4.20.3] The trans isomer has the higher melting point, −106 °C compared with −139 °C for cis, because its more symmetrical, straighter shape packs more closely in the solid.
+[chem23-s4.21.b] Cis–trans isomerism has a real consequence for diet, because the shape of a fat molecule affects health.
+[chem23-s4.21.0] Cis–trans isomerism matters in food: unsaturated fats (fats with C=C bonds in their chains) in natural oils are mainly cis.
+[chem23-s4.21.1] Trans fats are formed when vegetable oils are partly hydrogenated (reacted with hydrogen), and they raise the risk of heart disease.
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem11-s1: 1. Acids, bases and their reactions
+[chem11-s1.0.b] Acids show a common set of properties that can be observed in the laboratory and at home. These shared properties are how we decide whether a substance counts as an acid.
+[chem11-s1.0.0] Acids taste sour, but laboratory chemicals must never be tasted because many are corrosive or poisonous.
+[chem11-s1.0.1] Acids turn blue litmus (a dye that changes colour in acids and bases) red, and they have a pH below 7 (pH is a number that describes how acidic or basic a solution is).
+[chem11-s1.0.2] Acids react with reactive metals such as magnesium and zinc to give hydrogen gas, so bubbles form on the metal.
+[chem11-s1.0.3] Acids react with carbonates (compounds containing the CO₃²⁻ ion, such as chalk) to give carbon dioxide, seen as fizzing.
+[chem11-s1.0.4] Acids neutralise bases, which means they react with them so that both lose their acidic or basic character.
+[chem11-s1.0.5] Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits).
+[chem11-s1.1.b] Bases are the chemical opposites of acids. Their properties mirror those of acids, and some of them dissolve in water to form alkalis.
+[chem11-s1.1.0] Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.
+[chem11-s1.1.1] Bases turn red litmus blue and have a pH above 7.
+[chem11-s1.1.2] Bases neutralise acids, so an acid and a base each cancel out the other's properties.
+[chem11-s1.1.3] An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃), which is ammonia dissolved in water.
+[chem11-s1.1.4] Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.
+[chem11-s1.1.5] Concentrated alkalis (those with a lot of dissolved base in a small volume of water) are corrosive, meaning they damage skin and other materials: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners.
+[chem11-s1.2.b] You cannot tell whether a clear solution is acidic or basic by looking at it, so chemists add an indicator. An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.
+[chem11-s1.2.0] Litmus is red in acid and blue in base, so it is the simplest test for which kind of solution you have.
+[chem11-s1.2.1] Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.
+[chem11-s1.2.2] Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.
+[chem11-s1.2.3] Universal indicator is a mixture of indicators, so it gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.
+[chem11-s1.2.4] Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions.
+[chem11-s1.3.b] Common substances are classed as acids or bases according to the properties they show. For each one, the category is justified by a property you can observe or a substance it contains.
+[chem11-s1.3.0] Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.
+[chem11-s1.3.1] Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.
+[chem11-s1.3.2] Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.
+[chem11-s1.3.3] Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).
+[chem11-s1.3.4] Baking soda (sodium hydrogencarbonate) is a weak base.
+[chem11-s1.3.5] Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.
+[chem11-s1.3.6] Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid.
+[chem11-s1.4.b] Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties. This is useful whenever something is too acidic and needs to be corrected.
+[chem11-s1.4.0] Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.
+[chem11-s1.4.1] Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂. Here H⁺ stands for the acid in the soil.
+[chem11-s1.4.2] Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn, so a base is taken to remove it.
+[chem11-s1.4.3] Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.
+[chem11-s1.4.4] Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.
+[chem11-s1.4.5] Lime is added to acidic lakes to neutralise the acid, so the water becomes less acidic.
+[chem11-s1.4.6] Toothpaste neutralises plaque acid, and baking soda is a claimed remedy for a bee sting, which is said to be acidic.
+[chem11-s1.5.b] Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal. Knowing this lets you name the product of any acid reaction.
+[chem11-s1.5.0] A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion (NH₄⁺).
+[chem11-s1.5.1] Hydrochloric acid gives chlorides, e.g. NaCl, because the chloride ion Cl⁻ is what remains of the acid.
+[chem11-s1.5.2] Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.
+[chem11-s1.5.3] Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it (a fixed amount of substance) reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does.
+[chem11-s1.6.b] General word equation: acid + base → salt + water. A base here includes metal oxides and hydroxides, and ammonia.
+[chem11-s1.6.0] HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
+[chem11-s1.6.1] H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)
+[chem11-s1.6.2] With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.
+[chem11-s1.6.3] With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.
+[chem11-s1.6.4] Ionic equation (showing only the ions that react) for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem11-s1.6.5] Neutralisation is exothermic, so it releases heat.
+[chem11-s1.7.b] General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.
+[chem11-s1.7.0] Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.
+[chem11-s1.7.1] Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).
+[chem11-s1.7.2] Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series (the list of metals in order of reactivity).
+[chem11-s1.7.3] Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.
+[chem11-s1.8.b] General word equation: acid + carbonate → salt + water + carbon dioxide. Hydrogencarbonates (compounds containing the HCO₃⁻ ion) behave the same way.
+[chem11-s1.8.0] CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.
+[chem11-s1.8.1] Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.2] Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.3] Test for carbon dioxide: it turns limewater (a solution of calcium hydroxide) milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem11-s1.9.b] Use this method to write the equation for any reaction of an acid. It works because each type of reaction always gives the same pattern of products.
+[chem11-s1.9.0] Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.
+[chem11-s1.9.1] Step 2: Name the salt from the metal (or ammonium) ion and the acid.
+[chem11-s1.9.2] Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.
+[chem11-s1.9.3] Step 4: Balance the equation, so that each element has the same number of atoms on both sides.
+[chem11-s1.9.4] Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.
+[chem11-s1.9.5] Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate.

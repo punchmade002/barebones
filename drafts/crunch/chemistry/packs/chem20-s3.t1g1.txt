@@ -1,0 +1,442 @@
+MODE: cost and links
+TARGET chem20-s3: 3. Treating drinking water
+[chem20-s3.0.b] Water taken from rivers, lakes or the ground is not safe to drink as it comes. Treatment is a series of steps, each removing a different problem, so that the water that reaches your tap is safe.
+[chem20-s3.0.0] Drinking water must be free of harmful microorganisms (bacteria, viruses and other living things too small to see) and harmful chemicals, and must be clear, colourless and odourless.
+[chem20-s3.0.1] In Ireland, public water supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive (the European law that sets the maximum levels of contaminants).
+[chem20-s3.0.2] The usual order of treatment is screening, flocculation (coagulation), sedimentation, filtration (sand and, in some plants, microfiltration), disinfection (chlorination and/or UV), fluoridation and pH adjustment.
+[chem20-s3.0.3] The exact steps depend on the source water, so a plant treating a clean source needs fewer steps than one treating a muddy river.
+[chem20-s3.0.4] The first steps remove suspended solids (tiny solid particles carried along in the water) by physical means; the later steps kill microorganisms and adjust the chemistry of the water.
+[chem20-s3.0.5] Diagram: a flow diagram of a treatment plant showing the intake with screen, flocculation tank (aluminium sulfate added), sedimentation tank (sludge removed), sand filter beds, chlorine and/or UV unit, fluoride and pH adjustment, storage reservoir and distribution pipes.
+[chem20-s3.1.b] Screening is the first step. It removes the biggest objects before they can block or damage equipment further along.
+[chem20-s3.1.0] Water from a river or lake passes through metal screens (mesh) that remove large floating objects such as branches, leaves, plastic and fish.
+[chem20-s3.1.1] No chemicals are added at the screening stage, because it is purely a physical straining of the water.
+[chem20-s3.2.b] Very fine particles carry charges that keep them apart and suspended, so they cannot simply be left to settle. Flocculation (also called coagulation) is the chemical trick that makes them clump into pieces big enough to sink.
+[chem20-s3.2.0] Very small suspended particles (clay, silt and organic matter) don't settle because they are tiny and carry like, usually negative, charges that make them repel each other.
+[chem20-s3.2.1] A flocculating agent (coagulant, a chemical that makes particles clump), usually aluminium sulfate, Al₂(SO₄)₃, is added and stirred in; iron salts and polyelectrolytes (long-chain molecules with many charges) are also used.
+[chem20-s3.2.2] The positive Al³⁺ ions neutralise the charges on the particles, so the particles no longer repel each other and clump together.
+[chem20-s3.2.3] Aluminium hydroxide also forms as a sticky, jelly-like precipitate (an insoluble solid formed in a reaction) that traps the particles: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).
+[chem20-s3.2.4] The particles join into larger clumps called flocs, which are heavy enough to settle.
+[chem20-s3.3.b] Once flocculation has made the particles heavy, gravity can do the work of removing them. This step is called sedimentation (settling).
+[chem20-s3.3.0] Water flows slowly through large settling tanks, where the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter. The slow flow gives them time to sink.
+[chem20-s3.3.1] The sludge (the thick mud of settled solids) that collects at the bottom is removed and disposed of, and the clearer water flows off the top.
+[chem20-s3.4.b] Sedimentation leaves behind the smaller particles that did not sink. Filtration strains these out, using sand and, in some plants, membranes as well.
+[chem20-s3.4.0] Sand filtration: water passes down through beds of sand on a layer of gravel, and the remaining small particles and flocs are trapped in the spaces between the sand grains.
+[chem20-s3.4.1] The filters are cleaned regularly by backwashing, which pumps clean water up through the bed so that the trapped particles are flushed out and the filter does not clog.
+[chem20-s3.4.2] Microfiltration forces water through membranes (thin sheets) with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites (single-celled organisms that cause disease) such as Cryptosporidium.
+[chem20-s3.4.3] Microfiltration does not remove dissolved substances or most viruses, because these are smaller than the pores.
+[chem20-s3.5.b] Filtering removes particles, but many microorganisms still get through. Chlorination is the disinfection step: adding chlorine to kill them.
+[chem20-s3.5.0] Chlorination kills disease-causing microorganisms (bacteria and viruses) so that the water is safe to drink.
+[chem20-s3.5.1] Chlorine gas or sodium hypochlorite (NaOCl) is added. Chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).
+[chem20-s3.5.2] Enough chlorine is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹, that is, a little left over after disinfection), which keeps the water disinfected as it travels through the pipes to the tap.
+[chem20-s3.5.3] Some organisms, especially Cryptosporidium, resist chlorine at the levels used, so another barrier (good filtration or UV) is needed.
+[chem20-s3.5.4] Too much chlorine gives an unpleasant taste and smell.
+[chem20-s3.5.5] Chlorine reacts with organic matter (material from plants and other living things) in the water to form by-products such as trihalomethanes, whose levels are limited by law.
+[chem20-s3.5.6] Removing organic matter first, by flocculation and filtration, keeps trihalomethane levels low because there is less for the chlorine to react with.
+[chem20-s3.6.b] Ultraviolet (UV) light is an alternative way to disinfect water. It works on organisms that chlorine struggles with, but it cannot protect the water once it is in the pipes.
+[chem20-s3.6.0] The water flows past lamps that emit ultraviolet radiation, which damages the DNA (the genetic material) of microorganisms so that they can't reproduce.
+[chem20-s3.6.1] UV treatment is effective against Cryptosporidium, which resists chlorine at the levels used.
+[chem20-s3.6.2] UV adds no chemicals and does not change the taste or smell of the water.
+[chem20-s3.6.3] UV leaves no residual disinfectant in the pipes, so chlorine is still added afterwards to protect the water on its way to the tap.
+[chem20-s3.6.4] The water must be clear first, because suspended particles can shield microorganisms from the UV; the lamps also use electricity.
+[chem20-s3.6.5] An outbreak of Cryptosporidium infection in Galway in 2007, from the city's water supply, led to UV treatment being installed at the treatment plant there.
+[chem20-s3.7.b] Fluoridation is different from the other steps because it is added for dental health, not to make the water safe from germs or particles. A small amount of a fluoride compound is added to public supplies.
+[chem20-s3.7.0] A fluoride compound is added to public water supplies: usually hexafluorosilicic acid (H₂SiF₆) in Ireland, and sodium fluoride (NaF) elsewhere.
+[chem20-s3.7.1] Fluoride helps prevent tooth decay: it is taken into tooth enamel (the hard outer layer of the tooth), converting some of the hydroxyapatite (the calcium mineral that enamel is made of) into fluorapatite.
+[chem20-s3.7.2] Fluorapatite is more resistant to attack by acids made by bacteria than hydroxyapatite is, so the teeth decay less.
+[chem20-s3.7.3] Ireland has fluoridated public water supplies since the 1960s, under the Health (Fluoridation of Water Supplies) Act 1960.
+[chem20-s3.7.4] The fluoride level is set at 0.6–0.8 mg L⁻¹ (p.p.m., parts per million), with a legal maximum of 0.8 mg L⁻¹ (since 2007).
+[chem20-s3.7.5] Too much fluoride causes dental fluorosis, which shows as white flecks or brown staining of the teeth. This is why the level is limited.
+[chem20-s3.7.6] Fluoridation is debated, and most European countries do not fluoridate water.
+[chem20-s3.8.b] The last chemical step makes sure the water is neither too acidic nor too alkaline. pH is the scale that measures this, with 7 neutral, below 7 acidic and above 7 alkaline.
+[chem20-s3.8.0] The pH of drinking water must be kept within legal limits of 6.5–9.5, usually close to neutral or slightly alkaline.
+[chem20-s3.8.1] If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH, because these are bases that neutralise acid.
+[chem20-s3.8.2] If the water is too alkaline, e.g. after lime has been added in treatment, sulfuric acid or carbon dioxide is added to lower the pH, because these give acidic solutions.
+[chem20-s3.8.3] Acidic water corrodes (slowly eats away) metal pipes and dissolves lead and copper from household plumbing, which is a health risk.
+[chem20-s3.8.4] Very alkaline water tastes bitter and leaves deposits.
+[chem20-s3.8.5] The pH also affects how well flocculation and chlorination work.
+[chem20-s3.9.b] Treatment uses energy and chemicals, so it is worth asking what it achieves. Clean water has changed human health and still shapes lives around the world.
+[chem20-s3.9.0] Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.
+[chem20-s3.9.1] In 1854 John Snow traced a cholera outbreak in London to a contaminated water pump in Broad Street, an early piece of evidence that disease spreads through water.
+[chem20-s3.9.2] Globally, about 2.2 billion people still lacked safely managed drinking water in 2022 (WHO/UNICEF).
+[chem20-s3.9.3] Contaminated water and poor sanitation cause many deaths from diarrhoeal disease, mostly of young children.
+[chem20-s3.9.4] Clean, safe water and sanitation for all is UN Sustainable Development Goal 6.
+[chem20-s3.9.5] Clean water brings benefits beyond health: less time is spent collecting water, often by women and girls; more children attend school; workers are healthier; and economies develop.
+[chem20-s3.9.6] Costs: treatment uses energy and chemicals and produces sludge, so treated water should not be wasted. There is more on this in Water contamination.
+
+CANDIDATES chem9-s2: 2. Using the kinetic theory: separation techniques
+[chem9-s2.0.b] The kinetic theory says matter is made of particles that are always moving. How close the particles are, how strongly they attract one another and how they move explain why solids, liquids and gases behave so differently.
+[chem9-s2.0.0] Solids have a fixed shape and volume and cannot be compressed (squeezed into a smaller volume), because the particles are held tightly in fixed positions by strong forces and only vibrate on the spot.
+[chem9-s2.0.1] Liquids have a fixed volume but take the shape of their container and flow, because the particles are close together but can slide past one another.
+[chem9-s2.0.2] Gases fill their container and are easily compressed, because the particles are far apart, with weak forces between them, and move rapidly and randomly. The empty space between them is what lets them be pushed closer.
+[chem9-s2.0.3] Gas pressure is caused by gas particles colliding with the walls of the container. Many fast collisions every second add up to a steady push on the walls.
+[chem9-s2.1.b] Each change of state is explained by the energy of the particles and the forces between them. Heating gives particles energy to break free of those forces, and cooling takes energy away so the forces win again.
+[chem9-s2.1.0] Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another. This happens at the melting point.
+[chem9-s2.1.1] Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.
+[chem9-s2.1.2] Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and because the fastest (highest-energy) particles leave, the remaining liquid cools.
+[chem9-s2.1.3] Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour (the substance as a gas) form within the liquid.
+[chem9-s2.1.4] Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.
+[chem9-s2.1.5] Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.
+[chem9-s2.1.6] Deposition (gas to solid directly) is the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.
+[chem9-s2.1.7] Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition.
+[chem9-s2.2.b] A heating curve plots temperature against time as a pure substance is heated at a steady rate. The flat sections show the changes of state, and they show where the supplied energy goes.
+[chem9-s2.2.0] When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.
+[chem9-s2.2.1] During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy (the energy of their movement), so the temperature does not rise even though heat is being supplied.
+[chem9-s2.2.2] The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.
+[chem9-s2.2.3] The boiling plateau (flat section) is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.
+[chem9-s2.2.4] Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C. Water melts at 0 °C and boils at 100 °C at standard pressure.
+[chem9-s2.3.b] The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.
+[chem9-s2.3.0] Assumption: the particles are tiny spheres in constant, random motion.
+[chem9-s2.3.1] Assumption: the higher the temperature, the greater the average kinetic energy (energy of movement) of the particles.
+[chem9-s2.3.2] Assumption: collisions between particles are perfectly elastic, which means no kinetic energy is lost when they collide.
+[chem9-s2.3.3] Assumption: in a gas the volume of the particles themselves is negligible (so small it can be ignored), and there are no forces between the particles except during collisions.
+[chem9-s2.4.b] A model is useful only if you know where it fails. The first two limitations come from what the simple model leaves out about the forces between particles.
+[chem9-s2.4.0] Limitation: real particles are not hard spheres, and they do attract one another. These forces between particles (intermolecular forces) are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.
+[chem9-s2.4.1] Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points. That needs the types of bonding and intermolecular forces. There is more on this in Polarity, shape and physical properties.
+[chem9-s2.5.b] The model also says nothing about what is inside particles, and it works best only for gases under certain conditions.
+[chem9-s2.5.0] Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative (it describes behaviour in words), giving no values.
+[chem9-s2.5.1] Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, because the particles are then squeezed close together or moving slowly, so gases deviate from the model. There is more on this in Gas laws and the ideal gas equation.
+[chem9-s2.6.b] A mixture is separated by using a physical property in which its components differ. So the first step is always to work out how the components differ, then choose the technique that uses that difference.
+[chem9-s2.6.0] Particle size and solubility (whether a substance dissolves) separate by filtration; solubility and volatility (how easily a substance turns to vapour) by evaporation and crystallisation; boiling point by distillation.
+[chem9-s2.6.1] Solubility in a solvent and attraction to paper separate by chromatography; immiscibility (the liquids do not mix) and density by a separating funnel.
+[chem9-s2.6.2] Heterogeneous mixtures (the components can be seen as separate parts), such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting (carefully pouring off the liquid) or a separating funnel.
+[chem9-s2.6.3] Homogeneous mixtures (uniform throughout), such as solutions and miscible liquids (liquids that mix completely), need evaporation, crystallisation, distillation or chromatography.
+[chem9-s2.7.b] Filtration separates an insoluble solid (one that does not dissolve) from a liquid. The paper has holes small enough to hold back the solid particles but large enough to let the liquid through.
+[chem9-s2.7.0] Example: sand is separated from salt solution by filtration, because sand is insoluble and the salt is dissolved in the water.
+[chem9-s2.7.1] Step 1: Fold filter paper into a cone and place it in a funnel.
+[chem9-s2.7.2] Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.
+[chem9-s2.7.3] Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate.
+[chem9-s2.8.b] When a solid is dissolved in a liquid, filtering will not work because the dissolved solid passes through the paper. Instead you remove the solvent (the liquid that does the dissolving) by heating, either completely (evaporation) or only partly (crystallisation).
+[chem9-s2.8.0] Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water. It is used when the solid does not decompose (break down) on heating.
+[chem9-s2.8.1] Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated (cannot dissolve any more solid). A drop on a cold glass rod forms crystals when it is saturated.
+[chem9-s2.8.2] Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.
+[chem9-s2.8.3] Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.
+[chem9-s2.8.4] Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution.
+[chem9-s2.9.b] Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour. The liquid with the lower boiling point boils off first and is collected separately.
+[chem9-s2.9.0] Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.
+[chem9-s2.9.1] Step 1: Heat the mixture in a flask containing anti-bumping granules (small pieces that make boiling smooth and stop violent bursts of bubbling).
+[chem9-s2.9.2] Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser (a tube that cools the vapour back to liquid).
+[chem9-s2.9.3] Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.
+[chem9-s2.9.4] Step 4: The distillate (the liquid that has condensed) is collected in a receiving flask.
+[chem9-s2.9.5] Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.
+[chem9-s2.9.6] Fractional distillation separates miscible liquids with close boiling points, using a fractionating column (a tall column that gives repeated condensing and re-boiling), e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).
+[chem9-s2.9.7] Crude oil is separated into fractions (groups of compounds with similar boiling points) by fractional distillation.
+[chem9-s2.10.b] Distillation heats liquids that may be flammable and produces vapour, so the apparatus and heat source matter as well as the method.
+[chem9-s2.10.0] Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, so the vapour cannot ignite.
+[chem9-s2.10.1] Safety: a closed system is never heated, because the pressure would build up as the vapour expands.
+[chem9-s2.10.2] Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser (a straight condenser cooled by a water jacket) with water flow, and a receiving flask.
+[chem9-s2.11.b] Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators. Each substance is carried up the paper by a solvent at its own speed.
+[chem9-s2.11.0] Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.
+[chem9-s2.11.1] Step 2: Put small spots of the mixture and of known substances on the line.
+[chem9-s2.11.2] Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, so the spots are not washed into the solvent.
+[chem9-s2.11.3] Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front (the highest point the solvent reached).
+[chem9-s2.11.4] Principle: components that are more soluble in the solvent (the mobile phase, which moves) and less attracted to the paper (the stationary phase, which stays still) travel further.
+[chem9-s2.11.5] Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.
+[chem9-s2.11.6] Components are identified by matching their spots and Rf values with those of known substances.
+[chem9-s2.11.7] Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots.
+[chem9-s2.12.b] A separating funnel separates two immiscible liquids of different density. Immiscible liquids settle into two layers, with the denser liquid underneath.
+[chem9-s2.12.0] Examples: oil and water, or an organic layer from an aqueous layer (a water-based layer), which is used to purify an ester.
+[chem9-s2.12.1] Step 1: Pour the mixture into the separating funnel and let the layers settle.
+[chem9-s2.12.2] Step 2: Remove the stopper and run off the lower, denser layer through the tap.
+[chem9-s2.12.3] Step 3: Collect the upper layer separately.
+[chem9-s2.12.4] Diagram: a separating funnel with two layers, the stopper and the tap labelled.
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem19-s1: 1. Self-ionisation of water and pH
+[chem19-s1.0.b] Even perfectly pure water contains a very small number of ions, made when water molecules pass protons (hydrogen ions, H⁺) to each other. This is the starting point for understanding pH, because it fixes what 'neutral' means.
+[chem19-s1.0.0] Pure water conducts electricity very slightly, so it must contain a small number of ions, since only moving charged particles can carry current through a liquid.
+[chem19-s1.0.1] These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another. This is a Brønsted–Lowry acid–base reaction (an acid gives a proton, a base accepts it): H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).
+[chem19-s1.0.2] H₃O⁺ is the hydronium ion (a water molecule carrying an extra proton) and OH⁻ is the hydroxide ion. The double arrow shows an equilibrium, a reaction going both ways at the same rate so that amounts stay constant.
+[chem19-s1.0.3] In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). This is the same change with the proton written as H⁺ instead of showing it attached to a water molecule.
+[chem19-s1.0.4] The equilibrium lies very far to the left, so almost all the water stays as molecules: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.
+[chem19-s1.0.5] In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻]. Square brackets mean concentration in mol L⁻¹.
+[chem19-s1.0.6] A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]. Even acidic solutions contain some OH⁻ and basic solutions contain some H⁺.
+[chem19-s1.1.b] Because water ionises only slightly, its equilibrium constant can be simplified into a single value, the ionic product of water, Kw. Work through it one step at a time.
+[chem19-s1.1.0] Step 1: Write the equilibrium constant (Kc, the ratio of product concentrations to reactant concentration at equilibrium) for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].
+[chem19-s1.1.1] Step 2: So little water ionises that [H₂O] is effectively constant, because almost every molecule is unchanged: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.
+[chem19-s1.1.2] Step 3: Combine the two constants: Kc × [H₂O] = [H⁺][OH⁻]. This new constant is the ionic product of water, Kw.
+[chem19-s1.1.3] Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations in water or any dilute aqueous solution.
+[chem19-s1.1.4] At 25 °C, Kw = 1.0 × 10⁻¹⁴ (units mol² L⁻², often omitted).
+[chem19-s1.2.b] Kw links [H⁺] and [OH⁻] in every dilute aqueous solution. It explains why pure water has pH 7 and lets you find one concentration from the other.
+[chem19-s1.2.0] Pure water at 25 °C has [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴.
+[chem19-s1.2.1] Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹.
+[chem19-s1.2.2] So pH = −log₁₀(1.0 × 10⁻⁷) = 7.0, which is why pH 7 is neutral at 25 °C.
+[chem19-s1.2.3] Kw applies to every dilute aqueous solution, not just pure water: if [H⁺] rises, [OH⁻] falls so that the product stays 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s1.2.4] Example: a solution with [H⁺] = 1.0 × 10⁻² mol L⁻¹ (pH 2) has [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² = 1.0 × 10⁻¹² mol L⁻¹.
+[chem19-s1.2.5] Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.3.b] Kw is an equilibrium constant, so it depends on temperature. The direction of the change follows from whether self-ionisation takes in or gives out heat.
+[chem19-s1.3.0] Self-ionisation is endothermic (it takes in heat) in the forward direction, with ΔH about +56 kJ mol⁻¹. It is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic (gives out heat).
+[chem19-s1.3.1] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), raising the temperature shifts the equilibrium to the right, the endothermic direction. This produces more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.
+[chem19-s1.3.2] Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.
+[chem19-s1.4.b] Because Kw rises with temperature, the pH of pure water falls as it gets hotter, yet the water is still neutral. Neutral is defined by [H⁺] = [OH⁻], not by a fixed pH.
+[chem19-s1.4.0] Kw at 0 °C is 1.1 × 10⁻¹⁵, giving a neutral pH of 7.48.
+[chem19-s1.4.1] Kw at 25 °C is 1.0 × 10⁻¹⁴, giving a neutral pH of 7.00.
+[chem19-s1.4.2] Kw at 50 °C is 5.5 × 10⁻¹⁴, giving a neutral pH of 6.63.
+[chem19-s1.4.3] Kw at 100 °C is 5.1 × 10⁻¹³, giving a neutral pH of 6.15.
+[chem19-s1.4.4] Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.
+[chem19-s1.4.5] The neutral pH is therefore lower at higher temperatures and higher at lower temperatures, so pH 7 is the neutral point only at 25 °C.
+[chem19-s1.5.b] Concentrations of H⁺ in solutions are often tiny numbers such as 0.0000001 mol L⁻¹. The pH scale turns them into easy numbers, usually between 0 and 14.
+[chem19-s1.5.0] pH is defined as pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen (hydronium) ions in mol L⁻¹.
+[chem19-s1.5.1] The scale was introduced by the Danish chemist Søren Sørensen in 1909, while working at the Carlsberg Laboratory in Copenhagen, as a convenient way to express very small [H⁺] values.
+[chem19-s1.5.2] At 25 °C, pH below 7 is acidic, pH 7 is neutral and pH above 7 is basic (alkaline); the lower the pH, the more acidic the solution.
+[chem19-s1.5.3] Where [H⁺] = 10⁻ˣ mol L⁻¹, the pH is x: for example, [H⁺] = 10⁻⁴ mol L⁻¹ gives pH 4.
+[chem19-s1.5.4] The scale is logarithmic (each step multiplies by a fixed factor): a change of 1 pH unit is a tenfold change in [H⁺]. A solution of pH 3 has 10 times the [H⁺] of one of pH 4 and 100 times that of one of pH 5.
+[chem19-s1.6.b] Putting numbers on familiar substances helps you judge whether a calculated pH is sensible. These values are approximate.
+[chem19-s1.6.0] Stomach acid has a pH of about 1–2; lemon juice about 2–3; vinegar about 3. These are acidic.
+[chem19-s1.6.1] Pure water has pH 7, and blood 7.35–7.45.
+[chem19-s1.6.2] Baking soda solution has a pH of about 8–9; milk of magnesia about 10.5. These are weakly basic.
+[chem19-s1.6.3] Household ammonia has a pH of about 11–12; oven cleaner (sodium hydroxide) about 13–14. These are strongly basic.
+[chem19-s1.7.b] Exam questions give you either [H⁺] or the pH and ask for the other. Each direction uses the same relationship, worked here with sample numbers.
+[chem19-s1.7.0] From [H⁺] to pH: pH = −log₁₀[H⁺]. For example, [H⁺] = 3.5 × 10⁻⁴ mol L⁻¹ gives pH = −log₁₀(3.5 × 10⁻⁴) = 3.46.
+[chem19-s1.7.1] For example, [H⁺] = 7.1 × 10⁻⁷ mol L⁻¹ gives pH = 6.15, which is slightly acidic at 25 °C because it is below 7.
+[chem19-s1.7.2] From pH to [H⁺]: [H⁺] = 10⁻ᵖᴴ, the antilog (the reverse of log) of −pH. For example, pH 3.7 gives [H⁺] = 10⁻³·⁷ = 2.00 × 10⁻⁴ mol L⁻¹.
+[chem19-s1.7.3] For example, pH 8.6 gives [H⁺] = 10⁻⁸·⁶ = 2.51 × 10⁻⁹ mol L⁻¹.
+[chem19-s1.7.4] On a calculator, use the log key with a minus sign to find pH, and the 10ˣ key (or inverse log) with −pH to find [H⁺]; give pH to two decimal places unless the question asks otherwise.
+[chem19-s1.8.b] The pH scale works well for the dilute aqueous solutions met in most experiments, but it breaks down outside them.
+[chem19-s1.8.0] It is normally used only between 0 and 14; very concentrated acids and alkalis go outside this range, where pH is not a convenient measure.
+[chem19-s1.8.1] For example, 2.0 M HCl has pH −log₁₀(2.0) = −0.30, a negative value.
+[chem19-s1.8.2] It is reliable only for dilute solutions; in concentrated solutions (above about 1 mol L⁻¹) the ions interact and the measured pH no longer matches −log₁₀ of the concentration.
+[chem19-s1.8.3] It applies only to aqueous solutions (those with water as the solvent).
+[chem19-s1.8.4] pH 7 is neutral only at 25 °C, because Kw and so the neutral pH change with temperature.
+[chem19-s1.9.b] The simplest way to find a pH is with an indicator, a dye that changes colour with the pH of the solution. Indicators are quick but not precise.
+[chem19-s1.9.0] Universal indicator (solution or paper): add a few drops to the solution, or dip in a strip of paper, and compare the colour with the colour chart. It gives the pH only to about the nearest whole unit. There is more on its colours in Acids, bases and their reactions.
+[chem19-s1.9.1] Single indicators such as litmus, methyl orange and phenolphthalein show only whether the pH is above or below their colour-change range, not a pH value.
+[chem19-s1.10.b] A pH meter gives a numerical reading, but it must be calibrated (set against known values) and looked after to be accurate.
+[chem19-s1.10.0] A pH meter (or pH sensor with a data-logger, a device that records readings automatically) uses a glass electrode probe that responds to [H⁺] and gives a digital reading, usually to 0.01 pH units.
+[chem19-s1.10.1] Calibrate the meter before use: place the rinsed probe in buffer solutions of known pH (e.g. pH 4.00 and 7.00, or 7.00 and 10.00) and set the meter to read these values.
+[chem19-s1.10.2] A buffer solution resists a change in pH when small amounts of acid or base are added, so its pH is reliably known. This is why buffers, not water or an acid of supposedly known pH, are used to calibrate.
+[chem19-s1.10.3] Rinse the probe with deionised water (water with dissolved ions removed) between solutions and blot it dry gently, so one solution does not contaminate the next; store the bulb wet, as directed.
+[chem19-s1.11.b] Exams ask for reasons why a meter is preferred, so know each advantage and what it improves.
+[chem19-s1.11.0] A pH meter gives a precise numerical value (e.g. 4.72) rather than an estimate to the nearest whole unit.
+[chem19-s1.11.1] A pH meter needs no judgement of colour, which varies from person to person and with lighting.
+[chem19-s1.11.2] A pH meter works in coloured or cloudy solutions, where an indicator colour cannot be seen.
+[chem19-s1.11.3] A pH meter can record pH continuously, which suits following a reaction over time, as in pH titration curves.
+[chem19-s1.12.b] The aim is to compare the pH of several substances by two methods and check that they agree.
+[chem19-s1.12.0] Aim: to measure and compare the pH of everyday substances, e.g. vinegar, lemon juice, a soft drink, tap water, toothpaste or an antacid tablet mixed with deionised water, and baking soda solution.
+[chem19-s1.12.1] Step 1: Put about 20 cm³ of each sample in a clean, labelled beaker.
+[chem19-s1.12.2] Step 2: Test each sample with universal indicator paper and record the pH from the colour chart.
+[chem19-s1.12.3] Step 3: Measure each sample with a calibrated pH meter, rinsing the probe between samples.
+[chem19-s1.12.4] Step 4: Repeat each reading.
+[chem19-s1.12.5] Use deionised water to dissolve or mix solids, because tap water may contain dissolved substances that change the pH.
+[chem19-s1.12.6] Diagram: a pH probe in a beaker of sample, connected to a meter (or data-logger) showing a digital reading.
+[chem19-s1.12.7] Diagram: universal indicator paper beside its colour chart.
+[chem19-s1.13.b] After the readings, rank the substances, compare the two methods and take care with hazards and errors.
+[chem19-s1.13.0] Results: record both sets of readings in a table and rank the substances from most acidic to most basic.
+[chem19-s1.13.1] The meter readings are more precise, and the two methods should agree to about one unit, because universal indicator reads only to about the nearest whole unit.
+[chem19-s1.13.2] Safety: wear goggles; treat oven cleaner and other strong alkalis as corrosive (use gloves, small volumes, or omit them); do not taste any sample.
+[chem19-s1.13.3] Sources of error: a probe that is not calibrated or not rinsed; a temperature different from the calibration temperature; misjudging indicator colours.
+[chem19-s1.14.b] The pH depends on the [H⁺] in the solution, which depends on how far the acid dissociates (splits into ions) and on its concentration. A strong acid dissociates almost completely; a weak acid only partly, measured by its Ka (the acid dissociation constant).
+[chem19-s1.14.0] Tendency to dissociate: at the same concentration, a strong acid has a lower pH than a weak acid.
+[chem19-s1.14.1] For example, 0.10 M HCl has pH 1.00, but 0.10 M ethanoic acid (Ka 1.8 × 10⁻⁵) has pH 2.87, because the weak acid is only about 1% dissociated.
+[chem19-s1.14.2] Concentration: diluting an acid lowers [H⁺] and raises the pH.
+[chem19-s1.14.3] Diluting a strong acid ten times raises its pH by 1: 0.10 M HCl has pH 1.00 and 0.010 M HCl has pH 2.00.
+[chem19-s1.14.4] Diluting a weak acid ten times raises its pH by only about 0.5: 0.10 M ethanoic acid has pH 2.87 and 0.010 M has pH 3.37.
+[chem19-s1.14.5] This is because [H⁺] depends on the square root of the concentration, and dilution makes a weak acid dissociate a larger fraction. There is more on this in pH calculations and dissociation constants.
+[chem19-s1.15.b] Temperature changes pH because it changes Kw, Ka and Kb (the dissociation constants of water, weak acids and weak bases).
+[chem19-s1.15.0] Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls, to 6.15 at 100 °C.
+[chem19-s1.15.1] Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.
+[chem19-s1.15.2] For a base, the pH also changes with temperature at fixed [OH⁻], because [H⁺] = Kw ÷ [OH⁻] and Kw changes.
+[chem19-s1.15.3] For example, 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C, because Kw is larger at 50 °C so [H⁺] is larger.
+[chem19-s1.16.b] Strength and pH are different ideas. Strength is how far an acid dissociates; pH is the [H⁺] actually present, which also depends on concentration.
+[chem19-s1.16.0] pH measures acidity (the [H⁺] in the solution), not the strength of the acid: a very dilute strong acid can have a higher pH than a concentrated weak acid.
+[chem19-s1.16.1] For example, 1.0 × 10⁻⁵ M HCl has pH 5.00, while 1.0 M ethanoic acid has pH 2.37.
+
+CANDIDATES chem20-s2: 2. Water contamination
+[chem20-s2.0.b] Water covers most of the planet, yet very little of it can be drunk or used. Contamination (pollution of water by unwanted substances) removes even more of that small share.
+[chem20-s2.0.0] About 97.5% of the Earth's water is salt water in the oceans, which is unsuitable for drinking or farming; only about 2.5% is fresh water.
+[chem20-s2.0.1] Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater (water held in rock and soil that can be reached by wells).
+[chem20-s2.0.2] Fresh water is constantly recycled by the water cycle (evaporation, rainfall and run-off), but the amount available in a place at a time is limited, and demand rises with population, farming and industry.
+[chem20-s2.0.3] Contamination makes some of the available fresh water unusable, so there is even less to share between all these demands.
+[chem20-s2.1.b] Making water fit to drink, and cleaning it again after use, takes machinery, chemicals and electricity. Each of these has a cost to the energy supply and to the environment.
+[chem20-s2.1.0] Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it returns to rivers.
+[chem20-s2.1.1] Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, and sludge (the solid waste left after treatment) must be disposed of.
+[chem20-s2.1.2] Abstraction (taking water out of a river or lake) lowers the level of rivers and lakes, which affects the living things that depend on them.
+[chem20-s2.1.3] Leaking pipes waste treated water and the energy used to treat it, because water that is lost has already been pumped and cleaned.
+[chem20-s2.1.4] Making fresh water from sea water by desalination (removing the dissolved salts), e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.
+[chem20-s2.1.5] So conserving water, by fixing leaks and using less, also saves energy and reduces emissions.
+[chem20-s2.2.b] Fish breathe oxygen that is dissolved in the water, and only a little dissolves. Pollution that feeds bacteria uses that oxygen up, and biochemical oxygen demand (BOD) is the measure of how much.
+[chem20-s2.2.0] Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m., parts per million) of dissolved oxygen, and warmer water holds less.
+[chem20-s2.2.1] When organic matter (material from living things, such as sewage, slurry, food waste or dead plants) enters water, aerobic bacteria (bacteria that use oxygen) break it down, using up dissolved oxygen.
+[chem20-s2.2.2] Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days. It is measured in mg L⁻¹ (p.p.m.) of oxygen.
+[chem20-s2.2.3] A high BOD means a lot of organic pollution: the oxygen is used up and fish die (a fish kill). When the oxygen is gone, anaerobic bacteria (which live without oxygen) take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.
+[chem20-s2.2.4] Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage (sewage that has had no treatment) has a BOD of a few hundred mg L⁻¹ (about 300).
+[chem20-s2.2.5] Farm wastes such as silage effluent (the liquid that drains from stored fermented grass) and slurry (liquid animal manure) have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river.
+[chem20-s2.3.b] The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity. The conditions are fixed so that the only thing using up oxygen is the bacteria and the results can be compared.
+[chem20-s2.3.0] The sample is kept in the dark because this prevents photosynthesis by algae and plants from adding oxygen.
+[chem20-s2.3.1] The temperature is fixed at 20 °C because both the solubility of oxygen (how much dissolves in the water) and the rate of bacterial activity depend on temperature.
+[chem20-s2.3.2] The time is fixed at five days so that results are comparable.
+[chem20-s2.3.3] Step 1: Measure the dissolved oxygen in one bottle of the sample at the start.
+[chem20-s2.3.4] Step 2: Fill a second bottle completely and seal it, so no air can add oxygen, then keep it in the dark at 20 °C for five days.
+[chem20-s2.3.5] Step 3: Measure the dissolved oxygen in the second bottle after five days.
+[chem20-s2.3.6] Step 4: The BOD is the difference between the two dissolved oxygen readings, because that difference is the oxygen the bacteria used.
+[chem20-s2.3.7] Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation (keeping the sample under set conditions) in the dark at 20 °C for five days.
+[chem20-s2.4.b] Sewage is waste water from toilets, kitchens and washing. If it is untreated or poorly treated, it harms a river in three different ways.
+[chem20-s2.4.0] Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion (the water losing its dissolved oxygen).
+[chem20-s2.4.1] Sewage also contains nitrates and phosphates, which cause eutrophication (an overgrowth of algae caused by too many nutrients).
+[chem20-s2.4.2] Sewage contains disease-causing microorganisms, including bacteria such as E. coli and those causing cholera and typhoid, as well as viruses and parasites.
+[chem20-s2.4.3] Faecal contamination (contamination with human or animal faeces) of drinking water or bathing water causes gastrointestinal illness (illness of the stomach and gut); this is why sewage must be treated before discharge and drinking water disinfected.
+[chem20-s2.5.b] Effluent means liquid waste that flows out into the environment. Farms produce several kinds, and each can reach rivers through spills or run-off (water washing over land into streams).
+[chem20-s2.5.0] Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.
+[chem20-s2.5.1] Slurry and silage effluent have a very high BOD, so they use up the dissolved oxygen and cause fish kills if they reach a river.
+[chem20-s2.5.2] Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.
+[chem20-s2.5.3] Nitrate in drinking water is a health concern, especially for babies, because it can reduce the blood's ability to carry oxygen.
+[chem20-s2.5.4] The EU drinking-water limit for nitrate is 50 mg L⁻¹.
+[chem20-s2.5.5] Pesticides (chemicals that kill pests) washed off farmland can contaminate water and are toxic to aquatic life.
+[chem20-s2.6.b] Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants. It is a chain of events that starts with added nutrients and can end with the death of fish.
+[chem20-s2.6.0] Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.
+[chem20-s2.6.1] Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom (a thick layer of algae) that covers the surface and blocks light from plants below.
+[chem20-s2.6.2] Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply. Living algae growing in light do not use up the oxygen; the bacteria decomposing them after they die do.
+[chem20-s2.6.3] Step 4: Dissolved oxygen falls so low that fish and other animals die, and anaerobic bacteria then produce foul-smelling H₂S.
+[chem20-s2.6.4] Some algal blooms, e.g. of cyanobacteria ("blue-green algae"), also produce toxins harmful to animals and people.
+[chem20-s2.6.5] Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain (which would wash it into rivers), and buffer strips (strips of vegetation) along rivers.
+[chem20-s2.6.6] Prevention: proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, and phosphate-free detergents.
+[chem20-s2.7.b] Factories and power stations discharge waste water that can harm water in several ways: poisoning it, changing its pH, using up its oxygen or heating it.
+[chem20-s2.7.0] Industrial effluent can contain toxic chemicals such as heavy metals, solvents and oils.
+[chem20-s2.7.1] Industrial effluent can contain acids or alkalis that change the pH of the water, which harms the organisms living in it.
+[chem20-s2.7.2] Organic waste from industries such as breweries and food processing has a high BOD, because bacteria use oxygen to break it down.
+[chem20-s2.7.3] Thermal pollution (pollution by heat): warm water from power stations and factories holds less dissolved oxygen.
+[chem20-s2.7.4] Warm water also speeds up the metabolism (the chemical reactions of life), and so the oxygen demand, of organisms, so even less oxygen is available.
+[chem20-s2.7.5] Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals.
+[chem20-s2.8.b] Heavy metals are dense metals whose ions are poisonous to living things. Their danger lies in how they act inside cells and in how they build up over time.
+[chem20-s2.8.0] Heavy metal ions such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations, in micrograms per litre.
+[chem20-s2.8.1] Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes (the proteins that speed up reactions in cells), changing their shape and stopping them working.
+[chem20-s2.8.2] Heavy metals damage the nervous system, kidneys and liver.
+[chem20-s2.8.3] They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation).
+[chem20-s2.8.4] Their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.
+[chem20-s2.8.5] Heavy metal ions can be removed from water by precipitation (turning them into a solid that forms in the water) as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange (swapping the metal ions for harmless ions).
+[chem20-s2.9.b] Each of the three metals reaches water from a different source and harms the body in a particular way. Two Japanese disease outbreaks show what the harm can look like.
+[chem20-s2.9.0] Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic, because such water dissolves lead more readily.
+[chem20-s2.9.1] Lead damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺.
+[chem20-s2.9.2] The EU drinking-water limit for lead is 10 µg L⁻¹ (0.010 mg L⁻¹).
+[chem20-s2.9.3] At Minamata, Japan, the Chisso Corporation's chemical factory discharged mercury compounds into the bay.
+[chem20-s2.9.4] Methylmercury (an organic mercury compound) built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.
+[chem20-s2.9.5] The disease was called Minamata disease and was officially recognised in 1956.
+[chem20-s2.9.6] Cadmium comes from mining and some industries and damages the kidneys and bones.
+[chem20-s2.9.7] Itai-itai disease in Japan was caused by cadmium from mining, which reached river water used for rice fields.
+[chem20-s2.10.b] Plastic that breaks into tiny pieces does not disappear; it spreads through water and into living things. These small pieces are called microplastics.
+[chem20-s2.10.0] Microplastics are pieces of plastic smaller than 5 mm.
+[chem20-s2.10.1] Primary microplastics are made small, e.g. microbeads once used in cosmetics and plastic pellets.
+[chem20-s2.10.2] Secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.
+[chem20-s2.10.3] Plastics are very unreactive and not biodegradable (bacteria cannot break them down), so they persist for hundreds of years. There is more on this in Addition polymers.
+[chem20-s2.10.4] Microplastics are swallowed by plankton (tiny drifting organisms), shellfish and fish, blocking feeding and digestion, and they pass up the food chain.
+[chem20-s2.10.5] Microplastics can carry adsorbed toxic chemicals (chemicals stuck to their surface).
+[chem20-s2.10.6] Microplastics are found in drinking water and food; their long-term effects on human health are still being researched.
+[chem20-s2.11.b] Acidification is the lowering of the pH of water. Gases from burning fuels dissolve in rain to make acids, and acidic waste water adds to the effect.
+[chem20-s2.11.0] Sulfur dioxide dissolves in rain: SO₂ + H₂O → H₂SO₃.
+[chem20-s2.11.1] Sulfur dioxide and oxygen form sulfuric acid in rain: 2SO₂ + O₂ + 2H₂O → 2H₂SO₄.
+[chem20-s2.11.2] Nitrogen dioxide forms nitric acid in rain: 4NO₂ + O₂ + 2H₂O → 4HNO₃.
+[chem20-s2.11.3] Acidic industrial and mine waste water also lowers the pH of rivers and lakes.
+[chem20-s2.11.4] Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH.
+[chem20-s2.12.b] Low pH harms water life directly, through enzymes, and indirectly, by dissolving substances from rocks, shells and pipes.
+[chem20-s2.12.0] Enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells.
+[chem20-s2.12.1] Fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.
+[chem20-s2.12.2] Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so that fish can't take in oxygen.
+[chem20-s2.12.3] Acidic water dissolves the calcium carbonate shells of snails and shellfish: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.
+[chem20-s2.12.4] In drinking water, acidic water dissolves lead and copper from pipes.

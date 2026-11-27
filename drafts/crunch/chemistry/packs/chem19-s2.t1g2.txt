@@ -1,0 +1,335 @@
+MODE: links only (another package rates cost)
+TARGET chem19-s2: 2. pH calculations and dissociation constants
+[chem19-s2.0.b] pH is a number that measures how acidic a solution is: pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen ions in mol L⁻¹ (M means mol L⁻¹). A strong acid ionises completely, so its [H⁺] can be read straight from the concentration of the acid.
+[chem19-s2.0.0] A strong acid is fully dissociated (every molecule splits into ions), so [H⁺] = concentration of the acid × number of H⁺ released per formula unit (its basicity, the number of H⁺ each unit of acid can give).
+[chem19-s2.0.1] Monoprotic (monobasic) strong acids, which release one H⁺ each, such as HCl and HNO₃, give [H⁺] = [acid], because each molecule supplies exactly one H⁺.
+[chem19-s2.0.2] For example, 0.010 M HCl has [H⁺] = 0.010 mol L⁻¹, so pH = −log₁₀(0.010) = 2.00.
+[chem19-s2.0.3] For example, 0.025 M HCl has pH = −log₁₀(0.025) = 1.60.
+[chem19-s2.0.4] Sulfuric acid is diprotic (it can release two H⁺) and is treated as fully dissociated: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × [H₂SO₄].
+[chem19-s2.0.5] For example, 0.050 M H₂SO₄ has [H⁺] = 0.10 mol L⁻¹, so pH = 1.00.
+[chem19-s2.1.b] Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.
+[chem19-s2.1.0] Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.
+[chem19-s2.1.1] Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹, because 250 cm³ is 0.250 L.
+[chem19-s2.1.2] Step 2: Concentration in mol L⁻¹ = 20 ÷ 98 = 0.204 mol L⁻¹, dividing by the molar mass.
+[chem19-s2.1.3] Step 3: [H⁺] = 2 × 0.204 = 0.408 mol L⁻¹, because each H₂SO₄ releases 2H⁺.
+[chem19-s2.1.4] Step 4: pH = −log₁₀(0.408) = 0.39.
+[chem19-s2.2.b] A strong base is treated like a strong acid, except that it supplies OH⁻ (hydroxide ions) rather than H⁺. So you find [OH⁻] first and then convert it to a pH.
+[chem19-s2.2.0] A strong base is fully dissociated, so [OH⁻] = concentration of the base × number of OH⁻ per formula unit: NaOH and KOH give 1 OH⁻, while Ca(OH)₂ gives 2.
+[chem19-s2.2.1] Method: find [OH⁻], then pOH = −log₁₀[OH⁻] (pOH is the same scale as pH but for OH⁻); pH = 14 − pOH at 25 °C, because pH + pOH = 14 only at that temperature.
+[chem19-s2.2.2] Alternative method: [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹⁴ ÷ [OH⁻] (Kw is the ionic product of water, [H⁺][OH⁻]), then pH = −log₁₀[H⁺]; both methods give the same answer.
+[chem19-s2.2.3] For example, 0.010 M NaOH has [OH⁻] = 0.010, so pOH = 2.00 and pH = 14 − 2.00 = 12.00.
+[chem19-s2.2.4] For example, 0.15 M NaOH has pOH = −log₁₀(0.15) = 0.82, so pH = 13.18.
+[chem19-s2.2.5] For example, 0.010 M Ca(OH)₂ dissociates as Ca(OH)₂ → Ca²⁺ + 2OH⁻, so [OH⁻] = 0.020 mol L⁻¹, pOH = 1.70 and pH = 12.30.
+[chem19-s2.2.6] Example from a mass: 9.0 g of KOH (56 g mol⁻¹) made up to 500 cm³ gives 18 g L⁻¹ ÷ 56 = 0.321 mol L⁻¹ = [OH⁻].
+[chem19-s2.2.7] For the KOH example, pOH = 0.49 and pH = 13.51.
+[chem19-s2.3.b] A weak acid dissociates only slightly, so you cannot take [H⁺] equal to its concentration. Instead you use Ka, the acid dissociation constant, a number that measures how far the acid dissociates (the larger the Ka, the stronger the acid).
+[chem19-s2.3.0] A weak acid is only slightly dissociated, so [H⁺] is much less than the acid concentration and must be found from Ka.
+[chem19-s2.3.1] Formula: [H⁺] = √(Ka × c), where c is the concentration of the acid in mol L⁻¹; this formula must be learned, because it is not in the Formulae and Tables booklet.
+[chem19-s2.3.2] It assumes the acid is monoprotic (gives one H⁺ per molecule), that the amount dissociated is very small compared with c (so c − x ≈ c, where x is the amount that dissociates), and that the H⁺ from water is negligible.
+[chem19-s2.3.3] The approximation is good: the exact quadratic answer for 0.10 M ethanoic acid is pH 2.88, so the formula is good to about 0.01 pH unit.
+[chem19-s2.4.b] Once [H⁺] is found from √(Ka × c), the pH follows with −log₁₀ as for any acid. These examples use Ka values at 25 °C.
+[chem19-s2.4.0] For example, 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵ has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.4.1] So its pH = −log₁₀(1.34 × 10⁻³) = 2.87.
+[chem19-s2.4.2] For example, 0.50 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.50) = √(9.0 × 10⁻⁶) = 3.0 × 10⁻³ mol L⁻¹, so pH = 2.52.
+[chem19-s2.4.3] For example, 0.10 M methanoic acid with Ka = 1.8 × 10⁻⁴ has [H⁺] = √(1.8 × 10⁻⁵) = 4.24 × 10⁻³ mol L⁻¹, so pH = 2.37.
+[chem19-s2.4.4] Methanoic acid has a lower pH than ethanoic acid at the same concentration, because it is the stronger acid (larger Ka).
+[chem19-s2.4.5] Example from a mass: 1.48 g of propanoic acid (CH₃CH₂COOH, 74 g mol⁻¹) in 200 cm³ gives moles = 1.48 ÷ 74 = 0.0200 mol.
+[chem19-s2.4.6] Concentration c = 0.0200 ÷ 0.200 = 0.100 mol L⁻¹, with the volume converted to litres.
+[chem19-s2.4.7] With Ka = 1.3 × 10⁻⁵, [H⁺] = √(1.3 × 10⁻⁵ × 0.100) = 1.14 × 10⁻³ mol L⁻¹, so pH = 2.94.
+[chem19-s2.5.b] A weak base reacts only slightly with water to give OH⁻, so it is handled like a weak acid but with Kb, the base dissociation constant (a measure of how far the base dissociates). You find [OH⁻] first.
+[chem19-s2.5.0] Formula: [OH⁻] = √(Kb × c), with the same assumptions as for weak acids (the amount dissociated is very small compared with c, and OH⁻ from water is negligible); then pOH = −log₁₀[OH⁻] and pH = 14 − pOH.
+[chem19-s2.5.1] For example, 0.10 M ammonia with Kb = 1.8 × 10⁻⁵ has [OH⁻] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.5.2] So its pOH = 2.87 and pH = 14 − 2.87 = 11.13.
+[chem19-s2.5.3] For example, 0.050 M ammonia has [OH⁻] = √(1.8 × 10⁻⁵ × 0.050) = 9.49 × 10⁻⁴ mol L⁻¹, so pOH = 3.02 and pH = 10.98.
+[chem19-s2.6.b] Sometimes the pH is given and you must work backwards to a concentration or to Ka. Undo the log with 10 raised to the power of minus pH.
+[chem19-s2.6.0] Concentration of a strong acid from its pH: for a monoprotic acid, [acid] = [H⁺] = 10⁻ᵖᴴ, because pH = −log₁₀[H⁺].
+[chem19-s2.6.1] For example, a strong monoprotic acid HX with pH 5.65 has [HX] = 10⁻⁵·⁶⁵ = 2.24 × 10⁻⁶ mol L⁻¹.
+[chem19-s2.6.2] [OH⁻] from pH: [OH⁻] = Kw ÷ [H⁺], where Kw is 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.6.3] For example, at pH 5.65, pOH = 14 − 5.65 = 8.35, so [OH⁻] = 10⁻⁸·³⁵ = 4.47 × 10⁻⁹ mol L⁻¹, the same as 1.0 × 10⁻¹⁴ ÷ 10⁻⁵·⁶⁵.
+[chem19-s2.6.4] Ka of a weak acid from its pH: [H⁺] = 10⁻ᵖᴴ, then Ka = [H⁺]² ÷ c, which is the formula [H⁺] = √(Ka × c) rearranged.
+[chem19-s2.6.5] For example, a 0.10 M weak monoprotic acid with pH 3.00 has [H⁺] = 1.0 × 10⁻³, so Ka = (1.0 × 10⁻³)² ÷ 0.10 = 1.0 × 10⁻⁵.
+[chem19-s2.6.6] Concentration of a weak acid from its pH and Ka: c = [H⁺]² ÷ Ka.
+[chem19-s2.6.7] For example, ethanoic acid of pH 3.00 has c = (1.0 × 10⁻³)² ÷ 1.8 × 10⁻⁵ = 0.0556 mol L⁻¹.
+[chem19-s2.7.b] Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.
+[chem19-s2.7.0] First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).
+[chem19-s2.7.1] For any base, find [OH⁻] first, then convert to pH; do not put [OH⁻] into −log₁₀ and call the result pH.
+[chem19-s2.7.2] Convert masses to mol L⁻¹ first: n = m ÷ M (moles = mass ÷ molar mass), then c = n ÷ V, with V in litres.
+[chem19-s2.7.3] Check that the answer is sensible: acids have pH below 7, bases have pH above 7, and a weak acid has a higher pH than a strong acid of the same concentration.
+[chem19-s2.7.4] Give pH answers to two decimal places.
+[chem19-s2.8.b] When an acid or base dissolves in water, it splits into ions; this is called dissociation. Writing the equation for it is the starting point for strength and for the dissociation constants that follow.
+[chem19-s2.8.0] A general acid is written HA; in water it dissociates by donating a proton (an H⁺ ion) to water: HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or simply HA(aq) ⇌ H⁺(aq) + A⁻(aq).
+[chem19-s2.8.1] For example, ethanoic acid dissociates as CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq); A⁻ is the ethanoate ion.
+[chem19-s2.8.2] A general base that contains hydroxide is written BOH: BOH(aq) ⇌ B⁺(aq) + OH⁻(aq).
+[chem19-s2.8.3] A base such as ammonia, written B, produces OH⁻ by accepting a proton from water: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).
+[chem19-s2.8.4] Here B⁺ is the ammonium ion, NH₄⁺ (BH⁺ in some books).
+[chem19-s2.8.5] For a strong acid or base the dissociation goes to completion, shown by a single arrow (→); for a weak acid or base it is an equilibrium (⇌, a reaction that runs both ways) that lies well to the left, so most of the molecules stay undissociated.
+[chem19-s2.9.b] The acid dissociation constant Ka comes from the equilibrium constant Kc (products over reactants, each concentration in mol L⁻¹) for the acid reacting with water. Water is then left out, for a reason you can state.
+[chem19-s2.9.0] Step 1: Write the equilibrium: HA + H₂O ⇌ H₃O⁺ + A⁻.
+[chem19-s2.9.1] Step 2: Write Kc as products over reactants: Kc = [H₃O⁺][A⁻] ÷ ([HA][H₂O]).
+[chem19-s2.9.2] Step 3: In a dilute solution [H₂O] is effectively constant (55.6 mol L⁻¹, from 1000 ÷ 18), because so little water reacts; so it is combined with Kc: Ka = Kc × [H₂O].
+[chem19-s2.9.3] Result: Ka = [H₃O⁺][A⁻] ÷ [HA], or in simplified form Ka = [H⁺][A⁻] ÷ [HA]; Ka is the acid dissociation constant.
+[chem19-s2.9.4] Example: for ethanoic acid, Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.9.5] The units of Ka are mol L⁻¹ (concentration² ÷ concentration); they are often omitted.
+[chem19-s2.10.b] The base dissociation constant Kb is found by exactly the same steps as Ka, using the equilibrium of a base with water.
+[chem19-s2.10.0] For B + H₂O ⇌ B⁺ + OH⁻ (or BOH ⇌ B⁺ + OH⁻), the same steps give the base dissociation constant: Kb = [B⁺][OH⁻] ÷ [B] (or [B⁺][OH⁻] ÷ [BOH]).
+[chem19-s2.10.1] [H₂O] is again effectively constant and is absorbed into Kb, so it does not appear in the expression.
+[chem19-s2.10.2] Example: for ammonia, Kb = [NH₄⁺][OH⁻] ÷ [NH₃] = 1.8 × 10⁻⁵ at 25 °C.
+[chem19-s2.11.b] Ka and Kb are equilibrium constants, so a large value means the equilibrium lies far to the right and a small value means it lies far to the left. This makes them a direct measure of strength.
+[chem19-s2.11.0] Ka measures the strength of an acid, its tendency to donate a proton: the larger Ka, the further the equilibrium lies to the right and the stronger the acid.
+[chem19-s2.11.1] Likewise, the larger Kb, the stronger the base.
+[chem19-s2.11.2] Weak acids have small Ka values (much less than 1): methanoic acid 1.8 × 10⁻⁴, benzoic acid 6.3 × 10⁻⁵, ethanoic acid 1.8 × 10⁻⁵, propanoic acid 1.3 × 10⁻⁵ (strongest to weakest).
+[chem19-s2.11.3] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) dissociate essentially completely, so their Ka or Kb values are very large and the expressions are not used.
+[chem19-s2.11.4] Ka and Kb are used for weak acids and bases.
+[chem19-s2.11.5] Like all equilibrium constants, Ka and Kb are constant at a given temperature and do not change with concentration; values are quoted at 25 °C.
+[chem19-s2.12.b] The weak acid formula comes from the Ka expression plus one approximation. If you can show these four steps, you can state the formula and the assumption behind it.
+[chem19-s2.12.0] Step 1: Start with c mol L⁻¹ of a weak acid HA, of which x mol L⁻¹ dissociates. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x, because each HA that dissociates gives one H⁺ and one A⁻.
+[chem19-s2.12.1] Step 2: Ka = x × x ÷ (c − x) = x² ÷ (c − x).
+[chem19-s2.12.2] Step 3: A weak acid dissociates so little that x is tiny compared with c, so c − x ≈ c and Ka = x² ÷ c.
+[chem19-s2.12.3] Step 4: x² = Ka × c, so [H⁺] = √(Ka × c).
+[chem19-s2.12.4] The same steps for a weak base give [OH⁻] = √(Kb × c); the formulas are used in the weak acid and weak base calculations earlier in this subsection.
+[chem19-s2.13.b] Strength describes how far an acid or base splits into ions. The degree of dissociation puts a number on this, and it is what separates strong from weak.
+[chem19-s2.13.0] The degree of dissociation is the fraction of acid (or base) molecules that have dissociated into ions in solution; as a percentage, % dissociation = (concentration dissociated ÷ initial concentration) × 100.
+[chem19-s2.13.1] For an acid HA, % dissociation = ([H⁺] at equilibrium ÷ initial [HA]) × 100; for a base, % dissociation = ([OH⁻] ÷ initial [base]) × 100.
+[chem19-s2.13.2] Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) are essentially 100% dissociated in dilute solution, because the reaction goes to completion.
+[chem19-s2.13.3] Weak acids (e.g. ethanoic acid) and weak bases (e.g. ammonia) are only slightly dissociated, typically a few per cent or less.
+[chem19-s2.13.4] For example, 0.10 M ethanoic acid is about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH.
+[chem19-s2.13.5] So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium.
+[chem19-s2.13.6] In Brønsted–Lowry terms (acids donate protons, bases accept them), a strong acid is a good proton donor whose conjugate base (the ion left after it loses H⁺, e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.
+[chem19-s2.13.7] A weak acid's conjugate base (e.g. CH₃COO⁻) readily takes the proton back, so the equilibrium lies to the left.
+[chem19-s2.14.b] Ka and Kb let you rank weak acids and bases and work out their percentage dissociation. Compare them only at the same concentration and temperature.
+[chem19-s2.14.0] At the same concentration and temperature, the acid with the larger Ka is dissociated to a greater degree and is the stronger acid; the base with the larger Kb is the stronger base.
+[chem19-s2.14.1] For example, methanoic acid (Ka 1.8 × 10⁻⁴) is a stronger acid than ethanoic acid (Ka 1.8 × 10⁻⁵): at 0.10 M, methanoic acid is 4.2% dissociated and ethanoic acid 1.3%.
+[chem19-s2.14.2] Formula: degree of dissociation (as a fraction) = [H⁺] ÷ c = √(Ka × c) ÷ c = √(Ka ÷ c); for a weak base, the same form is √(Kb ÷ c).
+[chem19-s2.14.3] Worked example: 0.10 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.
+[chem19-s2.14.4] Its % dissociation = (1.34 × 10⁻³ ÷ 0.10) × 100 = 1.34%.
+[chem19-s2.14.5] Worked example: 0.10 M ammonia (Kb 1.8 × 10⁻⁵) has [OH⁻] = 1.34 × 10⁻³ mol L⁻¹, so 1.34% of the ammonia has reacted to form NH₄⁺ and OH⁻.
+[chem19-s2.14.6] A very small Ka (or Kb) means a very low degree of dissociation; the Ka values of strong acids are so large that dissociation is complete, which is why Ka is used only to compare weak acids.
+[chem19-s2.15.b] Diluting a weak acid does not change Ka, but it does change how much of the acid is dissociated. The percentage dissociation and the [H⁺] move in opposite directions.
+[chem19-s2.15.0] Ka is constant at a given temperature, but the degree of dissociation of a weak acid increases as the solution is diluted, because √(Ka ÷ c) gets larger as c gets smaller.
+[chem19-s2.15.1] For example, ethanoic acid is 0.42% dissociated at 1.0 M, 1.34% at 0.10 M and 4.2% at 0.010 M.
+[chem19-s2.15.2] By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.
+[chem19-s2.15.3] Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises.
+[chem19-s2.15.4] A strong acid is fully dissociated at every dilute concentration, so its degree of dissociation does not change on dilution.
+[chem19-s2.16.b] An acid and the base left after it loses H⁺ are a conjugate acid–base pair. Their dissociation constants are linked through Kw, the ionic product of water.
+[chem19-s2.16.0] For a conjugate acid–base pair in water, Ka (of the acid) × Kb (of its conjugate base) = Kw = 1.0 × 10⁻¹⁴ at 25 °C.
+[chem19-s2.16.1] So the larger the Ka of an acid, the smaller the Kb of its conjugate base: the stronger the acid, the weaker its conjugate base.
+[chem19-s2.16.2] Example: Kb of the ethanoate ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+[chem19-s2.16.3] Example: Ka of the ammonium ion = 1.0 × 10⁻¹⁴ ÷ 1.8 × 10⁻⁵ = 5.6 × 10⁻¹⁰.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem8-s2: 2. Solutions and concentration
+[chem8-s2.0.b] Much of chemistry happens in solution, so you need exact words for the parts of one. Every later idea in this subsection, from concentration to dilution, is built on them.
+[chem8-s2.0.0] A solution is a uniform (homogeneous) mixture of a solute dissolved in a solvent. Uniform means it looks and behaves the same throughout, with no layers or visible particles.
+[chem8-s2.0.1] The solute is the substance that dissolves, and the solvent is the substance it dissolves in. When the solvent is water the solution is called an aqueous solution.
+[chem8-s2.1.b] A solvent can only hold so much solute at a given temperature. The names unsaturated, saturated and supersaturated describe how close a solution is to that limit, or beyond it.
+[chem8-s2.1.0] An unsaturated solution can still dissolve more solute at that temperature, so extra solute added to it simply dissolves.
+[chem8-s2.1.1] A saturated solution contains the maximum amount of solute that can dissolve at that temperature, with undissolved solid present. Any more solute added just sits at the bottom.
+[chem8-s2.1.2] A supersaturated solution contains more dissolved solute than a saturated solution holds at that temperature. It is unstable, which means it is easily upset and will not stay as it is.
+[chem8-s2.1.3] A supersaturated solution is made by cooling a hot saturated solution carefully. A solid is usually more soluble when hot, so the cooled solution is left holding more than it normally could.
+[chem8-s2.1.4] Adding a small seed crystal (a tiny crystal of the solute) to a supersaturated solution makes the excess solute crystallise suddenly, because the crystal gives the dissolved solute a surface to grow on.
+[chem8-s2.1.5] Examples of solutes that form supersaturated solutions: sodium thiosulfate and sodium ethanoate.
+[chem8-s2.2.b] Saying a solution is strong or weak is not precise enough for chemistry. Concentration gives the amount of solute in a fixed volume, so it can be calculated with and compared.
+[chem8-s2.2.0] Concentration is the amount of solute dissolved in a given volume of solution, usually in mol L⁻¹ (molarity, M, meaning moles of solute per litre) or g L⁻¹ (grams of solute per litre).
+[chem8-s2.2.1] Concentration (mol L⁻¹) = moles of solute ÷ volume of solution in litres, so c = n ÷ V and n = c × V. Remember that the volume is that of the whole solution, not just the solvent.
+[chem8-s2.2.2] Model: the same number of solute particles in a smaller volume gives a higher concentration, because the particles are packed more closely. Diluting spreads the same particles through a larger volume.
+[chem8-s2.2.3] A standard solution is a solution whose concentration is accurately known. It is the starting point for finding the concentrations of other solutions.
+[chem8-s2.3.b] Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.
+[chem8-s2.3.0] Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.
+[chem8-s2.3.1] The 0.0500 mol is made up to 500 cm³ (0.500 L). Then c = 0.0500 ÷ 0.500 = 0.100 mol L⁻¹.
+[chem8-s2.3.2] Finding a mass needed: for 250 cm³ of 0.100 M sodium hydroxide (M = 40 g mol⁻¹), first find the moles from n = c × V = 0.100 × 0.250 = 0.0250 mol.
+[chem8-s2.3.3] Then change moles to mass by multiplying by the molar mass (the mass of one mole): m = 0.0250 × 40 = 1.00 g.
+[chem8-s2.4.b] To make a standard solution by weighing, you must trust the mass on the balance to be the true amount of the substance. Only certain substances are reliable enough, and they are called primary standards.
+[chem8-s2.4.0] A primary standard is a substance that can be weighed out accurately to make a standard solution directly.
+[chem8-s2.4.1] A primary standard is available in a very pure state, so the mass weighed is all the substance and not impurities.
+[chem8-s2.4.2] A primary standard is stable in air: it does not absorb water or carbon dioxide, or react with oxygen. If it did, its mass would change while being weighed.
+[chem8-s2.4.3] A primary standard has a known formula, so its molar mass and the moles weighed out can be calculated, and it dissolves readily in water.
+[chem8-s2.4.4] A primary standard preferably has a high molar mass, which reduces weighing errors. A larger mass is needed for each mole, so a small error on the balance is a smaller fraction of the whole.
+[chem8-s2.5.b] Which substance you choose depends on the type of titration (a method that reacts measured volumes of two solutions to find an unknown concentration). Some familiar laboratory chemicals fail the tests for a primary standard.
+[chem8-s2.5.0] Anhydrous sodium carbonate is a primary standard used in acid–base titrations (reactions between an acid and a base).
+[chem8-s2.5.1] Ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O, dissolved in dilute sulfuric acid, is a primary standard for redox titrations (reactions involving the transfer of electrons).
+[chem8-s2.5.2] Sodium hydroxide is not a primary standard because it absorbs water and carbon dioxide from the air, so its mass is not the true mass of sodium hydroxide.
+[chem8-s2.5.3] Hydrochloric acid is not a primary standard because its concentration changes as HCl evaporates.
+[chem8-s2.5.4] Solutions of sodium hydroxide and hydrochloric acid are standardised, meaning their exact concentration is found, by titration against a primary standard.
+[chem8-s2.6.b] Making a standard solution from a weighed primary standard is an investigation with a fixed method. The aim is a solution of accurately known concentration, here 250 cm³ in a volumetric flask (a flask with a single mark showing an exact volume).
+[chem8-s2.6.0] 1. Weigh accurately (to 0.01 g or better) the calculated mass of the primary standard on a clock glass or weighing boat.
+[chem8-s2.6.1] 2. Transfer the solid to a beaker, and rinse the clock glass into the beaker with deionised water from a wash bottle, so that none of the weighed solid is left behind.
+[chem8-s2.6.2] 3. Dissolve the solid in a small volume of deionised water, stirring with a glass rod.
+[chem8-s2.6.3] 4. Pour the solution through a funnel into a volumetric flask of the required volume, e.g. 250 cm³.
+[chem8-s2.6.4] 5. Rinse the beaker, glass rod and funnel into the flask with deionised water so that no solute is lost.
+[chem8-s2.6.5] 6. Add deionised water until the flask is near the mark, then add the last drops with a dropper until the bottom of the meniscus (the curved surface of the liquid) sits on the graduation mark, viewed at eye level.
+[chem8-s2.6.6] 7. Stopper the flask and invert it about 20 times so the solution is uniform.
+[chem8-s2.7.b] The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.
+[chem8-s2.7.0] Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.
+[chem8-s2.7.1] Diagram: a volumetric flask with its graduation mark, and the meniscus shown at eye level.
+[chem8-s2.7.2] Diagram: a funnel in the neck of the volumetric flask during the transfer.
+[chem8-s2.7.3] Diagram: a beaker with a glass rod stirring the dissolving solid.
+[chem8-s2.8.b] A concentrated solution can be turned into a weaker one by adding solvent. The solute is not changed, only spread through more volume, which gives a simple equation to use.
+[chem8-s2.8.0] Diluting adds solvent, so the number of moles of solute stays the same. This gives c₁V₁ = c₂V₂, where c₁ and V₁ are the original solution and c₂ and V₂ the diluted one.
+[chem8-s2.8.1] Example: to make 250 cm³ of 0.10 M HCl from 1.0 M HCl, V₁ = (0.10 × 250) ÷ 1.0 = 25 cm³.
+[chem8-s2.8.2] Pipette 25 cm³ of the 1.0 M acid into a 250 cm³ volumetric flask and make up to the mark with water.
+[chem8-s2.8.3] Use a pipette (a glass tube that measures one exact volume), with a pipette filler to draw up the liquid, for the volume of the original solution, and a volumetric flask for the final volume.
+[chem8-s2.8.4] Diagram: a pipette with a pipette filler, filled to the graduation mark.
+[chem8-s2.9.b] Sometimes a whole range of concentrations is needed, such as for a set of test solutions. Rather than diluting from the stock solution every time, you dilute step by step.
+[chem8-s2.9.0] Serial dilution is a series of dilutions, each using the previous solution, usually by the same factor.
+[chem8-s2.9.1] Example: starting from 1.0 M, take 10 cm³ and make it up to 100 cm³ to give 0.10 M. Repeating from that solution gives 0.010 M and then 0.0010 M.
+[chem8-s2.9.2] Serial dilution is used to make a range of concentrations accurately.
+[chem8-s2.10.b] Concentration can be expressed in several ways depending on the substance and the use. Each unit says how much solute is present in a fixed amount of solution or mixture.
+[chem8-s2.10.0] mol L⁻¹ (molarity, M): moles of solute per litre of solution.
+[chem8-s2.10.1] g L⁻¹: grams of solute per litre of solution.
+[chem8-s2.10.2] %w/v (weight per volume): grams of solute per 100 cm³ of solution. For example, 5% w/v glucose contains 5 g per 100 cm³.
+[chem8-s2.10.3] %v/v (volume per volume): cm³ of solute per 100 cm³ of solution, used for a liquid dissolved in a liquid. For example, wine labelled 12% v/v contains 12 cm³ of ethanol in every 100 cm³.
+[chem8-s2.10.4] %w/w (weight per weight): grams of solute per 100 g of the whole mixture, used for solids and creams. For example, 1% w/w hydrocortisone cream has 1 g in every 100 g.
+[chem8-s2.11.b] The molar mass links moles to grams, and the fact that 100 cm³ is one-tenth of a litre links g L⁻¹ to %w/v. Between them you can move from any one of these units to any other.
+[chem8-s2.11.0] mol L⁻¹ to g L⁻¹: multiply by the molar mass. Example: 0.10 M NaOH × 40 g mol⁻¹ = 4.0 g L⁻¹.
+[chem8-s2.11.1] g L⁻¹ to mol L⁻¹: divide by the molar mass. Example: 9.8 g L⁻¹ of H₂SO₄ ÷ 98 g mol⁻¹ = 0.10 mol L⁻¹.
+[chem8-s2.11.2] g L⁻¹ to %w/v: divide by 10, since 100 cm³ is one-tenth of a litre. Example: 4.0 g L⁻¹ = 0.40% w/v.
+[chem8-s2.11.3] To reverse the step, multiply %w/v by 10 to get g L⁻¹.
+[chem8-s2.11.4] %w/v to mol L⁻¹: multiply by 10 to get g L⁻¹, then divide by the molar mass. Example: 0.9% w/v physiological saline (NaCl, M = 58.5 g mol⁻¹): 0.9 × 10 = 9.0 g L⁻¹.
+[chem8-s2.11.5] Then 9.0 g L⁻¹ ÷ 58.5 g mol⁻¹ = 0.15 mol L⁻¹.
+[chem8-s2.12.b] Percentages for liquids and creams tell you how much of the active substance is in a given amount of the product. These calculations turn the percentage back into an actual volume or mass.
+[chem8-s2.12.0] %v/v to volume: volume of solute = volume of solution × %v/v ÷ 100.
+[chem8-s2.12.1] Example: ethanol in 750 cm³ of 12% v/v wine = 750 × 12 ÷ 100 = 90 cm³.
+[chem8-s2.12.2] %v/v to mass, using density (the mass of each cm³ of the substance): mass = volume × density.
+[chem8-s2.12.3] Example: 90 cm³ of ethanol × 0.789 g cm⁻³ = 71 g.
+[chem8-s2.12.4] %w/w to mass: mass of solute = mass of mixture × %w/w ÷ 100.
+[chem8-s2.12.5] Example: 30 g of a 1% w/w cream contains 30 × 1 ÷ 100 = 0.30 g of the active ingredient.
+[chem8-s2.13.b] Some solutions are so dilute that mol L⁻¹ gives very tiny numbers. Parts per million is a convenient unit for these, and it is used for pollutants and similar substances.
+[chem8-s2.13.0] p.p.m. (parts per million) is the number of parts of solute in one million parts of solution or mixture. It is used for very dilute solutions, such as pollutants and dissolved substances in water.
+[chem8-s2.13.1] For dilute aqueous solutions, 1 p.p.m. = 1 mg of solute per litre of solution (1 mg L⁻¹). This holds because 1 L of water has a mass of about 1 kg, which is 10⁶ mg.
+[chem8-s2.13.2] For solids, 1 p.p.m. = 1 mg per kg.
+[chem8-s2.13.3] Example: 0.0050 g of a substance in 2.5 L of water. First 0.0050 g = 5.0 mg. Then 5.0 mg ÷ 2.5 L = 2.0 p.p.m.
+[chem8-s2.13.4] 1 p.p.m. = 0.001 g L⁻¹ = 0.0001% w/v.
+[chem8-s2.13.5] Example: 1.0 mg L⁻¹ of fluoride is 1.0 p.p.m. Fluoridated water in Ireland is about 0.6–0.8 p.p.m. (mg L⁻¹).
+[chem8-s2.13.6] p.p.m. to mol L⁻¹: convert to g L⁻¹ first, e.g. 2.0 p.p.m. = 2.0 mg L⁻¹ = 0.0020 g L⁻¹, then divide by the molar mass.

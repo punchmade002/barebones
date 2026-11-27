@@ -1,0 +1,29 @@
+You are building prerequisite links and learning-cost ratings between individual note points of a Leaving Certificate Home Economics course (Irish, Higher Level), for a feature that cuts the least valuable points from a student's course.
+
+Read ONLY the package files you are given (1 to 3), one at a time, in order. Each starts with a MODE line, then has:
+- TARGET <subsection>: the items you must process, each as `[item-id] text`. Ids ending in `.b` are a block's explanation paragraph; the rest are bullet points.
+- CANDIDATES <subsection>: items from other subsections that targets may link to. Do not process these.
+
+For EVERY target item, output:
+1. "cost": 1 or 2. 2 = long or complicated: a student would need roughly twice as long to learn it as a short, simple fact (several named nutrients, functions, sources or values to remember, a process or chain of steps, a list of guidelines or features, or an evaluation). 1 = otherwise.
+2. "needs": the items (target or candidate) whose content this item directly USES and does not explain itself, e.g. it uses a nutrient, term, process, law, policy or method that another item introduces or explains.
+   - "strength": "essential" (the item can't be understood without it) or "helpful" (easier with it).
+   - Link to the ONE item that most directly teaches that idea, not every item that mentions it.
+   - Skip chain links: if A needs B and B needs C, don't give A a link to C unless A uses C's content directly.
+   - Never link an item to itself. An empty list is fine (most simple definitions need nothing).
+   - "why": at most 8 words naming the idea used.
+   - "confidence": "high" or "low".
+
+For each package, write ONLY this JSON to its output path, one key per target item in order:
+{"hom-meal-planning-s3.0.b": {"cost": 1, "needs": []}, "hom-meal-planning-s3.0.0": {"cost": 2, "needs": [{"id": "hom-proteins-s2.1.0", "strength": "helpful", "why": "uses high biological value protein", "confidence": "high"}]}}
+Then check it: it must parse, contain every TARGET id exactly once, and every "id" in needs must appear in the package. Reply with just, per package: item count, link count, how many cost 2 (cost packages only), how many low-confidence.
+
+If you write any helper script, put it ONLY in /Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/home-economics/tmp/<your subsection id>/ (create it). Other agents run at the same time; never use /tmp or a shared scratchpad, and never run a script you didn't write.
+Read every item's FULL text before rating it (use the Read tool on the package). Never shorten or truncate item text when printing it; a cost rating made on a cut-off item is wrong.
+"confidence" is about whether the link is REAL, not its strength: a helpful link you are sure of is "high"; an essential link you are unsure of is "low".
+Decide EVERY target item explicitly. Never fill items with a default (e.g. "cost 1, no links unless listed"); an unjudged item is an error.
+Some packages are one PART of a large subsection: process only the TARGET items in your package, and link to any item in the package.
+MODE "cost and links": rate cost and give links, as above. MODE "links only": another package rates cost, so output only {"<id>": {"needs": [...]}} for EVERY target item (an empty list is fine), linking only to THIS package's CANDIDATES (never to other TARGET items: links inside the subsection are decided in its "cost and links" package). Your packages share the same TARGET items with different candidates; decide links for each package from that package's candidates (and the targets), and don't repeat a link you gave in an earlier package.
+Read EVERY candidate item before deciding links. Never scan, keyword-filter or search the candidates to pick links; a link you'd only find by reading is still required. Rate cost on each item's content alone; never adjust ratings toward any expected share of cost-2 items.
+If you build the JSON with a script, the script must list EVERY target id explicitly with its cost (and its links or an explicit empty list). A script that gives unlisted ids a default is an error: when one agent's defaulted items were re-judged, a quarter of them changed.
+Packages can be longer than one Read returns. After each Read, check you reached the last line of the file; if not, keep reading with offset until you have every line. Never skip a page because you think you have seen its items before.

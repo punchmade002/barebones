@@ -1,0 +1,391 @@
+MODE: cost and links
+TARGET chem26-s1: 1. Quantitative problems from balanced equations
+[chem26-s1.0.b] A balanced equation tells you more than which substances react: it tells you how much of each is involved. Using it to predict amounts is the subject of this whole subsection.
+[chem26-s1.0.0] Stoichiometry is the study of the quantitative relationships (the relationships in amounts) between the reactants and products in a chemical reaction, given by the balanced equation.
+[chem26-s1.0.1] The coefficients (the big numbers written in front of formulae in a balanced equation) give the ratio of moles, not of masses. A mole is the amount of substance containing 6.02 × 10²³ particles.
+[chem26-s1.0.2] Masses must therefore always be converted to moles before the ratio is used, because equal numbers of moles of different substances have different masses.
+[chem26-s1.1.b] Every quantitative problem on a balanced equation follows the same five steps: equation, convert to moles, use the ratio, convert back, check. Learn the steps in order and the problems all become the same problem.
+[chem26-s1.1.0] 1. Write the balanced equation. There is more on this in Formulae and balancing equations.
+[chem26-s1.1.1] 2. Convert the quantity you are given into moles. For a mass use n = m ÷ M, where M is the molar mass (the mass of one mole, in g mol⁻¹).
+[chem26-s1.1.2] 2. For a gas, use n = V ÷ 22.4, with V in litres at STP (standard temperature and pressure), because one mole of any gas at STP occupies 22.4 L.
+[chem26-s1.1.3] 2. For a solution, use n = c × V, where c is the concentration in mol L⁻¹ and V is the volume in litres.
+[chem26-s1.1.4] 3. Use the mole ratio from the equation to find the moles of the substance asked for: moles wanted = moles known × (coefficient of wanted ÷ coefficient of known).
+[chem26-s1.1.5] 4. Convert those moles into the quantity asked for. For a mass, m = n × M; for a gas, V = n × 22.4 L at STP.
+[chem26-s1.1.6] 4. For particles (atoms, molecules or ions), number of particles = n × 6.02 × 10²³.
+[chem26-s1.1.7] 5. Give the answer with units and to a sensible number of significant figures, usually 3, and check that it is reasonable.
+[chem26-s1.2.b] The simplest problem gives the mass of one substance and asks for the masses of others. Moles are the bridge between the two masses.
+[chem26-s1.2.0] Question: what masses of carbon dioxide and calcium oxide are produced when 25.0 g of calcium carbonate is heated strongly until it decomposes (breaks down) completely?
+[chem26-s1.2.1] Equation: CaCO₃(s) → CaO(s) + CO₂(g); the ratio CaCO₃ : CaO : CO₂ is 1 : 1 : 1.
+[chem26-s1.2.2] Moles of CaCO₃ = 25.0 ÷ 100 = 0.250 mol, using M = 100 g mol⁻¹.
+[chem26-s1.2.3] Moles of CO₂ = moles of CaO = 0.250 mol, because the ratio is 1 : 1 : 1.
+[chem26-s1.2.4] Mass of CO₂ = 0.250 × 44 = 11.0 g, because M of CO₂ is 44 g mol⁻¹.
+[chem26-s1.2.5] Mass of CaO = 0.250 × 56 = 14.0 g, because M of CaO is 56 g mol⁻¹.
+[chem26-s1.2.6] Check by conservation of mass (matter is neither created nor destroyed): 11.0 + 14.0 = 25.0 g, the mass of calcium carbonate.
+[chem26-s1.3.b] Gases are usually measured by volume, not mass. Here a mass of solid is converted into moles and then into a gas volume at STP.
+[chem26-s1.3.0] Question: what volume of hydrogen, measured at STP, is produced when 1.20 g of magnesium reacts with excess hydrochloric acid?
+[chem26-s1.3.1] Equation: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g); the ratio Mg : H₂ is 1 : 1.
+[chem26-s1.3.2] Moles of Mg = 1.20 ÷ 24 = 0.0500 mol.
+[chem26-s1.3.3] Moles of H₂ = moles of Mg = 0.0500 mol.
+[chem26-s1.3.4] Volume of H₂ = 0.0500 × 22.4 = 1.12 L, which is 1120 cm³, at STP.
+[chem26-s1.3.5] 'Excess' acid means there is more than enough acid, so all the magnesium reacts and the magnesium decides the amount of hydrogen.
+[chem26-s1.4.b] The same method runs in reverse when you are given a gas volume and asked for a mass. Start by getting the volume into litres.
+[chem26-s1.4.0] Question: what mass of hydrogen peroxide must decompose to give 560 cm³ of oxygen at STP?
+[chem26-s1.4.1] Equation: 2H₂O₂(aq) → 2H₂O(l) + O₂(g); the ratio H₂O₂ : O₂ is 2 : 1.
+[chem26-s1.4.2] Convert the volume first, because 22.4 is in litres: 560 cm³ = 0.560 L.
+[chem26-s1.4.3] Moles of O₂ = 0.560 L ÷ 22.4 L mol⁻¹ = 0.0250 mol.
+[chem26-s1.4.4] Moles of H₂O₂ = 2 × 0.0250 = 0.0500 mol, because two moles of H₂O₂ are needed for each mole of O₂.
+[chem26-s1.4.5] Mass of H₂O₂ = 0.0500 × 34 = 1.70 g, because M of H₂O₂ is 34 g mol⁻¹.
+[chem26-s1.5.b] One known amount can give several answers, because every substance in the equation is linked to it by its own ratio. Here the known substance is propane, a fuel that burns completely in oxygen.
+[chem26-s1.5.0] Question: 8.80 g of propane burns completely in oxygen; calculate the mass of oxygen needed and the volume of carbon dioxide formed at STP.
+[chem26-s1.5.1] Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem26-s1.5.2] Moles of C₃H₈ = 8.80 ÷ 44 = 0.200 mol.
+[chem26-s1.5.3] Moles of O₂ = 5 × 0.200 = 1.00 mol, because the ratio C₃H₈ : O₂ is 1 : 5.
+[chem26-s1.5.4] Mass of O₂ = 1.00 × 32 = 32.0 g, because M of O₂ is 32 g mol⁻¹.
+[chem26-s1.5.5] Moles of CO₂ = 3 × 0.200 = 0.600 mol, because the ratio C₃H₈ : CO₂ is 1 : 3.
+[chem26-s1.5.6] Volume of CO₂ = 0.600 × 22.4 = 13.4 L at STP.
+[chem26-s1.5.7] Reacting gas volumes alone, all measured at the same temperature and pressure, can be found directly from the mole ratio without converting to moles. There is more on this in The mole and molar volume.
+[chem26-s1.6.b] A liquid is usually measured by volume, but the mole method needs a mass. Density, the mass per unit volume, links the two.
+[chem26-s1.6.0] For a liquid, find the mass from its volume and density first: m = ρ × V, where ρ (the Greek letter rho) is the density.
+[chem26-s1.6.1] Question: 5.00 cm³ of ethanol (density 0.789 g cm⁻³) burns completely; what mass of carbon dioxide forms?
+[chem26-s1.6.2] Mass of ethanol = 5.00 × 0.789 = 3.945 g.
+[chem26-s1.6.3] Moles of ethanol = 3.945 ÷ 46 = 0.08576 mol.
+[chem26-s1.6.4] Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), so moles of CO₂ = 2 × 0.08576 = 0.1715 mol.
+[chem26-s1.6.5] Mass of CO₂ = 0.1715 × 44 = 7.55 g.
+[chem26-s1.6.6] Keep an extra figure in intermediate values and round only at the end, so that rounding errors do not build up.
+[chem26-s1.7.b] In thermal decomposition (breaking a compound down by heating) a solid gives off gas and leaves a different solid behind. You can calculate both the residue (the solid left in the dish) and the gas.
+[chem26-s1.7.0] Question: 8.40 g of sodium hydrogencarbonate is heated until no more gas is given off; equation 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).
+[chem26-s1.7.1] Moles of NaHCO₃ = 8.40 ÷ 84 = 0.100 mol.
+[chem26-s1.7.2] Moles of Na₂CO₃ = 0.100 ÷ 2 = 0.0500 mol, because the ratio NaHCO₃ : Na₂CO₃ is 2 : 1.
+[chem26-s1.7.3] Mass of solid residue = 0.0500 × 106 = 5.30 g.
+[chem26-s1.7.4] Moles of CO₂ = 0.0500 mol, because the ratio NaHCO₃ : CO₂ is also 2 : 1.
+[chem26-s1.7.5] Volume of CO₂ = 0.0500 × 22.4 = 1.12 L at STP.
+[chem26-s1.8.b] Unit analysis is a way of checking a calculation as you do it: the units tell you whether you have used the right conversion. It also covers the unit conversions you need in these problems.
+[chem26-s1.8.0] Unit analysis (dimensional analysis): write the units with every number and multiply by conversion factors so that unwanted units cancel, leaving the unit asked for. If the units do not come out right, the method is wrong.
+[chem26-s1.8.1] 3.945 g × (1 mol ÷ 46 g) = 0.08576 mol of ethanol; the grams cancel, leaving moles.
+[chem26-s1.8.2] 0.08576 mol ethanol × (2 mol CO₂ ÷ 1 mol ethanol) × (44 g ÷ 1 mol CO₂) = 7.55 g of CO₂; the mol of ethanol and the mol of CO₂ cancel, leaving grams.
+[chem26-s1.8.3] Volume conversions: 1 L = 1000 cm³ = 1 dm³; 1 m³ = 1000 L.
+[chem26-s1.8.4] Mass conversions: 1 kg = 1000 g; 1 tonne = 1000 kg = 10⁶ g.
+[chem26-s1.8.5] Because the mole ratio is a ratio, masses can be scaled in any consistent unit: 100 g of CaCO₃ gives 56 g of CaO, so 1.00 tonne of CaCO₃ gives 0.560 tonnes of CaO.
+[chem26-s1.8.6] Common slip: using cm³ in n = V ÷ 22.4. The volume must be in litres.
+[chem26-s1.8.7] Common slips: using the Mr (relative molecular mass) of the wrong substance, and forgetting the mole ratio in step 3.
+[chem26-s1.9.b] Gravimetric analysis finds how much of a substance is in a sample by weighing. You turn the substance into a solid you can weigh accurately, then work backwards to the original amount.
+[chem26-s1.9.0] Gravimetric analysis is quantitative analysis by mass: the substance being measured is converted into a pure solid, usually an insoluble precipitate (a solid that forms in a solution), of known formula, which is separated, dried and weighed.
+[chem26-s1.9.1] 1. Weigh the sample accurately and dissolve it in deionised water (water with its dissolved ions removed, so it adds no ions of its own).
+[chem26-s1.9.2] 2. Add an excess of the precipitating reagent, e.g. silver nitrate solution for chloride ions or barium chloride solution for sulfate ions, so that all of the ion is precipitated.
+[chem26-s1.9.3] Silver chloride forms by Ag⁺(aq) + Cl⁻(aq) → AgCl(s), a white precipitate. Barium sulfate forms by Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s), a white precipitate.
+[chem26-s1.9.4] 3. Check that precipitation is complete by adding a drop more reagent to the clear liquid above the settled precipitate; no further cloudiness should appear.
+[chem26-s1.9.5] 4. Filter through a weighed filter paper or weighed sintered-glass crucible (a container with a porous glass base), and wash the precipitate with deionised water to remove soluble impurities, which would otherwise add to the mass.
+[chem26-s1.9.6] 5. Dry the precipitate in an oven, cool and weigh; repeat drying and weighing until the mass is constant, so that all water is removed.
+[chem26-s1.9.7] Diagram: filter funnel with folded filter paper in a conical flask, the precipitate on the paper and a wash bottle of deionised water beside it.
+[chem26-s1.10.b] Once you have the mass of dry precipitate, a short chain of mole calculations gives the amount in the original sample. Knowing which mistakes raise or lower the result lets you judge sources of error.
+[chem26-s1.10.0] Calculation: moles of precipitate → moles of the ion (from the formula) → mass of the ion or of the original compound → percentage of the sample.
+[chem26-s1.10.1] Safety: silver nitrate stains skin and barium compounds are toxic, so wear gloves and goggles.
+[chem26-s1.10.2] Silver chloride darkens (turns purple-grey) in bright light, so keep it out of direct sunlight.
+[chem26-s1.10.3] Losing precipitate through the filter paper gives a low result, because less solid is weighed than was formed.
+[chem26-s1.10.4] Not washing the precipitate, or not drying it to constant mass, gives a high result, because the extra impurities or water add to the mass.
+[chem26-s1.11.b] Here the precipitate is silver chloride, and the aim is to find how much of an impure sodium chloride sample is chlorine and how pure the sample is. All the numbers are sample data.
+[chem26-s1.11.0] Question: 0.500 g of impure sodium chloride was dissolved and treated with excess silver nitrate solution; the dry silver chloride weighed 1.148 g, with M of AgCl = 143.5 g mol⁻¹.
+[chem26-s1.11.1] Moles of AgCl = 1.148 ÷ 143.5 = 0.00800 mol.
+[chem26-s1.11.2] Moles of Cl⁻ = moles of NaCl = 0.00800 mol, because AgCl and NaCl each contain one Cl.
+[chem26-s1.11.3] Mass of chlorine = 0.00800 × 35.5 = 0.284 g.
+[chem26-s1.11.4] Chlorine in the sample = (0.284 ÷ 0.500) × 100 = 56.8% by mass.
+[chem26-s1.11.5] Mass of NaCl = 0.00800 × 58.5 = 0.468 g.
+[chem26-s1.11.6] Purity (the percentage of the sample that is the compound) = (0.468 ÷ 0.500) × 100 = 93.6%.
+[chem26-s1.12.b] The same chain of steps works for sulfate, this time precipitated as barium sulfate from a fertiliser. All the numbers are sample data.
+[chem26-s1.12.0] Question: 1.00 g of a fertiliser containing ammonium sulfate, (NH₄)₂SO₄, gave 1.60 g of dry barium sulfate, with M of BaSO₄ = 233 g mol⁻¹.
+[chem26-s1.12.1] Moles of BaSO₄ = 1.60 ÷ 233 = 6.867 × 10⁻³ mol.
+[chem26-s1.12.2] Moles of (NH₄)₂SO₄ = moles of BaSO₄ = 6.867 × 10⁻³ mol, because each formula unit contains one sulfate ion.
+[chem26-s1.12.3] Mass of (NH₄)₂SO₄ = 6.867 × 10⁻³ × 132 = 0.906 g.
+[chem26-s1.12.4] Percentage of (NH₄)₂SO₄ in the fertiliser = 90.6%.
+[chem26-s1.13.b] Combustion analysis finds the formula of an organic compound (one built on carbon) by burning it and weighing what comes off. It works because the carbon and hydrogen all end up in known products.
+[chem26-s1.13.0] When an organic compound of C, H and O burns completely, all its carbon ends up in CO₂ and all its hydrogen in H₂O.
+[chem26-s1.13.1] The masses of these products give the masses of C and H in the sample, and the oxygen is found by difference (the sample mass minus the masses of C and H).
+[chem26-s1.13.2] The empirical formula (the simplest whole-number ratio of atoms in the compound) is then found as in Formulae and balancing equations.
+[chem26-s1.14.b] This example follows the idea above from masses of products to a molecular formula. All the numbers are sample data.
+[chem26-s1.14.0] Data: 0.290 g of a compound containing only C, H and O burned completely to give 0.660 g of CO₂ and 0.270 g of H₂O; its Mr is 58.
+[chem26-s1.14.1] Moles of C = moles of CO₂ = 0.660 ÷ 44 = 0.0150 mol, because each CO₂ contains one C.
+[chem26-s1.14.2] Mass of C = 0.0150 × 12 = 0.180 g.
+[chem26-s1.14.3] Moles of H = 2 × moles of H₂O = 2 × (0.270 ÷ 18) = 0.0300 mol, because each H₂O contains two H. Mass of H = 0.0300 g.
+[chem26-s1.14.4] Mass of O = 0.290 − 0.180 − 0.0300 = 0.0800 g, found by difference.
+[chem26-s1.14.5] Moles of O = 0.0800 ÷ 16 = 0.00500 mol.
+[chem26-s1.14.6] Ratio C : H : O = 0.0150 : 0.0300 : 0.00500 = 3 : 6 : 1, so the empirical formula is C₃H₆O, with mass 58.
+[chem26-s1.14.7] Since Mr = 58, the molecular formula (the actual number of atoms in one molecule) is also C₃H₆O, for example propanone.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.
+
+CANDIDATES chem5-s2: 2. Investigation: identifying ions in salts and solutions
+[chem5-s2.0.b] Every salt is built from two kinds of ion, and each kind is identified by a different test. Before you meet the individual tests, you need the ground rules that make them reliable.
+[chem5-s2.0.0] A salt contains a cation (a positive ion, usually a metal) and an anion (a negative ion), so a full identification needs one test for each.
+[chem5-s2.0.1] The anion tests are carried out on a solution of the salt in deionised water (water with its dissolved ions removed), because the tests rely on ions moving freely in solution.
+[chem5-s2.0.2] Tests work only above a certain minimum concentration of the ion, so very dilute solutions may give no visible result even when the ion is present.
+[chem5-s2.0.3] Use deionised water and clean test tubes, so that ions from tap water or other samples don't give false results.
+[chem5-s2.0.4] Test a blank of deionised water as a control (a test run with no sample, to show what the reagent does by itself).
+[chem5-s2.0.5] A precipitate is an insoluble solid that forms when two solutions are mixed, which is why it appears as cloudiness or a coloured solid in the liquid.
+[chem5-s2.0.6] Effervescence is fizzing as a gas is given off.
+[chem5-s2.1.b] The cation in a salt is identified by a flame test, in which a sample of the salt is heated in a flame and the colour of the flame is observed. Each of the cations below gives its own colour.
+[chem5-s2.1.0] Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour. There is more on this in The orbital model and electronic structure.
+[chem5-s2.2.b] Chloride ions are detected by making insoluble silver chloride. The test is simple, but the acid used matters.
+[chem5-s2.2.0] Add a few drops of silver nitrate solution, acidified with dilute nitric acid (nitric acid is added to make the mixture acidic).
+[chem5-s2.2.1] A white precipitate of silver chloride forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem5-s2.2.2] Confirm the precipitate by showing that it dissolves in dilute ammonia solution.
+[chem5-s2.2.3] Use nitric acid, not hydrochloric acid, because hydrochloric acid would add chloride ions of its own and give a false positive.
+[chem5-s2.2.4] Nitric acid is added first to remove carbonate ions, which would also give a precipitate with silver nitrate.
+[chem5-s2.3.b] Sulfate and sulfite ions both react with barium ions to give a white precipitate, so a second step with acid is needed to tell them apart.
+[chem5-s2.3.0] Add barium chloride solution: sulfate and sulfite both give a white precipitate, so this step alone cannot distinguish them.
+[chem5-s2.3.1] Sulfate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s).
+[chem5-s2.3.2] Sulfite: Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).
+[chem5-s2.3.3] Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves, and this difference identifies which ion was present.
+[chem5-s2.3.4] Barium sulfite reacts with the acid, which is why it dissolves: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).
+[chem5-s2.3.5] Safety: barium compounds are toxic.
+[chem5-s2.3.6] Safety: sulfur dioxide is a toxic, choking gas, so use small amounts in good ventilation.
+[chem5-s2.4.b] Both ions release carbon dioxide when acid is added, so a second test with magnesium sulfate is needed to tell them apart. Carbonate has the formula CO₃²⁻ and hydrogencarbonate HCO₃⁻.
+[chem5-s2.4.0] Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide.
+[chem5-s2.4.1] Carbonate: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.
+[chem5-s2.4.2] Hydrogencarbonate: HCO₃⁻ + H⁺ → CO₂ + H₂O.
+[chem5-s2.4.3] Confirm the gas as carbon dioxide: it turns limewater (calcium hydroxide solution) milky because insoluble calcium carbonate forms, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem5-s2.4.4] To tell them apart, add magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold, Mg²⁺ + CO₃²⁻ → MgCO₃(s).
+[chem5-s2.4.5] A hydrogencarbonate gives no precipitate with magnesium sulfate solution until the mixture is heated.
+[chem5-s2.4.6] On heating: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l).
+[chem5-s2.5.b] Nitrate ions are detected with the brown ring test. Iron(II) ions convert nitrate into a gas that forms a brown coloured compound, and the layering of the liquids makes the colour appear as a ring.
+[chem5-s2.5.0] Add freshly made iron(II) sulfate solution to the test solution in a test tube.
+[chem5-s2.5.1] Hold the tube at an angle and carefully run concentrated sulfuric acid down the side, so that it forms a dense layer at the bottom; don't shake.
+[chem5-s2.5.2] A brown ring forms where the two layers meet, showing nitrate.
+[chem5-s2.5.3] Iron(II) reduces nitrate (gives electrons to it) to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.
+[chem5-s2.5.4] Nitrogen monoxide forms a brown complex (an ion in which a molecule is attached to a metal ion) with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.
+[chem5-s2.5.5] Safety: concentrated sulfuric acid is very corrosive; wear goggles and gloves, and add it slowly.
+[chem5-s2.6.b] Phosphate ions are detected by making a yellow precipitate with ammonium molybdate in strongly acidic conditions.
+[chem5-s2.6.0] Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently.
+[chem5-s2.6.1] A yellow precipitate of ammonium phosphomolybdate shows phosphate.
+[chem5-s2.6.2] Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.
+[chem5-s2.6.3] Safety: concentrated nitric acid is corrosive and an oxidising agent (it can make other substances burn or react vigorously); use a fume cupboard (a ventilated enclosure that draws fumes away).
+[chem5-s2.7.b] The ions in these tests are the ones that matter in water supplies, where they come from natural and human sources and affect water quality.
+[chem5-s2.7.0] Chlorides come from sea water and road salt, such as that spread on roads in winter; chlorination of water also gives chloride.
+[chem5-s2.7.1] Nitrates and phosphates come from fertilisers, animal slurry, sewage and detergents.
+[chem5-s2.7.2] Nitrates and phosphates contaminate water and cause eutrophication (excess nutrients that cause algae to overgrow in water). There is more on this in the environmental chemistry chapter.
+[chem5-s2.7.3] Hard water contains dissolved calcium and magnesium ions, so it forms scum with soap.
+[chem5-s2.7.4] Calcium and magnesium ions with hydrogencarbonate ions cause temporary hardness, which is removed by boiling.
+[chem5-s2.7.5] Calcium and magnesium ions with sulfate or chloride ions cause permanent hardness.
+[chem5-s2.7.6] Carbonates and hydrogencarbonates come from water flowing over limestone, which is calcium carbonate.
+[chem5-s2.8.b] Here the tests are combined to identify both ions in an unknown salt. A logical order and proper controls make the conclusion reliable.
+[chem5-s2.8.0] Aim: to identify the cation and the anion in an unknown salt, using primary data (results you observe yourself in the experiment).
+[chem5-s2.8.1] Step 1: Carry out a flame test on the solid to identify the cation, because the flame colour depends on the cation.
+[chem5-s2.8.2] Step 2: Add dilute hydrochloric acid to a little of the solid to test for carbonate and hydrogencarbonate, then dissolve a little of the salt in deionised water.
+[chem5-s2.8.3] Step 3: Carry out the other anion tests on separate portions of the solution in a logical order, recording the reagent, observation and conclusion in a table.
+[chem5-s2.8.4] Step 4: Run each test on a known sample of the ion alongside, as a positive control (to show the test works), and on deionised water as a negative control (to show the reagents give no result on their own).
+[chem5-s2.8.5] Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate that dissolves in ammonia indicate potassium chloride, KCl.
+[chem5-s2.8.6] Diagram: the brown ring test tube, showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary.

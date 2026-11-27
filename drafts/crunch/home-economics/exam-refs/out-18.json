@@ -1,0 +1,37 @@
+{
+  "homeeconomics-pp-2014-HI-sectionc-personalfinance-Q3": {
+    "(a)(i)": ["hom-education-s3"],
+    "(a)(ii)": ["hom-education-s5", "hom-education-s3"],
+    "(a)(iii)": ["hom-education-s5", "hom-education-s4"],
+    "(b)": ["hom-social-change-s4", "hom-family-society-s4"],
+    "(c)(i)": ["hom-work-leisure-s3", "hom-unemployment-poverty-s7"],
+    "(c)(ii)": ["hom-work-leisure-s3"]
+  },
+  "homeeconomics-pp-2026-HI-sectionb-proteins-Q1": {
+    "(a)": ["hom-proteins-s9", "hom-dairy-eggs-s3"],
+    "(b)": ["hom-proteins-s1"],
+    "(c)": ["hom-proteins-s8"],
+    "(d)": ["hom-proteins-s5"],
+    "(e)": ["hom-proteins-s7", "hom-meat-preparation-s2"]
+  },
+  "homeeconomics-pp-2026-HI-sectionb-vitaminsminerals-Q2": {
+    "(a)": ["hom-fruit-vegetables-s1"],
+    "(b)": ["hom-fruit-vegetables-s3"],
+    "(c)": ["hom-fruit-vegetables-s2", "hom-food-safety-s3"]
+  },
+  "homeeconomics-pp-2026-HI-sectionb-foodadditives-Q3": {
+    "(a)": ["hom-food-additives-s1"],
+    "(b)": ["hom-food-additives-s4", "hom-carbohydrates-s6"],
+    "(c)": ["hom-food-additives-s2", "hom-consumer-rights-s1"]
+  },
+  "homeeconomics-pp-2026-HI-sectionb-personalfinance-Q4": {
+    "(a)": ["hom-consumer-rights-s1", "hom-consumer-rights-s2"],
+    "(b)": ["hom-personal-finance-s2", "hom-personal-finance-s1"],
+    "(c)": ["hom-personal-finance-s2"]
+  },
+  "homeeconomics-pp-2026-HI-sectionb-personalfinance-Q5": {
+    "(a)": ["hom-family-society-s4", "hom-social-change-s4"],
+    "(b)": ["hom-family-caring-s1", "hom-family-caring-s2"],
+    "(c)": ["hom-family-law-s6"]
+  }
+}

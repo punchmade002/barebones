@@ -1,0 +1,446 @@
+MODE: cost and links
+TARGET chem9-s3: 3. Gas laws and the ideal gas equation
+[chem9-s3.0.b] Gas pressure is the force of the particles hitting the container walls, per unit area. For a fixed mass of gas (a set amount, with none added or lost) at constant temperature, pressure and volume are linked by Boyle's law.
+[chem9-s3.0.0] Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure (when one doubles, the other halves): P₁V₁ = P₂V₂.
+[chem9-s3.0.1] The law was stated by Robert Boyle in 1662, and Charles's law is named after Jacques Charles.
+[chem9-s3.0.2] Particle explanation: in a smaller volume the particles hit the walls more often, so the pressure rises.
+[chem9-s3.0.3] Example: 200 cm³ of gas at 100 kPa (kilopascals, a unit of pressure) is compressed to 50 cm³ at the same temperature.
+[chem9-s3.0.4] Step 1: Rearrange P₁V₁ = P₂V₂ to P₂ = P₁V₁ ÷ V₂, because P₂ is the unknown.
+[chem9-s3.0.5] Step 2: P₂ = 100 kPa × 200 cm³ ÷ 50 cm³ = 400 kPa. The volume fell to a quarter, so the pressure rose four times.
+[chem9-s3.1.b] Heating a gas makes it expand if its pressure is held constant. For a fixed mass of gas at constant pressure, volume and temperature are linked by Charles's law.
+[chem9-s3.1.0] Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin (K, the absolute temperature scale): V₁/T₁ = V₂/T₂.
+[chem9-s3.1.1] Particle explanation: hotter particles move faster and hit the walls harder, so the gas expands to keep the pressure the same.
+[chem9-s3.1.2] Example: 300 cm³ of gas at 27 °C (300 K) is heated to 127 °C (400 K) at constant pressure.
+[chem9-s3.1.3] Step 1: Rearrange V₁/T₁ = V₂/T₂ to V₂ = V₁ × T₂ ÷ T₁, because V₂ is the unknown.
+[chem9-s3.1.4] Step 2: V₂ = 300 cm³ × 400 K ÷ 300 K = 400 cm³.
+[chem9-s3.2.b] A third pair of properties completes the set: pressure and temperature at constant volume. The combined gas law then joins all three relationships into one.
+[chem9-s3.2.0] Pressure law (Gay-Lussac's law): at constant volume, the pressure of a fixed mass of gas is directly proportional to its temperature in kelvin: P₁/T₁ = P₂/T₂.
+[chem9-s3.2.1] Particle explanation: faster particles hit the walls more often and harder, so the pressure rises.
+[chem9-s3.2.2] Combined gas law: P₁V₁/T₁ = P₂V₂/T₂, for a fixed mass of gas. It is useful when pressure, volume and temperature all change together.
+[chem9-s3.3.b] The gas laws only work on a temperature scale that starts at the lowest possible temperature. That scale is the kelvin scale.
+[chem9-s3.3.0] Temperatures in the gas laws must be in kelvin (K), not in °C; using °C gives wrong answers, because a gas at 0 °C does not have zero volume or pressure.
+[chem9-s3.3.1] Absolute zero (0 K = −273 °C) is the temperature at which, in theory, an ideal gas would have zero volume.
+[chem9-s3.3.2] At absolute zero the particles would stop moving.
+[chem9-s3.4.b] Plotting the relationships shows them as straight lines, which is the easiest way to see what proportional means.
+[chem9-s3.4.0] Diagram: a graph of V against 1/P, which is a straight line through the origin for Boyle's law, and a graph of V against T in K, which is a straight line through the origin for Charles's law. Label the axes with their quantities and units.
+[chem9-s3.5.b] The ideal gas is a model that allows analysis and prediction of how gases behave. It is a simplified picture of a gas, built on a set of assumptions.
+[chem9-s3.5.0] An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions.
+[chem9-s3.5.1] The ideal gas model assumes that the gas particles are in constant random motion, so they keep colliding with the walls and each other.
+[chem9-s3.5.2] The ideal gas model assumes that the volume of the particles themselves is negligible (so small it can be ignored) compared with the volume of the container.
+[chem9-s3.5.3] The ideal gas model assumes that there are no attractive or repulsive forces between the particles.
+[chem9-s3.5.4] The ideal gas model assumes that collisions are perfectly elastic, which means no kinetic energy (energy of movement) is lost in a collision.
+[chem9-s3.5.5] The ideal gas model assumes that the average kinetic energy is proportional to the kelvin temperature.
+[chem9-s3.5.6] No real gas is ideal, but most gases behave nearly ideally at room temperature and pressure, so the model allows useful predictions.
+[chem9-s3.6.b] Real gases break the ideal assumptions about particle volume and attractive forces. They deviate most in conditions where those assumptions fail.
+[chem9-s3.6.0] Real gases deviate most from ideal behaviour at high pressure and low temperature, and behave most ideally at low pressure and high temperature.
+[chem9-s3.6.1] At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas.
+[chem9-s3.6.2] At low temperature the particles move slowly, so the attractive forces between them become significant; this is close to the point where the gas condenses (turns into a liquid).
+[chem9-s3.6.3] Small, non-polar particles (with no charged ends) and weak intermolecular forces (forces between molecules), such as helium and hydrogen, behave most ideally.
+[chem9-s3.6.4] Polar molecules with strong attractions, especially those that hydrogen bond, such as ammonia and water vapour, deviate most.
+[chem9-s3.7.b] The ideal gas equation combines the gas laws into one relationship between pressure, volume, amount and temperature.
+[chem9-s3.7.0] PV = nRT, where P is pressure in pascals (Pa), V is volume in cubic metres (m³), n is the number of moles (the amount of gas), and T is temperature in kelvin (K).
+[chem9-s3.7.1] R is the gas constant, 8.314 J K⁻¹ mol⁻¹. It is the same for every gas, and its units match pascals, cubic metres, moles and kelvin.
+[chem9-s3.7.2] The equation combines Boyle's law, Charles's law, the pressure law and Avogadro's law (equal volumes of gases at the same temperature and pressure hold equal numbers of molecules) into one equation.
+[chem9-s3.7.3] The equation applies exactly only to an ideal gas, but it gives good results for real gases at ordinary conditions.
+[chem9-s3.8.b] PV = nRT only works when every quantity is in the units that R uses. Mixed units are the commonest error, so convert every quantity before substituting.
+[chem9-s3.8.0] Pressure: kPa × 1000 = Pa, so 101 kPa = 101 000 Pa.
+[chem9-s3.8.1] Volume: cm³ × 10⁻⁶ = m³, so 250 cm³ = 2.50 × 10⁻⁴ m³.
+[chem9-s3.8.2] Volume: L × 10⁻³ = m³.
+[chem9-s3.8.3] Temperature: °C + 273 = K.
+[chem9-s3.9.b] When the moles, temperature and pressure are known, rearrange the equation to find the volume. Convert units first.
+[chem9-s3.9.0] Given: 0.50 mol of nitrogen at 27 °C and 100 kPa.
+[chem9-s3.9.1] Step 1: Convert the temperature: 27 °C + 273 = 300 K.
+[chem9-s3.9.2] Step 2: Convert the pressure: 100 kPa = 100 000 Pa.
+[chem9-s3.9.3] Step 3: Rearrange the equation to V = nRT ÷ P, because V is the unknown.
+[chem9-s3.9.4] Step 4: V = 0.50 × 8.314 × 300 ÷ 100 000 = 0.0125 m³ (to 3 significant figures).
+[chem9-s3.9.5] Step 5: Convert to litres: 0.0125 m³ × 1000 = 12.5 L.
+[chem9-s3.10.b] If the volume, pressure and temperature are measured, the equation gives the amount of gas in moles.
+[chem9-s3.10.0] Given: 600 cm³ of oxygen at 20 °C and 101 kPa.
+[chem9-s3.10.1] Step 1: Convert the volume: 600 cm³ = 6.00 × 10⁻⁴ m³; the temperature is 20 °C + 273 = 293 K.
+[chem9-s3.10.2] Step 2: Rearrange the equation to n = PV ÷ RT, because n is the unknown.
+[chem9-s3.10.3] Step 3: n = (101 000 × 6.00 × 10⁻⁴) ÷ (8.314 × 293) = 60.6 ÷ 2436 = 0.0249 mol.
+[chem9-s3.11.b] Measuring the mass of a gas as well as its volume, pressure and temperature lets you work out its molar mass, which identifies the gas.
+[chem9-s3.11.0] Since n = m ÷ M (moles = mass ÷ molar mass), the molar mass is M = mRT ÷ PV.
+[chem9-s3.11.1] Given: 1.60 g of a gas occupies 1.20 L at 27 °C and 101 kPa (sample data).
+[chem9-s3.11.2] Step 1: Convert the volume to m³: 1.20 L = 1.20 × 10⁻³ m³; the temperature is 27 °C + 273 = 300 K.
+[chem9-s3.11.3] Step 2: n = PV ÷ RT = (101 000 × 1.20 × 10⁻³) ÷ (8.314 × 300) = 121.2 ÷ 2494 = 0.0486 mol.
+[chem9-s3.11.4] Step 3: M = m ÷ n = 1.60 g ÷ 0.0486 mol = 32.9 g mol⁻¹.
+[chem9-s3.11.5] The answer is close to 32, the Mr of oxygen, so the gas could be oxygen (sample data).
+[chem9-s3.12.b] A fixed amount of gas in a container of known volume exerts a pressure that depends on its temperature. The equation gives that pressure.
+[chem9-s3.12.0] Given: 0.10 mol of gas in a 2.0 L container at 25 °C.
+[chem9-s3.12.1] Step 1: Convert the volume to m³: 2.0 L = 2.0 × 10⁻³ m³; the temperature is 25 °C + 273 = 298 K.
+[chem9-s3.12.2] Step 2: Rearrange the equation to P = nRT ÷ V, because P is the unknown.
+[chem9-s3.12.3] Step 3: P = 0.10 × 8.314 × 298 ÷ 2.0 × 10⁻³ = 1.24 × 10⁵ Pa = 124 kPa.
+[chem9-s3.13.b] A quick check catches most arithmetic and unit slips before you hand in the answer.
+[chem9-s3.13.0] Check the units of the answer, and check whether the answer is sensible.
+[chem9-s3.13.1] A mole of gas at room conditions occupies about 24 L, so a volume far from this for one mole signals an error.
+[chem9-s3.14.b] The equation can be verified by comparing a measured gas volume with the volume it predicts. Magnesium reacting with acid gives a known amount of hydrogen gas to test it with.
+[chem9-s3.14.0] Aim: to verify the ideal gas equation by comparing a measured gas volume with the volume it predicts.
+[chem9-s3.14.1] Step 1: React a weighed piece of magnesium ribbon, e.g. 0.048 g, with excess dilute hydrochloric acid (so all the magnesium reacts) in a flask connected to a gas syringe (a syringe that collects and measures gas volume): Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).
+[chem9-s3.14.2] Step 2: When the reaction stops and the apparatus has cooled to room temperature, record the volume of hydrogen, the room temperature and the atmospheric pressure.
+[chem9-s3.14.3] Step 3: Moles of hydrogen = moles of magnesium, because the equation shows a 1 : 1 ratio: 0.048 g ÷ 24 g mol⁻¹ = 0.0020 mol, using Ar(Mg) = 24.
+[chem9-s3.14.4] Step 4: Predicted volume V = nRT ÷ P = 0.0020 × 8.314 × 293 ÷ 101 000 = 4.82 × 10⁻⁵ m³ = 48.2 cm³ (sample data).
+[chem9-s3.14.5] Step 5: Compare the measured volume with the predicted volume; close agreement verifies the equation for a gas behaving nearly ideally.
+[chem9-s3.14.6] Diagram: a conical flask containing acid, with the magnesium added, connected by a delivery tube to a gas syringe. Label the flask, acid, magnesium, delivery tube and gas syringe.
+[chem9-s3.15.b] The equation can also be checked by testing one relationship at a time, holding the other quantities constant.
+[chem9-s3.15.0] A gas syringe connected to a pressure sensor shows that PV is constant at constant temperature.
+[chem9-s3.15.1] A sealed flask in a water bath shows that P/T is constant, because the volume stays fixed while the temperature is changed.
+
+CANDIDATES chem9-s1: 1. The kinetic theory and its evidence
+[chem9-s1.0.b] Everything around you, from air to iron, is matter. Chemistry starts from one idea: matter is built from particles too small to see, and how those particles are arranged decides whether something is a solid, a liquid or a gas.
+[chem9-s1.0.0] All matter is made of tiny particles (atoms, molecules or ions) that are constantly moving, with spaces between them.
+[chem9-s1.0.1] Solid: the particles are packed closely in a fixed, regular arrangement and vibrate about fixed positions, so a solid keeps its shape.
+[chem9-s1.0.2] Liquid: the particles are close together but can move past each other, so a liquid flows and takes the shape of its container.
+[chem9-s1.0.3] Gas: the particles are far apart and move rapidly and randomly in all directions, so a gas spreads out to fill any space.
+[chem9-s1.0.4] Diagram: three boxes showing the particle arrangement in a solid, a liquid and a gas.
+[chem9-s1.1.b] A pure substance is made of only one kind of particle, so it has fixed properties. There are two kinds of pure substance: elements and compounds.
+[chem9-s1.1.0] A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point (a single exact temperature, not a range).
+[chem9-s1.1.1] An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means (that is, by a chemical reaction), e.g. iron (Fe) and oxygen (O₂).
+[chem9-s1.1.2] A compound is a substance made of two or more different elements chemically combined (joined by bonds) in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).
+[chem9-s1.1.3] A compound has properties that differ from those of its elements, because the elements are bonded together, so it can be separated into them only by a chemical reaction.
+[chem9-s1.1.4] A molecule (a group of atoms joined together) can be of an element (O₂, N₂, Cl₂), where all the atoms are the same, or of a compound (H₂O, CO₂), where the atoms are different.
+[chem9-s1.2.b] A mixture is two or more substances that are not chemically combined, so each keeps its own properties. Mixtures are grouped by whether they look the same all the way through.
+[chem9-s1.2.0] A mixture can have a variable composition (the amounts of each substance can change), and its components keep their own properties.
+[chem9-s1.2.1] A mixture can be separated by physical methods (ones that need no chemical reaction), and it has no sharp melting or boiling point: it melts or boils over a range of temperatures. There is more on this in Using the kinetic theory: separation techniques.
+[chem9-s1.2.2] A homogeneous mixture has a uniform composition throughout and a single phase (one visible part), e.g. salt solution, air and an alloy (a mixture of metals).
+[chem9-s1.2.3] A heterogeneous mixture is non-uniform, with visibly different parts or phases, e.g. sand and water, oil and water, and granite.
+[chem9-s1.3.b] Because a pure substance has a fixed melting point and a mixture does not, melting point can be used to check whether a sample is pure.
+[chem9-s1.3.0] A pure substance has a sharp melting point that matches the data-book value (the accepted figure listed in reference tables).
+[chem9-s1.3.1] Impurities lower the melting point and make the substance melt over a range of temperatures, so a low or spread-out melting point shows the sample is not pure.
+[chem9-s1.4.b] Compounds and mixtures both contain more than one element, so they are easy to confuse. The difference is whether the substances are chemically combined.
+[chem9-s1.4.0] A compound has a fixed composition; a mixture has a variable composition.
+[chem9-s1.4.1] The elements in a compound are chemically combined; the substances in a mixture are not.
+[chem9-s1.4.2] A compound has new properties because its elements are chemically combined; a mixture's components keep their own properties because they are not.
+[chem9-s1.4.3] A compound can be separated only chemically, because its elements are bonded; a mixture can be separated physically, because nothing is bonded.
+[chem9-s1.4.4] Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.
+[chem9-s1.4.5] Diagram: particle diagrams of an element (single atoms and diatomic molecules, which are molecules of two atoms), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together).
+[chem9-s1.5.b] The kinetic theory states that matter is particles in motion. We cannot see the particles, so the theory rests on effects we can see.
+[chem9-s1.5.0] The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.
+[chem9-s1.5.1] The particles have kinetic energy (energy of movement), so the higher the temperature, the faster they move.
+[chem9-s1.5.2] The average kinetic energy of the particles is proportional to the temperature in kelvin (the temperature scale that starts at absolute zero), so doubling the kelvin temperature doubles the average kinetic energy.
+[chem9-s1.5.3] The evidence for the theory comes from effects we can see that are caused by particles we cannot see.
+[chem9-s1.6.b] Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid. It shows that the invisible particles around them are moving.
+[chem9-s1.6.0] Robert Brown, a botanist (a scientist who studies plants), first observed Brownian motion in 1827, using pollen grains in water.
+[chem9-s1.6.1] Aim: to observe the motion of smoke particles in air as evidence for the kinetic theory.
+[chem9-s1.6.2] Step 1: Fill a small glass cell with smoke and cover it.
+[chem9-s1.6.3] Step 2: Light the cell from the side, so the smoke particles scatter light and show up.
+[chem9-s1.6.4] Step 3: View the cell through a microscope.
+[chem9-s1.6.5] Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.
+[chem9-s1.7.b] The jiggling of the smoke is the evidence. It can be explained only if the air around the smoke is made of moving particles.
+[chem9-s1.7.0] Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.
+[chem9-s1.7.1] The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.
+[chem9-s1.7.2] Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.
+[chem9-s1.7.3] Diagram: a smoke cell lit from the side under a microscope, and the zig-zag path of one smoke particle.
+[chem9-s1.8.b] Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion. Gases show it clearly.
+[chem9-s1.8.0] Diffusion needs no stirring or currents, because it results from the random motion of the particles alone.
+[chem9-s1.8.1] Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.
+[chem9-s1.8.2] The bromine jars are evenly coloured when the vapour has diffused through both jars, which shows the particles have spread out until evenly mixed.
+[chem9-s1.8.3] Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard (a ventilated cabinet that removes fumes) and gloves.
+[chem9-s1.9.b] This experiment shows that gases diffuse and that lighter gas particles diffuse faster than heavier ones. Two gases start at opposite ends of a tube and meet where they react.
+[chem9-s1.9.0] Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.
+[chem9-s1.9.1] Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem9-s1.9.2] The ring forms nearer the hydrochloric acid end of the tube, because the lighter ammonia travels further.
+[chem9-s1.9.3] Explanation: ammonia molecules (Mr 17, relative molecular mass) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.
+[chem9-s1.9.4] Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.
+[chem9-s1.9.5] Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end.
+[chem9-s1.10.b] Diffusion is not limited to gases. It also happens in liquids, but far more slowly.
+[chem9-s1.10.0] Diffusion also happens in liquids, e.g. a crystal of potassium manganate(VII) slowly colours still water purple.
+[chem9-s1.10.1] Diffusion is much slower in liquids than in gases, because the particles are closer together and collide more often.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem9-s2: 2. Using the kinetic theory: separation techniques
+[chem9-s2.0.b] The kinetic theory says matter is made of particles that are always moving. How close the particles are, how strongly they attract one another and how they move explain why solids, liquids and gases behave so differently.
+[chem9-s2.0.0] Solids have a fixed shape and volume and cannot be compressed (squeezed into a smaller volume), because the particles are held tightly in fixed positions by strong forces and only vibrate on the spot.
+[chem9-s2.0.1] Liquids have a fixed volume but take the shape of their container and flow, because the particles are close together but can slide past one another.
+[chem9-s2.0.2] Gases fill their container and are easily compressed, because the particles are far apart, with weak forces between them, and move rapidly and randomly. The empty space between them is what lets them be pushed closer.
+[chem9-s2.0.3] Gas pressure is caused by gas particles colliding with the walls of the container. Many fast collisions every second add up to a steady push on the walls.
+[chem9-s2.1.b] Each change of state is explained by the energy of the particles and the forces between them. Heating gives particles energy to break free of those forces, and cooling takes energy away so the forces win again.
+[chem9-s2.1.0] Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another. This happens at the melting point.
+[chem9-s2.1.1] Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.
+[chem9-s2.1.2] Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and because the fastest (highest-energy) particles leave, the remaining liquid cools.
+[chem9-s2.1.3] Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour (the substance as a gas) form within the liquid.
+[chem9-s2.1.4] Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.
+[chem9-s2.1.5] Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.
+[chem9-s2.1.6] Deposition (gas to solid directly) is the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.
+[chem9-s2.1.7] Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition.
+[chem9-s2.2.b] A heating curve plots temperature against time as a pure substance is heated at a steady rate. The flat sections show the changes of state, and they show where the supplied energy goes.
+[chem9-s2.2.0] When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.
+[chem9-s2.2.1] During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy (the energy of their movement), so the temperature does not rise even though heat is being supplied.
+[chem9-s2.2.2] The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.
+[chem9-s2.2.3] The boiling plateau (flat section) is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.
+[chem9-s2.2.4] Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C. Water melts at 0 °C and boils at 100 °C at standard pressure.
+[chem9-s2.3.b] The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.
+[chem9-s2.3.0] Assumption: the particles are tiny spheres in constant, random motion.
+[chem9-s2.3.1] Assumption: the higher the temperature, the greater the average kinetic energy (energy of movement) of the particles.
+[chem9-s2.3.2] Assumption: collisions between particles are perfectly elastic, which means no kinetic energy is lost when they collide.
+[chem9-s2.3.3] Assumption: in a gas the volume of the particles themselves is negligible (so small it can be ignored), and there are no forces between the particles except during collisions.
+[chem9-s2.4.b] A model is useful only if you know where it fails. The first two limitations come from what the simple model leaves out about the forces between particles.
+[chem9-s2.4.0] Limitation: real particles are not hard spheres, and they do attract one another. These forces between particles (intermolecular forces) are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.
+[chem9-s2.4.1] Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points. That needs the types of bonding and intermolecular forces. There is more on this in Polarity, shape and physical properties.
+[chem9-s2.5.b] The model also says nothing about what is inside particles, and it works best only for gases under certain conditions.
+[chem9-s2.5.0] Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative (it describes behaviour in words), giving no values.
+[chem9-s2.5.1] Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, because the particles are then squeezed close together or moving slowly, so gases deviate from the model. There is more on this in Gas laws and the ideal gas equation.
+[chem9-s2.6.b] A mixture is separated by using a physical property in which its components differ. So the first step is always to work out how the components differ, then choose the technique that uses that difference.
+[chem9-s2.6.0] Particle size and solubility (whether a substance dissolves) separate by filtration; solubility and volatility (how easily a substance turns to vapour) by evaporation and crystallisation; boiling point by distillation.
+[chem9-s2.6.1] Solubility in a solvent and attraction to paper separate by chromatography; immiscibility (the liquids do not mix) and density by a separating funnel.
+[chem9-s2.6.2] Heterogeneous mixtures (the components can be seen as separate parts), such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting (carefully pouring off the liquid) or a separating funnel.
+[chem9-s2.6.3] Homogeneous mixtures (uniform throughout), such as solutions and miscible liquids (liquids that mix completely), need evaporation, crystallisation, distillation or chromatography.
+[chem9-s2.7.b] Filtration separates an insoluble solid (one that does not dissolve) from a liquid. The paper has holes small enough to hold back the solid particles but large enough to let the liquid through.
+[chem9-s2.7.0] Example: sand is separated from salt solution by filtration, because sand is insoluble and the salt is dissolved in the water.
+[chem9-s2.7.1] Step 1: Fold filter paper into a cone and place it in a funnel.
+[chem9-s2.7.2] Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.
+[chem9-s2.7.3] Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate.
+[chem9-s2.8.b] When a solid is dissolved in a liquid, filtering will not work because the dissolved solid passes through the paper. Instead you remove the solvent (the liquid that does the dissolving) by heating, either completely (evaporation) or only partly (crystallisation).
+[chem9-s2.8.0] Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water. It is used when the solid does not decompose (break down) on heating.
+[chem9-s2.8.1] Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated (cannot dissolve any more solid). A drop on a cold glass rod forms crystals when it is saturated.
+[chem9-s2.8.2] Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.
+[chem9-s2.8.3] Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.
+[chem9-s2.8.4] Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution.
+[chem9-s2.9.b] Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour. The liquid with the lower boiling point boils off first and is collected separately.
+[chem9-s2.9.0] Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.
+[chem9-s2.9.1] Step 1: Heat the mixture in a flask containing anti-bumping granules (small pieces that make boiling smooth and stop violent bursts of bubbling).
+[chem9-s2.9.2] Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser (a tube that cools the vapour back to liquid).
+[chem9-s2.9.3] Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.
+[chem9-s2.9.4] Step 4: The distillate (the liquid that has condensed) is collected in a receiving flask.
+[chem9-s2.9.5] Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.
+[chem9-s2.9.6] Fractional distillation separates miscible liquids with close boiling points, using a fractionating column (a tall column that gives repeated condensing and re-boiling), e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).
+[chem9-s2.9.7] Crude oil is separated into fractions (groups of compounds with similar boiling points) by fractional distillation.
+[chem9-s2.10.b] Distillation heats liquids that may be flammable and produces vapour, so the apparatus and heat source matter as well as the method.
+[chem9-s2.10.0] Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, so the vapour cannot ignite.
+[chem9-s2.10.1] Safety: a closed system is never heated, because the pressure would build up as the vapour expands.
+[chem9-s2.10.2] Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser (a straight condenser cooled by a water jacket) with water flow, and a receiving flask.
+[chem9-s2.11.b] Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators. Each substance is carried up the paper by a solvent at its own speed.
+[chem9-s2.11.0] Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.
+[chem9-s2.11.1] Step 2: Put small spots of the mixture and of known substances on the line.
+[chem9-s2.11.2] Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, so the spots are not washed into the solvent.
+[chem9-s2.11.3] Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front (the highest point the solvent reached).
+[chem9-s2.11.4] Principle: components that are more soluble in the solvent (the mobile phase, which moves) and less attracted to the paper (the stationary phase, which stays still) travel further.
+[chem9-s2.11.5] Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.
+[chem9-s2.11.6] Components are identified by matching their spots and Rf values with those of known substances.
+[chem9-s2.11.7] Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots.
+[chem9-s2.12.b] A separating funnel separates two immiscible liquids of different density. Immiscible liquids settle into two layers, with the denser liquid underneath.
+[chem9-s2.12.0] Examples: oil and water, or an organic layer from an aqueous layer (a water-based layer), which is used to purify an ester.
+[chem9-s2.12.1] Step 1: Pour the mixture into the separating funnel and let the layers settle.
+[chem9-s2.12.2] Step 2: Remove the stopper and run off the lower, denser layer through the tap.
+[chem9-s2.12.3] Step 3: Collect the upper layer separately.
+[chem9-s2.12.4] Diagram: a separating funnel with two layers, the stopper and the tap labelled.
+
+CANDIDATES chem6-s1: 1. Bond type and intermolecular forces
+[chem6-s1.0.b] When two atoms share a pair of electrons in a covalent bond (a bond formed by sharing electrons), the pair is not always shared equally. Electronegativity tells you which atom pulls harder on it. There is more on the continuum from ionic to non-polar covalent bonding in “Types of chemical bonding”.
+[chem6-s1.0.0] Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the value, the harder the atom pulls on the pair.
+[chem6-s1.0.1] It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4). Pauling values are relative, so they have no units.
+[chem6-s1.0.2] Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.
+[chem6-s1.0.3] Non-metals have high electronegativities and metals have low ones, so a non-metal bonded to a metal pulls the electrons strongly towards itself.
+[chem6-s1.1.b] Electronegativity follows a pattern in the periodic table. Both halves of the pattern are explained by how close the bonding electrons are to the nucleus (the positive centre of the atom) and how much positive charge pulls on them.
+[chem6-s1.1.0] Across a period (a row of the periodic table, left to right) electronegativity increases, for example from Na 0.93 to Cl 3.16.
+[chem6-s1.1.1] Across a period the nuclear charge (the positive charge of the nucleus) increases while electrons are added to the same main energy level (shell), so the atomic radius (the size of the atom) decreases.
+[chem6-s1.1.2] Because the atomic radius decreases across a period, the bonding electrons are closer to a more highly charged nucleus, so the nucleus attracts them more strongly.
+[chem6-s1.1.3] Down a group (a column of the periodic table) electronegativity decreases, for example from F 3.98 to I 2.66.
+[chem6-s1.1.4] Down a group each element has an extra energy level, so the atomic radius increases and the bonding electrons are further from the nucleus.
+[chem6-s1.1.5] Inner electrons screen (shield) the outer electrons from the nucleus. The bonding electrons are therefore further away and less strongly attracted, even though the nuclear charge is greater.
+[chem6-s1.1.6] Noble gases are usually given no electronegativity value because they rarely form bonds, so there is no shared pair to attract.
+[chem6-s1.2.b] The difference in electronegativity between two bonded atoms predicts the bond type: the larger the difference, the more ionic the bond. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum (a smooth range from ionic to non-polar covalent).
+[chem6-s1.2.0] Step 1: Look up the Pauling electronegativity of each atom.
+[chem6-s1.2.1] Step 2: Subtract the smaller value from the larger to find the difference.
+[chem6-s1.2.2] Step 3: Compare the difference with the cut-offs below.
+[chem6-s1.2.3] A difference greater than 1.7 gives a mainly ionic bond (electrons largely transferred from one atom to the other), for example NaCl: 3.16 − 0.93 = 2.23.
+[chem6-s1.2.4] A difference between about 0.4 and 1.7 gives a polar covalent bond (a bond in which the shared pair is pulled unequally), for example H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.
+[chem6-s1.2.5] A difference less than about 0.4 gives a non-polar (pure) covalent bond, in which the pair is shared almost equally, for example C–H: 2.55 − 2.20 = 0.35.
+[chem6-s1.2.6] A bond between identical atoms has a difference of zero, so the pair is shared equally and the bond is non-polar, for example Cl–Cl: 3.16 − 3.16 = 0.
+[chem6-s1.2.7] In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+).
+[chem6-s1.3.b] Ionic compounds are made of oppositely charged ions packed in a lattice (a regular, repeating three-dimensional arrangement). Their properties follow from the strong attraction between those ions and from whether the ions can move.
+[chem6-s1.3.0] Ionic compounds are solids at room temperature, for example sodium chloride and magnesium oxide.
+[chem6-s1.3.1] Sodium chloride melts at 801 °C and boils at 1413 °C.
+[chem6-s1.3.2] The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions (attractions between opposite charges) between oppositely charged ions throughout the lattice.
+[chem6-s1.3.3] Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions and cannot carry charge.
+[chem6-s1.3.4] Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.
+[chem6-s1.3.5] Many ionic compounds are soluble in water, because polar water molecules (molecules with a slightly positive end and a slightly negative end) attract and surround the ions.
+[chem6-s1.3.6] Ionic compounds are insoluble in non-polar solvents such as cyclohexane, because non-polar molecules have no charged ends to attract the ions.
+[chem6-s1.4.b] Covalent compounds are made of separate molecules. Because of this, melting or boiling them only has to separate one molecule from the next, which takes far less energy than melting an ionic lattice.
+[chem6-s1.4.0] Many covalent compounds are gases or liquids at room temperature, for example methane, carbon dioxide and water.
+[chem6-s1.4.1] Some covalent compounds are solids with low melting points, for example iodine and sugar.
+[chem6-s1.4.2] Iodine sublimes (turns straight from solid to gas) on gentle heating and melts at 114 °C.
+[chem6-s1.4.3] Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.
+[chem6-s1.4.4] The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.
+[chem6-s1.5.b] Whether a covalent compound conducts or dissolves depends on whether it has charged particles and on whether its molecules are polar (have a slightly positive end and a slightly negative end).
+[chem6-s1.5.0] Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.
+[chem6-s1.5.1] Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.
+[chem6-s1.5.2] Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.
+[chem6-s1.5.3] Polar molecules such as ethanol, sugar and ammonia dissolve in water, because they can form hydrogen bonds with it. There is more on this in “Intermolecular forces and physical properties”.
+[chem6-s1.5.4] “Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents.
+[chem6-s1.6.b] Putting the two types side by side shows four paired differences, and each has its own reason: melting and boiling points depend on whether strong ionic attractions or only weak forces between molecules must be overcome, and conductivity depends on whether ions are free to move.
+[chem6-s1.6.0] Melting and boiling points: ionic compounds are high; covalent compounds are low.
+[chem6-s1.6.1] Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.
+[chem6-s1.6.2] Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.
+[chem6-s1.6.3] State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.
+[chem6-s1.6.4] Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken. There is more on this in “Allotropes of Carbon. Hydrocarbons”.
+[chem6-s1.7.b] A simple conductivity test shows whether a substance contains ions that are free to move. Ionic compounds pass the test when molten or dissolved.
+[chem6-s1.7.0] Step 1: Melt the substance, or dissolve it in water.
+[chem6-s1.7.1] Step 2: Dip two carbon electrodes (the rods that carry current into the liquid) into it, connected to a battery and a bulb (or an ammeter, which measures current).
+[chem6-s1.7.2] Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.
+[chem6-s1.7.3] Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.
+[chem6-s1.8.b] Two different kinds of attraction operate in a molecular substance: bonds inside each molecule and forces between molecules. Keeping them apart explains why melting and boiling are easy compared with breaking a molecule.
+[chem6-s1.8.0] Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.
+[chem6-s1.8.1] Intermolecular forces are the weaker forces of attraction between separate molecules.
+[chem6-s1.8.2] Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.
+[chem6-s1.8.3] Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).
+[chem6-s1.8.4] Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”.
+[chem6-s1.9.b] Even a molecule with no permanent charged ends still attracts its neighbours weakly. London dispersion forces are the intermolecular force that every molecule has.
+[chem6-s1.9.0] London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, for example H₂, Cl₂, CH₄ and noble gas atoms.
+[chem6-s1.9.1] They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole (one side slightly negative, the other slightly positive).
+[chem6-s1.9.2] The temporary dipole induces a dipole in a neighbouring molecule (pushes its electrons to one side), and the two attract.
+[chem6-s1.9.3] London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons, because a bigger electron cloud is easier to distort.
+[chem6-s1.10.b] Polar molecules have charged ends all the time, not just for an instant. This gives them an extra attraction on top of London dispersion forces.
+[chem6-s1.10.0] A polar molecule has a permanent dipole: a δ+ end and a δ− end, which arises from polar bonds. There is more on this in “Electronegativity and bond type”.
+[chem6-s1.10.1] Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, for example between HCl molecules (Hδ+–Clδ−).
+[chem6-s1.10.2] Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size, because the charged ends are permanent.
+[chem6-s1.11.b] Hydrogen bonding is the strongest of the intermolecular forces. It needs a hydrogen atom attached to one of three very electronegative atoms, F, O or N.
+[chem6-s1.11.0] A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.
+[chem6-s1.11.1] A lone pair is a pair of outer electrons on an atom that is not used in bonding, so it can attract the δ+ hydrogen of a neighbouring molecule.
+[chem6-s1.11.2] It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.
+[chem6-s1.11.3] A hydrogen bond is between molecules, not a covalent bond to hydrogen.
+[chem6-s1.11.4] Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.
+[chem6-s1.11.5] Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.
+[chem6-s1.11.6] Hydrogen bonds are the strongest intermolecular forces.
+[chem6-s1.11.7] Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule.
+[chem6-s1.12.b] When an ionic compound dissolves in water, the ions are pulled out of the lattice by the polar water molecules. The attraction between a full charge and a partial charge is called an ion–dipole force.
+[chem6-s1.12.0] An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.
+[chem6-s1.12.1] When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.
+[chem6-s1.12.2] The ions become surrounded by water molecules (hydrated).
+[chem6-s1.12.3] Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.
+[chem6-s1.12.4] Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it.
+[chem6-s1.13.b] Putting the forces in order lets you predict which substance holds its molecules together most strongly, for molecules of similar size.
+[chem6-s1.13.0] For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.
+[chem6-s1.13.1] All intermolecular forces are much weaker than covalent and ionic bonds, which is why melting or boiling a molecular substance leaves its molecules intact.

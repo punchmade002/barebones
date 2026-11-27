@@ -1,0 +1,200 @@
+{
+"hom-energy-nutrition-s1": [],
+"hom-energy-nutrition-s2": [
+{"needs":"hom-energy-nutrition-s1","strength":"essential","why":"uses BMR and total daily energy requirement","confidence":"high"},
+{"needs":"hom-energy-nutrition-s3","strength":"helpful","why":"uses kcal values per gram of nutrients","confidence":"high"}
+],
+"hom-energy-nutrition-s3": [
+{"needs":"hom-carbohydrates-s6","strength":"helpful","why":"carbohydrate energy value per gram","confidence":"low"},
+{"needs":"hom-lipids-s5","strength":"helpful","why":"lipid energy value per gram","confidence":"low"},
+{"needs":"hom-proteins-s8","strength":"helpful","why":"protein energy value per gram","confidence":"low"}
+],
+"hom-energy-nutrition-s4": [
+{"needs":"hom-energy-nutrition-s3","strength":"helpful","why":"energy density and nutrient energy contributions","confidence":"high"},
+{"needs":"hom-carbohydrates-s6","strength":"helpful","why":"fibre targets and reducing sugar intake","confidence":"high"},
+{"needs":"hom-lipids-s5","strength":"helpful","why":"saturated fat and cholesterol health effects","confidence":"high"},
+{"needs":"hom-vitamins-minerals-s4","strength":"helpful","why":"RDAs and supplements for calcium and iron","confidence":"low"}
+],
+"hom-energy-nutrition-s5": [
+{"needs":"hom-energy-nutrition-s4","strength":"essential","why":"compares the Irish diet against dietary guidelines","confidence":"high"},
+{"needs":"hom-carbohydrates-s5","strength":"helpful","why":"functions of fibre explain low-fibre problems","confidence":"high"},
+{"needs":"hom-lipids-s5","strength":"helpful","why":"health effects of high saturated fat","confidence":"high"},
+{"needs":"hom-vitamins-minerals-s4","strength":"essential","why":"iron and calcium sources, functions and deficiency","confidence":"high"}
+],
+"hom-energy-nutrition-s6": [
+{"needs":"hom-vitamins-minerals-s4","strength":"helpful","why":"minerals in water and electrolyte function","confidence":"low"}
+],
+"hom-environmental-issues-s1": [],
+"hom-environmental-issues-s2": [
+{"needs":"hom-food-additives-s2","strength":"helpful","why":"packaging materials and their environmental impact","confidence":"high"},
+{"needs":"hom-appliances-equipment-s2","strength":"helpful","why":"environmentally responsible appliance disposal","confidence":"low"}
+],
+"hom-environmental-issues-s3": [
+{"needs":"hom-environmental-issues-s1","strength":"helpful","why":"environmental effects of non-renewable fuels","confidence":"high"}
+],
+"hom-environmental-issues-s4": [
+{"needs":"hom-appliances-equipment-s2","strength":"essential","why":"EU energy label and energy-efficient appliance choice","confidence":"high"},
+{"needs":"hom-appliances-equipment-s1","strength":"helpful","why":"energy and running-cost control in the home","confidence":"high"},
+{"needs":"hom-environmental-issues-s1","strength":"helpful","why":"renewable energy sources for heating","confidence":"high"},
+{"needs":"hom-environmental-issues-s2","strength":"helpful","why":"waste hierarchy and reducing food and household waste","confidence":"high"}
+],
+"hom-family-caring-s1": [
+{"needs":"hom-sociological-concepts-s2","strength":"essential","why":"uses the concept of role and status","confidence":"high"},
+{"needs":"hom-family-society-s5","strength":"helpful","why":"family functions behind parental roles","confidence":"low"}
+],
+"hom-family-caring-s2": [
+{"needs":"hom-family-caring-s1","strength":"helpful","why":"parental roles in meeting children's needs","confidence":"high"},
+{"needs":"hom-sociological-concepts-s3","strength":"helpful","why":"socialisation of children within the family","confidence":"low"}
+],
+"hom-family-caring-s3": [
+{"needs":"hom-family-caring-s1","strength":"helpful","why":"family life cycle and changing roles","confidence":"high"},
+{"needs":"hom-family-caring-s2","strength":"helpful","why":"communication skills and conflict resolution","confidence":"low"}
+],
+"hom-family-caring-s4": [
+{"needs":"hom-family-caring-s1","strength":"helpful","why":"family roles under changed circumstances","confidence":"low"},
+{"needs":"hom-family-caring-s2","strength":"helpful","why":"needs and rights of family members","confidence":"low"}
+],
+"hom-family-law-s1": [
+{"needs":"hom-marriage-s2","strength":"helpful","why":"rights and responsibilities of spouses","confidence":"high"},
+{"needs":"hom-marriage-s4","strength":"helpful","why":"separation context for maintenance","confidence":"low"}
+],
+"hom-family-law-s2": [
+{"needs":"hom-marriage-s2","strength":"helpful","why":"rights of spouses over the family home","confidence":"high"},
+{"needs":"hom-housing-s2","strength":"helpful","why":"mortgages and housing finance","confidence":"low"}
+],
+"hom-family-law-s3": [
+{"needs":"hom-marriage-s4","strength":"helpful","why":"marital breakdown and legal separation","confidence":"low"}
+],
+"hom-family-law-s4": [
+{"needs":"hom-marriage-s4","strength":"essential","why":"legal separation, divorce and nullity compared","confidence":"high"},
+{"needs":"hom-marriage-s1","strength":"helpful","why":"legal definition and validity of marriage","confidence":"low"}
+],
+"hom-family-law-s5": [
+{"needs":"hom-family-caring-s2","strength":"helpful","why":"children's needs and rights within the family","confidence":"high"}
+],
+"hom-family-law-s6": [],
+"hom-family-society-s1": [
+{"needs":"hom-sociological-concepts-s3","strength":"helpful","why":"kinship and primary social groups","confidence":"high"},
+{"needs":"hom-sociological-concepts-s4","strength":"helpful","why":"family as a social institution","confidence":"low"}
+],
+"hom-family-society-s2": [
+{"needs":"hom-sociological-concepts-s5","strength":"helpful","why":"causes and effects of social change","confidence":"high"},
+{"needs":"hom-marriage-s4","strength":"helpful","why":"separation and divorce changing the family","confidence":"low"}
+],
+"hom-family-society-s3": [
+{"needs":"hom-family-society-s1","strength":"essential","why":"definition of the family and its criteria","confidence":"high"},
+{"needs":"hom-sociological-concepts-s3","strength":"helpful","why":"kinship terms for extended families","confidence":"low"}
+],
+"hom-family-society-s4": [
+{"needs":"hom-sociological-concepts-s5","strength":"essential","why":"social, economic, technological causes of change","confidence":"high"},
+{"needs":"hom-family-society-s3","strength":"helpful","why":"family structures being changed","confidence":"high"},
+{"needs":"hom-family-society-s2","strength":"helpful","why":"historical development of the Irish family","confidence":"low"}
+],
+"hom-family-society-s5": [
+{"needs":"hom-sociological-concepts-s3","strength":"essential","why":"socialisation is a family function","confidence":"high"},
+{"needs":"hom-sociological-concepts-s4","strength":"helpful","why":"institutions adopting or supplementing family functions","confidence":"high"},
+{"needs":"hom-family-society-s1","strength":"helpful","why":"definition of the family","confidence":"low"}
+],
+"hom-fish-seafood-s1": [
+{"needs":"hom-lipids-s1","strength":"helpful","why":"omega-3 fatty acids function and sources","confidence":"high"},
+{"needs":"hom-vitamins-minerals-s1","strength":"helpful","why":"vitamin D and A in oily fish","confidence":"high"},
+{"needs":"hom-proteins-s7","strength":"helpful","why":"high biological value protein","confidence":"low"}
+],
+"hom-fish-seafood-s2": [
+{"needs":"hom-food-safety-s3","strength":"helpful","why":"bacterial and enzymic spoilage and growth conditions","confidence":"high"},
+{"needs":"hom-food-preservation-s2","strength":"helpful","why":"principle and effects of freezing","confidence":"high"}
+],
+"hom-fish-seafood-s3": [
+{"needs":"hom-cooking-methods-s2","strength":"essential","why":"conduction, convection, radiation in cooking","confidence":"high"},
+{"needs":"hom-cooking-methods-s3","strength":"helpful","why":"moist, dry and fat-based cooking methods","confidence":"high"},
+{"needs":"hom-proteins-s5","strength":"helpful","why":"protein denaturation and coagulation on heating","confidence":"high"}
+],
+"hom-fish-seafood-s4": [
+{"needs":"hom-food-preservation-s2","strength":"helpful","why":"freezing principle and effects","confidence":"high"},
+{"needs":"hom-food-preservation-s3","strength":"helpful","why":"canning as heat processing","confidence":"high"},
+{"needs":"hom-food-preservation-s5","strength":"helpful","why":"salting, brining and smoking as chemical preservation","confidence":"high"},
+{"needs":"hom-food-preservation-s1","strength":"helpful","why":"why food spoils and preservation principles","confidence":"low"}
+],
+"hom-food-additives-s1": [
+{"needs":"hom-food-preservation-s1","strength":"helpful","why":"shelf-life extension principles","confidence":"low"},
+{"needs":"hom-food-industry-s1","strength":"helpful","why":"food industry sectors and processing","confidence":"low"}
+],
+"hom-food-additives-s2": [
+{"needs":"hom-environmental-issues-s2","strength":"helpful","why":"packaging waste and recycling symbols","confidence":"high"},
+{"needs":"hom-consumer-rights-s1","strength":"helpful","why":"packaging and food labelling as consumer information","confidence":"high"},
+{"needs":"hom-food-safety-s9","strength":"helpful","why":"legal labelling and allergen requirements","confidence":"low"}
+],
+"hom-food-additives-s3": [
+{"needs":"hom-environmental-issues-s3","strength":"helpful","why":"pollution routes into the food chain","confidence":"low"}
+],
+"hom-food-additives-s4": [
+{"needs":"hom-food-preservation-s5","strength":"helpful","why":"chemical preservatives and how they work","confidence":"high"},
+{"needs":"hom-carbohydrates-s6","strength":"helpful","why":"artificial sweeteners","confidence":"high"},
+{"needs":"hom-lipids-s4","strength":"helpful","why":"emulsifiers, stabilisers, rancidity and antioxidants","confidence":"high"}
+],
+"hom-food-additives-s5": [
+{"needs":"hom-food-additives-s4","strength":"essential","why":"classes of additives that E numbers identify","confidence":"high"},
+{"needs":"hom-food-safety-s9","strength":"helpful","why":"wider food law framework","confidence":"low"},
+{"needs":"hom-food-safety-s8","strength":"helpful","why":"FSAI enforcement role","confidence":"low"}
+],
+"hom-food-additives-s6": [
+{"needs":"hom-food-additives-s1","strength":"helpful","why":"processed versus home-made food comparison","confidence":"low"}
+],
+"hom-food-industry-s1": [
+{"needs":"hom-food-safety-s8","strength":"helpful","why":"state agencies overseeing food","confidence":"low"}
+],
+"hom-food-industry-s2": [
+{"needs":"hom-food-industry-s1","strength":"helpful","why":"structure of the food industry","confidence":"high"},
+{"needs":"hom-food-safety-s9","strength":"helpful","why":"food hygiene regulation for small businesses","confidence":"low"}
+],
+"hom-food-industry-s3": [
+{"needs":"hom-food-industry-s1","strength":"helpful","why":"industry sectors where careers sit","confidence":"high"}
+],
+"hom-food-preservation-s1": [
+{"needs":"hom-food-safety-s3","strength":"helpful","why":"micro-organism growth conditions and spoilage","confidence":"high"}
+],
+"hom-food-preservation-s2": [
+{"needs":"hom-food-preservation-s1","strength":"essential","why":"micro-organism growth conditions and principles","confidence":"high"},
+{"needs":"hom-food-safety-s6","strength":"helpful","why":"safe freezing and thawing","confidence":"low"}
+],
+"hom-food-preservation-s3": [
+{"needs":"hom-food-preservation-s1","strength":"essential","why":"destroying micro-organisms with heat","confidence":"high"},
+{"needs":"hom-carbohydrates-s4","strength":"helpful","why":"pectin gel formation in jam","confidence":"high"}
+],
+"hom-food-preservation-s4": [
+{"needs":"hom-food-preservation-s1","strength":"essential","why":"removing water denies micro-organisms growth","confidence":"high"}
+],
+"hom-food-preservation-s5": [
+{"needs":"hom-food-preservation-s1","strength":"essential","why":"osmosis and micro-organism growth conditions","confidence":"high"},
+{"needs":"hom-food-additives-s4","strength":"helpful","why":"permitted chemical preservatives","confidence":"low"}
+],
+"hom-food-preservation-s6": [
+{"needs":"hom-food-safety-s1","strength":"essential","why":"yeast and mould structure and growth","confidence":"high"},
+{"needs":"hom-food-safety-s4","strength":"helpful","why":"fermentation in food production","confidence":"high"},
+{"needs":"hom-food-preservation-s1","strength":"helpful","why":"conditions micro-organisms need to grow","confidence":"high"}
+],
+"hom-food-preservation-s7": [
+{"needs":"hom-food-preservation-s1","strength":"helpful","why":"micro-organisms and spoilage being destroyed","confidence":"high"},
+{"needs":"hom-food-safety-s3","strength":"helpful","why":"microbial and enzymic spoilage control","confidence":"low"}
+],
+"hom-food-preservation-s8": [
+{"needs":"hom-food-preservation-s2","strength":"essential","why":"freezing method being compared","confidence":"high"},
+{"needs":"hom-food-preservation-s3","strength":"essential","why":"canning and jam making being compared","confidence":"high"},
+{"needs":"hom-food-preservation-s4","strength":"helpful","why":"drying as a comparison method","confidence":"low"},
+{"needs":"hom-food-preservation-s5","strength":"helpful","why":"chemical methods as a comparison","confidence":"low"}
+],
+"hom-food-preservation-s9": [
+{"needs":"hom-food-preservation-s2","strength":"essential","why":"freezing principle, blanching and freezer faults","confidence":"high"},
+{"needs":"hom-food-preservation-s3","strength":"essential","why":"jam making principles and setting point","confidence":"high"},
+{"needs":"hom-food-preservation-s5","strength":"helpful","why":"chutney, sugar and vinegar preservation","confidence":"high"},
+{"needs":"hom-carbohydrates-s4","strength":"helpful","why":"pectin gel formation for setting jam","confidence":"low"}
+],
+"hom-food-safety-s1": [],
+"hom-food-safety-s2": [
+{"needs":"hom-food-safety-s1","strength":"helpful","why":"structure of a bacterial cell","confidence":"high"}
+],
+"hom-food-safety-s3": [
+{"needs":"hom-food-safety-s1","strength":"helpful","why":"mould and yeast growth conditions","confidence":"high"},
+{"needs":"hom-food-safety-s2","strength":"helpful","why":"bacterial growth, temperature and oxygen needs","confidence":"high"}
+]
+}

@@ -1,0 +1,473 @@
+MODE: links only (another package rates cost)
+TARGET chem25-s2: 2. Tests, reaction schemes and preparing an ester
+[chem25-s2.0.b] Aldehydes and ketones both contain the carbonyl group (a carbon double-bonded to oxygen, C=O), so they look alike. The difference is one hydrogen atom, and that hydrogen decides whether the compound can be oxidised (have oxygen added or hydrogen removed) by a mild reagent.
+[chem25-s2.0.0] An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.
+[chem25-s2.0.1] A ketone has the C=O group joined to two carbon atoms, so its carbonyl carbon has no hydrogen, e.g. propanone, CH₃COCH₃.
+[chem25-s2.0.2] An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH. This makes aldehydes good reducing agents (substances that get oxidised themselves while reducing something else).
+[chem25-s2.0.3] A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond, which a mild reagent cannot do.
+[chem25-s2.0.4] A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none.
+[chem25-s2.1.b] Fehling's reagent is the mild oxidising agent the specification uses to test for aldehydes. It is made from two solutions that are kept apart and mixed only when needed.
+[chem25-s2.1.0] Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).
+[chem25-s2.1.1] The mixture is a clear deep-blue solution containing Cu²⁺ ions, which are the part that reacts with an aldehyde.
+[chem25-s2.1.2] The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate (form as an insoluble solid).
+[chem25-s2.2.b] The aim is to show which of two unlabelled liquids is the aldehyde (ethanal) and which is the ketone (propanone). Both are tested in the same way so the results can be compared.
+[chem25-s2.2.0] Method: put about 2 cm³ of Fehling's reagent into each of two test tubes, so that one can be tested with each liquid for comparison.
+[chem25-s2.2.1] Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.
+[chem25-s2.2.2] Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame, because the liquids are flammable.
+[chem25-s2.2.3] With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.
+[chem25-s2.2.4] With propanone there is no change: the solution stays blue.
+[chem25-s2.2.5] An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde, because only aldehydes reduce the Cu²⁺; one that leaves the reagent blue is a ketone.
+[chem25-s2.3.b] Both the reagent and the liquids being tested carry hazards, which is why the heating is done in a water bath.
+[chem25-s2.3.0] Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.
+[chem25-s2.3.1] Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile (they evaporate easily) and flammable, so keep them away from flames and use a water bath.
+[chem25-s2.3.2] Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue).
+[chem25-s2.4.b] The colour change is a redox reaction (one where electrons are transferred). The copper ions in the reagent are reduced while the aldehyde is oxidised.
+[chem25-s2.4.0] Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).
+[chem25-s2.4.1] The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.
+[chem25-s2.4.2] Reduction half-equation: Cu²⁺ + e⁻ → Cu⁺, so the oxidation number of copper falls from +2 to +1.
+[chem25-s2.4.3] Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).
+[chem25-s2.4.4] Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.
+[chem25-s2.4.5] Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone.
+[chem25-s2.5.b] Carboxylic acids such as ethanoic acid show the usual properties of an acid. Three reactions (with a metal, a carbonate and a base) and an indicator (a dye that changes colour with acidity) are used to show this.
+[chem25-s2.5.0] Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.
+[chem25-s2.5.1] Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).
+[chem25-s2.5.2] Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.
+[chem25-s2.6.b] An acid reacts with a reactive metal to give a salt and hydrogen gas, and the gas is identified with a lighted taper.
+[chem25-s2.6.0] Add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.
+[chem25-s2.6.1] The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.
+[chem25-s2.6.2] Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).
+[chem25-s2.6.3] Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated (split into ions), so its H⁺ concentration is lower.
+[chem25-s2.6.4] Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.
+[chem25-s2.7.b] Acids react with carbonates to release carbon dioxide, which gives a clear visible sign of reaction.
+[chem25-s2.7.0] Add a little solid sodium carbonate to ethanoic acid; the mixture effervesces (fizzes).
+[chem25-s2.7.1] The gas turns limewater milky, so it is carbon dioxide.
+[chem25-s2.7.2] Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).
+[chem25-s2.7.3] Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater.
+[chem25-s2.8.b] A base neutralises an acid, giving a salt and water. Because this gives no gas, a different way of seeing the reaction is needed.
+[chem25-s2.8.0] Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).
+[chem25-s2.8.1] There is no visible change in this reaction, so add phenolphthalein (an indicator that is pink in alkali) to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.
+[chem25-s2.9.b] Concentrated ethanoic acid and the hydrogen test both need care.
+[chem25-s2.9.0] Wear goggles, because concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid.
+[chem25-s2.9.1] Keep flames away from any flammable liquid when testing for hydrogen, because hydrogen burns with a pop.
+[chem25-s2.10.b] A reaction scheme is a map of organic chemistry. Reading one means working out, arrow by arrow, what has changed and what caused the change.
+[chem25-s2.10.0] A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.
+[chem25-s2.10.1] A scheme shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps; this is organic synthesis.
+[chem25-s2.10.2] To read a scheme, name each compound and its functional group (the atom or group that gives a family its reactions), then for each arrow compare the formulae before and after.
+[chem25-s2.10.3] Decide what has been added, removed or swapped at each arrow, then name the reaction type and the reagent.
+[chem25-s2.10.4] A formula change of +H₂ across C=C or C=O is addition (two molecules joining with no atoms lost) or reduction; a change of −2H is oxidation; a change of +O is oxidation.
+[chem25-s2.10.5] A change of −H₂O or −HCl with a new C=C bond is elimination (a small molecule removed, leaving a double bond); one atom swapped for another is substitution.
+[chem25-s2.10.6] A carboxylic acid converted to its sodium salt is an acid–base reaction.
+[chem25-s2.11.b] Ethene, the two-carbon alkene (a hydrocarbon with a C=C double bond), sits at the centre of the scheme. Most of its conversions are additions across the double bond.
+[chem25-s2.11.0] Ethane to chloroethane: chlorine in ultraviolet light (substitution, because a chlorine atom takes the place of a hydrogen atom).
+[chem25-s2.11.1] Ethene to ethane: hydrogen with a nickel catalyst (addition, because H₂ adds across the C=C; also reduction).
+[chem25-s2.11.2] Ethene to chloroethane: hydrogen chloride (addition).
+[chem25-s2.11.3] Ethene to 1,2-dichloroethane: chlorine (addition).
+[chem25-s2.11.4] Ethene to 1,2-dibromoethane: bromine (addition).
+[chem25-s2.11.5] Ethene to ethanol: water (addition).
+[chem25-s2.11.6] Ethanol to ethene: heated aluminium oxide (elimination, because water is removed and a C=C forms).
+[chem25-s2.11.7] Chloroethane to ethene: loss of HCl (elimination, because a hydrogen and a chlorine are removed and a C=C forms).
+[chem25-s2.12.b] Ethanol links to the oxidation sequence and to the ester. Here the carbon skeleton stays the same except where two molecules join or split.
+[chem25-s2.12.0] Ethanol to ethanal to ethanoic acid: acidified potassium permanganate, as two oxidation steps.
+[chem25-s2.12.1] Ethanal to ethanol: hydrogen with a nickel catalyst (reduction, because H₂ adds across the C=O).
+[chem25-s2.12.2] Ethanoic acid and ethanol give ethyl ethanoate and water, with concentrated sulfuric acid as catalyst (substitution, esterification).
+[chem25-s2.12.3] Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis, splitting the ester with the help of water and base).
+[chem25-s2.12.4] Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).
+[chem25-s2.13.b] Ethene and its chlorinated relative can also be joined into long chains, giving plastics.
+[chem25-s2.13.0] Ethene to poly(ethene) by addition polymerisation (many ethene molecules adding together into a chain).
+[chem25-s2.13.1] 1,2-dichloroethane to chloroethene by elimination of HCl, then polymerisation to poly(chloroethene), PVC.
+[chem25-s2.13.2] Diagram: the two-carbon scheme as a map, with ethene at the centre and arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with its reagent and reaction type.
+[chem25-s2.14.b] The same reactions apply to longer chains. Whether the alcohol is primary or secondary decides whether oxidation gives an aldehyde and acid or a ketone.
+[chem25-s2.14.0] Propan-1-ol (a primary alcohol, with the –OH on an end carbon) to propanal to propanoic acid: acidified potassium permanganate (oxidation).
+[chem25-s2.14.1] Propan-2-ol (a secondary alcohol, with the –OH on a middle carbon) to propanone: acidified potassium permanganate (oxidation).
+[chem25-s2.14.2] Propanone to propan-2-ol: hydrogen with nickel (reduction).
+[chem25-s2.14.3] Propan-2-ol to propene and water (elimination).
+[chem25-s2.14.4] Propene to propane: hydrogen with nickel (addition, because H₂ adds across the C=C).
+[chem25-s2.14.5] Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation). There is more on this in Investigation: synthesising benzoic acid.
+[chem25-s2.15.b] When a scheme is incomplete, the product tells you what must have come before it, and counting carbon atoms checks your answer.
+[chem25-s2.15.0] A scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.
+[chem25-s2.15.1] An alkene can come from an alcohol by elimination, or go to an alcohol by addition of water.
+[chem25-s2.15.2] Carbon atoms are neither gained nor lost in these steps, except in esterification, which joins two molecules, and hydrolysis, which splits them, so the carbon skeleton checks each answer.
+[chem25-s2.16.b] To predict a product, recognise the functional group and recall its typical reaction. Multi-step syntheses just chain these together.
+[chem25-s2.16.0] To predict a product, identify the functional group and apply its typical reaction.
+[chem25-s2.16.1] An alkene with X₂, HX, H₂O or H₂ gives an addition product.
+[chem25-s2.16.2] A primary alcohol with an oxidising agent gives an aldehyde, then a carboxylic acid; a carboxylic acid with an alcohol gives an ester; an ester with NaOH gives a salt and an alcohol.
+[chem25-s2.16.3] Example: ethene to ethanoic acid in two steps, by adding water to give ethanol (addition), then oxidising with excess acidified potassium permanganate (oxidation).
+[chem25-s2.16.4] Example: ethanal to ethyl ethanoate, by reducing part of the ethanal to ethanol with H₂ and nickel, oxidising another part to ethanoic acid with acidified KMnO₄, then esterifying the two with concentrated H₂SO₄.
+[chem25-s2.16.5] Example: chloroethane to ethanol in two steps, by eliminating HCl to give ethene, then adding water.
+[chem25-s2.16.6] Example: heating propan-1-ol with methanoic acid gives propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol supplies the propyl part and the acid supplies the methanoate part.
+[chem25-s2.17.b] The shape around a carbon atom depends on its bonds. Tracking whether a carbon is tetrahedral (four bonds pointing to the corners of a pyramid-like shape) or planar (flat) shows what a reaction does to a molecule.
+[chem25-s2.17.0] A carbon atom with four single bonds is tetrahedral, with bond angles of about 109.5°.
+[chem25-s2.17.1] A carbon atom in a C=C or C=O double bond is planar (trigonal planar), with bond angles of about 120°.
+[chem25-s2.17.2] Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.
+[chem25-s2.17.3] Ethanol and ethane have only tetrahedral carbon atoms.
+[chem25-s2.18.b] A reaction that adds to or removes a double bond changes the carbons involved between planar and tetrahedral. Reactions that leave the C=O in place change nothing.
+[chem25-s2.18.0] Addition to C=C, as in ethene to ethane, ethene to ethanol or polymerisation, changes the two carbon atoms from planar to tetrahedral.
+[chem25-s2.18.1] Elimination, as in ethanol to ethene, changes the two carbon atoms from tetrahedral to planar.
+[chem25-s2.18.2] Oxidising an alcohol to an aldehyde or ketone changes the carbon bearing the oxygen from tetrahedral to planar.
+[chem25-s2.18.3] Reducing an aldehyde or ketone to an alcohol changes that carbon from planar to tetrahedral.
+[chem25-s2.18.4] Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry.
+[chem25-s2.19.b] Each reaction needs a particular feature in the molecule. Where it is missing, the reaction cannot happen, and the reason always comes back to that feature.
+[chem25-s2.19.0] Tertiary alcohols (alcohols with the –OH on a carbon bonded to three other carbons), such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.
+[chem25-s2.19.1] The carbon bearing the –OH group of a tertiary alcohol has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.
+[chem25-s2.19.2] Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.
+[chem25-s2.19.3] Alkanes and poly(ethene) cannot undergo addition, because they are saturated (they have only single bonds) and have no pi bond, so they do not decolourise bromine water.
+[chem25-s2.19.4] Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.
+[chem25-s2.19.5] Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons (shared around the whole ring) make the ring unusually stable, so it resists addition. There is more on this in Shapes, bonding and isomerism.
+[chem25-s2.19.6] Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol.
+[chem25-s2.20.b] An ester is the compound formed when a carboxylic acid reacts with an alcohol. In this investigation methyl propanoate is made from propanoic acid and methanol.
+[chem25-s2.20.0] Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux (boiling with a condenser that returns the vapour to the flask).
+[chem25-s2.20.1] Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.
+[chem25-s2.20.2] Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.
+[chem25-s2.20.3] The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.
+[chem25-s2.20.4] The specification needs only esters made from monocarboxylic acids and primary alcohols.
+[chem25-s2.21.b] Esterification does not go to completion, which shapes the whole purification. Isotope labelling shows exactly which bond forms.
+[chem25-s2.21.0] Esterification is slow and reversible: it reaches an equilibrium (the forward and reverse reactions balance) with only part of the acid and alcohol converted.
+[chem25-s2.21.1] The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.
+[chem25-s2.21.2] Isotope evidence: when the alcohol is labelled with oxygen-18 (a heavier form of oxygen used as a tracer), the ¹⁸O is found in the ester, not in the water.
+[chem25-s2.21.3] So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.
+[chem25-s2.22.b] The reactants are mixed with a catalyst and boiled gently for a while. A condenser fitted vertically stops the volatile liquids escaping.
+[chem25-s2.22.0] In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.
+[chem25-s2.22.1] Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic (gives out heat).
+[chem25-s2.22.2] Add a few anti-bumping granules, so that the mixture boils smoothly.
+[chem25-s2.22.3] Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.
+[chem25-s2.22.4] Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.
+[chem25-s2.22.5] Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top.
+[chem25-s2.23.b] After reflux the flask holds a mixture. The ester is separated from the other substances by washing, drying and then distilling.
+[chem25-s2.23.0] Cool the flask, then pour the mixture into a separating funnel (a tapped funnel for separating two liquids that do not mix) with some water and shake.
+[chem25-s2.23.1] The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.
+[chem25-s2.23.2] Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.
+[chem25-s2.23.3] Run off the lower aqueous layer, which now holds the sodium salt of the acid and the water, so the ester is left on its own.
+[chem25-s2.23.4] Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride (a drying agent that removes water) to remove water; swirl until the liquid is clear, then decant (pour off) or filter it.
+[chem25-s2.23.5] Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.
+[chem25-s2.23.6] Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.
+[chem25-s2.23.7] Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap.
+[chem25-s2.24.b] Every choice in the method has a purpose. Exams ask for these reasons directly.
+[chem25-s2.24.0] Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.
+[chem25-s2.24.1] Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.
+[chem25-s2.24.2] A water bath or heating mantle is used rather than a Bunsen burner, because methanol and the ester are flammable; it also gives gentle, even heating.
+[chem25-s2.24.3] Anti-bumping granules give smooth boiling by providing sites for small bubbles to form, which prevents sudden violent boiling (bumping).
+[chem25-s2.24.4] The condenser is never stoppered, because heating a closed system would build up pressure.
+[chem25-s2.24.5] Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.
+[chem25-s2.24.6] The pressure in the separating funnel must be released because carbon dioxide is produced.
+[chem25-s2.24.7] Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product.
+[chem25-s2.25.b] The hazards are corrosive and flammable chemicals. The yield is low because of the equilibrium and because product is lost in handling.
+[chem25-s2.25.0] Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.
+[chem25-s2.25.1] Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.
+[chem25-s2.25.2] The yield is well below 100%, because the reaction is an equilibrium.
+[chem25-s2.25.3] Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.
+[chem25-s2.25.4] Percentage yield = actual mass ÷ theoretical mass × 100. There is more on this in Theoretical, actual and percentage yield.
+[chem25-s2.25.5] Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.
+[chem25-s2.25.6] Not releasing the pressure in the separating funnel can blow out the stopper and lose product.
+[chem25-s2.25.7] Heating too strongly lets vapour escape from the top of the condenser.
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem11-s1: 1. Acids, bases and their reactions
+[chem11-s1.0.b] Acids show a common set of properties that can be observed in the laboratory and at home. These shared properties are how we decide whether a substance counts as an acid.
+[chem11-s1.0.0] Acids taste sour, but laboratory chemicals must never be tasted because many are corrosive or poisonous.
+[chem11-s1.0.1] Acids turn blue litmus (a dye that changes colour in acids and bases) red, and they have a pH below 7 (pH is a number that describes how acidic or basic a solution is).
+[chem11-s1.0.2] Acids react with reactive metals such as magnesium and zinc to give hydrogen gas, so bubbles form on the metal.
+[chem11-s1.0.3] Acids react with carbonates (compounds containing the CO₃²⁻ ion, such as chalk) to give carbon dioxide, seen as fizzing.
+[chem11-s1.0.4] Acids neutralise bases, which means they react with them so that both lose their acidic or basic character.
+[chem11-s1.0.5] Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits).
+[chem11-s1.1.b] Bases are the chemical opposites of acids. Their properties mirror those of acids, and some of them dissolve in water to form alkalis.
+[chem11-s1.1.0] Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.
+[chem11-s1.1.1] Bases turn red litmus blue and have a pH above 7.
+[chem11-s1.1.2] Bases neutralise acids, so an acid and a base each cancel out the other's properties.
+[chem11-s1.1.3] An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃), which is ammonia dissolved in water.
+[chem11-s1.1.4] Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.
+[chem11-s1.1.5] Concentrated alkalis (those with a lot of dissolved base in a small volume of water) are corrosive, meaning they damage skin and other materials: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners.
+[chem11-s1.2.b] You cannot tell whether a clear solution is acidic or basic by looking at it, so chemists add an indicator. An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.
+[chem11-s1.2.0] Litmus is red in acid and blue in base, so it is the simplest test for which kind of solution you have.
+[chem11-s1.2.1] Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.
+[chem11-s1.2.2] Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.
+[chem11-s1.2.3] Universal indicator is a mixture of indicators, so it gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.
+[chem11-s1.2.4] Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions.
+[chem11-s1.3.b] Common substances are classed as acids or bases according to the properties they show. For each one, the category is justified by a property you can observe or a substance it contains.
+[chem11-s1.3.0] Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.
+[chem11-s1.3.1] Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.
+[chem11-s1.3.2] Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.
+[chem11-s1.3.3] Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).
+[chem11-s1.3.4] Baking soda (sodium hydrogencarbonate) is a weak base.
+[chem11-s1.3.5] Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.
+[chem11-s1.3.6] Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid.
+[chem11-s1.4.b] Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties. This is useful whenever something is too acidic and needs to be corrected.
+[chem11-s1.4.0] Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.
+[chem11-s1.4.1] Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂. Here H⁺ stands for the acid in the soil.
+[chem11-s1.4.2] Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn, so a base is taken to remove it.
+[chem11-s1.4.3] Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.
+[chem11-s1.4.4] Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.
+[chem11-s1.4.5] Lime is added to acidic lakes to neutralise the acid, so the water becomes less acidic.
+[chem11-s1.4.6] Toothpaste neutralises plaque acid, and baking soda is a claimed remedy for a bee sting, which is said to be acidic.
+[chem11-s1.5.b] Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal. Knowing this lets you name the product of any acid reaction.
+[chem11-s1.5.0] A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion (NH₄⁺).
+[chem11-s1.5.1] Hydrochloric acid gives chlorides, e.g. NaCl, because the chloride ion Cl⁻ is what remains of the acid.
+[chem11-s1.5.2] Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.
+[chem11-s1.5.3] Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it (a fixed amount of substance) reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does.
+[chem11-s1.6.b] General word equation: acid + base → salt + water. A base here includes metal oxides and hydroxides, and ammonia.
+[chem11-s1.6.0] HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
+[chem11-s1.6.1] H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)
+[chem11-s1.6.2] With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.
+[chem11-s1.6.3] With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.
+[chem11-s1.6.4] Ionic equation (showing only the ions that react) for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem11-s1.6.5] Neutralisation is exothermic, so it releases heat.
+[chem11-s1.7.b] General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.
+[chem11-s1.7.0] Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.
+[chem11-s1.7.1] Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).
+[chem11-s1.7.2] Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series (the list of metals in order of reactivity).
+[chem11-s1.7.3] Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.
+[chem11-s1.8.b] General word equation: acid + carbonate → salt + water + carbon dioxide. Hydrogencarbonates (compounds containing the HCO₃⁻ ion) behave the same way.
+[chem11-s1.8.0] CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.
+[chem11-s1.8.1] Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.2] Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.3] Test for carbon dioxide: it turns limewater (a solution of calcium hydroxide) milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem11-s1.9.b] Use this method to write the equation for any reaction of an acid. It works because each type of reaction always gives the same pattern of products.
+[chem11-s1.9.0] Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.
+[chem11-s1.9.1] Step 2: Name the salt from the metal (or ammonium) ion and the acid.
+[chem11-s1.9.2] Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.
+[chem11-s1.9.3] Step 4: Balance the equation, so that each element has the same number of atoms on both sides.
+[chem11-s1.9.4] Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.
+[chem11-s1.9.5] Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate.
+
+CANDIDATES chem24-s2: 2. Physical properties and acidity
+[chem24-s2.0.b] When a solid melts or a liquid boils, the molecules move apart from one another but stay intact. So the energy needed depends on the attractions between molecules, and three kinds of attraction matter for organic compounds.
+[chem24-s2.0.0] Melting and boiling separate molecules, so they depend on the intermolecular forces (the attractions between separate molecules), not on the covalent bonds (shared electron pairs) inside the molecules.
+[chem24-s2.0.1] The stronger the forces, the more energy is needed to pull the molecules apart, so the higher the melting and boiling points.
+[chem24-s2.0.2] London dispersion forces are the weak attractions between all molecules, polar or not. They grow stronger as a molecule has more electrons and more surface.
+[chem24-s2.0.3] Permanent dipole–dipole forces act between polar molecules. A polar bond is one where the shared electrons sit nearer the more electronegative atom (the atom that pulls harder on shared electrons), leaving one end δ+ and the other δ−.
+[chem24-s2.0.4] Hydrogen bonding is a strong attraction between an H bonded to O, N or F and a lone pair (a non-bonding pair of outer electrons) on O, N or F of a neighbouring molecule. The order of strength is London forces only, then dipole–dipole, then hydrogen bonding.
+[chem24-s2.1.b] Which forces a compound has depends on its family, meaning the functional group (the atom or group that gives a family its properties) and whether that group has polar bonds. None of these families can hydrogen bond to its own molecules.
+[chem24-s2.1.0] Alkanes and alkenes (hydrocarbons, made only of C and H) are non-polar, so they have London dispersion forces only.
+[chem24-s2.1.1] Haloalkanes (alkanes with a halogen such as Cl in place of an H) have a polar C–Cl bond (Cl 3.16, C 2.55 on the electronegativity scale), so they have permanent dipole–dipole forces as well as London forces.
+[chem24-s2.1.2] Haloalkanes cannot hydrogen bond, because they have no H bonded to O, N or F.
+[chem24-s2.1.3] Aldehydes and ketones (compounds containing the C=O carbonyl group) have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.
+[chem24-s2.1.4] Aldehydes and ketones cannot hydrogen bond with each other, because their hydrogens are bonded to carbon, not oxygen.
+[chem24-s2.1.5] Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules.
+[chem24-s2.2.b] Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind.
+[chem24-s2.2.0] Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.
+[chem24-s2.2.1] Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.
+[chem24-s2.2.2] In the pure liquid, carboxylic acid molecules pair up as dimers (two molecules joined together) held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.
+[chem24-s2.2.3] Diagram: two ethanoic acid molecules facing each other, with dashed hydrogen bonds from each O–H hydrogen to the C=O oxygen of the other molecule, forming a dimer.
+[chem24-s2.3.b] Size also affects boiling point, because bigger molecules have stronger London forces. To compare the type of force fairly, you need compounds with about the same relative molecular mass (Mr, the mass of a molecule compared with carbon-12).
+[chem24-s2.3.0] At similar relative molecular mass, so with similar London forces, boiling point depends on the type of intermolecular force: London forces only give the lowest boiling point, then dipole–dipole forces, then hydrogen bonding.
+[chem24-s2.3.1] Butane (Mr 58) boils at −1 °C, propanal (Mr 58) at 48 °C and propanone (Mr 58) at 56 °C.
+[chem24-s2.3.2] Methyl methanoate (Mr 60) boils at 32 °C, propan-1-ol (Mr 60) at 97 °C and ethanoic acid (Mr 60) at 118 °C.
+[chem24-s2.3.3] Propanal boils far higher than butane because its polar C=O gives dipole–dipole forces in addition to London forces.
+[chem24-s2.3.4] Propan-1-ol boils higher than propanal because its O–H groups form hydrogen bonds between molecules, which are stronger than dipole–dipole forces.
+[chem24-s2.3.5] Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome.
+[chem24-s2.4.b] Two compounds can have the same mass, or even the same formula, and still boil at very different temperatures. The difference comes down to whether hydrogen bonding is possible.
+[chem24-s2.4.0] Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.
+[chem24-s2.4.1] The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.
+[chem24-s2.4.2] Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only.
+[chem24-s2.5.b] Within one family the functional group stays the same, so what changes boiling point is chain length. A homologous series (a family whose members differ by one CH₂ unit) shows this clearly.
+[chem24-s2.5.0] Within a homologous series, boiling point rises with chain length, because each extra CH₂ adds electrons and surface area, so London forces get stronger.
+[chem24-s2.5.1] Alcohols: methanol 65 °C; ethanol 78 °C; propan-1-ol 97 °C; butan-1-ol 117 °C; pentan-1-ol 138 °C; hexan-1-ol 157 °C, a rise of about 20 °C per CH₂.
+[chem24-s2.5.2] Carboxylic acids: methanoic acid 101 °C; ethanoic acid 118 °C; propanoic acid 141 °C; butanoic acid 164 °C.
+[chem24-s2.5.3] Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C.
+[chem24-s2.6.b] Haloalkanes follow the same trend, and adding halogens has its own effect. A longer chain also makes the families more alike.
+[chem24-s2.6.0] Chloroalkanes: chloromethane −24 °C and chloroethane 12 °C are gases at room temperature.
+[chem24-s2.6.1] Chloroalkanes: 1-chloropropane 47 °C and 1-chlorobutane 78 °C are liquids.
+[chem24-s2.6.2] Adding more chlorines also raises the boiling point: CH₃Cl −24 °C; CH₂Cl₂ 40 °C; CHCl₃ 61 °C; CCl₄ 77 °C, because more electrons give stronger London forces.
+[chem24-s2.6.3] As the chain gets longer, the hydrocarbon part makes up more of the molecule, so the difference between families gets smaller, because the effect of the functional group is diluted.
+[chem24-s2.7.b] Molecules with the same formula can have different shapes. A branched molecule is more compact than a straight chain, and that changes how strongly molecules attract one another.
+[chem24-s2.7.0] Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker. There is more on this in Groups of hydrocarbons and their properties.
+[chem24-s2.7.1] Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.
+[chem24-s2.7.2] The more compact the molecule, and the more crowded the –OH, the lower the boiling point.
+[chem24-s2.8.b] Exams give a table or graph of boiling point against number of carbons and ask for the trend, the reason and a prediction. A fixed three-step method covers all three.
+[chem24-s2.8.0] Step 1: from a table or graph of boiling point against number of carbons, describe the trend, for example that boiling point rises as the number of carbons rises.
+[chem24-s2.8.1] Step 2: explain the trend in terms of chain length, London forces and the functional group.
+[chem24-s2.8.2] Step 3: predict the next member by continuing the trend, e.g. continuing the primary alcohols from butan-1-ol, 117 °C, gives about 138 °C for pentan-1-ol.
+[chem24-s2.9.b] Melting also depends on intermolecular forces, but a solid is an ordered packing of molecules. So how neatly the molecules fit together matters too.
+[chem24-s2.9.0] Melting points depend on the intermolecular forces and also on how well the molecules pack together in the solid, so they follow trends less regularly than boiling points.
+[chem24-s2.9.1] Ethanoic acid melts at 17 °C, high for its size, because of strong hydrogen bonding.
+[chem24-s2.9.2] On a cold day, pure ethanoic acid freezes to an ice-like solid, so it is called glacial ethanoic acid.
+[chem24-s2.9.3] Compact, symmetrical molecules pack well and melt higher: 2-methylpropan-2-ol melts at about 25 °C, but butan-1-ol melts at −89 °C.
+[chem24-s2.9.4] Cyclohexane (a ring of six carbons) melts at 6.5 °C, but hexane (the straight chain) melts at −95 °C, again because the compact ring packs better.
+[chem24-s2.9.5] Ionic bonding (attraction between oppositely charged ions) gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C.
+[chem24-s2.10.b] Whether a compound dissolves depends on whether it can attract the solvent (the liquid doing the dissolving) as strongly as it attracts itself. For water, that means hydrogen bonding.
+[chem24-s2.10.0] Like dissolves like: a compound dissolves in water if it can form hydrogen bonds with water molecules.
+[chem24-s2.10.1] Non-polar compounds dissolve in non-polar solvents such as cyclohexane, where London forces are similar.
+[chem24-s2.10.2] Lower alcohols (methanol, ethanol, propan-1-ol and propan-2-ol) are miscible with water, mixing in all proportions, because their –OH groups hydrogen bond with water.
+[chem24-s2.10.3] Lower carboxylic acids, from methanoic acid to butanoic acid, are also miscible with water, for the same reason.
+[chem24-s2.10.4] Solubility in water falls as the chain gets longer, because the non-polar hydrocarbon part cannot hydrogen bond and disrupts the hydrogen bonding of the water.
+[chem24-s2.10.5] Butan-1-ol is only partly soluble in water, and hexan-1-ol is only slightly soluble.
+[chem24-s2.10.6] Longer chains dissolve better in non-polar solvents.
+[chem24-s2.11.b] These families cannot hydrogen bond to their own molecules, yet small ones still dissolve in water. The reason is that water can hydrogen bond to them.
+[chem24-s2.11.0] Small aldehydes and ketones, methanal, ethanal and propanone, are miscible with water: they have no O–H, but water molecules hydrogen bond to the lone pairs on their C=O oxygen.
+[chem24-s2.11.1] Propanone dissolves both polar and non-polar substances, so it is a useful solvent.
+[chem24-s2.11.2] Butanone is not fully miscible with water; only the smallest ketone, propanone, is.
+[chem24-s2.11.3] Small esters are slightly soluble in water for the same reason, as water hydrogen bonds to their oxygens: about 8 g of ethyl ethanoate dissolves in 100 g of water at room temperature.
+[chem24-s2.11.4] Small esters dissolve well in organic solvents.
+[chem24-s2.12.b] Compounds with no way to hydrogen bond with water stay out of it, while ionic compounds are pulled in by water's charges. These cases explain common solvents and a purification method.
+[chem24-s2.12.0] Alkanes, alkenes, benzene and haloalkanes are insoluble in water, as they cannot hydrogen bond with it, but they dissolve in non-polar solvents.
+[chem24-s2.12.1] Haloalkanes are good solvents for grease and oil.
+[chem24-s2.12.2] Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation (dissolving in hot water, then cooling so pure crystals form).
+[chem24-s2.12.3] There is more on this in Investigation: synthesising benzoic acid.
+[chem24-s2.12.4] Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction).
+[chem24-s2.13.b] Alcohols and carboxylic acids both contain an O–H group, yet carboxylic acids are far more acidic. To see why, first look at why an O–H hydrogen can be lost at all.
+[chem24-s2.13.0] An acid, in the Brønsted–Lowry sense, is a proton donor; both alcohols and carboxylic acids can donate the H⁺ of their O–H group.
+[chem24-s2.13.1] The O–H bond is polar because oxygen (3.44) is much more electronegative than hydrogen (2.20), so the shared electrons are pulled towards oxygen.
+[chem24-s2.13.2] This leaves the hydrogen δ+, so it can be removed as H⁺ by a base (a proton acceptor).
+[chem24-s2.13.3] C–H bonds are almost non-polar (C 2.55, H 2.20), so hydrogens bonded to carbon are not acidic.
+[chem24-s2.13.4] In ethanoic acid, CH₃COOH, only the hydrogen on oxygen is lost.
+[chem24-s2.13.5] How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base, what is left after H⁺ leaves) is.
+[chem24-s2.13.6] The more stable the negative ion, the more easily H⁺ is lost and the stronger the acid.
+[chem24-s2.14.b] An alcohol can lose H⁺, but the ion it leaves behind is unstable. This is why alcohols are such weak acids.
+[chem24-s2.14.0] An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺. Ethanol gives the ethoxide ion, C₂H₅O⁻.
+[chem24-s2.14.1] In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance (sharing the charge over more than one atom).
+[chem24-s2.14.2] The alkoxide ion is therefore unstable and readily takes back H⁺.
+[chem24-s2.14.3] The alkyl group (a chain of carbons and hydrogens) is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.
+[chem24-s2.14.4] Alcohols are therefore weaker acids than water.
+[chem24-s2.15.b] Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Their acidic O–H shows up in the reaction with sodium metal.
+[chem24-s2.15.0] Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.
+[chem24-s2.15.1] Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.
+[chem24-s2.15.2] Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g), forming sodium ethoxide.
+[chem24-s2.15.3] The reaction of ethanol with sodium is gentler than the reaction of sodium with water, showing that ethanol is a weaker acid than water.
+[chem24-s2.16.b] A carboxylic acid loses H⁺ much more easily than an alcohol, and the reason lies in the ion it leaves behind. Its negative charge is not stuck on one atom.
+[chem24-s2.16.0] A carboxylic acid loses H⁺ to form a carboxylate ion: RCOOH(aq) ⇌ RCOO⁻(aq) + H⁺(aq).
+[chem24-s2.16.1] Ethanoic acid gives the ethanoate ion: CH₃COOH ⇌ CH₃COO⁻ + H⁺.
+[chem24-s2.16.2] In the carboxylate ion the negative charge is delocalised (spread out), shared over both oxygen atoms through the O–C–O group.
+[chem24-s2.16.3] The carboxylate ion is a resonance hybrid (a blend) of two structures, in each of which a different oxygen carries the negative charge.
+[chem24-s2.17.b] Bond lengths show that the charge really is shared, and the sharing is what stabilises the ion. This is why a carboxylic acid is a much stronger acid than an alcohol.
+[chem24-s2.17.0] The two C–O bonds in a carboxylate ion are the same length, between the length of a C–O single bond and that of a C=O double bond.
+[chem24-s2.17.1] In the acid itself, the C=O bond is shorter than the C–O bond.
+[chem24-s2.17.2] Spreading the charge over two oxygens stabilises the carboxylate ion.
+[chem24-s2.17.3] So a carboxylic acid loses H⁺ much more readily than an alcohol, whose alkoxide ion has no such stabilisation.
+[chem24-s2.17.4] Diagram: the two resonance structures of the ethanoate ion, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and the hybrid drawn with a dashed bond over O–C–O and a charge of −½ on each oxygen.
+[chem24-s2.18.b] A second effect adds to resonance. Atoms in a molecule pull on electrons along the bonds, and this changes how easily the O–H hydrogen leaves.
+[chem24-s2.18.0] The inductive effect is the pulling (or pushing) of electron density along sigma bonds (the single bonds that join atoms) by an atom or group, because of its electronegativity.
+[chem24-s2.18.1] In the –COOH group, the electronegative oxygen of the C=O pulls electron density away from the O–H bond.
+[chem24-s2.18.2] This makes the O–H more polar and the hydrogen easier to lose than in an alcohol.
+[chem24-s2.18.3] Electron-withdrawing groups such as chlorine, attached to the carbon chain, pull electron density towards themselves.
+[chem24-s2.18.4] This spreads out the negative charge of the carboxylate ion and stabilises it, so the acid is stronger.
+[chem24-s2.18.5] More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect.
+[chem24-s2.19.b] Alkyl groups have the opposite effect to chlorine, so they weaken an acid. The Ka values (the acid dissociation constant: the larger the Ka, the stronger the acid) confirm the order.
+[chem24-s2.19.0] Alkyl groups are electron-releasing; they push electron density towards the –COO⁻ group, destabilising it, so the acid is weaker.
+[chem24-s2.19.1] Methanoic acid, with H on the –COOH, is stronger than ethanoic acid, with CH₃ on the –COOH, which is slightly stronger than propanoic acid.
+[chem24-s2.19.2] Ka data at 25 °C: methanoic acid 1.8 × 10⁻⁴; ethanoic acid 1.8 × 10⁻⁵; propanoic acid 1.3 × 10⁻⁵.
+[chem24-s2.19.3] Ka data at 25 °C: chloroethanoic acid 1.4 × 10⁻³; trichloroethanoic acid about 0.2.
+[chem24-s2.19.4] Order of strength: CCl₃COOH > CH₂ClCOOH > HCOOH > CH₃COOH > CH₃CH₂COOH.
+[chem24-s2.20.b] Carboxylic acids are much more acidic than alcohols, but they are still weak acids. A weak acid dissociates (splits into H⁺ and its negative ion) only partly, and a short calculation shows how little.
+[chem24-s2.20.0] Carboxylic acids are weak acids, only partly dissociated.
+[chem24-s2.20.1] Step 1: the degree of dissociation (the fraction of molecules that lose H⁺) is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.
+[chem24-s2.20.2] Step 2: [H⁺] = 0.013 × 0.1 mol L⁻¹ = 1.3 × 10⁻³ mol L⁻¹.
+[chem24-s2.20.3] Step 3: pH = −log₁₀[H⁺] = −log₁₀(1.3 × 10⁻³) ≈ 2.9.
+[chem24-s2.20.4] Carboxylic acids are still far stronger acids than alcohols, because of the resonance-stabilised carboxylate ion and the inductive effect of the C=O.
+[chem24-s2.20.5] Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.
+[chem24-s2.21.b] The difference in acidity shows up in everyday reactions. Carboxylic acids give the typical reactions of an acid, and alcohols mostly do not.
+[chem24-s2.21.0] Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.
+[chem24-s2.21.1] Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O. There is more on this in Tests, reaction schemes and preparing an ester.
+[chem24-s2.21.2] Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.
+[chem24-s2.21.3] Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.
+[chem24-s2.21.4] Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.
+[chem24-s2.21.5] Indicator: an alcohol is neutral; an acid is acidic.
+[chem24-s2.22.b] Every acidity question has the same logic: the more stable the negative ion left behind, the stronger the acid. A two-step answer follows it.
+[chem24-s2.22.0] Step 1 of explaining a difference in acidity: say which anion is more stable and why, referring to resonance and to electron-withdrawing or electron-releasing groups.
+[chem24-s2.22.1] Step 2 of explaining a difference in acidity: conclude which acid loses H⁺ more easily.

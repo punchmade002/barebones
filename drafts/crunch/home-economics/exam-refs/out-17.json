@@ -1,0 +1,46 @@
+{
+  "homeeconomics-pp-2014-HI-sectionb-proteins-Q1": {
+    "(a)": ["hom-consumer-rights-s2", "hom-consumer-rights-s1"],
+    "(b)": ["hom-energy-nutrition-s1", "hom-personal-finance-s2", "hom-meal-planning-s2"],
+    "(c)": ["hom-proteins-s7", "hom-proteins-s9"],
+    "(d)": ["hom-proteins-s1", "hom-proteins-s2", "hom-proteins-s3", "hom-proteins-s7"]
+  },
+  "homeeconomics-pp-2014-HI-sectionb-meatpreparation-Q2": {
+    "(a)": ["hom-meat-preparation-s1"],
+    "(b)": ["hom-meat-preparation-s3"],
+    "(c)": ["hom-meat-preparation-s4", "hom-food-preservation-s1", "hom-food-preservation-s2", "hom-food-preservation-s5"]
+  },
+  "homeeconomics-pp-2014-HI-sectionb-foodsafety-Q3": {
+    "(a)": ["hom-food-safety-s7", "hom-food-safety-s6"],
+    "(b)": ["hom-cooking-methods-s2", "hom-cooking-methods-s3", "hom-cooking-methods-s1"],
+    "(c)": ["hom-food-safety-s2"]
+  },
+  "homeeconomics-pp-2014-HI-sectionb-appliancesequipment-Q4": {
+    "(a)": ["hom-appliances-equipment-s2"],
+    "(b)": ["hom-appliances-equipment-s6"],
+    "(c)": ["hom-appliances-equipment-s2", "hom-environmental-issues-s4", "hom-environmental-issues-s2"]
+  },
+  "homeeconomics-pp-2014-HI-sectionb-consumerrights-Q5": {
+    "(a)": ["hom-family-society-s2"],
+    "(b)(i)": ["hom-family-society-s5"],
+    "(b)(ii)": ["hom-family-society-s5", "hom-unemployment-poverty-s6", "hom-social-change-s3"],
+    "(c)": ["hom-family-caring-s3"]
+  },
+  "homeeconomics-pp-2014-HI-sectionc-housing-Q1": {
+    "(a)(i)": ["hom-home-services-s6", "hom-home-services-s2"],
+    "(a)(ii)": ["hom-home-services-s1", "hom-environmental-issues-s1"],
+    "(a)(iii)": ["hom-home-services-s2", "hom-housing-s6"],
+    "(b)(i)": ["hom-home-interior-s1"],
+    "(b)(ii)": ["hom-home-interior-s2"],
+    "(c)(i)": ["hom-housing-s4", "hom-housing-s1"],
+    "(c)(ii)": ["hom-housing-s1"]
+  },
+  "homeeconomics-pp-2014-HI-sectionc-clothingselection-Q2": {
+    "(a)(i)": ["hom-clothing-selection-s3", "hom-clothing-selection-s4"],
+    "(a)(ii)": ["hom-clothing-selection-s4"],
+    "(b)(i)": ["hom-textiles-fibres-s5", "hom-textiles-fibres-s4"],
+    "(b)(ii)": ["hom-textiles-fibres-s5"],
+    "(c)(i)": ["hom-clothing-selection-s6"],
+    "(c)(ii)": ["hom-clothing-selection-s6"]
+  }
+}

@@ -1,0 +1,410 @@
+MODE: cost and links
+TARGET chem25-s6: 6. Surfactants and soap
+[chem25-s6.0.b] Water on its own is poor at cleaning greasy things, because water and oil do not mix. A surfactant is the kind of substance that fixes this, and soap is the best-known example.
+[chem25-s6.0.0] A surfactant (surface-active agent) is a substance whose molecules or ions have a water-attracting (hydrophilic) part and a water-repelling (hydrophobic) part, so one particle can interact with both water and oil.
+[chem25-s6.0.1] Dissolved in water, a surfactant lowers the surface tension (the pull between surface water molecules that makes water bead up), which helps water wet surfaces and mix with oil and grease.
+[chem25-s6.0.2] Soap is a surfactant: the sodium or potassium salt of a long-chain carboxylic acid, called a fatty acid (an acid with a long hydrocarbon chain ending in –COOH).
+[chem25-s6.0.3] Sodium stearate, C₁₇H₃₅COO⁻Na⁺, is sodium octadecanoate, a typical soap.
+[chem25-s6.0.4] Potassium soaps are softer and are used in liquid soaps.
+[chem25-s6.1.b] A soap ion has two ends with opposite attitudes to water. This split personality is what lets soap clean, and it is the basis of any question on how soap works.
+[chem25-s6.1.0] The head, the carboxylate group –COO⁻, is ionic and hydrophilic: it is attracted to polar water molecules (molecules with slightly positive and negative ends) by ion–dipole attraction, and so dissolves in water.
+[chem25-s6.1.1] The tail is a long hydrocarbon chain of about 12–18 carbon atoms; it is non-polar and hydrophobic, so it does not mix with water but dissolves in grease and oil through London dispersion forces (weak attractions between non-polar molecules).
+[chem25-s6.1.2] This dual nature lets one soap ion interact with both water and grease.
+[chem25-s6.1.3] Soap can dissolve the non-polar oils on skin, and through its ionic heads and the water it also removes the salts in sweat.
+[chem25-s6.1.4] Diagram: a soap ion drawn as a long zig-zag tail, with a circled –COO⁻ head and a separate Na⁺ ion, labelled hydrophobic tail and hydrophilic head.
+[chem25-s6.2.b] Grease holds dirt to skin and fabric, and plain water cannot lift it. Soap works in a fixed sequence, ending with the grease trapped in tiny spheres that rinse away.
+[chem25-s6.2.0] 1. In water, soap lowers the surface tension, so the water spreads over and wets the greasy surface or fabric instead of beading up.
+[chem25-s6.2.1] 2. The hydrophobic tails dissolve in the grease or oil, while the hydrophilic heads stay in the water at the surface of the grease.
+[chem25-s6.2.2] 3. Rubbing or agitation breaks the grease into tiny droplets, each surrounded by soap ions.
+[chem25-s6.2.3] 4. Each droplet becomes a micelle: a sphere with the grease and the tails inside, and the negatively charged heads facing out into the water.
+[chem25-s6.2.4] 5. The negative surfaces of the micelles repel one another, so the droplets do not join up again and stay dispersed in the water as an emulsion (tiny droplets of one liquid spread through another); this is emulsification.
+[chem25-s6.2.5] 6. Rinsing carries the micelles away, with the dirt and microorganisms trapped in the grease.
+[chem25-s6.2.6] Diagram: a micelle, with an oil droplet in the centre, soap tails pointing inward into it, and heads (–COO⁻) on the outside in water.
+[chem25-s6.3.b] Soap does not work equally well in all water. In hard water it is partly wasted, because ions in the water react with it.
+[chem25-s6.3.0] Hard water contains Ca²⁺ and Mg²⁺ ions, for example water from limestone regions.
+[chem25-s6.3.1] These ions react with soap ions to form an insoluble scum (a solid that does not dissolve): 2C₁₇H₃₅COO⁻(aq) + Ca²⁺(aq) → (C₁₇H₃₅COO)₂Ca(s).
+[chem25-s6.3.2] In hard water, soap forms scum and lathers poorly until all the hardness ions have been precipitated (removed as solid), which wastes soap.
+[chem25-s6.3.3] In deionised, soft water (water with the ions removed), soap lathers easily.
+[chem25-s6.4.b] Chemists solved the scum problem by changing the head of the surfactant. Surfactants can then be sorted into groups by the charge on that head.
+[chem25-s6.4.0] Synthetic detergents, also called soapless detergents, have a similar head-and-tail structure but a different head, e.g. a sulfonate group (–SO₃⁻) in alkylbenzene sulfonates.
+[chem25-s6.4.1] Their calcium and magnesium salts are soluble, so synthetic detergents work well in hard water and form no scum.
+[chem25-s6.4.2] Surfactants are grouped by their head: anionic (negative head), e.g. soaps and sulfonates in washing-up liquid and laundry detergent.
+[chem25-s6.4.3] Cationic surfactants have a positive head, e.g. quaternary ammonium compounds in fabric conditioners and some disinfectants.
+[chem25-s6.4.4] Non-ionic surfactants have an uncharged head and are used in many cleaning products.
+[chem25-s6.5.b] Any job that needs oil and water to mix, or a liquid to spread over a surface, uses a surfactant. The uses fall into four groups.
+[chem25-s6.5.0] Cleaning: bar and liquid soaps, hand wash, shower gel, shampoo, washing-up liquid, laundry detergent, and household and industrial surface cleaners.
+[chem25-s6.5.1] Personal care: toothpaste, where sodium lauryl sulfate is the foaming agent; shampoo; and cosmetics and creams, where surfactants act as emulsifiers (substances that keep oil and water mixed).
+[chem25-s6.5.2] Food: emulsifiers such as lecithin, a natural emulsifier from soya or egg yolk, keep oil and water mixed in mayonnaise, chocolate and margarine.
+[chem25-s6.5.3] Other uses: fabric conditioners; wetting agents (substances that help a liquid spread over a surface) in paints, inks and agricultural sprays, so that the spray spreads over leaves; firefighting foams; and dispersants that break up oil spills at sea.
+[chem25-s6.6.b] Surfactants have made a major contribution to public health, because they remove microorganisms and the grease that shelters them.
+[chem25-s6.6.0] Handwashing with soap removes microorganisms from the skin, trapping them in micelles that are rinsed away.
+[chem25-s6.6.1] Handwashing is one of the most effective ways of preventing the spread of infectious diseases such as diarrhoeal diseases, respiratory infections and influenza.
+[chem25-s6.6.2] Soap destroys enveloped viruses (viruses with a fatty outer layer), such as influenza viruses and SARS-CoV-2, the virus that causes COVID-19: the hydrophobic tails insert into the virus's fatty lipid outer membrane and break it apart.
+[chem25-s6.6.3] Public-health advice during the COVID-19 pandemic was to wash hands with soap and water, scrubbing for at least 20 seconds.
+[chem25-s6.6.4] Detergents used in laundry, dishwashing, hospitals and food processing remove the grease that shelters bacteria, improving hygiene in homes, hospitals and the food industry.
+[chem25-s6.7.b] Surfactants also caused pollution problems, and the solutions show how detergent design changed. These facts belong here only as impacts of surfactant use.
+[chem25-s6.7.0] Early synthetic detergents with branched hydrocarbon chains were not biodegradable (microorganisms could not break them down), so they caused foam on rivers in the 1950s and 1960s; they were replaced by biodegradable linear-chain detergents.
+[chem25-s6.7.1] Phosphates added to some detergents as builders (additives that improve cleaning) can cause eutrophication (over-enrichment with nutrients) of lakes and rivers, so their use has been restricted, e.g. in laundry detergents in the EU.
+[chem25-s6.7.2] The EU restricted phosphates in household laundry detergents from 2013 and in household dishwasher detergents from 2017.
+[chem25-s6.8.b] Soap can be made at small scale from kitchen materials. The reaction splits a fat or oil into soap and glycerol using sodium hydroxide.
+[chem25-s6.8.0] Aim: to make soap on a small scale from household reactants, by base hydrolysis (saponification, the splitting of a fat or oil by an alkali) with sodium hydroxide, and to compare the product when sodium hydroxide is limiting with when it is in excess.
+[chem25-s6.8.1] Word equation: fat or oil + sodium hydroxide gives soap (the sodium salts of fatty acids) + glycerol.
+[chem25-s6.8.2] One mole of fat reacts with 3 moles of NaOH, because each fat molecule has three ester links to break.
+[chem25-s6.8.3] Household reactants: a vegetable oil or fat, e.g. olive, sunflower or coconut oil, or lard; sodium hydroxide, sold as caustic soda; water; and table salt for brine (concentrated salt solution).
+[chem25-s6.8.4] A reflux method (boiling with a condenser fitted to return the vapour) is not required: the mixture is heated gently in an open container in a water bath.
+[chem25-s6.9.b] The method has two halves: making the soap by heating, then separating it from the other products with brine and washing.
+[chem25-s6.9.0] 1. Weigh a known mass of oil, e.g. 10 g, into a beaker or evaporating basin.
+[chem25-s6.9.1] 2. Add a measured volume of sodium hydroxide solution of known concentration; a little ethanol, if available, can be added as a solvent in which both the oil and the sodium hydroxide dissolve, so that they mix and react faster.
+[chem25-s6.9.2] 3. Heat gently in a water bath, stirring continuously, for about 20–30 minutes, adding a little water if the mixture dries out; the mixture becomes thick and creamy as soap forms.
+[chem25-s6.9.3] 4. Pour the mixture into a beaker of saturated salt solution (brine) and stir; the soap separates as solid curds, because soap is much less soluble in concentrated salt solution than in water; this is salting out.
+[chem25-s6.9.4] 5. Collect the soap by filtration or by skimming it off, and wash it with a little ice-cold water, because warm water would dissolve the soap.
+[chem25-s6.9.5] 6. Press the soap dry between filter papers, leave it to dry and weigh it.
+[chem25-s6.9.6] 7. Repeat with the same mass of oil but a different amount of sodium hydroxide, so that one batch has NaOH in excess and the other has NaOH limiting (the calculation block works an example).
+[chem25-s6.9.7] Diagram: a beaker of oil and sodium hydroxide solution in a water bath, with a stirring rod and a thermometer, and a filter funnel collecting the soap from the brine.
+[chem25-s6.10.b] Simple tests show whether the product behaves like soap and how the amount of sodium hydroxide affected it.
+[chem25-s6.10.0] Shake a little soap with deionised water: it forms a lather, and the solution is slightly alkaline, about pH 9–10.
+[chem25-s6.10.1] Shake a little soap with hard water, e.g. mineral water from a limestone region: a scum forms and there is little lather.
+[chem25-s6.10.2] Test a solution of each batch with universal indicator or a pH meter: soap made with excess NaOH has a much higher pH, unless the NaOH has been washed out.
+[chem25-s6.10.3] Look and feel the soap, wearing gloves: soap from a batch with limiting NaOH is greasy and soft, with an oily layer of unreacted oil.
+[chem25-s6.10.4] The glycerol co-product (the second product of the reaction) and any excess sodium hydroxide dissolve in the brine filtrate (the liquid that passes through the filter), not in the washed soap.
+[chem25-s6.11.b] Each choice in the method has a reason, and exam questions ask for it directly.
+[chem25-s6.11.0] Heating speeds up the hydrolysis (the splitting of the fat by water and alkali), which is slow at room temperature; a water bath gives gentle, even heat and avoids a flame, because ethanol is flammable.
+[chem25-s6.11.1] Stirring mixes the oil with the aqueous sodium hydroxide (sodium hydroxide dissolved in water), which do not mix by themselves, so they keep reacting.
+[chem25-s6.11.2] Brine separates the soap from glycerol, water and excess NaOH, which all stay in solution.
+[chem25-s6.11.3] Washing with ice-cold water removes NaOH and glycerol from the soap surface without dissolving much soap.
+[chem25-s6.12.b] Sodium hydroxide is the main hazard in this activity. The errors listed below also explain why the mass of soap you get is not exact.
+[chem25-s6.12.0] Sodium hydroxide is corrosive and especially harmful to the eyes: wear goggles and gloves.
+[chem25-s6.12.1] Add the sodium hydroxide carefully, because dissolving NaOH in water is exothermic (it gives out heat).
+[chem25-s6.12.2] Do not use the product on skin, because it may contain unreacted sodium hydroxide.
+[chem25-s6.12.3] Sources of error include soap lost in the brine and washings, wet soap being weighed, which gives too high a mass, and a reaction not completed in the time allowed.
+[chem25-s6.12.4] Household oils are mixtures, so the mass of NaOH needed can only be estimated.
+[chem25-s6.13.b] A reagent is limiting when it runs out first and so sets how much product forms. Whether the sodium hydroxide or the fat runs out first changes the quality of the soap.
+[chem25-s6.13.0] If NaOH is limiting, not all the fat is hydrolysed: the yield of soap is set by the moles of NaOH, and unreacted fat or oil remains.
+[chem25-s6.13.1] The soap made with limiting NaOH is greasy and soft, and the leftover oil is wasted and can go rancid (turn foul-smelling and spoiled).
+[chem25-s6.13.2] If NaOH is in excess, all the fat is converted, giving the maximum yield of soap from the fat.
+[chem25-s6.13.3] The soap made with excess NaOH contains free sodium hydroxide, which is caustic, has a high pH and irritates or burns skin.
+[chem25-s6.13.4] Excess NaOH must be removed, by washing the soap with brine or water, or by neutralisation (reacting it with an acid).
+[chem25-s6.13.5] Excess NaOH is also wasted reagent and makes the waste liquid strongly alkaline.
+[chem25-s6.14.b] Because both too little and too much sodium hydroxide cause problems, soap makers work out the amount carefully.
+[chem25-s6.14.0] Manufacturers calculate the exact amount of NaOH needed for the fat used, then wash the soap with brine to remove any excess.
+[chem25-s6.14.1] Small-scale soap makers often use slightly less NaOH than needed, leaving a little unreacted oil, called superfatting, so that no free NaOH remains and the soap is gentler.
+[chem25-s6.14.2] The amount of NaOH needed follows from the 1 : 3 ratio of fat to NaOH; for a real oil it can only be estimated, because oils are mixtures of different tri-esters (molecules with three ester links).
+[chem25-s6.15.b] This worked example uses sample data and a model fat to find the soap made when NaOH is in excess and when it is limiting. Remember that the fat reacts with NaOH in a 1 : 3 mole ratio.
+[chem25-s6.15.0] Model fat: glyceryl tristearate, M = 890 g mol⁻¹; sodium stearate (soap), M = 306 g mol⁻¹; NaOH, M = 40 g mol⁻¹. Sample data.
+[chem25-s6.15.1] 8.90 g of fat = 8.90 ÷ 890 = 0.0100 mol, which needs 3 × 0.0100 = 0.0300 mol of NaOH = 1.20 g.
+[chem25-s6.15.2] Batch 1, NaOH in excess: 2.00 g of NaOH = 0.0500 mol; 0.0300 mol reacts, leaving 0.0200 mol (0.800 g) over. The fat is limiting, so soap = 3 × 0.0100 = 0.0300 mol × 306 = 9.18 g.
+[chem25-s6.15.3] Batch 2, NaOH limiting: 1.00 g of NaOH = 0.0250 mol, less than the 0.0300 mol needed. Soap = 0.0250 mol × 306 = 7.65 g.
+[chem25-s6.15.4] In batch 2, fat used = 0.0250 ÷ 3 = 0.00833 mol, so fat left unreacted = 0.0100 − 0.00833 = 0.001667 mol; keep the extra figure until the end, then 0.001667 × 890 = 1.48 g.
+[chem25-s6.15.5] Conclusion: batch 1 gives more soap, 9.18 g, but contains 0.800 g of corrosive NaOH that must be washed out; batch 2 gives less soap, 7.65 g, mixed with 1.48 g of unreacted fat.
+
+CANDIDATES chem25-s5: 5. Redox and acid–base reactions of organic compounds
+[chem25-s5.0.b] Organic chemists track redox (electron-transfer) changes by watching oxygen and hydrogen, because carbon compounds rarely show ions. This gives a simple ladder from alcohols up to carboxylic acids.
+[chem25-s5.0.0] An organic compound is oxidised when it gains oxygen or loses hydrogen, and reduced when it gains hydrogen or loses oxygen. These are the quick tests to apply to any organic change.
+[chem25-s5.0.1] The oxidation number of the carbon involved (the charge it would have if the bonds were fully ionic) rises on oxidation and falls on reduction, which matches the oxygen and hydrogen rule.
+[chem25-s5.0.2] The oxidation ladder: primary alcohol (OH on a carbon with one other carbon attached) to aldehyde (–CHO) to carboxylic acid (–COOH); secondary alcohol (OH on a carbon with two other carbons attached) to ketone (C=O inside the chain).
+[chem25-s5.0.3] Each step up the ladder is an oxidation, and the reverse of each step is a reduction.
+[chem25-s5.0.4] Equations may be written with [O] for oxygen supplied by the oxidising agent (the substance that removes electrons or hydrogen), so the organic change is shown without the reagent: CH₃CH₂OH + [O] → CH₃CHO + H₂O, and CH₃CHO + [O] → CH₃COOH.
+[chem25-s5.1.b] Potassium permanganate is a strong oxidising agent that shows its own progress by colour. In acid it removes hydrogen or adds oxygen to alcohols, so it carries organic compounds up the oxidation ladder.
+[chem25-s5.1.0] Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent. It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.
+[chem25-s5.1.1] It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades as the permanganate is used up.
+[chem25-s5.1.2] Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O, built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.
+[chem25-s5.1.3] To stop at the aldehyde, distil it off as it forms (heating so it boils out of the mixture) and do not use the oxidising agent in excess.
+[chem25-s5.1.4] This works because ethanal boils at about 21 °C, well below ethanol at 78 °C, so it leaves before it can be oxidised further.
+[chem25-s5.2.b] Whether acidified permanganate reacts depends on how many hydrogens sit on the carbon bearing the oxygen. This decides how far each type of alcohol gets.
+[chem25-s5.2.0] To make the acid, use an excess of oxidising agent and heat under reflux (boiling with a condenser that returns the vapours to the flask), so the aldehyde stays in the mixture until it is oxidised to the acid.
+[chem25-s5.2.1] It oxidises secondary alcohols to ketones: propan-2-ol to propanone, CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O.
+[chem25-s5.2.2] It does not oxidise tertiary alcohols (OH on a carbon with three other carbons attached), such as 2-methylpropan-2-ol, or ketones. Neither has a hydrogen on the carbon bearing the oxygen, and oxidation would need a C–C bond to break.
+[chem25-s5.2.3] Carboxylic acids are not oxidised further.
+[chem25-s5.3.b] Permanganate behaves differently in alkaline conditions: it is reduced less far, so a different product and colour result. The alcohol is still oxidised up the ladder.
+[chem25-s5.3.0] In basic (alkaline) solution, e.g. with sodium carbonate, permanganate is reduced to brown manganese(IV) oxide instead of Mn²⁺: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻.
+[chem25-s5.3.1] The colour change is from purple to a brown precipitate (an insoluble solid that forms in the solution).
+[chem25-s5.3.2] It oxidises a primary alcohol to a carboxylic acid, which is present as its salt in the basic solution because the base neutralises it: phenylmethanol gives benzoate ions, which give benzoic acid on acidifying. There is more on this in Investigation: synthesising benzoic acid.
+[chem25-s5.4.b] Fehling's solution is a gentler oxidising agent than permanganate. Because it only oxidises aldehydes, it can tell an aldehyde from a ketone or an alcohol.
+[chem25-s5.4.0] Fehling's solution is a mild oxidising agent containing Cu²⁺ ions.
+[chem25-s5.4.1] It oxidises aldehydes to carboxylic acids, present as carboxylate salts (the acid's anion) in the alkaline reagent, and is itself reduced to brick-red copper(I) oxide, Cu₂O.
+[chem25-s5.4.2] It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes. There is more on this in Tests, reaction schemes and preparing an ester.
+[chem25-s5.5.b] Reduction is the reverse of the oxidation ladder: hydrogen gas with a nickel catalyst (a solid that speeds up the reaction without being used up) adds hydrogen to a double bond. It turns carbonyl compounds back into alcohols.
+[chem25-s5.5.0] Hydrogen gas with a nickel catalyst is the reducing agent: it adds hydrogen across a C=O or C=C double bond.
+[chem25-s5.5.1] Aldehydes are reduced to primary alcohols: CH₃CHO + H₂ → CH₃CH₂OH (ethanal to ethanol).
+[chem25-s5.5.2] Ketones are reduced to secondary alcohols: CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (propanone to propan-2-ol).
+[chem25-s5.5.3] Alkenes (hydrocarbons with a C=C bond) are reduced to alkanes: CH₂=CH₂ + H₂ → CH₃CH₃; this is also an addition reaction, because two molecules join to form one product.
+[chem25-s5.5.4] Hydrogenation of vegetable oils: oils contain many C=C bonds (they are polyunsaturated), and adding hydrogen over nickel converts some C=C to C–C. This raises the melting point, so the liquid oil becomes a soft solid fat used in margarine.
+[chem25-s5.5.5] The degree of hydrogenation (how many C=C bonds are converted) sets how hard the product is.
+[chem25-s5.6.b] Carboxylic acids can give away a proton (H⁺), so they react like other acids with bases. Alcohols hold on to their proton much more tightly.
+[chem25-s5.6.0] Carboxylic acids are weak acids (only partly ionised in water) that transfer a proton to bases: CH₃COOH + NaOH → CH₃COONa + H₂O.
+[chem25-s5.6.1] With carbonates they give carbon dioxide: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+[chem25-s5.6.2] With hydrogencarbonates they also give carbon dioxide: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.
+[chem25-s5.6.3] Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide. There is more on this in Physical properties and acidity.
+[chem25-s5.7.b] An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. With a base the hydroxide ion acts as a base, so this is an acid–base reaction, and it goes all the way to completion.
+[chem25-s5.7.0] Hydrolysis is the breaking of a compound by reaction with water.
+[chem25-s5.7.1] Esters can be hydrolysed by acid, which is reversible and is the reverse of esterification (making an ester from an acid and an alcohol), or by base.
+[chem25-s5.7.2] Base hydrolysis: heating an ester with sodium hydroxide gives the sodium salt of the carboxylic acid and the alcohol: CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH (ethyl ethanoate to sodium ethanoate and ethanol).
+[chem25-s5.7.3] It is an acid–base reaction because the hydroxide ion acts as a base and the carboxylic acid formed is converted to its carboxylate ion (the acid minus its H⁺).
+[chem25-s5.7.4] This is why base hydrolysis goes to completion, while acid hydrolysis reaches an equilibrium (a balance in which reactants and products are both present).
+[chem25-s5.7.5] Acidifying the product mixture (adding H⁺) converts the carboxylate salt back into the free carboxylic acid: CH₃COO⁻ + H⁺ → CH₃COOH.
+[chem25-s5.8.b] Fats and oils are esters with three ester links, made from one glycerol and three fatty acids. Their structure explains why one is solid and the other liquid.
+[chem25-s5.8.0] Fats and oils are tri-esters, or triglycerides, of glycerol, propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH (an alcohol with three –OH groups), with three long-chain carboxylic acids called fatty acids. Stearic acid, octadecanoic acid, C₁₇H₃₅COOH, is an example.
+[chem25-s5.8.1] Fats, mostly from animals, are solid at room temperature and contain mainly saturated chains (chains with only C–C single bonds).
+[chem25-s5.8.2] Oils, mostly from plants, are liquid and contain more unsaturated chains with C=C bonds.
+[chem25-s5.8.3] Diagram: a triglyceride, with a three-carbon glycerol backbone, each carbon joined through an ester group (–O–CO–) to a long hydrocarbon chain R; and the products, glycerol with three –OH groups and three RCOO⁻Na⁺ ions.
+[chem25-s5.9.b] Heating a fat or oil with sodium hydroxide is base hydrolysis of all three ester links at once. It makes soap and glycerol.
+[chem25-s5.9.0] Base hydrolysis of a fat or oil is called saponification, the process of soap-making: fat + 3NaOH → glycerol + 3 sodium salts of fatty acids (soap).
+[chem25-s5.9.1] Example: glyceryl tristearate reacts with sodium hydroxide: (C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃, giving sodium stearate and glycerol.
+[chem25-s5.9.2] The mole ratio of fat : NaOH : soap : glycerol is 1 : 3 : 3 : 1, because each fat has three ester links and each needs one NaOH.
+[chem25-s5.9.3] Molar masses: glyceryl tristearate 890 g mol⁻¹, sodium stearate 306 g mol⁻¹ and glycerol 92 g mol⁻¹.
+[chem25-s5.9.4] Glycerol, the co-product (the second product made alongside the soap), is soluble in water and is used in cosmetics and medicines.
+
+CANDIDATES chem6-s1: 1. Bond type and intermolecular forces
+[chem6-s1.0.b] When two atoms share a pair of electrons in a covalent bond (a bond formed by sharing electrons), the pair is not always shared equally. Electronegativity tells you which atom pulls harder on it. There is more on the continuum from ionic to non-polar covalent bonding in “Types of chemical bonding”.
+[chem6-s1.0.0] Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the value, the harder the atom pulls on the pair.
+[chem6-s1.0.1] It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4). Pauling values are relative, so they have no units.
+[chem6-s1.0.2] Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.
+[chem6-s1.0.3] Non-metals have high electronegativities and metals have low ones, so a non-metal bonded to a metal pulls the electrons strongly towards itself.
+[chem6-s1.1.b] Electronegativity follows a pattern in the periodic table. Both halves of the pattern are explained by how close the bonding electrons are to the nucleus (the positive centre of the atom) and how much positive charge pulls on them.
+[chem6-s1.1.0] Across a period (a row of the periodic table, left to right) electronegativity increases, for example from Na 0.93 to Cl 3.16.
+[chem6-s1.1.1] Across a period the nuclear charge (the positive charge of the nucleus) increases while electrons are added to the same main energy level (shell), so the atomic radius (the size of the atom) decreases.
+[chem6-s1.1.2] Because the atomic radius decreases across a period, the bonding electrons are closer to a more highly charged nucleus, so the nucleus attracts them more strongly.
+[chem6-s1.1.3] Down a group (a column of the periodic table) electronegativity decreases, for example from F 3.98 to I 2.66.
+[chem6-s1.1.4] Down a group each element has an extra energy level, so the atomic radius increases and the bonding electrons are further from the nucleus.
+[chem6-s1.1.5] Inner electrons screen (shield) the outer electrons from the nucleus. The bonding electrons are therefore further away and less strongly attracted, even though the nuclear charge is greater.
+[chem6-s1.1.6] Noble gases are usually given no electronegativity value because they rarely form bonds, so there is no shared pair to attract.
+[chem6-s1.2.b] The difference in electronegativity between two bonded atoms predicts the bond type: the larger the difference, the more ionic the bond. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum (a smooth range from ionic to non-polar covalent).
+[chem6-s1.2.0] Step 1: Look up the Pauling electronegativity of each atom.
+[chem6-s1.2.1] Step 2: Subtract the smaller value from the larger to find the difference.
+[chem6-s1.2.2] Step 3: Compare the difference with the cut-offs below.
+[chem6-s1.2.3] A difference greater than 1.7 gives a mainly ionic bond (electrons largely transferred from one atom to the other), for example NaCl: 3.16 − 0.93 = 2.23.
+[chem6-s1.2.4] A difference between about 0.4 and 1.7 gives a polar covalent bond (a bond in which the shared pair is pulled unequally), for example H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.
+[chem6-s1.2.5] A difference less than about 0.4 gives a non-polar (pure) covalent bond, in which the pair is shared almost equally, for example C–H: 2.55 − 2.20 = 0.35.
+[chem6-s1.2.6] A bond between identical atoms has a difference of zero, so the pair is shared equally and the bond is non-polar, for example Cl–Cl: 3.16 − 3.16 = 0.
+[chem6-s1.2.7] In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+).
+[chem6-s1.3.b] Ionic compounds are made of oppositely charged ions packed in a lattice (a regular, repeating three-dimensional arrangement). Their properties follow from the strong attraction between those ions and from whether the ions can move.
+[chem6-s1.3.0] Ionic compounds are solids at room temperature, for example sodium chloride and magnesium oxide.
+[chem6-s1.3.1] Sodium chloride melts at 801 °C and boils at 1413 °C.
+[chem6-s1.3.2] The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions (attractions between opposite charges) between oppositely charged ions throughout the lattice.
+[chem6-s1.3.3] Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions and cannot carry charge.
+[chem6-s1.3.4] Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.
+[chem6-s1.3.5] Many ionic compounds are soluble in water, because polar water molecules (molecules with a slightly positive end and a slightly negative end) attract and surround the ions.
+[chem6-s1.3.6] Ionic compounds are insoluble in non-polar solvents such as cyclohexane, because non-polar molecules have no charged ends to attract the ions.
+[chem6-s1.4.b] Covalent compounds are made of separate molecules. Because of this, melting or boiling them only has to separate one molecule from the next, which takes far less energy than melting an ionic lattice.
+[chem6-s1.4.0] Many covalent compounds are gases or liquids at room temperature, for example methane, carbon dioxide and water.
+[chem6-s1.4.1] Some covalent compounds are solids with low melting points, for example iodine and sugar.
+[chem6-s1.4.2] Iodine sublimes (turns straight from solid to gas) on gentle heating and melts at 114 °C.
+[chem6-s1.4.3] Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.
+[chem6-s1.4.4] The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.
+[chem6-s1.5.b] Whether a covalent compound conducts or dissolves depends on whether it has charged particles and on whether its molecules are polar (have a slightly positive end and a slightly negative end).
+[chem6-s1.5.0] Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.
+[chem6-s1.5.1] Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.
+[chem6-s1.5.2] Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.
+[chem6-s1.5.3] Polar molecules such as ethanol, sugar and ammonia dissolve in water, because they can form hydrogen bonds with it. There is more on this in “Intermolecular forces and physical properties”.
+[chem6-s1.5.4] “Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents.
+[chem6-s1.6.b] Putting the two types side by side shows four paired differences, and each has its own reason: melting and boiling points depend on whether strong ionic attractions or only weak forces between molecules must be overcome, and conductivity depends on whether ions are free to move.
+[chem6-s1.6.0] Melting and boiling points: ionic compounds are high; covalent compounds are low.
+[chem6-s1.6.1] Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.
+[chem6-s1.6.2] Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.
+[chem6-s1.6.3] State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.
+[chem6-s1.6.4] Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken. There is more on this in “Allotropes of Carbon. Hydrocarbons”.
+[chem6-s1.7.b] A simple conductivity test shows whether a substance contains ions that are free to move. Ionic compounds pass the test when molten or dissolved.
+[chem6-s1.7.0] Step 1: Melt the substance, or dissolve it in water.
+[chem6-s1.7.1] Step 2: Dip two carbon electrodes (the rods that carry current into the liquid) into it, connected to a battery and a bulb (or an ammeter, which measures current).
+[chem6-s1.7.2] Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.
+[chem6-s1.7.3] Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.
+[chem6-s1.8.b] Two different kinds of attraction operate in a molecular substance: bonds inside each molecule and forces between molecules. Keeping them apart explains why melting and boiling are easy compared with breaking a molecule.
+[chem6-s1.8.0] Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.
+[chem6-s1.8.1] Intermolecular forces are the weaker forces of attraction between separate molecules.
+[chem6-s1.8.2] Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.
+[chem6-s1.8.3] Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).
+[chem6-s1.8.4] Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”.
+[chem6-s1.9.b] Even a molecule with no permanent charged ends still attracts its neighbours weakly. London dispersion forces are the intermolecular force that every molecule has.
+[chem6-s1.9.0] London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, for example H₂, Cl₂, CH₄ and noble gas atoms.
+[chem6-s1.9.1] They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole (one side slightly negative, the other slightly positive).
+[chem6-s1.9.2] The temporary dipole induces a dipole in a neighbouring molecule (pushes its electrons to one side), and the two attract.
+[chem6-s1.9.3] London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons, because a bigger electron cloud is easier to distort.
+[chem6-s1.10.b] Polar molecules have charged ends all the time, not just for an instant. This gives them an extra attraction on top of London dispersion forces.
+[chem6-s1.10.0] A polar molecule has a permanent dipole: a δ+ end and a δ− end, which arises from polar bonds. There is more on this in “Electronegativity and bond type”.
+[chem6-s1.10.1] Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, for example between HCl molecules (Hδ+–Clδ−).
+[chem6-s1.10.2] Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size, because the charged ends are permanent.
+[chem6-s1.11.b] Hydrogen bonding is the strongest of the intermolecular forces. It needs a hydrogen atom attached to one of three very electronegative atoms, F, O or N.
+[chem6-s1.11.0] A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.
+[chem6-s1.11.1] A lone pair is a pair of outer electrons on an atom that is not used in bonding, so it can attract the δ+ hydrogen of a neighbouring molecule.
+[chem6-s1.11.2] It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.
+[chem6-s1.11.3] A hydrogen bond is between molecules, not a covalent bond to hydrogen.
+[chem6-s1.11.4] Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.
+[chem6-s1.11.5] Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.
+[chem6-s1.11.6] Hydrogen bonds are the strongest intermolecular forces.
+[chem6-s1.11.7] Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule.
+[chem6-s1.12.b] When an ionic compound dissolves in water, the ions are pulled out of the lattice by the polar water molecules. The attraction between a full charge and a partial charge is called an ion–dipole force.
+[chem6-s1.12.0] An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.
+[chem6-s1.12.1] When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.
+[chem6-s1.12.2] The ions become surrounded by water molecules (hydrated).
+[chem6-s1.12.3] Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.
+[chem6-s1.12.4] Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it.
+[chem6-s1.13.b] Putting the forces in order lets you predict which substance holds its molecules together most strongly, for molecules of similar size.
+[chem6-s1.13.0] For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.
+[chem6-s1.13.1] All intermolecular forces are much weaker than covalent and ionic bonds, which is why melting or boiling a molecular substance leaves its molecules intact.
+
+CANDIDATES chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.

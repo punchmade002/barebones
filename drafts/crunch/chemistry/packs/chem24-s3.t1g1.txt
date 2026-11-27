@@ -1,0 +1,510 @@
+MODE: cost and links
+TARGET chem24-s3: 3. Organic products and pharmaceuticals
+[chem24-s3.0.b] Almost everything around you, from fuels to medicines to plastics, is built on carbon. Organic chemistry is the study of these carbon compounds, and carbon's bonding explains why there are so many of them.
+[chem24-s3.0.0] Organic chemistry is the chemistry of carbon compounds, apart from simple ones such as carbon oxides, carbonates and hydrogencarbonates.
+[chem24-s3.0.1] Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens (the group 17 elements such as chlorine) or sulfur.
+[chem24-s3.0.2] Each carbon atom forms four covalent bonds (bonds made by sharing pairs of electrons), and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.
+[chem24-s3.0.3] Carbon atoms can be joined by single, double or triple bonds, which adds even more possible structures.
+[chem24-s3.0.4] Organic compounds were once thought to come only from living things.
+[chem24-s3.0.5] In 1828 Friedrich Wöhler made urea, a compound found in urine, from the inorganic salt ammonium cyanate, showing that organic compounds can be made in the laboratory.
+[chem24-s3.1.b] Organic compounds have to start from somewhere. Two of the sources are the ground (fossil deposits) and living organisms.
+[chem24-s3.1.0] Fossil sources are crude oil, natural gas and coal, formed from the remains of organisms over millions of years.
+[chem24-s3.1.1] Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines. There is more on this in Hydrocarbons: sources, uses and impact.
+[chem24-s3.1.2] Fossil sources are finite, or non-renewable, because they take millions of years to form and are used far faster than they are made.
+[chem24-s3.1.3] Living things make natural products: plants, animals and micro-organisms (organisms too small to see without a microscope, such as yeast and moulds) make organic compounds that can be extracted.
+[chem24-s3.1.4] Oils and fats are extracted from plants and animals, so living things are a direct source.
+[chem24-s3.1.5] Essential oils such as clove oil are extracted by steam distillation (passing steam through the plant material and condensing the vapour that carries the oil).
+[chem24-s3.1.6] Medicines are extracted from plants, e.g. quinine from cinchona bark.
+[chem24-s3.2.b] Micro-organisms can be put to work as tiny chemical factories. This process is called fermentation, and it gives both drinks and drugs.
+[chem24-s3.2.0] Fermentation is when micro-organisms convert biomass (plant and other living material) into organic compounds; for example, yeast converts glucose into ethanol and carbon dioxide.
+[chem24-s3.2.1] Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes (biological catalysts) in the yeast.
+[chem24-s3.2.2] Antibiotics such as penicillin are also made by fermentation.
+[chem24-s3.2.3] Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast, so it cannot make a stronger drink.
+[chem24-s3.2.4] Spirits (about 40% v/v ethanol, meaning 40% of the volume is ethanol) are made by distilling the fermented liquid, which concentrates the ethanol.
+[chem24-s3.3.b] Chemists can also make organic compounds themselves, and they can swap fossil starting materials for plant-based ones.
+[chem24-s3.3.0] Synthesis means chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.
+[chem24-s3.3.1] Most modern medicines, plastics and pesticides are made by synthesis.
+[chem24-s3.3.2] Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks, because plants can be regrown.
+[chem24-s3.3.3] Bioethanol made from biomass can be used as a fuel.
+[chem24-s3.3.4] Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize, and is biodegradable (broken down by micro-organisms) under industrial composting conditions.
+[chem24-s3.4.b] Organic compounds are the main ingredients of several groups of industrial product. The first three groups are fuels, medicines and plastics.
+[chem24-s3.4.0] Fuels are hydrocarbons (compounds of only hydrogen and carbon) such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.
+[chem24-s3.4.1] Fuels are used for transport, heating and electricity generation, because burning them releases energy as heat.
+[chem24-s3.4.2] Pharmaceuticals are medicines that are almost all organic compounds.
+[chem24-s3.4.3] Aspirin and paracetamol relieve pain; penicillin is an antibiotic (a medicine that kills bacteria).
+[chem24-s3.4.4] Plastics are polymers (very long molecules made by joining many small molecules, called monomers) made mainly from oil-derived monomers.
+[chem24-s3.4.5] Poly(ethene), made from ethene, is used for bags, bottles and film.
+[chem24-s3.4.6] Poly(chloroethene), known as PVC, is made from chloroethene and used for pipes and window frames.
+[chem24-s3.4.7] Plastics are light, cheap, durable, waterproof and insulating, which is why they are so widely used. There is more on this in Types of organic reaction and addition polymers.
+[chem24-s3.5.b] The remaining product groups are pesticides, synthetic materials and a range of everyday organic chemicals such as solvents, flavourings and preservatives.
+[chem24-s3.5.0] Pesticides are compounds that kill or control pests.
+[chem24-s3.5.1] Insecticides kill insects, herbicides kill weeds and fungicides kill fungi, so each is chosen to match the pest.
+[chem24-s3.5.2] Natural pesticides include neem oil, from the neem tree, and pyrethrins, from chrysanthemum flowers.
+[chem24-s3.5.3] Synthetic pesticides include malathion, an insecticide, and glyphosate, a herbicide.
+[chem24-s3.5.4] Synthetics are man-made materials that replace or improve on natural ones.
+[chem24-s3.5.5] Synthetic fibres such as nylon and polyester are made from monomers that link into polymers, and are used for clothing, ropes and carpets.
+[chem24-s3.5.6] Synthetic dyes, detergents and synthetic rubber are further synthetic products.
+[chem24-s3.5.7] Ethanol is used as a solvent (a liquid that dissolves other substances) in perfumes and deodorants, and propanone is a solvent used in nail varnish remover.
+[chem24-s3.6.b] Several smaller organic products appear in food, cosmetics and cleaning.
+[chem24-s3.6.0] Esters are used as flavourings and fragrances, for example as flavourings and fragrances in products.
+[chem24-s3.6.1] Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is also a food preservative.
+[chem24-s3.6.2] Soaps and detergents are organic products. There is more on this in Surfactants and soap.
+[chem24-s3.7.b] Organic products have changed how people live, which is why they are made in such quantity. Any evaluation starts with these benefits.
+[chem24-s3.7.0] Fuels give energy for transport and heating.
+[chem24-s3.7.1] Medicines and sanitation give longer, healthier lives.
+[chem24-s3.7.2] Pesticides give higher crop yields and less food lost to pests.
+[chem24-s3.7.3] Plastics are cheap, light, durable materials, so they suit packaging and pipes.
+[chem24-s3.7.4] Synthetic fibres and other products supply clothing and goods for large populations.
+[chem24-s3.8.b] The same products that bring benefits also cause environmental problems. Fuels, plastics and the use of fossil resources each have their own impact.
+[chem24-s3.8.0] Burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.
+[chem24-s3.8.1] Burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot. There is more on this in Hydrocarbons: sources, uses and impact.
+[chem24-s3.8.2] Most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.
+[chem24-s3.8.3] In the oceans, plastics harm wildlife and break into microplastics (tiny fragments of plastic).
+[chem24-s3.8.4] Burning plastics can release toxic gases.
+[chem24-s3.8.5] Fossil feedstocks are finite, so they will eventually run out.
+[chem24-s3.8.6] Extracting and processing fossil feedstocks uses energy and can cause spills and pollution.
+[chem24-s3.9.b] Pesticides and medicines are designed to act on living things, so they can harm the wrong organisms or have unwanted effects.
+[chem24-s3.9.0] Some pesticides are toxic to non-target organisms (living things the pesticide was not meant to kill) such as bees, birds and fish.
+[chem24-s3.9.1] Persistent pesticides (ones that do not break down) such as DDT build up in food chains, which is called bioaccumulation.
+[chem24-s3.9.2] DDT was banned for agricultural use in most countries, and the Stockholm Convention (2001) restricts it to disease-vector control.
+[chem24-s3.9.3] The EU restricted outdoor use of three neonicotinoid insecticides in 2018 because of harm to bees.
+[chem24-s3.9.4] Pesticide run-off (rain washing pesticide off fields) can contaminate water.
+[chem24-s3.9.5] Medicines can cause side effects and addiction, for example addiction to opiates.
+[chem24-s3.9.6] Overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways.
+[chem24-s3.10.b] To decide whether a product is a good idea, you weigh its benefits against its impacts over its whole life, and look at ways to reduce those impacts.
+[chem24-s3.10.0] A product's impact is assessed across its whole life, from raw material and manufacture to use and disposal; this is a life-cycle view.
+[chem24-s3.10.1] Ways to reduce impact include recycling and reuse.
+[chem24-s3.10.2] Renewable feedstocks and biodegradable alternatives reduce impact.
+[chem24-s3.10.3] Designing safer molecules that break down after use reduces impact.
+[chem24-s3.10.4] Using less, e.g. targeted pesticide use, reduces impact.
+[chem24-s3.10.5] A natural source is not automatically safer or more sustainable, because natural compounds can be toxic.
+[chem24-s3.10.6] Growing biomass uses land, water and fertiliser, so bio-based feedstocks have costs of their own.
+[chem24-s3.10.7] A balanced answer names a benefit and an impact, and says how the impact can be reduced.
+[chem24-s3.11.b] These six words are used throughout the study of pharmaceuticals, so each needs a clear definition.
+[chem24-s3.11.0] A pharmaceutical is a substance used to prevent, diagnose, treat or relieve the symptoms of disease; almost all are organic compounds.
+[chem24-s3.11.1] A natural product is an organic compound made by a living organism such as a plant, animal or micro-organism, e.g. quinine in cinchona bark, morphine in the opium poppy and penicillin from a mould.
+[chem24-s3.11.2] A narcotic is a drug that dulls pain and causes drowsiness or sleep; many, e.g. morphine and heroin, are addictive and are legally controlled.
+[chem24-s3.11.3] A precursor is a starting compound from which another compound is made; salicylic acid is the precursor of aspirin.
+[chem24-s3.11.4] The active ingredient is the compound in a medicine that produces its effect; the rest of a tablet, such as fillers, binders and coatings, is inactive.
+[chem24-s3.11.5] Biotechnology is the use of living organisms or biological systems to make useful products, e.g. making penicillin by fermentation.
+[chem24-s3.12.b] Long before laboratories, people used plants as medicines. Many of these plants contain a single active compound that explains their effect.
+[chem24-s3.12.0] Willow bark has been used to relieve pain and fever since ancient times; its use in ancient Greek medicine is traditionally credited to Hippocrates, about 400 BC.
+[chem24-s3.12.1] Willow (Salix) bark contains salicin, which the body converts into salicylic acid, the active compound.
+[chem24-s3.12.2] Cinchona bark, from trees native to the Andes of South America, contains quinine, which has been used to treat malaria (a disease spread by mosquitoes) since the 1600s.
+[chem24-s3.12.3] Quinine is also the bitter flavour in tonic water.
+[chem24-s3.12.4] The dried latex (sap) from unripe seed pods of the opium poppy (Papaver somniferum) is opium, which contains morphine, a powerful painkiller.
+[chem24-s3.12.5] Opium also contains codeine, a milder painkiller and cough suppressant.
+[chem24-s3.12.6] Morphine was one of the first active compounds to be isolated pure from a plant, by Friedrich Sertürner in about 1804.
+[chem24-s3.12.7] The coca plant gives cocaine, an addictive, illegal stimulant once used as a local anaesthetic. Sweet wormwood (Artemisia annua) gives artemisinin, a modern anti-malarial; Tu Youyou received the Nobel Prize in 2015.
+[chem24-s3.13.b] Plants can supply a medicine, but harvesting them is rarely a dependable way to meet demand.
+[chem24-s3.13.0] Natural products often occur in tiny amounts, so huge amounts of plant material are needed.
+[chem24-s3.13.1] Their amounts vary with season, weather and location.
+[chem24-s3.13.2] They may come from rare or slow-growing organisms, so extraction alone is often not enough.
+[chem24-s3.14.b] Aspirin is the classic example of improving on a natural product. Chemists started from the active compound in willow bark and modified it.
+[chem24-s3.14.0] Salicylic acid, C₇H₆O₃ (M 138), relieves pain but irritates the mouth and stomach.
+[chem24-s3.14.1] In 1897 Felix Hoffmann, a chemist at the German company Bayer, made acetylsalicylic acid from salicylic acid.
+[chem24-s3.14.2] The product was sold from 1899 as Aspirin.
+[chem24-s3.14.3] Aspirin is made by converting the –OH group on the benzene ring of salicylic acid into an ester group, by reacting it with ethanoic anhydride, a derivative of ethanoic acid. Salicylic acid is the precursor.
+[chem24-s3.14.4] Aspirin, C₉H₈O₄ (M = 180), contains three functional groups (the parts of a molecule that decide how it reacts): a benzene ring, a carboxylic acid group (–COOH) and an ester group (–OCOCH₃).
+[chem24-s3.15.b] Aspirin has several medical uses, but it is not risk-free.
+[chem24-s3.15.0] Aspirin relieves pain and reduces fever and inflammation.
+[chem24-s3.15.1] Low daily doses of aspirin reduce blood clotting and are prescribed to lower the risk of heart attack and stroke.
+[chem24-s3.15.2] Aspirin irritates the stomach less than salicylic acid, which is a reason chemists modified the natural compound, but it can still cause stomach irritation and bleeding.
+[chem24-s3.15.3] Aspirin is not given to children under 16 because of the risk of Reye's syndrome.
+[chem24-s3.16.b] Penicillin is an antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.
+[chem24-s3.16.0] Alexander Fleming discovered in 1928 that the mould Penicillium killed bacteria.
+[chem24-s3.16.1] Howard Florey and Ernst Chain purified penicillin and showed around 1940 that it worked in patients.
+[chem24-s3.16.2] Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine.
+[chem24-s3.16.3] Penicillin is an antibiotic: it kills bacteria by stopping them building their cell walls.
+[chem24-s3.16.4] Penicillin has no effect on viruses, because it works by stopping cell wall building.
+[chem24-s3.17.b] Penicillin has a key structural feature, the β-lactam ring, and it is made by growing a mould rather than by building it from scratch.
+[chem24-s3.17.0] Its key structural feature is a four-membered ring containing nitrogen and a C=O, the β-lactam ring, joined to a ring containing sulfur.
+[chem24-s3.17.1] Penicillin G is C₁₆H₁₈N₂O₄S and also contains a carboxylic acid group.
+[chem24-s3.17.2] Penicillin is made on a large scale by fermentation (biotechnology): the mould is grown in large tanks of nutrient broth.
+[chem24-s3.17.3] This fermentation process was scaled up during the Second World War.
+[chem24-s3.17.4] Semi-synthetic penicillins, such as amoxicillin, are made by chemically changing the side chain of the penicillin made by fermentation.
+[chem24-s3.17.5] Semi-synthetic penicillins work against more types of bacteria or are better absorbed.
+[chem24-s3.18.b] Antibiotics lose their power when bacteria adapt, which changes how penicillin can be used.
+[chem24-s3.18.0] Overuse and misuse of antibiotics has led to antibiotic-resistant bacteria (bacteria that are no longer killed by the drug).
+[chem24-s3.18.1] Some bacteria make enzymes that break the β-lactam ring, so the penicillin is destroyed before it can stop cell wall building.
+[chem24-s3.19.b] Taxol is an anti-cancer drug that comes from a tree. It is a very large molecule, which makes it hard to obtain.
+[chem24-s3.19.0] Taxol (paclitaxel) is an anti-cancer drug, used for example for ovarian, breast and lung cancers.
+[chem24-s3.19.1] Taxol stops cancer cells dividing.
+[chem24-s3.19.2] Taxol was found in the bark of the Pacific yew tree (Taxus brevifolia) in a US plant-screening programme in the 1960s, and its structure was published in 1971.
+[chem24-s3.19.3] Taxol is a very large, complex molecule, C₄₇H₅₁NO₁₄, with many functional groups.
+[chem24-s3.19.4] Its functional groups include several ester groups, hydroxyl (–OH) groups, a ketone, an amide and three benzene rings.
+[chem24-s3.20.b] Getting taxol from the bark was a problem for the tree, so chemists found other routes.
+[chem24-s3.20.0] Stripping the bark kills the slow-growing tree and gives very little taxol, so this was not sustainable.
+[chem24-s3.20.1] Taxol is now made semi-synthetically from a precursor extracted from the needles of the European yew (Taxus baccata), which regrow, so the tree is not killed.
+[chem24-s3.20.2] Taxol can also be made by growing yew cells in fermentation tanks.
+[chem24-s3.20.3] Complete laboratory synthesis, first achieved in 1994, needs too many steps to be economic.
+[chem24-s3.21.b] Opiates show how a small change to a molecule can change its effect completely. They are vital medicines and also dangerous drugs.
+[chem24-s3.21.0] Opiates are the natural compounds of opium, morphine and codeine, and drugs made directly from them, such as heroin.
+[chem24-s3.21.1] Opioids is the wider term that also includes fully synthetic drugs, e.g. fentanyl.
+[chem24-s3.21.2] Morphine, C₁₇H₁₉NO₃, has several rings and functional groups, including two –OH groups, an ether link, a C=C double bond and an amine nitrogen.
+[chem24-s3.21.3] Small changes to a functional group change the effect of the drug.
+[chem24-s3.21.4] Codeine is morphine with one –OH converted to –OCH₃, giving a milder effect.
+[chem24-s3.21.5] Heroin (diamorphine) is morphine with both –OH groups converted to ester groups, giving a stronger and more addictive effect.
+[chem24-s3.21.6] Opiates are essential for severe pain, e.g. after surgery and in cancer care.
+[chem24-s3.21.7] Opiates cause addiction and tolerance (needing larger doses for the same effect) and, in overdose, fatal slowing of breathing, so they are tightly controlled.
+[chem24-s3.22.b] Most modern medicines are built by chemists, step by step, from simpler starting compounds.
+[chem24-s3.22.0] Most modern pharmaceuticals are large, complex organic molecules with several functional groups, each of which may be needed for the drug to bind to its target in the body.
+[chem24-s3.22.1] They are built in a sequence of reactions from simpler organic precursors, many derived from crude oil or from natural sources.
+[chem24-s3.22.2] Each step changes or adds a functional group.
+[chem24-s3.22.3] Every step loses some product, so long syntheses have low overall yields, which raises cost and waste. There is more on this in Theoretical, actual and percentage yield.
+[chem24-s3.23.b] If a plant already makes a medicine, it is fair to ask why chemists bother. There are four reasons, and the examples show them at work.
+[chem24-s3.23.0] Synthesising or modifying gives a reliable supply that does not depend on harvests or rare organisms.
+[chem24-s3.23.1] Synthesis or modification gives pure products of consistent strength.
+[chem24-s3.23.2] Changing the structure can improve a drug, with fewer side effects, a stronger effect or better absorption, e.g. aspirin from salicylic acid and amoxicillin from penicillin.
+[chem24-s3.23.3] Synthesis allows large-scale, lower-cost production.
+[chem24-s3.24.b] Two other organic medicines are very widely used, and all new medicines must pass safety checks.
+[chem24-s3.24.0] Paracetamol, C₈H₉NO₂, is used for pain and fever relief.
+[chem24-s3.24.1] Ibuprofen is used for pain and inflammation.
+[chem24-s3.24.2] New drugs must be tested for safety and effectiveness in clinical trials and approved by a regulator before use.
+[chem24-s3.24.3] In Ireland the regulator is the Health Products Regulatory Authority (HPRA); in the EU it is the European Medicines Agency (EMA).
+[chem24-s3.25.b] This topic is a research-based investigation, so you must be able to plan and present research about a pharmaceutical.
+[chem24-s3.25.0] The specification expects you to research a use of organic compounds in pharmaceuticals, using evaluated sources, and to present the chemistry involved, the benefits and the issues, with a justified conclusion.
+[chem24-s3.25.1] Example question: "Should medicines that come from plants be extracted from the plant or made in the laboratory?", taking taxol and aspirin as case studies.
+[chem24-s3.25.2] Other possible questions: how chemists turned willow bark into aspirin; how antibiotic resistance has changed the use of penicillin; how opiates can be used safely.
+[chem24-s3.26.b] A good investigation uses reliable sources and checks them before trusting them.
+[chem24-s3.26.0] Sources include textbooks; peer-reviewed journals (where experts check papers before publication) and review articles; official bodies such as the HPRA, the EMA, the World Health Organization and the HSE.
+[chem24-s3.26.1] PubChem gives structures and formulae, and museum and university websites give history.
+[chem24-s3.26.2] Judge a source by who wrote it and their expertise, whether it is peer reviewed, and how recent it is.
+[chem24-s3.26.3] Judge a source also by any commercial or other bias, e.g. a drug company's advertising, and by whether other reliable sources agree.
+[chem24-s3.27.b] The write-up should cover the chemistry, weigh the issues on both sides, and end with a conclusion that answers the question.
+[chem24-s3.27.0] Include the structure and functional groups of the compound, and its natural source.
+[chem24-s3.27.1] Explain how the compound is extracted or made from precursors, e.g. ester formation in aspirin or semi-synthesis of taxol.
+[chem24-s3.27.2] Explain why the structural change improves the drug.
+[chem24-s3.27.3] Weigh health benefits against side effects and addiction.
+[chem24-s3.27.4] Weigh the sustainability of natural sources, such as taxol from the Pacific yew, against protecting biodiversity, where future medicines may be found.
+[chem24-s3.27.5] Weigh antibiotic resistance, cost and access to medicines worldwide, and drug residues in the environment.
+[chem24-s3.27.6] Conclude by answering the question with evidence from both sides, e.g. semi-synthesis of taxol from renewable yew needles combines a natural precursor with laboratory chemistry and is more sustainable than either bark extraction or full synthesis.
+
+CANDIDATES chem24-s1: 1. Functional groups, naming and representation
+[chem24-s1.0.b] Organic compounds fall into families, and what decides how a compound behaves is a small group of atoms attached to its carbon skeleton. The members of one family also change gradually from one to the next.
+[chem24-s1.0.0] A functional group is an atom or group of atoms, attached to the hydrocarbon part of a molecule (the part made only of carbon and hydrogen), that is responsible for the characteristic chemical properties of a family of organic compounds.
+[chem24-s1.0.1] Examples of functional groups are –OH in alcohols and –COOH in carboxylic acids.
+[chem24-s1.0.2] The hydrocarbon part, made of C–C and C–H bonds, is fairly unreactive, so reactions take place mainly at the functional group.
+[chem24-s1.0.3] Compounds with the same functional group react in the same way; for example, every carboxylic acid fizzes with sodium carbonate.
+[chem24-s1.0.4] A homologous series is a family of compounds with the same general formula (one formula, written with n carbons, that fits every member) and the same functional group.
+[chem24-s1.0.5] Each member of a homologous series differs from the next by CH₂, a mass of 14, so the chain grows one carbon at a time.
+[chem24-s1.0.6] Members of a homologous series have similar chemical properties, because they share a functional group, and a gradual change (trend) in physical properties, such as boiling point rising with chain length.
+[chem24-s1.0.7] Each family can be written with R standing for the hydrocarbon part, e.g. R–OH for an alcohol, so that attention falls on the functional group.
+[chem24-s1.1.b] Each family is listed with its structure, general formula, ending and first member. The first block covers the hydrocarbons, which contain only carbon and hydrogen. There is more on naming alkanes, alkenes, alkynes and benzene in Groups of hydrocarbons and their properties.
+[chem24-s1.1.0] Alkanes have C–C single bonds only, so they are saturated, general formula CₙH₂ₙ₊₂, ending -ane, and first member methane, CH₄.
+[chem24-s1.1.1] Cycloalkanes are limited to cyclohexane, a ring of six carbons with single bonds, C₆H₁₂, and it is named with the prefix cyclo- (a word-beginning that tells you the carbons form a ring).
+[chem24-s1.1.2] Cyclohexane is a saturated (single bonds only), non-polar (no charged ends) liquid with a boiling point of 81 °C, used as a solvent (a liquid that dissolves other substances).
+[chem24-s1.1.3] Cycloalkanes have the general formula CₙH₂ₙ, the same as the alkenes, so a cycloalkane and an alkene with the same number of carbons have the same molecular formula.
+[chem24-s1.1.4] Alkenes have a C=C double bond, general formula CₙH₂ₙ, ending -ene, and first member ethene, C₂H₄.
+[chem24-s1.1.5] Alkynes have a C≡C triple bond, general formula CₙH₂ₙ₋₂, ending -yne, and first member ethyne, C₂H₂.
+[chem24-s1.1.6] Aromatics are limited to benzene, C₆H₆, a planar (flat) ring of six carbons with delocalised electrons (electrons shared around the whole ring instead of sitting in one bond).
+[chem24-s1.2.b] These families are defined by a functional group that replaces a hydrogen or adds oxygen to the carbon chain. For each, learn the group, the general formula, the ending and the first member.
+[chem24-s1.2.0] Haloalkanes have a halogen atom, –X (F, Cl, Br, I, the group 17 elements), in place of H, general formula CₙH₂ₙ₊₁X for one halogen, prefixes fluoro-, chloro-, bromo- and iodo-, and first member chloromethane, CH₃Cl.
+[chem24-s1.2.1] Alcohols have a hydroxyl group, –OH, general formula CₙH₂ₙ₊₁OH, ending -ol, and first member methanol, CH₃OH.
+[chem24-s1.2.2] Aldehydes have a carbonyl group (a carbon double-bonded to oxygen) at the end of the chain, –CHO, general formula CₙH₂ₙ₊₁CHO (n = 0, 1, 2 …), i.e. CₙH₂ₙO, ending -al, and first member methanal, HCHO.
+[chem24-s1.2.3] Ketones have a carbonyl group, C=O, inside the chain, bonded to two carbons, general formula CₙH₂ₙO (n ≥ 3), ending -one, and first member propanone, CH₃COCH₃.
+[chem24-s1.2.4] Aldehydes and ketones share the formula CₙH₂ₙO, so the position of the C=O (end or inside the chain) is what tells the two families apart.
+[chem24-s1.3.b] The last two families both contain oxygen in a –COO– arrangement. Together with aldehydes and ketones, they all share one feature, the carbonyl group.
+[chem24-s1.3.0] Carboxylic acids (monocarboxylic, meaning one –COOH) have a carboxyl group, –COOH, general formula CₙH₂ₙ₊₁COOH, i.e. CₙH₂ₙO₂, ending -oic acid, and first member methanoic acid, HCOOH.
+[chem24-s1.3.1] Esters have an ester group, –COO–, linking two hydrocarbon parts, general formula RCOOR′, CₙH₂ₙO₂ (n ≥ 2), named as alkyl …-oate, and first member methyl methanoate, HCOOCH₃.
+[chem24-s1.3.2] Carboxylic acids and esters share the formula CₙH₂ₙO₂, so the same molecular formula can belong to an acid or to an ester.
+[chem24-s1.3.3] Aldehydes, ketones, carboxylic acids and esters all contain the carbonyl group, C=O.
+[chem24-s1.4.b] IUPAC naming is a set of systematic rules that gives each compound one name, built from a stem for the carbon chain, an ending for the functional group and prefixes for anything attached. Work through the steps in order.
+[chem24-s1.4.0] Step 1: find the longest continuous carbon chain that contains the functional group; its number of carbons gives the stem: 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem24-s1.4.1] Step 2: add the ending (suffix) for the functional group (-ol, -al, -one, -oic acid or -oate), or the prefix for a halogen (chloro- and so on).
+[chem24-s1.4.2] Step 3: number the chain from the end that gives the functional group the lowest number, and put that number before the ending (butan-2-ol) or before the prefix (2-chlorobutane).
+[chem24-s1.4.3] Step 4: name and number branches (side chains of carbon, such as methyl- and ethyl-) and halogen substituents as prefixes, in alphabetical order.
+[chem24-s1.4.4] Use di-, tri- and tetra- for two, three or four of the same group, giving each a number, e.g. 1,2-dichloroethane and 2,2-dimethylpropan-1-ol.
+[chem24-s1.4.5] Numbers are separated from each other by commas and from words by hyphens.
+[chem24-s1.4.6] No number is needed when there is only one possible position: the –CHO and –COOH carbons are always carbon 1, e.g. ethanal and propanoic acid.
+[chem24-s1.4.7] There is only one propanone and only one butanone, so no number is needed for them.
+[chem24-s1.5.b] A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.
+[chem24-s1.5.0] A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.
+[chem24-s1.5.1] Chloromethane CH₃Cl, dichloromethane CH₂Cl₂, trichloromethane CHCl₃ and tetrachloromethane CCl₄ are examples, with one, two, three and four chlorine atoms on one carbon.
+[chem24-s1.5.2] Further examples, such as chloroethane CH₃CH₂Cl, 1-chloropropane CH₃CH₂CH₂Cl and 2-chloropropane CH₃CHClCH₃ are examples.
+[chem24-s1.5.3] Other examples, such as 1-bromobutane CH₃CH₂CH₂CH₂Br, 2-bromo-2-methylpropane (CH₃)₃CBr and 1,2-dichloroethane CH₂ClCH₂Cl are examples.
+[chem24-s1.5.4] Naming example: CH₃CH₂CHClCH₃ has a four-carbon chain with Cl on carbon 2, numbered from the nearer end, so it is 2-chlorobutane.
+[chem24-s1.5.5] Dichloromethane is a solvent for oils and grease, e.g. in paint strippers.
+[chem24-s1.5.6] Trichloromethane (chloroform) was first used as an anaesthetic (a drug that stops a patient feeling pain during surgery) in 1847 by James Young Simpson in Edinburgh, but it is toxic (poisonous).
+[chem24-s1.5.7] Chloroethene is the monomer of PVC, meaning the small molecule that joins in long chains to make the plastic.
+[chem24-s1.6.b] Alcohols are compounds with an –OH group on a carbon chain. Their names end in -ol, and the number tells you which carbon carries the –OH.
+[chem24-s1.6.0] Members, such as methanol CH₃OH, ethanol CH₃CH₂OH, propan-1-ol CH₃CH₂CH₂OH, propan-2-ol CH₃CH(OH)CH₃ and butan-1-ol CH₃CH₂CH₂CH₂OH are members.
+[chem24-s1.6.1] Other members, such as butan-2-ol CH₃CH₂CH(OH)CH₃, 2-methylpropan-1-ol (CH₃)₂CHCH₂OH and 2-methylpropan-2-ol (CH₃)₃COH are also members.
+[chem24-s1.6.2] Pentan-1-ol and hexan-1-ol are members too, such as with five and six carbons.
+[chem24-s1.6.3] Naming: replace the final -e of the alkane by -ol and give the position of the –OH; CH₃CH₂CH(OH)CH₃ is butan-2-ol.
+[chem24-s1.6.4] With more than one –OH, keep the -e and add -diol or -triol, so that the name stays easy to say.
+[chem24-s1.6.5] Propane-1,2,3-triol (glycerol), CH₂(OH)CH(OH)CH₂OH, has three –OH groups and forms the backbone of fats and oils.
+[chem24-s1.7.b] Alcohols are sorted into three classes according to how many other carbon atoms are bonded to the carbon that carries the –OH.
+[chem24-s1.7.0] Primary alcohol: the carbon bearing the –OH is attached to at most one other carbon atom (–CH₂OH), e.g. ethanol, propan-1-ol, butan-1-ol and 2-methylpropan-1-ol.
+[chem24-s1.7.1] Methanol, with no other carbon attached, is also treated as primary.
+[chem24-s1.7.2] Secondary alcohol: the carbon bearing the –OH is attached to two other carbon atoms (>CHOH, a carbon with one H and two carbon neighbours), e.g. propan-2-ol and butan-2-ol.
+[chem24-s1.7.3] Tertiary alcohol: the carbon bearing the –OH is attached to three other carbon atoms, e.g. 2-methylpropan-2-ol.
+[chem24-s1.7.4] The class depends on the number of carbons bonded to the carbon with the –OH, not on the number of –OH groups.
+[chem24-s1.8.b] Alcohols turn up in drinks, fuels and household products, and one of them is dangerous.
+[chem24-s1.8.0] Ethanol is the alcohol in alcoholic drinks, and is about 40% v/v (40 cm³ of ethanol in every 100 cm³ of drink) in spirits such as whiskey.
+[chem24-s1.8.1] Ethanol is a fuel and a solvent, such as in perfumes, deodorants, hairsprays and varnishes.
+[chem24-s1.8.2] Methanol is toxic, so it must not be confused with ethanol.
+[chem24-s1.8.3] Propan-2-ol is used in hand sanitisers and as a cleaning solvent, for example.
+[chem24-s1.9.b] Both families contain the carbonyl group, C=O. In an aldehyde it is at the end of the chain; in a ketone it is inside the chain, and that difference decides the name.
+[chem24-s1.9.0] Aldehydes, for example methanal HCHO, ethanal CH₃CHO, propanal CH₃CH₂CHO, butanal CH₃CH₂CH₂CHO and 2-methylpropanal (CH₃)₂CHCHO.
+[chem24-s1.9.1] The –CHO group is always at the end of the chain, and its carbon is carbon 1.
+[chem24-s1.9.2] Ketones, for example propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, pentan-2-one CH₃COCH₂CH₂CH₃, pentan-3-one CH₃CH₂COCH₂CH₃ and 3-methylbutan-2-one CH₃COCH(CH₃)₂.
+[chem24-s1.9.3] The C=O of a ketone is inside the chain, so the smallest ketone has three carbons.
+[chem24-s1.9.4] Naming: replace the -e of the alkane by -al for an aldehyde or by -one for a ketone.
+[chem24-s1.9.5] The ketone position is numbered from the nearer end when there is a choice, e.g. pentan-2-one, not pentan-4-one.
+[chem24-s1.10.b] Each of these carbonyl compounds has a particular role, from preserving specimens to flavouring.
+[chem24-s1.10.0] Methanal in water, called formalin (an aqueous solution of methanal), preserves biological specimens.
+[chem24-s1.10.1] Ethanal is the first product formed when the body breaks down ethanol (the first metabolite, meaning the first substance made in the body's chemical breakdown).
+[chem24-s1.10.2] Propanone is a solvent, for example in nail varnish remover.
+[chem24-s1.10.3] Benzaldehyde gives the flavour of almonds.
+[chem24-s1.11.b] Carboxylic acids carry the –COOH group, which is the key to both their names and their behaviour.
+[chem24-s1.11.0] Members, for example methanoic acid HCOOH, ethanoic acid CH₃COOH, propanoic acid CH₃CH₂COOH, butanoic acid CH₃CH₂CH₂COOH and 2-methylpropanoic acid (CH₃)₂CHCOOH.
+[chem24-s1.11.1] Pentanoic acid and hexanoic acid are also members.
+[chem24-s1.11.2] Naming: replace the -e of the alkane by -oic acid.
+[chem24-s1.11.3] The carbon of the –COOH group is counted in the chain as carbon 1, and substituents (atoms or groups added to the chain) are numbered from it.
+[chem24-s1.11.4] CH₃CHClCOOH is 2-chloropropanoic acid, and CH₂ClCOOH is chloroethanoic acid, with no number because the Cl can only be on carbon 2.
+[chem24-s1.11.5] The carboxyl group contains a C=O and an –OH on the same carbon, but it behaves differently from both an alcohol and a ketone.
+[chem24-s1.11.6] Carboxylic acids are acidic, which is how they differ from alcohols and ketones. There is more on this in Physical properties and acidity.
+[chem24-s1.12.b] Carboxylic acids occur in nature and in food.
+[chem24-s1.12.0] Methanoic acid is in the stings of ants and nettles; its old name, formic acid, comes from the Latin for ant, formica.
+[chem24-s1.12.1] Ethanoic acid gives vinegar its sharp taste; vinegar is about 5% ethanoic acid, usually between 4% and 6%.
+[chem24-s1.12.2] Ethanoic acid is used as a food flavouring and preservative (a substance that stops food spoiling).
+[chem24-s1.12.3] Benzoic acid and sodium benzoate are food preservatives.
+[chem24-s1.13.b] An ester is made from a carboxylic acid and an alcohol, and its name records both parents, alcohol part first. There is more on the reaction in Tests, reaction schemes and preparing an ester.
+[chem24-s1.13.0] Esters are formed when a carboxylic acid reacts with an alcohol, with loss of water: carboxylic acid + alcohol ⇌ ester + water (⇌ means the reaction is reversible).
+[chem24-s1.13.1] Step 1: split the ester at the single-bonded oxygen into the part from the acid, which contains C=O, and the part from the alcohol.
+[chem24-s1.13.2] Step 2: name the alcohol part as an alkyl group (a hydrocarbon part named methyl, ethyl, propyl and so on) and write it first.
+[chem24-s1.13.3] Step 3: name the acid part by changing -oic acid to -oate; CH₃COOCH₂CH₃, from ethanoic acid and ethanol, is ethyl ethanoate.
+[chem24-s1.13.4] The condensed formula is written acid part first, as in CH₃COOCH₂CH₃, but the name gives the alcohol part first, as in ethyl ethanoate.
+[chem24-s1.13.5] HCOOC₂H₅ and C₂H₅OOCH are the same compound, ethyl methanoate.
+[chem24-s1.13.6] Only esters made from monocarboxylic acids (one –COOH) and primary alcohols (–OH on a carbon with at most one other carbon) are required.
+[chem24-s1.14.b] Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.
+[chem24-s1.14.0] Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.
+[chem24-s1.14.1] Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.
+[chem24-s1.14.2] Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.
+[chem24-s1.14.3] Esters have sweet, fruity smells and give many fruits and flowers their scent.
+[chem24-s1.14.4] Esters are used as food flavourings and in perfumes.
+[chem24-s1.14.5] Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.
+[chem24-s1.14.6] Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds.
+[chem24-s1.15.b] Ethanoic acid, C₂H₄O₂, is used to show the four ways of representing an organic molecule. Each shows a different amount of information about the same molecule.
+[chem24-s1.15.0] Molecular formula: the number of atoms of each element in one molecule, e.g. C₂H₄O₂ for ethanoic acid.
+[chem24-s1.15.1] The molecular formula does not show how the atoms are joined.
+[chem24-s1.15.2] Condensed structural formula: the atoms bonded to each carbon are written in order along the chain, without drawing bonds, e.g. CH₃COOH.
+[chem24-s1.15.3] Branches go in brackets in a condensed formula, e.g. (CH₃)₂CHOH for propan-2-ol.
+[chem24-s1.15.4] Expanded (full or displayed) structural formula: every atom and every bond is drawn, e.g. ethanoic acid drawn as H₃C with three C–H bonds, joined to a carbon with a C=O double bond and a C–O–H.
+[chem24-s1.15.5] Physical model: a 3D ball-and-stick model, made from a model kit, shows the real spatial arrangement and bond angles.
+[chem24-s1.15.6] Model-kit colours are usually carbon black, hydrogen white, oxygen red and chlorine green.
+[chem24-s1.16.b] The empirical formula is a fifth way of writing a compound, and ethanol gives a worked example of all the representations side by side.
+[chem24-s1.16.0] Empirical formula (the simplest ratio of atoms) may also be asked. There is more on this in Formulae and balancing equations.
+[chem24-s1.16.1] Ethanoic acid, C₂H₄O₂, has empirical formula CH₂O, the same as methanal and glucose.
+[chem24-s1.16.2] Diagram: ethanol shown four ways, as C₂H₆O, as CH₃CH₂OH, as the expanded structure with all bonds, and as a ball-and-stick sketch.
+[chem24-s1.17.b] The shape around a carbon atom depends on how many groups are bonded to it. Carbon appears in three geometries in this course: tetrahedral, planar and linear.
+[chem24-s1.17.0] A carbon with four single bonds has its four bonds pointing to the corners of a tetrahedron (a pyramid with four triangular faces), with bond angles of 109.5°; this is tetrahedral geometry.
+[chem24-s1.17.1] Every carbon in ethanol and in haloalkanes is tetrahedral.
+[chem24-s1.17.2] A carbon with one double bond (C=C or C=O) and two single bonds has its three bonding groups in a flat triangle, with bond angles of 120°; this is planar (trigonal planar) geometry.
+[chem24-s1.17.3] The C=O carbon in aldehydes, ketones, carboxylic acids and esters is planar.
+[chem24-s1.17.4] Both carbons of ethene are planar, and all six carbons of benzene are planar.
+[chem24-s1.17.5] A carbon with a triple bond, as in ethyne, is linear, with a bond angle of 180°; it is neither tetrahedral nor planar in this classification.
+[chem24-s1.17.6] An expanded formula drawn on paper shows the tetrahedral angles as 90°; only a 3D model or a wedge drawing shows the true shape.
+[chem24-s1.17.7] The shapes follow from electron-pair repulsion: four bonding groups around carbon spread out tetrahedrally, and three groups spread out in a plane, where a double bond counts as one group. There is more on this in Bonding, formulae and shapes.
+[chem24-s1.18.b] Classify each carbon atom in the molecule. The oxygen that bridges two parts of an ester is not a carbon, so it is not counted.
+[chem24-s1.18.0] Ethanol CH₃CH₂OH has 2 tetrahedral carbons and 0 planar carbons, because each carbon has four single bonds.
+[chem24-s1.18.1] Ethanal CH₃CHO and ethanoic acid CH₃COOH each have 1 tetrahedral carbon (the CH₃, with four single bonds) and 1 planar carbon (the C=O carbon).
+[chem24-s1.18.2] Propanone CH₃COCH₃ has 2 tetrahedral carbons (both CH₃) and 1 planar carbon, because only the middle carbon has the C=O.
+[chem24-s1.18.3] Methyl methanoate HCOOCH₃ has 1 planar carbon (the C=O carbon) and 1 tetrahedral carbon (the CH₃).
+[chem24-s1.18.4] Ethyl ethanoate CH₃COOCH₂CH₃ has 1 planar carbon (the C=O carbon) and 3 tetrahedral carbons, because the other three carbons have only single bonds.
+[chem24-s1.18.5] Methyl propanoate CH₃CH₂COOCH₃ has 1 planar carbon and 3 tetrahedral carbons, because only the C=O carbon is planar.
+[chem24-s1.18.6] Ethene CH₂=CH₂ and benzene C₆H₆ have all their carbons planar, because every carbon has a double bond.
+[chem24-s1.18.7] Cyclohexane C₆H₁₂ has all six carbons tetrahedral, so its ring is not flat, unlike benzene.
+[chem24-s1.19.b] Writing R for the part of a molecule that doesn't matter lets you show a whole family, or a whole type of reaction, in one formula.
+[chem24-s1.19.0] R stands for an alkyl group, the hydrocarbon part of a molecule, e.g. CH₃– or C₂H₅–, so the formula highlights the functional group.
+[chem24-s1.19.1] R and R′ are used when two hydrocarbon parts may differ.
+[chem24-s1.19.2] General structures: haloalkane R–X; alcohol R–OH; aldehyde R–CHO; ketone R–CO–R′; carboxylic acid R–COOH; ester R–COO–R′.
+[chem24-s1.19.3] In an aldehyde, a carboxylic acid or the acid part of an ester, R may be a hydrogen atom, as in methanal HCHO, methanoic acid HCOOH and methyl methanoate HCOOCH₃.
+[chem24-s1.19.4] In a ketone both R groups must be carbon groups, and in an ester R′ must be a carbon group, because a ketone's C=O is bonded to two carbons.
+[chem24-s1.19.5] Alcohol classes written with R: primary R–CH₂OH; secondary R₂CHOH; tertiary R₃COH.
+[chem24-s1.19.6] R is used to show a reaction common to a whole family, e.g. RCOOH + NaOH → RCOONa + H₂O.
+[chem24-s1.20.b] Isomers are different compounds that share a molecular formula. Structural isomers differ in how the atoms are joined, and the first type differs in the carbon skeleton.
+[chem24-s1.20.0] Structural isomers are compounds with the same molecular formula but different structural formulae, meaning the atoms are joined in a different order.
+[chem24-s1.20.1] Chain isomers differ in the carbon skeleton (the chain of carbons), i.e. in branching: butan-1-ol and 2-methylpropan-1-ol (C₄H₁₀O).
+[chem24-s1.20.2] Chain isomers also include butanoic acid and 2-methylpropanoic acid (C₄H₈O₂).
+[chem24-s1.21.b] Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.
+[chem24-s1.21.0] Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).
+[chem24-s1.21.1] Position isomers also include 1-chloropropane and 2-chloropropane (C₃H₇Cl), and pentan-2-one and pentan-3-one (C₅H₁₀O).
+[chem24-s1.21.2] Functional group isomers belong to different families: propanal and propanone (C₃H₆O), and butanal and butanone (C₄H₈O).
+[chem24-s1.21.3] Further functional group isomers are ethanoic acid and methyl methanoate (C₂H₄O₂), and propanoic acid, methyl ethanoate and ethyl methanoate (C₃H₆O₂).
+[chem24-s1.21.4] Cyclohexane and hex-1-ene (C₆H₁₂) are also functional group isomers, since a ring and a C=C double bond give the same formula.
+[chem24-s1.22.b] Some formulae have several isomers on the course, and isomers of different types differ in how much their properties change.
+[chem24-s1.22.0] The four alcohols of formula C₄H₉OH are two primary alcohols, one secondary alcohol and one tertiary alcohol: butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, and 2-methylpropan-2-ol is tertiary.
+[chem24-s1.22.1] Esters of formula C₄H₈O₂ on the course are ethyl ethanoate, methyl propanoate and propyl methanoate; the acids of the same formula are butanoic acid and 2-methylpropanoic acid.
+[chem24-s1.22.2] Chain and position isomers have similar chemical properties but slightly different physical properties.
+[chem24-s1.22.3] Functional group isomers have very different chemical and physical properties, e.g. ethanoic acid (acidic, boiling point 118 °C) and methyl methanoate (not acidic, boiling point 32 °C). There is more on this in Physical properties and acidity.
+[chem24-s1.23.b] Each way of writing a molecule shows something the others hide, so the best choice depends on what you need to show.
+[chem24-s1.23.0] The molecular formula is compact but cannot tell isomers apart: C₂H₆O could be ethanol or another compound.
+[chem24-s1.23.1] The condensed formula shows the order of atoms and the functional group, so it distinguishes isomers, but it does not show bond angles or shape.
+[chem24-s1.23.2] The expanded formula shows every bond, so double bonds and functional groups are clear, but it does not show the 3D shape.
+[chem24-s1.23.3] The 3D model shows shape and bond angles, but it is slower to draw, is not to scale, and does not show electron distribution or polarity.
+[chem24-s1.23.4] Different representations of the same molecule must contain the same atoms joined in the same way.
+[chem24-s1.23.5] In every representation, each carbon must have four bonds, and a double bond counts as two.
+
+CANDIDATES chem23-s1: 1. Hydrocarbons: sources, uses and impact
+[chem23-s1.0.b] Organic chemistry is the study of the compounds of carbon, and hydrocarbons are the simplest of them. Knowing what a hydrocarbon is gives you the starting point for every other organic family.
+[chem23-s1.0.0] Carbon monoxide, carbon dioxide, carbonates and hydrogencarbonates contain carbon but are classed as inorganic, so they are exceptions to the rule that carbon compounds are organic.
+[chem23-s1.0.1] Carbon forms so many compounds because each carbon atom forms four covalent bonds (bonds made by sharing pairs of electrons) and carbon atoms bond strongly to each other. This gives stable chains, straight or branched, and rings of almost any length.
+[chem23-s1.0.2] Organic compounds are divided into many groups, or homologous series (families of compounds), each with its own characteristic structure and reactions. There is more on this in Groups of hydrocarbons and their properties.
+[chem23-s1.0.3] A hydrocarbon is a compound containing carbon and hydrogen only, which is why hydrocarbons are the simplest organic compounds.
+[chem23-s1.0.4] Other organic families, such as alcohols and carboxylic acids, can be thought of as hydrocarbons with one or more hydrogen atoms replaced by other atoms or groups. So hydrocarbons are the basis for understanding and making other organic compounds.
+[chem23-s1.1.b] Crude oil, natural gas and coal are the main sources of hydrocarbons, and all three are fossil fuels. They are the starting point for most of the hydrocarbons that industry and society use.
+[chem23-s1.1.0] Fossil fuels formed over millions of years from the remains of plants and animals, buried under sediment (layers of mud and sand) and changed by heat and pressure in the absence of air. Crude oil and natural gas formed mainly from tiny marine organisms.
+[chem23-s1.1.1] Fossil fuels are finite (non-renewable): they are being used far faster than they form, so they will run out.
+[chem23-s1.1.2] Natural gas is mainly methane (CH₄), typically over 80%, with small amounts of ethane, propane and butane.
+[chem23-s1.1.3] Crude oil is a mixture of many hydrocarbons, mostly alkanes (hydrocarbons with only single bonds) in chain and ring form. It also holds some aromatic hydrocarbons (ring-shaped hydrocarbons) such as benzene.
+[chem23-s1.1.4] Crude oil is separated by fractional distillation (separating a mixture by boiling point) into fractions. Each fraction is a mixture of hydrocarbons with a similar range of boiling points and so of similar molecular size.
+[chem23-s1.1.5] The smallest molecules, with the lowest boiling points, are collected at the top of the column and the largest at the bottom. There is more on this in Using the kinetic theory: separation techniques.
+[chem23-s1.2.b] Fossil fuels are not the only source of hydrocarbons. Living things make some, and industry and laboratories can build others from different starting materials.
+[chem23-s1.2.0] Methane forms when bacteria break down plant and animal material in the absence of air, a process called anaerobic decomposition.
+[chem23-s1.2.1] This methane is found in landfill sites (refuse dumps), slurry pits (stores of liquid animal waste), marshes and the digestive systems of cattle and sheep. These are sources of methane that are not linked to the oil and gas industry.
+[chem23-s1.2.2] Biogas, made deliberately by anaerobic digestion of farm slurry, food waste or crops, is mainly methane and is a renewable fuel because the plant and animal material can be regrown.
+[chem23-s1.2.3] Plants also make hydrocarbons, e.g. natural rubber, which is poly(isoprene) (a hydrocarbon polymer, a very long chain molecule) from the rubber tree, and limonene (C₁₀H₁₆) in citrus-fruit peel oil.
+[chem23-s1.2.4] Hydrocarbons can be synthesised (made) from other substances, e.g. ethene is made by dehydrating ethanol (removing water from it). There is more on this in Investigation: preparing ethene.
+[chem23-s1.2.5] Ethanol made by fermenting sugar cane (using yeast to turn sugar into ethanol) gives a plant-based, or “bio”, ethene.
+[chem23-s1.2.6] The Fischer–Tropsch process makes liquid hydrocarbons from carbon monoxide and hydrogen, so synthetic fuels can be made starting from coal, natural gas or biomass (plant and animal material).
+[chem23-s1.3.b] Most hydrocarbons are burned for energy, because they release a lot of energy when they burn in oxygen. Different hydrocarbons and fractions suit different fuel jobs.
+[chem23-s1.3.0] Complete combustion (burning with plenty of oxygen) of a hydrocarbon gives carbon dioxide and water. There is more on this in Combustion and heats of combustion.
+[chem23-s1.3.1] Methane (natural gas) is used for heating and cooking in homes, and for generating electricity in power stations.
+[chem23-s1.3.2] Propane and butane are the main components of LPG (liquefied petroleum gas), sold in cylinders for patio heaters, camping stoves, gas barbecues and some vehicles such as forklift trucks.
+[chem23-s1.3.3] Small butane canisters are used in camping stoves and lighters.
+[chem23-s1.3.4] Natural gas and LPG have no smell of their own, so a small amount of a strong-smelling sulfur compound, a thiol also called a mercaptan, is added so that leaks can be detected.
+[chem23-s1.3.5] Liquid fractions of crude oil are transport fuels: petrol for cars, kerosene for jet aircraft and home heating oil, and diesel (gas oil) for lorries, buses, tractors and cars.
+[chem23-s1.3.6] Heavy fuel oil, a thick fraction of crude oil, is used in ships and furnaces.
+[chem23-s1.3.7] Ethyne (acetylene) burned in pure oxygen gives a flame above 3000 °C, which is hot enough to be used for cutting and welding metals in the oxyacetylene torch.
+[chem23-s1.4.b] A small but important share of hydrocarbons is used as raw materials, or feedstocks (starting materials), for the chemical industry rather than being burned.
+[chem23-s1.4.0] Ethene and propene are made into the plastics poly(ethene) and poly(propene). There is more on this in Types of organic reaction and addition polymers.
+[chem23-s1.4.1] Ethene is also used to make ethanol and ethane-1,2-diol, the antifreeze, and to ripen fruit, because it is a plant hormone (a chemical that controls plant processes).
+[chem23-s1.4.2] Benzene is a feedstock for plastics such as polystyrene, and for detergents, dyes and pharmaceuticals (medicines).
+[chem23-s1.4.3] Methane is the main source of hydrogen for making ammonia, which is used to make fertilisers.
+[chem23-s1.4.4] Hexane and cyclohexane are used as non-polar solvents (liquids that dissolve non-polar substances such as oils), e.g. hexane to extract vegetable oils from seeds.
+[chem23-s1.4.5] The largest molecules give lubricating oils and greases for machinery, paraffin wax for candles, and bitumen, from the residue left at the bottom of the column, for surfacing roads and waterproofing roofs.
+[chem23-s1.5.b] The size and bonding of a hydrocarbon decide which use suits it. This links the properties of each group to the uses above.
+[chem23-s1.5.0] Small molecules are gases that burn easily, so they make fuels.
+[chem23-s1.5.1] Unsaturated alkenes (hydrocarbons with a C=C double bond) react readily, so they make feedstocks for plastics.
+[chem23-s1.5.2] Large molecules are viscous (thick and slow-flowing) or solid, so they make lubricants, waxes and bitumen.
+[chem23-s1.6.b] The investigation asks for one major impact on society of the continued, extensive use of hydrocarbons, researched from secondary sources (existing reports and data, not your own experiments) and judged on the evidence. You choose one impact and explain the chemistry behind it.
+[chem23-s1.6.0] Choose one impact and set a focused question, often about one sector or one country.
+[chem23-s1.6.1] Use several reliable sources that agree, judging each for authority (who wrote it), evidence, date and bias, since oil companies and campaign groups may each present one side.
+[chem23-s1.6.2] Reliable sources for these topics include peer-reviewed papers (checked by other scientists before publication) and reports of the IPCC (Intergovernmental Panel on Climate Change), the WHO (World Health Organization), the EPA (Environmental Protection Agency, Ireland) and the SEAI (Sustainable Energy Authority of Ireland).
+[chem23-s1.6.3] Explain the chemistry with balanced equations, and consider solutions and their limits.
+[chem23-s1.6.4] Set every impact against the benefits: hydrocarbons are cheap, energy-dense (a lot of energy in a small mass) and easily transported fuels and raw materials that made modern transport, heating, electricity, plastics and medicines possible.
+[chem23-s1.6.5] Justify the conclusion from the evidence, and acknowledge uncertainty and what the sources could not show.
+[chem23-s1.7.b] Research question, e.g. “How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced?” The chemistry starts with the fact that every hydrocarbon gives carbon dioxide when it burns completely.
+[chem23-s1.7.0] Complete combustion of every hydrocarbon releases carbon dioxide, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem23-s1.7.1] The same happens for octane, a hydrocarbon in petrol: 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l).
+[chem23-s1.7.2] Scale for 1.00 kg of methane. Moles of CH₄ = mass ÷ molar mass = 1000 g ÷ 16 g mol⁻¹ = 62.5 mol.
+[chem23-s1.7.3] The equation gives 1 mol CO₂ for each 1 mol CH₄, so 62.5 mol CO₂ forms. Mass = 62.5 mol × 44 g mol⁻¹ = 2750 g, so 2.75 kg of CO₂ is released.
+[chem23-s1.7.4] Scale for 1.00 kg of octane. Moles of C₈H₁₈ = 1000 g ÷ 114 g mol⁻¹ = 8.77 mol.
+[chem23-s1.7.5] The equation gives 8 mol CO₂ for each 1 mol C₈H₁₈ (16 for every 2). Mass = 8.77 mol × 8 × 44 g mol⁻¹ = 3088 g, so 3.09 kg of CO₂ is released.
+[chem23-s1.8.b] Burning fossil fuels adds carbon dioxide to the air, and the evidence shows its level and the average temperature rising. The extra carbon dioxide traps heat, and that has effects on the climate and the oceans.
+[chem23-s1.8.0] Fossil carbon was locked away for millions of years. Burning it moves that carbon into the atmosphere far faster than the carbon cycle (the natural movement of carbon between air, oceans and living things) removes it, so atmospheric CO₂ rises.
+[chem23-s1.8.1] CO₂ and methane are greenhouse gases that absorb infrared radiation (heat radiation) emitted by the Earth and so trap heat. There is more on this in The enhanced greenhouse effect.
+[chem23-s1.8.2] Methane escapes from gas wells, pipelines and coal mines, which adds to the greenhouse gases in the air.
+[chem23-s1.8.3] Atmospheric CO₂ has risen from about 280 ppm (parts per million) before the Industrial Revolution to over 420 ppm today, and global average temperature has risen by more than 1 °C since pre-industrial times.
+[chem23-s1.8.4] Consequences include rising sea levels, more extreme weather such as storms, floods and droughts, and ocean acidification (the oceans becoming more acidic) as CO₂ dissolves: CO₂(g) + H₂O(l) ⇌ H₂CO₃(aq).
+[chem23-s1.9.b] A good investigation does not stop at the problem. It also assesses how emissions could be cut and what holds each solution back.
+[chem23-s1.9.0] Solutions include renewable electricity from wind and solar, electric vehicles and heat pumps (devices that heat buildings using electricity efficiently), energy efficiency, biofuels, hydrogen, and carbon capture and storage (trapping CO₂ before it escapes and storing it).
+[chem23-s1.9.1] The limits of these solutions include cost, the supply of materials such as those for batteries, the intermittency of renewables (wind and solar supply stops and starts with the weather), and the time needed to change infrastructure.
+[chem23-s1.10.b] Research question, e.g. “How has burning solid fuel and road fuels affected air quality and health in Irish towns?” Burning fuels can release pollutants as well as carbon dioxide, depending on the oxygen supply and the fuel.
+[chem23-s1.10.0] Incomplete combustion, with too little oxygen, produces carbon monoxide and soot (tiny particles of carbon), e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).
+[chem23-s1.10.1] Nitrogen and oxygen from the air combine at the high temperatures in engines to form nitrogen oxides: N₂(g) + O₂(g) → 2NO(g); 2NO(g) + O₂(g) → 2NO₂(g).
+[chem23-s1.10.2] Sulfur impurities in coal and heavy oils burn to sulfur dioxide: S(s) + O₂(g) → SO₂(g).
+[chem23-s1.10.3] Unburned hydrocarbons such as benzene, a carcinogen (a substance that can cause cancer), are released from fuel evaporation and exhausts.
+[chem23-s1.11.b] Each pollutant harms the body in a different way, so name the pollutant and its effect together.
+[chem23-s1.11.0] Carbon monoxide is toxic: it binds to haemoglobin (the protein in red blood cells that carries oxygen) more strongly than oxygen does, reducing the blood's ability to carry oxygen.
+[chem23-s1.11.1] Particulate matter, such as PM2.5 (particles with a diameter below 2.5 μm), from diesel engines and from burning coal and wood is breathed deep into the lungs, because the particles are so small. It is linked to asthma, lung disease and heart disease.
+[chem23-s1.11.2] Nitrogen dioxide irritates the lungs and contributes to acid rain and smog.
+[chem23-s1.11.3] Sulfur dioxide irritates the airways and causes acid rain.
+[chem23-s1.12.b] Real data show whether action on air pollution works. Ireland's smoky coal ban is the evidence to use.
+[chem23-s1.12.0] Dublin banned the sale of smoky (bituminous) coal in 1990. Black smoke fell sharply, and later studies linked the ban to fewer deaths from respiratory and heart disease.
+[chem23-s1.12.1] The ban on smoky coal was extended to the whole country in October 2022.
+[chem23-s1.12.2] Catalytic converters (devices in exhausts that turn harmful gases into less harmful ones), low-sulfur fuels, particulate filters and electric transport also reduce emissions.
+[chem23-s1.13.b] Research question, e.g. “What happens to single-use plastic packaging in Ireland, and how could its impact be reduced?” The chemistry explains why plastic waste lasts so long.
+[chem23-s1.13.0] Most plastics are made from hydrocarbon feedstocks: ethene and propene are polymerised (joined into long chains) to poly(ethene) and poly(propene). There is more on this in Types of organic reaction and addition polymers.
+[chem23-s1.13.1] Addition polymers are long chains held by strong, non-polar C–C and C–H bonds, so microorganisms cannot break them down.
+[chem23-s1.13.2] Plastics are therefore non-biodegradable (they cannot be broken down by living organisms) and can persist for hundreds of years.
+[chem23-s1.14.b] Because plastics last so long, they build up in the environment and cause harm in several places.
+[chem23-s1.14.0] Plastic waste causes litter and fills landfill sites.
+[chem23-s1.14.1] Plastic in the sea entangles or is swallowed by marine animals.
+[chem23-s1.14.2] Plastics break into microplastics, pieces smaller than 5 mm, which are found in water, food and living things.
+[chem23-s1.14.3] Burning plastics recovers energy but releases CO₂, and burning some plastics, such as PVC (poly(chloroethene)), releases toxic gases such as hydrogen chloride unless done in controlled incinerators (furnaces built to burn waste safely).
+[chem23-s1.15.b] Solutions work at different points: avoiding waste, reusing material, or changing the plastic itself. Each has limits you should be able to state.
+[chem23-s1.15.0] Reducing and reusing plastics avoids the waste altogether.
+[chem23-s1.15.1] Recycling involves sorting, washing, shredding, melting and remoulding, but only some plastics can be recycled and only for a limited number of cycles.
+[chem23-s1.15.2] Biodegradable and bio-based plastics, deposit-return schemes, bans and levies are other responses; Ireland introduced a plastic bag levy in March 2002.
+[chem23-s1.16.b] Research question, e.g. “How does Ireland's dependence on imported oil and gas affect energy prices and security?” Hydrocarbons are built into the economy, so a country that must import them is exposed to events elsewhere.
+[chem23-s1.16.0] Modern economies depend on hydrocarbons for transport, heating, electricity generation, farming, where fuel and fertiliser are made from natural gas, and plastics.
+[chem23-s1.16.1] Jobs and government revenue depend on the industry.
+[chem23-s1.16.2] Fossil fuels are finite and unevenly spread, so countries without their own reserves must import them and are exposed to price shocks (sudden sharp rises in price) and supply cuts.
+[chem23-s1.16.3] The 1973 oil crisis was an oil embargo (a ban on supplying oil) by Arab oil-producing countries, and in 2022 gas and electricity prices rose sharply after Russia invaded Ukraine in February 2022.
+[chem23-s1.16.4] Ireland imports most of its energy.
+[chem23-s1.16.5] Ireland's own natural gas has come from the Kinsale Head gas field, off Co. Cork, which stopped producing in 2020, and from the Corrib gas field off Co. Mayo.
+[chem23-s1.17.b] Getting oil and gas out of the ground and moving it around the world carries risks, and accidents have real economic costs.
+[chem23-s1.17.0] Extraction and transport carry risks with economic costs.
+[chem23-s1.17.1] Oil spills such as the Exxon Valdez (Alaska, 1989), the Prestige (off Galicia, Spain, 2002) and Deepwater Horizon (Gulf of Mexico, 2010) damaged fisheries, tourism and wildlife.
+[chem23-s1.18.b] Ireland can cut its reliance on imported fuel, but the options have costs and trade-offs.
+[chem23-s1.18.0] Home-produced renewable energy, energy efficiency and electrification (switching from burning fuels to using electricity) reduce imports.
+[chem23-s1.18.1] The transition needs investment and takes time.
+[chem23-s1.18.2] Hydrocarbons are still needed as feedstocks for plastics, medicines and fertilisers, so some argue they should be conserved for these uses rather than burned.
+[chem23-s1.19.b] The conclusion ties the investigation together. It should answer the question and show that the answer follows from the evidence.
+[chem23-s1.19.0] State the answer to the research question in one or two sentences.
+[chem23-s1.19.1] Support the answer with the strongest evidence and the chemistry, using equations and data.
+[chem23-s1.19.2] Weigh the benefits against the harms, and assess the proposed solutions for cost, practicality and who is affected.
+[chem23-s1.19.3] Note the limitations of the sources used and what further research would help.
+
+CANDIDATES chem1-s2: 2. Science as a global enterprise and researching an issue
+[chem1-s2.0.b] Science is not done by lone individuals. It is a worldwide effort in which results are shared, so that every scientist can build on what others have found.
+[chem1-s2.0.0] Scientists work in universities, industry and government laboratories around the world, sharing results and building on each other's work, so new research starts from what is already known.
+[chem1-s2.0.1] Large problems such as climate change, new medicines and clean energy are tackled by international collaborations, because countries working together can share data, equipment and funding.
+[chem1-s2.0.2] Scientists publish in journals (magazines that print research reports) and present at conferences (meetings where scientists talk about their work) so that results are available to everyone and can be checked.
+[chem1-s2.1.b] A scientific claim is only worth believing if others can look at the evidence behind it. This is why science depends on reports that are complete and clear.
+[chem1-s2.1.0] Scientific claims must be supported by evidence that others can examine, so data, methods and conclusions are published together and a reader can judge whether the conclusion follows.
+[chem1-s2.1.1] A report must describe the method in enough detail for another scientist to repeat it exactly, because a result can only be checked if the experiment can be redone.
+[chem1-s2.1.2] Clear communication uses precise scientific terms, SI units (the international system of units), correct significant figures (the number of meaningful digits in a measurement), labelled tables and graphs, and cited sources (credited references), so the reader cannot misread the results.
+[chem1-s2.2.b] Conventions are agreed rules that all scientists use, so that results mean the same everywhere. Without them, a chemist in one country could not be sure what a chemist in another country meant.
+[chem1-s2.2.0] IUPAC (the International Union of Pure and Applied Chemistry) sets the rules for naming compounds, so that each compound has one systematic name (a name built by the agreed rules), e.g. but-1-ene, and it agrees chemical symbols and atomic masses.
+[chem1-s2.2.1] The SI (Système International) system of units has base units (the basic units from which others are built), including the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol).
+[chem1-s2.2.2] The SI base units also include the ampere (A) and the candela (cd).
+[chem1-s2.2.3] Other shared conventions are chemical symbols and formulae, standard conditions for measurements, and international hazard symbols (pictograms, small warning pictures) on chemicals, so that a danger is recognised in any country.
+[chem1-s2.3.b] Before research is published, other experts check it. This step, called peer review, is one of the main ways science keeps its standards high.
+[chem1-s2.3.0] Peer review is the evaluation of a scientist's work by other independent experts in the same field (peers) before it is published.
+[chem1-s2.3.1] 1. The scientist submits a paper (a written report of the research) to a journal.
+[chem1-s2.3.2] 2. The editor, who runs the journal, sends the paper to reviewers.
+[chem1-s2.3.3] 3. The reviewers check the method, data, analysis and conclusions for errors and originality (whether the work is new), and whether the conclusions are justified by the data.
+[chem1-s2.3.4] 4. The paper is accepted, returned for changes, or rejected.
+[chem1-s2.3.5] Peer review filters out poor or flawed work, reduces bias (unfair leaning towards one result) and gives readers confidence in published results.
+[chem1-s2.3.6] Peer review does not guarantee that a result is correct; results are checked by others repeating the work.
+[chem1-s2.4.b] Two similar words describe two different tests of whether a result can be trusted. The difference is who repeats the experiment and how.
+[chem1-s2.4.0] Repeatable: the same experimenter, using the same method and equipment, gets the same or very similar results when the experiment is repeated.
+[chem1-s2.4.1] Reproducible: a different experimenter, using different equipment or a different method, gets the same results.
+[chem1-s2.4.2] A claim is accepted only when its results are reproducible, because results that no one else can reproduce are not accepted.
+[chem1-s2.5.b] Researching an issue works best when you plan it. A clear question and a record of where your information came from make the final work easy to check.
+[chem1-s2.5.0] Start with a focused research question about the issue, e.g. “What are the environmental effects of lithium mining?”, so you know exactly what you are looking for.
+[chem1-s2.5.1] Identify keywords (the important search words) and search systematically rather than reading whatever appears first.
+[chem1-s2.5.2] Record every source used: author, title, date, publisher or website, and the date accessed, so others can find and check it.
+[chem1-s2.5.3] Take notes in your own words and keep a research log (a running record of what you searched and found).
+[chem1-s2.6.b] Data used in a research project come from two places: your own measurements, or someone else's. Knowing which is which matters when you judge how far to trust them.
+[chem1-s2.6.0] Primary data are collected first-hand by the investigator, e.g. by experiment or measurement.
+[chem1-s2.6.1] Secondary data are collected by someone else, e.g. published results, government statistics, databases or the results of other class groups.
+[chem1-s2.6.2] Secondary data are used to compare with primary data, to check or support conclusions, or where an experiment cannot be done in school.
+[chem1-s2.7.b] Sources differ in how much you can trust them. Knowing the kind of source gives you a first idea of how reliable it is likely to be.
+[chem1-s2.7.0] Peer-reviewed journal articles (reports checked by other experts before publication) are the most reliable sources but are often technical.
+[chem1-s2.7.1] Books and textbooks, and reports from government agencies and scientific bodies, are further kinds of source.
+[chem1-s2.7.2] The Environmental Protection Agency (EPA) is Ireland's environmental regulator (the body that monitors and enforces environmental rules).
+[chem1-s2.7.3] The EPA publishes reports and data on air and water quality.
+[chem1-s2.7.4] News media, websites, blogs and social media are accessible but of variable reliability; they may simplify, sensationalise (make more dramatic than the facts) or omit detail.
+[chem1-s2.7.5] Company or campaign-group material may be written to sell a product or promote a view, so it may present only what suits that aim.
+[chem1-s2.8.b] Once you have found a source, you must judge how far to rely on it. Asking the same set of questions of every source lets you compare them fairly.
+[chem1-s2.8.0] Authority: who wrote the source, and are they qualified and named?
+[chem1-s2.8.1] Accuracy and evidence: are the claims supported by data and references, and can they be checked against other sources?
+[chem1-s2.8.2] Currency: is the source up to date?
+[chem1-s2.8.3] Purpose and bias: is it trying to inform, persuade or sell; who funded it; does it present only one side?
+[chem1-s2.8.4] Detail: does it explain methods, sample sizes (how many were measured) and uncertainties (how far the values might be off), or does it give only conclusions? A source may lack the detail needed to judge it.
+[chem1-s2.8.5] Corroboration (independent confirmation): a claim supported by several independent, reliable sources is more trustworthy than a claim from one source.

@@ -1,0 +1,371 @@
+MODE: cost and links
+TARGET chem6-s2: 2. Polarity, shape and physical properties
+[chem6-s2.0.b] Melting and boiling are about the attractions between molecules, not the bonds inside them. Intermolecular forces (the attractions between separate molecules) decide how much energy a molecular substance needs to change state.
+[chem6-s2.0.0] To melt or boil a molecular substance (one made of separate small molecules), energy must be supplied to overcome the intermolecular forces, so the molecules can move apart.
+[chem6-s2.0.1] The stronger the intermolecular forces, the higher the melting and boiling points, because more energy is needed to pull the molecules apart.
+[chem6-s2.0.2] Substances with only London dispersion forces (weak attractions caused by temporary uneven electron distribution) between small molecules are gases at room temperature, because the forces are too weak to hold them together. Methane is an example: it boils at −162 °C.
+[chem6-s2.0.3] Group 14 hydrides (compounds of hydrogen with the group 14 elements) rise steadily in boiling point: CH₄ < SiH₄ < GeH₄ < SnH₄.
+[chem6-s2.0.4] Hydrogen bonding (a strong intermolecular attraction involving hydrogen) gives unusually high boiling points. Water boils at 100 °C, but hydrogen sulfide, a heavier molecule with no hydrogen bonding, boils at −60 °C.
+[chem6-s2.1.b] Whether one substance dissolves in another depends on the attractions between their particles. The solvent is the liquid that does the dissolving and the solute is the substance that dissolves.
+[chem6-s2.1.0] A substance dissolves when the attractions between solvent and solute particles are similar to or stronger than the attractions they replace. This is summed up as “like dissolves like”.
+[chem6-s2.1.1] Polar substances (those whose molecules have a slightly positive end and a slightly negative end) and hydrogen-bonding substances such as ethanol, ammonia and sugar dissolve in water, because they form hydrogen bonds with water molecules.
+[chem6-s2.1.2] Non-polar substances such as iodine, hexane and oils do not dissolve in water. They dissolve in non-polar solvents such as cyclohexane, where the London forces are similar to those they replace.
+[chem6-s2.1.3] Hexane and water do not mix, which means they form two layers.
+[chem6-s2.2.b] Water is a very small molecule, yet it behaves unlike other small molecules. The reason is hydrogen bonding between its molecules.
+[chem6-s2.2.0] Water has a high boiling point and a high melting point for such a small molecule, because the hydrogen bonds between molecules take a lot of energy to overcome.
+[chem6-s2.2.1] Ice is less dense than liquid water: hydrogen bonds hold the molecules in an open lattice (a regular arrangement with gaps between molecules), so ice floats.
+[chem6-s2.2.2] Water is a good solvent for ionic and polar substances, because it can form attractions with them.
+[chem6-s2.3.b] Secondary data means results taken from tables or graphs rather than measured yourself. The boiling points below (bp) are the sample data you may be asked to interpret.
+[chem6-s2.3.0] Noble gas boiling points (the noble gases are the group 18 elements): He −269 °C; Ne −246 °C; Ar −186 °C; Kr −153 °C; Xe −108 °C.
+[chem6-s2.3.1] Halogens (the group 17 elements) at room temperature: fluorine and chlorine are gases, bromine is a liquid and iodine is a solid.
+[chem6-s2.3.2] Alkane (hydrocarbon) boiling points: methane −162 °C; ethane −89 °C; propane −42 °C; butane −1 °C; pentane 36 °C; hexane 69 °C.
+[chem6-s2.3.3] Group 16 hydride boiling points: H₂O 100 °C; H₂S −60 °C; H₂Se −41 °C; H₂Te −2 °C.
+[chem6-s2.3.4] Group 15 and 17 hydride boiling points: NH₃ −33 °C vs PH₃ −88 °C; HF 20 °C vs HCl −85 °C.
+[chem6-s2.3.5] Compounds of similar mass: ethanol (bp 78 °C, hydrogen bonding) vs propane (bp −42 °C, London forces only).
+[chem6-s2.4.b] At Higher Level you must explain why the boiling points in the data follow their patterns. Two ideas do all the work: London forces grow with molecule size, and hydrogen bonding lifts a boiling point far above the trend.
+[chem6-s2.4.0] Down group 18, down group 17 and along the alkane series, boiling points rise because the molecules have more electrons and larger electron clouds, so London dispersion forces get stronger.
+[chem6-s2.4.1] In the group 16 hydrides, boiling point rises from H₂S to H₂Te as London forces increase with size. Water is far higher than the trend predicts because of hydrogen bonding.
+[chem6-s2.4.2] The same anomaly (a value far out of line with the trend) appears for NH₃ in group 15 and HF in group 17, which both form hydrogen bonds.
+[chem6-s2.4.3] Molecules of similar mass have higher boiling points if they are polar (attracted by dipole–dipole forces, the attractions between opposite ends of polar molecules), and much higher ones if they hydrogen bond, e.g. ethanol compared with propane.
+[chem6-s2.4.4] Diagram: a graph of boiling point against period for the hydrides of groups 14, 15, 16 and 17, showing the high values of H₂O, HF and NH₃ and the steady rise from CH₄ to SnH₄.
+[chem6-s2.5.b] Some bonds share electrons unequally, but that does not always make the whole molecule polar. Whether it does depends on the shape. The shapes named here are given; see “VSEPR theory” for how shapes are predicted.
+[chem6-s2.5.0] A polar bond has an uneven share of electrons, giving a slightly positive end (δ+) and a slightly negative end (δ−).
+[chem6-s2.5.1] A polar molecule has an overall uneven distribution of charge, with a δ+ end and a δ− end.
+[chem6-s2.5.2] Whether a molecule is polar depends on both its bonds and its shape: polar bonds arranged symmetrically cancel out, so the molecule has no δ+ or δ− end.
+[chem6-s2.6.b] A dipole is the pair of δ+ and δ− ends of a polar bond. In a symmetrical molecule the dipoles pull in opposite directions and cancel, while in an unsymmetrical molecule they add up.
+[chem6-s2.6.0] Carbon dioxide: each C=O bond is polar, but the molecule is linear (O=C=O, in a straight line), so the two bond polarities point in opposite directions and cancel; CO₂ is non-polar.
+[chem6-s2.6.1] Tetrachloromethane (CCl₄): four polar C–Cl bonds arranged tetrahedrally (pointing to the corners of a tetrahedron) cancel; CCl₄ is non-polar.
+[chem6-s2.6.2] Boron trifluoride (BF₃): three polar B–F bonds at 120° in a trigonal plane (flat, evenly spaced) cancel; BF₃ is non-polar.
+[chem6-s2.6.3] Water: two polar O–H bonds in a V-shaped (bent) molecule do not cancel, so water is polar, with δ− on oxygen.
+[chem6-s2.6.4] Ammonia: three polar N–H bonds in a pyramidal molecule (a shape like a pyramid, with nitrogen at the top) do not cancel, so NH₃ is polar.
+[chem6-s2.6.5] Trichloromethane (CHCl₃): the C–H bond differs from the three C–Cl bonds, so the tetrahedral molecule is unsymmetrical and polar.
+[chem6-s2.6.6] Diagram: CO₂, CCl₄, H₂O and NH₃, with arrows (or δ+ and δ− labels) on each bond showing whether the polarities cancel; label each molecule polar or non-polar.
+[chem6-s2.7.b] Polarity decides which intermolecular forces act between molecules. Those forces then set the boiling point and the solubility.
+[chem6-s2.7.0] Polar molecules attract each other by permanent dipole–dipole forces (or hydrogen bonds) as well as London dispersion forces, so they have stronger intermolecular forces than non-polar molecules of similar size.
+[chem6-s2.7.1] Non-polar molecules, including symmetrical ones with polar bonds, have only London dispersion forces between them. For example, carbon dioxide is a gas at room temperature, and tetrachloromethane is immiscible with water (does not mix with it).
+[chem6-s2.7.2] A symmetrical molecule usually has a lower boiling point and lower solubility in water than an unsymmetrical one of similar size, because its forces between molecules are weaker.
+[chem6-s2.7.3] Tetrachloromethane is immiscible with water, while trichloromethane is slightly soluble; both dissolve in non-polar solvents.
+[chem6-s2.8.b] A molecule can contain polar bonds and still be non-polar overall. What matters is the shape. These shapes are stated, not derived.
+[chem6-s2.8.0] A molecule with polar bonds is polar overall only if its shape is unsymmetrical, so that its charge is unevenly spread.
+[chem6-s2.8.1] Water is V-shaped (bent), so it is polar.
+[chem6-s2.8.2] Ammonia is pyramidal, so it is polar.
+[chem6-s2.8.3] Carbon dioxide is linear and methane is tetrahedral: both are non-polar.
+[chem6-s2.9.b] Once you know a molecule's shape and polarity, you can predict its boiling point and what it dissolves in.
+[chem6-s2.9.0] Polar molecules have stronger forces between them than non-polar molecules of similar size, so they have higher boiling points.
+[chem6-s2.9.1] Polar molecules tend to dissolve in polar solvents such as water; non-polar molecules dissolve in non-polar solvents such as cyclohexane.
+[chem6-s2.9.2] Water is a liquid at room temperature and dissolves salts, because it is polar and forms hydrogen bonds; methane is a non-polar gas and is almost insoluble in water.
+[chem6-s2.9.3] Ammonia, which is polar, is very soluble in water; carbon dioxide, which is non-polar, is only slightly soluble.
+[chem6-s2.10.b] Polar molecules respond to an electric charge and non-polar ones do not. A charged rod held beside a thin stream of liquid shows which kind a liquid is made of.
+[chem6-s2.10.0] Aim: to show whether a liquid is made of polar molecules.
+[chem6-s2.10.1] Apparatus: a burette (a long graduated tube with a tap) clamped above a beaker, a polythene (or acetate) rod, a cloth, and liquids such as water and cyclohexane.
+[chem6-s2.10.2] Diagram: a burette clamped above a beaker, releasing a thin stream of liquid; label the burette, the beaker and the stream.
+[chem6-s2.10.3] Diagram: a charged polythene rod held beside the stream, with the stream bending towards it; label the rod, the stream and the direction of deflection (the sideways bend).
+[chem6-s2.10.4] Independent variable (the one you change): the liquid tested.
+[chem6-s2.10.5] Dependent variable (the one you observe): whether the stream is deflected.
+[chem6-s2.10.6] Controlled variables (kept the same): the same rod and cloth, with the rod recharged before each test, so that every liquid meets a charged rod.
+[chem6-s2.11.b] The method is the same for each liquid, and comparing the two streams gives the conclusion.
+[chem6-s2.11.0] Step 1: Charge the rod by rubbing it with the cloth.
+[chem6-s2.11.1] Step 2: Let a thin stream of the liquid run from the burette, and hold the rod close to the stream without touching it.
+[chem6-s2.11.2] Step 3: Repeat with the other liquid, recharging the rod each time.
+[chem6-s2.11.3] Result: the stream of water is deflected (attracted) towards the rod; the stream of cyclohexane is not deflected.
+[chem6-s2.11.4] The water stream is attracted to the rod whether the rod is charged positively or negatively, because the molecules rotate.
+[chem6-s2.11.5] Explanation: polar molecules turn so that their oppositely charged end faces the rod and are attracted to it; non-polar molecules are not attracted.
+[chem6-s2.11.6] Safety: cyclohexane is flammable and harmful, so use no flames, small volumes and good ventilation, and collect it for disposal.
+
+CANDIDATES chem6-s1: 1. Bond type and intermolecular forces
+[chem6-s1.0.b] When two atoms share a pair of electrons in a covalent bond (a bond formed by sharing electrons), the pair is not always shared equally. Electronegativity tells you which atom pulls harder on it. There is more on the continuum from ionic to non-polar covalent bonding in “Types of chemical bonding”.
+[chem6-s1.0.0] Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the value, the harder the atom pulls on the pair.
+[chem6-s1.0.1] It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4). Pauling values are relative, so they have no units.
+[chem6-s1.0.2] Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.
+[chem6-s1.0.3] Non-metals have high electronegativities and metals have low ones, so a non-metal bonded to a metal pulls the electrons strongly towards itself.
+[chem6-s1.1.b] Electronegativity follows a pattern in the periodic table. Both halves of the pattern are explained by how close the bonding electrons are to the nucleus (the positive centre of the atom) and how much positive charge pulls on them.
+[chem6-s1.1.0] Across a period (a row of the periodic table, left to right) electronegativity increases, for example from Na 0.93 to Cl 3.16.
+[chem6-s1.1.1] Across a period the nuclear charge (the positive charge of the nucleus) increases while electrons are added to the same main energy level (shell), so the atomic radius (the size of the atom) decreases.
+[chem6-s1.1.2] Because the atomic radius decreases across a period, the bonding electrons are closer to a more highly charged nucleus, so the nucleus attracts them more strongly.
+[chem6-s1.1.3] Down a group (a column of the periodic table) electronegativity decreases, for example from F 3.98 to I 2.66.
+[chem6-s1.1.4] Down a group each element has an extra energy level, so the atomic radius increases and the bonding electrons are further from the nucleus.
+[chem6-s1.1.5] Inner electrons screen (shield) the outer electrons from the nucleus. The bonding electrons are therefore further away and less strongly attracted, even though the nuclear charge is greater.
+[chem6-s1.1.6] Noble gases are usually given no electronegativity value because they rarely form bonds, so there is no shared pair to attract.
+[chem6-s1.2.b] The difference in electronegativity between two bonded atoms predicts the bond type: the larger the difference, the more ionic the bond. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum (a smooth range from ionic to non-polar covalent).
+[chem6-s1.2.0] Step 1: Look up the Pauling electronegativity of each atom.
+[chem6-s1.2.1] Step 2: Subtract the smaller value from the larger to find the difference.
+[chem6-s1.2.2] Step 3: Compare the difference with the cut-offs below.
+[chem6-s1.2.3] A difference greater than 1.7 gives a mainly ionic bond (electrons largely transferred from one atom to the other), for example NaCl: 3.16 − 0.93 = 2.23.
+[chem6-s1.2.4] A difference between about 0.4 and 1.7 gives a polar covalent bond (a bond in which the shared pair is pulled unequally), for example H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.
+[chem6-s1.2.5] A difference less than about 0.4 gives a non-polar (pure) covalent bond, in which the pair is shared almost equally, for example C–H: 2.55 − 2.20 = 0.35.
+[chem6-s1.2.6] A bond between identical atoms has a difference of zero, so the pair is shared equally and the bond is non-polar, for example Cl–Cl: 3.16 − 3.16 = 0.
+[chem6-s1.2.7] In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+).
+[chem6-s1.3.b] Ionic compounds are made of oppositely charged ions packed in a lattice (a regular, repeating three-dimensional arrangement). Their properties follow from the strong attraction between those ions and from whether the ions can move.
+[chem6-s1.3.0] Ionic compounds are solids at room temperature, for example sodium chloride and magnesium oxide.
+[chem6-s1.3.1] Sodium chloride melts at 801 °C and boils at 1413 °C.
+[chem6-s1.3.2] The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions (attractions between opposite charges) between oppositely charged ions throughout the lattice.
+[chem6-s1.3.3] Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions and cannot carry charge.
+[chem6-s1.3.4] Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.
+[chem6-s1.3.5] Many ionic compounds are soluble in water, because polar water molecules (molecules with a slightly positive end and a slightly negative end) attract and surround the ions.
+[chem6-s1.3.6] Ionic compounds are insoluble in non-polar solvents such as cyclohexane, because non-polar molecules have no charged ends to attract the ions.
+[chem6-s1.4.b] Covalent compounds are made of separate molecules. Because of this, melting or boiling them only has to separate one molecule from the next, which takes far less energy than melting an ionic lattice.
+[chem6-s1.4.0] Many covalent compounds are gases or liquids at room temperature, for example methane, carbon dioxide and water.
+[chem6-s1.4.1] Some covalent compounds are solids with low melting points, for example iodine and sugar.
+[chem6-s1.4.2] Iodine sublimes (turns straight from solid to gas) on gentle heating and melts at 114 °C.
+[chem6-s1.4.3] Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.
+[chem6-s1.4.4] The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.
+[chem6-s1.5.b] Whether a covalent compound conducts or dissolves depends on whether it has charged particles and on whether its molecules are polar (have a slightly positive end and a slightly negative end).
+[chem6-s1.5.0] Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.
+[chem6-s1.5.1] Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.
+[chem6-s1.5.2] Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.
+[chem6-s1.5.3] Polar molecules such as ethanol, sugar and ammonia dissolve in water, because they can form hydrogen bonds with it. There is more on this in “Intermolecular forces and physical properties”.
+[chem6-s1.5.4] “Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents.
+[chem6-s1.6.b] Putting the two types side by side shows four paired differences, and each has its own reason: melting and boiling points depend on whether strong ionic attractions or only weak forces between molecules must be overcome, and conductivity depends on whether ions are free to move.
+[chem6-s1.6.0] Melting and boiling points: ionic compounds are high; covalent compounds are low.
+[chem6-s1.6.1] Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.
+[chem6-s1.6.2] Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.
+[chem6-s1.6.3] State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.
+[chem6-s1.6.4] Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken. There is more on this in “Allotropes of Carbon. Hydrocarbons”.
+[chem6-s1.7.b] A simple conductivity test shows whether a substance contains ions that are free to move. Ionic compounds pass the test when molten or dissolved.
+[chem6-s1.7.0] Step 1: Melt the substance, or dissolve it in water.
+[chem6-s1.7.1] Step 2: Dip two carbon electrodes (the rods that carry current into the liquid) into it, connected to a battery and a bulb (or an ammeter, which measures current).
+[chem6-s1.7.2] Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.
+[chem6-s1.7.3] Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.
+[chem6-s1.8.b] Two different kinds of attraction operate in a molecular substance: bonds inside each molecule and forces between molecules. Keeping them apart explains why melting and boiling are easy compared with breaking a molecule.
+[chem6-s1.8.0] Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.
+[chem6-s1.8.1] Intermolecular forces are the weaker forces of attraction between separate molecules.
+[chem6-s1.8.2] Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.
+[chem6-s1.8.3] Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).
+[chem6-s1.8.4] Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”.
+[chem6-s1.9.b] Even a molecule with no permanent charged ends still attracts its neighbours weakly. London dispersion forces are the intermolecular force that every molecule has.
+[chem6-s1.9.0] London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, for example H₂, Cl₂, CH₄ and noble gas atoms.
+[chem6-s1.9.1] They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole (one side slightly negative, the other slightly positive).
+[chem6-s1.9.2] The temporary dipole induces a dipole in a neighbouring molecule (pushes its electrons to one side), and the two attract.
+[chem6-s1.9.3] London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons, because a bigger electron cloud is easier to distort.
+[chem6-s1.10.b] Polar molecules have charged ends all the time, not just for an instant. This gives them an extra attraction on top of London dispersion forces.
+[chem6-s1.10.0] A polar molecule has a permanent dipole: a δ+ end and a δ− end, which arises from polar bonds. There is more on this in “Electronegativity and bond type”.
+[chem6-s1.10.1] Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, for example between HCl molecules (Hδ+–Clδ−).
+[chem6-s1.10.2] Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size, because the charged ends are permanent.
+[chem6-s1.11.b] Hydrogen bonding is the strongest of the intermolecular forces. It needs a hydrogen atom attached to one of three very electronegative atoms, F, O or N.
+[chem6-s1.11.0] A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.
+[chem6-s1.11.1] A lone pair is a pair of outer electrons on an atom that is not used in bonding, so it can attract the δ+ hydrogen of a neighbouring molecule.
+[chem6-s1.11.2] It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.
+[chem6-s1.11.3] A hydrogen bond is between molecules, not a covalent bond to hydrogen.
+[chem6-s1.11.4] Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.
+[chem6-s1.11.5] Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.
+[chem6-s1.11.6] Hydrogen bonds are the strongest intermolecular forces.
+[chem6-s1.11.7] Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule.
+[chem6-s1.12.b] When an ionic compound dissolves in water, the ions are pulled out of the lattice by the polar water molecules. The attraction between a full charge and a partial charge is called an ion–dipole force.
+[chem6-s1.12.0] An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.
+[chem6-s1.12.1] When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.
+[chem6-s1.12.2] The ions become surrounded by water molecules (hydrated).
+[chem6-s1.12.3] Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.
+[chem6-s1.12.4] Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it.
+[chem6-s1.13.b] Putting the forces in order lets you predict which substance holds its molecules together most strongly, for molecules of similar size.
+[chem6-s1.13.0] For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.
+[chem6-s1.13.1] All intermolecular forces are much weaker than covalent and ionic bonds, which is why melting or boiling a molecular substance leaves its molecules intact.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem9-s2: 2. Using the kinetic theory: separation techniques
+[chem9-s2.0.b] The kinetic theory says matter is made of particles that are always moving. How close the particles are, how strongly they attract one another and how they move explain why solids, liquids and gases behave so differently.
+[chem9-s2.0.0] Solids have a fixed shape and volume and cannot be compressed (squeezed into a smaller volume), because the particles are held tightly in fixed positions by strong forces and only vibrate on the spot.
+[chem9-s2.0.1] Liquids have a fixed volume but take the shape of their container and flow, because the particles are close together but can slide past one another.
+[chem9-s2.0.2] Gases fill their container and are easily compressed, because the particles are far apart, with weak forces between them, and move rapidly and randomly. The empty space between them is what lets them be pushed closer.
+[chem9-s2.0.3] Gas pressure is caused by gas particles colliding with the walls of the container. Many fast collisions every second add up to a steady push on the walls.
+[chem9-s2.1.b] Each change of state is explained by the energy of the particles and the forces between them. Heating gives particles energy to break free of those forces, and cooling takes energy away so the forces win again.
+[chem9-s2.1.0] Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another. This happens at the melting point.
+[chem9-s2.1.1] Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.
+[chem9-s2.1.2] Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and because the fastest (highest-energy) particles leave, the remaining liquid cools.
+[chem9-s2.1.3] Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour (the substance as a gas) form within the liquid.
+[chem9-s2.1.4] Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.
+[chem9-s2.1.5] Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.
+[chem9-s2.1.6] Deposition (gas to solid directly) is the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.
+[chem9-s2.1.7] Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition.
+[chem9-s2.2.b] A heating curve plots temperature against time as a pure substance is heated at a steady rate. The flat sections show the changes of state, and they show where the supplied energy goes.
+[chem9-s2.2.0] When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.
+[chem9-s2.2.1] During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy (the energy of their movement), so the temperature does not rise even though heat is being supplied.
+[chem9-s2.2.2] The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.
+[chem9-s2.2.3] The boiling plateau (flat section) is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.
+[chem9-s2.2.4] Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C. Water melts at 0 °C and boils at 100 °C at standard pressure.
+[chem9-s2.3.b] The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.
+[chem9-s2.3.0] Assumption: the particles are tiny spheres in constant, random motion.
+[chem9-s2.3.1] Assumption: the higher the temperature, the greater the average kinetic energy (energy of movement) of the particles.
+[chem9-s2.3.2] Assumption: collisions between particles are perfectly elastic, which means no kinetic energy is lost when they collide.
+[chem9-s2.3.3] Assumption: in a gas the volume of the particles themselves is negligible (so small it can be ignored), and there are no forces between the particles except during collisions.
+[chem9-s2.4.b] A model is useful only if you know where it fails. The first two limitations come from what the simple model leaves out about the forces between particles.
+[chem9-s2.4.0] Limitation: real particles are not hard spheres, and they do attract one another. These forces between particles (intermolecular forces) are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.
+[chem9-s2.4.1] Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points. That needs the types of bonding and intermolecular forces. There is more on this in Polarity, shape and physical properties.
+[chem9-s2.5.b] The model also says nothing about what is inside particles, and it works best only for gases under certain conditions.
+[chem9-s2.5.0] Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative (it describes behaviour in words), giving no values.
+[chem9-s2.5.1] Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, because the particles are then squeezed close together or moving slowly, so gases deviate from the model. There is more on this in Gas laws and the ideal gas equation.
+[chem9-s2.6.b] A mixture is separated by using a physical property in which its components differ. So the first step is always to work out how the components differ, then choose the technique that uses that difference.
+[chem9-s2.6.0] Particle size and solubility (whether a substance dissolves) separate by filtration; solubility and volatility (how easily a substance turns to vapour) by evaporation and crystallisation; boiling point by distillation.
+[chem9-s2.6.1] Solubility in a solvent and attraction to paper separate by chromatography; immiscibility (the liquids do not mix) and density by a separating funnel.
+[chem9-s2.6.2] Heterogeneous mixtures (the components can be seen as separate parts), such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting (carefully pouring off the liquid) or a separating funnel.
+[chem9-s2.6.3] Homogeneous mixtures (uniform throughout), such as solutions and miscible liquids (liquids that mix completely), need evaporation, crystallisation, distillation or chromatography.
+[chem9-s2.7.b] Filtration separates an insoluble solid (one that does not dissolve) from a liquid. The paper has holes small enough to hold back the solid particles but large enough to let the liquid through.
+[chem9-s2.7.0] Example: sand is separated from salt solution by filtration, because sand is insoluble and the salt is dissolved in the water.
+[chem9-s2.7.1] Step 1: Fold filter paper into a cone and place it in a funnel.
+[chem9-s2.7.2] Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.
+[chem9-s2.7.3] Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate.
+[chem9-s2.8.b] When a solid is dissolved in a liquid, filtering will not work because the dissolved solid passes through the paper. Instead you remove the solvent (the liquid that does the dissolving) by heating, either completely (evaporation) or only partly (crystallisation).
+[chem9-s2.8.0] Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water. It is used when the solid does not decompose (break down) on heating.
+[chem9-s2.8.1] Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated (cannot dissolve any more solid). A drop on a cold glass rod forms crystals when it is saturated.
+[chem9-s2.8.2] Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.
+[chem9-s2.8.3] Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.
+[chem9-s2.8.4] Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution.
+[chem9-s2.9.b] Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour. The liquid with the lower boiling point boils off first and is collected separately.
+[chem9-s2.9.0] Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.
+[chem9-s2.9.1] Step 1: Heat the mixture in a flask containing anti-bumping granules (small pieces that make boiling smooth and stop violent bursts of bubbling).
+[chem9-s2.9.2] Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser (a tube that cools the vapour back to liquid).
+[chem9-s2.9.3] Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.
+[chem9-s2.9.4] Step 4: The distillate (the liquid that has condensed) is collected in a receiving flask.
+[chem9-s2.9.5] Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.
+[chem9-s2.9.6] Fractional distillation separates miscible liquids with close boiling points, using a fractionating column (a tall column that gives repeated condensing and re-boiling), e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).
+[chem9-s2.9.7] Crude oil is separated into fractions (groups of compounds with similar boiling points) by fractional distillation.
+[chem9-s2.10.b] Distillation heats liquids that may be flammable and produces vapour, so the apparatus and heat source matter as well as the method.
+[chem9-s2.10.0] Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, so the vapour cannot ignite.
+[chem9-s2.10.1] Safety: a closed system is never heated, because the pressure would build up as the vapour expands.
+[chem9-s2.10.2] Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser (a straight condenser cooled by a water jacket) with water flow, and a receiving flask.
+[chem9-s2.11.b] Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators. Each substance is carried up the paper by a solvent at its own speed.
+[chem9-s2.11.0] Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.
+[chem9-s2.11.1] Step 2: Put small spots of the mixture and of known substances on the line.
+[chem9-s2.11.2] Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, so the spots are not washed into the solvent.
+[chem9-s2.11.3] Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front (the highest point the solvent reached).
+[chem9-s2.11.4] Principle: components that are more soluble in the solvent (the mobile phase, which moves) and less attracted to the paper (the stationary phase, which stays still) travel further.
+[chem9-s2.11.5] Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.
+[chem9-s2.11.6] Components are identified by matching their spots and Rf values with those of known substances.
+[chem9-s2.11.7] Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots.
+[chem9-s2.12.b] A separating funnel separates two immiscible liquids of different density. Immiscible liquids settle into two layers, with the denser liquid underneath.
+[chem9-s2.12.0] Examples: oil and water, or an organic layer from an aqueous layer (a water-based layer), which is used to purify an ester.
+[chem9-s2.12.1] Step 1: Pour the mixture into the separating funnel and let the layers settle.
+[chem9-s2.12.2] Step 2: Remove the stopper and run off the lower, denser layer through the tap.
+[chem9-s2.12.3] Step 3: Collect the upper layer separately.
+[chem9-s2.12.4] Diagram: a separating funnel with two layers, the stopper and the tap labelled.

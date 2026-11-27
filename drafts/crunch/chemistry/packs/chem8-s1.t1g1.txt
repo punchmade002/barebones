@@ -1,0 +1,423 @@
+MODE: cost and links
+TARGET chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem2-s1: 1. Atomic structure: the nuclear model
+[chem2-s1.0.b] A model of the atom is a picture scientists use to explain the evidence they have. These two early models are background to the nuclear model: each was accepted in its time and then replaced.
+[chem2-s1.0.0] Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms, which means that atoms cannot be split into anything smaller.
+[chem2-s1.0.1] Dalton's atoms of the same element are identical, atoms of different elements differ in mass, and atoms combine in simple whole-number ratios to form compounds.
+[chem2-s1.0.2] Dalton's atoms are not created or destroyed in chemical reactions, so a reaction only rearranges the atoms that were already there.
+[chem2-s1.0.3] Thomson discovered the electron in 1897 using cathode rays (beams of particles given off in a glass tube from which the air has been removed). The electron is a negatively charged particle much lighter than an atom and present in all atoms, so atoms are divisible.
+[chem2-s1.0.4] Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, like plums in a pudding, so the atom is neutral overall because the charges cancel.
+[chem2-s1.1.b] The nuclear model came from a scattering experiment, in which a beam of particles is fired at a target and the paths of the deflected particles are studied. The results could not be explained by the plum pudding model.
+[chem2-s1.1.0] Gold-foil experiment (1909): Hans Geiger and Ernest Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil.
+[chem2-s1.1.1] A fluorescent screen (a screen that gives off a flash of light where a particle hits it) was placed around the foil and showed where the particles went after they hit the foil.
+[chem2-s1.1.2] Observation: most particles passed straight through the foil, so most of the atom is empty space.
+[chem2-s1.1.3] Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them, because like charges repel.
+[chem2-s1.1.4] Observation: a very few particles bounced straight back, so this positive region is very small and very dense, containing almost all of the atom's mass.
+[chem2-s1.1.5] This positive region is the nucleus. Rutherford published the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.
+[chem2-s1.1.6] Later work found that the nucleus contains protons (positively charged particles) and neutrons (particles with no charge): Rutherford identified the proton, and Chadwick discovered the neutron in 1932.
+[chem2-s1.1.7] Diagram: the gold-foil set-up, labelled with the alpha particle source, the beam, the gold foil and the fluorescent screen, and the paths of particles past the nuclei: straight through, deflected, and bounced back.
+[chem2-s1.2.b] Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies. His model keeps the nucleus but gives the electrons a definite arrangement around it.
+[chem2-s1.2.0] Electrons move around the nucleus in fixed circular orbits called energy levels (shells), each with a fixed energy.
+[chem2-s1.2.1] An electron in a given energy level does not lose energy, so it stays in that level rather than spiralling inwards.
+[chem2-s1.2.2] An electron can move to a higher energy level by absorbing a definite amount of energy.
+[chem2-s1.2.3] When the electron falls back to a lower level, it emits light of a definite energy. This explains the lines in emission spectra (the separate coloured lines an element gives out when heated).
+[chem2-s1.2.4] Energy levels are numbered n = 1, 2, 3…, with n = 1 closest to the nucleus and lowest in energy.
+[chem2-s1.2.5] The energy levels hold up to 2, 8, 18… electrons.
+[chem2-s1.3.b] The orbital model is the current model. It describes where electrons are likely to be found, not the path they follow.
+[chem2-s1.3.0] Electrons do not follow fixed paths; they occupy orbitals, which are regions of space around the nucleus where there is a high probability of finding an electron.
+[chem2-s1.3.1] Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons. There is more on this in the later subsection on the orbital model.
+[chem2-s1.3.2] The model developed from evidence that electrons behave as waves as well as particles, which a fixed circular path cannot describe.
+[chem2-s1.3.3] It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time, which is why only probabilities can be given.
+[chem2-s1.4.b] Each model rested on an assumption, and each had a limitation: evidence it could not explain. The first two models fail because the atom has parts and a structure they did not allow for.
+[chem2-s1.4.0] Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.
+[chem2-s1.4.1] Dalton: limited because subatomic particles (particles smaller than the atom) exist, and because isotopes show that atoms of the same element can differ in mass.
+[chem2-s1.4.2] Plum pudding model: assumed that positive charge is spread through the atom.
+[chem2-s1.4.3] Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment, which need a small, dense positive centre.
+[chem2-s1.5.b] The nuclear model fixed the problem of the positive charge but said little about the electrons.
+[chem2-s1.5.0] Nuclear model: assumed that electrons orbit the nucleus like planets.
+[chem2-s1.5.1] Nuclear model: limited because it does not say how electrons are arranged in the space around the nucleus.
+[chem2-s1.5.2] Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus, so the atom would not be stable.
+[chem2-s1.5.3] Nuclear model: limited because it cannot explain line spectra (the separate lines of light an element emits).
+[chem2-s1.6.b] The Bohr model fixed the nuclear model's problems for hydrogen but not for other atoms. The orbital model is the best fit for the evidence, but it has its own limitation.
+[chem2-s1.6.0] Bohr model: assumed that electrons move in fixed circular orbits with fixed energies.
+[chem2-s1.6.1] Bohr model: explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron.
+[chem2-s1.6.2] Bohr model: does not account for sublevels or for the wave nature of electrons.
+[chem2-s1.6.3] Bohr model: treats the electron's exact path as known, but the exact position and path of an electron cannot be known at the same time.
+[chem2-s1.6.4] Orbital model: the best fit for the evidence available, but its limitation is that it is mathematical and abstract.
+[chem2-s1.6.5] Orbital model: gives probabilities of where an electron is found, not exact positions, and is hard to picture.
+[chem2-s1.7.b] Scientists judge a model by how well it explains the evidence. Replaced models are not useless, because they still work for the things they explain well.
+[chem2-s1.7.0] Each model was accepted because it explained the evidence of its time, and was replaced or refined when new evidence did not fit.
+[chem2-s1.7.1] The Bohr model is still enough to explain flame colours and simple line spectra.
+[chem2-s1.7.2] The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.
+[chem2-s1.7.3] The nuclear model still explains why atoms are mostly empty space.
+[chem2-s1.8.b] An atom is made of protons, neutrons and electrons. Their masses and charges are given relative to the proton (that is, as comparisons with it), because the real values are very small numbers.
+[chem2-s1.8.0] Proton: relative mass 1, relative charge +1, found in the nucleus.
+[chem2-s1.8.1] Neutron: relative mass 1, relative charge 0 (no charge), found in the nucleus.
+[chem2-s1.8.2] Electron: relative mass about 1/1840 of a proton, so negligible though not zero; relative charge −1; found outside the nucleus, in energy levels (orbitals).
+[chem2-s1.9.b] The relative values hide the real sizes. The actual masses show how tiny the particles are and how much lighter the electron is.
+[chem2-s1.9.0] Actual masses: proton 1.6726 × 10⁻²⁷ kg; neutron 1.6749 × 10⁻²⁷ kg; electron 9.109 × 10⁻³¹ kg.
+[chem2-s1.9.1] The proton and neutron have almost the same mass, which is why each is given a relative mass of 1.
+[chem2-s1.9.2] The charge on a proton is equal in size and opposite in sign to the charge on an electron, so equal numbers of each cancel out.
+[chem2-s1.10.b] The particles are not spread evenly. The nucleus is tiny, yet it holds almost all the mass, and the rest of the atom is mostly empty.
+[chem2-s1.10.0] Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass because electrons are so light.
+[chem2-s1.10.1] The nucleus is tiny compared with the atom: an atom is about 10⁵ (100 000) times the diameter of its nucleus, so most of the atom is empty space.
+[chem2-s1.10.2] A neutral atom has equal numbers of protons and electrons, so the positive and negative charges cancel.
+[chem2-s1.10.3] The number of protons identifies the element: every atom with 6 protons, for example, is carbon.
+[chem2-s1.11.b] Exams ask you to state the numbers of protons, neutrons and electrons in an atom or ion. An ion is an atom that has lost or gained electrons, so it carries a charge. The number of protons never changes in an ion.
+[chem2-s1.11.0] Number of protons = atomic number (the number of protons in the nucleus).
+[chem2-s1.11.1] Number of neutrons = mass number − atomic number, where the mass number is the total of protons and neutrons.
+[chem2-s1.11.2] In a neutral atom, number of electrons = number of protons.
+[chem2-s1.11.3] A positive ion has lost electrons, so number of electrons = number of protons − charge, e.g. Na⁺ has 11 protons and 10 electrons.
+[chem2-s1.11.4] A negative ion has gained electrons, so number of electrons = number of protons + charge, e.g. Cl⁻ (chlorine-35) has 17 protons, 18 neutrons and 18 electrons; O²⁻ has 8 protons and 10 electrons.
+[chem2-s1.12.b] The three particles were found one at a time. The order of discovery follows how easy each is to detect.
+[chem2-s1.12.0] The electron was discovered by J. J. Thomson in 1897.
+[chem2-s1.12.1] The proton was identified by Rutherford about 1917–1919.
+[chem2-s1.12.2] The neutron was discovered by Chadwick in 1932.
+[chem2-s1.12.3] The neutron was found last because it has no charge, which makes it hard to detect.
+[chem2-s1.13.b] Two whole numbers describe the nucleus of an atom. Together they give the number of each particle and are written beside the element's symbol.
+[chem2-s1.13.0] Atomic number (Z): the number of protons in the nucleus of an atom of an element.
+[chem2-s1.13.1] Each element has its own atomic number, and the periodic table is arranged in order of atomic number.
+[chem2-s1.13.2] Mass number (A): the total number of protons and neutrons in the nucleus of an atom.
+[chem2-s1.13.3] Number of neutrons = mass number − atomic number (A − Z).
+[chem2-s1.13.4] Nuclear notation writes the mass number at the top left and the atomic number at the bottom left of the element symbol, e.g. ²³₁₁Na has 11 protons, 12 neutrons and (as an atom) 11 electrons.
+[chem2-s1.14.b] Atoms of one element are not all identical. They can have different numbers of neutrons, and such atoms are called isotopes.
+[chem2-s1.14.0] Isotopes have the same atomic number, so the same number of protons, but different mass numbers because they have different numbers of neutrons.
+[chem2-s1.14.1] Hydrogen-1 (¹H) has no neutrons; hydrogen-2 (²H), called deuterium, has one neutron; hydrogen-3 (³H), called tritium, has two.
+[chem2-s1.14.2] Chlorine-35 (³⁵Cl) has 18 neutrons and chlorine-37 (³⁷Cl) has 20 neutrons.
+[chem2-s1.14.3] Carbon-12, carbon-13 and carbon-14 are isotopes of carbon.
+[chem2-s1.14.4] Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement, and electrons control how an atom reacts.
+[chem2-s1.14.5] Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion (how fast a gas spreads out).
+[chem2-s1.14.6] Isotopes are written by name and mass number, e.g. chlorine-35, or in nuclear notation, e.g. ³⁵₁₇Cl.
+[chem2-s1.15.b] Because an element's isotopes have different masses, one atom's mass number does not describe the element as a whole. Relative atomic mass is an average over its isotopes.
+[chem2-s1.15.0] Relative atomic mass (Ar): the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12.
+[chem2-s1.15.1] Carbon-12 is the standard: an atom of carbon-12 is defined as having a mass of exactly 12 units.
+[chem2-s1.15.2] Ar has no units, because it compares masses.
+[chem2-s1.15.3] The mass number of a single isotope is always a whole number; Ar is a weighted average of the isotopes present, so it is usually not whole.
+[chem2-s1.15.4] Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables). There is more on calculating Ar from isotopic abundance in the later subsection on the mole.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem1-s4: 4. Measurement, error and data
+[chem1-s4.0.b] Chemistry measurements only make sense when everyone uses the same units. SI (the international system of units) gives one agreed set, and you often have to convert between it and the smaller units used in the lab.
+[chem1-s4.0.0] The SI base units used in chemistry are the metre (m) for length, kilogram (kg) for mass, second (s) for time, kelvin (K) for temperature and mole (mol) for amount of substance. Derived units are built from these, such as m³ for volume and the pascal (Pa) for pressure.
+[chem1-s4.0.1] Volume: 1 dm³ (a cubic decimetre, a cube 10 cm along each edge) = 1 L = 1000 cm³ = 1000 mL. Also 1 m³ = 1000 dm³ = 1 000 000 cm³.
+[chem1-s4.0.2] Mass: 1 kg = 1000 g, and 1 g = 1000 mg (milligrams), so a quantity in grams is turned into milligrams by multiplying by 1000.
+[chem1-s4.0.3] Temperature: T (K) = θ (°C) + 273.15, often rounded to 273, where θ is the Celsius temperature. For example 25 °C = 298 K. Use kelvin in gas calculations because the kelvin scale starts at 0 K, with no negative values.
+[chem1-s4.0.4] Pressure: 1 kPa = 1000 Pa. The IUPAC (the international chemistry organisation) standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm (one atmosphere, the average air pressure at sea level) = 101 325 Pa.
+[chem1-s4.0.5] Convert by multiplying or dividing by the conversion factor (the number linking the two units) and writing the unit at each step, so mistakes show up. For example 250 cm³ = 250 ÷ 1000 = 0.250 L.
+[chem1-s4.1.b] Two words that sound alike describe how good a measurement is: accuracy and precision. They mean different things, and every instrument also has limits on how well it can measure.
+[chem1-s4.1.0] Accuracy is how close a measurement, or a mean (the average of repeated readings), is to the true or accepted value.
+[chem1-s4.1.1] Precision is how close repeated measurements are to each other, meaning their spread.
+[chem1-s4.1.2] Precision is also used for the smallest division an instrument can read, which is its resolution. A scale marked in 0.1 cm³ steps has a finer resolution than one marked in 1 cm³ steps.
+[chem1-s4.1.3] Results can be precise but not accurate, such as closely grouped readings that are all off the true value because a balance has not been zeroed (set to read 0 g with nothing on it).
+[chem1-s4.1.4] Results can be accurate on average but not precise, with readings scattered on either side of the true value so that the mean lands close to it.
+[chem1-s4.1.5] Every instrument has an uncertainty, the amount by which a reading could be out.
+[chem1-s4.1.6] Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.
+[chem1-s4.1.7] Volumetric glassware (pipettes, burettes and volumetric flasks, made to deliver or hold one exact volume) is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.
+[chem1-s4.1.8] Significant figures (assumed knowledge): answers are reported to the same number of significant figures (the meaningful digits in a number) as the least precise measurement used, so the answer does not look more exact than the data. This is usually three in titration calculations.
+[chem1-s4.2.b] No measurement is perfect. Errors fall into two types that behave differently, and knowing which type you have tells you how to reduce it.
+[chem1-s4.2.0] Random error is unpredictable variation that scatters readings above and below the true value. It is reduced by repeating and averaging, because the highs and lows cancel out.
+[chem1-s4.2.1] Examples of random error are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations.
+[chem1-s4.2.2] Systematic error is a consistent error that shifts all readings in the same direction.
+[chem1-s4.2.3] Examples of systematic error are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.
+[chem1-s4.2.4] Repeating does not reduce systematic error, because every repeat is wrong in the same way. It is reduced by calibrating the equipment (checking it against a known standard and adjusting it) or by improving the method.
+[chem1-s4.2.5] Parallax error occurs when a scale is read from an angle, which makes the liquid level appear to sit at a different mark. Read the bottom of the meniscus at eye level.
+[chem1-s4.2.6] Anomalous results (outliers, readings that do not fit the rest) caused by mistakes are identified and either repeated or excluded with a reason.
+[chem1-s4.2.7] Percentage error = (experimental value − accepted value) ÷ accepted value × 100.
+[chem1-s4.3.b] Data are the observations and measurements collected in an experiment. They come in two kinds, and you choose which to record according to what the question asks.
+[chem1-s4.3.0] Qualitative data are descriptions without numbers, such as a colour change, effervescence (fizzing as a gas is given off) or a precipitate (an insoluble solid) forming.
+[chem1-s4.3.1] Quantitative data are measurements with numbers and units, such as a mass in g or a volume in cm³.
+[chem1-s4.3.2] Select the data that answer the question. Record the raw data (the readings exactly as measured) first, then the processed data, such as means and rates, which are worked out from the raw data.
+[chem1-s4.4.b] A results table organises raw data so it can be read and graphed. A set layout means a reader can see at once what was changed and what was measured.
+[chem1-s4.4.0] The independent variable (the quantity you change) goes in the first column. The dependent variable (the quantity you measure in response) and its repeats go in the following columns, with a mean column.
+[chem1-s4.4.1] Each column heading gives the quantity and its unit, e.g. “Time / s”, so units are not written in the body of the table.
+[chem1-s4.4.2] All readings are recorded to the same number of decimal places, matching the resolution of the instrument (the smallest division it can read).
+[chem1-s4.5.b] A graph turns a table of results into a picture of the pattern, and it lets you read off values or find a rate.
+[chem1-s4.5.0] The independent variable is plotted on the x-axis (horizontal) and the dependent variable on the y-axis (vertical). Both axes are labelled with the quantity and its unit.
+[chem1-s4.5.1] Scales are chosen so that the points fill more than half of the grid, with even and sensible intervals.
+[chem1-s4.5.2] Points are plotted accurately as small crosses, which show the exact position of each reading.
+[chem1-s4.5.3] A line or smooth curve of best fit is drawn through the general trend, because the line shows the underlying pattern. The points are not joined dot to dot.
+[chem1-s4.5.4] The line is not forced through the origin unless the origin is a real data point.
+[chem1-s4.5.5] A line graph is used when both variables are continuous (can take any value in a range, such as time and volume); a bar chart is used for categories.
+[chem1-s4.6.b] Once the data are plotted, you describe the pattern, measure it and use it to predict. These skills are used to read off values, find rates and draw conclusions.
+[chem1-s4.6.0] Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin, so doubling one variable doubles the other) or are inversely proportional (one variable goes up as the other goes down).
+[chem1-s4.6.1] The gradient (steepness) of a straight line is the change in y divided by the change in x.
+[chem1-s4.6.2] For a curve, the gradient at a point is found from a tangent (a straight line touching the curve at that point only) drawn at that point; this gives a rate.
+[chem1-s4.6.3] Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable, because the pattern may not continue outside the range measured.
+[chem1-s4.6.4] Both interpolation and extrapolation are predictions.
+[chem1-s4.6.5] Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane (the next hydrocarbon in the series) can be predicted from the trend in the series.
+[chem1-s4.6.6] Mathematical representations (equations linking quantities) are rearranged and used, e.g. PV = nRT, the gas equation linking pressure, volume, amount in moles and temperature. Means, percentages and rates are calculated.
+[chem1-s4.7.b] Chemistry uses very large and very small numbers, such as the number of particles in a mole. Scientific notation writes them compactly.
+[chem1-s4.7.0] Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10 and n is a whole number (the power of ten).
+[chem1-s4.7.1] The Avogadro constant (the number of particles in one mole) is 6.02 × 10²³ mol⁻¹.
+[chem1-s4.7.2] 0.00050 = 5.0 × 10⁻⁴: the decimal point moves four places to the right, so the power of ten is −4.
+[chem1-s4.8.b] The last steps of analysis are to deal with any result that does not fit and then to state what the data show. A good conclusion is tied to the data and to the hypothesis (the prediction being tested).
+[chem1-s4.8.0] An anomalous result does not fit the pattern of the other results. It is identified on the graph or in the table, and a reason is suggested, such as a misreading.
+[chem1-s4.8.1] An anomalous result is left out of the mean and of the line of best fit, and this is stated, so the reader knows the data were treated openly.
+[chem1-s4.8.2] A conclusion states the relationship shown by the data and says whether it supports the hypothesis.
+[chem1-s4.8.3] A conclusion explains the relationship using scientific theory or a model, e.g. collision theory (the model that reactions happen when particles collide).
+[chem1-s4.8.4] The conclusion is justified by reference to the data and states its limits: the range tested, the amount of data and the size of the errors.
+[chem1-s4.8.5] Correlation (a link between two variables) does not prove causation (that one causes the other): the link may be due to a third factor.

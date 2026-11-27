@@ -1,0 +1,223 @@
+MODE: links only (another package rates cost)
+TARGET chem21-s2: 2. Calculating ΔH and the heat of neutralisation
+[chem21-s2.0.b] Neutralisation gives out heat, and that heat can be measured with a thermometer. This experiment turns a temperature rise into an enthalpy change (ΔH, the heat change of a reaction) for hydrochloric acid reacting with sodium hydroxide.
+[chem21-s2.0.0] Aim: to determine the heat of neutralisation (ΔH) of hydrochloric acid by sodium hydroxide, using primary data (results you measure yourself in the experiment).
+[chem21-s2.0.1] Heat of neutralisation is the heat change when one mole of water is formed in the reaction between an acid and a base, i.e. one mole of H⁺ ions reacting with one mole of OH⁻ ions.
+[chem21-s2.0.2] Equation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l); ionic equation (showing only the ions that actually react): H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s2.0.3] ΔH is the heat change at constant pressure. The cup is open to the atmosphere, so the pressure stays constant during the reaction.
+[chem21-s2.0.4] The heat released by the reaction is absorbed by the solution, so the heat produced is found from the temperature rise of the solution: Q = m × c × ΔT (Q is the heat, m the mass of solution, c its specific heat capacity and ΔT the temperature rise).
+[chem21-s2.1.b] The method mixes equal amounts of acid and base in an insulated cup and records the highest temperature reached. Each step is there to give an accurate temperature rise.
+[chem21-s2.1.0] Step 1: using a graduated cylinder (or, more accurately, a burette or pipette), measure 50.0 cm³ of 1.00 M hydrochloric acid into a polystyrene foam cup, which insulates the reaction.
+[chem21-s2.1.1] Step 2: measure 50.0 cm³ of 1.00 M sodium hydroxide into a second cup or beaker, so the two solutions stay separate until mixed.
+[chem21-s2.1.2] Step 3: allow both solutions to reach room temperature, then measure the temperature of each with a thermometer reading to 0.1 °C (or a temperature sensor).
+[chem21-s2.1.3] Step 4: rinse and dry the thermometer between the two measurements so no solution is carried across. If the two temperatures differ, take their average as the initial temperature.
+[chem21-s2.1.4] Step 5: add the sodium hydroxide to the acid quickly and all at once, put on the lid, and stir gently with the thermometer (or a stirrer).
+[chem21-s2.1.5] Step 6: record the highest temperature reached, because the heat produced is worked out from the biggest rise.
+[chem21-s2.1.6] Step 7: repeat the experiment and use the mean temperature rise, which reduces the effect of a single poor reading.
+[chem21-s2.1.7] Diagram: a polystyrene cup with a lid, a thermometer through the lid into the solution, a stirrer, and the cup standing in a beaker for support.
+[chem21-s2.2.b] Every detail of the method has a reason, and the exam asks for these reasons. Most of them are about stopping heat escaping or making a small temperature change easier to read.
+[chem21-s2.2.0] Polystyrene foam is a good insulator with a very low heat capacity, so little heat is lost to the surroundings or absorbed by the cup; glass or metal would conduct heat away and absorb heat.
+[chem21-s2.2.1] The lid reduces heat loss by convection (heat carried away by moving air) and evaporation.
+[chem21-s2.2.2] Moderately concentrated (1.00 M) solutions give a large enough temperature rise (about 7 °C) to measure accurately; with 0.1 M solutions the rise would be under 1 °C, and the percentage error in reading it would be very large.
+[chem21-s2.2.3] Equal amounts of acid and base (same volume and concentration) are used so that all of each reacts, so the moles of water formed is known.
+[chem21-s2.2.4] Mixing quickly and stirring make the reaction complete at once and spread the heat evenly, so the true maximum temperature is recorded before heat is lost.
+[chem21-s2.2.5] A thermometer reading to 0.1 °C is needed because the temperature change is small.
+[chem21-s2.2.6] A burette or pipette measures volumes more accurately than a graduated cylinder.
+[chem21-s2.2.7] The disadvantage of adding the base slowly from a burette is that heat is lost while it is added.
+[chem21-s2.3.b] In the simple method, the mixture starts cooling as soon as it reaches its peak, so the highest reading is a little too low. A temperature–time graph corrects for this.
+[chem21-s2.3.0] Record the temperature of the acid every 30 s for a few minutes before mixing, then add the base at a recorded time.
+[chem21-s2.3.1] Record the temperature every 30 s for several minutes after mixing, so the whole rise and the cooling that follows are captured.
+[chem21-s2.3.2] After the maximum, the temperature falls gradually because heat is lost to the surroundings.
+[chem21-s2.3.3] Plot temperature against time and extrapolate (extend) the cooling line back to the time of mixing. The temperature rise read from the graph allows for heat lost while the mixture was warming up, giving a more accurate ΔT.
+[chem21-s2.3.4] Diagram: a temperature–time graph with a flat line before mixing, a sharp rise, a gently falling line after the maximum, and the falling line extended back to the time of mixing to give ΔT.
+[chem21-s2.4.b] To turn the temperature rise into ΔH, find the heat produced, then divide by the moles of water formed. Each step uses the total mass of the mixture, not the mass of acid alone.
+[chem21-s2.4.0] Data: 50.0 cm³ of 1.00 M HCl and 50.0 cm³ of 1.00 M NaOH; initial temperature 18.4 °C; maximum 25.0 °C.
+[chem21-s2.4.1] Temperature rise: ΔT = 25.0 − 18.4 = 6.6 °C = 6.6 K; a temperature change is the same in °C and K, so no conversion is needed.
+[chem21-s2.4.2] Mass of solution: 100 cm³ × 1.00 g cm⁻³ = 100 g = 0.100 kg, assuming the density and specific heat capacity are those of water.
+[chem21-s2.4.3] Heat produced: Q = m × c × ΔT = 0.100 kg × 4.18 kJ kg⁻¹ K⁻¹ × 6.6 K = 2.76 kJ.
+[chem21-s2.4.4] Moles of water formed = moles of HCl = 1.00 × 0.0500 = 0.0500 mol.
+[chem21-s2.4.5] Heat per mole: 2.76 kJ ÷ 0.0500 mol = 55.2 kJ mol⁻¹, because ΔH is defined per mole of water formed.
+[chem21-s2.4.6] The reaction gives out heat, so ΔH = −55.2 kJ mol⁻¹: Q is the heat gained by the solution, and ΔH is the heat lost by the reaction.
+[chem21-s2.4.7] Comparison: the accepted value for a strong acid with a strong base is about −57 kJ mol⁻¹; the experimental value is less negative mainly because some heat was lost to the surroundings and absorbed by the cup and thermometer.
+[chem21-s2.5.b] The result does not depend on which strong acid or base you use, but it does change for weak ones. Acids that release two H⁺ ions need extra care when counting moles.
+[chem21-s2.5.0] All strong acid–strong base neutralisations have almost the same ΔH, about −57 kJ mol⁻¹, because the acids and bases are fully dissociated (split completely into ions) and the only reaction is H⁺(aq) + OH⁻(aq) → H₂O(l); the other ions are spectators.
+[chem21-s2.5.1] With a weak acid (e.g. ethanoic acid) or a weak base (e.g. ammonia), ΔH is slightly less negative, because some energy is used to complete the dissociation of the weak acid or base as it reacts.
+[chem21-s2.5.2] With a diprotic acid (one that can give two H⁺ ions per molecule), count moles of water, not moles of acid: H₂SO₄(aq) + 2NaOH(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem21-s2.5.3] Sample data: 25.0 cm³ of 2.00 M H₂SO₄ + 50.0 cm³ of 2.00 M NaOH, with ΔT = 17.8 K.
+[chem21-s2.5.4] Mass of solution = 75.0 cm³ (25.0 + 50.0) = 0.0750 kg, so Q = 0.0750 × 4.18 × 17.8 = 5.58 kJ.
+[chem21-s2.5.5] Moles of water = moles of NaOH = 2.00 × 0.0500 = 0.100 mol, so ΔH = −55.8 kJ mol⁻¹ per mole of water.
+[chem21-s2.5.6] Doubling the volumes of the same solutions gives the same ΔT: twice the moles react and twice the heat is produced, but it heats twice the mass of solution.
+[chem21-s2.6.b] The solutions are hazardous, and the experiment always gives a value that differs from the accepted one. Knowing which errors push the value which way lets you suggest improvements.
+[chem21-s2.6.0] Safety: 1.00 M hydrochloric acid and sodium hydroxide are corrosive (they damage skin and eyes), sodium hydroxide especially to the eyes; wear safety glasses and gloves and wipe up spills.
+[chem21-s2.6.1] Both bottles carry the GHS corrosion pictogram: liquid dripping from two test tubes onto a hand and a surface.
+[chem21-s2.6.2] Errors that make the value less negative: heat lost to the air and bench; heat absorbed by the cup and thermometer; not recording the true maximum temperature; solutions starting at different temperatures.
+[chem21-s2.6.3] Assumption error: the solution's density and specific heat capacity are taken as those of water.
+[chem21-s2.6.4] Improvements: use the temperature–time graph, a lid, two nested cups, a more precise thermometer or temperature sensor, and burettes or pipettes for volumes.
+[chem21-s2.7.b] An enthalpy change varies with the conditions it is measured in. So chemists agree one set of conditions, so that values from different reactions can be compared fairly.
+[chem21-s2.7.0] Enthalpy changes depend on temperature, pressure and the physical states of the substances, so values are quoted under a standard set of conditions to allow comparison.
+[chem21-s2.7.1] Standard conditions for enthalpy changes: a temperature of 25 °C (298 K) and a pressure of 1 atmosphere (101.3 kPa).
+[chem21-s2.7.2] Solutions have a concentration of 1 mol L⁻¹, and each substance is in its standard state, its normal physical state under these conditions, e.g. water as a liquid and carbon as graphite.
+[chem21-s2.7.3] A standard enthalpy change is written ΔH° (ΔH with a superscript ⦵ or °), so the symbol shows the value refers to standard conditions.
+[chem21-s2.7.4] IUPAC (the international chemistry body) now uses 100 kPa (1 bar) as standard pressure; the difference from 101.3 kPa has a negligible effect on ΔH values.
+[chem21-s2.7.5] Standard conditions are not s.t.p. (standard temperature and pressure: 0 °C, 273 K and 101.3 kPa), which is used for gas volumes. There is more on this in Molar volume and Avogadro's law.
+[chem21-s2.8.b] The neutralisation experiment and the zinc and copper(II) sulfate example below both follow the same five steps. The idea is to use the temperature change of a known mass of water or solution to find the heat, then scale to one mole.
+[chem21-s2.8.0] Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.
+[chem21-s2.8.1] Step 2: calculate the heat transferred to the water or solution: Q = m × c × ΔT, where m is the mass of water or solution in kg and ΔT is the temperature change in K or °C.
+[chem21-s2.8.2] Here c is the specific heat capacity of the water or solution, 4.18 kJ kg⁻¹ K⁻¹ for water.
+[chem21-s2.8.3] Step 3: calculate the moles of the reactant that reacted completely (the limiting reactant, the one that runs out first), using n = concentration × V (in L) for solutions or n = m ÷ M for solids and liquids.
+[chem21-s2.8.4] Step 4: heat per mole = Q ÷ n, in kJ mol⁻¹, scaled to the moles in the balanced equation if the heat of reaction is asked for.
+[chem21-s2.8.5] Step 5: give ΔH a sign: negative if the temperature rose (exothermic, giving out heat), positive if it fell (endothermic, taking in heat). Q is always positive; the sign of ΔH comes only from whether the temperature rose or fell.
+[chem21-s2.8.6] Specific heat capacity, c, is the heat needed to raise the temperature of 1 kg of a substance by 1 K; for water it is 4.18 kJ kg⁻¹ K⁻¹ (= 4.18 J g⁻¹ K⁻¹).
+[chem21-s2.8.7] Dilute solutions are assumed to have the same specific heat capacity as water and a density of 1.00 g cm⁻³, so 1 cm³ of solution is taken as 1 g.
+[chem21-s2.8.8] If a heat capacity, C, of the whole mixture is given (in kJ K⁻¹ or J K⁻¹), use Q = C × ΔT instead.
+[chem21-s2.9.b] This displacement reaction (a more reactive metal pushing a less reactive one out of solution) is measured in the same way as neutralisation. The key extra step is choosing the limiting reactant.
+[chem21-s2.9.0] Data: excess zinc powder was added to 50.0 cm³ of 0.200 M copper(II) sulfate solution in a polystyrene cup; the temperature rose by 10.0 °C.
+[chem21-s2.9.1] Equation: Zn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s); ionic equation: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
+[chem21-s2.9.2] Zinc is in excess, so the copper(II) sulfate is the limiting reactant and fixes how much reacts.
+[chem21-s2.9.3] Q = m × c × ΔT = 0.0500 kg × 4.18 kJ kg⁻¹ K⁻¹ × 10.0 K = 2.09 kJ.
+[chem21-s2.9.4] Moles of CuSO₄ = 0.200 × 0.0500 = 0.0100 mol.
+[chem21-s2.9.5] Heat per mole = 2.09 ÷ 0.0100 = 209 kJ mol⁻¹; the temperature rose, so ΔH = −209 kJ mol⁻¹.
+[chem21-s2.9.6] The value is a little less negative than the accepted value because of heat losses. There is more on errors and improvements in Investigation: heat of neutralisation.
+[chem21-s2.10.b] A ΔH value is a heat per mole, so once you know it you can predict the heat for any amount of reactant. Work out the moles, then multiply.
+[chem21-s2.10.0] ΔH refers to the moles in the equation as written, so the heat for any amount is found by proportion.
+[chem21-s2.10.1] Example: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; M(CH₄) = 16 g mol⁻¹, so 8.0 g of methane is 8.0 ÷ 16 = 0.50 mol.
+[chem21-s2.10.2] Burning 0.50 mol of methane releases 0.50 × 890 = 445 kJ, because half a mole gives half the heat of a full mole.
+[chem21-s2.10.3] Example: 0.0500 mol of HCl neutralised released 2.86 kJ, so 1 mol would release 2.86 ÷ 0.0500 = 57.2 kJ and ΔH = −57.2 kJ mol⁻¹.
+[chem21-s2.11.b] An energy profile diagram is a graph of how the energy of a reaction changes as it goes from reactants to products. It shows both the overall heat change and the energy barrier the reaction has to climb.
+[chem21-s2.11.0] An energy profile diagram shows how the energy (enthalpy) of the reacting system changes during the reaction, with energy on the vertical axis and progress of reaction (reaction pathway) on the horizontal axis.
+[chem21-s2.11.1] It shows the reactants' level, a hump rising to a maximum, and the products' level; unlike an enthalpy level diagram (which only compares the two levels), it shows this hump.
+[chem21-s2.11.2] The height of the hump above the reactants is the activation energy (Ea), the minimum energy needed for a reaction to happen. There is more on this in Catalysis and energy profiles.
+[chem21-s2.11.3] ΔH is the vertical difference between the reactants' and products' levels and does not depend on the height of the hump.
+[chem21-s2.11.4] Exothermic profile: products below reactants, ΔH is negative, and the energy released as bonds form is greater than the activation energy taken in.
+[chem21-s2.11.5] Endothermic profile: products above reactants, ΔH is positive, and the activation energy is larger than ΔH.
+[chem21-s2.11.6] Energy transfer: the energy taken in to climb the hump goes into breaking bonds, and the energy given out on the way down comes from bond making; the net difference is transferred as heat to the surroundings (exothermic) or from them (endothermic).
+[chem21-s2.11.7] Diagram: an exothermic profile and an endothermic profile, each with axes labelled, reactants and products named, Ea marked with an arrow from the reactants to the top of the hump, and ΔH marked with an arrow from reactants to products.
+
+CANDIDATES chem11-s1: 1. Acids, bases and their reactions
+[chem11-s1.0.b] Acids show a common set of properties that can be observed in the laboratory and at home. These shared properties are how we decide whether a substance counts as an acid.
+[chem11-s1.0.0] Acids taste sour, but laboratory chemicals must never be tasted because many are corrosive or poisonous.
+[chem11-s1.0.1] Acids turn blue litmus (a dye that changes colour in acids and bases) red, and they have a pH below 7 (pH is a number that describes how acidic or basic a solution is).
+[chem11-s1.0.2] Acids react with reactive metals such as magnesium and zinc to give hydrogen gas, so bubbles form on the metal.
+[chem11-s1.0.3] Acids react with carbonates (compounds containing the CO₃²⁻ ion, such as chalk) to give carbon dioxide, seen as fizzing.
+[chem11-s1.0.4] Acids neutralise bases, which means they react with them so that both lose their acidic or basic character.
+[chem11-s1.0.5] Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits).
+[chem11-s1.1.b] Bases are the chemical opposites of acids. Their properties mirror those of acids, and some of them dissolve in water to form alkalis.
+[chem11-s1.1.0] Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.
+[chem11-s1.1.1] Bases turn red litmus blue and have a pH above 7.
+[chem11-s1.1.2] Bases neutralise acids, so an acid and a base each cancel out the other's properties.
+[chem11-s1.1.3] An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃), which is ammonia dissolved in water.
+[chem11-s1.1.4] Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.
+[chem11-s1.1.5] Concentrated alkalis (those with a lot of dissolved base in a small volume of water) are corrosive, meaning they damage skin and other materials: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners.
+[chem11-s1.2.b] You cannot tell whether a clear solution is acidic or basic by looking at it, so chemists add an indicator. An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.
+[chem11-s1.2.0] Litmus is red in acid and blue in base, so it is the simplest test for which kind of solution you have.
+[chem11-s1.2.1] Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.
+[chem11-s1.2.2] Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.
+[chem11-s1.2.3] Universal indicator is a mixture of indicators, so it gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.
+[chem11-s1.2.4] Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions.
+[chem11-s1.3.b] Common substances are classed as acids or bases according to the properties they show. For each one, the category is justified by a property you can observe or a substance it contains.
+[chem11-s1.3.0] Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.
+[chem11-s1.3.1] Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.
+[chem11-s1.3.2] Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.
+[chem11-s1.3.3] Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).
+[chem11-s1.3.4] Baking soda (sodium hydrogencarbonate) is a weak base.
+[chem11-s1.3.5] Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.
+[chem11-s1.3.6] Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid.
+[chem11-s1.4.b] Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties. This is useful whenever something is too acidic and needs to be corrected.
+[chem11-s1.4.0] Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.
+[chem11-s1.4.1] Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂. Here H⁺ stands for the acid in the soil.
+[chem11-s1.4.2] Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn, so a base is taken to remove it.
+[chem11-s1.4.3] Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.
+[chem11-s1.4.4] Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.
+[chem11-s1.4.5] Lime is added to acidic lakes to neutralise the acid, so the water becomes less acidic.
+[chem11-s1.4.6] Toothpaste neutralises plaque acid, and baking soda is a claimed remedy for a bee sting, which is said to be acidic.
+[chem11-s1.5.b] Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal. Knowing this lets you name the product of any acid reaction.
+[chem11-s1.5.0] A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion (NH₄⁺).
+[chem11-s1.5.1] Hydrochloric acid gives chlorides, e.g. NaCl, because the chloride ion Cl⁻ is what remains of the acid.
+[chem11-s1.5.2] Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.
+[chem11-s1.5.3] Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it (a fixed amount of substance) reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does.
+[chem11-s1.6.b] General word equation: acid + base → salt + water. A base here includes metal oxides and hydroxides, and ammonia.
+[chem11-s1.6.0] HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
+[chem11-s1.6.1] H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)
+[chem11-s1.6.2] With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.
+[chem11-s1.6.3] With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.
+[chem11-s1.6.4] Ionic equation (showing only the ions that react) for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem11-s1.6.5] Neutralisation is exothermic, so it releases heat.
+[chem11-s1.7.b] General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.
+[chem11-s1.7.0] Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.
+[chem11-s1.7.1] Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).
+[chem11-s1.7.2] Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series (the list of metals in order of reactivity).
+[chem11-s1.7.3] Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.
+[chem11-s1.8.b] General word equation: acid + carbonate → salt + water + carbon dioxide. Hydrogencarbonates (compounds containing the HCO₃⁻ ion) behave the same way.
+[chem11-s1.8.0] CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.
+[chem11-s1.8.1] Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.2] Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.3] Test for carbon dioxide: it turns limewater (a solution of calcium hydroxide) milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem11-s1.9.b] Use this method to write the equation for any reaction of an acid. It works because each type of reaction always gives the same pattern of products.
+[chem11-s1.9.0] Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.
+[chem11-s1.9.1] Step 2: Name the salt from the metal (or ammonium) ion and the acid.
+[chem11-s1.9.2] Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.
+[chem11-s1.9.3] Step 4: Balance the equation, so that each element has the same number of atoms on both sides.
+[chem11-s1.9.4] Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.
+[chem11-s1.9.5] Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate.
+
+CANDIDATES chem1-s4: 4. Measurement, error and data
+[chem1-s4.0.b] Chemistry measurements only make sense when everyone uses the same units. SI (the international system of units) gives one agreed set, and you often have to convert between it and the smaller units used in the lab.
+[chem1-s4.0.0] The SI base units used in chemistry are the metre (m) for length, kilogram (kg) for mass, second (s) for time, kelvin (K) for temperature and mole (mol) for amount of substance. Derived units are built from these, such as m³ for volume and the pascal (Pa) for pressure.
+[chem1-s4.0.1] Volume: 1 dm³ (a cubic decimetre, a cube 10 cm along each edge) = 1 L = 1000 cm³ = 1000 mL. Also 1 m³ = 1000 dm³ = 1 000 000 cm³.
+[chem1-s4.0.2] Mass: 1 kg = 1000 g, and 1 g = 1000 mg (milligrams), so a quantity in grams is turned into milligrams by multiplying by 1000.
+[chem1-s4.0.3] Temperature: T (K) = θ (°C) + 273.15, often rounded to 273, where θ is the Celsius temperature. For example 25 °C = 298 K. Use kelvin in gas calculations because the kelvin scale starts at 0 K, with no negative values.
+[chem1-s4.0.4] Pressure: 1 kPa = 1000 Pa. The IUPAC (the international chemistry organisation) standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm (one atmosphere, the average air pressure at sea level) = 101 325 Pa.
+[chem1-s4.0.5] Convert by multiplying or dividing by the conversion factor (the number linking the two units) and writing the unit at each step, so mistakes show up. For example 250 cm³ = 250 ÷ 1000 = 0.250 L.
+[chem1-s4.1.b] Two words that sound alike describe how good a measurement is: accuracy and precision. They mean different things, and every instrument also has limits on how well it can measure.
+[chem1-s4.1.0] Accuracy is how close a measurement, or a mean (the average of repeated readings), is to the true or accepted value.
+[chem1-s4.1.1] Precision is how close repeated measurements are to each other, meaning their spread.
+[chem1-s4.1.2] Precision is also used for the smallest division an instrument can read, which is its resolution. A scale marked in 0.1 cm³ steps has a finer resolution than one marked in 1 cm³ steps.
+[chem1-s4.1.3] Results can be precise but not accurate, such as closely grouped readings that are all off the true value because a balance has not been zeroed (set to read 0 g with nothing on it).
+[chem1-s4.1.4] Results can be accurate on average but not precise, with readings scattered on either side of the true value so that the mean lands close to it.
+[chem1-s4.1.5] Every instrument has an uncertainty, the amount by which a reading could be out.
+[chem1-s4.1.6] Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.
+[chem1-s4.1.7] Volumetric glassware (pipettes, burettes and volumetric flasks, made to deliver or hold one exact volume) is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.
+[chem1-s4.1.8] Significant figures (assumed knowledge): answers are reported to the same number of significant figures (the meaningful digits in a number) as the least precise measurement used, so the answer does not look more exact than the data. This is usually three in titration calculations.
+[chem1-s4.2.b] No measurement is perfect. Errors fall into two types that behave differently, and knowing which type you have tells you how to reduce it.
+[chem1-s4.2.0] Random error is unpredictable variation that scatters readings above and below the true value. It is reduced by repeating and averaging, because the highs and lows cancel out.
+[chem1-s4.2.1] Examples of random error are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations.
+[chem1-s4.2.2] Systematic error is a consistent error that shifts all readings in the same direction.
+[chem1-s4.2.3] Examples of systematic error are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.
+[chem1-s4.2.4] Repeating does not reduce systematic error, because every repeat is wrong in the same way. It is reduced by calibrating the equipment (checking it against a known standard and adjusting it) or by improving the method.
+[chem1-s4.2.5] Parallax error occurs when a scale is read from an angle, which makes the liquid level appear to sit at a different mark. Read the bottom of the meniscus at eye level.
+[chem1-s4.2.6] Anomalous results (outliers, readings that do not fit the rest) caused by mistakes are identified and either repeated or excluded with a reason.
+[chem1-s4.2.7] Percentage error = (experimental value − accepted value) ÷ accepted value × 100.
+[chem1-s4.3.b] Data are the observations and measurements collected in an experiment. They come in two kinds, and you choose which to record according to what the question asks.
+[chem1-s4.3.0] Qualitative data are descriptions without numbers, such as a colour change, effervescence (fizzing as a gas is given off) or a precipitate (an insoluble solid) forming.
+[chem1-s4.3.1] Quantitative data are measurements with numbers and units, such as a mass in g or a volume in cm³.
+[chem1-s4.3.2] Select the data that answer the question. Record the raw data (the readings exactly as measured) first, then the processed data, such as means and rates, which are worked out from the raw data.
+[chem1-s4.4.b] A results table organises raw data so it can be read and graphed. A set layout means a reader can see at once what was changed and what was measured.
+[chem1-s4.4.0] The independent variable (the quantity you change) goes in the first column. The dependent variable (the quantity you measure in response) and its repeats go in the following columns, with a mean column.
+[chem1-s4.4.1] Each column heading gives the quantity and its unit, e.g. “Time / s”, so units are not written in the body of the table.
+[chem1-s4.4.2] All readings are recorded to the same number of decimal places, matching the resolution of the instrument (the smallest division it can read).
+[chem1-s4.5.b] A graph turns a table of results into a picture of the pattern, and it lets you read off values or find a rate.
+[chem1-s4.5.0] The independent variable is plotted on the x-axis (horizontal) and the dependent variable on the y-axis (vertical). Both axes are labelled with the quantity and its unit.
+[chem1-s4.5.1] Scales are chosen so that the points fill more than half of the grid, with even and sensible intervals.
+[chem1-s4.5.2] Points are plotted accurately as small crosses, which show the exact position of each reading.
+[chem1-s4.5.3] A line or smooth curve of best fit is drawn through the general trend, because the line shows the underlying pattern. The points are not joined dot to dot.
+[chem1-s4.5.4] The line is not forced through the origin unless the origin is a real data point.
+[chem1-s4.5.5] A line graph is used when both variables are continuous (can take any value in a range, such as time and volume); a bar chart is used for categories.
+[chem1-s4.6.b] Once the data are plotted, you describe the pattern, measure it and use it to predict. These skills are used to read off values, find rates and draw conclusions.
+[chem1-s4.6.0] Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin, so doubling one variable doubles the other) or are inversely proportional (one variable goes up as the other goes down).
+[chem1-s4.6.1] The gradient (steepness) of a straight line is the change in y divided by the change in x.
+[chem1-s4.6.2] For a curve, the gradient at a point is found from a tangent (a straight line touching the curve at that point only) drawn at that point; this gives a rate.
+[chem1-s4.6.3] Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable, because the pattern may not continue outside the range measured.
+[chem1-s4.6.4] Both interpolation and extrapolation are predictions.
+[chem1-s4.6.5] Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane (the next hydrocarbon in the series) can be predicted from the trend in the series.
+[chem1-s4.6.6] Mathematical representations (equations linking quantities) are rearranged and used, e.g. PV = nRT, the gas equation linking pressure, volume, amount in moles and temperature. Means, percentages and rates are calculated.
+[chem1-s4.7.b] Chemistry uses very large and very small numbers, such as the number of particles in a mole. Scientific notation writes them compactly.
+[chem1-s4.7.0] Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10 and n is a whole number (the power of ten).
+[chem1-s4.7.1] The Avogadro constant (the number of particles in one mole) is 6.02 × 10²³ mol⁻¹.
+[chem1-s4.7.2] 0.00050 = 5.0 × 10⁻⁴: the decimal point moves four places to the right, so the power of ten is −4.
+[chem1-s4.8.b] The last steps of analysis are to deal with any result that does not fit and then to state what the data show. A good conclusion is tied to the data and to the hypothesis (the prediction being tested).
+[chem1-s4.8.0] An anomalous result does not fit the pattern of the other results. It is identified on the graph or in the table, and a reason is suggested, such as a misreading.
+[chem1-s4.8.1] An anomalous result is left out of the mean and of the line of best fit, and this is stated, so the reader knows the data were treated openly.
+[chem1-s4.8.2] A conclusion states the relationship shown by the data and says whether it supports the hypothesis.
+[chem1-s4.8.3] A conclusion explains the relationship using scientific theory or a model, e.g. collision theory (the model that reactions happen when particles collide).
+[chem1-s4.8.4] The conclusion is justified by reference to the data and states its limits: the range tested, the amount of data and the size of the errors.
+[chem1-s4.8.5] Correlation (a link between two variables) does not prove causation (that one causes the other): the link may be due to a third factor.

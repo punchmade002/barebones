@@ -1,0 +1,464 @@
+MODE: cost and links
+TARGET chem1-s7: 7. Representation and the Chemistry in Practice Investigation
+[chem1-s7.0.b] Chemistry describes the same event in three different ways: what you can see, what the particles are doing, and how we write it down. Good answers link all three.
+[chem1-s7.0.0] The macroscopic (observable) level is what we see, measure and handle, for example ice melting, a solution changing colour, or gas bubbles forming. You need no special equipment to notice these changes.
+[chem1-s7.0.1] The sub-microscopic (particulate) level is made up of atoms, ions (charged particles), molecules (groups of atoms bonded together) and electrons, and how they move and rearrange. These particles cannot be seen with a light microscope, which is why the level is called sub-microscopic.
+[chem1-s7.0.2] The sub-microscopic level explains the observations at the macroscopic level: what we see happens because of what the particles do.
+[chem1-s7.0.3] The symbolic level uses formulae, equations, diagrams and graphs to represent the particles and the changes, so that a change can be written down in a short, exact form.
+[chem1-s7.0.4] Chemists move between the three levels: an explanation links what is seen to what the particles do, and writes it symbolically.
+[chem1-s7.1.b] Each example runs from the observation, to the particle explanation, to the symbolic equation. These two show the full three-level pattern.
+[chem1-s7.1.0] Ice melting, observed: a solid becomes a liquid at 0 °C at standard pressure (the agreed reference pressure for quoting melting points).
+[chem1-s7.1.1] Ice melting, particles: water molecules gain energy and partly overcome hydrogen bonds (attractions between neighbouring water molecules), so they move past one another and the solid becomes a liquid.
+[chem1-s7.1.2] Ice melting, symbolic: H₂O(s) → H₂O(l).
+[chem1-s7.1.3] Magnesium in hydrochloric acid, observed: the solution fizzes and the magnesium disappears.
+[chem1-s7.1.4] Magnesium in hydrochloric acid, particles: magnesium atoms lose electrons to form Mg²⁺ ions, and hydrogen ions gain electrons to form H₂ molecules. The H₂ is the gas that causes the fizzing, and the Mg²⁺ ions dissolve, so the metal disappears.
+[chem1-s7.1.5] Magnesium in hydrochloric acid, symbolic: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).
+[chem1-s7.2.b] Two more examples show how a simple observation is explained by the behaviour of electrons or ions.
+[chem1-s7.2.0] A sodium salt in a flame, observed: a yellow-orange colour.
+[chem1-s7.2.1] A sodium salt in a flame, particles: electrons in sodium atoms are excited (raised) to higher energy levels, and emit light of a specific energy as they fall back. That specific energy is what gives the colour.
+[chem1-s7.2.2] A salt dissolving in water, observed: the solid disappears.
+[chem1-s7.2.3] A salt dissolving in water, particles: water molecules surround and separate Na⁺ and Cl⁻ ions (the charged particles that make up sodium chloride), so the solid breaks up and seems to vanish.
+[chem1-s7.2.4] A salt dissolving in water, symbolic: NaCl(s) → Na⁺(aq) + Cl⁻(aq).
+[chem1-s7.3.b] Particles are far too small to see, so chemists depend on pictures and models to understand them. Visualisation is a key part of understanding core concepts.
+[chem1-s7.3.0] Chemists visualise particles they cannot see using drawings, physical models, animations and computer simulations.
+[chem1-s7.3.1] Generating a model has steps: 1. Propose a representation that fits the observations.
+[chem1-s7.3.2] 2. Use the model to make a prediction.
+[chem1-s7.3.3] 3. Test the prediction.
+[chem1-s7.3.4] 4. After testing, keep, modify or discard the model, depending on whether the test supports it.
+[chem1-s7.4.b] Models are simplified representations of complex systems or phenomena; the three properties below apply to every model.
+[chem1-s7.4.0] Simplified, with underlying assumptions: the kinetic theory (the model of gases as moving particles) assumes that gas particles have negligible volume and no forces between them. Real gases are more complicated, but the assumptions keep the model usable.
+[chem1-s7.4.1] Modified as more data become available: the Bohr model of electrons in fixed energy levels was modified to the orbital model when it could not account for the spectra (patterns of light emitted) of atoms with more than one electron.
+[chem1-s7.4.2] Predictive: VSEPR theory (a model of how electron pairs arrange themselves around an atom) predicts the bond angle in a molecule before it is measured, and the ideal gas equation predicts the volume of a gas.
+[chem1-s7.5.b] Leaving Certificate Chemistry is assessed in two parts, so the investigation counts for a large share of the final grade.
+[chem1-s7.5.0] Leaving Certificate Chemistry has two assessment components, both set and marked by the State Examinations Commission (SEC).
+[chem1-s7.5.1] The written examination is worth 60% and is taken at Higher or Ordinary level, so students choose the level that suits them.
+[chem1-s7.5.2] The Chemistry in Practice Investigation is worth 40%, or 200 marks. One common brief (the same task) is set for Higher and Ordinary level, and the investigation is assessed at the level at which the written paper is taken.
+[chem1-s7.5.3] Grades are H1 to H8 at Higher level and O1 to O8 at Ordinary level, in bands of 10% from 30% to 100%; below 30% is grade 8.
+[chem1-s7.5.4] The written examination uses a range of question types and assesses all four contextual strands (the main areas of the course), the unifying strand, and the application of chemistry to the cross-cutting themes of sustainability, health and technology.
+[chem1-s7.6.b] The investigation starts from a brief, a document that tells students what the task is and gives them a context to work in.
+[chem1-s7.6.0] The SEC publishes an Investigation Brief each year in term two of Year 1 (fifth year); the brief for the 2027 examination was issued in January 2026.
+[chem1-s7.6.1] The 2027 brief asks students to investigate how the rate of a chemical reaction (how fast it happens) can be controlled, investigating one or more aspects of that topic.
+[chem1-s7.6.2] The brief sets out the requirements and includes stimulus material (supplied information) that sets a context.
+[chem1-s7.6.3] The brief allows students to develop their own ideas related to that context, and helps teachers and students to plan, so everyone knows what is expected before the work starts.
+[chem1-s7.6.4] Students keep an investigative log (a running record of their work) that they draw on to write the report.
+[chem1-s7.7.b] The work has two strands, research and experiment, which together build an evidence-based argument in a final report.
+[chem1-s7.7.0] Scientific research: students gather, process and evaluate information from secondary sources (existing published material, not their own results) on an issue related to the brief; this may inform the experimental work, for example by suggesting a hypothesis to test.
+[chem1-s7.7.1] Experiment: students generate a hypothesis (a testable prediction) for an issue related to the brief, then plan and design the experiment.
+[chem1-s7.7.2] Experiment: students carry out laboratory work to gather primary data (their own measurements), then analyse the data and form conclusions.
+[chem1-s7.7.3] Students develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year), in a format prescribed by the SEC.
+[chem1-s7.7.4] The specification envisages up to 20 hours of work; a separate document, “Guidelines to support the Chemistry in Practice Investigation”, covers organisation.
+[chem1-s7.7.5] Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process. Engaging with the process matters more than a perfect answer, so an honest account of what went wrong is worth giving.
+[chem1-s7.7.6] Experimental design is covered in more detail in “Questions, hypotheses and designing investigations”.
+[chem1-s7.8.b] The SEC brief allocates the 200 marks in four blocks of 50, one for each criterion (a standard the report is judged against).
+[chem1-s7.8.0] Criterion A, 50 marks: title and introduction, background research and references.
+[chem1-s7.8.1] Criterion B, 50 marks: designing and planning, and conducting the experiment, including safety, fairness, accuracy and choice of equipment.
+[chem1-s7.8.2] Criterion C, 50 marks: data and data analysis, and conclusions, because the conclusions must follow from the data.
+[chem1-s7.8.3] Criterion D, 50 marks: scientific literacy (communication, coherence, relevance and a reflective approach), judged across the whole report rather than in one section, because these qualities run through every part of it.
+[chem1-s7.9.b] The SEC also fixes the headings, limits and layout of the report, so students need to follow the format exactly.
+[chem1-s7.9.0] The report uses seven numbered headings, each on a new page, so every section is easy to find: Title and Introduction; Background Research; Designing and Planning; Conducting the Experiment; Data and Data Analysis; Conclusions; References.
+[chem1-s7.9.1] The report body is no more than 1,500 words (references, data tables, formulae, equations and labels are not counted), with no more than 20 images and no video.
+[chem1-s7.9.2] Text is Arial and black, with 14-point bold headings and 12-point body text at 1.5 line spacing, portrait pages, 20 mm margins with nothing in them, and page numbers at the bottom centre.
+[chem1-s7.9.3] The experiment and primary data collection are carried out under the direct supervision of the chemistry teacher, and every source, including any use of AI, is referenced, so the report shows where each idea came from.
+[chem1-s7.9.4] The completed SEC cover page goes first; the report is converted to PDF, printed and proof-read, then given to the teacher by Friday 23 April 2027 with Authentication Form P.2 signed by the student, teacher and principal.
+[chem1-s7.10.b] The NCCA descriptors of quality describe high and lower achievement in four areas: knowledge and understanding; investigative skills in design and method; investigative skills in analysis and conclusions; and relation to the work of scientists in society.
+[chem1-s7.10.0] High achievement in knowledge and understanding shows considerable understanding of the brief, a clearly described purpose, and relevant research that evaluates a wide range of appropriate sources.
+[chem1-s7.10.1] High achievement in knowledge and understanding also shows thorough engagement with the chemical concepts, explaining the phenomena clearly and accurately.
+[chem1-s7.10.2] High achievement in design and method has a probing research question and a testable hypothesis underpinned by chemical concepts, so the experiment can genuinely support or reject the hypothesis.
+[chem1-s7.10.3] High achievement in design and method has a thorough investigative design, with appropriate methods collecting high-quality primary data.
+[chem1-s7.11.b] The remaining two areas are analysis and conclusions, and relation to the work of scientists in society. The block ends with what lower achievement looks like.
+[chem1-s7.11.0] High achievement in analysis and conclusions has clear, appropriate data and analysis, and valid conclusions justified by the data, so each conclusion rests on evidence, and related to the hypotheses.
+[chem1-s7.11.1] High achievement in analysis and conclusions has a thorough evaluation that acknowledges limitations in the research, design and data gathering, because naming weaknesses shows the student understands how reliable the results are.
+[chem1-s7.11.2] High achievement in analysis and conclusions has a summary of key areas and a coherent, consistent report with supporting references and reflections.
+[chem1-s7.11.3] High achievement in relation to the work of scientists in society has a considered reflection that locates the outcomes within broader societal and scientific issues relating to the brief.
+[chem1-s7.11.4] Lower achievement shows limited understanding of the brief, an unclear purpose, little research and a simple design, which means the work does little to answer the brief.
+[chem1-s7.11.5] Lower achievement shows conclusions not linked to the data, no limitations identified, and few references or reflections.
+
+CANDIDATES chem1-s1: 1. How science works: ideas and models
+[chem1-s1.0.b] Scientific knowledge is built from observations and evidence, and everyday words such as "theory" and "law" have a much more precise meaning in science. Learning the exact meanings lets you describe how science works.
+[chem1-s1.0.0] Observation: information gathered with the senses or with instruments. It is qualitative (a description, such as a colour change) or quantitative (a measurement with a number and a unit).
+[chem1-s1.0.1] Hypothesis: a testable, tentative explanation or prediction. It is tentative (not yet confirmed) because evidence from an experiment can support it or contradict it.
+[chem1-s1.0.2] Theory: a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations. Examples are the kinetic theory of matter (matter is made of moving particles) and collision theory (reactions happen when particles collide).
+[chem1-s1.0.3] Law: a statement, often mathematical, that describes what always happens under stated conditions. Examples are the law of conservation of mass (the total mass stays the same during a reaction) and Boyle's law (a law linking the pressure and volume of a gas).
+[chem1-s1.0.4] A law describes what happens; a theory explains why it happens. This is why a theory never turns into a law: they do different jobs, and a law is not a "proven theory".
+[chem1-s1.0.5] Evidence: data from observation and experiment that are used to support or reject a hypothesis or theory. Scientific knowledge rests on evidence, not on authority or opinion, so a claim is only as good as the data behind it.
+[chem1-s1.1.b] Scientists follow a recognisable sequence of steps, from first noticing something to sharing what they found. Each step exists so that the final conclusion rests on evidence that others can check.
+[chem1-s1.1.0] 1. Make observations and ask a question about what you have noticed.
+[chem1-s1.1.1] 2. Research what is already known, so that you do not repeat work or ignore existing evidence.
+[chem1-s1.1.2] 3. Form a hypothesis (a tentative explanation) and use it to make a prediction of what should happen if it is right.
+[chem1-s1.1.3] 4. Test the prediction with a fair, controlled experiment, in which only one factor is changed and the others are kept the same.
+[chem1-s1.1.4] 5. Analyse the data and draw a conclusion.
+[chem1-s1.1.5] 6. Accept, modify or reject the hypothesis, depending on whether the data support it.
+[chem1-s1.1.6] 7. Communicate the results so that others can check them.
+[chem1-s1.2.b] In practice the steps above are not completed once and then left behind. Real investigations loop back, and they need imagination as well as method.
+[chem1-s1.2.0] Scientists repeat, redesign and troubleshoot (find and fix faults in) experiments, so the cycle is iterative, meaning it is repeated and each pass improves on the last.
+[chem1-s1.2.1] Unexpected results often lead to new questions and new hypotheses, so a surprising result can open a new line of investigation.
+[chem1-s1.2.2] Creativity and imagination, as well as logic, are used to propose hypotheses and to design experiments and models, because no rule produces a good idea automatically.
+[chem1-s1.2.3] One reliable, reproducible result (one that others can obtain again) that contradicts a hypothesis can be enough to reject it, whereas agreeing results never prove a hypothesis absolutely.
+[chem1-s1.3.b] Scientific ideas are not fixed for ever. They change in a particular way, and that way is what makes science reliable.
+[chem1-s1.3.0] Scientific knowledge is tentative (provisional): it is the best explanation of the evidence available now, and it can change when new evidence appears.
+[chem1-s1.3.1] Ideas change when new observations do not fit the existing explanation, because an explanation has to account for everything observed.
+[chem1-s1.3.2] Ideas change when new technology or instruments allow measurements that were not possible before.
+[chem1-s1.3.3] Ideas change when a better explanation is proposed and tested against the evidence.
+[chem1-s1.3.4] A theory is refined or replaced only when the new idea explains all the old evidence as well as the new evidence; this is how science progresses.
+[chem1-s1.3.5] Long-standing, well-tested theories are durable. They are rarely discarded completely; they are modified or have their limits identified.
+[chem1-s1.4.b] The atom shows how ideas change. Each model of the atom was replaced or refined when new evidence did not fit the earlier one. A model here means a picture of the atom that explains what has been observed.
+[chem1-s1.4.0] Dalton (early 1800s): matter is made of tiny indivisible atoms (atoms that cannot be split), and atoms of the same element are identical. This was supported by the laws of chemical combination (rules for the masses in which elements combine).
+[chem1-s1.4.1] Thomson (1897) discovered the electron, a negatively charged particle, which showed that atoms are not indivisible. He proposed the plum pudding model, with negative electrons embedded in a sphere of positive charge.
+[chem1-s1.4.2] Rutherford (1911): his gold-foil experiment, carried out by Geiger and Marsden, showed that most of the atom is empty space with a tiny, dense, positive nucleus (the central core). This is the nuclear model.
+[chem1-s1.4.3] Bohr (1913) proposed that electrons move in fixed energy levels around the nucleus, which explained line emission spectra (the separate coloured lines of light that an element gives out when heated).
+[chem1-s1.4.4] The current orbital model describes electrons in orbitals, which are regions with a high probability of finding an electron. There is more on this in "Atomic structure: the nuclear model" and "The orbital model and electronic structure".
+[chem1-s1.5.b] Scientists are people, and people can unknowingly tilt results. Bias is a tendency, deliberate or not, to collect, interpret or present information so as to favour one outcome.
+[chem1-s1.5.0] Confirmation bias: expecting a particular result and then seeing it in the data.
+[chem1-s1.5.1] Selecting only the data that support a hypothesis, or using small or unrepresentative samples, introduces bias, because the results then do not reflect the whole picture.
+[chem1-s1.5.2] Funding or commercial interests, and personal or political beliefs, can introduce bias, for example when a result would benefit whoever paid for the study.
+[chem1-s1.5.3] Scientists reduce bias with fair tests that use controls (a comparison with nothing changed), repeats and random sampling (choosing subjects by chance), and with blind trials (where those taking part do not know which treatment they receive) where possible.
+[chem1-s1.5.4] Scientists also publish all results, including negative ones (results that do not support the hypothesis), declare funding and conflicts of interest, and invite independent checks by other scientists. There is more on this in "Science as a global enterprise and researching an issue".
+[chem1-s1.6.b] Much of chemistry is about things too small to see, such as atoms and molecules. Scientists use models to think about them. A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly.
+[chem1-s1.6.0] Physical models include ball-and-stick and space-filling molecular models, which are three-dimensional builds of a molecule that show how its atoms are arranged.
+[chem1-s1.6.1] Diagrams used as models include dot-and-cross diagrams (showing the electrons in bonds), energy-level diagrams and energy profile diagrams (showing how energy changes during a reaction).
+[chem1-s1.6.2] Mathematical models are equations, such as PV = nRT, which links the pressure, volume, amount and temperature of a gas.
+[chem1-s1.6.3] Symbolic models are chemical formulae and equations, which use symbols to stand for substances and reactions.
+[chem1-s1.6.4] Computer or digital simulations show particles and processes moving and changing, which a fixed diagram cannot do.
+[chem1-s1.6.5] A theory can also act as a model: the kinetic theory models matter as moving particles, and collision theory models how reactions happen.
+[chem1-s1.7.b] Models are used because they do things that direct observation cannot. They give us a way to picture, explain and test ideas.
+[chem1-s1.7.0] Models make the very small, the very large and the invisible understandable; a molecular model shows the shape of a molecule that is far too small to see.
+[chem1-s1.7.1] Models explain observations: the particle model (matter as tiny moving particles) explains why gases can be compressed but liquids cannot be compressed much.
+[chem1-s1.7.2] Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory (which treats electron pairs around an atom as repelling one another) predicts molecular shapes.
+[chem1-s1.7.3] Models help scientists communicate ideas to each other and to the public, because a shared picture is easier to discuss than an unseen object.
+[chem1-s1.8.b] A model is useful but never complete. Knowing where a model stops working is as important as knowing what it explains.
+[chem1-s1.8.0] Every model is a simplification: it leaves out detail and rests on assumptions, so it is never a perfect copy of reality.
+[chem1-s1.8.1] A model works only within a range of conditions; the ideal gas model fails at high pressure and low temperature, where real gases deviate from it.
+[chem1-s1.8.2] Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances, so they can mislead.
+[chem1-s1.8.3] Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question.
+[chem1-s1.8.4] The Bohr model (electrons in fixed energy levels) explains flame colours and line spectra but not the shapes of orbitals.
+[chem1-s1.8.5] Models are tested against evidence and are modified or replaced when they fail to explain new observations.
+
+CANDIDATES chem1-s3: 3. Questions, hypotheses and designing investigations
+[chem1-s3.0.b] Every investigation starts with a question, but not every question can be settled in a laboratory. A scientific question is one that evidence can answer.
+[chem1-s3.0.0] A scientific question can be answered by collecting evidence through observation (careful looking and recording) or experiment (changing something and measuring the effect).
+[chem1-s3.0.1] A good question is specific and focused and names measurable quantities, so you know exactly what to measure. For example: “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”
+[chem1-s3.0.2] Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation, because no measurement can decide what is good or bad.
+[chem1-s3.0.3] A vague question, or one that cannot be tested with the available methods, is unsuitable. A vague question can often be refined into a testable one by naming the quantities to be measured.
+[chem1-s3.1.b] A variable is any factor in an experiment that can change. Sorting variables into three types is how you make a test fair and know what you are really testing.
+[chem1-s3.1.0] The independent variable is the one the investigator deliberately changes, for example the concentration of acid.
+[chem1-s3.1.1] The dependent variable is the one that is measured, and it may change as a result of changing the independent variable, for example the rate of reaction.
+[chem1-s3.1.2] Controlled variables are all the other factors that could affect the result. They are kept the same so that the test is fair, because then any change in the result can only be due to the independent variable.
+[chem1-s3.2.b] A hypothesis is based on existing scientific theory rather than on a guess. It turns a question into a statement that an experiment can test.
+[chem1-s3.2.0] A hypothesis is a proposed explanation that leads to a testable prediction, so it is a statement, not a question.
+[chem1-s3.2.1] A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason. For example: “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”.
+[chem1-s3.2.2] That reason is drawn from collision theory (the theory that reactions happen when particles collide with enough energy).
+[chem1-s3.2.3] A hypothesis must be falsifiable, which means an experiment could show it to be wrong. A statement that no result could ever contradict cannot be tested.
+[chem1-s3.2.4] A prediction is the specific result expected if the hypothesis is correct, for example “doubling the concentration will roughly halve the time taken”.
+[chem1-s3.3.b] There is usually more than one way to collect evidence for the same hypothesis. Choosing between them means weighing each against a set of criteria.
+[chem1-s3.3.0] A hypothesis can often be tested in more than one way. For example, the rate of a reaction that gives off gas can be found in three ways.
+[chem1-s3.3.1] Measure the volume of gas collected in a gas syringe (a calibrated syringe that the gas pushes out), the mass lost on a balance, or the time taken for a solid to disappear.
+[chem1-s3.3.2] Strategies are compared by validity (does it measure what it should?), the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.
+[chem1-s3.3.3] The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified, meaning you give reasons using the criteria above.
+[chem1-s3.4.b] A good plan lets someone else carry out your investigation exactly as you intended. It also shows that you have thought about the whole process before starting.
+[chem1-s3.4.0] A plan states the aim or hypothesis, the variables, the equipment and chemicals, a step-by-step method, the measurements to be taken and how often, and the number of repeats.
+[chem1-s3.4.1] A plan also includes a risk assessment (a check of what could go wrong and how to prevent it) and states how the data will be recorded and analysed.
+[chem1-s3.4.2] Choose a suitable range and number of values for the independent variable, so that a trend can be seen. At least five values across a sensible range is a suggested minimum.
+[chem1-s3.4.3] Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison. For example, hydrogen peroxide with no catalyst shows how it behaves without the catalyst.
+[chem1-s3.5.b] Examiners use these words to judge how well an investigation was designed. Each one has a distinct meaning, so keep them separate.
+[chem1-s3.5.0] Fairness (a fair test): only the independent variable is changed, and all other variables are controlled.
+[chem1-s3.5.1] Validity: the investigation actually tests the hypothesis and measures what it claims to measure. It requires a fair test and suitable measurements.
+[chem1-s3.5.2] Reliability: results can be trusted because they are consistent when the investigation is repeated.
+[chem1-s3.5.3] Reliability is improved by repeating each measurement at least three times, calculating a mean (the average of the repeats), and comparing the results with those of other groups.
+[chem1-s3.5.4] Accuracy and precision (how close a result is to the true value, and how close repeats are to each other) are improved by choosing suitable equipment and good technique. There is more on this in Measurement, error and data.
+[chem1-s3.5.5] Error: likely sources of error are identified in advance and the design is changed to reduce them. For example, a burette rather than a measuring cylinder is used for accurate volumes.
+[chem1-s3.5.6] Integrity: all results are recorded honestly, including unexpected ones. Data are not invented, altered or selectively deleted, and others' work is acknowledged.
+[chem1-s3.6.b] The right piece of equipment depends on what is being measured and how exactly it must be measured. Resolution is the smallest change the instrument can show.
+[chem1-s3.6.0] A pipette or burette is used for accurate volumes of solution, because they are made to deliver exact volumes.
+[chem1-s3.6.1] A volumetric flask is used to make up a solution to an exact volume.
+[chem1-s3.6.2] A measuring cylinder is used only where an approximate volume is enough, because it is less accurate than a pipette or burette.
+[chem1-s3.6.3] A balance with a suitable resolution, for example 0.01 g, is used for small masses.
+[chem1-s3.6.4] A thermometer or temperature probe with an appropriate range is used to measure temperature.
+[chem1-s3.6.5] A gas syringe is used to measure gas volumes.
+[chem1-s3.6.6] Data-loggers and sensors for pH, temperature and pressure give continuous readings, meaning the values are recorded automatically as the reaction proceeds.
+[chem1-s3.6.7] Each choice of equipment is justified in terms of accuracy, precision and safety.
+[chem1-s3.7.b] Chemicals and equipment can cause burns, poisoning or fires, so safe habits are part of every investigation. These rules apply whatever the experiment.
+[chem1-s3.7.0] Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair, so that splashes and flames cannot reach the eyes, skin or hair.
+[chem1-s3.7.1] Do not eat or drink in the laboratory, and wash hands after practical work, so that no chemical is swallowed.
+[chem1-s3.7.2] Use a fume cupboard (a ventilated cabinet that draws fumes away) for toxic or harmful gases and for volatile (easily evaporating), flammable or harmful liquids.
+[chem1-s3.7.3] Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame, because their vapour could catch fire.
+[chem1-s3.7.4] When diluting concentrated acids, add the acid to water, never water to acid.
+[chem1-s3.7.5] Use a pipette filler (a rubber bulb or device that draws liquid up); never pipette by mouth.
+[chem1-s3.7.6] Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed.
+[chem1-s3.8.b] A risk assessment is a planned check of what could cause harm in an experiment and how to prevent it. It depends on telling a hazard apart from a risk.
+[chem1-s3.8.0] A hazard is anything that could cause harm, such as a corrosive acid (one that damages skin and materials).
+[chem1-s3.8.1] A risk is the likelihood that harm will happen and how serious it would be.
+[chem1-s3.8.2] 1. Identify each hazard from labels, hazard pictograms (warning symbols) and safety data sheets (documents giving a chemical's hazards and handling advice).
+[chem1-s3.8.3] 2. Assess the risk of each hazard.
+[chem1-s3.8.4] 3. Decide on control measures that reduce the risk.
+[chem1-s3.8.5] 4. Know what to do in an emergency.
+[chem1-s3.8.6] The GHS (Globally Harmonized System) uses nine hazard pictograms, each with a red diamond border: corrosive, flammable, toxic, harmful or irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive and compressed gas.
+[chem1-s3.8.7] Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns. Controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water.
+
+CANDIDATES chem1-s5: 5. Reflecting, recording and communicating findings
+[chem1-s5.0.b] A log is a portfolio of experimental and research data, kept while the work is done rather than written up afterwards. It is the raw record that everything else in an investigation, from evaluation to the final report, is built from.
+[chem1-s5.0.0] A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work, kept as the work happens, so nothing has to be remembered later.
+[chem1-s5.0.1] The log records the aim (what you are trying to find out) and the plan, and any changes made to the plan and why.
+[chem1-s5.0.2] It also records the raw data (the actual measurements, before any calculation) and observations, including unexpected ones, plus calculations, sources consulted, problems met and reflections.
+[chem1-s5.0.3] The log provides evidence of what was done, so it supports honesty and integrity: anyone can check that the results came from the work.
+[chem1-s5.0.4] The log allows the work to be repeated or written up later, because the plan, changes and data are all written down. The Chemistry in Practice Investigation brief asks students to keep one.
+[chem1-s5.1.b] An evaluation judges the strengths and weaknesses of the method and the data; it is not a summary of what was done. Each judgement should lead to a specific improvement.
+[chem1-s5.1.0] Evaluate the method: was the test fair and valid (did it really test what it set out to test), and which variables (things that could change the result) were hard to control?
+[chem1-s5.1.1] Evaluate the data: was there enough of it, over a wide enough range; how much did the repeats vary (a big spread means low reliability); were there anomalous results (ones that do not fit the pattern)?
+[chem1-s5.1.2] Identify the main sources of error and their likely effect, stating whether each makes the result larger or smaller than the true value. For example, heat lost to the surroundings makes a measured temperature rise smaller than the true value.
+[chem1-s5.1.3] Human error on its own is not an acceptable source of error because it names no specific cause; name the specific mistake, such as misreading a meniscus (the curved surface of a liquid in a measuring cylinder or burette).
+[chem1-s5.1.4] Suggest specific improvements, each matched to an error, e.g. collecting a gas in a gas syringe instead of over water, using a data-logger (an electronic sensor that records readings automatically), or insulating a calorimeter (the container in which heat changes are measured) to cut heat loss.
+[chem1-s5.1.5] Suggest further investigations that would test the conclusion more fully.
+[chem1-s5.1.6] Judge how confident you can be in the conclusion, based on the strengths and weaknesses of the method and the data.
+[chem1-s5.2.b] Evaluation looks at the experiment; reflection looks at you as an investigator. It asks how well your own planning and thinking worked.
+[chem1-s5.2.0] Reflection asks what went well, what did not, what would be done differently, and what was learned about investigating.
+[chem1-s5.2.1] Reflection is honest about difficulties, because a problem that is hidden cannot be learned from.
+[chem1-s5.2.2] An investigation is valuable for the process it teaches, not only for getting a right answer, so a result that did not work out still has something to reflect on.
+[chem1-s5.3.b] The skills built in practical work are not tied to one experiment. They can be reused when a problem looks completely new.
+[chem1-s5.3.0] Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems, because the thinking is the same even when the chemistry differs.
+[chem1-s5.3.1] In an unfamiliar problem, identify what is being asked, the chemistry it depends on, and the data given.
+[chem1-s5.3.2] Set out a step-by-step approach to the problem, so that each step can be checked.
+[chem1-s5.3.3] Check that the answer is sensible, for example that its size and units are reasonable for the situation.
+[chem1-s5.4.b] A scientific report follows a fixed order so that any reader can find what they need and judge the work. It is written in enough detail for someone else to repeat the investigation.
+[chem1-s5.4.0] A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis (a testable prediction of the result).
+[chem1-s5.4.1] The method gives the equipment, a step-by-step procedure and the safety precautions, in enough detail for the work to be repeated.
+[chem1-s5.4.2] The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.
+[chem1-s5.4.3] The report ends with a conclusion (what the results show about the hypothesis), an evaluation and references (the list of sources used).
+[chem1-s5.4.4] The report is written in the past tense, because the work is already done, and in an impersonal style, with no 'I' or 'we'.
+[chem1-s5.5.b] Chemistry has its own precise vocabulary and its own ways of showing information. Using them correctly makes a report exact and unambiguous.
+[chem1-s5.5.0] Precise terms are used, e.g. 'dissolves', not 'melts', for a solid going into solution, and 'effervescence' for bubbles of gas, because each word names one particular process.
+[chem1-s5.5.1] Correct SI units (the international standard units of measurement) and IUPAC names (the internationally agreed systematic names of compounds) are used throughout.
+[chem1-s5.5.2] Representations include balanced chemical equations with state symbols, structural formulae (showing how atoms are bonded), labelled diagrams of apparatus, tables, graphs and energy profile diagrams (which show how energy changes during a reaction).
+[chem1-s5.6.b] The same findings have to be presented differently depending on who will read them. What a specialist needs is not what a class or the public needs.
+[chem1-s5.6.0] Scientists need full technical detail, the data and references, as in a journal paper or a conference poster, so that they can check and build on the work.
+[chem1-s5.6.1] The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained, because they do not have the specialist background.
+[chem1-s5.6.2] The same findings may be communicated as a report, poster, presentation, infographic (a picture-based summary) or article.
+[chem1-s5.6.3] The format is chosen for the purpose and the audience.
+[chem1-s5.7.b] A scientific opinion has to be backed up, and the evidence behind it has to be traceable. Citing sources lets readers check the evidence and credits the people who produced it.
+[chem1-s5.7.0] An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments (points against the claim).
+[chem1-s5.7.1] Each source is cited in the text and listed in full in the references, so that readers can check it.
+[chem1-s5.7.2] Copying someone else's work without acknowledgement is plagiarism.
+[chem1-s5.7.3] When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing, so that your opinion rests on more than a first impression.
+
+CANDIDATES chem9-s1: 1. The kinetic theory and its evidence
+[chem9-s1.0.b] Everything around you, from air to iron, is matter. Chemistry starts from one idea: matter is built from particles too small to see, and how those particles are arranged decides whether something is a solid, a liquid or a gas.
+[chem9-s1.0.0] All matter is made of tiny particles (atoms, molecules or ions) that are constantly moving, with spaces between them.
+[chem9-s1.0.1] Solid: the particles are packed closely in a fixed, regular arrangement and vibrate about fixed positions, so a solid keeps its shape.
+[chem9-s1.0.2] Liquid: the particles are close together but can move past each other, so a liquid flows and takes the shape of its container.
+[chem9-s1.0.3] Gas: the particles are far apart and move rapidly and randomly in all directions, so a gas spreads out to fill any space.
+[chem9-s1.0.4] Diagram: three boxes showing the particle arrangement in a solid, a liquid and a gas.
+[chem9-s1.1.b] A pure substance is made of only one kind of particle, so it has fixed properties. There are two kinds of pure substance: elements and compounds.
+[chem9-s1.1.0] A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point (a single exact temperature, not a range).
+[chem9-s1.1.1] An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means (that is, by a chemical reaction), e.g. iron (Fe) and oxygen (O₂).
+[chem9-s1.1.2] A compound is a substance made of two or more different elements chemically combined (joined by bonds) in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).
+[chem9-s1.1.3] A compound has properties that differ from those of its elements, because the elements are bonded together, so it can be separated into them only by a chemical reaction.
+[chem9-s1.1.4] A molecule (a group of atoms joined together) can be of an element (O₂, N₂, Cl₂), where all the atoms are the same, or of a compound (H₂O, CO₂), where the atoms are different.
+[chem9-s1.2.b] A mixture is two or more substances that are not chemically combined, so each keeps its own properties. Mixtures are grouped by whether they look the same all the way through.
+[chem9-s1.2.0] A mixture can have a variable composition (the amounts of each substance can change), and its components keep their own properties.
+[chem9-s1.2.1] A mixture can be separated by physical methods (ones that need no chemical reaction), and it has no sharp melting or boiling point: it melts or boils over a range of temperatures. There is more on this in Using the kinetic theory: separation techniques.
+[chem9-s1.2.2] A homogeneous mixture has a uniform composition throughout and a single phase (one visible part), e.g. salt solution, air and an alloy (a mixture of metals).
+[chem9-s1.2.3] A heterogeneous mixture is non-uniform, with visibly different parts or phases, e.g. sand and water, oil and water, and granite.
+[chem9-s1.3.b] Because a pure substance has a fixed melting point and a mixture does not, melting point can be used to check whether a sample is pure.
+[chem9-s1.3.0] A pure substance has a sharp melting point that matches the data-book value (the accepted figure listed in reference tables).
+[chem9-s1.3.1] Impurities lower the melting point and make the substance melt over a range of temperatures, so a low or spread-out melting point shows the sample is not pure.
+[chem9-s1.4.b] Compounds and mixtures both contain more than one element, so they are easy to confuse. The difference is whether the substances are chemically combined.
+[chem9-s1.4.0] A compound has a fixed composition; a mixture has a variable composition.
+[chem9-s1.4.1] The elements in a compound are chemically combined; the substances in a mixture are not.
+[chem9-s1.4.2] A compound has new properties because its elements are chemically combined; a mixture's components keep their own properties because they are not.
+[chem9-s1.4.3] A compound can be separated only chemically, because its elements are bonded; a mixture can be separated physically, because nothing is bonded.
+[chem9-s1.4.4] Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.
+[chem9-s1.4.5] Diagram: particle diagrams of an element (single atoms and diatomic molecules, which are molecules of two atoms), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together).
+[chem9-s1.5.b] The kinetic theory states that matter is particles in motion. We cannot see the particles, so the theory rests on effects we can see.
+[chem9-s1.5.0] The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.
+[chem9-s1.5.1] The particles have kinetic energy (energy of movement), so the higher the temperature, the faster they move.
+[chem9-s1.5.2] The average kinetic energy of the particles is proportional to the temperature in kelvin (the temperature scale that starts at absolute zero), so doubling the kelvin temperature doubles the average kinetic energy.
+[chem9-s1.5.3] The evidence for the theory comes from effects we can see that are caused by particles we cannot see.
+[chem9-s1.6.b] Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid. It shows that the invisible particles around them are moving.
+[chem9-s1.6.0] Robert Brown, a botanist (a scientist who studies plants), first observed Brownian motion in 1827, using pollen grains in water.
+[chem9-s1.6.1] Aim: to observe the motion of smoke particles in air as evidence for the kinetic theory.
+[chem9-s1.6.2] Step 1: Fill a small glass cell with smoke and cover it.
+[chem9-s1.6.3] Step 2: Light the cell from the side, so the smoke particles scatter light and show up.
+[chem9-s1.6.4] Step 3: View the cell through a microscope.
+[chem9-s1.6.5] Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.
+[chem9-s1.7.b] The jiggling of the smoke is the evidence. It can be explained only if the air around the smoke is made of moving particles.
+[chem9-s1.7.0] Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.
+[chem9-s1.7.1] The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.
+[chem9-s1.7.2] Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.
+[chem9-s1.7.3] Diagram: a smoke cell lit from the side under a microscope, and the zig-zag path of one smoke particle.
+[chem9-s1.8.b] Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion. Gases show it clearly.
+[chem9-s1.8.0] Diffusion needs no stirring or currents, because it results from the random motion of the particles alone.
+[chem9-s1.8.1] Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.
+[chem9-s1.8.2] The bromine jars are evenly coloured when the vapour has diffused through both jars, which shows the particles have spread out until evenly mixed.
+[chem9-s1.8.3] Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard (a ventilated cabinet that removes fumes) and gloves.
+[chem9-s1.9.b] This experiment shows that gases diffuse and that lighter gas particles diffuse faster than heavier ones. Two gases start at opposite ends of a tube and meet where they react.
+[chem9-s1.9.0] Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.
+[chem9-s1.9.1] Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).
+[chem9-s1.9.2] The ring forms nearer the hydrochloric acid end of the tube, because the lighter ammonia travels further.
+[chem9-s1.9.3] Explanation: ammonia molecules (Mr 17, relative molecular mass) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.
+[chem9-s1.9.4] Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.
+[chem9-s1.9.5] Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end.
+[chem9-s1.10.b] Diffusion is not limited to gases. It also happens in liquids, but far more slowly.
+[chem9-s1.10.0] Diffusion also happens in liquids, e.g. a crystal of potassium manganate(VII) slowly colours still water purple.
+[chem9-s1.10.1] Diffusion is much slower in liquids than in gases, because the particles are closer together and collide more often.
+
+CANDIDATES chem3-s1: 1. The orbital model and electronic structure
+[chem3-s1.0.b] The current model of the atom has a tiny nucleus at the centre and electrons arranged around it in energy levels and orbitals. Knowing these four ideas, nucleus, energy level, orbital and capacity, lets you describe any atom.
+[chem3-s1.0.0] The nucleus is a tiny, dense, positively charged centre of the atom, containing protons (positive particles) and neutrons (particles with no charge). There is more on this in Atomic structure: the nuclear model.
+[chem3-s1.0.1] Electrons (the negatively charged particles) surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…
+[chem3-s1.0.2] The main energy levels increase in energy, and in average distance from the nucleus, as n increases, so an electron in n = 3 has more energy and is on average further out than one in n = 1.
+[chem3-s1.0.3] Within a main energy level, electrons occupy orbitals, which are the smaller regions that make up the level.
+[chem3-s1.0.4] An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.
+[chem3-s1.0.5] Each orbital can hold a maximum of two electrons, so an orbital that is full is holding a pair.
+[chem3-s1.0.6] The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.
+[chem3-s1.0.7] Each main energy level is divided into sublevels (smaller groups of orbitals within the level), made of orbitals; the sublevels and how they fill are covered later in this subsection.
+[chem3-s1.1.b] The Bohr model, an older picture of the atom, drew electrons orbiting like planets. The orbital model keeps part of that idea but changes how we describe where an electron is.
+[chem3-s1.1.0] The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.
+[chem3-s1.1.1] The orbital model gives no exact path or position for an electron, only the probability of it being found in each region.
+[chem3-s1.1.2] The orbital model keeps the Bohr idea of fixed energy levels, so electrons can only have certain energies.
+[chem3-s1.1.3] Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability instead of a path.
+[chem3-s1.1.4] Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison.
+[chem3-s1.2.b] In hydrogen, the single electron cannot have just any energy. This is the idea behind the hydrogen spectrum, and it gives two terms, ground state and excited state, that you must be able to distinguish.
+[chem3-s1.2.0] The electron in a hydrogen atom can exist only in certain allowed energy levels, n = 1, 2, 3…, so its energy is quantised: it can take only certain fixed values.
+[chem3-s1.2.1] The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen.
+[chem3-s1.2.2] An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge (a current passed through a gas).
+[chem3-s1.2.3] Excited states are unstable, so the electron soon falls back to a lower level.
+[chem3-s1.3.b] When an excited electron drops to a lower level, the atom has to get rid of the energy difference. It does so as light, and the equation Em − En = hf links the size of the drop to the light given out.
+[chem3-s1.3.0] An electron transition is a jump of an electron from one energy level to another.
+[chem3-s1.3.1] When an electron falls from a higher level (energy Em) to a lower level (energy En), the energy difference is emitted as a photon, a packet of light energy.
+[chem3-s1.3.2] The photon's energy is related to its frequency (the number of wave cycles per second) by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).
+[chem3-s1.3.3] Light is emitted when electrons fall to lower levels; when electrons jump up to higher levels they absorb energy instead.
+[chem3-s1.3.4] Because the energy levels are fixed, each transition has one definite energy difference, so it emits light of one definite frequency, seen as one line of one colour.
+[chem3-s1.3.5] A larger energy gap gives light of higher frequency and shorter wavelength.
+[chem3-s1.4.b] An emission spectrum is the pattern of light an element gives out when its atoms are excited. Hydrogen's pattern is separate lines, and that is direct evidence for fixed energy levels.
+[chem3-s1.4.0] An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope (an instrument that splits light into its colours) or diffraction grating.
+[chem3-s1.4.1] It is a line spectrum: separate bright coloured lines on a dark background, not the continuous band of colours produced by white light.
+[chem3-s1.4.2] Each line corresponds to one transition from a higher energy level to a lower one.
+[chem3-s1.4.3] A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.
+[chem3-s1.5.b] The lines of hydrogen fall into groups called series, named by the level the electrons fall to. The visible lines are the Balmer series, and each colour comes from a different starting level.
+[chem3-s1.5.0] The visible lines form the Balmer series, made by electrons falling to n = 2.
+[chem3-s1.5.1] Red line, 656 nm: the electron falls from n = 3 to n = 2.
+[chem3-s1.5.2] Blue-green line, 486 nm: the electron falls from n = 4 to n = 2.
+[chem3-s1.5.3] Blue-violet line, 434 nm: the electron falls from n = 5 to n = 2.
+[chem3-s1.5.4] Violet line, 410 nm: the electron falls from n = 6 to n = 2.
+[chem3-s1.6.b] Falls to levels other than n = 2 give lines outside the visible region. The spacing of the lines also reflects how the levels are spaced.
+[chem3-s1.6.0] Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet (light of higher energy than visible light).
+[chem3-s1.6.1] Transitions down to n = 3 form the Paschen series, which lies in the infrared (light of lower energy than visible light).
+[chem3-s1.6.2] The lines get closer together at higher energy, because the energy levels themselves get closer together further from the nucleus.
+[chem3-s1.6.3] Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared).
+[chem3-s1.6.4] Diagram: beside it, sketch the line spectrum with the four visible lines labelled.
+[chem3-s1.7.b] Hydrogen's lines come from electrons changing level. The same thing happens in every element, which is why heating a compound in a flame makes a colour you can use to identify it.
+[chem3-s1.7.0] Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.
+[chem3-s1.7.1] The electrons fall back to lower levels and give out the energy as light.
+[chem3-s1.7.2] Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element.
+[chem3-s1.8.b] A flame test identifies a metal from the colour its salt gives to a flame. A fair test needs the right equipment, and everything except the metal kept the same.
+[chem3-s1.8.0] Aim: to identify the metal in a salt from the colour it gives to a flame.
+[chem3-s1.8.1] Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.
+[chem3-s1.8.2] Independent variable (the one you change): the metal in the salt being tested.
+[chem3-s1.8.3] Dependent variable (the one you observe): the colour of the flame.
+[chem3-s1.8.4] Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.
+[chem3-s1.8.5] Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.
+[chem3-s1.9.b] The method is four steps, repeated for each salt. The cleaning step matters most, because leftover salt from a previous test would colour the flame and give a wrong result.
+[chem3-s1.9.0] 1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.
+[chem3-s1.9.1] 2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile (they vaporise easily in the flame).
+[chem3-s1.9.2] 3. Hold the wire at the edge of the non-luminous flame and note the colour.
+[chem3-s1.9.3] 4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.
+[chem3-s1.9.4] Repeats: repeat each test to confirm the colour observed.
+[chem3-s1.9.5] Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.
+[chem3-s1.10.b] The chemicals and the hot wire are hazards, and the result only means something when it is compared with known colours. Each piece of apparatus also needs a labelled diagram.
+[chem3-s1.10.0] Safety: wear goggles, so that no splash or spark reaches the eyes.
+[chem3-s1.10.1] Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.
+[chem3-s1.10.2] Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.
+[chem3-s1.10.3] Safety: keep the hot wire away from the skin, because it can burn.
+[chem3-s1.10.4] Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.
+[chem3-s1.10.5] Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.
+[chem3-s1.10.6] Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.
+[chem3-s1.10.7] Diagram: cobalt-blue glass held between the eye and the flame; label the cobalt-blue glass.
+[chem3-s1.11.b] Each of the six metals gives its own flame colour. Learn the colour for each, and note the one pair that look alike.
+[chem3-s1.11.0] Lithium: crimson red, which is why it is easily confused with strontium.
+[chem3-s1.11.1] Sodium: bright yellow-orange; the colour is persistent (it lasts and is strong).
+[chem3-s1.11.2] Potassium: lilac (pale purple).
+[chem3-s1.11.3] Copper: blue-green.
+[chem3-s1.11.4] Barium: pale (apple) green.
+[chem3-s1.11.5] Strontium: red (scarlet).
+[chem3-s1.11.6] Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them.
+[chem3-s1.12.b] A flame colour is a mix of light of several wavelengths. Splitting the light with a spectroscope separates it into lines, which gives a more precise way to identify an element.
+[chem3-s1.12.0] A spectroscope splits the light from a flame or electric discharge into its separate colours.
+[chem3-s1.12.1] Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.
+[chem3-s1.12.2] To identify an element, compare the lines from an unknown sample, obtained as primary data (your own measurements) from a spectroscope or as secondary data (from another source) such as a published spectrum, with reference spectra of known elements.
+[chem3-s1.12.3] A match of all the lines identifies the element.
+[chem3-s1.13.b] The syllabus names three elements whose line spectra you must be able to use. Their lines explain the flame colours seen, and the same idea is applied in stars and fireworks.
+[chem3-s1.13.0] Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.
+[chem3-s1.13.1] Strontium: several lines, strongest in the red, so its flame looks red.
+[chem3-s1.13.2] Copper: lines mainly in the green, giving its blue-green flame.
+[chem3-s1.13.3] Line spectra are used to identify elements in samples and in stars.
+[chem3-s1.13.4] Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green.
+[chem3-s1.14.b] For the first 20 elements, you can write an atom's electrons as a list of numbers, one for each main energy level. The electrons fill from the inside out.
+[chem3-s1.14.0] Electrons fill the lowest energy levels available first, because that is the most stable arrangement.
+[chem3-s1.14.1] For elements 1 to 20, the first main energy level holds up to 2 electrons, the second up to 8 and the third up to 8; the fourth level starts to fill at potassium.
+[chem3-s1.14.2] The outer-shell (valence) electrons, those in the outermost occupied level, determine the chemical properties of an element.
+[chem3-s1.14.3] Elements in the same group have the same number of outer electrons, which is why they have similar properties.
+[chem3-s1.15.b] Write the number of electrons in each main energy level, from the inside out, separated by commas. These ten examples show the pattern.
+[chem3-s1.15.0] Hydrogen (H) 1.
+[chem3-s1.15.1] Helium (He) 2.
+[chem3-s1.15.2] Carbon (C) 2,4.
+[chem3-s1.15.3] Oxygen (O) 2,6.
+[chem3-s1.15.4] Sodium (Na) 2,8,1.
+[chem3-s1.15.5] Magnesium (Mg) 2,8,2.
+[chem3-s1.15.6] Chlorine (Cl) 2,8,7.
+[chem3-s1.15.7] Argon (Ar) 2,8,8.
+[chem3-s1.16.b] Potassium and calcium show the fourth level beginning to fill, and a shell diagram is a way to draw an arrangement.
+[chem3-s1.16.0] Potassium (K) 2,8,8,1.
+[chem3-s1.16.1] Calcium (Ca) 2,8,8,2.
+[chem3-s1.16.2] Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons.
+[chem3-s1.17.b] Atoms with a full outer energy level are stable. Many atoms reach one by losing or gaining electrons, which turns them into ions (charged particles).
+[chem3-s1.17.0] A stable electronic configuration has a full outer energy level, as in the noble gases (the very unreactive elements in group 18): helium 2, neon 2,8 and argon 2,8,8.
+[chem3-s1.17.1] Atoms usually reach a full outer level of eight electrons (an octet), or two for the first level.
+[chem3-s1.17.2] Metals in groups 1, 2 and 13 lose electrons to form positive ions with a noble-gas configuration: Na⁺ 2,8; Mg²⁺ 2,8; Al³⁺ 2,8.
+[chem3-s1.17.3] Potassium and calcium ions also have noble-gas configurations: K⁺ 2,8,8; Ca²⁺ 2,8,8.
+[chem3-s1.17.4] Non-metals in groups 15, 16 and 17 gain electrons to form negative ions with a noble-gas configuration: N³⁻ 2,8; O²⁻ 2,8; F⁻ 2,8.
+[chem3-s1.17.5] Sulfide and chloride ions have noble-gas configurations: S²⁻ 2,8,8; Cl⁻ 2,8,8.
+[chem3-s1.17.6] Ions with the same electron arrangement as each other are isoelectronic; for example Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have the arrangement 2,8.
+[chem3-s1.18.b] A main energy level is split into sublevels, and each sublevel is made of orbitals. The type of sublevel decides how many orbitals it has and so how many electrons it holds.
+[chem3-s1.18.0] A sublevel is a subdivision of a main energy level, made of orbitals of equal energy; the sublevels are s, p, d and f.
+[chem3-s1.18.1] An s sublevel has 1 orbital, holding 2 electrons, because each orbital holds 2.
+[chem3-s1.18.2] A p sublevel has 3 orbitals, holding 6 electrons, because each orbital holds 2.
+[chem3-s1.18.3] A d sublevel has 5 orbitals, holding 10 electrons, because 5 × 2 = 10.
+[chem3-s1.19.b] The higher the main energy level, the more types of sublevel it contains. The sublevels fill in order of increasing energy, and this order has a surprise at 4s and 3d.
+[chem3-s1.19.0] Level 1 contains 1s only, so it holds just 2 electrons.
+[chem3-s1.19.1] Level 2 contains 2s and 2p, so it holds 2 + 6 = 8 electrons.
+[chem3-s1.19.2] Level 3 contains 3s, 3p and 3d.
+[chem3-s1.19.3] Level 4 contains 4s, 4p, 4d and 4f.
+[chem3-s1.19.4] The order of filling, from lowest to highest energy, is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.
+[chem3-s1.19.5] The 4s sublevel is lower in energy than 3d, so it fills first.
+[chem3-s1.20.b] Three rules decide how electrons are placed in orbitals. Together they let you draw an orbital (box) diagram and count unpaired electrons.
+[chem3-s1.20.0] Aufbau principle: the filling rule above, applied to orbitals; electrons occupy the lowest-energy orbital available first.
+[chem3-s1.20.1] Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins (a property of the electron, like turning in opposite directions), shown as ↑↓.
+[chem3-s1.20.2] Hund's rule: when filling orbitals of equal energy, such as the three 2p orbitals, electrons occupy them singly with parallel spins before any pairing occurs.
+[chem3-s1.20.3] Orbital (box) diagrams show one box per orbital, with arrows for electrons.
+[chem3-s1.20.4] Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons (electrons alone in an orbital).
+[chem3-s1.20.5] Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons, because its fourth 2p electron has to pair up with one already in an orbital.
+[chem3-s1.21.b] The s, p, d notation writes each sublevel followed by its number of electrons as a superscript. Up to calcium the sublevels simply fill in the order given above.
+[chem3-s1.21.0] Notation writes each sublevel followed by its number of electrons as a superscript: sodium 1s² 2s² 2p⁶ 3s¹.
+[chem3-s1.21.1] Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵.
+[chem3-s1.21.2] Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s², with 4s filling before 3d because 4s is lower in energy.
+[chem3-s1.21.3] Beyond calcium the 3d sublevel fills.
+[chem3-s1.22.b] Once 3d starts to fill, the configurations get longer. The 4s sublevel fills before 3d, but the configuration is written with the levels in order.
+[chem3-s1.22.0] Iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², written in level order rather than filling order.
+[chem3-s1.22.1] Bromine: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵.
+[chem3-s1.22.2] Krypton, element 36, ends 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.22.3] Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s².
+[chem3-s1.23.b] Two elements do not follow the filling order exactly. One electron moves from 4s into 3d, because a half-full or full d sublevel is more stable.
+[chem3-s1.23.0] Chromium is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹.
+[chem3-s1.23.1] Copper is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹.
+[chem3-s1.23.2] The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable.
+[chem3-s1.24.b] To write an ion, take the atom's configuration and remove or add electrons at the outermost sublevel. The result is usually a stable configuration, with full sublevels.
+[chem3-s1.24.0] Ions, excluding transition metal ions, are written by removing or adding electrons from the outermost sublevel: Na⁺ 1s² 2s² 2p⁶.
+[chem3-s1.24.1] Chloride ion: Cl⁻ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.2] Bromide ion: Br⁻ 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.24.3] Calcium ion: Ca²⁺ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.4] Stable configurations at this level are full sublevels (s², p⁶) and the noble-gas configuration ns² np⁶.
+[chem3-s1.25.b] An orbital's shape shows where the electron is most likely to be found. You need only the s and p shapes.
+[chem3-s1.25.0] An s orbital is spherical and centred on the nucleus.
+[chem3-s1.25.1] The 2s orbital is larger than the 1s orbital, because it belongs to a higher energy level, further from the nucleus.
+[chem3-s1.25.2] A p orbital is dumbbell-shaped, with two lobes on either side of the nucleus.
+[chem3-s1.25.3] The three p orbitals in a sublevel, px, py and pz, lie at right angles to each other along the x, y and z axes, and have equal energy.
+[chem3-s1.25.4] Diagram: a sphere labelled s, and three dumbbells along the x, y and z axes labelled px, py and pz.

@@ -1,0 +1,444 @@
+MODE: cost and links
+TARGET chem20-s4: 4. The lithium-ion cell
+[chem20-s4.0.b] A lithium-ion cell stores energy in two electrodes (the solid conductors where the reactions happen) that lithium ions can move in and out of. Knowing what each part is made of, and why, lets you explain both discharging and recharging.
+[chem20-s4.0.0] A lithium-ion cell is a rechargeable (secondary) cell, meaning its reaction can be reversed by an electrical supply so it can be used again. There is more on this in Galvanic and electrolytic cells.
+[chem20-s4.0.1] The negative electrode is graphite, in which lithium atoms are stored between layers of carbon atoms; when the cell is fully charged this is written LiC₆.
+[chem20-s4.0.2] The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂; other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄.
+[chem20-s4.0.3] The electrolyte (the substance between the electrodes that carries charge as moving ions) is a lithium salt, e.g. LiPF₆, dissolved in an organic (non-aqueous) solvent, which lets Li⁺ ions move between the electrodes.
+[chem20-s4.0.4] Water cannot be used as the solvent because lithium reacts with it.
+[chem20-s4.0.5] Electrons flow only through the external circuit (the wires and device outside the cell); in the electrolyte the charge is carried by ions.
+[chem20-s4.0.6] A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell (let current bypass the device).
+[chem20-s4.0.7] Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (a process called intercalation), so the cell can be charged and discharged many times.
+[chem20-s4.0.8] Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) with a separator between them in the electrolyte, joined by an external circuit with a device; Li⁺ moves through the electrolyte and electrons through the circuit, towards the positive electrode on discharge and towards the graphite on charge.
+[chem20-s4.1.b] Discharging is the cell doing its job of powering a device. The cell then behaves as a galvanic cell, and each electrode has its own half-reaction.
+[chem20-s4.1.0] When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction (one with electron transfer, happening by itself) converts chemical energy into electrical energy. There is more on this in Galvanic and electrolytic cells.
+[chem20-s4.1.1] At the negative electrode, which is the anode during discharge (the anode is the electrode where oxidation, loss of electrons, happens), lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form, Li → Li⁺ + e⁻).
+[chem20-s4.1.2] The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.
+[chem20-s4.1.3] The Li⁺ ions move through the electrolyte and separator to the positive electrode, which keeps the charge balanced as electrons leave the negative electrode.
+[chem20-s4.1.4] At the positive electrode, which is the cathode during discharge (the electrode where reduction, gain of electrons, happens), the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.
+[chem20-s4.1.5] Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂.
+[chem20-s4.1.6] A typical LiCoO₂–graphite cell gives about 3.6–3.7 V; LiFePO₄ cells give about 3.2 V.
+[chem20-s4.2.b] Recharging runs the discharge reaction backwards. Because that reverse reaction does not happen by itself, a charger must force it, and the cell then behaves as an electrolytic cell.
+[chem20-s4.2.0] When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy. There is more on this in Galvanic and electrolytic cells.
+[chem20-s4.2.1] At the metal oxide electrode, which is now the anode (where oxidation happens), oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.
+[chem20-s4.2.2] The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.
+[chem20-s4.2.3] At the graphite electrode, now the cathode (where reduction happens), Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.
+[chem20-s4.2.4] Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂.
+[chem20-s4.2.5] Charging stores energy in the changed electrodes, not as stored electrons; the charge stays balanced throughout.
+[chem20-s4.2.6] The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; it remains the negative terminal throughout.
+[chem20-s4.3.b] Lithium is chosen because its properties give a battery that is light and delivers a high voltage. Together these make a lot of energy available from a small mass.
+[chem20-s4.3.0] Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries are light.
+[chem20-s4.3.1] Lithium is at the top of the electrochemical series (the list of species ranked by how readily they gain or lose electrons), with a standard electrode potential of −3.04 V. There is more on this in Balancing redox equations and the electrochemical series.
+[chem20-s4.3.2] Lithium loses electrons very easily, so lithium cells have a high voltage.
+[chem20-s4.3.3] Together these properties give a high energy density, meaning a large amount of energy stored per kilogram, which suits portable devices and vehicles.
+[chem20-s4.3.4] Lithium-ion cells hold their charge well when not in use and have no memory effect (a loss of capacity that some older rechargeable batteries suffer).
+[chem20-s4.3.5] The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry.
+[chem20-s4.3.6] Sony sold the first commercial lithium-ion batteries in 1991.
+[chem20-s4.4.b] A battery's life cycle starts with getting its raw materials out of the ground. Mining is the first stage where the battery has environmental and social costs.
+[chem20-s4.4.0] A lithium-ion battery needs lithium and, depending on its type, cobalt, nickel, manganese, graphite, copper and aluminium.
+[chem20-s4.4.1] Lithium is extracted from hard rock, the mineral spodumene, which is mined mainly in Australia.
+[chem20-s4.4.2] Lithium is also extracted from brines (very salty water) pumped from under salt flats in South America, the “lithium triangle” of Chile, Argentina and Bolivia, where the water is evaporated in large ponds.
+[chem20-s4.4.3] Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife.
+[chem20-s4.4.4] Hard-rock mining needs energy and produces waste rock, dust and emissions.
+[chem20-s4.4.5] About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children.
+[chem20-s4.4.6] This has led to responsible-sourcing schemes and to cobalt-free battery types, e.g. lithium iron phosphate.
+[chem20-s4.4.7] Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint (total greenhouse gas emissions caused) before it is used.
+[chem20-s4.5.b] In use, lithium-ion batteries bring real benefits, but they also wear out and carry a safety hazard. A life-cycle answer needs both sides.
+[chem20-s4.5.0] Applications include mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.
+[chem20-s4.5.1] Electric vehicles produce no exhaust emissions, which improves air quality in towns.
+[chem20-s4.5.2] Over their lifetime, electric vehicles cause lower greenhouse gas emissions than petrol or diesel cars, especially when charged from renewable electricity.
+[chem20-s4.5.3] Battery storage helps renewable electricity replace fossil fuels by storing energy when the wind blows or the sun shines.
+[chem20-s4.5.4] The capacity falls gradually with each charge–discharge cycle and with age, because of side reactions at the electrodes, so batteries eventually need replacing.
+[chem20-s4.5.5] Avoiding very high temperatures and keeping the charge between full and empty extends battery life.
+[chem20-s4.5.6] If a cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably, and the flammable organic electrolyte can catch fire or explode.
+[chem20-s4.5.7] Batteries include a battery management system (electronics that monitor the cell) to prevent overcharging and overheating.
+[chem20-s4.6.b] At the end of its life a battery holds both hazardous and valuable materials. Where it ends up decides whether it is a fire risk or a resource.
+[chem20-s4.6.0] Used lithium-ion batteries must never go in household bins, because crushed or punctured batteries cause fires in bin lorries and waste facilities.
+[chem20-s4.6.1] Used batteries contain toxic and valuable materials, which is why they should be collected separately.
+[chem20-s4.6.2] In Ireland, shops that sell batteries take back used batteries free of charge, and used batteries can be left at recycling centres.
+[chem20-s4.6.3] Vehicle batteries are returned through the dealers.
+[chem20-s4.6.4] Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution.
+[chem20-s4.6.5] Recycling is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled.
+[chem20-s4.6.6] The EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.
+[chem20-s4.6.7] Used vehicle batteries with reduced capacity can have a “second life” as stationary storage (a fixed battery that stores electricity) before they are recycled, which extends their use.
+[chem20-s4.7.b] Recycling works in three steps that turn whole batteries into a powder from which metals can be recovered. Two methods can then be used, with different strengths.
+[chem20-s4.7.0] 1. The batteries are collected and discharged, which makes them safer to handle.
+[chem20-s4.7.1] 2. The batteries are dismantled and shredded to a powder called “black mass”.
+[chem20-s4.7.2] 3. Metals are recovered from the black mass.
+[chem20-s4.7.3] Pyrometallurgy is smelting (heating to extract metal) at high temperature; it recovers cobalt, nickel and copper, but uses a lot of energy and loses most of the lithium.
+[chem20-s4.7.4] Hydrometallurgy dissolves the metals in acid and separates them by precipitation (making a dissolved metal form a solid so it can be filtered off); it recovers more, including lithium.
+[chem20-s4.8.b] Putting the stages together gives a balanced judgement: lithium-ion batteries help the environment in use but cost something at every stage.
+[chem20-s4.8.0] Lithium-ion batteries help cut fossil-fuel use, but each stage of the life cycle (mining, usage, disposal and recycling) has environmental and social costs; longer battery life, responsible sourcing and recycling reduce those costs but do not remove them.
+
+CANDIDATES chem22-s1: 1. Galvanic and electrolytic cells
+[chem22-s1.0.b] Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell below.
+[chem22-s1.0.0] Redox reactions can produce electricity, in galvanic cells, and electricity can drive redox reactions, in electrolytic cells (cells that use an electric supply to force a reaction to happen).
+[chem22-s1.0.1] A galvanic (voltaic) cell, also called a chemical cell, converts chemical energy into electrical energy using a spontaneous redox reaction, meaning one that happens by itself without any energy being supplied.
+[chem22-s1.0.2] A battery is strictly two or more cells joined together, e.g. a 12 V car battery made of six 2 V cells, though the word is also used for a single cell.
+[chem22-s1.0.3] An electrode is a solid electrical conductor, a metal or graphite (a form of carbon), through which electrons enter or leave the cell.
+[chem22-s1.0.4] Electrons cannot pass through the electrolyte (the conducting liquid or paste in the cell), so they travel through the external circuit, the wires outside the cell, from anode to cathode. Inside the cell the charge is carried by ions.
+[chem22-s1.1.b] Every cell has three working parts: two electrodes, where the chemistry happens, and an electrolyte between them. The two electrodes are named by what happens at them.
+[chem22-s1.1.0] Anode: the electrode at which oxidation (loss of electrons) happens. In a galvanic cell it is the negative terminal and the source of the electrons that flow out into the external circuit.
+[chem22-s1.1.1] Cathode: the electrode at which reduction (gain of electrons) happens. In a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted.
+[chem22-s1.1.2] Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis.
+[chem22-s1.1.3] Electrolyte: a substance that conducts electricity by the movement of ions (charged atoms or groups of atoms), as a solution, a molten compound, a paste or a gel.
+[chem22-s1.1.4] The electrolyte carries ions between the electrodes, which completes the circuit inside the cell. Electrons cannot cross it, which is why they are forced round the external circuit.
+[chem22-s1.2.b] A primary cell is a galvanic cell that can be used only once. Its chemistry cannot be run backwards, so it is thrown away (and recycled) when it is finished.
+[chem22-s1.2.0] Its redox reaction cannot be readily reversed, so when the reactants are used up the cell is “flat” and must be discarded and recycled.
+[chem22-s1.2.1] Zinc–carbon cell (1.5 V): the zinc case is the anode (negative), where it is oxidised: Zn(s) → Zn²⁺(aq) + 2e⁻.
+[chem22-s1.2.2] Zinc–carbon cell: a central carbon (graphite) rod surrounded by manganese(IV) oxide is the cathode (positive), where MnO₂ is reduced.
+[chem22-s1.2.3] Zinc–carbon cell: the electrolyte is a moist paste of ammonium chloride, with zinc chloride.
+[chem22-s1.2.4] Alkaline cell (1.5 V): a powdered zinc anode and a manganese(IV) oxide cathode, with potassium hydroxide, an alkali (a soluble base), as the electrolyte.
+[chem22-s1.2.5] An alkaline cell lasts longer and gives a steadier voltage than a zinc–carbon cell.
+[chem22-s1.2.6] Lithium primary cells (about 3 V) are small button or coin cells used in watches, calculators and car keys, with lithium metal as the anode.
+[chem22-s1.2.7] Primary cells suit low-power or occasional devices that must work for a long time without attention, e.g. remote controls, clocks, smoke alarms and torches.
+[chem22-s1.3.b] A secondary cell is a galvanic cell that can be recharged. “Secondary” does not mean a different kind of chemistry; it just means the cell is rechargeable.
+[chem22-s1.3.0] Connecting it to an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants, so it can be used many times.
+[chem22-s1.3.1] During discharge (when it supplies current) it works as a galvanic cell, converting chemical energy to electrical energy.
+[chem22-s1.3.2] During recharging it works as an electrolytic cell, converting electrical energy to chemical energy.
+[chem22-s1.3.3] The electrode that is the anode on discharge becomes the cathode on charge, and vice versa, because the reaction at each electrode is reversed.
+[chem22-s1.3.4] Recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge a cell can hold.
+[chem22-s1.3.5] Secondary cells therefore wear out after many cycles of discharging and recharging, typically hundreds to thousands.
+[chem22-s1.4.b] Three secondary cells are worth knowing, each with a different voltage and use. Compare them with the primary cells above, which are used once and discarded.
+[chem22-s1.4.0] Lead–acid cell (2 V per cell; six in a 12 V car battery): lead plates (negative) and lead(IV) oxide plates (positive) in sulfuric acid.
+[chem22-s1.4.1] On discharge both plates become coated with lead(II) sulfate and the acid becomes more dilute; recharging by the car's alternator (the generator driven by the engine) reverses this.
+[chem22-s1.4.2] Nickel–metal hydride (NiMH) cell (1.2 V): rechargeable AA and AAA cells used in place of alkaline cells.
+[chem22-s1.4.3] Lithium-ion cell (about 3.6–3.7 V): used in phones, laptops and electric vehicles. There is more on this in The lithium-ion cell.
+[chem22-s1.5.b] Both types supply electricity from a redox reaction, but they differ in whether the reaction can be reversed. That one difference drives their cost, waste, storage and uses.
+[chem22-s1.5.0] Rechargeable: a primary cell cannot be, because its reaction is not readily reversible; a secondary cell can, because an external current reverses its reaction.
+[chem22-s1.5.1] Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.
+[chem22-s1.5.2] Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy. There is more on this in Fuel cells and sustainability.
+[chem22-s1.5.3] Storage: primary cells keep their charge for years on the shelf (low self-discharge, meaning little charge leaks away unused), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.
+[chem22-s1.5.4] Uses: primary cells suit low-drain (small current) or occasional devices; secondary cells suit high-drain devices used daily, such as phones, laptops, power tools, electric vehicles and car starter batteries.
+[chem22-s1.5.5] Similarities: both are galvanic cells when supplying electricity, and both have an anode (oxidation), a cathode (reduction) and an electrolyte.
+[chem22-s1.5.6] Both should be returned for recycling rather than put in household waste, because they contain metals that can pollute soil and water.
+[chem22-s1.6.b] The galvanic cell grew out of Galvani's frog-leg experiments and Volta's disagreement with his explanation of them. Volta's work led to the first battery.
+[chem22-s1.6.0] Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.
+[chem22-s1.6.1] Galvani believed the electricity came from the animal itself, which he called “animal electricity”.
+[chem22-s1.6.2] Alessandro Volta showed that the electricity came from two different metals in contact with a conducting liquid, not from the animal.
+[chem22-s1.6.3] In 1800 Volta built the first battery, the voltaic pile: a stack of zinc and copper (or silver) discs separated by cardboard or cloth soaked in salt water.
+[chem22-s1.6.4] Galvanic cells, also called voltaic cells, are named after Galvani and Volta.
+[chem22-s1.7.b] A redox reaction moves electrons from one substance to another. If the electrons are made to travel through a wire on the way, the reaction produces a current instead of just heat.
+[chem22-s1.7.0] When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
+[chem22-s1.7.1] Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction (a more reactive metal pushes a less reactive one out of solution).
+[chem22-s1.7.2] A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.
+[chem22-s1.7.3] This flow of electrons is an electric current, which is why separating the half-cells produces useful electricity.
+[chem22-s1.7.4] A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.
+[chem22-s1.8.b] Which metal becomes the anode depends on the electrochemical series, the list that ranks metals by how easily they are oxidised. The positions of the two metals also decide the voltage.
+[chem22-s1.8.0] The metal higher in the electrochemical series, the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive). There is more on the series in Balancing redox equations and the electrochemical series.
+[chem22-s1.8.1] The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.
+[chem22-s1.8.2] Under standard conditions (1 M solutions, where M means mol L⁻¹, at 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V.
+[chem22-s1.9.b] The copper–zinc cell is the standard galvanic cell, with the zinc and copper in separate beakers joined by wires and a salt bridge (a link that lets ions pass between the beakers).
+[chem22-s1.9.0] Set-up: a zinc strip in 1 M zinc sulfate solution and a copper strip in 1 M copper(II) sulfate solution, in separate beakers.
+[chem22-s1.9.1] The metals are joined by wires through a voltmeter (a meter that measures voltage) or bulb, and the solutions by a salt bridge; the voltage is about 1.1 V.
+[chem22-s1.9.2] Zinc electrode (anode, negative, oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻. Zinc atoms lose electrons and go into solution as ions.
+[chem22-s1.9.3] Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.
+[chem22-s1.9.4] Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.
+[chem22-s1.9.5] Zinc is the reducing agent (it gives electrons away, so it reduces the other substance) and Cu²⁺ is the oxidising agent (it takes electrons, so it oxidises the zinc).
+[chem22-s1.9.6] Electrons flow through the external wire from the zinc to the copper, because zinc is the anode and is oxidised.
+[chem22-s1.10.b] As the cell runs, the reaction changes both electrodes and the solution. Each change follows directly from the half-equations.
+[chem22-s1.10.0] Over time the zinc electrode wears away and loses mass, because zinc atoms become Zn²⁺ ions that dissolve.
+[chem22-s1.10.1] The copper electrode gains a fresh pink-brown coating and gains mass, because Cu²⁺ ions are reduced to copper metal on it.
+[chem22-s1.10.2] The blue colour of the copper(II) sulfate solution fades as Cu²⁺ is used up, and the voltage slowly falls.
+[chem22-s1.11.b] The salt bridge connects the two solutions without letting them mix. Electrons cannot cross it, but ions can, and that is what keeps the cell working.
+[chem22-s1.11.0] A salt bridge is a strip of filter paper soaked in potassium nitrate (or potassium chloride) solution, or a U-tube of the salt solution set in agar gel (a jelly that holds the solution in place).
+[chem22-s1.11.1] It completes the circuit: ions move through it, carrying charge between the half-cells.
+[chem22-s1.11.2] It keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions (NO₃⁻) move into it.
+[chem22-s1.11.3] As Cu²⁺ ions are removed from the copper half-cell, positive ions (K⁺) move into it.
+[chem22-s1.11.4] Without it, charge would build up in each beaker and the current would stop at once.
+[chem22-s1.11.5] Potassium nitrate is used because its ions do not react with the electrode solutions; it forms no precipitate (an insoluble solid that would appear in the solution).
+[chem22-s1.12.b] This investigation builds a copper–zinc cell and tests what it needs in order to work. The aim is to build the cell, measure its voltage, and compare the voltages from different pairs of metals.
+[chem22-s1.12.0] Variables: the independent variable (the one you change) is the pair of metals; the dependent variable (the one you measure) is the voltage; the controlled variables are the concentration and volume of the solutions, the temperature, and the size and cleanliness of the strips.
+[chem22-s1.12.1] 1. Clean strips of zinc and copper with sandpaper (emery paper) to remove the oxide layer, which would otherwise reduce the voltage.
+[chem22-s1.12.2] 2. Half-fill one beaker with 1 M zinc sulfate solution and another with 1 M copper(II) sulfate solution; stand the zinc strip in the first and the copper strip in the second.
+[chem22-s1.12.3] 3. Soak a strip of filter paper in potassium nitrate solution and drape it between the two beakers, with each end in a solution.
+[chem22-s1.12.4] 4. Connect the metals to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage.
+[chem22-s1.12.5] 5. Replace the voltmeter with a small bulb or LED to show that a current flows.
+[chem22-s1.12.6] 6. Remove the salt bridge and record the voltage again; it falls to zero, showing the bridge is needed.
+[chem22-s1.12.7] 7. Repeat with other metal pairs, e.g. magnesium–copper and iron–copper, each metal in a solution of its own ions, using a fresh salt bridge each time.
+[chem22-s1.13.b] Once the cell is built, the results show how metal choice affects voltage. Safety and sources of error complete the write-up.
+[chem22-s1.13.0] Results: the measured voltages are usually a little lower than the standard values, and the larger the gap between the metals in the electrochemical series, the larger the voltage.
+[chem22-s1.13.1] A simpler cell: zinc and copper strips pushed into a lemon, or dipped into one beaker of salt solution or dilute acid, also give a voltage, because the juice or solution is an electrolyte.
+[chem22-s1.13.2] Safety: wear goggles; copper(II) sulfate is harmful, an irritant and toxic to aquatic life, so do not pour it down the sink and dispose of it as directed; zinc sulfate is an irritant; wash hands afterwards.
+[chem22-s1.13.3] Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.
+[chem22-s1.13.4] Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper.
+[chem22-s1.14.b] Electrolysis is the use of electricity to bring about a chemical reaction, a redox reaction, that would not happen on its own. It is carried out in an electrolytic cell.
+[chem22-s1.14.0] An electrolytic cell has two electrodes dipping into an electrolyte, which is a molten ionic compound or a solution of ions.
+[chem22-s1.14.1] The electrodes are connected to an external source of direct current (d.c., current that flows one way only), e.g. a battery or power pack.
+[chem22-s1.14.2] The external supply pumps electrons onto one electrode, making it negative, and removes electrons from the other, making it positive.
+[chem22-s1.14.3] Positive ions (cations) move to the negative electrode, the cathode, where they gain electrons (reduction).
+[chem22-s1.14.4] Negative ions (anions) move to the positive electrode, the anode, where they lose electrons (oxidation).
+[chem22-s1.14.5] The current is carried by electrons in the wires and by moving ions in the electrolyte.
+[chem22-s1.14.6] Inert electrodes (ones that do not react), platinum or carbon (graphite), conduct electricity but do not take part in the reaction; they ensure the products come only from the electrolyte.
+[chem22-s1.14.7] Michael Faraday introduced the words electrolysis, electrode, anode, cathode and ion in 1834; electrolysis means breaking up by electricity.
+[chem22-s1.15.b] A galvanic cell and an electrolytic cell are mirror images: one turns a reaction into electricity, the other turns electricity into a reaction.
+[chem22-s1.15.0] Energy: a galvanic cell converts chemical energy to electrical energy; an electrolytic cell converts electrical energy to chemical energy.
+[chem22-s1.15.1] Reaction: a galvanic cell's reaction is spontaneous; an electrolytic cell's reaction is non-spontaneous and driven by the external supply.
+[chem22-s1.15.2] Signs: in a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.
+[chem22-s1.15.3] In both cells oxidation happens at the anode and reduction at the cathode, because the anode is defined by oxidation, not by its sign.
+[chem22-s1.15.4] A galvanic cell needs two different electrodes in two half-cells, usually with a salt bridge; an electrolytic cell can use two identical inert electrodes in one electrolyte.
+[chem22-s1.16.b] Water can be split into hydrogen and oxygen by electrolysis. Pure water has almost no ions, so it needs help to conduct.
+[chem22-s1.16.0] Pure water conducts electricity very poorly, so a little dilute sulfuric acid is added to provide ions and let a current flow.
+[chem22-s1.16.1] Apparatus: a Hofmann voltameter (a glass apparatus with graduated tubes that collect the gases), or two inverted test tubes filled with the solution over the electrodes in a beaker, with platinum (or carbon) electrodes connected to a 6–12 V d.c. supply.
+[chem22-s1.16.2] Bubbles of gas form at both electrodes; the volume of gas at the negative electrode is twice that at the positive electrode.
+[chem22-s1.16.3] Test the gas from the negative electrode (cathode) with a lighted splint: it burns with a squeaky pop, so it is hydrogen.
+[chem22-s1.16.4] Test the gas from the positive electrode (anode) with a glowing splint: it relights, so it is oxygen.
+[chem22-s1.16.5] Diagram: a Hofmann voltameter with platinum electrodes and a d.c. supply, labelled cathode (−) with hydrogen and anode (+) with oxygen, the hydrogen column twice the height of the oxygen column.
+[chem22-s1.17.b] The volumes of gas and the behaviour of the acid are explained by the formula of water and by what is removed from the solution.
+[chem22-s1.17.0] The 2 : 1 volume ratio of hydrogen to oxygen matches the formula H₂O, showing that water has been split into its elements.
+[chem22-s1.17.1] In practice the oxygen volume is often slightly less than half, because oxygen is more soluble in water than hydrogen.
+[chem22-s1.17.2] The sulfuric acid is not used up: only water is removed, so its concentration stays the same.
+[chem22-s1.17.3] Water can also be split by electrolysing sodium sulfate solution with universal indicator (a dye that changes colour across the pH range) added: the same gases form, and the solution turns blue-purple around the cathode (OH⁻ formed) and red around the anode (H⁺ formed).
+[chem22-s1.18.b] In this practical the copper(II) chloride is split into its two elements, copper and chlorine, and each product is identified by what you see or test at its electrode.
+[chem22-s1.18.0] Set-up: copper(II) chloride solution in a U-tube or beaker, with two carbon (graphite) electrodes connected to a d.c. supply; carry out in a fume cupboard or for a short time only.
+[chem22-s1.18.1] At the negative electrode (cathode) a pink-brown coating of copper metal forms.
+[chem22-s1.18.2] At the positive electrode (anode) pale green bubbles of a gas with a sharp smell form; it turns damp blue litmus paper red and then bleaches it, so it is chlorine.
+[chem22-s1.18.3] The blue-green colour of the solution fades as copper(II) ions are removed.
+[chem22-s1.18.4] Safety: chlorine is toxic, so use a fume cupboard, keep the current on only briefly, and do not sniff the gas directly.
+[chem22-s1.18.5] Diagram: a U-tube of copper(II) chloride solution with graphite electrodes and a d.c. supply, labelled copper at the cathode (−) and chlorine at the anode (+), with damp litmus paper at the anode.
+[chem22-s1.19.b] Here the two products are identified with indicators: starch for iodine and phenolphthalein (an indicator that is pink in alkali) for hydroxide ions. The surprise is what does not form at the cathode.
+[chem22-s1.19.0] Set-up: potassium iodide solution with a few drops of phenolphthalein, in a U-tube with two platinum (or carbon) electrodes connected to a d.c. supply.
+[chem22-s1.19.1] At the positive electrode (anode) the solution turns brown (yellow-brown) as iodine forms; a drop of starch solution turns it blue-black, confirming iodine.
+[chem22-s1.19.2] At the negative electrode (cathode) bubbles of hydrogen gas form, and the solution turns pink, showing that it has become alkaline because hydroxide ions have formed.
+[chem22-s1.19.3] Potassium is not formed at the cathode: potassium is very high in the electrochemical series, so K⁺ ions are very hard to reduce and water is reduced instead.
+[chem22-s1.19.4] Safety: wear goggles; iodine stains skin and is harmful.
+[chem22-s1.19.5] Diagram: a U-tube of potassium iodide with phenolphthalein and platinum electrodes, labelled brown iodine at the anode (+) and pink colour with hydrogen bubbles at the cathode (−).
+[chem22-s1.20.b] Half-equations show what happens to electrons at each electrode. Reduction at the cathode uses electrons and oxidation at the anode releases them.
+[chem22-s1.20.0] Acidified water, cathode (reduction): 4H⁺(aq) + 4e⁻ → 2H₂(g), or 2H⁺ + 2e⁻ → H₂.
+[chem22-s1.20.1] Acidified water, anode (oxidation): 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻.
+[chem22-s1.20.2] Acidified water, overall: 2H₂O(l) → 2H₂(g) + O₂(g). The same 4 electrons give 2 H₂ and 1 O₂, which explains the 2 : 1 volume ratio; the H⁺ used at the cathode is replaced at the anode, so the acid is not used up.
+[chem22-s1.20.3] Sodium sulfate solution, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq), which turns universal indicator blue-purple; the anode reaction is the same as for acidified water, and turns the indicator red.
+[chem22-s1.21.b] The same approach gives the half-equations for the two salt solutions. In each, the oxidation number (a number showing how many electrons an atom has lost or gained) confirms which half is oxidation and which is reduction.
+[chem22-s1.21.0] Copper(II) chloride, cathode (reduction): Cu²⁺(aq) + 2e⁻ → Cu(s).
+[chem22-s1.21.1] Copper(II) chloride, anode (oxidation): 2Cl⁻(aq) → Cl₂(g) + 2e⁻.
+[chem22-s1.21.2] Copper(II) chloride, overall: Cu²⁺(aq) + 2Cl⁻(aq) → Cu(s) + Cl₂(g).
+[chem22-s1.21.3] Potassium iodide, anode (oxidation): 2I⁻(aq) → I₂(aq) + 2e⁻; the iodine dissolves in the iodide solution, colouring it brown.
+[chem22-s1.21.4] Potassium iodide, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq); the OH⁻ turns phenolphthalein pink.
+[chem22-s1.21.5] Potassium iodide, overall: 2I⁻(aq) + 2H₂O(l) → I₂(aq) + H₂(g) + 2OH⁻(aq).
+[chem22-s1.21.6] Oxidation numbers confirm each half-reaction: the oxidation number of chlorine changes from −1 to 0 (oxidation) and that of copper from +2 to 0 (reduction).
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem7-s1: 1. Families and trends in the periodic table
+[chem7-s1.0.b] An element's position in the periodic table tells you how its atoms behave. Columns are called groups, and the groups on the left and right edges are the ones you need to know.
+[chem7-s1.0.0] Elements in the same group have the same number of outer electrons (the electrons in the highest occupied energy level), so they undergo similar reactions.
+[chem7-s1.0.1] Going down a group, atoms have more energy levels (the shells that hold electrons around the nucleus), which explains the trends in reactivity within each group.
+[chem7-s1.0.2] Groups 1 and 2 are on the left of the periodic table; they are metals that lose electrons to form positive ions (charged particles).
+[chem7-s1.0.3] Groups 17 and 18 are on the right; the halogens (group 17) are non-metals that gain electrons, and the noble gases (group 18) neither gain nor lose electrons.
+[chem7-s1.0.4] Hydrogen appears in group 1 in some tables but is not an alkali metal.
+[chem7-s1.1.b] Group 1 is the first column of the periodic table. Its metals are named alkali metals because they form alkaline solutions with water, and each has a single outer electron that it loses very easily.
+[chem7-s1.1.0] Members: lithium, sodium, potassium, rubidium, caesium and francium; each atom has one outer electron.
+[chem7-s1.1.1] State and conductivity: soft, shiny solids when freshly cut, with low densities and low melting points for metals; good conductors of heat and electricity.
+[chem7-s1.1.2] Reactivity: very reactive, so they tarnish quickly in air (the shiny surface goes dull as it reacts) and are stored under oil to keep air and moisture away.
+[chem7-s1.1.3] Reactivity increases down the group because the outer electron is further from the nucleus and more shielded (inner electrons block some of the nucleus's pull), so it is lost more easily.
+[chem7-s1.1.4] They form 1+ ions (Li⁺, Na⁺, K⁺) because each atom loses its one outer electron, and they make ionic compounds such as sodium chloride.
+[chem7-s1.1.5] Safety: use only small pieces, behind a safety screen and wearing goggles, because the reactions are vigorous; never touch them with bare hands.
+[chem7-s1.2.b] All the alkali metals react with water to give an alkaline solution and hydrogen gas. What you see changes with the metal, and the observations show the trend in reactivity.
+[chem7-s1.2.0] With water they form an alkaline hydroxide and hydrogen: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem7-s1.2.1] Lithium: 2Li(s) + 2H₂O(l) → 2LiOH(aq) + H₂(g). Potassium: 2K(s) + 2H₂O(l) → 2KOH(aq) + H₂(g).
+[chem7-s1.2.2] Lithium floats and fizzes steadily on the water, the gentlest of the three.
+[chem7-s1.2.3] Sodium melts into a silvery ball that darts about on the surface.
+[chem7-s1.2.4] Potassium reacts violently, and the hydrogen it gives off burns with a lilac flame.
+[chem7-s1.2.5] The solution formed turns universal indicator (a mixture of dyes that shows pH by colour) purple, showing that it is alkaline.
+[chem7-s1.3.b] Group 2 sits next to group 1. These metals are also reactive, but each atom has two outer electrons to lose, which makes them a little less reactive than their group 1 neighbours.
+[chem7-s1.3.0] Members: beryllium, magnesium, calcium, strontium, barium and radium; each atom has two outer electrons.
+[chem7-s1.3.1] State and conductivity: solid metals, harder and denser than group 1 metals; good conductors.
+[chem7-s1.3.2] Reactivity: reactive, but less so than group 1 metals in the same period (the same row), because two electrons must be lost.
+[chem7-s1.3.3] Calcium reacts steadily with cold water: Ca(s) + 2H₂O(l) → Ca(OH)₂(aq) + H₂(g).
+[chem7-s1.3.4] Magnesium reacts only very slowly with cold water but burns in air with a bright white flame: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem7-s1.3.5] Reactivity increases down the group, for the same reason as group 1: the outer electrons are further from the nucleus and more shielded.
+[chem7-s1.3.6] They form 2+ ions (Mg²⁺, Ca²⁺) because each atom loses its two outer electrons.
+[chem7-s1.4.b] The halogens are the reactive non-metals in group 17. Each atom is one electron short of a full outer level, so it readily gains one electron.
+[chem7-s1.4.0] Members: fluorine, chlorine, bromine and iodine (astatine); each atom has seven outer electrons.
+[chem7-s1.4.1] The halogens exist as diatomic molecules (two atoms joined together): F₂, Cl₂, Br₂ and I₂.
+[chem7-s1.4.2] Fluorine is a pale yellow gas at room temperature, and chlorine is a yellow-green gas.
+[chem7-s1.4.3] Bromine is a red-brown liquid at room temperature. Iodine is a grey-black solid that forms a purple vapour when heated.
+[chem7-s1.4.4] Conductivity: halogens are non-metals and do not conduct electricity.
+[chem7-s1.4.5] Reactivity: very reactive non-metals that gain one electron to form 1− halide ions (negative ions of a halogen): F⁻, Cl⁻, Br⁻ and I⁻.
+[chem7-s1.4.6] They react with metals to form salts, e.g. 2Na(s) + Cl₂(g) → 2NaCl(s).
+[chem7-s1.4.7] Reactivity decreases down the group because larger atoms attract an extra electron less strongly, as it is further from the nucleus and more shielded.
+[chem7-s1.5.b] Because reactivity falls down group 17, a more reactive halogen can push a less reactive one out of a solution of its salt. This is called displacement, and the colour change shows it has happened.
+[chem7-s1.5.0] Displacement: a more reactive halogen displaces a less reactive one from a solution of its salt.
+[chem7-s1.5.1] Chlorine and potassium bromide: Cl₂(aq) + 2KBr(aq) → 2KCl(aq) + Br₂(aq); the colourless solution turns orange-brown as bromine forms.
+[chem7-s1.5.2] Chlorine and potassium iodide: Cl₂(aq) + 2KI(aq) → 2KCl(aq) + I₂(aq); the solution turns brown as iodine forms.
+[chem7-s1.5.3] Bromine displaces iodine from a solution of its salt but does not displace chlorine, because bromine is less reactive than chlorine.
+[chem7-s1.5.4] Safety: halogens are toxic and corrosive, so they are used in a fume cupboard (an enclosure that draws fumes away from the user).
+[chem7-s1.6.b] The noble gases are the last column of the periodic table. Their atoms already have a full outer energy level, so they have almost no tendency to react, and their uses depend on that.
+[chem7-s1.6.0] Members: helium, neon, argon, krypton, xenon and radon.
+[chem7-s1.6.1] State: colourless, odourless gases made of single atoms (monatomic).
+[chem7-s1.6.2] Conductivity: non-conductors.
+[chem7-s1.6.3] Reactivity: very unreactive (inert) because they have full outer energy levels, a stable arrangement: helium has 2 outer electrons and the others have 8.
+[chem7-s1.6.4] Helium is used in balloons and airships because it is unreactive and has a low density.
+[chem7-s1.6.5] Argon is used in filament light bulbs and as a shield gas in welding, where its lack of reactivity protects the hot metal and the filament.
+[chem7-s1.6.6] Neon is used in advertising signs, where it glows red in an electric discharge.
+[chem7-s1.7.b] The periodic table lists elements in order of atomic number (the number of protons in an atom). Relative atomic mass (the average mass of an atom of the element, compared with carbon-12) follows a looser pattern.
+[chem7-s1.7.0] Atomic number increases by one from each element to the next.
+[chem7-s1.7.1] Relative atomic mass generally increases with atomic number.
+[chem7-s1.7.2] Relative atomic mass falls in a few places: argon (39.95) comes before potassium (39.10), and tellurium (127.6) comes before iodine (126.9).
+[chem7-s1.7.3] These exceptions come from the mix of isotopes (atoms of the same element with different masses) of each element, not from mistakes in the table.
+[chem7-s1.8.b] The way outer electrons change across and down the table explains why elements are arranged in periods (rows) and groups (columns).
+[chem7-s1.8.0] Across a period, the number of outer electrons increases by one at each step, all in the same main energy level, which is why a period is one row.
+[chem7-s1.8.1] Down a group, the number of outer electrons stays the same, so the elements react similarly, but a new main energy level is added each time, so the outer electrons are further out.
+[chem7-s1.8.2] The repeating pattern of outer-electron arrangements causes periodicity (the regular repeating of properties down the table): elements with the same outer arrangement fall in the same group.
+[chem7-s1.9.b] Electronegativity is the ability of an atom to attract bonding electrons towards itself. Values are on the Pauling scale.
+[chem7-s1.9.0] Electronegativity increases across a period, e.g. sodium 0.93 to chlorine 3.16 in period 3.
+[chem7-s1.9.1] Electronegativity decreases down a group, e.g. fluorine 3.98 to iodine 2.66 in group 17.
+[chem7-s1.9.2] The explanation for these values is in "Bond type and intermolecular forces".
+[chem7-s1.10.b] Atoms react because they are more stable with a full outer level. This explains why reactivity rises and falls in a pattern across and down the table.
+[chem7-s1.10.0] Atoms react to reach a full outer level of eight electrons (the octet rule), by losing, gaining or sharing electrons.
+[chem7-s1.10.1] Metals react by losing electrons: reactivity increases down group 1 and group 2, because the outer electrons are further from the nucleus and more shielded.
+[chem7-s1.10.2] Across a period, metal reactivity decreases from group 1 to group 2 to group 13.
+[chem7-s1.10.3] Non-metals react by gaining electrons: reactivity decreases down group 17, because larger atoms attract an extra electron less strongly.
+[chem7-s1.10.4] Across a period, non-metal reactivity generally increases towards group 17.
+[chem7-s1.10.5] Noble gases already have a full outer level, so they have no need to gain or lose electrons and are unreactive.
+[chem7-s1.11.b] Period 3 runs from sodium to argon. Across it the elements change from metals to non-metals, and the physical properties change with them.
+[chem7-s1.11.0] Sodium, magnesium and aluminium are shiny metals and good conductors.
+[chem7-s1.11.1] Silicon is a metalloid (an element with properties between those of a metal and a non-metal) and a semiconductor (it conducts only slightly).
+[chem7-s1.11.2] Phosphorus, sulfur, chlorine and argon are non-metals and non-conductors.
+[chem7-s1.11.3] Melting points rise across period 3 to a maximum at silicon (1414 °C), which has a giant covalent structure (a huge network of atoms joined by covalent bonds).
+[chem7-s1.11.4] Beyond silicon, melting points fall sharply for the molecular non-metals and for argon.
+[chem7-s1.11.5] Down group 1, melting points decrease: lithium 181 °C, sodium 98 °C, potassium 63 °C.
+[chem7-s1.11.6] Down group 17, melting and boiling points increase, so the halogens change from gases to a liquid to a solid.
+[chem7-s1.12.b] These trends are Higher Level only. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.
+[chem7-s1.12.0] Atomic (covalent) radius decreases across a period and increases down a group.
+[chem7-s1.12.1] First ionisation energy generally increases across a period and decreases down a group.
+[chem7-s1.12.2] Successive ionisation energies of an element always increase.
+[chem7-s1.12.3] Higher Level trends extend to the first 36 elements, to krypton; Ordinary level uses the first 20, to calcium.
+[chem7-s1.13.b] How strongly an atom holds its outer electrons depends on three factors. They explain every trend in atomic radius and ionisation energy that follows.
+[chem7-s1.13.0] Effective nuclear charge: the more protons in the nucleus, the stronger the pull on the outer electrons.
+[chem7-s1.13.1] Distance: the further the outer electrons are from the nucleus (more energy levels), the weaker the pull on them.
+[chem7-s1.13.2] Screening (shielding): inner electrons shield the outer electrons from the full nuclear charge; electrons in the same energy level shield each other very little.
+[chem7-s1.14.b] Atomic radius measures the size of an atom. Its trends follow from the nuclear charge, the number of energy levels and the screening.
+[chem7-s1.14.0] Atomic (covalent) radius: half the distance between the nuclei of two atoms of the same element joined by a single covalent bond.
+[chem7-s1.14.1] Across a period it decreases: nuclear charge increases while electrons enter the same main energy level, with little extra screening, so the outer electrons are pulled closer.
+[chem7-s1.14.2] Down a group it increases: each element has an extra energy level, and the extra inner electrons screen the outer electrons, outweighing the increase in nuclear charge.
+[chem7-s1.14.3] Noble gases are not given a covalent radius because they don't form bonds.
+[chem7-s1.15.b] First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends, and a few elements break the pattern because of sublevel stability and electron pairing.
+[chem7-s1.15.0] First ionisation energy: the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state (lowest energy state): X(g) → X⁺(g) + e⁻. Its unit is kJ mol⁻¹.
+[chem7-s1.15.1] Period 2 first ionisation energies (kJ mol⁻¹): Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2081.
+[chem7-s1.15.2] Period 3 first ionisation energies (kJ mol⁻¹): Na 496, Mg 738, Al 578, Si 787, P 1012, S 1000, Cl 1251, Ar 1521.
+[chem7-s1.15.3] Values are standard data book figures, rounded.
+[chem7-s1.15.4] Across a period the value generally increases, because nuclear charge increases and atomic radius decreases, so the outer electron is held more tightly. Noble gases have the highest first ionisation energy in each period.
+[chem7-s1.15.5] Down a group the value decreases, because the outer electron is further from the nucleus and more screened, despite the larger nuclear charge.
+[chem7-s1.15.6] Group 1 metals have the lowest values in each period, which is why they lose electrons easily and are so reactive; the value falls down the group to potassium at 419 kJ mol⁻¹.
+[chem7-s1.16.b] The rise across a period is not perfectly smooth, because a few elements have a lower value than the one before. The cause is the stability of particular sublevels (subdivisions of an energy level, such as 2s and 2p) and electron pairing.
+[chem7-s1.16.0] Beryllium is higher than boron (899 against 801 kJ mol⁻¹) because beryllium's 2s sublevel is full (1s² 2s²), a stable arrangement.
+[chem7-s1.16.1] Boron's outer electron is alone in a 2p orbital (1s² 2s² 2p¹), which is slightly higher in energy and more screened, so it is removed more easily.
+[chem7-s1.16.2] Nitrogen is higher than oxygen (1402 against 1314 kJ mol⁻¹) because nitrogen's 2p sublevel is half full, with one electron in each orbital (2p³), a stable arrangement.
+[chem7-s1.16.3] In oxygen (2p⁴) one 2p orbital holds a pair of electrons, and repulsion between the paired electrons makes one of them easier to remove.
+[chem7-s1.16.4] The same pattern occurs in period 3: magnesium (738) is higher than aluminium (578), and phosphorus (1012) is higher than sulfur (1000).
+[chem7-s1.16.5] Diagram: a graph of first ionisation energy against atomic number for elements 1 to 20, showing peaks at the noble gases, troughs at the alkali metals and small dips after Be, N, Mg and P.
+[chem7-s1.17.b] After the first electron is removed, more can be taken away one at a time. The sizes of the successive energies reveal how an atom's electrons are arranged in energy levels.
+[chem7-s1.17.0] Second ionisation energy: the energy needed to remove an electron from a 1+ ion, not a second electron from the neutral atom: X⁺(g) → X²⁺(g) + e⁻; the third and later follow the same pattern.
+[chem7-s1.17.1] Successive ionisation energies always increase, because each electron is removed from an increasingly positive ion, so the same nuclear charge holds fewer electrons more tightly.
+[chem7-s1.17.2] A very large jump occurs when an electron is removed from a new, inner energy level, which is closer to the nucleus and less screened.
+[chem7-s1.17.3] Magnesium: 738, 1451 and 7733 kJ mol⁻¹; the big jump between the second and third shows two outer electrons, so magnesium is in group 2.
+[chem7-s1.17.4] Sodium: 496 then 4562 kJ mol⁻¹; the big jump after the first shows one outer electron, so sodium is in group 1.
+[chem7-s1.17.5] A graph of the log of successive ionisation energies against electron number for potassium shows jumps that group its electrons into 2, 8, 8 and 1, which is evidence for main energy levels.

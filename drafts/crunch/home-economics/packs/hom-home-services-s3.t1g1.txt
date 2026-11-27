@@ -1,0 +1,217 @@
+MODE: cost and links
+TARGET hom-home-services-s3: 3. Electricity
+[hom-home-services-s3.0.b] Electricity in the home is described by three quantities: how hard the supply pushes, how much charge flows and how fast an appliance uses energy. The relationship between them lets a student calculate the current an appliance draws.
+[hom-home-services-s3.0.0] Voltage (V) is the electrical pressure that pushes current around a circuit, a bit like water pressure in a pipe. The standard Irish domestic supply is 230 V at 50 Hz (50 cycles per second).
+[hom-home-services-s3.0.1] Current (I), measured in amperes or amps (A), is the rate of flow of electric charge through a conductor, such as the copper wire in a flex.
+[hom-home-services-s3.0.2] Wattage (W) is the rate at which an appliance uses electrical energy, so it measures power. 1 kilowatt (kW) equals 1000 watts.
+[hom-home-services-s3.0.3] Power relationship: wattage = voltage × current (W = V × A), so current = wattage ÷ voltage.
+[hom-home-services-s3.0.4] Worked example: a 2300 W kettle on a 230 V supply draws 2300 ÷ 230 = 10 A.
+[hom-home-services-s3.0.5] A higher wattage appliance uses more electricity per hour, so a 3 kW heater uses three times the energy of a 1 kW appliance running for the same time.
+[hom-home-services-s3.0.6] Appliance rating plates give the voltage and wattage, and appliances rated for 230 V must be used on the Irish supply to avoid damage.
+[hom-home-services-s3.0.7] The same calculation chooses the plug fuse: a 3 A fuse suits appliances up to about 690 W and a 13 A fuse suits appliances up to about 3000 W, so each plug carries a fuse of 3, 5 or 13 A matched to the appliance.
+[hom-home-services-s3.1.b] Every appliance connects to the supply through a plug, and each wire inside it has a separate job. Knowing the jobs explains why the plug is built the way it is.
+[hom-home-services-s3.1.0] The live wire (brown) carries current to the appliance, the neutral wire (blue) returns it to complete the circuit, and the earth wire (green and yellow) is a safety wire that does nothing in normal use.
+[hom-home-services-s3.1.1] A three-pin plug has one pin for each wire, so live, neutral and earth are each connected to their own pin.
+[hom-home-services-s3.1.2] The plug holds a cartridge fuse of 3 A, 5 A or 13 A, matched to the appliance's wattage, so the fuse melts before an overloaded flex can overheat.
+[hom-home-services-s3.1.3] The flex is gripped by a cord grip, so a pull on the flex tugs on the grip and not on the wire connections.
+[hom-home-services-s3.2.b] Electricity is generated at a distance from the home and reaches it in stages, each changing the voltage for efficient transmission.
+[hom-home-services-s3.2.0] Stage 1: generation at a power station, where a generator is turned by steam, water or wind.
+[hom-home-services-s3.2.1] Stage 2: a step-up transformer (a device that raises voltage) raises the voltage for transmission on the national grid. High voltage means low current, which reduces the energy lost as heat in the cables.
+[hom-home-services-s3.2.2] Stage 3: step-down substations reduce the voltage for distribution on local networks.
+[hom-home-services-s3.2.3] Stage 4: a final transformer near the home reduces the voltage to 230 V, the voltage used in homes.
+[hom-home-services-s3.2.4] Stage 5: a mains service cable carries the supply into the house, through the sealed meter box, which holds the main fuse and the electricity meter.
+[hom-home-services-s3.2.5] Stage 6: the consumer unit (fuse board) with its main switch and circuit breakers distributes the supply to circuits serving sockets, lighting, cookers, immersion heaters and showers.
+[hom-home-services-s3.2.6] The consumer unit divides the supply into separate circuits, each with its own protective device, so a fault on one circuit disconnects only that circuit.
+[hom-home-services-s3.2.7] Diagram: flow chart of the six stages from power station to consumer unit, with a labelled transformer at each change of voltage.
+[hom-home-services-s3.3.b] Households pay for the energy they use, not the power of their appliances, and the unit of energy on the bill is the kilowatt-hour. Once you know it, you can cost any appliance.
+[hom-home-services-s3.3.0] A kilowatt-hour (kWh), or unit, is the energy used by a 1000-watt (1 kW) appliance running for one hour. It is energy (power × time), not a rate.
+[hom-home-services-s3.3.1] Energy in kWh = power in kW × time in hours. For example, a 2 kW heater running for 3 hours uses 2 × 3 = 6 kWh.
+[hom-home-services-s3.3.2] Cost of running an appliance = energy in kWh × the unit rate charged by the supplier. In a worked example, use a made-up rate and label it as an example.
+[hom-home-services-s3.3.3] Costing a household's use: add up each appliance's kW × hours, then identify the biggest users, such as heating, the shower, the cooker and the immersion heater.
+[hom-home-services-s3.3.4] Reading the meter: the difference between two readings taken a set period apart (new reading minus old reading) gives the number of units used in that period.
+[hom-home-services-s3.3.5] The bill has four charges. The standing charge is a fixed daily charge that covers maintenance of the network, meter reading and billing, and is payable whether or not electricity is used.
+[hom-home-services-s3.3.6] The unit charge is the price for each kWh used, and appears on the bill as the number of units consumed multiplied by the rate.
+[hom-home-services-s3.3.7] The PSO levy is a charge on all customers, set each year by the energy regulator (CRU), that funds support for renewable energy. VAT is added to the bill as well.
+[hom-home-services-s3.4.b] A tariff is the pricing plan a supplier uses, and choosing one means matching when you use electricity to when it is cheapest.
+[hom-home-services-s3.4.0] A standard tariff charges one rate all day.
+[hom-home-services-s3.4.1] A night-rate or day-and-night tariff, also called a time-of-use tariff, charges less for electricity used at night or off-peak, so storage heaters, immersion heaters and dishwashers can be run then.
+[hom-home-services-s3.4.2] A smart meter records use in intervals, so it supports time-of-use pricing and helps a household shift use to cheaper periods.
+[hom-home-services-s3.5.b] Faults can cause fires or fatal shocks, so each circuit has devices that cut the supply. Fuses and MCBs react to too much current, while an RCD reacts to current leaking to earth, so they do different jobs.
+[hom-home-services-s3.5.0] A fuse is a deliberate weak link: a thin wire inside the fuse heats and melts when the current exceeds its rating, breaking the circuit and preventing fire. It breaks once and must be replaced, and is found in plugs and old fuse boards.
+[hom-home-services-s3.5.1] A miniature circuit breaker (MCB) is a switch that trips (switches off) when the current exceeds its rating, in an overload or short circuit, or when a fault occurs. It can be reset once the fault is repaired, and is found in the consumer unit.
+[hom-home-services-s3.5.2] A residual current device (RCD) compares the current in the live and neutral wires. A difference signals current leaking to earth through a person or fault, and it trips within milliseconds.
+[hom-home-services-s3.5.3] Socket circuits are commonly protected by RCDs with a sensitivity of 30 mA, the usual domestic setting, and 30 mA RCDs are required on socket circuits. They can trip before a fatal shock is delivered, protection that fuses and MCBs do not give.
+[hom-home-services-s3.5.4] The earth wire, usually green and yellow, is a safe path for fault current to flow to earth, for example if a fault makes the metal casing of a kettle, cooker or washing machine live.
+[hom-home-services-s3.5.5] The surge of current along the earth wire blows the fuse or trips the MCB, so the metal casing cannot stay live to shock the user.
+[hom-home-services-s3.5.6] Appliances with double insulation have a plastic casing, shown by the symbol of a square within a square, and no earth wire, so the appliance cannot become live through a metal part.
+[hom-home-services-s3.5.7] Each circuit has its own protective device in the consumer unit, so a fault on one circuit disconnects only that circuit.
+[hom-home-services-s3.6.b] A ring circuit is a single circuit that supplies many sockets in a room or floor from one protective device.
+[hom-home-services-s3.6.0] The live, neutral and earth conductors run from the consumer unit, out through each socket in turn, and return to the same breaker in the consumer unit, forming a continuous loop.
+[hom-home-services-s3.6.1] Each socket is supplied from two directions, so the current divides between two paths and the cable can be smaller than a single radial cable (one run out to the sockets) carrying the same load.
+[hom-home-services-s3.6.2] Many sockets can be added to the ring, and a fault cuts off only that ring.
+[hom-home-services-s3.6.3] Upstairs and downstairs ring circuits are often wired separately, usually one ring per floor, so a fault on one floor does not disconnect the other. Lighting and the cooker are on separate circuits.
+[hom-home-services-s3.6.4] A spur is a short branch from a socket in the ring, which can supply one additional socket or one fixed appliance.
+[hom-home-services-s3.6.5] The ring has its own protective device, an MCB or fuse, in the consumer unit, which trips if the total current on the loop exceeds its rating.
+[hom-home-services-s3.6.6] Diagram: a wiring circuit showing the consumer unit, live, neutral and earth conductors forming a loop, sockets along the loop and one spur labelled.
+[hom-home-services-s3.7.b] These guidelines each remove one danger: water near electrical equipment, damaged flexes or appliances, and overloaded sockets.
+[hom-home-services-s3.7.0] Never mix water and electricity: do not handle electrical equipment with wet hands, and keep water and electricity apart in the bathroom and kitchen, because water conducts current through the body. Bathroom switches are pull-cords, and the only appliance normally used there is a shaver socket.
+[hom-home-services-s3.7.1] Do not overload sockets or use multiple adaptors or long extension leads; each plug and socket should be used within its rating, because too much current overheats the wiring and starts fires. Avoid trailing flexes.
+[hom-home-services-s3.7.2] Check flexes, plugs and sockets regularly for damage, replace damaged flexes, and never pull a plug out by its flex.
+[hom-home-services-s3.7.3] Unplug appliances before cleaning or repairing them, and never repair an appliance yourself while it is connected to the supply.
+[hom-home-services-s3.7.4] Keep flexes away from hobs, sinks and heat sources, and never cover a heater or drape clothes over it.
+[hom-home-services-s3.7.5] Use only appliances with a recognised safety mark, fit the right fuse and follow the instructions. Do not use portable heaters in bathrooms.
+[hom-home-services-s3.7.6] Electric blankets should be checked for damage and wear, and not folded or left switched on under a sleeping person.
+[hom-home-services-s3.7.7] Outdoor sockets and appliances need an RCD and weatherproof fittings; repairs and new circuits must be carried out by a qualified, registered electrician.
+[hom-home-services-s3.7.8] Unplug all appliances, except a fridge or freezer, before going to bed to reduce the risk of an electrical fire, and fit smoke alarms.
+[hom-home-services-s3.8.b] Gas can leak, and burning it in the wrong conditions makes a poisonous gas. Safe use means knowing what to do about a leak, about carbon monoxide, and about ventilation and servicing.
+[hom-home-services-s3.8.0] Natural gas and LPG are odourless without the added odorant, so a gas smell is an emergency. The three immediate actions are to turn off the gas supply at the meter, open doors and windows, and not use switches, matches or other flames.
+[hom-home-services-s3.8.1] Then call the gas emergency number, or leave the house and call from outside.
+[hom-home-services-s3.8.2] Carbon monoxide is produced by incomplete combustion, when gas, oil or solid fuel burns without enough air, for example from a blocked flue or a faulty boiler. It has no smell and causes headache, dizziness and nausea.
+[hom-home-services-s3.8.3] A carbon monoxide alarm gives early warning of the gas, and should be fitted in rooms containing fuel-burning appliances.
+[hom-home-services-s3.8.4] Gas appliances need adequate ventilation for the air needed to burn the gas, so they must not be blocked by furniture or closed vents, and flues and vents must be kept clear.
+[hom-home-services-s3.8.5] Do not use a cooker or oven to heat the room.
+[hom-home-services-s3.8.6] Gas appliances should be installed by a registered installer (on the Register of Gas Installers of Ireland) and serviced at regular intervals so the flue and burner stay safe and efficient.
+[hom-home-services-s3.9.b] Electrical services must match the use of the room, and the layout must keep sockets and switches safe and convenient.
+[hom-home-services-s3.9.0] Lighting: plan layers of light, with ambient lighting from ceiling fittings, task lighting over work areas and accent lighting for display.
+[hom-home-services-s3.9.1] Switches should be placed at the door, within easy reach, and sockets at a safe height and away from water sources.
+[hom-home-services-s3.9.2] Heating options: electric storage heaters charged on night rate, panel heaters on a thermostat, or electric underfloor heating, each controlled by a thermostat or timer.
+[hom-home-services-s3.9.3] Ventilation: a fan with a timer or humidity switch, fitted in a kitchen or bathroom, removes moisture and cooking smells from the room.
+[hom-home-services-s3.9.4] Circuits and sockets: enough double sockets on the ring or a separate circuit so no extension lead is needed for regular appliances.
+[hom-home-services-s3.9.5] Safety: the fittings for a bathroom must suit its zone rating, and any new work must be done by a registered electrician and certified.
+
+CANDIDATES hom-home-services-s1: 1. Energy supplies to the home
+[hom-home-services-s1.0.b] A home needs energy for heat, light, power and sound, and every supply is a fuel or a flow of energy converted into one of these. To compare supplies, you need to know how energy is measured, how fuels form and whether a source can be replaced.
+[hom-home-services-s1.0.0] A fuel is a material burned to release heat. Combustion needs fuel, oxygen and a source of heat, and complete combustion of a hydrocarbon gives carbon dioxide and water vapour.
+[hom-home-services-s1.0.1] Energy is measured in kilowatt-hours (kWh) for electricity and gas, and in kilojoules (kJ) in food and fuel tables. One kWh equals 3.6 MJ (3600 kJ).
+[hom-home-services-s1.0.2] Fossil fuels (coal, peat, natural gas and crude oil) formed over millions of years from the remains of plants and marine organisms buried under sediment. Burning them releases carbon dioxide that was locked away long ago.
+[hom-home-services-s1.0.3] Primary energy is a fuel dug up or collected, such as gas, oil, coal, turf, wood or sunlight. Electricity is secondary energy because it is made from another source and then carried to the house.
+[hom-home-services-s1.0.4] A non-renewable source has finite reserves that cannot be replaced on a human timescale, such as coal, peat, natural gas and oil. A renewable source is replenished naturally within a human lifetime, such as solar, wind, hydro and wood.
+[hom-home-services-s1.0.5] Sustainability means meeting present energy needs without depleting resources or damaging the environment for future generations. For each source, ask three questions: will it run out, what does it do to the environment, and can it be supplied reliably?
+[hom-home-services-s1.1.b] Electricity is not a fuel you dig up. It is made in power stations from other sources and sent to the home, which is why it is called a secondary energy.
+[hom-home-services-s1.1.0] In a power station a turbine turns a generator. The turbine is driven by steam from burning gas, coal or other fuel, by flowing water (hydro) or by wind. Solar panels make electricity directly with no turbine.
+[hom-home-services-s1.1.1] Ireland's electricity comes from a mix of natural gas, wind and other sources, and part of it is imported through interconnectors (cables linking Ireland's grid to other countries).
+[hom-home-services-s1.1.2] The national grid carries electricity at high voltage over long distances. High voltage means low current, which reduces the energy lost as heat in the cables. EirGrid operates the national grid.
+[hom-home-services-s1.1.3] Step-down transformers in substations reduce the voltage for local distribution, and a further transformer brings the supply down to the 230 V (50 Hz) used in Irish homes. ESB Networks runs the distribution network.
+[hom-home-services-s1.1.4] A mains service cable carries the supply into the house, through a meter cabinet and an electricity meter that records the energy used.
+[hom-home-services-s1.2.b] Electricity is the most convenient supply in the home, but how green it is depends on how it was generated.
+[hom-home-services-s1.2.0] Advantages: it is clean and quiet at the point of use, needs no storage, and is available instantly. It suits lighting, appliances and cooking, and can be used for heating, for example storage heaters, panel heaters and heat pumps.
+[hom-home-services-s1.2.1] Electricity can also be produced in the home from solar panels or small wind turbines.
+[hom-home-services-s1.2.2] Disadvantages: how green it is depends on how it was generated, electric heating is expensive to run unless on night rate, and there is no supply in a power cut.
+[hom-home-services-s1.2.3] Sustainability: electricity from wind, hydro and solar is renewable, and electricity from burning gas, coal or oil is not. A home on the grid gets a mix of both.
+[hom-home-services-s1.3.b] Natural gas is the fuel behind most mains-gas heating and cooking. Knowing where it comes from and how it arrives helps you describe it as a supply.
+[hom-home-services-s1.3.0] Natural gas is a fossil fuel, mainly methane (CH₄), formed from the remains of marine organisms buried and compressed under sediment. It is found under the seabed or land and brought ashore or up by pipe.
+[hom-home-services-s1.3.1] Ireland's own supply comes from the Corrib gas field, off the coast of Co. Mayo, with gas coming ashore at Bellanaboy. The rest is imported by subsea pipeline from Britain, which reaches Ireland from Moffat in Scotland. Gas Networks Ireland runs the gas network.
+[hom-home-services-s1.3.2] Mains gas is distributed through underground pipe networks to a meter and a regulator (which keeps the pressure steady) at the house, where it is burned in boilers, cookers and fires.
+[hom-home-services-s1.3.3] Where there is no pipeline, bottled or tank liquefied petroleum gas (LPG) is used instead.
+[hom-home-services-s1.3.4] Natural gas has no smell, so an odorant (a sulphur compound called mercaptan) is added so that a leak can be smelled.
+[hom-home-services-s1.3.5] Diagram: a simple pipeline route from the gas network through a meter and a regulator to a boiler and a cooker.
+[hom-home-services-s1.4.b] Gas is popular because it is convenient and cleaner than coal or oil, but it is still a finite fossil fuel.
+[hom-home-services-s1.4.0] Advantages: it burns almost completely and cleanly compared with coal and oil, and its heat can be controlled instantly. It needs no storage tank on mains gas, is relatively cheap to run, and can be used for cooking, heating and hot water.
+[hom-home-services-s1.4.1] Disadvantages: it is non-renewable with finite reserves, and burning it produces carbon dioxide. It is dangerous if it leaks or if appliances burn incompletely, giving carbon monoxide.
+[hom-home-services-s1.4.2] A gas appliance also needs a flue (a pipe carrying burnt gases outside) and a registered installer, and gas is not available everywhere because it depends on a pipeline.
+[hom-home-services-s1.4.3] Sustainability: reserves are limited and worldwide demand is rising. Per unit of heat, gas releases less carbon dioxide than oil or coal, so it is cleaner than they are and often described as a transitional fuel, but it is still a fossil fuel.
+[hom-home-services-s1.4.4] Ireland's own gas field is running down, so imports are rising.
+[hom-home-services-s1.5.b] Oil heats houses beyond the gas network, but it is delivered and stored rather than piped, and it depends on imports.
+[hom-home-services-s1.5.0] Home heating oil is kerosene, a fossil fuel refined from crude oil, which is pumped from under the ground or sea and formed from marine organisms over millions of years.
+[hom-home-services-s1.5.1] Ireland relies on imported oil, so supply and price depend on world markets and the price varies. Households can buy when the price is low.
+[hom-home-services-s1.5.2] Oil is delivered by tanker and stored in an outdoor tank, so the household must have space for the tank, a bund or safe base, and arrange refills. A tank can leak or be stolen.
+[hom-home-services-s1.5.3] It is burned in a boiler with a burner, which needs a flue to carry the gases outside and an annual service to stay efficient. One boiler gives central heating and hot water, and oil has a high heat output.
+[hom-home-services-s1.5.4] Burning oil releases carbon dioxide, sulphur dioxide from the sulphur in the fuel, and soot if the burner is poorly adjusted.
+[hom-home-services-s1.5.5] Sustainability: oil is non-renewable with finite reserves, and it releases more carbon dioxide per unit of heat than natural gas.
+[hom-home-services-s1.6.b] Solid fuels are burned in the room or in a boiler, so they need storage, a chimney and cleaning. They range from fossil coal to renewable wood.
+[hom-home-services-s1.6.0] Solid fuels used in the home are coal, turf (peat), wood (logs, pellets and chips) and manufactured smokeless fuel. Smokeless fuel is a processed solid fuel, made from processed coal or other material, that burns with little smoke.
+[hom-home-services-s1.6.1] Coal is a fossil fuel mined from underground seams; it is burned in open fires and stoves and produces a high level of carbon dioxide and smoke.
+[hom-home-services-s1.6.2] Smokeless fuel reduces smoke and particulate pollution in towns, but it is still a fossil product.
+[hom-home-services-s1.6.3] Turf (peat) is cut from bogs and forms very slowly over thousands of years, so it is effectively non-renewable on a human timescale because it forms far more slowly than it is cut. Burning it releases carbon dioxide.
+[hom-home-services-s1.6.4] Wood is a biomass fuel (fuel from plant material): it is renewable when trees are replanted and the forest is managed sustainably, because growing trees take up carbon dioxide. Burning it still gives carbon dioxide and particles.
+[hom-home-services-s1.6.5] Use: open fire, stove or solid-fuel boiler (a back boiler or stove can also heat water for radiators). Solid fuels need dry storage, a chimney or flue and regular cleaning and ash removal, because soot builds up and can cause chimney fires and carbon monoxide poisoning.
+[hom-home-services-s1.6.6] An open fire loses most of its heat up the chimney, while an enclosed stove burns efficiently and transfers more of the heat into the room.
+[hom-home-services-s1.7.b] Solid fuels can be cheap and local, but they involve work and some risks.
+[hom-home-services-s1.7.0] Advantages: turf and wood are local supplies, a fire is attractive, a stove or boiler can heat water as well, and a stove burns efficiently.
+[hom-home-services-s1.7.1] Disadvantages: carrying fuel and cleaning out ash is labour, and the fuel makes dust and ash.
+[hom-home-services-s1.7.2] Soot can cause chimney fires, and there is a carbon monoxide risk if the flue is blocked.
+[hom-home-services-s1.7.3] Smoke pollutes the air, and an open fire wastes most of its heat up the chimney.
+[hom-home-services-s1.8.b] Solar energy is radiant energy from the sun. It is renewable and free to collect, but the sun does not shine all the time, which makes it intermittent.
+[hom-home-services-s1.8.0] A house can use solar energy in three ways. First, solar thermal collectors on the roof absorb sunlight into a fluid that heats water, which circulates to a hot water cylinder, supplying much of the household hot water in summer.
+[hom-home-services-s1.8.1] Second, photovoltaic (PV) panels convert sunlight directly into direct current (DC) electricity, which an inverter changes to alternating current (AC) for household use. PV makes electricity without a turbine.
+[hom-home-services-s1.8.2] Surplus PV electricity can be exported to the grid, and a battery can store it for use when the sun is not shining.
+[hom-home-services-s1.8.3] Third, passive solar design uses large south-facing windows to let in winter sunshine, which walls and floors absorb and release.
+[hom-home-services-s1.8.4] Output depends on sunlight, so it falls on cloudy days, in winter and at night, and it is reduced by shade from trees or buildings.
+[hom-home-services-s1.8.5] A roof facing south with no shading gives the best output; the roof must also be strong enough to carry the panels.
+[hom-home-services-s1.8.6] Diagram: plan view of a south-facing roof with PV panels and solar thermal collectors; schematic of a PV system showing panels, inverter, meter and the house circuit.
+[hom-home-services-s1.9.b] Solar energy has no fuel bill and no emissions in use, but it costs a lot to install and cannot work alone.
+[hom-home-services-s1.9.0] Advantages: no fuel cost, no emissions in use, lower bills and a reduced carbon footprint. Solar can also raise the Building Energy Rating (BER, the energy label of a home), and SEAI grants support it.
+[hom-home-services-s1.9.1] Disadvantages: high installation cost, dependence on the weather and the season, and the need for a suitable unshaded roof, best south-facing.
+[hom-home-services-s1.9.2] A back-up supply is still needed because solar is intermittent, and panels need space and some people find them unsightly.
+[hom-home-services-s1.9.3] Sustainability: solar energy is inexhaustible and renewable, with no fuel to extract or deliver. Making and disposing of panels does use energy and materials.
+[hom-home-services-s1.10.b] Other renewable sources can serve a home, and they trade off differently from fossil fuels.
+[hom-home-services-s1.10.0] Wind: turbines feed the grid, and small turbines can serve one house.
+[hom-home-services-s1.10.1] Hydro: flowing water turns a turbine. Ardnacrusha on the River Shannon, a hydro-electric station run by the ESB, built under the Shannon Scheme and opened in 1929, is the Irish example.
+[hom-home-services-s1.10.2] Biomass: wood, pellets and other plant material burned for heat.
+[hom-home-services-s1.10.3] Heat pumps and geothermal: a ground-source heat pump raises the temperature of heat drawn from the ground or air, and it uses electricity to run, so it is not free energy or a fuel. Tidal and wave energy are other renewable sources.
+[hom-home-services-s1.10.4] Non-renewable sources for the home are natural gas, heating oil, coal and peat. They are finite, their demand is rising, and their supply depends on extraction, imports and transport. They are reliable and well established but finite and polluting.
+[hom-home-services-s1.10.5] Renewable sources have high start-up costs and depend on local weather, but their running fuel is free and they produce few emissions in use.
+[hom-home-services-s1.10.6] SEAI (Sustainable Energy Authority of Ireland) provides advice, the Building Energy Rating (BER) system and grants that support renewable heating and solar energy in homes.
+
+CANDIDATES hom-appliances-equipment-s3: 3. An appliance with a motor
+[hom-appliances-equipment-s3.0.b] Some appliances exist to make something move, such as a blade, a drum or a fan. They use an electric motor, which turns electrical energy into movement (kinetic energy), rather than a heating element, which turns electricity into heat.
+[hom-appliances-equipment-s3.0.0] Common motor appliances are the food processor, blender, hand mixer, vacuum cleaner, washing machine, dishwasher pump, extractor fan and the fan in a hairdryer, because each one needs something to spin or move.
+[hom-appliances-equipment-s3.0.1] Kettles, toasters and irons work differently: they have a heating element that produces heat, not a motor that produces movement.
+[hom-appliances-equipment-s3.0.2] Some appliances have both, so a washing machine, hairdryer and dishwasher each contain a motor for movement and an element for heat.
+[hom-appliances-equipment-s3.0.3] Classification check: a food processor has a motor, a kettle has an element and a toaster has an element.
+[hom-appliances-equipment-s3.1.b] A food processor is a typical motor-driven appliance: the motor sits in the base and drives interchangeable attachments. Each part of its design is there for performance or safety, and exam answers should name the part and its purpose.
+[hom-appliances-equipment-s3.1.0] The heavy motor is enclosed in a stable base with rubber (non-slip) feet, which keeps the centre of gravity low and prevents the appliance moving during use.
+[hom-appliances-equipment-s3.1.1] A spindle (drive shaft) transfers rotary motion from the motor to the blade or disc fitted in the bowl, so the attachment turns when the motor runs.
+[hom-appliances-equipment-s3.1.2] The bowl is transparent and graduated (marked with a measuring scale), so the user can see the quantity and texture of the food being processed. It is made of heat-resistant, impact-resistant plastic or glass.
+[hom-appliances-equipment-s3.1.3] The lid locks onto the bowl and has a feed tube with a pusher, which keeps fingers out of the tube. A safety interlock stops the motor from starting unless the bowl and lid are correctly fitted.
+[hom-appliances-equipment-s3.1.4] Further safety features: an overload cut-out protects the motor from overheating, and the blade comes to a stop quickly when switched off.
+[hom-appliances-equipment-s3.1.5] Interchangeable attachments include the chopping (S-) blade, slicing and shredding (grating) discs, a dough blade and a whisk. Blades are stainless steel, which resists rust and stays sharp.
+[hom-appliances-equipment-s3.1.6] Controls usually include on/off, variable speeds and a pulse button that gives short, controlled bursts of power.
+[hom-appliances-equipment-s3.1.7] Removable, dishwasher-safe components and a smooth, sealed base make cleaning easier, and internal cord storage keeps the base tidy.
+[hom-appliances-equipment-s3.1.8] Diagram: food processor in section, showing the base with motor and spindle (drive shaft), the bowl, the blade, the lid with feed tube and pusher, and the interlock position.
+[hom-appliances-equipment-s3.2.b] When choosing a motor appliance, some factors matter that do not apply to other appliances. They all come down to whether the machine suits the jobs you will actually do and is safe and easy to live with.
+[hom-appliances-equipment-s3.2.0] Capacity and motor power (wattage) decide how much food it can handle and how well it copes with heavy tasks such as dough.
+[hom-appliances-equipment-s3.2.1] Choose a range of attachments you will actually use, because extra attachments add cost and storage problems if they are never needed.
+[hom-appliances-equipment-s3.2.2] Consider noise, cord length and storage, and how easy it is to assemble and clean, because these decide whether it will be used often.
+[hom-appliances-equipment-s3.2.3] Look for safety features such as an interlock, and for a guarantee and service availability in case the motor fails.
+[hom-appliances-equipment-s3.3.b] A food processor has fast-moving sharp blades and an electric motor, so most guidelines prevent cuts, electric shock or damage to the motor. Each guideline is worth stating together with the hazard it prevents.
+[hom-appliances-equipment-s3.3.0] Read the manufacturer's instructions, assemble correctly and fit the correct attachment before connecting the appliance to the electricity supply, so the machine is used as designed.
+[hom-appliances-equipment-s3.3.1] Check that the plug, flex and bowl are undamaged, and place the processor on a dry, level surface, away from water and the edge of the worktop so it cannot fall or cause shock.
+[hom-appliances-equipment-s3.3.2] Lock the bowl and lid before switching on, and never try to defeat the safety interlock, which exists to stop the blade turning while it is exposed.
+[hom-appliances-equipment-s3.3.3] Cut food into even pieces, do not exceed the maximum fill line, and use the speed recommended for the ingredient, so the motor is not strained.
+[hom-appliances-equipment-s3.3.4] Do not run the machine for longer than the instructions allow, because the motor can overheat; pause to let it cool.
+[hom-appliances-equipment-s3.3.5] Feed food only with the supplied pusher, never with fingers, knives or spoons, and keep hands, hair and loose clothing away from moving parts, because the blade can cut or catch them.
+[hom-appliances-equipment-s3.3.6] Use pulse control to avoid over-processing and to keep control of the texture of the food.
+[hom-appliances-equipment-s3.3.7] Switch off and unplug before changing attachments, removing the lid, scraping the bowl or cleaning, and wait until the blade has stopped completely, so it cannot start or cut by accident.
+[hom-appliances-equipment-s3.4.b] Looking after the appliance keeps it safe and working. The rules about unplugging, water and damage matter most.
+[hom-appliances-equipment-s3.4.0] Lift sharp blades by the centre hub, wash and dry them carefully, and store them safely and out of reach of young children.
+[hom-appliances-equipment-s3.4.1] Wash the bowl, lid and attachments in warm soapy water, or in the dishwasher if the manufacturer allows it.
+[hom-appliances-equipment-s3.4.2] Wipe the motor base with a damp cloth; never immerse it or hold it under running water, because water entering the motor and wiring can cause electric shock.
+[hom-appliances-equipment-s3.4.3] Wind or store the flex neatly, and do not use the appliance if the plug, flex, bowl or interlock is damaged; have it repaired by a qualified person before use.
+[hom-appliances-equipment-s3.4.4] Dry your hands before touching the plug, and never overload a socket, because wet hands and overloaded sockets risk shock and fire.
+[hom-appliances-equipment-s3.4.5] Use the correct fuse in the plug: 3 A for low-power appliances and 13 A for high-power ones, as the manufacturer states. A fuse melts if too much current flows, which protects the appliance and its flex.
+[hom-appliances-equipment-s3.5.b] Other motor appliances have their own particular hazards, so each has a rule matched to what it does.
+[hom-appliances-equipment-s3.5.0] Hand mixers: start on the lowest speed to avoid splashing, then increase speed, and switch off before removing the beaters.
+[hom-appliances-equipment-s3.5.1] Blenders: add liquids first and never run the blender empty. Do not blend hot liquid in a sealed container, because steam pressure can force the lid off.
+[hom-appliances-equipment-s3.5.2] Vacuum cleaners: empty the dust container or change the bag before it is full, since a blocked airflow strains the motor; clear blockages with the machine switched off.
+[hom-appliances-equipment-s3.5.3] Washing machines: do not overload the drum, use the detergent amount recommended by the manufacturer, and choose a programme suited to the fabric.
+[hom-appliances-equipment-s3.6.b] Motor appliances use little energy compared with heating appliances because they run for short periods. Using them well keeps running costs low and saves energy.
+[hom-appliances-equipment-s3.6.0] Prepare several ingredients in sequence, starting with dry or clean foods, so the appliance is used once for many tasks rather than washed between each one.
+[hom-appliances-equipment-s3.6.1] Use the appliance only for the job it is designed for, use the right size for the task, and switch it off as soon as the task is complete rather than letting it run on.
+[hom-appliances-equipment-s3.6.2] Switch off at the socket when not in use, and choose an efficient, correctly sized model.
+[hom-appliances-equipment-s3.6.3] The cost to run an appliance is its power in kW multiplied by the hours used and the unit price, so a short-use appliance costs very little.
+[hom-appliances-equipment-s3.6.4] Appliances with a motor that run for long periods, such as the washing machine, dishwasher and fridge, are where the energy label matters. Use eco programmes and full loads to save energy.
+[hom-appliances-equipment-s3.7.b] A motor converts electrical energy into kinetic energy by using the magnetic force on a current-carrying conductor. Understanding this force explains why a coil of wire can be made to spin.
+[hom-appliances-equipment-s3.7.0] A wire carrying a current in a magnetic field experiences a force, the motor effect, which is greatest when the wire is at right angles to the field.
+[hom-appliances-equipment-s3.7.1] The direction of the force is given by Fleming's left-hand rule: the thumb shows the force (motion), the first finger the magnetic field and the second finger the current.
+[hom-appliances-equipment-s3.7.2] In a simple DC motor, a coil sits between the poles of a permanent magnet or electromagnet. The forces on opposite sides of the coil act in opposite directions, creating a turning effect, so the coil turns.
+[hom-appliances-equipment-s3.7.3] The commutator is a split ring on the shaft; carbon brushes press on it and reverse the current in the coil every half turn, so the coil keeps turning the same way instead of stopping.
+[hom-appliances-equipment-s3.7.4] Electrical energy is the input and kinetic energy the output; some is wasted as heat from the resistance of the coil and friction in the bearings.
+[hom-appliances-equipment-s3.7.5] The shaft's rotation is passed to the blade, drum or fan by a drive shaft, and in some designs by gears or a drive belt.
+[hom-appliances-equipment-s3.7.6] Diagram: a simple motor showing the magnet poles, the coil, the commutator and brushes, and the supply, with arrows for current direction and the forces on each side of the coil.
+[hom-appliances-equipment-s3.8.b] Household appliances use different kinds of motor depending on whether they need high speed and light weight or steady, quiet running.
+[hom-appliances-equipment-s3.8.0] A universal motor (a series-wound motor) is the common motor in small kitchen appliances and vacuum cleaners. It runs on either AC or DC, spins at high speed and is lightweight, which suits portable appliances such as food processors and hand mixers.
+[hom-appliances-equipment-s3.8.1] The carbon brushes of a universal motor wear and need replacing.
+[hom-appliances-equipment-s3.8.2] Speed control adjusts the voltage or current supplied to the motor, so a variable-speed controller changes the speed of a universal motor.
+[hom-appliances-equipment-s3.8.3] An induction motor runs on AC and has no brushes or commutator; the rotating magnetic field of the stator induces currents in the rotor, which turns it.
+[hom-appliances-equipment-s3.8.4] Induction motors are robust, quiet, long-lived and need little maintenance, which suits uses where steady, quieter running is wanted, such as dishwasher pumps, some older washing machines and fridge compressors.

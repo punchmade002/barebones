@@ -1,0 +1,388 @@
+MODE: links only (another package rates cost)
+TARGET chem21-s5: 5. Combustion and heats of combustion
+[chem21-s5.0.b] Burning is the everyday reaction that powers fires, cookers and engines. Chemists define it precisely, and then measure how much heat it gives out per mole of fuel, a quantity called the heat of combustion.
+[chem21-s5.0.0] Combustion is the reaction of a substance with oxygen, giving out heat (and usually light). It is always exothermic, which means it releases energy to the surroundings, so the temperature around it rises.
+[chem21-s5.0.1] Complete combustion happens in plenty of oxygen: all the carbon becomes carbon dioxide and all the hydrogen becomes water. For hydrocarbons (compounds of only carbon and hydrogen) and alcohols the only products are CO₂ and H₂O.
+[chem21-s5.0.2] Incomplete combustion happens in limited oxygen. It also gives carbon monoxide (a toxic gas) and soot (carbon), and releases less energy because less of the fuel is fully oxidised, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).
+[chem21-s5.0.3] Standard heat of combustion, ΔHc°: the enthalpy change (the heat change at constant pressure) when one mole of a substance is completely burned in excess oxygen under standard conditions (25 °C, 101.3 kPa). It is always negative, because combustion is exothermic.
+[chem21-s5.0.4] Because it is per mole of the substance burned, the equation for a heat of combustion has 1 mol of fuel, so fractions of O₂ may be needed, e.g. C₂H₆(g) + 3½O₂(g) → 2CO₂(g) + 3H₂O(l), ΔHc = −1560 kJ mol⁻¹.
+[chem21-s5.0.5] The same equation doubled, 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, has ΔH = −3120 kJ, because twice as many moles of fuel burn and so twice as much heat is released.
+[chem21-s5.1.b] Every complete combustion equation can be balanced by the same five steps. The order matters: carbon first, hydrogen second, and oxygen last, because oxygen appears in more than one product.
+[chem21-s5.1.0] Step 1: write the formula of the fuel and the products CO₂ and H₂O.
+[chem21-s5.1.1] Step 2: balance carbon. The number of CO₂ equals the number of C atoms in the fuel, since each CO₂ holds one carbon.
+[chem21-s5.1.2] Step 3: balance hydrogen. The number of H₂O equals half the number of H atoms in the fuel, since each H₂O holds two hydrogens.
+[chem21-s5.1.3] Step 4: balance oxygen last. Count the O atoms in the products, subtract any O already in the fuel (one for an alcohol), and divide by two for the number of O₂, since each O₂ molecule holds two O atoms.
+[chem21-s5.1.4] Step 5: double everything if you want whole numbers, for example to remove a ½ in front of O₂.
+[chem21-s5.1.5] Check: count each type of atom on both sides, and add state symbols (fuel, O₂(g), CO₂(g), H₂O(l) under standard conditions). The (l) for water is because standard heats of combustion are measured with water as a liquid.
+[chem21-s5.2.b] Each family of compounds follows a pattern, so one general equation covers every member. Here n is the number of carbon atoms in the molecule. The range examined is hydrocarbons with no more than one double or triple bond, and primary alcohols (alcohols with the OH group on a carbon at the end of the chain) up to C6.
+[chem21-s5.2.0] Alkanes (hydrocarbons with only single bonds): CₙH₂ₙ₊₂ + ((3n + 1)/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.2.1] Alkenes (one C=C, a carbon-carbon double bond): CₙH₂ₙ + (3n/2) O₂ → nCO₂ + nH₂O.
+[chem21-s5.2.2] Alkynes (one C≡C, a carbon-carbon triple bond): CₙH₂ₙ₋₂ + ((3n − 1)/2) O₂ → nCO₂ + (n − 1)H₂O.
+[chem21-s5.2.3] Primary alcohols: CₙH₂ₙ₊₁OH + (3n/2) O₂ → nCO₂ + (n + 1)H₂O.
+[chem21-s5.3.b] These are the complete combustion equations for the alkanes, alkenes and alkyne you may be asked for, with water as a liquid. Where the fuel needs a half-molecule of oxygen, the doubled form gives whole numbers.
+[chem21-s5.3.0] Methane: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem21-s5.3.1] Propane: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l), because 3 carbons give 3 CO₂ and 8 hydrogens give 4 H₂O.
+[chem21-s5.3.2] Butane: C₄H₁₀(g) + 6½O₂(g) → 4CO₂(g) + 5H₂O(l), or 2C₄H₁₀(g) + 13O₂(g) → 8CO₂(g) + 10H₂O(l).
+[chem21-s5.3.3] Ethene: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).
+[chem21-s5.3.4] Propene: C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).
+[chem21-s5.3.5] Ethyne: C₂H₂(g) + 2½O₂(g) → 2CO₂(g) + H₂O(l), or 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
+[chem21-s5.4.b] Each alcohol already contains one oxygen atom in its OH group, so it needs less O₂ from the air than the alkane with the same number of carbons. Step 4 above (subtract the O in the fuel) is what gives these numbers.
+[chem21-s5.4.0] Methanol: CH₃OH(l) + 1½O₂(g) → CO₂(g) + 2H₂O(l), or 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l).
+[chem21-s5.4.1] Ethanol: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l), because the products hold 7 oxygen atoms, one of which comes from the ethanol, so 6 atoms (3 O₂) come from the air.
+[chem21-s5.4.2] Propan-1-ol: C₃H₇OH(l) + 4½O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem21-s5.4.3] Butan-1-ol: C₄H₉OH(l) + 6O₂(g) → 4CO₂(g) + 5H₂O(l).
+[chem21-s5.4.4] Pentan-1-ol: C₅H₁₁OH(l) + 7½O₂(g) → 5CO₂(g) + 6H₂O(l).
+[chem21-s5.4.5] Hexan-1-ol: C₆H₁₃OH(l) + 9O₂(g) → 6CO₂(g) + 7H₂O(l).
+[chem21-s5.5.b] These are the data values you are given and must be able to use to spot trends. Values are in kJ mol⁻¹ (kilojoules per mole) at 25 °C, with water as a liquid. All are negative because combustion is exothermic.
+[chem21-s5.5.0] Alkanes: methane −890; ethane −1560; propane −2220; butane −2877. For example, each is more negative than the one before it.
+[chem21-s5.5.1] Primary alcohols: methanol −726; ethanol −1367; propan-1-ol −2021; butan-1-ol −2676; pentan-1-ol −3331; hexan-1-ol −3984.
+[chem21-s5.5.2] Two-carbon compounds: ethane −1560; ethene −1411; ethyne −1300; ethanol −1367.
+[chem21-s5.5.3] Three-carbon compounds: propane −2220; propene −2058.
+[chem21-s5.6.b] In a homologous series (a family of compounds in which each member differs from the next by one CH₂ group), the heat of combustion changes in a very regular way. The reason lies in the bonds broken and formed for each extra CH₂.
+[chem21-s5.6.0] ΔHc becomes more negative as the number of carbon atoms increases, by an almost constant amount for each extra CH₂, so more heat is released per mole of a longer molecule.
+[chem21-s5.6.1] For alkanes the increase is about 650–670 kJ mol⁻¹, e.g. 1560 − 890 = 670 and 2877 − 2220 = 657.
+[chem21-s5.6.2] For primary alcohols the increase is about 640–655 kJ mol⁻¹, e.g. 1367 − 726 = 641 and 2021 − 1367 = 654.
+[chem21-s5.6.3] Each extra CH₂ group adds one C–C and two C–H bonds to break, and needs 1½ more O₂ molecules. It forms one more CO₂ (two C=O bonds) and one more H₂O (two O–H bonds).
+[chem21-s5.6.4] More energy is released by the new bonds formed than is needed to break the extra bonds, so each extra CH₂ makes ΔHc more negative.
+[chem21-s5.6.5] Because exactly the same extra bonds are broken and formed for every CH₂ added, the increase is nearly constant, so a graph of ΔHc against number of carbon atoms is a straight line.
+[chem21-s5.7.b] Bond enthalpies (the energy needed to break one mole of a given bond) let you put a number on the increase per CH₂. The regular straight-line trend also lets you predict a missing value.
+[chem21-s5.7.0] Bond enthalpy estimate per CH₂, using C–C 348, C–H 412, O=O 498, C=O 799 and O–H 463 kJ mol⁻¹: broken 348 + 2(412) + 1½(498) = 1919 kJ; formed 2(799) + 2(463) = 2524 kJ; difference −605 kJ.
+[chem21-s5.7.1] This estimate is for gaseous water. The measured increase is larger because the water formed is liquid, which means extra heat is released when the vapour condenses.
+[chem21-s5.7.2] The straight-line trend can be used to predict values, e.g. hexan-1-ol ≈ −3331 − 655 = −3986 kJ mol⁻¹, close to the data value of −3984 kJ mol⁻¹.
+[chem21-s5.8.b] An alcohol and the alkane with the same number of carbon atoms give the same CO₂ and H₂O, yet the alcohol releases less heat. The difference comes from the oxygen already inside the alcohol.
+[chem21-s5.8.0] A primary alcohol has a less negative ΔHc than the alkane with the same number of carbon atoms, e.g. ethanol −1367 against ethane −1560 kJ mol⁻¹, and methanol −726 against methane −890 kJ mol⁻¹.
+[chem21-s5.8.1] The alcohol molecule already contains an oxygen atom bonded to carbon and hydrogen (C–O–H), so it is already partly oxidised (it has already combined with some oxygen).
+[chem21-s5.8.2] It therefore needs less oxygen (ethanol 3 O₂, ethane 3½ O₂), and less energy is released on complete oxidation, although the same numbers of CO₂ and H₂O are formed.
+[chem21-s5.9.b] Comparing compounds with the same number of carbon atoms but different numbers of hydrogens shows a second pattern. Fewer hydrogens means less water formed.
+[chem21-s5.9.0] For the same number of carbon atoms, ΔHc becomes less negative in the order alkane, then alkene, then alkyne: ethane −1560, ethene −1411, ethyne −1300 kJ mol⁻¹.
+[chem21-s5.9.1] The alkene has two fewer hydrogen atoms than the alkane, and the alkyne four fewer, so fewer water molecules (fewer O–H bonds) are formed and less energy is released.
+[chem21-s5.9.2] The main reason is the fewer O–H bonds formed, not the C=C bond being harder to break.
+[chem21-s5.10.b] You can estimate a heat of combustion in the lab by burning an alcohol under a can of water and measuring how much the water warms up. This investigation uses primary alcohols to test how heat of combustion changes along a series.
+[chem21-s5.10.0] Aim: to estimate the heats of combustion of a series of primary alcohols (methanol, ethanol, propan-1-ol and butan-1-ol) using spirit burners (small lamps that burn liquid alcohol from a wick), and to compare them with standard values.
+[chem21-s5.10.1] Heat of combustion: the enthalpy change when one mole of a substance is completely burned in excess oxygen.
+[chem21-s5.10.2] Principle: the heat released by burning a measured mass of alcohol is absorbed by a known mass of water, so Q = m(water) × c × ΔT.
+[chem21-s5.10.3] Here c is the specific heat capacity of water (the heat needed to warm a given mass by one degree) and ΔT is the temperature rise, so Q is the heat the water has gained.
+[chem21-s5.10.4] ΔHc = −Q ÷ moles of alcohol burned. The negative sign is there because heat released by the burning alcohol means a negative enthalpy change.
+[chem21-s5.10.5] Hypothesis (the prediction being tested): the heat of combustion becomes more negative by a roughly constant amount for each extra CH₂ in the alcohol.
+[chem21-s5.11.b] For a fair test, only one thing is changed, one thing is measured, and everything else is kept the same.
+[chem21-s5.11.0] Independent variable (the one you change): the alcohol, i.e. the number of carbon atoms.
+[chem21-s5.11.1] Dependent variable (the one you measure): the heat released per mole, calculated from the mass of alcohol burned and the temperature rise of the water.
+[chem21-s5.11.2] Controlled (kept the same): the same volume (mass) of water, at the same starting temperature, so that the same heat gives the same temperature rise each time.
+[chem21-s5.11.3] Controlled: the same copper can, the same distance from wick to can, and the same wick length, so that the share of heat reaching the can is similar for every alcohol.
+[chem21-s5.11.4] Controlled: the same temperature rise (e.g. 20 °C), and the draught shield in the same position.
+[chem21-s5.12.b] The method is the same for every alcohol: heat a fixed mass of water with the burner, and find out from the change in the burner's mass how much alcohol was burned.
+[chem21-s5.12.0] Step 1: measure 100 cm³ (100 g) of water with a graduated cylinder into a copper can (calorimeter, a container used to measure heat changes).
+[chem21-s5.12.1] Step 2: clamp the can a fixed distance (about 2–3 cm) above the wick of the spirit burner, and surround both with a draught shield.
+[chem21-s5.12.2] Step 3: weigh the spirit burner containing the alcohol, with its cap on, on a balance reading to 0.01 g.
+[chem21-s5.12.3] Step 4: record the initial temperature of the water.
+[chem21-s5.12.4] Step 5: light the burner and stir the water gently with the thermometer or a stirrer.
+[chem21-s5.12.5] Step 6: when the temperature has risen by about 20 °C, put out the flame by replacing the cap, and record the highest temperature reached.
+[chem21-s5.12.6] Step 7: reweigh the burner with its cap at once. The mass burned is the initial mass minus the final mass.
+[chem21-s5.12.7] Step 8: repeat with each alcohol, using fresh water each time, and repeat each alcohol to check reproducibility (that you get similar results each time).
+[chem21-s5.13.b] The apparatus has several parts, and each one has a job in the method, so know every part and where it sits.
+[chem21-s5.13.0] Diagram: a copper can of water held by a clamp above a spirit burner, a thermometer and stirrer in the water, a draught shield around the burner and can, the burner on a heat-proof mat, and a balance for weighing the burner.
+[chem21-s5.14.b] Every feature of the set-up either gets more of the heat into the water or keeps the measurement of the alcohol burned accurate.
+[chem21-s5.14.0] Copper is a good conductor of heat, so heat passes quickly from the flame into the water.
+[chem21-s5.14.1] The draught shield reduces heat lost by air currents and keeps the flame steady.
+[chem21-s5.14.2] Capping the burner as soon as the flame is out, and weighing immediately, stops the volatile alcohol (one that evaporates easily) evaporating from the wick, which would otherwise be counted as burned.
+[chem21-s5.14.3] Stirring spreads the heat evenly, so the thermometer reading represents all the water.
+[chem21-s5.14.4] The same temperature rise and set-up for each alcohol make the heat losses similar, so the comparison between alcohols is fair even if the absolute values are low.
+[chem21-s5.14.5] A temperature rise of about 20 °C is large enough to measure accurately, but not so large that heat losses, which increase as the water gets hotter, become very large.
+[chem21-s5.15.b] The calculation has two parts: the heat absorbed by the water, then that heat divided by the moles of alcohol burned. Here it is for ethanol, using sample data.
+[chem21-s5.15.0] For each alcohol: 100 g (0.100 kg) of water heated through 20.0 °C gives Q = 0.100 × 4.18 × 20.0 = 8.36 kJ, using c(water) = 4.18 kJ kg⁻¹ K⁻¹.
+[chem21-s5.15.1] Ethanol (M = 46 g mol⁻¹, the molar mass): mass burned 0.63 g, so moles = 0.63 ÷ 46 = 0.0137 mol.
+[chem21-s5.15.2] Heat per mole = 8.36 ÷ (0.63 ÷ 46) = 610 kJ mol⁻¹, so ΔHc(experimental) = −610 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.15.3] Percentage error = (standard − experimental) ÷ standard × 100, e.g. ethanol (1367 − 610) ÷ 1367 × 100 = 55%.
+[chem21-s5.16.b] Repeating the calculation for all four alcohols gives a set of experimental values to compare with the standard ones.
+[chem21-s5.16.0] Methanol (M = 32 g mol⁻¹): 0.82 g burned, giving ΔHc = −326 kJ mol⁻¹.
+[chem21-s5.16.1] Propan-1-ol (M = 60 g mol⁻¹): 0.55 g burned, giving ΔHc = −912 kJ mol⁻¹.
+[chem21-s5.16.2] Butan-1-ol (M = 74 g mol⁻¹): 0.51 g burned, giving ΔHc = −1210 kJ mol⁻¹ to 3 significant figures.
+[chem21-s5.16.3] Standard values are −726, −1367, −2021 and −2676 kJ mol⁻¹; each experimental value is about 45% of the standard value.
+[chem21-s5.16.4] A graph of experimental ΔHc against number of carbon atoms is a straight line, like the standard values but less steep, so the trend is confirmed even though the values are too low.
+[chem21-s5.17.b] The experimental values come out far below the standard ones. A good answer says why each error makes the value too low, not just that it is a problem.
+[chem21-s5.17.0] Heat loss: much of the heat from the flame goes to the surrounding air rather than into the water; this is the main reason the values are much less negative than standard values.
+[chem21-s5.17.1] Heat absorbed by the copper can, thermometer and clamp is not included in Q, so less heat is measured in the water and the value is too small. It could be added as m(copper) × c(copper) × ΔT, with c(copper) ≈ 0.385 J g⁻¹ K⁻¹.
+[chem21-s5.17.2] Incomplete combustion: with limited air at the wick, some carbon forms soot, seen on the base of the can, and carbon monoxide, releasing less energy than complete combustion.
+[chem21-s5.17.3] Evaporation of alcohol from the wick: alcohol lost without burning is counted as burned, making the heat per mole too small.
+[chem21-s5.17.4] Non-standard conditions: standard values assume products at 25 °C with water as a liquid; in the experiment the water leaves as vapour, so its heat of condensation is not released into the can.
+[chem21-s5.17.5] Improvements to reduce heat loss: insulate the can and add a lid, reduce the distance between flame and can, and use a draught shield.
+[chem21-s5.17.6] Improvements to reduce other errors: ensure a good air supply for complete combustion, cap and weigh the burner immediately, and include the heat absorbed by the can.
+[chem21-s5.17.7] Accurate values are measured in a sealed calorimeter, which is not required here.
+[chem21-s5.18.b] Alcohols burn easily and methanol is poisonous, so the main precautions are about fire and fumes.
+[chem21-s5.18.0] Alcohols are highly flammable: keep bottles stoppered and away from flames, never refill a burner while it is lit or hot, and refill in a fume cupboard or away from flames.
+[chem21-s5.18.1] Methanol is toxic by swallowing, by skin contact and by inhaling its vapour; avoid skin contact and work in a well-ventilated room.
+[chem21-s5.18.2] Wear safety glasses, tie back long hair, stand the burner on a heat-proof mat, and let the copper can cool before handling it.
+
+CANDIDATES chem8-s1: 1. The mole and molar volume
+[chem8-s1.0.b] Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.
+[chem8-s1.0.0] The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.
+[chem8-s1.0.1] One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.
+[chem8-s1.0.2] Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.
+[chem8-s1.0.3] Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.
+[chem8-s1.0.4] Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.
+[chem8-s1.0.5] One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.
+[chem8-s1.0.6] This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules.
+[chem8-s1.1.b] To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.
+[chem8-s1.1.0] Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.
+[chem8-s1.1.1] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.
+[chem8-s1.1.2] Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.
+[chem8-s1.1.3] Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.
+[chem8-s1.1.4] Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.
+[chem8-s1.1.5] Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.
+[chem8-s1.1.6] Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³.
+[chem8-s1.2.b] Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.
+[chem8-s1.2.0] Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.
+[chem8-s1.2.1] Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.
+[chem8-s1.2.2] Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.
+[chem8-s1.2.3] Moles from number of particles: n = N ÷ NA, which reverses the previous step.
+[chem8-s1.2.4] Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.
+[chem8-s1.2.5] Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.
+[chem8-s1.3.b] Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.
+[chem8-s1.3.0] Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).
+[chem8-s1.3.1] Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.
+[chem8-s1.3.2] Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.
+[chem8-s1.3.3] Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.
+[chem8-s1.3.4] Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles.
+[chem8-s1.4.b] Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.
+[chem8-s1.4.0] Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.
+[chem8-s1.4.1] The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).
+[chem8-s1.4.2] Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom.
+[chem8-s1.5.b] Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.
+[chem8-s1.5.0] Step 1: multiply each isotope's mass number by its percentage abundance.
+[chem8-s1.5.1] Step 2: add the products together, to get the total mass contributed by 100 atoms.
+[chem8-s1.5.2] Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.
+[chem8-s1.5.3] Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope.
+[chem8-s1.6.b] Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.
+[chem8-s1.6.0] Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.
+[chem8-s1.6.1] Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.
+[chem8-s1.6.2] Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.
+[chem8-s1.6.3] Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.
+[chem8-s1.6.4] Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.
+[chem8-s1.6.5] Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.
+[chem8-s1.7.b] The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.
+[chem8-s1.7.0] For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.
+[chem8-s1.7.1] Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.
+[chem8-s1.7.2] Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.
+[chem8-s1.7.3] Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.
+[chem8-s1.7.4] The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.
+[chem8-s1.7.5] Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances.
+[chem8-s1.8.b] Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.
+[chem8-s1.8.0] Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.
+[chem8-s1.8.1] So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).
+[chem8-s1.8.2] Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.
+[chem8-s1.8.3] Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.
+[chem8-s1.8.4] Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.
+[chem8-s1.8.5] Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia.
+[chem8-s1.9.b] Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.
+[chem8-s1.9.0] Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).
+[chem8-s1.9.1] Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).
+[chem8-s1.9.2] Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.
+[chem8-s1.9.3] At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).
+[chem8-s1.9.4] At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.
+[chem8-s1.9.5] IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.
+[chem8-s1.9.6] Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.
+[chem8-s1.9.7] Molar volume applies to gases only, not to liquids or solids.
+[chem8-s1.10.b] The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.
+[chem8-s1.10.0] From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.
+[chem8-s1.10.1] For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.
+[chem8-s1.10.2] This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.
+[chem8-s1.10.3] Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).
+[chem8-s1.10.4] Find the number of moles of gas released from the mass lost, using n = m ÷ M.
+[chem8-s1.10.5] Scale the volume to one mole and correct it to STP to obtain the molar volume.
+[chem8-s1.10.6] Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe.
+[chem8-s1.11.b] At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.
+[chem8-s1.11.0] Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.
+[chem8-s1.11.1] Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.11.2] Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.
+[chem8-s1.11.3] Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.
+[chem8-s1.11.4] Then V = 0.50 × 22.4 = 11.2 L at STP.
+[chem8-s1.12.b] Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.
+[chem8-s1.12.0] Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem8-s1.12.1] The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.
+[chem8-s1.12.2] So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane.
+[chem8-s1.13.b] Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.
+[chem8-s1.13.0] A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.
+[chem8-s1.13.1] If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.
+[chem8-s1.13.2] Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.
+[chem8-s1.13.3] The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly).
+[chem8-s1.14.b] The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.
+[chem8-s1.14.0] A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.
+[chem8-s1.14.1] A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.
+[chem8-s1.14.2] A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).
+[chem8-s1.14.3] Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.
+[chem8-s1.14.4] Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.
+[chem8-s1.14.5] Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale.
+[chem8-s1.15.b] The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.
+[chem8-s1.15.0] 1. Weigh the dry conical flask with the foil cap and rubber band.
+[chem8-s1.15.1] 2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.
+[chem8-s1.15.2] 3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.
+[chem8-s1.15.3] 4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.
+[chem8-s1.15.4] The flask is then left full of propanone vapour at the temperature of the boiling water.
+[chem8-s1.15.5] 5. Record the temperature of the water bath and the atmospheric pressure from the barometer.
+[chem8-s1.16.b] Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.
+[chem8-s1.16.0] 6. Remove the flask and cool it, so the vapour condenses.
+[chem8-s1.16.1] Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.
+[chem8-s1.16.2] 7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.
+[chem8-s1.17.b] The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.
+[chem8-s1.17.0] Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.
+[chem8-s1.17.1] Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.
+[chem8-s1.17.2] Moles: n = PV ÷ RT, with R = 8.314 J K⁻¹ mol⁻¹.
+[chem8-s1.17.3] Numerator: PV = 101 000 × 2.70 × 10⁻⁴ = 27.27.
+[chem8-s1.17.4] Denominator: RT = 8.314 × 373 = 3101.
+[chem8-s1.17.5] Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.
+[chem8-s1.17.6] Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.
+[chem8-s1.17.7] The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it.
+[chem8-s1.18.b] Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.
+[chem8-s1.18.0] Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.
+[chem8-s1.18.1] Propanone vapour is an irritant: work in a well-ventilated room.
+[chem8-s1.18.2] Take care with boiling water and hot glassware, because they can cause burns.
+[chem8-s1.19.b] The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.
+[chem8-s1.19.0] If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.
+[chem8-s1.19.1] Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.
+[chem8-s1.19.2] Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.
+[chem8-s1.19.3] A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.
+[chem8-s1.19.4] Part of the flask is above the water, so the vapour there is cooler than 373 K.
+[chem8-s1.19.5] The vapour is not a perfect ideal gas, especially close to its boiling point.
+[chem8-s1.19.6] The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.
+[chem8-s1.19.7] Repeat the experiment and average the results, because this reduces the effect of random errors in a single run.
+
+CANDIDATES chem23-s3: 3. Groups of hydrocarbons and their properties
+[chem23-s3.0.b] A hydrocarbon is a compound containing only carbon and hydrogen. Chemists sort hydrocarbons into groups by the kind of carbon–carbon bonds they contain, because the bonding decides how each group behaves.
+[chem23-s3.0.0] Hydrocarbons are divided by the type of carbon–carbon bonds present into aliphatic and aromatic hydrocarbons.
+[chem23-s3.0.1] Aliphatic hydrocarbons have open chains of carbon atoms, straight or branched, or rings that behave like chains, such as cyclohexane. They are the alkanes, alkenes and alkynes.
+[chem23-s3.0.2] Aromatic hydrocarbons contain a benzene ring (a ring of six carbon atoms with special bonding). Benzene, C₆H₆, is the example given in the specification.
+[chem23-s3.0.3] A saturated hydrocarbon (one holding as many hydrogens as it can) has only carbon–carbon single bonds, as in alkanes and cycloalkanes (alkanes whose carbons form a ring).
+[chem23-s3.0.4] An unsaturated hydrocarbon contains at least one carbon–carbon double or triple bond, as in alkenes and alkynes, so it could take on more atoms by opening that bond.
+[chem23-s3.0.5] A homologous series is a family with the same general formula (one formula that fits every member) and similar chemical properties, a gradual change in physical properties, and each member differing from the next by CH₂.
+[chem23-s3.1.b] The alkanes are saturated aliphatic hydrocarbons with single bonds only. Having no multiple bonds explains why they are so unreactive.
+[chem23-s3.1.0] General formula CₙH₂ₙ₊₂, where n is the number of carbons. The first members are methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀, pentane C₅H₁₂ and hexane C₆H₁₄.
+[chem23-s3.1.1] Bonding: only single C–C and C–H covalent bonds are present, so the molecule is saturated.
+[chem23-s3.1.2] Structure: each carbon is tetrahedral (its four bonds point to the corners of a tetrahedron), with bond angles of 109.5°. Chains can be branched from butane onwards.
+[chem23-s3.1.3] Cyclohexane, C₆H₁₂, is a ring of six CH₂ groups joined by single bonds; it is saturated and aliphatic.
+[chem23-s3.1.4] Cyclohexane has two fewer hydrogens than hexane because the ends of the chain are joined to make the ring. Its ring is not flat because each carbon is tetrahedral.
+[chem23-s3.1.5] Alkanes are non-polar (their bonds have no significant positive or negative ends) and insoluble in water, and small members burn with a clean blue flame.
+[chem23-s3.1.6] Alkanes are otherwise unreactive: they react with halogens (such as chlorine) only in ultraviolet light, by substitution (one atom replaced by another), e.g. CH₄ + Cl₂ → CH₃Cl + HCl.
+[chem23-s3.2.b] The alkenes are unsaturated aliphatic hydrocarbons with one carbon–carbon double bond. That double bond makes them far more reactive than alkanes.
+[chem23-s3.2.0] General formula CₙH₂ₙ; the members are ethene C₂H₄, propene C₃H₆, butene C₄H₈, pentene C₅H₁₀ and hexene C₆H₁₂.
+[chem23-s3.2.1] Bonding: one C=C double bond is present, so the molecule is unsaturated.
+[chem23-s3.2.2] Structure: the two carbons of the double bond and the four atoms attached to them lie in one plane, with angles of about 120°, and there is no rotation about the C=C bond.
+[chem23-s3.2.3] Alkenes are, like alkanes, non-polar and insoluble in water, but they are much more reactive.
+[chem23-s3.2.4] Alkenes undergo addition (other atoms join on across the double bond, which becomes a single bond) with bromine, which decolourises bromine water (turns it from orange to colourless); with hydrogen over a nickel catalyst, e.g. CH₂=CH₂ + H₂ → CH₃CH₃; and with hydrogen chloride, e.g. CH₂=CH₂ + HCl → CH₃CH₂Cl.
+[chem23-s3.2.5] Alkenes add to one another to form addition polymers (long chains built from many alkene molecules), e.g. ethene forms poly(ethene). There is more on this in Types of organic reaction and addition polymers.
+[chem23-s3.2.6] Alkenes burn with a more luminous (brighter), smokier flame than alkanes because of their higher carbon content.
+[chem23-s3.3.b] The alkynes are unsaturated aliphatic hydrocarbons with one carbon–carbon triple bond. Like alkenes, they take part in addition reactions.
+[chem23-s3.3.0] General formula CₙH₂ₙ₋₂; the first member is ethyne, C₂H₂, also called acetylene.
+[chem23-s3.3.1] Bonding: one C≡C triple bond is present, so the molecule is unsaturated.
+[chem23-s3.3.2] Structure: the two carbons of the triple bond and the atoms attached to them lie in a straight line, with an angle of 180°, so ethyne is linear.
+[chem23-s3.3.3] Alkynes undergo addition reactions; with excess bromine, ethyne gives 1,1,2,2-tetrabromoethane: C₂H₂ + 2Br₂ → CHBr₂CHBr₂.
+[chem23-s3.3.4] Ethyne burns in air with a very smoky, luminous flame.
+[chem23-s3.3.5] Ethyne burns in pure oxygen with a very hot flame, which is used for welding: 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
+[chem23-s3.4.b] Benzene is the aromatic hydrocarbon on the course. It is unsaturated on paper, yet it behaves very differently from an alkene, and its structure explains why.
+[chem23-s3.4.0] Benzene, C₆H₆, is a colourless liquid with a boiling point of 80 °C and a sweet smell.
+[chem23-s3.4.1] Its structure is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°.
+[chem23-s3.4.2] All six carbon–carbon bonds are identical, intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised (spread) around the whole ring.
+[chem23-s3.4.3] This is why benzene is drawn as a hexagon with a circle inside. There is more on this in Shapes, bonding and isomerism.
+[chem23-s3.4.4] Although benzene is unsaturated, it is very stable and resists addition: it does not decolourise bromine water or acidified potassium manganate(VII), and it reacts mainly by substitution.
+[chem23-s3.4.5] Benzene burns with a very smoky, sooty flame because of its high carbon content, 92.3% by mass, the same as ethyne.
+[chem23-s3.4.6] Benzene is toxic and carcinogenic (cancer-causing), causing leukaemia, so it is not used in school laboratories, where safer solvents such as cyclohexane are used instead.
+[chem23-s3.4.7] Michael Faraday isolated benzene in 1825, and August Kekulé proposed a ring of alternating single and double bonds in 1865.
+[chem23-s3.4.8] The Kekulé structure cannot explain why all the carbon–carbon bonds are the same length, or why benzene does not decolourise bromine water.
+[chem23-s3.5.b] Putting the four groups side by side shows a pattern: the type of carbon–carbon bonding decides the shape, the reactivity and the result of the bromine water test.
+[chem23-s3.5.0] Alkanes have the general formula CₙH₂ₙ₊₂, single C–C bonds, tetrahedral shape with 109.5° angles around each carbon, and methane as the first member; bromine water shows no change.
+[chem23-s3.5.1] Alkenes have the general formula CₙH₂ₙ, one double bond, planar (flat) shape with 120° angles, and ethene as the first member; bromine water is decolourised.
+[chem23-s3.5.2] Alkynes have the general formula CₙH₂ₙ₋₂, one triple bond, a linear shape with 180° angles, and ethyne as the first member; bromine water is decolourised.
+[chem23-s3.5.3] Benzene has the general formula C₆H₆, a delocalised ring, a planar shape with 120° angles, and benzene as the first member; bromine water shows no change.
+[chem23-s3.5.4] All four groups are non-polar, with only London dispersion forces (weak attractions between temporary charges in neighbouring molecules) between their molecules, so all are insoluble in water and soluble in non-polar solvents; small members are gases.
+[chem23-s3.5.5] Reactivity follows bonding: single bonds only give unreactive alkanes; a localised double or triple bond gives reactive alkenes and alkynes that undergo addition; a delocalised ring gives benzene, which is stable and undergoes substitution rather than addition.
+[chem23-s3.6.b] Names follow the systematic IUPAC rules (the internationally agreed system), and only compounds up to C6 need to be named. Start with the stem and then work through the rules for alkanes.
+[chem23-s3.6.0] The stem gives the number of carbons in the parent chain (the main chain): 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem23-s3.6.1] The ending is -ane for alkanes, -ene for alkenes and -yne for alkynes.
+[chem23-s3.6.2] Find the longest continuous carbon chain, which may bend on paper; this gives the parent name.
+[chem23-s3.6.3] Number the chain from the end that gives the side chains (substituents, groups branching off the main chain) the lowest numbers.
+[chem23-s3.6.4] Name side chains as alkyl groups: methyl (–CH₃) and ethyl (–C₂H₅); give each a position number, using di- and tri- for repeats.
+[chem23-s3.6.5] Separate numbers from one another with commas, and separate numbers from words with hyphens; list different side chains alphabetically.
+[chem23-s3.7.b] Applying the rules to branched alkanes shows how the numbering works.
+[chem23-s3.7.0] CH₃CH(CH₃)CH₃ is methylpropane. It needs no number because the methyl group can only be on carbon 2, though 2-methylpropane is also accepted.
+[chem23-s3.7.1] CH₃CH(CH₃)CH₂CH₃ is 2-methylbutane, not 3-methylbutane, because numbering from the end that gives the lowest number to the side chain puts it on carbon 2.
+[chem23-s3.7.2] C(CH₃)₄ is 2,2-dimethylpropane, with di- showing two methyl groups, both on carbon 2.
+[chem23-s3.7.3] CH₃CH₂CH(CH₃)CH₂CH₃ is 3-methylpentane.
+[chem23-s3.7.4] (CH₃)₂CHCH(CH₃)₂ is 2,3-dimethylbutane.
+[chem23-s3.8.b] Alkenes and alkynes follow the same rules, with one addition: the multiple bond decides the numbering and must sit in the main chain.
+[chem23-s3.8.0] For alkenes and alkynes the main chain must contain the multiple bond; number from the end nearer to it, and give the number of its first carbon before -ene or -yne.
+[chem23-s3.8.1] CH₂=CHCH₂CH₃ is but-1-ene, CH₃CH=CHCH₃ is but-2-ene, CH₂=C(CH₃)CH₃ is 2-methylpropene, and CH₂=CHCH₂CH₂CH₂CH₃ is hex-1-ene.
+[chem23-s3.8.2] HC≡CCH₃ is propyne, and CH₃C≡CCH₃ is but-2-yne.
+[chem23-s3.8.3] Ethene, propene, ethyne and propyne need no number, because there is only one position for the multiple bond.
+[chem23-s3.8.4] Rings take the prefix cyclo-, as in cyclohexane; benzene keeps its own name.
+[chem23-s3.9.b] Three things explain almost every difference in the properties of hydrocarbons: the forces between molecules, the size of the molecules, and the kind of carbon–carbon bond.
+[chem23-s3.9.0] Hydrocarbons are non-polar, because C–H bonds have very low polarity (the electrons are shared almost equally), so the only forces between their molecules are London dispersion forces. There is more on this in Bond type and intermolecular forces.
+[chem23-s3.9.1] London dispersion forces get stronger as relative molecular mass (Mr, the mass of a molecule compared with the carbon-12 standard) increases, because there are more electrons and larger electron clouds, and as the area of contact between molecules increases.
+[chem23-s3.9.2] The stronger the intermolecular forces, the more energy is needed to separate the molecules, so the higher the boiling point and the more likely the substance is a liquid or solid at room temperature.
+[chem23-s3.9.3] The nature of the carbon–carbon bonds decides chemical reactivity: single bonds only give unreactive compounds, while a C=C double bond gives reactivity through addition reactions.
+[chem23-s3.9.4] Boiling overcomes the forces between molecules; it does not break C–C or C–H bonds.
+[chem23-s3.10.b] The data show how boiling point depends on carbon number in the straight-chain alkanes (those with no branches).
+[chem23-s3.10.0] Boiling points: methane −162 °C, ethane −89 °C, propane −42 °C, butane −1 °C, pentane 36 °C and hexane 69 °C.
+[chem23-s3.10.1] Boiling point rises with carbon number because each extra CH₂ increases the relative molecular mass and the number of electrons, and lengthens the molecule, so London dispersion forces get stronger.
+[chem23-s3.10.2] The rise for each extra CH₂ gets smaller: the successive differences are 73, 47, 41, 37 and 33 °C, because each CH₂ is a smaller fraction of the molecule.
+[chem23-s3.10.3] At room temperature, about 20 °C, methane to butane are gases, while pentane and hexane are liquids.
+[chem23-s3.10.4] Larger alkanes up to about C16 are liquids, and beyond that they are waxy solids.
+[chem23-s3.11.b] Other properties either follow from the molecules being non-polar or change gradually with chain length. Reactivity does not change at all.
+[chem23-s3.11.0] All alkanes are insoluble in water, because they are non-polar and cannot form hydrogen bonds with water.
+[chem23-s3.11.1] All alkanes dissolve in or mix with non-polar solvents such as cyclohexane, following the rule “like dissolves like”.
+[chem23-s3.11.2] Liquid alkanes are less dense than water and float on it; hexane has a density of about 0.66 g cm⁻³.
+[chem23-s3.11.3] All alkanes burn completely to CO₂ and H₂O, e.g. C₆H₁₄(l) + 9½O₂(g) → 6CO₂(g) + 7H₂O(l); larger alkanes need more oxygen per mole and release more energy per mole.
+[chem23-s3.11.4] Larger alkanes burn with a more luminous, smokier flame and are less volatile (they evaporate less easily), so they are harder to ignite.
+[chem23-s3.11.5] The percentage of carbon rises from 75.0% in CH₄ to 83.7% in C₆H₁₄, making incomplete combustion (burning in too little oxygen, giving soot and CO) more likely.
+[chem23-s3.11.6] There is no difference in reactivity: all straight-chain alkanes are unreactive, reacting only by combustion or by substitution with halogens in ultraviolet light.
+[chem23-s3.12.b] Alkanes with the same carbon number but different structures are structural isomers: they have the same molecular formula and Mr, but a different arrangement of the chain. Their boiling points differ even so.
+[chem23-s3.12.0] Butane (−1 °C) and methylpropane (−12 °C) are the isomers of C₄H₁₀.
+[chem23-s3.12.1] Pentane (36 °C), 2-methylbutane (28 °C) and 2,2-dimethylpropane (10 °C) are the isomers of C₅H₁₂.
+[chem23-s3.12.2] Hexane (69 °C), 3-methylpentane (63 °C), 2-methylpentane (60 °C), 2,3-dimethylbutane (58 °C) and 2,2-dimethylbutane (50 °C) are the isomers of C₆H₁₄.
+[chem23-s3.12.3] The more branched the molecule, the more compact, or closer to spherical, it is, so the area of contact between neighbouring molecules is smaller.
+[chem23-s3.12.4] Smaller contact gives weaker London dispersion forces and a lower boiling point, since the Mr is the same for all the isomers. Unbranched chains lie alongside each other with a large area of contact.
+[chem23-s3.13.b] Branching changes the boiling point enough to change the state at room temperature, but it leaves the chemistry unchanged.
+[chem23-s3.13.0] 2,2-dimethylpropane, with a boiling point of 10 °C, is a gas at room temperature, although pentane, with the same formula, is a liquid at room temperature because its boiling point is 36 °C.
+[chem23-s3.13.1] Isomers show no significant difference in solubility, combustion or reactivity: all are non-polar and insoluble in water, burn to the same products with the same equation, e.g. C₅H₁₂ + 8O₂ → 5CO₂ + 6H₂O, and are equally unreactive.
+[chem23-s3.13.2] Diagram: two pentane molecules lying side by side with a large area of contact, beside two 2,2-dimethylpropane molecules touching at only a small area.
+[chem23-s3.14.b] The monounsaturated straight-chain alkenes (those with one double bond and no branches) show the same boiling point pattern as the alkanes, but a little lower.
+[chem23-s3.14.0] Boiling points: ethene −104 °C, propene −48 °C, but-1-ene −6 °C, pent-1-ene 30 °C and hex-1-ene 63 °C.
+[chem23-s3.14.1] Boiling point rises with carbon number for the same reason as in alkanes: a larger Mr, more electrons and stronger London dispersion forces.
+[chem23-s3.14.2] Ethene to butene are gases at room temperature, while pentene and hexene are liquids.
+[chem23-s3.14.3] Each alkene boils a little lower than the alkane with the same number of carbons, e.g. ethene −104 °C against ethane −89 °C and hex-1-ene 63 °C against hexane 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London forces.
+[chem23-s3.15.b] Alkenes resemble alkanes in solubility, but their double bond makes their reactivity and flame different.
+[chem23-s3.15.0] All alkenes are insoluble in water and soluble in non-polar solvents, like alkanes.
+[chem23-s3.15.1] All alkenes burn to CO₂ and H₂O, e.g. C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).
+[chem23-s3.15.2] Every straight-chain alkene has the same percentage of carbon, 85.7%, since all have the formula CₙH₂ₙ; this is more than in the alkanes, so alkenes burn with smokier flames than alkanes.
+[chem23-s3.15.3] All alkenes have one C=C bond, so they all undergo the same addition reactions, e.g. all decolourise bromine water, and they are much more reactive than alkanes.
+[chem23-s3.15.4] Changing the chain length or the position of the double bond makes little difference to reactivity.
+[chem23-s3.16.b] Use the data tables to predict properties from the trends. Each prediction rests on the three factors: intermolecular forces, Mr and bonding.
+[chem23-s3.16.0] To predict a boiling point, use the trend in a table: the value lies between those of the neighbouring members, or of isomers with more and less branching.
+[chem23-s3.16.1] Pent-1-ene, with a boiling point of 30 °C, is a liquid at 20 °C but would boil on a warm day or in warm water.
+[chem23-s3.16.2] 2-Methylpentane boils below hexane, because both are C₆H₁₄ and the branched isomer has a smaller area of contact.
+[chem23-s3.16.3] Hex-1-ene will decolourise bromine water and hexane will not, and both will float on water without dissolving.
+[chem23-s3.16.4] A mixture of pentane and hexane can be separated by fractional distillation (separating liquids by their different boiling points), because their boiling points differ, at 36 °C and 69 °C.
+[chem23-s3.17.b] Of the aliphatic hydrocarbons, alkanes are the most stable. Stable here has a particular meaning, set out below.
+[chem23-s3.17.0] Alkanes are the least reactive aliphatic hydrocarbons: at room temperature they do not react with acids, bases, most oxidising agents such as acidified potassium manganate(VII), or bromine water.
+[chem23-s3.17.1] Their old name, paraffins, comes from the Latin parum affinis, meaning little affinity, that is, little reactivity.
+[chem23-s3.17.2] “Stable” means unreactive under ordinary conditions, not that alkanes can never react: they burn readily once ignited, and they react with halogens in ultraviolet light.
+[chem23-s3.18.b] Three features of alkane bonding explain their stability: they are saturated, their bonds are strong, and their bonds are almost non-polar.
+[chem23-s3.18.0] Alkanes are saturated: every carbon already has four single bonds, so nothing can add to the molecule, and a bond must be broken before any reaction can occur.
+[chem23-s3.18.1] C–C and C–H bonds are strong, so a great deal of energy is needed to break them, which gives a high activation energy (the minimum energy needed to start a reaction).
+[chem23-s3.18.2] The electronegativities (a measure of how strongly an atom pulls on shared electrons) of carbon, 2.55, and hydrogen, 2.20, differ by only 0.35, so C–H bonds are almost non-polar, and C–C bonds are completely non-polar.
+[chem23-s3.18.3] With no significant δ⁺ or δ⁻ sites (slightly positive or negative ends), alkane molecules do not attract ions such as OH⁻ or H⁺, or polar molecules, which react by attacking charged sites.
+[chem23-s3.18.4] Alkenes are more reactive because the C=C double bond is an electron-rich site that attracts reagents such as bromine and allows addition.
+[chem23-s3.19.b] Alkanes are stable, not inert. They react under two sets of conditions: when ignited, and when exposed to ultraviolet light with a halogen.
+[chem23-s3.19.0] Combustion: alkanes burn in oxygen once a flame or spark supplies the activation energy, releasing a lot of energy, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem23-s3.19.1] Substitution with chlorine or bromine needs ultraviolet light, or sunlight, to split the halogen molecule into reactive atoms, called free radicals, e.g. CH₄ + Cl₂ → CH₃Cl + HCl. There is more on this in Reaction mechanisms.
+[chem23-s3.19.2] In the dark, an alkane mixed with bromine stays orange; in sunlight the colour slowly fades as substitution happens, which is much slower than the instant decolourisation produced by an alkene.
+[chem23-s3.20.b] The unreactivity of alkanes is useful in everyday life, and it also causes an environmental problem.
+[chem23-s3.20.0] Alkanes are safe to store and transport as fuels, such as natural gas, LPG and petrol, because they do not react until ignited.
+[chem23-s3.20.1] Unreactive liquid alkanes such as hexane and cyclohexane are useful solvents.
+[chem23-s3.20.2] Mineral oils and paraffin wax are used as lubricants and protective coatings.
+[chem23-s3.20.3] The same chemical stability makes poly(ethene) and other addition polymers, whose chains are alkane-like, slow to break down in the environment. There is more on this in Types of organic reaction and addition polymers.
+[chem23-s3.21.b] At Higher Level the stability of alkanes is explained by the type of bond. Single bonds are sigma bonds, while the second bond in an alkene's double bond is a weaker pi bond.
+[chem23-s3.21.0] Every bond in an alkane is a sigma (σ) bond, formed by head-on overlap of orbitals (the regions where electrons are found) along the line between the two nuclei.
+[chem23-s3.21.1] In a σ bond the shared electron pair is concentrated between the two nuclei, where both nuclei hold it strongly, so σ bonds are strong and their electrons are not exposed to attacking reagents.
+[chem23-s3.21.2] An alkene's double bond is one σ bond plus one pi (π) bond; the π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, so they are exposed to attack by electron-seeking reagents.
+[chem23-s3.21.3] Typical average bond enthalpies (energies needed to break a bond) are C–C 348 kJ mol⁻¹, C=C 614 kJ mol⁻¹ and C–H 412 kJ mol⁻¹, so the π part of the C=C bond adds only about 266 kJ mol⁻¹ to the σ bond.
+[chem23-s3.21.4] So alkenes react by breaking the weaker π bond and keeping the σ bond, which is addition, whereas an alkane would have to break a strong σ bond, which needs much more energy.
+[chem23-s3.21.5] Diagram: a C–C σ bond with electron density between the nuclei, beside a C=C bond showing the σ bond and the π electron cloud above and below the bond axis.

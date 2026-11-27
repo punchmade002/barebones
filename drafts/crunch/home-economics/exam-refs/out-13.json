@@ -1,0 +1,121 @@
+{
+"homeeconomics-pp-2006-HI-sectionc-personalfinance-C3": {
+"3(a)(i)": ["hom-unemployment-poverty-s4"],
+"3(a)(ii)": ["hom-unemployment-poverty-s5"],
+"3(a)(iii)": ["hom-unemployment-poverty-s6"],
+"3(b)(i)": ["hom-social-change-s1"],
+"3(b)(ii)": ["hom-social-change-s1"],
+"3(c)(i)": ["hom-education-s5"],
+"3(c)(ii)": ["hom-education-s4"]
+},
+"homeeconomics-pp-2010-HI-sectiona-digestionmetabolism-A1": {
+"(whole)": ["hom-digestion-metabolism-s1"]
+},
+"homeeconomics-pp-2010-HI-sectiona-carbohydrates-A2": {
+"(whole)": ["hom-carbohydrates-s4", "hom-carbohydrates-s5"]
+},
+"homeeconomics-pp-2010-HI-sectiona-vitaminsminerals-A3": {
+"(whole)": ["hom-vitamins-minerals-s2"]
+},
+"homeeconomics-pp-2010-HI-sectiona-energynutrition-A4": {
+"(whole)": ["hom-energy-nutrition-s1"]
+},
+"homeeconomics-pp-2010-HI-sectiona-dairyeggs-A5": {
+"(whole)": ["hom-dairy-eggs-s4"]
+},
+"homeeconomics-pp-2010-HI-sectiona-cerealsgrains-A6": {
+"(whole)": ["hom-cereals-grains-s5"]
+},
+"homeeconomics-pp-2010-HI-sectiona-foodadditives-A7": {
+"(whole)": ["hom-food-additives-s4"]
+},
+"homeeconomics-pp-2010-HI-sectiona-foodsafety-A8": {
+"(whole)": ["hom-food-safety-s7"]
+},
+"homeeconomics-pp-2010-HI-sectiona-appliancesequipment-A9": {
+"(whole)": ["hom-appliances-equipment-s5"]
+},
+"homeeconomics-pp-2010-HI-sectiona-textilesfibres-A10": {
+"(whole)": ["hom-textiles-fibres-s1"]
+},
+"homeeconomics-pp-2010-HI-sectiona-personalfinance-A11": {
+"(whole)": ["hom-personal-finance-s3"]
+},
+"homeeconomics-pp-2010-HI-sectiona-environmentalissues-A12": {
+"(whole)": ["hom-environmental-issues-s2"]
+},
+"homeeconomics-pp-2010-HI-sectionb-meatpreparation-B1": {
+"(a)(i)": ["hom-food-industry-s1"],
+"(a)(ii)": ["hom-food-industry-s3"],
+"(b)": ["hom-vitamins-minerals-s4"],
+"(c)": ["hom-vitamins-minerals-s5"],
+"(d)": ["hom-meat-preparation-s2"]
+},
+"homeeconomics-pp-2010-HI-sectionb-fishseafood-B2": {
+"(a)": ["hom-fish-seafood-s1"],
+"(b)": ["hom-fish-seafood-s3", "hom-cooking-methods-s3"],
+"(c)": ["hom-energy-nutrition-s5", "hom-meal-planning-s1"]
+},
+"homeeconomics-pp-2010-HI-sectionb-foodpreservation-B3": {
+"(a)": ["hom-food-preservation-s8", "hom-food-preservation-s2", "hom-food-preservation-s3"],
+"(b)": ["hom-food-additives-s2"],
+"(c)": ["hom-food-additives-s2"]
+},
+"homeeconomics-pp-2010-HI-sectionb-personalfinance-B4": {
+"(a)": ["hom-personal-finance-s2"],
+"(b)": ["hom-personal-finance-s4"],
+"(c)": ["hom-personal-finance-s2"]
+},
+"homeeconomics-pp-2010-HI-sectionb-housing-B5": {
+"(a)": ["hom-family-society-s5"],
+"(b)": ["hom-family-caring-s2"],
+"(c)": ["hom-family-law-s6"]
+},
+"homeeconomics-pp-2010-HI-sectionc-housing-C1": {
+"1(a)(i)": ["hom-home-interior-s1"],
+"1(a)(ii)": ["hom-home-interior-s1"],
+"1(a)(iii)": ["hom-home-interior-s2", "hom-home-interior-s3"],
+"1(b)(i)": ["hom-home-services-s4"],
+"1(b)(ii)": ["hom-home-services-s4"],
+"1(c)(i)": ["hom-housing-s4"],
+"1(c)(ii)": ["hom-housing-s4"]
+},
+"homeeconomics-pp-2010-HI-sectionc-textilesfibres-C2": {
+"2(a)(i)": ["hom-clothing-selection-s2"],
+"2(a)(ii)": ["hom-clothing-selection-s3", "hom-clothing-selection-s4"],
+"2(a)(iii)": ["hom-textiles-fibres-s4", "hom-textiles-fibres-s5"],
+"2(b)": ["hom-textiles-fibres-s4"],
+"2(c)(i)": ["hom-clothing-selection-s6"],
+"2(c)(ii)": ["hom-clothing-selection-s6"]
+},
+"homeeconomics-pp-2010-HI-sectionc-personalfinance-C3": {
+"3(a)(i)": ["hom-unemployment-poverty-s5"],
+"3(a)(ii)": ["hom-unemployment-poverty-s6", "hom-unemployment-poverty-s7"],
+"3(a)(iii)": ["hom-unemployment-poverty-s7"],
+"3(b)(i)": ["hom-work-leisure-s1"],
+"3(b)(ii)": ["hom-work-leisure-s2"],
+"3(c)(i)": ["hom-education-s1"],
+"3(c)(ii)": ["hom-education-s4", "hom-education-s5"]
+},
+"homeeconomics-pp-2023-HI-sectionb-vitaminsminerals-Q1": {
+"(a)": ["hom-vitamins-minerals-s4", "hom-meal-planning-s2"],
+"(b)": ["hom-vitamins-minerals-s5"],
+"(c)": ["hom-vitamins-minerals-s2"],
+"(d)": ["hom-meal-planning-s5"]
+},
+"homeeconomics-pp-2023-HI-sectionb-fishseafood-Q2": {
+"(a)": ["hom-fish-seafood-s1"],
+"(b)": ["hom-fish-seafood-s4", "hom-fish-seafood-s2"],
+"(c)": ["hom-food-safety-s8"]
+},
+"homeeconomics-pp-2023-HI-sectionb-foodadditives-Q3": {
+"(a)": ["hom-meal-planning-s1"],
+"(b)": ["hom-food-additives-s1", "hom-dairy-eggs-s4", "hom-food-additives-s2"],
+"(c)": ["hom-food-additives-s4"]
+},
+"homeeconomics-pp-2023-HI-sectionb-consumerrights-Q4": {
+"(a)": ["hom-resource-management-s3"],
+"(b)": ["hom-consumer-rights-s1", "hom-consumer-rights-s2"],
+"(c)": ["hom-consumer-rights-s3"]
+}
+}

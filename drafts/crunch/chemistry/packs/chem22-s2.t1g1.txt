@@ -1,0 +1,455 @@
+MODE: cost and links
+TARGET chem22-s2: 2. Fuel cells and sustainability
+[chem22-s2.0.b] Both kinds of cell turn the energy stored in chemicals into electricity, but they differ in where the reactants are kept. That one difference decides what happens when the reactants run low.
+[chem22-s2.0.0] A chemical cell, e.g. a zinc–carbon, alkaline, lead–acid or lithium-ion cell, uses a redox reaction (one substance loses electrons while another gains them) between reactants sealed inside it to convert chemical energy into electrical energy.
+[chem22-s2.0.1] A chemical cell stops working when its reactants have been used up, because nothing more can be added to the sealed cell.
+[chem22-s2.0.2] When a chemical cell's reactants are used up, a primary cell (a single-use cell) is discarded, while a secondary cell (a rechargeable cell) must be recharged from an external electrical supply.
+[chem22-s2.0.3] A fuel cell converts the chemical energy of a fuel, e.g. hydrogen, and an oxidising agent (a substance that takes electrons from the fuel), usually oxygen from the air, into electrical energy.
+[chem22-s2.0.4] In a fuel cell the reactants are not stored in the cell but are supplied continuously from outside, and the products, water for hydrogen, are continuously removed.
+[chem22-s2.0.5] A fuel cell keeps producing electricity for as long as fuel and oxidant are supplied; it is refuelled, not recharged, and does not run down like a chemical cell.
+[chem22-s2.1.b] Despite the difference in how they are supplied, the two types of cell work on the same principle. Seeing that shared principle makes the differences between the two types easier to follow.
+[chem22-s2.1.0] Both are galvanic cells: each uses a spontaneous redox reaction (one that happens by itself) to drive electrons through an external circuit, the wires outside the cell.
+[chem22-s2.1.1] Both have an anode where the fuel or reducing agent (the substance that gives up electrons) is oxidised (negative), a cathode where the oxidising agent is reduced (positive), and an electrolyte (a liquid or solid that carries ions) that carries ions between them.
+[chem22-s2.1.2] In both, oxidation and reduction happen at separate electrodes, so energy is released as electrical energy rather than as heat.
+[chem22-s2.2.b] Set side by side, the two types differ in six ways: where the reactants are, where the products go, what happens when the reactants run out, where the energy is stored, what they are used for, and their environmental impact. Learn each as a pair.
+[chem22-s2.2.0] Source of reactants: a chemical cell stores its reactants inside and is limited by them; a fuel cell is supplied continuously from external tanks or the air.
+[chem22-s2.2.1] Products: in a chemical cell they stay inside the cell; in a fuel cell they are removed continuously, e.g. as water vapour in the exhaust.
+[chem22-s2.2.2] When reactants run out: a chemical cell is replaced (primary) or recharged, which can take hours (secondary); a fuel cell is refuelled in minutes.
+[chem22-s2.2.3] Energy storage: in a chemical cell the energy is stored in the electrode materials, so more energy needs a bigger, heavier cell; in a fuel cell the energy is stored in the fuel tank, so the range depends on the size of the tank.
+[chem22-s2.2.4] Typical uses: chemical cells power portable devices such as phones, laptops and torches, and battery electric vehicles; fuel cells power hydrogen buses, cars and trucks, spacecraft (e.g. the Apollo missions) and backup power supplies.
+[chem22-s2.2.5] Environmental impact: a hydrogen fuel cell's only product is water; chemical cells need metals such as lithium, cobalt, nickel, lead and zinc to be mined, and the cells must be recycled.
+[chem22-s2.2.6] A fuel cell needs hydrogen to be produced, stored and transported, so it is only as clean as the way the hydrogen was made.
+[chem22-s2.3.b] Hydrogen can release its energy by burning or by reacting in a fuel cell. The overall chemistry is the same, but the way the energy comes out is very different.
+[chem22-s2.3.0] In a fuel cell hydrogen and oxygen react by the same overall reaction as when hydrogen burns, 2H₂ + O₂ → 2H₂O, but without a flame or combustion: the electrons are transferred through the external circuit.
+[chem22-s2.3.1] A fuel cell converts chemical energy directly into electrical energy; an engine or power station first converts it to heat, much of which is lost, so a fuel cell is more efficient than burning the fuel.
+[chem22-s2.3.2] A fuel cell has no moving parts, so it is quiet.
+[chem22-s2.3.3] A hydrogen fuel cell produces no carbon dioxide, carbon monoxide or soot at the point of use and, with no high-temperature flame, no nitrogen oxides (formed when nitrogen and oxygen in air react in a hot flame).
+[chem22-s2.4.b] A hydrogen fuel cell is built from two electrodes with a membrane between them. Each part has a job, and exams ask what the membrane and the platinum do.
+[chem22-s2.4.0] A hydrogen fuel cell is a galvanic cell in which the fuel, hydrogen, is oxidised and the oxidising agent, oxygen from the air, is reduced, producing electricity and water.
+[chem22-s2.4.1] Hydrogen gas is fed continuously to the anode (negative electrode); oxygen or air is fed continuously to the cathode (positive electrode).
+[chem22-s2.4.2] The electrodes are porous carbon coated with a platinum catalyst: the pores let the gases reach the electrolyte, and the platinum (a catalyst is a substance that speeds up a reaction without being used up) speeds up the electrode reactions.
+[chem22-s2.4.3] In the common type the electrolyte is a proton exchange membrane (PEM), a thin sheet of solid polymer between the electrodes.
+[chem22-s2.4.4] The membrane lets H⁺ ions (protons) pass from the anode to the cathode, does not conduct electrons, so the electrons must go round the external circuit, and keeps the hydrogen and oxygen apart.
+[chem22-s2.5.b] The cell works in five steps, from hydrogen entering at the anode to water leaving at the cathode. The key idea is that the ions and the electrons take different routes to the cathode, and the electrons' route is the electric current.
+[chem22-s2.5.0] 1. At the anode, hydrogen molecules are oxidised to hydrogen ions, releasing electrons: H₂(g) → 2H⁺(aq) + 2e⁻.
+[chem22-s2.5.1] 2. The electrons flow through the external circuit to the cathode, powering a motor or other device on the way.
+[chem22-s2.5.2] 3. The H⁺ ions move through the membrane to the cathode.
+[chem22-s2.5.3] 4. At the cathode, oxygen is reduced by combining with the H⁺ ions and electrons to form water: O₂(g) + 4H⁺(aq) + 4e⁻ → 2H₂O(l).
+[chem22-s2.5.4] 5. The water is removed from the cathode side, as liquid or vapour, so the reaction can continue.
+[chem22-s2.5.5] Overall: 2H₂(g) + O₂(g) → 2H₂O(l), obtained by doubling the anode equation to balance the electrons: 2H₂ → 4H⁺ + 4e⁻.
+[chem22-s2.6.b] Oxidation numbers (the charge an atom would have if its bonds were fully ionic) show which substance is oxidised and which is reduced in the fuel cell. The energy released is the same as when hydrogen burns.
+[chem22-s2.6.0] Hydrogen is the reducing agent: its oxidation number rises from 0 in H₂ to +1 in H₂O, an oxidation (loss of electrons) at the anode.
+[chem22-s2.6.1] Oxygen is the oxidising agent: its oxidation number falls from 0 in O₂ to −2 in H₂O, a reduction (gain of electrons) at the cathode.
+[chem22-s2.6.2] For H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ mol⁻¹, so the reaction is strongly exothermic (it releases a lot of energy); in the fuel cell much of this energy is released as electrical energy rather than heat.
+[chem22-s2.7.b] A real hydrogen fuel cell has some limits that affect how it is built and run: its voltage, its heat output and the purity of its fuel.
+[chem22-s2.7.0] A single hydrogen fuel cell gives a maximum of about 1.2 V and, in use, about 0.6–0.8 V, so many cells are connected in series in a stack to give a useful voltage; a car's stack contains several hundred cells.
+[chem22-s2.7.1] Fuel cells also produce some heat, which can be used, e.g. for heating in buildings or buses.
+[chem22-s2.7.2] The hydrogen must be pure: impurities such as carbon monoxide poison the platinum catalyst, meaning they stop it working.
+[chem22-s2.8.b] The alkaline fuel cell is a second type of hydrogen fuel cell. It uses a different electrolyte, so the ion that carries charge and the half-equations change, but the overall reaction does not.
+[chem22-s2.8.0] In an alkaline fuel cell the electrolyte is potassium hydroxide solution, and OH⁻ ions carry the charge through it.
+[chem22-s2.8.1] Anode (oxidation): 2H₂(g) + 4OH⁻(aq) → 4H₂O(l) + 4e⁻.
+[chem22-s2.8.2] Cathode (reduction): O₂(g) + 2H₂O(l) + 4e⁻ → 4OH⁻(aq).
+[chem22-s2.8.3] Overall: 2H₂(g) + O₂(g) → 2H₂O(l), the same as in the PEM cell.
+[chem22-s2.8.4] Alkaline fuel cells powered the Apollo spacecraft and produced drinking water for the astronauts.
+[chem22-s2.9.b] Hydrogen fuel cells suit some jobs well, but they have real drawbacks, mostly to do with hydrogen itself. Exams ask for advantages and disadvantages, so learn both sides.
+[chem22-s2.9.0] Uses: hydrogen buses, cars and trucks; spacecraft; backup and off-grid power supplies.
+[chem22-s2.9.1] Advantages: the only product is water, so there is no CO₂, CO, nitrogen oxides or soot at the point of use; the cell is quiet, is refuelled in minutes, and runs as long as fuel is supplied.
+[chem22-s2.9.2] Limitations: hydrogen is highly flammable and forms explosive mixtures with air.
+[chem22-s2.9.3] Limitations: hydrogen has a very low density, so it must be stored compressed at high pressure, or liquefied at very low temperature, in strong, heavy tanks.
+[chem22-s2.9.4] Limitations: there are few hydrogen refuelling stations, and platinum is scarce and expensive.
+[chem22-s2.9.5] Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis (splitting water using electricity) using renewable electricity.
+[chem22-s2.9.6] Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), and the membrane between them with H⁺ moving across.
+[chem22-s2.9.7] Diagram: add an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode.
+[chem22-s2.10.b] Sustainable energy use means getting the energy we need while wasting less and releasing less carbon dioxide. Electrochemical cells (cells that link chemical reactions and electricity) help in several ways, starting with how they use energy.
+[chem22-s2.10.0] Electrochemical cells convert chemical energy directly into electrical energy, without first burning a fuel to make heat, so less energy is wasted than in an engine or a fossil-fuel power station.
+[chem22-s2.10.1] Rechargeable (secondary) batteries can be reused hundreds or thousands of times, cutting the waste and raw materials of single-use cells.
+[chem22-s2.10.2] Rechargeable batteries let electricity from renewable sources, such as wind and solar, be stored and used later, in devices, electric vehicles and large grid batteries.
+[chem22-s2.10.3] This matters because wind and solar power vary with the weather and the time of day, so electricity is not always being made when it is needed.
+[chem22-s2.11.b] Electrolysis can make hydrogen, a fuel that stores energy. How clean the hydrogen is depends on how it is made, and the colour names describe the three routes.
+[chem22-s2.11.0] Electrolysis can split water into hydrogen and oxygen: 2H₂O → 2H₂ + O₂.
+[chem22-s2.11.1] If the electricity comes from renewable sources, the hydrogen is made without releasing carbon dioxide; this is called “green hydrogen”.
+[chem22-s2.11.2] Hydrogen stores energy as a fuel: it can be kept, transported and later used in a fuel cell to make electricity again, or used in industry; its only product when used in a fuel cell or burned is water.
+[chem22-s2.11.3] Most hydrogen produced today is made from natural gas, which releases carbon dioxide; this is called “grey hydrogen”.
+[chem22-s2.11.4] “Blue hydrogen” is made the same way but with the carbon dioxide captured and stored.
+[chem22-s2.12.b] The syllabus asks you to research one role of electrochemistry in sustainability and technology. The work follows seven steps, from a focused question to an evaluation of your own investigation.
+[chem22-s2.12.0] 1. Choose one application and write a focused question that can be answered with evidence, e.g. “Are battery electric cars more sustainable than petrol cars in Ireland?”
+[chem22-s2.12.1] 2. Explain the chemistry involved: the redox reactions, the type of cell (galvanic or electrolytic), and the electrode reactions where known.
+[chem22-s2.12.2] 3. Gather evidence from a range of sources: textbooks, peer-reviewed articles (checked by other experts before publication), government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports.
+[chem22-s2.12.3] 4. Judge each source by who wrote it and their expertise, and whether it is peer-reviewed or official, because these sources are checked.
+[chem22-s2.12.4] 4. Also judge how recent it is, as this technology changes quickly, and whether the author gains from the conclusion, e.g. a company selling the product.
+[chem22-s2.12.5] 4. Finally check whether it gives data and references rather than opinion, and whether other sources agree.
+[chem22-s2.12.6] 5. Consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity or fuel during use, lifetime, and disposal or recycling.
+[chem22-s2.12.7] 6. Weigh the evidence on each side (environmental, economic, social and safety) and reach a justified conclusion, stating the conditions under which it holds.
+[chem22-s2.12.8] 7. Present the findings with references, and evaluate the investigation: gaps in the evidence, conflicting sources, and what further research would help.
+[chem22-s2.13.b] This outline applies the seven steps to rechargeable lithium-ion batteries in electric vehicles. It starts with the question, the chemistry and the evidence for.
+[chem22-s2.13.0] Question: do rechargeable lithium-ion batteries in electric vehicles make transport more sustainable?
+[chem22-s2.13.1] Chemistry: the lithium-ion cell is a secondary cell, a galvanic cell on discharge and an electrolytic cell on recharging. There is more on this in The lithium-ion cell.
+[chem22-s2.13.2] Evidence for: no exhaust emissions at the point of use (no CO₂, CO, nitrogen oxides or particulates from a tailpipe), improving air quality in towns.
+[chem22-s2.13.3] Evidence for: electric motors waste less energy than petrol or diesel engines.
+[chem22-s2.13.4] Evidence for: batteries can be charged from renewable electricity, and the same batteries can store surplus renewable electricity.
+[chem22-s2.14.b] A fair answer weighs the evidence against as well as the evidence for, and then reaches a conclusion that states its conditions.
+[chem22-s2.14.0] Evidence against: mining lithium, cobalt and nickel damages land and uses large amounts of water.
+[chem22-s2.14.1] Evidence against: most of the world's cobalt is mined in the Democratic Republic of the Congo, where child labour and unsafe working conditions have been reported.
+[chem22-s2.14.2] Evidence against: making the battery releases a lot of CO₂, and the benefit depends on how the electricity is generated.
+[chem22-s2.14.3] Evidence against: recycling is not yet widespread, and damaged cells can catch fire.
+[chem22-s2.14.4] Justified conclusion (example): electric vehicles reduce emissions over their lifetime where electricity is increasingly renewable, as in Ireland, provided batteries are made responsibly and recycled.
+[chem22-s2.15.b] This outline asks whether hydrogen made by electrolysis can be a sustainable fuel. It splits into the question and chemistry, the evidence for, and the evidence against.
+[chem22-s2.15.0] Question: can hydrogen produced by electrolysis using wind power be a sustainable fuel?
+[chem22-s2.15.1] Chemistry: electrolysis of water, with 4H⁺ + 4e⁻ → 2H₂ at the cathode and 2H₂O → O₂ + 4H⁺ + 4e⁻ at the anode. There is more on this in Galvanic and electrolytic cells.
+[chem22-s2.15.2] Evidence for: no CO₂ is released if the electricity is renewable.
+[chem22-s2.15.3] Evidence for: it can use surplus wind electricity at times when supply is greater than demand, storing it as a fuel.
+[chem22-s2.15.4] Evidence for: hydrogen can power fuel-cell vehicles and replace fossil fuels in industries that are hard to electrify.
+[chem22-s2.15.5] Evidence for: the only product when it is used is water.
+[chem22-s2.16.b] Making hydrogen and turning it back into electricity costs energy at each stage. This is the main weakness of green hydrogen.
+[chem22-s2.16.0] Evidence against: energy is lost at every step, so converting electricity to hydrogen and back to electricity returns well under half of the original energy, much less than a battery.
+[chem22-s2.16.1] Evidence against: electrolysers need pure water, and some need scarce metal catalysts such as platinum and iridium.
+[chem22-s2.16.2] Evidence against: hydrogen is hard to store, needing high pressure or very low temperature, and it is highly flammable.
+[chem22-s2.16.3] Evidence against: green hydrogen currently costs more than grey hydrogen.
+[chem22-s2.16.4] Justified conclusion (example): green hydrogen is most useful where batteries are unsuitable, such as heavy transport, industry and long-term storage, but only if it is powered by genuinely renewable electricity.
+[chem22-s2.17.b] This outline asks whether hydrogen fuel cells should power public buses. It uses the PEM hydrogen fuel cell described above as its chemistry.
+[chem22-s2.17.0] Question: should hydrogen fuel cells power public buses?
+[chem22-s2.17.1] Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O.
+[chem22-s2.17.2] Evidence for: water is the only product at the point of use, and the cell is quiet and refuelled in minutes.
+[chem22-s2.17.3] Evidence for: long range suits buses on long, fixed routes that return to one depot for refuelling.
+[chem22-s2.17.4] Evidence against: there are few refuelling stations, and the vehicles are expensive, partly because of the platinum catalyst.
+[chem22-s2.17.5] Evidence against: high-pressure storage tanks are needed.
+[chem22-s2.17.6] Evidence against: if the hydrogen is grey, the overall CO₂ saving is small or none.
+[chem22-s2.17.7] Justified conclusion (example): fuel-cell buses are a good choice only where green hydrogen is available at a competitive price.
+[chem22-s2.18.b] Electrochemistry also helps sustainability by making steel last longer. Rusting is a redox reaction, and a more reactive metal can be made to take the damage instead.
+[chem22-s2.18.0] Question: how does electrochemistry help steel structures last longer, and why is that sustainable?
+[chem22-s2.18.1] Chemistry: rusting is the oxidation of iron. A metal higher in the electrochemical series (the list that ranks metals by how easily they are oxidised), such as zinc or magnesium, is oxidised in preference to iron. There is more on this in Balancing redox equations and the electrochemical series.
+[chem22-s2.18.2] Galvanising, a zinc coating, and sacrificial anodes, blocks of zinc or magnesium attached to ship hulls, pipelines and steel piers, both use this protection.
+[chem22-s2.18.3] Evidence for: steel lasts much longer, so less steel has to be made to replace it, saving iron ore, energy and the CO₂ released in steelmaking.
+[chem22-s2.18.4] Evidence for: it prevents dangerous failures of bridges, pipelines and ships.
+[chem22-s2.18.5] Evidence against: sacrificial anodes are used up and must be replaced, and galvanised coatings wear away eventually.
+[chem22-s2.18.6] Evidence against: zinc released into seawater can harm marine life.
+[chem22-s2.18.7] Justified conclusion (example): corrosion protection is a cheap and effective way of conserving metal resources, though zinc release should be monitored.
+
+CANDIDATES chem22-s1: 1. Galvanic and electrolytic cells
+[chem22-s1.0.b] Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell below.
+[chem22-s1.0.0] Redox reactions can produce electricity, in galvanic cells, and electricity can drive redox reactions, in electrolytic cells (cells that use an electric supply to force a reaction to happen).
+[chem22-s1.0.1] A galvanic (voltaic) cell, also called a chemical cell, converts chemical energy into electrical energy using a spontaneous redox reaction, meaning one that happens by itself without any energy being supplied.
+[chem22-s1.0.2] A battery is strictly two or more cells joined together, e.g. a 12 V car battery made of six 2 V cells, though the word is also used for a single cell.
+[chem22-s1.0.3] An electrode is a solid electrical conductor, a metal or graphite (a form of carbon), through which electrons enter or leave the cell.
+[chem22-s1.0.4] Electrons cannot pass through the electrolyte (the conducting liquid or paste in the cell), so they travel through the external circuit, the wires outside the cell, from anode to cathode. Inside the cell the charge is carried by ions.
+[chem22-s1.1.b] Every cell has three working parts: two electrodes, where the chemistry happens, and an electrolyte between them. The two electrodes are named by what happens at them.
+[chem22-s1.1.0] Anode: the electrode at which oxidation (loss of electrons) happens. In a galvanic cell it is the negative terminal and the source of the electrons that flow out into the external circuit.
+[chem22-s1.1.1] Cathode: the electrode at which reduction (gain of electrons) happens. In a galvanic cell it is the positive terminal, where electrons from the external circuit are accepted.
+[chem22-s1.1.2] Memory aid: “An Ox, Red Cat” (anode oxidation, reduction cathode), or CROA: Cathode Reduction, Oxidation Anode. This holds in every type of cell; only the signs change in electrolysis.
+[chem22-s1.1.3] Electrolyte: a substance that conducts electricity by the movement of ions (charged atoms or groups of atoms), as a solution, a molten compound, a paste or a gel.
+[chem22-s1.1.4] The electrolyte carries ions between the electrodes, which completes the circuit inside the cell. Electrons cannot cross it, which is why they are forced round the external circuit.
+[chem22-s1.2.b] A primary cell is a galvanic cell that can be used only once. Its chemistry cannot be run backwards, so it is thrown away (and recycled) when it is finished.
+[chem22-s1.2.0] Its redox reaction cannot be readily reversed, so when the reactants are used up the cell is “flat” and must be discarded and recycled.
+[chem22-s1.2.1] Zinc–carbon cell (1.5 V): the zinc case is the anode (negative), where it is oxidised: Zn(s) → Zn²⁺(aq) + 2e⁻.
+[chem22-s1.2.2] Zinc–carbon cell: a central carbon (graphite) rod surrounded by manganese(IV) oxide is the cathode (positive), where MnO₂ is reduced.
+[chem22-s1.2.3] Zinc–carbon cell: the electrolyte is a moist paste of ammonium chloride, with zinc chloride.
+[chem22-s1.2.4] Alkaline cell (1.5 V): a powdered zinc anode and a manganese(IV) oxide cathode, with potassium hydroxide, an alkali (a soluble base), as the electrolyte.
+[chem22-s1.2.5] An alkaline cell lasts longer and gives a steadier voltage than a zinc–carbon cell.
+[chem22-s1.2.6] Lithium primary cells (about 3 V) are small button or coin cells used in watches, calculators and car keys, with lithium metal as the anode.
+[chem22-s1.2.7] Primary cells suit low-power or occasional devices that must work for a long time without attention, e.g. remote controls, clocks, smoke alarms and torches.
+[chem22-s1.3.b] A secondary cell is a galvanic cell that can be recharged. “Secondary” does not mean a different kind of chemistry; it just means the cell is rechargeable.
+[chem22-s1.3.0] Connecting it to an external electrical supply forces its redox reaction to run in reverse, regenerating the reactants, so it can be used many times.
+[chem22-s1.3.1] During discharge (when it supplies current) it works as a galvanic cell, converting chemical energy to electrical energy.
+[chem22-s1.3.2] During recharging it works as an electrolytic cell, converting electrical energy to chemical energy.
+[chem22-s1.3.3] The electrode that is the anode on discharge becomes the cathode on charge, and vice versa, because the reaction at each electrode is reversed.
+[chem22-s1.3.4] Recharging is not perfect: side reactions and changes in the electrode structure slowly reduce how much charge a cell can hold.
+[chem22-s1.3.5] Secondary cells therefore wear out after many cycles of discharging and recharging, typically hundreds to thousands.
+[chem22-s1.4.b] Three secondary cells are worth knowing, each with a different voltage and use. Compare them with the primary cells above, which are used once and discarded.
+[chem22-s1.4.0] Lead–acid cell (2 V per cell; six in a 12 V car battery): lead plates (negative) and lead(IV) oxide plates (positive) in sulfuric acid.
+[chem22-s1.4.1] On discharge both plates become coated with lead(II) sulfate and the acid becomes more dilute; recharging by the car's alternator (the generator driven by the engine) reverses this.
+[chem22-s1.4.2] Nickel–metal hydride (NiMH) cell (1.2 V): rechargeable AA and AAA cells used in place of alkaline cells.
+[chem22-s1.4.3] Lithium-ion cell (about 3.6–3.7 V): used in phones, laptops and electric vehicles. There is more on this in The lithium-ion cell.
+[chem22-s1.5.b] Both types supply electricity from a redox reaction, but they differ in whether the reaction can be reversed. That one difference drives their cost, waste, storage and uses.
+[chem22-s1.5.0] Rechargeable: a primary cell cannot be, because its reaction is not readily reversible; a secondary cell can, because an external current reverses its reaction.
+[chem22-s1.5.1] Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.
+[chem22-s1.5.2] Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy. There is more on this in Fuel cells and sustainability.
+[chem22-s1.5.3] Storage: primary cells keep their charge for years on the shelf (low self-discharge, meaning little charge leaks away unused), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.
+[chem22-s1.5.4] Uses: primary cells suit low-drain (small current) or occasional devices; secondary cells suit high-drain devices used daily, such as phones, laptops, power tools, electric vehicles and car starter batteries.
+[chem22-s1.5.5] Similarities: both are galvanic cells when supplying electricity, and both have an anode (oxidation), a cathode (reduction) and an electrolyte.
+[chem22-s1.5.6] Both should be returned for recycling rather than put in household waste, because they contain metals that can pollute soil and water.
+[chem22-s1.6.b] The galvanic cell grew out of Galvani's frog-leg experiments and Volta's disagreement with his explanation of them. Volta's work led to the first battery.
+[chem22-s1.6.0] Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.
+[chem22-s1.6.1] Galvani believed the electricity came from the animal itself, which he called “animal electricity”.
+[chem22-s1.6.2] Alessandro Volta showed that the electricity came from two different metals in contact with a conducting liquid, not from the animal.
+[chem22-s1.6.3] In 1800 Volta built the first battery, the voltaic pile: a stack of zinc and copper (or silver) discs separated by cardboard or cloth soaked in salt water.
+[chem22-s1.6.4] Galvanic cells, also called voltaic cells, are named after Galvani and Volta.
+[chem22-s1.7.b] A redox reaction moves electrons from one substance to another. If the electrons are made to travel through a wire on the way, the reaction produces a current instead of just heat.
+[chem22-s1.7.0] When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
+[chem22-s1.7.1] Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction (a more reactive metal pushes a less reactive one out of solution).
+[chem22-s1.7.2] A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.
+[chem22-s1.7.3] This flow of electrons is an electric current, which is why separating the half-cells produces useful electricity.
+[chem22-s1.7.4] A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution.
+[chem22-s1.8.b] Which metal becomes the anode depends on the electrochemical series, the list that ranks metals by how easily they are oxidised. The positions of the two metals also decide the voltage.
+[chem22-s1.8.0] The metal higher in the electrochemical series, the one more easily oxidised, becomes the anode (negative); the lower metal is the cathode (positive). There is more on the series in Balancing redox equations and the electrochemical series.
+[chem22-s1.8.1] The further apart the two metals are in the electrochemical series, the greater the voltage of the cell.
+[chem22-s1.8.2] Under standard conditions (1 M solutions, where M means mol L⁻¹, at 25 °C) the cell voltages are: magnesium–copper 2.71 V; zinc–copper 1.10 V; iron–copper 0.78 V.
+[chem22-s1.9.b] The copper–zinc cell is the standard galvanic cell, with the zinc and copper in separate beakers joined by wires and a salt bridge (a link that lets ions pass between the beakers).
+[chem22-s1.9.0] Set-up: a zinc strip in 1 M zinc sulfate solution and a copper strip in 1 M copper(II) sulfate solution, in separate beakers.
+[chem22-s1.9.1] The metals are joined by wires through a voltmeter (a meter that measures voltage) or bulb, and the solutions by a salt bridge; the voltage is about 1.1 V.
+[chem22-s1.9.2] Zinc electrode (anode, negative, oxidation): Zn(s) → Zn²⁺(aq) + 2e⁻. Zinc atoms lose electrons and go into solution as ions.
+[chem22-s1.9.3] Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.
+[chem22-s1.9.4] Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.
+[chem22-s1.9.5] Zinc is the reducing agent (it gives electrons away, so it reduces the other substance) and Cu²⁺ is the oxidising agent (it takes electrons, so it oxidises the zinc).
+[chem22-s1.9.6] Electrons flow through the external wire from the zinc to the copper, because zinc is the anode and is oxidised.
+[chem22-s1.10.b] As the cell runs, the reaction changes both electrodes and the solution. Each change follows directly from the half-equations.
+[chem22-s1.10.0] Over time the zinc electrode wears away and loses mass, because zinc atoms become Zn²⁺ ions that dissolve.
+[chem22-s1.10.1] The copper electrode gains a fresh pink-brown coating and gains mass, because Cu²⁺ ions are reduced to copper metal on it.
+[chem22-s1.10.2] The blue colour of the copper(II) sulfate solution fades as Cu²⁺ is used up, and the voltage slowly falls.
+[chem22-s1.11.b] The salt bridge connects the two solutions without letting them mix. Electrons cannot cross it, but ions can, and that is what keeps the cell working.
+[chem22-s1.11.0] A salt bridge is a strip of filter paper soaked in potassium nitrate (or potassium chloride) solution, or a U-tube of the salt solution set in agar gel (a jelly that holds the solution in place).
+[chem22-s1.11.1] It completes the circuit: ions move through it, carrying charge between the half-cells.
+[chem22-s1.11.2] It keeps each solution electrically neutral: as Zn²⁺ ions build up in the zinc half-cell, negative ions (NO₃⁻) move into it.
+[chem22-s1.11.3] As Cu²⁺ ions are removed from the copper half-cell, positive ions (K⁺) move into it.
+[chem22-s1.11.4] Without it, charge would build up in each beaker and the current would stop at once.
+[chem22-s1.11.5] Potassium nitrate is used because its ions do not react with the electrode solutions; it forms no precipitate (an insoluble solid that would appear in the solution).
+[chem22-s1.12.b] This investigation builds a copper–zinc cell and tests what it needs in order to work. The aim is to build the cell, measure its voltage, and compare the voltages from different pairs of metals.
+[chem22-s1.12.0] Variables: the independent variable (the one you change) is the pair of metals; the dependent variable (the one you measure) is the voltage; the controlled variables are the concentration and volume of the solutions, the temperature, and the size and cleanliness of the strips.
+[chem22-s1.12.1] 1. Clean strips of zinc and copper with sandpaper (emery paper) to remove the oxide layer, which would otherwise reduce the voltage.
+[chem22-s1.12.2] 2. Half-fill one beaker with 1 M zinc sulfate solution and another with 1 M copper(II) sulfate solution; stand the zinc strip in the first and the copper strip in the second.
+[chem22-s1.12.3] 3. Soak a strip of filter paper in potassium nitrate solution and drape it between the two beakers, with each end in a solution.
+[chem22-s1.12.4] 4. Connect the metals to a voltmeter with leads and crocodile clips, zinc to the negative terminal, and record the voltage.
+[chem22-s1.12.5] 5. Replace the voltmeter with a small bulb or LED to show that a current flows.
+[chem22-s1.12.6] 6. Remove the salt bridge and record the voltage again; it falls to zero, showing the bridge is needed.
+[chem22-s1.12.7] 7. Repeat with other metal pairs, e.g. magnesium–copper and iron–copper, each metal in a solution of its own ions, using a fresh salt bridge each time.
+[chem22-s1.13.b] Once the cell is built, the results show how metal choice affects voltage. Safety and sources of error complete the write-up.
+[chem22-s1.13.0] Results: the measured voltages are usually a little lower than the standard values, and the larger the gap between the metals in the electrochemical series, the larger the voltage.
+[chem22-s1.13.1] A simpler cell: zinc and copper strips pushed into a lemon, or dipped into one beaker of salt solution or dilute acid, also give a voltage, because the juice or solution is an electrolyte.
+[chem22-s1.13.2] Safety: wear goggles; copper(II) sulfate is harmful, an irritant and toxic to aquatic life, so do not pour it down the sink and dispose of it as directed; zinc sulfate is an irritant; wash hands afterwards.
+[chem22-s1.13.3] Sources of error: an oxide layer left on the metals; solutions not exactly 1 M or not at 25 °C; the salt bridge drying out; the voltmeter drawing some current.
+[chem22-s1.13.4] Diagram: two beakers, zinc in zinc sulfate and copper in copper(II) sulfate, joined by a potassium nitrate salt bridge, with wires from each metal to a voltmeter; label the anode (−) and cathode (+) and the direction of electron flow from zinc to copper.
+[chem22-s1.14.b] Electrolysis is the use of electricity to bring about a chemical reaction, a redox reaction, that would not happen on its own. It is carried out in an electrolytic cell.
+[chem22-s1.14.0] An electrolytic cell has two electrodes dipping into an electrolyte, which is a molten ionic compound or a solution of ions.
+[chem22-s1.14.1] The electrodes are connected to an external source of direct current (d.c., current that flows one way only), e.g. a battery or power pack.
+[chem22-s1.14.2] The external supply pumps electrons onto one electrode, making it negative, and removes electrons from the other, making it positive.
+[chem22-s1.14.3] Positive ions (cations) move to the negative electrode, the cathode, where they gain electrons (reduction).
+[chem22-s1.14.4] Negative ions (anions) move to the positive electrode, the anode, where they lose electrons (oxidation).
+[chem22-s1.14.5] The current is carried by electrons in the wires and by moving ions in the electrolyte.
+[chem22-s1.14.6] Inert electrodes (ones that do not react), platinum or carbon (graphite), conduct electricity but do not take part in the reaction; they ensure the products come only from the electrolyte.
+[chem22-s1.14.7] Michael Faraday introduced the words electrolysis, electrode, anode, cathode and ion in 1834; electrolysis means breaking up by electricity.
+[chem22-s1.15.b] A galvanic cell and an electrolytic cell are mirror images: one turns a reaction into electricity, the other turns electricity into a reaction.
+[chem22-s1.15.0] Energy: a galvanic cell converts chemical energy to electrical energy; an electrolytic cell converts electrical energy to chemical energy.
+[chem22-s1.15.1] Reaction: a galvanic cell's reaction is spontaneous; an electrolytic cell's reaction is non-spontaneous and driven by the external supply.
+[chem22-s1.15.2] Signs: in a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.
+[chem22-s1.15.3] In both cells oxidation happens at the anode and reduction at the cathode, because the anode is defined by oxidation, not by its sign.
+[chem22-s1.15.4] A galvanic cell needs two different electrodes in two half-cells, usually with a salt bridge; an electrolytic cell can use two identical inert electrodes in one electrolyte.
+[chem22-s1.16.b] Water can be split into hydrogen and oxygen by electrolysis. Pure water has almost no ions, so it needs help to conduct.
+[chem22-s1.16.0] Pure water conducts electricity very poorly, so a little dilute sulfuric acid is added to provide ions and let a current flow.
+[chem22-s1.16.1] Apparatus: a Hofmann voltameter (a glass apparatus with graduated tubes that collect the gases), or two inverted test tubes filled with the solution over the electrodes in a beaker, with platinum (or carbon) electrodes connected to a 6–12 V d.c. supply.
+[chem22-s1.16.2] Bubbles of gas form at both electrodes; the volume of gas at the negative electrode is twice that at the positive electrode.
+[chem22-s1.16.3] Test the gas from the negative electrode (cathode) with a lighted splint: it burns with a squeaky pop, so it is hydrogen.
+[chem22-s1.16.4] Test the gas from the positive electrode (anode) with a glowing splint: it relights, so it is oxygen.
+[chem22-s1.16.5] Diagram: a Hofmann voltameter with platinum electrodes and a d.c. supply, labelled cathode (−) with hydrogen and anode (+) with oxygen, the hydrogen column twice the height of the oxygen column.
+[chem22-s1.17.b] The volumes of gas and the behaviour of the acid are explained by the formula of water and by what is removed from the solution.
+[chem22-s1.17.0] The 2 : 1 volume ratio of hydrogen to oxygen matches the formula H₂O, showing that water has been split into its elements.
+[chem22-s1.17.1] In practice the oxygen volume is often slightly less than half, because oxygen is more soluble in water than hydrogen.
+[chem22-s1.17.2] The sulfuric acid is not used up: only water is removed, so its concentration stays the same.
+[chem22-s1.17.3] Water can also be split by electrolysing sodium sulfate solution with universal indicator (a dye that changes colour across the pH range) added: the same gases form, and the solution turns blue-purple around the cathode (OH⁻ formed) and red around the anode (H⁺ formed).
+[chem22-s1.18.b] In this practical the copper(II) chloride is split into its two elements, copper and chlorine, and each product is identified by what you see or test at its electrode.
+[chem22-s1.18.0] Set-up: copper(II) chloride solution in a U-tube or beaker, with two carbon (graphite) electrodes connected to a d.c. supply; carry out in a fume cupboard or for a short time only.
+[chem22-s1.18.1] At the negative electrode (cathode) a pink-brown coating of copper metal forms.
+[chem22-s1.18.2] At the positive electrode (anode) pale green bubbles of a gas with a sharp smell form; it turns damp blue litmus paper red and then bleaches it, so it is chlorine.
+[chem22-s1.18.3] The blue-green colour of the solution fades as copper(II) ions are removed.
+[chem22-s1.18.4] Safety: chlorine is toxic, so use a fume cupboard, keep the current on only briefly, and do not sniff the gas directly.
+[chem22-s1.18.5] Diagram: a U-tube of copper(II) chloride solution with graphite electrodes and a d.c. supply, labelled copper at the cathode (−) and chlorine at the anode (+), with damp litmus paper at the anode.
+[chem22-s1.19.b] Here the two products are identified with indicators: starch for iodine and phenolphthalein (an indicator that is pink in alkali) for hydroxide ions. The surprise is what does not form at the cathode.
+[chem22-s1.19.0] Set-up: potassium iodide solution with a few drops of phenolphthalein, in a U-tube with two platinum (or carbon) electrodes connected to a d.c. supply.
+[chem22-s1.19.1] At the positive electrode (anode) the solution turns brown (yellow-brown) as iodine forms; a drop of starch solution turns it blue-black, confirming iodine.
+[chem22-s1.19.2] At the negative electrode (cathode) bubbles of hydrogen gas form, and the solution turns pink, showing that it has become alkaline because hydroxide ions have formed.
+[chem22-s1.19.3] Potassium is not formed at the cathode: potassium is very high in the electrochemical series, so K⁺ ions are very hard to reduce and water is reduced instead.
+[chem22-s1.19.4] Safety: wear goggles; iodine stains skin and is harmful.
+[chem22-s1.19.5] Diagram: a U-tube of potassium iodide with phenolphthalein and platinum electrodes, labelled brown iodine at the anode (+) and pink colour with hydrogen bubbles at the cathode (−).
+[chem22-s1.20.b] Half-equations show what happens to electrons at each electrode. Reduction at the cathode uses electrons and oxidation at the anode releases them.
+[chem22-s1.20.0] Acidified water, cathode (reduction): 4H⁺(aq) + 4e⁻ → 2H₂(g), or 2H⁺ + 2e⁻ → H₂.
+[chem22-s1.20.1] Acidified water, anode (oxidation): 2H₂O(l) → O₂(g) + 4H⁺(aq) + 4e⁻.
+[chem22-s1.20.2] Acidified water, overall: 2H₂O(l) → 2H₂(g) + O₂(g). The same 4 electrons give 2 H₂ and 1 O₂, which explains the 2 : 1 volume ratio; the H⁺ used at the cathode is replaced at the anode, so the acid is not used up.
+[chem22-s1.20.3] Sodium sulfate solution, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq), which turns universal indicator blue-purple; the anode reaction is the same as for acidified water, and turns the indicator red.
+[chem22-s1.21.b] The same approach gives the half-equations for the two salt solutions. In each, the oxidation number (a number showing how many electrons an atom has lost or gained) confirms which half is oxidation and which is reduction.
+[chem22-s1.21.0] Copper(II) chloride, cathode (reduction): Cu²⁺(aq) + 2e⁻ → Cu(s).
+[chem22-s1.21.1] Copper(II) chloride, anode (oxidation): 2Cl⁻(aq) → Cl₂(g) + 2e⁻.
+[chem22-s1.21.2] Copper(II) chloride, overall: Cu²⁺(aq) + 2Cl⁻(aq) → Cu(s) + Cl₂(g).
+[chem22-s1.21.3] Potassium iodide, anode (oxidation): 2I⁻(aq) → I₂(aq) + 2e⁻; the iodine dissolves in the iodide solution, colouring it brown.
+[chem22-s1.21.4] Potassium iodide, cathode (reduction): 2H₂O(l) + 2e⁻ → H₂(g) + 2OH⁻(aq); the OH⁻ turns phenolphthalein pink.
+[chem22-s1.21.5] Potassium iodide, overall: 2I⁻(aq) + 2H₂O(l) → I₂(aq) + H₂(g) + 2OH⁻(aq).
+[chem22-s1.21.6] Oxidation numbers confirm each half-reaction: the oxidation number of chlorine changes from −1 to 0 (oxidation) and that of copper from +2 to 0 (reduction).
+
+CANDIDATES chem14-s1: 1. Oxidation and reduction
+[chem14-s1.0.b] Chemists first described oxidation and reduction in terms of oxygen and hydrogen. These definitions are easy to picture, but they turned out to be too narrow.
+[chem14-s1.0.0] Oxidation (early definition) is the addition of oxygen to a substance, for example C + O₂ → CO₂ and 2Mg + O₂ → 2MgO.
+[chem14-s1.0.1] Reduction (early definition) is the removal of oxygen from a substance, or the addition of hydrogen, for example CuO + H₂ → Cu + H₂O.
+[chem14-s1.0.2] In that example, black copper(II) oxide turns to pink-brown copper when hydrogen is passed over it while heated, so you can see the reduction happen.
+[chem14-s1.0.3] The name “reduction” comes from extracting metals from their ores (the rocks the metal is mined in): the ore is reduced to a smaller mass of metal as the oxygen is removed.
+[chem14-s1.0.4] The oxygen definitions cover only some reactions. Many redox reactions (reactions with both oxidation and reduction) involve no oxygen or hydrogen at all, for example sodium and chlorine, so a broader definition is needed.
+[chem14-s1.1.b] The broader definition follows electrons (the tiny negative particles in atoms), which works for every redox reaction, with or without oxygen. Whatever one substance loses, another must gain.
+[chem14-s1.1.0] Oxidation is the loss of electrons; reduction is the gain of electrons. Memory aid: OIL RIG (Oxidation Is Loss, Reduction Is Gain).
+[chem14-s1.1.1] Example: 2Na(s) + Cl₂(g) → 2NaCl(s). Each sodium atom loses one electron, Na → Na⁺ + e⁻, which is oxidation.
+[chem14-s1.1.2] In the same reaction each chlorine atom gains one electron, Cl₂ + 2e⁻ → 2Cl⁻, which is reduction. Group 1 metals react with chlorine to form white ionic chlorides.
+[chem14-s1.1.3] A half-equation shows one process with its electrons, for example Zn(s) → Zn²⁺(aq) + 2e⁻ (oxidation) and Cu²⁺(aq) + 2e⁻ → Cu(s) (reduction).
+[chem14-s1.1.4] Electrons appear on the right in an oxidation and on the left in a reduction, which lets you classify any half-equation at a glance.
+[chem14-s1.2.b] Oxidation never happens alone. A redox reaction (the name joins reduction and oxidation) is one in which both take place at the same time.
+[chem14-s1.2.0] A redox reaction is one in which oxidation and reduction take place together.
+[chem14-s1.2.1] They must happen together because electrons lost by one substance can't disappear, so another substance must gain them; the number lost equals the number gained.
+[chem14-s1.2.2] Example: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), from zinc in copper(II) sulfate solution. Each zinc atom transfers two electrons to a copper(II) ion.
+[chem14-s1.2.3] You can see this reaction: the zinc becomes coated with brown copper and the blue colour of the solution fades as Cu²⁺ ions are used up.
+[chem14-s1.3.b] Each substance in a redox reaction has a second name that describes what it does to its partner. The agent is the one that causes the change in the other substance, and it undergoes the opposite change itself.
+[chem14-s1.3.0] An oxidising agent brings about oxidation in another substance by accepting its electrons; the oxidising agent is itself reduced.
+[chem14-s1.3.1] A reducing agent brings about reduction in another substance by giving it electrons; the reducing agent is itself oxidised.
+[chem14-s1.3.2] To identify them, find the species (the atom, ion or molecule) that loses electrons: it is oxidised and is the reducing agent. The species that gains electrons is reduced and is the oxidising agent.
+[chem14-s1.3.3] In Zn + CuSO₄ → ZnSO₄ + Cu, zinc is the reducing agent (oxidised, Zn → Zn²⁺) and the copper(II) ion, from copper(II) sulfate, is the oxidising agent (reduced, Cu²⁺ → Cu).
+[chem14-s1.3.4] Name the species, not the element: the oxidising agent is Cu²⁺ (or copper(II) sulfate), not “copper”.
+[chem14-s1.3.5] The sulfate ion takes no part in that reaction; it is a spectator ion (an ion that is present but is not changed).
+[chem14-s1.4.b] Apply the same test each time: who loses electrons, and who gains them? These examples show it with a metal and a non-metal, and then with a reaction in solution where you can see a colour change.
+[chem14-s1.4.0] In 2K + Cl₂ → 2KCl, potassium is oxidised (it is the reducing agent) and chlorine is reduced (it is the oxidising agent).
+[chem14-s1.4.1] Bromine water oxidises sulfite ions to sulfate ions, and the orange-yellow colour of the bromine disappears: SO₃²⁻(aq) + Br₂(aq) + H₂O(l) → SO₄²⁻(aq) + 2Br⁻(aq) + 2H⁺(aq).
+[chem14-s1.4.2] In the bromine reaction, bromine is the oxidising agent and sulfite is the reducing agent. The colour fades because the bromine is used up as colourless bromide ions, Br⁻.
+[chem14-s1.4.3] Halogen displacement reactions (a more reactive halogen taking the place of a less reactive one in a compound) are another example. There is more on this in Families and trends in the periodic table.
+[chem14-s1.5.b] Redox chemistry is used in the home, in medicine and in food. Oxidising agents are used to bleach and to kill germs, while reducing agents are used to stop other things being oxidised.
+[chem14-s1.5.0] Many bleaches and disinfectants are oxidising agents: they oxidise coloured substances to colourless ones, or kill microorganisms (tiny living things such as bacteria) by oxidising them.
+[chem14-s1.5.1] Hydrogen peroxide (H₂O₂) is an oxidising agent used to bleach hair.
+[chem14-s1.5.2] Sodium hypochlorite (NaOCl, containing the hypochlorite ion ClO⁻) is household bleach.
+[chem14-s1.5.3] Chlorine (Cl₂) disinfects drinking water. There is more on this in Treating drinking water.
+[chem14-s1.5.4] Iodine solution (tincture of iodine) is an antiseptic (a germ-killer) for cuts.
+[chem14-s1.5.5] Sulfur dioxide (SO₂, food additive E220) is a reducing agent used as a preservative, for example in wine and dried fruit, because it prevents oxidation of the food.
+[chem14-s1.5.6] Vitamin C (ascorbic acid) is an antioxidant, which means it acts as a reducing agent: it is oxidised in place of other substances.
+[chem14-s1.6.b] Metals tend to react with their surroundings and turn back into compounds. This is oxidation of the metal, and for iron and steel it has a familiar name, rusting.
+[chem14-s1.6.0] Corrosion is the unwanted conversion of a metal to one of its compounds by reaction with its environment, for example oxygen and water; the metal is oxidised.
+[chem14-s1.6.1] Rusting is the corrosion of iron and steel. It needs both oxygen and water: iron is oxidised, Fe → Fe²⁺ + 2e⁻ and then to iron(III), while oxygen is reduced.
+[chem14-s1.6.2] Rust is hydrated iron(III) oxide (iron(III) oxide with water bound in), Fe₂O₃·xH₂O, a brown flaky solid.
+[chem14-s1.6.3] Salt, for example from sea spray or road salt, speeds up rusting.
+[chem14-s1.6.4] Copper corrodes slowly in air to form a green layer of copper compounds (verdigris, or a patina), as on copper roofs and the copper skin of the Statue of Liberty.
+[chem14-s1.6.5] Aluminium is a reactive metal but resists corrosion because a thin layer of aluminium oxide, Al₂O₃, forms on its surface and sticks firmly, stopping air and water reaching the metal underneath.
+[chem14-s1.7.b] Rusting needs oxygen and water, so the simplest protection is to keep both away from the iron. Barrier methods do this with a coating.
+[chem14-s1.7.0] Barrier methods keep out oxygen and water: painting, coating with plastic, oil or grease (for moving parts), and plating with a less reactive metal.
+[chem14-s1.7.1] Examples of plating are tin on steel food cans and chromium on taps.
+[chem14-s1.7.2] Once the barrier is scratched, the iron underneath rusts.
+[chem14-s1.7.3] With tin plating, the exposed iron rusts even faster than bare iron, because iron is more reactive than tin.
+[chem14-s1.8.b] A second approach uses a more reactive metal, which is oxidised in place of the iron. Even if the coating is damaged, the iron stays protected.
+[chem14-s1.8.0] Galvanising is coating iron or steel with zinc, for example buckets, wheelbarrows and fencing.
+[chem14-s1.8.1] Zinc is more easily oxidised than iron (higher in the electrochemical series, the list of metals ranked by reactivity), so even if the coating is scratched the zinc is oxidised instead of the iron. There is more on this in The electrochemical series and displacement.
+[chem14-s1.8.2] Sacrificial protection: a block of a more reactive metal, zinc or magnesium, is attached to steel ship hulls or underground pipes.
+[chem14-s1.8.3] The sacrificial block is oxidised (corrodes) instead of the steel and is replaced from time to time.
+[chem14-s1.9.b] Burning fuels and releasing energy from food in your cells are both oxidations. In each, oxygen is the oxidising agent.
+[chem14-s1.9.0] Combustion (burning) of fuels is oxidation: the fuel is oxidised and oxygen is the oxidising agent (it is reduced), for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). There is more on the energy released in Combustion and heats of combustion.
+[chem14-s1.9.1] Respiration is the oxidation of glucose in cells to release energy: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).
+[chem14-s1.9.2] In respiration glucose is oxidised and oxygen is reduced.
+[chem14-s1.9.3] Photosynthesis (the process in plants that makes glucose) is the reverse, in which carbon dioxide is reduced to glucose.
+[chem14-s1.10.b] Iron is a nutrient, and the form of iron in a tablet matters. Redox chemistry explains which form is used and why vitamin C helps.
+[chem14-s1.10.0] Iron is needed to make haemoglobin, which carries oxygen in the blood; a lack of iron causes iron-deficiency anaemia (too few healthy red blood cells), treated with iron tablets.
+[chem14-s1.10.1] Iron tablets contain iron as iron(II), Fe²⁺ (for example iron(II) sulfate), because iron(II) is the form the body absorbs best.
+[chem14-s1.10.2] Fe²⁺ is easily oxidised to Fe³⁺ by oxygen in the air: Fe²⁺ → Fe³⁺ + e⁻. This is a problem, because Fe³⁺ is not absorbed as well.
+[chem14-s1.10.3] Vitamin C (ascorbic acid), a reducing agent, helps the body absorb iron: it reduces Fe³⁺ to Fe²⁺ (Fe³⁺ + e⁻ → Fe²⁺), so iron tablets are often taken with vitamin C or orange juice.
+[chem14-s1.10.4] The iron(II) in a tablet can be measured by titration (adding one solution from a burette to another until the reaction is just complete) with potassium manganate(VII), which oxidises Fe²⁺ to Fe³⁺. There is more on this in Redox titrations and iron tablets.
+[chem14-s1.11.b] Electron transfer is easy to see in ionic reactions but harder in covalent ones, where electrons are shared. Oxidation numbers give a way to track electrons in every case.
+[chem14-s1.11.0] The oxidation number (oxidation state) of an atom is the charge it has, or appears to have, when the electrons in its bonds are assigned according to a set of rules.
+[chem14-s1.11.1] In a covalent bond the shared electrons are given to the more electronegative atom (the one that attracts the bonding electrons more strongly).
+[chem14-s1.11.2] Oxidation numbers are not real charges in covalent substances; they are a bookkeeping tool for tracking electron transfer.
+[chem14-s1.11.3] Oxidation numbers are written with the sign first (+2, −1), unlike ionic charges (2+, 1−).
+[chem14-s1.11.4] Oxidation is an increase in oxidation number; reduction is a decrease in oxidation number. The size of the change is the number of electrons lost or gained per atom.
+[chem14-s1.11.5] Oxidation numbers are assigned only for compounds of the first 36 elements (hydrogen to krypton).
+[chem14-s1.11.6] Oxidation numbers can also be used to balance redox equations. There is more on this in Balancing redox equations.
+[chem14-s1.12.b] Once you know how oxidation numbers change, you can pick out what is oxidised and reduced and name the agents, even when no ions are involved.
+[chem14-s1.12.0] Example: 2H₂ + O₂ → 2H₂O. Hydrogen goes from 0 to +1 (oxidised; H₂ is the reducing agent); oxygen goes from 0 to −2 (reduced; O₂ is the oxidising agent).
+[chem14-s1.12.1] Example: Cu + 2H₂SO₄ (concentrated) → CuSO₄ + SO₂ + 2H₂O. Copper goes from 0 to +2 (oxidised; copper is the reducing agent).
+[chem14-s1.12.2] In the same reaction sulfur goes from +6 in H₂SO₄ to +4 in SO₂ (reduced; sulfuric acid is the oxidising agent).
+[chem14-s1.12.3] The sulfur that ends up in CuSO₄ stays at +6, so only one of the two sulfur atoms in 2H₂SO₄ is reduced.
+[chem14-s1.13.b] Oxidation numbers are assigned by following rules in order. The first four deal with elements, ions and the totals that must be reached.
+[chem14-s1.13.0] Rule 1: an uncombined element has oxidation number 0, for example Zn, Fe, Na, O₂, Cl₂, P₄.
+[chem14-s1.13.1] Rule 2: a simple (monatomic, single-atom) ion has an oxidation number equal to its charge, for example Na⁺ +1, Mg²⁺ +2, Fe²⁺ +2, Fe³⁺ +3, Cl⁻ −1, Br⁻ −1, O²⁻ −2.
+[chem14-s1.13.2] Rule 3: the oxidation numbers in a neutral compound add up to 0, for example NaCl: (+1) + (−1) = 0; H₂O: 2(+1) + (−2) = 0.
+[chem14-s1.13.3] Rule 4: the oxidation numbers in a polyatomic ion (an ion made of several atoms) add up to the charge on the ion, for example NO₃⁻: N + 3(−2) = −1, so N = +5.
+[chem14-s1.13.4] Group 1 metals are always +1 and group 2 metals +2 in their compounds, which gives you known values to solve from.
+[chem14-s1.14.b] Oxygen, hydrogen and the halogens usually have a fixed value, but each has exceptions. The exceptions all follow from which atom is more electronegative.
+[chem14-s1.14.0] Rule 5: oxygen is −2 in its compounds, except in peroxides (H₂O₂, Na₂O₂), where it is −1 (2(+1) + 2(O) = 0, so O = −1), and in OF₂, where it is +2.
+[chem14-s1.14.1] In OF₂ fluorine is more electronegative than oxygen, so fluorine takes the electrons and is −1.
+[chem14-s1.14.2] Rule 6: hydrogen is +1 in its compounds, except in metal hydrides (for example NaH, CaH₂), where it is −1.
+[chem14-s1.14.3] In a metal hydride hydrogen is more electronegative than the metal, so the bonding electrons are assigned to hydrogen; NaH contains the H⁻ ion.
+[chem14-s1.14.4] Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).
+[chem14-s1.14.5] For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.
+[chem14-s1.14.6] Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.
+[chem14-s1.14.7] Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44.
+[chem14-s1.15.b] With the rules, you can find any unknown oxidation number by simple algebra. The total must come to 0 for a compound, or to the charge for an ion.
+[chem14-s1.15.0] Method: write the known values from the rules, then solve for the unknown so that the total equals 0 for a compound, or the charge of the ion.
+[chem14-s1.15.1] Example: in KMnO₄, (+1) + Mn + 4(−2) = 0, so Mn = +7.
+[chem14-s1.15.2] K₂Cr₂O₇: 2(+1) + 2Cr + 7(−2) = 0, so 2Cr = +12 and Cr = +6; in Cr³⁺ (for example chromium(III) sulfate) Cr = +3.
+[chem14-s1.15.3] CuSO₄: the sulfate ion is SO₄²⁻, so Cu = +2; in SO₄²⁻, S + 4(−2) = −2, so S = +6 and O = −2.
+[chem14-s1.15.4] An oxidation number can be a fraction: it is then the average over atoms of the same element, for example in S₄O₆²⁻, 4S + 6(−2) = −2, so S = +2.5.
+[chem14-s1.16.b] These values come from the rules above and are worth recognising. The Roman numerals in names also give oxidation numbers directly.
+[chem14-s1.16.0] Sulfur in other species: H₂S −2; SO₂ +4; SO₃²⁻ +4; H₂SO₄ +6; S₂O₃²⁻ +2.
+[chem14-s1.16.1] Nitrogen: NH₃ −3; N₂ 0; NO +2; NO₂ +4; NO₃⁻ and HNO₃ +5.
+[chem14-s1.16.2] Carbon: CH₄ −4; CO +2; CO₂ +4; C₂O₄²⁻ +3.
+[chem14-s1.16.3] Phosphorus: P₄ 0; PO₄³⁻ +5. Manganese: MnO₂ +4; Mn²⁺ +2.
+[chem14-s1.16.4] The Roman numeral in a name gives the oxidation number of the element before it: iron(II) oxide FeO (+2), iron(III) oxide Fe₂O₃ (+3), copper(I) oxide Cu₂O (+1), copper(II) oxide CuO (+2).
+[chem14-s1.16.5] Manganese(IV) oxide MnO₂ (+4) is also called manganese dioxide; potassium manganate(VII) KMnO₄ (+7) is also called potassium permanganate; potassium dichromate(VI) K₂Cr₂O₇ (+6).
+[chem14-s1.16.6] Iodine is element 53: I₂ is 0 and I⁻ is −1 by rules 1 and 2, but oxidation numbers are not assigned in iodine's compounds, for example iodates, because iodine is beyond the first 36 elements.
+
+CANDIDATES chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.

@@ -1,0 +1,143 @@
+MODE: cost and links
+TARGET hom-food-safety-s5: 5. Enzymes and food spoilage
+[hom-food-safety-s5.0.b] Enzymes are proteins that speed up chemical reactions, and food is full of them. Plant and animal foods contain their own enzymes, which keep working after harvest or slaughter, so food can spoil without any micro-organisms being involved.
+[hom-food-safety-s5.0.0] Enzymes occur naturally in fruit, vegetables, fish and meat. Because they keep working after the food is picked or killed, they slowly change its colour, texture and flavour.
+[hom-food-safety-s5.0.1] Each enzyme has an active site, a shaped region into which its specific substrate (the one substance it acts on) fits to be broken down. This is why each enzyme acts on only one kind of substance.
+[hom-food-safety-s5.0.2] Enzymes work best in warmth and moisture, so removing water from food leaves them unable to act.
+[hom-food-safety-s5.0.3] Heat denatures enzymes, which means it changes the shape of the active site so that the substrate no longer fits and the enzyme stops working. Cooking therefore inactivates them.
+[hom-food-safety-s5.0.4] Low temperatures slow enzyme activity without destroying it, so enzymes resume working when the food warms up again.
+[hom-food-safety-s5.1.b] Fruit does not stop changing when it is picked. Its ripening enzymes carry on working, and if they are left long enough they turn good fruit into spoiled fruit.
+[hom-food-safety-s5.1.0] Ripening enzymes continue to act after fruit is picked, converting starch to sugar and softening the cell walls, so the fruit becomes sweeter and softer.
+[hom-food-safety-s5.1.1] As enzymes change colour, texture and flavour, fruit moves from ripe to over-ripe and then decays, becoming soft and mushy before it rots.
+[hom-food-safety-s5.1.2] Over-ripening: a hard, under-ripe banana becomes soft and sweet, and then black, as enzymes continue to break it down.
+[hom-food-safety-s5.2.b] Cut an apple and leave it, and the flesh turns brown. This is enzymic browning, and it needs three things: damaged cells, the enzyme and oxygen from the air.
+[hom-food-safety-s5.2.0] When the surface of apples, bananas or potatoes is cut, peeled or bruised, enzymes are released from the damaged cells.
+[hom-food-safety-s5.2.1] Polyphenol oxidase, also called oxidase, acts on phenolic compounds in the presence of oxygen.
+[hom-food-safety-s5.2.2] The reaction forms brown pigments on the cut surface, which is why cut apples and potatoes discolour.
+[hom-food-safety-s5.2.3] Browning changes the appearance and flavour of the food but is not a safety hazard.
+[hom-food-safety-s5.3.b] Enzymes also break down fish, fats and vegetables, even when the food is stored in the cold. The damage shows up as off-odours, rancidity, poor colour and texture, and lost nutrients, and it shortens shelf life.
+[hom-food-safety-s5.3.0] Lipase in fish and oily foods breaks down fats (triglycerides) into fatty acids and glycerol, causing rancidity (the stale, unpleasant taste of spoiled fat) and off-flavours.
+[hom-food-safety-s5.3.1] Enzymes in fish continue to break down the flesh even at low temperatures, producing odour.
+[hom-food-safety-s5.3.2] Vegetables that are not blanched before freezing keep their enzymes active during storage, which spoils colour, texture and flavour in the freezer.
+[hom-food-safety-s5.3.3] Oxidase in the cell walls of plants is activated by oxygen and can destroy thiamine (vitamin B1), vitamin C and carotene, so some nutritive value is lost.
+[hom-food-safety-s5.4.b] Control works by inactivating enzymes, slowing their action or excluding oxygen. In other words, enzymes are controlled by destroying them (heat), changing their conditions (acid, cold, dryness) or removing a reactant (oxygen).
+[hom-food-safety-s5.4.0] Heat: blanching, a brief immersion of vegetables in boiling water or steam followed by rapid cooling, inactivates enzymes before freezing; cooking denatures them.
+[hom-food-safety-s5.4.1] Acid: adding lemon juice or vinegar to cut apples lowers the pH and inactivates the enzymes that cause browning.
+[hom-food-safety-s5.4.2] Low temperature: refrigeration and freezing slow enzyme activity but do not stop or destroy it, so enzymes become active again on thawing. This is why frozen vegetables need blanching first.
+[hom-food-safety-s5.4.3] Sulphur dioxide: used as a preservative in dried fruit and in fruit and vegetable juices, it prevents browning and inhibits enzyme action.
+[hom-food-safety-s5.4.4] Removing oxygen: vacuum packing, covering cut surfaces with water or sugar syrup, or treating cut fruit with an antioxidant such as ascorbic acid (vitamin C) prevents oxidase from browning the food.
+[hom-food-safety-s5.4.5] Drying: removing water makes enzymes inactive because they need it to act, which preserves herbs and dried fruit.
+[hom-food-safety-s5.4.6] Irradiation is also listed as a control for enzymic spoilage.
+
+CANDIDATES hom-digestion-metabolism-s1: 1. Digestion and absorption of protein
+[hom-digestion-metabolism-s1.0.b] Digestion is the breakdown of large food molecules into small soluble ones that can pass through the wall of the small intestine into the blood. It is chemical digestion, carried out by enzymes through a reaction called hydrolysis.
+[hom-digestion-metabolism-s1.0.0] Enzymes are proteins that act as biological catalysts, which means they speed up digestion without being used up.
+[hom-digestion-metabolism-s1.0.1] Each enzyme has an active site (the part where the food molecule binds) whose shape fits one type of substrate (the molecule the enzyme acts on), so an enzyme acts on only one kind of molecule.
+[hom-digestion-metabolism-s1.0.2] Enzymes lower the activation energy of a reaction (the energy needed to get it started), so digestion proceeds at body temperature, about 37 °C.
+[hom-digestion-metabolism-s1.0.3] Each digestive enzyme has an optimum pH, the acidity at which it works best: pepsin works in strong acid, while pancreatic and intestinal enzymes work in the alkaline conditions of the small intestine.
+[hom-digestion-metabolism-s1.0.4] Hydrolysis breaks a chemical bond by adding water: a hydrogen atom attaches to one part of the molecule and a hydroxyl group (–OH) to the other.
+[hom-digestion-metabolism-s1.0.5] Protein is a chain of amino acids joined by peptide bonds, so proteases (also called proteinases), the enzymes that digest protein, work by hydrolysing these bonds.
+[hom-digestion-metabolism-s1.0.6] As protein is digested the chains get shorter in this order: protein, then peptones (shorter chains), then peptides (shorter again), then amino acids. Only amino acids, and the very smallest peptides, are small enough to absorb.
+[hom-digestion-metabolism-s1.0.7] Diagram: two amino acids joined by a peptide bond, with the water molecule added during hydrolysis labelled.
+[hom-digestion-metabolism-s1.1.b] Examiners ask you to fill in this table, so learn each row as a set of five linked words. The substrate is the molecule the enzyme acts on and the product is what it is turned into.
+[hom-digestion-metabolism-s1.1.0] Stomach: gastric juice; pepsin; protein; peptones.
+[hom-digestion-metabolism-s1.1.1] Stomach of infants: gastric juice; rennin; caseinogen; casein.
+[hom-digestion-metabolism-s1.1.2] Pancreas (its enzyme acts in the duodenum): pancreatic juice; trypsin (a proteinase); peptones; peptides.
+[hom-digestion-metabolism-s1.1.3] Small intestine: intestinal juice; peptidases (also called erepsin); peptides; amino acids.
+[hom-digestion-metabolism-s1.2.b] Protein digestion starts in the stomach, not the mouth. The stomach uses acid to prepare the protein and then an enzyme to start splitting it.
+[hom-digestion-metabolism-s1.2.0] In the mouth no protein is digested, because saliva contains no protein-digesting enzyme. Chewing breaks food into pieces and so increases its surface area, but this is mechanical only.
+[hom-digestion-metabolism-s1.2.1] Gastric glands in the stomach wall secrete gastric juice, which contains hydrochloric acid and the inactive enzyme pepsinogen.
+[hom-digestion-metabolism-s1.2.2] Hydrochloric acid unfolds (denatures) the protein, exposing its peptide bonds to enzyme action. Acid also kills most bacteria in food.
+[hom-digestion-metabolism-s1.2.3] Hydrochloric acid converts pepsinogen into the active enzyme pepsin, and also gives the acid pH of about 2 that pepsin works best at.
+[hom-digestion-metabolism-s1.2.4] Pepsin hydrolyses protein into peptones, which are shorter chains than the original protein.
+[hom-digestion-metabolism-s1.2.5] Protein-digesting enzymes are themselves proteins, so pepsinogen is made inactive and activated only in the stomach. This is why it does not digest the cells that make it.
+[hom-digestion-metabolism-s1.2.6] Rennin, found in the stomach of infants, clots milk by changing the soluble milk protein caseinogen into insoluble casein (curds), so milk stays in the stomach long enough for pepsin to act on it.
+[hom-digestion-metabolism-s1.2.7] The stomach churns food into chyme, a semi-liquid mixture that passes slowly into the duodenum (the first part of the small intestine).
+[hom-digestion-metabolism-s1.3.b] Peptones leaving the stomach are still too large to absorb. In the small intestine two more enzymes, one from the pancreas and one from the intestinal wall, finish the job.
+[hom-digestion-metabolism-s1.3.0] The pancreas is a gland, not part of the alimentary canal (the tube food passes through), so food never enters it. It secretes pancreatic juice into the duodenum through the pancreatic duct.
+[hom-digestion-metabolism-s1.3.1] Pancreatic juice contains trypsin, which is made in inactive form as trypsinogen so that it cannot digest the cells that make it.
+[hom-digestion-metabolism-s1.3.2] Enterokinase, an enzyme from the lining of the small intestine found in the intestinal juice, converts trypsinogen into active trypsin.
+[hom-digestion-metabolism-s1.3.3] Pancreatic juice is alkaline because it also contains alkaline salts, so it neutralises the acid chyme and gives trypsin the working pH it needs.
+[hom-digestion-metabolism-s1.3.4] Trypsin hydrolyses peptones into shorter peptides, which are still too large to be absorbed.
+[hom-digestion-metabolism-s1.3.5] Intestinal juice is secreted by glands in the wall of the small intestine and contains peptidases (erepsin).
+[hom-digestion-metabolism-s1.3.6] Peptidases hydrolyse peptides into amino acids, the main form in which protein is absorbed. Protein digestion is now complete.
+[hom-digestion-metabolism-s1.4.b] Trace the journey of protein from mouth to liver in order, naming the organ, secretion, enzyme, substrate and product at each stage, then how the products are absorbed.
+[hom-digestion-metabolism-s1.4.0] Mouth: no protein is digested, because saliva contains no protein-digesting enzyme.
+[hom-digestion-metabolism-s1.4.1] Stomach: pepsin acts on the protein (and rennin in infants), and chyme passes into the duodenum.
+[hom-digestion-metabolism-s1.4.2] Duodenum: trypsin and then peptidases complete digestion, and pancreatic juice enters through the pancreatic duct.
+[hom-digestion-metabolism-s1.4.3] Villi of the small intestine: amino acids are absorbed into the capillaries (the tiniest blood vessels) inside each villus.
+[hom-digestion-metabolism-s1.4.4] The capillaries join to form the hepatic portal vein, which carries the absorbed amino acids from the small intestine to the liver.
+[hom-digestion-metabolism-s1.4.5] Liver: processes the amino acids before they enter the general circulation.
+[hom-digestion-metabolism-s1.4.6] Diagram: the digestive system, labelled mouth, oesophagus, stomach, liver, pancreas, small intestine, large intestine and hepatic portal vein, with where protein digestion begins and ends marked.
+[hom-digestion-metabolism-s1.5.b] Absorption is the passage of digested nutrients through the wall of the small intestine into the blood or lymph. The small intestine is built to make this fast.
+[hom-digestion-metabolism-s1.5.0] The small intestine is long, and its lining is folded into villi, finger-like projections whose cells have microvilli (tiny folds on their surface), so the surface area for absorption is very large.
+[hom-digestion-metabolism-s1.5.1] Each villus has a thin one-cell-thick wall, so nutrients have only a short distance to cross, a capillary network, and a central lacteal (a lymph vessel).
+[hom-digestion-metabolism-s1.5.2] Amino acids are absorbed mainly by active transport, which uses energy and carrier proteins and is coupled with the uptake of sodium ions.
+[hom-digestion-metabolism-s1.5.3] Amino acids move through the cells lining each villus into the capillary network inside it. They do not enter the lacteal, which is the route for fat.
+[hom-digestion-metabolism-s1.5.4] Very small peptides (two or three amino acids) may be absorbed too. They are broken down into amino acids inside the cells.
+[hom-digestion-metabolism-s1.5.5] Diagram: cross-section of a villus showing the capillary network, lacteal, epithelial wall (the one-cell-thick lining) and microvilli.
+[hom-digestion-metabolism-s1.6.b] Once absorbed, amino acids are used where the body needs them. The body has no store of amino acids, so any not needed are broken down in the liver.
+[hom-digestion-metabolism-s1.6.0] Body cells take up amino acids from the blood and use them to build body protein for growth and repair, and to make enzymes, hormones and antibodies.
+[hom-digestion-metabolism-s1.6.1] The liver makes plasma proteins, such as albumin, from amino acids and passes the rest on in the blood.
+[hom-digestion-metabolism-s1.6.2] Amino acids cannot be stored, so surplus amino acids are broken down in the liver.
+[hom-digestion-metabolism-s1.6.3] Deamination is the removal of the amino group (–NH₂) from an amino acid. In the liver it is converted to ammonia (a nitrogen-containing compound formed when the amino group is removed from an amino acid), and then to urea because ammonia is toxic.
+[hom-digestion-metabolism-s1.6.4] Urea is carried in the blood to the kidneys, filtered out and excreted in urine.
+[hom-digestion-metabolism-s1.6.5] The remaining carbon part, with its carboxyl group (–COOH), is oxidised to release heat and energy, or converted into glucose or fat. This is why protein is an energy source when eaten in excess.
+
+CANDIDATES hom-cooking-methods-s1: 1. Physical and chemical changes during preparation and cooking
+[hom-cooking-methods-s1.0.b] A physical change alters the size, shape, state, colour or texture of food without forming new substances. Heat usually drives these changes, and each one has a food you can name as an example.
+[hom-cooking-methods-s1.0.0] Coagulation: heat unfolds (denatures) egg, milk and fish proteins, which then bond into a set structure. Egg white turns from clear to white and opaque, fish flesh from translucent to opaque, and custard, scrambled egg and omelette set.
+[hom-cooking-methods-s1.0.1] Gelatinisation: starch granules absorb water and swell when heated in liquid, and can swell until they burst. This thickens sauces, gravies, custard and porridge.
+[hom-cooking-methods-s1.0.2] Tenderising: long, moist cooking converts collagen (the tough protein in connective tissue) into gelatine, so tough cuts of meat become tender.
+[hom-cooking-methods-s1.0.3] Shrinkage: meat and fish lose water and melted fat during cooking, so they become smaller and lighter and fat melts out of meat.
+[hom-cooking-methods-s1.0.4] Increase in size: dried peas, beans and fruit, rice and pasta absorb water and swell during cooking. Whisked egg foam, sponge and bread also rise and increase in volume.
+[hom-cooking-methods-s1.0.5] Colour change: meat turns from red or pink to brown or grey as its myoglobin (the red pigment in meat) is heated. Green vegetables turn olive-brown with prolonged cooking or acid because the chlorophyll is altered, whereas carrots and other orange vegetables stay colourful.
+[hom-cooking-methods-s1.0.6] Softening: heat softens the cellulose and breaks down pectin (the 'glue' between cells) in plant cell walls, so vegetables and fruit become tender as cell water is lost.
+[hom-cooking-methods-s1.0.7] Increased digestibility and safety: heat destroys most micro-organisms and makes starch and protein easier to digest.
+[hom-cooking-methods-s1.0.8] Loss of nutrients, because water-soluble vitamins dissolve in cooking water, is also counted as a physical change.
+[hom-cooking-methods-s1.1.b] A chemical change alters the molecular make-up of food and forms new substances with different colours, flavours and textures. Raising agents are a clear example, because they make a new gas that lifts the mixture.
+[hom-cooking-methods-s1.1.0] Chemical raising agent: bicarbonate of soda reacts with an acid such as buttermilk and releases carbon dioxide gas, which makes soda bread rise. The same applies in cakes.
+[hom-cooking-methods-s1.1.1] Baking powder contains bicarbonate of soda plus an acid, so it releases carbon dioxide when it is moistened and heated.
+[hom-cooking-methods-s1.1.2] Biological raising agent: yeast feeds on sugar during fermentation and gives off carbon dioxide (and alcohol), which makes bread dough rise. The gas expands in the oven, and baking kills the yeast.
+[hom-cooking-methods-s1.1.3] Tenderising by acid or enzymes, for example in a marinade or with a meat tenderiser, is also accepted as a chemical change.
+[hom-cooking-methods-s1.1.4] Browning reactions are chemical changes too, because they make new coloured and flavoured substances: the Maillard reaction, caramelisation and dextrinisation.
+[hom-cooking-methods-s1.2.b] Enzymic browning is a chemical change caused by an enzyme in damaged fruit and vegetables. It happens without heat, which separates it from the browning of toast or roast meat.
+[hom-cooking-methods-s1.2.0] Cutting, peeling or bruising breaks cell walls, so the enzyme polyphenol oxidase (called 'oxidase' in some marking schemes) meets phenolic compounds in the food.
+[hom-cooking-methods-s1.2.1] Oxygen from the air is needed: the enzyme oxidises the phenolic compounds, which then form brown pigments.
+[hom-cooking-methods-s1.2.2] Examples: sliced apple, banana, pear, avocado, potato and mushroom turning brown on standing.
+[hom-cooking-methods-s1.2.3] Browning spoils the appearance, flavour and vitamin C content of fruit and vegetables. It is wanted in the making of black tea, where it is used deliberately.
+[hom-cooking-methods-s1.2.4] To stop oxygen reaching the surface, keep cut surfaces under water, sugar syrup, cling film, a layer of juice or a coating of dressing.
+[hom-cooking-methods-s1.2.5] Acid such as lemon juice lowers the pH and slows the enzyme's action. Vitamin C (ascorbic acid) reduces the first brown products back to colourless compounds.
+[hom-cooking-methods-s1.2.6] Heat inactivates the enzyme, so blanching vegetables in boiling water before freezing, or cooking them, stops browning.
+[hom-cooking-methods-s1.2.7] Refrigeration slows enzyme activity but does not stop it. Working quickly and cutting just before serving also limits browning.
+[hom-cooking-methods-s1.3.b] A fair test lets you see which treatment slows browning best, by changing one thing at a time and keeping everything else the same.
+[hom-cooking-methods-s1.3.0] Aim: to find which treatment best slows enzymic browning on a sliced apple.
+[hom-cooking-methods-s1.3.1] Hypothesis: lemon juice will slow browning more than an untreated slice, because acid slows polyphenol oxidase.
+[hom-cooking-methods-s1.3.2] Independent variable: the treatment applied to each slice, e.g. untreated (the control), dipped in lemon juice, dipped in sugar syrup, dipped in salt water or cold water.
+[hom-cooking-methods-s1.3.3] Dependent variable: the degree of browning, rated on a 0 to 5 colour scale at fixed times.
+[hom-cooking-methods-s1.3.4] Controlled variables: the same apple variety and ripeness, slices of the same thickness cut with the same knife, the same dipping time, the same room temperature and the same time after cutting. These keep the test fair, so only the treatment changes.
+[hom-cooking-methods-s1.3.5] Method: 1. Wash and dry the apple and cut it into slices of equal thickness. 2. Dip each treated slice for the same time, keeping one untreated slice as the control. 3. Lay all slices on labelled plates and record the colour of each every 5 minutes for 30 minutes.
+[hom-cooking-methods-s1.3.6] Safety and hygiene: wash hands and the apple, use a clean board and a sharp knife held with a claw grip, and wipe up any spilled juice.
+[hom-cooking-methods-s1.3.7] Expected result: the untreated control browns first and most, while the lemon juice slices stay palest for longest. This supports the hypothesis.
+[hom-cooking-methods-s1.3.8] Evaluation: a rating by eye is subjective and apples vary, so repeat the test with several apples and average the ratings.
+[hom-cooking-methods-s1.4.b] Non-enzymic browning needs heat and does not involve enzymes. It has three processes, each involving a different food molecule: the Maillard reaction (protein with sugar), caramelisation (sugar alone) and dextrinisation (starch).
+[hom-cooking-methods-s1.4.0] Maillard reaction: amino acids from protein react with reducing sugars such as glucose when food is heated in dry conditions, producing brown colour and savoury roasted flavour.
+[hom-cooking-methods-s1.4.1] Maillard browning shows on roast meat and poultry skin, roast potatoes, toast and the crust of bread.
+[hom-cooking-methods-s1.4.2] Dry heat and a dry surface favour browning, so roasting, grilling, baking and frying brown food.
+[hom-cooking-methods-s1.4.3] Little Maillard browning occurs in boiled, steamed or stewed food, because water holds the surface at about 100 °C, too cool for browning, so the food stays pale.
+[hom-cooking-methods-s1.4.4] Caramelisation: sugar (sucrose) melts and darkens under strong heat, forming caramel with a sweet, slightly bitter flavour. It needs no protein.
+[hom-cooking-methods-s1.4.5] Caramelisation examples: caramel sauce, crème caramel and toffee.
+[hom-cooking-methods-s1.4.6] Dextrinisation: dry heat breaks starch down into shorter chains called dextrins, which brown and give a crisp surface.
+[hom-cooking-methods-s1.4.7] Dextrinisation examples: toast and the crust of cakes and bread.
+[hom-cooking-methods-s1.5.b] Some nutrients dissolve in water or are destroyed by heat and air, so preparation and cooking can lower the nutritional value of food. Knowing why they are lost shows how to keep them.
+[hom-cooking-methods-s1.5.0] Water-soluble vitamins, vitamin C and the B group, dissolve into cooking water and are lost when it is poured away.
+[hom-cooking-methods-s1.5.1] Vitamin C is also destroyed by heat and oxidation (exposure to air), so the longer vegetables are cooked and exposed to air, the more is lost.
+[hom-cooking-methods-s1.5.2] Fat-soluble vitamins A, D, E and K are more stable in cooking but drain away with the melted fat from grilled, roasted or fried food.
+[hom-cooking-methods-s1.5.3] Soluble minerals such as potassium and some sugars dissolve into cooking water along with the water-soluble vitamins.
+[hom-cooking-methods-s1.5.4] Cutting vegetables into small pieces increases the surface exposed to water and air, and soaking them before cooking increases loss. Cooking in a lot of water for a long time has the same effect.
+[hom-cooking-methods-s1.6.b] Most nutrient loss can be limited by handling vegetables sensibly before and during cooking.
+[hom-cooking-methods-s1.6.0] Peeling thinly or cooking in the skin reduces loss, because nutrients are concentrated just beneath the skin. Peeling thickly increases loss.
+[hom-cooking-methods-s1.6.1] Holding cooked vegetables hot for long periods destroys further vitamin C.
+[hom-cooking-methods-s1.6.2] Adding bicarbonate of soda to vegetables destroys vitamin C and thiamine, so avoid alkalis and copper pans.
+[hom-cooking-methods-s1.6.3] Steaming, stir-frying and microwaving use little water and short cooking times, so they conserve more nutrients. Preparing just before cooking, using a sharp knife, putting the lid on and serving soon after cooking also help.
+[hom-cooking-methods-s1.6.4] Cooking liquid from vegetables can be used in soups, sauces or gravies to recover some nutrients.

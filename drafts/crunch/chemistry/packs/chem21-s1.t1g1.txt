@@ -1,0 +1,382 @@
+MODE: cost and links
+TARGET chem21-s1: 1. Energy changes in reactions
+[chem21-s1.0.b] Thermochemistry rests on one principle: energy is never lost, it only moves between the chemicals and their surroundings. Every energy calculation and explanation in this chapter relies on it.
+[chem21-s1.0.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another or transferred. This is why saying energy is 'used up' is wrong: it has gone somewhere else.
+[chem21-s1.0.1] In a chemical reaction, chemical energy stored in bonds (the attractions that hold atoms together) is changed into, or comes from, other forms, mainly heat, but also light, sound and electrical energy.
+[chem21-s1.0.2] Thermochemistry is the study of the heat changes that take place during chemical reactions and physical changes (changes of state, such as melting or boiling, where no new substance forms).
+[chem21-s1.0.3] The system is the reacting chemicals; the surroundings are everything else, such as the solvent (the liquid the chemicals are dissolved in), container, air and thermometer.
+[chem21-s1.0.4] Energy lost by the system is gained by the surroundings, and vice versa, so the total stays the same.
+[chem21-s1.0.5] This law underpins all of thermochemistry: it is why the heat a reaction gives out can be measured as the heat gained by water, and why Hess's law (the rule for combining enthalpy changes of linked reactions) works. There is more on this in Hess's law.
+[chem21-s1.1.b] To compare the heat given out or taken in by different reactions, chemists need a measure of the energy stored in chemicals. That measure is enthalpy, and the quantity you actually use is the change in it.
+[chem21-s1.1.0] Enthalpy (H) is the heat content, or stored energy, of a substance. It cannot be measured directly, but changes in it can.
+[chem21-s1.1.1] The enthalpy change, ΔH, is the heat change in a process carried out at constant pressure (the pressure stays the same throughout): ΔH = H(products) − H(reactants).
+[chem21-s1.1.2] The unit of ΔH is kJ mol⁻¹, meaning kJ per mole (the chemist's unit for an amount of substance) of reaction as written in the equation.
+[chem21-s1.1.3] A negative ΔH means heat is given out to the surroundings (exothermic); a positive ΔH means heat is taken in (endothermic). There is more on this in the blocks on exothermic and endothermic reactions below.
+[chem21-s1.1.4] Heat of reaction: the heat change when the numbers of moles of reactants shown in the balanced equation react completely.
+[chem21-s1.2.b] Every reaction involves breaking bonds, so chemists measure how much energy a bond holds. That measure is bond enthalpy, and it tells you how strong a bond is.
+[chem21-s1.2.0] Bond enthalpy: the energy needed to break one mole of a particular covalent bond (a bond in which atoms share electrons), with the molecules and the separated atoms all in the gaseous state.
+[chem21-s1.2.1] Example: H₂(g) → 2H(g), ΔH = +436 kJ mol⁻¹, so the H–H bond enthalpy is 436 kJ mol⁻¹.
+[chem21-s1.2.2] Bond enthalpies are always positive, because energy must always be supplied to break a bond.
+[chem21-s1.2.3] The strength of the same type of bond varies slightly from one molecule to another, e.g. a C–H bond in methane and in ethanol, so tables give average bond enthalpies, averaged over many compounds.
+[chem21-s1.2.4] The larger the bond enthalpy, the stronger the bond. The triple bond in nitrogen, N≡N (945 kJ mol⁻¹), is very strong, which is why nitrogen gas is so unreactive: a great deal of energy is needed to break it. There is more on this in ΔH from bond enthalpies.
+[chem21-s1.3.b] A reaction is a swap of bonds: old ones in the reactants (the starting chemicals) are broken and new ones form in the products (the chemicals made). Whether heat is given out or taken in depends on which side of the swap involves more energy.
+[chem21-s1.3.0] In a chemical reaction, bonds in the reactants are broken and new bonds are made in the products.
+[chem21-s1.3.1] Bond breaking requires energy, so it is endothermic (it takes energy in).
+[chem21-s1.3.2] Bond making releases energy, so it is exothermic (it gives energy out); forming a bond releases the same amount of energy as breaking it requires.
+[chem21-s1.3.3] If more energy is released making the new bonds than is used breaking the old ones, the reaction is exothermic overall (the net result is heat given out) and ΔH is negative.
+[chem21-s1.3.4] If more energy is needed to break bonds than is released making them, the reaction is endothermic overall and ΔH is positive.
+[chem21-s1.3.5] Example: in H₂(g) + Cl₂(g) → 2HCl(g), one H–H bond and one Cl–Cl bond are broken and two H–Cl bonds are made.
+[chem21-s1.3.6] The energy released forming the two strong H–Cl bonds is greater than the energy needed to break the reactant bonds, so the reaction is exothermic.
+[chem21-s1.3.7] Example: in the combustion (burning in oxygen) of methane, the C–H and O=O bonds broken need less energy than is released forming the very strong C=O bonds in CO₂ and O–H bonds in H₂O, so combustion is strongly exothermic.
+[chem21-s1.4.b] Even a reaction that gives out heat overall needs a push to get started, and the same bond balance explains the everyday processes the specification names.
+[chem21-s1.4.0] Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.
+[chem21-s1.4.1] The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.
+[chem21-s1.4.2] They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).
+[chem21-s1.4.3] Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them.
+[chem21-s1.5.b] Energy changes are not limited to reactions. When a substance melts, boils or dissolves, no new substance forms, but heat is still taken in or given out.
+[chem21-s1.5.0] Changes of state involve enthalpy changes because intermolecular forces (the weak attractions between separate molecules) are overcome or formed. Covalent bonds within the molecules are not broken.
+[chem21-s1.5.1] Boiling water breaks the intermolecular forces (hydrogen bonds) between H₂O molecules, not the O–H covalent bonds inside each molecule, so the molecules stay intact as steam.
+[chem21-s1.5.2] Melting, boiling and sublimation (solid changing straight to gas) are endothermic: energy is needed to overcome the forces between particles.
+[chem21-s1.5.3] Water melting: H₂O(s) → H₂O(l), ΔH = +6.01 kJ mol⁻¹ (at 0 °C). Water boiling: H₂O(l) → H₂O(g), ΔH = +40.7 kJ mol⁻¹ at 100 °C.
+[chem21-s1.5.4] Freezing and condensing are exothermic: the same amounts of energy are released as the forces form. This is why steam condensing on skin gives a severe burn.
+[chem21-s1.5.5] Dissolving can be exothermic or endothermic. Dissolving sodium hydroxide or concentrated sulfuric acid in water gives out heat.
+[chem21-s1.5.6] Dissolving ammonium nitrate takes in heat, which is used in instant cold packs.
+[chem21-s1.5.7] Evaporation of sweat cools the body because the water takes in heat from the skin as it evaporates.
+[chem21-s1.6.b] Reactions are sorted by the direction of heat flow. The names, the sign of ΔH and the temperature change you can observe all tell the same story.
+[chem21-s1.6.0] An exothermic reaction gives out heat to the surroundings; ΔH is negative and the products have less enthalpy than the reactants, because the system has lost heat.
+[chem21-s1.6.1] An endothermic reaction takes in heat from the surroundings; ΔH is positive and the products have more enthalpy than the reactants, because the system has gained heat.
+[chem21-s1.6.2] In an exothermic reaction in solution, the temperature of the mixture rises, so the container feels warm.
+[chem21-s1.6.3] In an endothermic reaction in solution, the temperature falls, so the container feels cold, unless heat is being supplied continuously, as in thermal decomposition.
+[chem21-s1.6.4] A thermochemical equation is a balanced equation with state symbols ((s) solid, (l) liquid, (g) gas, (aq) dissolved in water) and the ΔH value, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.
+[chem21-s1.6.5] State symbols matter because changes of state also have enthalpy changes.
+[chem21-s1.6.6] Reversing a reaction reverses the sign of ΔH: if A → B has ΔH = −x, then B → A has ΔH = +x.
+[chem21-s1.6.7] ΔH is proportional to the amounts in the equation, because twice as many moles react: doubling every coefficient (the number in front of each formula) doubles ΔH, e.g. 2CH₃OH(l) + 3O₂(g) → 2CO₂(g) + 4H₂O(l), ΔH = −1452 kJ (2 × −726).
+[chem21-s1.7.b] Many familiar processes give out heat. Learn the equation and ΔH for each of the named ones, and how to explain why each is exothermic.
+[chem21-s1.7.0] Combustion: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹; all combustion reactions are exothermic.
+[chem21-s1.7.1] Neutralisation: HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l), ΔH ≈ −57 kJ mol⁻¹. The ionic equation (showing only the ions that react) is H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem21-s1.7.2] Respiration: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l), ΔH ≈ −2800 kJ mol⁻¹; it releases energy in cells, which keeps warm-blooded animals warm.
+[chem21-s1.7.3] Rusting of iron: iron reacts slowly with oxygen and water, which are both needed, to form hydrated iron(III) oxide (an oxide that has water combined with it). The simplified overall equation is 4Fe(s) + 3O₂(g) → 2Fe₂O₃(s), ΔH = −1648 kJ.
+[chem21-s1.7.4] Rusting is exothermic, but the heat is released so slowly that it isn't noticed. Hand warmers use fast oxidation (reaction with oxygen) of iron powder to give out heat.
+[chem21-s1.7.5] Other everyday exothermic processes: reactive metals reacting with acid or water, dissolving sodium hydroxide, condensing and freezing.
+[chem21-s1.8.b] Endothermic changes take heat or light in from the surroundings. Some need heat supplied the whole time they run, which is why they only keep going while you keep heating.
+[chem21-s1.8.0] Thermal decomposition: breaking down a compound by heating needs a continuous supply of heat, e.g. CaCO₃(s) → CaO(s) + CO₂(g), ΔH = +178 kJ mol⁻¹ (making lime).
+[chem21-s1.8.1] Sodium hydrogencarbonate also decomposes endothermically: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g), which is the reaction of baking powder in baking.
+[chem21-s1.8.2] Photosynthesis: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), ΔH ≈ +2800 kJ mol⁻¹; the energy is absorbed from sunlight.
+[chem21-s1.8.3] Photosynthesis and respiration are the reverse of each other, so their ΔH values are equal in size and opposite in sign.
+[chem21-s1.8.4] Other endothermic processes: melting, boiling, dissolving ammonium nitrate (cold packs), and the reaction of citric acid with sodium hydrogencarbonate solution.
+[chem21-s1.9.b] A diagram shows at a glance whether a reaction gives out or takes in heat, and how much. There are two ways to draw the transfer.
+[chem21-s1.9.0] An enthalpy level diagram has enthalpy (H) on the vertical axis, a horizontal line for the reactants and one for the products, and a vertical arrow between them labelled ΔH.
+[chem21-s1.9.1] Exothermic: the products line is below the reactants line, the arrow points down, ΔH is negative, and the energy difference is released to the surroundings as heat.
+[chem21-s1.9.2] Endothermic: the products line is above the reactants line, the arrow points up, ΔH is positive, and the energy difference is taken in from the surroundings.
+[chem21-s1.9.3] A second way to model the transfer is a box containing the system, with arrows for heat flowing out to the surroundings (exothermic: the surroundings get warmer) or in from them (endothermic: the surroundings get cooler).
+[chem21-s1.9.4] Diagram: two enthalpy level diagrams side by side: combustion of methane (CH₄ + 2O₂ above CO₂ + 2H₂O, ΔH = −890 kJ mol⁻¹, arrow down) and decomposition of calcium carbonate (CaO + CO₂ above CaCO₃, ΔH = +178 kJ mol⁻¹, arrow up).
+[chem21-s1.9.5] Energy profile diagrams, which also show the activation energy (the energy needed to start the reaction) along the reaction pathway, are not needed here. There is more on this in Calculating ΔH and energy profiles.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem10-s1: 1. Physical and chemical change
+[chem10-s1.0.b] Every substance can be described by what it looks like and does on its own, and by how it behaves when it reacts. Chemists split these descriptions into physical properties and chemical properties, and this split is the basis for telling the two kinds of change apart.
+[chem10-s1.0.0] A physical property can be observed or measured without changing the substance into a new substance, so you can test it and still have the same material afterwards.
+[chem10-s1.0.1] Physical properties include colour, state (solid, liquid or gas), density (mass per unit volume), melting point, boiling point, solubility (how well it dissolves), electrical conductivity (whether it carries a current) and hardness.
+[chem10-s1.0.2] A chemical property describes how a substance reacts to form new substances, so it can only be found out by reacting the substance.
+[chem10-s1.0.3] Chemical properties include flammability (whether it burns), reactivity with water, oxygen or acids, whether a substance is acidic or basic, and how it decomposes (breaks down into simpler substances) on heating.
+[chem10-s1.1.b] In a physical change the substance looks or behaves differently but is still the same substance. Only how its particles are arranged or spaced has altered.
+[chem10-s1.1.0] A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing.
+[chem10-s1.1.1] A physical change is usually easily reversed and involves only a small energy change, because no new substance forms; only the arrangement or spacing of the particles changes.
+[chem10-s1.1.2] A change of state is always a physical change: melting, boiling, freezing and condensing only move the same particles further apart or closer together.
+[chem10-s1.1.3] Examples of physical change: melting ice, boiling water, dissolving sugar or salt in water, sublimation of iodine (solid turning straight to gas), crushing a solid and magnetising iron.
+[chem10-s1.1.4] The mass is unchanged in a physical change, because the same particles are present before and after.
+[chem10-s1.2.b] In a chemical change the substances you start with are used up and different substances are made. This happens by rearranging atoms, so the product has properties of its own.
+[chem10-s1.2.0] A chemical change, or chemical reaction, is one in which one or more new substances are formed, with different properties from the starting substances.
+[chem10-s1.2.1] In a chemical change bonds are broken and new bonds are made, so the atoms are rearranged into new particles.
+[chem10-s1.2.2] A chemical change is usually difficult to reverse, because the new substances have to be turned back into the originals by another reaction.
+[chem10-s1.2.3] A chemical change usually involves a noticeable energy change, with heat or light given out or taken in, because breaking and making bonds changes the energy stored in the substances.
+[chem10-s1.2.4] Total mass is conserved in a chemical change too, if nothing escapes, because the atoms are only rearranged. There is more on this in the investigation on conservation of mass below.
+[chem10-s1.3.b] Because a chemical change makes new substances, it often produces something you can see, hear, feel or smell. These are the signs to look for, but they are clues rather than proof.
+[chem10-s1.3.0] A gas is given off (effervescence, which is fizzing or bubbling), showing a new gas has been made.
+[chem10-s1.3.1] A precipitate forms, meaning an insoluble solid appears in a solution.
+[chem10-s1.3.2] A permanent colour change occurs, since the new substance has a different colour from the old one.
+[chem10-s1.3.3] The temperature changes, because the reaction gives out or takes in heat.
+[chem10-s1.3.4] Light is produced.
+[chem10-s1.3.5] A smell is produced.
+[chem10-s1.3.6] A colour change alone is not proof of a chemical change: dissolving copper sulfate in water gives a blue solution, which is a physical change.
+[chem10-s1.4.b] These are the reactions to quote when asked to classify a change or give an example of a chemical change. In each one a new substance is formed.
+[chem10-s1.4.0] Burning magnesium forms white magnesium oxide, a new substance with light and heat given out.
+[chem10-s1.4.1] Rusting of iron.
+[chem10-s1.4.2] Cooking an egg.
+[chem10-s1.4.3] Magnesium fizzing in hydrochloric acid, where the fizzing is gas being given off.
+[chem10-s1.4.4] Heating copper(II) carbonate decomposes it: the green solid forms black copper(II) oxide and carbon dioxide.
+[chem10-s1.4.5] Neutralisation of an acid by a base is also a chemical change; the equations are given in the section on balancing equations.
+[chem10-s1.5.b] Put side by side, the two kinds of change differ on four points. The test is always whether a new substance has been made.
+[chem10-s1.5.0] No new substance is formed in a physical change, but a new substance is formed in a chemical change.
+[chem10-s1.5.1] A physical change is easily reversed; a chemical change is usually difficult to reverse.
+[chem10-s1.5.2] A physical change involves a small energy change; a chemical change usually involves a large energy change.
+[chem10-s1.5.3] Particles are unchanged in a physical change, but atoms are rearranged into new particles in a chemical change.
+[chem10-s1.5.4] Borderline case: dissolving salt in water is a physical change, because evaporating the water recovers the salt unchanged, even though its ions (charged particles) are separated.
+[chem10-s1.6.b] Weighing reactions carefully showed that nothing is lost or gained in the total mass. This is one of the two laws behind all physical and chemical changes.
+[chem10-s1.6.0] Law of conservation of mass: in a chemical reaction or physical change, matter is neither created nor destroyed, so the total mass of the products (substances made) equals the total mass of the reactants (substances that react).
+[chem10-s1.6.1] Antoine Lavoisier established the law in the late 1700s (published 1789) by careful weighing of reactions in sealed vessels, so that no gas could escape unnoticed.
+[chem10-s1.6.2] The number of moles (the amount of substance, counted in particles) or molecules may change in a reaction, but the mass does not.
+[chem10-s1.7.b] Energy follows a similar rule to mass. It can change form during a reaction, but the total stays the same.
+[chem10-s1.7.0] Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another.
+[chem10-s1.7.1] When a fuel burns, chemical energy (energy stored in the bonds of the fuel) is changed to heat and light.
+[chem10-s1.7.2] The total energy of a reaction and its surroundings stays the same, so any energy lost by the reacting substances appears in the surroundings.
+[chem10-s1.8.b] The two laws are not just facts to state; they explain two things chemists do every day.
+[chem10-s1.8.0] Both laws underpin all physical and chemical changes.
+[chem10-s1.8.1] Conservation of atoms, and so of mass, is why chemical equations must be balanced: there must be the same number of each kind of atom on both sides.
+[chem10-s1.8.2] Conservation of energy is why energy changes in reactions can be measured: the heat given out or taken in is accounted for in the surroundings.
+[chem10-s1.9.b] This experiment tests the law of conservation of mass using your own measurements (primary data). The idea is to weigh a reaction without letting anything escape.
+[chem10-s1.9.0] Aim: to verify, using primary data, that mass is conserved in a chemical reaction.
+[chem10-s1.9.1] Hypothesis: the total mass before and after the reaction will be the same, because atoms are only rearranged.
+[chem10-s1.9.2] Measured variable: the total mass of the stoppered apparatus before and after the reaction; no variable is changed on purpose.
+[chem10-s1.10.b] Two solutions that react to form a precipitate are kept apart inside a stoppered flask until the flask is tilted. Because the flask is sealed, any change in mass would show up on the balance.
+[chem10-s1.10.0] Apparatus: conical flask, small test tube, stopper, electronic balance (0.01 g), sodium chloride solution and silver nitrate solution.
+[chem10-s1.10.1] Diagram: a stoppered conical flask on a balance, containing sodium chloride solution, with a small test tube of silver nitrate solution standing upright inside; label the flask, stopper, test tube and both solutions.
+[chem10-s1.10.2] Step 1: Pour some sodium chloride solution into the conical flask.
+[chem10-s1.10.3] Step 2: Half-fill the small test tube with silver nitrate solution and lower it carefully, upright, into the flask so the solutions don't mix.
+[chem10-s1.10.4] Step 3: Stopper the flask and weigh the whole apparatus.
+[chem10-s1.10.5] Step 4: Tilt the flask so the solutions mix; a white precipitate of silver chloride forms: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq).
+[chem10-s1.10.6] Step 5: Reweigh the stoppered flask, and repeat the investigation three times.
+[chem10-s1.11.b] The reweighed flask gives the result, and the precautions come from the chemicals used.
+[chem10-s1.11.0] Results: the mass before and after the reaction is the same, within the precision of the balance (0.01 g), so mass is conserved.
+[chem10-s1.11.1] Safety: silver nitrate stains the skin and is an irritant, so wear gloves and goggles.
+[chem10-s1.11.2] Lead nitrate is not used in this method because it is toxic.
+[chem10-s1.12.b] Mass can seem to be lost if a gas is made and escapes. Comparing an open flask with a sealed one shows that the law still holds.
+[chem10-s1.12.0] In an open flask, marble chips (calcium carbonate) reacting with hydrochloric acid make the mass on the balance decrease: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s1.12.1] The carbon dioxide escapes, so the apparent loss of mass is gas leaving the flask, not mass being destroyed.
+[chem10-s1.12.2] If the same reaction is done in a sealed flask, or with a balloon over the neck to trap the gas, the mass stays the same.
+[chem10-s1.12.3] When magnesium burns in air, the product is heavier than the magnesium, because oxygen from the air has combined with it: 2Mg + O₂ → 2MgO.
+[chem10-s1.13.b] Models let us explain why mass is conserved. All three below show the same idea: the same atoms are present before and after, just arranged differently.
+[chem10-s1.13.0] Particle model: in a reaction the atoms in the reactants are rearranged to form the products; no atoms are created or destroyed, so the total mass stays the same.
+[chem10-s1.13.1] A balanced equation is a symbolic model of conservation: the silver nitrate equation has 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side.
+[chem10-s1.13.2] A physical model, such as molecular model kits, shows the same idea: building the reactant molecules, taking them apart and rebuilding the product molecules uses exactly the same pieces.
+[chem10-s1.13.3] Diagram: particle diagrams of 2H₂ + O₂ → 2H₂O, showing four H atoms and two O atoms before the reaction and after it.
+
+CANDIDATES chem17-s1: 1. Rate of reaction and collision theory
+[chem17-s1.0.b] Some reactions finish in a flash and others take years. Rate of reaction is the measure chemists use to say exactly how fast a reaction goes, and it is always a change per unit of time.
+[chem17-s1.0.0] Rate of reaction is the change in concentration (the amount of substance per litre of solution) of a reactant (a substance used up) or a product (a substance formed) per unit time.
+[chem17-s1.0.1] When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹, that is, moles per litre changing each second or each minute.
+[chem17-s1.0.2] When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).
+[chem17-s1.0.3] Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio (the ratio of the numbers in front of the formulas) in the balanced equation.
+[chem17-s1.0.4] For example, in 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed, because the equation shows 2 mol H₂O₂ for every 1 mol O₂.
+[chem17-s1.0.5] A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.
+[chem17-s1.0.6] For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time), so halving the time taken doubles the rate.
+[chem17-s1.0.7] The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst (a substance that changes the rate without being used up) and, for reactions of gases, pressure; the nature of the reactants also matters. There is more on this in “Collision theory”.
+[chem17-s1.1.b] To find a rate you need a property that changes as the reaction goes and that you can measure repeatedly. When a reaction gives off a gas, either the gas volume or the mass lost can be tracked.
+[chem17-s1.1.0] Measure the volume of gas produced at regular time intervals, collected in a gas syringe (a calibrated syringe that the gas pushes out) or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.
+[chem17-s1.1.1] When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar, because a gas jar has no scale to read the volume from.
+[chem17-s1.1.2] Diagram: a flask joined by a delivery tube to a gas syringe, or to an inverted graduated cylinder full of water standing in a trough; label the flask, reactants, delivery tube and the gas collector.
+[chem17-s1.1.3] Measure the loss in mass as a gas escapes, with the flask on an electronic balance, because the escaping gas carries mass away from the flask.
+[chem17-s1.1.4] A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost, which would give a false mass loss.
+[chem17-s1.1.5] Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.
+[chem17-s1.1.6] Diagram: a conical flask of calcium carbonate and hydrochloric acid, with a cotton-wool plug in its neck, standing on an electronic balance; label the flask, plug, balance and the CO₂ escaping.
+[chem17-s1.2.b] Not every reaction gives off a gas. Another way to follow a reaction is to time how long a fixed amount of change takes, or to watch a colour change.
+[chem17-s1.2.0] Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate (a solid formed in a solution) to hide a cross under the flask.
+[chem17-s1.2.1] Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).
+[chem17-s1.2.2] The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate, because the same amount of sulfur forms to hide the cross in every run, so a shorter time means a faster rate.
+[chem17-s1.2.3] Diagram: a conical flask of sodium thiosulfate solution standing on a paper marked with a cross, viewed from above; label the flask, the solution and the cross.
+[chem17-s1.2.4] Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.
+[chem17-s1.2.5] The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction.
+[chem17-s1.3.b] A reaction does not run at one steady speed. Its rate falls as it goes, and the shape of a graph shows this.
+[chem17-s1.3.0] The rate is greatest at the start, when the concentration of reactants is highest, so there are the most particles available to react.
+[chem17-s1.3.1] As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.
+[chem17-s1.3.2] The reaction stops when the limiting reactant (the reactant that runs out first) is used up; the rate is then zero.
+[chem17-s1.3.3] On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.
+[chem17-s1.3.4] The gradient (steepness) of the curve at any point is the rate at that time, so a steep curve means fast and a flat line means no reaction.
+[chem17-s1.3.5] On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.
+[chem17-s1.3.6] The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.
+[chem17-s1.3.7] Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”.
+[chem17-s1.4.b] Controlling how fast a reaction goes is useful in industry, in the kitchen and in the body.
+[chem17-s1.4.0] Industry wants fast reactions, so that products are made quickly and economically.
+[chem17-s1.4.1] Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.
+[chem17-s1.4.2] The rates of reactions in the body are controlled by enzymes (biological catalysts). There is more on this in “Catalysis and energy profiles”.
+[chem17-s1.5.b] Collision theory explains what has to happen at the level of particles for a reaction to take place. It is the idea behind every factor that changes rate.
+[chem17-s1.5.0] For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.
+[chem17-s1.5.1] Most collisions do not lead to reaction: the particles just bounce apart.
+[chem17-s1.5.2] A collision leads to reaction only if the particles collide with at least a minimum amount of energy, the activation energy, so that bonds can begin to break.
+[chem17-s1.5.3] Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.
+[chem17-s1.5.4] An effective collision is one that results in the formation of products.
+[chem17-s1.5.5] The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate.
+[chem17-s1.6.b] Reactions range from instantaneous to almost undetectable. The syllabus asks for examples of both.
+[chem17-s1.6.0] Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.
+[chem17-s1.6.1] Ionic equation (showing only the ions that react) for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem17-s1.6.2] Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.
+[chem17-s1.6.3] Slow: rusting of iron takes days to years.
+[chem17-s1.6.4] Fermentation of glucose by yeast (the breakdown of glucose by yeast to make ethanol) takes days.
+[chem17-s1.6.5] A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction, even though it explodes when ignited.
+[chem17-s1.7.b] Whether a reaction is fast or slow depends on its activation energy, which in turn depends on whether bonds must be broken first.
+[chem17-s1.7.0] Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.
+[chem17-s1.7.1] Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.
+[chem17-s1.7.2] Reactions between covalent molecules are usually slower, because covalent bonds (bonds formed by sharing electrons) must be broken before new bonds can form, so the activation energy is higher.
+[chem17-s1.7.3] A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast.
+[chem17-s1.8.b] Concentration is the first factor that collision theory explains. More particles in the same space means more chances to collide.
+[chem17-s1.8.0] Increasing the concentration of a reactant in solution increases the number of particles per unit volume.
+[chem17-s1.8.1] The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.
+[chem17-s1.8.2] In many reactions the rate is directly proportional to the concentration of a reactant: a graph of rate against concentration is a straight line through the origin, as shown by the thiosulfate investigation in “Investigation: factors affecting rate”.
+[chem17-s1.9.b] For a solid, only the outside can react. Cutting a solid into smaller pieces exposes more of it without adding any more substance.
+[chem17-s1.9.0] Only particles at the surface of a solid can collide with the other reactant, so particles buried inside a lump cannot react until the surface is used up.
+[chem17-s1.9.1] Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.
+[chem17-s1.9.2] For example, powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.
+[chem17-s1.9.3] Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.
+[chem17-s1.9.4] Dust explosions are a risk in flour mills, grain silos and coal mines.
+[chem17-s1.9.5] A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame.
+[chem17-s1.10.b] Raising the temperature speeds up most reactions. Collision theory gives two reasons, and one matters far more than the other.
+[chem17-s1.10.0] Raising the temperature increases the rate of almost all reactions.
+[chem17-s1.10.1] For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.
+[chem17-s1.10.2] Reason 1: at a higher temperature particles have more kinetic energy (energy of movement) and move faster, so they collide more often.
+[chem17-s1.10.3] Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.
+[chem17-s1.10.4] Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.
+[chem17-s1.10.5] Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.
+[chem17-s1.11.b] Particles in a sample do not all have the same energy. A graph of how the energies are spread shows why a small temperature rise has such a large effect.
+[chem17-s1.11.0] On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.
+[chem17-s1.11.1] The area under the curve to the right of Ea is the number of particles with enough energy to react.
+[chem17-s1.11.2] At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger, so many more collisions are effective.
+[chem17-s1.11.3] Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.
+[chem17-s1.11.4] Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower because fewer particles have energy at or above Ea. There is more on this in “Rate of reaction”.
+[chem17-s1.12.b] A catalyst speeds up a reaction without raising the temperature. It does this by changing the route the reaction takes.
+[chem17-s1.12.0] A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.
+[chem17-s1.12.1] A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.
+[chem17-s1.12.2] The catalyst is not used up, so a small amount can speed up the reaction again and again. There is more on types of catalysis, enzymes and energy profiles in “Catalysis and energy profiles”.
+[chem17-s1.13.b] Pressure is the last factor, and it only matters when gases are reacting.
+[chem17-s1.13.0] Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.
+[chem17-s1.13.1] The molecules collide more often, so the rate increases.
+[chem17-s1.13.2] Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids.
+[chem17-s1.14.b] The simple collision theory leaves out some things. Orientation, surfaces that become full, and poisoned catalysts all explain why real reactions can behave differently.
+[chem17-s1.14.0] Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.
+[chem17-s1.14.1] Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.
+[chem17-s1.14.2] Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.
+[chem17-s1.14.3] For example, an enzyme-catalysed reaction speeds up as substrate (the substance the enzyme acts on) concentration rises, but levels off when all the enzyme's active sites (the places where the substrate binds) are occupied; further substrate has no effect.
+[chem17-s1.14.4] A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.
+[chem17-s1.14.5] A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.
+[chem17-s1.14.6] The catalysts in a car's catalytic converter (platinum, palladium and rhodium) are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds.

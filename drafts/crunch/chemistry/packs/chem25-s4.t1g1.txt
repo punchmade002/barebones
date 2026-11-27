@@ -1,0 +1,445 @@
+MODE: cost and links
+TARGET chem25-s4: 4. Reaction mechanisms
+[chem25-s4.0.b] An equation only shows what you start with and what you end with. A mechanism shows what happens in between, and it needs a few terms and an arrow notation that the rest of this subsection uses.
+[chem25-s4.0.0] A reaction mechanism is the step-by-step description of how a reaction happens: which bonds break, which form, and how the electrons (the negatively charged particles that make up a covalent bond) move.
+[chem25-s4.0.1] Homolytic fission: a covalent bond (a shared pair of electrons) breaks so that each atom keeps one of the two bonding electrons, forming two free radicals, e.g. Cl–Cl → Cl• + Cl•.
+[chem25-s4.0.2] Heterolytic fission: a covalent bond breaks so that one atom takes both bonding electrons, forming a positive and a negative ion (a charged atom or group of atoms), e.g. Cl–Cl → Cl⁺ + Cl⁻.
+[chem25-s4.0.3] A free radical is an atom or group of atoms with an unpaired electron (an electron not part of a pair), shown by a dot, e.g. Cl• or •CH₃. Free radicals are very reactive and short-lived.
+[chem25-s4.0.4] A curved arrow with a full arrowhead shows the movement of a pair of electrons. It is drawn from where the pair starts (a bond or a lone pair, which is a pair on one atom not shared in a bond) to where it ends up.
+[chem25-s4.0.5] A fishhook arrow, with a half arrowhead, shows the movement of a single electron. Two fishhooks from one bond show homolytic fission, one electron going to each atom.
+[chem25-s4.0.6] A carbocation (carbonium ion) is an ion with a positive charge on a carbon atom, e.g. CH₃CH₂⁺ or CH₂ClCH₂⁺.
+[chem25-s4.0.7] A chain reaction is one in which a product of one step is a reactant in another step, so the reaction keeps itself going.
+[chem25-s4.1.b] Methane reacts with chlorine only in ultraviolet (UV) light, and the reaction runs as a chain of radical steps. Substitution means a chlorine atom replaces a hydrogen atom in the molecule. The chain has three stages: initiation (it starts), propagation (it carries on) and termination (it stops).
+[chem25-s4.1.0] Overall: CH₄ + Cl₂ → CH₃Cl + HCl, in ultraviolet light. Replacing just one hydrogen is called monochlorination.
+[chem25-s4.1.1] Initiation: UV light causes homolytic fission of chlorine molecules, Cl₂ → 2Cl•. Draw two fishhooks from the Cl–Cl bond, one to each chlorine atom.
+[chem25-s4.1.2] Propagation step 1: a chlorine radical takes a hydrogen atom from methane, Cl• + CH₄ → HCl + •CH₃, forming a methyl radical.
+[chem25-s4.1.3] Propagation step 2: the methyl radical takes a chlorine atom from a chlorine molecule, •CH₃ + Cl₂ → CH₃Cl + Cl•.
+[chem25-s4.1.4] The Cl• formed in step 2 starts step 1 again, so the two propagation steps form a chain reaction: each radical used is replaced by a new one.
+[chem25-s4.1.5] Termination: two radicals combine, removing radicals and ending a chain: Cl• + Cl• → Cl₂; •CH₃ + Cl• → CH₃Cl; •CH₃ + •CH₃ → C₂H₆ (ethane).
+[chem25-s4.1.6] With more chlorine, further substitution gives dichloromethane, trichloromethane and tetrachloromethane, so a mixture of products is formed.
+[chem25-s4.2.b] Ethane follows exactly the same three stages as methane, with an ethyl radical, •C₂H₅, taking the place of the methyl radical.
+[chem25-s4.2.0] Overall: C₂H₆ + Cl₂ → C₂H₅Cl + HCl, giving chloroethane, in ultraviolet light.
+[chem25-s4.2.1] Initiation: UV light splits chlorine into radicals, Cl₂ → 2Cl•.
+[chem25-s4.2.2] Propagation: first Cl• + C₂H₆ → HCl + •C₂H₅, forming an ethyl radical; then •C₂H₅ + Cl₂ → C₂H₅Cl + Cl•, which makes a new chlorine radical to repeat the cycle.
+[chem25-s4.2.3] Termination: Cl• + Cl• → Cl₂; •C₂H₅ + Cl• → C₂H₅Cl; •C₂H₅ + •C₂H₅ → C₄H₁₀ (butane). Each removes two radicals and ends a chain.
+[chem25-s4.3.b] Radicals are too short-lived to see directly, so the mechanism is supported by indirect evidence. Each observation below is explained by radicals and chains.
+[chem25-s4.3.0] The reaction does not happen in the dark at room temperature but starts in UV light, which supplies the energy to split Cl₂ into radicals in initiation.
+[chem25-s4.3.1] Thousands of molecules of product form for every photon (packet of light energy) absorbed, because one radical starts a long chain of propagation steps.
+[chem25-s4.3.2] Traces of ethane form in the chlorination of methane, and traces of butane in the chlorination of ethane. These can only come from two methyl or two ethyl radicals joining in termination, so the radicals must exist.
+[chem25-s4.3.3] Termination is rare, because radicals are present at very low concentration. A radical is far more likely to collide with a CH₄ or Cl₂ molecule than with another radical, so the ethane or butane is only a trace.
+[chem25-s4.3.4] Adding a substance that produces free radicals, such as tetramethyl lead, Pb(CH₃)₄ (a source of methyl radicals), speeds up the reaction, which shows that radicals are involved.
+[chem25-s4.3.5] Adding oxygen, which combines with free radicals, slows the reaction, which shows that a radical chain is being broken.
+[chem25-s4.4.b] Ethene has a C=C double bond, which is rich in electrons and so attracts electron-poor species. Addition means the two chlorine atoms join across the double bond, and the reaction goes in four steps through ions, not radicals.
+[chem25-s4.4.0] Overall: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.
+[chem25-s4.4.1] Step 1, polarisation: the C=C double bond is a region of high electron density from its pi electrons (the electrons of the second bond in the double bond).
+[chem25-s4.4.2] As a Cl₂ molecule approaches, these pi electrons repel the electrons of the Cl–Cl bond, inducing a dipole (one end slightly positive, one slightly negative) Clδ⁺–Clδ⁻.
+[chem25-s4.4.3] Step 2, heterolytic fission: the Cl–Cl bond breaks with both electrons going to the further chlorine atom, giving Cl⁺ and Cl⁻. Draw a curved arrow from the Cl–Cl bond to the Clδ⁻ atom.
+[chem25-s4.4.4] Step 3, carbocation formation: the pair of pi electrons forms a bond to Cl⁺, so one carbon bonds to Cl while the other, having lost its share of the pi pair, carries a positive charge, giving CH₂ClCH₂⁺. Draw a curved arrow from the C=C pi bond to Cl⁺.
+[chem25-s4.4.5] Step 4, attack by the negative ion: Cl⁻ uses a lone pair to bond to the positive carbon, giving 1,2-dichloroethane. Draw a curved arrow from a lone pair on Cl⁻ to the C⁺.
+[chem25-s4.4.6] It is called ionic addition because the two parts add as ions, one after the other.
+[chem25-s4.5.b] Hydrogen chloride adds to ethene by the same ionic route as chlorine, but it is shorter because HCl is already polar and needs no induced dipole.
+[chem25-s4.5.0] Overall: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.
+[chem25-s4.5.1] The H–Cl bond is already polar, Hδ⁺–Clδ⁻, because chlorine is more electronegative (it pulls the shared electrons towards itself), so no dipole needs to be induced.
+[chem25-s4.5.2] Step 1: the pi electrons of C=C form a bond to the Hδ⁺ atom, and the H–Cl bond breaks heterolytically, giving Cl⁻ and the carbocation CH₃CH₂⁺. Draw a curved arrow from the pi bond to H, and one from the H–Cl bond to Cl.
+[chem25-s4.5.3] Step 2: Cl⁻ bonds to the positive carbon, giving chloroethane. Draw a curved arrow from a lone pair on Cl⁻ to C⁺.
+[chem25-s4.5.4] Evidence that the H–X bond breaks in the mechanism: the rate of addition to ethene increases in the order HF < HCl < HBr < HI, the order in which the H–X bond gets weaker.
+[chem25-s4.6.b] If chlorine added to ethene in one move, only 1,2-dichloroethane could form. Mixed products show that the reaction goes in steps through a carbocation, which other species in the mixture can attack.
+[chem25-s4.6.0] When ethene reacts with chlorine water (chlorine dissolved in water), the products include 2-chloroethanol, CH₂ClCH₂OH, as well as 1,2-dichloroethane.
+[chem25-s4.6.1] 2-chloroethanol forms because a water molecule, using a lone pair on its oxygen, attacks the carbocation instead of Cl⁻, and then loses H⁺.
+[chem25-s4.6.2] This shows the reaction happens in steps through a positively charged intermediate (a short-lived species formed between reactants and products): if both chlorine atoms added at the same moment, no 2-chloroethanol could form.
+[chem25-s4.6.3] With bromine water containing sodium chloride, ethene gives 1-bromo-2-chloroethane, CH₂BrCH₂Cl, as well as 1,2-dibromoethane.
+[chem25-s4.6.4] The Cl⁻ ions attack the carbocation, but no 1,2-dichloroethane forms, because the first atom to add is always from Br₂.
+[chem25-s4.7.b] The two mechanisms differ in the type of hydrocarbon, how bonds break, the conditions and the intermediate. Comparing them side by side helps keep the arrows and conditions straight.
+[chem25-s4.7.0] Free radical substitution is shown by alkanes (hydrocarbons with only single bonds), involves homolytic fission, needs UV light, has radical intermediates and uses fishhook arrows.
+[chem25-s4.7.1] Ionic addition is shown by alkenes (hydrocarbons with a C=C double bond), involves heterolytic fission, needs no light, has a carbocation intermediate and uses curved arrows.
+[chem25-s4.7.2] Diagram: the four steps of ionic addition of Cl₂ to ethene, with the δ⁺ and δ⁻ charges, the carbocation and every curved arrow, and the initiation step of chlorination with its two fishhooks.
+
+CANDIDATES chem25-s1: 1. Types of organic reaction and addition polymers
+[chem25-s1.0.b] Organic reactions fall into five types, and the first is addition. It is the characteristic reaction of compounds with a carbon-carbon double bond, because the double bond can open up to take on new atoms.
+[chem25-s1.0.0] An addition reaction is one in which two or more molecules react to form a single molecule.
+[chem25-s1.0.1] Atoms add across a double (or triple) bond, so an unsaturated compound (one with a C=C or C≡C bond) becomes saturated (only single bonds) and there is only one product.
+[chem25-s1.0.2] Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane. Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.
+[chem25-s1.0.3] Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.
+[chem25-s1.0.4] Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.
+[chem25-s1.0.5] Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.
+[chem25-s1.0.6] Ethene and hydrogen with a nickel catalyst (a substance that speeds up the reaction without being used up): CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.
+[chem25-s1.0.7] Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions, because each monomer (small molecule) adds on to the growing chain. It is taught in full later in this subsection.
+[chem25-s1.1.b] In a substitution reaction one atom or group is swapped for another, so two reactants give two products. Alkanes, which have no double bond to add across, react this way.
+[chem25-s1.1.0] A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.
+[chem25-s1.1.1] Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.
+[chem25-s1.1.2] Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.
+[chem25-s1.1.3] Esterification: a carboxylic acid (contains –COOH) and an alcohol (contains –OH) give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.
+[chem25-s1.1.4] In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol, which is why it counts as substitution.
+[chem25-s1.1.5] Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.
+[chem25-s1.1.6] Hydrolysis of an ester (splitting it using water or a base) is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.
+[chem25-s1.1.7] Alkanes (saturated hydrocarbons) react by substitution, not addition, because they have no double bond to add across.
+[chem25-s1.2.b] Elimination is the reverse of addition. A small molecule is stripped out of a larger one, and the larger molecule is left with a double bond.
+[chem25-s1.2.0] An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.
+[chem25-s1.2.1] Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.
+[chem25-s1.2.2] Water is the small molecule removed, so this elimination is also called a dehydration.
+[chem25-s1.2.3] Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.
+[chem25-s1.2.4] A haloalkane (an alkane with a halogen atom such as Cl) can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.
+[chem25-s1.2.5] 1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).
+[chem25-s1.2.6] Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated.
+[chem25-s1.3.b] Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.
+[chem25-s1.3.0] In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.
+[chem25-s1.3.1] Reduction is the gain of hydrogen or the loss of oxygen.
+[chem25-s1.3.2] Oxidation is also the loss of electrons and an increase in oxidation number (the charge an atom would have if all its bonds were ionic). There is more on this in Oxidation and reduction.
+[chem25-s1.3.3] Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate as the oxidising agent.
+[chem25-s1.3.4] Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH. This is reduction because the molecule gains hydrogen.
+[chem25-s1.3.5] Combustion (burning in oxygen) is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O.
+[chem25-s1.4.b] An acid–base reaction is about a proton moving from one species to another. Carboxylic acids show this clearly, while alcohols are barely acidic.
+[chem25-s1.4.0] An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.
+[chem25-s1.4.1] Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.
+[chem25-s1.4.2] Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.
+[chem25-s1.4.3] Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.
+[chem25-s1.4.4] Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.
+[chem25-s1.4.5] Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; there is more on this in Physical properties and acidity.
+[chem25-s1.5.b] At Higher Level you must be able to look at an unfamiliar reaction and say which type or types it is. Work through the checks in a fixed order.
+[chem25-s1.5.0] Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.
+[chem25-s1.5.1] Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.
+[chem25-s1.5.2] One reaction can be of more than one type, so give every type that fits: hydrogenation of ethene is addition and reduction.
+[chem25-s1.5.3] Esterification is substitution and condensation, and base hydrolysis of an ester is substitution and acid–base.
+[chem25-s1.6.b] Higher Level questions also ask which bonds break and form. A pi bond is the second, weaker bond of a C=C double bond, added to the stronger C–C sigma bond that is already there.
+[chem25-s1.6.0] Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.
+[chem25-s1.6.1] Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.
+[chem25-s1.6.2] Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.
+[chem25-s1.6.3] Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.
+[chem25-s1.6.4] Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.
+[chem25-s1.6.5] The reaction of sodium with ethanol is likewise a redox reaction.
+[chem25-s1.7.b] Many everyday plastics are built by joining huge numbers of small molecules into one very long molecule. The words polymer, monomer and repeating unit describe this.
+[chem25-s1.7.0] A polymer is a very large molecule, a macromolecule, made of many small units called monomers joined by covalent bonds in a long chain.
+[chem25-s1.7.1] A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.
+[chem25-s1.7.2] The repeating unit is the part of the polymer whose repetition makes up the whole chain, apart from the ends.
+[chem25-s1.7.3] Polymer chains contain thousands of repeating units, so their relative molecular masses (Mr, the mass of a molecule compared with the carbon-12 standard) are very large and vary from chain to chain.
+[chem25-s1.7.4] Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units, because the Mr of ethene is 28.
+[chem25-s1.7.5] Many plastics are polymers, and most addition polymers are made from monomers obtained from crude oil.
+[chem25-s1.8.b] Monomers with a C=C double bond can join end to end because each double bond opens up, just as in an ordinary addition reaction. Repeating this thousands of times builds the chain.
+[chem25-s1.8.0] An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.
+[chem25-s1.8.1] In each addition the pi bond of C=C (the weaker, second bond of the double bond) breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.
+[chem25-s1.8.2] No other product is formed, so the polymer has the same empirical formula (simplest whole-number ratio of atoms) as the monomer.
+[chem25-s1.8.3] General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.
+[chem25-s1.8.4] The polymer is saturated, with no C=C left, so unlike its monomer it does not decolourise bromine water.
+[chem25-s1.8.5] Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end.
+[chem25-s1.8.6] To draw two repeating units, show four backbone carbons in a row, with the side groups on alternate carbons and an open bond at each end; do not write atoms at the ends of the open bonds.
+[chem25-s1.9.b] Poly(ethene) is the simplest addition polymer. How closely its chains pack decides whether it is soft and flexible or strong and rigid.
+[chem25-s1.9.0] The monomer is ethene, CH₂=CH₂, and the repeating unit is –CH₂–CH₂–; poly(ethene) is also called polythene or polyethylene.
+[chem25-s1.9.1] Low-density poly(ethene), LDPE, has branched chains that cannot pack closely, so it is soft and flexible.
+[chem25-s1.9.2] LDPE is used for plastic bags, food-wrapping film and squeezy bottles.
+[chem25-s1.9.3] High-density poly(ethene), HDPE, has unbranched chains that pack closely, so it is stronger and more rigid, with a higher melting point.
+[chem25-s1.9.4] HDPE is used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.
+[chem25-s1.9.5] Diagram: two repeating units of poly(ethene), –CH₂–CH₂–CH₂–CH₂–, with open end bonds.
+[chem25-s1.10.b] PVC is ethene with one hydrogen replaced by chlorine. The polar C–Cl bond gives it very different properties from poly(ethene).
+[chem25-s1.10.0] The monomer is chloroethene, also called vinyl chloride, CH₂=CHCl; the repeating unit is –CH₂–CHCl–.
+[chem25-s1.10.1] Poly(chloroethene) is also called polyvinyl chloride, PVC.
+[chem25-s1.10.2] The polar C–Cl bonds (the shared electrons sit nearer the chlorine) give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.
+[chem25-s1.10.3] Rigid PVC is used for window frames, doors, gutters, drainpipes, water pipes and bank cards.
+[chem25-s1.10.4] Adding plasticisers, small molecules that let the chains slide past each other, makes flexible PVC.
+[chem25-s1.10.5] Flexible PVC is used for electrical cable insulation, flooring and raincoats.
+[chem25-s1.10.6] Diagram: two repeating units of PVC, –CH₂–CHCl–CH₂–CHCl–, with open end bonds.
+[chem25-s1.11.b] Polystyrene is ethene with one hydrogen replaced by a large benzene ring (a ring of six carbon atoms). The bulk of that ring controls the properties.
+[chem25-s1.11.0] The monomer is phenylethene, also called styrene, C₆H₅CH=CH₂, which is ethene with one hydrogen replaced by a benzene ring; the repeating unit is –CH₂–CH(C₆H₅)–.
+[chem25-s1.11.1] The bulky benzene rings stop the chains moving past each other, so solid polystyrene is rigid and brittle.
+[chem25-s1.11.2] Solid polystyrene is used for yoghurt cartons, disposable cups and cutlery, CD cases and ballpoint pen cases.
+[chem25-s1.11.3] Expanded polystyrene is blown with gas into a foam, which makes it very light and a good thermal insulator.
+[chem25-s1.11.4] Expanded polystyrene is used for packaging, takeaway food boxes, ceiling tiles and building insulation.
+[chem25-s1.11.5] Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms.
+[chem25-s1.12.b] Addition polymers are used everywhere because their properties suit the job. The same few polymers turn up in fuel systems, farming, food packaging and the home.
+[chem25-s1.12.0] Fuels: HDPE fuel tanks in cars are light, tough and do not corrode; plastic fuel cans and pipes are also used.
+[chem25-s1.12.1] Waste plastics can be burned for energy, or broken down by heating (pyrolysis) into liquid fuels.
+[chem25-s1.12.2] Food production: poly(ethene) film is used for polytunnels and greenhouses, silage wrap and mulch film on farms.
+[chem25-s1.12.3] PVC and poly(ethene) pipes are used for irrigation and water supply.
+[chem25-s1.12.4] Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so food lasts longer and less is wasted.
+[chem25-s1.12.5] Household products: buckets, bowls, bottles, bags, toys and containers are made from poly(ethene); pipes, gutters and window frames from PVC; insulation and packaging from polystyrene.
+[chem25-s1.12.6] These polymers suit their uses because they are cheap, light, waterproof, durable, easily moulded and unreactive, so they do not react with food, water, fuels or most chemicals.
+[chem25-s1.13.b] Biodegradability depends on whether living things can break a substance down. Addition polymers resist this because of their bonding.
+[chem25-s1.13.0] A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.
+[chem25-s1.13.1] Addition polymers are non-biodegradable.
+[chem25-s1.13.2] The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.
+[chem25-s1.13.3] Like an alkane, an addition polymer has no pi bonds and no polar functional group (a reactive atom or group) for a reagent to attack, so it is chemically stable and unreactive. There is more on this in Groups of hydrocarbons and their properties.
+[chem25-s1.13.4] Microorganisms break down natural polymers, such as starch and proteins, with enzymes (biological catalysts) that attack specific polar linkages.
+[chem25-s1.13.5] Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.
+[chem25-s1.14.b] The stability that makes addition polymers so useful is the same property that makes plastic waste a problem.
+[chem25-s1.14.0] The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.
+[chem25-s1.14.1] Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, and filling of landfill sites.
+[chem25-s1.14.2] Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically.
+[chem25-s1.15.b] Because plastics do not break down, society has to manage them: use less, recycle, burn for energy, or switch to polymers that can degrade.
+[chem25-s1.15.0] Responses include reducing use, reusing, and recycling.
+[chem25-s1.15.1] Plastics are sorted for recycling by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.
+[chem25-s1.15.2] Incineration gives energy but releases CO₂, and burning PVC releases hydrogen chloride.
+[chem25-s1.15.3] Biodegradable polymers with ester linkages, which microorganisms can hydrolyse (split using water), are being developed. These can break down because the ester linkage gives microorganisms something to attack.
+[chem25-s1.15.4] Poly(lactic acid), PLA, is one example: it is made from plant starch and breaks down in industrial composting.
+
+CANDIDATES chem23-s3: 3. Groups of hydrocarbons and their properties
+[chem23-s3.0.b] A hydrocarbon is a compound containing only carbon and hydrogen. Chemists sort hydrocarbons into groups by the kind of carbon–carbon bonds they contain, because the bonding decides how each group behaves.
+[chem23-s3.0.0] Hydrocarbons are divided by the type of carbon–carbon bonds present into aliphatic and aromatic hydrocarbons.
+[chem23-s3.0.1] Aliphatic hydrocarbons have open chains of carbon atoms, straight or branched, or rings that behave like chains, such as cyclohexane. They are the alkanes, alkenes and alkynes.
+[chem23-s3.0.2] Aromatic hydrocarbons contain a benzene ring (a ring of six carbon atoms with special bonding). Benzene, C₆H₆, is the example given in the specification.
+[chem23-s3.0.3] A saturated hydrocarbon (one holding as many hydrogens as it can) has only carbon–carbon single bonds, as in alkanes and cycloalkanes (alkanes whose carbons form a ring).
+[chem23-s3.0.4] An unsaturated hydrocarbon contains at least one carbon–carbon double or triple bond, as in alkenes and alkynes, so it could take on more atoms by opening that bond.
+[chem23-s3.0.5] A homologous series is a family with the same general formula (one formula that fits every member) and similar chemical properties, a gradual change in physical properties, and each member differing from the next by CH₂.
+[chem23-s3.1.b] The alkanes are saturated aliphatic hydrocarbons with single bonds only. Having no multiple bonds explains why they are so unreactive.
+[chem23-s3.1.0] General formula CₙH₂ₙ₊₂, where n is the number of carbons. The first members are methane CH₄, ethane C₂H₆, propane C₃H₈, butane C₄H₁₀, pentane C₅H₁₂ and hexane C₆H₁₄.
+[chem23-s3.1.1] Bonding: only single C–C and C–H covalent bonds are present, so the molecule is saturated.
+[chem23-s3.1.2] Structure: each carbon is tetrahedral (its four bonds point to the corners of a tetrahedron), with bond angles of 109.5°. Chains can be branched from butane onwards.
+[chem23-s3.1.3] Cyclohexane, C₆H₁₂, is a ring of six CH₂ groups joined by single bonds; it is saturated and aliphatic.
+[chem23-s3.1.4] Cyclohexane has two fewer hydrogens than hexane because the ends of the chain are joined to make the ring. Its ring is not flat because each carbon is tetrahedral.
+[chem23-s3.1.5] Alkanes are non-polar (their bonds have no significant positive or negative ends) and insoluble in water, and small members burn with a clean blue flame.
+[chem23-s3.1.6] Alkanes are otherwise unreactive: they react with halogens (such as chlorine) only in ultraviolet light, by substitution (one atom replaced by another), e.g. CH₄ + Cl₂ → CH₃Cl + HCl.
+[chem23-s3.2.b] The alkenes are unsaturated aliphatic hydrocarbons with one carbon–carbon double bond. That double bond makes them far more reactive than alkanes.
+[chem23-s3.2.0] General formula CₙH₂ₙ; the members are ethene C₂H₄, propene C₃H₆, butene C₄H₈, pentene C₅H₁₀ and hexene C₆H₁₂.
+[chem23-s3.2.1] Bonding: one C=C double bond is present, so the molecule is unsaturated.
+[chem23-s3.2.2] Structure: the two carbons of the double bond and the four atoms attached to them lie in one plane, with angles of about 120°, and there is no rotation about the C=C bond.
+[chem23-s3.2.3] Alkenes are, like alkanes, non-polar and insoluble in water, but they are much more reactive.
+[chem23-s3.2.4] Alkenes undergo addition (other atoms join on across the double bond, which becomes a single bond) with bromine, which decolourises bromine water (turns it from orange to colourless); with hydrogen over a nickel catalyst, e.g. CH₂=CH₂ + H₂ → CH₃CH₃; and with hydrogen chloride, e.g. CH₂=CH₂ + HCl → CH₃CH₂Cl.
+[chem23-s3.2.5] Alkenes add to one another to form addition polymers (long chains built from many alkene molecules), e.g. ethene forms poly(ethene). There is more on this in Types of organic reaction and addition polymers.
+[chem23-s3.2.6] Alkenes burn with a more luminous (brighter), smokier flame than alkanes because of their higher carbon content.
+[chem23-s3.3.b] The alkynes are unsaturated aliphatic hydrocarbons with one carbon–carbon triple bond. Like alkenes, they take part in addition reactions.
+[chem23-s3.3.0] General formula CₙH₂ₙ₋₂; the first member is ethyne, C₂H₂, also called acetylene.
+[chem23-s3.3.1] Bonding: one C≡C triple bond is present, so the molecule is unsaturated.
+[chem23-s3.3.2] Structure: the two carbons of the triple bond and the atoms attached to them lie in a straight line, with an angle of 180°, so ethyne is linear.
+[chem23-s3.3.3] Alkynes undergo addition reactions; with excess bromine, ethyne gives 1,1,2,2-tetrabromoethane: C₂H₂ + 2Br₂ → CHBr₂CHBr₂.
+[chem23-s3.3.4] Ethyne burns in air with a very smoky, luminous flame.
+[chem23-s3.3.5] Ethyne burns in pure oxygen with a very hot flame, which is used for welding: 2C₂H₂(g) + 5O₂(g) → 4CO₂(g) + 2H₂O(l).
+[chem23-s3.4.b] Benzene is the aromatic hydrocarbon on the course. It is unsaturated on paper, yet it behaves very differently from an alkene, and its structure explains why.
+[chem23-s3.4.0] Benzene, C₆H₆, is a colourless liquid with a boiling point of 80 °C and a sweet smell.
+[chem23-s3.4.1] Its structure is a flat, hexagonal ring of six carbon atoms, each bonded to one hydrogen atom, with bond angles of 120°.
+[chem23-s3.4.2] All six carbon–carbon bonds are identical, intermediate in length between single and double bonds, because the electrons beyond the single bonds are delocalised (spread) around the whole ring.
+[chem23-s3.4.3] This is why benzene is drawn as a hexagon with a circle inside. There is more on this in Shapes, bonding and isomerism.
+[chem23-s3.4.4] Although benzene is unsaturated, it is very stable and resists addition: it does not decolourise bromine water or acidified potassium manganate(VII), and it reacts mainly by substitution.
+[chem23-s3.4.5] Benzene burns with a very smoky, sooty flame because of its high carbon content, 92.3% by mass, the same as ethyne.
+[chem23-s3.4.6] Benzene is toxic and carcinogenic (cancer-causing), causing leukaemia, so it is not used in school laboratories, where safer solvents such as cyclohexane are used instead.
+[chem23-s3.4.7] Michael Faraday isolated benzene in 1825, and August Kekulé proposed a ring of alternating single and double bonds in 1865.
+[chem23-s3.4.8] The Kekulé structure cannot explain why all the carbon–carbon bonds are the same length, or why benzene does not decolourise bromine water.
+[chem23-s3.5.b] Putting the four groups side by side shows a pattern: the type of carbon–carbon bonding decides the shape, the reactivity and the result of the bromine water test.
+[chem23-s3.5.0] Alkanes have the general formula CₙH₂ₙ₊₂, single C–C bonds, tetrahedral shape with 109.5° angles around each carbon, and methane as the first member; bromine water shows no change.
+[chem23-s3.5.1] Alkenes have the general formula CₙH₂ₙ, one double bond, planar (flat) shape with 120° angles, and ethene as the first member; bromine water is decolourised.
+[chem23-s3.5.2] Alkynes have the general formula CₙH₂ₙ₋₂, one triple bond, a linear shape with 180° angles, and ethyne as the first member; bromine water is decolourised.
+[chem23-s3.5.3] Benzene has the general formula C₆H₆, a delocalised ring, a planar shape with 120° angles, and benzene as the first member; bromine water shows no change.
+[chem23-s3.5.4] All four groups are non-polar, with only London dispersion forces (weak attractions between temporary charges in neighbouring molecules) between their molecules, so all are insoluble in water and soluble in non-polar solvents; small members are gases.
+[chem23-s3.5.5] Reactivity follows bonding: single bonds only give unreactive alkanes; a localised double or triple bond gives reactive alkenes and alkynes that undergo addition; a delocalised ring gives benzene, which is stable and undergoes substitution rather than addition.
+[chem23-s3.6.b] Names follow the systematic IUPAC rules (the internationally agreed system), and only compounds up to C6 need to be named. Start with the stem and then work through the rules for alkanes.
+[chem23-s3.6.0] The stem gives the number of carbons in the parent chain (the main chain): 1 meth-, 2 eth-, 3 prop-, 4 but-, 5 pent-, 6 hex-.
+[chem23-s3.6.1] The ending is -ane for alkanes, -ene for alkenes and -yne for alkynes.
+[chem23-s3.6.2] Find the longest continuous carbon chain, which may bend on paper; this gives the parent name.
+[chem23-s3.6.3] Number the chain from the end that gives the side chains (substituents, groups branching off the main chain) the lowest numbers.
+[chem23-s3.6.4] Name side chains as alkyl groups: methyl (–CH₃) and ethyl (–C₂H₅); give each a position number, using di- and tri- for repeats.
+[chem23-s3.6.5] Separate numbers from one another with commas, and separate numbers from words with hyphens; list different side chains alphabetically.
+[chem23-s3.7.b] Applying the rules to branched alkanes shows how the numbering works.
+[chem23-s3.7.0] CH₃CH(CH₃)CH₃ is methylpropane. It needs no number because the methyl group can only be on carbon 2, though 2-methylpropane is also accepted.
+[chem23-s3.7.1] CH₃CH(CH₃)CH₂CH₃ is 2-methylbutane, not 3-methylbutane, because numbering from the end that gives the lowest number to the side chain puts it on carbon 2.
+[chem23-s3.7.2] C(CH₃)₄ is 2,2-dimethylpropane, with di- showing two methyl groups, both on carbon 2.
+[chem23-s3.7.3] CH₃CH₂CH(CH₃)CH₂CH₃ is 3-methylpentane.
+[chem23-s3.7.4] (CH₃)₂CHCH(CH₃)₂ is 2,3-dimethylbutane.
+[chem23-s3.8.b] Alkenes and alkynes follow the same rules, with one addition: the multiple bond decides the numbering and must sit in the main chain.
+[chem23-s3.8.0] For alkenes and alkynes the main chain must contain the multiple bond; number from the end nearer to it, and give the number of its first carbon before -ene or -yne.
+[chem23-s3.8.1] CH₂=CHCH₂CH₃ is but-1-ene, CH₃CH=CHCH₃ is but-2-ene, CH₂=C(CH₃)CH₃ is 2-methylpropene, and CH₂=CHCH₂CH₂CH₂CH₃ is hex-1-ene.
+[chem23-s3.8.2] HC≡CCH₃ is propyne, and CH₃C≡CCH₃ is but-2-yne.
+[chem23-s3.8.3] Ethene, propene, ethyne and propyne need no number, because there is only one position for the multiple bond.
+[chem23-s3.8.4] Rings take the prefix cyclo-, as in cyclohexane; benzene keeps its own name.
+[chem23-s3.9.b] Three things explain almost every difference in the properties of hydrocarbons: the forces between molecules, the size of the molecules, and the kind of carbon–carbon bond.
+[chem23-s3.9.0] Hydrocarbons are non-polar, because C–H bonds have very low polarity (the electrons are shared almost equally), so the only forces between their molecules are London dispersion forces. There is more on this in Bond type and intermolecular forces.
+[chem23-s3.9.1] London dispersion forces get stronger as relative molecular mass (Mr, the mass of a molecule compared with the carbon-12 standard) increases, because there are more electrons and larger electron clouds, and as the area of contact between molecules increases.
+[chem23-s3.9.2] The stronger the intermolecular forces, the more energy is needed to separate the molecules, so the higher the boiling point and the more likely the substance is a liquid or solid at room temperature.
+[chem23-s3.9.3] The nature of the carbon–carbon bonds decides chemical reactivity: single bonds only give unreactive compounds, while a C=C double bond gives reactivity through addition reactions.
+[chem23-s3.9.4] Boiling overcomes the forces between molecules; it does not break C–C or C–H bonds.
+[chem23-s3.10.b] The data show how boiling point depends on carbon number in the straight-chain alkanes (those with no branches).
+[chem23-s3.10.0] Boiling points: methane −162 °C, ethane −89 °C, propane −42 °C, butane −1 °C, pentane 36 °C and hexane 69 °C.
+[chem23-s3.10.1] Boiling point rises with carbon number because each extra CH₂ increases the relative molecular mass and the number of electrons, and lengthens the molecule, so London dispersion forces get stronger.
+[chem23-s3.10.2] The rise for each extra CH₂ gets smaller: the successive differences are 73, 47, 41, 37 and 33 °C, because each CH₂ is a smaller fraction of the molecule.
+[chem23-s3.10.3] At room temperature, about 20 °C, methane to butane are gases, while pentane and hexane are liquids.
+[chem23-s3.10.4] Larger alkanes up to about C16 are liquids, and beyond that they are waxy solids.
+[chem23-s3.11.b] Other properties either follow from the molecules being non-polar or change gradually with chain length. Reactivity does not change at all.
+[chem23-s3.11.0] All alkanes are insoluble in water, because they are non-polar and cannot form hydrogen bonds with water.
+[chem23-s3.11.1] All alkanes dissolve in or mix with non-polar solvents such as cyclohexane, following the rule “like dissolves like”.
+[chem23-s3.11.2] Liquid alkanes are less dense than water and float on it; hexane has a density of about 0.66 g cm⁻³.
+[chem23-s3.11.3] All alkanes burn completely to CO₂ and H₂O, e.g. C₆H₁₄(l) + 9½O₂(g) → 6CO₂(g) + 7H₂O(l); larger alkanes need more oxygen per mole and release more energy per mole.
+[chem23-s3.11.4] Larger alkanes burn with a more luminous, smokier flame and are less volatile (they evaporate less easily), so they are harder to ignite.
+[chem23-s3.11.5] The percentage of carbon rises from 75.0% in CH₄ to 83.7% in C₆H₁₄, making incomplete combustion (burning in too little oxygen, giving soot and CO) more likely.
+[chem23-s3.11.6] There is no difference in reactivity: all straight-chain alkanes are unreactive, reacting only by combustion or by substitution with halogens in ultraviolet light.
+[chem23-s3.12.b] Alkanes with the same carbon number but different structures are structural isomers: they have the same molecular formula and Mr, but a different arrangement of the chain. Their boiling points differ even so.
+[chem23-s3.12.0] Butane (−1 °C) and methylpropane (−12 °C) are the isomers of C₄H₁₀.
+[chem23-s3.12.1] Pentane (36 °C), 2-methylbutane (28 °C) and 2,2-dimethylpropane (10 °C) are the isomers of C₅H₁₂.
+[chem23-s3.12.2] Hexane (69 °C), 3-methylpentane (63 °C), 2-methylpentane (60 °C), 2,3-dimethylbutane (58 °C) and 2,2-dimethylbutane (50 °C) are the isomers of C₆H₁₄.
+[chem23-s3.12.3] The more branched the molecule, the more compact, or closer to spherical, it is, so the area of contact between neighbouring molecules is smaller.
+[chem23-s3.12.4] Smaller contact gives weaker London dispersion forces and a lower boiling point, since the Mr is the same for all the isomers. Unbranched chains lie alongside each other with a large area of contact.
+[chem23-s3.13.b] Branching changes the boiling point enough to change the state at room temperature, but it leaves the chemistry unchanged.
+[chem23-s3.13.0] 2,2-dimethylpropane, with a boiling point of 10 °C, is a gas at room temperature, although pentane, with the same formula, is a liquid at room temperature because its boiling point is 36 °C.
+[chem23-s3.13.1] Isomers show no significant difference in solubility, combustion or reactivity: all are non-polar and insoluble in water, burn to the same products with the same equation, e.g. C₅H₁₂ + 8O₂ → 5CO₂ + 6H₂O, and are equally unreactive.
+[chem23-s3.13.2] Diagram: two pentane molecules lying side by side with a large area of contact, beside two 2,2-dimethylpropane molecules touching at only a small area.
+[chem23-s3.14.b] The monounsaturated straight-chain alkenes (those with one double bond and no branches) show the same boiling point pattern as the alkanes, but a little lower.
+[chem23-s3.14.0] Boiling points: ethene −104 °C, propene −48 °C, but-1-ene −6 °C, pent-1-ene 30 °C and hex-1-ene 63 °C.
+[chem23-s3.14.1] Boiling point rises with carbon number for the same reason as in alkanes: a larger Mr, more electrons and stronger London dispersion forces.
+[chem23-s3.14.2] Ethene to butene are gases at room temperature, while pentene and hexene are liquids.
+[chem23-s3.14.3] Each alkene boils a little lower than the alkane with the same number of carbons, e.g. ethene −104 °C against ethane −89 °C and hex-1-ene 63 °C against hexane 69 °C, because it has two fewer hydrogen atoms, so slightly fewer electrons and weaker London forces.
+[chem23-s3.15.b] Alkenes resemble alkanes in solubility, but their double bond makes their reactivity and flame different.
+[chem23-s3.15.0] All alkenes are insoluble in water and soluble in non-polar solvents, like alkanes.
+[chem23-s3.15.1] All alkenes burn to CO₂ and H₂O, e.g. C₃H₆(g) + 4½O₂(g) → 3CO₂(g) + 3H₂O(l).
+[chem23-s3.15.2] Every straight-chain alkene has the same percentage of carbon, 85.7%, since all have the formula CₙH₂ₙ; this is more than in the alkanes, so alkenes burn with smokier flames than alkanes.
+[chem23-s3.15.3] All alkenes have one C=C bond, so they all undergo the same addition reactions, e.g. all decolourise bromine water, and they are much more reactive than alkanes.
+[chem23-s3.15.4] Changing the chain length or the position of the double bond makes little difference to reactivity.
+[chem23-s3.16.b] Use the data tables to predict properties from the trends. Each prediction rests on the three factors: intermolecular forces, Mr and bonding.
+[chem23-s3.16.0] To predict a boiling point, use the trend in a table: the value lies between those of the neighbouring members, or of isomers with more and less branching.
+[chem23-s3.16.1] Pent-1-ene, with a boiling point of 30 °C, is a liquid at 20 °C but would boil on a warm day or in warm water.
+[chem23-s3.16.2] 2-Methylpentane boils below hexane, because both are C₆H₁₄ and the branched isomer has a smaller area of contact.
+[chem23-s3.16.3] Hex-1-ene will decolourise bromine water and hexane will not, and both will float on water without dissolving.
+[chem23-s3.16.4] A mixture of pentane and hexane can be separated by fractional distillation (separating liquids by their different boiling points), because their boiling points differ, at 36 °C and 69 °C.
+[chem23-s3.17.b] Of the aliphatic hydrocarbons, alkanes are the most stable. Stable here has a particular meaning, set out below.
+[chem23-s3.17.0] Alkanes are the least reactive aliphatic hydrocarbons: at room temperature they do not react with acids, bases, most oxidising agents such as acidified potassium manganate(VII), or bromine water.
+[chem23-s3.17.1] Their old name, paraffins, comes from the Latin parum affinis, meaning little affinity, that is, little reactivity.
+[chem23-s3.17.2] “Stable” means unreactive under ordinary conditions, not that alkanes can never react: they burn readily once ignited, and they react with halogens in ultraviolet light.
+[chem23-s3.18.b] Three features of alkane bonding explain their stability: they are saturated, their bonds are strong, and their bonds are almost non-polar.
+[chem23-s3.18.0] Alkanes are saturated: every carbon already has four single bonds, so nothing can add to the molecule, and a bond must be broken before any reaction can occur.
+[chem23-s3.18.1] C–C and C–H bonds are strong, so a great deal of energy is needed to break them, which gives a high activation energy (the minimum energy needed to start a reaction).
+[chem23-s3.18.2] The electronegativities (a measure of how strongly an atom pulls on shared electrons) of carbon, 2.55, and hydrogen, 2.20, differ by only 0.35, so C–H bonds are almost non-polar, and C–C bonds are completely non-polar.
+[chem23-s3.18.3] With no significant δ⁺ or δ⁻ sites (slightly positive or negative ends), alkane molecules do not attract ions such as OH⁻ or H⁺, or polar molecules, which react by attacking charged sites.
+[chem23-s3.18.4] Alkenes are more reactive because the C=C double bond is an electron-rich site that attracts reagents such as bromine and allows addition.
+[chem23-s3.19.b] Alkanes are stable, not inert. They react under two sets of conditions: when ignited, and when exposed to ultraviolet light with a halogen.
+[chem23-s3.19.0] Combustion: alkanes burn in oxygen once a flame or spark supplies the activation energy, releasing a lot of energy, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem23-s3.19.1] Substitution with chlorine or bromine needs ultraviolet light, or sunlight, to split the halogen molecule into reactive atoms, called free radicals, e.g. CH₄ + Cl₂ → CH₃Cl + HCl. There is more on this in Reaction mechanisms.
+[chem23-s3.19.2] In the dark, an alkane mixed with bromine stays orange; in sunlight the colour slowly fades as substitution happens, which is much slower than the instant decolourisation produced by an alkene.
+[chem23-s3.20.b] The unreactivity of alkanes is useful in everyday life, and it also causes an environmental problem.
+[chem23-s3.20.0] Alkanes are safe to store and transport as fuels, such as natural gas, LPG and petrol, because they do not react until ignited.
+[chem23-s3.20.1] Unreactive liquid alkanes such as hexane and cyclohexane are useful solvents.
+[chem23-s3.20.2] Mineral oils and paraffin wax are used as lubricants and protective coatings.
+[chem23-s3.20.3] The same chemical stability makes poly(ethene) and other addition polymers, whose chains are alkane-like, slow to break down in the environment. There is more on this in Types of organic reaction and addition polymers.
+[chem23-s3.21.b] At Higher Level the stability of alkanes is explained by the type of bond. Single bonds are sigma bonds, while the second bond in an alkene's double bond is a weaker pi bond.
+[chem23-s3.21.0] Every bond in an alkane is a sigma (σ) bond, formed by head-on overlap of orbitals (the regions where electrons are found) along the line between the two nuclei.
+[chem23-s3.21.1] In a σ bond the shared electron pair is concentrated between the two nuclei, where both nuclei hold it strongly, so σ bonds are strong and their electrons are not exposed to attacking reagents.
+[chem23-s3.21.2] An alkene's double bond is one σ bond plus one pi (π) bond; the π electrons lie above and below the plane of the molecule, further from the nuclei and less tightly held, so they are exposed to attack by electron-seeking reagents.
+[chem23-s3.21.3] Typical average bond enthalpies (energies needed to break a bond) are C–C 348 kJ mol⁻¹, C=C 614 kJ mol⁻¹ and C–H 412 kJ mol⁻¹, so the π part of the C=C bond adds only about 266 kJ mol⁻¹ to the σ bond.
+[chem23-s3.21.4] So alkenes react by breaking the weaker π bond and keeping the σ bond, which is addition, whereas an alkane would have to break a strong σ bond, which needs much more energy.
+[chem23-s3.21.5] Diagram: a C–C σ bond with electron density between the nuclei, beside a C=C bond showing the σ bond and the π electron cloud above and below the bond axis.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.

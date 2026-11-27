@@ -1,0 +1,509 @@
+MODE: cost and links
+TARGET chem5-s2: 2. Investigation: identifying ions in salts and solutions
+[chem5-s2.0.b] Every salt is built from two kinds of ion, and each kind is identified by a different test. Before you meet the individual tests, you need the ground rules that make them reliable.
+[chem5-s2.0.0] A salt contains a cation (a positive ion, usually a metal) and an anion (a negative ion), so a full identification needs one test for each.
+[chem5-s2.0.1] The anion tests are carried out on a solution of the salt in deionised water (water with its dissolved ions removed), because the tests rely on ions moving freely in solution.
+[chem5-s2.0.2] Tests work only above a certain minimum concentration of the ion, so very dilute solutions may give no visible result even when the ion is present.
+[chem5-s2.0.3] Use deionised water and clean test tubes, so that ions from tap water or other samples don't give false results.
+[chem5-s2.0.4] Test a blank of deionised water as a control (a test run with no sample, to show what the reagent does by itself).
+[chem5-s2.0.5] A precipitate is an insoluble solid that forms when two solutions are mixed, which is why it appears as cloudiness or a coloured solid in the liquid.
+[chem5-s2.0.6] Effervescence is fizzing as a gas is given off.
+[chem5-s2.1.b] The cation in a salt is identified by a flame test, in which a sample of the salt is heated in a flame and the colour of the flame is observed. Each of the cations below gives its own colour.
+[chem5-s2.1.0] Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour. There is more on this in The orbital model and electronic structure.
+[chem5-s2.2.b] Chloride ions are detected by making insoluble silver chloride. The test is simple, but the acid used matters.
+[chem5-s2.2.0] Add a few drops of silver nitrate solution, acidified with dilute nitric acid (nitric acid is added to make the mixture acidic).
+[chem5-s2.2.1] A white precipitate of silver chloride forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem5-s2.2.2] Confirm the precipitate by showing that it dissolves in dilute ammonia solution.
+[chem5-s2.2.3] Use nitric acid, not hydrochloric acid, because hydrochloric acid would add chloride ions of its own and give a false positive.
+[chem5-s2.2.4] Nitric acid is added first to remove carbonate ions, which would also give a precipitate with silver nitrate.
+[chem5-s2.3.b] Sulfate and sulfite ions both react with barium ions to give a white precipitate, so a second step with acid is needed to tell them apart.
+[chem5-s2.3.0] Add barium chloride solution: sulfate and sulfite both give a white precipitate, so this step alone cannot distinguish them.
+[chem5-s2.3.1] Sulfate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s).
+[chem5-s2.3.2] Sulfite: Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).
+[chem5-s2.3.3] Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves, and this difference identifies which ion was present.
+[chem5-s2.3.4] Barium sulfite reacts with the acid, which is why it dissolves: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).
+[chem5-s2.3.5] Safety: barium compounds are toxic.
+[chem5-s2.3.6] Safety: sulfur dioxide is a toxic, choking gas, so use small amounts in good ventilation.
+[chem5-s2.4.b] Both ions release carbon dioxide when acid is added, so a second test with magnesium sulfate is needed to tell them apart. Carbonate has the formula CO₃²⁻ and hydrogencarbonate HCO₃⁻.
+[chem5-s2.4.0] Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide.
+[chem5-s2.4.1] Carbonate: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.
+[chem5-s2.4.2] Hydrogencarbonate: HCO₃⁻ + H⁺ → CO₂ + H₂O.
+[chem5-s2.4.3] Confirm the gas as carbon dioxide: it turns limewater (calcium hydroxide solution) milky because insoluble calcium carbonate forms, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem5-s2.4.4] To tell them apart, add magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold, Mg²⁺ + CO₃²⁻ → MgCO₃(s).
+[chem5-s2.4.5] A hydrogencarbonate gives no precipitate with magnesium sulfate solution until the mixture is heated.
+[chem5-s2.4.6] On heating: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l).
+[chem5-s2.5.b] Nitrate ions are detected with the brown ring test. Iron(II) ions convert nitrate into a gas that forms a brown coloured compound, and the layering of the liquids makes the colour appear as a ring.
+[chem5-s2.5.0] Add freshly made iron(II) sulfate solution to the test solution in a test tube.
+[chem5-s2.5.1] Hold the tube at an angle and carefully run concentrated sulfuric acid down the side, so that it forms a dense layer at the bottom; don't shake.
+[chem5-s2.5.2] A brown ring forms where the two layers meet, showing nitrate.
+[chem5-s2.5.3] Iron(II) reduces nitrate (gives electrons to it) to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.
+[chem5-s2.5.4] Nitrogen monoxide forms a brown complex (an ion in which a molecule is attached to a metal ion) with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.
+[chem5-s2.5.5] Safety: concentrated sulfuric acid is very corrosive; wear goggles and gloves, and add it slowly.
+[chem5-s2.6.b] Phosphate ions are detected by making a yellow precipitate with ammonium molybdate in strongly acidic conditions.
+[chem5-s2.6.0] Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently.
+[chem5-s2.6.1] A yellow precipitate of ammonium phosphomolybdate shows phosphate.
+[chem5-s2.6.2] Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.
+[chem5-s2.6.3] Safety: concentrated nitric acid is corrosive and an oxidising agent (it can make other substances burn or react vigorously); use a fume cupboard (a ventilated enclosure that draws fumes away).
+[chem5-s2.7.b] The ions in these tests are the ones that matter in water supplies, where they come from natural and human sources and affect water quality.
+[chem5-s2.7.0] Chlorides come from sea water and road salt, such as that spread on roads in winter; chlorination of water also gives chloride.
+[chem5-s2.7.1] Nitrates and phosphates come from fertilisers, animal slurry, sewage and detergents.
+[chem5-s2.7.2] Nitrates and phosphates contaminate water and cause eutrophication (excess nutrients that cause algae to overgrow in water). There is more on this in the environmental chemistry chapter.
+[chem5-s2.7.3] Hard water contains dissolved calcium and magnesium ions, so it forms scum with soap.
+[chem5-s2.7.4] Calcium and magnesium ions with hydrogencarbonate ions cause temporary hardness, which is removed by boiling.
+[chem5-s2.7.5] Calcium and magnesium ions with sulfate or chloride ions cause permanent hardness.
+[chem5-s2.7.6] Carbonates and hydrogencarbonates come from water flowing over limestone, which is calcium carbonate.
+[chem5-s2.8.b] Here the tests are combined to identify both ions in an unknown salt. A logical order and proper controls make the conclusion reliable.
+[chem5-s2.8.0] Aim: to identify the cation and the anion in an unknown salt, using primary data (results you observe yourself in the experiment).
+[chem5-s2.8.1] Step 1: Carry out a flame test on the solid to identify the cation, because the flame colour depends on the cation.
+[chem5-s2.8.2] Step 2: Add dilute hydrochloric acid to a little of the solid to test for carbonate and hydrogencarbonate, then dissolve a little of the salt in deionised water.
+[chem5-s2.8.3] Step 3: Carry out the other anion tests on separate portions of the solution in a logical order, recording the reagent, observation and conclusion in a table.
+[chem5-s2.8.4] Step 4: Run each test on a known sample of the ion alongside, as a positive control (to show the test works), and on deionised water as a negative control (to show the reagents give no result on their own).
+[chem5-s2.8.5] Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate that dissolves in ammonia indicate potassium chloride, KCl.
+[chem5-s2.8.6] Diagram: the brown ring test tube, showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary.
+
+CANDIDATES chem3-s1: 1. The orbital model and electronic structure
+[chem3-s1.0.b] The current model of the atom has a tiny nucleus at the centre and electrons arranged around it in energy levels and orbitals. Knowing these four ideas, nucleus, energy level, orbital and capacity, lets you describe any atom.
+[chem3-s1.0.0] The nucleus is a tiny, dense, positively charged centre of the atom, containing protons (positive particles) and neutrons (particles with no charge). There is more on this in Atomic structure: the nuclear model.
+[chem3-s1.0.1] Electrons (the negatively charged particles) surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…
+[chem3-s1.0.2] The main energy levels increase in energy, and in average distance from the nucleus, as n increases, so an electron in n = 3 has more energy and is on average further out than one in n = 1.
+[chem3-s1.0.3] Within a main energy level, electrons occupy orbitals, which are the smaller regions that make up the level.
+[chem3-s1.0.4] An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.
+[chem3-s1.0.5] Each orbital can hold a maximum of two electrons, so an orbital that is full is holding a pair.
+[chem3-s1.0.6] The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.
+[chem3-s1.0.7] Each main energy level is divided into sublevels (smaller groups of orbitals within the level), made of orbitals; the sublevels and how they fill are covered later in this subsection.
+[chem3-s1.1.b] The Bohr model, an older picture of the atom, drew electrons orbiting like planets. The orbital model keeps part of that idea but changes how we describe where an electron is.
+[chem3-s1.1.0] The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.
+[chem3-s1.1.1] The orbital model gives no exact path or position for an electron, only the probability of it being found in each region.
+[chem3-s1.1.2] The orbital model keeps the Bohr idea of fixed energy levels, so electrons can only have certain energies.
+[chem3-s1.1.3] Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability instead of a path.
+[chem3-s1.1.4] Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison.
+[chem3-s1.2.b] In hydrogen, the single electron cannot have just any energy. This is the idea behind the hydrogen spectrum, and it gives two terms, ground state and excited state, that you must be able to distinguish.
+[chem3-s1.2.0] The electron in a hydrogen atom can exist only in certain allowed energy levels, n = 1, 2, 3…, so its energy is quantised: it can take only certain fixed values.
+[chem3-s1.2.1] The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen.
+[chem3-s1.2.2] An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge (a current passed through a gas).
+[chem3-s1.2.3] Excited states are unstable, so the electron soon falls back to a lower level.
+[chem3-s1.3.b] When an excited electron drops to a lower level, the atom has to get rid of the energy difference. It does so as light, and the equation Em − En = hf links the size of the drop to the light given out.
+[chem3-s1.3.0] An electron transition is a jump of an electron from one energy level to another.
+[chem3-s1.3.1] When an electron falls from a higher level (energy Em) to a lower level (energy En), the energy difference is emitted as a photon, a packet of light energy.
+[chem3-s1.3.2] The photon's energy is related to its frequency (the number of wave cycles per second) by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).
+[chem3-s1.3.3] Light is emitted when electrons fall to lower levels; when electrons jump up to higher levels they absorb energy instead.
+[chem3-s1.3.4] Because the energy levels are fixed, each transition has one definite energy difference, so it emits light of one definite frequency, seen as one line of one colour.
+[chem3-s1.3.5] A larger energy gap gives light of higher frequency and shorter wavelength.
+[chem3-s1.4.b] An emission spectrum is the pattern of light an element gives out when its atoms are excited. Hydrogen's pattern is separate lines, and that is direct evidence for fixed energy levels.
+[chem3-s1.4.0] An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope (an instrument that splits light into its colours) or diffraction grating.
+[chem3-s1.4.1] It is a line spectrum: separate bright coloured lines on a dark background, not the continuous band of colours produced by white light.
+[chem3-s1.4.2] Each line corresponds to one transition from a higher energy level to a lower one.
+[chem3-s1.4.3] A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.
+[chem3-s1.5.b] The lines of hydrogen fall into groups called series, named by the level the electrons fall to. The visible lines are the Balmer series, and each colour comes from a different starting level.
+[chem3-s1.5.0] The visible lines form the Balmer series, made by electrons falling to n = 2.
+[chem3-s1.5.1] Red line, 656 nm: the electron falls from n = 3 to n = 2.
+[chem3-s1.5.2] Blue-green line, 486 nm: the electron falls from n = 4 to n = 2.
+[chem3-s1.5.3] Blue-violet line, 434 nm: the electron falls from n = 5 to n = 2.
+[chem3-s1.5.4] Violet line, 410 nm: the electron falls from n = 6 to n = 2.
+[chem3-s1.6.b] Falls to levels other than n = 2 give lines outside the visible region. The spacing of the lines also reflects how the levels are spaced.
+[chem3-s1.6.0] Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet (light of higher energy than visible light).
+[chem3-s1.6.1] Transitions down to n = 3 form the Paschen series, which lies in the infrared (light of lower energy than visible light).
+[chem3-s1.6.2] The lines get closer together at higher energy, because the energy levels themselves get closer together further from the nucleus.
+[chem3-s1.6.3] Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared).
+[chem3-s1.6.4] Diagram: beside it, sketch the line spectrum with the four visible lines labelled.
+[chem3-s1.7.b] Hydrogen's lines come from electrons changing level. The same thing happens in every element, which is why heating a compound in a flame makes a colour you can use to identify it.
+[chem3-s1.7.0] Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.
+[chem3-s1.7.1] The electrons fall back to lower levels and give out the energy as light.
+[chem3-s1.7.2] Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element.
+[chem3-s1.8.b] A flame test identifies a metal from the colour its salt gives to a flame. A fair test needs the right equipment, and everything except the metal kept the same.
+[chem3-s1.8.0] Aim: to identify the metal in a salt from the colour it gives to a flame.
+[chem3-s1.8.1] Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.
+[chem3-s1.8.2] Independent variable (the one you change): the metal in the salt being tested.
+[chem3-s1.8.3] Dependent variable (the one you observe): the colour of the flame.
+[chem3-s1.8.4] Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.
+[chem3-s1.8.5] Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.
+[chem3-s1.9.b] The method is four steps, repeated for each salt. The cleaning step matters most, because leftover salt from a previous test would colour the flame and give a wrong result.
+[chem3-s1.9.0] 1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.
+[chem3-s1.9.1] 2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile (they vaporise easily in the flame).
+[chem3-s1.9.2] 3. Hold the wire at the edge of the non-luminous flame and note the colour.
+[chem3-s1.9.3] 4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.
+[chem3-s1.9.4] Repeats: repeat each test to confirm the colour observed.
+[chem3-s1.9.5] Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.
+[chem3-s1.10.b] The chemicals and the hot wire are hazards, and the result only means something when it is compared with known colours. Each piece of apparatus also needs a labelled diagram.
+[chem3-s1.10.0] Safety: wear goggles, so that no splash or spark reaches the eyes.
+[chem3-s1.10.1] Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.
+[chem3-s1.10.2] Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.
+[chem3-s1.10.3] Safety: keep the hot wire away from the skin, because it can burn.
+[chem3-s1.10.4] Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.
+[chem3-s1.10.5] Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.
+[chem3-s1.10.6] Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.
+[chem3-s1.10.7] Diagram: cobalt-blue glass held between the eye and the flame; label the cobalt-blue glass.
+[chem3-s1.11.b] Each of the six metals gives its own flame colour. Learn the colour for each, and note the one pair that look alike.
+[chem3-s1.11.0] Lithium: crimson red, which is why it is easily confused with strontium.
+[chem3-s1.11.1] Sodium: bright yellow-orange; the colour is persistent (it lasts and is strong).
+[chem3-s1.11.2] Potassium: lilac (pale purple).
+[chem3-s1.11.3] Copper: blue-green.
+[chem3-s1.11.4] Barium: pale (apple) green.
+[chem3-s1.11.5] Strontium: red (scarlet).
+[chem3-s1.11.6] Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them.
+[chem3-s1.12.b] A flame colour is a mix of light of several wavelengths. Splitting the light with a spectroscope separates it into lines, which gives a more precise way to identify an element.
+[chem3-s1.12.0] A spectroscope splits the light from a flame or electric discharge into its separate colours.
+[chem3-s1.12.1] Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.
+[chem3-s1.12.2] To identify an element, compare the lines from an unknown sample, obtained as primary data (your own measurements) from a spectroscope or as secondary data (from another source) such as a published spectrum, with reference spectra of known elements.
+[chem3-s1.12.3] A match of all the lines identifies the element.
+[chem3-s1.13.b] The syllabus names three elements whose line spectra you must be able to use. Their lines explain the flame colours seen, and the same idea is applied in stars and fireworks.
+[chem3-s1.13.0] Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.
+[chem3-s1.13.1] Strontium: several lines, strongest in the red, so its flame looks red.
+[chem3-s1.13.2] Copper: lines mainly in the green, giving its blue-green flame.
+[chem3-s1.13.3] Line spectra are used to identify elements in samples and in stars.
+[chem3-s1.13.4] Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green.
+[chem3-s1.14.b] For the first 20 elements, you can write an atom's electrons as a list of numbers, one for each main energy level. The electrons fill from the inside out.
+[chem3-s1.14.0] Electrons fill the lowest energy levels available first, because that is the most stable arrangement.
+[chem3-s1.14.1] For elements 1 to 20, the first main energy level holds up to 2 electrons, the second up to 8 and the third up to 8; the fourth level starts to fill at potassium.
+[chem3-s1.14.2] The outer-shell (valence) electrons, those in the outermost occupied level, determine the chemical properties of an element.
+[chem3-s1.14.3] Elements in the same group have the same number of outer electrons, which is why they have similar properties.
+[chem3-s1.15.b] Write the number of electrons in each main energy level, from the inside out, separated by commas. These ten examples show the pattern.
+[chem3-s1.15.0] Hydrogen (H) 1.
+[chem3-s1.15.1] Helium (He) 2.
+[chem3-s1.15.2] Carbon (C) 2,4.
+[chem3-s1.15.3] Oxygen (O) 2,6.
+[chem3-s1.15.4] Sodium (Na) 2,8,1.
+[chem3-s1.15.5] Magnesium (Mg) 2,8,2.
+[chem3-s1.15.6] Chlorine (Cl) 2,8,7.
+[chem3-s1.15.7] Argon (Ar) 2,8,8.
+[chem3-s1.16.b] Potassium and calcium show the fourth level beginning to fill, and a shell diagram is a way to draw an arrangement.
+[chem3-s1.16.0] Potassium (K) 2,8,8,1.
+[chem3-s1.16.1] Calcium (Ca) 2,8,8,2.
+[chem3-s1.16.2] Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons.
+[chem3-s1.17.b] Atoms with a full outer energy level are stable. Many atoms reach one by losing or gaining electrons, which turns them into ions (charged particles).
+[chem3-s1.17.0] A stable electronic configuration has a full outer energy level, as in the noble gases (the very unreactive elements in group 18): helium 2, neon 2,8 and argon 2,8,8.
+[chem3-s1.17.1] Atoms usually reach a full outer level of eight electrons (an octet), or two for the first level.
+[chem3-s1.17.2] Metals in groups 1, 2 and 13 lose electrons to form positive ions with a noble-gas configuration: Na⁺ 2,8; Mg²⁺ 2,8; Al³⁺ 2,8.
+[chem3-s1.17.3] Potassium and calcium ions also have noble-gas configurations: K⁺ 2,8,8; Ca²⁺ 2,8,8.
+[chem3-s1.17.4] Non-metals in groups 15, 16 and 17 gain electrons to form negative ions with a noble-gas configuration: N³⁻ 2,8; O²⁻ 2,8; F⁻ 2,8.
+[chem3-s1.17.5] Sulfide and chloride ions have noble-gas configurations: S²⁻ 2,8,8; Cl⁻ 2,8,8.
+[chem3-s1.17.6] Ions with the same electron arrangement as each other are isoelectronic; for example Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have the arrangement 2,8.
+[chem3-s1.18.b] A main energy level is split into sublevels, and each sublevel is made of orbitals. The type of sublevel decides how many orbitals it has and so how many electrons it holds.
+[chem3-s1.18.0] A sublevel is a subdivision of a main energy level, made of orbitals of equal energy; the sublevels are s, p, d and f.
+[chem3-s1.18.1] An s sublevel has 1 orbital, holding 2 electrons, because each orbital holds 2.
+[chem3-s1.18.2] A p sublevel has 3 orbitals, holding 6 electrons, because each orbital holds 2.
+[chem3-s1.18.3] A d sublevel has 5 orbitals, holding 10 electrons, because 5 × 2 = 10.
+[chem3-s1.19.b] The higher the main energy level, the more types of sublevel it contains. The sublevels fill in order of increasing energy, and this order has a surprise at 4s and 3d.
+[chem3-s1.19.0] Level 1 contains 1s only, so it holds just 2 electrons.
+[chem3-s1.19.1] Level 2 contains 2s and 2p, so it holds 2 + 6 = 8 electrons.
+[chem3-s1.19.2] Level 3 contains 3s, 3p and 3d.
+[chem3-s1.19.3] Level 4 contains 4s, 4p, 4d and 4f.
+[chem3-s1.19.4] The order of filling, from lowest to highest energy, is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.
+[chem3-s1.19.5] The 4s sublevel is lower in energy than 3d, so it fills first.
+[chem3-s1.20.b] Three rules decide how electrons are placed in orbitals. Together they let you draw an orbital (box) diagram and count unpaired electrons.
+[chem3-s1.20.0] Aufbau principle: the filling rule above, applied to orbitals; electrons occupy the lowest-energy orbital available first.
+[chem3-s1.20.1] Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins (a property of the electron, like turning in opposite directions), shown as ↑↓.
+[chem3-s1.20.2] Hund's rule: when filling orbitals of equal energy, such as the three 2p orbitals, electrons occupy them singly with parallel spins before any pairing occurs.
+[chem3-s1.20.3] Orbital (box) diagrams show one box per orbital, with arrows for electrons.
+[chem3-s1.20.4] Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons (electrons alone in an orbital).
+[chem3-s1.20.5] Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons, because its fourth 2p electron has to pair up with one already in an orbital.
+[chem3-s1.21.b] The s, p, d notation writes each sublevel followed by its number of electrons as a superscript. Up to calcium the sublevels simply fill in the order given above.
+[chem3-s1.21.0] Notation writes each sublevel followed by its number of electrons as a superscript: sodium 1s² 2s² 2p⁶ 3s¹.
+[chem3-s1.21.1] Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵.
+[chem3-s1.21.2] Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s², with 4s filling before 3d because 4s is lower in energy.
+[chem3-s1.21.3] Beyond calcium the 3d sublevel fills.
+[chem3-s1.22.b] Once 3d starts to fill, the configurations get longer. The 4s sublevel fills before 3d, but the configuration is written with the levels in order.
+[chem3-s1.22.0] Iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², written in level order rather than filling order.
+[chem3-s1.22.1] Bromine: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵.
+[chem3-s1.22.2] Krypton, element 36, ends 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.22.3] Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s².
+[chem3-s1.23.b] Two elements do not follow the filling order exactly. One electron moves from 4s into 3d, because a half-full or full d sublevel is more stable.
+[chem3-s1.23.0] Chromium is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹.
+[chem3-s1.23.1] Copper is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹.
+[chem3-s1.23.2] The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable.
+[chem3-s1.24.b] To write an ion, take the atom's configuration and remove or add electrons at the outermost sublevel. The result is usually a stable configuration, with full sublevels.
+[chem3-s1.24.0] Ions, excluding transition metal ions, are written by removing or adding electrons from the outermost sublevel: Na⁺ 1s² 2s² 2p⁶.
+[chem3-s1.24.1] Chloride ion: Cl⁻ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.2] Bromide ion: Br⁻ 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶.
+[chem3-s1.24.3] Calcium ion: Ca²⁺ 1s² 2s² 2p⁶ 3s² 3p⁶.
+[chem3-s1.24.4] Stable configurations at this level are full sublevels (s², p⁶) and the noble-gas configuration ns² np⁶.
+[chem3-s1.25.b] An orbital's shape shows where the electron is most likely to be found. You need only the s and p shapes.
+[chem3-s1.25.0] An s orbital is spherical and centred on the nucleus.
+[chem3-s1.25.1] The 2s orbital is larger than the 1s orbital, because it belongs to a higher energy level, further from the nucleus.
+[chem3-s1.25.2] A p orbital is dumbbell-shaped, with two lobes on either side of the nucleus.
+[chem3-s1.25.3] The three p orbitals in a sublevel, px, py and pz, lie at right angles to each other along the x, y and z axes, and have equal energy.
+[chem3-s1.25.4] Diagram: a sphere labelled s, and three dumbbells along the x, y and z axes labelled px, py and pz.
+
+CANDIDATES chem5-s1: 1. Bonding, formulae and shapes
+[chem5-s1.0.b] Most atoms are not stable on their own. They join to other atoms because the joined arrangement has less energy, and the force that holds them together is called a chemical bond.
+[chem5-s1.0.0] A chemical bond is a force of attraction that holds atoms or ions (atoms that have gained or lost electrons and so carry a charge) together in an element or compound.
+[chem5-s1.0.1] Atoms bond to reach a more stable arrangement of electrons, usually a full outer energy level (the outermost shell of electrons) like the nearest noble gas (the unreactive group 18 elements); this is the octet rule, and bonding lowers their energy.
+[chem5-s1.0.2] Only the outer (valence) electrons take part in bonding, because the inner electrons are held close to the nucleus (the atom's positively charged centre) and are not available to be lost, gained or shared.
+[chem5-s1.1.b] In ionic bonding one atom hands electrons over to another, leaving two oppositely charged particles that attract each other.
+[chem5-s1.1.0] An ionic bond is the electrostatic attraction (the attraction between opposite charges) between oppositely charged ions.
+[chem5-s1.1.1] It forms when electrons are transferred from one atom, usually a metal that forms a positive ion, to another atom, usually a non-metal that forms a negative ion.
+[chem5-s1.1.2] Example: sodium (2,8,1) gives one electron to chlorine (2,8,7): Na → Na⁺ + e⁻ and Cl + e⁻ → Cl⁻. The numbers show the electrons in each energy level.
+[chem5-s1.1.3] Both ions have the electron arrangement of a noble gas, which is why the transfer happens: each atom ends up with a full outer energy level.
+[chem5-s1.1.4] Ionic compounds form a giant lattice (a huge regular repeating array) of ions, not molecules (separate small groups of atoms).
+[chem5-s1.1.5] In sodium chloride each Na⁺ ion is surrounded by six Cl⁻ ions, and each Cl⁻ ion by six Na⁺ ions.
+[chem5-s1.1.6] The formula NaCl gives only the ratio of the ions, one Na⁺ to one Cl⁻, because there is no single unit to count.
+[chem5-s1.1.7] Diagram: a section of the sodium chloride lattice, drawn as a cube, showing alternating Na⁺ and Cl⁻ ions.
+[chem5-s1.2.b] Non-metal atoms usually cannot give electrons away easily, so they share them instead. The shared electrons hold the atoms together.
+[chem5-s1.2.0] A covalent bond is a shared pair of electrons between two atoms, usually two non-metals; both nuclei are attracted to the shared pair, which is what holds the atoms together.
+[chem5-s1.2.1] A single bond is one shared pair, such as in H–H and Cl–Cl.
+[chem5-s1.2.2] A double bond is two shared pairs, as in O=O and C=O in CO₂.
+[chem5-s1.2.3] A triple bond is three shared pairs, as in N≡N.
+[chem5-s1.2.4] Covalently bonded atoms form molecules (separate small groups of atoms), e.g. H₂O, CH₄ and NH₃.
+[chem5-s1.2.5] A few substances have giant covalent structures, in which atoms are linked by covalent bonds throughout instead of forming separate molecules, e.g. diamond.
+[chem5-s1.3.b] Not every shared pair is shared fairly. Whether the sharing is equal or unequal depends on how strongly each atom attracts the electrons.
+[chem5-s1.3.0] A pure (non-polar) covalent bond shares electrons equally, because both atoms attract them equally, as in H–H and Cl–Cl.
+[chem5-s1.3.1] The C–H bond is nearly non-polar.
+[chem5-s1.3.2] A polar covalent bond shares electrons unequally, because one atom attracts them more strongly, as in H–Cl and O–H.
+[chem5-s1.3.3] The atom that attracts the shared electrons more strongly gets a partial negative charge (δ−), and the other atom gets a partial positive charge (δ+), e.g. Hδ+–Clδ−. The charges are only partial because the electrons are shifted, not fully transferred.
+[chem5-s1.4.b] Ionic and covalent bonding are the two ends of a scale, not two separate boxes. Real bonds sit at different points along it, depending on how the electrons are shared.
+[chem5-s1.4.0] Bonds are not simply ionic or covalent; they lie on a continuum (a smooth scale) from pure covalent, through polar covalent, to ionic.
+[chem5-s1.4.1] At one end, pure covalent bonds share electrons equally, because both atoms attract them equally.
+[chem5-s1.4.2] In the middle, polar covalent bonds share electrons unequally, because one atom pulls harder.
+[chem5-s1.4.3] At the other end, ionic bonds involve complete transfer of electrons, so ions form.
+[chem5-s1.4.4] Examples along the continuum: Cl–Cl (pure covalent), H–Cl (polar covalent), Na⁺Cl⁻ (ionic).
+[chem5-s1.4.5] Most bonds have some ionic and some covalent character, so they sit between the ends, not exactly at them.
+[chem5-s1.4.6] The difference in electronegativity (how strongly an atom attracts the shared electrons in a bond) between the atoms decides where a bond lies. There is more on this in Bond type and intermolecular forces.
+[chem5-s1.4.7] Diagram: a horizontal line labelled pure covalent – polar covalent – ionic, with the electron pair drawn shared equally at the left end, shifted towards one atom in the middle, and fully transferred at the right end.
+[chem5-s1.5.b] Setting ionic and covalent bonding side by side shows what each does to the electrons and what kind of structure results. Metals have a third type of bonding.
+[chem5-s1.5.0] Ionic bonding transfers electrons and forms ions; covalent bonding shares electrons and forms molecules (mostly).
+[chem5-s1.5.1] Ionic bonding occurs between a metal and a non-metal; covalent bonding occurs mostly between two non-metals.
+[chem5-s1.5.2] Ionic compounds are giant lattices; covalent bonds are polar or non-polar depending on the atoms involved.
+[chem5-s1.5.3] Metallic bonding (assumed): positive metal ions are held together by a sea of delocalised outer electrons (electrons free to move through the whole metal), which explains why metals conduct electricity.
+[chem5-s1.6.b] To predict a formula you need to know how many electrons an atom is likely to lose, gain or share. This number is its valency, and the octet rule explains it.
+[chem5-s1.6.0] Valency is the number of electrons an atom loses, gains or shares when it bonds; it is the combining power of an element.
+[chem5-s1.6.1] The octet rule: atoms tend to lose, gain or share electrons to reach eight electrons in their outer energy level.
+[chem5-s1.6.2] Hydrogen follows a different rule: it needs two electrons in its outer level, matching helium (the noble gas with two electrons).
+[chem5-s1.6.3] Elements in group 1 and group 17 have a valency of 1, because they lose one electron (group 1) or gain one (group 17) to reach an octet.
+[chem5-s1.6.4] Elements in group 2 and group 16 have a valency of 2, because they lose two electrons (group 2) or gain two (group 16).
+[chem5-s1.6.5] Elements in group 13 and group 15 have a valency of 3, because they lose three electrons (group 13) or gain three (group 15).
+[chem5-s1.6.6] Elements in group 14 have a valency of 4, because they share four electrons to reach an octet.
+[chem5-s1.7.b] An ionic compound has no overall charge, so the positive and negative charges must cancel. This gives a simple method for writing any ionic formula.
+[chem5-s1.7.0] Step 1: Write the charge on each ion, e.g. Ca²⁺ and Cl⁻.
+[chem5-s1.7.1] Step 2: Combine the ions so that the total positive charge equals the total negative charge.
+[chem5-s1.7.2] Calcium ions (Ca²⁺) and chloride ions (Cl⁻) give CaCl₂, as one Ca²⁺ balances two Cl⁻.
+[chem5-s1.7.3] Aluminium ions (Al³⁺) and oxide ions (O²⁻) give Al₂O₃, as two Al³⁺ balance three O²⁻.
+[chem5-s1.7.4] Magnesium ions (Mg²⁺) and nitride ions (N³⁻) give Mg₃N₂, as three Mg²⁺ balance two N³⁻.
+[chem5-s1.8.b] Some ions are made of several atoms bonded together that carry one overall charge. They behave as a single unit when you write formulae, so you need to know them.
+[chem5-s1.8.0] Negative compound ions: hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻, sulfite SO₃²⁻ and phosphate PO₄³⁻.
+[chem5-s1.8.1] Positive compound ion: ammonium NH₄⁺. It is given only as an ion to use in formulae.
+[chem5-s1.8.2] Brackets are used round a compound ion when more than one is needed, so that the subscript applies to the whole ion, e.g. Ca(OH)₂ and (NH₄)₂SO₄.
+[chem5-s1.9.b] Covalent formulae follow from valency too. Atoms share electron pairs until each has a complete outer level.
+[chem5-s1.9.0] Covalent formulae: atoms share enough electron pairs to complete each octet.
+[chem5-s1.9.1] Hydrogen (valency 1) and oxygen (valency 2) form H₂O, because two hydrogens are needed to supply the two bonds oxygen can make.
+[chem5-s1.9.2] Nitrogen (valency 3) and hydrogen form NH₃, with three hydrogens for nitrogen's three bonds.
+[chem5-s1.9.3] Carbon (valency 4) and hydrogen form CH₄, with four hydrogens for carbon's four bonds.
+[chem5-s1.9.4] Carbon and oxygen form CO₂, with two double bonds.
+[chem5-s1.10.b] A Lewis diagram is a way of drawing bonding that tracks every outer electron. It shows which electrons are transferred, shared or left unused.
+[chem5-s1.10.0] A Lewis diagram shows the outer electrons of each atom as dots or crosses; the different symbols let you see which atom each electron came from.
+[chem5-s1.10.1] Shared pairs of electrons are drawn between the atoms they join, so you can count the bonds.
+[chem5-s1.10.2] Lone pairs are pairs of outer electrons that are not used in bonding.
+[chem5-s1.10.3] Ionic compounds: show each ion in square brackets with its charge, e.g. [Na]⁺ [Cl]⁻, with eight electrons around the chloride ion.
+[chem5-s1.10.4] Magnesium oxide, an ionic example, is drawn as [Mg]²⁺ [O]²⁻.
+[chem5-s1.10.5] Covalent examples to draw: H₂, Cl₂, HCl and H₂O, where water has two lone pairs on oxygen.
+[chem5-s1.10.6] Ammonia, NH₃, has one lone pair on nitrogen, because nitrogen has five outer electrons and uses only three in bonds.
+[chem5-s1.10.7] O₂ has a double bond, N₂ has a triple bond, and CO₂ has two double bonds.
+[chem5-s1.10.8] Diagram: dot-and-cross diagrams of sodium chloride, water and nitrogen, with lone pairs labelled.
+[chem5-s1.11.b] Orbitals are the regions of space around a nucleus where an electron is most likely to be found. Covalent bonding can be described as these regions merging.
+[chem5-s1.11.0] A covalent bond forms when an orbital of one atom, holding one electron, overlaps an orbital of another atom holding one electron.
+[chem5-s1.11.1] The shared pair occupies the overlap region between the two nuclei, which is where both nuclei can attract it.
+[chem5-s1.12.b] The way two orbitals overlap decides the type of bond. Overlap can be head-on or sideways, which gives sigma and pi bonds.
+[chem5-s1.12.0] A sigma (σ) bond is formed by head-on overlap of orbitals along the line joining the two nuclei.
+[chem5-s1.12.1] Sigma bonds are formed by s–s overlap in H₂, s–p overlap in HCl, and end-on p–p overlap in Cl₂.
+[chem5-s1.12.2] A pi (π) bond is formed by sideways overlap of two parallel p orbitals, above and below the line joining the nuclei.
+[chem5-s1.12.3] Every single bond is a σ bond, so H–H is one σ bond.
+[chem5-s1.12.4] A double bond is one σ bond and one π bond; a triple bond is one σ bond and two π bonds, as in N₂.
+[chem5-s1.12.5] π bonds are weaker than σ bonds because sideways overlap is less effective.
+[chem5-s1.12.6] π bonds prevent rotation about a double bond.
+[chem5-s1.12.7] Diagram: head-on overlap of two s orbitals and of two p orbitals (σ); sideways overlap of two p orbitals, showing electron density above and below the axis (π).
+[chem5-s1.13.b] Sometimes a bonding pair cannot be pinned between just two atoms. Benzene is the key example, where electrons spread round a whole ring.
+[chem5-s1.13.0] In delocalised bonding, electrons are spread over several atoms rather than confined between two.
+[chem5-s1.13.1] In benzene (C₆H₆), each carbon uses one p orbital, and the six p orbitals overlap sideways all round the ring.
+[chem5-s1.13.2] This forms a ring of delocalised π electrons above and below the plane of the ring.
+[chem5-s1.13.3] All six carbon–carbon bonds in benzene are identical, with lengths between those of single and double bonds, because the electrons are shared evenly round the ring. There is more on this in Allotropes of Carbon. Hydrocarbons.
+[chem5-s1.14.b] Higher Level students apply the same valency rules past calcium, to the main-group elements up to krypton (element 36).
+[chem5-s1.14.0] The same rules apply to elements 21–36 in the main groups.
+[chem5-s1.14.1] Potassium bromide is K⁺Br⁻, because group 1 and group 17 both have a valency of 1.
+[chem5-s1.14.2] Calcium bromide is CaBr₂, because Ca²⁺ needs two Br⁻ to balance.
+[chem5-s1.14.3] Gallium (group 13) forms Ga³⁺ ions, since group 13 has a valency of 3.
+[chem5-s1.14.4] Arsenic (group 15) and hydrogen form AsH₃, since group 15 has a valency of 3.
+[chem5-s1.14.5] Selenium (group 16) and hydrogen form H₂Se, since group 16 has a valency of 2.
+[chem5-s1.15.b] The octet rule and Lewis diagrams are useful but not perfect. Some real molecules break the rule, and the models leave out several properties.
+[chem5-s1.15.0] Some molecules are stable with fewer than eight outer electrons on the central atom, e.g. BF₃, with six around boron.
+[chem5-s1.15.1] Elements in period 3 and beyond (the third row of the periodic table and below) can have more than eight outer electrons, e.g. PCl₅, with ten around phosphorus.
+[chem5-s1.15.2] SF₆ has twelve electrons around sulfur.
+[chem5-s1.15.3] The octet rule and Lewis diagrams do not predict the shape of a molecule, how polar a bond is, or bond strength.
+[chem5-s1.15.4] They cannot show delocalised bonding, as in benzene.
+[chem5-s1.15.5] Predictions from valency assume purely ionic or purely covalent bonding, but real bonds lie on a continuum.
+[chem5-s1.16.b] The shape of a molecule follows from a simple idea: electron pairs carry negative charge, so they push each other away. VSEPR turns that idea into a rule for predicting shape.
+[chem5-s1.16.0] VSEPR stands for valence shell electron pair repulsion.
+[chem5-s1.16.1] The theory applies to molecules of the form ABn (a central atom A bonded to n atoms B), with up to four pairs of electrons around a central atom and single bonds only.
+[chem5-s1.16.2] Electron pairs in the outer (valence) shell of the central atom repel each other and arrange themselves as far apart as possible, which fixes the shape of the molecule.
+[chem5-s1.16.3] Both bonding pairs and lone pairs count, because both are regions of negative charge that repel.
+[chem5-s1.16.4] Lone pairs repel more strongly than bonding pairs: lone pair–lone pair repulsion is greater than lone pair–bond pair repulsion, which is greater than bond pair–bond pair repulsion.
+[chem5-s1.16.5] Lone pairs therefore squeeze the bond angles smaller.
+[chem5-s1.16.6] The shape is described by the positions of the atoms only, not the lone pairs, so NH₃ (three bonded atoms plus one lone pair) is called pyramidal.
+[chem5-s1.17.b] Predicting a shape is a short routine that starts from the Lewis diagram. Follow the same three steps for every molecule.
+[chem5-s1.17.0] Step 1: Draw the Lewis (dot-and-cross) diagram of the molecule.
+[chem5-s1.17.1] Step 2: Count the electron pairs around the central atom, and how many of them are bonding pairs and how many are lone pairs.
+[chem5-s1.17.2] Step 3: Arrange the pairs as far apart as possible, and name the shape from the positions of the atoms, adjusting the angle for lone pairs.
+[chem5-s1.18.b] With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.
+[chem5-s1.18.0] Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).
+[chem5-s1.18.1] Three bonding pairs and no lone pairs: trigonal planar (three atoms in one flat plane round the centre), 120°, e.g. BF₃.
+[chem5-s1.18.2] Four bonding pairs and no lone pairs: tetrahedral (four atoms pointing to the corners of a pyramid-like solid), 109.5°, e.g. CH₄, CCl₄ and SiH₄.
+[chem5-s1.18.3] Three bonding pairs and one lone pair: pyramidal (trigonal pyramidal), about 107°, e.g. NH₃. PH₃ is also pyramidal, but its measured angle is much smaller, about 93.5°.
+[chem5-s1.18.4] Two bonding pairs and two lone pairs: V-shaped (bent), about 104.5°, e.g. H₂O.
+[chem5-s1.18.5] H₂S is also V-shaped, but its measured bond angle is much smaller than water's, about 92°.
+[chem5-s1.19.b] Ammonia and water have the same number of electron pairs as methane, yet their bond angles are smaller. Lone pairs are the reason.
+[chem5-s1.19.0] NH₃ and H₂O have four electron pairs arranged roughly tetrahedrally, as in CH₄.
+[chem5-s1.19.1] The lone pairs push the bonds closer together, because they repel more strongly than bonding pairs, so the bond angle falls as the number of lone pairs rises from 0 to 2: from CH₄ to NH₃ to H₂O.
+[chem5-s1.20.b] Molecules are three-dimensional, so a flat drawing needs a convention to show depth. Models let you see the shape directly.
+[chem5-s1.20.0] Diagram: 3D shapes drawn with wedges for bonds towards the viewer and dashed lines for bonds away from the viewer, with any lone pairs shown on the central atom.
+[chem5-s1.20.1] 3D models: ball-and-stick kits show bond angles, so you can see the shape directly.
+[chem5-s1.20.2] Digital models, from molecular-modelling software or apps, can be rotated on screen.
+[chem5-s1.20.3] Diagram: the five shapes, each with its example, bond angle and any lone pairs labelled.
+
+CANDIDATES chem11-s1: 1. Acids, bases and their reactions
+[chem11-s1.0.b] Acids show a common set of properties that can be observed in the laboratory and at home. These shared properties are how we decide whether a substance counts as an acid.
+[chem11-s1.0.0] Acids taste sour, but laboratory chemicals must never be tasted because many are corrosive or poisonous.
+[chem11-s1.0.1] Acids turn blue litmus (a dye that changes colour in acids and bases) red, and they have a pH below 7 (pH is a number that describes how acidic or basic a solution is).
+[chem11-s1.0.2] Acids react with reactive metals such as magnesium and zinc to give hydrogen gas, so bubbles form on the metal.
+[chem11-s1.0.3] Acids react with carbonates (compounds containing the CO₃²⁻ ion, such as chalk) to give carbon dioxide, seen as fizzing.
+[chem11-s1.0.4] Acids neutralise bases, which means they react with them so that both lose their acidic or basic character.
+[chem11-s1.0.5] Examples: hydrochloric acid (HCl), sulfuric acid (H₂SO₄), nitric acid (HNO₃), ethanoic acid (CH₃COOH, in vinegar) and citric acid (in citrus fruits).
+[chem11-s1.1.b] Bases are the chemical opposites of acids. Their properties mirror those of acids, and some of them dissolve in water to form alkalis.
+[chem11-s1.1.0] Bases taste bitter and feel soapy or slippery, because they react with the oils on the skin.
+[chem11-s1.1.1] Bases turn red litmus blue and have a pH above 7.
+[chem11-s1.1.2] Bases neutralise acids, so an acid and a base each cancel out the other's properties.
+[chem11-s1.1.3] An alkali is a base that dissolves in water, e.g. sodium hydroxide (NaOH), potassium hydroxide (KOH) and aqueous ammonia (NH₃), which is ammonia dissolved in water.
+[chem11-s1.1.4] Many bases are insoluble in water, e.g. copper(II) oxide and magnesium hydroxide, so they are not alkalis.
+[chem11-s1.1.5] Concentrated alkalis (those with a lot of dissolved base in a small volume of water) are corrosive, meaning they damage skin and other materials: sodium hydroxide is the main ingredient of oven cleaners and drain cleaners.
+[chem11-s1.2.b] You cannot tell whether a clear solution is acidic or basic by looking at it, so chemists add an indicator. An indicator is a substance that changes colour depending on whether it is in an acidic or a basic solution.
+[chem11-s1.2.0] Litmus is red in acid and blue in base, so it is the simplest test for which kind of solution you have.
+[chem11-s1.2.1] Phenolphthalein is colourless in acid and pink in base; it changes colour between pH 8.3 and pH 10.
+[chem11-s1.2.2] Methyl orange is red in acid and yellow in base; it changes colour between pH 3.1 and pH 4.4.
+[chem11-s1.2.3] Universal indicator is a mixture of indicators, so it gives a range of colours across the pH scale: red in strong acid, through orange, yellow and green at pH 7, to blue and purple in strong base.
+[chem11-s1.2.4] Natural indicators, such as red cabbage extract, also change colour between acidic and basic solutions.
+[chem11-s1.3.b] Common substances are classed as acids or bases according to the properties they show. For each one, the category is justified by a property you can observe or a substance it contains.
+[chem11-s1.3.0] Vinegar is an acid: it contains ethanoic acid, tastes sour, turns blue litmus red and fizzes with baking soda.
+[chem11-s1.3.1] Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.
+[chem11-s1.3.2] Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.
+[chem11-s1.3.3] Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).
+[chem11-s1.3.4] Baking soda (sodium hydrogencarbonate) is a weak base.
+[chem11-s1.3.5] Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.
+[chem11-s1.3.6] Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid.
+[chem11-s1.4.b] Neutralisation is the reaction of an acid with a base to form a salt and water; the acid and base cancel out each other's properties. This is useful whenever something is too acidic and needs to be corrected.
+[chem11-s1.4.0] Lime in agriculture: crops grow poorly in acidic soil, so farmers spread lime (calcium oxide or calcium hydroxide) or ground limestone (calcium carbonate) to neutralise the acid and raise the soil pH.
+[chem11-s1.4.1] Ground limestone in soil: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂. Here H⁺ stands for the acid in the soil.
+[chem11-s1.4.2] Acid indigestion: the stomach contains hydrochloric acid, and excess acid causes indigestion and heartburn, so a base is taken to remove it.
+[chem11-s1.4.3] Antacid tablets neutralise the excess acid, e.g. Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.
+[chem11-s1.4.4] Sodium hydrogencarbonate in an antacid also neutralises stomach acid: NaHCO₃ + HCl → NaCl + H₂O + CO₂.
+[chem11-s1.4.5] Lime is added to acidic lakes to neutralise the acid, so the water becomes less acidic.
+[chem11-s1.4.6] Toothpaste neutralises plaque acid, and baking soda is a claimed remedy for a bee sting, which is said to be acidic.
+[chem11-s1.5.b] Acid–base reactions produce salts, and the name of a salt comes from the acid and the metal. Knowing this lets you name the product of any acid reaction.
+[chem11-s1.5.0] A salt is a compound formed when the hydrogen of an acid is replaced by a metal ion or an ammonium ion (NH₄⁺).
+[chem11-s1.5.1] Hydrochloric acid gives chlorides, e.g. NaCl, because the chloride ion Cl⁻ is what remains of the acid.
+[chem11-s1.5.2] Sulfuric acid gives sulfates; nitric acid gives nitrates; ethanoic acid gives ethanoates; carbonic acid gives carbonates.
+[chem11-s1.5.3] Sulfuric acid is diprotic, with two replaceable hydrogens, so one mole of it (a fixed amount of substance) reacts with twice as much sodium hydroxide as one mole of hydrochloric acid does.
+[chem11-s1.6.b] General word equation: acid + base → salt + water. A base here includes metal oxides and hydroxides, and ammonia.
+[chem11-s1.6.0] HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l)
+[chem11-s1.6.1] H₂SO₄(aq) + 2KOH(aq) → K₂SO₄(aq) + 2H₂O(l)
+[chem11-s1.6.2] With an insoluble metal oxide: 2HCl(aq) + CuO(s) → CuCl₂(aq) + H₂O(l); the black solid dissolves to give a blue solution.
+[chem11-s1.6.3] With ammonia: NH₃(aq) + HCl(aq) → NH₄Cl(aq); this forms an ammonium salt and no water.
+[chem11-s1.6.4] Ionic equation (showing only the ions that react) for any strong acid and strong alkali: H⁺(aq) + OH⁻(aq) → H₂O(l).
+[chem11-s1.6.5] Neutralisation is exothermic, so it releases heat.
+[chem11-s1.7.b] General word equation: acid + metal → salt + hydrogen. This applies to metals above hydrogen in reactivity, such as magnesium, zinc and iron.
+[chem11-s1.7.0] Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g): the magnesium disappears, the mixture fizzes and the flask gets warm.
+[chem11-s1.7.1] Zn(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂(g).
+[chem11-s1.7.2] Copper does not react with dilute hydrochloric or sulfuric acid, because it is below hydrogen in the electrochemical series (the list of metals in order of reactivity).
+[chem11-s1.7.3] Test for hydrogen: a lighted splint held at the mouth of the tube gives a squeaky pop.
+[chem11-s1.8.b] General word equation: acid + carbonate → salt + water + carbon dioxide. Hydrogencarbonates (compounds containing the HCO₃⁻ ion) behave the same way.
+[chem11-s1.8.0] CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); acids react with carbonates even when the carbonate is insoluble, as calcium carbonate is.
+[chem11-s1.8.1] Na₂CO₃(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.2] Hydrogencarbonates react the same way: NaHCO₃(s) + HCl(aq) → NaCl(aq) + H₂O(l) + CO₂(g).
+[chem11-s1.8.3] Test for carbon dioxide: it turns limewater (a solution of calcium hydroxide) milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).
+[chem11-s1.9.b] Use this method to write the equation for any reaction of an acid. It works because each type of reaction always gives the same pattern of products.
+[chem11-s1.9.0] Step 1: Identify the reaction type from the other reactant: a base, a metal, or a carbonate or hydrogencarbonate.
+[chem11-s1.9.1] Step 2: Name the salt from the metal (or ammonium) ion and the acid.
+[chem11-s1.9.2] Step 3: Add the other products: water for a base; hydrogen for a metal; water and carbon dioxide for a carbonate or hydrogencarbonate.
+[chem11-s1.9.3] Step 4: Balance the equation, so that each element has the same number of atoms on both sides.
+[chem11-s1.9.4] Example: magnesium oxide and nitric acid give MgO(s) + 2HNO₃(aq) → Mg(NO₃)₂(aq) + H₂O(l), magnesium nitrate.
+[chem11-s1.9.5] Example: potassium carbonate and ethanoic acid give K₂CO₃ + 2CH₃COOH → 2CH₃COOK + H₂O + CO₂, potassium ethanoate.
+
+CANDIDATES chem10-s2: 2. Formulae and balancing equations
+[chem10-s2.0.b] A formula can tell you two different things about a compound: the simplest ratio of its atoms, or the exact number of atoms in one molecule. Keeping the two apart is the key to every formula calculation that follows.
+[chem10-s2.0.0] The empirical formula is the simplest whole-number ratio of the atoms of each element in a compound, e.g. CH₂O, which says only that there are two hydrogen atoms and one oxygen atom for every carbon atom.
+[chem10-s2.0.1] The molecular formula is the actual number of atoms of each element in one molecule (a group of atoms bonded together), e.g. C₆H₁₂O₆ for glucose.
+[chem10-s2.0.2] The molecular formula is a whole-number multiple of the empirical formula, so C₆H₁₂O₆ is six times CH₂O.
+[chem10-s2.0.3] For ionic compounds (compounds built from a lattice of positive and negative ions, not separate molecules) the formula is always the empirical formula, e.g. NaCl and MgO, because the formula only gives the simplest ratio of ions.
+[chem10-s2.1.b] Percentage composition tells you what fraction of a compound's mass is made up by one element, or by one part such as water. It uses the relative atomic mass (Ar, the mass of an atom of the element compared with other atoms) and the relative molecular mass (Mr, the sum of the Ar values of all the atoms in the formula).
+[chem10-s2.1.0] Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Mg 24, S 32, Cu 63.5.
+[chem10-s2.1.1] Percentage by mass of an element = (number of atoms of the element × Ar ÷ Mr) × 100. You multiply Ar by the number of atoms because each atom in the formula contributes its mass.
+[chem10-s2.1.2] Example: nitrogen in ammonium nitrate, NH₄NO₃ (Mr = 80): (2 × 14 ÷ 80) × 100 = 35.0%.
+[chem10-s2.1.3] Example: water in hydrated copper(II) sulfate, CuSO₄·5H₂O (Mr = 249.5): (5 × 18 ÷ 249.5) × 100 = 36.1%. Here the 5 water molecules are treated as one part, each with a mass of 18.
+[chem10-s2.2.b] Experiments measure masses or percentages, not atoms, so to get a formula you convert each element to moles (the chemist's counting unit, which lets you compare numbers of atoms) and then find the simplest ratio.
+[chem10-s2.2.0] 1. Write the mass (or percentage) of each element.
+[chem10-s2.2.1] 2. Divide each by its relative atomic mass to get the number of moles, which turns masses into amounts that can be compared atom for atom.
+[chem10-s2.2.2] 3. Divide each by the smallest number of moles to get the ratio, so that the element present in the smallest amount becomes 1.
+[chem10-s2.2.3] 4. If the ratio is not whole (e.g. 1.5 or 1.33), multiply all values by 2 or 3 to get whole numbers.
+[chem10-s2.2.4] Do not round a ratio such as 1.5 to 2; multiply all the values up instead, because rounding changes the ratio of atoms and gives the wrong formula.
+[chem10-s2.2.5] Example from percentages (40.0% C, 6.7% H, 53.3% O): C 40.0 ÷ 12 = 3.33; H 6.7 ÷ 1 = 6.7; O 53.3 ÷ 16 = 3.33.
+[chem10-s2.2.6] Dividing by the smallest value, 3.33, gives H 6.7 ÷ 3.33 = 2.0, so the ratio is 1 : 2 : 1 and the empirical formula is CH₂O.
+[chem10-s2.3.b] When a reaction gives the masses of the elements rather than percentages, the method is the same. Sometimes one mass has to be found by subtraction first, as in this example of magnesium burning in oxygen to form magnesium oxide.
+[chem10-s2.3.0] Example from masses (sample data): 2.40 g of magnesium burns to give 4.00 g of magnesium oxide.
+[chem10-s2.3.1] The mass of oxygen is the mass of oxide minus the mass of metal: 4.00 − 2.40 = 1.60 g, because the extra mass is the oxygen that combined with the magnesium.
+[chem10-s2.3.2] Mg 2.40 ÷ 24 = 0.100 mol and O 1.60 ÷ 16 = 0.100 mol, so equal numbers of moles of each element combined.
+[chem10-s2.3.3] The ratio Mg : O is 1 : 1, so the formula is MgO.
+[chem10-s2.4.b] The empirical formula gives only the simplest ratio. If you also know the relative molecular mass (Mr), you can work out how many empirical units are in one real molecule.
+[chem10-s2.4.0] 1. Divide the relative molecular mass (Mr) by the mass of the empirical formula unit (the sum of the Ar values in the empirical formula).
+[chem10-s2.4.1] 2. Multiply every number in the empirical formula by that result.
+[chem10-s2.4.2] Example: empirical formula CH₂O (mass 30) and Mr = 180: 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆.
+[chem10-s2.4.3] Example: a hydrocarbon (a compound of only carbon and hydrogen) of 85.7% C and 14.3% H, with Mr 56: C 85.7 ÷ 12 = 7.14 and H 14.3 ÷ 1 = 14.3.
+[chem10-s2.4.4] Dividing by 7.14 gives the ratio 1 : 2, so the empirical formula is CH₂ (mass 14).
+[chem10-s2.4.5] 56 ÷ 14 = 4, so the molecular formula is C₄H₈.
+[chem10-s2.5.b] You can find the formula of magnesium oxide by burning a known mass of magnesium and weighing the product. The gain in mass is the oxygen that combined, which gives the mole ratio.
+[chem10-s2.5.0] 1. Weigh a clean crucible (a small heat-proof dish) and lid, add a coiled length of clean magnesium ribbon and reweigh.
+[chem10-s2.5.1] 2. Heat strongly, lifting the lid slightly from time to time to let air in (magnesium needs oxygen to burn) while keeping white smoke (magnesium oxide) from escaping.
+[chem10-s2.5.2] 3. When the magnesium no longer glows, remove the lid and heat strongly for a few more minutes.
+[chem10-s2.5.3] 4. Cool and reweigh, then heat, cool and reweigh again until the mass is constant (it stops changing, which shows the reaction is complete).
+[chem10-s2.5.4] 5. Calculate the masses of magnesium and of oxygen that combined, then their moles and ratio, as in the mass example for empirical formulae.
+[chem10-s2.5.5] Safety: do not look directly at burning magnesium, which is very bright; the crucible is very hot, so use tongs and a heat-proof mat.
+[chem10-s2.5.6] Diagram: a crucible with its lid on a pipeclay triangle (a wire frame with clay-covered sides that holds the crucible), on a tripod over a Bunsen burner; label the crucible, lid, pipeclay triangle, tripod and Bunsen burner.
+[chem10-s2.6.b] Some salts hold water inside their crystals. This water is part of the formula, and heating a sample and measuring the mass lost lets you find how many water molecules there are for each unit of the salt.
+[chem10-s2.6.0] Water of crystallisation is water chemically held in a fixed ratio within the crystals of some salts, shown after a dot in the formula, e.g. CuSO₄·5H₂O and Na₂CO₃·10H₂O.
+[chem10-s2.6.1] Heating to constant mass drives off the water of crystallisation; for example, blue hydrated copper(II) sulfate turns white, becoming anhydrous (without water).
+[chem10-s2.6.2] Example (sample data): 2.50 g of CuSO₄·xH₂O gives 1.60 g of anhydrous CuSO₄ (Mr 159.5) when heated to constant mass.
+[chem10-s2.6.3] Mass of water lost: 2.50 − 1.60 = 0.90 g, because the water is the only thing driven off on heating.
+[chem10-s2.6.4] Moles of water: 0.90 ÷ 18 = 0.050 mol (Mr of H₂O = 18).
+[chem10-s2.6.5] Moles of CuSO₄: 1.60 ÷ 159.5 = 0.0100 mol.
+[chem10-s2.6.6] Ratio of water to CuSO₄ = 0.050 : 0.0100 = 5 : 1, so x = 5 and the formula is CuSO₄·5H₂O.
+[chem10-s2.7.b] A chemical equation is a short way of describing a reaction. It must follow the law of conservation of mass: atoms are neither made nor destroyed, so the equation has to balance.
+[chem10-s2.7.0] A chemical equation shows the reactants (the substances that react, on the left) and the products (the substances formed, on the right), written as formulae.
+[chem10-s2.7.1] A balanced equation has the same number of atoms of each element on both sides, because atoms are conserved (law of conservation of mass).
+[chem10-s2.7.2] State symbols: (s) solid, (l) liquid, (g) gas, (aq) aqueous, meaning dissolved in water.
+[chem10-s2.7.3] The coefficients, the large numbers in front of formulae, give the ratio of moles, or molecules, that react.
+[chem10-s2.7.4] For example, 2H₂ + O₂ → 2H₂O means 2 mol of hydrogen react with 1 mol of oxygen to give 2 mol of water.
+[chem10-s2.8.b] Balancing is done by trial and adjustment, but following the same four steps each time keeps it reliable. The only things you may change are the coefficients.
+[chem10-s2.8.0] 1. Write the correct formula of every reactant and product.
+[chem10-s2.8.1] Never change a formula (the small subscript numbers) to balance an equation; change only the coefficients, because changing a subscript makes a different substance.
+[chem10-s2.8.2] 2. Count the atoms of each element on each side, so you can see which elements are unbalanced.
+[chem10-s2.8.3] 3. Balance by putting coefficients in front of formulae, starting with an element that appears in only one substance on each side.
+[chem10-s2.8.4] Leave hydrogen, oxygen and any element on its own until last, because changing their coefficients disturbs the other elements least at that point.
+[chem10-s2.8.5] 4. Check every element again and make sure the coefficients are the smallest whole numbers.
+[chem10-s2.8.6] Add state symbols to every formula, so the equation shows whether each substance is a solid, liquid, gas or in solution.
+[chem10-s2.8.7] Hydrogen, nitrogen, oxygen, fluorine, chlorine, bromine and iodine are diatomic (their molecules have two atoms) and are written as H₂, N₂, O₂, F₂, Cl₂, Br₂ and I₂.
+[chem10-s2.9.b] Combustion means burning in oxygen. These four equations show how to balance a metal and three fuels, including one that needs a fraction doubled.
+[chem10-s2.9.0] Magnesium burning: 2Mg(s) + O₂(g) → 2MgO(s).
+[chem10-s2.9.1] Methane burning: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).
+[chem10-s2.9.2] Propane burning: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).
+[chem10-s2.9.3] Ethane burning, with the fractional coefficient 3½ for O₂ doubled to give whole numbers: 2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l).
+[chem10-s2.10.b] These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.
+[chem10-s2.10.0] Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).
+[chem10-s2.10.1] Neutralisation: 2NaOH(aq) + H₂SO₄(aq) → Na₂SO₄(aq) + 2H₂O(l).
+[chem10-s2.10.2] Decomposition of hydrogen peroxide: 2H₂O₂(aq) → 2H₂O(l) + O₂(g).
+[chem10-s2.10.3] Calcium carbonate and hydrochloric acid: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).
+[chem10-s2.10.4] Sodium and water: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).
+[chem10-s2.11.b] In a solution, ionic compounds are split into separate ions. An ionic equation leaves out the ions that do nothing, so it shows only what really changes.
+[chem10-s2.11.0] An ionic equation shows only the ions that take part in the reaction, leaving out spectator ions (ions that are unchanged in solution).
+[chem10-s2.11.1] Example: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq) becomes Ag⁺(aq) + Cl⁻(aq) → AgCl(s).
+[chem10-s2.11.2] In that reaction Na⁺ and NO₃⁻ are spectator ions, because they are in solution before and after the reaction.
+[chem10-s2.11.3] Neutralisation of any strong acid by a strong base is H⁺(aq) + OH⁻(aq) → H₂O(l), because only the hydrogen and hydroxide ions react.
+[chem10-s2.11.4] An ionic equation must balance in charge as well as in atoms, because charge is also conserved, e.g. Ag⁺ and Cl⁻ cancel to give neutral AgCl.
+[chem10-s2.12.b] The coefficients in a balanced equation are mole ratios, so the equation tells you how much of one substance reacts with or makes another.
+[chem10-s2.12.0] The balanced equation gives the mole ratio of any two substances in the reaction.
+[chem10-s2.12.1] In propane burning, 1 mol of propane needs 5 mol of oxygen and produces 3 mol of carbon dioxide.
+[chem10-s2.12.2] This mole ratio is the starting point for calculating masses of reactants and products. There is more on this in the chapter Stoichiometry: Limiting Reactants and Percentage Yield.

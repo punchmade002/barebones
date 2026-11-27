@@ -1,0 +1,84 @@
+{
+"homeeconomics-pp-2022-HI-sectionc-personalfinance-Q3": {
+"(a)(i)": ["hom-unemployment-poverty-s1"],
+"(a)(ii)": ["hom-unemployment-poverty-s2"],
+"(a)(iii)": ["hom-unemployment-poverty-s3"],
+"(a)(iv)": ["hom-unemployment-poverty-s6"],
+"(b)(i)": ["hom-work-leisure-s7"],
+"(b)(ii)": ["hom-work-leisure-s8"],
+"(c)(i)": ["hom-education-s2"],
+"(c)(ii)": ["hom-education-s4", "hom-education-s5"]
+},
+"homeeconomics-pp-2022-HI-sectionc-foodpreservation-Q4": {
+"(a)(i)": ["hom-fruit-vegetables-s1"],
+"(a)(ii)": ["hom-food-preservation-s2"],
+"(a)(iii)": ["hom-food-preservation-s7"],
+"(b)(i)": ["hom-meal-planning-s4"],
+"(b)(ii)": ["hom-food-industry-s2"],
+"(c)(i)": ["hom-appliances-equipment-s4"],
+"(c)(ii)": ["hom-appliances-equipment-s2"]
+},
+"homeeconomics-pp-2015-HI-sectiona-proteins-Q1": {
+"(whole)": ["hom-proteins-s8"]
+},
+"homeeconomics-pp-2015-HI-sectiona-carbohydrates-Q2": {
+"(whole)": ["hom-carbohydrates-s2", "hom-carbohydrates-s3"]
+},
+"homeeconomics-pp-2015-HI-sectiona-energynutrition-Q3": {
+"(whole)": ["hom-energy-nutrition-s6"]
+},
+"homeeconomics-pp-2015-HI-sectiona-lipids-Q4": {
+"(whole)": ["hom-lipids-s4"]
+},
+"homeeconomics-pp-2015-HI-sectiona-cerealsgrains-Q5": {
+"(whole)": ["hom-cereals-grains-s1"]
+},
+"homeeconomics-pp-2015-HI-sectiona-foodadditives-Q6": {
+"(whole)": ["hom-food-additives-s6"]
+},
+"homeeconomics-pp-2015-HI-sectiona-cookingmethods-Q7": {
+"(whole)": ["hom-cooking-methods-s4"]
+},
+"homeeconomics-pp-2015-HI-sectiona-foodpreservation-Q8": {
+"(whole)": ["hom-food-safety-s5", "hom-food-preservation-s2"]
+},
+"homeeconomics-pp-2015-HI-sectiona-personalfinance-Q9": {
+"(whole)": ["hom-resource-management-s1", "hom-resource-management-s2"]
+},
+"homeeconomics-pp-2015-HI-sectiona-personalfinance-Q10": {
+"(whole)": ["hom-personal-finance-s3"]
+},
+"homeeconomics-pp-2015-HI-sectiona-appliancesequipment-Q11": {
+"(whole)": ["hom-appliances-equipment-s5"]
+},
+"homeeconomics-pp-2015-HI-sectiona-consumerrights-Q12": {
+"(whole)": ["hom-consumer-rights-s5"]
+},
+"homeeconomics-pp-2015-HI-sectionb-vitaminsminerals-Q1": {
+"(a)": ["hom-meal-planning-s1", "hom-energy-nutrition-s5"],
+"(b)": ["hom-vitamins-minerals-s4", "hom-vitamins-minerals-s5"],
+"(c)(i)": ["hom-meal-planning-s3"],
+"(c)(ii)": ["hom-meal-planning-s3"],
+"(d)": ["hom-meal-planning-s1", "hom-family-caring-s1"]
+},
+"homeeconomics-pp-2015-HI-sectionb-dairyeggs-Q2": {
+"(a)": ["hom-dairy-eggs-s5", "hom-dairy-eggs-s6"],
+"(b)": ["hom-dairy-eggs-s6"]
+},
+"homeeconomics-pp-2015-HI-sectionb-foodsafety-Q3": {
+"(a)": ["hom-food-safety-s1", "hom-food-safety-s3"],
+"(b)": ["hom-food-safety-s1"],
+"(c)": ["hom-food-safety-s4"]
+},
+"homeeconomics-pp-2015-HI-sectionb-personalfinance-Q4": {
+"(a)": ["hom-personal-finance-s1"],
+"(b)": ["hom-personal-finance-s2"],
+"(c)": ["hom-personal-finance-s4"]
+},
+"homeeconomics-pp-2015-HI-sectionb-consumerrights-Q5": {
+"(a)(i)": ["hom-marriage-s1"],
+"(a)(ii)": ["hom-marriage-s1"],
+"(b)": ["hom-marriage-s2"],
+"(c)": ["hom-marriage-s4"]
+}
+}
