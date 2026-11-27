@@ -6115,9 +6115,11 @@ body.onboarding-open .timer-widget {
 .crunch-field { display: grid; gap: 0.45rem; justify-items: start; }
 .crunch-label { color: var(--muted); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
 
-.crunch-readout { display: flex; align-items: flex-end; gap: 0.75rem; margin: 0; }
+/* Two numbers: how much less, and the paper mark that leaves */
+.crunch-readout { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 1.1rem 2.75rem; }
+.crunch-readout p { display: flex; align-items: flex-end; gap: 0.6rem; margin: 0; }
 
-.crunch-hours {
+.crunch-big {
   color: var(--accent-strong);
   font-family: "Archivo", var(--font);
   font-size: clamp(3.4rem, 9vw, 4.75rem);
@@ -6127,7 +6129,10 @@ body.onboarding-open .timer-widget {
   line-height: 0.82;
 }
 
-.crunch-hours-unit { padding-bottom: 0.3rem; color: var(--ink); font-family: "Archivo", var(--font); font-size: 1.6rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1; text-transform: uppercase; }
+.crunch-big-unit { display: grid; justify-items: start; gap: 0.35rem; max-width: 9ch; padding-bottom: 0.15rem; color: var(--ink); font-family: "Archivo", var(--font); font-size: 1.25rem; font-weight: 800; letter-spacing: -0.02em; line-height: 0.95; text-transform: uppercase; }
+.crunch-mark .crunch-big { color: var(--ink); }
+.crunch-mark .crunch-big-unit { max-width: 11ch; }
+.crunch-big-unit small { padding: 0.2rem 0.5rem; border-radius: var(--r-full); background: var(--accent); color: #fffaf5; font-family: var(--font); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.02em; line-height: 1; }
 
 /* See how: a link to the blog post that explains Crunch Mode */
 .crunch-how {
@@ -6161,15 +6166,11 @@ body.onboarding-open .timer-widget {
 .crunch-bar .crunch-foot,
 .crunch-bar .crunch-how { border-color: rgba(237, 235, 230, 0.22); color: #D8D4CB; }
 .crunch-bar .crunch-how:hover { border-color: var(--accent-3); color: var(--accent-3); }
-.crunch-bar .crunch-hours { color: var(--accent-3); }
-.crunch-bar .crunch-hours-unit { color: #F6F4EF; }
+.crunch-bar .crunch-big { color: var(--accent-3); }
+.crunch-bar .crunch-mark .crunch-big,
+.crunch-bar .crunch-big-unit { color: #F6F4EF; }
 .crunch-bar .crunch-why { color: #C9C5BC; }
-.crunch-bar .crunch-grades { background: rgba(237, 235, 230, 0.06); border-color: rgba(237, 235, 230, 0.14); }
-.crunch-bar .crunch-grades button { color: #D8D4CB; }
-.crunch-bar .crunch-grades button:hover { color: var(--accent-3); }
-.crunch-bar .crunch-grades button[aria-checked="true"] { color: #fffaf5; }
-.crunch-bar .crunch-aac { --track: #34312B; --notch: rgba(237, 235, 230, 0.3); }
-.crunch-bar .crunch-aac output { color: var(--accent-3); }
+.crunch-bar .crunch-cut { --track: #34312B; --notch: rgba(237, 235, 230, 0.3); }
 .crunch-bar .crunch-ticks { color: #9C988E; }
 .crunch-bar .button-secondary { background: transparent; border-color: rgba(237, 235, 230, 0.22); color: #EDEBE6; }
 
@@ -6274,57 +6275,41 @@ body.onboarding-open .timer-widget {
 .crunch-switch input:focus-visible + .crunch-switch-track { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .crunch-setup { --crunch-control-w: min(100%, 38rem); }
-/* Options the student studies (Geography, History) */
-.crunch-picks { display: flex; flex-wrap: wrap; gap: 0.4rem; width: var(--crunch-control-w); }
-.crunch-picks button {
-  width: auto;
-  padding: 0.4rem 0.8rem;
-  background: var(--panel-2);
+/* The student's course (Geography's elective/option/region, History's topics): one row of dropdowns */
+.crunch-picks { display: flex; flex-wrap: wrap; gap: 0.5rem 0.6rem; width: 100%; }
+.crunch-pick { display: grid; flex: 1 1 10rem; gap: 0.2rem; min-width: 0; max-width: 16rem; }
+.crunch-pick span { color: var(--muted); font-size: 0.72rem; font-weight: 600; }
+.crunch-pick select {
+  width: 100%;
+  padding: 0.45rem 2rem 0.45rem 0.75rem;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--panel-2) no-repeat;
+  /* the chevron, two halves in the text colour */
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: right 1rem center, right 0.7rem center;
+  background-size: 0.3rem 0.3rem;
   border: 1.5px solid var(--line);
-  border-radius: var(--r-full);
-  box-shadow: none;
-  color: var(--ink-2);
-  font-size: 0.85rem;
+  border-radius: var(--r-md);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.88rem;
   font-weight: 600;
-  text-align: left;
+  text-overflow: ellipsis;
+  cursor: pointer;
 }
-.crunch-picks button:hover { border-color: var(--accent-light); background: var(--panel-2); color: var(--accent-strong); transform: none; }
-.crunch-picks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fffaf5; }
+.crunch-pick select:hover { border-color: var(--accent-light); }
+.crunch-pick select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .crunch-label small { font-weight: 600; letter-spacing: 0; text-transform: none; }
-.crunch-bar .crunch-picks button { background: rgba(237, 235, 230, 0.06); border-color: rgba(237, 235, 230, 0.14); color: #D8D4CB; }
-.crunch-bar .crunch-picks button:hover { border-color: var(--accent-3); color: var(--accent-3); }
-.crunch-bar .crunch-picks button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fffaf5; }
-.crunch-grades {
-  display: flex;
-  width: var(--crunch-control-w);
-  padding: 0.2rem;
-  background: var(--panel-2);
-  border: 1.5px solid var(--line);
-  border-radius: var(--r-full);
-}
+.crunch-bar .crunch-pick span { color: #9C988E; }
+.crunch-bar .crunch-pick select { background-color: rgba(237, 235, 230, 0.06); border-color: rgba(237, 235, 230, 0.14); color: #EDEBE6; }
+.crunch-bar .crunch-pick select:hover { border-color: var(--accent-3); }
+.crunch-bar .crunch-pick option { background: #1F1D1A; color: #EDEBE6; }
 
-.crunch-grades button {
-  flex: 1;
-  width: auto;
-  min-width: 2.4rem;
-  padding: 0.3rem 0.55rem;
-  background: none;
-  border: 0;
-  border-radius: var(--r-full);
-  box-shadow: none;
-  color: var(--ink-2);
-  font-size: 0.82rem;
-  font-weight: 600;
-}
+/* Cut slider: 5% steps with a notch at each one, drawn on the track and inset by half the thumb so notches meet its centre */
+.crunch-cut { --thumb: 1.3rem; --track: var(--panel-3); --notch: rgba(26, 25, 22, 0.3); width: var(--crunch-control-w); justify-items: stretch; }
 
-.crunch-grades button:hover { color: var(--accent-strong); background: none; transform: none; }
-.crunch-grades button[aria-checked="true"] { background: var(--accent); color: #fffaf5; box-shadow: var(--so); }
-
-/* AAC slider: 5% steps with a notch at each one, drawn on the track and inset by half the thumb so notches meet its centre */
-.crunch-aac { --thumb: 1.3rem; --track: var(--panel-3); --notch: rgba(26, 25, 22, 0.3); width: var(--crunch-control-w); justify-items: stretch; }
-.crunch-aac output { margin-left: 0.35rem; color: var(--accent-strong); font-variant-numeric: tabular-nums; letter-spacing: 0; }
-
-.crunch-aac input[type="range"] {
+.crunch-cut input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -6337,26 +6322,26 @@ body.onboarding-open .timer-widget {
   cursor: pointer;
 }
 
-.crunch-aac input[type="range"]::-webkit-slider-runnable-track {
+.crunch-cut input[type="range"]::-webkit-slider-runnable-track {
   height: 0.6rem;
   border-radius: var(--r-full);
   background:
-    repeating-linear-gradient(to right, var(--notch) 0 2px, transparent 2px calc((100% - var(--thumb)) / 20)) calc(var(--thumb) / 2 - 1px) 0 / calc(100% - var(--thumb) + 2px) 100% no-repeat,
+    repeating-linear-gradient(to right, var(--notch) 0 2px, transparent 2px calc((100% - var(--thumb)) / var(--steps, 20))) calc(var(--thumb) / 2 - 1px) 0 / calc(100% - var(--thumb) + 2px) 100% no-repeat,
     linear-gradient(var(--accent), var(--accent)) 0 0 / calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--fill-n, 0)) 100% no-repeat,
     var(--track);
 }
 
-.crunch-aac input[type="range"]::-moz-range-track {
+.crunch-cut input[type="range"]::-moz-range-track {
   height: 0.6rem;
   border-radius: var(--r-full);
   background:
-    repeating-linear-gradient(to right, var(--notch) 0 2px, transparent 2px calc((100% - var(--thumb)) / 20)) calc(var(--thumb) / 2 - 1px) 0 / calc(100% - var(--thumb) + 2px) 100% no-repeat,
+    repeating-linear-gradient(to right, var(--notch) 0 2px, transparent 2px calc((100% - var(--thumb)) / var(--steps, 20))) calc(var(--thumb) / 2 - 1px) 0 / calc(100% - var(--thumb) + 2px) 100% no-repeat,
     var(--track);
 }
 
-.crunch-aac input[type="range"]::-moz-range-progress { height: 0.6rem; border-radius: var(--r-full); background: var(--accent); }
+.crunch-cut input[type="range"]::-moz-range-progress { height: 0.6rem; border-radius: var(--r-full); background: var(--accent); }
 
-.crunch-aac input[type="range"]::-webkit-slider-thumb {
+.crunch-cut input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: var(--thumb);
   height: var(--thumb);
@@ -6367,7 +6352,7 @@ body.onboarding-open .timer-widget {
   box-shadow: var(--s1);
 }
 
-.crunch-aac input[type="range"]::-moz-range-thumb {
+.crunch-cut input[type="range"]::-moz-range-thumb {
   width: var(--thumb);
   height: var(--thumb);
   box-sizing: border-box;
@@ -6376,9 +6361,9 @@ body.onboarding-open .timer-widget {
   background: #fffaf5;
 }
 
-.crunch-aac input[type="range"]:focus-visible { outline: none; }
-.crunch-aac input[type="range"]:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--accent-3); outline-offset: 2px; }
-.crunch-aac input[type="range"]:focus-visible::-moz-range-thumb { outline: 2px solid var(--accent-3); outline-offset: 2px; }
+.crunch-cut input[type="range"]:focus-visible { outline: none; }
+.crunch-cut input[type="range"]:focus-visible::-webkit-slider-thumb { outline: 2px solid var(--accent-3); outline-offset: 2px; }
+.crunch-cut input[type="range"]:focus-visible::-moz-range-thumb { outline: 2px solid var(--accent-3); outline-offset: 2px; }
 
 .crunch-ticks { display: flex; justify-content: space-between; padding-inline: calc(var(--thumb) / 2 - 0.3rem); color: var(--muted); font-size: 0.75rem; font-variant-numeric: tabular-nums; }
 
@@ -6431,8 +6416,7 @@ body.onboarding-open .timer-widget {
   .crunch-go svg { inset: 0.75rem 1rem 0; width: calc(100% - 2rem); height: calc(100% - 0.75rem); }
   .crunch-bar .crunch-setup { margin-inline: 1rem; }
   .crunch-field { justify-items: stretch; }
-  .crunch-grades { width: 100%; justify-content: space-between; }
-  .crunch-grades button { min-width: 0; flex: 1; padding-inline: 0; }
+  .crunch-pick { max-width: none; }
 }
 
 .notes-enter-next { animation: notes-enter-next 260ms var(--ease) both; }

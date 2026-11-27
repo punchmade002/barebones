@@ -393,3 +393,17 @@ Built the History way: Sonnet subsection graphs (2 and 4 batches), then `parts.p
 - Textiles paper: Elective 2's Section C is 40 marks, so the paper is out of 280. `groupsByPick` in `crunch_map.py` gives that course its own group shares, and `crunchCourse` (crunch-score.js) uses them when the pick is on.
 - Cuts at 88/72/55/38% are 33/49/66/79%. That's 118 h of notes, and 1,773 cards are matched. At 80% coursework an H4 needs 61% written (59% for Textiles), which cuts 70% of Design, 74% of Textiles and 67% of Social Studies.
 - With the Textiles paper modelled, the per-course curves beat the plain averages: 0.3 vs 0.8 points off at 72% across the 3 electives.
+
+## Study-less slider (2026-11-27, user's call)
+The target-grade picker (H1–H8) and the AAC slider are gone. The student picks how much less to study (a slider in
+5% steps), and Crunch shows the expected paper mark: the level of the last point cut, with its grade (H1 is 90+).
+- `crunchOrder` sorts the course's points least-needed first, with the running share of study time. `crunchAt` walks
+  it to the chosen cut. `crunchMaxCut` stops the slider before the mark falls under 30%. Tests: `tests/crunch-cut.test.cjs`.
+- The H3 "first pass" for H1/H2 is gone: one threshold now. "Completely hide" hides every cut point instead of only
+  those past the old target.
+- Settings store `cut` (default 30). Old `grade` and `aac` values are ignored, so existing students start at 30%.
+- Course picks are one row of dropdowns ("Your course"). History's two topics per section are two dropdowns, and picking
+  the other one's topic swaps them.
+- The AAC weight (including Home Ec's Textiles `pickWeight`) is no longer used by the app: the mark shown is the paper alone.
+- Open question: History's default course curve maps most points to about 100, so the mark stays at 99–100% up to about
+  85% less study. The old picker had the same behaviour (an H1 cut over 80%). It needs a look at the backtest.
