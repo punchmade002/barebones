@@ -1,5 +1,36 @@
 {
- "hom-appliances-equipment-s1": [],
+ "hom-appliances-equipment-s1": [
+  {
+   "needs": "hom-resource-management-s1",
+   "strength": "helpful",
+   "why": "uses home management of time, money and energy",
+   "confidence": "high"
+  },
+  {
+   "needs": "hom-personal-finance-s2",
+   "strength": "helpful",
+   "why": "uses household budgeting and running costs",
+   "confidence": "high"
+  },
+  {
+   "needs": "hom-personal-finance-s3",
+   "strength": "helpful",
+   "why": "uses online banking and payment methods",
+   "confidence": "low"
+  },
+  {
+   "needs": "hom-environmental-issues-s1",
+   "strength": "helpful",
+   "why": "uses renewable energy such as solar panels",
+   "confidence": "high"
+  },
+  {
+   "needs": "hom-environmental-issues-s2",
+   "strength": "helpful",
+   "why": "uses electrical waste disposal",
+   "confidence": "low"
+  }
+ ],
  "hom-appliances-equipment-s2": [
   {
    "needs": "hom-consumer-rights-s1",

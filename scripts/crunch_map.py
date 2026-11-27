@@ -27,8 +27,9 @@ AAC = {"biology": {"name": "Biology in Practice Investigation", "weight": 0.4},
        "geography": {"name": "Geographical Investigation", "weight": 0.2},
        "history": {"name": "Research Study Report", "weight": 0.2},
        "chemistry": {"name": "Chemistry in Practice Investigation", "weight": 0.4},
-       # shortcut: Textiles (Elective 2) students' extra 10% coursework isn't modelled; add it if the app asks for the elective first
-       "home-economics": {"name": "Food Studies coursework", "short": "coursework", "weight": 0.2},
+       # Textiles (Elective 2) students also submit Textiles, Fashion and Design coursework (10%): 30% in all, one slider
+       "home-economics": {"name": "Food Studies coursework", "short": "coursework", "weight": 0.2,
+                          "pickWeight": {"elective:textiles": 0.3}},
        # PE's coursework is two parts, the Physical Activity Project (20%) and the Performance Assessment (30%)
        "pe": {"name": "coursework (project and performance)", "short": "coursework", "weight": 0.5}}
 
@@ -130,8 +131,9 @@ SUBJECTS = {
     "chemistry": {"groups": {"Q1": [1 / 6, None], "rest": [5 / 6, 5 / 6]},
                   "question": lambda q: ("Q1" if q["id"].endswith("-q4") else "rest", ""), "track": lambda sid: ""},
     # HL 320: Section A best 10 of 12-14 (60), Section B Q1 (80) and two of Q2-5 (100), Section C one question (80).
-    # shortcut: Elective 2's Section C is 40 marks (paper out of 280); modelled as 80, so Textiles shares are a little high.
+    # Elective 2 (Textiles) students' Section C is 40 marks, so their paper is out of 280 (groupsByPick).
     "home-economics": {"groups": {"A": [60 / 320, 10], "B1": [80 / 320, None], "B": [100 / 320, 2], "C": [80 / 320, 1]},
+                       "groupsByPick": {"elective:textiles": {"A": [60 / 280, 10], "B1": [80 / 280, None], "B": [100 / 280, 2], "C": [40 / 280, 1]}},
                        "question": hom_question, "track": hom_track,
                        "picks": {"elective": [["elective:design", "Home Design and Management"],
                                               ["elective:textiles", "Textiles, Fashion and Design"],
@@ -281,7 +283,7 @@ def main(subject):
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(
         {"subject": subject, "chapters": chapters, "subs": subs, "items": rows, "links": links, "papers": paper_list,
-         "groups": cfg["groups"], "picks": cfg.get("picks", {}), "pickCount": cfg.get("pickCount", {}), "aac": AAC.get(subject)},
+         "groups": cfg["groups"], **({"groupsByPick": cfg["groupsByPick"]} if "groupsByPick" in cfg else {}), "picks": cfg.get("picks", {}), "pickCount": cfg.get("pickCount", {}), "aac": AAC.get(subject)},
         ensure_ascii=False, separators=(",", ":")))
     print(f"{len(rows)} items, {len(links)} links, {len(subs)} subsections, {len(chapters)} chapters, "
           f"{len(paper_list)} papers ({len(tags)} questions tagged to points) → {out / 'data.json'}")

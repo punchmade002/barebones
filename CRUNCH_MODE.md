@@ -387,8 +387,9 @@ Built the History way: Sonnet subsection graphs (2 and 4 batches), then `parts.p
 - Exam links: the bank predates the exam-bank rebuild, so it has no `level` (the id's `-HI-` says Higher) and no `notesRefs`. Haiku linked all 458 HL questions (1,143 parts) to subsections in 22 batches, the way the rebuild's scan does. `drafts/crunch/home-economics/exam-refs/refs.py` writes `content/crunch/home-economics-exam-refs.json`, and `crunch_map.py` fills missing `notesRefs` from it. Drop the file once the rebuilt bank has its own.
 - Paper structure: A is best 10 of 12–14 (60). B is Q1 (80) plus two of Q2–5 (100). C is one question (80): Q1–3 are Electives 1–3, and Q4 (since 2021) is a Core question anyone may take.
 - Electives: these come from each subsection's syllabus area. 4.x is Home Design and Management, 5.x is Textiles, Fashion and Design, and 6.x is Social Studies; 1–3 are the Core. The subsection graph never links Core to an elective, or one elective to another.
-- Point graph: 10,262 items, 4,321 links, 1,670 cost-2 items, 14 loops. That came from 201 packages in 68 jobs.
-- Coursework: Food Studies is 20%.
-- Cuts at 88/72/55/38% are 32/49/65/79%. That's 118 h of notes, and 1,773 cards are matched.
-- Not modelled: Elective 2's Section C is 40 marks (the paper is out of 280), and Textiles students do another 10% of coursework.
-- The per-course curves are slightly worse than the plain averages here: 1.2 vs 0.4 points off at 72% across the 3 electives.
+- Point graph: 10,262 items, 4,329 links, 1,670 cost-2 items, 14 loops. That came from 201 packages in 68 jobs.
+- Starved package: the household appliances intro (`hom-appliances-equipment-s1`) had no subsection prereqs, so its package had no candidates and got 2 links for 42 points. Prereqs were added in `prereqs-1.json` (resource management, personal finance, environmental issues) and the package was re-rated: it now has 10 links. The first try is in `tmp/first-try/`. 21 other subsections still have no prereqs; most are chapter openers.
+- Coursework: Food Studies is 20%. Textiles (Elective 2) students also submit Textiles, Fashion and Design coursework (10%), so `aac.pickWeight` gives them 30% in all, on the same slider (`crunchNeed` in app.js).
+- Textiles paper: Elective 2's Section C is 40 marks, so the paper is out of 280. `groupsByPick` in `crunch_map.py` gives that course its own group shares, and `crunchCourse` (crunch-score.js) uses them when the pick is on.
+- Cuts at 88/72/55/38% are 33/49/66/79%. That's 118 h of notes, and 1,773 cards are matched. At 80% coursework an H4 needs 61% written (59% for Textiles), which cuts 70% of Design, 74% of Textiles and 67% of Social Studies.
+- With the Textiles paper modelled, the per-course curves beat the plain averages: 0.3 vs 0.8 points off at 72% across the 3 electives.

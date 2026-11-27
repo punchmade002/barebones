@@ -4,10 +4,10 @@ Tick to keep; write a note on any you'd change or drop.
 
 ## Cycles (drop at least one link in each)
 
-**hom-consumer-rights-s1 → hom-personal-finance-s3 → hom-consumer-rights-s1**
+**hom-personal-finance-s3 → hom-consumer-rights-s1 → hom-personal-finance-s3**
 
-- [ ] `hom-consumer-rights-s1` needs `hom-personal-finance-s3` (helpful): uses hire purchase and credit payment methods
 - [ ] `hom-personal-finance-s3` needs `hom-consumer-rights-s1` (helpful): hire purchase and easy-pay schemes
+- [ ] `hom-consumer-rights-s1` needs `hom-personal-finance-s3` (helpful): uses hire purchase and credit payment methods
 
 **hom-environmental-issues-s2 → hom-food-additives-s2 → hom-environmental-issues-s2**
 
@@ -29,15 +29,28 @@ Tick to keep; write a note on any you'd change or drop.
 - [ ] `hom-food-additives-s2` needs `hom-food-safety-s9` (helpful): legal labelling and allergen requirements
 - [ ] `hom-food-safety-s9` needs `hom-food-additives-s2` (helpful): labelling requirements and nutrition declarations
 
-**hom-appliances-equipment-s2 → hom-environmental-issues-s2 → hom-appliances-equipment-s2**
+**hom-environmental-issues-s2 → hom-appliances-equipment-s2 → hom-environmental-issues-s2**
 
-- [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s2` (helpful): uses WEEE disposal and recycling of appliances
 - [ ] `hom-environmental-issues-s2` needs `hom-appliances-equipment-s2` (helpful): environmentally responsible appliance disposal
+- [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s2` (helpful): uses WEEE disposal and recycling of appliances
 
 **hom-appliances-equipment-s2 → hom-environmental-issues-s4 → hom-appliances-equipment-s2**
 
 - [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s4` (helpful): uses reading the appliance energy label
 - [ ] `hom-environmental-issues-s4` needs `hom-appliances-equipment-s2` (essential): EU energy label and energy-efficient appliance choice
+
+**hom-appliances-equipment-s1 → hom-environmental-issues-s2 → hom-appliances-equipment-s2 → hom-environmental-issues-s4 → hom-appliances-equipment-s1**
+
+- [ ] `hom-appliances-equipment-s1` needs `hom-environmental-issues-s2` (helpful): uses electrical waste disposal
+- [ ] `hom-environmental-issues-s2` needs `hom-appliances-equipment-s2` (helpful): environmentally responsible appliance disposal
+- [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s4` (helpful): uses reading the appliance energy label
+- [ ] `hom-environmental-issues-s4` needs `hom-appliances-equipment-s1` (helpful): energy and running-cost control in the home
+
+**hom-environmental-issues-s2 → hom-appliances-equipment-s2 → hom-environmental-issues-s4 → hom-environmental-issues-s2**
+
+- [ ] `hom-environmental-issues-s2` needs `hom-appliances-equipment-s2` (helpful): environmentally responsible appliance disposal
+- [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s4` (helpful): uses reading the appliance energy label
+- [ ] `hom-environmental-issues-s4` needs `hom-environmental-issues-s2` (helpful): waste hierarchy and reducing food and household waste
 
 **hom-proteins-s5 → hom-carbohydrates-s4 → hom-proteins-s5**
 
@@ -124,8 +137,10 @@ Tick to keep; write a note on any you'd change or drop.
 - [ ] `hom-home-services-s2` needs `hom-home-services-s5` (helpful): heat transfer and heating controls
 - [ ] `hom-home-services-s5` needs `hom-home-services-s2` (helpful): heat loss and energy-saving strategies
 
-## Low confidence (151)
+## Low confidence (153)
 
+- [ ] `hom-appliances-equipment-s1` needs `hom-environmental-issues-s2` (helpful): uses electrical waste disposal
+- [ ] `hom-appliances-equipment-s1` needs `hom-personal-finance-s3` (helpful): uses online banking and payment methods
 - [ ] `hom-appliances-equipment-s2` needs `hom-environmental-issues-s2` (helpful): uses WEEE disposal and recycling of appliances
 - [ ] `hom-appliances-equipment-s3` needs `hom-cooking-methods-s5` (helpful): uses safe use of electrical kitchen appliances
 - [ ] `hom-appliances-equipment-s5` needs `hom-cooking-methods-s2` (helpful): uses heat transfer in the refrigeration cycle
@@ -280,33 +295,33 @@ Tick to keep; write a note on any you'd change or drop.
 
 ## Random sample of high confidence (30)
 
-- [ ] `hom-cereals-grains-s4` needs `hom-cereals-grains-s3` (essential): uses gluten and flour types for raising
-- [ ] `hom-cooking-methods-s1` needs `hom-carbohydrates-s4` (essential): uses gelatinisation, caramelisation and dextrinisation
-- [ ] `hom-dairy-eggs-s1` needs `hom-energy-nutrition-s4` (helpful): uses healthy eating guidelines for dairy
+- [ ] `hom-cereals-grains-s3` needs `hom-cereals-grains-s1` (essential): uses grain structure in milling and white versus wholemeal
+- [ ] `hom-consumer-rights-s6` needs `hom-consumer-rights-s4` (essential): uses statutory rights and remedies for faulty goods
+- [ ] `hom-cooking-methods-s6` needs `hom-cooking-methods-s3` (helpful): uses cooking methods when modifying recipes
+- [ ] `hom-cooking-methods-s7` needs `hom-cooking-methods-s5` (helpful): uses equipment in practical coursework
 - [ ] `hom-dairy-eggs-s1` needs `hom-proteins-s4` (helpful): uses casein and albumin in milk
-- [ ] `hom-dairy-eggs-s2` needs `hom-food-preservation-s3` (essential): uses pasteurisation, sterilisation and UHT principles
-- [ ] `hom-education-s4` needs `hom-sociological-concepts-s4` (essential): uses education and equality of opportunity concept
-- [ ] `hom-education-s5` needs `hom-education-s3` (essential): uses structure of education provision
-- [ ] `hom-family-society-s5` needs `hom-sociological-concepts-s4` (helpful): institutions adopting or supplementing family functions
-- [ ] `hom-fish-seafood-s3` needs `hom-proteins-s5` (helpful): protein denaturation and coagulation on heating
-- [ ] `hom-food-preservation-s5` needs `hom-food-preservation-s1` (essential): osmosis and micro-organism growth conditions
-- [ ] `hom-food-preservation-s7` needs `hom-food-preservation-s1` (helpful): micro-organisms and spoilage being destroyed
-- [ ] `hom-food-safety-s6` needs `hom-food-safety-s3` (essential): conditions for microbial growth and its control
+- [ ] `hom-education-s1` needs `hom-sociological-concepts-s3` (essential): uses socialisation and agents of socialisation
+- [ ] `hom-education-s4` needs `hom-education-s2` (helpful): uses factors that influence achievement
+- [ ] `hom-family-society-s4` needs `hom-sociological-concepts-s5` (essential): social, economic, technological causes of change
+- [ ] `hom-fish-seafood-s2` needs `hom-food-preservation-s2` (helpful): principle and effects of freezing
+- [ ] `hom-food-preservation-s3` needs `hom-food-preservation-s1` (essential): destroying micro-organisms with heat
+- [ ] `hom-food-preservation-s6` needs `hom-food-safety-s1` (essential): yeast and mould structure and growth
+- [ ] `hom-food-safety-s4` needs `hom-food-safety-s1` (essential): moulds, yeasts and bacterial cell structure
 - [ ] `hom-fruit-vegetables-s1` needs `hom-energy-nutrition-s4` (helpful): healthy eating guidelines and servings
+- [ ] `hom-fruit-vegetables-s1` needs `hom-vitamins-minerals-s2` (helpful): vitamin C and folate in produce
 - [ ] `hom-fruit-vegetables-s3` needs `hom-cooking-methods-s1` (essential): nutrient loss and browning during cooking
-- [ ] `hom-fruit-vegetables-s4` needs `hom-food-preservation-s2` (essential): freezing principle and quick freezing
-- [ ] `hom-home-services-s2` needs `hom-home-services-s1` (helpful): fuels whose burning causes emissions
-- [ ] `hom-housing-s2` needs `hom-personal-finance-s3` (essential): credit, interest and cost of credit
-- [ ] `hom-housing-s2` needs `hom-personal-finance-s4` (helpful): saving for a deposit
-- [ ] `hom-lipids-s4` needs `hom-lipids-s2` (essential): triglyceride structure and composition
-- [ ] `hom-marriage-s2` needs `hom-family-society-s1` (helpful): terms for marriage and families in other societies
-- [ ] `hom-meal-planning-s2` needs `hom-vitamins-minerals-s2` (helpful): folate in pregnancy
-- [ ] `hom-meal-planning-s4` needs `hom-proteins-s7` (essential): complementation of plant proteins
+- [ ] `hom-home-interior-s2` needs `hom-home-interior-s3` (helpful): wood and fabric materials
+- [ ] `hom-home-services-s6` needs `hom-home-services-s2` (helpful): heat loss routes being reduced
+- [ ] `hom-home-services-s8` needs `hom-home-services-s3` (essential): wattage, kilowatt-hour and electrical safety
+- [ ] `hom-lipids-s3` needs `hom-lipids-s1` (essential): saturated, mono- and polyunsaturated classification
+- [ ] `hom-lipids-s6` needs `hom-lipids-s1` (helpful): saturated and unsaturated fat content
+- [ ] `hom-meal-planning-s2` needs `hom-energy-nutrition-s1` (essential): energy requirements and BMR factors
+- [ ] `hom-meal-planning-s3` needs `hom-vitamins-minerals-s4` (essential): calcium and osteoporosis, iron
+- [ ] `hom-meat-preparation-s2` needs `hom-food-safety-s9` (helpful): food law, labelling and date marks
 - [ ] `hom-meat-preparation-s3` needs `hom-cooking-methods-s2` (essential): conduction, convection and radiation
-- [ ] `hom-meat-preparation-s4` needs `hom-food-preservation-s1` (essential): spoilage causes and preservation principles
-- [ ] `hom-meat-preparation-s4` needs `hom-food-preservation-s4` (helpful): dehydration principle
+- [ ] `hom-meat-preparation-s4` needs `hom-food-preservation-s5` (essential): curing with salt as chemical preservation
+- [ ] `hom-proteins-s2` needs `hom-proteins-s1` (essential): structure is built from amino acids and peptide bonds
 - [ ] `hom-proteins-s5` needs `hom-proteins-s2` (essential): denaturation unfolds secondary and tertiary structure
-- [ ] `hom-proteins-s7` needs `hom-proteins-s1` (essential): biological value rests on essential amino acids
-- [ ] `hom-social-change-s4` needs `hom-family-caring-s1` (helpful): traditional and changing family roles
-- [ ] `hom-unemployment-poverty-s3` needs `hom-unemployment-poverty-s1` (helpful): types and extent of unemployment
-- [ ] `hom-work-leisure-s5` needs `hom-family-caring-s1` (helpful): family roles and role conflict
+- [ ] `hom-social-change-s3` needs `hom-education-s3` (helpful): provision of education in Ireland
+- [ ] `hom-textiles-fibres-s4` needs `hom-textiles-fibres-s3` (essential): fibre classification, sources and manufacture
+- [ ] `hom-vitamins-minerals-s5` needs `hom-vitamins-minerals-s2` (helpful): vitamin C aids iron absorption

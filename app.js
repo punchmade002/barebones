@@ -5082,7 +5082,9 @@ function mergeCrunchSettings(...maps) {
 // The written-paper mark needed: the AAC is marked separately, so the notes only have to cover the rest.
 function crunchNeed(data, settings) {
   const grade = (CRUNCH_GRADES.find(([h]) => h === settings.grade) || CRUNCH_GRADES[4])[1];
-  const w = data.aac?.weight || 0;
+  // a pick can add coursework (Home Ec Textiles: 30% in all, not 20%)
+  const picked = Object.values(crunchPicks(data, settings) || {}).flat();
+  const w = picked.map((t) => data.aac?.pickWeight?.[t]).find((x) => x != null) ?? (data.aac?.weight || 0);
   const aac = Math.max(0, Math.min(100, Number(settings.aac) || 0));
   return w ? (grade - w * aac) / (1 - w) : grade;
 }
@@ -5152,7 +5154,7 @@ function crunchPageNote() {
 }
 
 // Subjects with Crunch data. The file loads with the subject page itself: the home shows the Crunch bar or tile.
-const CRUNCH_FILES = { biology: "./biology-crunch.js?v=4", pe: "./pe-crunch.js?v=4", geography: "./geography-crunch.js?v=2", history: "./history-crunch.js?v=2", chemistry: "./chemistry-crunch.js?v=1", "home-economics": "./home-economics-crunch.js?v=1", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
+const CRUNCH_FILES = { biology: "./biology-crunch.js?v=4", pe: "./pe-crunch.js?v=4", geography: "./geography-crunch.js?v=2", history: "./history-crunch.js?v=2", chemistry: "./chemistry-crunch.js?v=1", "home-economics": "./home-economics-crunch.js?v=2", maths: ["./maths-crunch.js?v=1", "./maths-ordinary-crunch.js?v=1"] };
 let crunchDraft = null; // the bar's setup before it is saved: { grade, aac }
 let crunchJustSet = false; // the tile's first appearance gets an entrance
 

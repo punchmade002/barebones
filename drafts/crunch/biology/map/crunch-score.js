@@ -27,7 +27,9 @@
     const papers = (D.papers || []).map(p => ({ year: p.year, qs: p.qs.filter(q => on(q.need))
       .map(q => ({ ...q, slots: q.slots.map(([m, k, o]) => [m, k, o.filter(i => keep[i]).map(i => at[i])]).filter(x => x[2].length) }))
       .filter(q => q.slots.length) }));
-    return { ...D, items: D.items.filter((_, i) => keep[i]), links: D.links.filter(([a, b]) => keep[a] && keep[b]).map(([a, b, e]) => [at[a], at[b], e]),
+    // a pick can change the paper itself (Home Ec Textiles: Section C is 40 marks, so the paper is out of 280)
+    const groups = Object.entries(D.groupsByPick || {}).find(([t]) => on(t))?.[1];
+    return { ...D, ...(groups ? { groups } : {}), items: D.items.filter((_, i) => keep[i]), links: D.links.filter(([a, b]) => keep[a] && keep[b]).map(([a, b, e]) => [at[a], at[b], e]),
       papers, notInCourse: D.items.length - n };
   };
   function scc(N, needs) {

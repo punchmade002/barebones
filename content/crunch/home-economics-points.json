@@ -2,7 +2,14 @@
 "hom-appliances-equipment-s1.0.b": {
 "hash": "acd596ca",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-resource-management-s1.0.0",
+"strength": "helpful",
+"why": "uses managing time, money, energy as resources",
+"confidence": "high"
+}
+]
 },
 "hom-appliances-equipment-s1.0.0": {
 "hash": "b5629022",
@@ -12,7 +19,14 @@
 "hom-appliances-equipment-s1.0.1": {
 "hash": "a9abcaf3",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-resource-management-s1.1.1",
+"strength": "helpful",
+"why": "uses improving quality of family life",
+"confidence": "low"
+}
+]
 },
 "hom-appliances-equipment-s1.0.2": {
 "hash": "3c82e704",
@@ -32,14 +46,7 @@
 "hom-appliances-equipment-s1.0.5": {
 "hash": "b577959f",
 "cost": 1,
-"needs": [
-{
-"id": "hom-appliances-equipment-s1.0.3",
-"strength": "helpful",
-"why": "uses steam cleaning",
-"confidence": "high"
-}
-]
+"needs": []
 },
 "hom-appliances-equipment-s1.1.b": {
 "hash": "9d44f5b2",
@@ -69,12 +76,26 @@
 "hom-appliances-equipment-s1.1.4": {
 "hash": "367bb6c7",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-environmental-issues-s1.5.0",
+"strength": "helpful",
+"why": "uses switching off standby to cut energy",
+"confidence": "low"
+}
+]
 },
 "hom-appliances-equipment-s1.1.5": {
 "hash": "4b50a35b",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-environmental-issues-s1.1.0",
+"strength": "helpful",
+"why": "uses solar PV and solar thermal panels",
+"confidence": "high"
+}
+]
 },
 "hom-appliances-equipment-s1.2.b": {
 "hash": "3c8da261",
@@ -134,22 +155,50 @@
 "hom-appliances-equipment-s1.3.2": {
 "hash": "54895ba8",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-personal-finance-s3.0.7",
+"strength": "helpful",
+"why": "uses online and mobile banking payments",
+"confidence": "high"
+}
+]
 },
 "hom-appliances-equipment-s1.3.3": {
 "hash": "8ec8cd7a",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-personal-finance-s2.2.b",
+"strength": "helpful",
+"why": "uses budget: income against planned spending",
+"confidence": "high"
+}
+]
 },
 "hom-appliances-equipment-s1.3.4": {
 "hash": "426b66aa",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-personal-finance-s2.3.1",
+"strength": "helpful",
+"why": "uses comparing prices between shops",
+"confidence": "low"
+}
+]
 },
 "hom-appliances-equipment-s1.3.5": {
 "hash": "101bf8e4",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-personal-finance-s2.0.5",
+"strength": "helpful",
+"why": "uses employment travel time and cost",
+"confidence": "low"
+}
+]
 },
 "hom-appliances-equipment-s1.3.6": {
 "hash": "906d639a",
@@ -163,7 +212,7 @@
 },
 "hom-appliances-equipment-s1.4.0": {
 "hash": "14986dc8",
-"cost": 1,
+"cost": 2,
 "needs": []
 },
 "hom-appliances-equipment-s1.4.1": {
@@ -189,7 +238,14 @@
 "hom-appliances-equipment-s1.4.5": {
 "hash": "26b13ec5",
 "cost": 1,
-"needs": []
+"needs": [
+{
+"id": "hom-environmental-issues-s2.7.0",
+"strength": "helpful",
+"why": "uses hazardous electrical waste (WEEE)",
+"confidence": "high"
+}
+]
 },
 "hom-appliances-equipment-s1.5.b": {
 "hash": "046963c5",
@@ -203,7 +259,7 @@
 {
 "id": "hom-appliances-equipment-s1.1.0",
 "strength": "helpful",
-"why": "timers example used",
+"why": "uses timers on heating example",
 "confidence": "high"
 }
 ]
