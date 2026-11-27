@@ -27,8 +27,9 @@
   var raf = 0, onScreen = true, lastText = null;
 
   function resize() {
-    W = hero.clientWidth; H = hero.clientHeight;
-    dpr = Math.min(2, window.devicePixelRatio || 1);
+    var w = hero.clientWidth, h = hero.clientHeight, d = Math.min(2, window.devicePixelRatio || 1);
+    if (w === W && h === H && d === dpr && cur) return;   // in-app browsers fire this on every toolbar move
+    W = w; H = h; dpr = d;
     canvas.width = Math.round(W * dpr); canvas.height = Math.round(H * dpr);
     gap = W < 640 ? 9 : 15;
     cols = Math.ceil(W / gap); rows = Math.ceil(H / gap);
@@ -89,14 +90,15 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.clearRect(0, 0, W, H);
     ctx.fillStyle = COLOR;
-    var t = now / 1000, R = 150, R2 = R * R;
+    var t = now / 1000, R = 150, R2 = R * R, busy = false;
     for (var q = ripples.length - 1; q >= 0; q--) if (now - ripples[q].t > 1800) ripples.splice(q, 1);
     for (var r = 0; r < rows; r++) {
       var y = r * gap + gap / 2;
       for (var c = 0; c < cols; c++) {
         var i = r * cols + c, x = c * gap + gap / 2;
-        if (now >= at[i]) goal[i] = tgt[i];
-        cur[i] += (goal[i] - cur[i]) * 0.2;
+        if (now >= at[i]) goal[i] = tgt[i]; else busy = true;
+        var diff = goal[i] - cur[i];
+        if (diff > 0.002 || diff < -0.002) { cur[i] += diff * 0.2; busy = true; } else cur[i] = goal[i];
         var a = 0.2, grow = 0;
         if (!reduce) {
           a = 0.15 + 0.08 * Math.sin(t * 1.4 - c * 0.18 + r * 0.09);   // slow diagonal swell
@@ -116,13 +118,32 @@
         ctx.fill();
       }
     }
-    if (!reduce && onScreen && !document.hidden) raf = requestAnimationFrame(frame);
+    // A word change always runs to the end, even if the page thinks it's hidden or off
+    // screen: Instagram/TikTok's in-app browsers report that wrongly while they slide in,
+    // and stopping mid-change left half-drawn letters. Only the idle swell pauses.
+    if (busy || ripples.length || (!reduce && isOnScreen() && !document.hidden)) raf = requestAnimationFrame(frame);
+  }
+  function isOnScreen() {
+    if (!onScreen) return false;
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    if (!vh) return true;                       // viewport not laid out yet: assume visible
+    var r = hero.getBoundingClientRect();
+    return r.bottom > 0 && r.top < vh;
   }
   function kick() { if (!raf) raf = requestAnimationFrame(frame); }
 
-  new ResizeObserver(function () { resize(); }).observe(hero);
-  new IntersectionObserver(function (es) { onScreen = es[0].isIntersecting; if (onScreen) kick(); }).observe(hero);
+  if (window.ResizeObserver) new ResizeObserver(function () { resize(); }).observe(hero);
+  else window.addEventListener('resize', resize);
+  // The observer is a hint; the rect check in isOnScreen() has the final say, and any
+  // of these events restarts the loop in case an in-app browser never re-reports.
+  if (window.IntersectionObserver) new IntersectionObserver(function (es) {
+    onScreen = es[es.length - 1].isIntersecting || !window.innerHeight; if (onScreen) kick();
+  }).observe(hero);
+  function wake() { onScreen = true; kick(); }
   document.addEventListener('visibilitychange', kick);
+  ['pageshow', 'focus', 'resize', 'scroll', 'touchstart'].forEach(function (ev) {
+    window.addEventListener(ev, wake, { passive: true });
+  });
   hero.addEventListener('pointermove', function (e) {
     var r = hero.getBoundingClientRect();
     ptr.x = e.clientX - r.left; ptr.y = e.clientY - r.top;
@@ -140,6 +161,7 @@
   resize();
   setText(words[0], slot, { wipe: true, fit: 'PAPERS' });
   if (!reduce) setInterval(function () {
+    if (!isOnScreen()) return;   // scrolled past: don't spend frames (hidden tabs pause rAF anyway)
     n = (n + 1) % words.length;
     setText(words[n], slot, { wipe: true, fit: 'PAPERS' });
   }, 1900);
