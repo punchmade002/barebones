@@ -1,0 +1,92 @@
+import json,re,sys
+D='/Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/chemistry/'
+def L(i,s,w,c='h'): return {"id":i,"strength":{'E':'essential','H':'helpful'}[s],"why":w,"confidence":{'h':'high','l':'low'}[c]}
+def build(pack,out,data):
+    txt=open(D+'packs/'+pack).read()
+    tg=[]
+    sec=None
+    for ln in txt.split('\n'):
+        if ln.startswith('TARGET'): sec='T'
+        elif ln.startswith('CANDIDATES'): sec='C'
+        m=re.match(r'\[([^\]]+)\]',ln)
+        if m and sec=='T': tg.append(m.group(1))
+    allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+    ids=[d[0] for d in data]
+    assert ids==tg,(set(tg)^set(ids),)
+    res={}
+    for i,c,n in data:
+        for x in n: assert x['id'] in allids and x['id']!=i,(i,x)
+        res[i]={"cost":c,"needs":n}
+    json.dump(res,open(D+'point-links/'+out,'w'),ensure_ascii=False,indent=1)
+    n=sum(len(v['needs']) for v in res.values())
+    print(out,len(res),n,sum(v['cost']==2 for v in res.values()),sum(x['confidence']=='low' for v in res.values() for x in v['needs']))
+
+p='chem11-s2.'
+def P(k): return p+k
+d=[]
+def a(k,c,*n): d.append((P(k),c,list(n)))
+a('0.b',1); a('0.0',1); a('0.1',1)
+a('0.2',1,L(P('0.0'),'E','hydrogen ions in acids'),L(P('0.1'),'E','hydroxide ions in bases'))
+a('1.b',1)
+a('1.0',1,L(P('0.0'),'H','Arrhenius aqueous picture'))
+a('1.1',1,L(P('0.1'),'E','base must produce OH-'))
+a('1.2',1,L('chem11-s1.6.3','H','ammonia and hydrochloric acid reaction'))
+a('1.3',1,L(P('0.0'),'H','H+ in water'))
+a('2.b',1)
+a('2.0',1)
+a('2.1',1,L(P('2.0'),'E','proton is H+'))
+a('2.2',1,L(P('2.1'),'E','proton donor and acceptor'))
+a('2.3',2,L(P('2.1'),'E','proton donor and acceptor'))
+a('2.4',2,L(P('2.1'),'E','proton donor and acceptor'))
+a('2.5',1,L(P('2.1'),'E','donor or acceptor depending on partner'))
+a('3.b',1)
+a('3.0',1,L(P('0.1'),'E','Arrhenius hydroxide base'),L(P('2.1'),'E','proton acceptor'))
+a('3.1',1,L(P('2.1'),'E','proton acceptor'))
+a('3.2',1,L(P('1.2'),'E','reaction without water'))
+a('3.3',1,L(P('1.3'),'E','hydronium ion'))
+a('3.4',1,L(P('0.0'),'E','Arrhenius acid'),L(P('2.1'),'E','proton donor'))
+a('3.5',1,L(P('0.1'),'E','Arrhenius base'),L(P('2.1'),'E','proton acceptor'))
+a('3.6',1,L(P('1.0'),'E','Arrhenius limited to water'),L(P('2.1'),'E','Bronsted-Lowry definition'))
+a('4.b',1)
+a('4.0',1,L(P('2.1'),'E','acid donates a proton'))
+a('4.1',1,L(P('2.1'),'E','base accepts a proton'))
+a('4.2',1,L(P('4.0'),'E','conjugate base'),L(P('4.1'),'E','conjugate acid'))
+a('4.3',1,L(P('4.2'),'E','conjugate pairs differ by one proton'))
+a('4.4',1,L(P('4.2'),'E','conjugate pairs'))
+a('5.b',1)
+a('5.0',1,L(P('2.1'),'E','proton loss and gain'))
+a('5.1',1,L(P('2.1'),'E','acid as proton donor'))
+a('5.2',1,L(P('4.2'),'E','conjugate acid and base'))
+a('5.3',1,L(P('5.2'),'E','reverse reaction conjugates'))
+a('6.b',1)
+a('6.0',1,L(P('5.1'),'E','finding acid and base'))
+a('6.1',2,L(P('5.2'),'E','matching conjugate pairs'))
+a('6.2',2,L(P('5.2'),'E','matching conjugate pairs'))
+a('6.3',1,L(P('5.2'),'E','matching conjugate pairs'))
+a('6.4',1,L(P('5.2'),'E','matching conjugate pairs'))
+a('6.5',1,L(P('5.2'),'E','matching conjugate pairs'))
+a('7.b',1)
+a('7.0',1,L(P('4.0'),'E','conjugate base of an acid'),L(P('8.0'),'E','strong acid'))
+a('7.1',1,L(P('4.0'),'E','conjugate base of an acid'),L(P('8.2'),'E','weak acid'))
+a('7.2',1,L(P('2.5'),'E','amphoteric water'),L(P('6.3'),'H','hydrogencarbonate acting as acid'))
+a('8.b',1)
+a('8.0',1,L(P('0.0'),'H','dissociation into ions'))
+a('8.1',1,L(P('8.0'),'H','strong acid examples'))
+a('8.2',2,L(P('8.0'),'H','contrast with strong acid'))
+a('8.3',1,L(P('8.2'),'H','weak acid examples'))
+a('9.b',1)
+a('9.0',1,L(P('8.0'),'E','complete dissociation'))
+a('9.1',1,L(P('8.2'),'E','partial dissociation'),L(P('2.4'),'H','ammonia as proton acceptor'))
+a('10.b',1)
+a('10.0',1,L('chem8-s2.2.0','E','concentration in mol per litre'))
+a('10.1',1,L(P('10.0'),'E','concentration units'))
+a('10.2',1,L(P('8.0'),'E','strong acid dissociates fully'),L(P('10.1'),'H','dilute concentration'))
+a('10.3',1,L(P('8.2'),'E','weak acid slightly dissociated'),L(P('10.1'),'H','concentrated'))
+a('11.b',1)
+a('11.0',1,L(P('8.0'),'E','strong acid H+ amount'),L(P('8.2'),'E','weak acid H+ amount'))
+a('11.1',1,L(P('8.2'),'E','weak acid equilibrium'))
+a('11.2',1,L('chem11-s1.7.0','H','magnesium reacting with acid'))
+a('11.3',1,L('chem6-s1.3.4','H','ions carry current'))
+a('11.4',2,L(P('8.2'),'E','weak acid equilibrium shifts'),L('chem11-s1.6.0','H','neutralisation with sodium hydroxide'))
+a('11.5',1)
+build('chem11-s2.t1g1.txt','chem11-s2.t1g1.json',d)

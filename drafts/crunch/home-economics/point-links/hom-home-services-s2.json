@@ -1,0 +1,651 @@
+{
+"hom-home-services-s2.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.0.b",
+"strength": "helpful",
+"why": "conduction, convection, radiation",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.0.0",
+"strength": "helpful",
+"why": "conduction through solids",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.0.1",
+"strength": "helpful",
+"why": "convection currents",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.0.1",
+"strength": "helpful",
+"why": "warm air rises",
+"confidence": "low"
+}
+]
+},
+"hom-home-services-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s6.3.1",
+"strength": "helpful",
+"why": "double glazing trapped gas",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s6.2.2",
+"strength": "helpful",
+"why": "thermal bridges defined",
+"confidence": "low"
+}
+]
+},
+"hom-home-services-s2.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s6.3.6",
+"strength": "helpful",
+"why": "lagging cylinder and pipes",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.2.2",
+"strength": "helpful",
+"why": "timers, thermostats, radiator valves",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s5.2.2",
+"strength": "helpful",
+"why": "timers, thermostats, radiator valves",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.1.2": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.1.3": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s1.0.0",
+"strength": "helpful",
+"why": "fuel combustion",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s1.0.0",
+"strength": "essential",
+"why": "combustion of a fuel",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.2.0",
+"strength": "essential",
+"why": "complete combustion contrasted",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.2.1",
+"strength": "essential",
+"why": "incomplete combustion makes CO",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.2.2",
+"strength": "helpful",
+"why": "CO is odourless and poisonous",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.2.0",
+"strength": "helpful",
+"why": "water vapour from combustion",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.2.1",
+"strength": "helpful",
+"why": "incomplete combustion products",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s2.3.0",
+"strength": "helpful",
+"why": "effects of CO2",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s2.3.1",
+"strength": "helpful",
+"why": "effects of SO2",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.3.1": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.2.1",
+"strength": "helpful",
+"why": "incomplete combustion gives smoke",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.3.0",
+"strength": "helpful",
+"why": "carbon dioxide emissions",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s2.3.3",
+"strength": "helpful",
+"why": "smoke emissions",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s1.6.4",
+"strength": "helpful",
+"why": "wood as renewable biomass",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.0.2",
+"strength": "helpful",
+"why": "draughts and air leakage",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.0.2",
+"strength": "helpful",
+"why": "air leakage gaps",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.2.2",
+"strength": "helpful",
+"why": "timers and thermostats",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.1.1",
+"strength": "helpful",
+"why": "hot water wastes recorded",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.1.3",
+"strength": "helpful",
+"why": "cooking energy wastes",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s1.3.4",
+"strength": "helpful",
+"why": "gas odorant for leaks",
+"confidence": "low"
+}
+]
+},
+"hom-home-services-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.0.b",
+"strength": "helpful",
+"why": "routes of heat loss",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s6.0.1",
+"strength": "helpful",
+"why": "insulating materials trap air",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s6.3.1",
+"strength": "helpful",
+"why": "double glazing",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s6.3.5",
+"strength": "helpful",
+"why": "draught excluders",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s6.3.7",
+"strength": "helpful",
+"why": "airtight house needs ventilation",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s6.5.4",
+"strength": "helpful",
+"why": "ranking improvements by cost",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s1.10.6",
+"strength": "helpful",
+"why": "SEAI grants",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s5.5.0",
+"strength": "helpful",
+"why": "programmer timer",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s5.4.4",
+"strength": "helpful",
+"why": "thermostatic radiator valve",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.11.3",
+"strength": "helpful",
+"why": "condensing boiler",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s2.2.1",
+"strength": "helpful",
+"why": "complete combustion kept by servicing",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s5.6.2",
+"strength": "helpful",
+"why": "background heating",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s6.3.6",
+"strength": "helpful",
+"why": "lagging cylinder and pipes",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s5.7.3",
+"strength": "helpful",
+"why": "heat pump",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s1.8.0",
+"strength": "helpful",
+"why": "solar thermal collectors",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.3.4",
+"strength": "helpful",
+"why": "fuels ranked by emissions",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.2.3",
+"strength": "helpful",
+"why": "CO alarm and servicing",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.3.3",
+"strength": "helpful",
+"why": "smoke and particles",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s1.8.1",
+"strength": "helpful",
+"why": "PV panels",
+"confidence": "high"
+},
+{
+"id": "hom-home-services-s5.7.3",
+"strength": "helpful",
+"why": "heat pumps",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s1.8.3",
+"strength": "helpful",
+"why": "passive solar design",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.5.3",
+"strength": "helpful",
+"why": "controlled ventilation",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.9.3": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.6.0",
+"strength": "helpful",
+"why": "zoned heating controls",
+"confidence": "high"
+}
+]
+},
+"hom-home-services-s2.9.5": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.10.0": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.10.1": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.10.2": {
+"cost": 2,
+"needs": []
+},
+"hom-home-services-s2.10.3": {
+"cost": 1,
+"needs": []
+},
+"hom-home-services-s2.10.4": {
+"cost": 2,
+"needs": []
+}
+}

@@ -1,0 +1,309 @@
+{
+ "hom-food-industry-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.2",
+    "strength": "essential",
+    "why": "artisan definition",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-industry-s2.0.3",
+    "strength": "essential",
+    "why": "speciality definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.1",
+    "strength": "helpful",
+    "why": "home enterprise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.0",
+    "strength": "helpful",
+    "why": "niche market",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.3",
+    "strength": "helpful",
+    "why": "few additives in speciality foods",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-industry-s2.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-industry-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.4",
+    "strength": "helpful",
+    "why": "special-diet foods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.6",
+    "strength": "helpful",
+    "why": "farmers markets as sales route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-industry-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.3.2",
+    "strength": "helpful",
+    "why": "Local Enterprise Office supports",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.4.0",
+    "strength": "helpful",
+    "why": "Bord Bia role",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-industry-s1.4.6",
+    "strength": "helpful",
+    "why": "Enterprise Ireland role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.0.7",
+    "strength": "helpful",
+    "why": "moving from home kitchen to unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.1.4",
+    "strength": "helpful",
+    "why": "registration with competent authority",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.4.0",
+    "strength": "essential",
+    "why": "competent authority",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s2.4.0",
+    "strength": "essential",
+    "why": "competent authority",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.1.0",
+    "strength": "helpful",
+    "why": "Hygiene of Foodstuffs Regulations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.1.2",
+    "strength": "helpful",
+    "why": "HACCP system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.2.b",
+    "strength": "helpful",
+    "why": "food information regulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.2.0",
+    "strength": "helpful",
+    "why": "label ingredient and name rules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s9.4.4",
+    "strength": "essential",
+    "why": "one step back, one forward traceability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s2.4.8": {
+  "cost": 1,
+  "needs": []
+ }
+}

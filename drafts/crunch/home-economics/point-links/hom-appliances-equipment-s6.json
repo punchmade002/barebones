@@ -1,0 +1,431 @@
+{
+"hom-appliances-equipment-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.0",
+"strength": "helpful",
+"why": "transformer supplies magnetron voltage",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.1",
+"strength": "helpful",
+"why": "microwaves from the magnetron",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.2",
+"strength": "helpful",
+"why": "microwaves in the cavity",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.6": {
+"cost": 2,
+"needs": []
+},
+"hom-appliances-equipment-s6.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.1",
+"strength": "helpful",
+"why": "timer stops the magnetron",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.1.8": {
+"cost": 2,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.1",
+"strength": "helpful",
+"why": "magnetron makes microwaves",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.2",
+"strength": "helpful",
+"why": "waveguide directs microwaves",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.4": {
+"cost": 2,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "heat conduction",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.2.6": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.2.7": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.2.2",
+"strength": "helpful",
+"why": "metal reflects microwaves",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.2.3",
+"strength": "helpful",
+"why": "outer layers heat first",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.2.5",
+"strength": "helpful",
+"why": "heat conducts to the centre",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.3.7": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.3.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.0.0",
+"strength": "helpful",
+"why": "heat destroys bacteria",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-appliances-equipment-s6.4.1": {
+"cost": 2,
+"needs": []
+},
+"hom-appliances-equipment-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s2.0.b",
+"strength": "helpful",
+"why": "buying criteria cost and capacity",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.0.2",
+"strength": "helpful",
+"why": "combination oven type",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.7": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.5.8": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s2.4.0",
+"strength": "helpful",
+"why": "energy label rating",
+"confidence": "low"
+}
+]
+},
+"hom-appliances-equipment-s6.6.6": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.7": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.6.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.2.7",
+"strength": "helpful",
+"why": "no browning explained",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-appliances-equipment-s6.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.1",
+"strength": "helpful",
+"why": "microwave frequency of magnetron",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.0",
+"strength": "helpful",
+"why": "transformer raises voltage",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.7.1",
+"strength": "essential",
+"why": "step-up ratio uses induction",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.1",
+"strength": "helpful",
+"why": "magnetron produces microwaves",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.2.4",
+"strength": "helpful",
+"why": "water molecules polar heating",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.6",
+"strength": "helpful",
+"why": "door metal screen",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.1.6",
+"strength": "helpful",
+"why": "door interlock",
+"confidence": "high"
+}
+]
+},
+"hom-appliances-equipment-s6.7.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-appliances-equipment-s6.7.4",
+"strength": "helpful",
+"why": "polar molecules in a field",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,1367 @@
+{
+ "chem25-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.0.4",
+    "strength": "helpful",
+    "why": "unsaturated means C=C or C\u2261C",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem23-s3.2.4",
+    "strength": "helpful",
+    "why": "alkene addition with bromine",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.0.1",
+    "strength": "helpful",
+    "why": "atoms add across the double bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.2",
+    "strength": "helpful",
+    "why": "same halogen addition pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.2",
+    "strength": "helpful",
+    "why": "same addition pattern across C=C",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.1",
+    "strength": "helpful",
+    "why": "atoms add across the double bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.2.4",
+    "strength": "helpful",
+    "why": "hydrogen addition over nickel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "essential",
+    "why": "addition reaction definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.7.1",
+    "strength": "helpful",
+    "why": "monomer adds to chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.1.1",
+    "strength": "helpful",
+    "why": "alkanes have only single bonds",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.1.6",
+    "strength": "helpful",
+    "why": "alkane halogen substitution in UV",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.1.1",
+    "strength": "helpful",
+    "why": "same chlorination substitution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "essential",
+    "why": "carboxylic acid group",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.2.1",
+    "strength": "essential",
+    "why": "alcohol \u2013OH group",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.13.0",
+    "strength": "helpful",
+    "why": "ester formed with loss of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.1.3",
+    "strength": "essential",
+    "why": "esterification reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.1.3",
+    "strength": "helpful",
+    "why": "esterification and water lost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.1.3",
+    "strength": "essential",
+    "why": "ester structure from esterification",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.1.0",
+    "strength": "helpful",
+    "why": "substitution definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.18.0",
+    "strength": "helpful",
+    "why": "saturated, nothing can add",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "helpful",
+    "why": "elimination reverse of addition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.2.1",
+    "strength": "helpful",
+    "why": "ethanol alcohol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.2.1",
+    "strength": "helpful",
+    "why": "dehydration of ethanol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.2.1",
+    "strength": "helpful",
+    "why": "same dehydration pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.5.0",
+    "strength": "helpful",
+    "why": "haloalkane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.2.4",
+    "strength": "helpful",
+    "why": "loses hydrogen halide",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.5.7",
+    "strength": "helpful",
+    "why": "chloroethene as PVC monomer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "helpful",
+    "why": "addition reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.0",
+    "strength": "essential",
+    "why": "oxidation is the opposite of reduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.0",
+    "strength": "helpful",
+    "why": "oxidation definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.3.0",
+    "strength": "essential",
+    "why": "oxidation as loss of H or gain of O",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.2.2",
+    "strength": "helpful",
+    "why": "ethanal aldehyde",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "helpful",
+    "why": "ethanoic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.1",
+    "strength": "essential",
+    "why": "reduction is gain of hydrogen",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.0.6",
+    "strength": "helpful",
+    "why": "hydrogen with nickel catalyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.0",
+    "strength": "essential",
+    "why": "oxidation definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem23-s3.19.0",
+    "strength": "helpful",
+    "why": "alkane combustion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.4.0",
+    "strength": "essential",
+    "why": "proton transfer",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "essential",
+    "why": "carboxylic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.4.1",
+    "strength": "helpful",
+    "why": "acid reacting with base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.1.6",
+    "strength": "essential",
+    "why": "ester hydrolysis",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.4.0",
+    "strength": "essential",
+    "why": "proton transfer acid\u2013base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.4.2",
+    "strength": "helpful",
+    "why": "acid reactions as comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.4.4",
+    "strength": "helpful",
+    "why": "alcohols weakly acidic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "essential",
+    "why": "addition definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.2.0",
+    "strength": "essential",
+    "why": "elimination definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.1.0",
+    "strength": "essential",
+    "why": "substitution definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.0",
+    "strength": "essential",
+    "why": "oxidation and reduction",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.4.0",
+    "strength": "essential",
+    "why": "proton transfer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.6",
+    "strength": "helpful",
+    "why": "hydrogenation of ethene",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.3.1",
+    "strength": "helpful",
+    "why": "reduction definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.1.5",
+    "strength": "helpful",
+    "why": "esterification classification",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.4.3",
+    "strength": "helpful",
+    "why": "base hydrolysis of esters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.21.2",
+    "strength": "helpful",
+    "why": "pi bond of double bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.2.1",
+    "strength": "essential",
+    "why": "dehydration of ethanol",
+    "confidence": "high"
+   },
+   {
+    "id": "chem23-s3.21.2",
+    "strength": "helpful",
+    "why": "sigma and pi bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.5",
+    "strength": "essential",
+    "why": "ethene plus water",
+    "confidence": "high"
+   },
+   {
+    "id": "chem23-s3.21.2",
+    "strength": "helpful",
+    "why": "pi bond breaking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.3",
+    "strength": "essential",
+    "why": "ethanol oxidised to ethanal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.3",
+    "strength": "essential",
+    "why": "ethanal oxidised to ethanoic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.3.2",
+    "strength": "essential",
+    "why": "electron loss and oxidation number",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "helpful",
+    "why": "carboxylic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.4.5",
+    "strength": "essential",
+    "why": "sodium with ethanol",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.6.4",
+    "strength": "helpful",
+    "why": "redox of a metal with acidic H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.0",
+    "strength": "helpful",
+    "why": "polymer made from monomers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.0",
+    "strength": "essential",
+    "why": "polymer chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.0",
+    "strength": "helpful",
+    "why": "polymer chains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.7.3",
+    "strength": "essential",
+    "why": "large Mr of polymer chains",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.7.1",
+    "strength": "helpful",
+    "why": "monomer units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.0",
+    "strength": "helpful",
+    "why": "polymer definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "helpful",
+    "why": "addition reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.1",
+    "strength": "essential",
+    "why": "monomer",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.0.0",
+    "strength": "essential",
+    "why": "addition reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.8.0",
+    "strength": "essential",
+    "why": "addition polymer formation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem23-s3.21.2",
+    "strength": "essential",
+    "why": "pi bond weaker than sigma",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.8.1",
+    "strength": "essential",
+    "why": "no other product formed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.16.0",
+    "strength": "helpful",
+    "why": "empirical formula",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.8.0",
+    "strength": "essential",
+    "why": "addition polymerisation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.7.2",
+    "strength": "helpful",
+    "why": "repeating unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.0.2",
+    "strength": "helpful",
+    "why": "bromine water test for unsaturation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.8.1",
+    "strength": "helpful",
+    "why": "no C=C left in polymer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.2",
+    "strength": "essential",
+    "why": "repeating unit",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.8.3",
+    "strength": "helpful",
+    "why": "general equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.8.5",
+    "strength": "essential",
+    "why": "drawing repeating unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.7.2",
+    "strength": "helpful",
+    "why": "repeating unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.12.4",
+    "strength": "helpful",
+    "why": "branched chains pack poorly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.1",
+    "strength": "helpful",
+    "why": "LDPE properties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.1",
+    "strength": "essential",
+    "why": "contrast with branched LDPE",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.3",
+    "strength": "helpful",
+    "why": "HDPE properties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.0",
+    "strength": "essential",
+    "why": "poly(ethene) repeating unit",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.8.6",
+    "strength": "helpful",
+    "why": "drawing two repeating units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.5.7",
+    "strength": "helpful",
+    "why": "chloroethene monomer",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.9.0",
+    "strength": "helpful",
+    "why": "poly(ethene) comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.0",
+    "strength": "helpful",
+    "why": "PVC name",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem23-s3.9.0",
+    "strength": "helpful",
+    "why": "intermolecular forces",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.10.0",
+    "strength": "essential",
+    "why": "C\u2013Cl in PVC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.2",
+    "strength": "helpful",
+    "why": "rigid PVC properties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.2",
+    "strength": "helpful",
+    "why": "rigid PVC chains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.4",
+    "strength": "helpful",
+    "why": "flexible PVC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.0",
+    "strength": "essential",
+    "why": "PVC repeating unit",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.8.6",
+    "strength": "helpful",
+    "why": "drawing two repeating units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.0.2",
+    "strength": "helpful",
+    "why": "benzene ring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s3.0.2",
+    "strength": "essential",
+    "why": "benzene ring",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.7.2",
+    "strength": "helpful",
+    "why": "repeating unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.11.0",
+    "strength": "essential",
+    "why": "benzene ring side group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.11.1",
+    "strength": "helpful",
+    "why": "rigid brittle polystyrene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.11.3",
+    "strength": "essential",
+    "why": "expanded polystyrene foam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.11.0",
+    "strength": "essential",
+    "why": "polystyrene repeating unit",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.8.6",
+    "strength": "helpful",
+    "why": "drawing repeating units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.3",
+    "strength": "helpful",
+    "why": "HDPE properties",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.0",
+    "strength": "helpful",
+    "why": "poly(ethene)",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.0",
+    "strength": "helpful",
+    "why": "poly(ethene)",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.10.1",
+    "strength": "helpful",
+    "why": "PVC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.9.1",
+    "strength": "helpful",
+    "why": "poly(ethene) film",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.11.2",
+    "strength": "helpful",
+    "why": "polystyrene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.9.4",
+    "strength": "helpful",
+    "why": "poly(ethene) uses",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.10.3",
+    "strength": "helpful",
+    "why": "PVC uses",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.11.4",
+    "strength": "helpful",
+    "why": "polystyrene uses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.13.3",
+    "strength": "helpful",
+    "why": "unreactive addition polymers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.13.0",
+    "strength": "essential",
+    "why": "biodegradable meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.8.1",
+    "strength": "helpful",
+    "why": "addition polymer backbone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.13.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.13.2",
+    "strength": "essential",
+    "why": "C\u2013C backbone bonding",
+    "confidence": "high"
+   },
+   {
+    "id": "chem23-s3.18.3",
+    "strength": "helpful",
+    "why": "no polar sites to attack",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.13.0",
+    "strength": "helpful",
+    "why": "microorganisms break down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.13.4",
+    "strength": "essential",
+    "why": "enzymes attack polar linkages",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.13.3",
+    "strength": "helpful",
+    "why": "no polar group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.12.6",
+    "strength": "helpful",
+    "why": "useful properties of polymers",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.13.1",
+    "strength": "helpful",
+    "why": "non-biodegradable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.14.0",
+    "strength": "helpful",
+    "why": "persistence in environment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.14.0",
+    "strength": "helpful",
+    "why": "persistence of plastics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.15.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.13.1",
+    "strength": "helpful",
+    "why": "non-biodegradable polymers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem25-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.10.0",
+    "strength": "helpful",
+    "why": "PVC contains chlorine",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.15.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem25-s1.1.6",
+    "strength": "essential",
+    "why": "ester hydrolysis",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.1",
+    "strength": "helpful",
+    "why": "ester linkage",
+    "confidence": "high"
+   },
+   {
+    "id": "chem25-s1.13.5",
+    "strength": "helpful",
+    "why": "enzymes attack linkages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem25-s1.15.3",
+    "strength": "helpful",
+    "why": "biodegradable ester polymers",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1182 @@
+{
+"chem22-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.2.0",
+"strength": "helpful",
+"why": "redox reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.2.0",
+"strength": "helpful",
+"why": "redox reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "helpful",
+"why": "anode and cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.1.0",
+"strength": "essential",
+"why": "oxidation as electron loss",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.1.0",
+"strength": "essential",
+"why": "reduction as electron gain",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "helpful",
+"why": "anode oxidation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.3",
+"strength": "helpful",
+"why": "electrolyte",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "helpful",
+"why": "galvanic cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "helpful",
+"why": "galvanic cell reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "essential",
+"why": "anode oxidation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.1",
+"strength": "essential",
+"why": "cathode reduction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.2.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.2.6": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.2.7": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "helpful",
+"why": "galvanic cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.b",
+"strength": "helpful",
+"why": "electrolysis forcing reactions",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "essential",
+"why": "galvanic cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.b",
+"strength": "essential",
+"why": "electrolytic cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "essential",
+"why": "anode is where oxidation occurs",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.3.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.4.0": {
+"cost": 2,
+"needs": []
+},
+"chem22-s1.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.4.0",
+"strength": "essential",
+"why": "lead-acid plates and acid",
+"confidence": "high"
+},
+{
+"id": "chem22-s1.3.0",
+"strength": "helpful",
+"why": "recharging reverses reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.2.0",
+"strength": "essential",
+"why": "primary cell not reversible",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.2",
+"strength": "helpful",
+"why": "anode oxidation, cathode reduction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.5.6": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.6.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.2.0",
+"strength": "helpful",
+"why": "redox reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.2.2",
+"strength": "helpful",
+"why": "zinc and copper(II) redox",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.7.0",
+"strength": "helpful",
+"why": "zinc copper(II) reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.7.4",
+"strength": "helpful",
+"why": "half-cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.7.2",
+"strength": "helpful",
+"why": "electrons through external wire",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.7.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.10.0",
+"strength": "essential",
+"why": "electrochemical series",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.8.0",
+"strength": "helpful",
+"why": "series positions of metals",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.8.1",
+"strength": "helpful",
+"why": "distance in series and voltage",
+"confidence": "low"
+}
+]
+},
+"chem22-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.11.0",
+"strength": "helpful",
+"why": "salt bridge",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "essential",
+"why": "anode oxidation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.1",
+"strength": "essential",
+"why": "cathode reduction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.7.0",
+"strength": "helpful",
+"why": "direct displacement reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.3.2",
+"strength": "essential",
+"why": "oxidising and reducing agents",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "essential",
+"why": "anode is oxidised",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.2",
+"strength": "essential",
+"why": "zinc oxidation half-equation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.3",
+"strength": "essential",
+"why": "copper reduction half-equation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.3",
+"strength": "essential",
+"why": "Cu2+ used up",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.11.0",
+"strength": "essential",
+"why": "salt bridge",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.2",
+"strength": "essential",
+"why": "Zn2+ forms at anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.3",
+"strength": "essential",
+"why": "Cu2+ removed at cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.11.1",
+"strength": "helpful",
+"why": "salt bridge completes circuit",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.11.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.b",
+"strength": "helpful",
+"why": "copper-zinc cell",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.12.1": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.9.0",
+"strength": "helpful",
+"why": "cell set-up",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.11.0",
+"strength": "essential",
+"why": "salt bridge",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.12.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.12.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.11.4",
+"strength": "helpful",
+"why": "salt bridge needed",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.8.2",
+"strength": "helpful",
+"why": "voltages of other metal pairs",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.8.1",
+"strength": "helpful",
+"why": "metal gap and voltage",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.13.1": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.13.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.13.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.13.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.9.1",
+"strength": "essential",
+"why": "cell set-up with salt bridge",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.1": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.1",
+"strength": "helpful",
+"why": "cathode reduction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.0",
+"strength": "helpful",
+"why": "anode oxidation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.14.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.6": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.14.7": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "helpful",
+"why": "galvanic energy conversion",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.0.1",
+"strength": "essential",
+"why": "spontaneous reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.2",
+"strength": "essential",
+"why": "electrode signs in electrolysis",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.1.2",
+"strength": "essential",
+"why": "anode oxidation, cathode reduction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.7.2",
+"strength": "helpful",
+"why": "two half-cells",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.b",
+"strength": "helpful",
+"why": "electrolysis",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.0",
+"strength": "helpful",
+"why": "electrolyte ions conduct",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.14.1",
+"strength": "helpful",
+"why": "d.c. supply",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.16.1",
+"strength": "helpful",
+"why": "apparatus electrodes",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.3",
+"strength": "helpful",
+"why": "cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.4",
+"strength": "helpful",
+"why": "anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.16.1",
+"strength": "helpful",
+"why": "apparatus",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.16.2",
+"strength": "essential",
+"why": "2:1 gas volumes",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.16.2",
+"strength": "helpful",
+"why": "gas volumes",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.16.0",
+"strength": "helpful",
+"why": "acid supplies ions",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.17.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.20.3",
+"strength": "helpful",
+"why": "hydroxide formed at cathode",
+"confidence": "low"
+}
+]
+},
+"chem22-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.6",
+"strength": "helpful",
+"why": "inert carbon electrodes",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.3",
+"strength": "helpful",
+"why": "cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.14.4",
+"strength": "helpful",
+"why": "anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.18.3": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.18.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.18.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.19.0": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.4",
+"strength": "helpful",
+"why": "anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.14.3",
+"strength": "helpful",
+"why": "cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.19.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem14-s2.10.1",
+"strength": "essential",
+"why": "position of potassium in series",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.19.4": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.19.5": {
+"cost": 1,
+"needs": []
+},
+"chem22-s1.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.1.3",
+"strength": "helpful",
+"why": "half-equations",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.8.0",
+"strength": "helpful",
+"why": "building half-equations",
+"confidence": "low"
+}
+]
+},
+"chem22-s1.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.8.0",
+"strength": "helpful",
+"why": "building half-equations",
+"confidence": "low"
+}
+]
+},
+"chem22-s1.20.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.20.0",
+"strength": "essential",
+"why": "cathode half-equation",
+"confidence": "high"
+},
+{
+"id": "chem22-s1.20.1",
+"strength": "essential",
+"why": "anode half-equation",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem22-s1.20.1",
+"strength": "essential",
+"why": "same anode reaction",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.11.4",
+"strength": "helpful",
+"why": "oxidation number change",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.18.1",
+"strength": "helpful",
+"why": "copper at cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.18.2",
+"strength": "helpful",
+"why": "chlorine at anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.21.0",
+"strength": "essential",
+"why": "add half-equations",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.19.1",
+"strength": "helpful",
+"why": "iodine at anode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.19.2",
+"strength": "helpful",
+"why": "hydrogen and hydroxide at cathode",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem22-s1.21.3",
+"strength": "essential",
+"why": "add half-equations",
+"confidence": "high"
+}
+]
+},
+"chem22-s1.21.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.11.4",
+"strength": "essential",
+"why": "oxidation number change",
+"confidence": "high"
+}
+]
+}
+}

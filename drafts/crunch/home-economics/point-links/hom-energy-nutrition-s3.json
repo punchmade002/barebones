@@ -1,0 +1,399 @@
+{
+"hom-energy-nutrition-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.0",
+"strength": "essential",
+"why": "energy values per gram",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-carbohydrates-s6.0.2",
+"strength": "helpful",
+"why": "fibre not digested, little energy",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.0",
+"strength": "helpful",
+"why": "kJ and kcal values being converted",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.0",
+"strength": "essential",
+"why": "energy value per gram",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.1",
+"strength": "essential",
+"why": "results of multiplying",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.5",
+"strength": "helpful",
+"why": "kJ to kcal conversion",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.0",
+"strength": "helpful",
+"why": "values per 100 g from tables",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.4",
+"strength": "essential",
+"why": "scaling to portion",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.1",
+"strength": "essential",
+"why": "multiply grams by energy value",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.2.0",
+"strength": "essential",
+"why": "kJ results being added",
+"confidence": "high"
+},
+{
+"id": "hom-energy-nutrition-s3.0.5",
+"strength": "helpful",
+"why": "kJ to kcal conversion",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.1",
+"strength": "essential",
+"why": "multiply grams by energy value",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.2.2",
+"strength": "essential",
+"why": "kJ results being added",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.2.1",
+"strength": "essential",
+"why": "total energy of sample food",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.1",
+"strength": "essential",
+"why": "method for calculating kJ",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.1",
+"strength": "helpful",
+"why": "fat has most energy per gram",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.3.0",
+"strength": "helpful",
+"why": "calculate and rank energy values",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.3",
+"strength": "helpful",
+"why": "empty kilocalories meaning",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.1",
+"strength": "helpful",
+"why": "fat energy per gram comparison",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-lipids-s5.0.1",
+"strength": "helpful",
+"why": "adipose tissue as energy store",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.5.3": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s8.3.0",
+"strength": "helpful",
+"why": "surplus amino acids not stored",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s8.0.3",
+"strength": "helpful",
+"why": "protein used for energy when short",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.6.3": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.0",
+"strength": "essential",
+"why": "protein and carbohydrate values per gram",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.0.1",
+"strength": "helpful",
+"why": "fat energy-dense",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.7.0",
+"strength": "helpful",
+"why": "energy density meaning",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.4.3",
+"strength": "helpful",
+"why": "starchy food guideline",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.7.2",
+"strength": "helpful",
+"why": "guidelines being compared",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s3.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s3.1.1",
+"strength": "essential",
+"why": "multiply grams by energy value",
+"confidence": "high"
+},
+{
+"id": "hom-energy-nutrition-s3.2.4",
+"strength": "helpful",
+"why": "percentage contribution method",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,614 @@
+{
+"chem20-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.4.0",
+"strength": "essential",
+"why": "the three cross-cutting themes",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.0.0",
+"strength": "helpful",
+"why": "scientists collaborating",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.6.2",
+"strength": "helpful",
+"why": "ways to present findings",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.6.0",
+"strength": "essential",
+"why": "primary data",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.4.1",
+"strength": "helpful",
+"why": "themes are examinable",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.5.0",
+"strength": "helpful",
+"why": "focused research question",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem1-s2.7.0",
+"strength": "helpful",
+"why": "peer-reviewed sources",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.8.b",
+"strength": "essential",
+"why": "judging a source",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.3.0",
+"strength": "essential",
+"why": "peer review",
+"confidence": "high"
+},
+{
+"id": "chem1-s2.8.3",
+"strength": "helpful",
+"why": "purpose and bias",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.7.0",
+"strength": "helpful",
+"why": "separating evidence from opinion",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.3.b",
+"strength": "helpful",
+"why": "economic, social, ethical factors",
+"confidence": "low"
+}
+]
+},
+"chem20-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.7.1",
+"strength": "helpful",
+"why": "acknowledging uncertainty",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.1.8": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.7.1",
+"strength": "essential",
+"why": "citing sources",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.0",
+"strength": "helpful",
+"why": "Step 1 question",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.7.0",
+"strength": "essential",
+"why": "fluoride compound added to water",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s3.7.1",
+"strength": "essential",
+"why": "fluoride converts hydroxyapatite",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.2",
+"strength": "essential",
+"why": "Step 3 sources",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.8.2",
+"strength": "essential",
+"why": "currency of a source",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.7.2",
+"strength": "helpful",
+"why": "fluorapatite resists acid",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.7.0",
+"strength": "helpful",
+"why": "fluoride added at the plant",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.7.5",
+"strength": "essential",
+"why": "dental fluorosis",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.2.4",
+"strength": "helpful",
+"why": "toothpaste and dates",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.3.3",
+"strength": "essential",
+"why": "ethical factors",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.7.6",
+"strength": "helpful",
+"why": "fluoridation debate",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.7",
+"strength": "essential",
+"why": "Step 7 justified conclusion",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.0",
+"strength": "helpful",
+"why": "Step 1 question",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.4.1": {
+"cost": 2,
+"needs": []
+},
+"chem20-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.4.1",
+"strength": "essential",
+"why": "oxygen-free decay in peat",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s5.4.1",
+"strength": "essential",
+"why": "waterlogged peat decay",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.2",
+"strength": "helpful",
+"why": "Step 3 sources",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.8.3",
+"strength": "helpful",
+"why": "purpose and bias",
+"confidence": "low"
+}
+]
+},
+"chem20-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s5.4.3",
+"strength": "essential",
+"why": "CO2 and methane from peat",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.3.1",
+"strength": "helpful",
+"why": "social factors",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.5.0",
+"strength": "helpful",
+"why": "comparing CO2 and methane",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.7",
+"strength": "essential",
+"why": "Step 7 justified conclusion",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.5.b",
+"strength": "helpful",
+"why": "chlorination",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s3.5.1",
+"strength": "essential",
+"why": "chlorine forms hypochlorous acid",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.6.0",
+"strength": "essential",
+"why": "UV damages DNA",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.5.5",
+"strength": "essential",
+"why": "chlorine by-products",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.1.2",
+"strength": "helpful",
+"why": "Step 3 sources",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.6.5",
+"strength": "essential",
+"why": "Galway 2007 outbreak",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.5.3",
+"strength": "essential",
+"why": "chlorine-resistant organisms",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.5.2",
+"strength": "essential",
+"why": "residual disinfectant in pipes",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.6.3",
+"strength": "essential",
+"why": "disinfection by-products",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s3.6.4",
+"strength": "helpful",
+"why": "UV lamps use electricity",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s5.7.1",
+"strength": "essential",
+"why": "residual in the pipes",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.0.0",
+"strength": "essential",
+"why": "scientists share results",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.0.8",
+"strength": "helpful",
+"why": "lithium-ion battery",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s2.0.1",
+"strength": "helpful",
+"why": "international collaboration",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.1.b",
+"strength": "helpful",
+"why": "chemistry in society",
+"confidence": "high"
+}
+]
+},
+"chem20-s5.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s6.6.b",
+"strength": "helpful",
+"why": "checking claims",
+"confidence": "high"
+}
+]
+}
+}

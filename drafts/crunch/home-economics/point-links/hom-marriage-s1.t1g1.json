@@ -1,0 +1,200 @@
+{
+"hom-marriage-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-society-s1.0.4",
+"strength": "helpful",
+"why": "Article 41 protects the family",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.1.3",
+"strength": "essential",
+"why": "civil partnership status",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.1.5": {
+"cost": 2,
+"needs": []
+},
+"hom-marriage-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.0.1",
+"strength": "helpful",
+"why": "marriage excludes all others",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-society-s1.3.5",
+"strength": "helpful",
+"why": "blood and marriage relatives",
+"confidence": "low"
+}
+]
+},
+"hom-marriage-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.2.4",
+"strength": "essential",
+"why": "documents accompany notice",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-marriage-s1.1.5",
+"strength": "helpful",
+"why": "civil or religious ceremony solemniser",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.2.6",
+"strength": "helpful",
+"why": "approved venue formalities",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.2.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-marriage-s1.2.6",
+"strength": "helpful",
+"why": "ceremony and witnesses",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s1.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-marriage-s1.2.1",
+"strength": "helpful",
+"why": "free to marry condition",
+"confidence": "high"
+},
+{
+"id": "hom-marriage-s1.2.6",
+"strength": "helpful",
+"why": "formalities requirement",
+"confidence": "low"
+}
+]
+},
+"hom-marriage-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.2.2",
+"strength": "essential",
+"why": "free consent requirement",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.3.1",
+"strength": "helpful",
+"why": "voidable marriage annulled",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.3.1",
+"strength": "helpful",
+"why": "court annulment of voidable marriage",
+"confidence": "low"
+}
+]
+}
+}

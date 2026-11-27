@@ -1,0 +1,353 @@
+{
+"hom-housing-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-interior-s1.0.b",
+"strength": "helpful",
+"why": "elements of design",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-home-services-s2.9.1",
+"strength": "helpful",
+"why": "passive solar gain",
+"confidence": "low"
+}
+]
+},
+"hom-housing-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.6": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.1.5",
+"strength": "helpful",
+"why": "flexibility for future needs",
+"confidence": "high"
+},
+{
+"id": "hom-housing-s6.1.6",
+"strength": "helpful",
+"why": "accessibility",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s6.0.0",
+"strength": "helpful",
+"why": "how heat is lost",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-home-services-s2.6.0",
+"strength": "helpful",
+"why": "heating controls and zoning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.0.2",
+"strength": "helpful",
+"why": "passive solar gain",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.2.b",
+"strength": "essential",
+"why": "uses BER",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.2.3",
+"strength": "helpful",
+"why": "BER rating scale",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.2.3",
+"strength": "helpful",
+"why": "BER rating",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.2.0",
+"strength": "helpful",
+"why": "insulation and glazing",
+"confidence": "high"
+},
+{
+"id": "hom-housing-s6.2.3",
+"strength": "helpful",
+"why": "BER rating",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.2.1",
+"strength": "helpful",
+"why": "zoned heating",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s6.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.4.1",
+"strength": "helpful",
+"why": "maintenance costs",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.4.0",
+"strength": "helpful",
+"why": "initial costs",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.4.1",
+"strength": "helpful",
+"why": "maintenance costs",
+"confidence": "low"
+}
+]
+},
+"hom-housing-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.5.0",
+"strength": "essential",
+"why": "Building Regulations",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.5.0",
+"strength": "essential",
+"why": "Building Regulations",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.5.0",
+"strength": "essential",
+"why": "Building Regulations",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s6.5.3",
+"strength": "essential",
+"why": "commencement notice and certifiers",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s6.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.5.5",
+"strength": "essential",
+"why": "structural defects warranty",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s6.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.2.0",
+"strength": "helpful",
+"why": "insulation measures",
+"confidence": "low"
+}
+]
+},
+"hom-housing-s6.5.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s6.5.0",
+"strength": "helpful",
+"why": "Building Regulations",
+"confidence": "high"
+}
+]
+}
+}

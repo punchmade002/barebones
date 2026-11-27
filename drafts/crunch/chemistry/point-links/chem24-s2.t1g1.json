@@ -1,0 +1,1341 @@
+{
+ "chem24-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.8.2",
+    "strength": "helpful",
+    "why": "intermolecular forces weaker than covalent bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s2.0.1",
+    "strength": "helpful",
+    "why": "stronger forces mean higher melting points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.9.0",
+    "strength": "helpful",
+    "why": "London dispersion forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.10.1",
+    "strength": "helpful",
+    "why": "dipole-dipole forces",
+    "confidence": "high"
+   },
+   {
+    "id": "chem6-s1.0.0",
+    "strength": "helpful",
+    "why": "electronegativity pulls shared electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem6-s1.11.0",
+    "strength": "helpful",
+    "why": "hydrogen bond definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.9.0",
+    "strength": "helpful",
+    "why": "London forces are the only force in non-polar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.3",
+    "strength": "essential",
+    "why": "dipole-dipole forces from polar bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem6-s1.0.2",
+    "strength": "helpful",
+    "why": "electronegativity values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "hydrogen bonding needs H on O, N or F",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.3",
+    "strength": "essential",
+    "why": "polar bonds give dipole-dipole forces",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.3",
+    "strength": "helpful",
+    "why": "carbonyl group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "hydrogen bonding needs H on O, N or F",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.3",
+    "strength": "essential",
+    "why": "polar bonds give dipole-dipole forces",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.1",
+    "strength": "helpful",
+    "why": "ester group structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "hydrogen bonding conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "hydrogen bonding conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.2.1",
+    "strength": "essential",
+    "why": "O-H and C=O in carboxyl group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.2.2",
+    "strength": "essential",
+    "why": "dimer held by two hydrogen bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.9.3",
+    "strength": "helpful",
+    "why": "London forces rise with molecule size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "order of intermolecular force strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.3.0",
+    "strength": "helpful",
+    "why": "boiling point depends on force type",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.3.0",
+    "strength": "helpful",
+    "why": "boiling point depends on force type",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.1.3",
+    "strength": "essential",
+    "why": "C=O gives dipole-dipole forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.2.0",
+    "strength": "essential",
+    "why": "alcohols hydrogen bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.2.2",
+    "strength": "essential",
+    "why": "carboxylic acid dimers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.21.3",
+    "strength": "helpful",
+    "why": "functional group isomers of C2H4O2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.2.1",
+    "strength": "essential",
+    "why": "acids hydrogen bond",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s2.1.5",
+    "strength": "helpful",
+    "why": "esters have no O-H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.2.0",
+    "strength": "essential",
+    "why": "alcohols hydrogen bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.0.4",
+    "strength": "essential",
+    "why": "homologous series definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.2",
+    "strength": "essential",
+    "why": "London forces grow with electrons and surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "boiling point rises with chain length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "boiling point rises with chain length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "boiling point rises with chain length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "boiling point rises with chain length",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "boiling point rises with chain length",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.0.2",
+    "strength": "essential",
+    "why": "more electrons give stronger London forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "helpful",
+    "why": "chain length effect on boiling point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.2",
+    "strength": "essential",
+    "why": "London forces depend on surface contact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.22.0",
+    "strength": "helpful",
+    "why": "the four C4H9OH isomers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.7.0",
+    "strength": "helpful",
+    "why": "branching lowers boiling point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.5.0",
+    "strength": "essential",
+    "why": "chain length and London forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.5.1",
+    "strength": "helpful",
+    "why": "alcohol boiling point data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.1",
+    "strength": "helpful",
+    "why": "stronger forces raise melting point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.2.1",
+    "strength": "essential",
+    "why": "acids hydrogen bond strongly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.9.0",
+    "strength": "helpful",
+    "why": "packing affects melting point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.9.0",
+    "strength": "helpful",
+    "why": "packing affects melting point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.3.2",
+    "strength": "helpful",
+    "why": "ionic lattices need much energy to melt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "helpful",
+    "why": "hydrogen bonding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "hydrogen bonding conditions",
+    "confidence": "high"
+   },
+   {
+    "id": "chem6-s2.1.0",
+    "strength": "helpful",
+    "why": "like dissolves like",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s2.1.2",
+    "strength": "helpful",
+    "why": "non-polar substances dissolve in non-polar solvents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.0",
+    "strength": "essential",
+    "why": "dissolving needs hydrogen bonds with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.2",
+    "strength": "essential",
+    "why": "hydrogen bonding with water gives miscibility",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.0",
+    "strength": "essential",
+    "why": "dissolving needs hydrogen bonds with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.4",
+    "strength": "helpful",
+    "why": "solubility falls with chain length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.1",
+    "strength": "helpful",
+    "why": "non-polar dissolves in non-polar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.0.4",
+    "strength": "essential",
+    "why": "lone pairs accept hydrogen bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s2.1.3",
+    "strength": "helpful",
+    "why": "carbonyl bond is polar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.1",
+    "strength": "helpful",
+    "why": "non-polar solutes dissolve in non-polar solvents",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.11.0",
+    "strength": "helpful",
+    "why": "small ketones miscible with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.11.0",
+    "strength": "essential",
+    "why": "water hydrogen bonds to oxygens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.1",
+    "strength": "helpful",
+    "why": "organic solvents dissolve non-polar parts",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.10.0",
+    "strength": "essential",
+    "why": "dissolving needs hydrogen bonds with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.12.0",
+    "strength": "helpful",
+    "why": "haloalkanes dissolve in non-polar solvents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.10.4",
+    "strength": "helpful",
+    "why": "large non-polar part lowers solubility",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.12.0",
+    "strength": "essential",
+    "why": "ion-dipole attraction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.2.7",
+    "strength": "helpful",
+    "why": "polar bond partial charges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.13.1",
+    "strength": "essential",
+    "why": "polar O-H bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.2.5",
+    "strength": "helpful",
+    "why": "C-H bond is almost non-polar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.13.2",
+    "strength": "helpful",
+    "why": "O-H hydrogen is lost as H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.13.5",
+    "strength": "essential",
+    "why": "acidity depends on conjugate base stability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.13.0",
+    "strength": "essential",
+    "why": "acid donates H+ from O-H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.0",
+    "strength": "essential",
+    "why": "alkoxide ion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.1",
+    "strength": "essential",
+    "why": "charge concentrated on one oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.1",
+    "strength": "helpful",
+    "why": "charge on alkoxide oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.2",
+    "strength": "helpful",
+    "why": "unstable alkoxide gives weak acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.2",
+    "strength": "helpful",
+    "why": "unstable alkoxide so alcohols are not acidic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.0",
+    "strength": "helpful",
+    "why": "alkoxide formed on losing H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.15.1",
+    "strength": "essential",
+    "why": "alcohol with sodium gives hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.15.1",
+    "strength": "helpful",
+    "why": "ethanol reacts with sodium",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s2.14.4",
+    "strength": "helpful",
+    "why": "alcohols weaker acids than water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.13.0",
+    "strength": "helpful",
+    "why": "acid loses H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.16.0",
+    "strength": "essential",
+    "why": "carboxylate ion formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.16.2",
+    "strength": "essential",
+    "why": "delocalised charge over two oxygens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.16.2",
+    "strength": "essential",
+    "why": "charge shared between both oxygens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.17.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.16.2",
+    "strength": "essential",
+    "why": "delocalised charge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.1",
+    "strength": "essential",
+    "why": "alkoxide ion lacks stabilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.17.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.16.3",
+    "strength": "essential",
+    "why": "two resonance structures of carboxylate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem6-s1.0.0",
+    "strength": "helpful",
+    "why": "electronegativity of atoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.0",
+    "strength": "essential",
+    "why": "inductive effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.1",
+    "strength": "helpful",
+    "why": "C=O pulls electrons from O-H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.0",
+    "strength": "essential",
+    "why": "inductive effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.3",
+    "strength": "essential",
+    "why": "electron-withdrawing groups pull charge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.18.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.4",
+    "strength": "helpful",
+    "why": "strength of withdrawing effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.0",
+    "strength": "essential",
+    "why": "inductive effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.19.0",
+    "strength": "essential",
+    "why": "alkyl groups weaken acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.19.b",
+    "strength": "helpful",
+    "why": "larger Ka means stronger acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.18.4",
+    "strength": "helpful",
+    "why": "chlorine strengthens acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.19.1",
+    "strength": "helpful",
+    "why": "acid strength order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.20.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.16.0",
+    "strength": "helpful",
+    "why": "partial dissociation of carboxylic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.19.2",
+    "strength": "helpful",
+    "why": "Ka value of ethanoic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.20.1",
+    "strength": "essential",
+    "why": "degree of dissociation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.20.2",
+    "strength": "essential",
+    "why": "hydrogen ion concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.17.3",
+    "strength": "essential",
+    "why": "resonance stabilised carboxylate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.14.4",
+    "strength": "helpful",
+    "why": "alcohols weaker acids than water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.21.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.13.0",
+    "strength": "helpful",
+    "why": "acid donates H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.21.0",
+    "strength": "helpful",
+    "why": "acid properties of carboxylic acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.15.1",
+    "strength": "helpful",
+    "why": "alcohol reacts with sodium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.15.0",
+    "strength": "helpful",
+    "why": "alcohols are neutral",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.21.0",
+    "strength": "helpful",
+    "why": "acid fizzes with carbonate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.15.0",
+    "strength": "helpful",
+    "why": "alcohols are neutral",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s2.22.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s2.17.3",
+    "strength": "essential",
+    "why": "resonance stabilisation of anion",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s2.18.4",
+    "strength": "essential",
+    "why": "inductive effects on anion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s2.22.0",
+    "strength": "helpful",
+    "why": "anion stability decides acid strength",
+    "confidence": "high"
+   }
+  ]
+ }
+}

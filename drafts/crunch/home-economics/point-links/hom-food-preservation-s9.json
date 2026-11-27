@@ -1,0 +1,427 @@
+{
+"hom-food-preservation-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.0.4": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s2.1.b",
+"strength": "helpful",
+"why": "slow vs quick ice crystals",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.1.b",
+"strength": "helpful",
+"why": "blanching defined",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.1.1",
+"strength": "helpful",
+"why": "cooling after blanching",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.3.2": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s2.0.4",
+"strength": "helpful",
+"why": "water expands on freezing",
+"confidence": "low"
+}
+]
+},
+"hom-food-preservation-s9.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s2.4.3",
+"strength": "helpful",
+"why": "no refreezing thawed food",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.1.b",
+"strength": "helpful",
+"why": "blanching destroys vitamins",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.0.5",
+"strength": "helpful",
+"why": "slow freezing ice crystals",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.7.b": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s5.1.0",
+"strength": "helpful",
+"why": "sugar preserves by osmosis",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s3.5.2",
+"strength": "helpful",
+"why": "pectin gel with sugar, acid",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s3.5.2",
+"strength": "helpful",
+"why": "pectin sets jam",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.8.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s3.5.2",
+"strength": "helpful",
+"why": "pectin definition",
+"confidence": "low"
+}
+]
+},
+"hom-food-preservation-s9.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.8.1",
+"strength": "helpful",
+"why": "strawberries low pectin",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.8.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.5": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.9.6": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.9.7": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.10.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.10.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.10.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.10.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.10.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.11.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s9.8.1",
+"strength": "helpful",
+"why": "pectin and acid for set",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.11.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.11.2": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.11.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.11.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.12.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.13.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s9.13.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s9.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s9.13.0",
+"strength": "helpful",
+"why": "chutney ingredients and preservation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s9.7.2",
+"strength": "helpful",
+"why": "jam needs pectin",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s9.13.3": {
+"cost": 2,
+"needs": []
+}
+}

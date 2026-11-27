@@ -1,0 +1,1320 @@
+{
+ "chem18-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "essential",
+    "why": "forward and reverse of a reversible reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "uses reversible double arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "uses reversible double arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "uses reversible double arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "uses reversible double arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "uses reversible double arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "essential",
+    "why": "reversible forward and reverse reactions",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "essential",
+    "why": "rate of reaction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "equal forward and reverse rates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "equilibrium means equal rates",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.2",
+    "strength": "essential",
+    "why": "concentrations constant at equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "helpful",
+    "why": "contrast with dynamic equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.1",
+    "strength": "helpful",
+    "why": "both reactions continue at equal rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "equilibrium definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.2.0",
+    "strength": "essential",
+    "why": "sealed container reaches equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.2.0",
+    "strength": "essential",
+    "why": "open system never reaches equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.2.0",
+    "strength": "essential",
+    "why": "closed system needed for equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "forward and reverse rates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.3.0",
+    "strength": "essential",
+    "why": "forward and reverse rate changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "equilibrium means equal rates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.3.2",
+    "strength": "essential",
+    "why": "equilibrium reached; same mixture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.3.2",
+    "strength": "essential",
+    "why": "concentrations change until equilibrium",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.3.3",
+    "strength": "helpful",
+    "why": "reading a change-against-time graph",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.3.4",
+    "strength": "essential",
+    "why": "concentration-time graph shape",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.7.3",
+    "strength": "essential",
+    "why": "coefficients give mole ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.3.1",
+    "strength": "essential",
+    "why": "forward rate falls, reverse rises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.3.4",
+    "strength": "essential",
+    "why": "concentration-time graph",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.3.6",
+    "strength": "essential",
+    "why": "rate-time graph",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "essential",
+    "why": "equilibrium state",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.1.2",
+    "strength": "helpful",
+    "why": "constant concentrations at equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.4.0",
+    "strength": "essential",
+    "why": "equilibrium law",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.7.3",
+    "strength": "helpful",
+    "why": "coefficients in balanced equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration in mol per litre",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "Kc expression layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.2",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.2",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.2",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.2",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.0.5",
+    "strength": "helpful",
+    "why": "esterification equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.2",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration units mol per litre",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.5.0",
+    "strength": "essential",
+    "why": "finding units of Kc",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.4",
+    "strength": "helpful",
+    "why": "Kc expression for H2 + I2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.5.0",
+    "strength": "essential",
+    "why": "finding units of Kc",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.3",
+    "strength": "helpful",
+    "why": "Kc expression for Haber process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.5.0",
+    "strength": "essential",
+    "why": "finding units of Kc",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.5",
+    "strength": "helpful",
+    "why": "Kc expression for PCl5",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.0",
+    "strength": "essential",
+    "why": "equilibrium constant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "Kc depends only on temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "Kc depends only on temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "Kc depends only on temperature",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.12.0",
+    "strength": "helpful",
+    "why": "what a catalyst does",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "Kc changes with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "Kc changes with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.4",
+    "strength": "essential",
+    "why": "exothermic Kc trend",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.6.5",
+    "strength": "essential",
+    "why": "endothermic Kc trend",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.0",
+    "strength": "essential",
+    "why": "size of Kc and position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.0",
+    "strength": "helpful",
+    "why": "size of Kc",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "rate of reaction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.3",
+    "strength": "essential",
+    "why": "reaction quotient Q",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.0",
+    "strength": "helpful",
+    "why": "equilibrium Kc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.4",
+    "strength": "essential",
+    "why": "compare Q with Kc",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.6",
+    "strength": "essential",
+    "why": "esterification Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.4",
+    "strength": "essential",
+    "why": "compare Q with Kc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.4",
+    "strength": "helpful",
+    "why": "Kc for H2 + I2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "writing Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.2.1",
+    "strength": "helpful",
+    "why": "converting mass to moles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.8.0",
+    "strength": "helpful",
+    "why": "Kc expression species",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.12.0",
+    "strength": "essential",
+    "why": "coefficients give mole ratio of change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.8.2",
+    "strength": "essential",
+    "why": "equilibrium amounts",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.8.3",
+    "strength": "essential",
+    "why": "equilibrium concentrations",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.0",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.8.2",
+    "strength": "essential",
+    "why": "table of amounts in terms of x",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.0",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem18-s1.8.5",
+    "strength": "essential",
+    "why": "equation in x from Kc expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.8.6",
+    "strength": "essential",
+    "why": "roots of the quadratic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.3",
+    "strength": "helpful",
+    "why": "dividing by volume step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.4",
+    "strength": "essential",
+    "why": "Kc expression for H2 + I2",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.9.1",
+    "strength": "essential",
+    "why": "[H2] value",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.9.2",
+    "strength": "essential",
+    "why": "[I2] value",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.9.3",
+    "strength": "essential",
+    "why": "[HI] value",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.5.1",
+    "strength": "helpful",
+    "why": "no units when powers match",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.10.0",
+    "strength": "essential",
+    "why": "starting data and equilibrium NH3",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.12.0",
+    "strength": "essential",
+    "why": "mole ratio from equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.10.1",
+    "strength": "essential",
+    "why": "amounts used",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.10.2",
+    "strength": "essential",
+    "why": "equilibrium amounts",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.10.3",
+    "strength": "essential",
+    "why": "equilibrium concentrations",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.3",
+    "strength": "essential",
+    "why": "Kc expression for Haber",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.5.2",
+    "strength": "helpful",
+    "why": "units of Kc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.1.b",
+    "strength": "helpful",
+    "why": "relative molecular mass from Ar",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem18-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.11.1",
+    "strength": "essential",
+    "why": "molar mass of PCl5",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.1",
+    "strength": "helpful",
+    "why": "n = mass ÷ M",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.11.2",
+    "strength": "essential",
+    "why": "starting moles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.11.3",
+    "strength": "essential",
+    "why": "moles dissociated",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.12.0",
+    "strength": "helpful",
+    "why": "mole ratio from equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.11.4",
+    "strength": "essential",
+    "why": "equilibrium amounts",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "concentration = moles ÷ volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.11.5",
+    "strength": "essential",
+    "why": "equilibrium concentrations",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.5",
+    "strength": "essential",
+    "why": "Kc expression for PCl5",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.5.3",
+    "strength": "helpful",
+    "why": "units of Kc",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.0",
+    "strength": "essential",
+    "why": "starting amounts",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.5",
+    "strength": "essential",
+    "why": "let x react",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.1",
+    "strength": "essential",
+    "why": "equilibrium amounts in x",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.6",
+    "strength": "essential",
+    "why": "Kc expression for esterification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.2",
+    "strength": "essential",
+    "why": "Kc equation in x",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.6",
+    "strength": "essential",
+    "why": "perfect-square square root",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.3",
+    "strength": "essential",
+    "why": "equation to rearrange",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.4",
+    "strength": "essential",
+    "why": "value of x",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.12.4",
+    "strength": "essential",
+    "why": "moles of ester",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.1",
+    "strength": "helpful",
+    "why": "mass and molar mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem18-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.0",
+    "strength": "essential",
+    "why": "starting amounts",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.5",
+    "strength": "essential",
+    "why": "let x react",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.1",
+    "strength": "essential",
+    "why": "equilibrium amounts in x",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.4",
+    "strength": "essential",
+    "why": "Kc expression for H2 + I2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.2",
+    "strength": "essential",
+    "why": "equation to rearrange",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.6",
+    "strength": "helpful",
+    "why": "quadratic form",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.3",
+    "strength": "essential",
+    "why": "quadratic to solve",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.6",
+    "strength": "essential",
+    "why": "quadratic formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.4",
+    "strength": "essential",
+    "why": "two roots",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.8.7",
+    "strength": "helpful",
+    "why": "choose root that makes sense",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.5",
+    "strength": "essential",
+    "why": "value of x",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.13.1",
+    "strength": "essential",
+    "why": "amounts in terms of x",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem18-s1.13.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.13.6",
+    "strength": "essential",
+    "why": "equilibrium concentrations",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.4",
+    "strength": "essential",
+    "why": "Kc expression for H2 + I2",
+    "confidence": "high"
+   }
+  ]
+ }
+}

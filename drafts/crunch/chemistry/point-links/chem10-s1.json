@@ -1,0 +1,703 @@
+{
+"chem10-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.0.0",
+"strength": "helpful",
+"why": "physical property meaning",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.0.0",
+"strength": "helpful",
+"why": "contrast with physical property",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.0.2",
+"strength": "helpful",
+"why": "chemical property meaning",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.0",
+"strength": "helpful",
+"why": "particles and their arrangement",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "helpful",
+"why": "no new substance",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.0",
+"strength": "helpful",
+"why": "particle spacing in states",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "helpful",
+"why": "physical change criterion",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "helpful",
+"why": "particles unchanged",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.1",
+"strength": "helpful",
+"why": "bond breaking and making",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.1",
+"strength": "essential",
+"why": "atoms only rearranged",
+"confidence": "high"
+},
+{
+"id": "chem2-s1.0.2",
+"strength": "helpful",
+"why": "atoms rearranged, not destroyed",
+"confidence": "low"
+}
+]
+},
+"chem10-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.3",
+"strength": "helpful",
+"why": "energy change in reaction",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.3",
+"strength": "helpful",
+"why": "energy given out",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "essential",
+"why": "dissolving is physical change",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "chemical change meaning",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.0",
+"strength": "helpful",
+"why": "new substance formed",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.3.0",
+"strength": "helpful",
+"why": "gas given off sign",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem10-s1.0.3",
+"strength": "helpful",
+"why": "decomposes on heating",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.4.5": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "essential",
+"why": "no new substance in physical",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.2.0",
+"strength": "essential",
+"why": "new substance in chemical",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.1",
+"strength": "helpful",
+"why": "physical change easily reversed",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.2.2",
+"strength": "helpful",
+"why": "chemical change hard to reverse",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.1",
+"strength": "helpful",
+"why": "small energy change",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.2.3",
+"strength": "helpful",
+"why": "large energy change",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.0",
+"strength": "helpful",
+"why": "particles unchanged",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.2.1",
+"strength": "helpful",
+"why": "atoms rearranged",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.1.3",
+"strength": "helpful",
+"why": "dissolving as physical change",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "essential",
+"why": "conservation of mass law",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "essential",
+"why": "mass unchanged in reaction",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.7.0",
+"strength": "essential",
+"why": "energy changes form",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.7.0",
+"strength": "essential",
+"why": "energy conserved",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "conservation of mass",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.7.0",
+"strength": "helpful",
+"why": "conservation of energy",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "conservation of mass",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.7.0",
+"strength": "helpful",
+"why": "conservation of energy",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "essential",
+"why": "conservation of mass",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.7.0",
+"strength": "essential",
+"why": "conservation of energy",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "conservation of mass",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "essential",
+"why": "conservation of mass tested",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.9.0",
+"strength": "essential",
+"why": "aim of experiment",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.9.2": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.10.0",
+"strength": "helpful",
+"why": "apparatus list",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem10-s1.3.1",
+"strength": "helpful",
+"why": "precipitate as a sign",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.10.6": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "essential",
+"why": "mass conserved",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.11.2": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "mass apparently lost",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.12.0",
+"strength": "essential",
+"why": "gas escapes open flask",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.12.1",
+"strength": "essential",
+"why": "gas trapped in sealed flask",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "mass gained from oxygen",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem10-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.2.1",
+"strength": "helpful",
+"why": "atoms rearranged in reaction",
+"confidence": "high"
+},
+{
+"id": "chem2-s1.0.2",
+"strength": "helpful",
+"why": "atoms rearranged, not destroyed",
+"confidence": "low"
+}
+]
+},
+"chem10-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.6.0",
+"strength": "helpful",
+"why": "same atoms each side",
+"confidence": "high"
+},
+{
+"id": "chem10-s1.10.5",
+"strength": "helpful",
+"why": "silver nitrate equation",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.13.0",
+"strength": "helpful",
+"why": "same pieces rearranged",
+"confidence": "high"
+}
+]
+},
+"chem10-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s1.13.1",
+"strength": "helpful",
+"why": "same atom count each side",
+"confidence": "high"
+}
+]
+}
+}

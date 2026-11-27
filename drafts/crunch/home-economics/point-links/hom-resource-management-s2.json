@@ -1,0 +1,410 @@
+{
+"hom-resource-management-s2.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s1.0.1",
+"strength": "helpful",
+"why": "uses resources",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.0",
+"strength": "helpful",
+"why": "contrast with needs",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s1.0.3",
+"strength": "helpful",
+"why": "goals defined",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "values shape goals",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s1.2.0",
+"strength": "helpful",
+"why": "human resources type",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s1.2.1",
+"strength": "helpful",
+"why": "material resources type",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "uses goals",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.b",
+"strength": "helpful",
+"why": "inputs become outputs",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.1.2",
+"strength": "helpful",
+"why": "implementing defined",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "judged against goals",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "uses goals",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.3",
+"strength": "helpful",
+"why": "uses values",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.2.3": {
+"cost": 2,
+"needs": []
+},
+"hom-resource-management-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s1.3.5",
+"strength": "helpful",
+"why": "feedback cycle",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s1.3.2",
+"strength": "helpful",
+"why": "one-off events use system",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.b",
+"strength": "helpful",
+"why": "inputs components",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s2.1.b",
+"strength": "essential",
+"why": "throughputs components",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.2.b",
+"strength": "helpful",
+"why": "outputs defined",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.2.4",
+"strength": "essential",
+"why": "feedback into next cycle",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "weigh against goals",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.4.0",
+"strength": "helpful",
+"why": "review step",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.3",
+"strength": "helpful",
+"why": "uses values",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-resource-management-s2.1.b",
+"strength": "helpful",
+"why": "uses throughput stages",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.2.4",
+"strength": "helpful",
+"why": "feedback evaluates outputs",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-resource-management-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.6.2",
+"strength": "helpful",
+"why": "responsibility for tasks",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.5": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.6.6": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s1.0.1",
+"strength": "helpful",
+"why": "resource defined",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.4",
+"strength": "helpful",
+"why": "human resources",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-resource-management-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.5",
+"strength": "helpful",
+"why": "material resources",
+"confidence": "high"
+}
+]
+},
+"hom-resource-management-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.4",
+"strength": "helpful",
+"why": "human resources",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,577 @@
+{
+"chem1-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.2",
+"strength": "essential",
+"why": "theory explains why",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.0.3",
+"strength": "essential",
+"why": "law describes what happens",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.1",
+"strength": "helpful",
+"why": "supporting or rejecting hypothesis",
+"confidence": "low"
+}
+]
+},
+"chem1-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.0",
+"strength": "helpful",
+"why": "observation",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.1",
+"strength": "essential",
+"why": "hypothesis meaning",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.2",
+"strength": "helpful",
+"why": "testing the prediction",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.5",
+"strength": "helpful",
+"why": "data as evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.4",
+"strength": "essential",
+"why": "conclusion from data",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.0.1",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.1.6": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.3",
+"strength": "helpful",
+"why": "experiments in the cycle",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.1",
+"strength": "helpful",
+"why": "new hypotheses",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.1",
+"strength": "essential",
+"why": "rejecting a hypothesis",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.0.5",
+"strength": "helpful",
+"why": "evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.5",
+"strength": "helpful",
+"why": "evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.3.0",
+"strength": "essential",
+"why": "knowledge changes with evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.3.0",
+"strength": "essential",
+"why": "knowledge changes with evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.3.0",
+"strength": "essential",
+"why": "knowledge changes with evidence",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.2",
+"strength": "essential",
+"why": "what a theory is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.3.4",
+"strength": "essential",
+"why": "theories refined or replaced",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.4.0",
+"strength": "essential",
+"why": "Dalton indivisible atoms",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.4.1",
+"strength": "essential",
+"why": "plum pudding model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.4.2",
+"strength": "essential",
+"why": "nuclear model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.4.3",
+"strength": "helpful",
+"why": "energy levels model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.5.b",
+"strength": "helpful",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.5.b",
+"strength": "helpful",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.5.b",
+"strength": "helpful",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem1-s1.5.b",
+"strength": "essential",
+"why": "bias being reduced",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.1.3",
+"strength": "helpful",
+"why": "fair controlled test",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.5.b",
+"strength": "helpful",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.0.2",
+"strength": "essential",
+"why": "what a theory is",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "model definition",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "essential",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.0",
+"strength": "helpful",
+"why": "molecular model example",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "essential",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.2",
+"strength": "helpful",
+"why": "ideal gas equation as model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "essential",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "essential",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.8.0",
+"strength": "essential",
+"why": "models have limits",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.6.2",
+"strength": "helpful",
+"why": "ideal gas model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.0",
+"strength": "essential",
+"why": "ball-and-stick models",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.4.3",
+"strength": "essential",
+"why": "Bohr model",
+"confidence": "high"
+}
+]
+},
+"chem1-s1.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.8.0",
+"strength": "helpful",
+"why": "models are simplifications",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.3.0",
+"strength": "helpful",
+"why": "knowledge changes with evidence",
+"confidence": "low"
+}
+]
+}
+}

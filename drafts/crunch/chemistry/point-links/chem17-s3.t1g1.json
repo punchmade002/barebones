@@ -1,0 +1,1041 @@
+{
+"chem17-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s1.0.0",
+"strength": "helpful",
+"why": "rate of reaction",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s1.5.3",
+"strength": "essential",
+"why": "activation energy",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.0",
+"strength": "helpful",
+"why": "catalyst not used up",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "helpful",
+"why": "enthalpy change ΔH",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.0",
+"strength": "essential",
+"why": "phase",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.1",
+"strength": "essential",
+"why": "homogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.0",
+"strength": "essential",
+"why": "phase",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "essential",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "essential",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "helpful",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.0",
+"strength": "essential",
+"why": "exothermic reaction gives out heat",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "essential",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.0",
+"strength": "helpful",
+"why": "catalyst definition",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.4.0",
+"strength": "essential",
+"why": "autocatalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s1.9.1",
+"strength": "helpful",
+"why": "surface area increases rate",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.5.2",
+"strength": "essential",
+"why": "converter reactions",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "essential",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.5.2",
+"strength": "helpful",
+"why": "harmful gases removed",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s1.14.5",
+"strength": "helpful",
+"why": "catalyst poisoning",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.6.0",
+"strength": "helpful",
+"why": "enzyme as catalyst",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.6.0",
+"strength": "essential",
+"why": "enzymes",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.6.0",
+"strength": "essential",
+"why": "enzymes",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.7.0",
+"strength": "essential",
+"why": "active site",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.6.0",
+"strength": "helpful",
+"why": "enzymes",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "helpful",
+"why": "ΔH sign",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.0",
+"strength": "helpful",
+"why": "energy profile axes",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.2",
+"strength": "helpful",
+"why": "peak of curve",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.3",
+"strength": "essential",
+"why": "activated complex",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.0",
+"strength": "helpful",
+"why": "energy profile diagram",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s1.5.3",
+"strength": "essential",
+"why": "activation energy",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.8.2",
+"strength": "helpful",
+"why": "peak of curve",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "enthalpy change",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.0",
+"strength": "essential",
+"why": "Ea height",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.9.1",
+"strength": "essential",
+"why": "ΔH",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.0",
+"strength": "essential",
+"why": "Ea height",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.9.1",
+"strength": "essential",
+"why": "ΔH",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.3",
+"strength": "essential",
+"why": "reverse Ea formula",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.0",
+"strength": "helpful",
+"why": "energy profile diagram",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.0",
+"strength": "essential",
+"why": "energy profile diagram",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.0",
+"strength": "essential",
+"why": "activation energy",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.9.1",
+"strength": "essential",
+"why": "ΔH",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.10.0",
+"strength": "essential",
+"why": "catalysed pathway",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.6.0",
+"strength": "helpful",
+"why": "exothermic ΔH negative",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.10.0",
+"strength": "essential",
+"why": "catalysed pathway",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.6.1",
+"strength": "helpful",
+"why": "endothermic ΔH positive",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.3",
+"strength": "essential",
+"why": "reverse activation energy",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.4",
+"strength": "helpful",
+"why": "intermediate vs activated complex",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s1.11.1",
+"strength": "essential",
+"why": "energy distribution and Ea",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.11.1": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.9.0",
+"strength": "essential",
+"why": "Ea arrow",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.9.1",
+"strength": "essential",
+"why": "ΔH arrow",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.10.0",
+"strength": "essential",
+"why": "catalysed profile",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.0",
+"strength": "helpful",
+"why": "catalyst regenerated",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.0",
+"strength": "essential",
+"why": "intermediate formation",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.1",
+"strength": "essential",
+"why": "two-step mechanism",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.2",
+"strength": "essential",
+"why": "steps cancel",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.1",
+"strength": "helpful",
+"why": "lower activation energy",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.8.4",
+"strength": "essential",
+"why": "intermediate in a dip",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.12.0",
+"strength": "helpful",
+"why": "intermediate formation",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.0",
+"strength": "essential",
+"why": "intermediate",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.1",
+"strength": "essential",
+"why": "homogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.0",
+"strength": "helpful",
+"why": "intermediate formation",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.12.0",
+"strength": "essential",
+"why": "intermediate formation",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.13.0",
+"strength": "essential",
+"why": "step 1 intermediate",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.13.0",
+"strength": "essential",
+"why": "step 1",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.13.1",
+"strength": "essential",
+"why": "step 2",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.14.0": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.0",
+"strength": "helpful",
+"why": "catalyst",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.14.2": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.14.3": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.12.0",
+"strength": "essential",
+"why": "catalyst forms intermediate",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.0",
+"strength": "helpful",
+"why": "catalyst regenerated",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.14.6": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.14.7": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "helpful",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.2.3",
+"strength": "helpful",
+"why": "heterogeneous catalysis",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.0",
+"strength": "essential",
+"why": "surface adsorption",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "adsorbed molecules",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "adsorbed molecules",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "helpful",
+"why": "adsorption",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "active sites",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.16.0",
+"strength": "essential",
+"why": "surface area and sites",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem17-s3.5.3",
+"strength": "essential",
+"why": "converter reaction",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.15.0",
+"strength": "essential",
+"why": "surface adsorption",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.0",
+"strength": "essential",
+"why": "adsorbed on surface",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "adsorption stages",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem17-s3.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "active sites",
+"confidence": "high"
+},
+{
+"id": "chem17-s1.14.5",
+"strength": "helpful",
+"why": "catalyst poisoning",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.15.1",
+"strength": "essential",
+"why": "active sites",
+"confidence": "high"
+},
+{
+"id": "chem17-s1.14.4",
+"strength": "helpful",
+"why": "catalyst saturation",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.7.0",
+"strength": "essential",
+"why": "substrate and active site",
+"confidence": "high"
+},
+{
+"id": "chem17-s3.12.0",
+"strength": "helpful",
+"why": "intermediate",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.17.2",
+"strength": "essential",
+"why": "enzyme-substrate complex",
+"confidence": "high"
+}
+]
+},
+"chem17-s3.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem17-s3.0.1",
+"strength": "helpful",
+"why": "lower activation energy",
+"confidence": "high"
+}
+]
+}
+}

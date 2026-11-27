@@ -1,0 +1,281 @@
+{
+ "hom-environmental-issues-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.0.1",
+    "strength": "helpful",
+    "why": "renewable resources defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.1.0",
+    "strength": "helpful",
+    "why": "uses solar thermal panels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.1.b",
+    "strength": "helpful",
+    "why": "renewable meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.0.0",
+    "strength": "helpful",
+    "why": "sustainable use meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.1.0",
+    "strength": "helpful",
+    "why": "solar panels on roof",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.1.0",
+    "strength": "helpful",
+    "why": "solar output varies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.0",
+    "strength": "helpful",
+    "why": "peat as fossil fuel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.0",
+    "strength": "helpful",
+    "why": "fossil fuels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.0.0",
+    "strength": "helpful",
+    "why": "sustainable use meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.0",
+    "strength": "helpful",
+    "why": "burning fossil fuels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.0",
+    "strength": "helpful",
+    "why": "coal, oil, peat fuels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.1",
+    "strength": "helpful",
+    "why": "peat cut from bogs",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-environmental-issues-s1.4.0",
+    "strength": "helpful",
+    "why": "carbon dioxide effect",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.4.0",
+    "strength": "helpful",
+    "why": "fossil fuel burning harms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.1.6",
+    "strength": "helpful",
+    "why": "heat pump renewable heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s1.3.3",
+    "strength": "helpful",
+    "why": "finite metals mined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ }
+}

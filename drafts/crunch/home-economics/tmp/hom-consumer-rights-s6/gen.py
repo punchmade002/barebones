@@ -1,0 +1,37 @@
+import json
+P='hom-consumer-rights-s6.'
+def L(i,s,w,c='high'): return {"id":i,"strength":s,"why":w,"confidence":c}
+d={}
+def a(k,c,n=()): d[P+k]={"cost":c,"needs":list(n)}
+C='hom-consumer-rights-'
+a('0.b',1);a('0.0',1)
+a('0.1',1,[L(C+'s3.0.2','helpful','retailer responsible for faulty goods')])
+a('0.2',1,[L(C+'s4.3.0','helpful','repair, replacement or refund remedies')])
+a('0.3',1);a('0.4',1);a('0.5',1)
+a('0.6',1,[L(C+'s3.0.4','helpful','guarantee versus statutory rights')])
+a('0.7',2,[L(C+'s5.1.b','helpful','uses CCPC'),L(C+'s5.5.2','helpful','uses European Consumer Centre')])
+a('1.b',1);a('1.0',1);a('1.1',1)
+a('1.2',1,[L(C+'s4.3.3','helpful','remedies for services')])
+a('1.3',1)
+a('1.4',1,[L(P+'3.b','helpful','uses small claims procedure')])
+a('2.b',1)
+a('2.0',1,[L(C+'s5.7.b','helpful','uses the ASA')])
+a('2.1',1,[L(C+'s5.1.b','helpful','uses CCPC')])
+a('2.2',1)
+a('2.3',1,[L(C+'s5.3.3','helpful','ombudsman as last resort')])
+a('3.b',1);a('3.0',1);a('3.1',1);a('3.2',1);a('3.3',1);a('3.4',1)
+a('4.b',1);a('4.0',1)
+a('4.1',1,[L(P+'3.4','helpful','uses respondent term')])
+a('4.2',2,[L(P+'3.4','helpful','uses respondent term')])
+a('4.3',1,[L(P+'4.2','helpful','follows respondent response')])
+a('4.4',1,[L(P+'4.2','helpful','follows dispute response')])
+a('4.5',1,[L(P+'4.4','helpful','follows failed settlement')])
+a('5.b',1,[L(P+'0.b','helpful','steps already learned','low')])
+a('5.0',1,[L(P+'0.1','helpful','uses returning faulty goods step')])
+a('5.1',1,[L(P+'0.4','helpful','uses complaining in writing')])
+a('5.2',1,[L(P+'4.0','helpful','uses claim form step')])
+a('5.3',2,[L(P+'4.5','helpful','uses hearing step')])
+a('6.b',1);a('6.0',1);a('6.1',1);a('6.2',1);a('6.3',1)
+a('6.4',1,[L(P+'3.1','helpful','uses monetary limit')])
+a('6.5',1)
+json.dump(d,open('../../point-links/hom-consumer-rights-s6.t1g1.json','w'),indent=1)

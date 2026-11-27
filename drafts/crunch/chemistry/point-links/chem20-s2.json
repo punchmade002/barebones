@@ -1,0 +1,638 @@
+{
+"chem20-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.0": {
+"cost": 2,
+"needs": []
+},
+"chem20-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.1.0",
+"strength": "helpful",
+"why": "energy used in processing water",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.13.0",
+"strength": "helpful",
+"why": "p.p.m. as a unit",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s2.2.0",
+"strength": "essential",
+"why": "dissolved oxygen in water",
+"confidence": "high"
+},
+{
+"id": "chem20-s2.2.1",
+"strength": "helpful",
+"why": "bacteria use oxygen breaking organic matter",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD definition",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD values in mg per litre",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "helpful",
+"why": "BOD of farm waste",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD test conditions",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.0",
+"strength": "helpful",
+"why": "oxygen solubility falls when warmer",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "helpful",
+"why": "five-day BOD definition",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "dissolved oxygen is what BOD measures",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s2.3.0",
+"strength": "helpful",
+"why": "dark prevents photosynthesis",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.3.4",
+"strength": "essential",
+"why": "sample incubated five days",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.3.5",
+"strength": "essential",
+"why": "initial and final oxygen readings",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.3.4",
+"strength": "essential",
+"why": "bottle set-up for incubation",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.6.b",
+"strength": "helpful",
+"why": "eutrophication",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.6.b",
+"strength": "helpful",
+"why": "eutrophication",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.13.1",
+"strength": "helpful",
+"why": "mg per litre concentration",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.5.5": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s2.2.1",
+"strength": "essential",
+"why": "aerobic bacteria decompose, use oxygen",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.6.2",
+"strength": "essential",
+"why": "oxygen depletion after algae die",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.6.0",
+"strength": "helpful",
+"why": "nutrient sources to cut",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.6.6": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.11.0",
+"strength": "helpful",
+"why": "pH scale",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.2",
+"strength": "essential",
+"why": "BOD",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.2.0",
+"strength": "helpful",
+"why": "warmer water holds less oxygen",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.7.3",
+"strength": "helpful",
+"why": "less oxygen in warm water",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.7.5": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.8.1": {
+"cost": 2,
+"needs": []
+},
+"chem20-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.8.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.8.3",
+"strength": "essential",
+"why": "bioaccumulation",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.8.5": {
+"cost": 2,
+"needs": []
+},
+"chem20-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.11.b",
+"strength": "helpful",
+"why": "acidic water dissolves lead",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.8.4",
+"strength": "helpful",
+"why": "biomagnification up food chain",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.9.5": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.6": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.9.7": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.0": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.3": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.10.0",
+"strength": "helpful",
+"why": "microplastic size",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.10.5": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.10.6": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s1.10.5",
+"strength": "helpful",
+"why": "sulfur oxides from burning fuels",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s2.11.0",
+"strength": "helpful",
+"why": "SO2 dissolving in rain",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem20-s1.10.1",
+"strength": "helpful",
+"why": "NO2 formation",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.7.1",
+"strength": "helpful",
+"why": "acidic industrial waste water",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s1.0.4",
+"strength": "helpful",
+"why": "CO2 dissolving to form acid",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.11.0",
+"strength": "helpful",
+"why": "pH and H+ concentration",
+"confidence": "low"
+}
+]
+},
+"chem20-s2.12.1": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.12.2": {
+"cost": 1,
+"needs": []
+},
+"chem20-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s1.14.5",
+"strength": "helpful",
+"why": "acid dissolving calcium carbonate",
+"confidence": "high"
+}
+]
+},
+"chem20-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.9.0",
+"strength": "helpful",
+"why": "lead from pipes",
+"confidence": "high"
+}
+]
+}
+}

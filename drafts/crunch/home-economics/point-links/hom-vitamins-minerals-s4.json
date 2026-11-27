@@ -1,0 +1,398 @@
+{
+"hom-vitamins-minerals-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.2",
+"strength": "helpful",
+"why": "calcium and phosphorus harden bones",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.0.4",
+"strength": "helpful",
+"why": "phosphorus role in bones",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.1.3": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.2",
+"strength": "helpful",
+"why": "calcium hardens bones",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.2",
+"strength": "helpful",
+"why": "calcium hardens bones",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.5",
+"strength": "essential",
+"why": "osteoporosis",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.5",
+"strength": "helpful",
+"why": "bone loss and osteoporosis",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.2.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.2",
+"strength": "helpful",
+"why": "iron carries oxygen in haemoglobin",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.2",
+"strength": "essential",
+"why": "haemoglobin carries oxygen",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.4",
+"strength": "helpful",
+"why": "iron deficiency anaemia",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.5",
+"strength": "essential",
+"why": "causes being corrected",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.2.1",
+"strength": "helpful",
+"why": "non-haem iron absorbed poorly",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.2.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.0",
+"strength": "essential",
+"why": "haem iron absorbed easily",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.2.1",
+"strength": "helpful",
+"why": "non-haem iron only in vegetarians",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.0.1",
+"strength": "helpful",
+"why": "major minerals contrast",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.3.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.4.1",
+"strength": "helpful",
+"why": "zinc and cell division",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.4.1",
+"strength": "helpful",
+"why": "zinc functions in growth",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.5.1",
+"strength": "essential",
+"why": "thyroxine made by thyroid",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.5.1",
+"strength": "helpful",
+"why": "thyroxine controls metabolism",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.6.1",
+"strength": "helpful",
+"why": "potassium as electrolyte",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.2",
+"strength": "helpful",
+"why": "sodium's role in fluid balance",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.6.2",
+"strength": "helpful",
+"why": "nerve and muscle function",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.7.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.0",
+"strength": "helpful",
+"why": "processed food sodium sources",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.6.1",
+"strength": "helpful",
+"why": "potassium balances sodium",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.2",
+"strength": "helpful",
+"why": "sodium as electrolyte",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.0",
+"strength": "helpful",
+"why": "salt sodium sources",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.4",
+"strength": "helpful",
+"why": "reason to cut salt",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s4.7.6": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s4.7.7": {
+"cost": 1,
+"needs": []
+}
+}

@@ -1,0 +1,439 @@
+{
+ "hom-personal-finance-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.b",
+    "strength": "helpful",
+    "why": "welfare payments",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.3.3",
+    "strength": "helpful",
+    "why": "voluntary deduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.b",
+    "strength": "helpful",
+    "why": "welfare payments",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.1.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.1.2",
+    "strength": "helpful",
+    "why": "pensions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.3.0",
+    "strength": "essential",
+    "why": "gross income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.b",
+    "strength": "helpful",
+    "why": "PAYE PRSI USC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.3.1",
+    "strength": "essential",
+    "why": "net income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.0",
+    "strength": "helpful",
+    "why": "PAYE calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.0",
+    "strength": "helpful",
+    "why": "PAYE",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.4.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.3",
+    "strength": "essential",
+    "why": "PRSI",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.4.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.5",
+    "strength": "essential",
+    "why": "USC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.0",
+    "strength": "helpful",
+    "why": "income tax PAYE",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.0",
+    "strength": "helpful",
+    "why": "income tax PAYE",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.5.0",
+    "strength": "essential",
+    "why": "tax credits",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-personal-finance-s1.3.0",
+    "strength": "helpful",
+    "why": "gross income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.5.0",
+    "strength": "essential",
+    "why": "tax credits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.4.5",
+    "strength": "essential",
+    "why": "USC",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.0",
+    "strength": "helpful",
+    "why": "social insurance payments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.0",
+    "strength": "helpful",
+    "why": "contrast with social insurance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.2",
+    "strength": "helpful",
+    "why": "social assistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.2",
+    "strength": "helpful",
+    "why": "means-tested payments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "helpful",
+    "why": "means test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "essential",
+    "why": "means test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "helpful",
+    "why": "means test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.0",
+    "strength": "helpful",
+    "why": "social insurance payment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.7.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.b",
+    "strength": "helpful",
+    "why": "insurance versus assistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.0",
+    "strength": "helpful",
+    "why": "PRSI-based payments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "helpful",
+    "why": "means test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "essential",
+    "why": "means-tested",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s1.6.4",
+    "strength": "helpful",
+    "why": "means test",
+    "confidence": "high"
+   }
+  ]
+ }
+}

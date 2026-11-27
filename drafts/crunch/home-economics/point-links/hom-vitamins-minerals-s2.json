@@ -1,0 +1,563 @@
+{
+"hom-vitamins-minerals-s2.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s1.0.1",
+"strength": "helpful",
+"why": "fat-soluble versus water-soluble classes",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s1.0.1",
+"strength": "helpful",
+"why": "water-soluble vitamin class",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.0",
+"strength": "helpful",
+"why": "uses water-soluble storage rule",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.3.b",
+"strength": "helpful",
+"why": "RDA as planning value",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.1.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s2.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.0",
+"strength": "helpful",
+"why": "collagen",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.5.5",
+"strength": "helpful",
+"why": "reducing agent converts ferric iron",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.0",
+"strength": "helpful",
+"why": "collagen needs vitamin C",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.0",
+"strength": "essential",
+"why": "weak collagen without vitamin C",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.1",
+"strength": "helpful",
+"why": "healing depends on collagen",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.2",
+"strength": "essential",
+"why": "vitamin C aids iron absorption",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.5",
+"strength": "helpful",
+"why": "vitamin C supports immunity",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.5.b",
+"strength": "helpful",
+"why": "properties explain loss",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.5.4",
+"strength": "helpful",
+"why": "cut surface and soaking increase loss",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.5.1",
+"strength": "helpful",
+"why": "water-soluble, lost into cooking water",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.5.2",
+"strength": "helpful",
+"why": "alkalis destroy vitamin C",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.5.0",
+"strength": "helpful",
+"why": "vitamins dissolve in cooking water",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.2",
+"strength": "helpful",
+"why": "lost into cooking water",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.5.2": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.2.0",
+"strength": "helpful",
+"why": "oxidase enzyme meets phenolics when cut",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.2",
+"strength": "essential",
+"why": "ferric to ferrous iron conversion",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.6.0",
+"strength": "helpful",
+"why": "B12 only in animal foods",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.1",
+"strength": "helpful",
+"why": "B12 liver store",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.4",
+"strength": "helpful",
+"why": "B12 and folate form red cells",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.7.0",
+"strength": "helpful",
+"why": "B12 forms red blood cells",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.8.0",
+"strength": "helpful",
+"why": "megaloblastic anaemia",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.7.2",
+"strength": "helpful",
+"why": "myelin sheath insulates nerves",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.6.1",
+"strength": "essential",
+"why": "plant foods lack B12",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.6.2",
+"strength": "essential",
+"why": "intrinsic factor needed for absorption",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.6.2",
+"strength": "helpful",
+"why": "absorption failure",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.2",
+"strength": "helpful",
+"why": "water-soluble loss in cooking water",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.7.0",
+"strength": "helpful",
+"why": "B12 and red blood cells",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.3",
+"strength": "helpful",
+"why": "folate in cell division",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.5",
+"strength": "helpful",
+"why": "neural tube forms early",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.8.0",
+"strength": "helpful",
+"why": "same megaloblastic anaemia as B12",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.5",
+"strength": "essential",
+"why": "folate forms neural tube",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.3",
+"strength": "helpful",
+"why": "folate needed for growth",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.5",
+"strength": "helpful",
+"why": "folic acid protects neural tube",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.2",
+"strength": "helpful",
+"why": "folic acid versus folate",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.12.0",
+"strength": "helpful",
+"why": "water-soluble folate lost in boiling",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.10.2",
+"strength": "helpful",
+"why": "folic acid is synthetic form",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,1195 @@
+{
+ "chem14-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "helpful",
+    "why": "electron loss and gain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.15.0",
+    "strength": "essential",
+    "why": "finding oxidation numbers by rules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.2",
+    "strength": "essential",
+    "why": "oxidising and reducing agents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "essential",
+    "why": "change in oxidation number equals electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "essential",
+    "why": "electrons per formula unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.8.3",
+    "strength": "helpful",
+    "why": "balancing by coefficients",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "helpful",
+    "why": "balancing O and H last",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.11.4",
+    "strength": "helpful",
+    "why": "charge balance as well as atoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "finding the oxidising agent",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.15.1",
+    "strength": "helpful",
+    "why": "Mn is +7 in KMnO4",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "finding the reducing agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "essential",
+    "why": "equalising electrons lost and gained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "essential",
+    "why": "balancing O with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.6",
+    "strength": "essential",
+    "why": "balancing H with H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "atom check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "helpful",
+    "why": "lowest common multiple",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "identifying reducing agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.16.1",
+    "strength": "helpful",
+    "why": "N is +5 in nitrate, +2 in NO",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "identifying oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "essential",
+    "why": "LCM of electron changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "essential",
+    "why": "balancing O with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.6",
+    "strength": "essential",
+    "why": "balancing H with H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "essential",
+    "why": "multiplying change by atom count",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "identifying oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s1.15.0",
+    "strength": "essential",
+    "why": "solving for carbon oxidation number",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "essential",
+    "why": "change per formula unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "essential",
+    "why": "lowest common multiple",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "essential",
+    "why": "balancing O with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.6",
+    "strength": "essential",
+    "why": "balancing H with H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.15.4",
+    "strength": "essential",
+    "why": "fractional oxidation numbers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "identifying oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s1.15.4",
+    "strength": "essential",
+    "why": "average oxidation number",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "helpful",
+    "why": "change per formula unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "essential",
+    "why": "equalising electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "helpful",
+    "why": "atom check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "helpful",
+    "why": "change per formula unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "essential",
+    "why": "change per atom times atoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.2",
+    "strength": "essential",
+    "why": "identifying oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.4",
+    "strength": "essential",
+    "why": "lowest common multiple",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "essential",
+    "why": "balancing O with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.6",
+    "strength": "essential",
+    "why": "balancing H with H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "essential",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem14-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.7.0",
+    "strength": "helpful",
+    "why": "electron changes in this equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.7.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem14-s2.7.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem14-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.15.2",
+    "strength": "helpful",
+    "why": "Cr is +6 in dichromate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s1.12.3",
+    "strength": "helpful",
+    "why": "only some S atoms change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.7.5",
+    "strength": "helpful",
+    "why": "which atoms change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.2.5",
+    "strength": "helpful",
+    "why": "permanganate and iron(II) equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.5.3",
+    "strength": "helpful",
+    "why": "iodine and thiosulfate equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "helpful",
+    "why": "half-equations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "essential",
+    "why": "half-equations with electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "essential",
+    "why": "oxidation number change equals electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.8.0",
+    "strength": "helpful",
+    "why": "building a half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "helpful",
+    "why": "oxidation half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.8.2",
+    "strength": "essential",
+    "why": "permanganate half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.3",
+    "strength": "essential",
+    "why": "change per atom times atom count",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.5",
+    "strength": "helpful",
+    "why": "order: electrons then O and H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.0.7",
+    "strength": "helpful",
+    "why": "charge check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.5",
+    "strength": "helpful",
+    "why": "spectator ions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.11.5",
+    "strength": "helpful",
+    "why": "first 36 elements limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "essential",
+    "why": "oxidation as electron loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem14-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.0",
+    "strength": "essential",
+    "why": "tendency to lose electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.2",
+    "strength": "helpful",
+    "why": "reducing agent versus oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.0",
+    "strength": "helpful",
+    "why": "ease of oxidation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.1",
+    "strength": "essential",
+    "why": "position of hydrogen in series",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.5",
+    "strength": "essential",
+    "why": "metals below hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.0",
+    "strength": "helpful",
+    "why": "ease of oxidation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.0",
+    "strength": "essential",
+    "why": "higher metal oxidised more easily",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "essential",
+    "why": "half-equations of zinc and copper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.1",
+    "strength": "essential",
+    "why": "zinc and copper(II) reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacement of a lower metal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacement of a lower metal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacement of a lower metal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.1",
+    "strength": "essential",
+    "why": "order in series",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.5",
+    "strength": "helpful",
+    "why": "spectator ions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "helpful",
+    "why": "displacement reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "helpful",
+    "why": "displacement reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacement reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.14.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem14-s2.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.13.2",
+    "strength": "helpful",
+    "why": "what to observe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.14.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacement of a lower metal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.15.0",
+    "strength": "essential",
+    "why": "counting displacements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "helpful",
+    "why": "displacement equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "helpful",
+    "why": "displacement equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.12.2",
+    "strength": "essential",
+    "why": "further apart reacts more vigorously",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.15.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.13.2",
+    "strength": "helpful",
+    "why": "reaction seen as evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.6.5",
+    "strength": "helpful",
+    "why": "aluminium oxide layer",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.14.0",
+    "strength": "helpful",
+    "why": "removing the oxide layer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.13.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.16.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.14.1",
+    "strength": "helpful",
+    "why": "test tube set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.16.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.15.0",
+    "strength": "helpful",
+    "why": "results grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem14-s2.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.11.0",
+    "strength": "essential",
+    "why": "displacing metal is higher",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.17.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.17.0",
+    "strength": "essential",
+    "why": "working out order from displacement",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s2.10.1",
+    "strength": "helpful",
+    "why": "order of the series",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.1",
+    "strength": "essential",
+    "why": "order in series",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem14-s2.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.10.1",
+    "strength": "helpful",
+    "why": "most reactive metals",
+    "confidence": "high"
+   },
+   {
+    "id": "chem7-s1.2.0",
+    "strength": "helpful",
+    "why": "alkali metals with water",
+    "confidence": "high"
+   }
+  ]
+ }
+}

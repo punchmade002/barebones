@@ -1,0 +1,235 @@
+{
+ "hom-proteins-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.0.2",
+    "strength": "helpful",
+    "why": "amino acids as units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.0.2",
+    "strength": "helpful",
+    "why": "amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.3.0",
+    "strength": "helpful",
+    "why": "peptide bond formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.0",
+    "strength": "helpful",
+    "why": "folding into shape",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-proteins-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.0.1",
+    "strength": "helpful",
+    "why": "peptide bonds link blocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.0.0",
+    "strength": "helpful",
+    "why": "polypeptide chain from primary structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.0",
+    "strength": "helpful",
+    "why": "bonds folding the chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.1",
+    "strength": "essential",
+    "why": "hydrogen bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.1",
+    "strength": "helpful",
+    "why": "hydrogen bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.0",
+    "strength": "helpful",
+    "why": "disulphide links explained there",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s2.2.1",
+    "strength": "helpful",
+    "why": "salt bonds explained there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s2.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.1.3",
+    "strength": "helpful",
+    "why": "side group R",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.1",
+    "strength": "helpful",
+    "why": "hydrogen bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s2.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.2",
+    "strength": "helpful",
+    "why": "many weak hydrogen bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s2.0.1",
+    "strength": "helpful",
+    "why": "peptide bonds stay intact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.0",
+    "strength": "helpful",
+    "why": "disulphide links",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s2.2.1",
+    "strength": "helpful",
+    "why": "salt bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.0.0",
+    "strength": "helpful",
+    "why": "primary structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.1.0",
+    "strength": "helpful",
+    "why": "coiling by hydrogen bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.0",
+    "strength": "helpful",
+    "why": "disulphide links",
+    "confidence": "high"
+   }
+  ]
+ }
+}

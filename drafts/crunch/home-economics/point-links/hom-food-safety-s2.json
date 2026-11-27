@@ -1,0 +1,476 @@
+{
+"hom-food-safety-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s1.9.6",
+"strength": "helpful",
+"why": "bacteria reproduce by binary fission",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.3",
+"strength": "helpful",
+"why": "danger zone",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.1.1",
+"strength": "helpful",
+"why": "mesophile growth temperature",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.1.1",
+"strength": "essential",
+"why": "mesophiles",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s1.3.3",
+"strength": "helpful",
+"why": "moulds need oxygen",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s1.8.2",
+"strength": "helpful",
+"why": "yeast facultative respiration",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "helpful",
+"why": "infectious food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s1.9.b",
+"strength": "helpful",
+"why": "bacterial cell structure",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s2.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.1.1",
+"strength": "helpful",
+"why": "mesophile",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s2.2.2",
+"strength": "helpful",
+"why": "facultative",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.b",
+"strength": "helpful",
+"why": "incubation period defined",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.3",
+"strength": "helpful",
+"why": "toxic food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s1.9.b",
+"strength": "helpful",
+"why": "bacterial structure",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s2.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.4.2": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s2.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.1.1",
+"strength": "helpful",
+"why": "mesophile",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s2.2.2",
+"strength": "helpful",
+"why": "facultative",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.3",
+"strength": "helpful",
+"why": "exotoxin in toxic poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.b",
+"strength": "helpful",
+"why": "incubation period defined",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.3",
+"strength": "helpful",
+"why": "toxic food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.2.1",
+"strength": "essential",
+"why": "anaerobic",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.5.2": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.2.1",
+"strength": "essential",
+"why": "anaerobic growth",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.4",
+"strength": "helpful",
+"why": "exotoxins hard to destroy",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.b",
+"strength": "helpful",
+"why": "incubation period defined",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.5.6": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "helpful",
+"why": "infectious food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "helpful",
+"why": "infectious food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "helpful",
+"why": "infectious food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.3",
+"strength": "helpful",
+"why": "toxic food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "essential",
+"why": "infectious food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.0",
+"strength": "helpful",
+"why": "infectious type",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.3",
+"strength": "essential",
+"why": "toxic food poisoning",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s2.7.2",
+"strength": "helpful",
+"why": "infectious summary",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s2.7.4",
+"strength": "helpful",
+"why": "toxic summary",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.0",
+"strength": "helpful",
+"why": "growth conditions",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.3",
+"strength": "helpful",
+"why": "heat above 63 destroys bacteria",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.3",
+"strength": "essential",
+"why": "danger zone",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.8.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.8.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.2",
+"strength": "helpful",
+"why": "bacteria multiply quickly with time",
+"confidence": "high"
+}
+]
+}
+}

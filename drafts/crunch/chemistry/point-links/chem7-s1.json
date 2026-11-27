@@ -1,0 +1,975 @@
+{
+"chem7-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "helpful",
+"why": "same group, same outer electrons",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.1",
+"strength": "helpful",
+"why": "main energy levels",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "helpful",
+"why": "metals form positive ions",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.5",
+"strength": "helpful",
+"why": "halogens and noble gases groups",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.4",
+"strength": "helpful",
+"why": "group 1 are alkali metals",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.6.0",
+"strength": "helpful",
+"why": "tarnishing is oxidation",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.13.2",
+"strength": "essential",
+"why": "screening by inner electrons",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.1",
+"strength": "helpful",
+"why": "distance from nucleus weakens pull",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "helpful",
+"why": "group 1 forms 1+ ions",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.1.5": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.2.0",
+"strength": "helpful",
+"why": "same reaction pattern as sodium",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.2.5": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.1.2",
+"strength": "helpful",
+"why": "group 1 reactivity comparison",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s1.0.0",
+"strength": "helpful",
+"why": "oxidation as adding oxygen",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.1.3",
+"strength": "essential",
+"why": "same reason as group 1 trend",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "helpful",
+"why": "group 2 forms 2+ ions",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.5.0",
+"strength": "helpful",
+"why": "covalent substances do not conduct",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.2",
+"strength": "helpful",
+"why": "group 17 forms 1- ions",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.4.5",
+"strength": "helpful",
+"why": "halogens gain electrons",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.13.2",
+"strength": "essential",
+"why": "screening",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.1",
+"strength": "helpful",
+"why": "distance from nucleus",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.4.5",
+"strength": "helpful",
+"why": "halogens gain one electron",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.4.7",
+"strength": "essential",
+"why": "halogen reactivity decreases down group",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.5.0",
+"strength": "essential",
+"why": "displacement of less reactive halogen",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.4.7",
+"strength": "helpful",
+"why": "chlorine more reactive than bromine",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.5.0",
+"strength": "essential",
+"why": "displacement of less reactive halogen",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.4.7",
+"strength": "helpful",
+"why": "chlorine more reactive than iodine",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.5.0",
+"strength": "essential",
+"why": "displacement rule",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.17.0",
+"strength": "helpful",
+"why": "full outer level is stable",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.6.3",
+"strength": "essential",
+"why": "unreactive and inert",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.6.3",
+"strength": "essential",
+"why": "lack of reactivity",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.6.6": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.14.0",
+"strength": "essential",
+"why": "isotopes differ in mass",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.5.0",
+"strength": "helpful",
+"why": "period is a row",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.5.1",
+"strength": "helpful",
+"why": "period number gives energy levels",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.2.4",
+"strength": "helpful",
+"why": "same outer arrangement same group",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.0",
+"strength": "helpful",
+"why": "electronegativity defined",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.1.2",
+"strength": "helpful",
+"why": "electronegativity trend explanation",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.17.1",
+"strength": "helpful",
+"why": "octet of eight electrons",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.1.3",
+"strength": "essential",
+"why": "distance and screening explain reactivity",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.4.7",
+"strength": "essential",
+"why": "larger atoms attract electrons less",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.6.3",
+"strength": "essential",
+"why": "full outer level unreactive",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.11.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.6.4",
+"strength": "helpful",
+"why": "giant covalent high melting point",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.4.3",
+"strength": "helpful",
+"why": "molecular substances low melting points",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.11.5": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.3",
+"strength": "helpful",
+"why": "London forces grow with size",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.14.0",
+"strength": "helpful",
+"why": "atomic radius defined",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.15.0",
+"strength": "helpful",
+"why": "first ionisation energy defined",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.17.0",
+"strength": "helpful",
+"why": "successive ionisation energies",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.12.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.13.1": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.13.2": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.13.0",
+"strength": "essential",
+"why": "nuclear charge pull",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.2",
+"strength": "essential",
+"why": "little extra screening in same level",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.13.1",
+"strength": "essential",
+"why": "extra energy level distance",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.2",
+"strength": "essential",
+"why": "inner electrons screen",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.14.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.15.0": {
+"cost": 2,
+"needs": []
+},
+"chem7-s1.15.1": {
+"cost": 2,
+"needs": []
+},
+"chem7-s1.15.2": {
+"cost": 2,
+"needs": []
+},
+"chem7-s1.15.3": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.14.1",
+"strength": "essential",
+"why": "radius decreases across period",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.0",
+"strength": "helpful",
+"why": "nuclear charge increases",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.13.1",
+"strength": "essential",
+"why": "distance weakens pull",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.2",
+"strength": "essential",
+"why": "screening",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.15.5",
+"strength": "helpful",
+"why": "ionisation energy falls down group",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.21.0",
+"strength": "essential",
+"why": "writing electron configuration",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.15.1",
+"strength": "helpful",
+"why": "period 2 ionisation values",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.16.0",
+"strength": "helpful",
+"why": "compares with beryllium",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.2",
+"strength": "helpful",
+"why": "screening",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.20.2",
+"strength": "essential",
+"why": "Hund's rule half-full p sublevel",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.15.1",
+"strength": "helpful",
+"why": "period 2 ionisation values",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.16.2",
+"strength": "essential",
+"why": "compares with nitrogen",
+"confidence": "high"
+},
+{
+"id": "chem3-s1.20.1",
+"strength": "helpful",
+"why": "paired electrons in an orbital",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.16.0",
+"strength": "essential",
+"why": "full s sublevel stability",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.16.2",
+"strength": "essential",
+"why": "half-full p sublevel stability",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.15.2",
+"strength": "helpful",
+"why": "period 3 values",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.16.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.15.4",
+"strength": "helpful",
+"why": "general rise across period",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.16.0",
+"strength": "helpful",
+"why": "dips after Be, N, Mg, P",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem7-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.15.0",
+"strength": "essential",
+"why": "first ionisation energy definition",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.17.0",
+"strength": "essential",
+"why": "successive ionisation energies",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.0",
+"strength": "helpful",
+"why": "nuclear charge pull",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.1",
+"strength": "essential",
+"why": "main energy levels",
+"confidence": "high"
+},
+{
+"id": "chem7-s1.13.2",
+"strength": "helpful",
+"why": "inner level screening",
+"confidence": "low"
+}
+]
+},
+"chem7-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.17.2",
+"strength": "essential",
+"why": "jump shows new inner level",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem7-s1.17.2",
+"strength": "essential",
+"why": "jump shows new inner level",
+"confidence": "high"
+}
+]
+},
+"chem7-s1.17.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem7-s1.17.2",
+"strength": "essential",
+"why": "jumps show energy levels",
+"confidence": "high"
+},
+{
+"id": "chem3-s1.14.1",
+"strength": "helpful",
+"why": "2, 8, 8 arrangement",
+"confidence": "high"
+}
+]
+}
+}

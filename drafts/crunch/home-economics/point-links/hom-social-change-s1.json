@@ -1,0 +1,353 @@
+{
+"hom-social-change-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.0",
+"strength": "essential",
+"why": "urban and rural meanings",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.0",
+"strength": "helpful",
+"why": "rural area meaning",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "essential",
+"why": "rural depopulation meaning",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "people leaving rural areas",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "essential",
+"why": "rural population loss",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "remote areas losing people",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.0",
+"strength": "helpful",
+"why": "towns and cities concentrate jobs",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.4",
+"strength": "helpful",
+"why": "young adults leaving countryside",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.0",
+"strength": "helpful",
+"why": "urban areas and services",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.2.3": {
+"cost": 2,
+"needs": []
+},
+"hom-social-change-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-society-s3.2.b",
+"strength": "helpful",
+"why": "extended family meaning",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.2.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.4",
+"strength": "helpful",
+"why": "younger people moving away",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "depopulated areas",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "rural decline and emigration",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-social-change-s1.0.5",
+"strength": "helpful",
+"why": "loss of rural services",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.4",
+"strength": "helpful",
+"why": "young people leaving",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.3.6": {
+"cost": 2,
+"needs": []
+},
+"hom-social-change-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.6",
+"strength": "helpful",
+"why": "commuter belts",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.2.3",
+"strength": "helpful",
+"why": "high urban rents",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.5.1",
+"strength": "helpful",
+"why": "rural resettlement schemes",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "rural communities losing people",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-social-change-s1.4.4",
+"strength": "helpful",
+"why": "broadband and working from home",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s1.5.8": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s1.0.2",
+"strength": "helpful",
+"why": "people leaving the area",
+"confidence": "low"
+}
+]
+}
+}

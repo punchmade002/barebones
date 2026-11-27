@@ -1,0 +1,357 @@
+{
+"hom-personal-finance-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.1",
+"strength": "helpful",
+"why": "discretionary spending",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.1",
+"strength": "helpful",
+"why": "discretionary expenditure",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.0.3",
+"strength": "helpful",
+"why": "family life cycle stages",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.0.7": {
+"cost": 2,
+"needs": []
+},
+"hom-personal-finance-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.3",
+"strength": "helpful",
+"why": "fixed commitments",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s1.3.1",
+"strength": "helpful",
+"why": "net income basis",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s1.3.1",
+"strength": "essential",
+"why": "net take-home income",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.3",
+"strength": "helpful",
+"why": "fixed essential costs",
+"confidence": "high"
+},
+{
+"id": "hom-personal-finance-s2.1.4",
+"strength": "helpful",
+"why": "irregular essential costs",
+"confidence": "high"
+},
+{
+"id": "hom-personal-finance-s2.1.1",
+"strength": "helpful",
+"why": "discretionary expenditure",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.0",
+"strength": "helpful",
+"why": "essential expenditure",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.2.6": {
+"cost": 2,
+"needs": []
+},
+"hom-personal-finance-s2.2.7": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.6",
+"strength": "helpful",
+"why": "credit repayments as commitments",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-resource-management-s2.0.2",
+"strength": "helpful",
+"why": "goals as intended outcomes",
+"confidence": "low"
+}
+]
+},
+"hom-personal-finance-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s1.3.1",
+"strength": "helpful",
+"why": "net income",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.3",
+"strength": "helpful",
+"why": "fixed essential cost",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.1.1",
+"strength": "helpful",
+"why": "discretionary spending",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.5.4": {
+"cost": 2,
+"needs": []
+},
+"hom-personal-finance-s2.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.0.0",
+"strength": "helpful",
+"why": "low-income spending pattern",
+"confidence": "low"
+}
+]
+},
+"hom-personal-finance-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s1.0.4",
+"strength": "helpful",
+"why": "MABS as State aid",
+"confidence": "low"
+}
+]
+},
+"hom-personal-finance-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s2.2.b",
+"strength": "helpful",
+"why": "budget plan",
+"confidence": "high"
+}
+]
+},
+"hom-personal-finance-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s1.1.3",
+"strength": "helpful",
+"why": "State supports and entitlements",
+"confidence": "low"
+}
+]
+},
+"hom-personal-finance-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-personal-finance-s2.6.5": {
+"cost": 1,
+"needs": []
+}
+}

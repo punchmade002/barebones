@@ -1,0 +1,434 @@
+{
+"hom-fruit-vegetables-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.2": {
+"cost": 2,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.5.4",
+"strength": "helpful",
+"why": "cutting loses vitamin C",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.0.7": {
+"cost": 2,
+"needs": []
+},
+"hom-fruit-vegetables-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.0.5",
+"strength": "helpful",
+"why": "pre-prepared produce",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.2.2",
+"strength": "helpful",
+"why": "Class II compared with others",
+"confidence": "low"
+}
+]
+},
+"hom-fruit-vegetables-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.2.6": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.6.0",
+"strength": "helpful",
+"why": "enzymes continue ripening",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.3.0",
+"strength": "helpful",
+"why": "produce deteriorates after harvest",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.3.0",
+"strength": "helpful",
+"why": "vitamin C falls in storage",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.7.3",
+"strength": "helpful",
+"why": "cool humid storage slows moisture loss",
+"confidence": "low"
+}
+]
+},
+"hom-fruit-vegetables-s2.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.4.3",
+"strength": "helpful",
+"why": "ethylene speeds ripening",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.4.3",
+"strength": "helpful",
+"why": "preventing cross-contamination",
+"confidence": "low"
+}
+]
+},
+"hom-fruit-vegetables-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s2.3.6",
+"strength": "helpful",
+"why": "storage at -18 degrees",
+"confidence": "low"
+},
+{
+"id": "hom-food-preservation-s2.4.3",
+"strength": "helpful",
+"why": "no refreezing after thawing",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.b",
+"strength": "helpful",
+"why": "what enzymes are",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.1.0",
+"strength": "helpful",
+"why": "ripening enzymes after picking",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.b",
+"strength": "helpful",
+"why": "enzymic browning needs oxygen",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.6.1",
+"strength": "helpful",
+"why": "enzymic browning",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.4",
+"strength": "helpful",
+"why": "cold slows enzymes",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.3",
+"strength": "essential",
+"why": "heat denatures enzymes",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s5.4.0",
+"strength": "helpful",
+"why": "blanching method",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.2.5",
+"strength": "helpful",
+"why": "acid slows browning",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s1.2.4",
+"strength": "helpful",
+"why": "excluding oxygen stops browning",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-fruit-vegetables-s2.7.0",
+"strength": "helpful",
+"why": "moisture loss",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.0.0",
+"strength": "helpful",
+"why": "micro-organisms cause spoilage",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.8.1": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s3.3.b",
+"strength": "helpful",
+"why": "conditions for microbial growth",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s3.2.0",
+"strength": "helpful",
+"why": "mould growth and mycotoxins",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.2.2",
+"strength": "helpful",
+"why": "yeasts ferment sugars",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s3.4.3",
+"strength": "helpful",
+"why": "preventing contamination",
+"confidence": "high"
+}
+]
+},
+"hom-fruit-vegetables-s2.8.6": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"hom-fruit-vegetables-s2.9.1": {
+"cost": 1,
+"needs": []
+}
+}

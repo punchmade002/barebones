@@ -1,0 +1,82 @@
+import json,re,sys
+D='/Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/chemistry/'
+E,H='essential','helpful'
+def L(i,s,w,c='high'): return {"id":i,"strength":s,"why":w,"confidence":c}
+R={
+"chem12-s1.0.b":(1,[]),
+"chem12-s1.0.0":(1,[L("chem8-s2.2.0",H,"concentration of a solution")]),
+"chem12-s1.0.1":(1,[]),
+"chem12-s1.0.2":(1,[]),
+"chem12-s1.0.3":(1,[]),
+"chem12-s1.0.4":(1,[L("chem10-s2.7.3",H,"coefficients give mole ratio")]),
+"chem12-s1.0.5":(1,[L("chem12-s1.0.3",E,"end point"),L("chem12-s1.0.4",E,"equivalence point")]),
+"chem12-s1.1.b":(1,[]),
+"chem12-s1.1.0":(1,[L("chem8-s2.4.0",E,"primary standard properties")]),
+"chem12-s1.1.1":(1,[L("chem8-s2.5.0",H,"sodium carbonate as primary standard")]),
+"chem12-s1.1.2":(1,[L("chem8-s2.5.1",H,"redox primary standard")]),
+"chem12-s1.1.3":(1,[L("chem12-s1.1.0",E,"primary standard")]),
+"chem12-s1.2.b":(1,[]),
+"chem12-s1.2.0":(1,[L("chem8-s2.5.2",H,"NaOH absorbs water and CO2")]),
+"chem12-s1.2.1":(1,[L("chem8-s2.5.3",H,"HCl concentration changes")]),
+"chem12-s1.2.2":(1,[]),
+"chem12-s1.2.3":(1,[]),
+"chem12-s1.2.4":(1,[L("chem12-s1.1.0",E,"primary standard")]),
+"chem12-s1.2.5":(1,[L("chem12-s1.2.4",H,"standardisation")]),
+"chem12-s1.2.6":(1,[L("chem12-s1.2.4",E,"standardisation against standardised solution")]),
+"chem12-s1.2.7":(1,[L("chem12-s1.2.4",H,"standardisation")]),
+"chem12-s1.3.b":(1,[]),
+"chem12-s1.3.0":(1,[]),
+"chem12-s1.3.1":(1,[]),
+"chem12-s1.3.2":(1,[]),
+"chem12-s1.3.3":(1,[]),
+"chem12-s1.3.4":(1,[]),
+"chem12-s1.3.5":(1,[]),
+"chem12-s1.3.6":(1,[L("chem12-s1.0.3",H,"indicator and end point")]),
+"chem12-s1.3.7":(2,[L("chem12-s1.3.0",H,"apparatus to label")]),
+"chem12-s1.4.b":(1,[]),
+"chem12-s1.4.0":(1,[L("chem12-s1.3.0",E,"pipette")]),
+"chem12-s1.4.1":(1,[L("chem12-s1.3.0",H,"pipette filler and pipette")]),
+"chem12-s1.4.2":(2,[L("chem12-s1.3.0",E,"pipette")]),
+"chem12-s1.4.3":(1,[L("chem12-s1.3.1",E,"burette")]),
+"chem12-s1.4.4":(1,[L("chem12-s1.3.4",H,"funnel fills burette")]),
+"chem12-s1.4.5":(1,[L("chem12-s1.3.1",E,"burette")]),
+"chem12-s1.4.6":(1,[L("chem12-s1.3.1",H,"burette reading")]),
+"chem12-s1.4.7":(1,[L("chem8-s2.2.1",H,"moles = c x V")]),
+"chem12-s1.4.8":(1,[L("chem8-s2.2.1",H,"moles = c x V")]),
+"chem12-s1.5.b":(1,[]),
+"chem12-s1.5.0":(1,[L("chem12-s1.3.6",H,"indicator in flask")]),
+"chem12-s1.5.1":(1,[L("chem12-s1.0.3",E,"end point")]),
+"chem12-s1.5.2":(2,[L("chem12-s1.5.1",E,"rough titration"),L("chem12-s1.0.3",E,"end point colour change")]),
+"chem12-s1.5.3":(1,[L("chem12-s1.3.5",H,"wash bottle")]),
+"chem12-s1.5.4":(1,[L("chem12-s1.0.2",E,"titre")]),
+"chem12-s1.6.b":(1,[L("chem11-s2.8.0",H,"strong acid fully ionised")]),
+"chem12-s1.6.0":(1,[L("chem10-s2.7.3",H,"mole ratio from equation")]),
+"chem12-s1.6.1":(1,[L("chem11-s1.2.1",E,"phenolphthalein colours"),L("chem11-s1.2.2",H,"methyl orange colours")]),
+"chem12-s1.6.2":(1,[L("chem12-s1.0.5",E,"good indicator coincides with equivalence")]),
+"chem12-s1.6.3":(1,[L("chem12-s1.5.4",H,"mean titre")]),
+"chem12-s1.6.4":(1,[L("chem8-s2.2.1",E,"n = c x V")]),
+"chem12-s1.6.5":(1,[L("chem12-s1.6.0",E,"1 : 1 mole ratio")]),
+"chem12-s1.6.6":(1,[L("chem8-s2.2.1",E,"c = n / V")]),
+"chem12-s1.7.b":(1,[L("chem12-s1.1.1",H,"sodium carbonate primary standard")]),
+"chem12-s1.7.0":(1,[L("chem10-s2.7.3",H,"mole ratio from equation")]),
+"chem12-s1.7.1":(1,[L("chem11-s1.2.2",E,"methyl orange colours")]),
+"chem12-s1.7.2":(1,[L("chem11-s1.2.1",E,"phenolphthalein colour change in alkali")]),
+"chem12-s1.7.3":(1,[]),
+"chem12-s1.7.4":(1,[L("chem8-s2.2.1",E,"n = c x V")]),
+"chem12-s1.7.5":(1,[L("chem12-s1.7.0",E,"1 : 2 mole ratio")]),
+"chem12-s1.7.6":(1,[L("chem8-s2.2.1",E,"c = n / V")]),
+"chem12-s1.7.7":(1,[L("chem12-s1.7.1",H,"methyl orange as indicator")]),
+"chem12-s1.8.b":(1,[]),
+"chem12-s1.8.0":(1,[L("chem11-s1.1.5",H,"alkalis are corrosive")]),
+"chem12-s1.8.1":(1,[L("chem12-s1.3.0",H,"pipette filler")]),
+"chem12-s1.8.2":(1,[L("chem12-s1.3.1",H,"burette")]),
+}
+out={k:{"cost":c,"needs":n} for k,(c,n) in R.items()}
+txt=open(D+'packs/chem12-s1.t1g1.txt').read()
+ids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
+tg=re.findall(r'^\[(chem12-s1\.[^\]]+)\]',txt,re.M)
+assert list(out)==tg,(set(tg)^set(out))
+for k,v in out.items():
+    for n in v['needs']: assert n['id'] in ids and n['id']!=k,(k,n)
+json.dump(out,open(D+'point-links/chem12-s1.t1g1.json','w'),ensure_ascii=False,indent=1)
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))

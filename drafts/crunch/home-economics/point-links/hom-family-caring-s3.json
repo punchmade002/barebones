@@ -1,0 +1,353 @@
+{
+"hom-family-caring-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s1.0.4",
+"strength": "helpful",
+"why": "later life stage care roles",
+"confidence": "low"
+}
+]
+},
+"hom-family-caring-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.2.0",
+"strength": "helpful",
+"why": "uses home support service",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.0": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.2.0",
+"strength": "helpful",
+"why": "home support service explained there",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.1.7": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.2": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.2.6": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-caring-s3.1.0",
+"strength": "helpful",
+"why": "uses home adaptations",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.3.1": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-caring-s3.1.3",
+"strength": "helpful",
+"why": "uses granny flat idea",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-caring-s3.1.1",
+"strength": "helpful",
+"why": "uses sheltered housing idea",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-caring-s3.3.5",
+"strength": "helpful",
+"why": "cost links to Fair Deal",
+"confidence": "low"
+}
+]
+},
+"hom-family-caring-s3.3.5": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.3.0",
+"strength": "helpful",
+"why": "housing options listed there",
+"confidence": "low"
+}
+]
+},
+"hom-family-caring-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.3.5",
+"strength": "helpful",
+"why": "uses Fair Deal support",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.3.6",
+"strength": "helpful",
+"why": "uses factors in choice",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.0.b",
+"strength": "helpful",
+"why": "uses independence",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.5.0",
+"strength": "helpful",
+"why": "uses generation conflict",
+"confidence": "high"
+}
+]
+},
+"hom-family-caring-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.6": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s3.1.3",
+"strength": "helpful",
+"why": "granny flat in case study",
+"confidence": "low"
+}
+]
+},
+"hom-family-caring-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.5": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.6": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.7.7": {
+"cost": 2,
+"needs": []
+},
+"hom-family-caring-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-caring-s3.8.1": {
+"cost": 1,
+"needs": []
+}
+}

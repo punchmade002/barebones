@@ -1,0 +1,316 @@
+{
+ "hom-fish-seafood-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s5.0.3",
+    "strength": "helpful",
+    "why": "coagulation of protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s5.5.0",
+    "strength": "helpful",
+    "why": "collagen converting to gelatine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s5.5.2",
+    "strength": "helpful",
+    "why": "high heat toughens protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-cooking-methods-s2.0.0",
+    "strength": "helpful",
+    "why": "cooking destroys micro-organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s5.0.4",
+    "strength": "helpful",
+    "why": "denatured protein is more digestible",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-cooking-methods-s3.0.2",
+    "strength": "helpful",
+    "why": "vitamins lost into cooking water",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-cooking-methods-s3.1.0",
+    "strength": "helpful",
+    "why": "boiling",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.4.3",
+    "strength": "essential",
+    "why": "stewing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.2",
+    "strength": "helpful",
+    "why": "radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.5.0",
+    "strength": "helpful",
+    "why": "grilling by radiant heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.0",
+    "strength": "helpful",
+    "why": "conduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.2.3",
+    "strength": "helpful",
+    "why": "microwave heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s3.3.2",
+    "strength": "helpful",
+    "why": "poached fish result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s3.8.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

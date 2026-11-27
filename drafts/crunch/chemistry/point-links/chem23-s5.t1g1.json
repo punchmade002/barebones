@@ -1,0 +1,1037 @@
+{
+"chem23-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.0",
+"strength": "essential",
+"why": "allotrope definition",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.0",
+"strength": "essential",
+"why": "same element, same chemistry",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.0",
+"strength": "essential",
+"why": "allotropes of one element",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.0.2",
+"strength": "essential",
+"why": "burning gives only CO₂",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.0",
+"strength": "helpful",
+"why": "allotropes differ physically",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.5",
+"strength": "essential",
+"why": "giant covalent structures",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bond as shared pair",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "weak intermolecular forces",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.4",
+"strength": "helpful",
+"why": "simple molecules",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bonding",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s4.3.0",
+"strength": "essential",
+"why": "tetrahedral carbon, 109.5°",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.5",
+"strength": "helpful",
+"why": "giant covalent structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "many strong bonds in 3D network",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "strong bonds throughout structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "all four outer electrons bonded",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "rigid strongly bonded lattice",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "helpful",
+"why": "diamond structure",
+"confidence": "low"
+}
+]
+},
+"chem23-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "helpful",
+"why": "closely packed atoms",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "diamond tetrahedral structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.b",
+"strength": "helpful",
+"why": "contrast with diamond bonding",
+"confidence": "low"
+}
+]
+},
+"chem23-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s4.3.1",
+"strength": "essential",
+"why": "trigonal planar, 120°",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.0",
+"strength": "essential",
+"why": "three bonds per carbon",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.13.0",
+"strength": "helpful",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.0",
+"strength": "helpful",
+"why": "layered structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.2",
+"strength": "essential",
+"why": "weak forces between layers",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.1",
+"strength": "essential",
+"why": "delocalised electrons carry charge",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.0",
+"strength": "essential",
+"why": "strong covalent bonds in layers",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s5.2.2",
+"strength": "essential",
+"why": "space between layers lowers density",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.1.6",
+"strength": "helpful",
+"why": "diamond density comparison",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.2",
+"strength": "essential",
+"why": "layers and weak forces",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.1",
+"strength": "essential",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.0",
+"strength": "helpful",
+"why": "graphite bonding",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.0",
+"strength": "essential",
+"why": "graphite layer structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "essential",
+"why": "single layer of graphite",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "essential",
+"why": "strong covalent bonds across sheet",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "essential",
+"why": "delocalised electrons in sheet",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.4",
+"strength": "helpful",
+"why": "graphite conduction",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "helpful",
+"why": "one-atom-thick sheet",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "essential",
+"why": "hexagon sheet structure",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.6",
+"strength": "helpful",
+"why": "fullerenes as molecules",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.0",
+"strength": "helpful",
+"why": "three bonds per carbon in rings",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s5.4.0",
+"strength": "essential",
+"why": "fullerene hexagons and pentagons",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.1",
+"strength": "essential",
+"why": "C₆₀ buckyball",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.6",
+"strength": "essential",
+"why": "simple molecular structure",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.3",
+"strength": "essential",
+"why": "weak forces between balls",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.3",
+"strength": "essential",
+"why": "simple molecular C₆₀",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.5.2",
+"strength": "helpful",
+"why": "non-polar dissolves in non-polar",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.3",
+"strength": "essential",
+"why": "separate molecules",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.1",
+"strength": "helpful",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "essential",
+"why": "graphene sheet rolled",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.4.0",
+"strength": "helpful",
+"why": "fullerene family",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.1",
+"strength": "essential",
+"why": "C₆₀ ball structure",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.4.7",
+"strength": "helpful",
+"why": "nanotube section",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "four bonds in diamond",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.1",
+"strength": "essential",
+"why": "delocalised electron in graphite",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.0.5",
+"strength": "essential",
+"why": "giant covalent structures",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.0.6",
+"strength": "essential",
+"why": "discrete molecules",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.1",
+"strength": "essential",
+"why": "diamond hardness",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.3",
+"strength": "essential",
+"why": "graphite softness",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.3",
+"strength": "essential",
+"why": "diamond non-conducting",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.4",
+"strength": "essential",
+"why": "graphite conducts",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.3",
+"strength": "essential",
+"why": "weak forces between C₆₀ molecules",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.1.2",
+"strength": "helpful",
+"why": "diamond melting point",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.5",
+"strength": "essential",
+"why": "C₆₀ solubility",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.5.6": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s5.5.0",
+"strength": "essential",
+"why": "bonds per carbon",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.5.1",
+"strength": "essential",
+"why": "giant network or molecules",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.5.6",
+"strength": "helpful",
+"why": "properties from structure",
+"confidence": "low"
+}
+]
+},
+"chem23-s5.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.5",
+"strength": "essential",
+"why": "diamond transparent and sparkles",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.1.1",
+"strength": "essential",
+"why": "diamond hardness",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.1",
+"strength": "essential",
+"why": "diamond hardness",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.3",
+"strength": "essential",
+"why": "layers slide off",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.3",
+"strength": "essential",
+"why": "layers slide over each other",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.5",
+"strength": "helpful",
+"why": "high temperature resistance",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.3",
+"strength": "essential",
+"why": "strength and lightness",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.4.7",
+"strength": "essential",
+"why": "nanotube strength",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.4",
+"strength": "helpful",
+"why": "graphite conducts",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.2.4",
+"strength": "essential",
+"why": "graphite conduction",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.5",
+"strength": "essential",
+"why": "high melting point",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.7.0",
+"strength": "essential",
+"why": "graphite as electrode",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s5.2.2",
+"strength": "essential",
+"why": "layers allow ions between them",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.7.0",
+"strength": "helpful",
+"why": "graphite electrode",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.4",
+"strength": "essential",
+"why": "graphene conductivity",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.4",
+"strength": "essential",
+"why": "graphene conducts",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.3.5",
+"strength": "essential",
+"why": "graphene transparent",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.7",
+"strength": "essential",
+"why": "nanotubes conduct",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.4",
+"strength": "essential",
+"why": "diamond conducts heat",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.1.3",
+"strength": "essential",
+"why": "diamond non-conducting electrically",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.4",
+"strength": "essential",
+"why": "graphene conducts heat",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.9.0",
+"strength": "helpful",
+"why": "nanoscale",
+"confidence": "low"
+}
+]
+},
+"chem23-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.7",
+"strength": "helpful",
+"why": "nanotubes as nanomaterials",
+"confidence": "low"
+}
+]
+},
+"chem23-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.0",
+"strength": "essential",
+"why": "fullerene cages hollow",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.9.0",
+"strength": "helpful",
+"why": "nanotechnology",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.7",
+"strength": "essential",
+"why": "nanotube strength",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.3",
+"strength": "essential",
+"why": "weak forces between C₆₀",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.5",
+"strength": "essential",
+"why": "graphene impermeable and strong",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s5.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s5.6.4",
+"strength": "helpful",
+"why": "strong light materials",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.7.3",
+"strength": "helpful",
+"why": "batteries from graphene",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.3.0",
+"strength": "helpful",
+"why": "graphene sheets",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.4.7",
+"strength": "essential",
+"why": "nanotubes",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.1",
+"strength": "helpful",
+"why": "diamond uses",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.1.0",
+"strength": "essential",
+"why": "four bonds in 3D network",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.1.3",
+"strength": "essential",
+"why": "no electrical conduction",
+"confidence": "high"
+}
+]
+},
+"chem23-s5.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s5.5.6",
+"strength": "helpful",
+"why": "bonds per carbon rule",
+"confidence": "high"
+},
+{
+"id": "chem23-s5.2.3",
+"strength": "essential",
+"why": "weak forces between layers",
+"confidence": "high"
+}
+]
+}
+}

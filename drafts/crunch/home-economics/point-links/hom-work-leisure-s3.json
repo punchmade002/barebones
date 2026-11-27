@@ -1,0 +1,264 @@
+{
+"hom-work-leisure-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-work-leisure-s1.0.3",
+"strength": "helpful",
+"why": "unpaid work in the home",
+"confidence": "high"
+}
+]
+},
+"hom-work-leisure-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s1.0.5",
+"strength": "helpful",
+"why": "voluntary work defined",
+"confidence": "high"
+}
+]
+},
+"hom-work-leisure-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.2.1": {
+"cost": 2,
+"needs": []
+},
+"hom-work-leisure-s3.2.2": {
+"cost": 2,
+"needs": []
+},
+"hom-work-leisure-s3.2.3": {
+"cost": 2,
+"needs": []
+},
+"hom-work-leisure-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s1.0.3",
+"strength": "helpful",
+"why": "unpaid home work",
+"confidence": "high"
+}
+]
+},
+"hom-work-leisure-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.1": {
+"cost": 2,
+"needs": []
+},
+"hom-work-leisure-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s3.0.4",
+"strength": "helpful",
+"why": "no pay or pension",
+"confidence": "high"
+}
+]
+},
+"hom-work-leisure-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s3.2.5",
+"strength": "helpful",
+"why": "training and Garda vetting",
+"confidence": "high"
+}
+]
+},
+"hom-work-leisure-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-work-leisure-s3.8.0": {
+"cost": 2,
+"needs": []
+},
+"hom-work-leisure-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s3.7.2",
+"strength": "helpful",
+"why": "out-of-pocket costs",
+"confidence": "high"
+}
+]
+}
+}

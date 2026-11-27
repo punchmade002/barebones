@@ -1,0 +1,1224 @@
+{
+ "chem15-s1.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.0",
+    "strength": "helpful",
+    "why": "titration definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "essential",
+    "why": "oxidising agent",
+    "confidence": "high"
+   },
+   {
+    "id": "chem12-s1.0.0",
+    "strength": "essential",
+    "why": "titration finds concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.4",
+    "strength": "helpful",
+    "why": "mole ratio from balanced equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.3.0",
+    "strength": "helpful",
+    "why": "titration apparatus",
+    "confidence": "high"
+   },
+   {
+    "id": "chem12-s1.5.4",
+    "strength": "helpful",
+    "why": "titres agree within 0.1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.3",
+    "strength": "essential",
+    "why": "end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "helpful",
+    "why": "oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.2.4",
+    "strength": "essential",
+    "why": "standardisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "helpful",
+    "why": "half-equations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.3",
+    "strength": "helpful",
+    "why": "half-equation, oxidation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem15-s1.2.0",
+    "strength": "essential",
+    "why": "permanganate half-equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem15-s1.2.1",
+    "strength": "essential",
+    "why": "iron half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.0",
+    "strength": "helpful",
+    "why": "Mn2+ produced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.3",
+    "strength": "helpful",
+    "why": "end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.3.0",
+    "strength": "helpful",
+    "why": "self-indicating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.3",
+    "strength": "helpful",
+    "why": "end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.4.6",
+    "strength": "helpful",
+    "why": "reading the burette meniscus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.0",
+    "strength": "helpful",
+    "why": "H+ used in reduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem15-s1.2.0",
+    "strength": "helpful",
+    "why": "permanganate reduction half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.4.1",
+    "strength": "helpful",
+    "why": "MnO2 forms with too little acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.7.0",
+    "strength": "helpful",
+    "why": "MnO4- oxidises chloride",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem12-s1.1.2",
+    "strength": "helpful",
+    "why": "redox primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "helpful",
+    "why": "standard solution preparation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.10.2",
+    "strength": "helpful",
+    "why": "Fe2+ oxidised by air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "essential",
+    "why": "primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "helpful",
+    "why": "primary standard purity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.2.4",
+    "strength": "helpful",
+    "why": "standardisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.3.0",
+    "strength": "essential",
+    "why": "pipette use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.4.0",
+    "strength": "helpful",
+    "why": "excess acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.3.2",
+    "strength": "helpful",
+    "why": "permanent pink end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.5.4",
+    "strength": "essential",
+    "why": "titres within 0.1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.3.0",
+    "strength": "helpful",
+    "why": "pipette and filler",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.3.7",
+    "strength": "helpful",
+    "why": "burette and flask diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.2",
+    "strength": "essential",
+    "why": "1:5 mole ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.6.4",
+    "strength": "helpful",
+    "why": "moles from concentration and volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.2",
+    "strength": "essential",
+    "why": "1:5 mole ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.6.6",
+    "strength": "helpful",
+    "why": "concentration from moles and volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.15.0",
+    "strength": "helpful",
+    "why": "efflorescent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.2.4",
+    "strength": "essential",
+    "why": "standardisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "helpful",
+    "why": "primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.10.0",
+    "strength": "essential",
+    "why": "tri-iodide formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.5.3",
+    "strength": "helpful",
+    "why": "iodine thiosulfate equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "essential",
+    "why": "oxidising agent",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.3.1",
+    "strength": "essential",
+    "why": "reducing agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.11.0",
+    "strength": "helpful",
+    "why": "pale yellow stage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.3",
+    "strength": "helpful",
+    "why": "end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.11.1",
+    "strength": "helpful",
+    "why": "starch added at pale yellow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.11.0",
+    "strength": "helpful",
+    "why": "colour fading to pale yellow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "helpful",
+    "why": "chlorine as oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.3.1",
+    "strength": "helpful",
+    "why": "reducing agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s2.7.2",
+    "strength": "helpful",
+    "why": "permanganate oxidises iodide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.7.0",
+    "strength": "helpful",
+    "why": "pipetting into flask with acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem14-s2.7.2",
+    "strength": "helpful",
+    "why": "permanganate iodide equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.10.0",
+    "strength": "helpful",
+    "why": "I3- keeps iodine dissolved",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.11.1",
+    "strength": "essential",
+    "why": "starch near end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.13.1",
+    "strength": "essential",
+    "why": "MnO4- to I2 ratio",
+    "confidence": "high"
+   },
+   {
+    "id": "chem15-s1.10.2",
+    "strength": "essential",
+    "why": "I2 to thiosulfate ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.13.4",
+    "strength": "helpful",
+    "why": "chain of ratios",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.6.4",
+    "strength": "helpful",
+    "why": "moles from concentration and volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.13.1",
+    "strength": "essential",
+    "why": "2MnO4- gives 5I2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.10.2",
+    "strength": "essential",
+    "why": "I2:thiosulfate 1:2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.14.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.15.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "helpful",
+    "why": "primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.1.0",
+    "strength": "essential",
+    "why": "primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.16.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.17.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.2",
+    "strength": "helpful",
+    "why": "permanganate-iron reaction",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.10.4",
+    "strength": "helpful",
+    "why": "iron tablet titration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.10.1",
+    "strength": "helpful",
+    "why": "iron as iron(II) in tablets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.17.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem15-s1.2.2",
+    "strength": "essential",
+    "why": "permanganate-iron equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.7.b",
+    "strength": "helpful",
+    "why": "standardising permanganate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.17.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.4.1",
+    "strength": "helpful",
+    "why": "meniscus at mark",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.18.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.18.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.19.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.7.b",
+    "strength": "helpful",
+    "why": "same method as standardisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.4.0",
+    "strength": "essential",
+    "why": "rinsing pipette",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.4.0",
+    "strength": "helpful",
+    "why": "excess acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.4.3",
+    "strength": "essential",
+    "why": "rinsing burette",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.3.2",
+    "strength": "essential",
+    "why": "pink end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.5.4",
+    "strength": "essential",
+    "why": "rough then accurate titrations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.19.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.7.6",
+    "strength": "helpful",
+    "why": "burette and flask diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.20.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.10.2",
+    "strength": "helpful",
+    "why": "Fe2+ oxidised by air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.4.1",
+    "strength": "helpful",
+    "why": "MnO2 forms with too little acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.20.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem15-s1.20.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.20.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.3.0",
+    "strength": "helpful",
+    "why": "pipette volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.20.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.3.0",
+    "strength": "helpful",
+    "why": "self-indicating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.2.2",
+    "strength": "helpful",
+    "why": "1:5 ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.6.4",
+    "strength": "helpful",
+    "why": "moles from concentration and volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.17.3",
+    "strength": "essential",
+    "why": "1:5 ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem15-s1.20.5",
+    "strength": "helpful",
+    "why": "25 cm3 is one-tenth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.21.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.21.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.21.3",
+    "strength": "helpful",
+    "why": "moles Fe2+ per tablet",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.21.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.22.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.23.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.10.2",
+    "strength": "helpful",
+    "why": "Fe2+ oxidised by air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.23.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem15-s1.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.3.2",
+    "strength": "helpful",
+    "why": "pale pink end point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.23.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.5.6",
+    "strength": "helpful",
+    "why": "vitamin C reducing agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.23.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.4.1",
+    "strength": "helpful",
+    "why": "MnO2 with too little acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.23.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem15-s1.1.3",
+    "strength": "helpful",
+    "why": "permanganate decomposes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem15-s1.23.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.4.3",
+    "strength": "helpful",
+    "why": "rinse with own solution",
+    "confidence": "high"
+   }
+  ]
+ }
+}

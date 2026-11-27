@@ -1,0 +1,131 @@
+s1.0.b|1|
+s1.0.0|1|
+s1.0.1|1|s1.0.0,H,h,uses the mole
+s1.0.2|1|s1.0.1,H,h,Avogadro constant
+s1.0.3|1|s1.0.1,H,h,Avogadro constant
+s1.0.4|1|s1.0.1,H,h,Avogadro constant
+s1.0.5|1|s1.0.1,E,h,6.02 × 10²³ per mole
+s1.0.6|1|s1.0.1,H,h,particles in a mole
+s1.1.b|1|
+s1.1.0|1|chem2-s1.15.0,E,h,relative atomic mass Ar
+s1.1.1|2|
+s1.1.2|1|s1.1.0,E,h,summing Ar for Mr
+s1.1.3|1|s1.1.0,E,h,summing Ar for Mr
+s1.1.4|1|s1.1.0,E,h,summing Ar for Mr
+s1.1.5|1|s1.1.0,E,h,molar mass equals Mr
+s1.1.6|1|
+s1.2.b|1|
+s1.2.0|1|s1.1.5,E,h,molar mass M
+s1.2.1|1|s1.2.0,E,h,n = m ÷ M rearranged
+s1.2.2|1|s1.0.1,E,h,Avogadro constant
+s1.2.3|1|s1.2.2,E,h,N = n × NA reversed
+s1.2.4|1|s1.0.5,H,h,atoms per molecule
+s1.2.5|2|s1.2.4,E,h,atoms per molecule
+s1.3.b|1|
+s1.3.0|1|s1.0.0,H,l,moles of gas
+s1.3.1|1|s1.1.6,E,h,density formula
+s1.3.2|1|s1.3.1,E,h,m = ρ × V
+s1.3.3|1|s1.2.0,E,h,n = m ÷ M
+s1.3.4|1|s1.2.0,H,h,mass–mole conversions
+s1.4.b|1|
+s1.4.0|1|s1.4.1,H,h,mass number
+s1.4.1|1|chem2-s1.10.0,H,l,nucleus of protons and neutrons
+s1.4.2|1|s1.4.0,E,h,isotopes
+s1.5.b|1|
+s1.5.0|1|s1.4.2,E,h,Ar as weighted average
+s1.5.1|1|s1.5.0,E,h,products from step 1
+s1.5.2|1|s1.5.1,E,h,summed products
+s1.5.3|1|s1.5.2,H,h,calculated Ar result
+s1.6.b|1|
+s1.6.0|1|s1.5.0,E,h,mass number × abundance
+s1.6.1|1|s1.5.2,E,h,add and divide by 100
+s1.6.2|1|s1.5.0,E,h,mass number × abundance
+s1.6.3|1|s1.5.2,E,h,add and divide by 100
+s1.6.4|1|s1.5.0,E,h,mass number × abundance
+s1.6.5|1|s1.5.2,E,h,add and divide by 100
+s1.7.b|1|
+s1.7.0|1|s1.4.2,H,h,isotope abundances
+s1.7.1|1|s1.5.2,E,h,Ar formula from abundances
+s1.7.2|1|s1.7.1,E,h,Ar equation for x
+s1.7.3|1|s1.7.2,E,h,expanding the equation
+s1.7.4|1|s1.7.3,E,h,value of x
+s1.7.5|1|s1.5.2,H,l,mass numbers used in Ar
+s1.8.b|1|
+s1.8.0|1|
+s1.8.1|1|s1.8.0,E,h,Avogadro's law
+s1.8.2|1|
+s1.8.3|1|s1.8.2,E,h,combining volumes
+s1.8.4|2|s1.8.1,E,h,volume proportional to moles
+s1.8.5|1|s1.8.4,E,h,volume ratio equals mole ratio
+s1.9.b|1|
+s1.9.0|2|chem1-s4.0.4,H,l,pressure units
+s1.9.1|1|chem1-s4.0.3,E,h,kelvin scale
+s1.9.2|1|s1.0.0,H,l,moles
+s1.9.3|1|s1.9.2,E,h,molar volume
+s1.9.4|1|s1.9.3,H,h,molar volume
+s1.9.5|1|s1.9.3,H,h,molar volume
+s1.9.6|1|s1.9.3,E,h,22.4 L mol⁻¹ at STP
+s1.9.7|1|s1.9.2,H,h,molar volume
+s1.10.b|1|
+s1.10.0|1|chem1-s4.6.6,H,l,gas equation
+s1.10.1|1|s1.10.0,E,h,V = nRT ÷ P
+s1.10.2|1|s1.10.1,E,h,substituted values
+s1.10.3|2|s1.9.2,H,l,molar volume
+s1.10.4|1|s1.2.0,E,h,n = m ÷ M
+s1.10.5|1|s1.9.3,H,h,molar volume at STP
+s1.10.6|1|s1.10.3,E,h,experiment set-up
+s1.11.b|1|
+s1.11.0|1|s1.9.3,E,h,22.4 L per mole
+s1.11.1|1|s1.9.3,E,h,22.4 L per mole
+s1.11.2|1|s1.2.0,E,h,n = m ÷ M
+s1.11.3|1|s1.11.2,E,h,moles from mass
+s1.11.4|1|s1.11.1,E,h,volume from moles
+s1.12.b|1|
+s1.12.0|1|
+s1.12.1|1|s1.8.4,E,h,volume ratio equals mole ratio
+s1.12.2|1|s1.8.4,E,h,volume ratio equals mole ratio
+s1.13.b|1|
+s1.13.0|1|
+s1.13.1|1|s1.10.0,E,h,ideal gas equation
+s1.13.2|1|s1.13.1,E,h,moles from gas equation
+s1.13.3|1|s1.10.0,H,h,ideal gas equation
+s1.14.b|1|
+s1.14.0|1|
+s1.14.1|1|
+s1.14.2|1|
+s1.14.3|1|s1.14.0,H,l,flask and foil cap
+s1.14.4|1|
+s1.14.5|1|s1.14.2,H,l,graduated cylinder
+s1.15.b|1|
+s1.15.0|1|
+s1.15.1|1|
+s1.15.2|1|s1.14.1,H,h,boiling water bath
+s1.15.3|1|s1.15.2,H,h,flask in the water bath
+s1.15.4|1|s1.15.3,H,h,vaporising in the bath
+s1.15.5|1|s1.14.2,H,h,barometer
+s1.16.b|1|
+s1.16.0|1|
+s1.16.1|1|s1.15.0,H,h,first weighing
+s1.16.2|1|s1.14.2,H,h,graduated cylinder
+s1.17.b|1|
+s1.17.0|1|chem1-s4.0.5,H,l,unit conversion
+s1.17.1|1|chem1-s4.0.1,H,l,volume unit conversion
+s1.17.2|1|s1.13.1,E,h,n = PV ÷ RT
+s1.17.3|1|s1.17.2,E,h,PV in n = PV ÷ RT
+s1.17.4|1|s1.17.2,E,h,RT in n = PV ÷ RT
+s1.17.5|1|s1.17.2,E,h,n = PV ÷ RT
+s1.17.6|1|s1.13.2,E,h,Mr = m ÷ n
+s1.17.7|1|s1.17.6,H,h,calculated Mr
+s1.18.b|1|
+s1.18.0|1|
+s1.18.1|1|
+s1.18.2|1|
+s1.19.b|1|
+s1.19.0|1|s1.13.2,E,h,Mr = m ÷ n
+s1.19.1|1|s1.15.3,H,h,waiting for full vaporisation
+s1.19.2|1|s1.16.1,H,h,reweighing the flask
+s1.19.3|1|s1.15.1,H,l,pinhole in foil cap
+s1.19.4|1|s1.15.2,H,l,flask in the water bath
+s1.19.5|1|s1.13.3,E,h,ideal gas assumption
+s1.19.6|1|s1.14.2,H,l,top-pan balance
+s1.19.7|1|chem1-s4.2.0,H,h,random error

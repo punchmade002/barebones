@@ -1,0 +1,543 @@
+{
+"hom-meal-planning-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.2.1",
+"strength": "helpful",
+"why": "men higher energy from muscle mass",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.3",
+"strength": "helpful",
+"why": "pregnancy raises energy need",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.2.2",
+"strength": "helpful",
+"why": "iron in blood",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.4.0",
+"strength": "helpful",
+"why": "activity raises energy use",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.0.3",
+"strength": "helpful",
+"why": "surplus energy stored as fat",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.b",
+"strength": "helpful",
+"why": "iron sources and need",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.5",
+"strength": "helpful",
+"why": "limit salt and sugar",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.b",
+"strength": "helpful",
+"why": "Food Pyramid",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.1.6": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s2.1.7": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.b",
+"strength": "helpful",
+"why": "Irish Food Pyramid",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.2.1": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.2",
+"strength": "helpful",
+"why": "vitamin C aids iron absorption",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.2.4",
+"strength": "helpful",
+"why": "iron deficiency anaemia",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.5",
+"strength": "helpful",
+"why": "osteoporosis",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.1.7",
+"strength": "helpful",
+"why": "peak bone density in teens",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.1",
+"strength": "helpful",
+"why": "starchy foods base meals",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s2.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.5",
+"strength": "helpful",
+"why": "limit fat sugar salt",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.2.7": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.0",
+"strength": "helpful",
+"why": "energy balance and total use",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.2.1",
+"strength": "helpful",
+"why": "fibre and bowel health",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.4",
+"strength": "helpful",
+"why": "unsaturated oils preferred",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.2.5",
+"strength": "helpful",
+"why": "menstrual iron loss",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.4.3",
+"strength": "helpful",
+"why": "sedentary lifestyle lowers energy need",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.2.0",
+"strength": "helpful",
+"why": "BMR falls with age",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.2",
+"strength": "helpful",
+"why": "calcium and bones",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.8.5",
+"strength": "helpful",
+"why": "older people absorb less B12",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.4.2",
+"strength": "helpful",
+"why": "water prevents constipation",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.7.4",
+"strength": "helpful",
+"why": "salt and blood pressure",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.5",
+"strength": "helpful",
+"why": "osteoporosis",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s2.4.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.5",
+"strength": "helpful",
+"why": "osteoporosis",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.11.1",
+"strength": "helpful",
+"why": "neural tube defects",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.2",
+"strength": "helpful",
+"why": "vitamin C aids iron absorption",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.2",
+"strength": "helpful",
+"why": "calcium builds bones",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.5.1",
+"strength": "helpful",
+"why": "iodine and thyroxine",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s2.5.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.8.0",
+"strength": "helpful",
+"why": "pregnancy water needs",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.3",
+"strength": "helpful",
+"why": "pregnancy energy needs",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.4",
+"strength": "helpful",
+"why": "lactation energy need",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.2.2",
+"strength": "helpful",
+"why": "vitamin C aids iron absorption",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.9.1",
+"strength": "helpful",
+"why": "replacing water lost",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s2.9.5": {
+"cost": 1,
+"needs": []
+}
+}

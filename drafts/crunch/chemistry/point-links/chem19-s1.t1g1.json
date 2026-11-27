@@ -1,0 +1,1051 @@
+{
+ "chem19-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s2.2.2",
+    "strength": "helpful",
+    "why": "Bronsted-Lowry proton transfer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "helpful",
+    "why": "equilibrium as dynamic balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s2.2.0",
+    "strength": "helpful",
+    "why": "proton is the same as H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.7.0",
+    "strength": "helpful",
+    "why": "small constant means equilibrium far left",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.0.1",
+    "strength": "essential",
+    "why": "one H3O+ and one OH- per ionisation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration in mol per litre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.0.5",
+    "strength": "helpful",
+    "why": "comparing H+ and OH- concentrations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "essential",
+    "why": "equilibrium constant expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "helpful",
+    "why": "concentration from mass per litre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.0",
+    "strength": "essential",
+    "why": "Kc expression",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.1.1",
+    "strength": "essential",
+    "why": "water concentration is constant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.2",
+    "strength": "essential",
+    "why": "Kc times [H2O] gives Kw",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.3",
+    "strength": "essential",
+    "why": "definition of Kw",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.0.5",
+    "strength": "essential",
+    "why": "[H+] equals [OH-] in pure water",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.1.4",
+    "strength": "essential",
+    "why": "value of Kw at 25 C",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.0",
+    "strength": "essential",
+    "why": "square root of Kw expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.1",
+    "strength": "essential",
+    "why": "[H+] of pure water",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.3",
+    "strength": "essential",
+    "why": "Kw applies to all dilute solutions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.4",
+    "strength": "essential",
+    "why": "Kw to find [OH-]",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "helpful",
+    "why": "pH from [H+]",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.3",
+    "strength": "essential",
+    "why": "taking logs of Kw",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s2.3.b",
+    "strength": "helpful",
+    "why": "endothermic and exothermic reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s2.3.0",
+    "strength": "essential",
+    "why": "temperature shifts equilibrium endothermic way",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.3.0",
+    "strength": "essential",
+    "why": "self-ionisation is endothermic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "equilibrium constant depends on temperature only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.2",
+    "strength": "essential",
+    "why": "neutral pH from Kw",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.3.1",
+    "strength": "helpful",
+    "why": "Kw rises with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.2",
+    "strength": "helpful",
+    "why": "neutral pH from Kw",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.2",
+    "strength": "helpful",
+    "why": "neutral pH from Kw",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.2.2",
+    "strength": "helpful",
+    "why": "neutral pH from Kw",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.0.6",
+    "strength": "essential",
+    "why": "neutral means [H+] equals [OH-]",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.3.1",
+    "strength": "helpful",
+    "why": "Kw rises with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.4.4",
+    "strength": "essential",
+    "why": "neutral pH changes with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration in mol per litre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH from power of ten",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "logarithmic pH scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "acidic pH range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "neutral pH 7",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "basic pH range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "strongly basic pH range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH equals minus log of [H+]",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.7.0",
+    "strength": "essential",
+    "why": "same calculation method",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "acidic below 7",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "reverse of pH definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.7.2",
+    "strength": "essential",
+    "why": "same antilog method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.7.0",
+    "strength": "helpful",
+    "why": "calculator use for pH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "usual pH range 0 to 14",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "essential",
+    "why": "pH definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.8.0",
+    "strength": "helpful",
+    "why": "pH outside 0 to 14",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentrated solutions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.0.1",
+    "strength": "essential",
+    "why": "aqueous solution means water solvent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.4.5",
+    "strength": "essential",
+    "why": "neutral pH changes with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.2",
+    "strength": "helpful",
+    "why": "pH scale colours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "helpful",
+    "why": "indicators show colour change only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "helpful",
+    "why": "pH relates to [H+]",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem19-s1.10.0",
+    "strength": "essential",
+    "why": "pH meter probe",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.10.2",
+    "strength": "helpful",
+    "why": "buffer solutions used to calibrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "helpful",
+    "why": "indicator gives only approximate pH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "helpful",
+    "why": "indicator colour judged by eye",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "helpful",
+    "why": "indicator needs visible colour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.10.0",
+    "strength": "helpful",
+    "why": "meter reading continuously",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "helpful",
+    "why": "pH measured",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "essential",
+    "why": "universal indicator paper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.10.0",
+    "strength": "essential",
+    "why": "pH meter use",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.10.1",
+    "strength": "helpful",
+    "why": "calibrating the meter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.10.3",
+    "strength": "helpful",
+    "why": "use deionised water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.10.0",
+    "strength": "essential",
+    "why": "pH probe and meter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.12.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "essential",
+    "why": "universal indicator and chart",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.12.3",
+    "strength": "helpful",
+    "why": "readings taken in procedure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.9.0",
+    "strength": "essential",
+    "why": "indicator reads to nearest unit",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.11.0",
+    "strength": "helpful",
+    "why": "meter more precise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.10.1",
+    "strength": "essential",
+    "why": "calibrating the meter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s2.8.0",
+    "strength": "essential",
+    "why": "strong acid fully dissociated",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.8.2",
+    "strength": "essential",
+    "why": "weak acid partly dissociated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.14.0",
+    "strength": "essential",
+    "why": "strong versus weak acid pH",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.11.1",
+    "strength": "helpful",
+    "why": "Ka of ethanoic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.5.0",
+    "strength": "helpful",
+    "why": "[H+] sets pH",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.8.0",
+    "strength": "helpful",
+    "why": "dilution lowers concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.14.2",
+    "strength": "essential",
+    "why": "dilution raises pH",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.8.0",
+    "strength": "essential",
+    "why": "strong acid fully dissociated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.14.2",
+    "strength": "essential",
+    "why": "dilution raises pH",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.8.2",
+    "strength": "essential",
+    "why": "weak acid partly dissociated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.14.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem19-s1.14.4",
+    "strength": "essential",
+    "why": "weak acid dilution effect",
+    "confidence": "high"
+   },
+   {
+    "id": "chem18-s1.4.1",
+    "strength": "helpful",
+    "why": "equilibrium constant expression",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem19-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.3.1",
+    "strength": "essential",
+    "why": "Kw rises with temperature",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.4.3",
+    "strength": "helpful",
+    "why": "pH of pure water at 100 C",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem18-s1.6.0",
+    "strength": "essential",
+    "why": "equilibrium constants change with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.1.3",
+    "strength": "essential",
+    "why": "Kw links H+ and OH-",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.2.3",
+    "strength": "essential",
+    "why": "[H+] from Kw and [OH-]",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.15.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem19-s1.15.2",
+    "strength": "essential",
+    "why": "[H+] equals Kw over [OH-]",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.3.1",
+    "strength": "helpful",
+    "why": "Kw larger at higher temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem19-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s2.10.2",
+    "strength": "essential",
+    "why": "dilute strong acid still fully dissociated",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.10.3",
+    "strength": "essential",
+    "why": "concentrated weak acid slightly dissociated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem19-s1.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem19-s1.16.0",
+    "strength": "essential",
+    "why": "strength differs from pH",
+    "confidence": "high"
+   },
+   {
+    "id": "chem19-s1.14.1",
+    "strength": "helpful",
+    "why": "weak acid pH calculation",
+    "confidence": "high"
+   }
+  ]
+ }
+}

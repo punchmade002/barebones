@@ -1,0 +1,620 @@
+{
+ "hom-home-services-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "essential",
+    "why": "convection currents",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.0.2",
+    "strength": "helpful",
+    "why": "radiation from surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.2",
+    "strength": "helpful",
+    "why": "heat loss by radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.1.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat as temperature switch",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.0.b",
+    "strength": "helpful",
+    "why": "insulation slows heat loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.4",
+    "strength": "helpful",
+    "why": "metals expand by different amounts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.0",
+    "strength": "essential",
+    "why": "bimetal strip of brass and invar",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.0.4",
+    "strength": "helpful",
+    "why": "expansion when heated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.1",
+    "strength": "essential",
+    "why": "strip bending when hot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.1",
+    "strength": "essential",
+    "why": "strip curves when hot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "bimetal thermostat principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat switching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat switching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat switching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat-style control",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.5.0",
+    "strength": "helpful",
+    "why": "timer switching times",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.3.b",
+    "strength": "helpful",
+    "why": "thermostat switching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.2.1",
+    "strength": "helpful",
+    "why": "zoning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.5.0",
+    "strength": "helpful",
+    "why": "programmer set from phone",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.6.0",
+    "strength": "helpful",
+    "why": "full central heating contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.2.2",
+    "strength": "helpful",
+    "why": "night rate electricity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.0.2",
+    "strength": "helpful",
+    "why": "radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.7.3",
+    "strength": "helpful",
+    "why": "heat pump raises temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.10.3",
+    "strength": "helpful",
+    "why": "heat pump uses electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.7.3",
+    "strength": "essential",
+    "why": "heat pump",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.7.1",
+    "strength": "helpful",
+    "why": "underfloor heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.10.2",
+    "strength": "helpful",
+    "why": "biomass fuel",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.0.4",
+    "strength": "helpful",
+    "why": "renewable sources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.1.4",
+    "strength": "helpful",
+    "why": "babies and older people need warmth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.5.0",
+    "strength": "helpful",
+    "why": "timers and controls",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.10.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s5.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "essential",
+    "why": "convection currents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "helpful",
+    "why": "natural convection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.3",
+    "strength": "helpful",
+    "why": "radiator convection and radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.10.0",
+    "strength": "essential",
+    "why": "parts of the system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.4",
+    "strength": "helpful",
+    "why": "water expands when heated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.10.0",
+    "strength": "helpful",
+    "why": "heat exchanger coil in cylinder",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.4.1",
+    "strength": "helpful",
+    "why": "boiler thermostat",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.5.0",
+    "strength": "helpful",
+    "why": "programmer timer",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.4.2",
+    "strength": "helpful",
+    "why": "room thermostat",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.4.4",
+    "strength": "helpful",
+    "why": "thermostatic radiator valve",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.4.3",
+    "strength": "helpful",
+    "why": "cylinder thermostat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.6.0",
+    "strength": "helpful",
+    "why": "full central heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s5.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.0.0",
+    "strength": "helpful",
+    "why": "combustion needs oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s5.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s1.0.4",
+    "strength": "helpful",
+    "why": "renewable sources",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-home-services-s5.12.2": {
+  "cost": 2,
+  "needs": []
+ }
+}

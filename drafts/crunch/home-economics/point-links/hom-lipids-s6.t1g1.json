@@ -1,0 +1,606 @@
+{
+ "hom-lipids-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s5.1.0",
+    "strength": "helpful",
+    "why": "fat-soluble vitamins",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.3.0",
+    "strength": "helpful",
+    "why": "essential fatty acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.0.2",
+    "strength": "helpful",
+    "why": "fat-soluble vitamins A and D",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s3.3.0",
+    "strength": "helpful",
+    "why": "saturated animal fats",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.5.3",
+    "strength": "helpful",
+    "why": "saturated fat raises LDL",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s3.0.7",
+    "strength": "helpful",
+    "why": "visible and hidden fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.0.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s5.3.6",
+    "strength": "helpful",
+    "why": "Food Pyramid fats shelf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s6.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.2.6",
+    "strength": "helpful",
+    "why": "water-in-oil emulsion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.0.2",
+    "strength": "helpful",
+    "why": "smoke point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.7.1",
+    "strength": "helpful",
+    "why": "what a label shows",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.5.1",
+    "strength": "helpful",
+    "why": "ingredients in descending order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.4",
+    "strength": "helpful",
+    "why": "unsaturated fat lowers LDL",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s6.8.3",
+    "strength": "helpful",
+    "why": "functional spreads lower cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.4",
+    "strength": "helpful",
+    "why": "trans fat from hydrogenation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.0.5",
+    "strength": "helpful",
+    "why": "smoke point suits frying",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.5.0",
+    "strength": "helpful",
+    "why": "plasticity of fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.2.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.7.0",
+    "strength": "helpful",
+    "why": "oxidative rancidity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.3.0",
+    "strength": "helpful",
+    "why": "rancidity causes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.3.0",
+    "strength": "helpful",
+    "why": "rancidity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.0.4",
+    "strength": "helpful",
+    "why": "impurities lower smoke point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.5.3",
+    "strength": "helpful",
+    "why": "plastic fats rubbed into flour",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-lipids-s6.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.2.3",
+    "strength": "helpful",
+    "why": "emulsions such as mayonnaise",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-lipids-s6.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s3.0.6",
+    "strength": "helpful",
+    "why": "dripping from roast meat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.0.2",
+    "strength": "helpful",
+    "why": "smoke point",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s4.0.3",
+    "strength": "helpful",
+    "why": "acrolein from decomposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.0.6",
+    "strength": "essential",
+    "why": "flash point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.6.0",
+    "strength": "helpful",
+    "why": "hydrogenation",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.2.4",
+    "strength": "helpful",
+    "why": "trans fatty acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.6.0",
+    "strength": "helpful",
+    "why": "hydrogenation with nickel catalyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.5.0",
+    "strength": "helpful",
+    "why": "plasticity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.4.0",
+    "strength": "helpful",
+    "why": "emulsifier action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.2.6",
+    "strength": "helpful",
+    "why": "water-in-oil emulsion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s4.5.0",
+    "strength": "helpful",
+    "why": "plastic fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.5.1",
+    "strength": "helpful",
+    "why": "ingredients in descending order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.6.0",
+    "strength": "helpful",
+    "why": "nutrition declaration items",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.5.0",
+    "strength": "helpful",
+    "why": "Irish labelling regulations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.1",
+    "strength": "helpful",
+    "why": "LDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.8.3",
+    "strength": "helpful",
+    "why": "stanol or sterol ester",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-lipids-s6.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.1",
+    "strength": "helpful",
+    "why": "LDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s6.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.7.1",
+    "strength": "helpful",
+    "why": "nutrition figures per 100 g",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s5.3.1",
+    "strength": "helpful",
+    "why": "saturated fat and CHD",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.4",
+    "strength": "helpful",
+    "why": "unsaturated fat protects heart",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.8.2",
+    "strength": "helpful",
+    "why": "low-fat spreads unsuitable for frying",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.0.5",
+    "strength": "helpful",
+    "why": "lower fat means more water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s6.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.9.2",
+    "strength": "helpful",
+    "why": "weight control judgement",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s6.9.3",
+    "strength": "helpful",
+    "why": "heart protection judgement",
+    "confidence": "high"
+   }
+  ]
+ }
+}

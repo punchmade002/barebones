@@ -1,0 +1,700 @@
+{
+"chem11-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.0",
+"strength": "essential",
+"why": "hydrogen ions in acids",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.0.1",
+"strength": "essential",
+"why": "hydroxide ions in bases",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.0",
+"strength": "helpful",
+"why": "Arrhenius aqueous picture",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.1",
+"strength": "essential",
+"why": "base must produce OH-",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.6.3",
+"strength": "helpful",
+"why": "ammonia and hydrochloric acid reaction",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.0",
+"strength": "helpful",
+"why": "H+ in water",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.0",
+"strength": "essential",
+"why": "proton is H+",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton donor and acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton donor and acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton donor and acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "donor or acceptor depending on partner",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.1",
+"strength": "essential",
+"why": "Arrhenius hydroxide base",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.1.2",
+"strength": "essential",
+"why": "reaction without water",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.1.3",
+"strength": "essential",
+"why": "hydronium ion",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.0",
+"strength": "essential",
+"why": "Arrhenius acid",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton donor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.1",
+"strength": "essential",
+"why": "Arrhenius base",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.1.0",
+"strength": "essential",
+"why": "Arrhenius limited to water",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "Bronsted-Lowry definition",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "acid donates a proton",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "base accepts a proton",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.0",
+"strength": "essential",
+"why": "conjugate base",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.4.1",
+"strength": "essential",
+"why": "conjugate acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.2",
+"strength": "essential",
+"why": "conjugate pairs differ by one proton",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.2",
+"strength": "essential",
+"why": "conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "proton loss and gain",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "acid as proton donor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.2",
+"strength": "essential",
+"why": "conjugate acid and base",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "reverse reaction conjugates",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.5.1",
+"strength": "essential",
+"why": "finding acid and base",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "matching conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "matching conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "matching conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "matching conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.5.2",
+"strength": "essential",
+"why": "matching conjugate pairs",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.0",
+"strength": "essential",
+"why": "conjugate base of an acid",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.8.0",
+"strength": "essential",
+"why": "strong acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.0",
+"strength": "essential",
+"why": "conjugate base of an acid",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.5",
+"strength": "essential",
+"why": "amphoteric water",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.6.3",
+"strength": "helpful",
+"why": "hydrogencarbonate acting as acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.0",
+"strength": "helpful",
+"why": "dissociation into ions",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "strong acid examples",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "contrast with strong acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "helpful",
+"why": "weak acid examples",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "essential",
+"why": "complete dissociation",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "partial dissociation",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.2.4",
+"strength": "helpful",
+"why": "ammonia as proton acceptor",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.0",
+"strength": "essential",
+"why": "concentration in mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.10.0",
+"strength": "essential",
+"why": "concentration units",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "essential",
+"why": "strong acid dissociates fully",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.10.1",
+"strength": "helpful",
+"why": "dilute concentration",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid slightly dissociated",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.10.1",
+"strength": "helpful",
+"why": "concentrated",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "essential",
+"why": "strong acid H+ amount",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid H+ amount",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid equilibrium",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.7.0",
+"strength": "helpful",
+"why": "magnesium reacting with acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "helpful",
+"why": "ions carry current",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid equilibrium shifts",
+"confidence": "high"
+},
+{
+"id": "chem11-s1.6.0",
+"strength": "helpful",
+"why": "neutralisation with sodium hydroxide",
+"confidence": "high"
+}
+]
+},
+"chem11-s2.11.5": {
+"cost": 1,
+"needs": []
+}
+}

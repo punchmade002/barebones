@@ -1,0 +1,366 @@
+{
+"hom-housing-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.0.2": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.0.4",
+"strength": "essential",
+"why": "mortgage as loan",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.0.3",
+"strength": "helpful",
+"why": "deposit meaning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.0.4",
+"strength": "helpful",
+"why": "mortgage meaning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s3.2.5",
+"strength": "helpful",
+"why": "credit union loans",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.1.5": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s1.3.0",
+"strength": "helpful",
+"why": "gross income meaning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.0.3",
+"strength": "helpful",
+"why": "deposit meaning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.2.3": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.2.4": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s5.4.0",
+"strength": "helpful",
+"why": "buildings insurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.3.b",
+"strength": "helpful",
+"why": "mortgage protection insurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s5.5.0",
+"strength": "helpful",
+"why": "life assurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s5.5.1",
+"strength": "helpful",
+"why": "term assurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.3.0",
+"strength": "essential",
+"why": "mortgage protection policy",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.3.0",
+"strength": "helpful",
+"why": "mortgage protection policy",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s5.5.2",
+"strength": "helpful",
+"why": "whole-of-life assurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s3.7.0",
+"strength": "helpful",
+"why": "Consumer Credit Act 1995",
+"confidence": "low"
+}
+]
+},
+"hom-housing-s2.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s5.4.4",
+"strength": "helpful",
+"why": "income protection insurance",
+"confidence": "low"
+}
+]
+},
+"hom-housing-s2.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.4.0",
+"strength": "essential",
+"why": "annuity mortgage",
+"confidence": "high"
+},
+{
+"id": "hom-housing-s2.4.2",
+"strength": "essential",
+"why": "pension-linked mortgage",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.3.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.4.1",
+"strength": "essential",
+"why": "endowment mortgage",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-housing-s2.5.b",
+"strength": "helpful",
+"why": "fixed and variable rates",
+"confidence": "high"
+},
+{
+"id": "hom-housing-s2.3.b",
+"strength": "helpful",
+"why": "mortgage protection",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s5.5.3",
+"strength": "helpful",
+"why": "endowment assurance",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.4.2": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.4.3": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-housing-s2.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.5.0",
+"strength": "essential",
+"why": "fixed portion",
+"confidence": "high"
+},
+{
+"id": "hom-housing-s2.5.1",
+"strength": "essential",
+"why": "variable portion",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.5.0",
+"strength": "helpful",
+"why": "fixed rate meaning",
+"confidence": "high"
+}
+]
+},
+"hom-housing-s2.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-housing-s2.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-housing-s2.5.4",
+"strength": "helpful",
+"why": "longer term comparison",
+"confidence": "high"
+}
+]
+}
+}

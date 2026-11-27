@@ -1,0 +1,473 @@
+{
+ "hom-family-caring-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.1.b",
+    "strength": "helpful",
+    "why": "psychological needs being met",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.1.3",
+    "strength": "helpful",
+    "why": "uses self-esteem",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.1.1",
+    "strength": "helpful",
+    "why": "security from dependable caregiving",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.0.4",
+    "strength": "helpful",
+    "why": "health care and check-ups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.1.2",
+    "strength": "helpful",
+    "why": "attachment to caregiver",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-sociological-concepts-s3.3.1",
+    "strength": "helpful",
+    "why": "primary socialisation process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.7.3",
+    "strength": "helpful",
+    "why": "Child Care Act duty to protect",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-family-caring-s2.5.4",
+    "strength": "helpful",
+    "why": "Tusla child-protection role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.3.2",
+    "strength": "helpful",
+    "why": "adolescent need for independence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-sociological-concepts-s3.0.7",
+    "strength": "helpful",
+    "why": "peer group influence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-family-caring-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s1.1.6",
+    "strength": "helpful",
+    "why": "disciplinarian role",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-family-caring-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.3.2",
+    "strength": "helpful",
+    "why": "independence and gradual freedom",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.8.5",
+    "strength": "helpful",
+    "why": "curfew as common flashpoint",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.12.0",
+    "strength": "helpful",
+    "why": "active listening without interrupting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.9.2",
+    "strength": "helpful",
+    "why": "negotiation and compromise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-family-caring-s2.9.2",
+    "strength": "helpful",
+    "why": "trial period compromise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-family-caring-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.11.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-family-caring-s2.12.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

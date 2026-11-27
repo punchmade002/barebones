@@ -1,0 +1,223 @@
+{
+"hom-marriage-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.0",
+"strength": "helpful",
+"why": "pre-marriage course",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.0",
+"strength": "helpful",
+"why": "pre-marriage preparation",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.0",
+"strength": "helpful",
+"why": "pre-marriage courses",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-marriage-s1.2.b",
+"strength": "helpful",
+"why": "legal requirements of marriage",
+"confidence": "low"
+}
+]
+},
+"hom-marriage-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.0",
+"strength": "helpful",
+"why": "financial and housing topics",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.0",
+"strength": "helpful",
+"why": "roles topic in courses",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.b",
+"strength": "helpful",
+"why": "course topics",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.1",
+"strength": "helpful",
+"why": "expectations and realities of marriage",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.0",
+"strength": "helpful",
+"why": "communication topic",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.2",
+"strength": "helpful",
+"why": "roles and expectations",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.1.1",
+"strength": "helpful",
+"why": "money and housing advice",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-marriage-s3.1.0",
+"strength": "helpful",
+"why": "conflict resolution topic",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-marriage-s3.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.b",
+"strength": "helpful",
+"why": "pre-marriage courses",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.2.4",
+"strength": "essential",
+"why": "notice of intention to marry",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s1.2.7",
+"strength": "helpful",
+"why": "approved venue",
+"confidence": "high"
+},
+{
+"id": "hom-marriage-s3.3.0",
+"strength": "helpful",
+"why": "registrar role",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s3.0.3",
+"strength": "helpful",
+"why": "religious preparation",
+"confidence": "high"
+}
+]
+},
+"hom-marriage-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-marriage-s2.5.b",
+"strength": "helpful",
+"why": "roles and responsibilities of partners",
+"confidence": "low"
+}
+]
+},
+"hom-marriage-s3.3.4": {
+"cost": 2,
+"needs": []
+}
+}

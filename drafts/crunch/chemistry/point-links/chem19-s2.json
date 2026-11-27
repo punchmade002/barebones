@@ -1,0 +1,1570 @@
+{
+"chem19-s2.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "strong acid ionises completely",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.0",
+"strength": "helpful",
+"why": "concentration in mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "strong acid fully dissociated",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.0",
+"strength": "helpful",
+"why": "concentration in mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.0",
+"strength": "essential",
+"why": "[H+] = acid conc x basicity",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.1",
+"strength": "essential",
+"why": "monoprotic strong acid [H+]=[acid]",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.5.0",
+"strength": "essential",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.5.0",
+"strength": "essential",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.0.1",
+"strength": "helpful",
+"why": "monoprotic [H+]=[acid]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.0",
+"strength": "essential",
+"why": "basicity multiplies [H+]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.4",
+"strength": "essential",
+"why": "sulfuric acid gives 2 H+",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.5.0",
+"strength": "helpful",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.0",
+"strength": "helpful",
+"why": "strong acid method",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.1",
+"strength": "helpful",
+"why": "g per litre to mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.5",
+"strength": "helpful",
+"why": "molar mass",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.10.1",
+"strength": "helpful",
+"why": "concentration in g per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.8.1",
+"strength": "helpful",
+"why": "n = mass / molar mass",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.1",
+"strength": "essential",
+"why": "g per litre to mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.4",
+"strength": "essential",
+"why": "H2SO4 releases 2 H+",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.5.0",
+"strength": "essential",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.9.0",
+"strength": "helpful",
+"why": "strong base dissociates to OH-",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.9.0",
+"strength": "helpful",
+"why": "strong base fully dissociated",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.0.0",
+"strength": "helpful",
+"why": "same method as strong acid",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem19-s2.2.0",
+"strength": "essential",
+"why": "[OH-] from base concentration",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.2.5",
+"strength": "essential",
+"why": "pH + pOH = 14",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.1.3",
+"strength": "essential",
+"why": "Kw = [H+][OH-]",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.2.0",
+"strength": "essential",
+"why": "[OH-] of strong base",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "pOH then pH = 14 - pOH",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.2.0",
+"strength": "essential",
+"why": "NaOH gives 1 OH-",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "pOH then pH = 14 - pOH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.0",
+"strength": "essential",
+"why": "Ca(OH)2 gives 2 OH-",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "pOH then pH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.0",
+"strength": "essential",
+"why": "[OH-] from base concentration",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.1.2",
+"strength": "helpful",
+"why": "mass to mol L-1",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.1",
+"strength": "helpful",
+"why": "g per litre to mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "pOH then pH = 14 - pOH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "helpful",
+"why": "weak acid slightly dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid only slightly dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.b",
+"strength": "essential",
+"why": "Ka measures dissociation",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.9.3",
+"strength": "helpful",
+"why": "Ka expression",
+"confidence": "low"
+},
+{
+"id": "chem8-s2.2.0",
+"strength": "helpful",
+"why": "concentration in mol per litre",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.12.2",
+"strength": "helpful",
+"why": "c - x approximately c",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.5.0",
+"strength": "essential",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.4.0",
+"strength": "essential",
+"why": "[H+] from sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "helpful",
+"why": "larger Ka means stronger acid",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.8.1",
+"strength": "essential",
+"why": "n = mass / molar mass",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass over molar mass",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.7.2",
+"strength": "essential",
+"why": "c = n / V in litres",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.4.5",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V in litres",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.4.6",
+"strength": "essential",
+"why": "concentration from mass",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.b",
+"strength": "helpful",
+"why": "same approach as weak acid",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.9.1",
+"strength": "helpful",
+"why": "weak base reacts with water",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "square-root formula for weak acid",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "pOH then pH = 14 - pOH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.5.0",
+"strength": "essential",
+"why": "[OH-] = sqrt(Kb c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.5.0",
+"strength": "essential",
+"why": "pOH then pH = 14 - pOH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.5.0",
+"strength": "essential",
+"why": "[OH-] = sqrt(Kb c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.7.2",
+"strength": "helpful",
+"why": "[H+] = 10^-pH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.7.2",
+"strength": "essential",
+"why": "[H+] = 10^-pH",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.0.1",
+"strength": "helpful",
+"why": "[acid]=[H+] monoprotic",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.6.0",
+"strength": "essential",
+"why": "[acid] = 10^-pH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.1.3",
+"strength": "essential",
+"why": "Kw = [H+][OH-]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.6.2",
+"strength": "essential",
+"why": "[OH-] = Kw / [H+]",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.2.5",
+"strength": "helpful",
+"why": "pH + pOH = 14",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s1.7.2",
+"strength": "essential",
+"why": "[H+] = 10^-pH",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "formula rearranged for Ka",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.6.4",
+"strength": "essential",
+"why": "Ka = [H+]^2 / c",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.6.4",
+"strength": "essential",
+"why": "rearranged Ka formula",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.6.6",
+"strength": "essential",
+"why": "c = [H+]^2 / Ka",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.7.2",
+"strength": "helpful",
+"why": "[H+] = 10^-pH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem19-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.0.0",
+"strength": "essential",
+"why": "strong species: use concentration",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "weak acid formula",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.5.0",
+"strength": "essential",
+"why": "weak base formula",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.2.1",
+"strength": "essential",
+"why": "bases: pOH then pH",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "n = m / M",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.11.0",
+"strength": "helpful",
+"why": "strong vs weak pH comparison",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"chem19-s2.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "dissociation of acids in water",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "acid is a proton donor",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.8.0",
+"strength": "essential",
+"why": "general acid dissociation equation",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.0.1",
+"strength": "helpful",
+"why": "base produces hydroxide",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.8.0",
+"strength": "helpful",
+"why": "dissociation equation pattern",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "base is a proton acceptor",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.8.3",
+"strength": "essential",
+"why": "ammonia equation gives NH4+",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid is an equilibrium",
+"confidence": "high"
+},
+{
+"id": "chem18-s1.0.1",
+"strength": "helpful",
+"why": "reversible reaction sign",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.4.0",
+"strength": "essential",
+"why": "equilibrium constant Kc",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.8.0",
+"strength": "essential",
+"why": "acid dissociation equation",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.4.1",
+"strength": "essential",
+"why": "Kc as products over reactants",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem19-s1.1.1",
+"strength": "essential",
+"why": "water concentration constant, combined into K",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.9.1",
+"strength": "essential",
+"why": "Kc expression with water",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.2",
+"strength": "essential",
+"why": "Ka = Kc x [H2O]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "Ka expression",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "Ka expression gives units",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "same steps as Ka",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "same steps as Ka",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.8.3",
+"strength": "helpful",
+"why": "base equilibrium with water",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.2",
+"strength": "essential",
+"why": "constant [H2O] absorbed into K",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.10.0",
+"strength": "essential",
+"why": "Kb expression",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.7.0",
+"strength": "essential",
+"why": "large K lies to the right",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "Ka expression",
+"confidence": "high"
+},
+{
+"id": "chem18-s1.7.0",
+"strength": "helpful",
+"why": "large K lies to the right",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "essential",
+"why": "larger K means stronger",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.10.0",
+"strength": "helpful",
+"why": "Kb defined",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "essential",
+"why": "small Ka means weak acid",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "essential",
+"why": "Ka tied to strength",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "strong acids fully dissociate",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.3",
+"strength": "helpful",
+"why": "strong species not use K",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem18-s1.6.0",
+"strength": "essential",
+"why": "K changes only with temperature",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "helpful",
+"why": "formula derived here",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "Ka expression",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.12.0",
+"strength": "essential",
+"why": "equilibrium amounts x and c - x",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.9.3",
+"strength": "essential",
+"why": "Ka expression",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.12.1",
+"strength": "essential",
+"why": "Ka = x^2/(c - x)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.12.2",
+"strength": "essential",
+"why": "Ka = x^2/c",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.12.3",
+"strength": "essential",
+"why": "same derivation as weak acid",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.10.0",
+"strength": "essential",
+"why": "Kb expression",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem19-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "helpful",
+"why": "weak acid slightly dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.0",
+"strength": "essential",
+"why": "degree of dissociation definition",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "essential",
+"why": "strong acid fully dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.2",
+"strength": "essential",
+"why": "weak acid slightly dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.0",
+"strength": "essential",
+"why": "% dissociation",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.3.1",
+"strength": "helpful",
+"why": "[H+] of weak acid",
+"confidence": "low"
+}
+]
+},
+"chem19-s2.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.11.0",
+"strength": "helpful",
+"why": "pH comparison strong vs weak",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.13.2",
+"strength": "essential",
+"why": "strong acid fully dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.6": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s2.2.1",
+"strength": "essential",
+"why": "Bronsted-Lowry proton donor",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.4.0",
+"strength": "essential",
+"why": "conjugate base",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.6",
+"strength": "essential",
+"why": "conjugate base takes proton back",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "helpful",
+"why": "Ka measures strength",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.0",
+"strength": "essential",
+"why": "larger Ka stronger acid",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.13.0",
+"strength": "essential",
+"why": "degree of dissociation",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.14.0",
+"strength": "essential",
+"why": "larger Ka dissociates more",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.13.1",
+"strength": "helpful",
+"why": "% dissociation",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.13.1",
+"strength": "essential",
+"why": "fraction dissociated = [H+]/c",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.3.1",
+"strength": "essential",
+"why": "[H+] = sqrt(Ka c)",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.1",
+"strength": "essential",
+"why": "% dissociation formula",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.5.0",
+"strength": "essential",
+"why": "[OH-] = sqrt(Kb c)",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.13.1",
+"strength": "essential",
+"why": "% dissociation of a base",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.11.3",
+"strength": "essential",
+"why": "strong acids have very large Ka",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.0",
+"strength": "helpful",
+"why": "degree of dissociation",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.2",
+"strength": "helpful",
+"why": "dilution lowers concentration",
+"confidence": "low"
+}
+]
+},
+"chem19-s2.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.14.2",
+"strength": "essential",
+"why": "degree of dissociation = sqrt(Ka/c)",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.2",
+"strength": "helpful",
+"why": "dilution lowers concentration",
+"confidence": "low"
+}
+]
+},
+"chem19-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.15.0",
+"strength": "helpful",
+"why": "dissociation rises on dilution",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem18-s1.7.6",
+"strength": "essential",
+"why": "Le Chatelier's principle",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.8.0",
+"strength": "essential",
+"why": "HA equilibrium",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.15.0",
+"strength": "essential",
+"why": "degree of dissociation rises",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.5.0",
+"strength": "helpful",
+"why": "pH = -log10[H+]",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.13.2",
+"strength": "essential",
+"why": "strong acid fully dissociated",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.2",
+"strength": "helpful",
+"why": "conjugate acid-base pair",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.4.2",
+"strength": "essential",
+"why": "conjugate pair",
+"confidence": "high"
+},
+{
+"id": "chem19-s1.1.3",
+"strength": "essential",
+"why": "Kw expression",
+"confidence": "high"
+},
+{
+"id": "chem19-s2.10.0",
+"strength": "helpful",
+"why": "Kb defined",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.16.0",
+"strength": "essential",
+"why": "Ka x Kb = Kw",
+"confidence": "high"
+},
+{
+"id": "chem11-s2.7.0",
+"strength": "helpful",
+"why": "stronger acid, weaker conjugate base",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.16.0",
+"strength": "essential",
+"why": "Kb = Kw / Ka",
+"confidence": "high"
+}
+]
+},
+"chem19-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem19-s2.16.0",
+"strength": "essential",
+"why": "Ka = Kw / Kb",
+"confidence": "high"
+}
+]
+}
+}

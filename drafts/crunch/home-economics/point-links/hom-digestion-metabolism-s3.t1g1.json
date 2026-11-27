@@ -1,0 +1,361 @@
+{
+ "hom-digestion-metabolism-s3.0.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s2.0.0",
+    "strength": "helpful",
+    "why": "triglycerides as dietary fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s2.1.3",
+    "strength": "helpful",
+    "why": "ester bond formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.0",
+    "strength": "essential",
+    "why": "triglyceride ester bonds broken",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.1",
+    "strength": "helpful",
+    "why": "lipase acts on triglycerides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.0",
+    "strength": "helpful",
+    "why": "triglyceride structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.1",
+    "strength": "helpful",
+    "why": "lipase hydrolysis of triglycerides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.2",
+    "strength": "helpful",
+    "why": "fat droplets need surface area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.2",
+    "strength": "helpful",
+    "why": "surface area speeds lipase action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.1",
+    "strength": "essential",
+    "why": "lipase substrate and products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.1",
+    "strength": "helpful",
+    "why": "lipase substrate and products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.3.0",
+    "strength": "helpful",
+    "why": "bile emulsifies fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.0.1",
+    "strength": "helpful",
+    "why": "lipase hydrolysis products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.4.3",
+    "strength": "helpful",
+    "why": "digestion products long-chain fatty acids",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.1",
+    "strength": "helpful",
+    "why": "rebuilt triglycerides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.2",
+    "strength": "helpful",
+    "why": "chylomicrons formed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.3",
+    "strength": "helpful",
+    "why": "chylomicrons enter lacteals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.3.0",
+    "strength": "helpful",
+    "why": "bile emulsifies",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-digestion-metabolism-s3.4.0",
+    "strength": "helpful",
+    "why": "pancreatic lipase action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.0",
+    "strength": "helpful",
+    "why": "short-chain products enter capillaries",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-digestion-metabolism-s3.5.3",
+    "strength": "helpful",
+    "why": "long-chain fat enters lacteals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.4",
+    "strength": "helpful",
+    "why": "lymph route to bloodstream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.5.0",
+    "strength": "helpful",
+    "why": "direct capillary absorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.0",
+    "strength": "helpful",
+    "why": "lipoproteins carry lipids",
+    "confidence": "low"
+   },
+   {
+    "id": "hom-digestion-metabolism-s3.5.2",
+    "strength": "helpful",
+    "why": "chylomicrons formed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.7.0",
+    "strength": "helpful",
+    "why": "lipoproteins carry triglycerides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-digestion-metabolism-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-digestion-metabolism-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-digestion-metabolism-s3.7.0",
+    "strength": "helpful",
+    "why": "VLDL export from liver",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,284 @@
+{
+ "chem1-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.0.2",
+    "strength": "helpful",
+    "why": "results published in journals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.1.0",
+    "strength": "helpful",
+    "why": "evidence others can examine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem1-s2.2.1",
+    "strength": "helpful",
+    "why": "SI units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem1-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.2.1",
+    "strength": "helpful",
+    "why": "SI base units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.3.0",
+    "strength": "helpful",
+    "why": "what peer review is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.3.0",
+    "strength": "essential",
+    "why": "what peer review is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.4.1",
+    "strength": "helpful",
+    "why": "reproducing results",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem1-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.4.1",
+    "strength": "essential",
+    "why": "reproducible results",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem1-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.6.0",
+    "strength": "essential",
+    "why": "primary data",
+    "confidence": "high"
+   },
+   {
+    "id": "chem1-s2.6.1",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.3.0",
+    "strength": "essential",
+    "why": "peer review",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.7.0",
+    "strength": "helpful",
+    "why": "compare source reliability",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem1-s2.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.7.5",
+    "strength": "helpful",
+    "why": "sources written to sell or persuade",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s2.8.5": {
+  "cost": 1,
+  "needs": []
+ }
+}

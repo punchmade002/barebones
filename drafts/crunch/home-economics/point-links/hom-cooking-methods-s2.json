@@ -1,0 +1,442 @@
+{
+"hom-cooking-methods-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.0.0",
+"strength": "helpful",
+"why": "micro-organisms destroyed by heat",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.6",
+"strength": "helpful",
+"why": "heat travels inwards through food",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.0.0",
+"strength": "helpful",
+"why": "bacteria in food",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction through molecules",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s2.2.1",
+"strength": "helpful",
+"why": "metal pan base conducts",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.2",
+"strength": "essential",
+"why": "pan-based conduction",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction into meat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.1",
+"strength": "helpful",
+"why": "metal tins conduct",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.0",
+"strength": "helpful",
+"why": "molecule by molecule conduction",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "rising and sinking currents",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.0",
+"strength": "helpful",
+"why": "natural convection in oven",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection currents",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection by steam",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection currents",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "inside cooks by conduction",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiant heat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiant heat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiant heat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiant heat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiation",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiation",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.2",
+"strength": "helpful",
+"why": "pan base conduction",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection in water",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.5.2": {
+"cost": 2,
+"needs": []
+},
+"hom-cooking-methods-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s2.5.2",
+"strength": "essential",
+"why": "heat made in outer layer",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.1.3",
+"strength": "helpful",
+"why": "food type governs method",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.1.3",
+"strength": "helpful",
+"why": "delicate foods gentle heat",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.0.1",
+"strength": "helpful",
+"why": "protein denatures and sets",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.0.2",
+"strength": "helpful",
+"why": "starch gelatinises",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s2.6.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.6.6": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s2.6.7": {
+"cost": 2,
+"needs": []
+}
+}

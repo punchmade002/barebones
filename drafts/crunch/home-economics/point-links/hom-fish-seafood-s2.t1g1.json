@@ -1,0 +1,246 @@
+{
+ "hom-fish-seafood-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.0.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.0.4",
+    "strength": "helpful",
+    "why": "rancidity is fat going off",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s2.2.1",
+    "strength": "essential",
+    "why": "uses glycogen stores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.1.0",
+    "strength": "helpful",
+    "why": "bacterial putrefaction of protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.0.1",
+    "strength": "helpful",
+    "why": "enzyme action in food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.5.0",
+    "strength": "helpful",
+    "why": "low temperature slows growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-fish-seafood-s2.2.0",
+    "strength": "helpful",
+    "why": "rancidity of fish fats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.4.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.0.0",
+    "strength": "helpful",
+    "why": "freezing stops enzymes and growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.6",
+    "strength": "helpful",
+    "why": "fast-freeze setting timing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.3.5",
+    "strength": "helpful",
+    "why": "do not overload freezer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.4.0",
+    "strength": "helpful",
+    "why": "freezer burn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.4.3",
+    "strength": "helpful",
+    "why": "no refreezing thawed food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.4.0",
+    "strength": "helpful",
+    "why": "freezer burn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-fish-seafood-s2.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-fish-seafood-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ }
+}

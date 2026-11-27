@@ -1,0 +1,482 @@
+{
+ "chem5-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem3-s1.11.b",
+    "strength": "helpful",
+    "why": "flame colour of each metal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.11.1",
+    "strength": "helpful",
+    "why": "writing an ionic precipitation equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.2.1",
+    "strength": "helpful",
+    "why": "chloride gives silver chloride precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s1.8.b",
+    "strength": "helpful",
+    "why": "acid reacts with carbonate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.0.5",
+    "strength": "helpful",
+    "why": "what a precipitate is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.8.0",
+    "strength": "helpful",
+    "why": "sulfate ion formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.8.0",
+    "strength": "helpful",
+    "why": "sulfite ion formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.3.0",
+    "strength": "essential",
+    "why": "both ions give white precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.3.2",
+    "strength": "essential",
+    "why": "barium sulfite precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s1.8.b",
+    "strength": "helpful",
+    "why": "acid plus carbonate gives CO2",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s2.0.6",
+    "strength": "helpful",
+    "why": "effervescence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s1.8.0",
+    "strength": "helpful",
+    "why": "carbonate plus acid equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s1.8.2",
+    "strength": "helpful",
+    "why": "hydrogencarbonate plus acid equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem11-s1.8.3",
+    "strength": "essential",
+    "why": "limewater test for CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.0.5",
+    "strength": "helpful",
+    "why": "what a precipitate is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.4.4",
+    "strength": "essential",
+    "why": "carbonate precipitate in the cold",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.4.5",
+    "strength": "essential",
+    "why": "hydrogencarbonate gives no cold precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.5.1",
+    "strength": "essential",
+    "why": "layering of acid under solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem10-s2.11.4",
+    "strength": "helpful",
+    "why": "charge balance in ionic equation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem5-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.5.3",
+    "strength": "essential",
+    "why": "nitrogen monoxide is produced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.6.0",
+    "strength": "essential",
+    "why": "ammonium molybdate test reagents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem5-s1.8.0",
+    "strength": "helpful",
+    "why": "phosphate and ammonium ion formulae",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.7.1",
+    "strength": "essential",
+    "why": "nitrates and phosphates enter water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.7.3",
+    "strength": "essential",
+    "why": "hard water from calcium and magnesium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.7.3",
+    "strength": "essential",
+    "why": "hard water from calcium and magnesium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem5-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.1.0",
+    "strength": "essential",
+    "why": "flame colours identify cation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.4.0",
+    "strength": "essential",
+    "why": "acid test for carbonates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem5-s2.2.b",
+    "strength": "helpful",
+    "why": "chloride test",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s2.3.b",
+    "strength": "helpful",
+    "why": "sulfate and sulfite test",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s2.5.b",
+    "strength": "helpful",
+    "why": "nitrate test",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s2.6.b",
+    "strength": "helpful",
+    "why": "phosphate test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.0.4",
+    "strength": "essential",
+    "why": "blank as a control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem3-s1.11.2",
+    "strength": "essential",
+    "why": "potassium flame is lilac",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s2.2.2",
+    "strength": "essential",
+    "why": "silver chloride dissolves in ammonia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s2.5.1",
+    "strength": "essential",
+    "why": "acid layered under solution",
+    "confidence": "high"
+   }
+  ]
+ }
+}

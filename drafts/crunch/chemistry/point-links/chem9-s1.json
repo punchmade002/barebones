@@ -1,0 +1,482 @@
+{
+"chem9-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.0",
+"strength": "helpful",
+"why": "particles in constant motion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.0",
+"strength": "helpful",
+"why": "particles in constant motion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.0",
+"strength": "helpful",
+"why": "particles in constant motion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.1",
+"strength": "helpful",
+"why": "solid particle arrangement",
+"confidence": "high"
+},
+{
+"id": "chem9-s1.0.3",
+"strength": "helpful",
+"why": "gas particle arrangement",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.2",
+"strength": "essential",
+"why": "compound has bonded elements",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.2",
+"strength": "helpful",
+"why": "compounds of different atoms",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.0",
+"strength": "helpful",
+"why": "pure substance has fixed melting point",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.3.0",
+"strength": "essential",
+"why": "compare with sharp melting point",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.2.0",
+"strength": "helpful",
+"why": "mixture has variable composition",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.2",
+"strength": "helpful",
+"why": "compound elements chemically combined",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.3",
+"strength": "helpful",
+"why": "compound properties differ from elements",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.2.1",
+"strength": "helpful",
+"why": "mixtures separated physically",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.1.1",
+"strength": "helpful",
+"why": "element particle diagrams",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.5.0",
+"strength": "essential",
+"why": "particles in motion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.5.1",
+"strength": "essential",
+"why": "kinetic energy and temperature",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.5.0",
+"strength": "helpful",
+"why": "kinetic theory being tested",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.6.2",
+"strength": "helpful",
+"why": "smoke cell",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.6.3",
+"strength": "helpful",
+"why": "lit smoke cell",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.6.1",
+"strength": "helpful",
+"why": "smoke particle experiment",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem9-s1.6.5",
+"strength": "essential",
+"why": "smoke jiggling observation",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.7.0",
+"strength": "helpful",
+"why": "air molecules move smoke",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.7.0",
+"strength": "essential",
+"why": "explanation of smoke motion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.6.2",
+"strength": "helpful",
+"why": "smoke cell set-up",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.5.0",
+"strength": "helpful",
+"why": "random motion of particles",
+"confidence": "low"
+}
+]
+},
+"chem9-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.3",
+"strength": "helpful",
+"why": "gas particles spread out",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.8.1",
+"strength": "essential",
+"why": "bromine vapour spreading",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.8.3": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.8.b",
+"strength": "helpful",
+"why": "diffusion of gases",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.9.0",
+"strength": "helpful",
+"why": "ammonia and hydrochloric acid set-up",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.9.1",
+"strength": "helpful",
+"why": "white ring position",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem9-s1.8.b",
+"strength": "helpful",
+"why": "diffusion of gases",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.9.4": {
+"cost": 1,
+"needs": []
+},
+"chem9-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.9.0",
+"strength": "helpful",
+"why": "tube set-up",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.8.b",
+"strength": "helpful",
+"why": "diffusion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.8.b",
+"strength": "helpful",
+"why": "diffusion",
+"confidence": "high"
+}
+]
+},
+"chem9-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.10.0",
+"strength": "helpful",
+"why": "diffusion in liquids",
+"confidence": "high"
+}
+]
+}
+}

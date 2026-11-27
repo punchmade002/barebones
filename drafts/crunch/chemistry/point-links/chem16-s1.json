@@ -1,0 +1,1177 @@
+{
+"chem16-s1.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem13-s1.0.0",
+"strength": "helpful",
+"why": "acid-base mole steps",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem15-s1.0.1",
+"strength": "helpful",
+"why": "mole ratio from balanced equation",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.0.b",
+"strength": "helpful",
+"why": "balancing redox equations",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.0.3",
+"strength": "helpful",
+"why": "electrons lost equal gained",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.2.2",
+"strength": "helpful",
+"why": "MnO4- to Fe2+ 1:5 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "essential",
+"why": "uses coefficients for mole ratio",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.1.0",
+"strength": "helpful",
+"why": "titration formula with coefficients",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.5",
+"strength": "essential",
+"why": "uses the redox titration formula",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.1.1",
+"strength": "helpful",
+"why": "volumes in cm3 cancel",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.5",
+"strength": "essential",
+"why": "applies the titration formula",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.0.8": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.5",
+"strength": "essential",
+"why": "rearranged titration formula",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem15-s1.2.2",
+"strength": "helpful",
+"why": "permanganate and iron(II) equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.10.2",
+"strength": "helpful",
+"why": "iodine thiosulfate equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem15-s1.13.1",
+"strength": "helpful",
+"why": "permanganate oxidises iodide equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem15-s1.13.4",
+"strength": "helpful",
+"why": "combined permanganate thiosulfate ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.5.0",
+"strength": "helpful",
+"why": "ammonium iron(II) sulfate formula",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.5.1",
+"strength": "helpful",
+"why": "ammonium iron(II) sulfate as standard",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.9.0",
+"strength": "helpful",
+"why": "sodium thiosulfate pentahydrate formula",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.10.0",
+"strength": "helpful",
+"why": "iodine dissolving as tri-iodide",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.13.2",
+"strength": "helpful",
+"why": "excess iodide releasing iodine",
+"confidence": "low"
+}
+]
+},
+"chem16-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.2.0",
+"strength": "essential",
+"why": "analyte reacts with excess reagent",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.2.1",
+"strength": "helpful",
+"why": "titrating the released product",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.1",
+"strength": "essential",
+"why": "iodine thiosulfate 1:2 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.2",
+"strength": "essential",
+"why": "permanganate to iodine ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.2.5": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.2.0",
+"strength": "helpful",
+"why": "analyte and titrant measured",
+"confidence": "low"
+}
+]
+},
+"chem16-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.1",
+"strength": "helpful",
+"why": "scaling back for dilution",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.2.3",
+"strength": "helpful",
+"why": "scaling up a portion titrated",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.0",
+"strength": "helpful",
+"why": "scaling to the whole solution",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.1",
+"strength": "essential",
+"why": "mass from moles and molar mass",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.2",
+"strength": "essential",
+"why": "uses mass of substance",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.2",
+"strength": "essential",
+"why": "uses measured mass",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.5",
+"strength": "essential",
+"why": "molar mass in g per mol",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.0",
+"strength": "helpful",
+"why": "mol per litre to g per litre",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.5",
+"strength": "essential",
+"why": "uses g per litre",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.2",
+"strength": "helpful",
+"why": "g per litre to %w/v",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.5",
+"strength": "essential",
+"why": "g per litre from molar mass",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.4.0": {
+"cost": 2,
+"needs": []
+},
+"chem16-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.4.0",
+"strength": "essential",
+"why": "uses Ar values",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.4.0",
+"strength": "essential",
+"why": "uses Ar values",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.4.0",
+"strength": "essential",
+"why": "uses Ar values",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.7.3",
+"strength": "helpful",
+"why": "concordant titres",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.3.0",
+"strength": "helpful",
+"why": "mean of concordant titres",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem13-s1.3.1",
+"strength": "helpful",
+"why": "three significant figures with units",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem13-s1.3.2",
+"strength": "helpful",
+"why": "sense check of answer",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem13-s1.3.2",
+"strength": "helpful",
+"why": "percentage cannot exceed 100",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.3.2",
+"strength": "helpful",
+"why": "pale pink permanganate end point",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.5.3",
+"strength": "helpful",
+"why": "air oxidises Fe2+",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.2",
+"strength": "helpful",
+"why": "mole ratio from balanced equation",
+"confidence": "low"
+}
+]
+},
+"chem16-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.0.2",
+"strength": "essential",
+"why": "oxidising and reducing agents",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.0.b",
+"strength": "essential",
+"why": "balancing with oxidation numbers",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.6.4": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "essential",
+"why": "mole method steps",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.4.2",
+"strength": "helpful",
+"why": "plan route through moles",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem14-s2.0.b",
+"strength": "helpful",
+"why": "balancing redox equations",
+"confidence": "low"
+}
+]
+},
+"chem16-s1.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem14-s2.4.6",
+"strength": "helpful",
+"why": "permanganate ethanedioate equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.1.2",
+"strength": "helpful",
+"why": "primary standard idea",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.4.0",
+"strength": "helpful",
+"why": "primary standard definition",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.5.0",
+"strength": "helpful",
+"why": "ammonium iron(II) sulfate",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.2.2",
+"strength": "helpful",
+"why": "1:5 permanganate iron equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.9.2",
+"strength": "essential",
+"why": "uses moles of salt",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.9.3",
+"strength": "essential",
+"why": "uses Fe2+ concentration",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.9.1",
+"strength": "essential",
+"why": "uses 1:5 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.9.5",
+"strength": "essential",
+"why": "uses moles of MnO4-",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.9.6",
+"strength": "essential",
+"why": "uses KMnO4 concentration",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.0",
+"strength": "helpful",
+"why": "mol per litre to g per litre",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "helpful",
+"why": "n = c x V",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.0",
+"strength": "essential",
+"why": "MnO4- to Fe2+ 1:5 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.0",
+"strength": "essential",
+"why": "scaling portion to whole",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.2.3",
+"strength": "essential",
+"why": "scaling portion to whole sample",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.1",
+"strength": "essential",
+"why": "divide by number of tablets",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.2",
+"strength": "essential",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.4",
+"strength": "essential",
+"why": "percentage of label value",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.10.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.2",
+"strength": "essential",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem15-s1.11.1",
+"strength": "helpful",
+"why": "starch indicator for iodine",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.2",
+"strength": "helpful",
+"why": "permanganate iodide equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.1",
+"strength": "helpful",
+"why": "iodine thiosulfate equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.2",
+"strength": "essential",
+"why": "MnO4- to I2 2:5 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.1",
+"strength": "essential",
+"why": "I2 to thiosulfate 1:2",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "helpful",
+"why": "concentration from moles",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.5",
+"strength": "essential",
+"why": "g per litre from molar mass",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.0",
+"strength": "essential",
+"why": "mol per litre to g per litre",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.7.2",
+"strength": "helpful",
+"why": "hypochlorite iodide equation",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.1.1",
+"strength": "essential",
+"why": "I2 to thiosulfate 1:2",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.12.3",
+"strength": "essential",
+"why": "uses moles of ClO-",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.1",
+"strength": "helpful",
+"why": "allowing for dilution",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.2.1",
+"strength": "essential",
+"why": "dilution factor scales concentration",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.2",
+"strength": "essential",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.6",
+"strength": "essential",
+"why": "%w/v from g per litre",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.2",
+"strength": "essential",
+"why": "g per litre to %w/v",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"chem16-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.7.0",
+"strength": "helpful",
+"why": "permanganate peroxide ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem14-s2.0.2",
+"strength": "helpful",
+"why": "reducing agent loses electrons",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.7.0",
+"strength": "essential",
+"why": "MnO4- to H2O2 2:5 ratio",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.0",
+"strength": "helpful",
+"why": "concentration from moles",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.0.1",
+"strength": "helpful",
+"why": "allowing for dilution",
+"confidence": "high"
+},
+{
+"id": "chem13-s1.2.1",
+"strength": "helpful",
+"why": "dilution factor scales concentration",
+"confidence": "high"
+}
+]
+},
+"chem16-s1.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem16-s1.3.5",
+"strength": "essential",
+"why": "g per litre from molar mass",
+"confidence": "high"
+},
+{
+"id": "chem8-s2.11.2",
+"strength": "essential",
+"why": "g per litre to %w/v",
+"confidence": "high"
+}
+]
+}
+}

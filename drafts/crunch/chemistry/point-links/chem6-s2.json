@@ -1,0 +1,770 @@
+{
+"chem6-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.0.0",
+"strength": "essential",
+"why": "energy to overcome intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.3",
+"strength": "essential",
+"why": "London forces grow with size",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "helpful",
+"why": "attractions between particles",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.1",
+"strength": "essential",
+"why": "polar molecules",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.11.0",
+"strength": "helpful",
+"why": "hydrogen bonds with water",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.1.0",
+"strength": "essential",
+"why": "like dissolves like",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.12.3",
+"strength": "helpful",
+"why": "ion-dipole attractions",
+"confidence": "low"
+}
+]
+},
+"chem6-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"chem6-s2.3.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.3.2": {
+"cost": 2,
+"needs": []
+},
+"chem6-s2.3.3": {
+"cost": 2,
+"needs": []
+},
+"chem6-s2.3.4": {
+"cost": 2,
+"needs": []
+},
+"chem6-s2.3.5": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.3",
+"strength": "essential",
+"why": "London forces grow with electron count",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.3.0",
+"strength": "helpful",
+"why": "boiling point data",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.3.3",
+"strength": "helpful",
+"why": "group 16 hydride data",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.4.1",
+"strength": "essential",
+"why": "hydrogen-bonding anomaly",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole-dipole forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.4.1",
+"strength": "essential",
+"why": "trend and hydrogen-bond anomalies",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.4.2",
+"strength": "helpful",
+"why": "NH3 and HF anomalies",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.2",
+"strength": "essential",
+"why": "polar covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.0",
+"strength": "essential",
+"why": "polar bonds",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s2.5.1",
+"strength": "essential",
+"why": "polar molecule",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.0",
+"strength": "essential",
+"why": "molecular shapes",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "polar bonds cancel by symmetry",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.0",
+"strength": "essential",
+"why": "linear shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "polar bonds cancel by symmetry",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.2",
+"strength": "essential",
+"why": "tetrahedral shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "polar bonds cancel by symmetry",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.1",
+"strength": "essential",
+"why": "trigonal planar shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "bonds do not cancel",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.4",
+"strength": "essential",
+"why": "V-shaped molecule",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "bonds do not cancel",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.3",
+"strength": "essential",
+"why": "pyramidal shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "unsymmetrical molecule is polar",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.2",
+"strength": "helpful",
+"why": "tetrahedral shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s2.6.0",
+"strength": "essential",
+"why": "CO2 polarity",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.6.1",
+"strength": "essential",
+"why": "CCl4 polarity",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.6.3",
+"strength": "essential",
+"why": "water polarity",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.6.4",
+"strength": "essential",
+"why": "ammonia polarity",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.1",
+"strength": "essential",
+"why": "polar molecules",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole-dipole forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "symmetry makes non-polar",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London forces only",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.7.0",
+"strength": "essential",
+"why": "polar forces stronger",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.7.1",
+"strength": "essential",
+"why": "symmetrical molecules weaker forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.6.1",
+"strength": "essential",
+"why": "CCl4 is non-polar",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.6.5",
+"strength": "essential",
+"why": "CHCl3 is polar",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.2",
+"strength": "essential",
+"why": "polarity depends on shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.8.0",
+"strength": "essential",
+"why": "shape decides polarity",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.4",
+"strength": "essential",
+"why": "V-shaped molecule",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.8.0",
+"strength": "essential",
+"why": "shape decides polarity",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.3",
+"strength": "essential",
+"why": "pyramidal shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.8.0",
+"strength": "essential",
+"why": "shape decides polarity",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.2",
+"strength": "essential",
+"why": "tetrahedral shape",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.7.0",
+"strength": "essential",
+"why": "polar molecules stronger forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.1.0",
+"strength": "essential",
+"why": "like dissolves like",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.7.0",
+"strength": "helpful",
+"why": "polar molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.9.0",
+"strength": "essential",
+"why": "forces and boiling point",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.9.1",
+"strength": "essential",
+"why": "solubility of polar and non-polar",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.9.1",
+"strength": "essential",
+"why": "solubility by polarity",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.8.2",
+"strength": "helpful",
+"why": "ammonia polarity",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.1",
+"strength": "essential",
+"why": "polar molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.10.2",
+"strength": "helpful",
+"why": "apparatus set-up",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.10.4": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.10.5": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.10.6": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.10.1",
+"strength": "helpful",
+"why": "apparatus",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.11.0",
+"strength": "essential",
+"why": "charged rod",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.11.1",
+"strength": "essential",
+"why": "method for first liquid",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.11.2",
+"strength": "essential",
+"why": "test both liquids",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.11.3",
+"strength": "essential",
+"why": "deflection result",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.5.1",
+"strength": "essential",
+"why": "polar molecules",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.11.3",
+"strength": "essential",
+"why": "deflection result",
+"confidence": "high"
+}
+]
+},
+"chem6-s2.11.6": {
+"cost": 1,
+"needs": []
+}
+}

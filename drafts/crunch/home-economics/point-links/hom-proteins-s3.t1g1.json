@@ -1,0 +1,210 @@
+{
+ "hom-proteins-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.0.2",
+    "strength": "helpful",
+    "why": "uses amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.2.6",
+    "strength": "helpful",
+    "why": "uses biological value",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.4.0",
+    "strength": "helpful",
+    "why": "uses hydrolysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.0.0",
+    "strength": "helpful",
+    "why": "conjugated protein definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.2.b",
+    "strength": "helpful",
+    "why": "uses prosthetic group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.2.b",
+    "strength": "helpful",
+    "why": "uses prosthetic group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.2.b",
+    "strength": "helpful",
+    "why": "uses prosthetic group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.2.b",
+    "strength": "helpful",
+    "why": "uses prosthetic group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.4.0",
+    "strength": "essential",
+    "why": "uses hydrolysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.3",
+    "strength": "helpful",
+    "why": "fibrous and globular shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.3",
+    "strength": "helpful",
+    "why": "fibrous shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.0",
+    "strength": "helpful",
+    "why": "fibrous protein definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s2.2.3",
+    "strength": "helpful",
+    "why": "globular shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.2",
+    "strength": "helpful",
+    "why": "globular protein definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.1.1",
+    "strength": "helpful",
+    "why": "plant simple proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s3.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s3.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.4.1",
+    "strength": "helpful",
+    "why": "glutenin is a glutelin",
+    "confidence": "low"
+   }
+  ]
+ }
+}

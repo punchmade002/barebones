@@ -1,0 +1,471 @@
+{
+ "hom-textiles-fibres-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.0.0",
+    "strength": "essential",
+    "why": "warp and weft yarns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.0.0",
+    "strength": "essential",
+    "why": "warp and weft yarns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.0.1",
+    "strength": "helpful",
+    "why": "plain weave",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-textiles-fibres-s5.0.2",
+    "strength": "helpful",
+    "why": "twill weave",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-textiles-fibres-s5.0.3",
+    "strength": "helpful",
+    "why": "satin weave",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.0.0",
+    "strength": "helpful",
+    "why": "weft turns back at edge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.0.4",
+    "strength": "essential",
+    "why": "the three basic weaves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.1.0",
+    "strength": "helpful",
+    "why": "loops formed across each row",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.1.1",
+    "strength": "helpful",
+    "why": "reverse of plain knit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.1.1",
+    "strength": "helpful",
+    "why": "wool scales interlock when felting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.2.1",
+    "strength": "helpful",
+    "why": "non-woven fibre web",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.2.0",
+    "strength": "helpful",
+    "why": "felt made by felting",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-textiles-fibres-s5.2.1",
+    "strength": "helpful",
+    "why": "bonded non-woven fabrics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.3.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.3.4",
+    "strength": "helpful",
+    "why": "resin finishes improve crease recovery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.2.2",
+    "strength": "helpful",
+    "why": "water-repellent finish coating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s3.0.4",
+    "strength": "helpful",
+    "why": "synthetic fibres defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s4.8.5",
+    "strength": "helpful",
+    "why": "mercerising treatment of cotton",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.1.5",
+    "strength": "helpful",
+    "why": "shrink-resistant finish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s3.0.2",
+    "strength": "helpful",
+    "why": "wool and silk are protein fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s3.3.1",
+    "strength": "helpful",
+    "why": "polyester fibre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s3.3.1",
+    "strength": "helpful",
+    "why": "polyester fibre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.6.0",
+    "strength": "essential",
+    "why": "screen printing method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.7.2",
+    "strength": "helpful",
+    "why": "combined with quilting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.6.b",
+    "strength": "helpful",
+    "why": "printing methods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.6.3",
+    "strength": "helpful",
+    "why": "fair test conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.8.0",
+    "strength": "helpful",
+    "why": "fair test conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.8.1",
+    "strength": "helpful",
+    "why": "crease-recovery test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.8.0",
+    "strength": "helpful",
+    "why": "fair test conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-textiles-fibres-s5.8.0",
+    "strength": "helpful",
+    "why": "fair test conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s1.1.3",
+    "strength": "helpful",
+    "why": "percentage shrinkage formula",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-textiles-fibres-s5.8.0",
+    "strength": "helpful",
+    "why": "fair test conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-textiles-fibres-s5.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-textiles-fibres-s5.8.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

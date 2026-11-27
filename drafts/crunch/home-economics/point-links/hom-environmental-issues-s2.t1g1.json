@@ -1,0 +1,418 @@
+{
+ "hom-environmental-issues-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.0",
+    "strength": "helpful",
+    "why": "uses the order of the hierarchy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.3",
+    "strength": "helpful",
+    "why": "contrasts energy recovery with recycling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.0",
+    "strength": "helpful",
+    "why": "applies the waste hierarchy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.3",
+    "strength": "helpful",
+    "why": "contrasts composting with recycling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.5",
+    "strength": "helpful",
+    "why": "methane from anaerobic landfill decay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.1.0",
+    "strength": "helpful",
+    "why": "uses compost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.1.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.0",
+    "strength": "helpful",
+    "why": "moves waste up the hierarchy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.1",
+    "strength": "helpful",
+    "why": "waste prevention",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.1",
+    "strength": "helpful",
+    "why": "minimising packaging waste",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.2",
+    "strength": "helpful",
+    "why": "reuse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.1.3",
+    "strength": "helpful",
+    "why": "household waste streams and bins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.4.3",
+    "strength": "helpful",
+    "why": "EU Ecolabel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.7.4",
+    "strength": "helpful",
+    "why": "civic amenity site",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.3.0",
+    "strength": "helpful",
+    "why": "recycling symbol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.4.0",
+    "strength": "essential",
+    "why": "Green Dot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.4.0",
+    "strength": "essential",
+    "why": "Green Dot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.4.3",
+    "strength": "essential",
+    "why": "EU Ecolabel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.5",
+    "strength": "helpful",
+    "why": "landfill as least preferred option",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.4.1",
+    "strength": "helpful",
+    "why": "Repak and the Green Dot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.5.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.0.2",
+    "strength": "helpful",
+    "why": "plastic packaging properties",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.6.0",
+    "strength": "essential",
+    "why": "flexible films",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.6.0",
+    "strength": "essential",
+    "why": "flexible films",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.0.1",
+    "strength": "helpful",
+    "why": "glass packaging properties",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.6.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-additives-s2.4.3",
+    "strength": "helpful",
+    "why": "biodegradable packaging",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.7.b",
+    "strength": "helpful",
+    "why": "what WEEE is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.7.b",
+    "strength": "helpful",
+    "why": "WEEE collected separately",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.0.0",
+    "strength": "helpful",
+    "why": "top of waste hierarchy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-environmental-issues-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.7.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-environmental-issues-s2.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-environmental-issues-s2.7.b",
+    "strength": "helpful",
+    "why": "WEEE",
+    "confidence": "high"
+   }
+  ]
+ }
+}

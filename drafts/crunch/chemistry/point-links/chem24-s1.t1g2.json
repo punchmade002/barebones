@@ -1,0 +1,637 @@
+{
+"chem24-s1.0.b": {
+"needs": []
+},
+"chem24-s1.0.0": {
+"needs": []
+},
+"chem24-s1.0.1": {
+"needs": []
+},
+"chem24-s1.0.2": {
+"needs": []
+},
+"chem24-s1.0.3": {
+"needs": []
+},
+"chem24-s1.0.4": {
+"needs": []
+},
+"chem24-s1.0.5": {
+"needs": []
+},
+"chem24-s1.0.6": {
+"needs": []
+},
+"chem24-s1.0.7": {
+"needs": []
+},
+"chem24-s1.1.b": {
+"needs": []
+},
+"chem24-s1.1.0": {
+"needs": [
+{
+"id": "chem5-s1.2.1",
+"strength": "helpful",
+"why": "single covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.1": {
+"needs": []
+},
+"chem24-s1.1.2": {
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "helpful",
+"why": "non-polar bond meaning",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.3": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.4": {
+"needs": [
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.5": {
+"needs": [
+{
+"id": "chem5-s1.2.3",
+"strength": "helpful",
+"why": "triple bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.6": {
+"needs": [
+{
+"id": "chem5-s1.13.0",
+"strength": "helpful",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.b": {
+"needs": []
+},
+"chem24-s1.2.0": {
+"needs": []
+},
+"chem24-s1.2.1": {
+"needs": []
+},
+"chem24-s1.2.2": {
+"needs": [
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "C=O double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.3": {
+"needs": [
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "C=O double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.4": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "same molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.b": {
+"needs": []
+},
+"chem24-s1.3.0": {
+"needs": []
+},
+"chem24-s1.3.1": {
+"needs": []
+},
+"chem24-s1.3.2": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "same molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.3": {
+"needs": []
+},
+"chem24-s1.4.b": {
+"needs": []
+},
+"chem24-s1.4.0": {
+"needs": []
+},
+"chem24-s1.4.1": {
+"needs": []
+},
+"chem24-s1.4.2": {
+"needs": []
+},
+"chem24-s1.4.3": {
+"needs": []
+},
+"chem24-s1.4.4": {
+"needs": []
+},
+"chem24-s1.4.5": {
+"needs": []
+},
+"chem24-s1.4.6": {
+"needs": []
+},
+"chem24-s1.4.7": {
+"needs": []
+},
+"chem24-s1.5.b": {
+"needs": []
+},
+"chem24-s1.5.0": {
+"needs": []
+},
+"chem24-s1.5.1": {
+"needs": []
+},
+"chem24-s1.5.2": {
+"needs": []
+},
+"chem24-s1.5.3": {
+"needs": []
+},
+"chem24-s1.5.4": {
+"needs": []
+},
+"chem24-s1.5.5": {
+"needs": []
+},
+"chem24-s1.5.6": {
+"needs": []
+},
+"chem24-s1.5.7": {
+"needs": []
+},
+"chem24-s1.6.b": {
+"needs": []
+},
+"chem24-s1.6.0": {
+"needs": []
+},
+"chem24-s1.6.1": {
+"needs": []
+},
+"chem24-s1.6.2": {
+"needs": []
+},
+"chem24-s1.6.3": {
+"needs": []
+},
+"chem24-s1.6.4": {
+"needs": []
+},
+"chem24-s1.6.5": {
+"needs": []
+},
+"chem24-s1.7.b": {
+"needs": []
+},
+"chem24-s1.7.0": {
+"needs": []
+},
+"chem24-s1.7.1": {
+"needs": []
+},
+"chem24-s1.7.2": {
+"needs": []
+},
+"chem24-s1.7.3": {
+"needs": []
+},
+"chem24-s1.7.4": {
+"needs": []
+},
+"chem24-s1.8.b": {
+"needs": []
+},
+"chem24-s1.8.0": {
+"needs": []
+},
+"chem24-s1.8.1": {
+"needs": []
+},
+"chem24-s1.8.2": {
+"needs": []
+},
+"chem24-s1.8.3": {
+"needs": []
+},
+"chem24-s1.9.b": {
+"needs": []
+},
+"chem24-s1.9.0": {
+"needs": []
+},
+"chem24-s1.9.1": {
+"needs": []
+},
+"chem24-s1.9.2": {
+"needs": []
+},
+"chem24-s1.9.3": {
+"needs": []
+},
+"chem24-s1.9.4": {
+"needs": []
+},
+"chem24-s1.9.5": {
+"needs": []
+},
+"chem24-s1.10.b": {
+"needs": []
+},
+"chem24-s1.10.0": {
+"needs": []
+},
+"chem24-s1.10.1": {
+"needs": []
+},
+"chem24-s1.10.2": {
+"needs": []
+},
+"chem24-s1.10.3": {
+"needs": []
+},
+"chem24-s1.11.b": {
+"needs": []
+},
+"chem24-s1.11.0": {
+"needs": []
+},
+"chem24-s1.11.1": {
+"needs": []
+},
+"chem24-s1.11.2": {
+"needs": []
+},
+"chem24-s1.11.3": {
+"needs": []
+},
+"chem24-s1.11.4": {
+"needs": []
+},
+"chem24-s1.11.5": {
+"needs": []
+},
+"chem24-s1.11.6": {
+"needs": []
+},
+"chem24-s1.12.b": {
+"needs": []
+},
+"chem24-s1.12.0": {
+"needs": []
+},
+"chem24-s1.12.1": {
+"needs": []
+},
+"chem24-s1.12.2": {
+"needs": []
+},
+"chem24-s1.12.3": {
+"needs": []
+},
+"chem24-s1.13.b": {
+"needs": []
+},
+"chem24-s1.13.0": {
+"needs": []
+},
+"chem24-s1.13.1": {
+"needs": []
+},
+"chem24-s1.13.2": {
+"needs": []
+},
+"chem24-s1.13.3": {
+"needs": []
+},
+"chem24-s1.13.4": {
+"needs": []
+},
+"chem24-s1.13.5": {
+"needs": []
+},
+"chem24-s1.13.6": {
+"needs": []
+},
+"chem24-s1.14.b": {
+"needs": []
+},
+"chem24-s1.14.0": {
+"needs": []
+},
+"chem24-s1.14.1": {
+"needs": []
+},
+"chem24-s1.14.2": {
+"needs": []
+},
+"chem24-s1.14.3": {
+"needs": []
+},
+"chem24-s1.14.4": {
+"needs": []
+},
+"chem24-s1.14.5": {
+"needs": []
+},
+"chem24-s1.14.6": {
+"needs": []
+},
+"chem24-s1.15.b": {
+"needs": []
+},
+"chem24-s1.15.0": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "essential",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.1": {
+"needs": []
+},
+"chem24-s1.15.2": {
+"needs": []
+},
+"chem24-s1.15.3": {
+"needs": []
+},
+"chem24-s1.15.4": {
+"needs": []
+},
+"chem24-s1.15.5": {
+"needs": []
+},
+"chem24-s1.15.6": {
+"needs": []
+},
+"chem24-s1.16.b": {
+"needs": []
+},
+"chem24-s1.16.0": {
+"needs": [
+{
+"id": "chem10-s2.0.0",
+"strength": "essential",
+"why": "empirical formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.16.1": {
+"needs": [
+{
+"id": "chem10-s2.0.2",
+"strength": "helpful",
+"why": "empirical versus molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.16.2": {
+"needs": []
+},
+"chem24-s1.17.b": {
+"needs": []
+},
+"chem24-s1.17.0": {
+"needs": [
+{
+"id": "chem5-s1.18.2",
+"strength": "helpful",
+"why": "tetrahedral shape 109.5 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.1": {
+"needs": []
+},
+"chem24-s1.17.2": {
+"needs": [
+{
+"id": "chem5-s1.18.1",
+"strength": "helpful",
+"why": "trigonal planar shape 120 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.3": {
+"needs": []
+},
+"chem24-s1.17.4": {
+"needs": []
+},
+"chem24-s1.17.5": {
+"needs": [
+{
+"id": "chem5-s1.18.0",
+"strength": "helpful",
+"why": "linear shape 180 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.6": {
+"needs": []
+},
+"chem24-s1.17.7": {
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "electron pairs repel, spread apart",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.b": {
+"needs": []
+},
+"chem24-s1.18.0": {
+"needs": []
+},
+"chem24-s1.18.1": {
+"needs": []
+},
+"chem24-s1.18.2": {
+"needs": []
+},
+"chem24-s1.18.3": {
+"needs": []
+},
+"chem24-s1.18.4": {
+"needs": []
+},
+"chem24-s1.18.5": {
+"needs": []
+},
+"chem24-s1.18.6": {
+"needs": []
+},
+"chem24-s1.18.7": {
+"needs": []
+},
+"chem24-s1.19.b": {
+"needs": []
+},
+"chem24-s1.19.0": {
+"needs": []
+},
+"chem24-s1.19.1": {
+"needs": []
+},
+"chem24-s1.19.2": {
+"needs": []
+},
+"chem24-s1.19.3": {
+"needs": []
+},
+"chem24-s1.19.4": {
+"needs": []
+},
+"chem24-s1.19.5": {
+"needs": []
+},
+"chem24-s1.19.6": {
+"needs": []
+},
+"chem24-s1.20.b": {
+"needs": []
+},
+"chem24-s1.20.0": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.20.1": {
+"needs": []
+},
+"chem24-s1.20.2": {
+"needs": []
+},
+"chem24-s1.21.b": {
+"needs": []
+},
+"chem24-s1.21.0": {
+"needs": []
+},
+"chem24-s1.21.1": {
+"needs": []
+},
+"chem24-s1.21.2": {
+"needs": []
+},
+"chem24-s1.21.3": {
+"needs": []
+},
+"chem24-s1.21.4": {
+"needs": []
+},
+"chem24-s1.22.b": {
+"needs": []
+},
+"chem24-s1.22.0": {
+"needs": []
+},
+"chem24-s1.22.1": {
+"needs": []
+},
+"chem24-s1.22.2": {
+"needs": []
+},
+"chem24-s1.22.3": {
+"needs": []
+},
+"chem24-s1.23.b": {
+"needs": []
+},
+"chem24-s1.23.0": {
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.1": {
+"needs": []
+},
+"chem24-s1.23.2": {
+"needs": []
+},
+"chem24-s1.23.3": {
+"needs": []
+},
+"chem24-s1.23.4": {
+"needs": []
+},
+"chem24-s1.23.5": {
+"needs": [
+{
+"id": "chem5-s1.9.3",
+"strength": "helpful",
+"why": "carbon valency 4",
+"confidence": "high"
+}
+]
+}
+}

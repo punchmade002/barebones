@@ -1,0 +1,337 @@
+{
+"hom-sociological-concepts-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.3.1",
+"strength": "helpful",
+"why": "primary socialisation",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.0.0",
+"strength": "essential",
+"why": "primary group traits",
+"confidence": "high"
+},
+{
+"id": "hom-sociological-concepts-s3.0.2",
+"strength": "essential",
+"why": "secondary group traits",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.2.0",
+"strength": "helpful",
+"why": "norms",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.4.b",
+"strength": "helpful",
+"why": "agents of socialisation",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.1.0",
+"strength": "helpful",
+"why": "blood kinship",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.1.0",
+"strength": "helpful",
+"why": "marriage kinship",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.1.3",
+"strength": "helpful",
+"why": "nuclear family",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-society-s1.2.0",
+"strength": "helpful",
+"why": "family in every society",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-society-s1.3.2",
+"strength": "helpful",
+"why": "descent patterns",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.2.0",
+"strength": "helpful",
+"why": "norms learned",
+"confidence": "low"
+}
+]
+},
+"hom-sociological-concepts-s3.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.2.0",
+"strength": "helpful",
+"why": "norms and roles learned",
+"confidence": "low"
+},
+{
+"id": "hom-sociological-concepts-s3.3.1",
+"strength": "helpful",
+"why": "primary versus secondary",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.1.0",
+"strength": "helpful",
+"why": "culture passed on",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.3.0",
+"strength": "helpful",
+"why": "rewards and punishments",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s1.2.0",
+"strength": "helpful",
+"why": "norms of a group",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.3.2",
+"strength": "helpful",
+"why": "secondary socialisation",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.0.7",
+"strength": "helpful",
+"why": "peer group",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-society-s1.3.1",
+"strength": "helpful",
+"why": "polygamy terms",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.5.2",
+"strength": "helpful",
+"why": "polygamy",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.5.0",
+"strength": "helpful",
+"why": "monogamy",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.5.0",
+"strength": "essential",
+"why": "monogamy",
+"confidence": "high"
+}
+]
+},
+"hom-sociological-concepts-s3.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-sociological-concepts-s3.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-sociological-concepts-s3.5.0",
+"strength": "helpful",
+"why": "monogamy",
+"confidence": "high"
+}
+]
+}
+}

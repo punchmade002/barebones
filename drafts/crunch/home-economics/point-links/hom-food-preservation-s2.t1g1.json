@@ -1,0 +1,422 @@
+{
+ "hom-food-preservation-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.1",
+    "strength": "helpful",
+    "why": "low temperature principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.3.4",
+    "strength": "helpful",
+    "why": "enzymes as catalysts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.3.3",
+    "strength": "helpful",
+    "why": "dormant spores and micro-organisms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.6",
+    "strength": "helpful",
+    "why": "water needed for growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.2.b",
+    "strength": "helpful",
+    "why": "blanching losses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "small crystals from quick freezing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.1",
+    "strength": "helpful",
+    "why": "little cell damage and drip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.0",
+    "strength": "helpful",
+    "why": "temperature of quick freezing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.4",
+    "strength": "helpful",
+    "why": "large crystals rupture cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.0",
+    "strength": "helpful",
+    "why": "fast-freeze setting",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "crystal size by freezing speed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes keep working",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.2.0",
+    "strength": "helpful",
+    "why": "follows boiling step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "ice crystals form from water",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes cause quality loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.2.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.2.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.2.b",
+    "strength": "helpful",
+    "why": "blanching vegetables not fruit",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.2.b",
+    "strength": "helpful",
+    "why": "blanching vegetables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.0.4",
+    "strength": "helpful",
+    "why": "water expands, headspace",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "freeze quickly for small crystals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "slow freezing makes large crystals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.3",
+    "strength": "helpful",
+    "why": "oxidation causes rancidity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.3.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.3.8": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.3",
+    "strength": "helpful",
+    "why": "oxidation by air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.4.0",
+    "strength": "essential",
+    "why": "what freezer burn is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.0",
+    "strength": "helpful",
+    "why": "danger zone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.2",
+    "strength": "helpful",
+    "why": "bacteria restart on thawing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "faster freezing, smaller crystals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.5.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s2.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.b",
+    "strength": "helpful",
+    "why": "quick freezing retains quality",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s2.1.1",
+    "strength": "helpful",
+    "why": "cell damage on thawing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s2.6.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

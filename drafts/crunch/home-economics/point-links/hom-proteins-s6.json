@@ -1,0 +1,162 @@
+{
+"hom-proteins-s6.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.0.2",
+"strength": "helpful",
+"why": "amino acids as units",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "essential",
+"why": "essential amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.0.2",
+"strength": "helpful",
+"why": "amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.0.2",
+"strength": "essential",
+"why": "amino acids as units",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.1.2": {
+"cost": 2,
+"needs": []
+},
+"hom-proteins-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.2.6": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.0.2",
+"strength": "helpful",
+"why": "amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "essential",
+"why": "essential amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.0.2",
+"strength": "essential",
+"why": "amino acids make proteins",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s6.4.1": {
+"cost": 2,
+"needs": []
+},
+"hom-proteins-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "helpful",
+"why": "essential amino acids",
+"confidence": "high"
+}
+]
+}
+}

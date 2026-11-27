@@ -1,0 +1,412 @@
+{
+ "hom-food-safety-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.1",
+    "strength": "helpful",
+    "why": "uses control measure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.1",
+    "strength": "helpful",
+    "why": "uses hazard definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s2.0.b",
+    "strength": "helpful",
+    "why": "uses food poisoning bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.3",
+    "strength": "helpful",
+    "why": "uses hazard analysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "essential",
+    "why": "uses critical control point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "essential",
+    "why": "uses critical limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "helpful",
+    "why": "monitors critical control points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "helpful",
+    "why": "uses critical limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.1.5",
+    "strength": "helpful",
+    "why": "use-by dates explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.0",
+    "strength": "helpful",
+    "why": "uses danger zone multiplication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.1",
+    "strength": "helpful",
+    "why": "uses cross-contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.1.1",
+    "strength": "helpful",
+    "why": "fridge temperature storage rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "helpful",
+    "why": "uses critical control point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.1",
+    "strength": "helpful",
+    "why": "uses cross-contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.4.0",
+    "strength": "helpful",
+    "why": "handwashing explained there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.1",
+    "strength": "helpful",
+    "why": "uses cross-contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.2.1",
+    "strength": "helpful",
+    "why": "defrosting rule explained",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.3.0",
+    "strength": "helpful",
+    "why": "thorough cooking rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "helpful",
+    "why": "uses critical limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.1",
+    "strength": "helpful",
+    "why": "uses cross-contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.3.4",
+    "strength": "helpful",
+    "why": "hot holding above 63",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.3.1",
+    "strength": "helpful",
+    "why": "reheating above 100 once",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s6.0.1",
+    "strength": "helpful",
+    "why": "uses cross-contamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.0",
+    "strength": "helpful",
+    "why": "uses HACCP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.2",
+    "strength": "helpful",
+    "why": "uses critical points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-safety-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-safety-s7.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s7.0.0",
+    "strength": "helpful",
+    "why": "compares with HACCP",
+    "confidence": "high"
+   }
+  ]
+ }
+}

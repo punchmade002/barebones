@@ -1,0 +1,92 @@
+{
+"homeeconomics-pp-2016-HI-sectionc-housing-Q1": {
+"(a)(i)": ["hom-housing-s5", "hom-housing-s6"],
+"(a)(ii)": ["hom-housing-s5"],
+"(a)(iii)": ["hom-housing-s4"],
+"(b)(i)": ["hom-home-services-s5"],
+"(b)(ii)": ["hom-home-services-s5"],
+"(c)(i)": ["hom-home-services-s8"],
+"(c)(ii)": ["hom-home-interior-s2", "hom-home-interior-s1"]
+},
+"homeeconomics-pp-2016-HI-sectionc-clothingselection-Q2": {
+"(a)(i)": ["hom-clothing-selection-s3"],
+"(a)(ii)": ["hom-clothing-selection-s3", "hom-clothing-selection-s4"],
+"(a)(iii)": ["hom-clothing-selection-s3"],
+"(b)(i)": ["hom-textiles-fibres-s3"],
+"(b)(ii)": ["hom-textiles-fibres-s5"],
+"(c)(i)": ["hom-clothing-selection-s6"],
+"(c)(ii)": ["hom-clothing-selection-s3"]
+},
+"homeeconomics-pp-2016-HI-sectionc-personalfinance-Q3": {
+"(a)(i)": ["hom-unemployment-poverty-s4"],
+"(a)(ii)": ["hom-unemployment-poverty-s4", "hom-unemployment-poverty-s5"],
+"(a)(iii)": ["hom-unemployment-poverty-s5"],
+"(a)(iv)": ["hom-unemployment-poverty-s7"],
+"(b)(i)": ["hom-education-s1"],
+"(b)(ii)": ["hom-education-s3"],
+"(c)(i)": ["hom-social-change-s4", "hom-family-caring-s1"],
+"(c)(ii)": ["hom-work-leisure-s5"]
+},
+"homeeconomics-pp-2021-HI-sectionb-mealplanning-Q1": {
+"(a)": ["hom-meal-planning-s1"],
+"(b)": ["hom-energy-nutrition-s5", "hom-meal-planning-s1"],
+"(c)": ["hom-vitamins-minerals-s4"],
+"(d)": ["hom-vitamins-minerals-s5"],
+"(e)": ["hom-meal-planning-s2", "hom-meal-planning-s5"]
+},
+"homeeconomics-pp-2021-HI-sectionb-dairyeggs-Q2": {
+"(a)": ["hom-dairy-eggs-s5"],
+"(b)": ["hom-dairy-eggs-s6"],
+"(c)": ["hom-dairy-eggs-s6"]
+},
+"homeeconomics-pp-2021-HI-sectionb-foodsafety-Q3": {
+"(a)": ["hom-food-safety-s6"],
+"(b)": ["hom-food-safety-s7"],
+"(c)": ["hom-food-safety-s2"]
+},
+"homeeconomics-pp-2021-HI-sectionb-personalfinance-Q4": {
+"(a)": ["hom-resource-management-s1"],
+"(b)": ["hom-resource-management-s2"],
+"(c)": ["hom-personal-finance-s3"]
+},
+"homeeconomics-pp-2021-HI-sectionb-personalfinance-Q5": {
+"(a)": ["hom-family-society-s1"],
+"(b)": ["hom-family-society-s5"],
+"(c)": ["hom-family-caring-s4"]
+},
+"homeeconomics-pp-2021-HI-sectionc-housing-Q1": {
+"(a)(i)": ["hom-housing-s5", "hom-housing-s6"],
+"(a)(ii)": ["hom-housing-s6"],
+"(a)(iii)": ["hom-housing-s5"],
+"(b)(i)": ["hom-home-services-s8"],
+"(b)(ii)": ["hom-home-services-s8"],
+"(c)(i)": ["hom-home-services-s4"],
+"(c)(ii)": ["hom-home-services-s4", "hom-environmental-issues-s4"]
+},
+"homeeconomics-pp-2021-HI-sectionc-clothingselection-Q2": {
+"(a)(i)": ["hom-clothing-selection-s3"],
+"(a)(ii)": ["hom-clothing-selection-s5"],
+"(b)": ["hom-textiles-fibres-s4"],
+"(c)(i)": ["hom-clothing-selection-s2"],
+"(c)(ii)": ["hom-clothing-selection-s2"]
+},
+"homeeconomics-pp-2021-HI-sectionc-personalfinance-Q3": {
+"(a)(i)": ["hom-unemployment-poverty-s4"],
+"(a)(ii)": ["hom-unemployment-poverty-s4", "hom-unemployment-poverty-s5"],
+"(a)(iii)": ["hom-unemployment-poverty-s4"],
+"(a)(iv)": ["hom-unemployment-poverty-s6", "hom-personal-finance-s1"],
+"(b)(i)": ["hom-work-leisure-s1"],
+"(b)(ii)": ["hom-work-leisure-s3", "hom-unemployment-poverty-s7"],
+"(c)(i)": ["hom-work-leisure-s5"],
+"(c)(ii)": ["hom-social-change-s3"]
+},
+"homeeconomics-pp-2021-HI-sectionc-dairyeggs-Q4": {
+"(a)(i)": ["hom-dairy-eggs-s1"],
+"(a)(ii)": ["hom-dairy-eggs-s2"],
+"(a)(iii)": ["hom-dairy-eggs-s3"],
+"(b)(i)": ["hom-meal-planning-s3", "hom-meal-planning-s4"],
+"(b)(ii)": ["hom-food-additives-s4"],
+"(c)(i)": ["hom-consumer-rights-s2"],
+"(c)(ii)": ["hom-consumer-rights-s2"]
+}
+}

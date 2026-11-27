@@ -1,0 +1,47 @@
+{
+"homeeconomics-pp-2023-HI-sectiona-foodsafety-Q9": {"(whole)": ["hom-food-safety-s8"]},
+"homeeconomics-pp-2023-HI-sectiona-personalfinance-Q10": {"(whole)": ["hom-personal-finance-s1", "hom-unemployment-poverty-s6"]},
+"homeeconomics-pp-2023-HI-sectiona-environmentalissues-Q11": {"(whole)": ["hom-environmental-issues-s3"]},
+"homeeconomics-pp-2023-HI-sectiona-personalfinance-Q12": {"(whole)": ["hom-housing-s2"]},
+"homeeconomics-pp-2023-HI-sectiona-personalfinance-Q13": {"(whole)": ["hom-personal-finance-s4"]},
+"homeeconomics-pp-2023-HI-sectiona-consumerrights-Q14": {"(whole)": ["hom-personal-finance-s3"]},
+"homeeconomics-pp-2016-HI-sectiona-proteins-Q1": {"(whole)": ["hom-proteins-s4"]},
+"homeeconomics-pp-2016-HI-sectiona-lipids-Q2": {"(whole)": ["hom-lipids-s1", "hom-lipids-s3"]},
+"homeeconomics-pp-2016-HI-sectiona-foodadditives-Q3": {"(whole)": ["hom-food-additives-s1", "hom-cereals-grains-s2"]},
+"homeeconomics-pp-2016-HI-sectiona-vitaminsminerals-Q4": {"(whole)": ["hom-vitamins-minerals-s2"]},
+"homeeconomics-pp-2016-HI-sectiona-proteins-Q5": {"(whole)": ["hom-proteins-s9"]},
+"homeeconomics-pp-2016-HI-sectiona-foodadditives-Q6": {"(whole)": ["hom-food-additives-s1"]},
+"homeeconomics-pp-2016-HI-sectiona-foodsafety-Q7": {"(whole)": ["hom-food-safety-s1"]},
+"homeeconomics-pp-2016-HI-sectiona-foodsafety-Q8": {"(whole)": ["hom-food-safety-s7"]},
+"homeeconomics-pp-2016-HI-sectiona-consumerrights-Q9": {"(whole)": ["hom-consumer-rights-s2"]},
+"homeeconomics-pp-2016-HI-sectiona-personalfinance-Q10": {"(whole)": ["hom-personal-finance-s5", "hom-housing-s2"]},
+"homeeconomics-pp-2016-HI-sectiona-textilesfibres-Q11": {"(whole)": ["hom-textiles-fibres-s2"]},
+"homeeconomics-pp-2016-HI-sectiona-environmentalissues-Q12": {"(whole)": ["hom-environmental-issues-s3"]},
+"homeeconomics-pp-2016-HI-sectionb-carbohydrates-Q1": {
+  "(a)": ["hom-carbohydrates-s3", "hom-carbohydrates-s5", "hom-carbohydrates-s6"],
+  "(b)": ["hom-carbohydrates-s6"],
+  "(c)": ["hom-carbohydrates-s5"],
+  "(d)": ["hom-meal-planning-s3", "hom-carbohydrates-s5"],
+  "(e)": ["hom-meal-planning-s2", "hom-meal-planning-s5"]
+},
+"homeeconomics-pp-2016-HI-sectionb-fishseafood-Q2": {
+  "(a)": ["hom-fish-seafood-s1"],
+  "(b)": ["hom-fish-seafood-s2"],
+  "(c)": ["hom-vitamins-minerals-s1"]
+},
+"homeeconomics-pp-2016-HI-sectionb-foodpreservation-Q3": {
+  "(a)": ["hom-food-preservation-s2"],
+  "(b)": ["hom-food-preservation-s2", "hom-fruit-vegetables-s4"],
+  "(c)": ["hom-food-additives-s2"]
+},
+"homeeconomics-pp-2016-HI-sectionb-consumerrights-Q4": {
+  "(a)": ["hom-consumer-rights-s1"],
+  "(b)": ["hom-consumer-rights-s1", "hom-consumer-rights-s2"],
+  "(c)": ["hom-consumer-rights-s5"]
+},
+"homeeconomics-pp-2016-HI-sectionb-consumerrights-Q5": {
+  "(a)": ["hom-family-society-s4"],
+  "(b)": ["hom-family-caring-s2"],
+  "(c)": ["hom-family-caring-s4"]
+}
+}

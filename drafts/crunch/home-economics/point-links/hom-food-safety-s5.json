@@ -1,0 +1,205 @@
+{
+"hom-food-safety-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.1",
+"strength": "essential",
+"why": "uses active site and substrate",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.0",
+"strength": "helpful",
+"why": "enzymes keep working after picking",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.1.0",
+"strength": "helpful",
+"why": "ripening enzyme changes",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.1.0",
+"strength": "helpful",
+"why": "enzymes soften and sweeten fruit",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.0",
+"strength": "helpful",
+"why": "enzymes released from damaged cells",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.1",
+"strength": "helpful",
+"why": "polyphenol oxidase reaction",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.3.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s5.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.4.0",
+"strength": "helpful",
+"why": "blanching inactivates enzymes",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.1",
+"strength": "helpful",
+"why": "oxidase acts with oxygen",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.3",
+"strength": "helpful",
+"why": "heat denatures enzymes",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.1",
+"strength": "helpful",
+"why": "browning enzyme is oxidase",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.4",
+"strength": "helpful",
+"why": "cold slows but keeps enzymes",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s5.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s5.2.1",
+"strength": "helpful",
+"why": "oxidase needs oxygen to brown",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s5.0.2",
+"strength": "helpful",
+"why": "enzymes need water",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s5.4.6": {
+"cost": 1,
+"needs": []
+}
+}

@@ -1,0 +1,93 @@
+import json,re
+E,H='essential','helpful'
+d={
+'0.b':(1,[]),
+'0.0':(1,[]),
+'0.1':(1,[('0.0',H,'physical property meaning','high')]),
+'0.2':(1,[('0.0',H,'contrast with physical property','high')]),
+'0.3':(1,[('0.2',H,'chemical property meaning','high')]),
+'1.b':(1,[]),
+'1.0':(1,[('chem9-s1.0.0',H,'particles and their arrangement','high')]),
+'1.1':(1,[('1.0',H,'no new substance','high')]),
+'1.2':(1,[('chem9-s1.0.0',H,'particle spacing in states','high')]),
+'1.3':(1,[('1.0',H,'physical change criterion','high')]),
+'1.4':(1,[('1.0',H,'particles unchanged','high')]),
+'2.b':(1,[]),
+'2.0':(1,[]),
+'2.1':(1,[]),
+'2.2':(1,[('2.0',H,'new substance formed','high')]),
+'2.3':(1,[('2.1',H,'bond breaking and making','high')]),
+'2.4':(1,[('2.1',E,'atoms only rearranged','high'),('chem2-s1.0.2',H,'atoms rearranged, not destroyed','low')]),
+'3.b':(1,[]),
+'3.0':(1,[('2.0',H,'new substance formed','high')]),
+'3.1':(1,[('2.0',H,'new substance formed','high')]),
+'3.2':(1,[('2.0',H,'new substance formed','high')]),
+'3.3':(1,[('2.3',H,'energy change in reaction','high')]),
+'3.4':(1,[('2.3',H,'energy given out','high')]),
+'3.5':(1,[('2.0',H,'new substance formed','high')]),
+'3.6':(1,[('1.0',E,'dissolving is physical change','high')]),
+'4.b':(1,[('2.0',H,'chemical change meaning','high')]),
+'4.0':(1,[('2.0',H,'new substance formed','high')]),
+'4.1':(1,[]),
+'4.2':(1,[]),
+'4.3':(1,[('3.0',H,'gas given off sign','high')]),
+'4.4':(2,[('0.3',H,'decomposes on heating','high')]),
+'4.5':(1,[]),
+'5.b':(1,[]),
+'5.0':(1,[('1.0',E,'no new substance in physical','high'),('2.0',E,'new substance in chemical','high')]),
+'5.1':(1,[('1.1',H,'physical change easily reversed','high'),('2.2',H,'chemical change hard to reverse','high')]),
+'5.2':(1,[('1.1',H,'small energy change','high'),('2.3',H,'large energy change','high')]),
+'5.3':(1,[('1.0',H,'particles unchanged','high'),('2.1',H,'atoms rearranged','high')]),
+'5.4':(1,[('1.3',H,'dissolving as physical change','high')]),
+'6.b':(1,[]),
+'6.0':(1,[]),
+'6.1':(1,[('6.0',E,'conservation of mass law','high')]),
+'6.2':(1,[('6.0',E,'mass unchanged in reaction','high')]),
+'7.b':(1,[]),
+'7.0':(1,[]),
+'7.1':(1,[('7.0',E,'energy changes form','high')]),
+'7.2':(1,[('7.0',E,'energy conserved','high')]),
+'8.b':(1,[('6.0',H,'conservation of mass','high'),('7.0',H,'conservation of energy','high')]),
+'8.0':(1,[('6.0',H,'conservation of mass','high'),('7.0',H,'conservation of energy','high')]),
+'8.1':(1,[('6.0',E,'conservation of mass','high')]),
+'8.2':(1,[('7.0',E,'conservation of energy','high')]),
+'9.b':(1,[('6.0',H,'conservation of mass','high')]),
+'9.0':(1,[('6.0',E,'conservation of mass tested','high')]),
+'9.1':(1,[('9.0',E,'aim of experiment','high')]),
+'9.2':(1,[]),
+'10.b':(1,[]),
+'10.0':(1,[]),
+'10.1':(1,[('10.0',H,'apparatus list','high')]),
+'10.2':(1,[]),
+'10.3':(1,[]),
+'10.4':(1,[]),
+'10.5':(2,[('3.1',H,'precipitate as a sign','high')]),
+'10.6':(1,[]),
+'11.b':(1,[]),
+'11.0':(1,[('6.0',E,'mass conserved','high')]),
+'11.1':(1,[]),
+'11.2':(1,[]),
+'12.b':(1,[]),
+'12.0':(2,[('6.0',H,'mass apparently lost','high')]),
+'12.1':(1,[('12.0',E,'gas escapes open flask','high')]),
+'12.2':(1,[('12.1',E,'gas trapped in sealed flask','high')]),
+'12.3':(1,[('6.0',H,'mass gained from oxygen','high')]),
+'13.b':(1,[]),
+'13.0':(1,[('2.1',H,'atoms rearranged in reaction','high'),('chem2-s1.0.2',H,'atoms rearranged, not destroyed','low')]),
+'13.1':(1,[('6.0',H,'same atoms each side','high'),('10.5',H,'silver nitrate equation','high')]),
+'13.2':(1,[('13.0',H,'same pieces rearranged','high')]),
+'13.3':(1,[('13.1',H,'same atom count each side','high')]),
+}
+P='chem10-s1.'
+t=open('packs/chem10-s1.t1g1.txt').read()
+ids=set(re.findall(r'^\[([^\]]+)\]',t,re.M))
+tg=re.findall(r'^\[([^\]]+)\]',t.split('CANDIDATES')[0],re.M)
+assert set(d)=={x.split(P)[1] for x in tg}
+out={}
+for x in tg:
+    c,n=d[x.split(P)[1]]
+    out[x]={'cost':c,'needs':[{'id':i if i.startswith('chem') else P+i,'strength':s,'why':w,'confidence':f} for i,s,w,f in n]}
+for k,v in out.items():
+    for n in v['needs']: assert n['id'] in ids and n['id']!=k,(k,n)
+json.dump(out,open('point-links/chem10-s1.t1g1.json','w'))
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(n['confidence']=='low' for v in out.values() for n in v['needs']))

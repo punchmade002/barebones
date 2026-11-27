@@ -1,0 +1,1316 @@
+{
+"chem21-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.0",
+"strength": "helpful",
+"why": "combustion definition",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "alcohols family",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.1",
+"strength": "helpful",
+"why": "complete combustion contrast",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "enthalpy change definition",
+"confidence": "high"
+},
+{
+"id": "chem21-s2.7.1",
+"strength": "helpful",
+"why": "standard conditions values",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.0.0",
+"strength": "helpful",
+"why": "per mole amount",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "essential",
+"why": "heat of combustion per mole",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.0.0",
+"strength": "helpful",
+"why": "per mole amount",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.7",
+"strength": "essential",
+"why": "ΔH scales with amounts",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.0.4",
+"strength": "helpful",
+"why": "C2H6 combustion equation",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.1",
+"strength": "essential",
+"why": "CO2 count from carbon",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.1.2",
+"strength": "essential",
+"why": "H2O count from hydrogen",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "alcohol contains one O in OH",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.3",
+"strength": "helpful",
+"why": "fractional O2 coefficient",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.7.2",
+"strength": "helpful",
+"why": "state symbols",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "standard heats use liquid water",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "primary alcohol definition",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "hydrocarbons and double/triple bonds",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s5.1.3",
+"strength": "helpful",
+"why": "oxygen counting method",
+"confidence": "low"
+},
+{
+"id": "chem23-s3.1.0",
+"strength": "helpful",
+"why": "alkane general formula",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.0",
+"strength": "helpful",
+"why": "alkane general formula",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.0",
+"strength": "helpful",
+"why": "alkene general formula",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.4",
+"strength": "helpful",
+"why": "alkene general formula",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s3.3.0",
+"strength": "helpful",
+"why": "alkyne general formula",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.5",
+"strength": "helpful",
+"why": "alkyne general formula",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "alcohol general formula",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.1.0",
+"strength": "helpful",
+"why": "alkane formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.1.0",
+"strength": "helpful",
+"why": "alkane formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.4",
+"strength": "helpful",
+"why": "doubling to whole numbers",
+"confidence": "high"
+},
+{
+"id": "chem23-s3.1.0",
+"strength": "helpful",
+"why": "alkane formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.0",
+"strength": "helpful",
+"why": "alkene formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.0",
+"strength": "helpful",
+"why": "alkene formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.4",
+"strength": "helpful",
+"why": "doubling to whole numbers",
+"confidence": "high"
+},
+{
+"id": "chem23-s3.3.0",
+"strength": "helpful",
+"why": "alkyne formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.3",
+"strength": "essential",
+"why": "subtract O in fuel",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "OH group in alcohols",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.3",
+"strength": "helpful",
+"why": "subtract O in fuel",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "methanol formula",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.3",
+"strength": "helpful",
+"why": "subtract O in fuel",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.4",
+"strength": "helpful",
+"why": "doubling to whole numbers",
+"confidence": "low"
+},
+{
+"id": "chem24-s1.6.0",
+"strength": "helpful",
+"why": "propan-1-ol formula",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.0",
+"strength": "helpful",
+"why": "butan-1-ol formula",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.1.4",
+"strength": "helpful",
+"why": "doubling to whole numbers",
+"confidence": "low"
+},
+{
+"id": "chem24-s1.6.2",
+"strength": "helpful",
+"why": "pentan-1-ol formula",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.2",
+"strength": "helpful",
+"why": "hexan-1-ol formula",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "heat of combustion definition",
+"confidence": "high"
+},
+{
+"id": "chem23-s3.1.0",
+"strength": "helpful",
+"why": "alkane names and formulae",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "heat of combustion definition",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "primary alcohols",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "heat of combustion definition",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.4",
+"strength": "helpful",
+"why": "ethene and ethyne families",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "heat of combustion definition",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.0.5",
+"strength": "essential",
+"why": "homologous series",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.4",
+"strength": "essential",
+"why": "homologous series",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.0",
+"strength": "helpful",
+"why": "alkane data values",
+"confidence": "high"
+},
+{
+"id": "chem23-s3.0.5",
+"strength": "helpful",
+"why": "homologous series",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.5",
+"strength": "essential",
+"why": "series differ by CH2",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.0",
+"strength": "essential",
+"why": "alkane ΔHc values",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.0",
+"strength": "helpful",
+"why": "alkane series",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.1",
+"strength": "essential",
+"why": "alcohol ΔHc values",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "primary alcohol series",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.3.0",
+"strength": "essential",
+"why": "bonds broken and made",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.5",
+"strength": "essential",
+"why": "each member adds CH2",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.6.3",
+"strength": "essential",
+"why": "bonds per extra CH2",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.3.3",
+"strength": "essential",
+"why": "net energy from bond balance",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.6.3",
+"strength": "essential",
+"why": "same bonds per CH2",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.6.0",
+"strength": "helpful",
+"why": "constant increase",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.5",
+"strength": "helpful",
+"why": "same CH2 added each time",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "essential",
+"why": "bond enthalpy definition",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.6.3",
+"strength": "essential",
+"why": "bonds per extra CH2",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.5",
+"strength": "helpful",
+"why": "per CH2 increment",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.7.0",
+"strength": "essential",
+"why": "estimate uses gaseous water",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.5.4",
+"strength": "helpful",
+"why": "condensing releases heat",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.6.5",
+"strength": "essential",
+"why": "linear trend",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.5.1",
+"strength": "helpful",
+"why": "hexanol data",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.0",
+"strength": "essential",
+"why": "alkane values",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.5.1",
+"strength": "essential",
+"why": "alcohol values",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "primary alcohols",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.1.0",
+"strength": "helpful",
+"why": "alkanes",
+"confidence": "low"
+}
+]
+},
+"chem21-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.4.b",
+"strength": "helpful",
+"why": "oxygen in alcohol OH",
+"confidence": "low"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "essential",
+"why": "alcohol has C–O–H group",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.8.1",
+"strength": "essential",
+"why": "alcohol already partly oxidised",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.4.1",
+"strength": "helpful",
+"why": "ethanol needs 3 O2",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.2",
+"strength": "essential",
+"why": "two-carbon data values",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.9.0",
+"strength": "helpful",
+"why": "alkane alkene alkyne order",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.6.3",
+"strength": "helpful",
+"why": "O–H bonds from water",
+"confidence": "low"
+},
+{
+"id": "chem23-s3.2.0",
+"strength": "helpful",
+"why": "alkene has two fewer H",
+"confidence": "low"
+},
+{
+"id": "chem24-s1.1.4",
+"strength": "helpful",
+"why": "alkene and alkyne formulae",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.9.1",
+"strength": "essential",
+"why": "fewer O–H bonds formed",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "heat of combustion",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "primary alcohols",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.10.1": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s2.8.1",
+"strength": "essential",
+"why": "Q = m c ΔT",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s2.8.6",
+"strength": "essential",
+"why": "specific heat capacity",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.10.2",
+"strength": "essential",
+"why": "Q from heating water",
+"confidence": "high"
+},
+{
+"id": "chem21-s2.8.5",
+"strength": "helpful",
+"why": "sign of ΔH",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.6.0",
+"strength": "essential",
+"why": "constant increase per CH2",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.0.5",
+"strength": "helpful",
+"why": "extra CH2 per member",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.11.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.10.4",
+"strength": "helpful",
+"why": "heat per mole calculation",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.11.2": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.11.3": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.11.4": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.1": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.2": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.3": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.4": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.5": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.12.2",
+"strength": "essential",
+"why": "initial mass of burner",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.12.7": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.13.0": {
+"cost": 2,
+"needs": []
+},
+"chem21-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.13.0",
+"strength": "helpful",
+"why": "copper can in apparatus",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.13.0",
+"strength": "helpful",
+"why": "draught shield in apparatus",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.12.6",
+"strength": "helpful",
+"why": "reweigh burner at once",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.12.4",
+"strength": "helpful",
+"why": "stirring step",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.11.4",
+"strength": "helpful",
+"why": "same temperature rise",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.12.5",
+"strength": "helpful",
+"why": "20 °C rise step",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.10.2",
+"strength": "essential",
+"why": "Q = m c ΔT",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass and M",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s5.15.0",
+"strength": "essential",
+"why": "Q from water",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.15.1",
+"strength": "essential",
+"why": "moles of ethanol burned",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.15.2",
+"strength": "essential",
+"why": "experimental value used",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.5.1",
+"strength": "helpful",
+"why": "standard ethanol value",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.15.2",
+"strength": "helpful",
+"why": "same calculation method",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.15.2",
+"strength": "helpful",
+"why": "same calculation method",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.15.2",
+"strength": "helpful",
+"why": "same calculation method",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.5.1",
+"strength": "essential",
+"why": "standard alcohol values",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.16.2",
+"strength": "helpful",
+"why": "experimental values",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.6.5",
+"strength": "helpful",
+"why": "straight-line trend",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.16.3",
+"strength": "helpful",
+"why": "experimental below standard",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.17.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.10.2",
+"strength": "essential",
+"why": "Q = m c ΔT",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.0.2",
+"strength": "essential",
+"why": "incomplete combustion products",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.14.2",
+"strength": "essential",
+"why": "capping prevents evaporation",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.7.1",
+"strength": "helpful",
+"why": "vapour condensation heat",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.0.3",
+"strength": "helpful",
+"why": "standard liquid water",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.17.0",
+"strength": "essential",
+"why": "heat loss error",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.14.1",
+"strength": "helpful",
+"why": "draught shield",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s5.17.2",
+"strength": "helpful",
+"why": "incomplete combustion error",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.17.3",
+"strength": "helpful",
+"why": "evaporation error",
+"confidence": "high"
+},
+{
+"id": "chem21-s5.17.1",
+"strength": "helpful",
+"why": "can absorbs heat",
+"confidence": "high"
+}
+]
+},
+"chem21-s5.17.7": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.18.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.18.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.18.1": {
+"cost": 1,
+"needs": []
+},
+"chem21-s5.18.2": {
+"cost": 1,
+"needs": []
+}
+}

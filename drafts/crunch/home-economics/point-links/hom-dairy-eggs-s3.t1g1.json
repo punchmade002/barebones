@@ -1,0 +1,497 @@
+{
+ "hom-dairy-eggs-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.1.0",
+    "strength": "helpful",
+    "why": "lactic acid bacteria starter cultures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.5.4",
+    "strength": "helpful",
+    "why": "pasteurisation or UHT of milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s3.0.2",
+    "strength": "helpful",
+    "why": "vitamins A and D carried in fat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.8.0",
+    "strength": "helpful",
+    "why": "reduced-fat spreads contain more water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.4.4",
+    "strength": "helpful",
+    "why": "rubbing fat into flour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.4.3",
+    "strength": "helpful",
+    "why": "creaming fat traps air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.5.0",
+    "strength": "helpful",
+    "why": "overheated fat reaches smoke point",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s6.3.2",
+    "strength": "helpful",
+    "why": "fats absorb strong odours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.0.1",
+    "strength": "helpful",
+    "why": "HBV protein, essential amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.0.5",
+    "strength": "helpful",
+    "why": "lactose milk sugar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.0.6",
+    "strength": "helpful",
+    "why": "calcium and phosphorus in milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.1.b",
+    "strength": "helpful",
+    "why": "what milk lacks needs balancing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.1.2",
+    "strength": "helpful",
+    "why": "lactic fermentation makes yoghurt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.4.0",
+    "strength": "helpful",
+    "why": "homogenisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.1.0",
+    "strength": "helpful",
+    "why": "pasteurisation of milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.1.0",
+    "strength": "helpful",
+    "why": "starter cultures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.0.2",
+    "strength": "helpful",
+    "why": "lactose to lactic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.6.2",
+    "strength": "helpful",
+    "why": "label contents for milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.6.5",
+    "strength": "helpful",
+    "why": "same labelling regulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.1.3",
+    "strength": "helpful",
+    "why": "probiotic live bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.0.1",
+    "strength": "helpful",
+    "why": "heat destroys bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.8.4",
+    "strength": "helpful",
+    "why": "fortified milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s4.1.3",
+    "strength": "helpful",
+    "why": "probiotic functional yoghurts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.4.2",
+    "strength": "helpful",
+    "why": "lactose intolerance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s3.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.3.1",
+    "strength": "helpful",
+    "why": "aseptic packaging UHT",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s3.10.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

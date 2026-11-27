@@ -1,0 +1,988 @@
+{
+"chem6-s1.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bond shared pair",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "shared pair in covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.0",
+"strength": "essential",
+"why": "electronegativity definition",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.0.1",
+"strength": "helpful",
+"why": "Pauling scale",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.0",
+"strength": "essential",
+"why": "electronegativity",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.6.4",
+"strength": "helpful",
+"why": "metals vs non-metals",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.0",
+"strength": "helpful",
+"why": "nucleus",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.0",
+"strength": "essential",
+"why": "electronegativity",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.5.0",
+"strength": "essential",
+"why": "what a period is",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.0.1",
+"strength": "essential",
+"why": "main energy levels",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.5.2",
+"strength": "helpful",
+"why": "across a period",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.1.1",
+"strength": "essential",
+"why": "radius decreases across period",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.0",
+"strength": "essential",
+"why": "what a group is",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.1",
+"strength": "essential",
+"why": "main energy levels",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.1.3",
+"strength": "helpful",
+"why": "down a group",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.1.4",
+"strength": "essential",
+"why": "radius increases down group",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.0",
+"strength": "essential",
+"why": "shared pair attraction",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.4.5",
+"strength": "helpful",
+"why": "noble gases",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.4.0",
+"strength": "essential",
+"why": "bonding continuum",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.0.2",
+"strength": "essential",
+"why": "Pauling values",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.2.3",
+"strength": "essential",
+"why": "cut-off values",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.0",
+"strength": "essential",
+"why": "ionic bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.2",
+"strength": "essential",
+"why": "polar covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "essential",
+"why": "non-polar covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "essential",
+"why": "equal sharing, non-polar",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.3",
+"strength": "essential",
+"why": "partial charges δ+ δ−",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "essential",
+"why": "ionic lattice",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "helpful",
+"why": "ionic lattice",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.1.0",
+"strength": "essential",
+"why": "electrostatic attraction of ions",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.1.4",
+"strength": "essential",
+"why": "giant ionic lattice",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "essential",
+"why": "ions fixed in lattice",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.3",
+"strength": "helpful",
+"why": "why solids do not conduct",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.0",
+"strength": "essential",
+"why": "polar molecules, permanent dipole",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.5",
+"strength": "helpful",
+"why": "polar vs non-polar solvents",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.4",
+"strength": "essential",
+"why": "covalent molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.4",
+"strength": "helpful",
+"why": "molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.0",
+"strength": "essential",
+"why": "intramolecular covalent bonds",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.0",
+"strength": "helpful",
+"why": "polar molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "essential",
+"why": "conduction needs mobile ions",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "helpful",
+"why": "ions free to carry charge",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.0",
+"strength": "essential",
+"why": "polar vs non-polar molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.5.2",
+"strength": "essential",
+"why": "non-polar solubility",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.5.3",
+"strength": "essential",
+"why": "polar solubility",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.4.3",
+"strength": "helpful",
+"why": "weak forces between molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.2",
+"strength": "essential",
+"why": "strong ionic attractions",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.4.3",
+"strength": "essential",
+"why": "weak forces between molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "essential",
+"why": "ions free when molten",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.5.0",
+"strength": "essential",
+"why": "no ions in covalent",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.5",
+"strength": "essential",
+"why": "ionic solubility",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.5.2",
+"strength": "essential",
+"why": "covalent solubility",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.0",
+"strength": "essential",
+"why": "ionic solids",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.4.3",
+"strength": "helpful",
+"why": "molecular low melting points",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "essential",
+"why": "ions free to move",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.4",
+"strength": "helpful",
+"why": "molten or dissolved ionic conducts",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.7.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.7.1",
+"strength": "essential",
+"why": "current shows free ions",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.4",
+"strength": "helpful",
+"why": "molecules",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.0",
+"strength": "essential",
+"why": "covalent bonds",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole–dipole forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "helpful",
+"why": "intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "intermolecular forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.0.4",
+"strength": "helpful",
+"why": "electron cloud, orbital",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.1",
+"strength": "essential",
+"why": "temporary dipole",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.1",
+"strength": "essential",
+"why": "electron cloud distortion",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "helpful",
+"why": "London forces baseline",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.2.7",
+"strength": "essential",
+"why": "δ+ and δ− ends",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.3.2",
+"strength": "helpful",
+"why": "polar bonds",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.0",
+"strength": "essential",
+"why": "permanent dipole",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.1",
+"strength": "helpful",
+"why": "dipole–dipole forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole–dipole forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.2.4",
+"strength": "essential",
+"why": "polar bonds",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bond",
+"confidence": "low"
+}
+]
+},
+"chem6-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "H bonded to N, O or F",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bond conditions",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "helpful",
+"why": "hydrogen bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bond",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.3.5",
+"strength": "helpful",
+"why": "dissolving ionic compounds",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.0",
+"strength": "essential",
+"why": "polar molecule ends",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.12.0",
+"strength": "essential",
+"why": "ion–dipole attraction",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.12.1",
+"strength": "helpful",
+"why": "ions surrounded by water",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole–dipole forces",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.12.1",
+"strength": "essential",
+"why": "ion–dipole attraction",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem6-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "essential",
+"why": "London dispersion forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.10.1",
+"strength": "essential",
+"why": "dipole–dipole forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s1.11.0",
+"strength": "essential",
+"why": "hydrogen bonds",
+"confidence": "high"
+}
+]
+},
+"chem6-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.8.1",
+"strength": "essential",
+"why": "intermolecular forces",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.1.0",
+"strength": "helpful",
+"why": "ionic bonds",
+"confidence": "low"
+}
+]
+}
+}

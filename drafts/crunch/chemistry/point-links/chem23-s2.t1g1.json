@@ -1,0 +1,493 @@
+{
+"chem23-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.0.4",
+"strength": "helpful",
+"why": "unsaturated hydrocarbon meaning",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.4",
+"strength": "helpful",
+"why": "alkene bromine addition decolourises",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.0",
+"strength": "helpful",
+"why": "ethanol formula",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.0.2",
+"strength": "essential",
+"why": "the dehydration equation",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.0.4",
+"strength": "helpful",
+"why": "aluminium oxide is the catalyst",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.1.3",
+"strength": "helpful",
+"why": "inverted water-filled test tube",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.1.6": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.1.2",
+"strength": "helpful",
+"why": "stopper and delivery tube set-up",
+"confidence": "high"
+},
+{
+"id": "chem23-s2.1.3",
+"strength": "helpful",
+"why": "inverted tube on beehive shelf",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.1.0",
+"strength": "essential",
+"why": "glass wool soaked with ethanol",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.0.4",
+"strength": "helpful",
+"why": "catalyst role of aluminium oxide",
+"confidence": "high"
+},
+{
+"id": "chem23-s2.1.4",
+"strength": "essential",
+"why": "heating the aluminium oxide",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.1.5",
+"strength": "helpful",
+"why": "collection by displacement of water",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.1.5",
+"strength": "essential",
+"why": "discarding first tubes when collecting",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.1.6",
+"strength": "helpful",
+"why": "lifting delivery tube before removing heat",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"chem23-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.9.0",
+"strength": "helpful",
+"why": "hydrocarbons are non-polar",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.3.1",
+"strength": "helpful",
+"why": "non-polar molecules",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.0",
+"strength": "helpful",
+"why": "relative molecular mass",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.6",
+"strength": "helpful",
+"why": "alkenes burn with luminous smoky flame",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.15.1",
+"strength": "helpful",
+"why": "alkenes burn to CO2 and H2O",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.4.1",
+"strength": "helpful",
+"why": "CO2 is a combustion product",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.4.1",
+"strength": "helpful",
+"why": "water is a combustion product",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s3.15.2",
+"strength": "helpful",
+"why": "alkenes' carbon percentage 85.7%",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.4",
+"strength": "helpful",
+"why": "alkenes decolourise bromine water",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s3.2.4",
+"strength": "helpful",
+"why": "addition across the double bond",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.5.2": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.5.2",
+"strength": "essential",
+"why": "the manganate(VII) test",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.0.4",
+"strength": "essential",
+"why": "unsaturated means multiple C-C bond",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.17.0",
+"strength": "helpful",
+"why": "alkanes do not react with bromine water",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.3.0",
+"strength": "helpful",
+"why": "s.t.p. and molar volume",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.3.1",
+"strength": "essential",
+"why": "mass from density and volume",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass and molar mass",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.0.2",
+"strength": "essential",
+"why": "1:1 ethanol to ethene equation",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.11.1",
+"strength": "essential",
+"why": "gas volume from moles at STP",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.6.3",
+"strength": "essential",
+"why": "theoretical volume used in yield",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.2.3",
+"strength": "helpful",
+"why": "first tubes discarded contain air",
+"confidence": "low"
+}
+]
+},
+"chem23-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.7.2": {
+"cost": 1,
+"needs": []
+},
+"chem23-s2.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.2.4",
+"strength": "helpful",
+"why": "suck-back",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.2.3",
+"strength": "essential",
+"why": "first tubes contain air",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.7.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s2.5.2",
+"strength": "essential",
+"why": "manganate(VII) decolourisation test",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.5.5",
+"strength": "helpful",
+"why": "control experiment",
+"confidence": "high"
+}
+]
+},
+"chem23-s2.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s2.5.4",
+"strength": "essential",
+"why": "decolourisation shows unsaturation",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,649 @@
+{
+ "chem21-s3.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.2.0",
+    "strength": "helpful",
+    "why": "bond enthalpy definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.0.b",
+    "strength": "helpful",
+    "why": "average bond enthalpy values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.2.2",
+    "strength": "helpful",
+    "why": "double bonds",
+    "confidence": "low"
+   },
+   {
+    "id": "chem21-s3.0.b",
+    "strength": "helpful",
+    "why": "average bond enthalpy values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.2.3",
+    "strength": "helpful",
+    "why": "triple bond in nitrogen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem21-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.3.0",
+    "strength": "essential",
+    "why": "bonds broken then made",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.7.1",
+    "strength": "helpful",
+    "why": "balanced equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.2.1",
+    "strength": "helpful",
+    "why": "drawing bonds",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem21-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.0",
+    "strength": "essential",
+    "why": "bonds shown in structural formulae",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.7.3",
+    "strength": "essential",
+    "why": "coefficients multiply bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.2.0",
+    "strength": "helpful",
+    "why": "bond enthalpy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.1",
+    "strength": "essential",
+    "why": "same method as bonds broken",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.3.2",
+    "strength": "helpful",
+    "why": "bond making releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.1.1",
+    "strength": "essential",
+    "why": "sum of bonds broken",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.2",
+    "strength": "essential",
+    "why": "sum of bonds formed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.1.1",
+    "strength": "helpful",
+    "why": "definition of delta H",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.3",
+    "strength": "essential",
+    "why": "sign of delta H",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.6.0",
+    "strength": "essential",
+    "why": "exothermic and endothermic meanings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.3",
+    "strength": "essential",
+    "why": "sums of bonds broken and formed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.0",
+    "strength": "essential",
+    "why": "drawing every bond",
+    "confidence": "high"
+   },
+   {
+    "id": "chem10-s2.9.1",
+    "strength": "helpful",
+    "why": "methane combustion equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.1",
+    "strength": "essential",
+    "why": "bonds broken sum",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "bond enthalpy values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.2",
+    "strength": "essential",
+    "why": "bonds formed sum",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "bond enthalpy values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.3",
+    "strength": "essential",
+    "why": "delta H formula",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.2.1",
+    "strength": "essential",
+    "why": "bonds broken total",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.2.2",
+    "strength": "essential",
+    "why": "bonds formed total",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.2.3",
+    "strength": "essential",
+    "why": "calculated delta H",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.7.0",
+    "strength": "helpful",
+    "why": "standard methane combustion value",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.2.4",
+    "strength": "essential",
+    "why": "steam versus liquid water difference",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.5.4",
+    "strength": "helpful",
+    "why": "condensing releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.1.5",
+    "strength": "essential",
+    "why": "leave out unchanged bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "bond enthalpy values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.1",
+    "strength": "essential",
+    "why": "C=C value",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.3.1",
+    "strength": "essential",
+    "why": "new bonds formed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "bond enthalpy values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.3.1",
+    "strength": "essential",
+    "why": "bonds broken sum",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.3.2",
+    "strength": "essential",
+    "why": "bonds formed sum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "H-H and Cl-Cl values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.1",
+    "strength": "helpful",
+    "why": "bonds broken sum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "H-Cl value",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.2",
+    "strength": "helpful",
+    "why": "bonds formed sum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.4.1",
+    "strength": "essential",
+    "why": "bonds broken",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.4.2",
+    "strength": "essential",
+    "why": "bonds formed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.3",
+    "strength": "essential",
+    "why": "delta H formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.4.3",
+    "strength": "essential",
+    "why": "calculated delta H",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s1.2.3",
+    "strength": "helpful",
+    "why": "average bond enthalpies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "C-H and Cl-Cl values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.5",
+    "strength": "essential",
+    "why": "leave out unchanged bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "C-Cl and H-Cl values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.2",
+    "strength": "helpful",
+    "why": "bonds formed sum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.5.1",
+    "strength": "essential",
+    "why": "bonds broken",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.5.2",
+    "strength": "essential",
+    "why": "bonds formed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.1.3",
+    "strength": "essential",
+    "why": "delta H formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.2.3",
+    "strength": "essential",
+    "why": "average bond enthalpies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.2.0",
+    "strength": "essential",
+    "why": "bond enthalpy refers to gaseous state",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.6.0",
+    "strength": "helpful",
+    "why": "estimates are approximate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.3.3",
+    "strength": "essential",
+    "why": "exothermic when bonds formed release more",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem21-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "C-C, C=C, C triple bond values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem21-s3.0.1",
+    "strength": "essential",
+    "why": "multiple bond values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.2.3",
+    "strength": "helpful",
+    "why": "single double triple bonds",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem21-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.7.0",
+    "strength": "essential",
+    "why": "multiple bond values",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.12.4",
+    "strength": "essential",
+    "why": "double bond is sigma plus pi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem5-s1.12.0",
+    "strength": "essential",
+    "why": "sigma bond head-on overlap",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.12.2",
+    "strength": "essential",
+    "why": "pi bond sideways overlap",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.12.5",
+    "strength": "helpful",
+    "why": "pi weaker than sigma",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.0",
+    "strength": "essential",
+    "why": "C-halogen values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem21-s3.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem21-s3.7.3",
+    "strength": "essential",
+    "why": "trend down group",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.2.0",
+    "strength": "helpful",
+    "why": "shared pair held by nuclei",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem21-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s3.0.2",
+    "strength": "essential",
+    "why": "N triple bond value",
+    "confidence": "high"
+   }
+  ]
+ }
+}

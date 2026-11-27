@@ -1,0 +1,643 @@
+{
+ "chem13-s1.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.0",
+    "strength": "helpful",
+    "why": "titration defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.12.0",
+    "strength": "essential",
+    "why": "mole ratio from balanced equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.12.0",
+    "strength": "essential",
+    "why": "mole ratio between substances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "c = n ÷ V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.11.0",
+    "strength": "essential",
+    "why": "mol/L to g/L by molar mass",
+    "confidence": "high"
+   },
+   {
+    "id": "chem13-s1.2.1",
+    "strength": "helpful",
+    "why": "dilution factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem13-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.11.2",
+    "strength": "essential",
+    "why": "g/L to %w/v divide by 10",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.0",
+    "strength": "helpful",
+    "why": "five-step method being condensed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem13-s1.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem13-s1.0.2",
+    "strength": "essential",
+    "why": "mole ratio step",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.1.0",
+    "strength": "essential",
+    "why": "formula being applied",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.1.0",
+    "strength": "essential",
+    "why": "formula with coefficients",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.1.0",
+    "strength": "helpful",
+    "why": "formula vs step method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.8.0",
+    "strength": "helpful",
+    "why": "dilution adds solvent only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.0",
+    "strength": "essential",
+    "why": "titration gives diluted concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "helpful",
+    "why": "moles in a volume",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem13-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.2",
+    "strength": "essential",
+    "why": "portion titrated only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.5.4",
+    "strength": "essential",
+    "why": "average concordant titres, omit rough",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration units mol/L",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "helpful",
+    "why": "back titration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem13-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem12-s1.0.0",
+    "strength": "helpful",
+    "why": "titration of excess",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem13-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "essential",
+    "why": "back titration excess",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "essential",
+    "why": "back titration purpose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.2.4",
+    "strength": "essential",
+    "why": "standardisation against primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.7.1",
+    "strength": "helpful",
+    "why": "methyl orange with carbonate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.2",
+    "strength": "essential",
+    "why": "titre definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.7.0",
+    "strength": "helpful",
+    "why": "same equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.1",
+    "strength": "essential",
+    "why": "n = c × V, V in litres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.2",
+    "strength": "essential",
+    "why": "mole ratio step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.3",
+    "strength": "essential",
+    "why": "concentration from moles and volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.1",
+    "strength": "helpful",
+    "why": "dilution factor scaling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.1",
+    "strength": "essential",
+    "why": "dilution factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.7.7",
+    "strength": "helpful",
+    "why": "ammonia titrated with HCl",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem13-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.0",
+    "strength": "essential",
+    "why": "mole ratio from equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.3",
+    "strength": "essential",
+    "why": "c = n ÷ V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.1",
+    "strength": "essential",
+    "why": "multiply by dilution factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.11.0",
+    "strength": "essential",
+    "why": "mol/L to g/L by molar mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.6.0",
+    "strength": "essential",
+    "why": "water of crystallisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.6.0",
+    "strength": "essential",
+    "why": "hydrated crystal formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem12-s1.0.2",
+    "strength": "helpful",
+    "why": "titre definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.2",
+    "strength": "essential",
+    "why": "mole ratio from equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.2.3",
+    "strength": "essential",
+    "why": "scale portion up to whole",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s1.2.1",
+    "strength": "essential",
+    "why": "mass = moles × molar mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s1.2.0",
+    "strength": "essential",
+    "why": "moles from mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem10-s2.6.6",
+    "strength": "essential",
+    "why": "water to salt ratio gives x",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "essential",
+    "why": "back titration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "helpful",
+    "why": "excess acid added",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.3",
+    "strength": "essential",
+    "why": "titrating the excess",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.1",
+    "strength": "essential",
+    "why": "n = c × V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.4",
+    "strength": "essential",
+    "why": "moles reacted = added − excess",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.0.2",
+    "strength": "essential",
+    "why": "mole ratio from equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s1.2.1",
+    "strength": "essential",
+    "why": "mass = moles × molar mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem13-s1.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem13-s1.4.5",
+    "strength": "helpful",
+    "why": "why back titration is used",
+    "confidence": "high"
+   }
+  ]
+ }
+}

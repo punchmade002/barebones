@@ -1,0 +1,90 @@
+import json,re
+P='chem20-s5.'
+H,E='helpful','essential'
+S2='chem1-s2.';S6='chem1-s6.';W='chem20-s3.';S5='chem1-s5.'
+d={}
+def a(i,c,*n):
+    k=P+i
+    assert k not in d
+    d[k]=(c,[(x[0],x[1],x[2],x[3] if len(x)>3 else 'high') for x in n])
+a('0.b',1)
+a('0.0',1,(S6+'4.0',E,'the three cross-cutting themes'))
+a('0.1',1)
+a('0.2',1)
+a('0.3',1,(S2+'0.0',H,'scientists collaborating'))
+a('0.4',1,(S5+'6.2',H,'ways to present findings'))
+a('0.5',1,(S2+'6.0',E,'primary data'))
+a('0.6',1,(S6+'4.1',H,'themes are examinable'))
+a('1.b',1)
+a('1.0',1,(S2+'5.0',H,'focused research question'))
+a('1.1',1)
+a('1.2',2,(S2+'7.0',H,'peer-reviewed sources'))
+a('1.3',1,(S2+'8.b',E,'judging a source'))
+a('1.4',1,(S2+'3.0',E,'peer review'),(S2+'8.3',H,'purpose and bias'))
+a('1.5',1,(S6+'7.0',H,'separating evidence from opinion'))
+a('1.6',1,(S6+'3.b',H,'economic, social, ethical factors','low'))
+a('1.7',1,(S6+'7.1',H,'acknowledging uncertainty'))
+a('1.8',1,(S5+'7.1',E,'citing sources'))
+a('2.b',1)
+a('2.0',1,(P+'1.0',H,'Step 1 question'))
+a('2.1',1,(W+'7.0',E,'fluoride compound added to water'))
+a('2.2',2,(W+'7.1',E,'fluoride converts hydroxyapatite'))
+a('2.3',1,(P+'1.2',E,'Step 3 sources'))
+a('2.4',1,(S2+'8.2',E,'currency of a source'))
+a('3.b',1)
+a('3.0',1,(W+'7.2',H,'fluorapatite resists acid'))
+a('3.1',1,(W+'7.0',H,'fluoride added at the plant'))
+a('3.2',1,(W+'7.5',E,'dental fluorosis'))
+a('3.3',1,(P+'2.4',H,'toothpaste and dates'))
+a('3.4',1,(S6+'3.3',E,'ethical factors'))
+a('3.5',1,(W+'7.6',H,'fluoridation debate'))
+a('3.6',1,(P+'1.7',E,'Step 7 justified conclusion'))
+a('4.b',1)
+a('4.0',1,(P+'1.0',H,'Step 1 question'))
+a('4.1',2)
+a('4.2',1,(P+'4.1',E,'oxygen-free decay in peat'))
+a('4.3',2,(P+'4.1',E,'waterlogged peat decay'))
+a('4.4',1,(P+'1.2',H,'Step 3 sources'))
+a('4.5',1,(S2+'8.3',H,'purpose and bias','low'))
+a('5.b',1)
+a('5.0',2,(P+'4.3',E,'CO2 and methane from peat'))
+a('5.1',1)
+a('5.2',1,(S6+'3.1',H,'social factors'))
+a('5.3',1,(P+'5.0',H,'comparing CO2 and methane'))
+a('5.4',1,(P+'1.7',E,'Step 7 justified conclusion'))
+a('6.b',1,(W+'5.b',H,'chlorination'))
+a('6.0',1)
+a('6.1',2,(W+'5.1',E,'chlorine forms hypochlorous acid'))
+a('6.2',1,(W+'6.0',E,'UV damages DNA'))
+a('6.3',1,(W+'5.5',E,'chlorine by-products'))
+a('6.4',1,(P+'1.2',H,'Step 3 sources'))
+a('6.5',1,(W+'6.5',E,'Galway 2007 outbreak'))
+a('7.b',1)
+a('7.0',1,(W+'5.3',E,'chlorine-resistant organisms'))
+a('7.1',1,(W+'5.2',E,'residual disinfectant in pipes'))
+a('7.2',1,(P+'6.3',E,'disinfection by-products'))
+a('7.3',1,(W+'6.4',H,'UV lamps use electricity'))
+a('7.4',1,(P+'7.1',E,'residual in the pipes'))
+a('8.b',1)
+a('8.0',1,(S2+'0.0',E,'scientists share results'))
+a('8.1',1,(S6+'0.8',H,'lithium-ion battery'))
+a('8.2',1,(S2+'0.1',H,'international collaboration'))
+a('8.3',1,(S6+'1.b',H,'chemistry in society'))
+a('8.4',1,(S6+'6.b',H,'checking claims'))
+txt=open('packs/chem20-s5.t1g1.txt').read()
+tg=[];ids=set();sec=None
+for l in txt.split('\n'):
+    if l.startswith('TARGET'):sec='t'
+    elif l.startswith('CANDIDATES'):sec='c'
+    m=re.match(r'\[([^\]]+)\]',l)
+    if m:
+        ids.add(m.group(1))
+        if sec=='t':tg.append(m.group(1))
+assert tg==list(d),(set(tg)^set(d))
+out={}
+for k,(c,n) in d.items():
+    for x in n: assert x[0] in ids and x[0]!=k,x
+    out[k]={'cost':c,'needs':[{'id':x[0],'strength':x[1],'why':x[2],'confidence':x[3]} for x in n]}
+json.dump(out,open('point-links/chem20-s5.t1g1.json','w'),indent=0)
+json.load(open('point-links/chem20-s5.t1g1.json'))
+print(len(out),sum(len(v['needs']) for v in out.values()),sum(v['cost']==2 for v in out.values()),sum(x['confidence']=='low' for v in out.values() for x in v['needs']))

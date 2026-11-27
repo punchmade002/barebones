@@ -1,0 +1,35 @@
+import json
+def L(i,s,w,c='high'):return {"id":i,"strength":{'E':'essential','H':'helpful'}[s],"why":w,"confidence":c}
+p='chem1-s6.'
+D={
+'0.b':(1,[]),'0.0':(1,[]),'0.1':(1,[]),'0.2':(1,[]),
+'0.3':(1,[L(p+'0.2','E','Mendeleev\'s periodic table and gaps')]),
+'0.4':(2,[]),
+'0.5':(1,[L(p+'0.4','E','penicillin as first antibiotic')]),
+'0.6':(2,[]),
+'0.7':(1,[L(p+'0.6','E','Haber-Bosch ammonia synthesis')]),
+'0.8':(2,[]),
+'1.b':(1,[]),'1.0':(1,[]),'1.1':(1,[]),'1.2':(1,[]),'1.3':(1,[]),
+'1.4':(1,[L(p+'1.3','H','jobs in pharmaceutical industry')]),
+'1.5':(1,[]),'1.6':(1,[]),
+'2.b':(1,[]),'2.0':(1,[]),'2.1':(1,[]),'2.2':(1,[]),'2.3':(1,[]),
+'3.b':(1,[]),'3.0':(1,[]),'3.1':(1,[]),'3.2':(1,[]),'3.3':(1,[]),'3.4':(1,[]),
+'4.b':(1,[]),'4.0':(1,[]),
+'4.1':(1,[L(p+'4.0','E','the three cross-cutting themes')]),
+'5.b':(1,[]),'5.0':(1,[]),'5.1':(1,[]),'5.2':(1,[]),
+'6.b':(1,[]),'6.0':(1,[]),
+'6.1':(1,[L('chem1-s2.3.0','H','peer review definition')]),
+'6.2':(2,[L('chem1-s2.4.1','H','reproduced by others')]),
+'6.3':(1,[]),
+'6.4':(1,[L('chem1-s2.8.3','H','purpose, bias and funding of a source')]),
+'6.5':(1,[L('chem1-s2.8.5','H','independent corroboration')]),
+'6.6':(1,[]),
+'7.b':(1,[]),'7.0':(1,[]),'7.1':(1,[]),
+'7.2':(1,[L(p+'3.b','H','economic, social, ethical factors')]),
+'8.b':(1,[]),'8.0':(1,[]),'8.1':(1,[]),
+'8.2':(1,[L(p+'8.1','H','natural versus synthetic toxicity')]),
+'8.3':(1,[]),
+'8.4':(1,[L(p+'8.3','H','body controls its own pH')]),
+'8.5':(1,[L(p+'8.3','H','alkaline water versus body pH')]),
+}
+json.dump({p+k:{"cost":c,"needs":n} for k,(c,n) in D.items()},open('point-links/chem1-s6.t1g1.json','w'),ensure_ascii=False)

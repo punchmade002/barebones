@@ -1,0 +1,1233 @@
+{
+ "chem22-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.0.1",
+    "strength": "helpful",
+    "why": "galvanic cell converts chemical to electrical",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.0",
+    "strength": "helpful",
+    "why": "chemical cell has sealed reactants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.3.0",
+    "strength": "helpful",
+    "why": "recharging reverses the reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.3",
+    "strength": "helpful",
+    "why": "fuel cell reactants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.4",
+    "strength": "helpful",
+    "why": "continuous supply of reactants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.0.1",
+    "strength": "essential",
+    "why": "galvanic cell, spontaneous redox",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.1.0",
+    "strength": "essential",
+    "why": "anode is where oxidation happens",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s1.1.1",
+    "strength": "essential",
+    "why": "cathode is where reduction happens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.1.1",
+    "strength": "helpful",
+    "why": "oxidation and reduction at electrodes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.4",
+    "strength": "helpful",
+    "why": "fuel cell reactants supplied continuously",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.4",
+    "strength": "helpful",
+    "why": "products removed continuously",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.2",
+    "strength": "helpful",
+    "why": "primary discarded, secondary recharged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.4",
+    "strength": "helpful",
+    "why": "fuel cell fuel kept outside",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.2.5",
+    "strength": "helpful",
+    "why": "environmental impact comparison",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem22-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.9.0",
+    "strength": "helpful",
+    "why": "combustion is oxidation by oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.0.3",
+    "strength": "helpful",
+    "why": "fuel cell converts chemical energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.3.0",
+    "strength": "helpful",
+    "why": "same overall reaction as burning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.0.1",
+    "strength": "essential",
+    "why": "galvanic cell",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.0.3",
+    "strength": "helpful",
+    "why": "fuel cell fuel and oxidant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.0",
+    "strength": "helpful",
+    "why": "hydrogen fuel cell electrodes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.1",
+    "strength": "helpful",
+    "why": "electrodes gases reach",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.1.3",
+    "strength": "essential",
+    "why": "electrolyte conducts by ions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.4.3",
+    "strength": "essential",
+    "why": "membrane is the electrolyte",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "essential",
+    "why": "oxidation is loss of electrons",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.4.1",
+    "strength": "helpful",
+    "why": "hydrogen fed to anode",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.0.4",
+    "strength": "helpful",
+    "why": "electrons travel via external circuit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.4",
+    "strength": "helpful",
+    "why": "membrane passes H+ ions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.5.2",
+    "strength": "helpful",
+    "why": "H+ arrives at cathode",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "helpful",
+    "why": "reduction is gain of electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.5.3",
+    "strength": "helpful",
+    "why": "water formed at cathode",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.5.0",
+    "strength": "essential",
+    "why": "anode equation to double",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.3",
+    "strength": "essential",
+    "why": "cathode equation to combine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "essential",
+    "why": "oxidation is rise in oxidation number",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.3.1",
+    "strength": "helpful",
+    "why": "reducing agent is oxidised",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "essential",
+    "why": "reduction is fall in oxidation number",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "helpful",
+    "why": "oxidising agent is reduced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s1.1.3",
+    "strength": "essential",
+    "why": "negative delta H means exothermic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s1.0.2",
+    "strength": "helpful",
+    "why": "cells joined in series make a battery",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.2",
+    "strength": "essential",
+    "why": "platinum catalyst on electrodes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.3",
+    "strength": "helpful",
+    "why": "electrolyte of a PEM cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.8.0",
+    "strength": "essential",
+    "why": "OH- ions carry charge",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.0",
+    "strength": "helpful",
+    "why": "compare with PEM anode equation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem22-s2.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.8.0",
+    "strength": "essential",
+    "why": "OH- ions carry charge",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.3",
+    "strength": "helpful",
+    "why": "compare with PEM cathode equation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem22-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.8.1",
+    "strength": "essential",
+    "why": "adds anode half-equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.8.2",
+    "strength": "essential",
+    "why": "adds cathode half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.8.0",
+    "strength": "helpful",
+    "why": "alkaline fuel cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.2.4",
+    "strength": "helpful",
+    "why": "typical uses of fuel cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.3.3",
+    "strength": "helpful",
+    "why": "no CO2, CO, NOx, soot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.2",
+    "strength": "helpful",
+    "why": "platinum catalyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.3",
+    "strength": "helpful",
+    "why": "grey hydrogen from natural gas",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.2.6",
+    "strength": "helpful",
+    "why": "only as clean as hydrogen source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.4.1",
+    "strength": "essential",
+    "why": "hydrogen and oxygen feeds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.4.4",
+    "strength": "essential",
+    "why": "membrane passes H+",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.9.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s2.9.6",
+    "strength": "essential",
+    "why": "diagram to extend",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.0",
+    "strength": "essential",
+    "why": "anode half-equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.3",
+    "strength": "essential",
+    "why": "cathode half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.3.1",
+    "strength": "helpful",
+    "why": "direct conversion avoids heat loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.3.0",
+    "strength": "helpful",
+    "why": "secondary cells can be recharged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.3.0",
+    "strength": "helpful",
+    "why": "rechargeable batteries store energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.10.2",
+    "strength": "helpful",
+    "why": "storing renewable electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.16.b",
+    "strength": "helpful",
+    "why": "electrolysis of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.0",
+    "strength": "essential",
+    "why": "hydrogen made by electrolysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.0",
+    "strength": "helpful",
+    "why": "hydrogen made by electrolysis",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.4.0",
+    "strength": "helpful",
+    "why": "hydrogen used in fuel cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "compare with green hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.3",
+    "strength": "essential",
+    "why": "same way as grey hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.15.b",
+    "strength": "helpful",
+    "why": "galvanic versus electrolytic cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem22-s2.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.2",
+    "strength": "helpful",
+    "why": "sources gathered in step 3",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.3",
+    "strength": "helpful",
+    "why": "continues judging sources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.4",
+    "strength": "helpful",
+    "why": "continues judging sources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem22-s2.12.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.6",
+    "strength": "helpful",
+    "why": "weighing life-cycle evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.12.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.7",
+    "strength": "helpful",
+    "why": "conclusion to present",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.0",
+    "strength": "helpful",
+    "why": "focused question step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s1.3.2",
+    "strength": "essential",
+    "why": "recharging acts as electrolytic cell",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s1.3.1",
+    "strength": "helpful",
+    "why": "discharge acts as galvanic cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.3.3",
+    "strength": "helpful",
+    "why": "no CO2, CO, NOx at point of use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.10.2",
+    "strength": "helpful",
+    "why": "storing renewable electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.13.4",
+    "strength": "helpful",
+    "why": "battery charged from renewable electricity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem22-s2.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.12.7",
+    "strength": "helpful",
+    "why": "justified conclusion with conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "green hydrogen from renewable electricity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem22-s1.20.0",
+    "strength": "helpful",
+    "why": "acidified water cathode half-equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s1.20.1",
+    "strength": "helpful",
+    "why": "acidified water anode half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "green hydrogen releases no CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.10.3",
+    "strength": "helpful",
+    "why": "surplus renewable electricity stored",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.9.0",
+    "strength": "helpful",
+    "why": "fuel cell vehicle uses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.15.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.3.3",
+    "strength": "helpful",
+    "why": "only water at point of use",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem22-s2.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.2",
+    "strength": "helpful",
+    "why": "hydrogen stores energy to reuse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.4.2",
+    "strength": "helpful",
+    "why": "platinum catalyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.9.3",
+    "strength": "helpful",
+    "why": "storing hydrogen at pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.3",
+    "strength": "essential",
+    "why": "grey hydrogen is cheaper",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "green hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "green hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.5.0",
+    "strength": "helpful",
+    "why": "anode half-equation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem22-s2.5.3",
+    "strength": "helpful",
+    "why": "cathode half-equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.9.1",
+    "strength": "helpful",
+    "why": "advantages of fuel cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.2.2",
+    "strength": "helpful",
+    "why": "refuelled in minutes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.9.4",
+    "strength": "helpful",
+    "why": "few stations and costly platinum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.9.3",
+    "strength": "helpful",
+    "why": "high-pressure hydrogen storage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.3",
+    "strength": "essential",
+    "why": "grey hydrogen releases CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.17.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.11.1",
+    "strength": "helpful",
+    "why": "green hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem14-s1.6.1",
+    "strength": "essential",
+    "why": "rusting is oxidation of iron",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.8.1",
+    "strength": "essential",
+    "why": "zinc oxidised in place of iron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.18.1",
+    "strength": "essential",
+    "why": "more reactive metal oxidised first",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.8.2",
+    "strength": "helpful",
+    "why": "sacrificial protection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.18.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.18.2",
+    "strength": "helpful",
+    "why": "galvanising and sacrificial anodes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.18.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.18.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.18.2",
+    "strength": "helpful",
+    "why": "sacrificial anodes oxidised away",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem22-s2.18.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem22-s2.18.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem22-s2.18.2",
+    "strength": "helpful",
+    "why": "corrosion protection methods",
+    "confidence": "low"
+   }
+  ]
+ }
+}

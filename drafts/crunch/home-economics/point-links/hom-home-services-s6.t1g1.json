@@ -1,0 +1,345 @@
+{
+ "hom-home-services-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.0",
+    "strength": "helpful",
+    "why": "conduction",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "helpful",
+    "why": "convection",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s5.0.2",
+    "strength": "helpful",
+    "why": "radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.0",
+    "strength": "helpful",
+    "why": "conduction through materials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.1",
+    "strength": "helpful",
+    "why": "convection currents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s5.0.2",
+    "strength": "helpful",
+    "why": "radiant heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s2.0.2",
+    "strength": "helpful",
+    "why": "air leakage through gaps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s6.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s6.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s6.2.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s6.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.2.1",
+    "strength": "helpful",
+    "why": "dry lining",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s6.2.2",
+    "strength": "helpful",
+    "why": "external insulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.2.0",
+    "strength": "helpful",
+    "why": "cavity wall structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-home-services-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.0.2",
+    "strength": "helpful",
+    "why": "trapped air cannot circulate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.3.1",
+    "strength": "helpful",
+    "why": "double glazing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.0.3",
+    "strength": "helpful",
+    "why": "low-E coatings reflect radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.0.4",
+    "strength": "helpful",
+    "why": "draught proofing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.3.7",
+    "strength": "helpful",
+    "why": "insulation reduces condensation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s2.10.1",
+    "strength": "helpful",
+    "why": "BER scale A to G",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-home-services-s6.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.1.5",
+    "strength": "helpful",
+    "why": "lagging tank and pipes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.3.5",
+    "strength": "helpful",
+    "why": "draught proofing and glazing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.2.3",
+    "strength": "helpful",
+    "why": "solid versus cavity walls",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s6.3.6",
+    "strength": "helpful",
+    "why": "cylinder lagging",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.4.4",
+    "strength": "helpful",
+    "why": "condensation and damp",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-home-services-s2.5.4",
+    "strength": "helpful",
+    "why": "ranking improvements by cost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-home-services-s6.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-home-services-s6.4.5",
+    "strength": "helpful",
+    "why": "BER",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-home-services-s6.4.6",
+    "strength": "helpful",
+    "why": "SEAI grants",
+    "confidence": "high"
+   }
+  ]
+ }
+}

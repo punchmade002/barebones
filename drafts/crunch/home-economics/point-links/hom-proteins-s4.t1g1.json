@@ -1,0 +1,262 @@
+{
+ "hom-proteins-s4.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s4.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.2",
+    "strength": "helpful",
+    "why": "globular protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.3",
+    "strength": "helpful",
+    "why": "albumin as globular example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-proteins-s4.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.2.0",
+    "strength": "helpful",
+    "why": "casein in milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.2",
+    "strength": "helpful",
+    "why": "soluble globular protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.0.1",
+    "strength": "helpful",
+    "why": "rennin acts on protein",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-proteins-s4.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.6.1",
+    "strength": "helpful",
+    "why": "collagen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.6.1",
+    "strength": "helpful",
+    "why": "collagen source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.3.0",
+    "strength": "helpful",
+    "why": "gelatine formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.3.0",
+    "strength": "helpful",
+    "why": "gelatine from animals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.4.3",
+    "strength": "helpful",
+    "why": "gliadin and glutenin form gluten",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.4.1",
+    "strength": "essential",
+    "why": "gluten forms with water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.4.0",
+    "strength": "helpful",
+    "why": "wheat gluten",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.1.0",
+    "strength": "helpful",
+    "why": "albumin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.2.2",
+    "strength": "helpful",
+    "why": "rennin coagulates casein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.3.0",
+    "strength": "helpful",
+    "why": "gelatine from collagen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.4.2",
+    "strength": "helpful",
+    "why": "gluten traps gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s4.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s4.6.1",
+    "strength": "essential",
+    "why": "collagen",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s4.3.0",
+    "strength": "helpful",
+    "why": "gelatine formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s4.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s3.3.1",
+    "strength": "helpful",
+    "why": "elastin as fibrous protein",
+    "confidence": "low"
+   }
+  ]
+ }
+}

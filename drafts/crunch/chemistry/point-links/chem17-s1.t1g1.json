@@ -1,0 +1,1002 @@
+{
+ "chem17-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "helpful",
+    "why": "concentration as amount per litre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "essential",
+    "why": "rate as change in concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "rate as change per unit time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "reactant used or product formed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.3",
+    "strength": "essential",
+    "why": "mole ratio links reactant and product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "rate as change over time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "rate and time taken",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.0.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem17-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.2",
+    "strength": "helpful",
+    "why": "rate as volume per unit time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.1.0",
+    "strength": "helpful",
+    "why": "collecting gas to measure volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.1.0",
+    "strength": "helpful",
+    "why": "gas syringe or inverted cylinder",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.2",
+    "strength": "helpful",
+    "why": "rate from mass lost per time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.1.3",
+    "strength": "helpful",
+    "why": "mass-loss method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.1.3",
+    "strength": "helpful",
+    "why": "mass-loss method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.1.3",
+    "strength": "essential",
+    "why": "mass-loss apparatus",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.1.4",
+    "strength": "helpful",
+    "why": "cotton-wool plug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.0.6",
+    "strength": "helpful",
+    "why": "rate from 1/time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.2.0",
+    "strength": "helpful",
+    "why": "cross method reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.0.6",
+    "strength": "essential",
+    "why": "rate proportional to 1/time",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.2.0",
+    "strength": "essential",
+    "why": "cross method timing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.2.0",
+    "strength": "essential",
+    "why": "cross method set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.0.0",
+    "strength": "helpful",
+    "why": "concentration of reactants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.3.0",
+    "strength": "essential",
+    "why": "concentration falls as reactants used",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.3.1",
+    "strength": "helpful",
+    "why": "rate slows as reactants used up",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.1.0",
+    "strength": "helpful",
+    "why": "gas volume measured against time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.3.3",
+    "strength": "essential",
+    "why": "reading the volume-time curve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.3.4",
+    "strength": "essential",
+    "why": "gradient gives rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.3.2",
+    "strength": "essential",
+    "why": "limiting reactant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.3.3",
+    "strength": "essential",
+    "why": "shape of volume-time graph",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.10.0",
+    "strength": "helpful",
+    "why": "lower temperature slows reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem9-s1.0.3",
+    "strength": "helpful",
+    "why": "gas particles moving and colliding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.0",
+    "strength": "essential",
+    "why": "collisions needed for reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.1",
+    "strength": "essential",
+    "why": "most collisions fail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.2",
+    "strength": "essential",
+    "why": "minimum energy for reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.2",
+    "strength": "helpful",
+    "why": "collisions that lead to reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.5.2",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.4",
+    "strength": "essential",
+    "why": "effective collisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.1.0",
+    "strength": "helpful",
+    "why": "ions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.2",
+    "strength": "helpful",
+    "why": "activation energy barrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "helpful",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "low activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.1.0",
+    "strength": "helpful",
+    "why": "ions attract each other",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.7.0",
+    "strength": "essential",
+    "why": "no bonds to break",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem5-s1.2.0",
+    "strength": "essential",
+    "why": "covalent bonds",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.2",
+    "strength": "helpful",
+    "why": "few collisions energetic enough",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem8-s2.2.0",
+    "strength": "essential",
+    "why": "concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.8.0",
+    "strength": "essential",
+    "why": "more particles per volume",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.5",
+    "strength": "essential",
+    "why": "effective collisions per second",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.8.1",
+    "strength": "helpful",
+    "why": "rate rises with concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.0",
+    "strength": "essential",
+    "why": "particles must collide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.9.0",
+    "strength": "essential",
+    "why": "only surface particles react",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.9.1",
+    "strength": "helpful",
+    "why": "smaller pieces react faster",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.9.1",
+    "strength": "essential",
+    "why": "large surface area speeds rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.9.3",
+    "strength": "helpful",
+    "why": "dust explosions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.9.3",
+    "strength": "helpful",
+    "why": "fine dust burns fast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.10.0",
+    "strength": "helpful",
+    "why": "temperature raises rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem9-s1.5.1",
+    "strength": "essential",
+    "why": "temperature and particle speed",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.0",
+    "strength": "helpful",
+    "why": "collisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem9-s1.5.1",
+    "strength": "helpful",
+    "why": "kinetic energy rises with temperature",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.10.2",
+    "strength": "essential",
+    "why": "collision frequency",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.10.3",
+    "strength": "essential",
+    "why": "fraction above Ea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.10.3",
+    "strength": "helpful",
+    "why": "energy of particles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem9-s1.5.1",
+    "strength": "helpful",
+    "why": "kinetic energy of particles",
+    "confidence": "low"
+   },
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "helpful",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.11.0",
+    "strength": "essential",
+    "why": "reading the distribution curve",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.11.1",
+    "strength": "essential",
+    "why": "area beyond Ea",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.10.3",
+    "strength": "helpful",
+    "why": "more energetic collisions at high temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.11.2",
+    "strength": "essential",
+    "why": "shifted distribution at higher temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.11.2",
+    "strength": "helpful",
+    "why": "fewer particles above Ea when cold",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.4.1",
+    "strength": "helpful",
+    "why": "food kept in fridge",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.5.3",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.10.3",
+    "strength": "helpful",
+    "why": "fraction of collisions above Ea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.12.0",
+    "strength": "essential",
+    "why": "catalyst not used up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem9-s3.0.0",
+    "strength": "helpful",
+    "why": "pressure and volume of a gas",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem17-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.13.0",
+    "strength": "essential",
+    "why": "pressure raises concentration",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.0",
+    "strength": "helpful",
+    "why": "collisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.13.0",
+    "strength": "helpful",
+    "why": "pressure affects gas concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem17-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.5.4",
+    "strength": "essential",
+    "why": "effective collision",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.14.0",
+    "strength": "essential",
+    "why": "orientation of collisions",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.5.5",
+    "strength": "helpful",
+    "why": "fraction of effective collisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.8.1",
+    "strength": "essential",
+    "why": "concentration raises rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem17-s1.14.2",
+    "strength": "essential",
+    "why": "surface sites fill up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.14.2",
+    "strength": "helpful",
+    "why": "sites all occupied",
+    "confidence": "high"
+   },
+   {
+    "id": "chem17-s1.12.1",
+    "strength": "helpful",
+    "why": "catalyst active sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.12.1",
+    "strength": "essential",
+    "why": "catalyst surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem17-s1.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem17-s1.14.5",
+    "strength": "essential",
+    "why": "poisoning of catalyst",
+    "confidence": "high"
+   }
+  ]
+ }
+}

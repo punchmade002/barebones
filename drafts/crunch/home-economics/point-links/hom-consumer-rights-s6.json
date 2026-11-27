@@ -1,0 +1,328 @@
+{
+"hom-consumer-rights-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s3.0.2",
+"strength": "helpful",
+"why": "retailer responsible for faulty goods",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s4.3.0",
+"strength": "helpful",
+"why": "repair, replacement or refund remedies",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s3.0.4",
+"strength": "helpful",
+"why": "guarantee versus statutory rights",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.1.b",
+"strength": "helpful",
+"why": "uses CCPC",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s5.5.2",
+"strength": "helpful",
+"why": "uses European Consumer Centre",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s4.3.3",
+"strength": "helpful",
+"why": "remedies for services",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.3.b",
+"strength": "helpful",
+"why": "uses small claims procedure",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.7.b",
+"strength": "helpful",
+"why": "uses the ASA",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.1.b",
+"strength": "helpful",
+"why": "uses CCPC",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.3.3",
+"strength": "helpful",
+"why": "ombudsman as last resort",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.3.4",
+"strength": "helpful",
+"why": "uses respondent term",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.3.4",
+"strength": "helpful",
+"why": "uses respondent term",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.4.2",
+"strength": "helpful",
+"why": "follows respondent response",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.4.2",
+"strength": "helpful",
+"why": "follows dispute response",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.4.4",
+"strength": "helpful",
+"why": "follows failed settlement",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.0.b",
+"strength": "helpful",
+"why": "steps already learned",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.0.1",
+"strength": "helpful",
+"why": "uses returning faulty goods step",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.0.4",
+"strength": "helpful",
+"why": "uses complaining in writing",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.4.0",
+"strength": "helpful",
+"why": "uses claim form step",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.4.5",
+"strength": "helpful",
+"why": "uses hearing step",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s6.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s6.3.1",
+"strength": "helpful",
+"why": "uses monetary limit",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s6.6.5": {
+"cost": 1,
+"needs": []
+}
+}

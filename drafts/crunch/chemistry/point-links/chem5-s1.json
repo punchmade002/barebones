@@ -1,0 +1,1411 @@
+{
+"chem5-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.17.0",
+"strength": "helpful",
+"why": "full outer level, noble gas",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.14.2",
+"strength": "helpful",
+"why": "outer (valence) electrons",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.6.4",
+"strength": "helpful",
+"why": "metals form positive ions",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.15.4",
+"strength": "helpful",
+"why": "sodium 2,8,1 arrangement",
+"confidence": "high"
+},
+{
+"id": "chem3-s1.15.6",
+"strength": "helpful",
+"why": "chlorine 2,8,7 arrangement",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.17.2",
+"strength": "helpful",
+"why": "metals form noble-gas ions",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.4": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "helpful",
+"why": "giant lattice of ions",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "essential",
+"why": "giant lattice, no single unit",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.5",
+"strength": "helpful",
+"why": "six-around-one lattice arrangement",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "shared pair is a covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "shared pair is a covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "shared pair is a covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bonding forms molecules",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.4",
+"strength": "helpful",
+"why": "molecules contrasted with giant structures",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent bond as shared pair",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "helpful",
+"why": "non-polar bond meaning",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "helpful",
+"why": "contrast with equal sharing",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.2",
+"strength": "essential",
+"why": "unequal sharing gives partial charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.2",
+"strength": "helpful",
+"why": "polar covalent bonds",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.1.0",
+"strength": "helpful",
+"why": "ionic bond end of scale",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "essential",
+"why": "equal sharing",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.2",
+"strength": "essential",
+"why": "unequal sharing",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.1",
+"strength": "helpful",
+"why": "electron transfer forms ions",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.3.0",
+"strength": "helpful",
+"why": "Cl-Cl pure covalent",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.3.2",
+"strength": "helpful",
+"why": "H-Cl polar covalent",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.1.0",
+"strength": "helpful",
+"why": "NaCl ionic",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.4.0",
+"strength": "essential",
+"why": "continuum of bond types",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.4.0",
+"strength": "helpful",
+"why": "continuum bond position",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.4.0",
+"strength": "helpful",
+"why": "continuum of bonding",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.1",
+"strength": "helpful",
+"why": "ionic transfer",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "covalent sharing",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.1",
+"strength": "helpful",
+"why": "metal gives to non-metal",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.0",
+"strength": "helpful",
+"why": "non-metals share",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.4",
+"strength": "helpful",
+"why": "ionic giant lattices",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.3.2",
+"strength": "helpful",
+"why": "polar covalent bonds",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.6.4",
+"strength": "helpful",
+"why": "metals conduct electricity",
+"confidence": "low"
+}
+]
+},
+"chem5-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.0.1",
+"strength": "helpful",
+"why": "bonding to reach full outer level",
+"confidence": "low"
+}
+]
+},
+"chem5-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.0.1",
+"strength": "essential",
+"why": "octet rule",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "octet contrasted with hydrogen",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.3",
+"strength": "essential",
+"why": "outer electrons from group number",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "reach an octet",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.3",
+"strength": "essential",
+"why": "outer electrons from group number",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "reach an octet",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.3",
+"strength": "essential",
+"why": "outer electrons from group number",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "reach an octet",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.3",
+"strength": "essential",
+"why": "outer electrons from group number",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "reach an octet",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "helpful",
+"why": "ion charges from group",
+"confidence": "low"
+}
+]
+},
+"chem5-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.7.0",
+"strength": "essential",
+"why": "ion charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.7.1",
+"strength": "essential",
+"why": "balance total charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.7.1",
+"strength": "essential",
+"why": "balance total charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.7.1",
+"strength": "essential",
+"why": "balance total charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.8.0": {
+"cost": 2,
+"needs": []
+},
+"chem5-s1.8.1": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.8.0",
+"strength": "helpful",
+"why": "compound ions",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "octet rule",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.0",
+"strength": "essential",
+"why": "valency as bonds made",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.0",
+"strength": "essential",
+"why": "valency as bonds made",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.0",
+"strength": "essential",
+"why": "valency as bonds made",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.2",
+"strength": "essential",
+"why": "double bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.0.2",
+"strength": "helpful",
+"why": "valence electrons shown",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "shared pair",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.0",
+"strength": "essential",
+"why": "dots and crosses for outer electrons",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.3",
+"strength": "essential",
+"why": "ionic Lewis format",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.10.1",
+"strength": "essential",
+"why": "shared pairs between atoms",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.10.2",
+"strength": "helpful",
+"why": "lone pairs on oxygen",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.2",
+"strength": "essential",
+"why": "lone pair",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "double bond",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.3",
+"strength": "helpful",
+"why": "triple bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.10.8": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.1",
+"strength": "helpful",
+"why": "shared pairs and lone pairs",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.4",
+"strength": "essential",
+"why": "orbital as region for an electron",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.11.0",
+"strength": "essential",
+"why": "overlapping orbitals",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.11.0",
+"strength": "essential",
+"why": "orbital overlap",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.12.0",
+"strength": "essential",
+"why": "head-on overlap forms sigma",
+"confidence": "high"
+},
+{
+"id": "chem3-s1.25.2",
+"strength": "helpful",
+"why": "p orbital shape",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.25.2",
+"strength": "essential",
+"why": "parallel p orbitals",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.12.0",
+"strength": "helpful",
+"why": "contrast with head-on",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.0",
+"strength": "essential",
+"why": "sigma bond",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.1",
+"strength": "helpful",
+"why": "single bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.0",
+"strength": "essential",
+"why": "sigma bond",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.12.2",
+"strength": "essential",
+"why": "pi bond",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "double bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.2",
+"strength": "essential",
+"why": "pi bond sideways overlap",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.12.0",
+"strength": "helpful",
+"why": "sigma head-on overlap",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.4",
+"strength": "helpful",
+"why": "double bond has a pi bond",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.12.2",
+"strength": "essential",
+"why": "pi bond",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.12.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.0",
+"strength": "helpful",
+"why": "sigma overlap",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.12.2",
+"strength": "helpful",
+"why": "pi overlap",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.12.2",
+"strength": "helpful",
+"why": "pi electrons",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.12.2",
+"strength": "essential",
+"why": "sideways p overlap",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.13.0",
+"strength": "essential",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.13.1",
+"strength": "essential",
+"why": "p orbital overlap round ring",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.13.2",
+"strength": "essential",
+"why": "delocalised pi ring",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.0",
+"strength": "essential",
+"why": "valency rules",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.3",
+"strength": "essential",
+"why": "group 1 and 17 valency",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.7.1",
+"strength": "essential",
+"why": "balancing ion charges",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.5",
+"strength": "essential",
+"why": "group 13 valency 3",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.5",
+"strength": "essential",
+"why": "group 15 valency 3",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.9.2",
+"strength": "helpful",
+"why": "NH3 analogue",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.4",
+"strength": "essential",
+"why": "group 16 valency 2",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.9.1",
+"strength": "helpful",
+"why": "H2O analogue",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "octet rule",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.6.1",
+"strength": "helpful",
+"why": "octet rule",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.5.0",
+"strength": "helpful",
+"why": "periods as rows",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.15.1",
+"strength": "helpful",
+"why": "expanded octet",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.0",
+"strength": "helpful",
+"why": "Lewis diagrams",
+"confidence": "low"
+}
+]
+},
+"chem5-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.13.0",
+"strength": "essential",
+"why": "delocalised bonding",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.4.0",
+"strength": "essential",
+"why": "bond continuum",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.16.1": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.0.2",
+"strength": "helpful",
+"why": "valence electrons",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "pairs repel",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.10.2",
+"strength": "essential",
+"why": "lone pairs",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.3",
+"strength": "essential",
+"why": "lone and bonding pairs",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.4",
+"strength": "essential",
+"why": "lone pairs repel more",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.3",
+"strength": "essential",
+"why": "lone pairs count in arrangement",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.9.2",
+"strength": "helpful",
+"why": "NH3 formula",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.10.0",
+"strength": "essential",
+"why": "Lewis diagram",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.3",
+"strength": "essential",
+"why": "bonding and lone pairs",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "pairs as far apart as possible",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.16.4",
+"strength": "helpful",
+"why": "lone pair angle adjustment",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.16.6",
+"strength": "helpful",
+"why": "shape named by atoms",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "pairs spread apart",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "pairs spread apart",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.15.0",
+"strength": "helpful",
+"why": "BF3 six electrons",
+"confidence": "low"
+}
+]
+},
+"chem5-s1.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "pairs spread apart",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.18.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.16.4",
+"strength": "essential",
+"why": "lone pair squeezes angle",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.16.6",
+"strength": "helpful",
+"why": "pyramidal naming",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.16.4",
+"strength": "essential",
+"why": "lone pairs squeeze angle",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.18.4",
+"strength": "essential",
+"why": "V-shape",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.18.2",
+"strength": "essential",
+"why": "tetrahedral CH4",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.16.4",
+"strength": "essential",
+"why": "lone pairs repel more",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.3",
+"strength": "helpful",
+"why": "NH3 shape",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.18.b",
+"strength": "helpful",
+"why": "shapes to draw",
+"confidence": "high"
+}
+]
+},
+"chem5-s1.20.1": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.20.2": {
+"cost": 1,
+"needs": []
+},
+"chem5-s1.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.18.b",
+"strength": "essential",
+"why": "the five shapes",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,408 @@
+{
+"hom-education-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.4.1",
+"strength": "helpful",
+"why": "CAO points system",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.0.0",
+"strength": "helpful",
+"why": "HEAR criteria",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.0.0",
+"strength": "helpful",
+"why": "HEAR entry route",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.4.1",
+"strength": "helpful",
+"why": "CAO points system",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.0.3",
+"strength": "helpful",
+"why": "DARE route",
+"confidence": "high"
+},
+{
+"id": "hom-education-s3.6.7",
+"strength": "helpful",
+"why": "assistive technology",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.4.2",
+"strength": "helpful",
+"why": "PLC courses",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.0.6": {
+"cost": 2,
+"needs": []
+},
+"hom-education-s5.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.4.3",
+"strength": "helpful",
+"why": "SUSI grants",
+"confidence": "high"
+},
+{
+"id": "hom-education-s3.4.4",
+"strength": "helpful",
+"why": "Free Fees Initiative",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s4.4.0",
+"strength": "helpful",
+"why": "early school leaving",
+"confidence": "low"
+}
+]
+},
+"hom-education-s5.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s5.1.0",
+"strength": "helpful",
+"why": "DEIS programme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.1.0",
+"strength": "helpful",
+"why": "DEIS programme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.1.2",
+"strength": "essential",
+"why": "School Completion Programme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.1.4",
+"strength": "essential",
+"why": "HSCL scheme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s4.4.0",
+"strength": "helpful",
+"why": "early school leaving",
+"confidence": "low"
+}
+]
+},
+"hom-education-s5.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.1.6",
+"strength": "essential",
+"why": "JCSP programme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.2.4",
+"strength": "helpful",
+"why": "Leaving Certificate Applied",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.2.5",
+"strength": "helpful",
+"why": "LCVP link modules",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s3.2.1",
+"strength": "helpful",
+"why": "Transition Year",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s4.2.2",
+"strength": "helpful",
+"why": "financial supports for families",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.6.b",
+"strength": "helpful",
+"why": "special needs supports",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s3.7.2",
+"strength": "helpful",
+"why": "exam accommodations",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.5.2",
+"strength": "helpful",
+"why": "Education and Training Boards",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.5.2",
+"strength": "helpful",
+"why": "Education and Training Boards",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.3.3",
+"strength": "helpful",
+"why": "VTOS scheme",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s4.2.2",
+"strength": "helpful",
+"why": "Back to Education Allowance",
+"confidence": "low"
+}
+]
+},
+"hom-education-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s5.4.0",
+"strength": "helpful",
+"why": "BTEA",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s3.5.2",
+"strength": "helpful",
+"why": "Education and Training Boards",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-education-s3.5.4",
+"strength": "helpful",
+"why": "adult literacy schemes",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s3.5.3",
+"strength": "helpful",
+"why": "SOLAS role",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-education-s5.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s5.1.0",
+"strength": "helpful",
+"why": "DEIS schools",
+"confidence": "high"
+},
+{
+"id": "hom-education-s5.3.0",
+"strength": "helpful",
+"why": "Youthreach early leavers",
+"confidence": "high"
+}
+]
+},
+"hom-education-s5.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-education-s5.0.0",
+"strength": "helpful",
+"why": "HEAR route",
+"confidence": "high"
+},
+{
+"id": "hom-education-s5.4.0",
+"strength": "helpful",
+"why": "BTEA for adults",
+"confidence": "high"
+}
+]
+}
+}

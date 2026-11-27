@@ -1,0 +1,196 @@
+{
+ "chem5-s2.0.b": {
+  "needs": []
+ },
+ "chem5-s2.0.0": {
+  "needs": []
+ },
+ "chem5-s2.0.1": {
+  "needs": []
+ },
+ "chem5-s2.0.2": {
+  "needs": []
+ },
+ "chem5-s2.0.3": {
+  "needs": []
+ },
+ "chem5-s2.0.4": {
+  "needs": []
+ },
+ "chem5-s2.0.5": {
+  "needs": []
+ },
+ "chem5-s2.0.6": {
+  "needs": []
+ },
+ "chem5-s2.1.b": {
+  "needs": []
+ },
+ "chem5-s2.1.0": {
+  "needs": []
+ },
+ "chem5-s2.2.b": {
+  "needs": []
+ },
+ "chem5-s2.2.0": {
+  "needs": []
+ },
+ "chem5-s2.2.1": {
+  "needs": []
+ },
+ "chem5-s2.2.2": {
+  "needs": []
+ },
+ "chem5-s2.2.3": {
+  "needs": []
+ },
+ "chem5-s2.2.4": {
+  "needs": []
+ },
+ "chem5-s2.3.b": {
+  "needs": []
+ },
+ "chem5-s2.3.0": {
+  "needs": []
+ },
+ "chem5-s2.3.1": {
+  "needs": []
+ },
+ "chem5-s2.3.2": {
+  "needs": []
+ },
+ "chem5-s2.3.3": {
+  "needs": []
+ },
+ "chem5-s2.3.4": {
+  "needs": []
+ },
+ "chem5-s2.3.5": {
+  "needs": []
+ },
+ "chem5-s2.3.6": {
+  "needs": []
+ },
+ "chem5-s2.4.b": {
+  "needs": []
+ },
+ "chem5-s2.4.0": {
+  "needs": []
+ },
+ "chem5-s2.4.1": {
+  "needs": []
+ },
+ "chem5-s2.4.2": {
+  "needs": []
+ },
+ "chem5-s2.4.3": {
+  "needs": []
+ },
+ "chem5-s2.4.4": {
+  "needs": []
+ },
+ "chem5-s2.4.5": {
+  "needs": []
+ },
+ "chem5-s2.4.6": {
+  "needs": []
+ },
+ "chem5-s2.5.b": {
+  "needs": []
+ },
+ "chem5-s2.5.0": {
+  "needs": []
+ },
+ "chem5-s2.5.1": {
+  "needs": []
+ },
+ "chem5-s2.5.2": {
+  "needs": []
+ },
+ "chem5-s2.5.3": {
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "helpful",
+    "why": "reduction as electron gain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem5-s2.5.4": {
+  "needs": []
+ },
+ "chem5-s2.5.5": {
+  "needs": []
+ },
+ "chem5-s2.6.b": {
+  "needs": []
+ },
+ "chem5-s2.6.0": {
+  "needs": []
+ },
+ "chem5-s2.6.1": {
+  "needs": []
+ },
+ "chem5-s2.6.2": {
+  "needs": []
+ },
+ "chem5-s2.6.3": {
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "helpful",
+    "why": "oxidising agent meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem5-s2.7.b": {
+  "needs": []
+ },
+ "chem5-s2.7.0": {
+  "needs": []
+ },
+ "chem5-s2.7.1": {
+  "needs": []
+ },
+ "chem5-s2.7.2": {
+  "needs": []
+ },
+ "chem5-s2.7.3": {
+  "needs": []
+ },
+ "chem5-s2.7.4": {
+  "needs": []
+ },
+ "chem5-s2.7.5": {
+  "needs": []
+ },
+ "chem5-s2.7.6": {
+  "needs": []
+ },
+ "chem5-s2.8.b": {
+  "needs": []
+ },
+ "chem5-s2.8.0": {
+  "needs": []
+ },
+ "chem5-s2.8.1": {
+  "needs": []
+ },
+ "chem5-s2.8.2": {
+  "needs": []
+ },
+ "chem5-s2.8.3": {
+  "needs": []
+ },
+ "chem5-s2.8.4": {
+  "needs": []
+ },
+ "chem5-s2.8.5": {
+  "needs": []
+ },
+ "chem5-s2.8.6": {
+  "needs": []
+ }
+}

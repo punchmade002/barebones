@@ -1,0 +1,414 @@
+{
+ "hom-personal-finance-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.0.5",
+    "strength": "helpful",
+    "why": "direct debit contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.0.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.0.0",
+    "strength": "helpful",
+    "why": "cash leaves no record",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.0.2",
+    "strength": "helpful",
+    "why": "debit card spending control",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.2.b",
+    "strength": "helpful",
+    "why": "credit spreads cost",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.0.3",
+    "strength": "helpful",
+    "why": "credit card basics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.2.0",
+    "strength": "helpful",
+    "why": "contrast with credit card",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.2.0",
+    "strength": "helpful",
+    "why": "credit card comparison",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.2.4",
+    "strength": "essential",
+    "why": "loan basics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.2.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.3.1",
+    "strength": "helpful",
+    "why": "ownership stays with finance company",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.3.2",
+    "strength": "essential",
+    "why": "one-third repossession rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.0",
+    "strength": "essential",
+    "why": "cash price",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-personal-finance-s3.4.1",
+    "strength": "essential",
+    "why": "total amount repayable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.2",
+    "strength": "essential",
+    "why": "cost of credit calculation",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-personal-finance-s3.4.1",
+    "strength": "essential",
+    "why": "adding all payments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.2",
+    "strength": "helpful",
+    "why": "extra cost of credit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.1.6",
+    "strength": "helpful",
+    "why": "impulse buying",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.0.4",
+    "strength": "helpful",
+    "why": "needs versus wants",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.3",
+    "strength": "helpful",
+    "why": "APR meaning",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-personal-finance-s3.4.2",
+    "strength": "helpful",
+    "why": "cost of credit",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.3.1",
+    "strength": "helpful",
+    "why": "hire purchase ownership",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s2.2.b",
+    "strength": "helpful",
+    "why": "household budget",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.3",
+    "strength": "helpful",
+    "why": "APR meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-personal-finance-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.4.3",
+    "strength": "helpful",
+    "why": "APR meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.3.2",
+    "strength": "helpful",
+    "why": "one-third repossession rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-personal-finance-s3.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s2.6.0",
+    "strength": "helpful",
+    "why": "what MABS is",
+    "confidence": "low"
+   }
+  ]
+ }
+}

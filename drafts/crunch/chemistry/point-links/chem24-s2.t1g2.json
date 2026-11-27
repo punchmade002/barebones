@@ -1,0 +1,607 @@
+{
+ "chem24-s2.0.b": {
+  "needs": []
+ },
+ "chem24-s2.0.0": {
+  "needs": [
+   {
+    "id": "chem5-s1.2.0",
+    "strength": "helpful",
+    "why": "covalent bond as shared pair",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.1": {
+  "needs": []
+ },
+ "chem24-s2.0.2": {
+  "needs": []
+ },
+ "chem24-s2.0.3": {
+  "needs": [
+   {
+    "id": "chem5-s1.3.2",
+    "strength": "helpful",
+    "why": "polar covalent bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.0.4": {
+  "needs": [
+   {
+    "id": "chem5-s1.10.2",
+    "strength": "helpful",
+    "why": "lone pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.b": {
+  "needs": []
+ },
+ "chem24-s2.1.0": {
+  "needs": []
+ },
+ "chem24-s2.1.1": {
+  "needs": [
+   {
+    "id": "chem5-s1.3.2",
+    "strength": "helpful",
+    "why": "polar covalent bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.1.2": {
+  "needs": []
+ },
+ "chem24-s2.1.3": {
+  "needs": []
+ },
+ "chem24-s2.1.4": {
+  "needs": []
+ },
+ "chem24-s2.1.5": {
+  "needs": []
+ },
+ "chem24-s2.2.b": {
+  "needs": []
+ },
+ "chem24-s2.2.0": {
+  "needs": []
+ },
+ "chem24-s2.2.1": {
+  "needs": []
+ },
+ "chem24-s2.2.2": {
+  "needs": []
+ },
+ "chem24-s2.2.3": {
+  "needs": []
+ },
+ "chem24-s2.3.b": {
+  "needs": []
+ },
+ "chem24-s2.3.0": {
+  "needs": []
+ },
+ "chem24-s2.3.1": {
+  "needs": []
+ },
+ "chem24-s2.3.2": {
+  "needs": []
+ },
+ "chem24-s2.3.3": {
+  "needs": []
+ },
+ "chem24-s2.3.4": {
+  "needs": []
+ },
+ "chem24-s2.3.5": {
+  "needs": []
+ },
+ "chem24-s2.4.b": {
+  "needs": []
+ },
+ "chem24-s2.4.0": {
+  "needs": []
+ },
+ "chem24-s2.4.1": {
+  "needs": []
+ },
+ "chem24-s2.4.2": {
+  "needs": []
+ },
+ "chem24-s2.5.b": {
+  "needs": []
+ },
+ "chem24-s2.5.0": {
+  "needs": []
+ },
+ "chem24-s2.5.1": {
+  "needs": []
+ },
+ "chem24-s2.5.2": {
+  "needs": []
+ },
+ "chem24-s2.5.3": {
+  "needs": []
+ },
+ "chem24-s2.6.b": {
+  "needs": []
+ },
+ "chem24-s2.6.0": {
+  "needs": []
+ },
+ "chem24-s2.6.1": {
+  "needs": []
+ },
+ "chem24-s2.6.2": {
+  "needs": []
+ },
+ "chem24-s2.6.3": {
+  "needs": []
+ },
+ "chem24-s2.7.b": {
+  "needs": []
+ },
+ "chem24-s2.7.0": {
+  "needs": []
+ },
+ "chem24-s2.7.1": {
+  "needs": []
+ },
+ "chem24-s2.7.2": {
+  "needs": []
+ },
+ "chem24-s2.8.b": {
+  "needs": []
+ },
+ "chem24-s2.8.0": {
+  "needs": []
+ },
+ "chem24-s2.8.1": {
+  "needs": []
+ },
+ "chem24-s2.8.2": {
+  "needs": []
+ },
+ "chem24-s2.9.b": {
+  "needs": []
+ },
+ "chem24-s2.9.0": {
+  "needs": []
+ },
+ "chem24-s2.9.1": {
+  "needs": []
+ },
+ "chem24-s2.9.2": {
+  "needs": []
+ },
+ "chem24-s2.9.3": {
+  "needs": []
+ },
+ "chem24-s2.9.4": {
+  "needs": []
+ },
+ "chem24-s2.9.5": {
+  "needs": []
+ },
+ "chem24-s2.10.b": {
+  "needs": []
+ },
+ "chem24-s2.10.0": {
+  "needs": []
+ },
+ "chem24-s2.10.1": {
+  "needs": []
+ },
+ "chem24-s2.10.2": {
+  "needs": []
+ },
+ "chem24-s2.10.3": {
+  "needs": []
+ },
+ "chem24-s2.10.4": {
+  "needs": []
+ },
+ "chem24-s2.10.5": {
+  "needs": []
+ },
+ "chem24-s2.10.6": {
+  "needs": []
+ },
+ "chem24-s2.11.b": {
+  "needs": []
+ },
+ "chem24-s2.11.0": {
+  "needs": []
+ },
+ "chem24-s2.11.1": {
+  "needs": []
+ },
+ "chem24-s2.11.2": {
+  "needs": []
+ },
+ "chem24-s2.11.3": {
+  "needs": []
+ },
+ "chem24-s2.11.4": {
+  "needs": []
+ },
+ "chem24-s2.12.b": {
+  "needs": []
+ },
+ "chem24-s2.12.0": {
+  "needs": []
+ },
+ "chem24-s2.12.1": {
+  "needs": []
+ },
+ "chem24-s2.12.2": {
+  "needs": []
+ },
+ "chem24-s2.12.3": {
+  "needs": []
+ },
+ "chem24-s2.12.4": {
+  "needs": []
+ },
+ "chem24-s2.13.b": {
+  "needs": [
+   {
+    "id": "chem11-s2.2.1",
+    "strength": "helpful",
+    "why": "Bronsted-Lowry acid as proton donor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.0": {
+  "needs": [
+   {
+    "id": "chem11-s2.2.1",
+    "strength": "essential",
+    "why": "Bronsted-Lowry acid is a proton donor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.1": {
+  "needs": [
+   {
+    "id": "chem5-s1.3.2",
+    "strength": "helpful",
+    "why": "polar covalent bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.2": {
+  "needs": [
+   {
+    "id": "chem11-s2.2.1",
+    "strength": "essential",
+    "why": "base is a proton acceptor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.3": {
+  "needs": [
+   {
+    "id": "chem5-s1.3.1",
+    "strength": "helpful",
+    "why": "C-H bond nearly non-polar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.4": {
+  "needs": []
+ },
+ "chem24-s2.13.5": {
+  "needs": [
+   {
+    "id": "chem11-s2.4.0",
+    "strength": "essential",
+    "why": "conjugate base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.13.6": {
+  "needs": [
+   {
+    "id": "chem11-s2.7.0",
+    "strength": "helpful",
+    "why": "stronger acid has weaker conjugate base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.b": {
+  "needs": []
+ },
+ "chem24-s2.14.0": {
+  "needs": [
+   {
+    "id": "chem11-s2.4.0",
+    "strength": "helpful",
+    "why": "conjugate base of an acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.14.1": {
+  "needs": [
+   {
+    "id": "chem5-s1.13.0",
+    "strength": "helpful",
+    "why": "delocalised charge versus localised",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.14.2": {
+  "needs": []
+ },
+ "chem24-s2.14.3": {
+  "needs": []
+ },
+ "chem24-s2.14.4": {
+  "needs": [
+   {
+    "id": "chem11-s2.7.0",
+    "strength": "helpful",
+    "why": "weak acid has strong conjugate base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.15.b": {
+  "needs": []
+ },
+ "chem24-s2.15.0": {
+  "needs": []
+ },
+ "chem24-s2.15.1": {
+  "needs": []
+ },
+ "chem24-s2.15.2": {
+  "needs": []
+ },
+ "chem24-s2.15.3": {
+  "needs": []
+ },
+ "chem24-s2.16.b": {
+  "needs": []
+ },
+ "chem24-s2.16.0": {
+  "needs": [
+   {
+    "id": "chem19-s2.8.0",
+    "strength": "helpful",
+    "why": "acid dissociation equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.1": {
+  "needs": [
+   {
+    "id": "chem19-s2.8.1",
+    "strength": "helpful",
+    "why": "ethanoic acid dissociation equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.2": {
+  "needs": [
+   {
+    "id": "chem5-s1.13.0",
+    "strength": "helpful",
+    "why": "delocalised electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.16.3": {
+  "needs": []
+ },
+ "chem24-s2.17.b": {
+  "needs": []
+ },
+ "chem24-s2.17.0": {
+  "needs": [
+   {
+    "id": "chem5-s1.13.3",
+    "strength": "helpful",
+    "why": "bond lengths equal and intermediate",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s2.17.1": {
+  "needs": []
+ },
+ "chem24-s2.17.2": {
+  "needs": []
+ },
+ "chem24-s2.17.3": {
+  "needs": []
+ },
+ "chem24-s2.17.4": {
+  "needs": []
+ },
+ "chem24-s2.18.b": {
+  "needs": []
+ },
+ "chem24-s2.18.0": {
+  "needs": []
+ },
+ "chem24-s2.18.1": {
+  "needs": []
+ },
+ "chem24-s2.18.2": {
+  "needs": []
+ },
+ "chem24-s2.18.3": {
+  "needs": []
+ },
+ "chem24-s2.18.4": {
+  "needs": []
+ },
+ "chem24-s2.18.5": {
+  "needs": []
+ },
+ "chem24-s2.19.b": {
+  "needs": [
+   {
+    "id": "chem19-s2.11.0",
+    "strength": "helpful",
+    "why": "Ka measures acid strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.0": {
+  "needs": []
+ },
+ "chem24-s2.19.1": {
+  "needs": []
+ },
+ "chem24-s2.19.2": {
+  "needs": [
+   {
+    "id": "chem19-s2.11.0",
+    "strength": "helpful",
+    "why": "Ka measures acid strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.3": {
+  "needs": [
+   {
+    "id": "chem19-s2.11.0",
+    "strength": "helpful",
+    "why": "Ka measures acid strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.19.4": {
+  "needs": [
+   {
+    "id": "chem19-s2.11.0",
+    "strength": "helpful",
+    "why": "larger Ka stronger acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.b": {
+  "needs": [
+   {
+    "id": "chem19-s2.13.0",
+    "strength": "helpful",
+    "why": "degree of dissociation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.0": {
+  "needs": [
+   {
+    "id": "chem11-s2.8.2",
+    "strength": "helpful",
+    "why": "weak acid partial dissociation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.1": {
+  "needs": [
+   {
+    "id": "chem19-s2.14.2",
+    "strength": "essential",
+    "why": "degree of dissociation formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.2": {
+  "needs": [
+   {
+    "id": "chem19-s2.13.0",
+    "strength": "helpful",
+    "why": "dissociated fraction gives H+ concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.3": {
+  "needs": [
+   {
+    "id": "chem19-s2.0.b",
+    "strength": "essential",
+    "why": "pH = -log[H+]",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.20.4": {
+  "needs": []
+ },
+ "chem24-s2.20.5": {
+  "needs": [
+   {
+    "id": "chem19-s2.11.0",
+    "strength": "helpful",
+    "why": "Ka as measure of acid strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.b": {
+  "needs": []
+ },
+ "chem24-s2.21.0": {
+  "needs": []
+ },
+ "chem24-s2.21.1": {
+  "needs": [
+   {
+    "id": "chem11-s2.0.2",
+    "strength": "helpful",
+    "why": "neutralisation of acid by base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s2.21.2": {
+  "needs": []
+ },
+ "chem24-s2.21.3": {
+  "needs": []
+ },
+ "chem24-s2.21.4": {
+  "needs": []
+ },
+ "chem24-s2.21.5": {
+  "needs": []
+ },
+ "chem24-s2.22.b": {
+  "needs": []
+ },
+ "chem24-s2.22.0": {
+  "needs": []
+ },
+ "chem24-s2.22.1": {
+  "needs": []
+ }
+}

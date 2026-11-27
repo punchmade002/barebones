@@ -1,0 +1,427 @@
+{
+ "hom-food-preservation-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.0.0",
+    "strength": "helpful",
+    "why": "reduced waste",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "food poisoning micro-organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "bacteria cause putrefaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "micro-organisms speed with warmth",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes speed with warmth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "micro-organisms carried onto food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.2.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "warmth condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "time condition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "moulds and yeasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "moulds and yeasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "moisture condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.3.2",
+    "strength": "helpful",
+    "why": "moulds spread by spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.4.b",
+    "strength": "helpful",
+    "why": "partially permeable membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.4.0",
+    "strength": "helpful",
+    "why": "water leaving the cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.4.b",
+    "strength": "helpful",
+    "why": "osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "conditions micro-organisms need",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.1",
+    "strength": "helpful",
+    "why": "micro-organisms destroyed",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-preservation-s1.1.0",
+    "strength": "helpful",
+    "why": "enzymes inactivated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.1",
+    "strength": "helpful",
+    "why": "temperature and growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.4.b",
+    "strength": "essential",
+    "why": "osmosis draws water out",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-preservation-s1.2.6",
+    "strength": "helpful",
+    "why": "water needed for growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "pH condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-preservation-s1.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.2.0",
+    "strength": "helpful",
+    "why": "oxygen condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.1.6",
+    "strength": "helpful",
+    "why": "poor hygiene contaminates food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.0",
+    "strength": "helpful",
+    "why": "heat principle",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-preservation-s1.5.2",
+    "strength": "helpful",
+    "why": "sugar and osmosis",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-food-preservation-s1.5.3",
+    "strength": "helpful",
+    "why": "acid principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-preservation-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.1",
+    "strength": "helpful",
+    "why": "low temperature principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.0",
+    "strength": "helpful",
+    "why": "heat principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.2",
+    "strength": "helpful",
+    "why": "water removal principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.4",
+    "strength": "helpful",
+    "why": "chemical preservatives",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-preservation-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s1.5.3",
+    "strength": "helpful",
+    "why": "fermentation acids",
+    "confidence": "low"
+   }
+  ]
+ }
+}

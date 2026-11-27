@@ -1,0 +1,219 @@
+{
+"hom-cooking-methods-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s5.6.0",
+"strength": "helpful",
+"why": "key equipment in planning",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s7.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.b",
+"strength": "helpful",
+"why": "safety and hygiene rules",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s7.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.0.7": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s6.7.b",
+"strength": "helpful",
+"why": "meal planning for nutritional needs",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s7.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s6.0.b",
+"strength": "helpful",
+"why": "meal-planning guidelines",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s6.1.b",
+"strength": "helpful",
+"why": "modified dishes",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s5.6.0",
+"strength": "helpful",
+"why": "skill or equipment research",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s7.2.2": {
+"cost": 2,
+"needs": []
+},
+"hom-cooking-methods-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.2.4": {
+"cost": 2,
+"needs": []
+},
+"hom-cooking-methods-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s6.6.7",
+"strength": "helpful",
+"why": "older people's needs",
+"confidence": "high"
+},
+{
+"id": "hom-cooking-methods-s6.7.b",
+"strength": "helpful",
+"why": "special diets",
+"confidence": "high"
+}
+]
+},
+"hom-cooking-methods-s7.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s6.6.b",
+"strength": "helpful",
+"why": "meal-planning factors",
+"confidence": "low"
+}
+]
+},
+"hom-cooking-methods-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.4.3": {
+"cost": 2,
+"needs": []
+},
+"hom-cooking-methods-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.5.1": {
+"cost": 2,
+"needs": []
+},
+"hom-cooking-methods-s7.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cooking-methods-s7.5.3": {
+"cost": 2,
+"needs": []
+}
+}

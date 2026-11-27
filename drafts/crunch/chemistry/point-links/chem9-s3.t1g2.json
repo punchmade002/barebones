@@ -1,0 +1,410 @@
+{
+"chem9-s3.0.b": {
+"needs": []
+},
+"chem9-s3.0.0": {
+"needs": [
+{
+"id": "chem1-s4.6.0",
+"strength": "helpful",
+"why": "inversely proportional",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.0.1": {
+"needs": []
+},
+"chem9-s3.0.2": {
+"needs": []
+},
+"chem9-s3.0.3": {
+"needs": []
+},
+"chem9-s3.0.4": {
+"needs": []
+},
+"chem9-s3.0.5": {
+"needs": []
+},
+"chem9-s3.1.b": {
+"needs": []
+},
+"chem9-s3.1.0": {
+"needs": [
+{
+"id": "chem1-s4.6.0",
+"strength": "helpful",
+"why": "directly proportional",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.1.1": {
+"needs": []
+},
+"chem9-s3.1.2": {
+"needs": []
+},
+"chem9-s3.1.3": {
+"needs": []
+},
+"chem9-s3.1.4": {
+"needs": []
+},
+"chem9-s3.2.b": {
+"needs": []
+},
+"chem9-s3.2.0": {
+"needs": [
+{
+"id": "chem1-s4.6.0",
+"strength": "helpful",
+"why": "directly proportional",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.2.1": {
+"needs": []
+},
+"chem9-s3.2.2": {
+"needs": []
+},
+"chem9-s3.3.b": {
+"needs": []
+},
+"chem9-s3.3.0": {
+"needs": [
+{
+"id": "chem1-s4.0.3",
+"strength": "helpful",
+"why": "kelvin and Celsius scales",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.3.1": {
+"needs": []
+},
+"chem9-s3.3.2": {
+"needs": []
+},
+"chem9-s3.4.b": {
+"needs": [
+{
+"id": "chem1-s4.6.0",
+"strength": "helpful",
+"why": "what proportional means on a graph",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.4.0": {
+"needs": [
+{
+"id": "chem1-s4.5.0",
+"strength": "helpful",
+"why": "labelling graph axes with units",
+"confidence": "high"
+},
+{
+"id": "chem1-s4.6.0",
+"strength": "essential",
+"why": "straight line through origin means proportional",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.5.b": {
+"needs": []
+},
+"chem9-s3.5.0": {
+"needs": []
+},
+"chem9-s3.5.1": {
+"needs": []
+},
+"chem9-s3.5.2": {
+"needs": []
+},
+"chem9-s3.5.3": {
+"needs": []
+},
+"chem9-s3.5.4": {
+"needs": []
+},
+"chem9-s3.5.5": {
+"needs": []
+},
+"chem9-s3.5.6": {
+"needs": []
+},
+"chem9-s3.6.b": {
+"needs": []
+},
+"chem9-s3.6.0": {
+"needs": []
+},
+"chem9-s3.6.1": {
+"needs": []
+},
+"chem9-s3.6.2": {
+"needs": []
+},
+"chem9-s3.6.3": {
+"needs": []
+},
+"chem9-s3.6.4": {
+"needs": []
+},
+"chem9-s3.7.b": {
+"needs": []
+},
+"chem9-s3.7.0": {
+"needs": [
+{
+"id": "chem1-s4.0.0",
+"strength": "helpful",
+"why": "SI units pascal and cubic metre",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.7.1": {
+"needs": [
+{
+"id": "chem1-s4.0.0",
+"strength": "helpful",
+"why": "SI derived units",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.7.2": {
+"needs": []
+},
+"chem9-s3.7.3": {
+"needs": []
+},
+"chem9-s3.8.b": {
+"needs": [
+{
+"id": "chem1-s4.0.5",
+"strength": "helpful",
+"why": "converting units with conversion factors",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.8.0": {
+"needs": [
+{
+"id": "chem1-s4.0.4",
+"strength": "essential",
+"why": "kPa to Pa",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.8.1": {
+"needs": [
+{
+"id": "chem1-s4.0.1",
+"strength": "essential",
+"why": "cm³ to larger volume units",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.8.2": {
+"needs": [
+{
+"id": "chem1-s4.0.1",
+"strength": "essential",
+"why": "litre and cubic metre relations",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.8.3": {
+"needs": [
+{
+"id": "chem1-s4.0.3",
+"strength": "essential",
+"why": "°C to K conversion",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.9.b": {
+"needs": []
+},
+"chem9-s3.9.0": {
+"needs": []
+},
+"chem9-s3.9.1": {
+"needs": []
+},
+"chem9-s3.9.2": {
+"needs": []
+},
+"chem9-s3.9.3": {
+"needs": [
+{
+"id": "chem1-s4.6.6",
+"strength": "helpful",
+"why": "rearranging equations",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.9.4": {
+"needs": [
+{
+"id": "chem1-s4.1.8",
+"strength": "helpful",
+"why": "significant figures",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.9.5": {
+"needs": [
+{
+"id": "chem1-s4.0.1",
+"strength": "helpful",
+"why": "m³ to litres",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.10.b": {
+"needs": []
+},
+"chem9-s3.10.0": {
+"needs": []
+},
+"chem9-s3.10.1": {
+"needs": []
+},
+"chem9-s3.10.2": {
+"needs": [
+{
+"id": "chem1-s4.6.6",
+"strength": "helpful",
+"why": "rearranging equations",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.10.3": {
+"needs": [
+{
+"id": "chem1-s4.1.8",
+"strength": "helpful",
+"why": "significant figures",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.11.b": {
+"needs": []
+},
+"chem9-s3.11.0": {
+"needs": []
+},
+"chem9-s3.11.1": {
+"needs": []
+},
+"chem9-s3.11.2": {
+"needs": []
+},
+"chem9-s3.11.3": {
+"needs": [
+{
+"id": "chem1-s4.1.8",
+"strength": "helpful",
+"why": "significant figures",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.11.4": {
+"needs": []
+},
+"chem9-s3.11.5": {
+"needs": []
+},
+"chem9-s3.12.b": {
+"needs": []
+},
+"chem9-s3.12.0": {
+"needs": []
+},
+"chem9-s3.12.1": {
+"needs": []
+},
+"chem9-s3.12.2": {
+"needs": [
+{
+"id": "chem1-s4.6.6",
+"strength": "helpful",
+"why": "rearranging equations",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.12.3": {
+"needs": [
+{
+"id": "chem1-s4.1.8",
+"strength": "helpful",
+"why": "significant figures",
+"confidence": "high"
+}
+]
+},
+"chem9-s3.13.b": {
+"needs": []
+},
+"chem9-s3.13.0": {
+"needs": []
+},
+"chem9-s3.13.1": {
+"needs": []
+},
+"chem9-s3.14.b": {
+"needs": []
+},
+"chem9-s3.14.0": {
+"needs": []
+},
+"chem9-s3.14.1": {
+"needs": []
+},
+"chem9-s3.14.2": {
+"needs": []
+},
+"chem9-s3.14.3": {
+"needs": []
+},
+"chem9-s3.14.4": {
+"needs": []
+},
+"chem9-s3.14.5": {
+"needs": []
+},
+"chem9-s3.14.6": {
+"needs": []
+},
+"chem9-s3.15.b": {
+"needs": []
+},
+"chem9-s3.15.0": {
+"needs": []
+},
+"chem9-s3.15.1": {
+"needs": []
+}
+}

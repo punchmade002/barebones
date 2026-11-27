@@ -1,0 +1,277 @@
+{
+ "hom-housing-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s6.0.1",
+    "strength": "helpful",
+    "why": "aspect and solar heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.0.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s3.7.0",
+    "strength": "helpful",
+    "why": "bungalow vs two-storey suitability",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-housing-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s3.8.0",
+    "strength": "helpful",
+    "why": "family size decides bedrooms and space",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s4.1.2",
+    "strength": "helpful",
+    "why": "adaptations for wheelchair users",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.2.0",
+    "strength": "helpful",
+    "why": "planning permission required",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.2.1",
+    "strength": "essential",
+    "why": "outline permission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.2.1",
+    "strength": "essential",
+    "why": "outline permission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-housing-s5.2.3",
+    "strength": "helpful",
+    "why": "full permission contents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.4.0",
+    "strength": "helpful",
+    "why": "local development plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.3.5",
+    "strength": "helpful",
+    "why": "refusal of permission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.3.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-housing-s5.2.3",
+    "strength": "helpful",
+    "why": "planning application contents",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-housing-s5.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-housing-s5.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.5.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-housing-s5.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s6.2.4",
+    "strength": "helpful",
+    "why": "BER assessor role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-housing-s5.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-housing-s5.5.0",
+    "strength": "helpful",
+    "why": "architect role",
+    "confidence": "high"
+   }
+  ]
+ }
+}

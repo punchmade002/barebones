@@ -1,0 +1,252 @@
+{
+ "hom-unemployment-poverty-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "helpful",
+    "why": "paid employment condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "essential",
+    "why": "available-for-work condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "essential",
+    "why": "actively-seeking-work condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "essential",
+    "why": "availability and seeking conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "helpful",
+    "why": "paid employment condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "helpful",
+    "why": "who counts as employed or unemployed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.0",
+    "strength": "essential",
+    "why": "labour force definition",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-unemployment-poverty-s1.0.0",
+    "strength": "helpful",
+    "why": "unemployed people definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.1",
+    "strength": "helpful",
+    "why": "unemployment rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.1",
+    "strength": "helpful",
+    "why": "unemployment rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.3",
+    "strength": "helpful",
+    "why": "official measure it is contrasted with",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.2.0",
+    "strength": "helpful",
+    "why": "short-term unemployment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.2.0",
+    "strength": "helpful",
+    "why": "contrast with short-term",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.2.2",
+    "strength": "essential",
+    "why": "long-term unemployment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.3",
+    "strength": "helpful",
+    "why": "Labour Force Survey and standardised rate",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-unemployment-poverty-s1.1.4",
+    "strength": "helpful",
+    "why": "Live Register",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.3.1",
+    "strength": "helpful",
+    "why": "downturn job losses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.1",
+    "strength": "helpful",
+    "why": "unemployment rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.1.0",
+    "strength": "essential",
+    "why": "labour force definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s1.2.2",
+    "strength": "helpful",
+    "why": "long-term unemployment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s1.3.7": {
+  "cost": 1,
+  "needs": []
+ }
+}

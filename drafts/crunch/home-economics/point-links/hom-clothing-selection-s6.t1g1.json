@@ -1,0 +1,328 @@
+{
+ "hom-clothing-selection-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.0.0",
+    "strength": "helpful",
+    "why": "designers and manufacturers roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.0.0",
+    "strength": "helpful",
+    "why": "distributors and retailers role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.1.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s3.1.2",
+    "strength": "helpful",
+    "why": "celebrity influence on style",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.3.4",
+    "strength": "helpful",
+    "why": "recognised Irish products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.0.4",
+    "strength": "helpful",
+    "why": "employment and export income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.0.6",
+    "strength": "helpful",
+    "why": "Local Enterprise Offices support",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.0.5",
+    "strength": "helpful",
+    "why": "ranges for high street stores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s3.1.3",
+    "strength": "helpful",
+    "why": "fashion weeks and collections",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s3.1.0",
+    "strength": "helpful",
+    "why": "social media spreads trends",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-clothing-selection-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-clothing-selection-s6.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-clothing-selection-s6.7.0",
+    "strength": "helpful",
+    "why": "careers to choose from",
+    "confidence": "high"
+   }
+  ]
+ }
+}

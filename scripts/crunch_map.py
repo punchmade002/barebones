@@ -177,6 +177,7 @@ def higher_questions(subject):
     refs = json.loads(refs_file.read_text()) if refs_file.exists() else {}
     for q in qs:
         for p in q["parts"]:
+            p["marks"] = p.get("marks") or 0  # a few off-spec parts have no marks
             if not p.get("notesRefs") and p["label"] in refs.get(q["id"], {}):
                 p["notesRefs"] = refs[q["id"]][p["label"]]
     return [q for q in qs if q.get("level", "higher" if "-HI-" in q["id"] else "") == "higher"]

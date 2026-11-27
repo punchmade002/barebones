@@ -1,0 +1,503 @@
+{
+ "chem25-s1.0.b": {
+  "needs": []
+ },
+ "chem25-s1.0.0": {
+  "needs": []
+ },
+ "chem25-s1.0.1": {
+  "needs": []
+ },
+ "chem25-s1.0.2": {
+  "needs": []
+ },
+ "chem25-s1.0.3": {
+  "needs": []
+ },
+ "chem25-s1.0.4": {
+  "needs": []
+ },
+ "chem25-s1.0.5": {
+  "needs": []
+ },
+ "chem25-s1.0.6": {
+  "needs": []
+ },
+ "chem25-s1.0.7": {
+  "needs": []
+ },
+ "chem25-s1.1.b": {
+  "needs": []
+ },
+ "chem25-s1.1.0": {
+  "needs": []
+ },
+ "chem25-s1.1.1": {
+  "needs": []
+ },
+ "chem25-s1.1.2": {
+  "needs": []
+ },
+ "chem25-s1.1.3": {
+  "needs": []
+ },
+ "chem25-s1.1.4": {
+  "needs": []
+ },
+ "chem25-s1.1.5": {
+  "needs": []
+ },
+ "chem25-s1.1.6": {
+  "needs": []
+ },
+ "chem25-s1.1.7": {
+  "needs": []
+ },
+ "chem25-s1.2.b": {
+  "needs": []
+ },
+ "chem25-s1.2.0": {
+  "needs": []
+ },
+ "chem25-s1.2.1": {
+  "needs": []
+ },
+ "chem25-s1.2.2": {
+  "needs": []
+ },
+ "chem25-s1.2.3": {
+  "needs": []
+ },
+ "chem25-s1.2.4": {
+  "needs": []
+ },
+ "chem25-s1.2.5": {
+  "needs": []
+ },
+ "chem25-s1.2.6": {
+  "needs": []
+ },
+ "chem25-s1.3.b": {
+  "needs": []
+ },
+ "chem25-s1.3.0": {
+  "needs": [
+   {
+    "id": "chem14-s1.0.0",
+    "strength": "helpful",
+    "why": "early oxygen/hydrogen oxidation definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.1": {
+  "needs": [
+   {
+    "id": "chem14-s1.0.1",
+    "strength": "helpful",
+    "why": "early reduction definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.2": {
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "essential",
+    "why": "oxidation as loss of electrons",
+    "confidence": "high"
+   },
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "helpful",
+    "why": "oxidation number increase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.3": {
+  "needs": [
+   {
+    "id": "chem14-s1.3.0",
+    "strength": "helpful",
+    "why": "oxidising agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.4": {
+  "needs": [
+   {
+    "id": "chem14-s1.0.1",
+    "strength": "helpful",
+    "why": "reduction as gain of hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.3.5": {
+  "needs": [
+   {
+    "id": "chem14-s1.9.0",
+    "strength": "helpful",
+    "why": "combustion as oxidation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.b": {
+  "needs": []
+ },
+ "chem25-s1.4.0": {
+  "needs": []
+ },
+ "chem25-s1.4.1": {
+  "needs": [
+   {
+    "id": "chem11-s1.6.0",
+    "strength": "helpful",
+    "why": "acid plus base gives salt and water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.2": {
+  "needs": [
+   {
+    "id": "chem11-s1.8.0",
+    "strength": "helpful",
+    "why": "acid plus carbonate gives CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.4.3": {
+  "needs": [
+   {
+    "id": "chem11-s1.1.3",
+    "strength": "helpful",
+    "why": "hydroxide as alkali base",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.4.4": {
+  "needs": [
+   {
+    "id": "chem11-s1.2.0",
+    "strength": "helpful",
+    "why": "indicator colour showing neutral",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.4.5": {
+  "needs": [
+   {
+    "id": "chem11-s1.7.0",
+    "strength": "helpful",
+    "why": "reactive metal releases hydrogen from acid",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.5.b": {
+  "needs": []
+ },
+ "chem25-s1.5.0": {
+  "needs": []
+ },
+ "chem25-s1.5.1": {
+  "needs": [
+   {
+    "id": "chem14-s1.11.4",
+    "strength": "essential",
+    "why": "oxidation number change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.5.2": {
+  "needs": []
+ },
+ "chem25-s1.5.3": {
+  "needs": []
+ },
+ "chem25-s1.6.b": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.1",
+    "strength": "helpful",
+    "why": "double bond is sigma plus pi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.0": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.1",
+    "strength": "helpful",
+    "why": "double bond is sigma plus pi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.1": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.1",
+    "strength": "helpful",
+    "why": "pi bond of double bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.2": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.1",
+    "strength": "helpful",
+    "why": "C=O is sigma plus pi",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.6.3": {
+  "needs": []
+ },
+ "chem25-s1.6.4": {
+  "needs": [
+   {
+    "id": "chem14-s1.1.0",
+    "strength": "essential",
+    "why": "oxidation as loss of electrons",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s1.7.0",
+    "strength": "helpful",
+    "why": "acid plus metal gives hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.6.5": {
+  "needs": [
+   {
+    "id": "chem14-s1.2.0",
+    "strength": "helpful",
+    "why": "redox means oxidation and reduction together",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.7.b": {
+  "needs": []
+ },
+ "chem25-s1.7.0": {
+  "needs": []
+ },
+ "chem25-s1.7.1": {
+  "needs": []
+ },
+ "chem25-s1.7.2": {
+  "needs": []
+ },
+ "chem25-s1.7.3": {
+  "needs": []
+ },
+ "chem25-s1.7.4": {
+  "needs": []
+ },
+ "chem25-s1.7.5": {
+  "needs": []
+ },
+ "chem25-s1.8.b": {
+  "needs": []
+ },
+ "chem25-s1.8.0": {
+  "needs": []
+ },
+ "chem25-s1.8.1": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.0",
+    "strength": "helpful",
+    "why": "pi bond from sideways overlap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.8.2": {
+  "needs": []
+ },
+ "chem25-s1.8.3": {
+  "needs": []
+ },
+ "chem25-s1.8.4": {
+  "needs": []
+ },
+ "chem25-s1.8.5": {
+  "needs": []
+ },
+ "chem25-s1.8.6": {
+  "needs": []
+ },
+ "chem25-s1.9.b": {
+  "needs": []
+ },
+ "chem25-s1.9.0": {
+  "needs": []
+ },
+ "chem25-s1.9.1": {
+  "needs": []
+ },
+ "chem25-s1.9.2": {
+  "needs": []
+ },
+ "chem25-s1.9.3": {
+  "needs": []
+ },
+ "chem25-s1.9.4": {
+  "needs": []
+ },
+ "chem25-s1.9.5": {
+  "needs": []
+ },
+ "chem25-s1.10.b": {
+  "needs": []
+ },
+ "chem25-s1.10.0": {
+  "needs": []
+ },
+ "chem25-s1.10.1": {
+  "needs": []
+ },
+ "chem25-s1.10.2": {
+  "needs": []
+ },
+ "chem25-s1.10.3": {
+  "needs": []
+ },
+ "chem25-s1.10.4": {
+  "needs": []
+ },
+ "chem25-s1.10.5": {
+  "needs": []
+ },
+ "chem25-s1.10.6": {
+  "needs": []
+ },
+ "chem25-s1.11.b": {
+  "needs": []
+ },
+ "chem25-s1.11.0": {
+  "needs": [
+   {
+    "id": "chem23-s4.11.0",
+    "strength": "helpful",
+    "why": "benzene ring structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem25-s1.11.1": {
+  "needs": []
+ },
+ "chem25-s1.11.2": {
+  "needs": []
+ },
+ "chem25-s1.11.3": {
+  "needs": []
+ },
+ "chem25-s1.11.4": {
+  "needs": []
+ },
+ "chem25-s1.11.5": {
+  "needs": []
+ },
+ "chem25-s1.12.b": {
+  "needs": []
+ },
+ "chem25-s1.12.0": {
+  "needs": []
+ },
+ "chem25-s1.12.1": {
+  "needs": []
+ },
+ "chem25-s1.12.2": {
+  "needs": []
+ },
+ "chem25-s1.12.3": {
+  "needs": []
+ },
+ "chem25-s1.12.4": {
+  "needs": []
+ },
+ "chem25-s1.12.5": {
+  "needs": []
+ },
+ "chem25-s1.12.6": {
+  "needs": []
+ },
+ "chem25-s1.13.b": {
+  "needs": []
+ },
+ "chem25-s1.13.0": {
+  "needs": []
+ },
+ "chem25-s1.13.1": {
+  "needs": []
+ },
+ "chem25-s1.13.2": {
+  "needs": []
+ },
+ "chem25-s1.13.3": {
+  "needs": [
+   {
+    "id": "chem23-s4.10.1",
+    "strength": "helpful",
+    "why": "pi bonds in double bonds",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem25-s1.13.4": {
+  "needs": []
+ },
+ "chem25-s1.13.5": {
+  "needs": []
+ },
+ "chem25-s1.14.b": {
+  "needs": []
+ },
+ "chem25-s1.14.0": {
+  "needs": []
+ },
+ "chem25-s1.14.1": {
+  "needs": []
+ },
+ "chem25-s1.14.2": {
+  "needs": []
+ },
+ "chem25-s1.15.b": {
+  "needs": []
+ },
+ "chem25-s1.15.0": {
+  "needs": []
+ },
+ "chem25-s1.15.1": {
+  "needs": []
+ },
+ "chem25-s1.15.2": {
+  "needs": []
+ },
+ "chem25-s1.15.3": {
+  "needs": []
+ },
+ "chem25-s1.15.4": {
+  "needs": []
+ }
+}

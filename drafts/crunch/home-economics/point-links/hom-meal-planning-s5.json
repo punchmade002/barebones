@@ -1,0 +1,349 @@
+{
+"hom-meal-planning-s5.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.0.2",
+"strength": "helpful",
+"why": "Department of Health guidelines and pyramid",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.0",
+"strength": "helpful",
+"why": "pyramid shelves layout",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.3",
+"strength": "helpful",
+"why": "servings per day on pyramid",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.3",
+"strength": "helpful",
+"why": "dairy supplies calcium and HBV protein",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.2",
+"strength": "helpful",
+"why": "protein foods and fish guideline",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.1.4",
+"strength": "helpful",
+"why": "unsaturated oils preferred",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.2",
+"strength": "helpful",
+"why": "top shelf high fat sugar salt",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meal-planning-s2.0.6",
+"strength": "helpful",
+"why": "energy balance",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.5",
+"strength": "helpful",
+"why": "planning meals from pyramid shelves",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meal-planning-s2.0.b",
+"strength": "helpful",
+"why": "needs vary by age and circumstances",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.b",
+"strength": "helpful",
+"why": "pyramid groups",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.7.3",
+"strength": "helpful",
+"why": "portion size adjusted to age activity",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.1.6": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s5.1.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meal-planning-s2.5.b",
+"strength": "helpful",
+"why": "pregnancy requirements",
+"confidence": "low"
+},
+{
+"id": "hom-meal-planning-s4.0.b",
+"strength": "helpful",
+"why": "CHD diet requirements",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meal-planning-s4.8.b",
+"strength": "helpful",
+"why": "reading food labels",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meal-planning-s5.4.2",
+"strength": "helpful",
+"why": "freezer enables batch cooking",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meal-planning-s1.0.4",
+"strength": "helpful",
+"why": "irregular family routines",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meal-planning-s2.9.b",
+"strength": "helpful",
+"why": "shift work meal planning",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s5.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s4.6.2",
+"strength": "helpful",
+"why": "high fat sugar salt foods",
+"confidence": "low"
+}
+]
+},
+"hom-meal-planning-s5.5.6": {
+"cost": 2,
+"needs": []
+},
+"hom-meal-planning-s5.5.7": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meal-planning-s5.6.1",
+"strength": "helpful",
+"why": "use-by date",
+"confidence": "high"
+}
+]
+},
+"hom-meal-planning-s5.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meal-planning-s5.6.5": {
+"cost": 1,
+"needs": []
+}
+}

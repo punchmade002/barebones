@@ -1,0 +1,479 @@
+{
+ "hom-meal-planning-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.0",
+    "strength": "helpful",
+    "why": "uses energy input",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.4.1",
+    "strength": "helpful",
+    "why": "sedentary lifestyle lowers output",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meal-planning-s3.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.1.0",
+    "strength": "helpful",
+    "why": "reducing energy intake",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.1.0",
+    "strength": "helpful",
+    "why": "reducing energy intake",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meal-planning-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.1.7",
+    "strength": "essential",
+    "why": "uses LDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.1.7",
+    "strength": "essential",
+    "why": "uses LDL and HDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.1.7",
+    "strength": "helpful",
+    "why": "uses HDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-vitamins-minerals-s4.7.4",
+    "strength": "helpful",
+    "why": "excess sodium raises blood pressure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-carbohydrates-s5.1.6",
+    "strength": "helpful",
+    "why": "soluble fibre lowers LDL",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.1.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meal-planning-s3.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meal-planning-s3.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.1.6",
+    "strength": "essential",
+    "why": "uses cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.b",
+    "strength": "essential",
+    "why": "uses insulin and diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.b",
+    "strength": "essential",
+    "why": "uses insulin and diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.1",
+    "strength": "essential",
+    "why": "Type 2 diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.1",
+    "strength": "essential",
+    "why": "Type 2 diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.b",
+    "strength": "helpful",
+    "why": "uses diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.2.b",
+    "strength": "helpful",
+    "why": "uses diabetes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-carbohydrates-s5.1.0",
+    "strength": "helpful",
+    "why": "fibre adds bulk to stools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.3.0",
+    "strength": "essential",
+    "why": "straining from constipation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.3.1",
+    "strength": "essential",
+    "why": "uses diverticula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.3.0",
+    "strength": "essential",
+    "why": "straining during constipation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-carbohydrates-s5.1.b",
+    "strength": "helpful",
+    "why": "uses dietary fibre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-carbohydrates-s5.1.3",
+    "strength": "helpful",
+    "why": "low fibre bowel risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.4.b",
+    "strength": "essential",
+    "why": "uses osteoporosis and bone loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-vitamins-minerals-s4.1.2",
+    "strength": "helpful",
+    "why": "calcium builds bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-vitamins-minerals-s4.1.2",
+    "strength": "helpful",
+    "why": "calcium absorption",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.4.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meal-planning-s3.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.4.1",
+    "strength": "essential",
+    "why": "nutrients that protect bone",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-meal-planning-s3.4.2",
+    "strength": "essential",
+    "why": "calcium absorption inhibitors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.5.0",
+    "strength": "essential",
+    "why": "plaque acid causes decay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.5.0",
+    "strength": "helpful",
+    "why": "acid dissolves enamel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.5.0",
+    "strength": "helpful",
+    "why": "uses plaque",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.5.1",
+    "strength": "helpful",
+    "why": "frequent sugar causes decay",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meal-planning-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.0.4",
+    "strength": "essential",
+    "why": "obesity raises disease risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.1.3",
+    "strength": "essential",
+    "why": "salt raises blood pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.5.0",
+    "strength": "helpful",
+    "why": "sugar causes dental caries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.3.1",
+    "strength": "essential",
+    "why": "diverticular disease from straining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meal-planning-s3.4.1",
+    "strength": "helpful",
+    "why": "calcium and vitamin D for bone",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-vitamins-minerals-s4.2.4",
+    "strength": "helpful",
+    "why": "iron deficiency causes anaemia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meal-planning-s3.6.5": {
+  "cost": 2,
+  "needs": []
+ }
+}

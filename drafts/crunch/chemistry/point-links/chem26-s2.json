@@ -1,0 +1,395 @@
+{
+"chem26-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.0.1",
+"strength": "helpful",
+"why": "mole ratio from balanced equation",
+"confidence": "low"
+}
+]
+},
+"chem26-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.1",
+"strength": "helpful",
+"why": "contrast with theoretical yield",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.1",
+"strength": "essential",
+"why": "theoretical yield in the formula",
+"confidence": "high"
+},
+{
+"id": "chem26-s2.0.2",
+"strength": "essential",
+"why": "actual yield in the formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "helpful",
+"why": "comparing yields in percentage formula",
+"confidence": "high"
+},
+{
+"id": "chem26-s1.1.2",
+"strength": "helpful",
+"why": "gas volume at STP",
+"confidence": "low"
+}
+]
+},
+"chem26-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.0.1",
+"strength": "essential",
+"why": "coefficients give mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.1",
+"strength": "essential",
+"why": "moles = mass over molar mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "using mole ratio to find product moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s1.1.1",
+"strength": "essential",
+"why": "moles from mass and molar mass",
+"confidence": "high"
+},
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "mole ratio to find product moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.5",
+"strength": "essential",
+"why": "converting moles to mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.2",
+"strength": "essential",
+"why": "one mole of gas is 22.4 L at STP",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.2.4",
+"strength": "essential",
+"why": "theoretical gas volume",
+"confidence": "high"
+},
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.1",
+"strength": "helpful",
+"why": "limiting reactant decides theoretical yield",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.1",
+"strength": "essential",
+"why": "moles from mass and molar mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.5",
+"strength": "essential",
+"why": "converting moles to mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.1",
+"strength": "essential",
+"why": "moles from mass and molar mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.5",
+"strength": "essential",
+"why": "converting moles to mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "helpful",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "rearranged percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "mole ratio between reactant and product",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.5",
+"strength": "essential",
+"why": "converting moles to mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.6.3": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "helpful",
+"why": "yield above 100% from the formula",
+"confidence": "low"
+}
+]
+},
+"chem26-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"chem26-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "yield as a fraction of theoretical",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,364 @@
+{
+"hom-social-change-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s1.0.0",
+"strength": "helpful",
+"why": "three-part definition of unemployed",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.2.7": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.2.5",
+"strength": "helpful",
+"why": "MABS money advice service",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.3.7": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s6.0.3",
+"strength": "helpful",
+"why": "unemployment black spots",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.0.0",
+"strength": "helpful",
+"why": "social insurance payments, PRSI based",
+"confidence": "high"
+},
+{
+"id": "hom-unemployment-poverty-s6.0.1",
+"strength": "helpful",
+"why": "means-tested social assistance",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.0.5",
+"strength": "helpful",
+"why": "Supplementary Welfare Allowance",
+"confidence": "high"
+},
+{
+"id": "hom-unemployment-poverty-s6.1.2",
+"strength": "helpful",
+"why": "Working Family Payment",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.3.0",
+"strength": "helpful",
+"why": "SOLAS and ETBs",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.3.6",
+"strength": "helpful",
+"why": "Community Employment scheme",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-unemployment-poverty-s6.2.5",
+"strength": "helpful",
+"why": "MABS money advice service",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.7.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.7.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.7.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s6.2.1",
+"strength": "helpful",
+"why": "psychological effects of job loss",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s6.3.4",
+"strength": "helpful",
+"why": "partner working longer hours",
+"confidence": "high"
+},
+{
+"id": "hom-social-change-s6.3.2",
+"strength": "helpful",
+"why": "financial strain on relationship",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s6.3.5",
+"strength": "helpful",
+"why": "effects on children",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s6.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-social-change-s6.6.1",
+"strength": "helpful",
+"why": "Jobseeker payments",
+"confidence": "high"
+},
+{
+"id": "hom-social-change-s6.7.1",
+"strength": "helpful",
+"why": "MABS",
+"confidence": "high"
+},
+{
+"id": "hom-social-change-s6.7.0",
+"strength": "helpful",
+"why": "Citizens Information",
+"confidence": "high"
+},
+{
+"id": "hom-social-change-s6.7.2",
+"strength": "helpful",
+"why": "SVP",
+"confidence": "high"
+},
+{
+"id": "hom-social-change-s6.6.4",
+"strength": "helpful",
+"why": "Back to Education Allowance",
+"confidence": "high"
+}
+]
+}
+}

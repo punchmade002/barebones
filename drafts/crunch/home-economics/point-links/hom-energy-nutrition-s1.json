@@ -1,0 +1,270 @@
+{
+"hom-energy-nutrition-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.0.3": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s1.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "helpful",
+"why": "basal metabolism defined as BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.1.3": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.4.0",
+"strength": "helpful",
+"why": "compared with activity energy",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "helpful",
+"why": "uses BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "factor affecting BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.0",
+"strength": "helpful",
+"why": "activity is separate total component",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "helpful",
+"why": "uses BMR",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.1.0",
+"strength": "essential",
+"why": "BMR is a component",
+"confidence": "high"
+},
+{
+"id": "hom-energy-nutrition-s1.4.0",
+"strength": "helpful",
+"why": "physical activity component",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.6": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s1.5.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s1.5.6",
+"strength": "helpful",
+"why": "factors list to name",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,1184 @@
+{
+"chem8-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.0",
+"strength": "helpful",
+"why": "uses the mole",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "helpful",
+"why": "Avogadro constant",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "helpful",
+"why": "Avogadro constant",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "helpful",
+"why": "Avogadro constant",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "essential",
+"why": "6.02 × 10²³ per mole",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "helpful",
+"why": "particles in a mole",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.15.0",
+"strength": "essential",
+"why": "relative atomic mass Ar",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.1": {
+"cost": 2,
+"needs": []
+},
+"chem8-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.0",
+"strength": "essential",
+"why": "summing Ar for Mr",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.0",
+"strength": "essential",
+"why": "summing Ar for Mr",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.0",
+"strength": "essential",
+"why": "summing Ar for Mr",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.0",
+"strength": "essential",
+"why": "molar mass equals Mr",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.1.6": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.5",
+"strength": "essential",
+"why": "molar mass M",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "n = m ÷ M rearranged",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.1",
+"strength": "essential",
+"why": "Avogadro constant",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.2",
+"strength": "essential",
+"why": "N = n × NA reversed",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.5",
+"strength": "helpful",
+"why": "atoms per molecule",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem8-s1.2.4",
+"strength": "essential",
+"why": "atoms per molecule",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.0",
+"strength": "helpful",
+"why": "moles of gas",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.1.6",
+"strength": "essential",
+"why": "density formula",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.3.1",
+"strength": "essential",
+"why": "m = ρ × V",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "n = m ÷ M",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "mass–mole conversions",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.4.1",
+"strength": "helpful",
+"why": "mass number",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.10.0",
+"strength": "helpful",
+"why": "nucleus of protons and neutrons",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.4.0",
+"strength": "essential",
+"why": "isotopes",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.4.2",
+"strength": "essential",
+"why": "Ar as weighted average",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.0",
+"strength": "essential",
+"why": "products from step 1",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.1",
+"strength": "essential",
+"why": "summed products",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "helpful",
+"why": "calculated Ar result",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.0",
+"strength": "essential",
+"why": "mass number × abundance",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "essential",
+"why": "add and divide by 100",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.0",
+"strength": "essential",
+"why": "mass number × abundance",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "essential",
+"why": "add and divide by 100",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.0",
+"strength": "essential",
+"why": "mass number × abundance",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "essential",
+"why": "add and divide by 100",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.4.2",
+"strength": "helpful",
+"why": "isotope abundances",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "essential",
+"why": "Ar formula from abundances",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.7.1",
+"strength": "essential",
+"why": "Ar equation for x",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.7.2",
+"strength": "essential",
+"why": "expanding the equation",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.7.3",
+"strength": "essential",
+"why": "value of x",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.5.2",
+"strength": "helpful",
+"why": "mass numbers used in Ar",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.0",
+"strength": "essential",
+"why": "Avogadro's law",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.2",
+"strength": "essential",
+"why": "combining volumes",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem8-s1.8.1",
+"strength": "essential",
+"why": "volume proportional to moles",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.8.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.4",
+"strength": "essential",
+"why": "volume ratio equals mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem1-s4.0.4",
+"strength": "helpful",
+"why": "pressure units",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s4.0.3",
+"strength": "essential",
+"why": "kelvin scale",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.0.0",
+"strength": "helpful",
+"why": "moles",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.2",
+"strength": "essential",
+"why": "molar volume",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "helpful",
+"why": "molar volume",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "helpful",
+"why": "molar volume",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "essential",
+"why": "22.4 L mol⁻¹ at STP",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.2",
+"strength": "helpful",
+"why": "molar volume",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s4.6.6",
+"strength": "helpful",
+"why": "gas equation",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.10.0",
+"strength": "essential",
+"why": "V = nRT ÷ P",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.10.1",
+"strength": "essential",
+"why": "substituted values",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem8-s1.9.2",
+"strength": "helpful",
+"why": "molar volume",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "n = m ÷ M",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "helpful",
+"why": "molar volume at STP",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.10.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.10.3",
+"strength": "essential",
+"why": "experiment set-up",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "essential",
+"why": "22.4 L per mole",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.9.3",
+"strength": "essential",
+"why": "22.4 L per mole",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "n = m ÷ M",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.11.2",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.11.1",
+"strength": "essential",
+"why": "volume from moles",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.4",
+"strength": "essential",
+"why": "volume ratio equals mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.4",
+"strength": "essential",
+"why": "volume ratio equals mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.10.0",
+"strength": "essential",
+"why": "ideal gas equation",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.13.1",
+"strength": "essential",
+"why": "moles from gas equation",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.10.0",
+"strength": "helpful",
+"why": "ideal gas equation",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.14.1": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.0",
+"strength": "helpful",
+"why": "flask and foil cap",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.14.4": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.2",
+"strength": "helpful",
+"why": "graduated cylinder",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.15.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.15.1": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.1",
+"strength": "helpful",
+"why": "boiling water bath",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.2",
+"strength": "helpful",
+"why": "flask in the water bath",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.3",
+"strength": "helpful",
+"why": "vaporising in the bath",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.2",
+"strength": "helpful",
+"why": "barometer",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.0",
+"strength": "helpful",
+"why": "first weighing",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.2",
+"strength": "helpful",
+"why": "graduated cylinder",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s4.0.5",
+"strength": "helpful",
+"why": "unit conversion",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s4.0.1",
+"strength": "helpful",
+"why": "volume unit conversion",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.13.1",
+"strength": "essential",
+"why": "n = PV ÷ RT",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.17.2",
+"strength": "essential",
+"why": "PV in n = PV ÷ RT",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.17.2",
+"strength": "essential",
+"why": "RT in n = PV ÷ RT",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.17.2",
+"strength": "essential",
+"why": "n = PV ÷ RT",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.13.2",
+"strength": "essential",
+"why": "Mr = m ÷ n",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.17.6",
+"strength": "helpful",
+"why": "calculated Mr",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.18.0": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.18.1": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.18.2": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"chem8-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.13.2",
+"strength": "essential",
+"why": "Mr = m ÷ n",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.3",
+"strength": "helpful",
+"why": "waiting for full vaporisation",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.16.1",
+"strength": "helpful",
+"why": "reweighing the flask",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.1",
+"strength": "helpful",
+"why": "pinhole in foil cap",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.15.2",
+"strength": "helpful",
+"why": "flask in the water bath",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.13.3",
+"strength": "essential",
+"why": "ideal gas assumption",
+"confidence": "high"
+}
+]
+},
+"chem8-s1.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.14.2",
+"strength": "helpful",
+"why": "top-pan balance",
+"confidence": "low"
+}
+]
+},
+"chem8-s1.19.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s4.2.0",
+"strength": "helpful",
+"why": "random error",
+"confidence": "high"
+}
+]
+}
+}

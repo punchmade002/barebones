@@ -1,0 +1,259 @@
+{
+"hom-food-safety-s9.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s9.0.0",
+"strength": "helpful",
+"why": "uses EU regulation",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s9.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.4.0",
+"strength": "helpful",
+"why": "environmental health officers inspect",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s9.1.2",
+"strength": "helpful",
+"why": "uses HACCP system",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s9.1.5",
+"strength": "helpful",
+"why": "uses closing premises",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s9.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s9.3.0",
+"strength": "helpful",
+"why": "the 14 allergens",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.2.6": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s9.2.7": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.3.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s9.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s9.3.1",
+"strength": "helpful",
+"why": "contrasts use-by date",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.1.0",
+"strength": "helpful",
+"why": "FSAI established by the Act",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s9.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.3.0",
+"strength": "helpful",
+"why": "official agencies",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.7.1",
+"strength": "helpful",
+"why": "traceability one step back/forward",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s9.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.7.3",
+"strength": "helpful",
+"why": "rapid alerts",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s9.4.6": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s9.4.7": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s9.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.1.2",
+"strength": "helpful",
+"why": "FSAI coordinates agencies",
+"confidence": "high"
+},
+{
+"id": "hom-food-safety-s8.3.0",
+"strength": "helpful",
+"why": "official agencies list",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s9.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.4.3",
+"strength": "helpful",
+"why": "closure orders and enforcement notices",
+"confidence": "high"
+}
+]
+}
+}

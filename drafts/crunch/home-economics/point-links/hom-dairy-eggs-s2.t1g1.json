@@ -1,0 +1,274 @@
+{
+ "hom-dairy-eggs-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.3.b",
+    "strength": "helpful",
+    "why": "conditions bacteria need to grow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s3.3.2",
+    "strength": "helpful",
+    "why": "warmth and cold affect growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-food-preservation-s3.0.5",
+    "strength": "helpful",
+    "why": "heat-sensitive water-soluble vitamins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s2.0.3",
+    "strength": "helpful",
+    "why": "heat-sensitive vitamins lost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.3.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.8.3",
+    "strength": "helpful",
+    "why": "skimmed milk",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.8.0",
+    "strength": "helpful",
+    "why": "whole, semi-skimmed, skimmed milk types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.8.4",
+    "strength": "helpful",
+    "why": "fortified milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.5.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-dairy-eggs-s1.0.7",
+    "strength": "helpful",
+    "why": "riboflavin and vitamin A in milk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-dairy-eggs-s2.6.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-dairy-eggs-s2.7.5": {
+  "cost": 2,
+  "needs": []
+ }
+}

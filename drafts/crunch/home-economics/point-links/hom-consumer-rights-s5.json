@@ -1,0 +1,374 @@
+{
+"hom-consumer-rights-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s4.5.b",
+"strength": "helpful",
+"why": "Consumer Protection Act 2007",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s4.6.1",
+"strength": "helpful",
+"why": "misleading price claims",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.1",
+"strength": "helpful",
+"why": "voluntary bodies lack legal powers",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s5.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s4.5.4",
+"strength": "helpful",
+"why": "CCPC enforces, not disputes",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.0",
+"strength": "helpful",
+"why": "statutory body",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.3",
+"strength": "helpful",
+"why": "complain to the trader first",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s5.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.0",
+"strength": "helpful",
+"why": "statutory body",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.1.3",
+"strength": "helpful",
+"why": "FSAI protects consumers",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s8.3.0",
+"strength": "helpful",
+"why": "official agencies",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.1.b",
+"strength": "helpful",
+"why": "CCPC runs it",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s3.1.3",
+"strength": "helpful",
+"why": "Consumer Choice publication",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.2",
+"strength": "helpful",
+"why": "self-regulation",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.0.1",
+"strength": "helpful",
+"why": "voluntary bodies have no legal powers",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.2.1",
+"strength": "helpful",
+"why": "Citizens Information Centres",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s5.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.1.1",
+"strength": "helpful",
+"why": "CCPC investigates misleading pricing",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s5.7.0",
+"strength": "helpful",
+"why": "ASA advertising code",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.3.1",
+"strength": "essential",
+"why": "FSPO handles financial complaints",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s5.3.3",
+"strength": "helpful",
+"why": "provider first, ombudsman last",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s5.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.3.0",
+"strength": "essential",
+"why": "Ombudsman handles public bodies",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.2.b",
+"strength": "helpful",
+"why": "Citizens Information",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s5.1.3",
+"strength": "helpful",
+"why": "CCPC informs consumers",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s5.6.0",
+"strength": "helpful",
+"why": "CAI publishes findings",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.5.2",
+"strength": "essential",
+"why": "European Consumer Centre Ireland",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s5.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s5.4.b",
+"strength": "essential",
+"why": "FSAI handles unsafe food",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,624 @@
+{
+"chem12-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.0",
+"strength": "helpful",
+"why": "concentration of a solution",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.7.3",
+"strength": "helpful",
+"why": "coefficients give mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.0.3",
+"strength": "essential",
+"why": "end point",
+"confidence": "high"
+},
+{
+"id": "chem12-s1.0.4",
+"strength": "essential",
+"why": "equivalence point",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.4.0",
+"strength": "essential",
+"why": "primary standard properties",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.5.0",
+"strength": "helpful",
+"why": "sodium carbonate as primary standard",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.5.1",
+"strength": "helpful",
+"why": "redox primary standard",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.1.0",
+"strength": "essential",
+"why": "primary standard",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.5.2",
+"strength": "helpful",
+"why": "NaOH absorbs water and CO2",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.5.3",
+"strength": "helpful",
+"why": "HCl concentration changes",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.1.0",
+"strength": "essential",
+"why": "primary standard",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.2.4",
+"strength": "helpful",
+"why": "standardisation",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.2.4",
+"strength": "essential",
+"why": "standardisation against standardised solution",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.2.4",
+"strength": "helpful",
+"why": "standardisation",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.5": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.0.3",
+"strength": "helpful",
+"why": "indicator and end point",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem12-s1.3.0",
+"strength": "helpful",
+"why": "apparatus to label",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.0",
+"strength": "essential",
+"why": "pipette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.0",
+"strength": "helpful",
+"why": "pipette filler and pipette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem12-s1.3.0",
+"strength": "essential",
+"why": "pipette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.1",
+"strength": "essential",
+"why": "burette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.4",
+"strength": "helpful",
+"why": "funnel fills burette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.1",
+"strength": "essential",
+"why": "burette",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.1",
+"strength": "helpful",
+"why": "burette reading",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "helpful",
+"why": "moles = c x V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.4.8": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "helpful",
+"why": "moles = c x V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.6",
+"strength": "helpful",
+"why": "indicator in flask",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.0.3",
+"strength": "essential",
+"why": "end point",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem12-s1.5.1",
+"strength": "essential",
+"why": "rough titration",
+"confidence": "high"
+},
+{
+"id": "chem12-s1.0.3",
+"strength": "essential",
+"why": "end point colour change",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.5",
+"strength": "helpful",
+"why": "wash bottle",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.0.2",
+"strength": "essential",
+"why": "titre",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s2.8.0",
+"strength": "helpful",
+"why": "strong acid fully ionised",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.7.3",
+"strength": "helpful",
+"why": "mole ratio from equation",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.2.1",
+"strength": "essential",
+"why": "phenolphthalein colours",
+"confidence": "high"
+},
+{
+"id": "chem11-s1.2.2",
+"strength": "helpful",
+"why": "methyl orange colours",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.0.5",
+"strength": "essential",
+"why": "good indicator coincides with equivalence",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.5.4",
+"strength": "helpful",
+"why": "mean titre",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.6.0",
+"strength": "essential",
+"why": "1 : 1 mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.1.1",
+"strength": "helpful",
+"why": "sodium carbonate primary standard",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.7.3",
+"strength": "helpful",
+"why": "mole ratio from equation",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.2.2",
+"strength": "essential",
+"why": "methyl orange colours",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.2.1",
+"strength": "essential",
+"why": "phenolphthalein colour change in alkali",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "n = c x V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.7.0",
+"strength": "essential",
+"why": "1 : 2 mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s2.2.1",
+"strength": "essential",
+"why": "c = n / V",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.7.1",
+"strength": "helpful",
+"why": "methyl orange as indicator",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem12-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.1.5",
+"strength": "helpful",
+"why": "alkalis are corrosive",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.0",
+"strength": "helpful",
+"why": "pipette filler",
+"confidence": "high"
+}
+]
+},
+"chem12-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem12-s1.3.1",
+"strength": "helpful",
+"why": "burette",
+"confidence": "high"
+}
+]
+}
+}

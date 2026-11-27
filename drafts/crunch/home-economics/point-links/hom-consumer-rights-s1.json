@@ -1,0 +1,531 @@
+{
+"hom-consumer-rights-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s3.2.b",
+"strength": "helpful",
+"why": "credit as borrowing now, paying later",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.11.6",
+"strength": "helpful",
+"why": "quality marks",
+"confidence": "low"
+},
+{
+"id": "hom-personal-finance-s3.2.b",
+"strength": "helpful",
+"why": "using credit to pay",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.3.b",
+"strength": "helpful",
+"why": "advertising as a purchase factor",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s1.0.4",
+"strength": "helpful",
+"why": "wants-driven decisions",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.2.0",
+"strength": "helpful",
+"why": "what a brand is",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s1.3.b",
+"strength": "helpful",
+"why": "national advertising",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.2.1",
+"strength": "helpful",
+"why": "branded goods comparison",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s1.3.b",
+"strength": "helpful",
+"why": "national advertising cost",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.2.0",
+"strength": "essential",
+"why": "brand meaning",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.2.3",
+"strength": "helpful",
+"why": "brand loyalty",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.2.0",
+"strength": "helpful",
+"why": "brand identity",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.1.6",
+"strength": "helpful",
+"why": "impulse buying",
+"confidence": "high"
+},
+{
+"id": "hom-personal-finance-s3.2.b",
+"strength": "helpful",
+"why": "use of credit",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.1.6",
+"strength": "helpful",
+"why": "impulse buying",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.3.7": {
+"cost": 2,
+"needs": []
+},
+"hom-consumer-rights-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.1.6",
+"strength": "helpful",
+"why": "impulse buying",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.1.6",
+"strength": "helpful",
+"why": "impulse buying",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.6.b",
+"strength": "helpful",
+"why": "loyalty schemes",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.6.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s3.2.b",
+"strength": "helpful",
+"why": "credit meaning",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-personal-finance-s3.3.b",
+"strength": "helpful",
+"why": "hire purchase explained",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s3.7.b",
+"strength": "helpful",
+"why": "Consumer Credit Act 1995",
+"confidence": "high"
+},
+{
+"id": "hom-personal-finance-s3.4.3",
+"strength": "helpful",
+"why": "APR meaning",
+"confidence": "high"
+},
+{
+"id": "hom-consumer-rights-s1.7.1",
+"strength": "helpful",
+"why": "hire purchase",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.7.b",
+"strength": "helpful",
+"why": "easy-pay as credit",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-personal-finance-s3.4.2",
+"strength": "helpful",
+"why": "cost of credit above cash price",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.8.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.8.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.8.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.8.b",
+"strength": "helpful",
+"why": "buying without inspecting goods",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.9.2": {
+"cost": 2,
+"needs": []
+},
+"hom-consumer-rights-s1.9.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.1.6",
+"strength": "helpful",
+"why": "impulse buying",
+"confidence": "high"
+}
+]
+},
+"hom-consumer-rights-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-consumer-rights-s1.3.b",
+"strength": "helpful",
+"why": "targeted advertising",
+"confidence": "low"
+}
+]
+},
+"hom-consumer-rights-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.10.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.0": {
+"cost": 2,
+"needs": []
+},
+"hom-consumer-rights-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.2": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.3": {
+"cost": 2,
+"needs": []
+},
+"hom-consumer-rights-s1.11.4": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.5": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.6": {
+"cost": 1,
+"needs": []
+},
+"hom-consumer-rights-s1.11.7": {
+"cost": 1,
+"needs": []
+}
+}

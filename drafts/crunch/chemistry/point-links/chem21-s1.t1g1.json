@@ -1,0 +1,708 @@
+{
+"chem21-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.0.0",
+"strength": "helpful",
+"why": "chemical bonds",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.0.3",
+"strength": "essential",
+"why": "system and surroundings defined",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.0.4",
+"strength": "essential",
+"why": "energy lost by system gained by surroundings",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.0.1",
+"strength": "helpful",
+"why": "energy stored in bonds",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.0",
+"strength": "essential",
+"why": "enthalpy as heat content",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "enthalpy change definition",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "\u0394H = H products \u2212 H reactants",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "enthalpy change at constant pressure",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.2.0",
+"strength": "essential",
+"why": "covalent bond as shared pair",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "essential",
+"why": "bond enthalpy definition",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "essential",
+"why": "energy to break a bond",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "essential",
+"why": "bond enthalpy definition",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "essential",
+"why": "bond enthalpy measures bond strength",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.2.0",
+"strength": "helpful",
+"why": "breaking bonds in reactants",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.3",
+"strength": "essential",
+"why": "endothermic and exothermic terms",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.2.2",
+"strength": "helpful",
+"why": "bond breaking needs energy",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.3.1",
+"strength": "essential",
+"why": "bond breaking is endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.3.1",
+"strength": "essential",
+"why": "breaking takes energy in",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.3.2",
+"strength": "essential",
+"why": "making releases energy",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "helpful",
+"why": "mirror of the exothermic case",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "essential",
+"why": "comparing energy of breaking and making",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.6": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "essential",
+"why": "more energy released than needed",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.2.4",
+"strength": "helpful",
+"why": "strong bonds hold more energy",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "essential",
+"why": "more energy released than needed",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "helpful",
+"why": "bond breaking and making balance",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.4.2": {
+"cost": 2,
+"needs": []
+},
+"chem21-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.3.3",
+"strength": "essential",
+"why": "bond energy balance gives heat change",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem10-s1.1.2",
+"strength": "helpful",
+"why": "changes of state are physical changes",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.5.0",
+"strength": "essential",
+"why": "intermolecular forces overcome, bonds kept",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.5.0",
+"strength": "essential",
+"why": "overcoming forces takes energy",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.5.2",
+"strength": "helpful",
+"why": "melting and boiling are endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.5.2",
+"strength": "essential",
+"why": "reverse of melting and boiling",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.3",
+"strength": "helpful",
+"why": "exothermic and endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.5.5",
+"strength": "helpful",
+"why": "dissolving can be endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.5.2",
+"strength": "essential",
+"why": "evaporation is endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.3",
+"strength": "essential",
+"why": "negative \u0394H means heat given out",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.3",
+"strength": "essential",
+"why": "positive \u0394H means heat taken in",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.0",
+"strength": "essential",
+"why": "exothermic reaction gives out heat",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.1",
+"strength": "essential",
+"why": "endothermic reaction takes in heat",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "\u0394H value and units",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "essential",
+"why": "state symbols in thermochemical equations",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "essential",
+"why": "\u0394H of an equation",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.6.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "essential",
+"why": "\u0394H goes with the equation as written",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "essential",
+"why": "thermochemical equation with \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "helpful",
+"why": "thermochemical equation with \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "helpful",
+"why": "thermochemical equation with \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.6.4",
+"strength": "helpful",
+"why": "thermochemical equation with \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.7.3",
+"strength": "essential",
+"why": "rusting equation and \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.0",
+"strength": "helpful",
+"why": "exothermic reaction",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.1",
+"strength": "helpful",
+"why": "endothermic reaction",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.8.0",
+"strength": "helpful",
+"why": "thermal decomposition is endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.6.1",
+"strength": "helpful",
+"why": "endothermic reaction",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.6",
+"strength": "essential",
+"why": "reversing flips sign of \u0394H",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.7.2",
+"strength": "helpful",
+"why": "respiration equation",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.1",
+"strength": "helpful",
+"why": "endothermic reaction",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem21-s1.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.1.1",
+"strength": "essential",
+"why": "enthalpy and \u0394H",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.9.0",
+"strength": "essential",
+"why": "enthalpy level diagram layout",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.9.0",
+"strength": "essential",
+"why": "enthalpy level diagram layout",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.6.0",
+"strength": "essential",
+"why": "heat flow in exothermic and endothermic",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem21-s1.9.1",
+"strength": "essential",
+"why": "exothermic diagram",
+"confidence": "high"
+},
+{
+"id": "chem21-s1.9.2",
+"strength": "essential",
+"why": "endothermic diagram",
+"confidence": "high"
+}
+]
+},
+"chem21-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem21-s1.4.0",
+"strength": "helpful",
+"why": "activation energy",
+"confidence": "high"
+}
+]
+}
+}

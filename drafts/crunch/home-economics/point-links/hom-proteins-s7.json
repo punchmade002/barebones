@@ -1,0 +1,271 @@
+{
+"hom-proteins-s7.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "helpful",
+"why": "essential amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "essential",
+"why": "uses essential amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s7.0.0",
+"strength": "helpful",
+"why": "HBV definition",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.0.0",
+"strength": "helpful",
+"why": "HBV classification",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s1.2.0",
+"strength": "essential",
+"why": "uses essential amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s7.0.3",
+"strength": "helpful",
+"why": "LBV definition",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.0.1",
+"strength": "helpful",
+"why": "HBV and LBV food lists",
+"confidence": "low"
+}
+]
+},
+"hom-proteins-s7.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.0.3",
+"strength": "helpful",
+"why": "LBV foods",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.0.3",
+"strength": "essential",
+"why": "LBV deficiency in amino acids",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "essential",
+"why": "complementation idea",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "helpful",
+"why": "complementary pairs",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "helpful",
+"why": "raising biological value",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "essential",
+"why": "uses complementation",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "helpful",
+"why": "complementation idea",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.0",
+"strength": "essential",
+"why": "applies complementation",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.3",
+"strength": "helpful",
+"why": "adding HBV food raises value",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.0.2",
+"strength": "essential",
+"why": "soya is HBV",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s7.1.4",
+"strength": "helpful",
+"why": "pulses as meat extenders",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.3": {
+"cost": 2,
+"needs": []
+},
+"hom-proteins-s7.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s7.2.3",
+"strength": "helpful",
+"why": "pulses extend mince",
+"confidence": "high"
+}
+]
+},
+"hom-proteins-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-proteins-s7.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-proteins-s7.4.5": {
+"cost": 2,
+"needs": []
+}
+}

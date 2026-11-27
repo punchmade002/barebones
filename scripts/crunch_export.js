@@ -24,6 +24,7 @@ const PICK_COUNTS = { history: { ire: 2, eur: 2 } }; // how many tracks a studen
 const KIND_LABELS = {
   geography: { elective: "Elective", option: "Option", region: "Region" },
   history: { ire: "Irish topics", eur: "European topics" },
+  "home-economics": { elective: "Elective" },
 };
 const hasPicks = D.picks && Object.keys(D.picks).length;
 const choose = (arr, k) => (k === 0 ? [[]] : arr.flatMap((x, i) => choose(arr.slice(i + 1), k - 1).map((rest) => [x, ...rest])));

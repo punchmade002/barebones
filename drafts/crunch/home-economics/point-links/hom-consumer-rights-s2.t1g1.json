@@ -1,0 +1,325 @@
+{
+ "hom-consumer-rights-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.5.5",
+    "strength": "helpful",
+    "why": "discount stores lower cost",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.9.b",
+    "strength": "helpful",
+    "why": "online shopping",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s2.0.0",
+    "strength": "helpful",
+    "why": "independent retailer",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-consumer-rights-s2.0.1",
+    "strength": "helpful",
+    "why": "chain store",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.5.2",
+    "strength": "helpful",
+    "why": "was/now reduction labels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.4.5",
+    "strength": "helpful",
+    "why": "in-store stimuli",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.2.0",
+    "strength": "helpful",
+    "why": "brand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.0.4",
+    "strength": "helpful",
+    "why": "needs versus wants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.9.b",
+    "strength": "helpful",
+    "why": "online shopping",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.6.4",
+    "strength": "helpful",
+    "why": "loyalty card data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.3.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-personal-finance-s3.1.b",
+    "strength": "helpful",
+    "why": "criteria for payment methods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s2.5.1",
+    "strength": "helpful",
+    "why": "desk research",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s2.5.1",
+    "strength": "helpful",
+    "why": "desk research",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.5.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s2.5.4",
+    "strength": "helpful",
+    "why": "field research",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.5.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s1.6.4",
+    "strength": "helpful",
+    "why": "loyalty card data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-consumer-rights-s2.5.b",
+    "strength": "helpful",
+    "why": "consumer research",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-consumer-rights-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-consumer-rights-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

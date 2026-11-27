@@ -1,0 +1,252 @@
+{
+"hom-social-change-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-work-leisure-s2.3.1",
+"strength": "helpful",
+"why": "marriage bar removed in 1973",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.0.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-work-leisure-s2.5.b",
+"strength": "helpful",
+"why": "flexible working arrangements",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.0.7": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-work-leisure-s2.1.2",
+"strength": "helpful",
+"why": "tertiary service sector growth",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-work-leisure-s5.1.0",
+"strength": "helpful",
+"why": "role overload",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.1.6": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-social-change-s5.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.b",
+"strength": "helpful",
+"why": "Employment Equality Acts",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.0",
+"strength": "helpful",
+"why": "nine grounds of discrimination",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s5.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.0",
+"strength": "helpful",
+"why": "family status ground",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.2.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-work-leisure-s2.5.7",
+"strength": "helpful",
+"why": "maternity leave law",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.5",
+"strength": "helpful",
+"why": "maternity leave protection",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.2.7": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.b",
+"strength": "helpful",
+"why": "Employment Equality Acts",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.2.b",
+"strength": "helpful",
+"why": "Employment Equality Acts cover employment",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.3.0",
+"strength": "helpful",
+"why": "gender pay gap reporting",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s5.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-caring-s1.3.1",
+"strength": "helpful",
+"why": "women do double shift of housework",
+"confidence": "low"
+}
+]
+},
+"hom-social-change-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-social-change-s5.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-social-change-s5.0.4",
+"strength": "helpful",
+"why": "marriage bar",
+"confidence": "high"
+}
+]
+},
+"hom-social-change-s5.5.1": {
+"cost": 1,
+"needs": []
+}
+}

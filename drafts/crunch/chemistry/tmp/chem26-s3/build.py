@@ -1,0 +1,65 @@
+import sys
+sys.path.insert(0,B:='/Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/chemistry/tmp/chem5-s2')
+import importlib.util,re
+src=open(B+'/build.py').read().split("P='chem5-s2'")[0]
+exec(src)
+P='chem26-s3'
+def run(name,rows):
+    check(f'{BB}/packs/{name}.txt',f'{BB}/point-links/{name}.json',D(*rows))
+BB='/Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/chemistry'
+g=[
+(P+'.0.b',1),(P+'.0.0',1),(P+'.0.1',1),(P+'.0.2',1),(P+'.0.3',1),
+(P+'.0.4',1,L('chem26-s1.0.2','H','convert masses to moles first')),
+(P+'.0.5',1,L('chem26-s1.0.1','E','coefficients give mole ratio')),
+(P+'.1.b',1),
+(P+'.1.0',1,L('chem26-s1.0.1','H','coefficients give mole ratio')),
+(P+'.1.1',2,L('chem26-s1.1.1','E','moles from mass'),L('chem26-s1.1.2','E','moles from gas volume'),L('chem26-s1.1.3','E','moles from concentration and volume')),
+(P+'.1.2',2,L('chem26-s1.1.4','E','using the mole ratio')),
+(P+'.1.3',1,L(P+'.1.2','E','method A comparison')),
+(P+'.1.4',1,L(P+'.0.5','H','coefficients give mole ratio')),
+(P+'.1.5',1,L('chem26-s1.1.4','E','mole ratio to find product')),
+(P+'.1.6',1,L('chem8-s1.2.1','H','mass from moles')),
+(P+'.2.b',1),(P+'.2.0',1),
+(P+'.2.1',1,L('chem8-s1.2.0','E','moles from mass')),
+(P+'.2.2',1,L('chem8-s1.2.0','H','moles from mass')),
+(P+'.2.3',1,L(P+'.1.2','E','method A comparison')),
+(P+'.2.4',1,L(P+'.1.5','E','product from limiting reagent')),
+(P+'.2.5',1,L(P+'.1.6','E','excess left calculation')),
+(P+'.2.6',1,L('chem8-s1.2.1','H','mass from moles')),
+(P+'.2.7',1,L('chem26-s1.2.6','H','conservation of mass check')),
+(P+'.3.b',1),(P+'.3.0',1),
+(P+'.3.1',1,L('chem26-s1.1.3','E','moles from concentration and volume'),L('chem8-s1.2.0','E','moles from mass')),
+(P+'.3.2',1,L(P+'.1.2','E','method A comparison')),
+(P+'.3.3',1,L(P+'.0.4','E','limiting is not smaller moles')),
+(P+'.3.4',1,L(P+'.1.5','E','product from limiting reagent')),
+(P+'.3.5',1,L('chem26-s1.3.4','E','gas volume from moles at STP')),
+(P+'.3.6',1,L(P+'.1.6','E','excess left calculation')),
+(P+'.3.7',1,L('chem8-s1.2.1','H','mass from moles')),
+(P+'.4.b',1),(P+'.4.0',1),
+(P+'.4.1',1,L('chem8-s1.8.4','E','volume ratio equals mole ratio')),
+(P+'.4.2',1,L(P+'.1.2','E','method A comparison')),
+(P+'.4.3',1,L('chem8-s1.12.b','H','gas volumes from equation','low')),
+(P+'.5.b',1),(P+'.5.0',1),
+(P+'.5.1',1,L('chem8-s1.2.0','H','moles from mass')),
+(P+'.5.2',1,L(P+'.1.4','E','method B divide by coefficient')),
+(P+'.5.3',1,L(P+'.5.2','E','smallest value is limiting')),
+(P+'.5.4',1,L('chem26-s1.1.4','E','using the mole ratio')),
+(P+'.5.5',1,L('chem8-s1.2.1','H','mass from moles')),
+(P+'.5.6',1,L(P+'.1.6','E','excess left calculation')),
+(P+'.5.7',1,L('chem26-s1.2.6','H','conservation of mass check')),
+(P+'.6.b',1,L('chem26-s2.0.1','E','theoretical yield')),
+(P+'.6.0',1),(P+'.6.1',1),
+(P+'.6.2',1,L('chem26-s1.6.0','E','mass from density and volume')),
+(P+'.6.3',1,L('chem8-s1.2.0','H','moles from mass')),
+(P+'.6.4',1,L(P+'.1.2','E','method A comparison')),
+(P+'.6.5',1,L('chem26-s2.0.1','E','theoretical yield')),
+(P+'.6.6',1,L('chem26-s2.0.3','E','percentage yield formula')),
+(P+'.7.b',1),
+(P+'.7.0',1,L(P+'.0.1','H','excess reagent meaning')),
+(P+'.7.1',1,L(P+'.7.0','H','why excess is chosen')),
+(P+'.7.2',2,L('chem26-s2.3.4','H','reversible reaction and equilibrium','low')),
+(P+'.7.3',1,L('chem26-s1.9.2','E','excess precipitating reagent')),
+(P+'.7.4',1),
+(P+'.7.5',1,L(P+'.0.1','H','excess reagent left over')),
+]
+run('chem26-s3.t1g1',g)

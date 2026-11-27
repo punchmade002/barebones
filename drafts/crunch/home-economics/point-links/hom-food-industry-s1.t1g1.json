@@ -1,0 +1,316 @@
+{
+ "hom-food-industry-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-industry-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.0.0",
+    "strength": "helpful",
+    "why": "raw materials from primary sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-food-industry-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.0.b",
+    "strength": "helpful",
+    "why": "three levels of industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.0",
+    "strength": "helpful",
+    "why": "dairy sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.1",
+    "strength": "helpful",
+    "why": "meat sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.1",
+    "strength": "helpful",
+    "why": "meat sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.2",
+    "strength": "helpful",
+    "why": "beverages sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.4",
+    "strength": "helpful",
+    "why": "seafood sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.1.6",
+    "strength": "helpful",
+    "why": "prepared foods sector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.2.0",
+    "strength": "helpful",
+    "why": "dairy exports",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-industry-s1.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.2.b",
+    "strength": "helpful",
+    "why": "exports",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.4.0",
+    "strength": "helpful",
+    "why": "Bord Bia role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.4.0",
+    "strength": "helpful",
+    "why": "Bord Bia role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.4.0",
+    "strength": "helpful",
+    "why": "Bord Bia role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-safety-s8.1.0",
+    "strength": "helpful",
+    "why": "FSAI food safety role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.4.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.0.b",
+    "strength": "helpful",
+    "why": "industry structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.0.b",
+    "strength": "helpful",
+    "why": "primary secondary tertiary levels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-food-industry-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.2.b",
+    "strength": "helpful",
+    "why": "export markets",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-food-industry-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-food-industry-s1.0.4",
+    "strength": "helpful",
+    "why": "employment and rural income",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-food-industry-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ }
+}

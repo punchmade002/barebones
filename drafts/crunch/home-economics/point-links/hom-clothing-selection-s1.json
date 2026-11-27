@@ -1,0 +1,521 @@
+{
+"hom-clothing-selection-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-clothing-selection-s1.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-clothing-selection-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.1",
+"strength": "helpful",
+"why": "wool protein fibre behaviour",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.0.3": {
+"cost": 2,
+"needs": []
+},
+"hom-clothing-selection-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.0",
+"strength": "essential",
+"why": "cellulose fibre care",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.0.1",
+"strength": "essential",
+"why": "wool care needs",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.0",
+"strength": "helpful",
+"why": "cotton and linen behaviour",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.1",
+"strength": "helpful",
+"why": "wool is a protein fibre",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.3",
+"strength": "helpful",
+"why": "thermoplastic manufactured fibres",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.b",
+"strength": "essential",
+"why": "care label",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.1.2",
+"strength": "helpful",
+"why": "heat as cause",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.1.0",
+"strength": "helpful",
+"why": "shrinkage being reduced",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.0.5",
+"strength": "helpful",
+"why": "tight weave resists water",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s1.3.0",
+"strength": "helpful",
+"why": "absorbent fibres",
+"confidence": "low"
+}
+]
+},
+"hom-clothing-selection-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.0",
+"strength": "helpful",
+"why": "fibre absorbency factor",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.0",
+"strength": "helpful",
+"why": "water-repellent finish factor",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.2",
+"strength": "essential",
+"why": "repellent finish",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.2",
+"strength": "helpful",
+"why": "water-repellent finish",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.4",
+"strength": "helpful",
+"why": "contrast with showerproof",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.5",
+"strength": "helpful",
+"why": "waterproof fabric",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.3.0",
+"strength": "helpful",
+"why": "how creases form",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.0.0",
+"strength": "helpful",
+"why": "cellulose fibres",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.3.0",
+"strength": "helpful",
+"why": "creases",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.3.0",
+"strength": "helpful",
+"why": "creases",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.3.1",
+"strength": "essential",
+"why": "cotton and linen poor recovery",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.6",
+"strength": "helpful",
+"why": "iron temperature symbols",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.0",
+"strength": "helpful",
+"why": "symbol order",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.1",
+"strength": "helpful",
+"why": "washtub symbol",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.0",
+"strength": "helpful",
+"why": "symbol order",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.4",
+"strength": "helpful",
+"why": "drying symbols",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.0",
+"strength": "helpful",
+"why": "symbol order",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.4.7": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.4.8": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.4.1",
+"strength": "essential",
+"why": "washtub symbols",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.2",
+"strength": "essential",
+"why": "hand wash symbol",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.3",
+"strength": "essential",
+"why": "bleach symbol",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.4",
+"strength": "essential",
+"why": "tumble dry symbol",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.5",
+"strength": "essential",
+"why": "dry flat symbol",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.6",
+"strength": "essential",
+"why": "iron dots",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.4.7",
+"strength": "essential",
+"why": "dry clean circle",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-clothing-selection-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.5.0",
+"strength": "essential",
+"why": "surfactant function",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.5.2": {
+"cost": 2,
+"needs": []
+},
+"hom-clothing-selection-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.5.2",
+"strength": "essential",
+"why": "enzymes in detergent",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.5.4",
+"strength": "essential",
+"why": "fluorescent whitening agents",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.5.2",
+"strength": "essential",
+"why": "enzymes attack protein",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.0.1",
+"strength": "helpful",
+"why": "wool and silk protein fibres",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.1.3",
+"strength": "essential",
+"why": "percentage shrinkage formula",
+"confidence": "high"
+},
+{
+"id": "hom-clothing-selection-s1.1.b",
+"strength": "helpful",
+"why": "shrinkage",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.2.0",
+"strength": "helpful",
+"why": "water repellence factors",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.3.b",
+"strength": "helpful",
+"why": "crease recovery",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-clothing-selection-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-clothing-selection-s1.6.3",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+}
+]
+},
+"hom-clothing-selection-s1.6.5": {
+"cost": 1,
+"needs": []
+}
+}

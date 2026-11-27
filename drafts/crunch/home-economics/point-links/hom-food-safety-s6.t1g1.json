@@ -1,0 +1,307 @@
+{
+"hom-food-safety-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.0.3",
+"strength": "helpful",
+"why": "defines the danger zone range",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s2.0.1",
+"strength": "helpful",
+"why": "frozen food not sterile, regrows on thaw",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.1",
+"strength": "helpful",
+"why": "cross-contamination",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.0",
+"strength": "helpful",
+"why": "bacteria growth and danger zone",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.1",
+"strength": "essential",
+"why": "cross-contamination from meat juices",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.1",
+"strength": "essential",
+"why": "cross-contamination",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.0",
+"strength": "helpful",
+"why": "danger zone growth",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s6.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.2.0",
+"strength": "helpful",
+"why": "mould growth on food",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s6.1.7": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.1.8": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.0",
+"strength": "essential",
+"why": "danger zone",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s2.1.0",
+"strength": "helpful",
+"why": "quick freezing at -25C",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.2",
+"strength": "helpful",
+"why": "bacteria restart multiplying on thawing",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.2",
+"strength": "helpful",
+"why": "bacteria multiply while thawing",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.3.0": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s6.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.1.3",
+"strength": "helpful",
+"why": "moist protein-rich foods high risk",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.0",
+"strength": "essential",
+"why": "danger zone temperatures",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.0",
+"strength": "essential",
+"why": "danger zone",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.4.1": {
+"cost": 2,
+"needs": []
+},
+"hom-food-safety-s6.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s2.4.1",
+"strength": "helpful",
+"why": "Staph aureus lives in cuts and boils",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.1",
+"strength": "essential",
+"why": "cross-contamination",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s6.0.1",
+"strength": "essential",
+"why": "cross-contamination",
+"confidence": "high"
+}
+]
+},
+"hom-food-safety-s6.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s3.3.1",
+"strength": "helpful",
+"why": "moisture supports microbial growth",
+"confidence": "low"
+}
+]
+},
+"hom-food-safety-s6.5.6": {
+"cost": 1,
+"needs": []
+},
+"hom-food-safety-s6.5.7": {
+"cost": 1,
+"needs": []
+}
+}

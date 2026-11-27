@@ -1,0 +1,518 @@
+{
+"chem11-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.0.5": {
+"cost": 2,
+"needs": []
+},
+"chem11-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.0.4",
+"strength": "helpful",
+"why": "neutralisation of acids",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.1.3",
+"strength": "helpful",
+"why": "alkali as soluble base",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.1.5": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.0.1",
+"strength": "helpful",
+"why": "litmus colour in acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.2.3": {
+"cost": 2,
+"needs": []
+},
+"chem11-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.0.1",
+"strength": "helpful",
+"why": "acid properties such as litmus",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.0.5",
+"strength": "helpful",
+"why": "citric acid as an acid example",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s1.1.2",
+"strength": "helpful",
+"why": "bases neutralise acids",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.1.2",
+"strength": "helpful",
+"why": "bases neutralise acids",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.1.3",
+"strength": "helpful",
+"why": "alkali as soluble base",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.3.6": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.0.4",
+"strength": "helpful",
+"why": "acids neutralise bases",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.4.b",
+"strength": "helpful",
+"why": "neutralisation reaction",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.4.0",
+"strength": "helpful",
+"why": "soil neutralised by limestone",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.11.0",
+"strength": "helpful",
+"why": "ionic equation with H+",
+"confidence": "low"
+}
+]
+},
+"chem11-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.4.2",
+"strength": "helpful",
+"why": "excess stomach acid removed",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.4.3",
+"strength": "helpful",
+"why": "antacid neutralises stomach acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.4.5": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.4.6": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem5-s1.1.1",
+"strength": "helpful",
+"why": "metal ion formed from electron loss",
+"confidence": "low"
+}
+]
+},
+"chem11-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.5.0",
+"strength": "helpful",
+"why": "salt from acid and metal",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.5.1",
+"strength": "helpful",
+"why": "salt name from acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem10-s2.12.0",
+"strength": "helpful",
+"why": "mole ratio from equation",
+"confidence": "low"
+}
+]
+},
+"chem11-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.6.b",
+"strength": "helpful",
+"why": "acid + base general equation",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.5.3",
+"strength": "helpful",
+"why": "sulfuric acid is diprotic",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s1.6.b",
+"strength": "essential",
+"why": "metal oxide as a base",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.6.b",
+"strength": "helpful",
+"why": "ammonia as a base",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.11.0",
+"strength": "helpful",
+"why": "ionic equation, spectator ions",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.6.5": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s1.7.b",
+"strength": "essential",
+"why": "acid + metal general equation",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.7.b",
+"strength": "essential",
+"why": "acid + metal general equation",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.7.b",
+"strength": "helpful",
+"why": "only metals above hydrogen react",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.7.3": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.8.b",
+"strength": "essential",
+"why": "acid + carbonate general equation",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.8.b",
+"strength": "essential",
+"why": "acid + carbonate general equation",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.8.b",
+"strength": "essential",
+"why": "hydrogencarbonates behave like carbonates",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem11-s1.8.0",
+"strength": "helpful",
+"why": "carbon dioxide produced by carbonate",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"chem11-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.5.2",
+"strength": "helpful",
+"why": "salt names from acids",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.8.b",
+"strength": "helpful",
+"why": "carbonate gives water and CO2",
+"confidence": "low"
+}
+]
+},
+"chem11-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.8.3",
+"strength": "essential",
+"why": "balancing with coefficients",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.9.3",
+"strength": "helpful",
+"why": "balance the equation",
+"confidence": "high"
+},
+{
+"id": "chem11-s1.5.2",
+"strength": "helpful",
+"why": "nitrate from nitric acid",
+"confidence": "high"
+}
+]
+},
+"chem11-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem11-s1.9.3",
+"strength": "helpful",
+"why": "balance the equation",
+"confidence": "high"
+},
+{
+"id": "chem11-s1.5.2",
+"strength": "helpful",
+"why": "ethanoate from ethanoic acid",
+"confidence": "high"
+}
+]
+}
+}

@@ -1,0 +1,259 @@
+{
+"hom-cereals-grains-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.0.2": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.0.3": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.0.4": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s2.2.b",
+"strength": "helpful",
+"why": "fortification",
+"confidence": "high"
+}
+]
+},
+"hom-cereals-grains-s2.1.6": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s1.4.0",
+"strength": "helpful",
+"why": "wholegrain means all three grain parts",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s1.1.5",
+"strength": "essential",
+"why": "refining removes bran and germ nutrients",
+"confidence": "high"
+}
+]
+},
+"hom-cereals-grains-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.2.2": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s2.2.0",
+"strength": "helpful",
+"why": "nutrients added to cereals",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.2.5": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s2.1.6",
+"strength": "helpful",
+"why": "sugar and salt levels vary",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s1.5.0",
+"strength": "helpful",
+"why": "coeliac disease and gluten",
+"confidence": "high"
+},
+{
+"id": "hom-proteins-s4.4.0",
+"strength": "helpful",
+"why": "gluten is the wheat protein",
+"confidence": "high"
+}
+]
+},
+"hom-cereals-grains-s2.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s4.4.0",
+"strength": "helpful",
+"why": "gluten in wheat",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.3.1": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.3.3": {
+"cost": 2,
+"needs": []
+},
+"hom-cereals-grains-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cereals-grains-s1.0.2",
+"strength": "essential",
+"why": "germ holds unsaturated fat",
+"confidence": "high"
+}
+]
+},
+"hom-cereals-grains-s2.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-cereals-grains-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s2.1.7",
+"strength": "helpful",
+"why": "ingredients in descending weight",
+"confidence": "high"
+},
+{
+"id": "hom-cereals-grains-s1.4.0",
+"strength": "helpful",
+"why": "wholegrain definition",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s1.2.3",
+"strength": "helpful",
+"why": "fibre from cereals",
+"confidence": "low"
+}
+]
+},
+"hom-cereals-grains-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cereals-grains-s2.4.2",
+"strength": "helpful",
+"why": "best-before date",
+"confidence": "low"
+}
+]
+}
+}

@@ -1,0 +1,324 @@
+{
+ "chem12-s2.0.b": {
+  "needs": []
+ },
+ "chem12-s2.0.0": {
+  "needs": []
+ },
+ "chem12-s2.0.1": {
+  "needs": []
+ },
+ "chem12-s2.0.2": {
+  "needs": []
+ },
+ "chem12-s2.0.3": {
+  "needs": []
+ },
+ "chem12-s2.0.4": {
+  "needs": []
+ },
+ "chem12-s2.0.5": {
+  "needs": []
+ },
+ "chem12-s2.0.6": {
+  "needs": []
+ },
+ "chem12-s2.0.7": {
+  "needs": []
+ },
+ "chem12-s2.1.b": {
+  "needs": []
+ },
+ "chem12-s2.1.0": {
+  "needs": []
+ },
+ "chem12-s2.1.1": {
+  "needs": []
+ },
+ "chem12-s2.1.2": {
+  "needs": []
+ },
+ "chem12-s2.1.3": {
+  "needs": []
+ },
+ "chem12-s2.1.4": {
+  "needs": []
+ },
+ "chem12-s2.1.5": {
+  "needs": []
+ },
+ "chem12-s2.1.6": {
+  "needs": []
+ },
+ "chem12-s2.2.b": {
+  "needs": []
+ },
+ "chem12-s2.2.0": {
+  "needs": []
+ },
+ "chem12-s2.2.1": {
+  "needs": []
+ },
+ "chem12-s2.2.2": {
+  "needs": []
+ },
+ "chem12-s2.2.3": {
+  "needs": []
+ },
+ "chem12-s2.3.b": {
+  "needs": []
+ },
+ "chem12-s2.3.0": {
+  "needs": []
+ },
+ "chem12-s2.3.1": {
+  "needs": []
+ },
+ "chem12-s2.3.2": {
+  "needs": []
+ },
+ "chem12-s2.3.3": {
+  "needs": []
+ },
+ "chem12-s2.4.b": {
+  "needs": [
+   {
+    "id": "chem18-s1.1.0",
+    "strength": "helpful",
+    "why": "chemical equilibrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.4.0": {
+  "needs": []
+ },
+ "chem12-s2.4.1": {
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "reversible reaction sign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.4.2": {
+  "needs": []
+ },
+ "chem12-s2.4.3": {
+  "needs": []
+ },
+ "chem12-s2.4.4": {
+  "needs": []
+ },
+ "chem12-s2.4.5": {
+  "needs": []
+ },
+ "chem12-s2.4.6": {
+  "needs": []
+ },
+ "chem12-s2.5.b": {
+  "needs": []
+ },
+ "chem12-s2.5.0": {
+  "needs": [
+   {
+    "id": "chem18-s1.0.1",
+    "strength": "helpful",
+    "why": "reversible reaction sign",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.5.1": {
+  "needs": []
+ },
+ "chem12-s2.5.2": {
+  "needs": []
+ },
+ "chem12-s2.6.b": {
+  "needs": []
+ },
+ "chem12-s2.6.0": {
+  "needs": []
+ },
+ "chem12-s2.6.1": {
+  "needs": []
+ },
+ "chem12-s2.6.2": {
+  "needs": []
+ },
+ "chem12-s2.6.3": {
+  "needs": []
+ },
+ "chem12-s2.6.4": {
+  "needs": []
+ },
+ "chem12-s2.7.b": {
+  "needs": []
+ },
+ "chem12-s2.7.0": {
+  "needs": [
+   {
+    "id": "chem8-s2.2.3",
+    "strength": "essential",
+    "why": "standard solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.7.1": {
+  "needs": []
+ },
+ "chem12-s2.7.2": {
+  "needs": [
+   {
+    "id": "chem8-s2.5.2",
+    "strength": "essential",
+    "why": "NaOH is not a primary standard",
+    "confidence": "high"
+   },
+   {
+    "id": "chem8-s2.4.0",
+    "strength": "helpful",
+    "why": "primary standard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.7.3": {
+  "needs": []
+ },
+ "chem12-s2.8.b": {
+  "needs": []
+ },
+ "chem12-s2.8.0": {
+  "needs": [
+   {
+    "id": "chem8-s2.8.2",
+    "strength": "helpful",
+    "why": "diluting with pipette and flask",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.8.1": {
+  "needs": []
+ },
+ "chem12-s2.8.2": {
+  "needs": []
+ },
+ "chem12-s2.8.3": {
+  "needs": []
+ },
+ "chem12-s2.8.4": {
+  "needs": []
+ },
+ "chem12-s2.8.5": {
+  "needs": [
+   {
+    "id": "chem8-s2.7.1",
+    "strength": "helpful",
+    "why": "volumetric flask diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.9.b": {
+  "needs": []
+ },
+ "chem12-s2.9.0": {
+  "needs": []
+ },
+ "chem12-s2.9.1": {
+  "needs": []
+ },
+ "chem12-s2.9.2": {
+  "needs": []
+ },
+ "chem12-s2.9.3": {
+  "needs": []
+ },
+ "chem12-s2.10.b": {
+  "needs": [
+   {
+    "id": "chem8-s2.10.2",
+    "strength": "helpful",
+    "why": "%w/v",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.10.0": {
+  "needs": []
+ },
+ "chem12-s2.10.1": {
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "n = c x V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.10.2": {
+  "needs": [
+   {
+    "id": "chem8-s2.2.1",
+    "strength": "essential",
+    "why": "c = n / V",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.10.3": {
+  "needs": [
+   {
+    "id": "chem8-s2.8.0",
+    "strength": "essential",
+    "why": "dilution keeps moles of solute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.10.4": {
+  "needs": [
+   {
+    "id": "chem8-s2.11.0",
+    "strength": "essential",
+    "why": "mol/L to g/L",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.10.5": {
+  "needs": [
+   {
+    "id": "chem8-s2.11.2",
+    "strength": "essential",
+    "why": "g/L to %w/v",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem12-s2.11.b": {
+  "needs": []
+ },
+ "chem12-s2.11.0": {
+  "needs": []
+ },
+ "chem12-s2.11.1": {
+  "needs": []
+ },
+ "chem12-s2.11.2": {
+  "needs": []
+ },
+ "chem12-s2.11.3": {
+  "needs": []
+ },
+ "chem12-s2.11.4": {
+  "needs": []
+ }
+}

@@ -1,0 +1,272 @@
+{
+"hom-vitamins-minerals-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.0",
+"strength": "helpful",
+"why": "water-soluble vitamins not stored",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s3.0.3",
+"strength": "helpful",
+"why": "water-soluble vitamins",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.0.5": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.3",
+"strength": "helpful",
+"why": "RDA definition",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.1.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s3.0.1",
+"strength": "helpful",
+"why": "B vitamins as coenzymes",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.1.3": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s3.1.3",
+"strength": "helpful",
+"why": "beriberi deficiency disease",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.1.5": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s3.0.1",
+"strength": "helpful",
+"why": "B vitamins as coenzymes",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.3": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.4": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.4.4": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.3.b",
+"strength": "helpful",
+"why": "scurvy as vitamin C deficiency",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s3.1.3",
+"strength": "helpful",
+"why": "beriberi thiamine deficiency",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s3.3.4",
+"strength": "helpful",
+"why": "pellagra niacin deficiency",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.8.4",
+"strength": "helpful",
+"why": "pernicious anaemia and intrinsic factor",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s2.11.1",
+"strength": "helpful",
+"why": "neural tube defects and folate",
+"confidence": "low"
+}
+]
+},
+"hom-vitamins-minerals-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s2.0.2",
+"strength": "helpful",
+"why": "water-soluble vitamins lost in cooking water",
+"confidence": "high"
+}
+]
+},
+"hom-vitamins-minerals-s3.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.6.1": {
+"cost": 2,
+"needs": []
+},
+"hom-vitamins-minerals-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-vitamins-minerals-s3.6.5": {
+"cost": 2,
+"needs": []
+}
+}

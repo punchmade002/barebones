@@ -1,0 +1,1005 @@
+{
+"chem25-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.0",
+"strength": "helpful",
+"why": "surfactant defined",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.0",
+"strength": "helpful",
+"why": "soap as a surfactant",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.3.0",
+"strength": "helpful",
+"why": "carboxylic acid -COOH group",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.2",
+"strength": "helpful",
+"why": "soap as fatty acid salt",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.11.2",
+"strength": "helpful",
+"why": "naming -oic acid/-oate",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.2",
+"strength": "helpful",
+"why": "soap as fatty acid salt",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.12.0",
+"strength": "helpful",
+"why": "ion-dipole attraction",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.5.1",
+"strength": "helpful",
+"why": "polar molecules have charged ends",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s1.9.0",
+"strength": "helpful",
+"why": "London dispersion forces",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.1.2",
+"strength": "helpful",
+"why": "non-polar substances dissolve in non-polar",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.0",
+"strength": "essential",
+"why": "hydrophilic head",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.1.1",
+"strength": "essential",
+"why": "hydrophobic tail",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.1",
+"strength": "helpful",
+"why": "tail dissolves non-polar oils",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.1.0",
+"strength": "helpful",
+"why": "ionic head and water",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.1.0",
+"strength": "helpful",
+"why": "like dissolves like",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.0",
+"strength": "helpful",
+"why": "head and tail labels",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.1",
+"strength": "essential",
+"why": "soap lowers surface tension",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.1",
+"strength": "essential",
+"why": "tails dissolve in grease",
+"confidence": "high"
+},
+{
+"id": "chem6-s2.1.0",
+"strength": "helpful",
+"why": "like dissolves like",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.2.1",
+"strength": "helpful",
+"why": "tails in grease, heads in water",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.2.2",
+"strength": "helpful",
+"why": "droplets surrounded by soap ions",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.1.2",
+"strength": "essential",
+"why": "head and tail orientation",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.2.3",
+"strength": "essential",
+"why": "negatively charged micelle surfaces",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.2.3",
+"strength": "helpful",
+"why": "micelles trap grease",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.2.3",
+"strength": "essential",
+"why": "micelle structure",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.3.0",
+"strength": "essential",
+"why": "hard water ions Ca2+, Mg2+",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.0.3",
+"strength": "helpful",
+"why": "stearate soap ion formula",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.3.1",
+"strength": "essential",
+"why": "scum formation",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.3.0",
+"strength": "helpful",
+"why": "soft water lacks hardness ions",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.0",
+"strength": "helpful",
+"why": "surfactant head group",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.3.1",
+"strength": "helpful",
+"why": "soap scum in hard water",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.4.0",
+"strength": "essential",
+"why": "synthetic detergent head",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.4.0",
+"strength": "helpful",
+"why": "head group types",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.4.2",
+"strength": "helpful",
+"why": "classification by head charge",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.4.2",
+"strength": "helpful",
+"why": "classification by head charge",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.0",
+"strength": "helpful",
+"why": "surfactants as emulsifiers",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.5.1",
+"strength": "helpful",
+"why": "emulsifiers keep oil and water mixed",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.0.1",
+"strength": "helpful",
+"why": "wetting by lowered surface tension",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.2.3",
+"strength": "essential",
+"why": "micelles trap microorganisms",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.1.1",
+"strength": "essential",
+"why": "hydrophobic tails dissolve in lipids",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.6.3": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.10.3",
+"strength": "helpful",
+"why": "not biodegradable meaning",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem20-s2.6.b",
+"strength": "helpful",
+"why": "eutrophication from nutrients",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.7.1",
+"strength": "helpful",
+"why": "phosphates in detergents",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s5.9.0",
+"strength": "helpful",
+"why": "saponification of fat",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s5.9.0",
+"strength": "essential",
+"why": "saponification with NaOH",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.13.b",
+"strength": "helpful",
+"why": "limiting reagent",
+"confidence": "low"
+},
+{
+"id": "chem26-s3.0.0",
+"strength": "helpful",
+"why": "limiting reagent",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s5.9.0",
+"strength": "essential",
+"why": "fat + NaOH gives soap + glycerol",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s5.9.2",
+"strength": "essential",
+"why": "1:3 fat to NaOH ratio",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.8.3": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s5.2.0",
+"strength": "helpful",
+"why": "reflux meaning",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.9.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.1.0",
+"strength": "helpful",
+"why": "solvent dissolves both",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.9.2": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.1",
+"strength": "helpful",
+"why": "soap product separated",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.9.4": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.9.5": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.b",
+"strength": "helpful",
+"why": "limiting versus excess reagent",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.0.0",
+"strength": "helpful",
+"why": "limiting versus excess",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.9.2",
+"strength": "helpful",
+"why": "apparatus for method steps",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.3.3",
+"strength": "helpful",
+"why": "soap lathers in soft water",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.3.1",
+"strength": "essential",
+"why": "scum in hard water",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.3",
+"strength": "helpful",
+"why": "excess NaOH raises pH",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.1",
+"strength": "helpful",
+"why": "limiting NaOH leaves greasy soap",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.1",
+"strength": "helpful",
+"why": "glycerol co-product",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.0",
+"strength": "helpful",
+"why": "hydrolysis in saponification",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem6-s2.1.2",
+"strength": "helpful",
+"why": "oil and water do not mix",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.9.3",
+"strength": "essential",
+"why": "salting out with brine",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.9.4",
+"strength": "helpful",
+"why": "washing step",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.12.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.12.1": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.3",
+"strength": "helpful",
+"why": "excess NaOH in product",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.12.3": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.2",
+"strength": "helpful",
+"why": "NaOH amount from fat ratio",
+"confidence": "low"
+}
+]
+},
+"chem25-s6.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.0.0",
+"strength": "helpful",
+"why": "limiting reagent definition",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.2",
+"strength": "essential",
+"why": "1:3 mole ratio",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.0.2",
+"strength": "helpful",
+"why": "product set by limiting reagent",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.0",
+"strength": "helpful",
+"why": "unreacted fat remains",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.2",
+"strength": "helpful",
+"why": "all fat converted",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.0.1",
+"strength": "helpful",
+"why": "reagent in excess",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.2",
+"strength": "helpful",
+"why": "excess NaOH remains",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.3",
+"strength": "essential",
+"why": "removing free NaOH",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.2",
+"strength": "helpful",
+"why": "excess reagent",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.0.1",
+"strength": "helpful",
+"why": "reagent in excess",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.4",
+"strength": "helpful",
+"why": "removing excess NaOH",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.13.0",
+"strength": "helpful",
+"why": "limiting NaOH leaves oil",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.8.2",
+"strength": "essential",
+"why": "1:3 fat to NaOH ratio",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.15.0": {
+"cost": 1,
+"needs": []
+},
+"chem25-s6.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.8.2",
+"strength": "essential",
+"why": "1:3 mole ratio",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.15.0",
+"strength": "essential",
+"why": "molar masses",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.1.1",
+"strength": "helpful",
+"why": "convert mass to moles",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.15.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.15.1",
+"strength": "essential",
+"why": "moles of NaOH needed",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.13.2",
+"strength": "helpful",
+"why": "excess NaOH, fat limiting",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "compare moles needed to find limiting",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.15.1",
+"strength": "essential",
+"why": "moles of NaOH needed",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.13.0",
+"strength": "helpful",
+"why": "NaOH limiting yield",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.1.3",
+"strength": "essential",
+"why": "less reactant than ratio needs",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.15.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem25-s6.15.3",
+"strength": "essential",
+"why": "moles NaOH used, fat used",
+"confidence": "high"
+},
+{
+"id": "chem26-s3.1.6",
+"strength": "essential",
+"why": "moles of excess left",
+"confidence": "high"
+}
+]
+},
+"chem25-s6.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem25-s6.15.2",
+"strength": "helpful",
+"why": "excess batch result",
+"confidence": "high"
+},
+{
+"id": "chem25-s6.15.4",
+"strength": "helpful",
+"why": "limiting batch result",
+"confidence": "high"
+}
+]
+}
+}

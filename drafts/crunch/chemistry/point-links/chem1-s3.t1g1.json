@@ -1,0 +1,384 @@
+{
+ "chem1-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.0.0",
+    "strength": "helpful",
+    "why": "scientific question defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.1.0",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.1.0",
+    "strength": "helpful",
+    "why": "variable being changed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem1-s3.1.0",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "chem1-s3.1.1",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.2.0",
+    "strength": "helpful",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.2.0",
+    "strength": "essential",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.3.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem1-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.3.2",
+    "strength": "essential",
+    "why": "criteria for comparing strategies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem1-s3.1.0",
+    "strength": "helpful",
+    "why": "variables in plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.1",
+    "strength": "helpful",
+    "why": "risk defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.1.0",
+    "strength": "essential",
+    "why": "independent variable values",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.1.2",
+    "strength": "helpful",
+    "why": "controlled factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.1.2",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.5.0",
+    "strength": "essential",
+    "why": "fair test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.5.2",
+    "strength": "essential",
+    "why": "reliability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.0",
+    "strength": "essential",
+    "why": "hazard vs risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.0",
+    "strength": "essential",
+    "why": "hazard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.1",
+    "strength": "essential",
+    "why": "risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.3",
+    "strength": "helpful",
+    "why": "assessed risk",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem1-s3.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem1-s3.8.2",
+    "strength": "helpful",
+    "why": "hazard pictograms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem1-s3.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s3.8.1",
+    "strength": "helpful",
+    "why": "risk of harm",
+    "confidence": "high"
+   }
+  ]
+ }
+}

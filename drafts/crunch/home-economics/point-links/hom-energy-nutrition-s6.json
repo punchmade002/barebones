@@ -1,0 +1,391 @@
+{
+"hom-energy-nutrition-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.2": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.1.b",
+"strength": "helpful",
+"why": "uses calcium as a mineral",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.0.7": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.1.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.2",
+"strength": "helpful",
+"why": "water as solvent",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.1.1": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s6.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.1.3": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s6.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.2",
+"strength": "helpful",
+"why": "water dissolving substances",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.2",
+"strength": "essential",
+"why": "water as a solvent",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.1.6": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.2.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.3",
+"strength": "helpful",
+"why": "water retains heat well",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.2.0",
+"strength": "helpful",
+"why": "sweating cools the body",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.3.0",
+"strength": "helpful",
+"why": "kidneys remove waste in urine",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s6.4.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.0.0",
+"strength": "helpful",
+"why": "minerals the body needs",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.6",
+"strength": "helpful",
+"why": "hard water has dissolved calcium",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.1.b",
+"strength": "helpful",
+"why": "calcium as a mineral",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.3.1",
+"strength": "helpful",
+"why": "fluoride is a trace mineral",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.5.2",
+"strength": "helpful",
+"why": "fluoride in water supplies",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.6.0",
+"strength": "helpful",
+"why": "thirst signals water loss",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.6.1",
+"strength": "helpful",
+"why": "dehydration",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.6.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.6.2",
+"strength": "helpful",
+"why": "dehydration",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.6.4": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.6.5": {
+"cost": 2,
+"needs": []
+},
+"hom-energy-nutrition-s6.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.0.7",
+"strength": "helpful",
+"why": "water has no energy value",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.1.4",
+"strength": "helpful",
+"why": "water carries nutrients and waste",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.8.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.4.2",
+"strength": "helpful",
+"why": "water prevents constipation",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.8.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.2.0",
+"strength": "helpful",
+"why": "sweating cools the body",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.2.0",
+"strength": "helpful",
+"why": "sweating cools the body",
+"confidence": "high"
+},
+{
+"id": "hom-vitamins-minerals-s4.6.b",
+"strength": "helpful",
+"why": "sodium and potassium",
+"confidence": "low"
+}
+]
+},
+"hom-energy-nutrition-s6.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-energy-nutrition-s6.6.1",
+"strength": "helpful",
+"why": "dehydration",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.9.3": {
+"cost": 1,
+"needs": []
+},
+"hom-energy-nutrition-s6.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-vitamins-minerals-s4.6.b",
+"strength": "helpful",
+"why": "sodium and potassium roles",
+"confidence": "low"
+},
+{
+"id": "hom-energy-nutrition-s6.9.0",
+"strength": "helpful",
+"why": "salts lost in sweat",
+"confidence": "high"
+}
+]
+},
+"hom-energy-nutrition-s6.9.5": {
+"cost": 1,
+"needs": []
+}
+}

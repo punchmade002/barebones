@@ -1,0 +1,45 @@
+import json,re,sys
+B='/Users/gabrielwhelan/barebones/.claude/worktrees/crunch-chem-home/drafts/crunch/home-economics/'
+name='hom-family-society-s4.t1g1'
+H,E='helpful','essential'
+S4='hom-family-society-s4.';S3='hom-family-society-s3.';S2='hom-family-society-s2.'
+# id: (cost, [(id,strength,why,conf)])
+D={
+'0.b':(1,[]),
+'0.0':(2,[(S2+'3.2',H,'Divorce Act 1996','high'),(S3+'1.b',H,'lone-parent family','high'),(S3+'3.b',H,'blended family','high')]),
+'0.1':(1,[(S3+'0.0',H,'defines cohabiting','high')]),
+'0.2':(1,[(S2+'2.5',H,'family planning law','low')]),
+'0.3':(2,[(S2+'3.5',H,'same-sex marriage referendum and Act','high'),(S2+'3.4',H,'civil partnership 2010','high')]),
+'0.4':(1,[(S4+'3.1',H,'assisted reproduction','high')]),
+'0.5':(1,[(S3+'1.b',H,'lone-parent family','high')]),
+'1.b':(1,[]),
+'1.0':(2,[(S2+'4.0',H,'dual-income, shared roles','low')]),
+'1.1':(2,[(S2+'1.5',H,'Church influence on family','high')]),
+'1.2':(2,[(S3+'2.b',H,'extended family','high')]),
+'1.3':(1,[]),
+'1.4':(1,[]),
+'1.5':(1,[]),
+'2.b':(1,[]),
+'2.0':(1,[]),
+'2.1':(2,[(S3+'2.1',H,'multi-generation extended family','low')]),
+'2.2':(1,[]),
+'2.3':(1,[]),
+'2.4':(2,[]),
+'2.5':(1,[]),
+'2.6':(1,[(S3+'1.4',H,'State supports for families','high')]),
+'3.b':(1,[]),
+'3.0':(1,[(S2+'2.5',H,'family planning','high')]),
+'3.1':(2,[]),
+'3.2':(1,[]),
+'3.3':(2,[]),
+'3.4':(1,[]),
+'3.5':(2,[]),
+'3.6':(2,[]),
+'3.7':(1,[]),
+'4.b':(1,[]),
+'4.0':(1,[(S4+'2.1',E,'uses the recession','high'),(S4+'2.0',H,'high housing costs','high'),(S3+'2.b',H,'extended household','low')]),
+'4.1':(1,[(S4+'2.2',E,'uses emigration','high'),(S4+'3.3',E,'uses communication technology','high')]),
+'4.2':(1,[(S4+'3.5',E,'uses remote working','high'),(S4+'2.0',H,'childcare costs','high')]),
+'4.3':(1,[(S4+'0.0',E,'uses divorce','high'),(S4+'3.3',E,'uses communication technology','high')]),
+'4.4':(2,[(S3+'4.b',H,'contemporary family types','low')]),
+}

@@ -1,0 +1,274 @@
+{
+ "hom-meat-preparation-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.2.0",
+    "strength": "helpful",
+    "why": "haem iron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.2.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.2.0",
+    "strength": "helpful",
+    "why": "haem iron",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-vitamins-minerals-s4.2.4",
+    "strength": "helpful",
+    "why": "iron-deficiency anaemia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.1.3",
+    "strength": "helpful",
+    "why": "meat fat is saturated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s7.1.4",
+    "strength": "helpful",
+    "why": "plant protein sources for vegetarians",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.3.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.0",
+    "strength": "helpful",
+    "why": "muscle fibre structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.3",
+    "strength": "helpful",
+    "why": "connective tissue toughness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.2",
+    "strength": "helpful",
+    "why": "myofibrils actin myosin",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-meat-preparation-s1.4.3",
+    "strength": "helpful",
+    "why": "connective tissue labels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-meat-preparation-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.2",
+    "strength": "helpful",
+    "why": "actin and myosin myofibrils",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.2",
+    "strength": "helpful",
+    "why": "muscle fluid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.0.1",
+    "strength": "helpful",
+    "why": "myoglobin red pigment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.3",
+    "strength": "helpful",
+    "why": "collagen in connective tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-meat-preparation-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-meat-preparation-s1.4.3",
+    "strength": "helpful",
+    "why": "elastin in connective tissue",
+    "confidence": "high"
+   }
+  ]
+ }
+}

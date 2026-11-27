@@ -1,0 +1,230 @@
+{
+ "hom-proteins-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-proteins-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.0.1",
+    "strength": "helpful",
+    "why": "uses fat energy value per gram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.0.2",
+    "strength": "helpful",
+    "why": "amino acids as units of protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.0.0",
+    "strength": "helpful",
+    "why": "uses energy value per gram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.0.0",
+    "strength": "essential",
+    "why": "uses 17 kJ or 4 kcal per gram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.2.1",
+    "strength": "essential",
+    "why": "applies multiply-by-17 step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.0.1",
+    "strength": "helpful",
+    "why": "uses other nutrients' energy values",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s8.2.1",
+    "strength": "helpful",
+    "why": "adds protein energy from step 2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-proteins-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.0.2",
+    "strength": "helpful",
+    "why": "amino acids make up protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.1.0",
+    "strength": "essential",
+    "why": "amino group -NH2 structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.3.1",
+    "strength": "essential",
+    "why": "uses ammonia from deamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.3.2",
+    "strength": "essential",
+    "why": "uses urea formed in liver",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.3.3",
+    "strength": "helpful",
+    "why": "kidneys excrete urea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-proteins-s1.1.1",
+    "strength": "helpful",
+    "why": "carboxyl group -COOH",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s8.3.1",
+    "strength": "helpful",
+    "why": "carbon skeleton left after deamination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.3.5",
+    "strength": "essential",
+    "why": "carbon skeleton oxidised for energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-proteins-s8.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-proteins-s8.3.3",
+    "strength": "essential",
+    "why": "urea to kidneys and urine",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-proteins-s8.3.5",
+    "strength": "helpful",
+    "why": "carbon part going to energy",
+    "confidence": "high"
+   }
+  ]
+ }
+}

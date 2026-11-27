@@ -1,0 +1,484 @@
+{
+ "hom-energy-nutrition-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.1.0",
+    "strength": "helpful",
+    "why": "BMR definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.0",
+    "strength": "essential",
+    "why": "energy input and output",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.0",
+    "strength": "essential",
+    "why": "energy input and output",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-energy-nutrition-s1.0.3",
+    "strength": "helpful",
+    "why": "fat stored as adipose tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.0",
+    "strength": "essential",
+    "why": "energy input and output",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-energy-nutrition-s1.0.3",
+    "strength": "helpful",
+    "why": "glycogen and fat stores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.3",
+    "strength": "helpful",
+    "why": "negative energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.1",
+    "strength": "helpful",
+    "why": "energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.4.b",
+    "strength": "helpful",
+    "why": "physical activity energy use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.4.3",
+    "strength": "helpful",
+    "why": "sedentary lifestyle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.1",
+    "strength": "helpful",
+    "why": "returning to energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.5.b",
+    "strength": "helpful",
+    "why": "factors affecting energy requirement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s3.7.0",
+    "strength": "helpful",
+    "why": "energy-dense foods",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.2",
+    "strength": "essential",
+    "why": "positive energy balance",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-energy-nutrition-s2.0.3",
+    "strength": "essential",
+    "why": "negative energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.1.0",
+    "strength": "helpful",
+    "why": "reducing energy intake",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.1.2",
+    "strength": "helpful",
+    "why": "increasing energy output",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s3.7.2",
+    "strength": "helpful",
+    "why": "healthy eating guidelines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.2.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.3.0",
+    "strength": "helpful",
+    "why": "empty kilocalories",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.2",
+    "strength": "essential",
+    "why": "positive energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.4.3",
+    "strength": "helpful",
+    "why": "sedentary lifestyle lowers output",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.4.2",
+    "strength": "helpful",
+    "why": "leisure activity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s1.2.4",
+    "strength": "helpful",
+    "why": "thyroid controls BMR",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s3.7.0",
+    "strength": "helpful",
+    "why": "energy-dense foods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.4.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.0.1",
+    "strength": "helpful",
+    "why": "return to energy balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "helpful",
+    "why": "BMI calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "helpful",
+    "why": "BMI calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "helpful",
+    "why": "BMI calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "helpful",
+    "why": "BMI calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.b",
+    "strength": "helpful",
+    "why": "BMI as screening measure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-energy-nutrition-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "essential",
+    "why": "BMI formula uses metres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "helpful",
+    "why": "BMI formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.0",
+    "strength": "essential",
+    "why": "BMI formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.2",
+    "strength": "helpful",
+    "why": "BMI categories",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-energy-nutrition-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-energy-nutrition-s2.6.3",
+    "strength": "helpful",
+    "why": "overweight and obese categories",
+    "confidence": "high"
+   }
+  ]
+ }
+}

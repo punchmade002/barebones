@@ -1,0 +1,1371 @@
+{
+ "chem24-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "essential",
+    "why": "fermentation of glucose to ethanol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "helpful",
+    "why": "fermentation by micro-organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "helpful",
+    "why": "ethanol made by fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.3",
+    "strength": "helpful",
+    "why": "fermentation limit on ethanol strength",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.1.1",
+    "strength": "helpful",
+    "why": "feedstocks replaced by plant ones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.3.2",
+    "strength": "helpful",
+    "why": "biomass as renewable feedstock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.4",
+    "strength": "helpful",
+    "why": "polymers and monomers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.0",
+    "strength": "helpful",
+    "why": "fuels listed, energy release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.2",
+    "strength": "helpful",
+    "why": "pharmaceuticals/medicines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.4",
+    "strength": "essential",
+    "why": "polymers made from monomers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.4",
+    "strength": "essential",
+    "why": "polymers made from monomers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.4",
+    "strength": "helpful",
+    "why": "plastics are polymers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.0",
+    "strength": "essential",
+    "why": "pesticides kill pests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.0",
+    "strength": "helpful",
+    "why": "what pesticides are",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.1",
+    "strength": "helpful",
+    "why": "insecticide and herbicide types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.4",
+    "strength": "helpful",
+    "why": "monomers linking into polymers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.5.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.3.1",
+    "strength": "helpful",
+    "why": "esters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "helpful",
+    "why": "ethanoic acid, a carboxylic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.1",
+    "strength": "helpful",
+    "why": "fuels and energy release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.2",
+    "strength": "helpful",
+    "why": "pharmaceuticals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.1",
+    "strength": "helpful",
+    "why": "pesticides control pests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.4.7",
+    "strength": "helpful",
+    "why": "plastic properties and uses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.5",
+    "strength": "helpful",
+    "why": "synthetic fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s1.8.1",
+    "strength": "helpful",
+    "why": "greenhouse gases trap heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s1.10.0",
+    "strength": "helpful",
+    "why": "pollutants from incomplete combustion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem23-s1.13.2",
+    "strength": "helpful",
+    "why": "non-biodegradable plastics persist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.8.2",
+    "strength": "helpful",
+    "why": "plastic persisting in oceans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.1.2",
+    "strength": "essential",
+    "why": "finite fossil sources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.1.0",
+    "strength": "helpful",
+    "why": "fossil feedstocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.9.1",
+    "strength": "helpful",
+    "why": "DDT persistence and bioaccumulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.9.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.3.2",
+    "strength": "essential",
+    "why": "renewable bio-based feedstocks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.5.1",
+    "strength": "helpful",
+    "why": "pesticides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.1.3",
+    "strength": "helpful",
+    "why": "natural products from living things",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.3.2",
+    "strength": "helpful",
+    "why": "biomass as bio-based feedstock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.10.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.10.0",
+    "strength": "helpful",
+    "why": "life-cycle benefit and impact weighing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.1.3",
+    "strength": "helpful",
+    "why": "natural products from living things",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.11.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.11.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.11.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "helpful",
+    "why": "fermentation making products",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.0",
+    "strength": "helpful",
+    "why": "willow bark medicine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.2",
+    "strength": "essential",
+    "why": "quinine from cinchona",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.4",
+    "strength": "essential",
+    "why": "opium contains codeine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.4",
+    "strength": "helpful",
+    "why": "morphine from opium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.12.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem24-s3.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.1",
+    "strength": "helpful",
+    "why": "salicylic acid from willow",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.14.0",
+    "strength": "essential",
+    "why": "salicylic acid as starting compound",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.14.1",
+    "strength": "essential",
+    "why": "Hoffmann made aspirin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.14.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s3.14.0",
+    "strength": "essential",
+    "why": "salicylic acid as precursor",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.1",
+    "strength": "helpful",
+    "why": "ester group formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.14.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.0.0",
+    "strength": "helpful",
+    "why": "functional groups",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s3.14.3",
+    "strength": "helpful",
+    "why": "aspirin structure from synthesis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.14.0",
+    "strength": "helpful",
+    "why": "salicylic acid irritates stomach",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.16.0",
+    "strength": "helpful",
+    "why": "Fleming discovered penicillin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.16.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.16.3",
+    "strength": "essential",
+    "why": "penicillin stops cell wall building",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.17.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem24-s3.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.3.0",
+    "strength": "helpful",
+    "why": "carboxylic acid group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "essential",
+    "why": "fermentation by micro-organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.17.2",
+    "strength": "helpful",
+    "why": "penicillin fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.17.2",
+    "strength": "essential",
+    "why": "penicillin made by fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.17.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.17.4",
+    "strength": "essential",
+    "why": "semi-synthetic penicillins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.16.3",
+    "strength": "helpful",
+    "why": "antibiotics kill bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.17.0",
+    "strength": "essential",
+    "why": "beta-lactam ring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.19.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.19.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.19.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.19.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.0.0",
+    "strength": "helpful",
+    "why": "functional groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.20.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.19.2",
+    "strength": "essential",
+    "why": "taxol in Pacific yew bark",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.11.3",
+    "strength": "essential",
+    "why": "precursor and semi-synthesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.2.0",
+    "strength": "essential",
+    "why": "fermentation by cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.20.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.3.0",
+    "strength": "helpful",
+    "why": "synthesis from simpler molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.21.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.12.4",
+    "strength": "essential",
+    "why": "morphine and codeine from opium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.0",
+    "strength": "essential",
+    "why": "opiates definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.0.0",
+    "strength": "helpful",
+    "why": "functional groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.2",
+    "strength": "helpful",
+    "why": "functional groups of morphine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.2",
+    "strength": "essential",
+    "why": "morphine structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.2",
+    "strength": "essential",
+    "why": "morphine structure",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s1.3.1",
+    "strength": "helpful",
+    "why": "ester group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.0",
+    "strength": "helpful",
+    "why": "opiates as painkillers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.21.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.0",
+    "strength": "helpful",
+    "why": "opiates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.22.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s1.0.0",
+    "strength": "helpful",
+    "why": "functional groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.3.0",
+    "strength": "essential",
+    "why": "synthesis from precursors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s1.0.0",
+    "strength": "helpful",
+    "why": "functional groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.22.1",
+    "strength": "helpful",
+    "why": "multi-step synthesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.23.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.23.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.23.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.23.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.14.3",
+    "strength": "helpful",
+    "why": "aspirin from salicylic acid",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem24-s3.23.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.24.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.24.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.24.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.24.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.24.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.24.2",
+    "strength": "essential",
+    "why": "regulator approval of new drugs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.25.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.25.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem1-s2.5.0",
+    "strength": "helpful",
+    "why": "research question planning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.25.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.25.0",
+    "strength": "helpful",
+    "why": "research question for investigation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.25.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.25.0",
+    "strength": "helpful",
+    "why": "research question for investigation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.26.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.26.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.7.0",
+    "strength": "helpful",
+    "why": "peer-reviewed sources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.26.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.7.1",
+    "strength": "helpful",
+    "why": "kinds of source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.26.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.8.0",
+    "strength": "essential",
+    "why": "judging authority of source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.26.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem1-s2.8.3",
+    "strength": "essential",
+    "why": "judging bias of source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem24-s3.27.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.25.0",
+    "strength": "helpful",
+    "why": "investigation write-up content",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s3.14.3",
+    "strength": "helpful",
+    "why": "aspirin ester formation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s3.20.1",
+    "strength": "helpful",
+    "why": "taxol semi-synthesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.23.2",
+    "strength": "essential",
+    "why": "structure change improves a drug",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.21.7",
+    "strength": "helpful",
+    "why": "side effects and addiction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.20.0",
+    "strength": "essential",
+    "why": "taxol from Pacific yew",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem24-s3.18.0",
+    "strength": "helpful",
+    "why": "antibiotic resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem24-s3.27.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem24-s3.20.1",
+    "strength": "essential",
+    "why": "taxol semi-synthesis from yew needles",
+    "confidence": "high"
+   },
+   {
+    "id": "chem24-s3.25.0",
+    "strength": "helpful",
+    "why": "answering the research question",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,647 @@
+{
+"chem4-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.0.1",
+"strength": "essential",
+"why": "triads",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.0.3",
+"strength": "essential",
+"why": "law of octaves",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.0",
+"strength": "essential",
+"why": "Mendeleev's arrangement",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.0.4",
+"strength": "helpful",
+"why": "Newlands left no gaps",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.2",
+"strength": "essential",
+"why": "predicted undiscovered elements",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.3",
+"strength": "essential",
+"why": "confirmed predictions",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.1.0",
+"strength": "essential",
+"why": "ordering by atomic weight",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.2",
+"strength": "helpful",
+"why": "gaps and predictions",
+"confidence": "low"
+}
+]
+},
+"chem4-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.13.0",
+"strength": "essential",
+"why": "atomic number is number of protons",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.2.1",
+"strength": "essential",
+"why": "atomic number",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.2.2",
+"strength": "essential",
+"why": "ordering by atomic number",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.14.2",
+"strength": "essential",
+"why": "outer-shell electrons",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.2.2",
+"strength": "helpful",
+"why": "ordering by atomic number",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.2",
+"strength": "helpful",
+"why": "Mendeleev's gaps",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.2.0",
+"strength": "essential",
+"why": "noble gases added later",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "helpful",
+"why": "definition of blocks",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.14.2",
+"strength": "essential",
+"why": "outer electrons set properties",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "essential",
+"why": "outer electrons in a group",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "helpful",
+"why": "outer electrons in a group",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.0",
+"strength": "essential",
+"why": "groups",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.0",
+"strength": "essential",
+"why": "groups",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.0.1",
+"strength": "essential",
+"why": "main energy levels",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.8.0",
+"strength": "helpful",
+"why": "proton and electron charges",
+"confidence": "low"
+}
+]
+},
+"chem4-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.6.0",
+"strength": "helpful",
+"why": "metals and non-metals",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.6.2",
+"strength": "essential",
+"why": "staircase line",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.6.0",
+"strength": "helpful",
+"why": "where metals sit",
+"confidence": "low"
+}
+]
+},
+"chem4-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.6.4",
+"strength": "helpful",
+"why": "contrast with metals",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.18.0",
+"strength": "essential",
+"why": "sublevels s, p, d, f",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "essential",
+"why": "block definition",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "essential",
+"why": "block definition",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "essential",
+"why": "block definition",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "essential",
+"why": "block definition",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.18.3",
+"strength": "essential",
+"why": "sublevel electron capacities",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.7.b",
+"strength": "helpful",
+"why": "blocks",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem2-s1.10.2",
+"strength": "essential",
+"why": "neutral atom: electrons equal protons",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "essential",
+"why": "group gives outer electrons",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.5.1",
+"strength": "essential",
+"why": "period gives energy levels",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.6.2",
+"strength": "essential",
+"why": "staircase line",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "essential",
+"why": "same group, same properties",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.17.2",
+"strength": "essential",
+"why": "metals lose electrons to form ions",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.17.4",
+"strength": "essential",
+"why": "non-metals gain electrons to form ions",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.17.0",
+"strength": "essential",
+"why": "full outer level is stable",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "helpful",
+"why": "ion charges from group",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "essential",
+"why": "group 2 ion charge",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.9.2",
+"strength": "essential",
+"why": "group 17 ion charge",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.9.1",
+"strength": "essential",
+"why": "group 13 ion charge",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.9.2",
+"strength": "essential",
+"why": "group 16 ion charge",
+"confidence": "high"
+},
+{
+"id": "chem4-s1.10.0",
+"strength": "helpful",
+"why": "balancing ion charges",
+"confidence": "low"
+}
+]
+},
+"chem4-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem4-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.4.1",
+"strength": "helpful",
+"why": "trends down groups",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.11.0",
+"strength": "essential",
+"why": "trends predict properties",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem4-s1.1.2",
+"strength": "helpful",
+"why": "Mendeleev's predictions",
+"confidence": "high"
+}
+]
+},
+"chem4-s1.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem4-s1.5.1",
+"strength": "helpful",
+"why": "occupied energy levels",
+"confidence": "high"
+}
+]
+}
+}

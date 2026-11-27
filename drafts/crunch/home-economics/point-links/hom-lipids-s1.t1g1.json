@@ -1,0 +1,356 @@
+{
+ "hom-lipids-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.1",
+    "strength": "helpful",
+    "why": "saturated fats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.0.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.1",
+    "strength": "essential",
+    "why": "saturated no double bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.1",
+    "strength": "essential",
+    "why": "cis double bond shape",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.0.2",
+    "strength": "helpful",
+    "why": "unsaturated double bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.1.1",
+    "strength": "essential",
+    "why": "kink per cis bond",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.0.2",
+    "strength": "helpful",
+    "why": "monounsaturated one double bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.3",
+    "strength": "helpful",
+    "why": "polyunsaturated double bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.0",
+    "strength": "essential",
+    "why": "carboxyl and methyl ends",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.2",
+    "strength": "helpful",
+    "why": "double bonds in unsaturated acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.1",
+    "strength": "helpful",
+    "why": "contrast with cis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.1",
+    "strength": "helpful",
+    "why": "cis fatty acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.2",
+    "strength": "helpful",
+    "why": "trans fatty acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.3",
+    "strength": "essential",
+    "why": "polyunsaturated acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.1.3",
+    "strength": "helpful",
+    "why": "omega-6 and omega-3",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.3.1",
+    "strength": "helpful",
+    "why": "linoleic acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.3.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-lipids-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.1.3",
+    "strength": "helpful",
+    "why": "omega-3 definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.2",
+    "strength": "helpful",
+    "why": "HDL cholesterol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-lipids-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.0",
+    "strength": "essential",
+    "why": "LDL is a lipoprotein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.0",
+    "strength": "essential",
+    "why": "HDL is a lipoprotein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.0.1",
+    "strength": "essential",
+    "why": "saturated fatty acids",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.5.1",
+    "strength": "helpful",
+    "why": "raises LDL",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.1",
+    "strength": "essential",
+    "why": "cis unsaturated acids",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.5.2",
+    "strength": "helpful",
+    "why": "raises HDL",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.2.2",
+    "strength": "essential",
+    "why": "trans fatty acids",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.5.1",
+    "strength": "helpful",
+    "why": "LDL and HDL effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.5.3",
+    "strength": "helpful",
+    "why": "replaces saturated fats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-lipids-s1.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-lipids-s1.3.0",
+    "strength": "essential",
+    "why": "essential fatty acids",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-lipids-s1.4.0",
+    "strength": "helpful",
+    "why": "omega-3 benefits",
+    "confidence": "high"
+   }
+  ]
+ }
+}

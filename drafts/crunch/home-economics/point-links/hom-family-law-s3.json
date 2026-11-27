@@ -1,0 +1,386 @@
+{
+"hom-family-law-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.0.2",
+"strength": "helpful",
+"why": "applicant and respondent terms",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.1.0",
+"strength": "helpful",
+"why": "barring order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.1.4",
+"strength": "helpful",
+"why": "property-interest condition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-law-s3.1.4",
+"strength": "helpful",
+"why": "property-interest condition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.1.4": {
+"cost": 2,
+"needs": []
+},
+"hom-family-law-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.1.4",
+"strength": "essential",
+"why": "uses property-interest condition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.1.0",
+"strength": "helpful",
+"why": "barring order removes respondent",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-family-law-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.0",
+"strength": "essential",
+"why": "safety order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-law-s3.2.0",
+"strength": "helpful",
+"why": "safety order",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.0",
+"strength": "essential",
+"why": "same effect as safety order",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.3",
+"strength": "essential",
+"why": "protection order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.3",
+"strength": "essential",
+"why": "protection order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-law-s3.2.3",
+"strength": "helpful",
+"why": "protection order not enough",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.0",
+"strength": "essential",
+"why": "interim barring order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-law-s3.1.4",
+"strength": "essential",
+"why": "lesser interest in the home",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.2",
+"strength": "essential",
+"why": "emergency barring order eligibility",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.0",
+"strength": "essential",
+"why": "interim barring order harm test",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.2",
+"strength": "helpful",
+"why": "emergency barring order",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.0",
+"strength": "helpful",
+"why": "safety order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.2.3",
+"strength": "helpful",
+"why": "protection order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.1.0",
+"strength": "helpful",
+"why": "barring order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.0",
+"strength": "helpful",
+"why": "interim barring order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.3.2",
+"strength": "helpful",
+"why": "emergency barring order definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.5.2",
+"strength": "essential",
+"why": "breach of order offence",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.5.4": {
+"cost": 2,
+"needs": []
+},
+"hom-family-law-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.5.4",
+"strength": "essential",
+"why": "coercive control definition",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-family-law-s3.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.0.3",
+"strength": "helpful",
+"why": "District Court applications",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-family-law-s3.0.4",
+"strength": "helpful",
+"why": "urgent orders without respondent",
+"confidence": "high"
+}
+]
+},
+"hom-family-law-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.4.0",
+"strength": "helpful",
+"why": "safety and barring orders",
+"confidence": "low"
+}
+]
+},
+"hom-family-law-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-family-law-s3.5.2",
+"strength": "helpful",
+"why": "breach is an offence",
+"confidence": "high"
+}
+]
+}
+}

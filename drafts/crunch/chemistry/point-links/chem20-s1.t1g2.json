@@ -1,0 +1,382 @@
+{
+ "chem20-s1.0.b": {
+  "needs": []
+ },
+ "chem20-s1.0.0": {
+  "needs": []
+ },
+ "chem20-s1.0.1": {
+  "needs": []
+ },
+ "chem20-s1.0.2": {
+  "needs": []
+ },
+ "chem20-s1.0.3": {
+  "needs": [
+   {
+    "id": "chem23-s1.2.0",
+    "strength": "helpful",
+    "why": "anaerobic decomposition makes methane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.0.4": {
+  "needs": []
+ },
+ "chem20-s1.0.5": {
+  "needs": []
+ },
+ "chem20-s1.1.b": {
+  "needs": []
+ },
+ "chem20-s1.1.0": {
+  "needs": []
+ },
+ "chem20-s1.1.1": {
+  "needs": [
+   {
+    "id": "chem23-s1.1.0",
+    "strength": "helpful",
+    "why": "fossil fuel formation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.1.2": {
+  "needs": []
+ },
+ "chem20-s1.1.3": {
+  "needs": []
+ },
+ "chem20-s1.2.b": {
+  "needs": []
+ },
+ "chem20-s1.2.0": {
+  "needs": []
+ },
+ "chem20-s1.2.1": {
+  "needs": []
+ },
+ "chem20-s1.2.2": {
+  "needs": []
+ },
+ "chem20-s1.2.3": {
+  "needs": []
+ },
+ "chem20-s1.2.4": {
+  "needs": []
+ },
+ "chem20-s1.2.5": {
+  "needs": []
+ },
+ "chem20-s1.2.6": {
+  "needs": []
+ },
+ "chem20-s1.2.7": {
+  "needs": []
+ },
+ "chem20-s1.3.b": {
+  "needs": []
+ },
+ "chem20-s1.3.0": {
+  "needs": []
+ },
+ "chem20-s1.3.1": {
+  "needs": []
+ },
+ "chem20-s1.3.2": {
+  "needs": []
+ },
+ "chem20-s1.3.3": {
+  "needs": []
+ },
+ "chem20-s1.3.4": {
+  "needs": []
+ },
+ "chem20-s1.3.5": {
+  "needs": []
+ },
+ "chem20-s1.3.6": {
+  "needs": []
+ },
+ "chem20-s1.3.7": {
+  "needs": []
+ },
+ "chem20-s1.4.b": {
+  "needs": []
+ },
+ "chem20-s1.4.0": {
+  "needs": []
+ },
+ "chem20-s1.4.1": {
+  "needs": []
+ },
+ "chem20-s1.4.2": {
+  "needs": []
+ },
+ "chem20-s1.4.3": {
+  "needs": []
+ },
+ "chem20-s1.4.4": {
+  "needs": []
+ },
+ "chem20-s1.5.b": {
+  "needs": []
+ },
+ "chem20-s1.5.0": {
+  "needs": []
+ },
+ "chem20-s1.5.1": {
+  "needs": []
+ },
+ "chem20-s1.5.2": {
+  "needs": []
+ },
+ "chem20-s1.5.3": {
+  "needs": []
+ },
+ "chem20-s1.5.4": {
+  "needs": []
+ },
+ "chem20-s1.5.5": {
+  "needs": []
+ },
+ "chem20-s1.6.b": {
+  "needs": []
+ },
+ "chem20-s1.6.0": {
+  "needs": []
+ },
+ "chem20-s1.6.1": {
+  "needs": []
+ },
+ "chem20-s1.6.2": {
+  "needs": []
+ },
+ "chem20-s1.7.b": {
+  "needs": []
+ },
+ "chem20-s1.7.0": {
+  "needs": []
+ },
+ "chem20-s1.7.1": {
+  "needs": []
+ },
+ "chem20-s1.7.2": {
+  "needs": []
+ },
+ "chem20-s1.7.3": {
+  "needs": []
+ },
+ "chem20-s1.7.4": {
+  "needs": []
+ },
+ "chem20-s1.7.5": {
+  "needs": []
+ },
+ "chem20-s1.7.6": {
+  "needs": []
+ },
+ "chem20-s1.7.7": {
+  "needs": []
+ },
+ "chem20-s1.8.b": {
+  "needs": []
+ },
+ "chem20-s1.8.0": {
+  "needs": []
+ },
+ "chem20-s1.8.1": {
+  "needs": []
+ },
+ "chem20-s1.8.2": {
+  "needs": []
+ },
+ "chem20-s1.8.3": {
+  "needs": [
+   {
+    "id": "chem23-s1.2.1",
+    "strength": "helpful",
+    "why": "methane sources landfill slurry cattle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.8.4": {
+  "needs": []
+ },
+ "chem20-s1.9.b": {
+  "needs": []
+ },
+ "chem20-s1.9.0": {
+  "needs": []
+ },
+ "chem20-s1.9.1": {
+  "needs": []
+ },
+ "chem20-s1.9.2": {
+  "needs": []
+ },
+ "chem20-s1.9.3": {
+  "needs": []
+ },
+ "chem20-s1.10.b": {
+  "needs": []
+ },
+ "chem20-s1.10.0": {
+  "needs": []
+ },
+ "chem20-s1.10.1": {
+  "needs": []
+ },
+ "chem20-s1.10.2": {
+  "needs": []
+ },
+ "chem20-s1.10.3": {
+  "needs": []
+ },
+ "chem20-s1.10.4": {
+  "needs": []
+ },
+ "chem20-s1.10.5": {
+  "needs": []
+ },
+ "chem20-s1.10.6": {
+  "needs": []
+ },
+ "chem20-s1.10.7": {
+  "needs": []
+ },
+ "chem20-s1.11.b": {
+  "needs": []
+ },
+ "chem20-s1.11.0": {
+  "needs": []
+ },
+ "chem20-s1.11.1": {
+  "needs": []
+ },
+ "chem20-s1.11.2": {
+  "needs": []
+ },
+ "chem20-s1.11.3": {
+  "needs": []
+ },
+ "chem20-s1.12.b": {
+  "needs": []
+ },
+ "chem20-s1.12.0": {
+  "needs": []
+ },
+ "chem20-s1.12.1": {
+  "needs": []
+ },
+ "chem20-s1.12.2": {
+  "needs": []
+ },
+ "chem20-s1.12.3": {
+  "needs": []
+ },
+ "chem20-s1.12.4": {
+  "needs": []
+ },
+ "chem20-s1.12.5": {
+  "needs": []
+ },
+ "chem20-s1.12.6": {
+  "needs": []
+ },
+ "chem20-s1.12.7": {
+  "needs": []
+ },
+ "chem20-s1.13.b": {
+  "needs": []
+ },
+ "chem20-s1.13.0": {
+  "needs": []
+ },
+ "chem20-s1.13.1": {
+  "needs": []
+ },
+ "chem20-s1.13.2": {
+  "needs": []
+ },
+ "chem20-s1.13.3": {
+  "needs": []
+ },
+ "chem20-s1.14.b": {
+  "needs": []
+ },
+ "chem20-s1.14.0": {
+  "needs": []
+ },
+ "chem20-s1.14.1": {
+  "needs": []
+ },
+ "chem20-s1.14.2": {
+  "needs": []
+ },
+ "chem20-s1.14.3": {
+  "needs": []
+ },
+ "chem20-s1.14.4": {
+  "needs": []
+ },
+ "chem20-s1.14.5": {
+  "needs": []
+ },
+ "chem20-s1.15.b": {
+  "needs": []
+ },
+ "chem20-s1.15.0": {
+  "needs": []
+ },
+ "chem20-s1.15.1": {
+  "needs": []
+ },
+ "chem20-s1.15.2": {
+  "needs": []
+ },
+ "chem20-s1.15.3": {
+  "needs": [
+   {
+    "id": "chem23-s1.2.2",
+    "strength": "helpful",
+    "why": "biogas from anaerobic digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.4": {
+  "needs": []
+ },
+ "chem20-s1.16.b": {
+  "needs": []
+ },
+ "chem20-s1.16.0": {
+  "needs": []
+ },
+ "chem20-s1.16.1": {
+  "needs": []
+ },
+ "chem20-s1.16.2": {
+  "needs": [
+   {
+    "id": "chem23-s1.12.2",
+    "strength": "helpful",
+    "why": "catalytic converters",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.16.3": {
+  "needs": []
+ },
+ "chem20-s1.16.4": {
+  "needs": []
+ },
+ "chem20-s1.16.5": {
+  "needs": []
+ }
+}

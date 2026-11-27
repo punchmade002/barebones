@@ -1,0 +1,504 @@
+{
+"chem1-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s7.0.1",
+"strength": "helpful",
+"why": "particle level",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s7.0.2",
+"strength": "helpful",
+"why": "particles explain observations",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.0.1",
+"strength": "helpful",
+"why": "solid versus liquid particle behaviour",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.1.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.1.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.1.4": {
+"cost": 2,
+"needs": []
+},
+"chem1-s7.1.5": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem3-s1.3.1",
+"strength": "essential",
+"why": "falling electron emits photon",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.2.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.2.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.2.4": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "models represent unseen particles",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.6.b",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.2",
+"strength": "helpful",
+"why": "prediction from hypothesis",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.3",
+"strength": "helpful",
+"why": "testing with controlled experiment",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.5",
+"strength": "helpful",
+"why": "accept, modify or reject",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem9-s1.5.0",
+"strength": "essential",
+"why": "kinetic theory of matter",
+"confidence": "high"
+},
+{
+"id": "chem1-s1.8.0",
+"strength": "helpful",
+"why": "models simplify",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem3-s1.1.0",
+"strength": "essential",
+"why": "Bohr model of fixed paths",
+"confidence": "high"
+},
+{
+"id": "chem3-s1.4.0",
+"strength": "helpful",
+"why": "atomic emission spectra",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.7.2",
+"strength": "helpful",
+"why": "models make testable predictions",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.5.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.5.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.5.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.5.4": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.0.0",
+"strength": "helpful",
+"why": "what a log is",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.1",
+"strength": "helpful",
+"why": "researching what is known",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s3.2.0",
+"strength": "helpful",
+"why": "testable hypothesis",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.4",
+"strength": "helpful",
+"why": "analyse data, draw conclusion",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.4.3",
+"strength": "helpful",
+"why": "report ends with conclusion",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.7.4": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.2.0",
+"strength": "helpful",
+"why": "reflection on what went well",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s3.4.0",
+"strength": "helpful",
+"why": "what an experimental plan contains",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.8.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem1-s3.5.0",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+},
+{
+"id": "chem1-s3.6.7",
+"strength": "helpful",
+"why": "justifying equipment choice",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s1.1.4",
+"strength": "helpful",
+"why": "conclusions drawn from data",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.5.b",
+"strength": "helpful",
+"why": "precise scientific communication",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem1-s5.4.0",
+"strength": "helpful",
+"why": "report structure",
+"confidence": "low"
+}
+]
+},
+"chem1-s7.9.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.9.2": {
+"cost": 2,
+"needs": []
+},
+"chem1-s7.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.7.1",
+"strength": "helpful",
+"why": "citing sources in references",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.9.4": {
+"cost": 2,
+"needs": []
+},
+"chem1-s7.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.10.0": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.10.1": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s3.2.1",
+"strength": "helpful",
+"why": "hypothesis with reasoning from concepts",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s3.4.0",
+"strength": "helpful",
+"why": "investigation design and plan",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.4.3",
+"strength": "helpful",
+"why": "conclusion about hypothesis",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem1-s5.1.1",
+"strength": "helpful",
+"why": "evaluating data and errors",
+"confidence": "high"
+}
+]
+},
+"chem1-s7.11.2": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.11.3": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.11.4": {
+"cost": 1,
+"needs": []
+},
+"chem1-s7.11.5": {
+"cost": 1,
+"needs": []
+}
+}

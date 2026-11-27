@@ -1,0 +1,335 @@
+{
+ "hom-unemployment-poverty-s7.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-work-leisure-s3.2.b",
+    "strength": "helpful",
+    "why": "voluntary work meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-work-leisure-s3.2.b",
+    "strength": "helpful",
+    "why": "volunteers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s6.3.b",
+    "strength": "helpful",
+    "why": "statutory body meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s4.0.b",
+    "strength": "helpful",
+    "why": "risk of poverty",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s7.0.0",
+    "strength": "helpful",
+    "why": "voluntary organisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s4.5.b",
+    "strength": "helpful",
+    "why": "groups at risk of poverty",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s6.2.5",
+    "strength": "helpful",
+    "why": "MABS service",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s6.3.7",
+    "strength": "helpful",
+    "why": "Youthreach and VTOS",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s6.3.0",
+    "strength": "helpful",
+    "why": "SOLAS role",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-unemployment-poverty-s7.4.2",
+    "strength": "helpful",
+    "why": "ETBs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s6.3.6",
+    "strength": "helpful",
+    "why": "Community Employment scheme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s4.0.2",
+    "strength": "helpful",
+    "why": "social exclusion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s7.6.b",
+    "strength": "helpful",
+    "why": "surplus shared with members",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.6.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s7.6.b",
+    "strength": "helpful",
+    "why": "co-operative meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s7.6.b",
+    "strength": "helpful",
+    "why": "member-owned business",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hom-unemployment-poverty-s7.6.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hom-unemployment-poverty-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hom-unemployment-poverty-s7.5.3",
+    "strength": "helpful",
+    "why": "SICAP",
+    "confidence": "high"
+   },
+   {
+    "id": "hom-unemployment-poverty-s7.1.b",
+    "strength": "helpful",
+    "why": "SVP",
+    "confidence": "high"
+   }
+  ]
+ }
+}

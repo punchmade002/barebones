@@ -1,0 +1,576 @@
+{
+"chem26-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.0.2",
+"strength": "helpful",
+"why": "convert masses to moles first",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.0.1",
+"strength": "essential",
+"why": "coefficients give mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.0.1",
+"strength": "helpful",
+"why": "coefficients give mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s1.1.1",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+},
+{
+"id": "chem26-s1.1.2",
+"strength": "essential",
+"why": "moles from gas volume",
+"confidence": "high"
+},
+{
+"id": "chem26-s1.1.3",
+"strength": "essential",
+"why": "moles from concentration and volume",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "using the mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "method A comparison",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.0.5",
+"strength": "helpful",
+"why": "coefficients give mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "mole ratio to find product",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.1",
+"strength": "helpful",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "method A comparison",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.5",
+"strength": "essential",
+"why": "product from limiting reagent",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.6",
+"strength": "essential",
+"why": "excess left calculation",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.1",
+"strength": "helpful",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.2.6",
+"strength": "helpful",
+"why": "conservation of mass check",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.3",
+"strength": "essential",
+"why": "moles from concentration and volume",
+"confidence": "high"
+},
+{
+"id": "chem8-s1.2.0",
+"strength": "essential",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "method A comparison",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.0.4",
+"strength": "essential",
+"why": "limiting is not smaller moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.5",
+"strength": "essential",
+"why": "product from limiting reagent",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.3.4",
+"strength": "essential",
+"why": "gas volume from moles at STP",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.6",
+"strength": "essential",
+"why": "excess left calculation",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.1",
+"strength": "helpful",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.8.4",
+"strength": "essential",
+"why": "volume ratio equals mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "method A comparison",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.12.b",
+"strength": "helpful",
+"why": "gas volumes from equation",
+"confidence": "low"
+}
+]
+},
+"chem26-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.4",
+"strength": "essential",
+"why": "method B divide by coefficient",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.5.2",
+"strength": "essential",
+"why": "smallest value is limiting",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.1.4",
+"strength": "essential",
+"why": "using the mole ratio",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.1",
+"strength": "helpful",
+"why": "mass from moles",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.6",
+"strength": "essential",
+"why": "excess left calculation",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.2.6",
+"strength": "helpful",
+"why": "conservation of mass check",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.1",
+"strength": "essential",
+"why": "theoretical yield",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.6.1": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.6.0",
+"strength": "essential",
+"why": "mass from density and volume",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem8-s1.2.0",
+"strength": "helpful",
+"why": "moles from mass",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.1.2",
+"strength": "essential",
+"why": "method A comparison",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.1",
+"strength": "essential",
+"why": "theoretical yield",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s2.0.3",
+"strength": "essential",
+"why": "percentage yield formula",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.0.1",
+"strength": "helpful",
+"why": "excess reagent meaning",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.7.0",
+"strength": "helpful",
+"why": "why excess is chosen",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem26-s2.3.4",
+"strength": "helpful",
+"why": "reversible reaction and equilibrium",
+"confidence": "low"
+}
+]
+},
+"chem26-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s1.9.2",
+"strength": "essential",
+"why": "excess precipitating reagent",
+"confidence": "high"
+}
+]
+},
+"chem26-s3.7.4": {
+"cost": 1,
+"needs": []
+},
+"chem26-s3.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem26-s3.0.1",
+"strength": "helpful",
+"why": "excess reagent left over",
+"confidence": "high"
+}
+]
+}
+}

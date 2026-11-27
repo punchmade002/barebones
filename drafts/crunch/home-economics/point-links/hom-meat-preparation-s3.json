@@ -1,0 +1,420 @@
+{
+"hom-meat-preparation-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.4.3",
+"strength": "helpful",
+"why": "connective tissue and collagen",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.4.3",
+"strength": "helpful",
+"why": "connective tissue content of muscle",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.0.3": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s5.0.3",
+"strength": "essential",
+"why": "coagulation of protein",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.5.3",
+"strength": "essential",
+"why": "collagen converts in moist cooking",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.4.4",
+"strength": "helpful",
+"why": "marbling fat in muscle",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.1.b": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meat-preparation-s3.0.3",
+"strength": "helpful",
+"why": "rigor mortis after slaughter",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s5.8.1",
+"strength": "helpful",
+"why": "proteolytic enzymes such as papain",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s5.7.1",
+"strength": "helpful",
+"why": "acid marinade denatures surface protein",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s5.7.3",
+"strength": "helpful",
+"why": "salt acts on protein",
+"confidence": "low"
+}
+]
+},
+"hom-meat-preparation-s3.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.5.3",
+"strength": "essential",
+"why": "collagen converts to gelatine",
+"confidence": "high"
+},
+{
+"id": "hom-meat-preparation-s1.5.4",
+"strength": "helpful",
+"why": "elastin not softened by cooking",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.1.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s3.1.6",
+"strength": "helpful",
+"why": "collagen to gelatine in moist cooking",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-proteins-s5.0.0",
+"strength": "essential",
+"why": "denaturation of protein",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.5.3",
+"strength": "helpful",
+"why": "collagen and gelatine",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.5.2",
+"strength": "essential",
+"why": "myoglobin pigment",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-proteins-s5.4.0",
+"strength": "essential",
+"why": "Maillard reaction",
+"confidence": "high"
+},
+{
+"id": "hom-meat-preparation-s1.2.7",
+"strength": "helpful",
+"why": "extractives flavour compounds",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.2.7": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.2.b",
+"strength": "helpful",
+"why": "conduction through the pot",
+"confidence": "low"
+},
+{
+"id": "hom-cooking-methods-s2.3.b",
+"strength": "helpful",
+"why": "convection in the liquid",
+"confidence": "low"
+}
+]
+},
+"hom-meat-preparation-s3.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.4.3",
+"strength": "helpful",
+"why": "connective tissue and collagen",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.4.0": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-meat-preparation-s3.1.6",
+"strength": "helpful",
+"why": "slow moist cooking",
+"confidence": "low"
+}
+]
+},
+"hom-meat-preparation-s3.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.5.3",
+"strength": "helpful",
+"why": "collagen to gelatine",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.4.3": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.4.5": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.4.6": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-cooking-methods-s3.1.2",
+"strength": "helpful",
+"why": "stewing method",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.4.b",
+"strength": "helpful",
+"why": "radiant heat",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.5.5": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-cooking-methods-s2.5.2",
+"strength": "helpful",
+"why": "microwave heating",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.5.7": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.0": {
+"cost": 2,
+"needs": []
+},
+"hom-meat-preparation-s3.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.2.0",
+"strength": "helpful",
+"why": "haem iron",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-meat-preparation-s1.2.7",
+"strength": "helpful",
+"why": "extractives",
+"confidence": "high"
+}
+]
+},
+"hom-meat-preparation-s3.6.6": {
+"cost": 1,
+"needs": []
+},
+"hom-meat-preparation-s3.6.7": {
+"cost": 2,
+"needs": []
+}
+}

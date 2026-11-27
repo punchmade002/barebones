@@ -1,0 +1,510 @@
+{
+"hom-food-preservation-s6.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s1.7.0",
+"strength": "helpful",
+"why": "yeast is a fungus",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.0",
+"strength": "helpful",
+"why": "yeast as fermenting organism",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "essential",
+"why": "equation for alcoholic fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.0.4": {
+"cost": 2,
+"needs": []
+},
+"hom-food-preservation-s6.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "helpful",
+"why": "ethanol produced first",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-safety-s4.1.0",
+"strength": "helpful",
+"why": "starter cultures explained there",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.5",
+"strength": "helpful",
+"why": "acetic stage needs oxygen",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "helpful",
+"why": "carbon dioxide from alcoholic fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "helpful",
+"why": "ethanol from alcoholic fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.4",
+"strength": "helpful",
+"why": "lactic acid fermentation",
+"confidence": "high"
+},
+{
+"id": "hom-food-preservation-s1.2.0",
+"strength": "helpful",
+"why": "pH as a growth condition",
+"confidence": "low"
+}
+]
+},
+"hom-food-preservation-s6.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.5",
+"strength": "helpful",
+"why": "acetic acid fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.1",
+"strength": "helpful",
+"why": "energy released as heat",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.2.5": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "helpful",
+"why": "yeast alcoholic fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.0",
+"strength": "essential",
+"why": "carbon dioxide makes dough rise",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.1",
+"strength": "essential",
+"why": "ethanol evaporates in baking",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.0",
+"strength": "helpful",
+"why": "carbon dioxide carbonates drinks",
+"confidence": "high"
+},
+{
+"id": "hom-food-preservation-s6.8.0",
+"strength": "helpful",
+"why": "barley malted to release maltose",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.1",
+"strength": "helpful",
+"why": "ethanol as alcohol made",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.1.b",
+"strength": "helpful",
+"why": "conditions micro-organisms need",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.4",
+"strength": "helpful",
+"why": "lactic acid fermentation of lactose",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.4",
+"strength": "essential",
+"why": "lactose to lactic acid",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.2",
+"strength": "essential",
+"why": "lactic acid lowers pH",
+"confidence": "high"
+},
+{
+"id": "hom-food-preservation-s6.4.0",
+"strength": "helpful",
+"why": "yoghurt starter cultures",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.4.0",
+"strength": "helpful",
+"why": "yoghurt fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.2.2",
+"strength": "helpful",
+"why": "lactic acid from starter bacteria",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.4": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.4.3",
+"strength": "helpful",
+"why": "ripening follows cheese curd",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.4.4",
+"strength": "helpful",
+"why": "mould ripening of cheese",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.2",
+"strength": "essential",
+"why": "yeast makes ethanol first",
+"confidence": "high"
+},
+{
+"id": "hom-food-preservation-s6.0.5",
+"strength": "essential",
+"why": "acetic acid bacteria oxidise ethanol",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.5.0",
+"strength": "essential",
+"why": "uses the acetic acid stage",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s6.0.4",
+"strength": "essential",
+"why": "lactic acid bacteria ferment sugars",
+"confidence": "high"
+},
+{
+"id": "hom-food-preservation-s1.4.2",
+"strength": "helpful",
+"why": "salt draws out water by osmosis",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.4.0",
+"strength": "helpful",
+"why": "dairy yoghurt fermentation",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s1.2.b",
+"strength": "helpful",
+"why": "conditions micro-organisms need",
+"confidence": "low"
+}
+]
+},
+"hom-food-preservation-s6.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-food-preservation-s1.5.3",
+"strength": "helpful",
+"why": "acid lowers pH to preserve",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.7.0",
+"strength": "helpful",
+"why": "how fermentation preserves",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s1.4.2",
+"strength": "essential",
+"why": "uses osmosis drawing water out",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.7.0",
+"strength": "helpful",
+"why": "how fermentation preserves",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s1.1.1",
+"strength": "helpful",
+"why": "micro-organisms spoil food",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.1.b",
+"strength": "helpful",
+"why": "conditions fermentation needs",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.1.0",
+"strength": "essential",
+"why": "fermentable sugar as substrate",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.1.2",
+"strength": "helpful",
+"why": "starter culture explained there",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-food-preservation-s6.1.1",
+"strength": "helpful",
+"why": "optimum temperature for organisms",
+"confidence": "high"
+}
+]
+},
+"hom-food-preservation-s6.8.3": {
+"cost": 1,
+"needs": []
+},
+"hom-food-preservation-s6.8.4": {
+"cost": 1,
+"needs": []
+}
+}

@@ -1,0 +1,82 @@
+s2.0.b|1|
+s2.0.0|1|
+s2.0.1|1|chem5-s1.2.4,H,l,molecules as bonded atoms
+s2.0.2|1|s2.0.0,E,h,empirical formula
+s2.0.3|1|chem5-s1.1.6,H,h,ionic formula gives ion ratio
+s2.1.b|1|
+s2.1.0|2|
+s2.1.1|1|chem8-s1.1.0,E,h,Mr as sum of Ar
+s2.1.2|1|s2.1.1,E,h,percentage by mass formula
+s2.1.3|1|s2.1.1,E,h,percentage by mass formula
+s2.2.b|1|
+s2.2.0|1|
+s2.2.1|1|chem8-s1.2.0,E,h,moles from mass
+s2.2.2|1|s2.2.1,E,h,moles of each element
+s2.2.3|1|s2.2.2,E,h,mole ratio
+s2.2.4|1|s2.2.3,E,h,whole-number ratio
+s2.2.5|2|s2.2.1,E,h,moles from percentages
+s2.2.6|1|s2.2.2,E,h,dividing by smallest moles
+s2.3.b|1|
+s2.3.0|1|
+s2.3.1|1|chem10-s1.6.0,H,l,conservation of mass
+s2.3.2|1|chem8-s1.2.0,E,h,moles from mass
+s2.3.3|1|s2.3.2,E,h,mole ratio of elements
+s2.4.b|1|
+s2.4.0|1|chem8-s1.1.0,E,h,relative molecular mass
+s2.4.1|1|s2.4.0,E,h,multiple of empirical formula
+s2.4.2|1|s2.4.0,E,h,Mr ÷ empirical mass
+s2.4.3|2|s2.2.1,E,h,moles from percentages
+s2.4.4|1|s2.2.2,E,h,dividing by smallest moles
+s2.4.5|1|s2.4.0,E,h,Mr ÷ empirical mass
+s2.5.b|1|
+s2.5.0|1|
+s2.5.1|1|
+s2.5.2|1|
+s2.5.3|1|
+s2.5.4|1|s2.3.3,E,h,formula from masses
+s2.5.5|1|
+s2.5.6|1|
+s2.6.b|1|
+s2.6.0|1|
+s2.6.1|1|s2.6.0,E,h,water of crystallisation
+s2.6.2|1|s2.6.1,E,h,heating hydrated salt
+s2.6.3|1|s2.6.2,E,h,mass lost on heating
+s2.6.4|1|chem8-s1.2.0,E,h,moles from mass
+s2.6.5|1|chem8-s1.2.0,E,h,moles from mass
+s2.6.6|1|s2.6.4,E,h,mole ratio of water
+s2.7.b|1|
+s2.7.0|1|
+s2.7.1|1|chem10-s1.6.0,E,h,conservation of mass
+s2.7.2|1|
+s2.7.3|1|s2.7.1,H,h,balanced equation
+s2.7.4|1|s2.7.3,E,h,coefficients as mole ratio
+s2.8.b|1|
+s2.8.0|1|chem5-s1.7.1,H,l,writing correct formulae
+s2.8.1|1|s2.7.1,H,h,balanced equation
+s2.8.2|1|s2.7.1,E,h,same atoms each side
+s2.8.3|1|s2.8.2,E,h,counting atoms
+s2.8.4|1|s2.8.3,E,h,balancing with coefficients
+s2.8.5|1|s2.7.1,E,h,balanced equation
+s2.8.6|1|s2.7.2,E,h,state symbols
+s2.8.7|1|
+s2.9.b|1|
+s2.9.0|1|s2.8.3,E,h,balancing method
+s2.9.1|1|s2.8.3,E,h,balancing method
+s2.9.2|1|s2.8.3,E,h,balancing method
+s2.9.3|2|s2.8.3,E,h,balancing method
+s2.10.b|1|
+s2.10.0|1|s2.8.3,E,h,balancing method
+s2.10.1|1|s2.8.3,E,h,balancing method
+s2.10.2|1|s2.8.3,E,h,balancing method
+s2.10.3|1|s2.8.3,E,h,balancing method
+s2.10.4|1|s2.8.3,E,h,balancing method
+s2.11.b|1|
+s2.11.0|1|s2.7.2,H,l,(aq) means dissolved ions
+s2.11.1|1|s2.11.0,E,h,ionic equations
+s2.11.2|1|s2.11.1,E,h,spectator ions
+s2.11.3|1|s2.11.0,E,h,ionic equations
+s2.11.4|1|s2.11.1,H,h,cancelling charges
+s2.12.b|1|
+s2.12.0|1|s2.7.3,E,h,coefficients as mole ratio
+s2.12.1|1|s2.12.0,E,h,mole ratio from equation
+s2.12.2|1|s2.12.0,E,h,mole ratio from equation

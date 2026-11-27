@@ -1,0 +1,510 @@
+{
+"hom-textiles-fibres-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.0": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.0.0",
+"strength": "helpful",
+"why": "staple fibres and filaments",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.0.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.5": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.6": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.0.7": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.2": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.1.4",
+"strength": "helpful",
+"why": "carding produces sliver",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.1.4",
+"strength": "helpful",
+"why": "sliver from carding",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s3.0.0",
+"strength": "helpful",
+"why": "staple fibres need twist",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.2.0": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.2.1": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.9.1",
+"strength": "helpful",
+"why": "burning test method",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.2.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.2.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.1.4",
+"strength": "helpful",
+"why": "carding",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.1.6",
+"strength": "helpful",
+"why": "spinning",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.3.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.2": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.3": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.2.2",
+"strength": "helpful",
+"why": "cotton burning test",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.3.5": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.3.6": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.0.4",
+"strength": "helpful",
+"why": "monomers and polymers",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.5.0",
+"strength": "helpful",
+"why": "spinneret extrusion",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.4.2": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.5.2",
+"strength": "helpful",
+"why": "drawing aligns molecules",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.4.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.0.0",
+"strength": "helpful",
+"why": "filaments",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.8.1",
+"strength": "helpful",
+"why": "texturing",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.5.0": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.5.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.9.1",
+"strength": "helpful",
+"why": "burning test method",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.5.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.5.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.2": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s3.2.1",
+"strength": "helpful",
+"why": "viscose weak when wet",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.7.0": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.7.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.1.4",
+"strength": "helpful",
+"why": "carding",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.7.3": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.2.0",
+"strength": "helpful",
+"why": "cotton properties",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.6.1",
+"strength": "helpful",
+"why": "polyester properties",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.7.5": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.2.2",
+"strength": "helpful",
+"why": "cotton burning test",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.6.2",
+"strength": "helpful",
+"why": "polyester burning test",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.2.3",
+"strength": "helpful",
+"why": "cotton microscope",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.5.3",
+"strength": "helpful",
+"why": "smooth filaments",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.7.8": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.0": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.8.1",
+"strength": "helpful",
+"why": "texturing",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.8.1",
+"strength": "helpful",
+"why": "crimp in textured yarn",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.8.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.5": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.6": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.8.7": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.0": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.1": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.9.1",
+"strength": "helpful",
+"why": "burning method",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.9.1",
+"strength": "helpful",
+"why": "burning method",
+"confidence": "high"
+}
+]
+},
+"hom-textiles-fibres-s4.9.4": {
+"cost": 1,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.5": {
+"cost": 2,
+"needs": []
+},
+"hom-textiles-fibres-s4.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.7.b",
+"strength": "helpful",
+"why": "blends give mixed results",
+"confidence": "low"
+}
+]
+},
+"hom-textiles-fibres-s4.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "hom-textiles-fibres-s4.9.1",
+"strength": "helpful",
+"why": "burning result",
+"confidence": "high"
+},
+{
+"id": "hom-textiles-fibres-s4.9.4",
+"strength": "helpful",
+"why": "microscope appearance",
+"confidence": "high"
+}
+]
+}
+}

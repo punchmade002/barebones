@@ -1,0 +1,1751 @@
+{
+"chem24-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group idea",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group idea",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "essential",
+"why": "same group, same reactions",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "same functional group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.4",
+"strength": "essential",
+"why": "homologous series",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.4",
+"strength": "essential",
+"why": "homologous series",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group focus",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem23-s3.0.3",
+"strength": "helpful",
+"why": "saturated means single bonds",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.1",
+"strength": "helpful",
+"why": "single covalent bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.1.0",
+"strength": "helpful",
+"why": "single-bond saturated alkane",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.1.1",
+"strength": "essential",
+"why": "cyclohexane ring",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.3.0",
+"strength": "helpful",
+"why": "non-polar bond meaning",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.1.4",
+"strength": "helpful",
+"why": "alkene general formula",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.4",
+"strength": "helpful",
+"why": "general formula of a series",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.5": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.4",
+"strength": "helpful",
+"why": "general formula of a series",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.3",
+"strength": "helpful",
+"why": "triple bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.1.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.4.2",
+"strength": "helpful",
+"why": "delocalised ring electrons",
+"confidence": "low"
+},
+{
+"id": "chem5-s1.13.0",
+"strength": "helpful",
+"why": "delocalised electrons",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group replacing H",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "C=O double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.2.2",
+"strength": "helpful",
+"why": "C=O double bond",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.2",
+"strength": "essential",
+"why": "aldehyde formula and C=O position",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.3",
+"strength": "essential",
+"why": "ketone formula and C=O position",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "same molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.3.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "helpful",
+"why": "acid part of ester",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "essential",
+"why": "acid formula",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.3.1",
+"strength": "essential",
+"why": "ester formula",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "same molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.2",
+"strength": "helpful",
+"why": "carbonyl group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.0.0",
+"strength": "helpful",
+"why": "functional group in chain",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.0",
+"strength": "essential",
+"why": "follows step 1 stem",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.4.1",
+"strength": "essential",
+"why": "ending or prefix chosen",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering the chain",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.3",
+"strength": "helpful",
+"why": "naming substituents",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.4",
+"strength": "helpful",
+"why": "numbers in names",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering from functional group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "helpful",
+"why": "when a number is needed",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.0",
+"strength": "helpful",
+"why": "haloalkane family",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.5.0",
+"strength": "essential",
+"why": "haloalkane definition",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering the position",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.4",
+"strength": "essential",
+"why": "di- and branch prefixes",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering from nearer end",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.5.1",
+"strength": "helpful",
+"why": "dichloromethane formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.5.1",
+"strength": "helpful",
+"why": "trichloromethane formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.5.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem23-s3.2.5",
+"strength": "helpful",
+"why": "alkenes form addition polymers",
+"confidence": "low"
+}
+]
+},
+"chem24-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "alcohol group and ending",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.3",
+"strength": "helpful",
+"why": "naming branches",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.0",
+"strength": "helpful",
+"why": "alcohol series",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering the functional group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.3",
+"strength": "essential",
+"why": "alcohol naming rule",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.4",
+"strength": "essential",
+"why": "triol naming",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.1",
+"strength": "essential",
+"why": "alcohol with -OH",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "primary class",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "classes of alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "classes of alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "classes of alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.1",
+"strength": "helpful",
+"why": "alcohol family",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.8.0",
+"strength": "helpful",
+"why": "ethanol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.8.0",
+"strength": "helpful",
+"why": "ethanol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.0",
+"strength": "helpful",
+"why": "propan-2-ol name",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.2.2",
+"strength": "essential",
+"why": "aldehyde group and ending",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.2",
+"strength": "helpful",
+"why": "aldehyde group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.2.3",
+"strength": "essential",
+"why": "ketone group and ending",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.3",
+"strength": "essential",
+"why": "ketone C=O inside chain",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.1",
+"strength": "essential",
+"why": "endings for functional groups",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering from nearer end",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.9.0",
+"strength": "helpful",
+"why": "methanal",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.9.0",
+"strength": "helpful",
+"why": "ethanal",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.9.2",
+"strength": "helpful",
+"why": "propanone",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "helpful",
+"why": "carboxylic acid group and ending",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.11.0",
+"strength": "helpful",
+"why": "acid series",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.1",
+"strength": "essential",
+"why": "-oic acid ending",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.4.2",
+"strength": "essential",
+"why": "numbering the chain",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.11.3",
+"strength": "essential",
+"why": "numbering substituents from COOH",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "helpful",
+"why": "carboxyl group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "helpful",
+"why": "carboxylic acid group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.11.0",
+"strength": "helpful",
+"why": "methanoic acid",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.11.0",
+"strength": "helpful",
+"why": "ethanoic acid",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.12.1",
+"strength": "helpful",
+"why": "ethanoic acid",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.12.3": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.3.0",
+"strength": "essential",
+"why": "carboxylic acid",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.2.1",
+"strength": "essential",
+"why": "alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.3.1",
+"strength": "essential",
+"why": "ester group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.1",
+"strength": "essential",
+"why": "alcohol part of ester",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.13.2",
+"strength": "essential",
+"why": "ester naming steps",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.3",
+"strength": "helpful",
+"why": "ester name order",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.4",
+"strength": "essential",
+"why": "formula order versus name",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "helpful",
+"why": "primary alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.3",
+"strength": "essential",
+"why": "naming esters",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.3",
+"strength": "essential",
+"why": "naming esters",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.13.3",
+"strength": "essential",
+"why": "naming esters",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.14.3": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.14.4": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.14.1",
+"strength": "helpful",
+"why": "ethyl ethanoate",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.6.5",
+"strength": "essential",
+"why": "glycerol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.0.1",
+"strength": "essential",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.0",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.0",
+"strength": "helpful",
+"why": "molecular formula contrast",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.2",
+"strength": "essential",
+"why": "condensed formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.2",
+"strength": "helpful",
+"why": "condensed formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.15.5": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.15.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.5",
+"strength": "helpful",
+"why": "model kit",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem10-s2.0.0",
+"strength": "essential",
+"why": "empirical formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.16.0",
+"strength": "essential",
+"why": "empirical formula",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.2",
+"strength": "helpful",
+"why": "empirical versus molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.2",
+"strength": "helpful",
+"why": "condensed formula",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.15.4",
+"strength": "helpful",
+"why": "expanded formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.17.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem5-s1.18.2",
+"strength": "helpful",
+"why": "tetrahedral shape 109.5 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "essential",
+"why": "tetrahedral carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "helpful",
+"why": "geometry classification",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.1",
+"strength": "helpful",
+"why": "trigonal planar shape 120 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "helpful",
+"why": "compare geometries",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.18.0",
+"strength": "helpful",
+"why": "linear shape 180 degrees",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "essential",
+"why": "tetrahedral angle",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.15.4",
+"strength": "helpful",
+"why": "expanded formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.17.7": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "essential",
+"why": "tetrahedral geometry",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar geometry",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.16.2",
+"strength": "essential",
+"why": "electron pairs repel, spread apart",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "essential",
+"why": "tetrahedral carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar C=O carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar C=O carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar C=O carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar C=O carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "planar C=O carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.2",
+"strength": "essential",
+"why": "double bond carbons planar",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.18.7": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.17.0",
+"strength": "essential",
+"why": "tetrahedral carbon",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.0.7",
+"strength": "helpful",
+"why": "R stands for hydrocarbon part",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.19.0",
+"strength": "essential",
+"why": "R group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.2": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.19.0",
+"strength": "essential",
+"why": "R group notation",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.19.2",
+"strength": "essential",
+"why": "general structures",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.19.2",
+"strength": "essential",
+"why": "ketone and ester structures",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "alcohol classes",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.19.6": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.19.0",
+"strength": "essential",
+"why": "R group",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.0",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.20.0",
+"strength": "essential",
+"why": "structural isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.20.1",
+"strength": "helpful",
+"why": "chain isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.20.0",
+"strength": "essential",
+"why": "structural isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.21.0",
+"strength": "helpful",
+"why": "position isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.2.4",
+"strength": "essential",
+"why": "aldehydes and ketones share formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.3.2",
+"strength": "essential",
+"why": "acids and esters share formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.1.3",
+"strength": "essential",
+"why": "cycloalkane and alkene formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.22.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.22.0": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.7.0",
+"strength": "essential",
+"why": "primary alcohol",
+"confidence": "high"
+},
+{
+"id": "chem24-s1.7.3",
+"strength": "essential",
+"why": "tertiary alcohol",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.22.1": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.13.3",
+"strength": "essential",
+"why": "naming esters",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.20.0",
+"strength": "helpful",
+"why": "structural isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.22.3": {
+"cost": 2,
+"needs": [
+{
+"id": "chem24-s1.21.2",
+"strength": "essential",
+"why": "functional group isomers",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.b": {
+"cost": 1,
+"needs": []
+},
+"chem24-s1.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.0",
+"strength": "essential",
+"why": "molecular formula",
+"confidence": "high"
+},
+{
+"id": "chem10-s2.0.1",
+"strength": "helpful",
+"why": "molecular formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.2",
+"strength": "essential",
+"why": "condensed formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.4",
+"strength": "essential",
+"why": "expanded formula",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.5",
+"strength": "essential",
+"why": "physical model",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.4",
+"strength": "helpful",
+"why": "representations of molecules",
+"confidence": "high"
+}
+]
+},
+"chem24-s1.23.5": {
+"cost": 1,
+"needs": [
+{
+"id": "chem24-s1.15.4",
+"strength": "helpful",
+"why": "bonds in expanded formula",
+"confidence": "high"
+},
+{
+"id": "chem5-s1.9.3",
+"strength": "helpful",
+"why": "carbon valency 4",
+"confidence": "high"
+}
+]
+}
+}

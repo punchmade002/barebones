@@ -1,0 +1,1281 @@
+{
+ "chem20-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem20-s1.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem20-s1.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem20-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem11-s2.8.2",
+    "strength": "helpful",
+    "why": "equilibrium arrow reversible reaction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem21-s5.0.0",
+    "strength": "helpful",
+    "why": "combustion of fuels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.1.1",
+    "strength": "essential",
+    "why": "fossil fuels as long-term stores",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.1.0",
+    "strength": "essential",
+    "why": "combustion releases CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.0.1",
+    "strength": "helpful",
+    "why": "photosynthesis arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.2",
+    "strength": "helpful",
+    "why": "respiration arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.3",
+    "strength": "helpful",
+    "why": "decay arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.4",
+    "strength": "helpful",
+    "why": "ocean dissolving arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.5",
+    "strength": "helpful",
+    "why": "shells and limestone arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.1.0",
+    "strength": "helpful",
+    "why": "combustion arrow",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.1.1",
+    "strength": "helpful",
+    "why": "fossil fuel formation arrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.1.0",
+    "strength": "helpful",
+    "why": "combustion as a CO2 source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.0.1",
+    "strength": "helpful",
+    "why": "photosynthesis in growing forests",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.0.3",
+    "strength": "essential",
+    "why": "decay of dead plant material",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.0",
+    "strength": "essential",
+    "why": "carbon sources",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.2.1",
+    "strength": "essential",
+    "why": "carbon sinks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.1.2",
+    "strength": "essential",
+    "why": "burning moves stored carbon to air",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.2.1",
+    "strength": "essential",
+    "why": "sinks absorbing carbon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.4",
+    "strength": "essential",
+    "why": "fossil fuel burning outpaces sinks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "essential",
+    "why": "greenhouse gases trap heat",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.2.5",
+    "strength": "helpful",
+    "why": "rising CO2 level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.1",
+    "strength": "helpful",
+    "why": "sinks absorbing emissions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.0",
+    "strength": "helpful",
+    "why": "incoming solar radiation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.1",
+    "strength": "essential",
+    "why": "absorbed energy warms the Earth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.2",
+    "strength": "essential",
+    "why": "infrared radiation emitted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "essential",
+    "why": "greenhouse gases absorb and re-emit IR",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.4",
+    "strength": "helpful",
+    "why": "natural greenhouse effect gases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "helpful",
+    "why": "heat kept in by gases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.3.0",
+    "strength": "helpful",
+    "why": "incoming visible radiation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.1",
+    "strength": "helpful",
+    "why": "reflected radiation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.2",
+    "strength": "helpful",
+    "why": "IR emitted from surface",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "helpful",
+    "why": "absorption and re-emission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "essential",
+    "why": "what makes a gas a greenhouse gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.3.2",
+    "strength": "essential",
+    "why": "infrared radiation",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.2.0",
+    "strength": "helpful",
+    "why": "covalent bonds in molecules",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.4.1",
+    "strength": "essential",
+    "why": "IR absorption needs charge change",
+    "confidence": "high"
+   },
+   {
+    "id": "chem5-s1.3.2",
+    "strength": "helpful",
+    "why": "polar bonds share electrons unequally",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.5",
+    "strength": "helpful",
+    "why": "water vapour as natural greenhouse gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.4",
+    "strength": "essential",
+    "why": "natural greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.5.0",
+    "strength": "essential",
+    "why": "temperature without greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.4",
+    "strength": "essential",
+    "why": "natural greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.4",
+    "strength": "helpful",
+    "why": "natural greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.4.0",
+    "strength": "helpful",
+    "why": "which gases absorb IR",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.5.4",
+    "strength": "essential",
+    "why": "Tyndall experiments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.3.4",
+    "strength": "essential",
+    "why": "natural greenhouse effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.0",
+    "strength": "essential",
+    "why": "enhanced greenhouse effect causes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.0",
+    "strength": "helpful",
+    "why": "extra warming from enhanced effect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.4.1",
+    "strength": "helpful",
+    "why": "IR absorption by molecules",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.7.0",
+    "strength": "helpful",
+    "why": "gases differ in warming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.1",
+    "strength": "essential",
+    "why": "global warming potential",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.2",
+    "strength": "essential",
+    "why": "GWP values from AR5",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.3",
+    "strength": "essential",
+    "why": "GWP values differ between reports",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.1",
+    "strength": "essential",
+    "why": "GWP meaning",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.8.2",
+    "strength": "helpful",
+    "why": "CO2 stays for centuries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.1",
+    "strength": "essential",
+    "why": "GWP of a gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.6",
+    "strength": "essential",
+    "why": "CO2 equivalent method",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.7.2",
+    "strength": "essential",
+    "why": "GWP of methane 28",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.0",
+    "strength": "helpful",
+    "why": "cement-making releases CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.5",
+    "strength": "helpful",
+    "why": "CO2 rise to 420 ppm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.1",
+    "strength": "helpful",
+    "why": "extra CO2 in air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.1",
+    "strength": "helpful",
+    "why": "livestock and landfill activities",
+    "confidence": "low"
+   }
+  ]
+ },
+ "chem20-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.1",
+    "strength": "helpful",
+    "why": "ppm and pre-industrial comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.1",
+    "strength": "helpful",
+    "why": "ppm and increase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.9.0",
+    "strength": "essential",
+    "why": "N2O source and level",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.7.0",
+    "strength": "helpful",
+    "why": "atmospheric lifetime",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.3",
+    "strength": "helpful",
+    "why": "methane from cattle",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.9.0",
+    "strength": "helpful",
+    "why": "N2O from fertilisers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.0",
+    "strength": "helpful",
+    "why": "CO2 from burning fuels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.0",
+    "strength": "essential",
+    "why": "NO formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.0",
+    "strength": "essential",
+    "why": "NOx definition",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.5",
+    "strength": "helpful",
+    "why": "ozone as greenhouse gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.0",
+    "strength": "essential",
+    "why": "NO2 as NOx",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.0",
+    "strength": "essential",
+    "why": "NOx",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.9.0",
+    "strength": "essential",
+    "why": "N2O from fertilisers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.5",
+    "strength": "essential",
+    "why": "sulfur oxides",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.1",
+    "strength": "helpful",
+    "why": "sunlight reflected",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.10.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.5",
+    "strength": "essential",
+    "why": "sulfur oxides",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.10.3",
+    "strength": "helpful",
+    "why": "acid rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.4.4",
+    "strength": "helpful",
+    "why": "water vapour set by temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.11.0",
+    "strength": "essential",
+    "why": "short stay of water vapour",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.7.1",
+    "strength": "essential",
+    "why": "GWP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.11.0",
+    "strength": "essential",
+    "why": "water vapour concentration",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.3.3",
+    "strength": "helpful",
+    "why": "trapping heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.11.2",
+    "strength": "helpful",
+    "why": "water vapour feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.1",
+    "strength": "helpful",
+    "why": "CO2 level in ppm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.3",
+    "strength": "helpful",
+    "why": "pre-industrial CO2 level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.12.1",
+    "strength": "essential",
+    "why": "ice core CO2 range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.2",
+    "strength": "helpful",
+    "why": "global warming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.2",
+    "strength": "helpful",
+    "why": "effects of warming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.12.4",
+    "strength": "helpful",
+    "why": "melting ice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.12.3",
+    "strength": "essential",
+    "why": "observed warming",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.6.0",
+    "strength": "helpful",
+    "why": "human emissions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.12.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.12.6",
+    "strength": "helpful",
+    "why": "model evidence for human cause",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.2",
+    "strength": "essential",
+    "why": "global warming",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.12.5",
+    "strength": "helpful",
+    "why": "sea level rise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.11.3",
+    "strength": "essential",
+    "why": "warmer air holds more water vapour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.13.1",
+    "strength": "helpful",
+    "why": "more rainfall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.13.0",
+    "strength": "helpful",
+    "why": "effects of warming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.0.4",
+    "strength": "helpful",
+    "why": "oceans as a carbon store",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "chem20-s1.0.4",
+    "strength": "essential",
+    "why": "CO2 dissolving in water",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.11.0",
+    "strength": "helpful",
+    "why": "pH and H+ concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.14.1",
+    "strength": "essential",
+    "why": "pH falls as CO2 dissolves",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.11.0",
+    "strength": "helpful",
+    "why": "pH scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.14.2",
+    "strength": "essential",
+    "why": "pH fall of oceans",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.14.1",
+    "strength": "essential",
+    "why": "extra H+ in ocean",
+    "confidence": "high"
+   },
+   {
+    "id": "chem11-s2.3.1",
+    "strength": "essential",
+    "why": "carbonate accepts a proton",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.5",
+    "strength": "helpful",
+    "why": "shell building with carbonate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.14.1",
+    "strength": "essential",
+    "why": "dissolved CO2 and H2CO3",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.0.5",
+    "strength": "helpful",
+    "why": "calcium carbonate shells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.1",
+    "strength": "helpful",
+    "why": "fossil fuel burning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.1",
+    "strength": "helpful",
+    "why": "transport emissions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.9.0",
+    "strength": "helpful",
+    "why": "N2O from fertilisers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.3",
+    "strength": "helpful",
+    "why": "methane from livestock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.15.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.2.1",
+    "strength": "essential",
+    "why": "carbon sinks",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.2.2",
+    "strength": "helpful",
+    "why": "waterlogged peatlands store carbon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "chem20-s1.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.8.3",
+    "strength": "helpful",
+    "why": "methane from landfill",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.7.2",
+    "strength": "helpful",
+    "why": "methane GWP higher than CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.16.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "chem20-s1.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.10.3",
+    "strength": "essential",
+    "why": "NOx acid rain",
+    "confidence": "high"
+   },
+   {
+    "id": "chem20-s1.10.7",
+    "strength": "essential",
+    "why": "sulfur oxides acid rain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.6.2",
+    "strength": "helpful",
+    "why": "rise in global temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.16.3",
+    "strength": "helpful",
+    "why": "emission targets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "chem20-s1.16.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "chem20-s1.7.6",
+    "strength": "essential",
+    "why": "CO2 equivalent",
+    "confidence": "high"
+   }
+  ]
+ }
+}
