@@ -114,12 +114,15 @@ SUBJECTS = {
                             "option": [["option:" + o, t] for o, t in zip(GEO_OPTIONS, ["Global Interdependence", "Geoecology", "Culture and Identity", "Atmosphere-Ocean Environment"])],
                             "region": [["region:geo-region-continental-s1", "India"], ["region:geo-region-continental-s2", "Brazil"]]}},
     # HL: Q1 documents (100) on one topic, then three essays (100 each) from the student's other topics, each the
-    # student's pick of four titles; the alternative rules allow any three from two topics, so: the best 3 essays.
+    # student's pick of four titles; the alternative rules allow any three from two topics, so: the best 3 essays,
+    # at most 2 from one topic (the marking scheme deducts "three questions from one topic").
     # Students study two Irish and two European topics. Every essay title is its own question (split), and its
     # marks follow the model answer's paragraphs to the subsections they draw on (paragraphs).
-    "history": {"groups": {"docs": [0.25, None], "essay": [0.75, 3]},
+    "history": {"groups": {"docs": [0.25, None], "essay": [0.75, 3, 2]},
                 "question": lambda q: ("docs" if q["sectionId"] == "hist-section1" else "essay", hist_track(q["chapterId"] + "-s0")),
                 "track": hist_track, "split": True, "paragraphs": True,
+                # the documents question in June 2026 and 2027 (case studies: 1885-86 elections, Dublin 1913, the GAA)
+                "docsTopic": "ire:hist-ire2",
                 "picks": {"ire": hist_topics("ire"), "eur": hist_topics("eur")}, "pickCount": {"ire": 2, "eur": 2}},
     # HL (2023-2026 rules): Section A best 10 of 12 short questions (80), Section B the case study (50),
     # Section C best 3 of 5 long questions (120). Physical activity areas are left out (crunch_points.LEFT_OUT).
@@ -139,6 +142,21 @@ SUBJECTS = {
                                               ["elective:textiles", "Textiles, Fashion and Design"],
                                               ["elective:social", "Social Studies"]]}},
 }
+
+
+def fixed_docs(paper_list, topic):
+    """Re-mark every past paper for a student whose documents question is on `topic` (History 2026-27: Irish topic 2).
+    Each year's documents question becomes the latest real one on that topic, scaled to the year's marks, and the
+    topic's essays go: on the real paper the documents topic has none. Without this, most past years' documents
+    question was on a topic outside the student's course, so it dropped out and the paper was all optional essays."""
+    model = next(q for p in reversed(paper_list) for q in p["qs"] if q["g"] == "docs" and q.get("need") == topic)
+    total = sum(m for m, _, _ in model["slots"])
+    for p in paper_list:
+        docs = [q for q in p["qs"] if q["g"] == "docs"]
+        marks = sum(m for q in docs for m, _, _ in q["slots"]) or total
+        p["qs"] = [{**model, "slots": [[round(m * marks / total, 4), k, o] for m, k, o in model["slots"]]}] + \
+                  [q for q in p["qs"] if q["g"] != "docs" and q.get("need") != topic]
+    return paper_list
 
 
 def paragraph_slots(part, all_items, pos, idf, vec):
@@ -279,6 +297,8 @@ def main(subject):
     tag_file = ROOT / "content" / "crunch" / f"{subject}-exam-tags.json"
     tags = json.loads(tag_file.read_text()) if tag_file.exists() else {}
     paper_list = papers(qs, all_items, pos, tags, cfg)
+    if "docsTopic" in cfg:
+        paper_list = fixed_docs(paper_list, cfg["docsTopic"])
     out = ROOT / "drafts" / "crunch" / subject / "map"
     out.mkdir(parents=True, exist_ok=True)
     (out / "data.json").write_text(json.dumps(

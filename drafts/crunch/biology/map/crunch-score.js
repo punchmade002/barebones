@@ -9,7 +9,8 @@
 // years). Subsections the old papers never tested (new-course content) are assumed to carry course-average
 // marks, newShare of the paper. Without D.papers, every point carries the same share.
 // D.groups gives the paper structure: {group: [share of the paper, K]} where K null = every question, marks-weighted;
-// 0 < K < 1 = that share of the group's questions; K >= 1 = the best K. Old data without groups is Biology's.
+// 0 < K < 1 = that share of the group's questions; K >= 1 = the best K. An optional third value caps the questions
+// counted from any one track (q.need) when the real paper is marked. Old data without groups is Biology's.
 (function () {
   const groupsOf = D => D.groups || { 0: [1 / 6, null], 1: [5 / 6, 5 / 6] };
   const gOf = q => (q.g ?? q.opt);
@@ -110,8 +111,15 @@
       const qs = by[g], [share, k] = GR[g], K = answerK(k, qs.length, choice);
       shares += share;
       if (K == null) { const m = qs.reduce((a, q) => a + marks(q), 0); s += (share * qs.reduce((a, q) => a + cov(q) * marks(q), 0)) / m; continue; }
-      const oc = qs.map(cov).sort((a, b) => b - a);
-      let t = 0; for (let i = 0; i < oc.length; i++) t += oc[i] * Math.max(0, Math.min(1, K - i));
+      // best K, at most `cap` from any one topic (History: three essays, never three from one topic)
+      const cap = GR[g][2], used = {}, oc = qs.map(q => [cov(q), q.need]).sort((a, b) => b[0] - a[0]);
+      let t = 0, left = K;
+      for (const [c, need] of oc) {
+        if (left <= 0) break;
+        if (cap && (used[need] || 0) >= cap) continue;
+        used[need] = (used[need] || 0) + 1;
+        t += c * Math.min(1, left); left -= 1;
+      }
       s += (share * t) / K;
     }
     return shares ? s / shares : 0;
