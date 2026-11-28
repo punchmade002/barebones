@@ -85,7 +85,7 @@ const SECTION_TABS = { flashcards: "flashcards", tests: "test", exam: "exam" };
 // Signed-out visitors (often from Google) can read these; the rest ask them to sign in.
 const PUBLIC_SECTIONS = new Set(["", "guide", "aac", "notes", "crunch"]);
 const isPublicSection = (id) => PUBLIC_SECTIONS.has(id) || isAacSection(id);
-const EXAM_VIEWS = [["chapter", "By chapter"], ["type", "By type"], ["papers", "Full papers"]];
+const EXAM_VIEWS = [["papers", "Full papers"], ["chapter", "By chapter"], ["type", "By type"]];
 const EXAM_TYPE_LABELS = {
   "short-answer": "Short answer",
   "long-answer": "Long answer",
@@ -96,7 +96,7 @@ const EXAM_TYPE_LABELS = {
   drawn: "Drawing",
 };
 let subjectSection = "";
-let examView = "chapter"; // papers | chapter | type
+let examView = "papers"; // papers | chapter | type
 let examTypeFilter = "";
 let sectionPanelKey = "";
 // Declared up here because a page opened on #guide draws the paper guide during startup.
@@ -1503,20 +1503,33 @@ async function activateAuthenticatedSession(session, options = {}) {
     authSnapshot = snapshot;
     localStorage.removeItem(pendingAuthUsernameKey);
     localStorage.removeItem(pendingAuthEmailKey);
-    persist({ sync: false });
-    await accountAuth.saveStudyData(serializeStudyUser(merged));
-    renderAll();
-    hideAuthPanel();
 
-    refreshFeedbackAdmin();
-    if (needsOnboarding(merged, snapshot)) {
-      showOnboarding(merged);
-    } else if (options.animate !== false) {
-      triggerLoginAnimation(welcomeName(merged));
-      // Let the welcome animation (2.5s + 0.6s exit) finish first.
-      checkFeedbackReplies({ delay: 3200 });
-    } else {
-      checkFeedbackReplies();
+    // Signed in from here, so nothing below may surface as a failed sign-in: a retry finds this user
+    // already active and returns early above, which is why only the first attempt ever showed an error.
+    try {
+      try {
+        persist({ sync: false });
+      } catch (error) {
+        console.error("Could not cache study progress on this device", error);
+      }
+      await accountAuth.saveStudyData(serializeStudyUser(merged))
+        .catch((error) => console.error("Could not sync study progress", error));
+      renderAll();
+      hideAuthPanel();
+
+      refreshFeedbackAdmin();
+      if (needsOnboarding(merged, snapshot)) {
+        showOnboarding(merged);
+      } else if (options.animate !== false) {
+        triggerLoginAnimation(welcomeName(merged));
+        // Let the welcome animation (2.5s + 0.6s exit) finish first.
+        checkFeedbackReplies({ delay: 3200 });
+      } else {
+        checkFeedbackReplies();
+      }
+    } catch (error) {
+      console.error("Signed in, but the account view failed to load", error);
+      hideAuthPanel();
     }
   })();
 
@@ -2237,7 +2250,7 @@ function renderSectionPanel(locked) {
   panel.querySelectorAll("[data-auth-mode]").forEach((btn) => {
     btn.addEventListener("click", () => showAuthMode(btn.dataset.authMode));
   });
-  if (!locked && ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers")) openExamPapers(PAGE_SUBJECT);
+  if (!locked && typeof openExamPapers === "function" && ((subjectSection === "exam" && examView === "papers") || subjectSection === "papers")) openExamPapers(PAGE_SUBJECT);
   if (subjectSection === "exam" && examView === "type") {
     bindExamAccordions(panel);
     typesetMath(panel);
@@ -2306,9 +2319,13 @@ function openChapterNotes(chapterId, outcomeId = "") {
 }
 
 function setExamView(view) {
+  setExamViewQuietly(view);
+  renderAll();
+}
+
+function setExamViewQuietly(view) {
   examView = view;
   if (view === "chapter") viewMode = "subject-overview";
-  renderAll();
 }
 
 function examViewsHtml() {
@@ -2316,7 +2333,8 @@ function examViewsHtml() {
   const typed = !examPackReady(PAGE_SUBJECT) || examTypeCounts(subjectExamGroups()).length > 0;
   const views = EXAM_VIEWS.filter(([id]) => (id !== "papers" || (typeof hasExamPapers === "function" && hasExamPapers(PAGE_SUBJECT)))
     && (id !== "type" || typed));
-  if (!views.some(([id]) => id === examView)) examView = "chapter";
+  // paper-archive.js loads after app.js's first draw, so only fall back once it can say whether there are papers
+  if (typeof hasExamPapers === "function" && !views.some(([id]) => id === examView)) setExamViewQuietly(views[0][0]);
   const nav = `<div class="exam-views" role="tablist" aria-label="Exam questions">${views.map(([id, label]) => `
     <button type="button" role="tab" class="exam-view ${examView === id ? "active" : ""}" aria-selected="${examView === id}" onclick="setExamView('${id}')">${label}</button>`).join("")}
   </div>`;
@@ -2324,6 +2342,8 @@ function examViewsHtml() {
   if (examView === "type") return `${nav}<div class="section-card">${examTypeHtml()}</div>`;
   return nav;
 }
+
+const newestExamFirst = (a, b) => (b.year || 0) - (a.year || 0) || (a.questionNumber || 0) - (b.questionNumber || 0);
 
 // Every past-paper question for the subject once, each tagged with the kinds of answer its parts ask for
 function subjectExamGroups() {
@@ -2358,8 +2378,7 @@ function examTypeHtml() {
     <button type="button" class="exam-type-chip" aria-pressed="${type === examTypeFilter}" onclick="examTypeFilter='${type}'; renderAll()">
       ${EXAM_TYPE_LABELS[type]} <span>${n}</span>
     </button>`).join("");
-  const shown = groups.filter((g) => examGroupTypes(g).has(examTypeFilter))
-    .sort((a, b) => (b.year || 0) - (a.year || 0) || (a.questionNumber || 0) - (b.questionNumber || 0));
+  const shown = groups.filter((g) => examGroupTypes(g).has(examTypeFilter)).sort(newestExamFirst);
   return `
     <div class="exam-type-chips" aria-label="Question type">${chips}</div>
     <p class="exam-type-note muted small">Newest first. A question is listed when any of its parts is ${escapeHtml(EXAM_TYPE_LABELS[examTypeFilter].toLowerCase())}.</p>
@@ -4198,7 +4217,7 @@ function renderExamSection() {
   if (!chapter) return;
   const allGroups = getExamQuestionsForChapter(chapter);
   const hiddenCount = allGroups.filter(isOffSpecExamGroup).length;
-  const examGroups = showOffSpecExamQuestions ? allGroups : allGroups.filter((group) => !isOffSpecExamGroup(group));
+  const examGroups = (showOffSpecExamQuestions ? allGroups : allGroups.filter((group) => !isOffSpecExamGroup(group))).sort(newestExamFirst);
   const offSpecToggle = hiddenCount
     ? `<button type="button" class="button-secondary exam-offspec-toggle" onclick="showOffSpecExamQuestions = !showOffSpecExamQuestions; renderExamSection();">${showOffSpecExamQuestions ? "Hide" : "Show"} ${plural(hiddenCount, "question")} not on the current course</button>`
     : "";
@@ -4222,8 +4241,50 @@ function renderExamSection() {
   typesetMath(els.examContainer);
 }
 
+// A question shown as crops of the paper: one Model answer button listing every part's answer,
+// beside the question's Marking scheme, both across the foot of the paper. key keeps ids unique per view.
+function examCropAnswersHtml(group, key) {
+  const parts = group.parts || [];
+  const isMaths = group.subject === "maths";
+  const answerId = `${key}-ans`;
+  const schemeId = `${key}-ms`;
+  const answerBtn = parts.some((p) => p.model || p.workedSolution)
+    ? `<button class="button-secondary exam-toggle-btn" data-show-label="Show ${isMaths ? "worked solution" : "model answer"}"
+        data-hide-label="Hide ${isMaths ? "worked solution" : "model answer"}"
+        onclick="toggleExamAnswer('${escapeHtml(answerId)}', this)">Show ${isMaths ? "worked solution" : "model answer"}</button>`
+    : "";
+  // Cropped scheme pages open in place like the answers; otherwise the button opens the scheme PDF
+  const schemeBtn = group.schemeImages?.length
+    ? `<button class="button-secondary exam-toggle-btn" data-show-label="Show marking scheme" data-hide-label="Hide marking scheme"
+        onclick="toggleExamAnswer('${escapeHtml(schemeId)}', this)">Show marking scheme</button>`
+    : typeof schemeButtonHtml === "function" ? schemeButtonHtml(group) : "";
+  const answers = answerBtn ? `
+    <div class="exam-answer-wrap exam-answers${isMaths ? " exam-answer-wrap--maths" : ""} hidden" id="ans-${escapeHtml(answerId)}">
+      <p class="exam-answer-label">${isMaths ? "Worked solution" : "Model answer"}</p>
+      ${parts.map((part, pIdx) => `
+        <div class="exam-answer-part">
+          <p class="exam-answer-part-head">
+            <span class="exam-answer-part-label">${escapeHtml(part.label || "")}</span>
+            ${part.marks ? `<span class="exam-marks muted small">${part.marks} mark${part.marks === 1 ? "" : "s"}</span>` : ""}
+          </p>
+          ${renderExamPartStatus(group, part)}
+          ${part.model || part.workedSolution ? examAnswerBodyHtml(group, part, `${key}-p${pIdx}`) : ""}
+        </div>`).join("")}
+    </div>` : "";
+  // Crops are cut at 2x from A4 pages 595pt wide, so width as a share of 1190px keeps every crop at one text size
+  const scheme = group.schemeImages?.length ? `
+    <div class="exam-answer-wrap exam-scheme-wrap hidden" id="ans-${escapeHtml(schemeId)}">
+      <p class="exam-answer-label">Marking scheme</p>
+      ${group.schemeImages.map((src, i) => `<img src="${escapeHtml(src)}" loading="lazy" onload="this.style.width = Math.min(100, this.naturalWidth / 11.9) + '%'"
+        alt="Official marking scheme for ${escapeHtml(compactExamSource(group))}${group.schemeImages.length > 1 ? `, part ${i + 1} of ${group.schemeImages.length}` : ""}" />`).join("")}
+    </div>` : "";
+  const bar = answerBtn || schemeBtn ? `<div class="exam-answer-bar">${answerBtn}${schemeBtn}</div>` : "";
+  return `${bar}${answers}${scheme}`;
+}
+
 function examGroupHtml(group) {
-    const parts = (group.parts || []).map((part, pIdx) => {
+    const cropped = Boolean(group.images?.length);
+    const parts = cropped ? "" : (group.parts || []).map((part, pIdx) => {
       const partId = `${group.id}-p${pIdx}`;
       const diagramBtn = part.diagram
         ? `<button class="button-secondary exam-diagram-btn" onclick="openDiagramModal('${escapeHtml(part.diagram)}')">Show Diagram</button>`
@@ -4269,15 +4330,15 @@ function examGroupHtml(group) {
     const bodyId = `exam-body-${group.id}`;
     return `
       <div class="exam-group${group.caseStudy ? " exam-group--case-study" : ""}">
-        <button class="exam-group-header" type="button" data-exam-toggle aria-expanded="false" aria-controls="${escapeHtml(bodyId)}" title="${escapeHtml(fullSource)}">
+        <button class="exam-group-header" type="button" data-exam-toggle aria-expanded="true" aria-controls="${escapeHtml(bodyId)}" title="${escapeHtml(fullSource)}">
           <span class="exam-source-tag">${escapeHtml(compactExamSource(group))}</span>
           <span class="exam-group-meta">${escapeHtml(meta)}</span>
           <span class="exam-group-chevron" aria-hidden="true">⌄</span>
         </button>
-        <div class="exam-group-body hidden" id="${escapeHtml(bodyId)}">
+        <div class="exam-group-body" id="${escapeHtml(bodyId)}">
           ${contextBox}
           ${renderExamPaperImages(group)}
-          ${parts}
+          ${cropped ? examCropAnswersHtml(group, group.id) : parts}
           ${appliesToBlock}
         </div>
       </div>`;
@@ -4290,18 +4351,16 @@ function bindExamAccordions(container) {
       const body = document.getElementById(button.getAttribute("aria-controls"));
       if (!body) return;
       const opening = button.getAttribute("aria-expanded") !== "true";
-
-      container.querySelectorAll("[data-exam-toggle][aria-expanded='true']").forEach((openButton) => {
-        if (openButton === button) return;
-        openButton.setAttribute("aria-expanded", "false");
-        const openBody = document.getElementById(openButton.getAttribute("aria-controls"));
-        openBody?.classList.add("hidden");
-      });
-
       button.setAttribute("aria-expanded", String(opening));
       body.classList.toggle("hidden", !opening);
     });
   });
+}
+
+function examAnswerBodyHtml(group, part, partId) {
+  return group.subject === "maths"
+    ? renderMathsWorkedSolution(part, partId)
+    : `<div class="exam-answer-text">${formatModelAnswer(part.model, group.subject)}</div>`;
 }
 
 function renderExamAnswer(group, part, partId) {
@@ -4309,9 +4368,7 @@ function renderExamAnswer(group, part, partId) {
 
   const isMaths = group.subject === "maths";
   const answerLabel = isMaths ? "Worked solution" : "Model Answer";
-  const answerHtml = isMaths
-    ? renderMathsWorkedSolution(part, partId)
-    : `<div class="exam-answer-text">${formatModelAnswer(part.model, group.subject)}</div>`;
+  const answerHtml = examAnswerBodyHtml(group, part, partId);
   const staticMaths = isMaths && isStaticMathsSolution(part);
   const showLabel = staticMaths ? "Show worked solution" : isMaths ? "Explore worked solution" : "Show Model Answer";
   const hideLabel = isMaths ? "Hide worked solution" : "Hide Model Answer";
@@ -6392,7 +6449,7 @@ function openSectionQuestions(subjectId, sectionIdx, chapterId = '') {
   const questions = sectionQuestions(section).filter((q) => !chapterId || q.chapterId === chapterId);
 
   const questionsHtml = questions.map((group, qi) => {
-    const parts = (group.parts || []).map((part, pIdx) => {
+    const parts = group.images?.length ? examCropAnswersHtml(group, `bq-${qi}`) : (group.parts || []).map((part, pIdx) => {
       const partId = `bq-${qi}-p${pIdx}`;
       const diagramHtml = part.diagram
         ? `<div class="exam-diagram-inline">

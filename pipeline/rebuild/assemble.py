@@ -178,6 +178,10 @@ def main(subject, journals):
     assert not re.search(r'"(question|text)":', body), 'question text must never ship'
     (ROOT / f'{subject}-exam-questions.js').write_text(
         header + 'window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(\n' + body + '\n);\n')
+    scheme_crops = DATA / subject / 'scheme-crops.json'
+    if scheme_crops.exists():                 # keep each question's marking-scheme crops (scheme_crops.py)
+        from scheme_crops import attach
+        attach(subject, json.loads(scheme_crops.read_text()))
 
     out = ROOT / 'pipeline/_data/rebuild-review'
     out.mkdir(parents=True, exist_ok=True)

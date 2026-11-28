@@ -4,13 +4,13 @@
 // Bump a pack's ?v= when its file changes, as with the tags in app.html.
 (function () {
   var PACKS = {
-    biology: "./biology-exam-questions.js?v=2",
+    biology: "./biology-exam-questions.js?v=4",
     history: "./history-exam-questions.js?v=5",
-    chemistry: "./chemistry-exam-questions.js?v=2",
+    chemistry: "./chemistry-exam-questions.js?v=3",
     "home-economics": "./home-economics-exam-questions.js?v=2",
     geography: "./geography-exam-questions.js?v=4",
-    pe: "./pe-exam-questions.js?v=5",
-    maths: "./maths-exam-questions.js?v=2",
+    pe: "./pe-exam-questions.js?v=6",
+    maths: "./maths-exam-questions.js?v=3",
   };
   // The rebuilt maths bank (pipeline/MATHS_REBUILD.md) replaces the old text-only maths questions everywhere.
   window.MATHS_BANK_PILOT = true;

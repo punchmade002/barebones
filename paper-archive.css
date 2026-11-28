@@ -445,6 +445,36 @@
 }
 
 .pv-tools svg { width: 30px; height: 30px; }
+
+.pv-scheme-btn {
+  height: 54px;
+  padding: 0 1.2rem;
+  border-radius: var(--r-full);
+  background: var(--desk-3);
+  color: var(--desk-ink);
+  font-size: 1.1rem;
+  font-weight: 650;
+  transition: background var(--t) var(--ease), color var(--t) var(--ease);
+}
+
+.pv-scheme-btn:hover { background: rgba(255, 255, 255, 0.12); }
+.pv-scheme-btn[aria-pressed="true"] { background: var(--accent); color: #fff; box-shadow: var(--so); }
+
+/* Paper on the left half, scheme on the right; the paper's controls stay over the paper */
+.pv-scheme {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--desk);
+}
+
+.pv-scheme iframe { display: block; width: 100%; height: 100%; border: 0; }
+.paper-viewer.has-scheme .pv-stage { right: 50%; }
+.paper-viewer.has-scheme .pv-tools { right: calc(50% + 14px); }
+.paper-viewer.has-scheme .pv-turn--next { right: calc(50% + 1rem); }
 .pv-tools .pv-act--text { margin-left: auto; padding: 0 1.2rem; font-size: 1.2rem; }
 
 .pv-toolset {

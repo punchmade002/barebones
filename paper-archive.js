@@ -189,6 +189,74 @@ function paperSheet(archive, paper) {
     </button>`;
 }
 
+// ── Marking scheme beside a paper ────────────────────────
+
+// The scheme that marks a paper: same subject, year and level
+function schemeForPaper(paper) {
+  if (paper.kind === "scheme") return null;
+  return (paperList(papersState.subjectId) || []).find((p) => p.kind === "scheme" && p.year === paper.year
+    && (p.level === paper.level || p.level === "common")) || null;
+}
+
+// Laptops get the scheme beside the paper; narrow screens open it in a new tab for now
+function togglePaperScheme() {
+  const scheme = schemeForPaper(viewer.paper);
+  if (!scheme) return;
+  if (window.matchMedia("(max-width: 900px)").matches) {
+    window.open(scheme.file, "_blank", "noopener");
+    return;
+  }
+  setPaperScheme(pv.schemePane.classList.contains("hidden"), scheme);
+}
+
+function setPaperScheme(open, scheme = null) {
+  // The browser's own PDF viewer shows the scheme, fitted to the pane's width
+  if (open && pv.schemeFrame.dataset.file !== scheme.file) {
+    pv.schemeFrame.src = `${scheme.file}#view=FitH&navpanes=0`;
+    pv.schemeFrame.dataset.file = scheme.file;
+  }
+  pv.root.classList.toggle("has-scheme", open);
+  pv.schemePane.classList.toggle("hidden", !open);
+  pv.scheme.setAttribute("aria-pressed", String(open));
+  pv.scheme.textContent = open ? "Hide marking scheme" : "Marking scheme";
+  if (viewer.doc) renderPaperPage();   // the paper refits to its narrower half
+}
+
+// ── Marking scheme for one question ──────────────────────
+
+// The scheme PDF a past-paper question was marked from: same year, same level. A question with
+// no level only gets one when that year has a single scheme, so it never opens the wrong level.
+function schemeForGroup(group) {
+  const level = examGroupLevel(group);
+  const schemes = (paperList(group.subject) || []).filter((p) => p.kind === "scheme" && p.year === Number(group.year));
+  const matches = level ? schemes.filter((p) => p.level === level || p.level === "common") : schemes;
+  return matches.length === 1 ? matches[0] : null;
+}
+
+function schemeButtonHtml(group) {
+  if (!group?.year || !hasExamPapers(group.subject)) return "";
+  if (paperList(group.subject) && !schemeForGroup(group)) return "";
+  return `<button type="button" class="button-secondary exam-toggle-btn exam-scheme-btn" onclick="openSchemeForGroup('${escapeHtml(group.id)}', this)">Open marking scheme</button>`;
+}
+
+// shortcut: opens the whole scheme at page 1; jump to the question's page once the pipeline records scheme pages
+function openSchemeForGroup(groupId, button) {
+  const group = (window.EXAM_QUESTIONS_DB || []).find((g) => g.id === groupId)
+    || PAGE_SUBJECT_DATA.chapters.flatMap(getExamQuestionsForChapter).find((g) => g.id === groupId);
+  if (!group) return;
+  loadPaperList(group.subject).then(() => {
+    const scheme = schemeForGroup(group);
+    if (scheme) openPaperViewer(scheme);
+    else {
+      button.disabled = true;
+      button.textContent = "No marking scheme for this paper";
+    }
+  }, (error) => {
+    console.error(error);
+    button.textContent = "Marking scheme could not load";
+  });
+}
+
 // ── Viewer ───────────────────────────────────────────────
 
 function loadPdfJs() {
@@ -225,6 +293,8 @@ async function openPaperViewer(paper) {
   pv.title.textContent = `${paper.year} · ${levelName} · ${paper.label}`;
   pv.tag.innerHTML = paper.oldCourse ? oldCourseTag() : "";
   pv.open.href = paper.file;
+  setPaperScheme(false);
+  pv.scheme.classList.toggle("hidden", !schemeForPaper(paper));
   pv.strip.innerHTML = "";
   pv.textLayer.innerHTML = "";
   pv.textLayer.dataset.key = "";
@@ -930,6 +1000,9 @@ function initPaperArchive() {
     pageLabel: byId("pvPageLabel"),
     colors: byId("pvColors"),
     zoomFit: byId("pvZoomFit"),
+    scheme: byId("pvScheme"),
+    schemePane: byId("pvSchemePane"),
+    schemeFrame: byId("pvSchemeFrame"),
   });
   if (!pv.root) return;
 
@@ -941,6 +1014,7 @@ function initPaperArchive() {
   pv.zoomFit.addEventListener("click", () => setPaperZoom(1));
   byId("pvUndo").addEventListener("click", undoPaperInk);
   byId("pvClear").addEventListener("click", clearPaperPage);
+  pv.scheme.addEventListener("click", togglePaperScheme);
   pv.root.querySelectorAll("[data-tool]").forEach((button) => {
     button.addEventListener("click", () => setPaperTool(button.dataset.tool));
   });

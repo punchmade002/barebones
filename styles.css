@@ -2301,6 +2301,47 @@ details[open] > summary::before { transform: rotate(90deg); }
   color: var(--ink);
 }
 
+/* Model answer and marking scheme share the foot of a cropped question, edge to edge with the paper */
+.exam-answer-bar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 0.5rem;
+  padding: 0 0.6rem 0.9rem;
+}
+
+.exam-answer-bar .exam-toggle-btn {
+  width: 100%;
+  padding-block: 0.6rem;
+  font-size: 0.88rem;
+}
+
+.exam-answers {
+  margin: 0 0.6rem 0.9rem;
+  display: grid;
+  gap: 0.9rem;
+}
+
+.exam-answers > .exam-answer-label { margin: 0; }
+
+.exam-answer-part { display: grid; gap: 0.35rem; }
+
+.exam-answer-part-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+/* The part markers read a size up from the answer text, so each part is easy to find */
+.exam-answer-part-label {
+  font-size: 1.05rem;
+  font-weight: 750;
+  color: var(--ink);
+}
+
+.exam-answer-wrap--maths.exam-answers { padding: 0.8rem 1rem; }
+
 .exam-toggle-btn {
   justify-self: start;
   font-size: 0.82rem;
@@ -2515,6 +2556,20 @@ body.modal-open { overflow: hidden; }
   font-size: 0.88rem;
   line-height: 1.65;
   color: var(--ink-2);
+}
+
+.exam-scheme-wrap {
+  margin: 0 0.6rem 0.9rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.exam-scheme-wrap img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: #fff;
+  border-radius: 4px;
 }
 
 /* ── Maths worked-solution explorer ─────────── */

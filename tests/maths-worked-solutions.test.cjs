@@ -61,7 +61,7 @@ test("the explorer preserves the detailed polynomial example", () => {
 
 test("both exam views share the Maths renderer and accessible controls", () => {
   assert.equal(
-    appSource.match(/\$\{renderExamAnswer\(group, part, partId\)\}/g)?.length,
+    appSource.match(/\$\{renderExamAnswer\(group, part, partId[,)]/g)?.length,
     2
   );
   assert.match(appSource, /class="maths-step" tabindex="0" role="button" aria-pressed="false"/);

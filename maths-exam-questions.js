@@ -196,6 +196,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "14\\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -329,6 +334,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 1,\\ 1 + 2\\sqrt{3},\\ 1 - 2\\sqrt{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -531,6 +540,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "36;\\quad 2.8\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -674,6 +687,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "S = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q4-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q4-ms-3.webp"
   ]
  },
  {
@@ -857,6 +875,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\left(-\\frac{23}{4}, -\\frac{25}{4}\\right) = \\left(-5\\tfrac{3}{4}, -6\\tfrac{1}{4}\\right)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -998,6 +1020,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}818"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q6-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q6-ms-3.webp"
   ]
  },
  {
@@ -1374,6 +1401,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x,\\ y)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q7-ms-3.webp",
+   "exam-images/maths/2015/higher-p1-q7-ms-4.webp",
+   "exam-images/maths/2015/higher-p1-q7-ms-5.webp"
   ]
  },
  {
@@ -1712,6 +1746,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "13\\ \\text{hours}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q8-ms-3.webp",
+   "exam-images/maths/2015/higher-p1-q8-ms-4.webp"
   ]
  },
  {
@@ -2024,6 +2064,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "15\\ \\text{hours } 15\\ \\text{minutes}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2015/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2015/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -2207,6 +2252,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.0791"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -2406,6 +2455,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = 0.0872"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q2-ms-2.webp",
+   "exam-images/maths/2015/higher-p2-q2-ms-3.webp"
   ]
  },
  {
@@ -2640,6 +2694,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = \\dfrac{3}{4} \\text{ or } k = -48; \\quad d = 3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -2881,6 +2939,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x+3y-43=0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -3000,6 +3062,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 20^\\circ,\\ 40^\\circ,\\ 140^\\circ,\\ 160^\\circ,\\ 260^\\circ,\\ 280^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -3203,6 +3269,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|DE| = |EF|"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q6-ms-2.webp",
+   "exam-images/maths/2015/higher-p2-q6-ms-3.webp"
   ]
  },
  {
@@ -3493,6 +3564,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "28834 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2015/higher-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -3885,6 +3961,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.75"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2015/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2015/higher-p2-q8-ms-4.webp",
+   "exam-images/maths/2015/higher-p2-q8-ms-5.webp"
   ]
  },
  {
@@ -4205,6 +4288,14 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 10 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2015/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2015/higher-p2-q9-ms-3.webp",
+   "exam-images/maths/2015/higher-p2-q9-ms-4.webp",
+   "exam-images/maths/2015/higher-p2-q9-ms-5.webp",
+   "exam-images/maths/2015/higher-p2-q9-ms-6.webp"
   ]
  },
  {
@@ -4339,6 +4430,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\$1 = \\text{£}0.67"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q1-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -4505,6 +4600,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "333\\,333"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q2-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -4678,6 +4777,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g(x) = -5x + 4"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q3-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -4869,6 +4972,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 310 270\"><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"><line x1=\"40\" y1=\"220\" x2=\"295\" y2=\"220\"/><line x1=\"40\" y1=\"220\" x2=\"40\" y2=\"25\"/><path d=\"M295 220l-8-4v8z M40 25l-4 8h8z\" fill=\"currentColor\"/><line x1=\"80\" y1=\"216\" x2=\"80\" y2=\"224\"/><text x=\"80\" y=\"238\" text-anchor=\"middle\">1</text><line x1=\"120\" y1=\"216\" x2=\"120\" y2=\"224\"/><text x=\"120\" y=\"238\" text-anchor=\"middle\">2</text><line x1=\"160\" y1=\"216\" x2=\"160\" y2=\"224\"/><text x=\"160\" y=\"238\" text-anchor=\"middle\">3</text><line x1=\"200\" y1=\"216\" x2=\"200\" y2=\"224\"/><text x=\"200\" y=\"238\" text-anchor=\"middle\">4</text><line x1=\"240\" y1=\"216\" x2=\"240\" y2=\"224\"/><text x=\"240\" y=\"238\" text-anchor=\"middle\">5</text><line x1=\"280\" y1=\"216\" x2=\"280\" y2=\"224\"/><text x=\"280\" y=\"238\" text-anchor=\"middle\">6</text><line x1=\"36\" y1=\"190\" x2=\"44\" y2=\"190\"/><text x=\"30\" y=\"194\" text-anchor=\"end\">1</text><line x1=\"36\" y1=\"160\" x2=\"44\" y2=\"160\"/><text x=\"30\" y=\"164\" text-anchor=\"end\">2</text><line x1=\"36\" y1=\"130\" x2=\"44\" y2=\"130\"/><text x=\"30\" y=\"134\" text-anchor=\"end\">3</text><line x1=\"36\" y1=\"100\" x2=\"44\" y2=\"100\"/><text x=\"30\" y=\"104\" text-anchor=\"end\">4</text><line x1=\"36\" y1=\"70\" x2=\"44\" y2=\"70\"/><text x=\"30\" y=\"74\" text-anchor=\"end\">5</text><line x1=\"36\" y1=\"40\" x2=\"44\" y2=\"40\"/><text x=\"30\" y=\"44\" text-anchor=\"end\">6</text><polyline stroke=\"#2563eb\" stroke-width=\"2\" points=\"70.6,220.0 73.5,210.2 76.5,200.7 79.5,191.5 82.5,182.7 85.5,174.2 88.4,166.0 91.4,158.2 94.4,150.7 97.4,143.5 100.4,136.7 103.4,130.2 106.3,124.0 109.3,118.2 112.3,112.7 115.3,107.5 118.3,102.7 121.2,98.2 124.2,94.0 127.2,90.2 130.2,86.7 133.2,83.5 136.1,80.7 139.1,78.2 142.1,76.0 145.1,74.2 148.1,72.7 151.1,71.5 154.0,70.7 157.0,70.2 160.0,70.0 163.0,70.2 166.0,70.7 168.9,71.5 171.9,72.7 174.9,74.2 177.9,76.0 180.9,78.2 183.9,80.7 186.8,83.5 189.8,86.7 192.8,90.2 195.8,94.0 198.8,98.2 201.7,102.7 204.7,107.5 207.7,112.7 210.7,118.2 213.7,124.0 216.6,130.2 219.6,136.7 222.6,143.5 225.6,150.7 228.6,158.2 231.6,166.0 234.5,174.2 237.5,182.7 240.5,191.5 243.5,200.7 246.5,210.2 249.4,220.0\"/></g><g font-family=\"sans-serif\" font-size=\"13\" fill=\"currentColor\"><text x=\"298\" y=\"214\">x</text><text x=\"48\" y=\"30\">y</text></g><g fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"13\"><circle cx=\"160\" cy=\"70\" r=\"3\"/><circle cx=\"70.6\" cy=\"220\" r=\"3\"/><circle cx=\"249.4\" cy=\"220\" r=\"3\"/><text x=\"160\" y=\"58\" text-anchor=\"middle\">(3, 5)</text><text x=\"70.6\" y=\"258\" text-anchor=\"middle\">(0.8, 0)</text><text x=\"249.4\" y=\"258\" text-anchor=\"middle\">(5.2, 0)</text><text x=\"232\" y=\"100\">y = f(x)</text></g></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q4-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q4-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p1-q4-ms-3.webp"
   ]
  },
  {
@@ -5042,6 +5150,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 250\"><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"><line x1=\"30\" y1=\"210\" x2=\"305\" y2=\"210\"/><line x1=\"30\" y1=\"210\" x2=\"30\" y2=\"12\"/><path d=\"M305 210l-8-4v8z M30 12l-4 8h8z\" fill=\"currentColor\"/><line x1=\"80\" y1=\"206\" x2=\"80\" y2=\"214\"/><text x=\"80\" y=\"226\" text-anchor=\"middle\">1</text><line x1=\"130\" y1=\"206\" x2=\"130\" y2=\"214\"/><text x=\"130\" y=\"226\" text-anchor=\"middle\">2</text><line x1=\"180\" y1=\"206\" x2=\"180\" y2=\"214\"/><text x=\"180\" y=\"226\" text-anchor=\"middle\">3</text><line x1=\"230\" y1=\"206\" x2=\"230\" y2=\"214\"/><text x=\"230\" y=\"226\" text-anchor=\"middle\">4</text><line x1=\"280\" y1=\"206\" x2=\"280\" y2=\"214\"/><text x=\"280\" y=\"226\" text-anchor=\"middle\">5</text><line x1=\"26\" y1=\"180\" x2=\"34\" y2=\"180\"/><text x=\"21\" y=\"184\" text-anchor=\"end\">1</text><line x1=\"26\" y1=\"150\" x2=\"34\" y2=\"150\"/><text x=\"21\" y=\"154\" text-anchor=\"end\">2</text><line x1=\"26\" y1=\"120\" x2=\"34\" y2=\"120\"/><text x=\"21\" y=\"124\" text-anchor=\"end\">3</text><line x1=\"26\" y1=\"90\" x2=\"34\" y2=\"90\"/><text x=\"21\" y=\"94\" text-anchor=\"end\">4</text><line x1=\"26\" y1=\"60\" x2=\"34\" y2=\"60\"/><text x=\"21\" y=\"64\" text-anchor=\"end\">5</text><line x1=\"26\" y1=\"30\" x2=\"34\" y2=\"30\"/><text x=\"21\" y=\"34\" text-anchor=\"end\">6</text><polyline stroke-opacity=\"0.6\" points=\"30.0,210.0 32.5,202.6 35.0,195.3 37.5,188.2 40.0,181.2 42.5,174.4 45.0,167.7 47.5,161.2 50.0,154.8 52.5,148.6 55.0,142.5 57.5,136.6 60.0,130.8 62.5,125.2 65.0,119.7 67.5,114.4 70.0,109.2 72.5,104.2 75.0,99.3 77.5,94.6 80.0,90.0 82.5,85.6 85.0,81.3 87.5,77.2 90.0,73.2 92.5,69.4 95.0,65.7 97.5,62.2 100.0,58.8 102.5,55.6 105.0,52.5 107.5,49.6 110.0,46.8 112.5,44.2 115.0,41.7 117.5,39.4 120.0,37.2 122.5,35.2 125.0,33.3 127.5,31.6 130.0,30.0 132.5,28.6 135.0,27.3 137.5,26.2 140.0,25.2 142.5,24.4 145.0,23.7 147.5,23.2 150.0,22.8 152.5,22.6 155.0,22.5 157.5,22.6 160.0,22.8 162.5,23.2 165.0,23.7 167.5,24.4 170.0,25.2 172.5,26.2 175.0,27.3 177.5,28.6 180.0,30.0 182.5,31.6 185.0,33.3 187.5,35.2 190.0,37.2 192.5,39.4 195.0,41.7 197.5,44.2 200.0,46.8 202.5,49.6 205.0,52.5 207.5,55.6 210.0,58.8 212.5,62.2 215.0,65.7 217.5,69.4 220.0,73.2 222.5,77.2 225.0,81.3 227.5,85.6 230.0,90.0 232.5,94.6 235.0,99.3 237.5,104.2 240.0,109.2 242.5,114.4 245.0,119.7 247.5,125.2 250.0,130.8 252.5,136.6 255.0,142.5 257.5,148.6 260.0,154.8 262.5,161.2 265.0,167.7 267.5,174.4 270.0,181.2 272.5,188.2 275.0,195.3 277.5,202.6 280.0,210.0\"/><polygon stroke=\"#2563eb\" stroke-width=\"2.5\" stroke-linejoin=\"round\" points=\"30,210 280,210 180,30 80,90\"/></g><g font-family=\"sans-serif\" font-size=\"13\" fill=\"currentColor\"><text x=\"308\" y=\"226\">x</text><text x=\"38\" y=\"20\">y</text><text x=\"16\" y=\"226\">O</text></g><g font-family=\"sans-serif\" font-size=\"13\" fill=\"#2563eb\"><circle cx=\"80\" cy=\"90\" r=\"3\"/><circle cx=\"180\" cy=\"30\" r=\"3\"/><text x=\"72\" y=\"76\" text-anchor=\"end\" font-size=\"12\">A(1,4)</text><text x=\"188\" y=\"26\">B(3, 6)</text><text x=\"288\" y=\"202\">C</text><text x=\"140\" y=\"150\">OCBA</text></g></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -5229,6 +5341,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|z_1| \\times |z_2| \\times \\cos\\theta = ac + bd"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q6-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -5677,6 +5793,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Black} = 325,\\ \\text{White} = 300"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q7-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -5989,6 +6110,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 3200"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q8-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -6200,6 +6326,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "50\\,000 \\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p1-q9-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -6342,6 +6473,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "20"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -6504,6 +6639,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\triangle OCA \\equiv \\triangle OBC \\text{ (RHS)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -6652,6 +6791,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x+4)^2 + (y-3)^2 = 50"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -6786,6 +6929,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "240 \\text{ m}^2,\\; 120 \\text{ m}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -6949,6 +7096,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|AB| = 16.53 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q5-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -7066,6 +7217,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "E = 3.2\\%, \\quad 50.8\\% \\le p \\le 57.2\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q6-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q6-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p2-q6-ms-3.webp"
   ]
  },
  {
@@ -7284,6 +7440,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|PQ| = 7.5 \\text{ cm}, \\; |BC| = 5.8 \\text{ cm}, \\; |\\angle ABC| = |\\angle PQR|"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -7632,6 +7793,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 8.2 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p2-q8-ms-3.webp",
+   "exam-images/maths/2015/ordinary-p2-q8-ms-4.webp"
   ]
  },
  {
@@ -8007,6 +8174,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Girls' heights are less spread out}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2015/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2015/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2015/ordinary-p2-q9-ms-3.webp",
+   "exam-images/maths/2015/ordinary-p2-q9-ms-4.webp",
+   "exam-images/maths/2015/ordinary-p2-q9-ms-5.webp"
   ]
  },
  {
@@ -8168,6 +8342,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1 - 2i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -8310,6 +8488,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x, y) = \\left(\\frac{17}{11}, -\\frac{15}{11}\\right) \\text{ or } (-2, 1)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -8552,6 +8734,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\ln 2 \\approx 0.693"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -8769,6 +8955,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "2q + 2 - 4p"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -9010,6 +9200,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "f^{-1}(x) = \\frac{x+2}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -9178,6 +9371,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.15"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -9386,6 +9583,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{50}{3} \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q7-ms-1.webp"
   ]
  },
  {
@@ -9850,6 +10050,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "c = 1.88"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2016/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -10222,6 +10427,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "G_3 = 2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2016/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2016/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -10401,6 +10611,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(7, 6)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q1-ms-1.webp"
   ]
  },
  {
@@ -10566,6 +10779,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x - 6)^2 + (y - 7)^2 = 25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -10692,6 +10908,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\cos\\theta = \\pm\\frac{\\sqrt{5}}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -10887,6 +11107,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Perpendicular at } U \\text{ to the circle has length } \\sqrt{|TU|} \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -11083,6 +11307,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "P(A) = x + 0.1,\\quad x = 0.15"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -11249,6 +11476,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}3.00"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -11616,6 +11847,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\sqrt{6}\\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -12012,6 +12247,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\approx 5\\text{ h }38\\text{ min}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2016/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2016/higher-p2-q8-ms-4.webp"
   ]
  },
  {
@@ -12347,6 +12588,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 494"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2016/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2016/higher-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -12541,6 +12787,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "d = 8 \\text{ deliveries}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -12796,6 +13045,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "w = -\\frac{1}{5} + \\frac{7}{5}i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -13011,6 +13263,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x \\in \\{1, 2, 3\\}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -13195,6 +13450,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = 3x + 4"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -13464,6 +13722,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "T_n = 10 + 2n, \\quad T_{30} = 70"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -13641,6 +13903,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) } \\text{€}311.11 \\quad \\text{(ii) } 20.1\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -13910,6 +14175,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 3.24\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -14284,6 +14553,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "27.56\\ \\text{m}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -14524,6 +14797,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}190.52"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p1-q9-ms-2.webp",
+   "exam-images/maths/2016/ordinary-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -14736,6 +15014,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 330\" font-family=\"sans-serif\" font-size=\"13\"><line x1=\"15\" y1=\"163\" x2=\"75\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"15\" y1=\"163\" x2=\"75\" y2=\"241\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"80\" y=\"89\" text-anchor=\"start\" fill=\"currentColor\">B</text><text x=\"80\" y=\"245\" text-anchor=\"start\" fill=\"currentColor\">S</text><line x1=\"94\" y1=\"85\" x2=\"165\" y2=\"33\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"37\" text-anchor=\"start\" fill=\"currentColor\">M</text><line x1=\"188\" y1=\"33\" x2=\"255\" y2=\"20\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"260\" y=\"24\" text-anchor=\"start\" fill=\"currentColor\">V</text><line x1=\"188\" y1=\"33\" x2=\"255\" y2=\"46\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"260\" y=\"50\" text-anchor=\"start\" fill=\"currentColor\">O</text><line x1=\"94\" y1=\"85\" x2=\"165\" y2=\"85\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"89\" text-anchor=\"start\" fill=\"currentColor\">W</text><line x1=\"188\" y1=\"85\" x2=\"255\" y2=\"72\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"76\" text-anchor=\"start\" fill=\"#2563eb\">V</text><line x1=\"188\" y1=\"85\" x2=\"255\" y2=\"98\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"102\" text-anchor=\"start\" fill=\"#2563eb\">O</text><line x1=\"94\" y1=\"85\" x2=\"165\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"141\" text-anchor=\"start\" fill=\"currentColor\">F</text><line x1=\"188\" y1=\"137\" x2=\"255\" y2=\"124\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"128\" text-anchor=\"start\" fill=\"#2563eb\">V</text><line x1=\"188\" y1=\"137\" x2=\"255\" y2=\"150\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"154\" text-anchor=\"start\" fill=\"#2563eb\">O</text><line x1=\"94\" y1=\"241\" x2=\"165\" y2=\"189\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"193\" text-anchor=\"start\" fill=\"#2563eb\">M</text><line x1=\"188\" y1=\"189\" x2=\"255\" y2=\"176\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"180\" text-anchor=\"start\" fill=\"#2563eb\">V</text><line x1=\"188\" y1=\"189\" x2=\"255\" y2=\"202\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"206\" text-anchor=\"start\" fill=\"#2563eb\">O</text><line x1=\"94\" y1=\"241\" x2=\"165\" y2=\"241\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"245\" text-anchor=\"start\" fill=\"#2563eb\">W</text><line x1=\"188\" y1=\"241\" x2=\"255\" y2=\"228\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"232\" text-anchor=\"start\" fill=\"#2563eb\">V</text><line x1=\"188\" y1=\"241\" x2=\"255\" y2=\"254\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"258\" text-anchor=\"start\" fill=\"#2563eb\">O</text><line x1=\"94\" y1=\"241\" x2=\"165\" y2=\"293\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"170\" y=\"297\" text-anchor=\"start\" fill=\"#2563eb\">F</text><line x1=\"188\" y1=\"293\" x2=\"255\" y2=\"280\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"284\" text-anchor=\"start\" fill=\"#2563eb\">V</text><line x1=\"188\" y1=\"293\" x2=\"255\" y2=\"306\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"260\" y=\"310\" text-anchor=\"start\" fill=\"#2563eb\">O</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -14864,6 +15146,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "120^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -15047,6 +15332,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "64\\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -15251,6 +15540,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "l \\cap k = \\left(3,\\ 2\\tfrac{1}{2}\\right)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -15408,6 +15701,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 230\" font-family=\"sans-serif\" font-size=\"13\"><text x=\"110\" y=\"25\" text-anchor=\"middle\" fill=\"currentColor\">Week 2</text><text x=\"306\" y=\"25\" text-anchor=\"middle\" fill=\"currentColor\">Week 1</text><line x1=\"204\" y1=\"40\" x2=\"204\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"244\" y1=\"40\" x2=\"244\" y2=\"200\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"224\" y=\"65\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"190\" y=\"65\" text-anchor=\"middle\" fill=\"#2563eb\">6</text><text x=\"166\" y=\"65\" text-anchor=\"middle\" fill=\"#2563eb\">9</text><text x=\"258\" y=\"65\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"282\" y=\"65\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"224\" y=\"95\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"190\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">2</text><text x=\"166\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">5</text><text x=\"142\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">5</text><text x=\"118\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">6</text><text x=\"94\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">6</text><text x=\"70\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">7</text><text x=\"46\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">8</text><text x=\"22\" y=\"95\" text-anchor=\"middle\" fill=\"#2563eb\">8</text><text x=\"258\" y=\"95\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"282\" y=\"95\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"306\" y=\"95\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"330\" y=\"95\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"224\" y=\"125\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"190\" y=\"125\" text-anchor=\"middle\" fill=\"#2563eb\">3</text><text x=\"166\" y=\"125\" text-anchor=\"middle\" fill=\"#2563eb\">7</text><text x=\"142\" y=\"125\" text-anchor=\"middle\" fill=\"#2563eb\">8</text><text x=\"118\" y=\"125\" text-anchor=\"middle\" fill=\"#2563eb\">9</text><text x=\"258\" y=\"125\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"282\" y=\"125\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"306\" y=\"125\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"330\" y=\"125\" text-anchor=\"middle\" fill=\"currentColor\">7</text><text x=\"224\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"190\" y=\"155\" text-anchor=\"middle\" fill=\"#2563eb\">2</text><text x=\"258\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">0</text><text x=\"282\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"306\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"330\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"354\" y=\"155\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"224\" y=\"185\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"190\" y=\"185\" text-anchor=\"middle\" fill=\"#2563eb\">0</text><text x=\"258\" y=\"185\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"390\" y=\"222\" text-anchor=\"end\" fill=\"currentColor\">Key: 1|3 = 13 minutes</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -15619,6 +15915,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 12"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -15931,6 +16230,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}996\\,730"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -16339,6 +16642,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "123\\,824.3 \\text{ litres}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2016/ordinary-p2-q8-ms-3.webp",
+   "exam-images/maths/2016/ordinary-p2-q8-ms-4.webp"
   ]
  },
  {
@@ -16626,6 +16935,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle BQF| = 35.6^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2016/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2016/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -16814,6 +17127,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -16985,6 +17302,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = -6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -17138,6 +17459,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.372"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -17339,6 +17663,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "16 + 8\\sqrt{2}\\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -17624,6 +17951,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a < -9 \\ \\text{ or } \\ a > \\frac{100}{27}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -17756,6 +18087,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.5894 \\text{ square units}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -18141,6 +18476,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-130\\,712 \\text{ people per year}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -18579,6 +18918,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}2609.04"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2017/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -18832,6 +19176,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "13{:}26 \\text{ and } 15{:}42"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2017/higher-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -19043,6 +19391,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 21"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -19270,6 +19622,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}6.98"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -19485,6 +19840,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "C\\text{ is the orthocentre of }\\triangle ABC"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -19662,6 +20021,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle BCA| = 28.44^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -19940,6 +20303,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "680.4 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -20058,6 +20425,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "24091 \\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -20336,6 +20706,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "360\\pi \\text{ cm}^3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q7-ms-1.webp"
   ]
  },
  {
@@ -20769,6 +21142,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "P(R \\mid L) = \\frac{28}{51}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2017/higher-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -21080,6 +21458,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "30.4\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2017/higher-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -21269,6 +21651,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 2\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -21492,6 +21877,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z = 11 - 15i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -21649,6 +22037,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(1, -11)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -21802,6 +22193,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x, y) = (0, -5) \\text{ or } (4, 3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -21938,6 +22332,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 4.9 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -22075,6 +22472,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}3700"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -22412,6 +22812,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1455\\text{ tiles}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -22752,6 +23156,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 85\\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -23084,6 +23492,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 1.73\\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -23294,6 +23706,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "208"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -23511,6 +23927,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "24.27 \\text{ square units}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -23727,6 +24147,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\angle ABD \\approx 27^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -23911,6 +24335,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k \\approx 14.14, \\quad \\text{shaded area} = 600 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -24076,6 +24504,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{15}{24} = \\frac{5}{8}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -24227,6 +24658,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = 8.60\\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -24526,6 +24960,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = 14.14\\text{ m}, \\quad \\theta = 161^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -24802,6 +25240,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "36\\text{ square units}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -25129,6 +25571,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Reject } H_0\\text{: the party's claim is false}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2017/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2017/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2017/ordinary-p2-q9-ms-3.webp",
+   "exam-images/maths/2017/ordinary-p2-q9-ms-4.webp"
   ]
  },
  {
@@ -25342,6 +25790,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-9 \\le x < -2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -25567,6 +26018,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 8, \\quad S_\\infty = 128"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2018/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -25714,6 +26169,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{2}{\\pi}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -25905,6 +26363,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -26132,6 +26593,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a_{2019} = -2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -26298,6 +26762,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 352\" font-family=\"sans-serif\" font-size=\"13\">\n<g stroke=\"currentColor\" stroke-opacity=\"0.15\" stroke-width=\"1\" fill=\"none\"><line x1=\"44.0\" y1=\"332.0\" x2=\"44.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"332.0\" x2=\"356.0\" y2=\"332.0\"/><line x1=\"70.0\" y1=\"332.0\" x2=\"70.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"306.0\" x2=\"356.0\" y2=\"306.0\"/><line x1=\"96.0\" y1=\"332.0\" x2=\"96.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"280.0\" x2=\"356.0\" y2=\"280.0\"/><line x1=\"122.0\" y1=\"332.0\" x2=\"122.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"254.0\" x2=\"356.0\" y2=\"254.0\"/><line x1=\"148.0\" y1=\"332.0\" x2=\"148.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"228.0\" x2=\"356.0\" y2=\"228.0\"/><line x1=\"174.0\" y1=\"332.0\" x2=\"174.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"202.0\" x2=\"356.0\" y2=\"202.0\"/><line x1=\"200.0\" y1=\"332.0\" x2=\"200.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"176.0\" x2=\"356.0\" y2=\"176.0\"/><line x1=\"226.0\" y1=\"332.0\" x2=\"226.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"150.0\" x2=\"356.0\" y2=\"150.0\"/><line x1=\"252.0\" y1=\"332.0\" x2=\"252.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"124.0\" x2=\"356.0\" y2=\"124.0\"/><line x1=\"278.0\" y1=\"332.0\" x2=\"278.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"98.0\" x2=\"356.0\" y2=\"98.0\"/><line x1=\"304.0\" y1=\"332.0\" x2=\"304.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"72.0\" x2=\"356.0\" y2=\"72.0\"/><line x1=\"330.0\" y1=\"332.0\" x2=\"330.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"46.0\" x2=\"356.0\" y2=\"46.0\"/><line x1=\"356.0\" y1=\"332.0\" x2=\"356.0\" y2=\"20.0\"/><line x1=\"44.0\" y1=\"20.0\" x2=\"356.0\" y2=\"20.0\"/></g>\n<g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.2\"><line x1=\"44.0\" y1=\"176\" x2=\"362.0\" y2=\"176\"/><line x1=\"200\" y1=\"332.0\" x2=\"200\" y2=\"14.0\"/>\n<line x1=\"57.0\" y1=\"319.0\" x2=\"343.0\" y2=\"33.0\"/>\n<path d=\"M63.5 326.5 L68.0 311.9 L72.6 298.4 L77.1 285.7 L81.7 274.0 L86.2 263.1 L90.8 253.1 L95.3 243.8 L99.9 235.3 L104.5 227.6 L109.0 220.6 L113.5 214.2 L118.1 208.5 L122.7 203.4 L127.2 198.8 L131.8 194.8 L136.3 191.3 L140.9 188.2 L145.4 185.6 L149.9 183.4 L154.5 181.6 L159.0 180.1 L163.6 178.9 L168.2 177.9 L172.7 177.2 L177.2 176.7 L181.8 176.4 L186.3 176.2 L190.9 176.0 L195.5 176.0 L200.0 176.0 L204.6 176.0 L209.1 176.0 L213.7 175.8 L218.2 175.6 L222.8 175.3 L227.3 174.8 L231.9 174.1 L236.4 173.1 L240.9 171.9 L245.5 170.4 L250.1 168.6 L254.6 166.4 L259.1 163.8 L263.7 160.7 L268.2 157.2 L272.8 153.2 L277.4 148.6 L281.9 143.5 L286.4 137.8 L291.0 131.4 L295.6 124.4 L300.1 116.7 L304.7 108.2 L309.2 98.9 L313.8 88.9 L318.3 78.0 L322.9 66.3 L327.4 53.6 L331.9 40.1 L336.5 25.5\"/></g>\n<path d=\"M50.5 312.2 L55.5 310.7 L60.5 309.1 L65.5 307.5 L70.4 305.9 L75.4 304.2 L80.4 302.4 L85.4 300.7 L90.4 298.8 L95.4 296.9 L100.3 295.0 L105.3 293.0 L110.3 290.9 L115.3 288.7 L120.3 286.5 L125.2 284.1 L130.2 281.6 L135.2 279.1 L140.2 276.4 L145.2 273.5 L150.2 270.4 L155.2 267.2 L160.1 263.7 L165.1 259.8 L170.1 255.7 L175.1 251.0 L180.1 245.6 L185.1 239.2 L190.0 231.2 L195.0 219.8 L200.0 176.0 L205.0 132.2 L210.0 120.8 L214.9 112.8 L219.9 106.4 L224.9 101.0 L229.9 96.3 L234.9 92.2 L239.9 88.3 L244.8 84.8 L249.8 81.6 L254.8 78.5 L259.8 75.6 L264.8 72.9 L269.8 70.4 L274.8 67.9 L279.7 65.5 L284.7 63.3 L289.7 61.1 L294.7 59.0 L299.7 57.0 L304.6 55.1 L309.6 53.2 L314.6 51.3 L319.6 49.6 L324.6 47.8 L329.6 46.1 L334.6 44.5 L339.5 42.9 L344.5 41.3 L349.5 39.8\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<g fill=\"#2563eb\"><circle cx=\"330\" cy=\"46\" r=\"3\"/><circle cx=\"70\" cy=\"306\" r=\"3\"/></g>\n<g fill=\"currentColor\"><text x=\"366.0\" y=\"180\">x</text><text x=\"206\" y=\"12.0\">y</text>\n<text x=\"320.9\" y=\"137.0\">k(x) = x³</text><text x=\"4\" y=\"346\">h(x) = x</text></g>\n<g fill=\"#2563eb\"><text x=\"214\" y=\"46.0\">y = k⁻¹(x)</text><text x=\"338\" y=\"68.2\">(1, 1)</text><text x=\"62\" y=\"292\" text-anchor=\"end\">(−1, −1)</text></g>\n</svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -26696,6 +27163,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "17 \\text{ days}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2018/higher-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -26950,6 +27421,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "f''(-1) = 0 \\text{, so there is a point of inflection at } B"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2018/higher-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -27334,6 +27809,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Area} \\to 0 \\text{ and perimeter} \\to \\infty"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2018/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2018/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -27464,6 +27944,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\text{€}250"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -27711,6 +28195,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "81.5\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -27869,6 +28357,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 1,\\ b = 7,\\ c = 16,\\ d = 12"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -28037,6 +28528,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\sin 2A = \\frac{y\\sqrt{4 - y^2}}{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q4-ms-1.webp"
   ]
  },
  {
@@ -28298,6 +28792,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x + 1)^2 + (y - 2.5)^2 = \\frac{13}{4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -28449,6 +28947,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|BZ| = 10 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -28827,6 +29329,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "10.0 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -29199,6 +29705,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}440\\,132.40"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2018/higher-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -29513,6 +30024,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r \\approx 7 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2018/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2018/higher-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -29683,6 +30199,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}500000"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -29910,6 +30429,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z_4 = 0 - i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -30070,6 +30592,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = -3,\\ b = 7"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -30293,6 +30818,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 20"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q4-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -30479,6 +31008,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(0.5,\\ 6.25)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -30636,6 +31168,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 2 \\text{ or } x = 3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -31024,6 +31559,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}11"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -31454,6 +31993,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "C'(7) = -30 \\text{ units per hour, which is negative, so the amount is decreasing}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p1-q8-ms-2.webp",
+   "exam-images/maths/2018/ordinary-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -31628,6 +32172,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "d = 309 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p1-q9-ms-1.webp"
   ]
  },
  {
@@ -31806,6 +32353,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{13}{15}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -32015,6 +32566,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "S = (6, 3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -32162,6 +32717,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 296 228\"><rect x=\"2\" y=\"2\" width=\"74\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><text x=\"39.0\" y=\"21\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" font-weight=\"bold\">Colour</text><rect x=\"76\" y=\"2\" width=\"54\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><text x=\"103.0\" y=\"21\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" font-weight=\"bold\">Angle</text><rect x=\"130\" y=\"2\" width=\"100\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><text x=\"180.0\" y=\"21\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" font-weight=\"bold\">Probability</text><rect x=\"230\" y=\"2\" width=\"64\" height=\"28\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"currentColor\"/><text x=\"262.0\" y=\"21\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" font-weight=\"bold\">Prize</text><rect x=\"2\" y=\"30\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"49\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Red</text><rect x=\"76\" y=\"30\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"49\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">72°</text><rect x=\"130\" y=\"30\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"49\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/5</text><rect x=\"230\" y=\"30\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"49\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€20</text><rect x=\"2\" y=\"58\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Orange</text><rect x=\"76\" y=\"58\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">30°</text><rect x=\"130\" y=\"58\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/12</text><rect x=\"230\" y=\"58\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"77\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€60</text><rect x=\"2\" y=\"86\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Yellow</text><rect x=\"76\" y=\"86\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">45°</text><rect x=\"130\" y=\"86\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">1/8</text><rect x=\"230\" y=\"86\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€24</text><rect x=\"2\" y=\"114\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"133\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Green</text><rect x=\"76\" y=\"114\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"133\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">90°</text><rect x=\"130\" y=\"114\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"133\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/4</text><rect x=\"230\" y=\"114\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"133\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€8</text><rect x=\"2\" y=\"142\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"161\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Blue</text><rect x=\"76\" y=\"142\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"161\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">60°</text><rect x=\"130\" y=\"142\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"161\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/6</text><rect x=\"230\" y=\"142\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"161\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€42</text><rect x=\"2\" y=\"170\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"189\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Indigo</text><rect x=\"76\" y=\"170\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"189\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">18°</text><rect x=\"130\" y=\"170\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"189\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/20</text><rect x=\"230\" y=\"170\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"189\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€90</text><rect x=\"2\" y=\"198\" width=\"74\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"39.0\" y=\"217\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Violet</text><rect x=\"76\" y=\"198\" width=\"54\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"103.0\" y=\"217\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">45°</text><rect x=\"130\" y=\"198\" width=\"100\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"180.0\" y=\"217\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" font-weight=\"bold\">1/8</text><rect x=\"230\" y=\"198\" width=\"64\" height=\"28\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.6\"/><text x=\"262.0\" y=\"217\" text-anchor=\"middle\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">€48</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -32368,6 +32926,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x - y + 7 = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -32509,6 +33071,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "C_u = 8\\pi \\text{ cm}, \\; C_v = 12\\pi \\text{ cm}, \\; u \\text{ makes } 150 \\text{ rotations}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -32673,6 +33238,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\triangle PQR \\equiv \\triangle RSP \\ \\text{(SAS)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -33059,6 +33627,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-0.6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2018/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -33360,6 +33933,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "17.3 \\text{ m}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -33609,6 +34186,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Reject } H_0: \\text{ the percentage who like the show is not } 40\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2018/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2018/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -33777,6 +34358,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = -3 \\text{ or } x = \\tfrac{3}{4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -34001,6 +34586,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "3^n \\ge 4n+1 \\text{ for all } n \\ge 2,\\ n \\in \\mathbb{N}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -34192,6 +34781,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g'(e) = -1.53"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -34378,6 +34971,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "B = \\left(\\tfrac{9}{2}, 0\\right), \\quad C = (7, 0)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -34581,6 +35178,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "w = -\\sqrt{3} + i \\ \\text{ or } \\ w = \\sqrt{3} - i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -34814,6 +35415,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\sqrt{2} \\text{ is not a rational number}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -35145,6 +35750,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{1}{4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -35455,6 +36064,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 26"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2019/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -35813,6 +36427,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = x"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2019/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2019/higher-p1-q9-ms-3.webp",
+   "exam-images/maths/2019/higher-p1-q9-ms-4.webp"
   ]
  },
  {
@@ -36008,6 +36628,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1400"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -36187,6 +36811,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "P\\left(\\frac{25 + 18m}{3m + 4},\\ \\frac{m}{3m + 4}\\right)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -36339,6 +36967,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x - 1)^2 + (y - 1)^2 = 1"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -36493,6 +37125,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\cos A = \\frac{1}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -36642,6 +37278,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle BEA| = 30^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -36851,6 +37490,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "25 \\text{ children}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -37272,6 +37915,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 0.87 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -37545,6 +38192,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "84.6 \\text{ km/h}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -37913,6 +38564,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "10.6 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2019/higher-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -38103,6 +38758,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}300"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -38300,6 +38958,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z_1 = 2 + i \\text{ satisfies } z^2 - 4z + 5 = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q2-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -38512,6 +39174,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\frac{4}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q3-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -38713,6 +39379,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x, y) = (-3, 2) \\text{ and } (2, 3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -38842,6 +39511,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "5.76 \\text{ km/h}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -38970,6 +39642,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\frac{7}{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -39407,6 +40082,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 3 \\text{ seconds}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p1-q7-ms-2.webp",
+   "exam-images/maths/2019/ordinary-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -39738,6 +40418,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}18500"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -40008,6 +40692,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}1 = \\text{£}0.8772"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -40186,6 +40874,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{7}{28} = \\frac{1}{4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -40395,6 +41087,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "21 \\text{ square units}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -40555,6 +41251,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.0189"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -40755,6 +41455,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x - 3)^2 + (y - 10)^2 = 25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -40935,6 +41639,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "74 \\text{ seconds}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -41131,6 +41838,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\alpha = 52,\\ \\beta = 19"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -41466,6 +42176,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Fish } 18.56;\\ \\text{Milk } 12.35;\\ \\text{Fruit } 14.26;\\ \\text{Total } 63.53"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2019/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -41774,6 +42489,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Reject } H_0:\\ 50\\% \\notin [40.21\\%, 47.29\\%]"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -42133,6 +42852,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "370 \\text{ ships}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2019/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2019/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2019/ordinary-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -42369,6 +43093,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-3 \\le x \\le -2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2020/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2020/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -42596,6 +43325,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "T_9 = 48 + 32i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -42823,6 +43555,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = \\frac{1}{5} \\text{ or } y = 3125"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -43044,6 +43779,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(3, -1) \\in g(x)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -43186,6 +43924,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}233438.25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -43384,6 +44125,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "A = 12"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -43837,6 +44581,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1^2 + 2^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2020/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2020/higher-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -44171,6 +44920,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\left|\\frac{dx}{dt}\\right| = 1 \\text{ m/s (shadow shortening)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2020/higher-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -44509,6 +45262,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 7 \\text{ hours}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2020/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2020/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -44691,6 +45449,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\theta = 33.435^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2020/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -44842,6 +45604,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "c_1: (x+2)^2 + y^2 = 25, \\quad c_2: (x-4)^2 + y^2 = 25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2020/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -45022,6 +45788,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 9"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -45189,6 +45958,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|BC| = 4.4\\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q4-ms-1.webp"
   ]
  },
  {
@@ -45371,6 +46143,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{No: } P(\\text{Lee}) = \\tfrac{6}{16} \\ne \\tfrac{5}{16}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2020/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -45578,6 +46354,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 1,\\ b = 1,\\ c = 2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -45922,6 +46701,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 1.2\\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2020/higher-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -46422,6 +47205,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 90\" font-family=\"sans-serif\" font-size=\"13\"><text x=\"27\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">A</text><rect x=\"8\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"27\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">4</text><text x=\"75\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">B</text><rect x=\"56\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"75\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">6</text><text x=\"123\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">C</text><rect x=\"104\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"123\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">9</text><text x=\"171\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">D</text><rect x=\"152\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"171\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">11</text><text x=\"219\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">E</text><rect x=\"200\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"219\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">14</text><text x=\"267\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">F</text><rect x=\"248\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"267\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">16</text><text x=\"315\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">G</text><rect x=\"296\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"315\" y=\"55\" text-anchor=\"middle\" fill=\"currentColor\" font-weight=\"bold\">23</text><text x=\"363\" y=\"22\" text-anchor=\"middle\" fill=\"currentColor\">H</text><rect x=\"344\" y=\"30\" width=\"38\" height=\"40\" fill=\"none\" stroke=\"currentColor\"/><text x=\"363\" y=\"55\" text-anchor=\"middle\" fill=\"#2563eb\" font-weight=\"bold\">25</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2020/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2020/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2020/higher-p2-q8-ms-4.webp"
   ]
  },
  {
@@ -46635,6 +47424,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 1.2\\text{ hours},\\ s = 80.5\\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/higher-p2-q9-ms-1.webp"
   ]
  },
  {
@@ -46879,6 +47671,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}589.52"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -47073,6 +47868,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\left(\\frac{2}{5}, -\\frac{14}{5}\\right) \\text{ and } (2, 2)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -47271,6 +48069,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z_4 = 3 + 5i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -47443,6 +48244,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\frac{1}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -47698,6 +48502,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 390\" font-family=\"sans-serif\" font-size=\"12\"><g stroke=\"currentColor\" fill=\"none\"><line x1=\"20\" y1=\"195\" x2=\"290\" y2=\"195\"/><line x1=\"140\" y1=\"380\" x2=\"140\" y2=\"8\"/><path d=\"M290 195 l-7 -4 m7 4 l-7 4\"/><path d=\"M140 8 l-4 7 m4 -7 l4 7\"/><line x1=\"36\" y1=\"191\" x2=\"36\" y2=\"199\"/><line x1=\"62\" y1=\"191\" x2=\"62\" y2=\"199\"/><line x1=\"88\" y1=\"191\" x2=\"88\" y2=\"199\"/><line x1=\"114\" y1=\"191\" x2=\"114\" y2=\"199\"/><line x1=\"166\" y1=\"191\" x2=\"166\" y2=\"199\"/><line x1=\"192\" y1=\"191\" x2=\"192\" y2=\"199\"/><line x1=\"218\" y1=\"191\" x2=\"218\" y2=\"199\"/><line x1=\"244\" y1=\"191\" x2=\"244\" y2=\"199\"/><line x1=\"270\" y1=\"191\" x2=\"270\" y2=\"199\"/><line x1=\"136\" y1=\"377\" x2=\"144\" y2=\"377\"/><line x1=\"136\" y1=\"351\" x2=\"144\" y2=\"351\"/><line x1=\"136\" y1=\"325\" x2=\"144\" y2=\"325\"/><line x1=\"136\" y1=\"299\" x2=\"144\" y2=\"299\"/><line x1=\"136\" y1=\"273\" x2=\"144\" y2=\"273\"/><line x1=\"136\" y1=\"247\" x2=\"144\" y2=\"247\"/><line x1=\"136\" y1=\"221\" x2=\"144\" y2=\"221\"/><line x1=\"136\" y1=\"169\" x2=\"144\" y2=\"169\"/><line x1=\"136\" y1=\"143\" x2=\"144\" y2=\"143\"/><line x1=\"136\" y1=\"117\" x2=\"144\" y2=\"117\"/><line x1=\"136\" y1=\"91\" x2=\"144\" y2=\"91\"/><line x1=\"136\" y1=\"65\" x2=\"144\" y2=\"65\"/><line x1=\"136\" y1=\"39\" x2=\"144\" y2=\"39\"/><line x1=\"136\" y1=\"13\" x2=\"144\" y2=\"13\"/></g><g fill=\"currentColor\"><text x=\"36\" y=\"210\" text-anchor=\"middle\">−4</text><text x=\"88\" y=\"210\" text-anchor=\"middle\">−2</text><text x=\"166\" y=\"210\" text-anchor=\"middle\">1</text><text x=\"192\" y=\"210\" text-anchor=\"middle\">2</text><text x=\"218\" y=\"210\" text-anchor=\"middle\">3</text><text x=\"270\" y=\"210\" text-anchor=\"middle\">5</text><text x=\"132\" y=\"381\" text-anchor=\"end\">−7</text><text x=\"132\" y=\"355\" text-anchor=\"end\">−6</text><text x=\"132\" y=\"329\" text-anchor=\"end\">−5</text><text x=\"132\" y=\"303\" text-anchor=\"end\">−4</text><text x=\"132\" y=\"277\" text-anchor=\"end\">−3</text><text x=\"132\" y=\"251\" text-anchor=\"end\">−2</text><text x=\"132\" y=\"225\" text-anchor=\"end\">−1</text><text x=\"148\" y=\"173\">1</text><text x=\"148\" y=\"147\">2</text><text x=\"148\" y=\"121\">3</text><text x=\"148\" y=\"95\">4</text><text x=\"148\" y=\"43\">6</text><text x=\"132\" y=\"69\" text-anchor=\"end\">5</text><text x=\"132\" y=\"17\" text-anchor=\"end\">7</text><text x=\"294\" y=\"199\">x</text><text x=\"148\" y=\"14\">y</text></g><polyline points=\"36.0,351.0 37.3,342.0 38.6,333.1 39.9,324.3 41.2,315.6 42.5,307.1 43.8,298.7 45.1,290.5 46.4,282.4 47.7,274.4 49.0,266.5 50.3,258.8 51.6,251.2 52.9,243.7 54.2,236.3 55.5,229.1 56.8,222.0 58.1,215.1 59.4,208.3 60.7,201.6 62.0,195.0 63.3,188.6 64.6,182.3 65.9,176.1 67.2,170.0 68.5,164.1 69.8,158.3 71.1,152.7 72.4,147.2 73.7,141.8 75.0,136.5 76.3,131.4 77.6,126.4 78.9,121.5 80.2,116.7 81.5,112.1 82.8,107.6 84.1,103.3 85.4,99.1 86.7,95.0 88.0,91.0 89.3,87.2 90.6,83.5 91.9,79.9 93.2,76.4 94.5,73.1 95.8,69.9 97.1,66.9 98.4,64.0 99.7,61.2 101.0,58.5 102.3,56.0 103.6,53.6 104.9,51.3 106.2,49.1 107.5,47.1 108.8,45.2 110.1,43.5 111.4,41.9 112.7,40.4 114.0,39.0 115.3,37.8 116.6,36.7 117.9,35.7 119.2,34.8 120.5,34.1 121.8,33.5 123.1,33.1 124.4,32.8 125.7,32.6 127.0,32.5 128.3,32.6 129.6,32.8 130.9,33.1 132.2,33.5 133.5,34.1 134.8,34.8 136.1,35.7 137.4,36.7 138.7,37.8 140.0,39.0 141.3,40.4 142.6,41.9 143.9,43.5 145.2,45.2 146.5,47.1 147.8,49.1 149.1,51.3 150.4,53.6 151.7,56.0 153.0,58.5 154.3,61.2 155.6,64.0 156.9,66.9 158.2,69.9 159.5,73.1 160.8,76.4 162.1,79.9 163.4,83.5 164.7,87.2 166.0,91.0 167.3,95.0 168.6,99.1 169.9,103.3 171.2,107.6 172.5,112.1 173.8,116.7 175.1,121.5 176.4,126.4 177.7,131.4 179.0,136.5 180.3,141.8 181.6,147.2 182.9,152.7 184.2,158.3 185.5,164.1 186.8,170.0 188.1,176.1 189.4,182.3 190.7,188.6 192.0,195.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><polyline points=\"88.0,351.0 89.3,342.0 90.6,333.1 91.9,324.3 93.2,315.6 94.5,307.1 95.8,298.7 97.1,290.5 98.4,282.4 99.7,274.4 101.0,266.5 102.3,258.8 103.6,251.2 104.9,243.7 106.2,236.3 107.5,229.1 108.8,222.0 110.1,215.1 111.4,208.3 112.7,201.6 114.0,195.0 115.3,188.6 116.6,182.3 117.9,176.1 119.2,170.0 120.5,164.1 121.8,158.3 123.1,152.7 124.4,147.2 125.7,141.8 127.0,136.5 128.3,131.4 129.6,126.4 130.9,121.5 132.2,116.7 133.5,112.1 134.8,107.6 136.1,103.3 137.4,99.1 138.7,95.0 140.0,91.0 141.3,87.2 142.6,83.5 143.9,79.9 145.2,76.4 146.5,73.1 147.8,69.9 149.1,66.9 150.4,64.0 151.7,61.2 153.0,58.5 154.3,56.0 155.6,53.6 156.9,51.3 158.2,49.1 159.5,47.1 160.8,45.2 162.1,43.5 163.4,41.9 164.7,40.4 166.0,39.0 167.3,37.8 168.6,36.7 169.9,35.7 171.2,34.8 172.5,34.1 173.8,33.5 175.1,33.1 176.4,32.8 177.7,32.6 179.0,32.5 180.3,32.6 181.6,32.8 182.9,33.1 184.2,33.5 185.5,34.1 186.8,34.8 188.1,35.7 189.4,36.7 190.7,37.8 192.0,39.0 193.3,40.4 194.6,41.9 195.9,43.5 197.2,45.2 198.5,47.1 199.8,49.1 201.1,51.3 202.4,53.6 203.7,56.0 205.0,58.5 206.3,61.2 207.6,64.0 208.9,66.9 210.2,69.9 211.5,73.1 212.8,76.4 214.1,79.9 215.4,83.5 216.7,87.2 218.0,91.0 219.3,95.0 220.6,99.1 221.9,103.3 223.2,107.6 224.5,112.1 225.8,116.7 227.1,121.5 228.4,126.4 229.7,131.4 231.0,136.5 232.3,141.8 233.6,147.2 234.9,152.7 236.2,158.3 237.5,164.1 238.8,170.0 240.1,176.1 241.4,182.3 242.7,188.6 244.0,195.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"88\" cy=\"351\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"114\" cy=\"195\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"140\" cy=\"91\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"166\" cy=\"39\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"192\" cy=\"39\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"218\" cy=\"91\" r=\"3\" fill=\"#2563eb\"/><circle cx=\"244\" cy=\"195\" r=\"3\" fill=\"#2563eb\"/><text x=\"68\" y=\"247\" fill=\"currentColor\">f(x)</text><g fill=\"#2563eb\"><text x=\"236\" y=\"140\">g(x)</text><text x=\"244\" y=\"212\" text-anchor=\"middle\">(4, 0)</text><text x=\"96\" y=\"99\">(0, 4)</text></g></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -47924,6 +48732,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = -3, \\quad q = 4"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -48153,6 +48964,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}35\\,000"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q7-ms-1.webp"
   ]
  },
  {
@@ -48560,6 +49374,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.73\\text{ seconds}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p1-q8-ms-2.webp",
+   "exam-images/maths/2020/ordinary-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -48937,6 +49756,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1559\\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -49110,6 +49933,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{21}{512} \\approx 0.04101"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -49327,6 +50154,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "30 \\text{ units}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -49560,6 +50391,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "4420"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -49748,6 +50583,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "3x - 2y - 13 = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -49914,6 +50753,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "219 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q5-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -50062,6 +50905,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 7.5 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -50372,6 +51218,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "5.8 \\text{ km}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -50729,6 +51579,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\"><circle cx=\"160\" cy=\"200\" r=\"130\" fill=\"none\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"200\" x2=\"290\" y2=\"200\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"200\" x2=\"280.5\" y2=\"151.3\" stroke=\"currentColor\"/><text x=\"222\" y=\"191\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">22°</text><text x=\"298\" y=\"178\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">Renewable</text><g stroke=\"#2563eb\" fill=\"none\"><line x1=\"160\" y1=\"200\" x2=\"31\" y2=\"184.2\"/><line x1=\"160\" y1=\"200\" x2=\"60.4\" y2=\"283.6\"/><line x1=\"160\" y1=\"200\" x2=\"236.4\" y2=\"305.2\"/></g><g fill=\"#2563eb\" font-size=\"13\" font-family=\"sans-serif\" text-anchor=\"middle\"><text x=\"150\" y=\"115\">Oil</text><text x=\"150\" y=\"131\">151°</text><text x=\"85\" y=\"219\">Solid fuel</text><text x=\"85\" y=\"235\">47°</text><text x=\"150\" y=\"275\">Gas</text><text x=\"150\" y=\"291\">86°</text><text x=\"246\" y=\"240\">Electricity</text><text x=\"246\" y=\"256\">54°</text></g></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2020/ordinary-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -50981,6 +51836,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 1.1 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2020/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2020/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -51249,6 +52108,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z = 1 + \\sqrt{3}\\,i,\\ -2,\\ 1 - \\sqrt{3}\\,i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2021/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -51397,6 +52261,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "q = -5, \\quad \\text{Roots} = (-4,\\ 2,\\ 7)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -51611,6 +52479,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "m = \\log_3 7 - 1"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -51824,6 +52696,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = 5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -52063,6 +52939,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 0.68"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -52257,6 +53137,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h(x) = -\\frac{2x^3}{3} + 2x^2 + 6x - 2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -52631,6 +53515,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "225\\ \\text{cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2021/higher-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -53001,6 +53890,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "20.47\\ \\text{m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2021/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -53339,6 +54233,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-\\frac{4}{15}\\ \\text{cm/sec}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2021/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -53753,6 +54652,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r(10) = 25 \\text{ cm}, \\; k = 6.25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2021/higher-p1-q10-ms-2.webp",
+   "exam-images/maths/2021/higher-p1-q10-ms-3.webp"
   ]
  },
  {
@@ -53951,6 +54855,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.82"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -54211,6 +55119,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "B(37, 2), \\; E(23, 8)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -54450,6 +55362,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(10, 17)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -54626,6 +55542,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "B = 150^\\circ \\text{ or } B = 330^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -54811,6 +55731,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "13{:}45"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -54970,6 +55894,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|AH| \\times |QB| = |AP| \\times |HB|"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -55271,6 +56199,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|AT| = 26 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -55576,6 +56508,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.2033"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2021/higher-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -55943,6 +56880,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "58\\,646 \\text{ Volts per second}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2021/higher-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -56220,6 +57162,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}142"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2021/higher-p2-q10-ms-2.webp"
   ]
  },
  {
@@ -56421,6 +57367,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}560"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q1-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -56628,6 +57578,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "7\\sqrt{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q2-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -56830,6 +57784,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 1.56 \\quad \\text{or} \\quad x = -1.16"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -56982,6 +57939,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x, y) = (0, -7) \\quad \\text{or} \\quad \\left(\\frac{28}{5}, \\frac{21}{5}\\right)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -57154,6 +58114,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(1, 4)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -57370,6 +58334,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "S_{50} = 6325"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q6-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -57658,6 +58626,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "8\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -58032,6 +59004,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 330\"><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"110\" y1=\"40\" x2=\"110\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"140\" y1=\"40\" x2=\"140\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"290\" y1=\"40\" x2=\"290\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"320\" y1=\"40\" x2=\"320\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"350\" y1=\"40\" x2=\"350\" y2=\"280\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"250\" x2=\"350\" y2=\"250\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"254\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">10</text><line x1=\"50\" y1=\"220\" x2=\"350\" y2=\"220\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"224\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">20</text><line x1=\"50\" y1=\"190\" x2=\"350\" y2=\"190\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"194\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">30</text><line x1=\"50\" y1=\"160\" x2=\"350\" y2=\"160\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"164\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">40</text><line x1=\"50\" y1=\"130\" x2=\"350\" y2=\"130\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"134\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">50</text><line x1=\"50\" y1=\"100\" x2=\"350\" y2=\"100\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"104\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">60</text><line x1=\"50\" y1=\"70\" x2=\"350\" y2=\"70\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"74\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">70</text><line x1=\"50\" y1=\"40\" x2=\"350\" y2=\"40\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><text x=\"42\" y=\"44\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">80</text><line x1=\"80\" y1=\"280\" x2=\"80\" y2=\"285\" stroke=\"currentColor\"/><text x=\"80\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">0.5</text><line x1=\"110\" y1=\"280\" x2=\"110\" y2=\"285\" stroke=\"currentColor\"/><text x=\"110\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">1</text><line x1=\"140\" y1=\"280\" x2=\"140\" y2=\"285\" stroke=\"currentColor\"/><text x=\"140\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">1.5</text><line x1=\"170\" y1=\"280\" x2=\"170\" y2=\"285\" stroke=\"currentColor\"/><text x=\"170\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">2</text><line x1=\"200\" y1=\"280\" x2=\"200\" y2=\"285\" stroke=\"currentColor\"/><text x=\"200\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">2.5</text><line x1=\"230\" y1=\"280\" x2=\"230\" y2=\"285\" stroke=\"currentColor\"/><text x=\"230\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">3</text><line x1=\"260\" y1=\"280\" x2=\"260\" y2=\"285\" stroke=\"currentColor\"/><text x=\"260\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">3.5</text><line x1=\"290\" y1=\"280\" x2=\"290\" y2=\"285\" stroke=\"currentColor\"/><text x=\"290\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">4</text><line x1=\"320\" y1=\"280\" x2=\"320\" y2=\"285\" stroke=\"currentColor\"/><text x=\"320\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">4.5</text><line x1=\"350\" y1=\"280\" x2=\"350\" y2=\"285\" stroke=\"currentColor\"/><text x=\"350\" y=\"298\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">5</text><line x1=\"50\" y1=\"280\" x2=\"360\" y2=\"280\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"280\" x2=\"50\" y2=\"32\" stroke=\"currentColor\"/><text x=\"366\" y=\"284\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">x</text><text x=\"42\" y=\"26\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">V(x)</text><polyline points=\"50.0,280.0 51.2,274.0 52.4,268.2 53.6,262.4 54.8,256.8 56.0,251.2 57.2,245.7 58.4,240.3 59.6,235.0 60.8,229.8 62.0,224.7 63.2,219.7 64.4,214.7 65.6,209.9 66.8,205.1 68.0,200.5 69.2,195.9 70.4,191.4 71.6,187.0 72.8,182.7 74.0,178.4 75.2,174.3 76.4,170.2 77.6,166.2 78.8,162.3 80.0,158.5 81.2,154.8 82.4,151.1 83.6,147.5 84.8,144.0 86.0,140.6 87.2,137.3 88.4,134.0 89.6,130.8 90.8,127.7 92.0,124.7 93.2,121.7 94.4,118.8 95.6,116.0 96.8,113.3 98.0,110.7 99.2,108.1 100.4,105.6 101.6,103.1 102.8,100.8 104.0,98.5 105.2,96.2 106.4,94.1 107.6,92.0 108.8,90.0 110.0,88.0 111.2,86.1 112.4,84.3 113.6,82.5 114.8,80.9 116.0,79.2 117.2,77.7 118.4,76.2 119.6,74.7 120.8,73.4 122.0,72.1 123.2,70.8 124.4,69.6 125.6,68.5 126.8,67.4 128.0,66.4 129.2,65.5 130.4,64.6 131.6,63.8 132.8,63.0 134.0,62.3 135.2,61.6 136.4,61.0 137.6,60.4 138.8,59.9 140.0,59.5 141.2,59.1 142.4,58.8 143.6,58.5 144.8,58.2 146.0,58.0 147.2,57.9 148.4,57.8 149.6,57.8 150.8,57.8 152.0,57.8 153.2,57.9 154.4,58.1 155.6,58.3 156.8,58.5 158.0,58.8 159.2,59.1 160.4,59.5 161.6,59.9 162.8,60.4 164.0,60.9 165.2,61.4 166.4,62.0 167.6,62.6 168.8,63.3 170.0,64.0 171.2,64.7 172.4,65.5 173.6,66.3 174.8,67.2 176.0,68.1 177.2,69.0 178.4,69.9 179.6,70.9 180.8,72.0 182.0,73.0 183.2,74.1 184.4,75.2 185.6,76.4 186.8,77.6 188.0,78.8 189.2,80.0 190.4,81.3 191.6,82.6 192.8,84.0 194.0,85.3 195.2,86.7 196.4,88.1 197.6,89.5 198.8,91.0 200.0,92.5 201.2,94.0 202.4,95.5 203.6,97.1 204.8,98.7 206.0,100.3 207.2,101.9 208.4,103.6 209.6,105.2 210.8,106.9 212.0,108.6 213.2,110.3 214.4,112.1 215.6,113.8 216.8,115.6 218.0,117.4 219.2,119.2 220.4,121.0 221.6,122.8 222.8,124.7 224.0,126.5 225.2,128.4 226.4,130.3 227.6,132.2 228.8,134.1 230.0,136.0 231.2,137.9 232.4,139.9 233.6,141.8 234.8,143.8 236.0,145.7 237.2,147.7 238.4,149.6 239.6,151.6 240.8,153.6 242.0,155.6 243.2,157.6 244.4,159.6 245.6,161.6 246.8,163.6 248.0,165.6 249.2,167.6 250.4,169.6 251.6,171.6 252.8,173.6 254.0,175.6 255.2,177.5 256.4,179.5 257.6,181.5 258.8,183.5 260.0,185.5 261.2,187.5 262.4,189.4 263.6,191.4 264.8,193.4 266.0,195.3 267.2,197.3 268.4,199.2 269.6,201.1 270.8,203.1 272.0,205.0 273.2,206.9 274.4,208.7 275.6,210.6 276.8,212.5 278.0,214.3 279.2,216.2 280.4,218.0 281.6,219.8 282.8,221.6 284.0,223.4 285.2,225.1 286.4,226.9 287.6,228.6 288.8,230.3 290.0,232.0 291.2,233.7 292.4,235.3 293.6,237.0 294.8,238.6 296.0,240.1 297.2,241.7 298.4,243.3 299.6,244.8 300.8,246.3 302.0,247.7 303.2,249.2 304.4,250.6 305.6,252.0 306.8,253.4 308.0,254.7 309.2,256.0 310.4,257.3 311.6,258.6 312.8,259.8 314.0,261.0 315.2,262.2 316.4,263.3 317.6,264.4 318.8,265.5 320.0,266.5 321.2,267.5 322.4,268.5 323.6,269.4 324.8,270.3 326.0,271.2 327.2,272.0 328.4,272.8 329.6,273.5 330.8,274.2 332.0,274.9 333.2,275.6 334.4,276.2 335.6,276.7 336.8,277.2 338.0,277.7 339.2,278.1 340.4,278.5 341.6,278.9 342.8,279.2 344.0,279.4 345.2,279.6 346.4,279.8 347.6,279.9 348.8,280.0 350.0,280.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><line x1=\"50\" y1=\"58\" x2=\"230\" y2=\"58\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><text x=\"236\" y=\"62\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"start\" fill=\"#2563eb\">max ≈ 74</text><line x1=\"50\" y1=\"190\" x2=\"263\" y2=\"190\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><line x1=\"71\" y1=\"190\" x2=\"71\" y2=\"280\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><text x=\"71\" y=\"314\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#2563eb\">0.35</text><line x1=\"263\" y1=\"190\" x2=\"263\" y2=\"280\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><text x=\"263\" y=\"314\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#2563eb\">3.55</text><line x1=\"218\" y1=\"280\" x2=\"218\" y2=\"117.376\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><line x1=\"50\" y1=\"117.376\" x2=\"218\" y2=\"117.376\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><text x=\"218\" y=\"314\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"#2563eb\">2.8</text><text x=\"14\" y=\"121.376\" font-size=\"12\" font-family=\"sans-serif\" text-anchor=\"start\" fill=\"#2563eb\">54</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q8-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -58396,6 +59373,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "b = \\frac{1}{2}, \\quad c = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q9-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -58736,6 +59718,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1885 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p1-q10-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p1-q10-ms-3.webp"
   ]
  },
  {
@@ -58949,6 +59936,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{7}{16}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q1-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q1-ms-3.webp"
   ]
  },
  {
@@ -59136,6 +60128,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Area} = 10\\text{ cm}^2,\\ \\text{Perimeter} \\approx 12.49\\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -59347,6 +60342,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(7, 4)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -59586,6 +60585,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"25\" y1=\"25\" x2=\"25\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"55\" y1=\"25\" x2=\"55\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"85\" y1=\"25\" x2=\"85\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"115\" y1=\"25\" x2=\"115\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"145\" y1=\"25\" x2=\"145\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"175\" y1=\"25\" x2=\"175\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"205\" y1=\"25\" x2=\"205\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"235\" y1=\"25\" x2=\"235\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"265\" y1=\"25\" x2=\"265\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"295\" y1=\"25\" x2=\"295\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"325\" y1=\"25\" x2=\"325\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"355\" y1=\"25\" x2=\"355\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"355\" x2=\"355\" y2=\"355\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"325\" x2=\"355\" y2=\"325\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"295\" x2=\"355\" y2=\"295\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"265\" x2=\"355\" y2=\"265\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"235\" x2=\"355\" y2=\"235\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"205\" x2=\"355\" y2=\"205\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"175\" x2=\"355\" y2=\"175\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"145\" x2=\"355\" y2=\"145\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"115\" x2=\"355\" y2=\"115\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"85\" x2=\"355\" y2=\"85\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"55\" x2=\"355\" y2=\"55\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"25\" x2=\"355\" y2=\"25\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"25\" y1=\"175\" x2=\"363\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"115\" y1=\"355\" x2=\"115\" y2=\"17\" stroke=\"currentColor\"/><text x=\"25\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">-3</text><text x=\"55\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">-2</text><text x=\"85\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">-1</text><text x=\"145\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">1</text><text x=\"175\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"205\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">3</text><text x=\"235\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"265\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">5</text><text x=\"295\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"325\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">7</text><text x=\"355\" y=\"191\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"109\" y=\"359\" text-anchor=\"end\" fill=\"currentColor\">-6</text><text x=\"109\" y=\"329\" text-anchor=\"end\" fill=\"currentColor\">-5</text><text x=\"109\" y=\"299\" text-anchor=\"end\" fill=\"currentColor\">-4</text><text x=\"109\" y=\"269\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"109\" y=\"239\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"109\" y=\"209\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"109\" y=\"149\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"109\" y=\"119\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"109\" y=\"89\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"109\" y=\"59\" text-anchor=\"end\" fill=\"currentColor\">4</text><text x=\"109\" y=\"29\" text-anchor=\"end\" fill=\"currentColor\">5</text><text x=\"361\" y=\"167\" fill=\"currentColor\">x</text><text x=\"123\" y=\"15\" fill=\"currentColor\">y</text><circle cx=\"175\" cy=\"205\" r=\"150\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\"/><line x1=\"295\" y1=\"115\" x2=\"55\" y2=\"295\" stroke=\"currentColor\" stroke-opacity=\"0.5\" stroke-dasharray=\"4 3\"/><circle cx=\"295\" cy=\"115\" r=\"3.5\" fill=\"currentColor\"/><text x=\"302\" y=\"106\" text-anchor=\"start\" fill=\"currentColor\">A(6, 2)</text><circle cx=\"55\" cy=\"295\" r=\"3.5\" fill=\"currentColor\"/><text x=\"4\" y=\"322\" text-anchor=\"start\" fill=\"currentColor\">B(−2, −4)</text><circle cx=\"175\" cy=\"205\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"183\" y=\"223\" text-anchor=\"start\" fill=\"#2563eb\">C(2, −1)</text><circle cx=\"175\" cy=\"55\" r=\"4\" fill=\"#2563eb\"/><text x=\"183\" y=\"49\" fill=\"#2563eb\">P(2, 4)</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q4-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q4-ms-3.webp"
   ]
  },
  {
@@ -59750,6 +60754,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Strong positive linear relationship}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -59945,6 +60952,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Area } DEF = 3 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q6-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -60272,6 +61283,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Fail to reject } H_0: \\text{ the Netflix share has not changed}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q7-ms-3.webp",
+   "exam-images/maths/2021/ordinary-p2-q7-ms-4.webp"
   ]
  },
  {
@@ -60559,6 +61576,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle QBP| = 118.74^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -60803,6 +61825,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "32.22 \\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -61157,6 +62184,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = x + 5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2021/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2021/ordinary-p2-q10-ms-2.webp",
+   "exam-images/maths/2021/ordinary-p2-q10-ms-3.webp",
+   "exam-images/maths/2021/ordinary-p2-q10-ms-4.webp"
   ]
  },
  {
@@ -61365,6 +62398,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "c = 6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2022/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -61579,6 +62617,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = -12,\\; b = 60,\\; c = 225"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -61896,6 +62938,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 0,\\; b = 512"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -62086,6 +63132,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = \\ln 5 \\ \\text{or} \\ k = -\\ln 5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -62334,6 +63384,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1.14 < x < 5.86"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -62559,6 +63613,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Quadratic through } (0,-3),\\ (1,0),\\ (2,1),\\ (3,0),\\ (4,-3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q6-ms-2.webp",
+   "exam-images/maths/2022/higher-p1-q6-ms-3.webp"
   ]
  },
  {
@@ -62907,6 +63966,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "m(x) = 1.024x^3 - 18.24x^2 + 84x + 70"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2022/higher-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -63346,6 +64410,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "65.8 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2022/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -63702,6 +64771,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "11 \\text{ mg}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -64068,6 +65141,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "c = 0.165"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2022/higher-p1-q10-ms-2.webp"
   ]
  },
  {
@@ -64368,6 +65445,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "b = 8,\\ g = 12"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q1-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q1-ms-3.webp"
   ]
  },
  {
@@ -64596,6 +65678,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "8 + 5\\sqrt{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -64817,6 +65903,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x-13)^2 + (y+13)^2 = 169 \\quad\\text{and}\\quad (x-5)^2 + (y+5)^2 = 25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -64999,6 +66089,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|AC| = 10"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q4-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q4-ms-3.webp"
   ]
  },
  {
@@ -65203,6 +66298,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } 3.7726 > 1.96"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -65406,6 +66504,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "O \\text{ cannot be inside triangle } PQR"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -65801,6 +66903,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|EO| = 3\\sqrt{5} \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -66183,6 +67290,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.195"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -66544,6 +67656,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "d \\approx 4.0\\ \\text{km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -66918,6 +68035,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{about } 1922\\text{nd}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2022/higher-p2-q10-ms-2.webp",
+   "exam-images/maths/2022/higher-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -67119,6 +68241,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z_3 \\text{ is not a solution}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q1-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -67324,6 +68450,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 9, \\quad y = -13"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -67525,6 +68654,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}1600"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q3-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -67721,6 +68854,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" font-family=\"sans-serif\" font-size=\"12\"><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"82\" y1=\"30\" x2=\"82\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"114\" y1=\"30\" x2=\"114\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"146\" y1=\"30\" x2=\"146\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"178\" y1=\"30\" x2=\"178\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"210\" y1=\"30\" x2=\"210\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"242\" y1=\"30\" x2=\"242\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"274\" y1=\"30\" x2=\"274\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"306\" y1=\"30\" x2=\"306\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"338\" y1=\"30\" x2=\"338\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"370\" y1=\"30\" x2=\"370\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"240\" x2=\"370\" y2=\"240\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"205\" x2=\"370\" y2=\"205\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"170\" x2=\"370\" y2=\"170\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"135\" x2=\"370\" y2=\"135\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"100\" x2=\"370\" y2=\"100\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"65\" x2=\"370\" y2=\"65\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"50\" y1=\"30\" x2=\"370\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"135\" x2=\"385\" y2=\"135\" stroke=\"currentColor\"/><line x1=\"50\" y1=\"240\" x2=\"50\" y2=\"22\" stroke=\"currentColor\"/><text x=\"114\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\">2</text><text x=\"178\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\">4</text><text x=\"242\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\">6</text><text x=\"306\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\">8</text><text x=\"370\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\">10</text><text x=\"44\" y=\"244\" text-anchor=\"end\" fill=\"currentColor\">-3</text><text x=\"44\" y=\"209\" text-anchor=\"end\" fill=\"currentColor\">-2</text><text x=\"44\" y=\"174\" text-anchor=\"end\" fill=\"currentColor\">-1</text><text x=\"44\" y=\"104\" text-anchor=\"end\" fill=\"currentColor\">1</text><text x=\"44\" y=\"69\" text-anchor=\"end\" fill=\"currentColor\">2</text><text x=\"44\" y=\"34\" text-anchor=\"end\" fill=\"currentColor\">3</text><text x=\"390\" y=\"130\" text-anchor=\"end\" fill=\"currentColor\">x</text><text x=\"58\" y=\"22\" fill=\"currentColor\">y</text><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" points=\"50,222 82,196 114,170 146,135 156,114 165,79 178,65 194,60 226,58 274,65 306,79 338,100 370,121\"/><text x=\"292\" y=\"50\" fill=\"currentColor\">y = u(x)</text><line x1=\"82\" y1=\"117.5\" x2=\"242\" y2=\"30\" stroke=\"#2563eb\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"65\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"190\" y=\"93\" fill=\"#2563eb\">(4, 2)</text><text x=\"215\" y=\"118\" fill=\"#2563eb\">tangent, slope ½</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q4-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -67907,6 +69044,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 1 \\text{ or } x = 4.5; \\quad 2 < x < 3.5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -68109,6 +69250,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 128"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q6-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -68470,6 +69615,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 4.54 \\text{ minutes}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q7-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -68788,6 +69938,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = 12"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -69111,6 +70265,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "50\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -69420,6 +70578,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}9.26"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p1-q10-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p1-q10-ms-3.webp"
   ]
  },
  {
@@ -69633,6 +70796,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "N = \\left(0, \\frac{13}{4}\\right)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -69827,6 +70994,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Centre of } t = (7, 10)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -70028,6 +71199,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Group A}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -70263,6 +71438,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Range} = 31, \\quad \\sigma = 9.8"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q4-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p2-q4-ms-3.webp"
   ]
  },
  {
@@ -70444,6 +71624,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|HK| = 27.5 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q5-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -70628,6 +71812,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{A: false, B: true}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q6-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -71000,6 +72188,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "6 \\text{ cats}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -71312,6 +72505,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "d = 2.34 \\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -71664,6 +72862,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle ACB| = 19^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p2-q9-ms-3.webp",
+   "exam-images/maths/2022/ordinary-p2-q9-ms-4.webp",
+   "exam-images/maths/2022/ordinary-p2-q9-ms-5.webp"
   ]
  },
  {
@@ -72006,6 +73211,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "42 \\text{ classes}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2022/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2022/ordinary-p2-q10-ms-2.webp",
+   "exam-images/maths/2022/ordinary-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -72225,6 +73435,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = -\\sqrt{3}, \\quad r = \\frac{\\sqrt{3}}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -72425,6 +73640,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 392\"><line x1=\"56\" y1=\"144\" x2=\"248\" y2=\"144\" stroke=\"currentColor\"/><line x1=\"150\" y1=\"182\" x2=\"150\" y2=\"10\" stroke=\"currentColor\"/><text x=\"246\" y=\"139\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"156\" y=\"12\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">y</text><line x1=\"60\" y1=\"141\" x2=\"60\" y2=\"147\" stroke=\"currentColor\"/><text x=\"60\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-5</text><line x1=\"78\" y1=\"141\" x2=\"78\" y2=\"147\" stroke=\"currentColor\"/><text x=\"78\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><line x1=\"96\" y1=\"141\" x2=\"96\" y2=\"147\" stroke=\"currentColor\"/><text x=\"96\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><line x1=\"114\" y1=\"141\" x2=\"114\" y2=\"147\" stroke=\"currentColor\"/><text x=\"114\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><line x1=\"132\" y1=\"141\" x2=\"132\" y2=\"147\" stroke=\"currentColor\"/><text x=\"136\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"start\">-1</text><line x1=\"168\" y1=\"141\" x2=\"168\" y2=\"147\" stroke=\"currentColor\"/><text x=\"168\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">1</text><line x1=\"186\" y1=\"141\" x2=\"186\" y2=\"147\" stroke=\"currentColor\"/><text x=\"186\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">2</text><line x1=\"204\" y1=\"141\" x2=\"204\" y2=\"147\" stroke=\"currentColor\"/><text x=\"204\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">3</text><line x1=\"222\" y1=\"141\" x2=\"222\" y2=\"147\" stroke=\"currentColor\"/><text x=\"222\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"240\" y1=\"141\" x2=\"240\" y2=\"147\" stroke=\"currentColor\"/><text x=\"240\" y=\"159\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">5</text><line x1=\"147\" y1=\"180\" x2=\"153\" y2=\"180\" stroke=\"currentColor\"/><text x=\"143\" y=\"184\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-2</text><line x1=\"147\" y1=\"162\" x2=\"153\" y2=\"162\" stroke=\"currentColor\"/><text x=\"143\" y=\"166\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-1</text><line x1=\"147\" y1=\"126\" x2=\"153\" y2=\"126\" stroke=\"currentColor\"/><text x=\"143\" y=\"130\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">1</text><line x1=\"147\" y1=\"108\" x2=\"153\" y2=\"108\" stroke=\"currentColor\"/><text x=\"143\" y=\"112\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">2</text><line x1=\"147\" y1=\"90\" x2=\"153\" y2=\"90\" stroke=\"currentColor\"/><text x=\"143\" y=\"94\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">3</text><line x1=\"147\" y1=\"72\" x2=\"153\" y2=\"72\" stroke=\"currentColor\"/><text x=\"143\" y=\"76\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">4</text><line x1=\"147\" y1=\"54\" x2=\"153\" y2=\"54\" stroke=\"currentColor\"/><text x=\"143\" y=\"58\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">5</text><line x1=\"147\" y1=\"36\" x2=\"153\" y2=\"36\" stroke=\"currentColor\"/><text x=\"143\" y=\"40\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">6</text><line x1=\"147\" y1=\"18\" x2=\"153\" y2=\"18\" stroke=\"currentColor\"/><text x=\"143\" y=\"22\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">7</text><path d=\"M114.0 72.0 L132.0 126.0 L133.3 112.4 L134.7 108.3 L136.1 105.6 L137.4 103.6 L138.8 102.0 L140.1 100.7 L141.4 99.6 L142.8 98.7 L144.2 97.9 L145.5 97.2 L146.8 96.6 L148.2 96.0 L149.6 95.5 L150.9 95.0 L152.2 94.6 L153.6 94.3 L154.9 93.9 L156.3 93.6 L157.7 93.3 L159.0 93.0 L160.3 92.8 L161.7 92.5 L163.1 92.3 L164.4 92.1 L165.8 91.9 L167.1 91.7 L168.4 91.5 L169.8 91.4 L171.2 91.2 L172.5 91.1 L173.8 90.9 L175.2 90.8 L176.6 90.7 L177.9 90.6 L179.2 90.5 L180.6 90.4 L181.9 90.3 L183.3 90.2 L184.7 90.1 L186.0 90.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"0.35\"/><path d=\"M114.0 108.0 L132.0 162.0 L133.3 148.4 L134.7 144.3 L136.1 141.6 L137.4 139.6 L138.8 138.0 L140.1 136.7 L141.4 135.6 L142.8 134.7 L144.2 133.9 L145.5 133.2 L146.8 132.6 L148.2 132.0 L149.6 131.5 L150.9 131.0 L152.2 130.6 L153.6 130.3 L154.9 129.9 L156.3 129.6 L157.7 129.3 L159.0 129.0 L160.3 128.8 L161.7 128.5 L163.1 128.3 L164.4 128.1 L165.8 127.9 L167.1 127.7 L168.4 127.5 L169.8 127.4 L171.2 127.2 L172.5 127.1 L173.8 126.9 L175.2 126.8 L176.6 126.7 L177.9 126.6 L179.2 126.5 L180.6 126.4 L181.9 126.3 L183.3 126.2 L184.7 126.1 L186.0 126.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.2\"/><text x=\"192\" y=\"88\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" fill-opacity=\"0.6\">g(x)</text><text x=\"192\" y=\"114\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">g(x) − 2</text><text x=\"192\" y=\"132\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">(2, 1)</text><text x=\"108\" y=\"106\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" text-anchor=\"end\">(−2, 2)</text><text x=\"156\" y=\"177\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">(−1, −1)</text><line x1=\"56\" y1=\"339\" x2=\"248\" y2=\"339\" stroke=\"currentColor\"/><line x1=\"150\" y1=\"377\" x2=\"150\" y2=\"205\" stroke=\"currentColor\"/><text x=\"246\" y=\"334\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">x</text><text x=\"156\" y=\"207\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" font-style=\"italic\">y</text><line x1=\"60\" y1=\"336\" x2=\"60\" y2=\"342\" stroke=\"currentColor\"/><text x=\"60\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-5</text><line x1=\"78\" y1=\"336\" x2=\"78\" y2=\"342\" stroke=\"currentColor\"/><text x=\"78\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-4</text><line x1=\"96\" y1=\"336\" x2=\"96\" y2=\"342\" stroke=\"currentColor\"/><text x=\"96\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><line x1=\"114\" y1=\"336\" x2=\"114\" y2=\"342\" stroke=\"currentColor\"/><text x=\"114\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><line x1=\"132\" y1=\"336\" x2=\"132\" y2=\"342\" stroke=\"currentColor\"/><text x=\"132\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><line x1=\"168\" y1=\"336\" x2=\"168\" y2=\"342\" stroke=\"currentColor\"/><text x=\"168\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">1</text><line x1=\"186\" y1=\"336\" x2=\"186\" y2=\"342\" stroke=\"currentColor\"/><text x=\"186\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">2</text><line x1=\"204\" y1=\"336\" x2=\"204\" y2=\"342\" stroke=\"currentColor\"/><text x=\"204\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">3</text><line x1=\"222\" y1=\"336\" x2=\"222\" y2=\"342\" stroke=\"currentColor\"/><text x=\"222\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">4</text><line x1=\"240\" y1=\"336\" x2=\"240\" y2=\"342\" stroke=\"currentColor\"/><text x=\"240\" y=\"354\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">5</text><line x1=\"147\" y1=\"375\" x2=\"153\" y2=\"375\" stroke=\"currentColor\"/><text x=\"143\" y=\"379\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-2</text><line x1=\"147\" y1=\"357\" x2=\"153\" y2=\"357\" stroke=\"currentColor\"/><text x=\"143\" y=\"361\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-1</text><line x1=\"147\" y1=\"321\" x2=\"153\" y2=\"321\" stroke=\"currentColor\"/><text x=\"143\" y=\"325\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">1</text><line x1=\"147\" y1=\"303\" x2=\"153\" y2=\"303\" stroke=\"currentColor\"/><text x=\"143\" y=\"307\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">2</text><line x1=\"147\" y1=\"285\" x2=\"153\" y2=\"285\" stroke=\"currentColor\"/><text x=\"143\" y=\"289\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">3</text><line x1=\"147\" y1=\"267\" x2=\"153\" y2=\"267\" stroke=\"currentColor\"/><text x=\"143\" y=\"271\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">4</text><line x1=\"147\" y1=\"249\" x2=\"153\" y2=\"249\" stroke=\"currentColor\"/><text x=\"143\" y=\"253\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">5</text><line x1=\"147\" y1=\"231\" x2=\"153\" y2=\"231\" stroke=\"currentColor\"/><text x=\"143\" y=\"235\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">6</text><line x1=\"147\" y1=\"213\" x2=\"153\" y2=\"213\" stroke=\"currentColor\"/><text x=\"143\" y=\"217\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">7</text><path d=\"M114.0 267.0 L132.0 321.0 L133.3 307.4 L134.7 303.3 L136.1 300.6 L137.4 298.6 L138.8 297.0 L140.1 295.7 L141.4 294.6 L142.8 293.7 L144.2 292.9 L145.5 292.2 L146.8 291.6 L148.2 291.0 L149.6 290.5 L150.9 290.0 L152.2 289.6 L153.6 289.3 L154.9 288.9 L156.3 288.6 L157.7 288.3 L159.0 288.0 L160.3 287.8 L161.7 287.5 L163.1 287.3 L164.4 287.1 L165.8 286.9 L167.1 286.7 L168.4 286.5 L169.8 286.4 L171.2 286.2 L172.5 286.1 L173.8 285.9 L175.2 285.8 L176.6 285.7 L177.9 285.6 L179.2 285.5 L180.6 285.4 L181.9 285.3 L183.3 285.2 L184.7 285.1 L186.0 285.0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-opacity=\"0.35\"/><path d=\"M60.0 267.0 L78.0 321.0 L79.4 307.4 L80.7 303.3 L82.0 300.6 L83.4 298.6 L84.8 297.0 L86.1 295.7 L87.4 294.6 L88.8 293.7 L90.2 292.9 L91.5 292.2 L92.8 291.6 L94.2 291.0 L95.6 290.5 L96.9 290.0 L98.2 289.6 L99.6 289.3 L100.9 288.9 L102.3 288.6 L103.7 288.3 L105.0 288.0 L106.3 287.8 L107.7 287.5 L109.1 287.3 L110.4 287.1 L111.8 286.9 L113.1 286.7 L114.4 286.5 L115.8 286.4 L117.2 286.2 L118.5 286.1 L119.8 285.9 L121.2 285.8 L122.5 285.7 L123.9 285.6 L125.2 285.5 L126.6 285.4 L128.0 285.3 L129.3 285.2 L130.7 285.1 L132.0 285.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.2\"/><text x=\"192\" y=\"283\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" fill-opacity=\"0.6\">g(x)</text><text x=\"66\" y=\"244\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">g(x + 3)</text><text x=\"66\" y=\"261\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">(−5, 4)</text><text x=\"84\" y=\"334\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\">(−4, 1)</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -72646,6 +73865,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) the power of 6 that gives } m; \\quad \\text{(ii) } \\log_6 m > 1"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -72917,6 +74140,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "iu = -b + ai,\\ \\overline{iu} = -b - ai;\\ \\text{rotate } 90^\\circ \\text{ anticlockwise about the origin, then reflect in the real axis}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q4-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q4-ms-3.webp"
   ]
  },
  {
@@ -73108,6 +74336,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g(f(3)) = w"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -73333,6 +74565,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "b = \\sqrt{\\ln(e + 1)} \\approx 1.15"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q6-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q6-ms-3.webp"
   ]
  },
  {
@@ -73767,6 +75004,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "15 \\text{ km/hour per minute}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q7-ms-3.webp",
+   "exam-images/maths/2023/higher-p1-q7-ms-4.webp",
+   "exam-images/maths/2023/higher-p1-q7-ms-5.webp"
   ]
  },
  {
@@ -74120,6 +75364,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "22\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -74420,6 +75668,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 24"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q9-ms-3.webp"
   ]
  },
  {
@@ -74847,6 +76100,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{dS}{dt} = \\frac{3c^2}{h} \\text{ square units per second}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2023/higher-p1-q10-ms-2.webp",
+   "exam-images/maths/2023/higher-p1-q10-ms-3.webp",
+   "exam-images/maths/2023/higher-p1-q10-ms-4.webp"
   ]
  },
  {
@@ -75048,6 +76307,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{15}{16} = 0.9375"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -75285,6 +76548,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 0^\\circ, 60^\\circ, 180^\\circ, 300^\\circ, 360^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -75518,6 +76785,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "l = 6, \\quad k = 2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q3-ms-2.webp",
+   "exam-images/maths/2023/higher-p2-q3-ms-3.webp"
   ]
  },
  {
@@ -75767,6 +77039,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x - 4)^2 + (y + 1)^2 = 20"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -76047,6 +77323,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{3 faces: } 8, \\quad \\text{2 faces: } 24, \\quad \\text{1 face: } 22, \\quad \\text{no faces: } 6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -76296,6 +77575,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\theta = 66^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -76670,6 +77953,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "E(t) = 2.45 - 1.15\\cos(\\pi t)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2023/higher-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -77064,6 +78352,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{745}{5929}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2023/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2023/higher-p2-q8-ms-4.webp",
+   "exam-images/maths/2023/higher-p2-q8-ms-5.webp"
   ]
  },
  {
@@ -77496,6 +78791,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Centre} = (-1,\\ -1 + \\sqrt{2}),\\quad \\text{Radius} = -1 + \\sqrt{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2023/higher-p2-q9-ms-3.webp",
+   "exam-images/maths/2023/higher-p2-q9-ms-4.webp",
+   "exam-images/maths/2023/higher-p2-q9-ms-5.webp"
   ]
  },
  {
@@ -77854,6 +79156,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "42"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2023/higher-p2-q10-ms-2.webp",
+   "exam-images/maths/2023/higher-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -78025,6 +79332,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 8.7\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q1-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -78238,6 +79549,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z_5 \\text{ (it is the furthest point from the origin)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q2-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -78434,6 +79749,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = \\frac{5}{2},\\quad y = \\frac{7}{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q3-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -78634,6 +79953,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "19x - y - 32 = 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q4-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -78828,6 +80151,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "198 \\text{ km/hour}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -79062,6 +80389,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x \\approx 0.48 \\text{ or } x \\approx -1.15"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q6-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -79380,6 +80711,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.37"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -79648,6 +80983,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}1007.37"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -80006,6 +81345,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 2.89 \\times 10^{5}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -80388,6 +81731,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r \\approx 3.3\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p1-q10-ms-2.webp"
   ]
  },
  {
@@ -80630,6 +81977,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 210\">\n<text x=\"2\" y=\"14\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">(i)</text>\n<line x1=\"30\" y1=\"25\" x2=\"30\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"30\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">-1</text>\n<line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"50\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">0</text>\n<line x1=\"70\" y1=\"25\" x2=\"70\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"70\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">1</text>\n<line x1=\"90\" y1=\"25\" x2=\"90\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"90\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">2</text>\n<line x1=\"110\" y1=\"25\" x2=\"110\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"110\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">3</text>\n<line x1=\"130\" y1=\"25\" x2=\"130\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"130\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">4</text>\n<line x1=\"150\" y1=\"25\" x2=\"150\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"150\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">5</text>\n<line x1=\"170\" y1=\"25\" x2=\"170\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"170\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">6</text>\n<line x1=\"190\" y1=\"25\" x2=\"190\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"190\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">7</text>\n<line x1=\"30\" y1=\"185\" x2=\"190\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"189\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">-2</text>\n<line x1=\"30\" y1=\"165\" x2=\"190\" y2=\"165\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"169\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">-1</text>\n<line x1=\"30\" y1=\"145\" x2=\"190\" y2=\"145\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"149\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">0</text>\n<line x1=\"30\" y1=\"125\" x2=\"190\" y2=\"125\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"129\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">1</text>\n<line x1=\"30\" y1=\"105\" x2=\"190\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"109\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">2</text>\n<line x1=\"30\" y1=\"85\" x2=\"190\" y2=\"85\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"89\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">3</text>\n<line x1=\"30\" y1=\"65\" x2=\"190\" y2=\"65\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"69\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">4</text>\n<line x1=\"30\" y1=\"45\" x2=\"190\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"49\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">5</text>\n<line x1=\"30\" y1=\"25\" x2=\"190\" y2=\"25\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"26\" y=\"29\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">6</text>\n<line x1=\"30\" y1=\"145\" x2=\"190\" y2=\"145\" stroke=\"currentColor\"/>\n<line x1=\"50\" y1=\"185\" x2=\"50\" y2=\"25\" stroke=\"currentColor\"/>\n<text x=\"195\" y=\"141\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text>\n<text x=\"56\" y=\"20\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y</text>\n<line x1=\"90.0\" y1=\"185.0\" x2=\"170.0\" y2=\"25.0\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<circle cx=\"130\" cy=\"105\" r=\"3\" fill=\"currentColor\"/>\n\n<text x=\"60\" y=\"36\" font-size=\"11\" font-family=\"sans-serif\" fill=\"#2563eb\">y = 2x − 6</text>\n<text x=\"136\" y=\"125\" font-size=\"11\" font-family=\"sans-serif\" fill=\"currentColor\">(4, 2)</text>\n<text x=\"190\" y=\"14\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\">(ii)</text>\n<line x1=\"225\" y1=\"25\" x2=\"225\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"225\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">-1</text>\n<line x1=\"245\" y1=\"25\" x2=\"245\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"245\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">0</text>\n<line x1=\"265\" y1=\"25\" x2=\"265\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"265\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">1</text>\n<line x1=\"285\" y1=\"25\" x2=\"285\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"285\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">2</text>\n<line x1=\"305\" y1=\"25\" x2=\"305\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"305\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">3</text>\n<line x1=\"325\" y1=\"25\" x2=\"325\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"325\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">4</text>\n<line x1=\"345\" y1=\"25\" x2=\"345\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"345\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">5</text>\n<line x1=\"365\" y1=\"25\" x2=\"365\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"365\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">6</text>\n<line x1=\"385\" y1=\"25\" x2=\"385\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"385\" y=\"198\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" fill=\"currentColor\">7</text>\n<line x1=\"225\" y1=\"185\" x2=\"385\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"189\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">-2</text>\n<line x1=\"225\" y1=\"165\" x2=\"385\" y2=\"165\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"169\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">-1</text>\n<line x1=\"225\" y1=\"145\" x2=\"385\" y2=\"145\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"149\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">0</text>\n<line x1=\"225\" y1=\"125\" x2=\"385\" y2=\"125\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"129\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">1</text>\n<line x1=\"225\" y1=\"105\" x2=\"385\" y2=\"105\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"109\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">2</text>\n<line x1=\"225\" y1=\"85\" x2=\"385\" y2=\"85\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"89\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">3</text>\n<line x1=\"225\" y1=\"65\" x2=\"385\" y2=\"65\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"69\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">4</text>\n<line x1=\"225\" y1=\"45\" x2=\"385\" y2=\"45\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"49\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">5</text>\n<line x1=\"225\" y1=\"25\" x2=\"385\" y2=\"25\" stroke=\"currentColor\" stroke-opacity=\"0.2\"/>\n<text x=\"221\" y=\"29\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">6</text>\n<line x1=\"225\" y1=\"145\" x2=\"385\" y2=\"145\" stroke=\"currentColor\"/>\n<line x1=\"245\" y1=\"185\" x2=\"245\" y2=\"25\" stroke=\"currentColor\"/>\n<text x=\"390\" y=\"141\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text>\n<text x=\"251\" y=\"20\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y</text>\n<line x1=\"225.0\" y1=\"38.3\" x2=\"385.0\" y2=\"145.0\" stroke=\"#2563eb\" stroke-width=\"2\"/>\n<circle cx=\"325\" cy=\"105\" r=\"3\" fill=\"currentColor\"/>\n<text x=\"280\" y=\"39\" font-size=\"11\" font-family=\"sans-serif\" fill=\"#2563eb\">y = −2x/3 + 14/3</text>\n<text x=\"319\" y=\"121\" font-size=\"11\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">(4, 2)</text>\n<text x=\"383\" y=\"162\" font-size=\"11\" font-family=\"sans-serif\" text-anchor=\"end\" fill=\"currentColor\">(7, 0)</text>\n</svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q1-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q1-ms-2.webp",
+   "exam-images/maths/2023/ordinary-p2-q1-ms-3.webp"
   ]
  },
  {
@@ -80856,6 +82208,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(2, -3) \\text{ and } (3, 2)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q2-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q2-ms-2.webp"
   ]
  },
  {
@@ -81030,6 +82386,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.95: \\text{B};\\ 0.6: \\text{C};\\ -0.95: \\text{A}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -81211,6 +82571,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\mu = 7.05 \\text{ points}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -81413,6 +82777,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "C = 53.34 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q5-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -81604,6 +82972,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{True}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q6-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -81946,6 +83318,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\angle X = 42.4^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q7-ms-1.webp"
   ]
  },
  {
@@ -82258,6 +83633,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 1.53 \\text{ m},\\ A = 306^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2023/ordinary-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -82554,6 +83934,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "7.7\\% \\le p \\le 16.7\\%,\\ \\text{10\\% is inside, so no difference}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q9-ms-2.webp",
+   "exam-images/maths/2023/ordinary-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -82868,6 +84253,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "E(x) = \\text{€}0.90 < \\text{€}1\\text{, so the game is not fair}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2023/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2023/ordinary-p2-q10-ms-2.webp",
+   "exam-images/maths/2023/ordinary-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -83127,6 +84517,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 51,\\ y = 46,\\ w = -40"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -83400,6 +84794,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 210\"><line x1=\"20\" y1=\"198.0\" x2=\"20\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"60\" y1=\"198.0\" x2=\"60\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"100\" y1=\"198.0\" x2=\"100\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"140\" y1=\"198.0\" x2=\"140\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"180\" y1=\"198.0\" x2=\"180\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"220\" y1=\"198.0\" x2=\"220\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"260\" y1=\"198.0\" x2=\"260\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"300\" y1=\"198.0\" x2=\"300\" y2=\"18.0\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"190\" x2=\"312.0\" y2=\"190\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"150\" x2=\"312.0\" y2=\"150\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"110\" x2=\"312.0\" y2=\"110\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"70\" x2=\"312.0\" y2=\"70\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"30\" x2=\"312.0\" y2=\"30\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"8.0\" y1=\"150\" x2=\"312.0\" y2=\"150\" stroke=\"currentColor\"/><line x1=\"140\" y1=\"198.0\" x2=\"140\" y2=\"18.0\" stroke=\"currentColor\"/><text x=\"308.0\" y=\"144\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">Re</text><text x=\"146\" y=\"14\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">Im</text><text x=\"20\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-3</text><text x=\"60\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-2</text><text x=\"100\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">-1</text><text x=\"180\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">1</text><text x=\"220\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"260\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">3</text><text x=\"300\" y=\"165\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"134\" y=\"194\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"134\" y=\"114\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"134\" y=\"74\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"134\" y=\"34\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">3</text><line x1=\"140\" y1=\"150\" x2=\"60\" y2=\"70\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><line x1=\"140\" y1=\"150\" x2=\"278.56\" y2=\"70\" stroke=\"#2563eb\" stroke-dasharray=\"4 3\"/><path d=\"M 165.98 135.00 A 30 30 0 0 0 118.79 128.79\" fill=\"none\" stroke=\"#2563eb\"/><text x=\"148\" y=\"112\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" text-anchor=\"start\">7π/12</text><circle cx=\"60\" cy=\"70\" r=\"4\" fill=\"currentColor\"/><text x=\"52\" y=\"64\" font-size=\"13\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">w</text><circle cx=\"278.56\" cy=\"70\" r=\"4\" fill=\"#2563eb\"/><text x=\"288.56\" y=\"60\" font-size=\"13\" font-family=\"sans-serif\" fill=\"#2563eb\" text-anchor=\"end\">u = 2√3 + 2i</text><text x=\"136\" y=\"164\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">o</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q2-ms-2.webp",
+   "exam-images/maths/2024/higher-p1-q2-ms-3.webp"
   ]
  },
  {
@@ -83638,6 +85037,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 250\"><line x1=\"40\" y1=\"35\" x2=\"40\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"70\" y1=\"35\" x2=\"70\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"100\" y1=\"35\" x2=\"100\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"130\" y1=\"35\" x2=\"130\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"190\" y1=\"35\" x2=\"190\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"220\" y1=\"35\" x2=\"220\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"250\" y1=\"35\" x2=\"250\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"280\" y1=\"35\" x2=\"280\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"310\" y1=\"35\" x2=\"310\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"340\" y1=\"35\" x2=\"340\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"215\" x2=\"340\" y2=\"215\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"185\" x2=\"340\" y2=\"185\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"155\" x2=\"340\" y2=\"155\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"125\" x2=\"340\" y2=\"125\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"95\" x2=\"340\" y2=\"95\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"65\" x2=\"340\" y2=\"65\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"35\" x2=\"340\" y2=\"35\" stroke=\"currentColor\" stroke-opacity=\"0.15\"/><line x1=\"40\" y1=\"125\" x2=\"360\" y2=\"125\" stroke=\"currentColor\"/><line x1=\"40\" y1=\"215\" x2=\"40\" y2=\"27\" stroke=\"currentColor\"/><text x=\"362\" y=\"119\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">x</text><text x=\"46\" y=\"29\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y</text><text x=\"100\" y=\"140\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">2</text><text x=\"160\" y=\"140\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">4</text><text x=\"220\" y=\"140\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">6</text><text x=\"280\" y=\"140\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">8</text><text x=\"340\" y=\"140\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"middle\">10</text><text x=\"34\" y=\"219\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-3</text><text x=\"34\" y=\"189\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-2</text><text x=\"34\" y=\"159\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">-1</text><text x=\"34\" y=\"99\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">1</text><text x=\"34\" y=\"69\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">2</text><text x=\"34\" y=\"39\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\" text-anchor=\"end\">3</text><path d=\"M 40.0 203.0 C 45.0 203.8 60.0 207.8 70.0 207.5 C 80.0 207.2 90.0 205.8 100.0 201.5 C 110.0 197.2 121.5 189.2 130.0 182.0 C 138.5 174.8 143.5 167.5 151.0 158.0 C 158.5 148.5 166.0 138.0 175.0 125.0 C 184.0 112.0 195.0 93.0 205.0 80.0 C 215.0 67.0 224.0 54.5 235.0 47.0 C 246.0 39.5 258.5 35.5 271.0 35.0 C 283.5 34.5 298.5 40.2 310.0 44.0 C 321.5 47.8 335.0 55.2 340.0 57.5 \" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"215\" x2=\"340\" y2=\"65\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"200\" y=\"22\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y = p(x)</text><text x=\"312\" y=\"104\" font-size=\"12\" font-family=\"sans-serif\" fill=\"currentColor\">y = l(x)</text><line x1=\"76.0\" y1=\"215.0\" x2=\"148.0\" y2=\"179.0\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><circle cx=\"106.0\" cy=\"200.0\" r=\"3.5\" fill=\"#2563eb\"/><line x1=\"106.0\" y1=\"200.0\" x2=\"106.0\" y2=\"125\" stroke=\"#2563eb\" stroke-dasharray=\"3 3\"/><line x1=\"196.0\" y1=\"65.0\" x2=\"292.0\" y2=\"17.0\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><circle cx=\"244.0\" cy=\"41.0\" r=\"3.5\" fill=\"#2563eb\"/><line x1=\"244.0\" y1=\"41.0\" x2=\"244.0\" y2=\"149.0\" stroke=\"#2563eb\" stroke-dasharray=\"3 3\"/><text x=\"106.0\" y=\"117\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" text-anchor=\"middle\">x ≈ 2.2</text><text x=\"244.0\" y=\"158.0\" font-size=\"12\" font-family=\"sans-serif\" fill=\"#2563eb\" text-anchor=\"middle\">x ≈ 6.8</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -83831,6 +85234,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{False}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -84007,6 +85413,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 2025"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -84213,6 +85622,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g(f(x)) = \\frac{9x}{2}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q6-ms-2.webp"
   ]
  },
  {
@@ -84591,6 +86004,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "4.08\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2024/higher-p1-q7-ms-3.webp",
+   "exam-images/maths/2024/higher-p1-q7-ms-4.webp"
   ]
  },
  {
@@ -84915,6 +86334,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 5 \\text{ days}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2024/higher-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -85344,6 +86768,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = \\frac{\\sqrt{S^2 - \\pi^2 r^4}}{\\pi r}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -85726,6 +87154,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Option 1 is cheaper: } 0.9p - r < 0.9p - 0.9r"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2024/higher-p1-q10-ms-2.webp",
+   "exam-images/maths/2024/higher-p1-q10-ms-3.webp",
+   "exam-images/maths/2024/higher-p1-q10-ms-4.webp"
   ]
  },
  {
@@ -85866,6 +87300,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{The better swimmers improved more;}\\; r = 0.9145"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q1-ms-1.webp"
   ]
  },
  {
@@ -86061,6 +87498,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Rain makes a coat more likely, so } P(F \\mid E) \\ne P(F)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -86250,6 +87690,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\theta = 47^\\circ \\ \\text{or} \\ 133^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -86411,6 +87854,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|DE| = |EF|"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q4-ms-1.webp"
   ]
  },
  {
@@ -86663,6 +88109,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x-9)^2 + \\left(y - \\frac{31}{4}\\right)^2 = \\frac{145}{16}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -86866,6 +88316,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) } 120 \\text{ pairs;} \\quad \\text{(ii) } \\frac{1}{5}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -87222,6 +88676,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Fail to reject } H_0 \\text{ since } 0.75 \\in (0.7334,\\, 0.7966)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2024/higher-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -87559,6 +89018,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "V = \\frac{1}{3}\\pi(20h^2 - h^3), \\quad h = \\frac{40}{3} \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2024/higher-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -87985,6 +89449,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(20.4,\\ 3.8)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2024/higher-p2-q9-ms-3.webp"
   ]
  },
  {
@@ -88335,6 +89804,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(ii) } 54 \\qquad \\text{(iii) } 48"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2024/higher-p2-q10-ms-2.webp",
+   "exam-images/maths/2024/higher-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -88487,6 +89961,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{€}47\\,000"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q1-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q1-ms-2.webp"
   ]
  },
  {
@@ -88684,6 +90162,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Box } C \\text{ (the conjugate is the reflection of } w \\text{ in the real axis)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -88911,6 +90392,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "(x, y) = (0, 5) \\text{ and } (4, -3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q3-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -89120,6 +90605,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "128 = 2^7, \\quad x = 1.5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -89307,6 +90795,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g'(x) = \\frac{2}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -89484,6 +90975,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.94\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -89801,6 +91295,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -90081,6 +91579,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "S_n = \\frac{n}{2}\\left[2(6) + (n-1)(1.5)\\right], \\quad S_{10} = 127.5 \\ \\text{km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -90363,6 +91865,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 40 \\text{ or } x = 60"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -90665,6 +92171,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) } 231.78; \\quad \\text{(ii) } 73 \\text{ days}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p1-q10-ms-2.webp"
   ]
  },
  {
@@ -90869,6 +92379,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "t = 22"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q1-ms-1.webp"
   ]
  },
  {
@@ -91046,6 +92559,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(c) } \\frac{7}{13}, \\quad \\text{(d) } \\frac{6}{13}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -91291,6 +92807,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = \\frac{3}{2}x + 6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q3-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -91498,6 +93018,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Radius} = 2,\\ \\text{Centre} = (2, 3)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -91710,6 +93234,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) } 0.9, \\quad \\text{(ii) } 0.081"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q5-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -91897,6 +93425,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "134.75 \\text{ units}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -92268,6 +93799,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{No change: } 24\\% \\text{ lies within } 21.7\\% \\le p \\le 32.3\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2024/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -92597,6 +94133,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "244 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -92883,6 +94423,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "l = 55 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -93175,6 +94719,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "647.36 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2024/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2024/ordinary-p2-q10-ms-2.webp",
+   "exam-images/maths/2024/ordinary-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -93423,6 +94972,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = -\\frac{3}{2}, \\quad x = \\frac{5}{2}, \\quad x = 2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -93655,6 +95209,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 340 320'><g stroke='currentColor' stroke-opacity='0.2' fill='none'><line x1='120' y1='30' x2='120' y2='270'/><line x1='180' y1='30' x2='180' y2='270'/><line x1='240' y1='30' x2='240' y2='270'/><line x1='300' y1='30' x2='300' y2='270'/><line x1='60' y1='210' x2='300' y2='210'/><line x1='60' y1='150' x2='300' y2='150'/><line x1='60' y1='90' x2='300' y2='90'/><line x1='60' y1='30' x2='300' y2='30'/></g><g stroke='currentColor' fill='none' stroke-width='1.5'><line x1='60' y1='270' x2='320' y2='270'/><line x1='60' y1='270' x2='60' y2='15'/><polyline points='60,270 240,210 300,30' stroke-width='2'/></g><line x1='60' y1='270' x2='300' y2='30' stroke='currentColor' stroke-opacity='0.4' stroke-dasharray='4 4' fill='none'/><polyline points='60,270 120,90 300,30' stroke='#2563eb' stroke-width='2.5' fill='none'/><polyline points='240,270 240,210 120,210 120,250 60,250' stroke='#2563eb' stroke-width='1.5' stroke-dasharray='5 3' fill='none'/><circle cx='240' cy='210' r='3' fill='#2563eb'/><circle cx='120' cy='210' r='3' fill='#2563eb'/><circle cx='120' cy='250' r='3' fill='#2563eb'/><circle cx='120' cy='90' r='3' fill='#2563eb'/><g fill='currentColor' font-family='sans-serif' font-size='13'><text x='117' y='288'>1</text><text x='177' y='288'>2</text><text x='237' y='288'>3</text><text x='297' y='288'>4</text><text x='44' y='214'>1</text><text x='44' y='154'>2</text><text x='44' y='94'>3</text><text x='44' y='34'>4</text><text x='325' y='274'>x</text><text x='66' y='20'>y</text><text x='304' y='40'>g(x)</text><text x='246' y='248'>g(3) = 1</text><text x='20' y='254'>1/3</text><text x='108' y='94' text-anchor='end'>(1, 3)</text><text x='188' y='178' fill-opacity='0.7'>y = x</text></g><g fill='#2563eb' font-family='sans-serif' font-size='13'><text x='66' y='62'>y = g⁻¹(x)</text><text x='130' y='238'>g(1)</text><text x='150' y='308'>g(g(3)) = 1/3</text></g></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -93853,6 +95411,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = \\frac{\\ln 46}{5}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q3-ms-2.webp"
   ]
  },
  {
@@ -94115,6 +95677,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "z = \\sqrt{2} + \\sqrt{2}i \\quad\\text{and}\\quad z = -\\sqrt{2} - \\sqrt{2}i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q4-ms-2.webp"
   ]
  },
  {
@@ -94298,6 +95864,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 91"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -94503,6 +96073,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q6-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q6-ms-3.webp"
   ]
  },
  {
@@ -94886,6 +96461,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{25(1.06^{18k} - 1)}{3}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q7-ms-3.webp",
+   "exam-images/maths/2025/higher-p1-q7-ms-4.webp"
   ]
  },
  {
@@ -95338,6 +96919,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{D}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q8-ms-3.webp",
+   "exam-images/maths/2025/higher-p1-q8-ms-4.webp"
   ]
  },
  {
@@ -95788,6 +97375,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "58.3 \\text{ km/hour}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q9-ms-3.webp",
+   "exam-images/maths/2025/higher-p1-q9-ms-4.webp",
+   "exam-images/maths/2025/higher-p1-q9-ms-5.webp"
   ]
  },
  {
@@ -96205,6 +97799,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "H(1) = 4 \\text{ and } H(n) = (n+1)^2 \\text{ for all } n \\in \\mathbb{N}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2025/higher-p1-q10-ms-2.webp",
+   "exam-images/maths/2025/higher-p1-q10-ms-3.webp",
+   "exam-images/maths/2025/higher-p1-q10-ms-4.webp"
   ]
  },
  {
@@ -96448,6 +98048,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = -\\frac{2}{3}x + 4 \\text{ and } y = -\\frac{2}{3}x - 4"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q1-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q1-ms-3.webp"
   ]
  },
  {
@@ -96663,6 +98268,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 49 \\text{ or } k = -4"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q2-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q2-ms-3.webp"
   ]
  },
  {
@@ -96927,6 +98537,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\frac{67}{4780}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q3-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q3-ms-3.webp"
   ]
  },
  {
@@ -97144,6 +98759,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 6"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -97352,6 +98971,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "14 \\text{ cm}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -97584,6 +99207,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\tan \\angle CBA = \\frac{\\sqrt{15}}{7}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q6-ms-2.webp"
   ]
  },
  {
@@ -98039,6 +99666,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "3.87 \\text{ km}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q7-ms-3.webp",
+   "exam-images/maths/2025/higher-p2-q7-ms-4.webp"
   ]
  },
  {
@@ -98427,6 +100060,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "h = 10.8 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2025/higher-p2-q8-ms-4.webp"
   ]
  },
  {
@@ -98808,6 +100447,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "8.173 \\times 10^{10}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q9-ms-3.webp",
+   "exam-images/maths/2025/higher-p2-q9-ms-4.webp"
   ]
  },
  {
@@ -99223,6 +100868,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "1.89"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2025/higher-p2-q10-ms-2.webp",
+   "exam-images/maths/2025/higher-p2-q10-ms-3.webp"
   ]
  },
  {
@@ -99385,6 +101035,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(i) } 36 \\text{ minutes;}\\quad \\text{(ii) } 180 \\text{ minutes (3 hours)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -99589,6 +101242,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "-1 - 5i"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q2-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q2-ms-2.webp"
   ]
  },
  {
@@ -99772,6 +101429,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 6,\\; t = 2,\\; b = 8"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -99945,6 +101605,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "Q: g'(x) < 0, \\quad P: g'(x) = 0, \\quad R: g'(x) > 0"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -100134,6 +101797,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = -2 \\text{ and } x = 8; \\quad x = 3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q5-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -100317,6 +101984,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "9.4608 \\times 10^{12}\\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -100654,6 +102324,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "9.22;\\quad n = 25"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q7-ms-2.webp"
   ]
  },
  {
@@ -100968,6 +102642,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><line x1=\"47\" y1=\"277\" x2=\"50\" y2=\"277\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"281\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">-4</text><line x1=\"47\" y1=\"249\" x2=\"50\" y2=\"249\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"253\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">-2</text><line x1=\"47\" y1=\"221\" x2=\"50\" y2=\"221\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">0</text><line x1=\"47\" y1=\"193\" x2=\"50\" y2=\"193\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"197\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">2</text><line x1=\"47\" y1=\"165\" x2=\"50\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"169\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">4</text><line x1=\"47\" y1=\"137\" x2=\"50\" y2=\"137\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"141\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">6</text><line x1=\"47\" y1=\"109\" x2=\"50\" y2=\"109\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"113\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">8</text><line x1=\"47\" y1=\"81\" x2=\"50\" y2=\"81\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">10</text><line x1=\"47\" y1=\"53\" x2=\"50\" y2=\"53\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"57\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">12</text><line x1=\"47\" y1=\"25\" x2=\"50\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"44\" y=\"29\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\">14</text><line x1=\"100\" y1=\"221\" x2=\"100\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"100\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">1</text><line x1=\"150\" y1=\"221\" x2=\"150\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"150\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">2</text><line x1=\"200\" y1=\"221\" x2=\"200\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"200\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">3</text><line x1=\"250\" y1=\"221\" x2=\"250\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"250\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">4</text><line x1=\"300\" y1=\"221\" x2=\"300\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"300\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">5</text><line x1=\"350\" y1=\"221\" x2=\"350\" y2=\"225\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"350\" y=\"293\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">6</text><line x1=\"50\" y1=\"221\" x2=\"366\" y2=\"221\" stroke=\"currentColor\" stroke-width=\"1\"/><polygon points=\"374,221 367,217.5 367,224.5\" fill=\"currentColor\"/><line x1=\"50\" y1=\"277\" x2=\"50\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1\"/><polygon points=\"50,17 46.5,24 53.5,24\" fill=\"currentColor\"/><text x=\"386\" y=\"225\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">x</text><text x=\"58\" y=\"12\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">y</text><text x=\"12\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" transform=\"rotate(-90 12 150)\">Profit (millions of euro)</text><polyline fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-opacity=\"0.7\" points=\"50,277 56.2,261.6 62.5,246.8 68.8,232.7 75,219.2 81.2,206.5 87.5,194.3 93.8,182.8 100,172 106.2,161.8 112.5,152.3 118.8,143.5 125,135.2 131.2,127.7 137.5,120.8 143.8,114.6 150,109 156.2,104.1 162.5,99.8 168.8,96.2 175,93.2 181.2,91 187.5,89.3 193.8,88.3 200,88 206.2,88.3 212.5,89.3 218.8,91 225,93.2 231.2,96.2 237.5,99.8 243.8,104.1 250,109 256.2,114.6 262.5,120.8 268.8,127.7 275,135.2 281.2,143.5 287.5,152.3 293.8,161.8 300,172 306.2,182.8 312.5,194.3 318.8,206.5 325,219.2 331.2,232.7 337.5,246.8 343.8,261.6 350,277\"/><polyline fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2\" points=\"50,235 56.2,219.6 62.5,204.8 68.8,190.7 75,177.2 81.2,164.5 87.5,152.3 93.8,140.8 100,130 106.2,119.8 112.5,110.3 118.8,101.5 125,93.2 131.2,85.7 137.5,78.8 143.8,72.6 150,67 156.2,62.1 162.5,57.8 168.8,54.2 175,51.2 181.2,49 187.5,47.3 193.8,46.3 200,46 206.2,46.3 212.5,47.3 218.8,49 225,51.2 231.2,54.2 237.5,57.8 243.8,62.1 250,67 256.2,72.6 262.5,78.8 268.8,85.7 275,93.2 281.2,101.5 287.5,110.3 293.8,119.8 300,130 306.2,140.8 312.5,152.3 318.8,164.5 325,177.2 331.2,190.7 337.5,204.8 343.8,219.6 350,235\"/><text x=\"200\" y=\"72\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\">R(x)</text><text x=\"236\" y=\"36\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#2563eb\">y = R(x) + 3</text><circle cx=\"150\" cy=\"109\" r=\"3\" fill=\"currentColor\"/><circle cx=\"150\" cy=\"67\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"144\" y=\"62\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#2563eb\">(2, 11)</text><text x=\"156\" y=\"125\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\">(2, 8)</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q8-ms-2.webp"
   ]
  },
  {
@@ -101260,6 +102938,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "b = 0.5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -101570,6 +103252,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{The charge will increase}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p1-q10-ms-2.webp"
   ]
  },
  {
@@ -101768,6 +103454,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "Q_1 = 93.5 \\text{ mm}, \\quad \\text{IQR} = 89.5 \\text{ mm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q1-ms-1.webp"
   ]
  },
  {
@@ -101918,6 +103607,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|PR| = 6.5 \\text{ cm}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -102094,6 +103786,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 5; \\quad \\text{for example } (4,3) \\text{ and } (-1,8)"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -102329,6 +104024,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{neither}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q4-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -102518,6 +104217,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\triangle ABD \\equiv \\triangle ACD \\text{ (SSS)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -102734,6 +104436,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "6, \\; 6, \\; 9, \\; 12, \\; 17"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -103042,6 +104747,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "3.5 \\text{ goals}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p2-q7-ms-2.webp",
+   "exam-images/maths/2025/ordinary-p2-q7-ms-3.webp"
   ]
  },
  {
@@ -103359,6 +105069,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{There is evidence of a difference: } 19.2\\% \\text{ is outside } 9.5\\% \\text{ to } 16.5\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p2-q8-ms-2.webp",
+   "exam-images/maths/2025/ordinary-p2-q8-ms-3.webp"
   ]
  },
  {
@@ -103641,6 +105356,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "11 \\text{ participants}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -103913,6 +105632,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "120 \\text{ and } 20"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2025/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2025/ordinary-p2-q10-ms-2.webp"
   ]
  },
  {
@@ -104174,6 +105897,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = -3, \\; x = 1, \\; x = \\frac{5}{4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q1-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q1-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q1-ms-3.webp"
   ]
  },
  {
@@ -104400,6 +106128,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Monthly repayment} = €284.14, \\; \\text{Total interest} = €3048.40"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q2-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q2-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q2-ms-3.webp"
   ]
  },
  {
@@ -104639,6 +106372,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "g(x) = 5x^3 - 9x^2 - 35x - 13"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q3-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q3-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q3-ms-3.webp"
   ]
  },
  {
@@ -104919,6 +106657,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 5,\\ b = 3,\\ \\theta = 20^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q4-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q4-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q4-ms-3.webp"
   ]
  },
  {
@@ -105148,6 +106891,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = \\frac{2}{\\log_3 4}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q5-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q5-ms-2.webp"
   ]
  },
  {
@@ -105446,6 +107193,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "T_1 = -1,\\ T_2 = 3,\\ T_3 = -9,\\ S_3 = -7"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q6-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q6-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q6-ms-3.webp"
   ]
  },
  {
@@ -105839,6 +107591,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "M = 16"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q7-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q7-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q7-ms-3.webp",
+   "exam-images/maths/2026/higher-p1-q7-ms-4.webp",
+   "exam-images/maths/2026/higher-p1-q7-ms-5.webp"
   ]
  },
  {
@@ -106206,6 +107965,13 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "S = 96,\\; A = 192,\\; T = 54,\\; B = 42"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q8-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q8-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q8-ms-3.webp",
+   "exam-images/maths/2026/higher-p1-q8-ms-4.webp",
+   "exam-images/maths/2026/higher-p1-q8-ms-5.webp"
   ]
  },
  {
@@ -106647,6 +108413,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 10"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q9-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q9-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q9-ms-3.webp",
+   "exam-images/maths/2026/higher-p1-q9-ms-4.webp"
   ]
  },
  {
@@ -107082,6 +108854,14 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a=0,\\ b=2;\\ \\text{a straight line with slope }2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p1-q10-ms-1.webp",
+   "exam-images/maths/2026/higher-p1-q10-ms-2.webp",
+   "exam-images/maths/2026/higher-p1-q10-ms-3.webp",
+   "exam-images/maths/2026/higher-p1-q10-ms-4.webp",
+   "exam-images/maths/2026/higher-p1-q10-ms-5.webp",
+   "exam-images/maths/2026/higher-p1-q10-ms-6.webp"
   ]
  },
  {
@@ -107331,6 +109111,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q1-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q1-ms-2.webp"
   ]
  },
  {
@@ -107531,6 +109315,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{We have more confidence in the conclusion of the second test.}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q2-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q2-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q2-ms-3.webp"
   ]
  },
  {
@@ -107784,6 +109573,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "10\\,944\\sqrt{38}\\,\\pi \\text{ cm}^3"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q3-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q3-ms-2.webp"
   ]
  },
  {
@@ -108036,6 +109829,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "a = 0 \\quad \\text{or} \\quad a = -\\frac{5}{12}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q4-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q4-ms-2.webp"
   ]
  },
  {
@@ -108245,6 +110042,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(iii) } 6 \\quad \\text{(iv) } 55"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q5-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q5-ms-2.webp"
   ]
  },
  {
@@ -108468,6 +110269,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q6-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q6-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q6-ms-3.webp"
   ]
  },
  {
@@ -108804,6 +110610,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "19"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q7-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q7-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q7-ms-3.webp",
+   "exam-images/maths/2026/higher-p2-q7-ms-4.webp"
   ]
  },
  {
@@ -109168,6 +110980,14 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{First day: } t = 247, \\quad \\text{last day: } t = 301"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q8-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q8-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q8-ms-3.webp",
+   "exam-images/maths/2026/higher-p2-q8-ms-4.webp",
+   "exam-images/maths/2026/higher-p2-q8-ms-5.webp",
+   "exam-images/maths/2026/higher-p2-q8-ms-6.webp"
   ]
  },
  {
@@ -109568,6 +111388,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "8 \\text{ m}^2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q9-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q9-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q9-ms-3.webp",
+   "exam-images/maths/2026/higher-p2-q9-ms-4.webp"
   ]
  },
  {
@@ -109985,6 +111811,12 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Roll again after a 5 or a 6}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/higher-p2-q10-ms-1.webp",
+   "exam-images/maths/2026/higher-p2-q10-ms-2.webp",
+   "exam-images/maths/2026/higher-p2-q10-ms-3.webp",
+   "exam-images/maths/2026/higher-p2-q10-ms-4.webp"
   ]
  },
  {
@@ -110154,6 +111986,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "k = 15\\%"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q1-ms-1.webp"
   ]
  },
  {
@@ -110379,6 +112214,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "x = 2 \\text{ or } x = -2"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q2-ms-1.webp"
   ]
  },
  {
@@ -110537,6 +112375,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "p = 4, \\; r = -21"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q3-ms-1.webp"
   ]
  },
  {
@@ -110728,6 +112569,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 280\"><g stroke=\"currentColor\" fill=\"none\" stroke-width=\"1.5\"><line x1=\"40\" y1=\"140\" x2=\"300\" y2=\"140\"/><polyline points=\"294,135 302,140 294,145\"/><line x1=\"130\" y1=\"260\" x2=\"130\" y2=\"24\"/><polyline points=\"125,32 130,24 135,32\"/></g><g fill=\"currentColor\" font-family=\"sans-serif\" font-size=\"13\"><circle cx=\"130\" cy=\"50\" r=\"3.5\"/><circle cx=\"160\" cy=\"50\" r=\"3.5\"/><circle cx=\"70\" cy=\"140\" r=\"3.5\"/><circle cx=\"190\" cy=\"140\" r=\"3.5\"/><circle cx=\"250\" cy=\"140\" r=\"3.5\"/><text x=\"112\" y=\"46\" font-style=\"italic\">A</text><text x=\"166\" y=\"46\" font-style=\"italic\">u</text><text x=\"66\" y=\"128\" font-style=\"italic\">B</text><text x=\"186\" y=\"128\" font-style=\"italic\">C</text><text x=\"246\" y=\"128\" font-style=\"italic\">D</text><text x=\"140\" y=\"20\">Im</text><text x=\"282\" y=\"160\">Re</text></g><circle cx=\"160\" cy=\"230\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"168\" y=\"226\" fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"13\" font-style=\"italic\">ū</text><text x=\"168\" y=\"244\" fill=\"#2563eb\" font-family=\"sans-serif\" font-size=\"12\">1 − 3i</text></svg>"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q4-ms-1.webp"
   ]
  },
  {
@@ -110981,6 +112825,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "n = 23"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q5-ms-1.webp"
   ]
  },
  {
@@ -111195,6 +113042,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Diagram } C"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q6-ms-1.webp"
   ]
  },
  {
@@ -111597,6 +113447,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "74\\,500"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q7-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q7-ms-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q7-ms-3.webp"
   ]
  },
  {
@@ -111999,6 +113854,11 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = \\frac{P}{h + 2t}, \\quad r = 17.5"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q8-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q8-ms-2.webp",
+   "exam-images/maths/2026/ordinary-p1-q8-ms-3.webp"
   ]
  },
  {
@@ -112302,6 +114162,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "3.2 \\text{ km}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q9-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q9-ms-2.webp"
   ]
  },
  {
@@ -112619,6 +114483,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "14 \\text{ h } 40 \\text{ min}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p1-q10-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p1-q10-ms-2.webp"
   ]
  },
  {
@@ -112826,6 +114694,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 10"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q1-ms-1.webp"
   ]
  },
  {
@@ -113046,6 +114917,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "0.648 = \\tfrac{81}{125}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q2-ms-1.webp"
   ]
  },
  {
@@ -113238,6 +115112,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{(ii) } 210 \\qquad \\text{(iii) } 30"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q3-ms-1.webp"
   ]
  },
  {
@@ -113429,6 +115306,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "|\\angle QPR| \\approx 55^\\circ"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q4-ms-1.webp"
   ]
  },
  {
@@ -113627,6 +115507,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "X = 22"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q5-ms-1.webp"
   ]
  },
  {
@@ -113846,6 +115729,9 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\triangle OPQ \\text{ and } \\triangle OSR \\text{ are similar}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q6-ms-1.webp"
   ]
  },
  {
@@ -114229,6 +116115,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "y = 12 \\text{ (any } y = k \\text{ with } 10 < k < 15\\text{)}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q7-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q7-ms-2.webp"
   ]
  },
  {
@@ -114594,6 +116484,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "r = 70.7 \\text{ m}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q8-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q8-ms-2.webp"
   ]
  },
  {
@@ -114977,6 +116871,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "\\text{Increase the sample size}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q9-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q9-ms-2.webp"
   ]
  },
  {
@@ -115316,6 +117214,10 @@ window.EXAM_QUESTIONS_DB = (window.EXAM_QUESTIONS_DB || []).concat(
      "finalAnswer": "29.7 \\text{ g}"
     }
    }
+  ],
+  "schemeImages": [
+   "exam-images/maths/2026/ordinary-p2-q10-ms-1.webp",
+   "exam-images/maths/2026/ordinary-p2-q10-ms-2.webp"
   ]
  }
 ]
