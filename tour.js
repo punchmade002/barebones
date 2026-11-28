@@ -115,15 +115,15 @@
       react: { ".exam-toggle-btn": "That's the official marking scheme answer. Every question in the bank has one." },
     },
     crunch: {
-      tile: "Crunch ranks every point in your notes by how much it's worth in the exam, then cuts the least valuable ones so you only study what your grade needs.",
-      inside: "Switch on Crunch at the top, then pick the grade you're aiming for. The lowest-value points go first, until what's left is just enough for that grade.",
-      // The whole Crunch card (heading, grade picker and result), so none of it sits under the dim
+      tile: "Crunch ranks every point in your notes by how much it's worth in the exam, then cuts the least valuable ones first and tells you the paper mark you can still get.",
+      inside: "Switch on Crunch at the top, then slide to choose how much less you want to study. The lowest-value points go first, and you see the paper mark what's left is worth.",
+      // The whole Crunch card (heading, slider and result), so none of it sits under the dim
       open: () => waitFor(first("#sectionPanel .crunch-settings", "#sectionPanel .crunch-setup")),
       reserve: "#sectionPanel",
       bare: true, // the Crunch page explains itself; no dim needed
       react: {
-        "#crunchOn": "Crunch is on. Now tap the grade you're aiming for.",
-        ".crunch-grades button": "Lower target, bigger cut. Cut points are only hidden: one tap shows them in your notes and flashcards.",
+        "#crunchOn": "Crunch is on. Now slide to choose how much less to study.",
+        "#crunchCut": "Bigger cut, lower expected mark. Cut points are only hidden: one tap shows them in your notes and flashcards.",
       },
     },
     skills: {

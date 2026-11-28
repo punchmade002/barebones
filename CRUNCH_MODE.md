@@ -393,3 +393,34 @@ Built the History way: Sonnet subsection graphs (2 and 4 batches), then `parts.p
 - Textiles paper: Elective 2's Section C is 40 marks, so the paper is out of 280. `groupsByPick` in `crunch_map.py` gives that course its own group shares, and `crunchCourse` (crunch-score.js) uses them when the pick is on.
 - Cuts at 88/72/55/38% are 33/49/66/79%. That's 118 h of notes, and 1,773 cards are matched. At 80% coursework an H4 needs 61% written (59% for Textiles), which cuts 70% of Design, 74% of Textiles and 67% of Social Studies.
 - With the Textiles paper modelled, the per-course curves beat the plain averages: 0.3 vs 0.8 points off at 72% across the 3 electives.
+
+## Study-less slider (2026-11-27, user's call)
+The target-grade picker (H1–H8) and the AAC slider are gone. The student picks how much less to study (a slider in
+5% steps), and Crunch shows the expected paper mark: the level of the last point cut, with its grade (H1 is 90+).
+- `crunchOrder` sorts the course's points least-needed first, with the running share of study time. `crunchAt` walks
+  it to the chosen cut. `crunchMaxCut` stops the slider before the mark falls under 30%. Tests: `tests/crunch-cut.test.cjs`.
+- The H3 "first pass" for H1/H2 is gone: one threshold now. "Completely hide" hides every cut point instead of only
+  those past the old target.
+- Settings store `cut` (default 30). Old `grade` and `aac` values are ignored, so existing students start at 30%.
+- Course picks are one row of dropdowns ("Your course"). History's two topics per section are two dropdowns, and picking
+  the other one's topic swaps them.
+- The AAC weight (including Home Ec's Textiles `pickWeight`) is no longer used by the app: the mark shown is the paper alone.
+
+## History: essay cap and the fixed documents topic (2026-11-28)
+History's default course showed a 99–100% paper mark up to about 85% less study. Two causes, both in how past papers
+were re-marked in the backtest:
+- **Essays per topic.** The best 3 essays could all come from one topic. Knowing a whole topic covers all four of its
+  titles, so one small topic (Irish topic 1 is 14% of the default course) scored 75% of the paper. The marking scheme
+  deducts "three questions from one topic", so groups now take an optional cap: `"essay": [0.75, 3, 2]`, applied in
+  `realPaperScore` (crunch-score.js). The valuation model (`crunchScore`'s `counted`) still has no cap; the backtest
+  calibrates the levels, so only the ranking is slightly off.
+- **The documents question.** It rotates between topics every two years, so in most past years it was on a topic outside
+  the default course and dropped out, leaving an all-essay paper. A 2027 student's documents question is on Irish
+  topic 2 (case studies for 2026-27: the 1885-86 elections, Dublin 1913, the GAA), and that topic has no essays.
+  `docsTopic` in the History config makes `fixed_docs` (crunch_map.py) re-mark every year that way: the 2026 documents
+  question scaled to the year's marks, and no Irish topic 2 essays. Update `docsTopic` when the prescribed topic changes.
+- `data.json` was patched in place (groups and papers only): `crunch_map.py history` currently stops because
+  `hist-eur6-s2` was edited after it was rated.
+- After: the default course (Irish 1 and 2, European 1 and 2) keeps 99% to 60% less, then 93% at 70%, 78% at 80%. The
+  flat part is real choice: two essays may come from Irish topic 1, so most of one European topic (a third of the
+  course each) can go. A course of Irish 2 and 3, European 3 and 4 gives 91% at 60%, 72% at 70%.
